@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- XSLT stylesheet converting City Archives Amsterdam examples -->
+<!-- XSLT stylesheet converting EAD to RiC-O
 <!-- Endocoded Archival Description 2002 (EAD) into Records in Contexts Ontology (RiC-O) 0.1-->
-<!-- Ivo Zandhuis (ivo@zandhuis.nl) -->
-<!-- 20191218 First -->
-<!-- 20200402 Changed use of rico:hasTitle into rico:title and rico:creationDate into rico:date 
-notice rico:title and rico:date are not preferred practice! -->
+<!-- Mark Lindeman, inspired by work from Ivo Zandhuis -->
 
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -17,7 +14,6 @@ notice rico:title and rico:date are not preferred practice! -->
 
 <xsl:param name="baseUri">http://gahetna.nl/</xsl:param>
 
-<!-- RDF wrap, looping hierarchy -->
 <xsl:template match="ead">
     <rdf:RDF>
         <xsl:apply-templates select="eadheader"/>
