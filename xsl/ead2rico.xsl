@@ -8,6 +8,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
 <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 <xsl:strip-space elements="*"/>
@@ -60,16 +61,45 @@
            rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection"/>
         <rico:identifier><xsl:value-of select="did/unitid"/></rico:identifier>
 		<xsl:apply-templates select="did/unittitle"/>
+        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+			<xsl:value-of select="substring-before(did/unitdate[@type='inclusive']/@normal, '/')"/>
+		</rico:beginningDate>
+        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+			<xsl:value-of select="substring-after(did/unitdate[@type='inclusive']/@normal, '/')"/>
+        </rico:endDate>
+        <rico:date>
+			<xsl:value-of select="did/unitdate[@type='inclusive']"/>
+		</rico:date>
+		<rico:hasProvenance>
+		<!-- Archiefvormers -->
+		<xsl:apply-templates select="did/origination/corpname | did/origination/persname | did/origination/famname"/>
+		</rico:hasProvenance>
 	</rico:RecordResource>	
 </xsl:template>
 
 <xsl:template match="revisiondesc/change">
 	<rico:history>
-		<rico:hasModificationDate>
+		<rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
 			<xsl:value-of select="date/@normal"/>
 		</rico:hasModificationDate>
-		<xsl:value-of select="date"/>
+		<!-- this seems a bit odd, for NA finding aids: the literal of the change made is. in the <date> property -->
+		<html:p><xsl:value-of select="date"/></html:p>
 	</rico:history>
+</xsl:template>
+
+<xsl:template match="corpname|persname|famname">
+    <rico:Agent>
+		<xsl:choose>
+			<xsl:when test="name()='persname'"><rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/></xsl:when>
+			<xsl:when test="name()='corpname'"><rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/></xsl:when>
+			<xsl:when test="name()='famname'"><rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family"/></xsl:when>
+		</xsl:choose>
+		<rico:hasAgentName>
+			<rico:AgentName>
+				<rdfs:label><xsl:value-of select=".."/></rdfs:label>
+			</rico:AgentName>
+	   </rico:hasAgentName>
+   </rico:Agent>
 </xsl:template>
 
 
