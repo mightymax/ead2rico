@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/158d2c5c-74dd-425c-aff0-336e6421e22b"
+  rdf:about="record/4.VMF">
+    <rico:identifier>4.VMF</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1988</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/VMF" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.VMF/i1" />
+      <rico:instantiates rdf:resource="record/4.VMF" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131203</rico:hasModificationDate>
+        <html:p>3 dec 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100713</rico:hasModificationDate>
+        <html:p>13 juli 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Plaatsingslijst van kaarten en tekeningen behorend tot het
+        archief van de familie Vosmaer</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/158d2c5c-74dd-425c-aff0-336e6421e22b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>het archief bevat manuscriptkaarten en gedrukte kaarten, tekeningen en
+        letterproeven.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/VMF">
+    <rico:describedBy rdf:resource="record/4.VMF" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>VMF</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familie Vosmaer - Kaarten en Tekeningen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Vosmaer / Kaarten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1689</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1957</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1689-1957</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Vosmaer, familieRadermacher, Jacobus Cornelis Matheus
+            (1741-1783)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacobus Cornelis Matheus Radermacher werd in 1757 op 16-jarige leeftijd
+          door de Zeeuwse kamer van de Verenigde Oost-Indische Compagnie naar Oost-Indië
+          uitgezonden; spoedig na zijn aankomst aldaar kreeg hij de rang van
+          onderkoopman, in 1761 koopman van de VOC. In dit laatste jaar trouwde hij met
+          Margaretha Sophia Verijssel, dochter uit het eerste huwelijk van de vrouw van
+          Reinier de Klerk, Sophia Francina Westpalm, en Hugo Verijssel (ordinaris-raad
+          van Indië). In 1762 richte hij de eerste Indische vrijmetslaarsloge op (la
+          Choisie). Radermacher keerde in 1763 terug naar de Republiek, promoveerde tot
+          de doctor in de rechten in Harderwijk, en vertrok in 1766 opnieuw naar Batavia.
+          Tijdens zijn tweede verblijf in Oost-Indië, van 1767 tot 1783, was hij één van
+          de belangrijkste bestuursambtenaren van de VOC: baljuw, en extra-ordinaris raad
+          sinds 1776. S. Kalff, 'Jacob Radermacher en zijne stichting', in: Tijdschrift
+          voor Nederlandsch-Indië, tweede serie, jrg. 3, 1899, p. 474-511 . Ook zat hij
+          het college van Schepenen van de stad Batavia voor, met kennelijke
+          belangstelling voor en wellicht bijzondere bevoegdheden in de zaken van
+          publieke werken en kadaster Zie inv.nr. 848 volgnrs. 4 en 45; inv.nr. 849.1 t/m
+          849.13 en inv.nr. 850.3 . Zijn belangrijke positie zal zeker te maken hebben
+          gehad met zijn familiebetrekkingen met Reinier de Klerk (1710-1780), gouverneur
+          van Banda en van 1777 tot 1780 gouverneur-generaal van Oost-Indië. Diens weduwe
+          vermaakte haar bezittingen aan haar kleinzoon Frans Reinier Radermacher, zoon
+          van Jacobus C.M. Radermacher en Margaretha Sophia Verijssel Zie nr. toegang,
+          2.21.271, inv.nr. 857 . In 1783 verkrijgt hij op zijn verzoek ontslag, en keert
+          terug naar Nederland als vice-admiraal van de retourvloot. Bij Kaap de Goede
+          Hoop komt hij echter om bij een opstand van Chinese opvarenden.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Vosmaer, familieRadermacher, Jacobus Cornelis Matheus
+            (1741-1783)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacobus Cornelis Matheus Radermacher werd in 1757 op 16-jarige leeftijd
+          door de Zeeuwse kamer van de Verenigde Oost-Indische Compagnie naar Oost-Indië
+          uitgezonden; spoedig na zijn aankomst aldaar kreeg hij de rang van
+          onderkoopman, in 1761 koopman van de VOC. In dit laatste jaar trouwde hij met
+          Margaretha Sophia Verijssel, dochter uit het eerste huwelijk van de vrouw van
+          Reinier de Klerk, Sophia Francina Westpalm, en Hugo Verijssel (ordinaris-raad
+          van Indië). In 1762 richte hij de eerste Indische vrijmetslaarsloge op (la
+          Choisie). Radermacher keerde in 1763 terug naar de Republiek, promoveerde tot
+          de doctor in de rechten in Harderwijk, en vertrok in 1766 opnieuw naar Batavia.
+          Tijdens zijn tweede verblijf in Oost-Indië, van 1767 tot 1783, was hij één van
+          de belangrijkste bestuursambtenaren van de VOC: baljuw, en extra-ordinaris raad
+          sinds 1776. S. Kalff, 'Jacob Radermacher en zijne stichting', in: Tijdschrift
+          voor Nederlandsch-Indië, tweede serie, jrg. 3, 1899, p. 474-511 . Ook zat hij
+          het college van Schepenen van de stad Batavia voor, met kennelijke
+          belangstelling voor en wellicht bijzondere bevoegdheden in de zaken van
+          publieke werken en kadaster Zie inv.nr. 848 volgnrs. 4 en 45; inv.nr. 849.1 t/m
+          849.13 en inv.nr. 850.3 . Zijn belangrijke positie zal zeker te maken hebben
+          gehad met zijn familiebetrekkingen met Reinier de Klerk (1710-1780), gouverneur
+          van Banda en van 1777 tot 1780 gouverneur-generaal van Oost-Indië. Diens weduwe
+          vermaakte haar bezittingen aan haar kleinzoon Frans Reinier Radermacher, zoon
+          van Jacobus C.M. Radermacher en Margaretha Sophia Verijssel Zie nr. toegang,
+          2.21.271, inv.nr. 857 . In 1783 verkrijgt hij op zijn verzoek ontslag, en keert
+          terug naar Nederland als vice-admiraal van de retourvloot. Bij Kaap de Goede
+          Hoop komt hij echter om bij een opstand van Chinese opvarenden.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Een belangrijke manuscriptkaart in dit archief is de "Nieuwe en Acurate
+      Geographische en Hydrographische Caart van het Eyland Groot Java (...), vervaardigd
+      door C.A. van Leupken rond 1765. Op deze manuscriptkaart staan ontdekkingstochten
+      uit de jaren 1678-1740. Van de hand van Radermacher zelf is de beschrijving van een
+      zeereis van Texel naar Batavia in 1768, inclusief een toelichting bij
+      kustprofielen. Een gedrukte kaart van de zuidpool uit 1772 is mogelijk door
+      kapitein Cook aan Radermacher op de Kaap geschonken toen hij daar eind 1771
+      verbleef</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>46 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

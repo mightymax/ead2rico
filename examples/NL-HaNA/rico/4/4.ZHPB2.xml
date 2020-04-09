@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/4fdbf0ec-9d39-4f14-a96a-821e47085152"
+  rdf:about="record/4.ZHPB2">
+    <rico:identifier>4.ZHPB2</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/ZHPB2" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.ZHPB2/i1" />
+      <rico:instantiates rdf:resource="record/4.ZHPB2" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131205</rico:hasModificationDate>
+        <html:p>5 dec 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131007</rico:hasModificationDate>
+        <html:p>7 okt 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Plaatsingslijst van polderreglementskaarten behorend tot het
+        archief van het Provinciaal Bestuur van Zuid Holland,
+        1857-1974</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/4fdbf0ec-9d39-4f14-a96a-821e47085152" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Kaarten en tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/ZHPB2">
+    <rico:describedBy rdf:resource="record/4.ZHPB2" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>ZHPB2</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Provinciaal Bestuur Zuid-Holland:
+      Polderreglementskaarten</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Prov. Bestuur ZH / Polderreglementskaarten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1857</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1974</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1857-1974</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciaal Bestuur van Zuid-Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de inventarissen 4.ZHPB1-3 zijn de kaarten en tekeningen beschreven
+          die behoren tot het archief van het Provinciaal Bestuur van Zuid-Holland van na
+          1850.</html:p>
+          <html:p>Het betreft in principe een supplement op de kaarten en tekeningen,
+          beschreven in de catalogus Ernsting uit 1960, waarin het kaartmateriaal tot
+          1850 is opgenomen.</html:p>
+          <html:p>In 1960 is het kaartenbestand bij de Provincie Zuid-Holland gesplitst
+          in een gedeelte met kaartmateriaal tot 1850 van statische betekenis Catalogus
+          van de kaarten van vóór 1850 berustend in het archief ter provinciale griffie
+          van Zuid-Holland, door P. Ernsting. ('s-Gravenhage 1960). , en een gedeelte
+          kaarten en tekeningen van na 1850 die op dat moment nog van belang waren voor
+          de admistratie. Dit laatste gedeelte is in deze inventarissen
+          opgenomen.</html:p>
+          <html:p>Naast algemene topografische kaarten van Zuid-Holland gaat het om
+          kaarten en tekeningen, vervaardigd voor of gebruikt in de administratie bij de
+          taakuitoefening van het Provinciebestuur, betreffende verkeer en waterstaat,
+          spoor- en tramwegen, drinkwatervoorziening, ruimtelijke ordening enz.
+          (4.ZHPB1).</html:p>
+          <html:p>Daarnaast zijn er kaarten en tekeningen, vervaardigd in verband met de
+          toezichthoudende functie van het Provinciebestuur van Zuid-Holland over de
+          gemeenten, polders en waterschappen.</html:p>
+          <html:p>Hiertoe behoren ook de grenskaarten van polders en waterschappen in
+          Zuid-Holland, die in de periode 1857-1974 zijn vervaardigd bij de goedkeuring
+          van de polderreglementen door het Provinciebestuur. Van deze
+          polderreglementskaarten werd door de Provincie een afzonderlijk polderboek
+          bijgehouden (4.ZHPB2).</html:p>
+          <html:p>Tenslotte is er een afzonderlijk bestand overgedragen van bestemmings-
+          en uitbreidingsplannen van gemeenten in Zuid-Holland uit de periode 1906-1965.
+          Deze plannen zijn vervaardigd in verband met het toezicht van het
+          Provinciebestuur op gemeenten inzake de ruimtelijke ordening en behoren tot de
+          besluiten van Gedeputeerde Staten over de goedkeuring van gemeentelijke
+          bestemmingsplannen (4.ZHPB3).</html:p>
+          <html:p>Het is aan te raden om voor ieder thema ook 4.ZHPB1 te raadplegen,
+          omdat dit kaarten bevat die oorspronkelijk tot de andere gedeelten van dit
+          bestand lijken te hebben behoord (bijv. oude nummering).</html:p>
+          <html:p>In de beschrijvingen wordt gerefereerd aan GS-besluiten. Deze zijn te
+          vinden in het archief van het Provinciaal Bestuur van Zuid-Holland, dat
+          aanwezig is in het Rijksarchief in Zuid-Holland (overgedragen tot 1946). In de
+          periode 1941-1945 werden de taken van Gedeputeerde Staten waargenomen door de
+          minister van Staat, Rijkscommissaris van de Provincie Zuid-Holland.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat uit alfabetisch op naam geordende
+      polderreglementskaarten uit de periode 1850-1969.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>640 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

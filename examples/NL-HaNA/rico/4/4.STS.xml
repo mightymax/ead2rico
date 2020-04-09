@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/c11512f0-414c-49ba-a166-0af076f9bc0d"
+  rdf:about="record/4.STS">
+    <rico:identifier>4.STS</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1987</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/STS" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.STS/i1" />
+      <rico:instantiates rdf:resource="record/4.STS" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20191203</rico:hasModificationDate>
+        <html:p>3 dec 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131203</rico:hasModificationDate>
+        <html:p>3 dec 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131119</rico:hasModificationDate>
+        <html:p>19 nov 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131118</rico:hasModificationDate>
+        <html:p>18 nov 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130412</rico:hasModificationDate>
+        <html:p>12 apr 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van kaarten en tekeningen behorend tot de archieven
+        van de Staatssecretarie en het Kabinet des Konings, (1777)
+        1813-1864</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/c11512f0-414c-49ba-a166-0af076f9bc0d" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Kaarten en tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/STS">
+    <rico:describedBy rdf:resource="record/4.STS" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>STS</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Staatssecretarie en het Kabinet des Konings</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Staatssecretarie / Kaarten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1777</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1864</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1777-1864</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>StaatssecretarieKabinet des Konings</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De kaarten en tekeningen beschreven in deze plaatsingslijst behoren tot
+          het archief van de Staatssecretarie 1813-1840 en het Kabinet des Konings
+          1841-1897, ze zijn apart bewaard gebleven naast de series Koninklijke
+          Besluiten.</html:p>
+          <html:p>Het bestand is in twee gedeelten te verdelen. Een eerste deel betreft
+          kaarten (nrs. STS 1-130; 198) waarvan de oorspronkelijke band met de
+          bijbehorende Kon. Besluiten zoveel mogelijk is hersteld. Dit is vermeld middels
+          een annotatie in de beschrijving.</html:p>
+          <html:p>Van een tweede gedeelte (nrs. STS 131-192) is de band met de Kon.
+          Besluiten niet gebleken.</html:p>
+          <html:p>In deze lijst zijn slechts een gering aantal kaarten en tekeningen, die
+          bij de koning zijn ingediend en/of als toelichting bij een zaak hebben gediend,
+          opgenomen. Enerzijds bevinden zich nog een groot aantal kaarten en tekeningen
+          bij de Kon. Besluiten, in beheer bij de Tweede Afdeling Anderzijds zijn kaarten
+          en tekeningen, ingediend bij de koning voor "consideratie en advies", naar
+          andere overheidsinstellingen en ambtenaren doorgestuurd, om na vaststelling van
+          het Kon. Besluit niet te worden geretourneerd. Gedeponeerd in bijvoorbeeld de
+          departementsarchieven kregen de kaarten en tekeningen een
+          eindbestemming.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>StaatssecretarieKabinet des Konings</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De kaarten en tekeningen beschreven in deze plaatsingslijst behoren tot
+          het archief van de Staatssecretarie 1813-1840 en het Kabinet des Konings
+          1841-1897, ze zijn apart bewaard gebleven naast de series Koninklijke
+          Besluiten.</html:p>
+          <html:p>Het bestand is in twee gedeelten te verdelen. Een eerste deel betreft
+          kaarten (nrs. STS 1-130; 198) waarvan de oorspronkelijke band met de
+          bijbehorende Kon. Besluiten zoveel mogelijk is hersteld. Dit is vermeld middels
+          een annotatie in de beschrijving.</html:p>
+          <html:p>Van een tweede gedeelte (nrs. STS 131-192) is de band met de Kon.
+          Besluiten niet gebleken.</html:p>
+          <html:p>In deze lijst zijn slechts een gering aantal kaarten en tekeningen, die
+          bij de koning zijn ingediend en/of als toelichting bij een zaak hebben gediend,
+          opgenomen. Enerzijds bevinden zich nog een groot aantal kaarten en tekeningen
+          bij de Kon. Besluiten, in beheer bij de Tweede Afdeling Anderzijds zijn kaarten
+          en tekeningen, ingediend bij de koning voor "consideratie en advies", naar
+          andere overheidsinstellingen en ambtenaren doorgestuurd, om na vaststelling van
+          het Kon. Besluit niet te worden geretourneerd. Gedeponeerd in bijvoorbeeld de
+          departementsarchieven kregen de kaarten en tekeningen een
+          eindbestemming.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De verzameling bevat kaarten en tekeningen behorende tot het archief van de
+      Staatssecretarie en het Kabinet des Konings, grotendeels uit de periode 1814-1830;
+      naast topografische en geologische kaarten van het huidige Nederland, België en de
+      Koloniën bevat het archief atlassen, kaarten en plannen voor waterwerken,
+      verdedigingswerken, grenzen, infrastructuur, ontwerpen voor stadsuitbreidingen en
+      ontwerpen voor het Koninklijk Paleis in Brussel. Daarnaast zijn er ontwerpen voor
+      kostuums voor ministers en hoge ambtenaren bewaard gebleven en een verzameling
+      portretten van de koninklijke familie.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>302 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

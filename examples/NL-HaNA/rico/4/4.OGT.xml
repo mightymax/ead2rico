@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/df6ab7e9-550e-4705-b3b6-ca8e0b98c13e"
+  rdf:about="record/4.OGT">
+    <rico:identifier>4.OGT</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1997</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/OGT" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.OGT/i1" />
+      <rico:instantiates rdf:resource="record/4.OGT" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de kaarten en tekeningen behorend tot het
+        archief van de afdeling Genie van het ministerie van Oorlog, (1747) 1793-1953,
+        met plaatsingslijsten van de kaarten en tekeningen welke zijn toe te voegen aan
+        andere bestanden binnen het NA</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/df6ab7e9-550e-4705-b3b6-ca8e0b98c13e" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Het archief bevat kaarten en tekeningen, gedrukt en in
+        manuscript</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/OGT">
+    <rico:describedBy rdf:resource="record/4.OGT" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>OGT</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Oorlog: Afdeling Genie</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Oorlog / Genie / Kaarten en tekeningen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1747</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1747-1953</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Eerstaanwezend ingenieur van de fortificatiën te
+            BrielleEerstaanwezend ingenieur van de fortificatiën te
+            HellevoetsluisOpzichter der fortificatiën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Eerstaanwezend ingenieur van de fortificatiën te
+            BrielleEerstaanwezend ingenieur van de fortificatiën te
+            HellevoetsluisOpzichter der fortificatiën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Eerstaanwezend ingenieur van de fortificatiën te
+            BrielleEerstaanwezend ingenieur van de fortificatiën te
+            HellevoetsluisOpzichter der fortificatiën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de afdeling Genie van het Ministerie van Oorlog (OGT) bevat
+      topografische situatiekaarten van verschillende Nederlandse provincies,
+      situatieplans en plans van vestingen, tekeningen van gebouwen, verdedigingswerken,
+      bruggen, dammen, dijken, sluizen en van voorwerpen. De toegang bevat een klapper
+      van trefwoord naar inventarisnummer.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>665 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

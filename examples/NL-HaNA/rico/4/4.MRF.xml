@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/4098befd-5bee-4792-a599-bd0fc150861f"
+  rdf:about="record/4.MRF">
+    <rico:identifier>4.MRF</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/MRF" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.MRF/i1" />
+      <rico:instantiates rdf:resource="record/4.MRF" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101129</rico:hasModificationDate>
+        <html:p>29 november 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Plaatsingslijst van de prentenverzameling van C. van Marle,
+        uit de 18e en 19e eeuw</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/4098befd-5bee-4792-a599-bd0fc150861f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/MRF">
+    <rico:describedBy rdf:resource="record/4.MRF" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>MRF</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>C. van Marle - Prenten</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Marle, van / Prenten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:date>18e - 19e eeuw</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cornelius Van Marle</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De prenten beschreven in deze plaatsingslijst zijn verzameld door mr.
+          Cornelius Van Marle ( 1783-1859), jurist, ambtenaar bij de waarborg, en
+          publicist.</html:p>
+          <html:p>Biografie ARA 2.21.171. J. Steur, Beschrijving der stukken van de leden
+          der families Vreede en Van Marle , 1967. : Cornelius van Marle (geboren 11
+          februari 1783) was zoon van mr. Christiaan Reinhardt van Marle en Cornelia van
+          Engelen. Van 1800 tot 1808 studeerde hij rechten te Leiden, en na zijn promotie
+          werd hij door minister van financiën Gogel benoemd tot belastingambtenaar te
+          Amsterdam. In 1812 werd Van Marle aangesteld als ambtenaar bij de waarborg te
+          's-Gravenhage. Tevens kreeg hij bekendheid als publicist door uitgave in druk
+          van zijn "Rijmelarij" tegen Napoleon in 1814.</html:p>
+          <html:p>In 1814 werd Van Marle benoemd tot voorlopig hoofdcontrolleur in de
+          arrondissementen 's-Gravenhage en Leiden. Naast deze voorlopige aanstelling
+          werd Van Marle in dat jaar door koning Willem I Marle bij KB van 21 september
+          1814 belast met de vestiging van de kantoren van waarborg van gouden en
+          zilveren werken in de Zuidelijke Nederlanden.</html:p>
+          <html:p>In 1814 trouwde hij te Rijswijk met Catharina Maria Pasteur.</html:p>
+          <html:p>In 1816 werd Van Marle ontslagen als hoofdcontrolleur van het kantoor
+          van de waarborg te 's-Gravenhage en benoemd tot inspecteur der kantoren van de
+          waarborg in de Zuidelijke Nederlanden te Brussel. (KB 21-12-1815 nr. 38).
+          Tevens werd hij benoemd tot redactielid van de Algemeene Nederlansche Courant
+          (Gazette générale des Pays-Bas) te Brussel.</html:p>
+          <html:p>Na de Belgische opstand gaf Van Marle in 1830-1833 te Utrecht
+          vlugschriften uit tegen de afscheiding van het Zuiden en was politiek
+          actief.</html:p>
+          <html:p>In 1834 werd Van Marle, die tot dan toe nog de inspectie-functie
+          bekleedde in Zuid-Nederland, benoemd in dezelfde functie in Noord-Nederland.
+          (KB 9-9-1834 nr. 60). In 1840 werd hem de persoonlijke titel verleend van
+          inspecteur-generaal van het middel van waarborg der gouden en zilveren werken,
+          en kraag zitting in het collegie van Raden en Generaal-Meesteren der Munt te
+          Utrecht (KB 20-9-1840 nr. 67).</html:p>
+          <html:p>Van Marle overleed in 1859 te Utrecht.</html:p>
+          <html:p>R.M.Haubourdin, 1994.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat prenten met plattegronden en aangezichten van Nederlandse
+      (en Belgische) gemeenten en steden verzameld door Cornelius Van Marle (1783-1859).
+      Daarnaast zijn prenten met afbeeldingen van gevels, graftombes, spoorwegstations,
+      poorten en kerken in het archief opgenomen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>50 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/3578bc9a-8b76-4364-896f-7f63aae131c5"
+  rdf:about="record/4.OMM">
+    <rico:identifier>4.OMM</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1976</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/OMM" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.OMM/i1" />
+      <rico:instantiates rdf:resource="record/4.OMM" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20191126</rico:hasModificationDate>
+        <html:p>26 nov 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190815</rico:hasModificationDate>
+        <html:p>15 aug 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190129</rico:hasModificationDate>
+        <html:p>29 jan 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150413</rico:hasModificationDate>
+        <html:p>13 apr 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150401</rico:hasModificationDate>
+        <html:p>1 apr 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150224</rico:hasModificationDate>
+        <html:p>24 feb 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20141104</rico:hasModificationDate>
+        <html:p>4 nov 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130314</rico:hasModificationDate>
+        <html:p>14 mrt 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100824</rico:hasModificationDate>
+        <html:p>24 augustus 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Plaatsingslijst van de memories der Genie, kaarten, plans,
+        atlassen en verslagen van Commissies op het gebied van de Defensie, afkomstig van
+        het Ministerie van Oorlog, 17e-20e eeuw</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/3578bc9a-8b76-4364-896f-7f63aae131c5" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Bevat kaarten en foto's.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/OMM">
+    <rico:describedBy rdf:resource="record/4.OMM" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>OMM</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Oorlog: Memories van de Genie</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Oorlog / Memories Genie</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:date>17e - 20e eeuw</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Oorlog / Afdeling der Genie</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat memories van de Genie, registers en inventarissen van
+      kaarten en tekeningen, topografische kaarten en atlassen, en kaarten en tekeningen
+      van forten en vestingen, (water-)linies, spoorwegen en telegraaf- en
+      telefoonverbindingen in Nederland. Daarnaast bevat het archief foto's van militaire
+      gebouwen en een verzameling diverse stukken op het gebied van de defensie.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>288 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>43,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+        <html:p>Tot medio 2018 waren in de zelfbedieningsruimte van de studiezaal van het
+        Nationaal Archief gebruiksduplicaten van de inv.nrs. 343 t/m 350 beschikbaar.
+        Deze vensterponskaarten zijn sinds begin 2019 aanvraagbaar onder
+        archiefinventaris 4.DUPKT, zie daarin inventarisnummer 8.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>
