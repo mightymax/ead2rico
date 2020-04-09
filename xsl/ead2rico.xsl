@@ -47,6 +47,14 @@
 				<xsl:apply-templates select="filedesc/titlestmt/titleproper"/>
 				<rico:heldBy rdf:resource="agent/{eadid/@mainagencycode}"/>
 				<rdfs:seeAlso rdf:resource="{eadid/@url}"/>
+				<rico:scopeAndContent rdf:parseType="Literal">
+					<xsl:if test="../archdesc/did/materialspec/@label">
+						<rdfs:label><xsl:value-of select="../archdesc/did/materialspec/@label"/></rdfs:label>
+					</xsl:if>
+					<html:p>
+						<xsl:value-of select="../archdesc/did/materialspec"/>
+					</html:p>
+				</rico:scopeAndContent>
 		</rico:hasInstantiation>
     </rico:Record>
 	<xsl:apply-templates select="../archdesc"/>
@@ -73,10 +81,30 @@
 		<rico:hasProvenance>
 		<!-- Archiefvormers -->
 		<xsl:apply-templates select="did/origination/corpname | did/origination/persname | did/origination/famname"/>
-	</rico:hasProvenance>
-	<rico:scopeAndContent rdf:parseType="Literal">
-		<rdfs:label><xsl:value-of select="did/materialspec/@label"/></rdfs:label>
-	</rico:scopeAndContent>
+		</rico:hasProvenance>
+		<rico:scopeAndContent rdf:parseType="Literal">
+			<xsl:if test="did/abstract/@label">
+				<rdfs:label><xsl:value-of select="did/abstract/@label"/></rdfs:label>
+			</xsl:if>
+			<html:p>
+				<xsl:value-of select="did/abstract"/>
+			</html:p>
+		</rico:scopeAndContent>
+	    <rico:conditionsOfAccess rdf:parseType="Literal">
+			<html:h2><xsl:value-of select="descgrp[@type='access_and_use']/head"/></html:h2>
+			<html:h3><xsl:value-of select="descgrp[@type='access_and_use']/accessrestrict/head"/></html:h3>
+			<html:p><xsl:value-of select="descgrp[@type='access_and_use']/accessrestrict/legalstatus"/></html:p>
+			<html:h3><xsl:value-of select="descgrp[@type='access_and_use']/userestrict/head"/></html:h3>
+			<html:p><xsl:value-of select="descgrp[@type='access_and_use']/userestrict/p"/></html:p>
+	    </rico:conditionsOfAccess>
+		<xsl:apply-templates select="did/physdesc"/>
+        <rico:descriptiveNote rdf:parseType="Literal">
+           <html:div xml:lang="en">
+              <html:h2><xsl:value-of select="descgrp[@type='allied_materials']/head"/></html:h2>
+              <html:h3><xsl:value-of select="descgrp[@type='allied_materials']/altformavail/head"/></html:h3>
+			  <xsl:apply-templates select="descgrp[@type='allied_materials']/altformavail/p"/>
+           </html:div>
+        </rico:descriptiveNote>
 	</rico:RecordResource>	
 </xsl:template>
 
@@ -102,9 +130,17 @@
 				<rdfs:label><xsl:value-of select=".."/></rdfs:label>
 			</rico:AgentName>
 	   </rico:hasAgentName>
+	   <rico:history>
+		  <!-- Unelegant because we have no Agents yet -->
+		   <xsl:apply-templates select="/ead/archdesc/descgrp[@type='context']/bioghist/p"/>
+	   </rico:history>
    </rico:Agent>
 </xsl:template>
 
+
+<xsl:template match="p">
+    <html:p><xsl:value-of select="."/></html:p>
+</xsl:template>
 
 <xsl:template match="dsc">
     <xsl:apply-templates select="c01"/>
@@ -187,7 +223,9 @@
 		<xsl:if test="@label">
 			<rdfs:label><xsl:value-of select="@label"/></rdfs:label>
 		</xsl:if>
-        <xsl:value-of select="."/>
+		<rico:textualValue>
+			<xsl:value-of select="."/>
+		</rico:textualValue>
     </rico:title>
 </xsl:template>
 
@@ -198,8 +236,18 @@
 </xsl:template>
 
 <xsl:template match="physdesc">
+    <rico:physicalOrLogicalExtent>
+		<xsl:if test="@label">
+			<rdfs:label><xsl:value-of select="@label"/></rdfs:label>
+		</xsl:if>
+		<xsl:apply-templates select="extent"/>
+    </rico:physicalOrLogicalExtent>
+</xsl:template>
+
+<xsl:template match="extent">
     <rico:recordResourceExtent>
-        <xsl:value-of select="."/>
+		<rdf:type><xsl:value-of select="@unit"/></rdf:type>
+		<rdfs:label><xsl:value-of select="."/></rdfs:label>
     </rico:recordResourceExtent>
 </xsl:template>
 
