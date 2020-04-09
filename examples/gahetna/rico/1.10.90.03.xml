@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/b9dbe3f0-29d7-4e57-8976-9ea26968b206"
+  rdf:about="record/1.10.90.03">
+    <rico:identifier>1.10.90.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1987</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1144" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.90.03/i1" />
+      <rico:instantiates rdf:resource="record/1.10.90.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110421</rico:hasModificationDate>
+        <html:p>21 april 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121213</rico:hasModificationDate>
+        <html:p>13 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131017</rico:hasModificationDate>
+        <html:p>17 oktober 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Van Bylandt:
+        Supplement III, 1578-1900</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/b9dbe3f0-29d7-4e57-8976-9ea26968b206" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, charters en
+        munten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1144">
+    <rico:describedBy rdf:resource="record/1.10.90.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1144</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Van Bylandt, Supplement III</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bylandt, van suppl. 3</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1578</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1900</rico:endDate>
+    <rico:date>1578-1900</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bylandt, van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De archieven van het geslacht Van Bylandt worden verspreid over een
+          aantal archiefdiensten in Nederland bewaard. De Eerste Afdeling van het
+          Algemeen Rijksarchief beheerde tot op heden twee archieven Van Bylandt: het
+          archief van de familie Van Bylandt, gelicht uit een omvangrijker familiearchief
+          Van Bylandt, dat in 1950 door jonkvrouwe M.A.O.C. gravin Van Bylandt aan het
+          gemeentearchief in Den Haag was geschonken (inventaris E.D. Eijken, 1961). En
+          de familiearchieven Van Bylandt-Halt en Van Bylandt-Rheydt, die in 1969/1970
+          door de M. A.O.C. gravin Van Bylandt Stichting aan het Algemeen Rijksarchief in
+          bruikleen waren gegeven (inventaris L. Balk, 1983).</html:p>
+          <html:p>Dit deel is door M.A.O.C. gravin Van Bylandt vóór de oorlog aan haar
+          neef W.F.L. van Bylandt toevertrouwd. Oorspronkelijk maakte dit deel uit van
+          het familiearchief Van Bylandt dat in 1969/1970 in bruikleen aan het Algemeen
+          Rijksarchief werd afgestaan. Als de oorlogsomstandigheden dit niet hadden
+          verhinderd zouden de hier onder III genoemde stukken wellicht onder berusting
+          van de familiestichting Van Bylandt zijn geraakt en in 1969/1970 met de overige
+          archiefstukken van de Stichting zijn meegekomen. De stukken arriveerden in 1986
+          op de Tweede Afdeling van het Algemeen Rijksarchief. J.A.A. Bervoets maakte
+          hiervan een plaatsingslijst. Dit bestand kan als een aanvulling beschouwd
+          worden op het familiearchief Van Bylandt-Halt omdat er naast stukken van Willem
+          Frederik van Bylandt (1771-1855) ook stukken van nakomelingen van Jean Charles
+          van Bylandt (1776-1841) in voorkomen.</html:p>
+          <html:p>Stamlijst van afstammelingen van Roeleman van Bylandt:</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bylandt, Willem Frederik graaf van (1771-1855)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De archieven van het geslacht Van Bylandt worden verspreid over een
+          aantal archiefdiensten in Nederland bewaard. De Eerste Afdeling van het
+          Algemeen Rijksarchief beheerde tot op heden twee archieven Van Bylandt: het
+          archief van de familie Van Bylandt, gelicht uit een omvangrijker familiearchief
+          Van Bylandt, dat in 1950 door jonkvrouwe M.A.O.C. gravin Van Bylandt aan het
+          gemeentearchief in Den Haag was geschonken (inventaris E.D. Eijken, 1961). En
+          de familiearchieven Van Bylandt-Halt en Van Bylandt-Rheydt, die in 1969/1970
+          door de M. A.O.C. gravin Van Bylandt Stichting aan het Algemeen Rijksarchief in
+          bruikleen waren gegeven (inventaris L. Balk, 1983).</html:p>
+          <html:p>Dit deel is door M.A.O.C. gravin Van Bylandt vóór de oorlog aan haar
+          neef W.F.L. van Bylandt toevertrouwd. Oorspronkelijk maakte dit deel uit van
+          het familiearchief Van Bylandt dat in 1969/1970 in bruikleen aan het Algemeen
+          Rijksarchief werd afgestaan. Als de oorlogsomstandigheden dit niet hadden
+          verhinderd zouden de hier onder III genoemde stukken wellicht onder berusting
+          van de familiestichting Van Bylandt zijn geraakt en in 1969/1970 met de overige
+          archiefstukken van de Stichting zijn meegekomen. De stukken arriveerden in 1986
+          op de Tweede Afdeling van het Algemeen Rijksarchief. J.A.A. Bervoets maakte
+          hiervan een plaatsingslijst. Dit bestand kan als een aanvulling beschouwd
+          worden op het familiearchief Van Bylandt-Halt omdat er naast stukken van Willem
+          Frederik van Bylandt (1771-1855) ook stukken van nakomelingen van Jean Charles
+          van Bylandt (1776-1841) in voorkomen.</html:p>
+          <html:p>Stamlijst van afstammelingen van Roeleman van Bylandt:</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bylandt, Eugène Jean Alexander graaf van (1807-1876)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De archieven van het geslacht Van Bylandt worden verspreid over een
+          aantal archiefdiensten in Nederland bewaard. De Eerste Afdeling van het
+          Algemeen Rijksarchief beheerde tot op heden twee archieven Van Bylandt: het
+          archief van de familie Van Bylandt, gelicht uit een omvangrijker familiearchief
+          Van Bylandt, dat in 1950 door jonkvrouwe M.A.O.C. gravin Van Bylandt aan het
+          gemeentearchief in Den Haag was geschonken (inventaris E.D. Eijken, 1961). En
+          de familiearchieven Van Bylandt-Halt en Van Bylandt-Rheydt, die in 1969/1970
+          door de M. A.O.C. gravin Van Bylandt Stichting aan het Algemeen Rijksarchief in
+          bruikleen waren gegeven (inventaris L. Balk, 1983).</html:p>
+          <html:p>Dit deel is door M.A.O.C. gravin Van Bylandt vóór de oorlog aan haar
+          neef W.F.L. van Bylandt toevertrouwd. Oorspronkelijk maakte dit deel uit van
+          het familiearchief Van Bylandt dat in 1969/1970 in bruikleen aan het Algemeen
+          Rijksarchief werd afgestaan. Als de oorlogsomstandigheden dit niet hadden
+          verhinderd zouden de hier onder III genoemde stukken wellicht onder berusting
+          van de familiestichting Van Bylandt zijn geraakt en in 1969/1970 met de overige
+          archiefstukken van de Stichting zijn meegekomen. De stukken arriveerden in 1986
+          op de Tweede Afdeling van het Algemeen Rijksarchief. J.A.A. Bervoets maakte
+          hiervan een plaatsingslijst. Dit bestand kan als een aanvulling beschouwd
+          worden op het familiearchief Van Bylandt-Halt omdat er naast stukken van Willem
+          Frederik van Bylandt (1771-1855) ook stukken van nakomelingen van Jean Charles
+          van Bylandt (1776-1841) in voorkomen.</html:p>
+          <html:p>Stamlijst van afstammelingen van Roeleman van Bylandt:</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat met name genealogieën van en over dit geslacht en verder
+      nog enige losse stukken, waaronder brieven en stukken over de school- en studietijd
+      (met tevens enkele dissertaties).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.14 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>48 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

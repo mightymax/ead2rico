@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/403adafb-bafa-4145-a36e-c7d17a10bbea"
+  rdf:about="record/2.01.11">
+    <rico:identifier>2.01.11</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1885</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/J20001" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.01.11/i1" />
+      <rico:instantiates rdf:resource="record/2.01.11" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080909</rico:hasModificationDate>
+        <html:p>9 september 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140120</rico:hasModificationDate>
+        <html:p>20 jan 2014</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de colleges belast met de Hoge
+        Militaire Rechtspraak, 1795-1813 (1818)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/403adafb-bafa-4145-a36e-c7d17a10bbea" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/J20001">
+    <rico:describedBy rdf:resource="record/2.01.11" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>J20001</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Hoge Militaire Rechtspraak</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hoge Militaire Rechtspraak</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1795</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1818</rico:endDate>
+    <rico:date>1795-1818</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Comité tot de Zaken van de Marine, 1795-1798</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Krijgsraad wegens de Zeeslag bij Kamperduin op 11 oktober,
+            1797</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Zeekrijgsraad inzake Kapitein Engelbertus Lucas,
+            1797</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Zeekrijgsraad inzake de samenzwering op 's lands schip Utrecht,
+            1798-1799</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commissie van 's-Lands Advocaten, provisioneel belast met de
+            Administratie der Militaire Justitie, 1798-1799</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commissie van 's-Lands Advocaten, provisioneel belast met de
+            Militaire Justitie bij de Marine, 1799-1802</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Militaire Vierschaar, 1799-1802</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Militaire Vierschaar, 1802-1811</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Militaire Vierschaar in Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Militaire Vierschaar voor het Koninkrijk
+            Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Zeekrijgsraad inzake De Vlieter, 1799-1800</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Krijgsraad te Velde in Noord-Holland, 1799</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Krijgsraad te Velde bij het Corps d'Armée van Generaal Angereau,
+            1800-1801</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Zeekrijgsraad inzake de Kapitein ter Zee B. Pletz,
+            1801</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Permanente Krijgsraad te Velde, 1806-1809</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Garnizoenskrijgsraad te Emden, 1807-1810</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Krijgsraad van het Leger in Spanje, 1808-1809</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In de roerige periode van de Bataafse Republiek en de Franse Tijd
+      (1795-1813) is de militaire rechtspraak in handen van vele krijgsraden en andere
+      instanties geweest. Dit archief is opgebouwd uit de archieven van vele van die
+      instanties. Het is opgedeeld in twee delen, te weten Land-en Zeemacht.Onder het
+      gedeelte van de Landmacht vallen onder andere de stukken betreffende de Commissie
+      van Landsadvocaten, de Hoge Militaire Vierschaar en de krijgsraden te velde.Voor
+      het gedeelte van de Zeemacht treft men de archieven van het Comité tot de Zaken van
+      de Marine, de Landsadvocaten voor de Marine zaken en enkele krijgsraden betreffende
+      specifieke incidenten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>62.80 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>283 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

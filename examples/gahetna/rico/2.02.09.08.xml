@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/367ae425-a49a-4880-925d-769a20f9991e"
+  rdf:about="record/2.02.09.08">
+    <rico:identifier>2.02.09.08</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1978</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/H24014" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.02.09.08/i1" />
+      <rico:instantiates rdf:resource="record/2.02.09.08" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130620</rico:hasModificationDate>
+        <html:p>20 juni 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120403</rico:hasModificationDate>
+        <html:p>3 april 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110818</rico:hasModificationDate>
+        <html:p>18 augustus 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20091015</rico:hasModificationDate>
+        <html:p>15 oktober 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Algemene Rekenkamer
+        1814-1919: Comptabel Beheer</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/367ae425-a49a-4880-925d-769a20f9991e" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/H24014">
+    <rico:describedBy rdf:resource="record/2.02.09.08" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>H24014</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Algemene Rekenkamer CB (Comptabel Beheer)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Alg. Rekenkamer / Comptabel Beheer</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1814</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1814-1953</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Algemene Rekenkamer</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Algemene Rekenkamer is belast met het toezicht op de financiën van de
+      overheid. Uitgangspunt bij de controle op de staatsuitgaven vormden de bij de wet
+      vastgestelde hoofdstukken van de Staatsbegroting. Met het oog op de financiële
+      controle voerde het college zelf een begrotingsboekhouding om na te gaan, of het
+      toegestane krediet van elk artikel van de begroting niet werd overschreden en om de
+      cijfers van de Staatsrekening te kunnen vaststellen.Het archief is primair
+      ingedeeld per ministerie. Het grootste deel betreft de comptabiliteit van het
+      departement van Financiën en daaronder ressorterende diensten zoals: de Algemene
+      Rijkskassier, de provinciale Ontvangers-generaal, het Agentschap van Financiën, het
+      Amortisatiesyndicaat, de ontvangers der domeinen. Er is ook een serie
+      staatsrekeningen over de jaren 1823-1899. De uitgaven van het ministerie van
+      Koloniën betreffen alleen de in Nederland gedane uitgaven. Onder het hoofd Koloniën
+      zijn ook ondergebracht de verantwoordingsstukken bij de rekeningen van aan de
+      Nederlandsche Handel-Maatschappij geconsigneerde gouvernementsproducten
+      (1875-1938), met gegevens over de opbrengst van veilingen van koffie, kinabast, tin
+      en andere producten. Ook zijn er stukken betreffende de verantwoording van
+      betalingen in verband met de opheffing van de slavernij in West-Indië uit de jaren
+      1863-1868, met lijsten van slaven per plantage en per plantage-eigenaar (ook te
+      raadplegen op de website van het Nationaal Archief).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1102 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>146,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

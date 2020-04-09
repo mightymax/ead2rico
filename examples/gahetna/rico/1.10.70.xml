@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/b5abdd85-b879-4b83-a192-993935e8948b"
+  rdf:about="record/1.10.70">
+    <rico:identifier>1.10.70</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1970</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1202" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.70/i1" />
+      <rico:instantiates rdf:resource="record/1.10.70" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100921</rico:hasModificationDate>
+        <html:p>21 september 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101022</rico:hasModificationDate>
+        <html:p>22 oktober 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121121</rico:hasModificationDate>
+        <html:p>21 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Repelaer,
+        1496-1940</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/b5abdd85-b879-4b83-a192-993935e8948b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        Oud-Hollandse klerkencursief. Het archief bevat een fotoalbum.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1202">
+    <rico:describedBy rdf:resource="record/1.10.70" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1202</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familiearchief Repelaer</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Repelaer</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1496</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1940</rico:endDate>
+    <rico:date>1496-1940</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer, Familie</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer, Hugo (1730-1804)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer, Jonas Andries (1733-1800)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer van Driel, Ocker (1759-1832)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer, Elisabeth Marie Hermine geb. Singendonck
+            (1774-1837)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer (van Driel), Hugo (1804-1878)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Zuylen van Nyevelt, Anna, baronesse van (1822-1893)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Repelaer van Driel, Ocker Jan Adriaan (1849-1920)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Tets, Susanna Ewaldina Constantia van (1856-1939)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In het het familiearchief Repelaer bevinden zich genealogieën van het
+      geslacht Repelaer, benoemingen van diverse familieleden, corrspondentie met onder
+      anderen Gijsbert Karel van Hogendorp, Hieronymus van Alphen, Willem V, prins van
+      Oranje en Nassau, Lodewijk Napoleon, koning van Holland , Willem I, koning der
+      Nederlanden en prinses Wilhelmina. Verder dagboeken van Ocker Repelaer bijgehouden
+      tijdens zijn gevangenschap wegens hoogverraad (1795-1796) op de Voorpoort in Den
+      Haag en tijdens zijn verblijf in Engeland eind 1813. Enkele stukken betreffen de
+      afscheiding van België waaronder een memorie van Vlaamse hand "houdende een
+      aansporing aan de Belgen, om de Nederlandse taal te gebruiken". Bewaard gebleven
+      aantekeningen van Ocker Repelaer beschrijven onder meer de mening van koning Willem
+      I over de adel en het karakter van de prinses weduwe Wilhelmina.Kleinzoon Ocker Jan
+      Adriaan was ingenieur bij de spoorwegen en administrateur van het Kroondomein. Met
+      betrekking tot deze laatste functie is een fotoalbum in het archief aanwezig.Tot
+      slot bevat het archief stukken betreffende de heerlijkheid Driel en een lijst van
+      regesten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.73 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>604 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

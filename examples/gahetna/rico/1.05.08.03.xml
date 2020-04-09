@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/62db4ac3-7658-4c67-a2a9-d79f9b5857aa"
+  rdf:about="record/1.05.08.03">
+    <rico:identifier>1.05.08.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1932</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/122" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.05.08.03/i1" />
+      <rico:instantiates rdf:resource="record/1.05.08.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het digitaal duplicaat van het archief van de
+        Hoge Raad in Suriname, 1828-1832</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/62db4ac3-7658-4c67-a2a9-d79f9b5857aa" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/122">
+    <rico:describedBy rdf:resource="record/1.05.08.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>122</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>West-Indische Bezittingen 1828-1845: Hoge
+      Raad</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hoge Raad West-Indische Bezittingen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1828</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1832</rico:endDate>
+    <rico:date>1828-1832</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nederlandse West-Indische Bezittingen / Hoge Raad</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Artikel 21 van het reglement op het beleid der regering van de
+          Nederlandse West-Indische bezittingen van 1828 zegt, dat aan de
+          gouverneur-generaal vier raden worden toegevoegd, die gezamenlijk met hem
+          uitmaken de regering der Nederlandse West-Indische bezittingen, onder de
+          benaming van de Hoge Raad. Volgens art. 22 zou deze Hoge Raad, onder het
+          presidium van de gouverneur-generaal, bestaan uit een procureur-generaal, een
+          controleur-generaal der financiën, een commissaris voor 's Rijks domeinen en
+          een commissaris voor de inlandse bevolking, de slaven daaronder gerekend, het
+          armwezen, het onderwijs en de kerkelijke zaken. Deze raad had een algemeen
+          secretaris (art. 23) die ook de gouverneur-generaal ten dienste stond. Van het
+          verhandelde in elke zitting, moesten aantekeningen worden gehouden (art.
+          33).</html:p>
+          <html:p>Het reglement op het beleid der regering, enz. voor Suriname van 1828,
+          spreekt nader over de Hoge Raad. Art. 1 zegt dat het hoogst uitvoerend gezag in
+          de kolonie Suriname berust bij de gouverneur-generaal der West-Indische
+          bezittingen, geassisteerd door de Hoge Raad. Krachtens art. 5 behandelt de
+          gouverneur-generaal met de Hoge Raad zaken voorkomende in de kolonie, bij welke
+          het gouvernement in Europa een meer onmiddellijk belang heeft zoals: de
+          rechtspleging, de verdediging, de geldmiddelen, de landbouw, de koophandel en
+          de zeevaart. De huishoudelijke aangelegenheden der ingezetenen bleven aan het
+          plaatselijk of gemeentebestuur opgedragen. Art. 7 en 8 noemen dan nog enkele
+          zaken die aan de Hoge Raad opgedragen worden.</html:p>
+          <html:p>Toen op 1 januari 1833 in werking trad het Reglement op het beleid der
+          Regeering in de Kolonie Suriname, vastgesteld bij Koninklijk Besluit van 9
+          augustus 1832 nr. 89 bracht dit ook deze verandering mede dat in plaats van de
+          Hoge Raad aan de gouverneur-generaal een Koloniale Raad werd toegevoegd 'tot
+          het beleid der Regeering, voor zooverre de Kolonie Suriname aangaat'. Een
+          besluit van de gouverneur-generaal der West-Indische bezittingen van 6 december
+          1832, afgekondigd 8 december daaraanvolgend, stelde de bepalingen en
+          voorschriften vast die de strekking hadden om 'eenen geregelden en
+          onbelemmerden loop der onderscheidene takken van het Openbaar Bestuur te
+          verzekeren', in verband met het op 1 januari 1833 in te voeren
+          regeringsreglement voor Suriname.</html:p>
+          <html:p>31 december 1832 werd de Hoge Raad door de gouverneur-generaal
+          ontbonden.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Artikel 21 van het reglement op het beleid der regering van de
+          Nederlandse West-Indische bezittingen van 1828 zegt, dat aan de
+          gouverneur-generaal vier raden worden toegevoegd, die gezamenlijk met hem
+          uitmaken de regering der Nederlandse West-Indische bezittingen, onder de
+          benaming van de Hoge Raad. Volgens art. 22 zou deze Hoge Raad, onder het
+          presidium van de gouverneur-generaal, bestaan uit een procureur-generaal, een
+          controleur-generaal der financiën, een commissaris voor 's Rijks domeinen en
+          een commissaris voor de inlandse bevolking, de slaven daaronder gerekend, het
+          armwezen, het onderwijs en de kerkelijke zaken. Deze raad had een algemeen
+          secretaris (art. 23) die ook de gouverneur-generaal ten dienste stond. Van het
+          verhandelde in elke zitting, moesten aantekeningen worden gehouden (art.
+          33).</html:p>
+          <html:p>Het reglement op het beleid der regering, enz. voor Suriname van 1828,
+          spreekt nader over de Hoge Raad. Art. 1 zegt dat het hoogst uitvoerend gezag in
+          de kolonie Suriname berust bij de gouverneur-generaal der West-Indische
+          bezittingen, geassisteerd door de Hoge Raad. Krachtens art. 5 behandelt de
+          gouverneur-generaal met de Hoge Raad zaken voorkomende in de kolonie, bij welke
+          het gouvernement in Europa een meer onmiddellijk belang heeft zoals: de
+          rechtspleging, de verdediging, de geldmiddelen, de landbouw, de koophandel en
+          de zeevaart. De huishoudelijke aangelegenheden der ingezetenen bleven aan het
+          plaatselijk of gemeentebestuur opgedragen. Art. 7 en 8 noemen dan nog enkele
+          zaken die aan de Hoge Raad opgedragen worden.</html:p>
+          <html:p>Toen op 1 januari 1833 in werking trad het Reglement op het beleid der
+          Regeering in de Kolonie Suriname, vastgesteld bij Koninklijk Besluit van 9
+          augustus 1832 nr. 89 bracht dit ook deze verandering mede dat in plaats van de
+          Hoge Raad aan de gouverneur-generaal een Koloniale Raad werd toegevoegd 'tot
+          het beleid der Regeering, voor zooverre de Kolonie Suriname aangaat'. Een
+          besluit van de gouverneur-generaal der West-Indische bezittingen van 6 december
+          1832, afgekondigd 8 december daaraanvolgend, stelde de bepalingen en
+          voorschriften vast die de strekking hadden om 'eenen geregelden en
+          onbelemmerden loop der onderscheidene takken van het Openbaar Bestuur te
+          verzekeren', in verband met het op 1 januari 1833 in te voeren
+          regeringsreglement voor Suriname.</html:p>
+          <html:p>31 december 1832 werd de Hoge Raad door de gouverneur-generaal
+          ontbonden.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Hoge Raad assisteerde de Gouverneur-generaal bij het uitvoerend gezag
+      over de kolonie Suriname gedurende de periode 1828-1832. Hij was in sterke mate aan
+      hem onderworpen. Het archief bevat de notulen (met bijlagen) van hun
+      vergaderingen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>De rechtstitel is (nog) onbekend</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.6 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>17 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/f60ea72b-fb50-43dc-971b-b541a1942d1c"
+  rdf:about="record/1.02.18">
+    <rico:identifier>1.02.18</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1290" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.02.18/i1" />
+      <rico:instantiates rdf:resource="record/1.02.18" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090918</rico:hasModificationDate>
+        <html:p>18 september 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100301</rico:hasModificationDate>
+        <html:p>1 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100301</rico:hasModificationDate>
+        <html:p>1 maart 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Legatie in Portugal, (1651)
+        1783-1804; Consulaat-Generaal te Lissabon, (1773) 1780-1809</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/f60ea72b-fb50-43dc-971b-b541a1942d1c" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1290">
+    <rico:describedBy rdf:resource="record/1.02.18" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1290</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Legatie Portugal</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Legatie Portugal</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1651</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1809</rico:endDate>
+    <rico:date>1651-1809</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Consulaat-generaal te Lissabon 1780-1809</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De vertegenwoordiging van de Staten-Generaal in Portugal was sinds 1664
+          permanent. De gezant werd door de Staten-Generaal aangesteld op voordracht van
+          Holland, dat grote belangen had in de zouthandel. In 1794 kwam aan de
+          permanente vertegenwoordiging een eind. Daarna was de Bataafse Republiek alleen
+          nog in de jaren 1801-1804 door de gezant Van Grasveld aan het Portugese hof
+          vertegenwoordigd. Weliswaar werd er in 1807 opnieuw een gezant aangesteld, maar
+          deze schijnt nooit in Lissabon gearriveerd te zijn.</html:p>
+          <html:p>Een consulaat was er in Lissabon al sinds 1641. Het ressorteerde onder
+          de Directie van de Levantse Handel. Het groeide uit tot een consulaat generaal,
+          waaraan verscheidene consuls en vice-consuls onderhorig waren.</html:p>
+          <html:p>Tussen gezantschap en consulaat-generaal in Lissabon bestond een nauwe
+          samenwerking. Consuls namen het gezantschap waar als de gezant tijdelijk
+          afwezig was of het gezantschap tijdelijk vacant. Een voorstel van de nieuwe
+          gezant Smissaert om gezantschap en consulaat samen te voegen, werd in 1780 door
+          de Staten Generaal niet gehonoreerd. Res. SG 27 dec. 1780.</html:p>
+          <html:p>Lijst van gezantenJohan Euskerken, 1641 januari - 1642 aprilGijsbert
+          Rudolphii en Wouter Abramsen van der Hove, 1653 mei 6 - 1653 december 8Nicolaas
+          ten Hove en Gijsberth de With, 1657 augustus 27 - 1657 november 12Gijsberth de
+          With, 1661 augustus 28 - 1661 november 29Bartholomeus Reael, 1663 augustus 20.
+          Op 21 december 1663 weer ontslagen, heeft zijn functie van gezant niet
+          uitgeoefend.Caspar Barlaeus, 1664 november 28 - 1675 juni 18Johan Wolffsen,
+          1675 juli 17 - 1695 oktober 31Abraham van Eswijler, 1695 oktober 31 - 1697
+          januari 11Louis Barlaeus, 1695 december 13 - 1696 juni 8Jakob Daniël de Famars,
+          1697 januari 11 - 1704 april 26Franciscus Schonenberg, 1702 mei 23 - 1717 maart
+          13Louis Houwens, 1718 juli 18 - 1731 juni 8Jan Rochus van Til, 1731 september
+          19 - 1751 september 2Charles François Basc de la Calmette, 1751 augustus 26 -
+          1758 augustus 29Hendrik van Kretschmar, 1759 november 6 - 1762 december
+          4Reijnier van Haeften, 1763 juli 8 - 1767 april 22Philip Saurin, 1770 januari -
+          1779 maart 15Balthasar Constantijn Smissaert, 1780 maart 6 - 1782 juli 23Jan
+          Willem Hogguer, 1783 december 6 - 1790 oktober 14Daniël Gildemeester Dzn., 1790
+          oktober 16 - 1791 oktober 7Gerrit Carel van Spaen tot Voorstonde, 1791 oktober
+          7 - 1794 juni 15Charles Henri van Grasveldt, 1801 december 14 - 1804 november
+          21C.D.E.J. Bangeman Huygens, 1807 juni 1926.Heeft zijn functie niet
+          uitgeoefend.</html:p>
+          <html:p>&#160;</html:p>
+          <html:p>Lijst van consuls(-generaal) in LissabonTheodoor Rodenburch, 1612 april
+          4 - ?Pieter Cornelisz., 1641 juni 14 - 1648 oktoberWouter Abrahamsz van der
+          Houve, 1648 oktober 22 - 1665 augustus ?François Hennequin, 1665 december 8 -
+          1684 ?Abraham van Eswijler, 1684 december 30 - 1697 decemberJacques Nicolai,
+          1697 april 3 - 1701 septemberAbraham Hijsterman, 1702 maart 27 - 1739 november
+          8Jan Gildemeester, 1740 maart 5 - 1759 augustus 28Daniël Gildemeester, 1759
+          augustus 28 - 1780 december 27Daniël Gildemeester Dzn., 1780 december 27 -
+          1802Jakob Dohrman, 1802 - 1808</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De vertegenwoordiging van de Staten-Generaal in Portugal was sinds 1664
+          permanent. De gezant werd door de Staten-Generaal aangesteld op voordracht van
+          Holland, dat grote belangen had in de zouthandel. In 1794 kwam aan de
+          permanente vertegenwoordiging een eind. Daarna was de Bataafse Republiek alleen
+          nog in de jaren 1801-1804 door de gezant Van Grasveld aan het Portugese hof
+          vertegenwoordigd. Weliswaar werd er in 1807 opnieuw een gezant aangesteld, maar
+          deze schijnt nooit in Lissabon gearriveerd te zijn.</html:p>
+          <html:p>Een consulaat was er in Lissabon al sinds 1641. Het ressorteerde onder
+          de Directie van de Levantse Handel. Het groeide uit tot een consulaat generaal,
+          waaraan verscheidene consuls en vice-consuls onderhorig waren.</html:p>
+          <html:p>Tussen gezantschap en consulaat-generaal in Lissabon bestond een nauwe
+          samenwerking. Consuls namen het gezantschap waar als de gezant tijdelijk
+          afwezig was of het gezantschap tijdelijk vacant. Een voorstel van de nieuwe
+          gezant Smissaert om gezantschap en consulaat samen te voegen, werd in 1780 door
+          de Staten Generaal niet gehonoreerd. Res. SG 27 dec. 1780.</html:p>
+          <html:p>Lijst van gezantenJohan Euskerken, 1641 januari - 1642 aprilGijsbert
+          Rudolphii en Wouter Abramsen van der Hove, 1653 mei 6 - 1653 december 8Nicolaas
+          ten Hove en Gijsberth de With, 1657 augustus 27 - 1657 november 12Gijsberth de
+          With, 1661 augustus 28 - 1661 november 29Bartholomeus Reael, 1663 augustus 20.
+          Op 21 december 1663 weer ontslagen, heeft zijn functie van gezant niet
+          uitgeoefend.Caspar Barlaeus, 1664 november 28 - 1675 juni 18Johan Wolffsen,
+          1675 juli 17 - 1695 oktober 31Abraham van Eswijler, 1695 oktober 31 - 1697
+          januari 11Louis Barlaeus, 1695 december 13 - 1696 juni 8Jakob Daniël de Famars,
+          1697 januari 11 - 1704 april 26Franciscus Schonenberg, 1702 mei 23 - 1717 maart
+          13Louis Houwens, 1718 juli 18 - 1731 juni 8Jan Rochus van Til, 1731 september
+          19 - 1751 september 2Charles François Basc de la Calmette, 1751 augustus 26 -
+          1758 augustus 29Hendrik van Kretschmar, 1759 november 6 - 1762 december
+          4Reijnier van Haeften, 1763 juli 8 - 1767 april 22Philip Saurin, 1770 januari -
+          1779 maart 15Balthasar Constantijn Smissaert, 1780 maart 6 - 1782 juli 23Jan
+          Willem Hogguer, 1783 december 6 - 1790 oktober 14Daniël Gildemeester Dzn., 1790
+          oktober 16 - 1791 oktober 7Gerrit Carel van Spaen tot Voorstonde, 1791 oktober
+          7 - 1794 juni 15Charles Henri van Grasveldt, 1801 december 14 - 1804 november
+          21C.D.E.J. Bangeman Huygens, 1807 juni 1926.Heeft zijn functie niet
+          uitgeoefend.</html:p>
+          <html:p>&#160;</html:p>
+          <html:p>Lijst van consuls(-generaal) in LissabonTheodoor Rodenburch, 1612 april
+          4 - ?Pieter Cornelisz., 1641 juni 14 - 1648 oktoberWouter Abrahamsz van der
+          Houve, 1648 oktober 22 - 1665 augustus ?François Hennequin, 1665 december 8 -
+          1684 ?Abraham van Eswijler, 1684 december 30 - 1697 decemberJacques Nicolai,
+          1697 april 3 - 1701 septemberAbraham Hijsterman, 1702 maart 27 - 1739 november
+          8Jan Gildemeester, 1740 maart 5 - 1759 augustus 28Daniël Gildemeester, 1759
+          augustus 28 - 1780 december 27Daniël Gildemeester Dzn., 1780 december 27 -
+          1802Jakob Dohrman, 1802 - 1808</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hogguer, Jan Willem</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De vertegenwoordiging van de Staten-Generaal in Portugal was sinds 1664
+          permanent. De gezant werd door de Staten-Generaal aangesteld op voordracht van
+          Holland, dat grote belangen had in de zouthandel. In 1794 kwam aan de
+          permanente vertegenwoordiging een eind. Daarna was de Bataafse Republiek alleen
+          nog in de jaren 1801-1804 door de gezant Van Grasveld aan het Portugese hof
+          vertegenwoordigd. Weliswaar werd er in 1807 opnieuw een gezant aangesteld, maar
+          deze schijnt nooit in Lissabon gearriveerd te zijn.</html:p>
+          <html:p>Een consulaat was er in Lissabon al sinds 1641. Het ressorteerde onder
+          de Directie van de Levantse Handel. Het groeide uit tot een consulaat generaal,
+          waaraan verscheidene consuls en vice-consuls onderhorig waren.</html:p>
+          <html:p>Tussen gezantschap en consulaat-generaal in Lissabon bestond een nauwe
+          samenwerking. Consuls namen het gezantschap waar als de gezant tijdelijk
+          afwezig was of het gezantschap tijdelijk vacant. Een voorstel van de nieuwe
+          gezant Smissaert om gezantschap en consulaat samen te voegen, werd in 1780 door
+          de Staten Generaal niet gehonoreerd. Res. SG 27 dec. 1780.</html:p>
+          <html:p>Lijst van gezantenJohan Euskerken, 1641 januari - 1642 aprilGijsbert
+          Rudolphii en Wouter Abramsen van der Hove, 1653 mei 6 - 1653 december 8Nicolaas
+          ten Hove en Gijsberth de With, 1657 augustus 27 - 1657 november 12Gijsberth de
+          With, 1661 augustus 28 - 1661 november 29Bartholomeus Reael, 1663 augustus 20.
+          Op 21 december 1663 weer ontslagen, heeft zijn functie van gezant niet
+          uitgeoefend.Caspar Barlaeus, 1664 november 28 - 1675 juni 18Johan Wolffsen,
+          1675 juli 17 - 1695 oktober 31Abraham van Eswijler, 1695 oktober 31 - 1697
+          januari 11Louis Barlaeus, 1695 december 13 - 1696 juni 8Jakob Daniël de Famars,
+          1697 januari 11 - 1704 april 26Franciscus Schonenberg, 1702 mei 23 - 1717 maart
+          13Louis Houwens, 1718 juli 18 - 1731 juni 8Jan Rochus van Til, 1731 september
+          19 - 1751 september 2Charles François Basc de la Calmette, 1751 augustus 26 -
+          1758 augustus 29Hendrik van Kretschmar, 1759 november 6 - 1762 december
+          4Reijnier van Haeften, 1763 juli 8 - 1767 april 22Philip Saurin, 1770 januari -
+          1779 maart 15Balthasar Constantijn Smissaert, 1780 maart 6 - 1782 juli 23Jan
+          Willem Hogguer, 1783 december 6 - 1790 oktober 14Daniël Gildemeester Dzn., 1790
+          oktober 16 - 1791 oktober 7Gerrit Carel van Spaen tot Voorstonde, 1791 oktober
+          7 - 1794 juni 15Charles Henri van Grasveldt, 1801 december 14 - 1804 november
+          21C.D.E.J. Bangeman Huygens, 1807 juni 1926.Heeft zijn functie niet
+          uitgeoefend.</html:p>
+          <html:p>&#160;</html:p>
+          <html:p>Lijst van consuls(-generaal) in LissabonTheodoor Rodenburch, 1612 april
+          4 - ?Pieter Cornelisz., 1641 juni 14 - 1648 oktoberWouter Abrahamsz van der
+          Houve, 1648 oktober 22 - 1665 augustus ?François Hennequin, 1665 december 8 -
+          1684 ?Abraham van Eswijler, 1684 december 30 - 1697 decemberJacques Nicolai,
+          1697 april 3 - 1701 septemberAbraham Hijsterman, 1702 maart 27 - 1739 november
+          8Jan Gildemeester, 1740 maart 5 - 1759 augustus 28Daniël Gildemeester, 1759
+          augustus 28 - 1780 december 27Daniël Gildemeester Dzn., 1780 december 27 -
+          1802Jakob Dohrman, 1802 - 1808</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Spaen tot Voorstonde, Gerrit Carel van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De vertegenwoordiging van de Staten-Generaal in Portugal was sinds 1664
+          permanent. De gezant werd door de Staten-Generaal aangesteld op voordracht van
+          Holland, dat grote belangen had in de zouthandel. In 1794 kwam aan de
+          permanente vertegenwoordiging een eind. Daarna was de Bataafse Republiek alleen
+          nog in de jaren 1801-1804 door de gezant Van Grasveld aan het Portugese hof
+          vertegenwoordigd. Weliswaar werd er in 1807 opnieuw een gezant aangesteld, maar
+          deze schijnt nooit in Lissabon gearriveerd te zijn.</html:p>
+          <html:p>Een consulaat was er in Lissabon al sinds 1641. Het ressorteerde onder
+          de Directie van de Levantse Handel. Het groeide uit tot een consulaat generaal,
+          waaraan verscheidene consuls en vice-consuls onderhorig waren.</html:p>
+          <html:p>Tussen gezantschap en consulaat-generaal in Lissabon bestond een nauwe
+          samenwerking. Consuls namen het gezantschap waar als de gezant tijdelijk
+          afwezig was of het gezantschap tijdelijk vacant. Een voorstel van de nieuwe
+          gezant Smissaert om gezantschap en consulaat samen te voegen, werd in 1780 door
+          de Staten Generaal niet gehonoreerd. Res. SG 27 dec. 1780.</html:p>
+          <html:p>Lijst van gezantenJohan Euskerken, 1641 januari - 1642 aprilGijsbert
+          Rudolphii en Wouter Abramsen van der Hove, 1653 mei 6 - 1653 december 8Nicolaas
+          ten Hove en Gijsberth de With, 1657 augustus 27 - 1657 november 12Gijsberth de
+          With, 1661 augustus 28 - 1661 november 29Bartholomeus Reael, 1663 augustus 20.
+          Op 21 december 1663 weer ontslagen, heeft zijn functie van gezant niet
+          uitgeoefend.Caspar Barlaeus, 1664 november 28 - 1675 juni 18Johan Wolffsen,
+          1675 juli 17 - 1695 oktober 31Abraham van Eswijler, 1695 oktober 31 - 1697
+          januari 11Louis Barlaeus, 1695 december 13 - 1696 juni 8Jakob Daniël de Famars,
+          1697 januari 11 - 1704 april 26Franciscus Schonenberg, 1702 mei 23 - 1717 maart
+          13Louis Houwens, 1718 juli 18 - 1731 juni 8Jan Rochus van Til, 1731 september
+          19 - 1751 september 2Charles François Basc de la Calmette, 1751 augustus 26 -
+          1758 augustus 29Hendrik van Kretschmar, 1759 november 6 - 1762 december
+          4Reijnier van Haeften, 1763 juli 8 - 1767 april 22Philip Saurin, 1770 januari -
+          1779 maart 15Balthasar Constantijn Smissaert, 1780 maart 6 - 1782 juli 23Jan
+          Willem Hogguer, 1783 december 6 - 1790 oktober 14Daniël Gildemeester Dzn., 1790
+          oktober 16 - 1791 oktober 7Gerrit Carel van Spaen tot Voorstonde, 1791 oktober
+          7 - 1794 juni 15Charles Henri van Grasveldt, 1801 december 14 - 1804 november
+          21C.D.E.J. Bangeman Huygens, 1807 juni 1926.Heeft zijn functie niet
+          uitgeoefend.</html:p>
+          <html:p>&#160;</html:p>
+          <html:p>Lijst van consuls(-generaal) in LissabonTheodoor Rodenburch, 1612 april
+          4 - ?Pieter Cornelisz., 1641 juni 14 - 1648 oktoberWouter Abrahamsz van der
+          Houve, 1648 oktober 22 - 1665 augustus ?François Hennequin, 1665 december 8 -
+          1684 ?Abraham van Eswijler, 1684 december 30 - 1697 decemberJacques Nicolai,
+          1697 april 3 - 1701 septemberAbraham Hijsterman, 1702 maart 27 - 1739 november
+          8Jan Gildemeester, 1740 maart 5 - 1759 augustus 28Daniël Gildemeester, 1759
+          augustus 28 - 1780 december 27Daniël Gildemeester Dzn., 1780 december 27 -
+          1802Jakob Dohrman, 1802 - 1808</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Grasveld, Charles Henri van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De vertegenwoordiging van de Staten-Generaal in Portugal was sinds 1664
+          permanent. De gezant werd door de Staten-Generaal aangesteld op voordracht van
+          Holland, dat grote belangen had in de zouthandel. In 1794 kwam aan de
+          permanente vertegenwoordiging een eind. Daarna was de Bataafse Republiek alleen
+          nog in de jaren 1801-1804 door de gezant Van Grasveld aan het Portugese hof
+          vertegenwoordigd. Weliswaar werd er in 1807 opnieuw een gezant aangesteld, maar
+          deze schijnt nooit in Lissabon gearriveerd te zijn.</html:p>
+          <html:p>Een consulaat was er in Lissabon al sinds 1641. Het ressorteerde onder
+          de Directie van de Levantse Handel. Het groeide uit tot een consulaat generaal,
+          waaraan verscheidene consuls en vice-consuls onderhorig waren.</html:p>
+          <html:p>Tussen gezantschap en consulaat-generaal in Lissabon bestond een nauwe
+          samenwerking. Consuls namen het gezantschap waar als de gezant tijdelijk
+          afwezig was of het gezantschap tijdelijk vacant. Een voorstel van de nieuwe
+          gezant Smissaert om gezantschap en consulaat samen te voegen, werd in 1780 door
+          de Staten Generaal niet gehonoreerd. Res. SG 27 dec. 1780.</html:p>
+          <html:p>Lijst van gezantenJohan Euskerken, 1641 januari - 1642 aprilGijsbert
+          Rudolphii en Wouter Abramsen van der Hove, 1653 mei 6 - 1653 december 8Nicolaas
+          ten Hove en Gijsberth de With, 1657 augustus 27 - 1657 november 12Gijsberth de
+          With, 1661 augustus 28 - 1661 november 29Bartholomeus Reael, 1663 augustus 20.
+          Op 21 december 1663 weer ontslagen, heeft zijn functie van gezant niet
+          uitgeoefend.Caspar Barlaeus, 1664 november 28 - 1675 juni 18Johan Wolffsen,
+          1675 juli 17 - 1695 oktober 31Abraham van Eswijler, 1695 oktober 31 - 1697
+          januari 11Louis Barlaeus, 1695 december 13 - 1696 juni 8Jakob Daniël de Famars,
+          1697 januari 11 - 1704 april 26Franciscus Schonenberg, 1702 mei 23 - 1717 maart
+          13Louis Houwens, 1718 juli 18 - 1731 juni 8Jan Rochus van Til, 1731 september
+          19 - 1751 september 2Charles François Basc de la Calmette, 1751 augustus 26 -
+          1758 augustus 29Hendrik van Kretschmar, 1759 november 6 - 1762 december
+          4Reijnier van Haeften, 1763 juli 8 - 1767 april 22Philip Saurin, 1770 januari -
+          1779 maart 15Balthasar Constantijn Smissaert, 1780 maart 6 - 1782 juli 23Jan
+          Willem Hogguer, 1783 december 6 - 1790 oktober 14Daniël Gildemeester Dzn., 1790
+          oktober 16 - 1791 oktober 7Gerrit Carel van Spaen tot Voorstonde, 1791 oktober
+          7 - 1794 juni 15Charles Henri van Grasveldt, 1801 december 14 - 1804 november
+          21C.D.E.J. Bangeman Huygens, 1807 juni 1926.Heeft zijn functie niet
+          uitgeoefend.</html:p>
+          <html:p>&#160;</html:p>
+          <html:p>Lijst van consuls(-generaal) in LissabonTheodoor Rodenburch, 1612 april
+          4 - ?Pieter Cornelisz., 1641 juni 14 - 1648 oktoberWouter Abrahamsz van der
+          Houve, 1648 oktober 22 - 1665 augustus ?François Hennequin, 1665 december 8 -
+          1684 ?Abraham van Eswijler, 1684 december 30 - 1697 decemberJacques Nicolai,
+          1697 april 3 - 1701 septemberAbraham Hijsterman, 1702 maart 27 - 1739 november
+          8Jan Gildemeester, 1740 maart 5 - 1759 augustus 28Daniël Gildemeester, 1759
+          augustus 28 - 1780 december 27Daniël Gildemeester Dzn., 1780 december 27 -
+          1802Jakob Dohrman, 1802 - 1808</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de correspondentie van de diplomatieke vertegenwoordiging
+      te Lissabon tussen 1783 en 1794 en 1801 en 1804 met de Staten-Generaal en het
+      Departement van Buitenlandse Zaken. Verder zijn er stukken aanwezig gericht aan de
+      Portugese kroon en van Nederlandse consuls in de regio. Ook omvat het archief
+      berichten over politieke en militaire zaken met betrekking tot Portugal, over
+      operaties van de Nederlandse vloot in de Middellandse Zee en de behartiging van
+      belangen van particulieren (speciaal inzake handel en scheepvaart). Tevens omvat
+      het nog een klein deel van het archief van het consulaat-generaal te Lissabon
+      tussen 1773-1804.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3.89 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>137 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/0a146684-0a00-42e3-a272-57c85ee186a4"
+  rdf:about="record/1.05.13.02">
+    <rico:identifier>1.05.13.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/156" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.05.13.02/i1" />
+      <rico:instantiates rdf:resource="record/1.05.13.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van St. Eustatius en Saba,
+        1828-1845 (1860)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/0a146684-0a00-42e3-a272-57c85ee186a4" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/156">
+    <rico:describedBy rdf:resource="record/1.05.13.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>156</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>St. Eustatius en Saba: Archieven na 1828</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>St. Eustatius en Saba na 1828</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1828</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1860</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1828-1860</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën van St. Eustatius en SabaBoekhouder
+            van St. MaartenBoekhouder-Generaal van St. Eustatius en SabaCollege voor de
+            Kleine Zaken van St. Eustatius en SabaCommandeur ad interim van St. Eustatius
+            en SabaCommandeur van St. Eustatius en SabaGemeentebestuur van St. Eustatius
+            en Saba, Secretaris fungerend als NotarisGezaghebber van St. Eustatius en
+            SabaMagazijnmeester van St. Eustatius en SabaOntvanger van St. Eustatius en
+            SabaOntvanger-Generaal van St. EustatiusRaad van Civiele en Criminele
+            Justitie van St. Eustatius en SabaRechtbank van St. Eustatius en
+            SabaRechtbank voor de Kleine Zaken van St. Eustatius en Saba</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De archieven van St. Eustatius en Saba van na 1828 bevatten stukken van
+      diverse instellingen, onder meer de archieven van de Commandeur, vanaf 1834 de
+      Gezaghebber, de Raad van Civiele en Criminele Justitie, het College van Kleine
+      Zaken en de Commissarissen tot de Kleine Zaken, de Administratie der Financiën, de
+      Magazijn- en Vendumeesters en het archief van de Wees- en onbeheerde
+      boedelkamers.Daarnaast bevat het archief ook gedeponeerde stukken, te weten de
+      brieven van M. Percival te St. Thomas aan J.J. Percival te St. Eustatius.Tot de
+      stukken behoren notulen van vergaderingen, resoluties, correspondentie,
+      secretariële en notariële protocollen, zeeprotesten, rekesten met daarop genomen
+      beslissingen en ook gerechtsrollen en vonnissen. Het archief bevat ook vrijbrieven
+      (manumissies) betreffende het officieel vrijkopen of vrijgeven van slaven.Tot de
+      stukken behoren journalen van de commandeur/gezaghebber, correspondentie,
+      manumissiebrieven, grootboeken, balansen en gekwiteerde ordonnanties van betaling.
+      Het archief bevat ook civiele en criminele processtukken en notulen van
+      vergaderingen van het College van Kleine Zaken.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>63 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4,60 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

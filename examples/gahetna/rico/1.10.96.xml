@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/9ef4105c-e88a-4663-9a32-435e9f96a533"
+  rdf:about="record/1.10.96">
+    <rico:identifier>1.10.96</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1992</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1170" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.96/i1" />
+      <rico:instantiates rdf:resource="record/1.10.96" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van I.J. van Hees [levensjaren
+        1732-1785], (1586) 1741-1785 (1830)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/9ef4105c-e88a-4663-9a32-435e9f96a533" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1170">
+    <rico:describedBy rdf:resource="record/1.10.96" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1170</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Archief Van Hees</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hees, van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1586</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1830</rico:endDate>
+    <rico:date>1586-1830</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hees, I.J. van (1731-1785)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ignatius Johannes van Hees, heer van de Tempel werd geboren in
+          's-Gravenhage, op 3 maart 1732. Zijn vader was mr. Hendrik van Hees, raad en
+          later president van de Hoge Raad van Holland, Zeeland en West-Friesland. Zijn
+          moeder was Barbara Johanna van der Hoeven, vrouwe van Berkel en Rodenrijs van
+          de Tempel. Ignatius Johannes erfde de heerlijkheid de Tempel. Zijn broer Herman
+          erfde Berkel en Rodenrijs. Nederlands Adelboek, 1942, p. 453.</html:p>
+          <html:p>Ignatius Johannes studeerde rechten in Leiden. Hij studeerde 16
+          augustus 1748 af. Album Studiosum Academiae Ludduno Batavae MDLXXV-MDCCCLXXV,
+          Den Haag, 1875, p. 1022. Op 21 januari 1758 werd zijn huwelijk met Hester Carla
+          (of Claudia) van royen, dochter van David van Royen, toenmalig secretaris van
+          de Raad van State, gesloten. Uit het huwelijk werden drie kinderen geboren
+          Koninklijk Nederlands Genootschap voor Geslacht- en Wapenkunde, NL-algemeen.
+          Van Hees.</html:p>
+          <html:p>In 1753 werd Van Hees benoemd tot advocaat bij de Raad en Leenhof van
+          Brabant en het Land van Overmaze. In december 1761 werd hij benoemd tot
+          advocaat-fiscaal van de Generaliteit. Bericht van de constitutie van alle
+          illustere vergaderingen en collegiëen in 's-Gravenhage, 1762 en Nieuw
+          Nederlandsch Jaarboek, 1761 Voor 1761 was Van Hees ook nog advocaat bij het Hof
+          van Holland. Archief van de Staten-Generaal, nummer toegang 1.01.06, inv.nr.
+          12289, fol. 140.</html:p>
+          <html:p>In 1769 volgde zijn benoeming tot secretaris van de Raad van State.
+          Thesaurier-generaal ten tijde van het secretariaat van Van Hees was mr. Paulus
+          Abraham gilles. Het secretariaat van Van Hees eindigde met zijn ontslag als
+          gevolg van zijn opstelling in de zaak van Van Brunswijk. H.T. Colenbrander, De
+          Patriottentijd, hoofdzakelijk naar buitenlandse bescheiden, Den Haag 1897, deel
+          I, p. 351.</html:p>
+          <html:p>5 maart 1785 stierf Ignatius Johannes van Hees op 54-jarige
+          leeftijd.</html:p>
+          <html:p>De positie en invloed van de Raad van State in het politiek bestel van
+          de Republiek was mede afhankelijk van het functioneren en de invloed van haar
+          hoogste ambtenaren, de secretaris en de thesaurier-generaal van de Raad. Hoe
+          groter het persoonlijk gezag van de secretaris of thesaurier-generaal, hoe meer
+          invloed de Raad van State had. Meer dan de gewone leden van de Raad, die immers
+          regelmatig door hun provincies werden vervangen en wier politieke basis in de
+          provincie lag, waren de secretaris en thesaurier-generaal in staat vanuit hun
+          kennis van zaken, beleid te bepalen. A.Th. van Deursen, De Raad van State onder
+          de Republiek 1588-1795, in : Raad van State 450 jaar, Den Haag 1981.In de loop
+          van de 18e eeuw boette de Raad van State en haar ambtenaren aan invloed
+          in</html:p>
+          <html:p>De secretaris had volgens de instructie van 1651 tot taak de stukken te
+          verzorgen voor de vergaderingen, brieven te verzenden, resoluties te boeken en
+          het archief te verzorgen. Daarnaast adviseerde hij de Raad in het te voeren
+          beleid. De secretaris had geen stemrecht in de vergadering</html:p>
+          <html:p>Van Hees is het meest bekend geworden door zijn vriendschap met de
+          hertog van Brunswijk, ook in de tijden dat de hertog door de steden en Staten
+          van Holland werd aangevallen en zijn positie in de Republiek onhoudbaar werd.
+          Van Hees zou zelfs de memorie, die Van Brunswijk indiende bij de
+          Staten-Generaal als verdediging van zijn politiek in 1981, hebben
+          geschreven.Als secretaris van de Raad van State had van Hees ambtshalve
+          regelmatig contact met Vran Brunswijk in diens functie als veldmaarschalk.
+          Gedenkschriften van G.J. Hardenbroek (1747-1787). Dr. F.J. L. Krämer (dl. I-II)
+          en dr. A.J. van der Meulen (dl. III), ed. Werken Historisch Genootschap 3e
+          serie nrs. 14, 17, 24 (3 dln.), dl II. p. 645; Dr. D.C. Nijhoff, De hertog van
+          Brunswijk, een bijdrage tot de geschiedenis van Nederland gedurende de jaren
+          1750-1784, 's-Gravenhage, 1889, p. 200.</html:p>
+          <html:p>In 1781 werd Van Brunswijk door de stad Amsterdam aangevallen op zijn
+          politiek, die geleid zou hebben tot de rampzalige oorlog met Engeland.
+          Amsterdam drong aan op de verwijdering van de hertog uit de dienst van de
+          Republiek. Dit leidde niet tot het door Amsterdam gewenste resultaat. Wél
+          vertrok de hertog uit -s-Gravenhage naar 's-Hertogenbosch, waar hij gouverneur
+          was. In 1784 werd opnieuw de positie van de hertog ter discussie gesteld naar
+          aanleiding van de oorlogsdreiging door de keizer van Oostenrijk. Ditmaal was
+          ook de in 1766 gesloten Akte van Consulentschp steen des aanstoots.
+          Uiteindelijk leidde dit tot het ontslag van de hertog van Brunswijk uit de
+          dienst van de Republiek. Ook Van Hees, als getrouwe van Brunswijk, werd
+          meegesleept in diens val en ontslagen uit zijn functie van secretaris van de
+          Raad van State.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat ambtelijke stukken van Ignatius Johannes van Hees
+      opgemaakt en ontvangen in zijn functie als secretaris van de Raad van State
+      (1769-1785) en stukken in verband met zijn bemoeienis als vriend met de positie van
+      de hertog van Brunswijk. Ter verdediging van de positie van Van Brunswijk in de
+      Republiek, stelde Van Hees diverse stukken op, waarvan concepten zich in dit
+      archief bevinden.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.97 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>97 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Afschriften van stukken betreffende de zaak Van Brunswijk (inv.nrs. 36 en
+        37) zijn in 1787 gepubliceerd in: August Ludwig Schlözer, Lodewijk Erns, hertog
+        van Brunswijk en Lünenburg etc. etc. Echte bescheiden van het gedrag ten opzigte
+        van zijner aanzienlijke vaardigheden als veldmaarschalk, voogd en representant
+        van Zijne Doorl. Hoogdheid, den Heere Erfstadh. P.W. de V van Oranje; in de
+        Verenigde Nederlanden, Amsterdam, 1787.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

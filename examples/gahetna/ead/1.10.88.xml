@@ -1,0 +1,2438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:19:11 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::1.10.88::Collectie Van Zijll)//NL" url="http://proxy.handle.net/10648/d1014e7f-8ae6-4ed9-ad91-90bac480ce9b" urn="1.10.88.ead.xml">1.10.88</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de familie Van Zijll, 1430-1666</titleproper>
+        <author>E. Hoogendijk</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1930">1930</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2008">2008</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Otto van der Meij, 
+		  <date calendar="gregorian" era="ce" normal="20080515">15 mei 2008</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">S. Muller Fz., J.A. Feith en R. Fruin Th.Az , <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920</bibref>.
+                </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+    <change>
+        <date calendar="gregorian" era="ce" normal="20121121">21 november 2012</date>
+        <item>
+          <num>1</num>Afbeelding ingevoegd door <name>Hans Punt</name>.</item>
+      </change> 
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Collectie Van Zijll</unittitle>
+      <unittitle type="short">Zijll, van</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1430/1666" type="inclusive">1430-1666</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">1226</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">1.03 meter; </extent>
+        
+      <extent unit="files">173 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">De stukken zijn grotendeels geschreven in het gotische cursiefschrift, met name in de oud-Hollandse klerkencursief.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <famname>Van Zijll</famname>
+      </origination>
+      <origination>
+        <famname>Van Rysenborch</famname>
+      </origination>
+      <origination>
+        <famname>Luntius</famname>
+      </origination>
+      <origination>
+        <famname>Van Rodenburgh</famname>
+      </origination>
+      <origination>
+        <famname>Van Everdingen</famname>
+      </origination>
+      <origination>
+        <famname>Blom</famname>
+      </origination>
+      <origination>
+        <persname>Willem Claesz. van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Pelgrum Willemsz. van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Willem Pelgrumsz. van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Cornelis van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Heyltgen Joostendr. van Brederode</persname>
+      </origination>
+      <origination>
+        <persname>Joost van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Cornelis van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Johannes van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Frans van Zijll</persname>
+      </origination>
+      <origination>
+        <persname>Abraham van Zijll</persname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat stukken van ambtelijke en persoonlijke aard afkomstig uit het bezit van Philips van Zijll (1583-1637), ontvanger van de gemene middelen te Hulst 1655-1666: het betreft voornamelijk stukken van. Joost van Zijll, secretaris, ontvanger der verpondingen en griffier van het Leenhof van Vianen. In het archief zijn onder meer charters te vinden uit de periode 1430-1572 en transportbrieven betreffende land en goederen onder het Leenhof van Vianen.</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <p>De aanteekening in den inventaris van den Raad van State voegt bij den naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam, die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666. Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie Raad van State 25 November 1662 ..............."</p>
+        <p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit bescheiden in het archief van den Raad van State, dat de papieren van Philips van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris, opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli 1666, is in het archief van den Raad van State aanwezig. <note>
+            <p> Inv. no 2114.</p>
+          </note> Bij resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld zouden worden in handen van den thesaurier-generaal.</p>
+      <bioghist>
+      <head>Stamboom</head>
+      <p><extptr actuate="onload" href="http://www.gahetna.nl/sites/default/files/afbeeldingen/toegangen/NL-HaNA_1.10.88_Stamboom.jpg" linktype="simple" show="embed"/></p>
+      </bioghist>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <p>Bij het archief van den Raad van State bevond zich eene verzameling stukken, die op het Rijksarchief tijdelijk beschreven was geweest bij de zoogenaamde "Verspreide collecties" (Kamer 43, nos. 56-58), doch op aanwijzing van jhr. mr. Van Riemsdijk bij het archief van genoemd college was geplaatst. Een gedeelte der stukken was door hem voorloopig beschreven op eene lijst, waarop hij aangeteekend had: "Vermoedelijk uit het archief van den Raad van State en afkomstig van Philips van Zijll, ontvanger van de gemeene middelen te Hulst, op wiens goederen in 1666 wegens zijne insolventie beslag werd gelegd."</p>
+        <p>De aanwijzing van den heer Van Riemsdijk vindt bevestiging in eene opgave, die voorkomt in den 18den-eeuwschen Inventaris van het archief van den Raad van State; in dezen inventaris staat bij de afdeeling: "Charters, documenten en papieren in de kassen in het Groote vertrek naast de Raadkamer 3e kas loquet 1", de volgende aanteekening: "N.B. In deese kasse op de bovenste. plank leggen verscheiden oude transport- en leenbrieven van diversche jaaren van boomgaarden en landerijen, geleegen onder Asperen, Vianen, Workum etc. beneevens eenige papieren., waarvan de meeste seer defect en. door bederf genoegsaam onleesbaar zijn, alles relatif tot den boedel van zeekere Van Zijll. N.B. Uit deselve blijkt, dat er een Van Zijll geweest is ontfanger over Hulst en Hulsterambacht en een J. van Zijll, secretaris te Vianen."</p>
+        
+      <acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>De rechtstitel is (nog) onbekend.</p></acqinfo></custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">1.10</subject>
+      </controlaccess>
+      <processinfo>
+        <head>Verantwoording van de bewerking</head>
+        <p>De inventarisatie der verzameling Van Zijll, waarvan de beschrijving thans volgt, leverde moeilijkheden. op, doordat met die bescheiden vermengd waren papieren, waarvan met zekerheid bleek, dat zij niet tot het archief van den Raad van State behoorden, maar op het Rijksarchief tusschen de verzameling-Van Zijll waren geraakt. Bij deze papieren van andere herkomst waren onder meer enkele stukken, behoorende tot de Nassausche domeinarchieven (Grafelijkheid Buren). Ook is wellicht een enkel stuk, behoorende tot het eigenlijk archief van den Raad van State, bij de Van Zijll-papieren gekomen. Gepoogd is, zoo goed mogelijk de in 1666 in beslag genomen collectie te zuiveren, waartoe meestal met den inhoud der hier beschreven bescheiden te rade moest worden gegaan.</p>
+        <p>Eerder gepubliceerd in: Inventarissen Rijksarchieven (IRA) III (1930) 3-30</p>
+      </processinfo>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Collectie Van Zijll, nummer toegang 1.10.88, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Zijll, van, 1.10.88, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <relatedmaterial>
+        <head>Verwante archieven</head>
+        <p>NL-HaNA, Raad van State, 1.01.19.</p>
+      </relatedmaterial>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">A</unitid>
+          <unittitle>Stukken betreffende leden van het geslacht Van Zijll en van aanverwante geslachten.</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">A.1</unitid>
+            <unittitle>Geslacht Van Zijll.</unittitle>
+          </did>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.1.1.</unitid>
+              <unittitle>Willem Claesz., Pelgrum Willemsz. en Willem Pelgrumsz. van Zijll.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057126" type="ABS">1</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51268279-3d93-436e-978a-f01a199c46e0</unitid>
+                <unittitle>Brief, verleden voor schout en schepenen van Vianen, betreffende het onderhoud van Pelgrum, Claes, Willamgen en Aeltgen, onmondige kinderen van wijlen Willem Claesz. en diens weduwe Jut. (Reg. no. 5.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1517">1517 Februari 3.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">5</num>
+                  <date calendar="julian" era="ce" normal="1517-02-03">1517 Februari 3</date>
+                </p>
+                <p altrender="regest_beschrijving">Andries Koevoet, schout, gemachtigd, Heynrick van der Donck, Frederick van Meerloe en Dirck Mathenaer, schepenen van Vianen, oorkonden, dat Jut Willam Claesz. weduwe in tegenwoordigheid van Jacob Claesz., oom en voogd harer 4 onmondige kinderen: Pelgrim Claes, Willam Claesz. zonen, Willamgen en Aeltgen Willam Claes-zoonsdochteren, eene regeling maakt betreffende het onderhoud dier kinderen tot aan hunne mondigheid toe.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1517-02-03">Int jair ons Heeren vijftienhondert ende seventien opten IIIen dach in Februario.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 1</ref>. Met het zeer geschonden zegel van schepen Van Meerloe in groene was. De zegels der andere oorkonders zijn verloren.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057127" type="ABS">2</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aaac8faa-98d2-4a45-95b8-e00f8bce5529</unitid>
+                <unittitle>Brief, waarbij Reynault, heer van Brederode, vrijheer van Vianen enz., Willem Pelgrumsz. committeert tot secretaris der stad Vianen. (Reg. no. 15.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1554">1554 Februari 12.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">15</num>
+                  <date calendar="julian" era="ce" normal="1554-02-12">1554 Februari 12</date>
+                </p>
+                <p altrender="regest_beschrijving">Reynoult heer van Brederode, vrijheer van Vyanen enz., committeert Willem Pelgrumsz. tot secretaris der stad Vyanen in de plaats van Georgen Ludolph en stelt regelen vast betreffends de uitoefening dier betrekking.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1554-02-12">Gegeven in onsen voorsz. stadt Vyanen den twaeleffsten dach van Februario anno XVc vier ende vijftich, stilo curie Trajectensis.</date>
+                </p>
+                <p altrender="regest_nb">"Oorspr. <ref linktype="simple">Inv. no. 2</ref>. Met handteekening van den oorkonder; zijn grootzegel is verloren."</p>
+                <p altrender="regest_nb">Op de rugzijde: verklaring omtrent eedsaflegging door Willem Pelgrumsz. d.d. 1554 Februari 12.</p>
+              </scopecontent>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.1.2.</unitid>
+              <unittitle>Cornelis van Zijll en Heyltgen Joostendr. van Brederode.</unittitle>
+            </did>
+            <odd>
+              <p>Cornelis van Zijll (zoon van Willem Pelgrumsz. van Zijll) is, evenals zijn vader, secretaris van Vianen geweest. Hij was gehuwd met Heyltgen (Heylwich) Joostendr. van Brederode. Hij overleed in November 1605 en zijne huisvrouw 17 Augustus 1619.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057128" type="ABS">3</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6bbbf2e0-be6a-4cce-aa90-a7971f4912c0</unitid>
+                <unittitle>Acte van huwelijksvoorwaarden tusschen Cornelis van Zijll Willemsz. en Heylwich Joostendr. van Brederode, 1580 September 24; verleibrief door leenmannen van het huis en de heerlijkheid van Vianen van eene halve hoeve land, groot 8 morgen, gelegen in "den Biessen" onder het gerecht van Vianen, aan Cornelis van Zijll Willemsz. en Heylwich Joostendr. van Brederode, "tot vorderinge van thuwelick" tusschen hen, opgedragen door Judith van Rysenborch Joostendr., huisvrouw van Andries Croll van der Mast, die de andere helft dier landen opdraagt aan haar nicht Anna van Rysenborch, moeder van voornoemde Heylwich, die deze wederom opdraagt aan hare dochter Heylwich.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1580">1580 September 24.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>Hieronder de verklaring van Judith van Rysenborch, dat zij "tot vordering van thuwelick" tusschen Cornelis van Zijll en Heylwich van Brederode, haar nicht, hun gegeven heeft een rentebrief van 100 Carolusguldens.</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057129" type="ABS">4</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7fb12172-a674-40ba-aa08-27e50aee69b3</unitid>
+                <unittitle>Request van Cornelis van Zijll, secretaris van het gerecht van Vianen, gehuwd met Heylwich Joostendochter van Brederode, aan schout, burgemeesters en schepenen der stad, om uitlevering door Andries van der Mast van de brieven der renten en goederen, hun door wijlen diens huisvrouw Judit van Rysenborch bij acte van 20 October 1587 voor het gerecht van Vianen als hare erfgenamen getransporteerd; met daarop genomen beschikking.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1590">1590 October.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057130" type="ABS">5</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f4f4fae-e910-422b-a8d0-2ab5116cb1ec</unitid>
+                <unittitle>Memorie betreffende eene verrekening, gesloten tusschen Dirck Heyndrickxz. van Beusechem, namens de weduwe van den schout Sandwijck, en Joost van Zijll uit naam zijner moeder Heyltgen, weduwe van Cornelis van Zijll.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1613">1613 Augustus 10.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.1.3.</unitid>
+              <unittitle>Joost van Zijll.</unittitle>
+            </did>
+            <odd>
+              <p>Joost van Zijll, geboren in 1583, was een zoon van Cornelis van Zijll en Heyltgen Joostendochter van Brederode. Hij huwde, 5 Mei 1612, te Gorinchem met Elisabeth de Roy. Zijne huisvrouw stierf 9 Januari 1633. Hij huwde daarna, 8 Juni 1634, te Heikop met Johanna van Vierssen, weduwe van Samuel Luntius, burgemeester van Vianen. Joost van Zijll bekleedde in Vianen de ambten van secretaris, griffier van het leenhof en ontvanger der verpondingen. Aldaar is hij in 1637 overleden; blijkens eene acte van 29 Augustus 1637 in een register van opdrachten enz. (rechterlijk archief van Vianen, F. L. no. 10) zal dit overlijden waarschijnlijk op dien dag of kort daarvoor plaats gehad hebben.</p>
+            </odd>
+            <c04 level="subseries">
+              <did>
+                <unitid type="series_code">A.1.3.a</unitid>
+                <unittitle>Particulier.</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057131" type="ABS">6</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/18bbc2b0-98d3-45a0-8c2a-d7cf45929e5d</unitid>
+                  <unittitle>Quitantiën, rekeningen enz., betreffende het beheer door Joost van Zijll van den boedel zijner moeder Heyltgen van Zijll, weduwe van Cornelis van Zijll, secretaris van Vianen.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1619/1621">1619-1621.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057132" type="ABS">7</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/79f523af-2a5d-4db8-badc-a87ca888dddf</unitid>
+                  <unittitle>Stukken betreffende eene verrekening van Joost van Zijll met zijne broeders Pelgrum, Frans en Abram.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1626">1626.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057133" type="ABS">8</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75adbded-1449-44a0-aae4-5e7cb94e4460</unitid>
+                  <unittitle>Stukken betreffende de betaling van 750 guldens door Joost van Zijll bij het verkrijgen van het secretarisambt van Vianen aan Martina van Giffen, weduwe Alexander Craeck, in leven secretaris van Vianen.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1627/1628">1627-1628.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057134" type="ABS">9</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2212db76-805a-4b32-af32-6f7f6af7fd00</unitid>
+                  <unittitle>Rekeningen en andere stukken van de administratie door Joost van Zijll van de goederen, die hij met zijne broeders en zijne zusters kinderen in het gemeen had.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1626/1630">1626-1630.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+                <odd>
+                  <p>De rekeningen zijn gedaan, gehoord en gesloten door J. van Zijll, F. van Zijll en A(?). van Zijll den 11den April 1630.</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057135" type="ABS">10</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0afd6234-8f74-4fa8-bb68-5ea817f381b8</unitid>
+                  <unittitle>Specificatiën van leveringen aan Joost van Zijll door Cornelis Dingemans, smid, en de weduwe van Samuel de metselaar.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1628/1631">1628-1631.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057136" type="ABS">11</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1b73cbc-edeb-4a97-997f-d70603e6deab</unitid>
+                  <unittitle>Brieven van Haesken Govertsdochter van Slingelant en Jenncken de Roy te Gorinchem en Johan van W......... te 's-Gravenhage aan Joost van Zijll betreffende betaling van het geld, aan zijne overleden huisvrouw en schoonmoeder geleend.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1633/1634">1633-1634.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057137" type="ABS">12</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/645b5d13-ffd9-4350-8049-67e78160ec02</unitid>
+                  <unittitle>"Memoriaal", gehouden door Joost van Zijll betreffende zijne goederen en inkomsten.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1612/1634">(c. 1612-c. 1634.)</unitdate>
+                  <physdesc>1 deeltje.</physdesc>
+                </did>
+                <odd>
+                  <p>Gemerkt: "Annotitieboeck van Joost van Zijll." Met tafel. - Voorin bevinden zich aanteekeningen van Joost van Zijll omtrent geboorte, huwelijk en overlijden van leden zijner familie.</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057138" type="ABS">13</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ee85ffe-590e-4c3f-942c-70ea89fc93b1</unitid>
+                  <unittitle>Afrekening van Seger Gerryts, koordewerker, met Joost van Sijll wegens leverantiën.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1635">1635.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057139" type="ABS">14</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6393f66-1c71-47e9-b1de-520caa4a904a</unitid>
+                  <unittitle>Request van de voogden der kinderen van wijlen Joost van Zijll, secretaris van Vianen, en Johanna van Vierssen, benevens Cornelis van Rodenburch als man van Anna van Zijl, aan het gerecht van Vianen, om in de plaats van Joost van Zijll een ander te benoemen als boedelberedderaar van het erfhuis van Jacob Adams, koster te Vianen; met daarop genomen beschikking. Minuut.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1638">1638 Juni.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="otherlevel" otherlevel="filegrp">
+                <did>
+                  <unitid>15-18</unitid>
+                  <unittitle>Stukken betreffende het beheer door Joost van Zijll van den boedel van Catrine van Sweeten, gehuwd met jr. Lodewijk van Brederode en Nyenweert.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1595/1617">1595-1617 en z. j.</unitdate>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057140" type="ABS">15</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd3fe983-1dd9-45db-ae38-b14c51c35538</unitid>
+                    <unittitle>Accoord tusschen Joost Cornelisz., bakker, als man van Aeltgen van Sweeten, mede-erfgenaam van mr. Gerrit van Sweeten, predikant te Vianen, en Cathrina van Sweeten, mede-erfgenaam van mr. Gerrit van Sweeten, geassisteerd met jonker Lodewijck van Brederode en Nieuweert, rakende het hebben of gebruiken van goederen uit de nalatenschap van voornoemden Gerrit van Sweeten. <unitdate calendar="gregorian" era="ce" normal="1595">1595 Augustus 22.</unitdate>
+                    </unittitle>
+                    <physdesc>1 stuk.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057141" type="ABS">16</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/81083eb8-3581-40c4-97a3-131f4a719f34</unitid>
+                    <unittitle>Lijst van goederen, waarvan Catrine van Sweetendr., weduwe jonker Lodewijk van Nyenweert, verklaart, dat zij haar toebehooren. <unitdate calendar="gregorian" era="ce" normal="1613">1613 Juli 12.</unitdate>
+                    </unittitle>
+                    <physdesc>1 stuk.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057142" type="ABS">17</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97eebbf1-91e9-439e-a026-5770c02a68ae</unitid>
+                    <unittitle>"Memorie van penninghen", uitgegeven voor en terugontvangen van Trijntgen van Nyeweert, door Van Zijll. Met bijlagen <unitdate calendar="gregorian" era="ce" normal="1617">1617.</unitdate>
+                    </unittitle>
+                    <physdesc>3 stukken.</physdesc>
+                  </did>
+                  <odd>
+                    <p>De "memorie" is gemerkt: "Catrijn van Sweten".</p>
+                  </odd>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057143" type="ABS">18</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a5801e2-ad5d-4b87-bf52-dc8a1c4bec42</unitid>
+                    <unittitle>"Memorie, dyenende tot onderrichtinge van degeene, bij dewelcke beslicht sall worden dye questie, uuytstaende tusschen Gerbrecht, dochter van Antonis Jansz. Berchmans ende Catharina van Sweten", betreffende 2 morgen land, liggende "in den Enge" te Hagestein, leenroerig aan den huize van Egmond. <unitdate calendar="gregorian" era="ce" normal="1592">Z. j. (na 1592).</unitdate>
+                    </unittitle>
+                    <physdesc>1 stuk.</physdesc>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="otherlevel" otherlevel="filegrp">
+                <did>
+                  <unitid>19-23</unitid>
+                  <unittitle>Stukken betreffende het beheer door Joost van Zijll als curator over den boedel van Henrica de Wildt, weduwe van François van Nyenweert.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1613/1615">1613-1615.</unitdate>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057144" type="ABS">19</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a59bdc8-68e4-4c29-bc02-c3cfb99a90d5</unitid>
+                    <unittitle>Stukken betreffende het proces, gevoerd voor het gerecht van Vianen, door Hans Adriaensz. tegen Joost van Zijll als curator over de nagelaten goederen van Henrica de Wildt, weduwe van Nyenweert, over goederen harer nalatenschap. <unitdate calendar="gregorian" era="ce" normal="1613">1613.</unitdate>
+                    </unittitle>
+                    <physdesc>1 dossier.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057145" type="ABS">20</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d8cac62-cdaf-469e-9b19-17677b9894c8</unitid>
+                    <unittitle>Lijst en voorwaarden der verkooping van de goederen, nagelaten door Henrica van Nyenweert, met aanteekening van de namen der koopers en koopsom door den curator Joost van Zijll en andere stukken, op die verkooping betrekking hebbende. <unitdate calendar="gregorian" era="ce" normal="1613">1613.</unitdate>
+                    </unittitle>
+                    <physdesc>1 omslag.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057146" type="ABS">21</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/28850372-f011-434e-904f-058d11d1c0a3</unitid>
+                    <unittitle>Stukken betreffende den verkoop door Joost van Zijll, als curator over de nagelaten goederen van Henrica de Wildt, weduwe van François van Brederode en Nijenweert, van het haar toebehoord hebbende huis met hof en boomgaard, groot 2 hond, gelegen binnen Vianen. <unitdate calendar="gregorian" era="ce" normal="1614">1614.</unitdate>
+                    </unittitle>
+                    <physdesc>1 omslag.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057147" type="ABS">22</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9abd0bd8-70ba-4f11-ab7c-9828c2a1449d</unitid>
+                    <unittitle>Specificatie van hetgeen aan het gerecht van Vianen als salaris toekomt uit den nagelaten boedel van Henrica de Wildt. <unitdate calendar="gregorian" era="ce" normal="1614">1614.</unitdate>
+                    </unittitle>
+                    <physdesc>1 stuk.</physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <unitid identifier="1057148" type="ABS">23</unitid>
+                    <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c74d68f-e3fd-409e-929d-3dd7598734ba</unitid>
+                    <unittitle>Memorie van Joost van Zijll als curator over den boedel, nagelaten door juffrouw Van Nyenweert, gegeven aan den gerechtsbode Henrick Paen, om de daarop vermelde personen te dagvaarden in zake hunne rekeningen. <unitdate calendar="gregorian" era="ce" normal="1615">1615.</unitdate>
+                    </unittitle>
+                    <physdesc>1 stuk.</physdesc>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="subseries">
+              <did>
+                <unitid type="series_code">A.1.3.b</unitid>
+                <unittitle>Secretaris van Vianen (1627-1637).</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057149" type="ABS">24</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c768d4c5-bf8a-4e17-a428-719d1b9522d7</unitid>
+                  <unittitle>Rekening der ontvangsten en uitgaven van de kerk te Vianen. Afschrift.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1631">1631.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+                <odd>
+                  <p>Onder de uitgaven is deze post: "Den secretaris voort dubbelleren ende appostelleren van dese reeckeninge 2 - 2 - ". In 1631 nu was Joost van Zijll secretaris van Vianen.</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057150" type="ABS">25</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e97354e6-a2a2-478b-ba35-5e1e7aa9328e</unitid>
+                  <unittitle>Stukken betreffende het verlei door den heer van Brederode van 8 morgen land, gelegen in Lakerveld, aan het weeshuis te Utrecht.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1634/1635">1634-1635.</unitdate>
+                  <physdesc>1 omslag.</physdesc>
+                </did>
+                <odd>
+                  <p>Hierbij stukken, gezonden aan den secretaris Van Zijll te Vianen.</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057151" type="ABS">26</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcb600e4-a46b-4505-bcfd-73698d947372</unitid>
+                  <unittitle>Verklaring, afgelegd voor burgemeesters, schepenen en raden van Vianen, door Rudolph Streng, procureur, en Abraham Luntius, herbergier in "den Engel", ten verzoeke van Symon Jansz. van Hoorn, over het verblijf van Maria, jongedochter van Eindhoven, te Vianen. Minuut.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1637">1637 Juli 30.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+                <odd>
+                  <p>Geschreven door Joost van Zijll.</p>
+                </odd>
+              </c05>
+            </c04>
+            <c04 level="subseries">
+              <did>
+                <unitid type="series_code">A.1.3.c</unitid>
+                <unittitle>Griffier van het leenhof te Vianen.</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057152" type="ABS">27</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/47b378e5-072a-497a-86f0-922aea2c8dcb</unitid>
+                  <unittitle>Brief van Joost van Zijll, griffier van het leenhof van Vianen, aan den heer Van Cats in Den Haag betreffende de leenroerigheid der heerlijkheid Herenthout aan den huize van Vianen. Minuut.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1630/1639">163.... December.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+                <odd>
+                  <p>Geschonden.</p>
+                </odd>
+              </c05>
+            </c04>
+            <c04 level="subseries">
+              <did>
+                <unitid type="series_code">A.1.3.d</unitid>
+                <unittitle>Ontvanger van de verponding te Vianen.</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057153" type="ABS">28</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ff652a3-4658-49a4-ba57-ff339e44d1db</unitid>
+                  <unittitle>"Restanten van verpondingen, in September 1622 uuytgetrocken ende oversien."</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1622">Z. j. (c. 1622).</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057154" type="ABS">29</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/352d7575-702c-41bd-b01b-b50c1668d7c9</unitid>
+                  <unittitle>Antwoord van Joost van Zijll, als gewezen ontvanger der verpondingen, op het request van Coenraedt van Marsbach namens Henrick Jansz. van der Vecht als curator over de goederen, nagelaten door Hans van Marsbach, overgegeven aan het gerecht van Vianen, betreffende achterstallige verponding over de jaren 1613-1617; met daarop genomen beschikking.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1624">1624 April.</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057155" type="ABS">30</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/863a868f-1314-4d8d-b3d9-22a524401a8f</unitid>
+                  <unittitle>Rekening der ontvangsten en uitgaven aan verpondingen, accijnzen en tienden van de uiterwaarden en landen onder het schoutambt Vianen, Bolgerij en Autena, als ook van de huizen, staande binnen Vianen en op den havendijk, over het jaar 1625, gemaakt namens den ontvanger Jan ter Brugge.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1626">(1626.)</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057156" type="ABS">31</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7e9c41d-c503-4935-bf58-8dca27ba4420</unitid>
+                  <unittitle>Rekening der ontvangsten en uitgaven aan zout-, boter- en paardegeld in de stad en het land van Vianen over het jaar 1625, gemaakt door den ontvanger Jan ter Brugge.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1626">(1626.)</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057157" type="ABS">32</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12b16cbf-e33b-4cd3-b1b3-edbc6e9eaee8</unitid>
+                  <unittitle>Specificatie van hetgeen Jan ter Bruggen competeert van Joost van Zijll ter zake van verpondingen en het zoutgeld over de jaren 1623-1629.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1629">Z. j. (c. 1629.)</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+                <odd>
+                  <p>Ter Bruggen is ook ontvanger der verponding en het zoutgeld geweest in de stad en het Land van Vianen evenals Joost van Zijll.</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="1057158" type="ABS">33</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c723ec1c-cfee-4612-a327-fe93751e35f5</unitid>
+                  <unittitle>Specificatie van hetgeen den overleden secretaris (Van) Zijll toekomt van Jan ter Bruggen over de jaren 1625-1637.</unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1637">Z. j. (c. 1637.)</unitdate>
+                  <physdesc>1 stuk.</physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.1.4</unitid>
+              <unittitle>Cornelis en Johannes van Zijll.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057159" type="ABS">34</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e71716c-080e-4138-aaf8-472943c5794e</unitid>
+                <unittitle>Stukken betreffende het geldelijk voorschot door de huisvrouw van Johan van Wevelinchoven, pensionaris van Leiden, aan haar neef Johannes van Zijll.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1639">1639.</unitdate>
+                <physdesc>1 omslag.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057160" type="ABS">35</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4fd89443-e2f4-4558-bdb1-9d3c876029c9</unitid>
+                <unittitle>Brief van Huybert Jansen van Cuylenborch, hellebaardier te Batavia. aan Cornelis van Sijl betreffende aan laatstgenoemde voorgeschoten geld.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1647">1647 December 10.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>De brief maakt melding van Cornelis' broeder in Oost-Indië, den fiscaal Van Zijll, d. i. Jan von Zijll, fiscaal op Ternate; hieruit volgt, dat Cornelis als zoon van Joost van Zijll valt aan te wijzen.</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.1.5</unitid>
+              <unittitle>Frans en Abraham van Zijll.</unittitle>
+            </did>
+            <odd>
+              <p>Frans van Zijll was een zoon van Cornelis van Zijll en Heyltgen Joostendr. van Brederode en huwde met Cornelia van Everdingen, dochter van mr. Anthony van Everdingen, secretaris van Oudewater, en Maria van der Egge. Hij was sedert Februari 1625 drossaard en rentmeester der stad en baronie van Asperen <note>
+                  <p>M. Beekman, Beschrijving van de stad en baronie Asperen. Utrecht 1745.</p>
+                </note> en is, in September 1647, vandaar metterwoon naar Hulst vertrokken <note>
+                  <p>Aanteekening in een register van schepenacten van Asperen op fol 92 vo. van Inv. no. 1378 van het Archief der gemeente Asperen, afgedrukt in Verslagen omtrent 's Rijks oude archieven, 1922, I, Bijl. XI.</p>
+                </note>, omdat hij 31 Augustus 1646 door den Raad van State benoemd was als ontvanger der gemeene middelen van Hulst en Hulsterambacht. Hij is, om ouderdoms- en gezondheidsredenen, op eigen verzoek 17 Maart 1655 uit die betrekking ontslagen. In 1656 is hij waarschijnlijk overleden.</p>
+              <p>Abraham van Zijll was secretaris van Asperen van 1624 tot 1640. Hij stierf 22 Februari 1640. <note>
+                  <p>Zie hiervoor: Beekman, Beschrijving enz.</p>
+                </note>
+              </p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057161" type="ABS">36</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/28f8bf88-70b2-4807-b35a-7371001d3f9b</unitid>
+                <unittitle>Brief van Jan van Glubbeeck (?) te Utrecht aan Francoys en Abraham van Sijll, drossaard en secretaris der stad Asperen. over pretentiën der kinderen van wijlen Johanna van Vierssen tegen de kinderen van wijlen Joost van Zijl, hun broeder, en over de rekening van den secretaris Bolcq en van Peter Jacobsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1639">1639 September 21.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057162" type="ABS">37</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9b30675-82f0-4734-824a-ebbf214273f3</unitid>
+                <unittitle>Quitantie van Willem Jansen van Meeuwen voor Cornelia van Zijll wegens betaling voor aan haar geleverd brood enz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1666">1666 Maart.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>Cornelia van Zijll is blijkbaar Cornelia van Everdingen, weduwe Frans van Zijll.</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">A.2</unitid>
+            <unittitle>Aanverwante geslachten.</unittitle>
+          </did>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.1</unitid>
+              <unittitle>Judith van Rysenborch.</unittitle>
+            </did>
+            <odd>
+              <p>Zij was oud-tante van Heylwich Joostendr. van Brederode, huisvrouw van Cornelis van Zijll.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057163" type="ABS">38</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/244345c5-6a67-4723-ac5c-04a6235b10bf</unitid>
+                <unittitle>Brief, waarbij Hendrick, heer van Brederode, vrijheer van Vianen, consenteert aan Judith en Bernt van Rysenborch Hendricksdochters, om over de goederen, die zij van hem in leen houden, te disponeeren. (Reg. no. 22.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1564">1564 Juni 29.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">22</num>
+                  <date calendar="julian" era="ce" normal="1564-06-29">1564 Juni 29</date>
+                </p>
+                <p altrender="regest_beschrijving">Hendrick, heer van Brederode, vrijheer van Vianen enz., consenteert aan Judith en Bernt van Rysenborch Hendricksdochteren, dat een ieder van haar zal mogen disponeeren over de goederen, die zij van hem in leen houden, waar die ook gelegen zijn.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1564-06-29">Gegeven int jaer ons Heeren XVc vier ende tsestich den naestlesten Junii.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 38</ref>. Het zegel van den oorkonder verloren.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057164" type="ABS">39</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8dc55fe-1450-4463-a419-af150f743028</unitid>
+                <unittitle>Scheidsrechterlijke uitspraak in het geschil tusschen Judith van Rysenborch, weduwe van Lambert Bosman, en Peterken, dochter van genoemden Lambert, over de huwelijksvoorwaarden, gemaakt tusschen Lambert Bosman en Judith van Rysenborch. Met 2 gewaarmerkte afschriften van 1576.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1576">1576 Juli 28.</unitdate>
+                <physdesc>3 stukken.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057165" type="ABS">40</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdc8a7df-32dc-4428-81a2-8eabb45a2eb0</unitid>
+                <unittitle>Testament, verleden voor schepenen en secretaris van Vianen, door Judith van Rysenborch Heynricxdochter, huisvrouw van Andries Croll van der Mast Woutersz., waarin zij Marye Joostendr. en Heylwich Joostendr. van Brederode, huisvrouw van Cornelis van Zijll, tot erfgenamen maakt en legateert ten behoeve van de armen van Vianen, van Elizabeth Anthonisdr. weduwe van Bartolomeus Jansz. en van bovengenoemden Andries.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1586">1586 Mei 31.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.2</unitid>
+              <unittitle>Luntius.</unittitle>
+            </did>
+            <odd>
+              <p>Johanna van Vierssen, weduwe Samuel Luntius huwde in 1634 met Joost van Zijll.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057166" type="ABS">41</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3dbfc128-5518-419f-87ca-83ed72a3cac6</unitid>
+                <unittitle>Lijfrentebrief van 50 Carolusguldens, door de Staten van Utrecht verleend aan Samuel Lontius, ten behoeve van zijn dochtertje Margareta.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1628">1628 Februari 8.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057167" type="ABS">42</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9ba7dea-3cc9-45ce-99d8-0d1c18cf8ec3</unitid>
+                <unittitle>Gequiteerde memorie van leveringen in 1634, door Hermen Tonisz., smid, aan de weduwe van "monsieur Lonsius (?)".</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1635">1635 Juli 2.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.3</unitid>
+              <unittitle>Cornelis van Rodenburch.</unittitle>
+            </did>
+            <odd>
+              <p>Cornelis van Rodenburch was een zoon van Aelbert Maertensz. van Rodenburch en Joosgen Cornelisdr., notaris en procureur te Vianen, en huwde met Annichgen van Zijll, dochter van Joost van Zijll en Elisabeth de Roy.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057168" type="ABS">43</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a035f38-6879-40a2-ab74-5d73789a76c4</unitid>
+                <unittitle>Inventaris der goederen, nagelaten door Catharina Bosman, huisvrouw van Regnerus Vogelsangh, predikant te Heikop, overleden 1 October 1636, en aldaar verkocht.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1641">1641 Februari 12.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>Met conditiën van den verkoop en aanteekeningen omtrent de opbrengst. In den boedel komen conterfeitsels voor van Luntius en Johanna van Vierssen, die o.a. gehuwd is geweest met Joost van Zijll. Koopers zijn o.a. de heer Rodenburch en zijne huisvrouw. Cornelis van Rodenburch te Vianen was gehuwd met Annichgen van Zijll, dochter van Joost van Zijll.</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057169" type="ABS">44</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9dc680aa-1c03-4665-91ab-ce510288ea12</unitid>
+                <unittitle>Rekening van ontvangsten en uitgaven door Cornelis van Rodenburch, notaris en procureur te Vianen, wegens het beheer van goederen, gelegen in Lakerveld enz., toebehoorende aan Elisabeth en Catharina van Alckemade, wonende te Amsterdam. Met bijbehoorende stukken.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1642/1644">1642-1644.</unitdate>
+                <physdesc>1 omslag.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057170" type="ABS">45</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ad4f9c3-3569-4252-adfc-f7bbe3cc5001</unitid>
+                <unittitle>Stukken betreffende de door Cornelis van Rodenburch niet aanvaarde nalatenschap zijner ouders.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1628/1653">1628-1653.</unitdate>
+                <physdesc>1 dossier.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.4</unitid>
+              <unittitle>Van Everdingen.</unittitle>
+            </did>
+            <odd>
+              <p>Frans van Zijll huwde met Cornelia van Everdingen, dochter van mr. Anthony van Everdingen, secretaris en burgemeester van Oudewater, en Maria van der Egge.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057171" type="ABS">46</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c54b7aca-b400-42e1-bdea-7b74e1e90050</unitid>
+                <unittitle>Voorwaarden, waarop Agniet van Everdingen, weduwe Jaspar van Everdingen, als haar dienaar Christiaen Diericxz. aangenomen heeft voor het ontvangen van de pachten, renten enz. in de heerlijkheid van Kuilenburg en van Everdingen. (Reg. no. 11.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1549">1549 Juni 14.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">11</num>
+                  <date calendar="julian" era="ce" normal="1549-06-14">1549 Juni 14</date>
+                </p>
+                <p altrender="regest_beschrijving">Daniël van der Heyde en Cristiaen Dieriexz. oorkonden, dat Agniet van Everdingen, weduwe van Jaspar van Everdingen, ten huize van Barbara, weduwe Roeloff Wynen, de voorwaarden heeft gemaakt. waarop zij Christiaen Diericxz. als haar dienaar aangenomen heeft voor het ontvangen harer pachten, renten enz., in de heerlijkheid van Culemborch en van Everdingen.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1549-06-14">Opten XIIIIen Junii anno XVc XLIX.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 46</ref>. Op papier. Met handteekening van de oorkonders en van Agniet, weduwe Jaspar van Everdingen.</p>
+              </scopecontent>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.5</unitid>
+              <unittitle>Blom.</unittitle>
+            </did>
+            <odd>
+              <p>Cornelia Blom, gehuwd met Marten Gerritsz. de Jode, was eene zuster van Johannes Blom, predikant te Zalt-Bommel, echtgenoot van Annichgen van Zijll, dochter van Cornelis van Zijll en Heyltgen Joostendr. van Brederode.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057172" type="ABS">47</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b4c98d2-c1ee-4763-9ecf-bbfb3c7933ce</unitid>
+                <unittitle>Inventaris en rekening van den boedel, nagelaten door Cornelia Blom, weduwe van Marten Gerritsz. de Jode.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1624">1624.</unitdate>
+                <physdesc>2 stukken.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057173" type="ABS">48</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e58f725-9869-4d82-b4ca-c565a53a9f02</unitid>
+                <unittitle>Rekening van de administratie der goederen, door Johan van Doorn gedaan als medevoogd over de twee onmondige kinderen van wijlen Johannes Blom, predikant te Zalt-Bommel, en Annichgen van Sijll, 1623-1630; overgelegd aan Joost van Zijll, secretaris van Vianen, en Marcelis Wttewaell, als ooms en medevoogden der kinderen, den 24sten April 1630; gehoord en gesloten te Utrecht den 7den Januari 1631. Met bijlage</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1631">Januari 1631.</unitdate>
+                <physdesc>2 stukken.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unitid type="series_code">A.2.6</unitid>
+              <unittitle>Kinderen van Dirk van Zijll.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057174" type="ABS">49</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ca89f96-faf0-4edb-a7cc-69beda7d47bd</unitid>
+                <unittitle>Acte van condemnatiën van den Grooten Raad te Mechelen in het proces tusschen Daniël van Zijl en Gheerlof Jacobsz., als appellanten van het Hof van Holland, tegen Jan Jorysz. van Namen. (Reg. no. 6.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1517">1517 Juli 14.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">6</num>
+                  <date calendar="julian" era="ce" normal="1517-07-14">1517 Juli 14</date>
+                </p>
+                <p altrender="regest_beschrijving">De Groote Raad te Mechelen wijst vonnis in de zaak tusschen Daniël van Zijl en Gheerlof Jacobsz., als appellanten van het Hof van Hollant ter eener zijde, en Jan Jorysz. van Namen ter anderer zijde.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1517-07-14">Gedaen te Mechelen den XIIIIen dach in Julio int jaer duysentvijfhondert ende zeventhiene</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 49</ref>.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057175" type="ABS">50</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5de96e6-02d4-4476-abf9-258322b16d1e</unitid>
+                <unittitle>Sententie van het Hof van Holland in het proces tusschen Daniël van Zijl en Geerlof Jacobsz. in naam zijner moeder Celie van Zijl, als eischers, tegen Jan Jorysz. van Namen, als gedaagde, wegens geschil over de nalatenschap van hun vader en grootvader Dirck van Zijl. (Reg. no. 7.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1517">1517 November 26.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">7</num>
+                  <date calendar="julian" era="ce" normal="1517-11-26">1517 November 26</date>
+                </p>
+                <p altrender="regest_beschrijving">"Het Hof van Hollandt wijst vonnis in de zaak tusschen Daniël van Zijl en Geerlof Jacobsz. in den naam van Celie van Zijl, zijne moeder, impetranten ter eener, en Jan Jorysz. van Namen, gedaagde ter anderer zijde, betreffende een geschil  behandeld voor het gerecht van Oudewaeter  over de nalatenschap van Dirck van Zijl, die, getrouwd te Oudewaeter met Katerine, als kinderen had gehad: Daniël voornoemd, twee andere zonen, des voornoemden Geerlofs moeder, en Hase, die overleden is, toen Dirck van Zijl nog leefde, achterlatende haar zoon, den gedaagde voornoemd; verklaart de impetranten door het vonnis van het gerecht van Oudewater niet bezwaard en veroordeelt hen in de kosten van deze rechtzaak."</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1517-11-26">Ghegeven in den Hage ondert tsegel van justicie, dat men noch ter tijdt gebruyct, hieran ghehangen, upter zes ende twintichsten dach in Novembri int jaer ons Heeren duysent vijfhondert ende zeventiene.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 50</ref>. Het justitiezegel is verloren.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057176" type="ABS">51</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/27d4e427-0007-4935-9c12-a2cc0ea814d0</unitid>
+                <unittitle>Copie-sententie van schepenen van Oudewater in het proces van Jan Jorisz. van Namen tegen Daniël van Zijl en Geerlof Jacobsz., als gemachtigde zijner moeder Celye Jacop Hugensz. weduwe, over de nalatenschap van Dirck van Zijl en Kathrijn van Zijl. 1513 Januari 7. Gewaarmerkt afschrift der 16de eeuw. (Reg. no. 3.)</unittitle>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>Geschonden.</p>
+              </odd>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">3</num>
+                  <date calendar="julian" era="ce" normal="1513-01-07">1513 Januari 7</date>
+                </p>
+                <p altrender="regest_beschrijving">Schepenen van Oudewater wijzen vonnis in de zaak tusschen Jan Jorisz. van Namen ter eener en Daniël van Zijl en Geerlof Jacopsz. als gemachtigde zijner moeder Celye Jacop Hugensz. weduwe, ter anderer zijde, betreffende hunne geschillen over de nalatenschap, bijzonder 6 morgen land, gelegen onder Linschoten, in gebruik bij Bouwen Jacopsz., van Dirck van Zijl en Kathrijn van Zijl, de overleden grootouders van moederszijde van Jan Jorisz. van Namen en Geerlof Jacobsz. en de ouders van Daniël van Zijl.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1513-01-07">Op sevensten dach in Januario i(nt) jaer ons Heeren duysend vijfhondert (ende) derthienen.</date>
+                </p>
+                <p altrender="regest_nb">Gewaarmerkt afschrift van een afschrift. 16de eeuw. <ref linktype="simple">Inv. no. 51</ref>. Op papier.</p>
+                <p altrender="regest_nb">Geschonden.</p>
+              </scopecontent>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">B</unitid>
+          <unittitle>Stukken betreffende goederen.</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.1</unitid>
+            <unittitle>Algemeen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057177" type="ABS">52</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3dcb1706-51f7-4af9-ae38-40f261be7dc3</unitid>
+              <unittitle>Brief, waarbij koning Philips II consenteert aan de echtelieden Caerle Cassiopijn en Anna van Gruenenwoude, wonende te Utrecht, om over hun leen- en andere goederen te disponeeren. (Reg. no. 18.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1562">1562 November 3.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">18</num>
+                <date calendar="julian" era="ce" normal="1562-11-03">1562 November 3</date>
+              </p>
+              <p altrender="regest_beschrijving">Philips, koning van Castillie enz., consenteert aan Caerle Cassiopijn en Anna van Gruenenwoude, wonende in de stad Utrecht, dat zij gezamenlijk of elk in het bijzonder mogen disponeeren over hunne roerende en onroerende goederen, die zij hebben of krijgen zullen.</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1562-11-03">Ghegeven in onser stadt van Bruessele den derden dach van November int jaer ons Heeren duysent vijfhondert tweentzestich van onsen rijcken te wetene van Spaengnen, Secille etc. t VIIe ende van Naples t IXte.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 52</ref>. Het zegel van den oorkonder is verloren.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057178" type="ABS">53</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5c9557a-b8e9-4d06-8310-4758bbade647</unitid>
+              <unittitle>Transportbrief, verieden voor schout en schepenen van Vianen, van de roerende en onroerende goederen, die Judith van Rysenborch Heynrixdr. bezit, aan de echtelieden Cornelis van Zijll Willemsz. en Heylwich Joostendr. van Brederode.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1587">1587 October 20.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057179" type="ABS">54</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f61df56a-2e98-43c0-956c-775daa717395</unitid>
+              <unittitle>Brief, verleden voor schout en schepenen van Vianen, waarbij Judith van Rysenborch, gehuwd met Andries Vermast, approbeert haar transport van goederen d.d. 20 October 1587 ann de echtelieden Cornelis Willemsz. van Zijll en Heylwich Joostendr.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1590">1590 Maart 7.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057180" type="ABS">55</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a51db8d2-b8d3-4f95-a0a9-8cc2786be7f3</unitid>
+              <unittitle>Brief, verleden voor schout en schepenen van Vianen, door Judith van Rysenborch, waarbij zij approbeert het transport harer goederen, gedaan voor schout en schepenen voornoemd op 20 October 1587, ten behoeve der echtelieden Cornelis Willemsz. van Zijll en Heylwich Joostendr. en ook ten behoeve van hunne kinderen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1590">1590 Maart 7.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057181" type="ABS">56</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83906cbb-106a-49bb-9a11-7ad1a80f23cb</unitid>
+              <unittitle>Brief, waarbij Walraven, heer van Brederode, vrijheer van Vianen enz., consenteert aan Cornelis van Zijl en Heylwich Joostendr., echtelieden, om over de goederen, die zij van hem in leen houden, te disponeeren.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1603">1603 Augustus 15.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057182" type="ABS">57</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/172bc580-cc5b-4c61-acb4-b0c56521d7d0</unitid>
+              <unittitle>Brief, waarbij Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., consenteert aan Johan van Westrenen, raad en rentmeester der domeinen van Utrecht, om over de goederen, die hij van hem in leen heeft, te disponeeren.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1622">1622 September 16.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057183" type="ABS">58</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bfc7e8ab-9f20-4fd8-8ed3-d50346e2769a</unitid>
+              <unittitle>Brief, waarbij Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., consenteert aan Peter Willemsz. Roeck te Ameide, om van de goederen, die hij van hem in leen houdt, te disponeeren.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1624">1624 October 21.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057184" type="ABS">59</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/161d3b6d-424a-4eef-b00f-3faa0f5e91b7</unitid>
+              <unittitle>Brief, waarbij Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., consenteert aan de echtelieden Jan Breda en Elsgen Willemsdr. om over de goederen, die zij van hem in leen houden, te disponeeren.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1635">1635 Juli 8.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <odd>
+              <p>Gemerkt: "5".</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.2</unitid>
+            <unittitle>Asperen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057185" type="ABS">60</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/572c9aab-04ff-4c9c-a801-ae91699031de</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van 3 morgen land, gelegen in de "Vijff hoeven" in die heerlijkheid, door de curatoren over den boedel van wijlen Andries Gerritsz. aan François van Zijll, drost van stad en land van Asperen. 1631 Januari 15. Met bijbehoorende stukken.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1584/1631">1584-1631.</unitdate>
+              <physdesc>2 charters en 2 stukken.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057186" type="ABS">61</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f74c2fa1-e238-4879-bdc7-b558cfb3275f</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van 5 morgen 1 hond land, gelegen in die heerlijkheid, door Philips Jaques, baron van den Boetseler, vrijheer van Asperen, aan zijn drossaard en rentmeester François van Zijll.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1632">1632 Mei 26.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>62 en 63</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/34b1fe44-d7c0-4ece-929c-ededc8c50725</unitid>
+              <unittitle>Transportbrieven, verleden voor schepenen van Asperen, van 4 morgen land, gelegen in die heerlijkheid in het "Nieulant", en van 101/2 hond land, gelegen in die heerlijkheid "op den Eng", door Philips Jaques van den Boetseler, vrijheer van Asperen, aan Peter Baltusz. van Wevelinckhoven, brouwer te Gorinchem. 1632 Mei 26. 2 charters.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057187" type="ABS">62</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df383bcb-32eb-4579-ada0-235541056724</unitid>
+                <unittitle>Charter 1.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057188" type="ABS">63</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8679b7d9-0fb0-4ca3-9163-bcac3c6d21e8</unitid>
+                <unittitle>Charter 2.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057189" type="ABS">64</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71f83c67-7bfa-403c-82f3-f995b3da3248</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van 14 hond land, gelegen aldaar "op den Eng", door Philips Jacob van den Boetseler, vrijheer van Asperen, aan François van Zijll, drost dier stad.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1639">1639 Juni 23.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057190" type="ABS">65</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6484b0c-ccf8-43f3-a320-871242602402</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van een schuldbrief, groot 566 gulden 13 stuivers 4 penningen, verzekerd op een stuk land, gelegen "int overste nieuwelandt" in de heerlijkheid Asperen, door Hendrick van Rhijn als man van Cornelia van Rivieren, wonende te Amersfoort, mede-erfgenaam van wijlen haar vader en moeder Nicasius van Rivieren en Maria Duguesnoy, aan Margrieta van Alphen, weduwe Baltus Jansz. van Wevelichoven, burgemeester van Gorinchem. 1640 Juli 7. Met bijbehoorend stuk.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1617">1617.</unitdate>
+              <physdesc>2 charters.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057191" type="ABS">66</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d81e7a4a-b61e-4bb9-87ff-5da1a496f478</unitid>
+              <unittitle>Verleibrief door Philips Jacop van den Boetzeler, vrijheer van Asperen enz., van 191/2 en 8 hond land, gelegen in die heerlijkheid, onderscheidenlijk over den nieuwen weg in de "Reguliershoeff" en in "Griet-Lauwenhoeff", aan Philips van Zijll, zoon van François van Zijll, drossaard en stadhouder der leenen van Asperen, door opdracht van Merten Adriaensz. van de Giessen. 1641 Juli 6. Met bijbehoorende stukken.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1586/1628">1586-1628.</unitdate>
+              <physdesc>7 charters.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057192" type="ABS">67</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/317cd4ec-b619-469c-b222-2f1df6c7fc54</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van 51/2 hond land, gelegen in die heerlijkheid over den nieuwen weg in "Griet-Lauwenhoeff", door Agnieta Coenraetsdr. van Aelst, weduwe Hendrick van de Giessen, aan Franchois van Zijll, drossaard van Asperen. 1641 Juli 10. Met bijbehoorende stukken.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1587/1613">1587-1613.</unitdate>
+              <physdesc>3 charters.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057193" type="ABS">68</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/909e6c6e-7972-4549-8b4f-2e67ec95bfbf</unitid>
+              <unittitle>Verleibrief door Philips Jacob van den Boetzelaer, vrijheer van Asperen enz., van 2 morgen 20 roeden land, gelegen in Asperen over den nieuwen weg in de "hoeff boven Griepmanshoeff", aan Anthoni van Zijll, zoon van François van Zijll, drossaard en rentmeester der stad en baronie van Asperen, door opdracht van Adriaen Petersz. Pelt.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1645">1645 Maart 11.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057194" type="ABS">69</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c49ca32d-7110-4883-96b6-1675c6e58722</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Asperen, van 51/2 hond land, gelegen aldaar "op de Graswal", door Margrita van Alphen, wed. Baltus Janssen van Wevelinckhoven, aan François van Zijll, drossaard en rentmeester der stad en baronie van Asperen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1645">1645 Augustus 6.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057195" type="ABS">70</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36953cfc-c402-4b0e-9c2a-705de5ee2a0a</unitid>
+              <unittitle>Hypothecaire schuldbrief van 184 gulden, verleden voor schepenen van Asperen, van Willem Aeriens Prins ten behoeve van François van Zijll, ontvanger van Hulst en Hulsterambacht, verzekerd op een huis en erf te Asperen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1649">1649 Mei 27.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057196" type="ABS">71</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1293c159-dc83-4de4-bf63-d97a3c78145b</unitid>
+              <unittitle>Verleibrief door Philips Jacob van den Boetzeler, vrijheer van Asperen enz., van 4 morgen land, gelegen in die heerlijkheid in "de vijfhoeven boven Griepmanshoef", aan Abraham van Zijll, hem aangekomen door overlijden zijns vaders François van Zijll.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1656">1656 December 13.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057197" type="ABS">72</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/16cad49f-ea78-4246-983a-7896fcc87593</unitid>
+              <unittitle>Verleibrief door Philips Jacob van den Boetzeler, vrijheer van Asperen enz., van 2 morgen 20 roeden land, gelegen in die heerlijkheid over den nieuwen weg in "de hoef boven Griepsmanshoef", aan Carel van Zijll, minderjarigen zoon van François van Zijll, in leven ontvanger van Hulst, hem aangekomen door overlijden zijns vaders.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1658">1658 September 9.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057198" type="ABS">73</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/38e4b234-4c4d-433b-be08-25452c67cbbd</unitid>
+              <unittitle>Hypothecaire schuldbrief van 261 gulden, verleden voor schepenen van Asperen, van Cornelis van Zijll als gemachtigde van zijn broeder Philips van Zijll, ontvanger van Hulst en Hulsterambacht, ten behoeve van Willem Goossensz. Mosselmans te Woudrichem, verzekerd op een huis en erf te Asperen. 1663 November 5. Met bijbehoorend stuk.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1666">1666.</unitdate>
+              <physdesc>1 charter en 1 stuk.</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.3</unitid>
+            <unittitle>Hagestein.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057199" type="ABS">74</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e743991-3b95-4e6a-ac7c-df48382d58af</unitid>
+              <unittitle>Brief, waarbij Lamoraal, graaf van Egmond, op verzoek van Egbert van Zweeten van Vianen consenteert in den lijftocht van diens huisvrouw Haesgen Jan Baerntzoonsdochter van 2 morgen land in den Eng onder Hagestein, die hij van hem in leen houdt. (Reg. no. 13.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1551">1551 Juli 8.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">13</num>
+                <date calendar="julian" era="ce" normal="1551-07-08">1551 Juli 8</date>
+              </p>
+              <p altrender="regest_beschrijving">Lamoral, prins van Gavere, graaf van Egmont, heer van Baer enz., consenteert in den lijftocht van Haesgen Jan Baerntzoonsdochter met 2 morgen land, gelegen in het land van Haghesteyn voor in den Enghe aan de Breedtsteghe, door haar echtgenoot Egbert van Zweeten van Vyanen, die dat land in leen houdt.</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1551-07-08">Opten achsten Julii anno XVc een ende vijftich.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 74</ref>. Met het leenzegel van den oorkonder in roode was.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057200" type="ABS">75</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7218698e-f6e7-4c2c-a5be-a8a2d937a117</unitid>
+              <unittitle>Brief, verleden voor de Kamer van Justitie te Vianen, waarbij Gerryt . . . . . . constitueert Joest van Ruemst e.a. om uit naam van Egbert van Zweeten, zijn vader, voor stadhouder en leenmannen van Egmond . . . . . . . land, gelegen in Hagestein in den "Enge", tot leen te doen verheffen. (Reg. no. 19.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1562">1562 November 20.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <odd>
+              <p>Erg geschonden.</p>
+            </odd>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">19</num>
+                <date calendar="julian" era="ce" normal="1562-11-20">1562 November 20</date>
+              </p>
+              <p altrender="regest_beschrijving">Raden van de Kamer van justitie te Vyanen oorkonden, dat Gerryt . . . ., kapelaan der Vrouwe van Brederode, gemachtigd heeft Joest van Ruemst ........., ......... Craenhals, baljuw en schout van Bergen in Kenmerlandt, en .........tsz, wonende te Alckmaer, om uit naam van Egbert van Zweeten, zijn vader, voor stadhouder en leenmannen van den graaf van Egmondt, het leen te verheffen . . . . . land, gelegen in het land van Hagesteyn voor in den. Enge aan de Breetsteege.</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1562-11-20">Gegeven tot Vyanen opten XXen November anno XVc twee ende tzestich.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 75</ref>. Met zeer geschonden justitiezegel in roode was.</p>
+              <p altrender="regest_nb">Het charter is ook zeer geschonden.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057201" type="ABS">76</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8852e759-e1cc-4020-9f4c-dc7c8be7862e</unitid>
+              <unittitle>Erfpachtsbrief door deken en kapittel der kerk van Oudemunster te Utrecht van eene hoeve land, groot 17 morgen, gelegen "op die Kuyle" in de parochie van Hagestein, aan Johan Schetter en Theophilus van Lommen, priester in de parochiekerk van Vianen. (Reg. no. 27.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1569">1569 Augustus 31.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">27</num>
+                <date calendar="julian" era="ce" normal="1569-08-31">1569 Augustus 31</date>
+              </p>
+              <p altrender="regest_beschrijving">"Deken .en kapittel der kerk van Oudemunster te Utrecht geven in erfpacht aan Johan Schetter en Theophilus van Lommen, priesters in de parochiekerk van Vianen, eene hoeve land, groot 17 morgen, gelegen ""op die Kuyle"" in de parochie van Gasperde alias Hagesteyn."</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1569-08-31">Gegeven int jaer ons Heeren opten dach voersz. (XVc negen ende tsestich opden lesten dach der maendt van Augusto.)</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 76</ref>. Met rest van het kerkzegel in groene was.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057202" type="ABS">77</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4923bbbc-350b-4497-8314-de83fad1988e</unitid>
+              <unittitle>Verleibrief door Anthonis Sonck, rentmeester en stadhouder van de leenen der Grafelijkheid van Egmond, van 2 morgen land, gelegen in Hagestein voor in "den Enge", aan Catharyna van Swieten, haar aangekomen door overlijden haars broeders mr. Gerrit van Swieten.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1596">1596 Maart 12.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057203" type="ABS">78</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6df913d-b915-4c2a-915f-2d46db431bbb</unitid>
+              <unittitle>Transportbrief, verleden voor drost en schepenen van Hagestein, van een schuldbrief, groot 200 Carolusgulden 19 stuivers 2 penningen, verzekerd op 2 morgen land, gelegen "opten Cuyll" in dat gerecht, door Meyns Bruynendr., weduwe van Aerien Gerritsz., timmerman te Vianen, te voren weduwe van Lambert Rutgersz., timmerman, voor zich en haar zoon Lambert Aeriensz., aan Cornelis van Zijll, secretaris van Vianen. 1598 Februari. Met bijbehoorende stukken. (Reg. no. 26.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1568/1587">1568, 1578, 1587.</unitdate>
+              <physdesc>4 charters.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">26</num>
+                <date calendar="julian" era="ce" normal="1568-08-28">1568 Augustus 28</date>
+              </p>
+              <p altrender="regest_beschrijving">"Meus Gerritsz. en Harmen Franckensz., schepenen in de heerlijkheid Hagesteyn, oorkonden, dat Lauwerens Woutersz., timmerman, burger binnen Vyanen, bekend heeft schuldig te wezen aan Henrick Hendricksz., slager, en Adriana Heynrick slagers dochter, de som van 200 keizersgulden 19 stuivers 2 penningen Hollants wegens koop van land, gelegen op ""die Kuyl"" in het gerecht van Hagesteyn."</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1568-08-28">Gegeven int jaer ons Heeren XVc acht ende tsestich opten XXVIIIen Augusti.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 78</ref>. Met de geschonden zegels der oorkonders in groene was.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3575812" type="ABS">79</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ef492d39-7209-41c9-beac-8f5aed79b5a4</unitid>
+              <unittitle>Huurcedulle van 91/2 morgen land, gelegen aan den hoogen dijk onder het gerecht van Hagestein, verhuurd door François van Zijll, drossaard van Asperen, als voogd over Willem van Zijll, onmondigen zoon van wijlen Joost van Zijll, secretaris van Vianen, aan Thonis Adriaensz.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1641">1641 Februari 27.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.4</unitid>
+            <unittitle>Vianen, Land van Vianen, goederen onder het Leenhof van Vianen.</unittitle>
+          </did>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Ameide.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057204" type="ABS">80</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90b5d8fc-f27b-47f5-a148-31f271f42d5b</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van eene hofstede, gelegen te Ameide, aan Aert Jacopsz., hem aangekomen door overlijden zijns vaders Jacop Aertsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1616">1616 October 28.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Bolgerij en Autena.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057205" type="ABS">81</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4cf16878-c883-41fa-8578-aff2d0f40efd</unitid>
+                <unittitle>Verleibrief door Cornelis van Bergen, heer van Noordeloos enz., van de helft van eene halve hoeve land, gelegen in het Land van Vianen onder Autena, aan Maryken wijlen Heyndrick Joestenz. dochter. (Reg. no. 8.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1530">1530 Januari 20.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">8</num>
+                  <date calendar="julian" era="ce" normal="1530-01-20">1530 Januari 20</date>
+                </p>
+                <p altrender="regest_beschrijving">Cornelis van Bergen, heer van Noerdeloes enz., beleent Maryken, wijlen Heyndrick Joestenzoondochter, met de helft van eene halve hoeve land, gelegen in het land van Vyanen op Outena in Thyenhoeven, waarvoor Joest Heynricxzoon, haar broeder, den eed heeft gedaan.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1530-01-20">Den twyntichsten Januarii anno XVc ende dertich.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 81</ref>. Met zeer geschonden zegel van den oorkonder in roode was.</p>
+                <p altrender="regest_nb">Op de rugzijde: verklaring, dat Gerit Jacopsz. van Ross voor dit leen den eed heeft afgelegd. 1545 .........</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057206" type="ABS">82</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1739eb8-1eb2-43bb-b974-644173891743</unitid>
+                <unittitle>Verleibrief door Reynoud, heer van Brederode, vrijheer van Vianen enz., van 6 morgen land, gelegen in Autena, aan Hubert Jansz., hem aangekomen door overlijden zijns vaders Johan Ghoessensz., welke 6 morgen daarna beleend zijn aan Oth Pyeck, heer van "Thienhoeven", door opdracht van Hubert Jansz. (Reg. no. 14.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1553">1553 Juli 23.</unitdate>
+                <physdesc>charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">14</num>
+                  <date calendar="julian" era="ce" normal="1553-07-23">1553 Juli 23</date>
+                </p>
+                <p altrender="regest_beschrijving">"Reynault, heer van Brederode, vrijheer van Vianen enz., beleent Hubert Jansz., met 6 morgen land, gelegen in Outhenae in eene halve hoeve, strekkende van den ""upstael"" van de Goudenessche wetering tot den achtersten kamp toe, hem aangekomen door overlijden van zijn vader Johan Ghoessensz.; waarna de 6 morgen door opdracht van Hubert Jansz. wederom beleend zijn aan Oth Pyeck, heer van Thienhoeven."</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1553-07-23">Gegeven int jaer onses Heeren XVc drie ende vijfftich upten drieendetwintichsten dach van Julio.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 82</ref>. Met geschonden leenzegel in roode was.</p>
+                <p altrender="regest_nb">Op de rugzijde: verklaring omtrent eedsaflegging door Oth Pieck d.d. 1569 Maart 19.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057207" type="ABS">83</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b32a08b9-2b48-419a-b8f5-bd77ff34e54f</unitid>
+                <unittitle>Verleibrief door Geertruyt, vrijvrouwe van Vianen enz., van 4 morgen land, gelegen onder Bolgerij, aan Ernst van Beest, door opdracht van Henrick van Ruemst van Weresteyn.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1588">1588 Mei 24.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057208" type="ABS">84</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d8287f8-d788-48cb-b636-626e209e9cb5</unitid>
+                <unittitle>Hypothecaire schuldbrief van 205 Carolusguldens, verleden voor schout en landgenooten van Bolgerij en Autena, van Wynant Oudaert ten behoeve van Cornelis Henricxsz. te Bolgerij, verzekerd op 3 morgen land aldaar.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1594">1594 September 4.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057209" type="ABS">85</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6061581d-c1e5-43ee-99e5-c324084b76ca</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van 4 morgen land, gelegen onder Bolgerij, aan Emmeken Ernst van Beestendr., haar aangekomen door overlijden haars vaders Ernst van Beest.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1598">1598 Juni 16.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057210" type="ABS">86</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b5732b3f-0ca2-4c72-bd45-fb12b589a796</unitid>
+                <unittitle>Transportbrief, verleden voor schout en landgenooten van Bolgerij en Autena, van 4 morgen land, gelegen in Bolgerij, door Adriana Hermansdr., wed. Gerrit Claesz., aan Dierck Pauwelsz. te Hagestein.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1607">1607 Juli 8.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057211" type="ABS">87</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e282207-c4a7-4c29-ad2e-49dd02014b2c</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van 3 morgen land, gelegen onder Bolgerij, aan Floris Henricxz. door opdracht van Willem Pijll.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1625">1625 October 27.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057212" type="ABS">88</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/96de6462-0e8d-428b-bd5a-3ac04582470d</unitid>
+                <unittitle>Transportbrief, verleden voor schout en landgenooten van Bolgerij en Autena, van 41/2 morgen land, gelegen in Bolgerij, door Jan Henrixz. van Rijnshoeff te Kuilenburg aan Henrick Aertsz. aldaar.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 Januari 6.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057213" type="ABS">89</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab5616ad-143e-4503-8112-d946e1ba559f</unitid>
+                <unittitle>Transportbrief, verleden voor schout en landgenooten van Bolgerij en Autena, van de helft van 5 hond land, gelegen in Bolgerij, door de echtelieden Jan Dupre en Maeychen Ariensdr. aan Jacob Bastiaensz. de Clopper.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1629">1629 April 13.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt aan de achterzijde: "20".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057214" type="ABS">90</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f099b15-50d2-4826-ac04-00ad6c859640</unitid>
+                <unittitle>Transportbrief, verleden voor landgenooten van Bolgerij en Autena, van 1 morgen land, gelegen in Autena, door Bauwen Gerrits, gehuwd met Belichgen Peters, aan Lubbert Fransz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1630">1630 December 27.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057215" type="ABS">91</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/779eb0b7-82d3-4900-8983-eea5d55fe50f</unitid>
+                <unittitle>Hypothecaire rentebrief, groot 800 Carolusgulden, verleden voor schepenen van Vianen, van Joost van Zijll, secretaris dier stad, ten behoeve van jr. Egbert van Boecop, verzekerd op 2 morgen land onder Autena en op zijn huis en erf aan de Voorstraat binnen Vianen. 1632 Mei 24. Met bijbehoorend stuk.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1628">1628.</unitdate>
+                <physdesc>2 charters.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057216" type="ABS">92</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd0f7a9d-99d3-4268-bf43-4b865579f8d4</unitid>
+                <unittitle>Verleibrief door Hans Wolphart, heer van Brederode, vrijheer van Vianen enz., van 10 morgen land, gelegen onder Bolgerij, aan Arien de Ridder door opdracht van Dominicus van Cassiopijn.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1633">1633 Maart 16.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt: "7".</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>'t Gooi (Utrecht)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057217" type="ABS">93</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c6bd3fb-61aa-4dd0-a250-22d44f94c5ad</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van de hofstede van Oostrum met 9 morgen land, gelegen in het gerecht van de "Goye", aan Jacop van Quaribbe door opdracht van Maerten van Doyenborch.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1594">1594 Maart 18.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Hei- en Boeikop.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057218" type="ABS">94</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0debb74-764e-426b-8f04-d5c6ef714c5f</unitid>
+                <unittitle>Verleibrief door Reynault, heer van Brederode, van Vianen enz., van eene halve hoeve land, gelegen in Boeikop, aan Margarite Reyners Reynersdr., gehuwd met Jan die Grebber, haar aangekomen door overlijden haars vaders Reyner Reyners, bastaardzoon van Brederode. (Reg. no. 9.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1532">1532 Mei 15.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">9</num>
+                  <date calendar="julian" era="ce" normal="1532-05-15">1532 Mei 15</date>
+                </p>
+                <p altrender="regest_beschrijving">Reynault, heer van Brederoede, van Vyanen enz., beleent Margarite Reyners Reyners bastaardzoons-dochter van Brederode, gehuwd met Jan die Grebber, met eene halve hoeve land, gelegen in Boeycoep, hanr aangekomen door overlijden van haar vader Reyner Reyners bastaardzoon van Brederode.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1532-05-15">Gegeven int jair onses Heeren vijfthienhondert twe ende dertich upten vijfthiensten dach van Meye.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 94</ref>. Met het zeer geschonden leenzegel van den oorkonder in roode was.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057219" type="ABS">95</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bfab3ba-9927-428d-817c-45f31cec7462</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van de helft van eene halve hoeve land, gelegen in Boeikop, aan Joost de Grebber, hem aangekomen door overlijden zijns vaders Gerrit de Grebber. 1593 Juni 25. Met aangehechten verleibrief van dezelfde dagteekening van de wederhelft der halve hoeve land aan Joost de Grebber.</unittitle>
+                <physdesc>2 charters.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057220" type="ABS">96</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/37a9782b-c11d-4617-968f-5cc25510e77e</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van 2 morgen 2 hond land, gelegen in Neder-Boeikop, aan Martijntgen Meertensdr., haar aangekomen door overlijden harer moeder Margreta Mertens.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1622">1622 Mei 15.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057221" type="ABS">97</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f47cd3a3-0325-4152-93aa-2244a70af39b</unitid>
+                <unittitle>Stukken betreffende het transport van 4 morgen land, gelegen aan den Heikopschen voordijk in Boeikop, door Joost van Zijll, secretaris te Vianen, aan Antonis Aertsz. te Heikop.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1628/1639">1628-1639.</unitdate>
+                <physdesc>1 charter en 2 stukken in omslag.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>IJselstein.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057222" type="ABS">98</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6fcd8082-0eda-4169-bcae-0795ef19eca5</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van 6 morgen land, gelegen in het Land van IJselstein, aan Nicolaes Lap, hem aangekomen door overlijden zijns broeders mr. Johan Lap.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1593">1593 December 19.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Jutfaas.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057223" type="ABS">99</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c3d6c81-9dbd-4d94-bf1b-5ec418fbd4f8</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van de hofstede "Roodenborch" met 6 morgen land, gelegen in Jutfaas in het "Nedereynde", aan Agnieta Jan Botters van Snellenborchsdr., gehuwd met Floris Hackfoert, haar aangekomen door overlijden harer moeder Maria Gerrit Knijffsdr.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1596">1596 Augustus 13.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057224" type="ABS">100</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/304aad84-6a86-4bad-8e9b-e265551a56f7</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van een huis met hofstede en de helft van 101/2 morgen land, gelegen in Jutfaas, aan Johan Utenhoven, hem aangekomen door overlijden zijns vaders Johan Utenhoven en vooroverlijden zijns broeders Olivier Utenhoven.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1625">1625 November 16.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Lakerveld</unittitle>
+            </did>
+            <odd>
+              <p>Zie ook Vianen.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057225" type="ABS">101</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d429af26-3ceb-430d-b16c-c4ad86945ae6</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van 8 morgen land, gelegen in Lakerveld, aan het weeshuis te Utrecht, het aangekomen door overlijden van Jan Cornelisz. van Noort.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1625">1625 Januari 12.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057226" type="ABS">102</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8066ddc-8377-4413-823c-f485be1c3715</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van 14 morgen land met timmering en beplanting, gelegen in Lakerveld, aan Hermen Cornelisz. Neck, hem aangekomen door overlijden zijns vaders Cornelis Hermensz. Neck.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1633">1633 April 20.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt: "23".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057227" type="ABS">103</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0711ba8d-9f16-4756-b54d-1c09f90b6fc3</unitid>
+                <unittitle>Acte van verhuur van een huis en 8 morgen land in Lakerveld door Cornelis van Rodenburch, notaris en procureur te Vianen, gemachtigde van Elisabeth en Catharina van Alckemade, wonende te Amsterdam, aan Jan Cornelisz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1643">1643 April 1.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Noordeloos.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057228" type="ABS">104</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc1a6dbc-5bd8-4c57-ac43-625663228f60</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van 61/2 morgen land, gelegen onder Noordeloos, aan Arien Huybertsz., hem aangekomen door overlijden zijns broeders Jan Huybertsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1626">1626 April 3.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt: "12".</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Utrecht.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057229" type="ABS">105</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/76efd76a-0279-4d04-8d14-151fdb69db13</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van een derde deel van 6 morgen veenland in het Oostveen onder het Sticht, aan Cornelis Gijsbertsz., hem aangekomen bij overlijden zijns broeders Lambert Gijsbertsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1626">1626 December 31.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057230" type="ABS">106</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/32dce0a6-b686-4f7d-ab6c-fdc41d092e2c</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van eene hofstede, gelegen buiten de Ganspoort te Utrecht, aan Jan Florisz. Nypoort, hem aangekomen door overlijden van Elisabeth Aertsdr.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 Maart 21.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt: "4".</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Vianen.</unittitle>
+            </did>
+            <odd>
+              <p>Zie ook Bolgerij en Autena.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057231" type="ABS">107</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1459955f-9eb7-4fde-a5a6-66bc32fc13e2</unitid>
+                <unittitle>Brief, verleden voor schout en schepenen van Vianen, waarbij de heer van Asperen en zijne huisvrouw Janna bepalen, dat bij overlijden van een hunner de langstlevende hun huis met toebehooren in Vianen en verder alle roerende en onroerende goederen in het Land van Vianen hebben, houden en gebruiken zal. (Reg. no. 1.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1430">1430.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">1</num>
+                  <date calendar="julian" era="ce" normal="1430-03-30">1430 Maart 30</date>
+                </p>
+                <p altrender="regest_beschrijving">Abryoen van Vyanen, bastaard, schout, Jan Sconouwen, Claes van der Wild Direxz. en Dirc die Gryemer Jacopsz., schepenen binnen Vianen, oorkonden, dat Ghye van Asperen, ridder, heer van Tulle, en Janne, zijne huisvrouw, beschikt hebben, dat de langstlevende van hen beiden hun huis en hofstede met alle toebehooren, gelegen in Vyanen aan de oostzijde der Vorderstrate, zoomede alle huisraad, kleinodiën en alle roerende en onroerende goederen, die zij nu hebben of krijgen zullen in het Land van Vyanen, hebben, houden en gebruiken zal.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1430-03-30">Gegeven int jair ons Heren dusent vierhondert en dertich sDonredages na onser liever Vrouwen dacht annunciacio.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 107</ref>. Met de geschonden of resten van zegels van Reynolt, heer van Brederode, en van de oorkonders in groene was.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057232" type="ABS">108</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d007a4c-e1d9-452c-86a2-d5754ce0d440</unitid>
+                <unittitle>Hypothecaire schuldbrief van 15 Carolusguldens, verleden voor schout en schepenen van Vianen, van Hillichgen Gheryts Snoeyen weduwe ten behoeve van Henrick Sweersz. van Sandtwijck, verzekerd op haar hofstede, gelegen in eene achterstraat van Vianen. (Reg. no. 10.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1540">1540 October 9.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">10</num>
+                  <date calendar="julian" era="ce" normal="1540-10-09">1540 October 9</date>
+                </p>
+                <p altrender="regest_beschrijving">"Reynault van Brederoede, bastaard, schout, Gheryt Hisinck en Dirck Hermansz., schepenen van Vyanen, oorkonden, dat Hillichgen Gheryts Snoeyen weduwe bekend heeft ontvangen te hebben van Henrick Sweersz. van Sandtwijck 15 Carolusguldens, waarvoor zij beloofd heeft te ""bewaeren den onraet van waecken, byten ende""; poorte wachten van synen huse, daer hy nu ter tijt inne woent""; daarvoor stellende tot een onderpand haar hofstede, gelegen aan de oostzijde van Vyanen in een achterstraat."</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1540-10-09">In den jaere unses Heeren XVc ende viertich upten negenden dach van October.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 108</ref>. De zegels van schout en schepenen zijn verloren.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057233" type="ABS">109</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/692724c0-28ab-4a12-862f-be86518a047a</unitid>
+                <unittitle>Brief van confirmatie door koning Philips II van den verkoop van land, gelegen onder net gerecht van Vianen en dat van Lakerveld, door Heyndrick heer van Vianen aan Willem Pelgromsz. 1564 Juli 21. Met bijbehoorende stukken. (Reg. nos. 20, 21 en 23.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1563">1563.</unitdate>
+                <physdesc>3 charters.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">21</num>
+                  <date calendar="julian" era="ce" normal="1563-12-10">1563 December 10</date>
+                </p>
+                <p altrender="regest_beschrijving">Thomaes van den Berch, schout, Frans Aertsz. van Everdingen, Lambert Ghijsbertsz. van Everdingen en Willem van Bloemendael, schepenen van Vyanen, oorkonden, dat Gherrydt Ghijsbertsz. Neck de Vlieger, griffier, als lasthebbende van den heer van Brederode, aan Willem Pelgrumsz., secretaris van Vianen, opgedragen heeft 6 morgen land met de landen buitendijks, daarbij behoorende, gelegen in den Cleynen Haghe onder het gerecht van Vianen, en eene halve hoove land, gelegen in Crayendael onder den ban van Laeckervelt, vermeld in den brief d.d. 1563 November 29, waardoor deze gestoken is. (Zie Beg. n°. 20.)</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1563-12-10">Gegeven int jaer ons Heeren duysent vijffhondert drye ende tzestich opten thienden dach December.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 109</ref>. Met de geschonden schepenzegels in bruine was. Het zegel van den schout is verloren.</p>
+              </scopecontent>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">20</num>
+                  <date calendar="julian" era="ce" normal="1563-11-29">1563 November 29</date>
+                </p>
+                <p altrender="regest_beschrijving">Heyndrick, heer van Brederode, vrijheer van Vianen enz., oorkondt, dat hij aan Willem Pelgrumsz., secretaris der stad Vyanen, opgedragen heeft 6 morgen land met de landen buitendijks, daarbij behoorende, gelegen in den Cleynen Haghe onder het gerecht van Vianen, en eene halve hoeve land in den polder Crayendael onder den ban van Laeckervelt.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1563-11-29">Geschiet int jaer ons Heeren XVc drye ende tzestich opten XXIXen dach van November.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 109</ref>. Met het zeer geschonden zegel van den oorkonder in roode was.</p>
+                <p altrender="regest_nb">Door dezen zijn gestoken de brieven d.d. 1563 December 10 (regest no.21) en 1564 Juli 21. (regest no.23).</p>
+              </scopecontent>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">23</num>
+                  <date calendar="julian" era="ce" normal="1564-07-21">1564 Juli 21</date>
+                </p>
+                <p altrender="regest_beschrijving">Philips, koning van Castille enz., confirmeert den verkoop van land door Heyndrick, heer van Brederode, aan Willem Pelgrumsz., vermeld in den brief d.d. 1563 November 29, waardoor deze gestoken is. (Zie Reg. n°. 20.)</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1564-07-21">Gegeven den XXIen Julii anno XVc vyerentsestich.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 109</ref>. Met rest van het zegel van het leenhof van Holland in roode was.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057234" type="ABS">110</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ede505d1-076e-49a0-9751-072ab83df140</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van een huis en hofstede in de Koestraat door Aert Jansz. Tucker aan Arien Ariensz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1591">1591 Juni 22.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt aan de achterzijde: "17".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057235" type="ABS">111</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/687fa508-9f1d-493e-81e4-e19537ca81e9</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van de helft van een huis en hofstede in de tweede Achterstraat door Jan Hermansz. aan Frans Melisz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1592">1592 Juni 7.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057236" type="ABS">112</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e181b395-8295-401c-b3ed-fcd259d43615</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van een gedeelte van een hof, gelegen buiten de Waterpoort van Vianen, aan Cornelis Dircxz. door opdracht van Cornelis Fransen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1597">1597 Januari 29.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057237" type="ABS">113</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/78d5eee1-002f-4a7c-98aa-8f8158f454d9</unitid>
+                <unittitle>Transportbrief, verleden voor schout en schepenen van Vianen, van een huis en erf aan de noordzijde van den zomerdijk door Aert Diercxsz. van Thiel, gehuwd met Gerrichgen Willemsdr., c.s., erfgenamen harer moeder Haesken Joostendr., aan de echtelieden Cornelis Aertsz. en Weyntgen Bastiaens.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1601">1601 April 14.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057238" type="ABS">114</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c122b9f6-b52d-47af-9521-bb6c7d3e2092</unitid>
+                <unittitle>Verkoopcedulle van 6 morgen land, gelegen buitendijks onder het gerecht van Vianen, door Heylwich Joostendr., weduwe van Cornelis van Zijll, secretaris van Vianen, geassisteerd met haren zoon Pelgrum van Zijll, aan Wouter Geeritsz. hun zwager en oom. Minuut?</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1606">1606 Maart 4.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+              <odd>
+                <p>Geschonden.</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057239" type="ABS">115</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d82dbd7e-8db5-4a72-beea-1583ef7f809f</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van een boomgaard, groot 1 morgen, gelegen "op den Wisch", door Jan Mauritsz. Frickert aan Joost van Zijll, burgemeester van Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1607">1607 Juli 6.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057240" type="ABS">116</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e04d973-5e1e-4eb3-9316-27970a72c4e3</unitid>
+                <unittitle>Verklaring, afgelegd door P. van Westrenen te Vianen ten verzoeke van Wouter Gerritsz., timmerman, betreffende het door dezen verrichte timmerwerk in het jaar 1603 aan de schuur van Cornelis van Zijll, in leven secretaris van Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1613">1613 Januari 30.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057241" type="ABS">117</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9be7dcdf-ab50-4104-b23f-26e24d6a5891</unitid>
+                <unittitle>Request der weduwe van Cornelis van Zijll aan het gerecht van Vianen, om Marcelis Adriaensz. te verbieden, dat hij door het maken van eene loods het licht beneemt, dat zij door een venster aan de zuidzijde van haar huis ontvangt; met daarop genomen beschikking.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1613">1613 Juni.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057242" type="ABS">118</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f5b891e-0f7b-4e6d-8249-7d6e6326096f</unitid>
+                <unittitle>Hypothecaire schuldbrief van 600 guldens, verleden voor schout en schepenen van Vianen, van Cornelis Cornelisz. van Odick en zijn huisvrouw Maria Gerritsdr. ten behoeve van Jan Stevensz. Verburch, verzekerd op een huis c.a., gelegen aan den Havendijk te Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1615">1615 September 4.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057243" type="ABS">119</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7bd5f65a-7889-4229-826e-79e697f9280b</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van een huis en erf bij de waag aldaar door Hendrick van Hulst aan Elisabet Petersdr., weduwe Osewoult Steven, en door haar wederom aan Joanna van Scherpenseel, weduwe Peter Jansz. van den Bosch.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1617">1617 December 29.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt aan de achterzijde: "33".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057244" type="ABS">120</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8a69468-47c8-47d9-8608-0464a739e1f9</unitid>
+                <unittitle>Hypothecaire schuldbrief van 175 Carolusguldens, verleden voor schout en schepenen van Vianen, van Jan Henricxz. van Hulst ten behoeve zijner 3 kinderen Dierick, Cornelis en Willem, verwekt bij zijne huisvrouw Elisabeth Pottersen, verzekerd op een huis en erf te Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1622">1622 Mei 31.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057245" type="ABS">121</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c680f2f-54ab-4ab5-9023-cae974cebded</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van een huis en erf aan de Stalstraat, door de echtelieden Steven van Blitterswijck en Johanna de Bye nan Marcus de Bye, hun broeder en schoonbroeder.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1626">1626 Januari 5.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt aan de achterzijde: "19".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057246" type="ABS">122</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/43735a4e-50b3-468f-be18-b050fdee10df</unitid>
+                <unittitle>Hypothecaire schuldbrief van 114 guldens, verleden voor schepenen van Vianen, van Jan Bollaert ten behoeve van Catalina en Maria, Gerrit Vaillants onmondige voorkinderen, verzekerd op zijn huis en erf aan de oostzijde van den Havendijk te Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1626">1626 Februari 16.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057247" type="ABS">123</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/74880d3d-3ed4-4e23-8e67-154f710a52c6</unitid>
+                <unittitle>Verkoopconditiën van het huis, genaamd "Het Hoff van Sevenbergen" te Vianen, leenroerig aan den heer van Brederode, aan de gravin van Hoorn.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1626">1626 April 28.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057248" type="ABS">124</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/029a19a7-3201-4099-8587-6ee15151be4e</unitid>
+                <unittitle>Transportbrief, verleden voor schout en schepenen van Vianen, van een huis en erf aan de Voorstraat te Vianen door Johan van Riemsdijck aan Johan Dees.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 Juni 13.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057249" type="ABS">125</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11c1739d-2d41-45bb-9e53-520b027588a4</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, van een huis en erf in de tweede Achterstraat te Vianen door Huybert Leendertsz. en Peter Henricxz. Crom aan Joost van Zijll, burgemeester.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 Juli 6.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057250" type="ABS">126</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/871e543b-6eaa-45bf-b429-c52225f5b5c0</unitid>
+                <unittitle>Hypothecaire schuldbrief van 325 guldens, verleden voor schepenen van Vianen, van Joost van Zijl, burgemeester dier stad, ten behoeve van Jan Mauritsz. Frickert, verzekerd op een huis en erf aan de oostzijde in de tweede Achterstraat aldaar.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 Juli 6.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057251" type="ABS">127</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe35a567-7126-42f4-bf1b-791eb271adcc</unitid>
+                <unittitle>Transportbrief, verleden voor schout en schepenen van Vianen, van een huis en erf aan den Langendijk in Vianen door Johan ter Brugge aan Alexander Cruick.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1627">1627 September 25.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt aan de achterzijde: "2".</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057252" type="ABS">128</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1e15db5-b492-48af-9783-80c629dbcdcf</unitid>
+                <unittitle>Transportbrief, verleden voor schout en schepenen van Vianen, van een huis en erf aan de oostzijde van de Voorstraat door Jacob Jansz. van Schonauwen, gehuwd met Aeltgen Aerts., aan Willem Philipsz. Berbier.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1632">1632 Januari 13.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057253" type="ABS">129</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11120e60-3721-47d7-8d5b-9f94eaa8d685</unitid>
+                <unittitle>Hypothecaire schuldbrief van 150 guldens, verleden voor schout en schepenen van Vianen, van Lucas Penveer ten behoeve van Henrick Dircx, verzekerd op een huis en erf in de Voorstraat te Vianen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1634">1634 Januari 23.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057254" type="ABS">130</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b9b7f3b-a1a5-4bf9-b01f-97f0f79e2fe0</unitid>
+                <unittitle>Transportbrief, verleden voor schepenen van Vianen, door Jan Spies, gehuwd met Maeyken Gerrits, en Adriaentgen Gerrits met haar voogd Joost van Zijll van hun portiën in het huis in de Molenstraat te Vianen, gekomen van hun vader Gerrit Geerloffsz., aan hun broeder Rutger Gerritsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1636">1636 Juni 13.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057255" type="ABS">131</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffedd013-6ffc-4355-8135-613495716f75</unitid>
+                <unittitle>Transportbrief, verleden voor schout en schepenen van Vianen, van een huis en erf aan de Voorstraat aldaar door Jan Dees aan Jan Henricxz. van de Vecht.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1637">1637 Mei 3.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Vianen (Land van).</unittitle>
+            </did>
+            <odd>
+              <p>Zie ook Vianen.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057256" type="ABS">132</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6714f431-8b06-4e65-8cd4-35c670039cf6</unitid>
+                <unittitle>Brief van Walraven, heer van Brederode en Vianen enz., waarbij hij consenteert, dat 2 leenen, elk van 3 morgen land onder Helsdingen, bij overlijden van Willem Claesz., den brouwer, komen zullen op zijne 2 jongste zonen Pell en Claes. (Reg. no. 4.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1513">1513 Maart 4.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">4</num>
+                  <date calendar="julian" era="ce" normal="1513-03-04">1513 Maart 4</date>
+                </p>
+                <p altrender="regest_beschrijving">Walraven, heer van Brederode, van Vianen enz., consenteert, dat, indien Willam Claesz., de brouwer, overlijdt, twee perceelen, elk van 3 morgen land, gelegen in Helsdingen, die hij in leen houdt, alsdau komen zullen op zijn twee jongste zonen Pell en Claes, elk 3 morgen, en stelt reselen vast, op wien bij hun overlijden die leenen komen zullen.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1513-03-04">Gegeven int jair ons Heeren vijftienhondert ende derthien opten IIIIen dach van Meerte.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 132</ref>. Met resten van het zegel van den oorkonder in roode was.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057257" type="ABS">133</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7fc537c-6696-4f91-9bce-fb7978785cc3</unitid>
+                <unittitle>Verleibreif door Henrick, heer van Brederode, vrijheer van Vianen enz., van de helft van 6 morgen land, gelegen te Helsdingen in Bloemendaal, aan Willem Pelgrumsz., hem aangekomen door overlijden zijns vaders Pelgrum Willemsz. (Reg. no. 16.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1558">1558 Augustus 17.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">16</num>
+                  <date calendar="julian" era="ce" normal="1558-08-17">1558 Augustus 17</date>
+                </p>
+                <p altrender="regest_beschrijving">Henrick, heer van Brederode, vrijheer van Vianen enz., beleent Willem Pelgrumsz. met de helft van 6 morgen land, gelegen te Helsdingen in Bloemendael, geheeten Schottencampen, hem aangekomen door overlijden zijns vaders Pelgrum Willemsz.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1558-08-17">Gegeven int jair ons Heeren vijfthien hondert acht ende vijftich den seventhienden daeh Augusti.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 133</ref>. Met rest van het zegel van den oorkonder in roode was.</p>
+                <p altrender="regest_nb">Op de rugzijde: verklaring omtrent eedsaflegging door Willem Pelgrumsz. d.d. 1569 Februari 6.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057258" type="ABS">134</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12967caf-5af1-4bf1-b412-d207f201b181</unitid>
+                <unittitle>Verleibrief door Henrick, heer van Brederode, vrijheer van Vianen enz., van de andere helft van 6 morgen land, gelegen te Helsdingen in Bloemendaal, aan Willem Pelgrumsz., hem aangekomen door overlijden van zijn vader Pelgrum Willemsz. (Reg. no. 17.)</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1558">1558 Augustus 17.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <scopecontent altrender="Appendix_Regestenlijst">
+                <p altrender="regest_nummer">
+                  <num type="regest">17</num>
+                  <date calendar="julian" era="ce" normal="1558-08-17">1558 Augustus 17</date>
+                </p>
+                <p altrender="regest_beschrijving">Henrick, heer van Brederode, vrijheer van Vianen enz., beleent Willem Pelgrumsz. met de helft van 6 morgen land, gelegen to Helsdingen in Bloemendael, geheeten Schottencampen, welker wederhelft hij ook van hem in leen houdt, welk leen hem aangekomen is van zijn vader Pelgrum Willemsz.</p>
+                <p altrender="regest_datering">
+                  <date calendar="julian" era="ce" normal="1558-08-17">Gegeven int jair ons Heeren vijfthien hondert acht ende vijftich den seventhyenden dach Augusti.</date>
+                </p>
+                <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 134</ref>. Met rest van het zegel van heer Henrick in roode was.</p>
+                <p altrender="regest_nb">Op de rugzijde: verklaringen omtrent eedsaflegging door Willem Pelgrumsz. d.d. 1568 Februari 11 en 1577 September 12.</p>
+              </scopecontent>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057259" type="ABS">135</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccb3f460-c8f2-4b08-b05a-05fe62258395</unitid>
+                <unittitle>Verleibrief door Geertruydt, vrijvrouwe van Vianen enz., van de helft van 6 morgen land, gelegen te Helsdingen in Bloemendaal, van ouds genaamd "Schottencampen", aan Cornelis van Zijll door opdracht zijns vaders Willem Pelgrumsz., griffier der leenen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1584">1584 December 22.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Geschonden. Vgl. het afschrift in Inv. no. 25, fol. XXXIX vo., van het archief van het leenhof van Vianen. (Verslagen omtrent 's Rijks oude archieven 1924, I, bijl. XV.).</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057260" type="ABS">136</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cce8280b-124a-48d6-8d25-f51a58a7ec95</unitid>
+                <unittitle>Verleibrief door Geertruydt van Bronckhorst, vrijvrouwe van Vianen enz., van de helft van eene halve hoeve land, gelegen in den polder De Biezen in het Land van Vianen, aan Heylwich Joostendr. van Brederode, gehuwd met Cornelis van Zijll. door opdracht van Judith van Rysenborch Joostendr., gehuwd met Andries Croll van der Mast.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1584">1584 December 24.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057261" type="ABS">137</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ea72976-1a37-4f5c-b839-dc099901e608</unitid>
+                <unittitle>Verleibrief door Geertruydt, vrijvrouwe van Vianen enz., van de andere helft eener halve hoeve land in den polder De Biezen in het Land van Vianen, aan Heylwich Joostendr. van Brederode, gehuwd met Cornelis van Zijll, door opdracht van Judith van Rysenborch Joostendr., gehuwd met Andries Crol van der Mast.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1584">1584 December 24.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057262" type="ABS">138</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/825e4986-287f-4bf8-a7f9-9f276c003df7</unitid>
+                <unittitle>Verleibrief door Margareta, vrouwe van Noordeloos enz., van een viertel land, gelegen in het Land van Vianen, aan Willem Henricksz. Neck, Heilige-Geestmeester der kerk van Vianen, hem aangekomen door overlijden van zijn voorzaat Peter Streng.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1593">1593 September 12.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Geschonden.</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057263" type="ABS">139</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9264371-477c-4702-a33a-cc5876dba3f6</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van de helft van 6 morgen land, gelegen onder Helsdingen, aan Cornelis van Zijl, hem aangekomen door overlijden zijns vaders Willem Pelgrimsz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1596">1596 Mei 10.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057264" type="ABS">140</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e51273de-b2cf-4dc4-a46d-55ad22589ceb</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van 3 morgen land met huis en berg daarop staande, gelegen op "Cortenoever", aan Aliet Henricxdr., weduwe van Adriaen Bouwensz., door opdracht van Engbert Cornelisz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1601">1601 Februari 6.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057265" type="ABS">141</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8dc469c-b02a-4831-a503-52aee17526ad</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van de helft van 6 morgen land, gelegen onder Helsdingen in Bloemendaal, aan Pelgrim van Zijl, hem aangekomen door overlijden zijns vaders Cornelis van Zijl.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1606">1606 November 19.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057266" type="ABS">142</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/64087abe-e3ac-4c5c-a345-62d21c1c3ec3</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode en vrijheer van Vianen enz., van de helft der halve hoeve land in den polder De Biezen in het Land van Vianen aan Joost van Zijll wegens opdracht van Heylwich van Rysenborch Joostendr., geassisteerd met haar oudsten zoon Pelgrum van Zijll.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1619">1619 Juni 11.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057267" type="ABS">143</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b8893ab-49b2-40e1-8913-c190d92670e6</unitid>
+                <unittitle>Conditiën, waarop Joost van Zijll, secretaris te Vianen, aan Herman Stoffelsz. 2 morgen land, gelegen in de "Ganscampen", verhuurt.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1632">1632 December 13.</unitdate>
+                <physdesc>1 stuk.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057268" type="ABS">144</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/01fcce34-9871-4866-ad82-16a29f47b29e</unitid>
+                <unittitle>Transportbrief, verleden voor leenmannen van het Huis van en schepenen te Vianen, van 4 morgen land, gelegen in de Biezen onder Vianen, door Joost van Zijll, secretaris van Vianen, aan zijne kinderen, verwekt bij zijne overleden huisvrouw Elisabeth de Roy.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1634">1634 April 1.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Vreeswijk.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057269" type="ABS">145</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e39dbbee-9134-4214-867d-97bfd3e3d850</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen, van de helft van eene hoeve land, gelegen onder Vreeswijk, aan Henrick Jansz. Vermoelen, hem aangekomen door overlijden zijns vaders Jan Vermoelen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1600">1600 October 21.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057270" type="ABS">146</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df39e2cb-3cb0-419b-83e8-f7e0726cafe0</unitid>
+                <unittitle>Verleibrief door Walraven, heer van Brederode, vrijheer van Vianen enz., van cen tiend, genaamd de "Sandtthiende", gelegen buitendijks van de Lek, en nog een tiend, genaamd de "Cuylthiende", gelegen buitendijks van de Lek "beneden die Nye vaert", aan het gasthuis van Leeuwenberg te Utrecht, hetzelve aangekomen door overlijden van Gillis van Ledenberch.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1619">1619 October 27.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Geschonden.</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057271" type="ABS">147</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc3c19e3-cb0f-4c4d-99f5-6c44d3f9f02e</unitid>
+                <unittitle>Verleibrief door Hans Wolphart, heer van Brederode, vrijheer van Vianen enz., van een tiend, genaamd de "Sandtthyende", gelegen buitendijks van de Lek, en nog een tiend, genaamd de "Cuylthyende", gelegen buitendijks van de Lek "beneden die Nye vaert", aan het gasthuis van Leeuwenberg te Utrecht, hetzelve aangekomen door overlijden van Cornelis van Westrenen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1621">1621 Augustus 21.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Zijderveld.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1057272" type="ABS">148</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2a32bb7-549f-491a-992c-276d82259025</unitid>
+                <unittitle>Verleibrief door Hans Wolphardt, heer van Brederode, vrijheer van Vianen enz., van de helft van een vierdedeel land, gelegen in Zijderveld aan den Zijderveldschen weg, aan Marten Gerritsz., hem aangekomen door overlijden zijns vaders Gerrit Jaspersz.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1636">1636 December 8.</unitdate>
+                <physdesc>1 charter.</physdesc>
+              </did>
+              <odd>
+                <p>Gemerkt: "8".</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.5</unitid>
+            <unittitle>Verschillende plaatsen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057273" type="ABS">149</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff8562d9-2672-4b05-beee-99628526d1cb</unitid>
+              <unittitle>Transportbrief van de helft der kraan met opslag en toebehooren, gelegen aan de "Nywe vaert" tusschen het huis van Wouter Daemsz. aan de eene en de "grote spoyde" aan de andere zijde, door Dirc Evertsz. aan Wouter Daemsz. (Reg. no. 2.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1451">1451 October 20.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">2</num>
+                <date calendar="julian" era="ce" normal="1451-10-20">1451 October 20</date>
+              </p>
+              <p altrender="regest_beschrijving">"Dirc Evertssoen verkoopt aan Wouter Daemssoen de helft van de kraan en den opslag van de kraan met al haar toebehooren, staande aan de Nywe vaart tusschen Wouter Daemssoens huis aan de eene zijde en de ""grote Spoyde"" aan de andere zijde, gelijk die Geryt Herboert, zijn overleden vrouws vader, toebehoord heeft, terwijl de wederhelft der kraan aan Peter en Jan Valkendael toebehoort."</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1451-10-20">Int jair ons Heren dusent vierhondert een ende vijftich des Woensdages na Sinte Lucas' dach.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 149</ref>. De zegels der oorkonders Dirc Evertssoen en Lubbert van Alendorp zijn verloren.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057274" type="ABS">150</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ddafc01-e9ce-474c-a0de-aee7f3b5b9b0</unitid>
+              <unittitle>Schuldbekentenis, groot 47 Carolusgulden, van Dirck Pietersz., wonende in het Land van Vliet, verzekerd op zijn persoon en goederen, ten behoeve van Cornelis Dircksz. Wagenaer wegens koop van een "werf hennip", gelegen in het Land van Vliet. (Reg. no. 28.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1572">1572 Juli 21.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+            <scopecontent altrender="Appendix_Regestenlijst">
+              <p altrender="regest_nummer">
+                <num type="regest">28</num>
+                <date calendar="julian" era="ce" normal="1572-07-21">1572 Juli 21</date>
+              </p>
+              <p altrender="regest_beschrijving">"Dirck Pietersz., wonende in het Land van Vliet, bekent schuldig te zijn aan Cornelis Dircksz. Wagenaer de som van 47 Carolusgulden, wegens koop van een ""werf hennip"", gelegen in het Land van Vliet bij Arien Woutersz."</p>
+              <p altrender="regest_datering">
+                <date calendar="julian" era="ce" normal="1572-07-21">Actum desen XXIen dach Julii anno XVc twee ende tseventich.</date>
+              </p>
+              <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 150</ref>. Op papier. Met het merk van Dirck Pietersz. en de handteekening van Huych Claesz. van 't Veer, als getuige.</p>
+              <p altrender="regest_nb">Geschonden.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057275" type="ABS">151</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/825dad96-baf6-4e16-a20d-54a579aac40c</unitid>
+              <unittitle>Brief, waarbij Aert van Zevender verklaart, door opdracht van Johanna van Schroyesteyn als moeder harer onmondige kinderen, verkregen bij Gerrit Knoop, in erfpacht ontvangen te hebben een huis en hofstede, gelegen "in der Oudelle" in Zevender.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1595">1595 Februari 12.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057276" type="ABS">152</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c42b8d7f-ea47-4acb-93f4-616b8847f8c4</unitid>
+              <unittitle>Hypothecaire schuldbrief van 300 Carolusgulden, verleden voor schepenen van Woudrichem, van Hans van Erfort ten behoeve van Hubert Jaspersz. van Puersom, verzekerd op 2 huizen met erven en 9 morgen 5 hond land, gelegen in Woudrichem. (Afschrift van 1604.)</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1601">1601.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057277" type="ABS">153</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce3fa6c2-fd50-4bbc-a292-370d5f92ed6e</unitid>
+              <unittitle>Hypothecaire schuldbrief van 235 guldens, verleden voor schout en keurnooten van Paasloo en Oldemarkt, van Jochum Hillebrants en zijne huisvrouw Jantien ten behoeve van het weeskind Geertgen Hermensdr., verzekerd op hun woonhuis in Oldemarkt, nader blijkende uit een brief van 15 Juli 1605, gepasseerd voor schout en schepenen van Vianen. 1621 Mei 8. Met bijbehoorend stuk.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1621">1621.</unitdate>
+              <physdesc>1 charter en 1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057278" type="ABS">154</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/458a425b-b194-41c7-a43a-2781e14e7ade</unitid>
+              <unittitle>Schuldbekentenis, groot 600 guldens, verzekerd op 5 morgen 1 hond land, gelegen te Uitwijk in het Land van Altena, van Sophia Augustijndr. van Os, weduwe van Jan Aertsz. de Roy, ten behoeve harer schoonzonen Joost van Zijll en Jan van Hedel. Met bijbehoorend stuk van 1606.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1629">1629 Mei 10.</unitdate>
+              <physdesc>1 omslag.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057279" type="ABS">155</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a399e70-429d-4a69-b11f-92555735e62d</unitid>
+              <unittitle>Brief, verleden voor den redger van Hellum enz., door Engele, weduwe van Albert Harmens Ree, wonende te Slochteren, waarbij zij verklaart de koopsom van het door haar in 1632 aan Johannes Demetrius verkochte huis, gelegen te Slochteren aan de zuidzijde van den Heereweg, ontvangen te hebben.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1633">1633 Mei 16.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057280" type="ABS">156</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/29ec9b94-e437-440e-a741-56ad1af8efec</unitid>
+              <unittitle>Brief, verleden voor schepenen van Vianen, waarbij Joost van Zijll, secretaris dier stad, constitueert Johan van Gogeldonck en Dirck van Hedel, beiden wonende te Woudrichem, om aldaar voor het gerecht te transporteeren aan Adriaen van Cleeff 4 morgen 5 hond land, gelegen te Uitwijk in het Land van Altena. Minuut.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1636">1636 Mei 25.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057281" type="ABS">157</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbd925f1-1f68-45cf-9cb7-46f71ed83656</unitid>
+              <unittitle>Transportbrief, verleden voor schepenen van Amsterdam, van een huis en erf aan de westzijde der Keizersgracht door de kinderen en erfgenamen van Aert Coningh, juwelier, aan Joris Jorisz. Backer, raad dier stad.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1640">1640 December 20.</unitdate>
+              <physdesc>1 charter.</physdesc>
+            </did>
+            <odd>
+              <p>Gemerkt aan de achterzijde in lateren tijd: "No. 3".</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057282" type="ABS">158</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5aa76f08-ee2d-45ea-92b1-ad0c17183a2e</unitid>
+              <unittitle>Copie-acte van consent van jhr. Floris van Woirden, heer van Vliet, aan Henrick Amelgerssen den ouden, om zijn leen met eenige erfelijke losrenten te belasten, en transport door dezen van losrenten, groot 37 Carolusgulden 10 stuivers 's jaars, verzekerd op land, gelegen in Krimpen aan den IJsel, aan Dirc Harmensz. te Oudewater. Fragment.</unittitle>
+              <unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+              <physdesc>1 blad.</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">B.6</unitid>
+            <unittitle>Schuldbrieven.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057283" type="ABS">159</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9dd68ac2-e931-4eca-957c-c00c8b084aa0</unitid>
+              <unittitle>Schuldbekentenis, groot 99 Carolusguldens, van Joost van Zijll ten behoeve van Frans Jansz. te Bommel.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1607">1607 December 10.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057284" type="ABS">160</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4605eb1-9189-4e13-afa9-5d21a1213c84</unitid>
+              <unittitle>Verklaring van Willem van der Laerschot namens Joost van Zijll, dat hij ten behoeve van Hans Jochumsz. eene obligatie, groot 125 guldens, zal aflossen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1611">1611 Maart 10.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1057285" type="ABS">161</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4297c0b5-ff0f-4c6b-a864-a2c9bf8c5100</unitid>
+              <unittitle>Schuldbekentenis, groot 77 Carolusguldens, van Joost Martens Vermandel ten behoeve van Joost van Zijll.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1612">1612 October 1.</unitdate>
+              <physdesc>1 stuk.</physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">C</unitid>
+          <unittitle>Varia.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057286" type="ABS">162</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d6de4bf-7bda-4b08-ae5d-92cb5ab2e01c</unitid>
+            <unittitle>Brief van burgemeesters, schepenen, en raad der stad Dordrecht, waarbij zij op verzoek van Reynoult, heer van Brederode, vrijheer van Vianen enz., certificeeren betreffende het kraanrecht en het gebruik der kranen binnen hunne stad. (Reg. no. 12.)</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1549">1549 November 9.</unitdate>
+            <physdesc>1 charter.</physdesc>
+          </did>
+          <scopecontent altrender="Appendix_Regestenlijst">
+            <p altrender="regest_nummer">
+              <num type="regest">12</num>
+              <date calendar="julian" era="ce" normal="1549-11-09">1549 November 9</date>
+            </p>
+            <p altrender="regest_beschrijving">Burgemeesters, schepenen en raad der stad Dordrecht certificeeren op verzoek van Reynoult, heer van Brederode, vrijheer van Vianen enz., dat het kraanrecht binnen hunne stad onverbrekelijk onderhouden wordt ten aanzien van alle Westersche of Rijnsche wijnen, molensteenen en andere koopmanschappen, waarvoor men de kraan behoeft te bezigen, en certificeeren mede, dat de principaalste kranen binnen Dordrecht toebehooren aan particuliere personen en niet aan de stad.</p>
+            <p altrender="regest_datering">
+              <date calendar="julian" era="ce" normal="1549-11-09">Upten IXsten Novembris anno XVc neghen ende veertich.</date>
+            </p>
+            <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 162</ref>. Met zeer geschonden stadszegel in groene was.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057287" type="ABS">163</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8332341-3219-4f14-965f-b05e7132b845</unitid>
+            <unittitle>Huwelijksvoorwaarden tusschen Andries van Achtevelt en Agniete van Derthesen. (Reg. no. 24.)</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1565">1565 Maart 3.</unitdate>
+            <physdesc>1 charter.</physdesc>
+          </did>
+          <odd>
+            <p>Hierin vermeld: Cassiopijn-Groenewoud.</p>
+          </odd>
+          <scopecontent altrender="Appendix_Regestenlijst">
+            <p altrender="regest_nummer">
+              <num type="regest">24</num>
+              <date calendar="julian" era="ce" normal="1565-03-03">1565 Maart 3</date>
+            </p>
+            <p altrender="regest_beschrijving">"Ghijsbrecht van Achtevelt en Steven van Achteveld ter eener en Johan Taets van Amerongen de jonge met Caerle van Cassiopijn ter anderer zijde oorkonden, dat huwelijksvoorwaarden gemaakt zijn tusschen Andries van Achtevelt, broeder van voornoemde Gijsbrecht en Steven van Achtevelt en Agniete van Derthesen; waarbij bepaald wordt, dat Andries van Achtevelt zal aanbrengen het derde deel van de goederen, genaamd Jimminck, het derde deel van een goed genaamd Pelscamp, het derde deel van een goed genaamd Cleyn Jimminck of Jimmincksche slaege, gelijk die samen gelegen zijn in de graaflijkheid van Sutphen, in het kerspel van Vorderen in de buurtschap Lijnden, nog het achtste deel van 3 hofsteden, gelegen op de Veluwe te Barnevelt aan de noordzijde van de kerk; terwijl Agniete van Derthesen aanbrengt 13 morgen land, gelegen in de Neder-Betuwe, in het kerspel van Eck, genaamd de Meente, bij Willem Fieren in gebruik, een rentebrief van 300 guldens, sprekende op Daniël van Derthesen, haar oom, onder bepaling, dat bij haar vooroverlijden, zoo er geen kinderen zijn, de gemelde 13 morgen land komen zullen aan Sibilla van Cassiopijn, dochter van Anna van Groenewoud. Voorts stellen Steven van Achtevelt en Janneken van Benthem, weduwe Cornelis Gheritsz., zich borg, dat de goederen, door Andries van Achtevelt aangebracht, hem vrij toebehooren; en worden eindelijk nog eenige bepalingen in geval van overlijden gemaakt."</p>
+            <p altrender="regest_datering">
+              <date calendar="julian" era="ce" normal="1565-03-03">Gegeven int jaer ons Heehren duyssent vijffhondert vijff ende tzestich den derden Martii.</date>
+            </p>
+            <p altrender="regest_nb">Oorspr. <ref linktype="simple">Inv. no. 163</ref>. Met de zeer geschonden zegels in roode was van Agniet van Derthesen en Gijsbrecht van Achtevelt en de resten der zegels van Andries van Achtevelt, Steven van Achtevelt. Jan Taets van Amerongen den jongen en Carel Cassiopijn, benevens hunne onderteekeningen en die van Janneken van Benthem, weduwe Cornelis Gheritsz.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057288" type="ABS">164</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84719f98-1ea9-40fd-b55f-260e5907b5e3</unitid>
+            <unittitle>Schuldbekentenis van Jan de Wael, wonende te Buurmalsen, ten behoeve van Aert van Riebeck wegens verschenen pacht. (Reg. no. 25.)</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1568">1568 Augustus 1.</unitdate>
+            <physdesc>1 stuk.</physdesc>
+          </did>
+          <odd>
+            <p>Geschonden.</p>
+          </odd>
+          <scopecontent altrender="Appendix_Regestenlijst">
+            <p altrender="regest_nummer">
+              <num type="regest">25</num>
+              <date calendar="julian" era="ce" normal="1568-08-01">1568 Augustus 1</date>
+            </p>
+            <p altrender="regest_beschrijving">Jan de Wael, wonende te Buremalsen, bekent in tegenwoordigheid van Jacob Jansz. de Wael schuldig te zijn aan Aert van Riebeck zeker bedrag wegens verschenen pacht.</p>
+            <p altrender="regest_datering">
+              <date calendar="julian" era="ce" normal="1568-08-01">Gegeven int jaer ons Heeren duyssent vijffhondert achtendetsestych den eersten dach Augustus.</date>
+            </p>
+            <p altrender="regest_nb">"Oorspr. <ref linktype="simple">Inv. no. 164</ref>. Op papier. Met het merk; van Jan de Wael en de handteekening van Jacob Jansz. de Wael."</p>
+            <p altrender="regest_nb">Geschonden.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057289" type="ABS">165</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/655870b5-96f5-41e2-967d-7f337dddc83d</unitid>
+            <unittitle>Stukken betreffende het proces, gevoerd voor twee geëligeerde rechters van den Hoogen Raad in Holland tusschen Willem, prins van Oranje enz., en Joost van Bronckhorst en Batenburg, vrijheer van Honnepel, als vader on garde noble hebbende van zijne dochter Geertruydt, over de heerlijkheid Vianen, Ameide, Tienhoven enz. Afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1580">Z. j. (c. 1580.)</unitdate>
+            <physdesc>1 katern.</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057290" type="ABS">166</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4a78de2-7970-472e-9d57-72faca1c25cf</unitid>
+            <unittitle>Brief, waarbij Johannes Mersman, kanunnik der St.-Salvatorkerk te Utrecht, Dirk Leendertsz. van Gemert institueert in de vicarie op het altaar van St. Jan den Evangelist in de parochiekerk van Vianen, waarmede deze door Geertruid van Bronkhorst en Batenburch, vrijvrouwe van Vianen, begiftigd is.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1588">1588 Juli 25.</unitdate>
+            <physdesc>1 charter.</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057291" type="ABS">167</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d392db9-7e97-4ccd-8214-1263bc18ce91</unitid>
+            <unittitle>Huwelijksvoorwaarden tusschen jonker Johan van Utenbroeck en Geertruydt van Reede, opgemaakt te Amerongen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1616">1616 Augustus 15.</unitdate>
+            <physdesc>1 charter.</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057292" type="ABS">168</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec2d03a2-8191-4d7b-b893-3e1a9ce3211b</unitid>
+            <unittitle>Extracten uit de schepenrol te Hagestein betreffende het proces, gevoerd door den drost, als eischer, tegen Peter Lenertsz, als gedaagde, wegens manslag.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1637">1637.</unitdate>
+            <physdesc>1 omslag.</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057293" type="ABS">169</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a68be2cb-697b-439b-a9f7-01892cc6a9cc</unitid>
+            <unittitle>Brief van eene "vrundinne" te Vianen aan "joffr. Dusbart" betreffende het salaris van wijlen haar man, als procureur van juffrouw Dusbart, in de zaak tegen Gijsbert Geens.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1654">1654 Juli 21.</unitdate>
+            <physdesc>1 stuk.</physdesc>
+          </did>
+          <odd>
+            <p>Geschonden. De onderteekening outbreekt.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057294" type="ABS">170</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b665752b-d0a5-40d8-9398-0e2bb6cbc988</unitid>
+            <unittitle>Ordonnantie van Floris, graaf van Culemborch enz., aan zijn dijkgranf en hoogheemraden betreffende het voeren van de schouw op den Diefdijk. Concept.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1550/1599">Z. j. (2de helft 16de eeuw?).</unitdate>
+            <physdesc>1 stuk.</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057295" type="ABS">171</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c172baf-4d99-4614-9af5-b059ad0928c0</unitid>
+            <unittitle>Naamlijst van personen, wier land gelegen is aan den dijk in den Lande van Kuilenburg.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1550/1599">Z. j. (2de helft 16de eeuw?).</unitdate>
+            <physdesc>1 stuk.</physdesc>
+          </did>
+          <odd>
+            <p>Zeer geschonden.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057296" type="ABS">172</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9b9d18f-32f6-4ba3-aa51-f8e19e947bc6</unitid>
+            <unittitle>Minuut-acte van verklaring van schout, schepenen en andere inwoners van Hagestein, afgelegd voor (den notaris Henric Bon?), betreffende het vonnissen door schepenen van Everdingen. Fragment.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1550/1599">Z. j. (2de helft 16de eeuw?).</unitdate>
+          </did>
+          <odd>
+            <p>Geschonden.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1057297" type="ABS">173</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/661dc368-5c5f-4582-aca4-9af885cbcca2</unitid>
+            <unittitle>Varia. Deels fragmenten en zeer geschonden.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1500/1599">16de eeuw.</unitdate>
+            <physdesc>1 omslag.</physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

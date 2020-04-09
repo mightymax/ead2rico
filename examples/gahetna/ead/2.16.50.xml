@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:49:27 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.16.50::Maatschappij ter Behartiging van de Nationale Scheepvaartbelangen [N.V. BENAS])//NL" url="http://proxy.handle.net/10648/43b2622c-5d18-4ec2-8ea9-63f0f2e94461" urn="2.16.50.ead.xml">2.16.50</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van de archieven van de NV Maatschappij ter Behartiging van de Nationale Scheepvaartbelangen (NV BENAS); Stichting ter Behartiging van de Nationale Scheepvaartbelangen (Stichting BENAS), 1932-1956</titleproper>
+        <author>J.M.W.M. Nihof</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1986">1986</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2008">2008</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Pauline van den Heuvel, 
+		  <date calendar="gregorian" era="ce" normal="20080619">19 juni 2008</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce" normal="20090216"> 16 februari 2009 </date>
+        <item>
+          <num>1</num> Archiefbloknaam en datering gewijzigd, door <name>Diederick Kortlang</name>
+        </item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce" normal="20091215"> 15 december 2009 </date>
+        <item>
+          <num> 2</num>Inv.nr. 100 toegevoegd, door <name>Diederick Kortlang</name>
+        </item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Maatschappij ter Behartiging van de Nationale Scheepvaartbelangen [N.V. BENAS]</unittitle>
+      <unittitle type="short">BENAS</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1932/1956" type="inclusive">1932-1956</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">W26553</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">2.00 meter; </extent>
+        
+      <extent unit="files">100 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>N.V. Maatschappij ter behartiging van de Nationale Scheepsvaart Belangen</corpname>
+      </origination>
+      <origination>
+        <corpname>Stichting Behartiging van de Nationale Scheepvaartbelangen</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief van de N.V. en stichting Behartiging van de Nationale Scheepvaartsbelangen (1932-1956) kort weg BENAS, bestaat voornamelijk uit stukken rakende de financiële, juridische en personele organisatie van de belangenorganisatie. Tevens zijn er archiefbescheiden aanwezig die betrekking hebben op het verlenen van subsidie en steun aan diverse rederijen. <lb/>De stukken bestaan hoofdzakelijk uit notulen, subsidie dossiers, financiële stukken, rapportages, nota's en correspondentie.</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <bioghist>
+          <head>GESCHIEDENIS EN TAAK</head>
+          <p>Als gevolg van de economische wereldcrisis in de jaren 1930-1931 waren vele Nederlandse rederijen van de grote vaart in betalingsmoeilijkheden gekomen. Sommige van hen moesten hun schepen aan het buitenland verkopen, waardoor de Nederlandse koopvaardijvloot als geheel zeer verzwakt raakte. De Nederlandse regering erkende het grote belang dat Nederland had bij een krachtige handelsvloot. Er moest Staatssteun komen on de rederijen voor ondergang te behoeden. In 1932 werd er een ambtelijke commissie ingesteld die tot taak had te onderzoeken in wat voor vorm die steunverlening moest worden gegoten. Deze commissie kwam tot de conclusie dat er een financieringsmaatschappij in de vorm van een N.V. opgericht moest worden. Door deze stichtingsvorm bleven de rederijen in particuliere handen en werd een eenzijdige regeringsinvloed vermeden. Met die doelstelling werd op 27 september 1932 de N.V. Maatschappij ter Behartiging van de Nationale Scheepvaartbelangen opgericht (N.V. Benas).</p>
+          <p>De eerste aandeelhouders waren: De Nederlandse staat en de rederij "Koninklijke Hollandse Lloyd".</p>
+          <p>Verder moesten alle rederijen die voor steun in aanmerking wensten te komen allereerst aandeelhouder worden van de N.V..</p>
+          <p>Het ministerie van Financiën had een rekening-courant geopend ten behoeve van de Benas. Indien de Benas geld nodig had moest ze daargemotiveerde voorstellen indienen. Werden deze ingewilligd dan stortte het ministerie het benodigde geld op haar rekening. De aanvankelijke vorm van steunverlening was het verstrekken van geldleningen onder hypothecair verband. Maar de bedrijfsresultaten bleven ondanks deze hulpverlening zeer ongunstig. Dat bracht de Benas ertoe om naast deze geldleningen credieten en voorschotten (gage-, oplegen nieuwbouwcredieten) te verstrekken.</p>
+          <p>Na de oorlog was er voor een zelfstandig Benas-beleid geen reden meer. De instelling van het Directoraat-Generaal voor de Scheepvaart stond een zelfstandige scheepvaartpolitiek niet toe. Ook door de oprichting van de Maatschappij tot Financiëring van het Nationaal Herstel n.v. (Herstelbank) waarin de financiëring met behulp van de overheid werd gecontroleerd bleek dat er geen plaats meer was voor de Benas in de huidige organisatievorm.</p>
+          <p>Wel was er de behoefte aan een deskundig lichaam op zeevaartgebied. Men is toen op 1-11-1947 overgegaan tot liquidatie van de N.V. Benas, waarna deze op 30-12-1947 werd omgezet in de Stichting Benas. De naam Benas werd behouden omdat deze volledig ingeburgerd was bij de rederijen.</p>
+          <p>De Stichting verrichtte het voorbereidende werk voor het verstrekken van leningen aan rederijen door de Herstelbank. De Benas was van een credietverlenend lichaam geworden tot een adviserend en controlerend lichaam van de Herstelbank. Verder kreeg de Stichting een taak in het kader van de regeling Vlootreconstructie Grote Vaart 1946. Dit was een regeling ter vervanging van de in de oorlog verloren gegane schepen.<note>
+              <p>Zie map nummer 1</p>
+            </note>
+          </p>
+        </bioghist>
+        <bioghist>
+          <head>ORGANISATIE</head>
+          <p>De personeelssterkte van de N.V. bestond vanaf het begin uit een directeur, een secretaris en een medewerker. De directeur werd in de eerste vergadering van aandeelhouders gekozen. Dat werd de heer C.J.P. Zaalberg, oud Directeur-Generaal van de Arbeid van het ministerie van Economische zaken. Voor alle handelingen inzake geldleningen en credietverleningen aan rederijen had de directie machtiging nodig van de raad van commissarissen. Deze raad bestond uit vijf leden, waarvan er drie regeringscommissaris waren. De benoeming geschiedde telkens voor drie jaar. Verder waren er de aandeelhouders, deze kwamen minimaal één maal per jaar bij elkaar in de Algemene vergadering van aandeelhouders.</p>
+          <p>Het bestuur van de Stichting bestond uit ten minste zes en ten hoogste tien leden, waarvan ten minste drie en ten hoogste vijf leden geen ambtelijke functie bekleedden. Een van de niet ambtelijke leden was de directeur van de Herstelbank. De leden werden door de minister van Verkeer en Waterstaat benoemd. De leden van het bestuur hadden zitting voor de tijd van drie jaar. Voor de eerste maal werd als voorzitter benoemd mr. J.J. Oyevaar, Directeur-Generaal voor de Scheepvaart. Tot administrateur/secretaris van de Stichting werd benoemd mr. A.C.B. Helder, deze was werkzaam bij het Directoraat-Generaal voor de Scheepvaart als hoofd van het bureau Nationale zaken.</p>
+        </bioghist>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <p>Het archief van de N.V. Benas is na de liquidatie overgedragen aan het Directoraat-Generaal voor de Scheepvaart. Van de ordening van dit archief is niets bekend. Het archief van de Stichting werd volgens een bepaald systeem bijgehouden.<note>
+            <p>Zie map nummer 95</p>
+          </note> Men had een "relatie archief" waarin de stukken op naam van de betreffende rederij op chronologische volgorde bij elkaar waren geplaatst. Dit archiefgedeelte is vernietigd omdat het alleen stukken bevatte die ook in de dossiers per rederij voorkwamen. In de dossiers per rederij was alle correspondentie met de Herstelbank, Stichting en andere instanties chronologisch bij elkaar geplaatst. De ingangen op dit archief zijn niet aangetroffen.</p>
+        <p>De archieven zijn in 1981 overgedragen aan het Centraal Semi-statisch archief van het ministerie van Verkeer en Waterstaat. Gelijktijdig is toen het werkarchief van de heer Helder overgedragen. De omvang van de overgedragen archieven was 4 meter. In het werkarchief bevond zich het grootste gedeelte van het archief van de N.V. en stukken betreffende de oprichting van de Stichting. Volgens het bestemmingsbeginsel zijn deze stukken teruggebracht naar het desbetreffende archief. Het restant van het werkarchief is achter het archief van de Stichting geplaatst. De heer A. Tjon fan Soe, medewerker van het Centraal Semi-statisch archief, heeft het werkarchief geordend en geschoond.</p>
+        <p>Afgezien van een index op het archief van de Stichting zijn er geen ingangen van de archieven aangetroffen. Na controle van de index bleek dat het archief van de Stichting niet compleet was.<note>
+            <p>Zie doos 1 map plaatsingslijst</p>
+          </note> De omvang van de archieven na bewerking is 2 meter.</p>
+        <acqinfo>
+          <head>De verwerving van het archief</head>
+          <p>Overbrenging van een overheidsarchief</p>
+        </acqinfo>
+      </custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek">08.03.02</subject>
+        <subject source="ABS_trefwoord">2.16</subject>
+      </controlaccess>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Maatschappij ter Behartiging van de Nationale Scheepvaartbelangen [N.V. BENAS], nummer toegang 2.16.50, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, BENAS Scheepvaart, 2.16.50, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <relatedmaterial>
+        <head>Verwante archieven</head>
+        <p>Zie voor verdere informatie het archief van het Directoraat-Generaal voor de Scheepvaart, periode 1959-1971, classificatienummer -33.07.57 zaakno. 2085 en 2985A en -33.07.353.72/.07.353.76 no 1158A.<lb/>
+				NL-HaNA, Ministerie van Verkeer en Waterstaat: Directoraat-Generaal van Scheepvaart, 1960-1971, 2.16.87.03.
+				</p>
+      </relatedmaterial>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unittitle>N.V. Benas</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257526" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/67e57a4c-3612-4c0e-a27b-84ec20e386e4</unitid>
+            <unittitle>Stukken betreffende de oprichting, statuten en kamerstukken.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257527" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec1e68f9-f332-4f68-94f7-74c1d3d946c5</unitid>
+            <unittitle>Stukken betreffende de liquidatie.</unittitle>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>3-7</unitid>
+            <unittitle>Notulen van de Raad van Commissarissen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1951">1932-1951</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257528" type="ABS">3</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2e6e27b-0120-49f2-81d4-b1a10f04698e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1932/1933">1932-1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257529" type="ABS">4</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed69d171-cb49-4df2-a731-7b849a491ff9</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257530" type="ABS">5</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/effc0863-7bf7-4827-89fe-562c70538a0e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257531" type="ABS">6</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/87999005-9c8a-4e10-b8d8-e335cb35b855</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257532" type="ABS">7</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/91a5b62b-9ccd-4e40-b2af-46bd6f8d7daa</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1937/1951">1937-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257533" type="ABS">8</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31746952-1906-4a88-b582-0d5d5945660c</unitid>
+            <unittitle>Résumé's van besprekingen van de Commissarissen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1941/1942">1941-1942</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>9-10</unitid>
+            <unittitle>Notulen algemene vergadering van Aandeelhouders</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1933/1951">1933-1951</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257534" type="ABS">9</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/209d7579-52cc-40eb-acb5-8d1d789f398f</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1933/1940">1933-1940</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257535" type="ABS">10</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d39afda7-5abf-491d-86d0-424d0616c9cd</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1951">1941-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257536" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f95d867-690c-49b9-9aa1-68c377071c32</unitid>
+            <unittitle>Verslagen liquidatie-balans.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257537" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/14a234a4-75bc-4100-a257-e2c9003045e9</unitid>
+            <unittitle>Jaarverslag</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932">1932</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>13-14</unitid>
+            <unittitle>Stukken betreffende financiële aangelegenheden</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1937">1932-1937</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257538" type="ABS">13</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc483ec2-952a-41dc-a481-05de830c7454</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1932/1934">1932-1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257539" type="ABS">14</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6feb2c8e-2f01-4fc3-b779-cb83dfe36517</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1935/1937">1935-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>15-18</unitid>
+            <unittitle>Rekeningen-courant</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1951">1932-1951</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257540" type="ABS">15</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/63d9fbb2-5ab5-48e4-ac10-b9d461b8a574</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1932/1936">1932-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257541" type="ABS">16</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5df04bdd-33c5-44fc-a1f0-d2a0368e271d</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1937/1938">1937-1938</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257542" type="ABS">17</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e520c531-8e10-4372-8d38-917d72920fd9</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1939/1942">1939-1942</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257543" type="ABS">18</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31f534c2-1366-439a-9dfb-97ef5c92bbfa</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1943/1951">1943-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257544" type="ABS">19</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c0dbff6-6a05-47ea-8d7e-c1c0f0b3d883</unitid>
+            <unittitle>Accountantsrapporten</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1938/1951">1938-1951</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257545" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/66ce1f0a-2292-4a73-9560-e603d29111ff</unitid>
+            <unittitle>Journaal</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1935">1932-1935</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257546" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff542ca3-8536-46ce-8e46-1a9da4da1401</unitid>
+            <unittitle>Memoriaal</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1944">1932-1944</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>22-29</unitid>
+            <unittitle>Subsidie dossiers van Amsterdamse rederijen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257547" type="ABS">22</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/746a58df-7a69-4b65-98b8-37146863da05</unitid>
+              <unittitle>Stoomvaart mij. Hilligersberg</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257548" type="ABS">23</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/881b0043-a083-44e9-bc71-0347ae2a6439</unitid>
+              <unittitle>N.V. Hollandse Stoomboot mij.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257549" type="ABS">24</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/06c343b3-1a37-43c8-9998-671f431af760</unitid>
+              <unittitle>Java-China-Japan lijn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257550" type="ABS">25</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a884d29-ddd5-4060-a16a-b2325f865750</unitid>
+              <unittitle>Koninklijke Hollandse Lloyd</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257551" type="ABS">26</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/016fb2e0-384a-400f-9403-43e5a35e5495</unitid>
+              <unittitle>Koninklijke Nederlandse Stoomboot mij.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257552" type="ABS">27</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d54de45a-ba5e-4e4b-80c3-73692353f1fd</unitid>
+              <unittitle>Nederlandse Scheepvaart Unie</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257553" type="ABS">28</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/634f55d6-4cf9-41a9-9041-9f761273cbeb</unitid>
+              <unittitle>N.V. Stoomvaart mij Noordzee</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257554" type="ABS">29</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/30115705-a43e-4b6f-87fc-278bfd634f44</unitid>
+              <unittitle>N.V. Stoomvaart mij Oostzee</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>30-50</unitid>
+            <unittitle>Subsidie dossiers van Rotterdamse rederijen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257555" type="ABS">30</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2a8b58c-9a50-4ba8-8aff-0f628578c5c7</unitid>
+              <unittitle>Batavierlijn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257556" type="ABS">31</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f28c25b-c621-4d6f-bf53-68a78d47d972</unitid>
+              <unittitle>N.V. Bergendal</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257557" type="ABS">32</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2910b733-e731-49ac-8b01-ad9a2f4024d0</unitid>
+              <unittitle>P. Fauchy's cargadoorsbedrijf n.v.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257558" type="ABS">33</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a768bc6-7ba2-4fe5-8fd4-7fc7b6878da0</unitid>
+              <unittitle>N.V. Stoomschip "Hannah"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257559" type="ABS">34</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c83b172c-5de1-4f5a-bd3f-0d51500c438e</unitid>
+              <unittitle>Holland Amerika Lijn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257560" type="ABS">35</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/33811a5c-65bb-48b5-967b-018f062f0faf</unitid>
+              <unittitle>N.V. Houtvaart</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257561" type="ABS">36</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdd26f8d-733e-4ac6-9985-59774d854cf2</unitid>
+              <unittitle>N.V. H. van Krieken en co</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257562" type="ABS">37</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/85ee8a57-c3b0-45f0-ad04-ebe789d76156</unitid>
+              <unittitle>N.V. Stoomvaart mij Leonora</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257563" type="ABS">38</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c1c2159-3fcc-4c8c-96ed-7cb30ce5b992</unitid>
+              <unittitle>Stoomvaart mij de Maas</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257564" type="ABS">39</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0fc8dd02-4300-4f4b-be1a-be54b2aaf519</unitid>
+              <unittitle>Middelandse Zeevaart Compagnie n.v.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257565" type="ABS">40</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6e5be47-b386-4786-9186-66b4acdec627</unitid>
+              <unittitle>Stoomvaart mij Nederlandse Lloyd en Scheepvaart en Steenkolen mij</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257566" type="ABS">41</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f07cee7-dd91-4ac3-9adb-f323396d51d6</unitid>
+              <unittitle>van Nievelt Goudriaan en Co Stoomvaart mij</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257567" type="ABS">42</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a997c36-dd82-4c42-850c-3b4c0687a295</unitid>
+              <unittitle>Zuid Beijerland en Oost Beijerland</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257568" type="ABS">43</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe90c668-41d3-444e-b34e-68d846fd0fe8</unitid>
+              <unittitle>L. Smit en Co's internationale sleepdienst</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257569" type="ABS">44</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a08bb93d-049d-4a6f-a6ee-fd1429665e4e</unitid>
+              <unittitle>N.V. Soetermeer Fekkes cargadoorsbedrijf</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257570" type="ABS">45</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f30c6f3f-0ef1-4b74-bc0d-6bae28a4daf6</unitid>
+              <unittitle>N.V. Gebr's van Uden Scheepvaart en Agentuurmij</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257571" type="ABS">46</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9af9b73-5b40-4782-acbb-33acb8756d2b</unitid>
+              <unittitle>Gebr's A. Voskamp</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257572" type="ABS">47</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/031ed59a-0097-4b5f-ad5f-27dcec3b9165</unitid>
+              <unittitle>N.V. Stoomvaart mij Wijklijn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257573" type="ABS">48</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e3496bc-fb7a-4fb6-a5f6-218216ab964b</unitid>
+              <unittitle>N.V. mij Zeevaart</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257574" type="ABS">49</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2b4faa7-ca20-4521-a642-0083a9969a21</unitid>
+              <unittitle>Zeetransport mij n.v.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257575" type="ABS">50</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98f6ac37-3cec-4b63-bc73-872f21c48347</unitid>
+              <unittitle>Verenigde Nederlandse Scheepvaart mij te 's-Gravenhage</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257576" type="ABS">51</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6bc5c39a-a543-4b10-90bf-109eade0a665</unitid>
+            <unittitle>Stukken betreffende bouwcredieten.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257577" type="ABS">52</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a94b6cb2-ca11-4d70-881b-46c5d65e43ae</unitid>
+            <unittitle>Correspondentie inzake opleg- en gagecrediet.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257578" type="ABS">53</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/102b4750-497e-4d52-b4f3-01c918d5f61f</unitid>
+            <unittitle>Correspondentie inzake Benassteun.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257579" type="ABS">54</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d9a367a-6af6-4da8-98e1-ad44172f0be2</unitid>
+            <unittitle>Stukken betreffende de algemene steunregeling.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257580" type="ABS">55</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/acf5fa54-8304-4668-a4fc-ba9af6f6f864</unitid>
+            <unittitle>Alegemene Steunovereenkomst</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257581" type="ABS">56</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/88bafa71-8910-4a72-8e14-e2e13ce485b1</unitid>
+            <unittitle>Steunregeling Zeevaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1942">1942</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257582" type="ABS">57</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13a822ec-f10e-4de7-a86c-930615b9d7ce</unitid>
+            <unittitle>Steunaanvraag</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257583" type="ABS">58</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0feb968-da16-4561-91ae-b1ef2e06952a</unitid>
+            <unittitle>Stukken betreffende de steun aan rederijen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1941/1943">1941-1943</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257584" type="ABS">59</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de834a42-8451-4e5f-bfba-a2d0516eeefc</unitid>
+            <unittitle>Contract met de Verenigde Nederlandse Scheepvaart mij. en de Koninklijke Hollandse Lloyd.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257585" type="ABS">60</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6439d1e5-235b-4f4f-80e4-b86ff408804d</unitid>
+            <unittitle>Stukken betreffende de steun aan de Gebr's van Uden.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257586" type="ABS">61</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89fe3bc7-0e74-4944-9d0a-58816b7fe446</unitid>
+            <unittitle>Steunregeling kustvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1942">1942</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257587" type="ABS">62</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9359b2ba-b2da-4bc5-b136-5a5917e136c0</unitid>
+            <unittitle>Stukken betreffende scheepvaartsteun.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257588" type="ABS">63</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f4751a24-c0a8-413f-bc25-19fa3a2c2600</unitid>
+            <unittitle>Postcheque- en giroboek Benassteun</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1937">1932-1937</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257589" type="ABS">64</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c156be79-81b4-44b4-8d61-920ebe186d12</unitid>
+            <unittitle>Stukken betreffende de kleine kustvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1937">1932-1937</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257590" type="ABS">65</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/29eb11fe-54f4-45f0-a34e-f2008bc33551</unitid>
+            <unittitle>Stukken betreffende de kleine kustvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1934/1952">1934-1952</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257591" type="ABS">66</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/632ba346-68bc-478d-a274-8e96b719d161</unitid>
+            <unittitle>Stukken betreffende de assurantie van schepen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1932/1934">1932-1934</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257592" type="ABS">67</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e310a2a-6426-4f19-8657-6374c8776a48</unitid>
+            <unittitle>Algemene correspondentie</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1935/1943">1935-1943</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257593" type="ABS">68</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6fac2c4-c3e7-4b73-9a0d-6456c9ade592</unitid>
+            <unittitle>Wettelijke regeling collectieve arbeidsvoorwaarden (kapiteins en schepelingen).</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257594" type="ABS">69</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/be738233-2f45-447c-8529-d1d6f9a2a951</unitid>
+            <unittitle>Correspondentie betreffende de internationalisatie van arbeidsovereenkomsten (kapiteins en schepelingen).</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257595" type="ABS">70</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0fd700bd-7523-41db-ae4e-8a83b088618e</unitid>
+            <unittitle>Stukken betreffende de houtvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1934/1936">1934-1936</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257596" type="ABS">71</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/346c708e-7ec4-430b-8d19-c5c4a57c50e2</unitid>
+            <unittitle>Stukken betreffende de evenredige vrachtverdeling in de binnenvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1938/1939">1938-1939</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257597" type="ABS">72</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4542138d-c538-412c-884f-837279c0c6f7</unitid>
+            <unittitle>Stukken betreffende de bevordering vernieuwing Nederlandse vloot</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257598" type="ABS">73</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9afd0b62-0add-43c8-9266-accfeebbeb3c</unitid>
+            <unittitle>Correspondentie met rederijen inzake de internationale samenwerking in de scheepvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1933/1934">1933-1934</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257599" type="ABS">74</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/53619e7a-b643-41b9-8493-d65f7578ffb7</unitid>
+            <unittitle>Correspondentie met de minister van Handel, Nijverheid en Scheepvaart inzake de internationale rationalisatie in de scheepvaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1935/1936">1935-1936</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257600" type="ABS">75</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b6f3e87-88fb-4d77-991c-74c1a9862d90</unitid>
+            <unittitle>Stukken betreffende de Regeling Vlootreconstructie Grote Vaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257601" type="ABS">76</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b4e4477-98c4-43ea-8580-30b49dc389b9</unitid>
+            <unittitle>Notulen en verslagen van de commissie inzake de bouw van Passagiersschepen voor de St. mij. Nederland en de Rotterdamse Lloyd.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3461692" type="ABS">100</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b67dffb2-848f-41ea-adfb-8aafc7d27b9f</unitid>
+            <unittitle>Inventaris van het BENAS-archief en stukken betreffende archivering en postverwerking.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1943/1972">1943-1948 (1972)</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Stichting Benas</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257602" type="ABS">77</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/debecd5d-3890-46a8-8a3c-f5b7822ab1c0</unitid>
+            <unittitle>Stukken betreffende de oprichting van de Stichting Benas en het ontwerp Benaswet.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257603" type="ABS">78</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e38ffa3-942e-4a7c-abd6-06ace63dada8</unitid>
+            <unittitle>Benoemingen leden van het bestuur.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257604" type="ABS">79</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3853657-631c-4d49-943b-a775fa016276</unitid>
+            <unittitle>Notulen van vergaderingen van het bestuur</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1948/1955">1948-1955</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257605" type="ABS">80</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/af43c9dd-14cd-47dd-9879-5b78c8ae0e8c</unitid>
+            <unittitle>Jaarverslagen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1948/1950">1948 -1956 (1950 ontbreekt)</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>81-92</unitid>
+            <unittitle>Credieten aan rederijen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257606" type="ABS">81</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a0232a26-44a6-4312-b1fd-e3f4f6ba6cbc</unitid>
+              <unittitle>N.V. Stoomachip Hannah te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257607" type="ABS">82</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/93bc1262-f366-4a5b-9493-02b9cb485a7c</unitid>
+              <unittitle>N.V. Houtvaart te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257608" type="ABS">83</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fa3eabc-2646-46ef-b8b3-71714e21d4bb</unitid>
+              <unittitle>Hudig en Pieters Alg Scheepvaart mij te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257609" type="ABS">84</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5404a4ab-dfb4-4a0b-89e2-989dd11d3fb8</unitid>
+              <unittitle>N.V. Scheepvaart mij. Indische Oceaan te Amsterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257610" type="ABS">85</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a227eb3-02dc-483c-8bea-a1593d494349</unitid>
+              <unittitle>Koninklijke Hollandse Lloyd te Amsterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257611" type="ABS">86</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e666df5c-b488-4c23-9ec8-ea93e261f12b</unitid>
+              <unittitle>N.V. Rederij Nautiek te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257612" type="ABS">87</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca1d3dcb-3250-4750-9617-c6b8a1b71d48</unitid>
+              <unittitle>N.V. Nederlands Indonesië Steenkolen handel mij te Amsterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257613" type="ABS">88</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b019c41b-4940-4b11-9443-7578f71b0133</unitid>
+              <unittitle>N.V. Stoomvaart mij Oostzee te Amsterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257614" type="ABS">89</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/295beda1-a2bc-4ab9-9f1c-bcf025a24502</unitid>
+              <unittitle>Gebr's Van Uden te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257615" type="ABS">90</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c464afc3-bf9b-4970-a718-30fc920025bf</unitid>
+              <unittitle>Verenigde Nederlandse Scheepvaart mij te 's-Gravenhage</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257616" type="ABS">91</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/214ced75-db04-4774-8cb8-71c7db1a8cab</unitid>
+              <unittitle>Mij Zeetransport te Rotterdam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1257617" type="ABS">92</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d843a0c-8e31-4ac7-b9d2-e4daea514f23</unitid>
+              <unittitle>Holland-Amerika-lijn te Rotterdam</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257618" type="ABS">93</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/05caa910-cf33-45a2-9d43-42d75fbf8752</unitid>
+            <unittitle>Stukken betreffende de financieringsmoeilijkheden van de Herstelbank.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257619" type="ABS">94</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/efd7a765-075e-401e-a92b-156425e50160</unitid>
+            <unittitle>Nota van de D.G.-Scheepvaart inzake de verhouding St. Benas - Herstelbank.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257620" type="ABS">95</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c651be2-d2db-4b1b-b74a-1db7ce0146e4</unitid>
+            <unittitle>Nota's en toelichtingen.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257621" type="ABS">96</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/52a8fda9-1f57-4d76-8ba8-4c1d01796918</unitid>
+            <unittitle>Stukken betreffende de oprichting van een Scheepvaartbank.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257622" type="ABS">97</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b52f770-1db8-4401-ac62-0d1abeed43f9</unitid>
+            <unittitle>Stukken betreffende de Regeling Vlootreconstructie Grote vaart 1946 artikel 25 en 26 inzake de berekening van het bijzonder crediet.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257623" type="ABS">98</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c32ceb22-d88e-4ec5-b0b7-4171bf9534c6</unitid>
+            <unittitle>Stukken betreffende de voorwaarden crediet en afkapping artikel 25 en 26 van de Regeling Vlootreconstructie Grote vaart</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1257624" type="ABS">99</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3731e66-9118-4659-a657-71aeadd79b4c</unitid>
+            <unittitle>Werkarchief van de heer A.C.B. Helder.</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

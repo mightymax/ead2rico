@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/600352dd-0fc0-42b6-983f-6a21beec95c4"
+  rdf:about="record/1.10.69">
+    <rico:identifier>1.10.69</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1950</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1201" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.69/i1" />
+      <rico:instantiates rdf:resource="record/1.10.69" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110805</rico:hasModificationDate>
+        <html:p>5 augustus 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20180509</rico:hasModificationDate>
+        <html:p>9 mei 2018</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Radermacher,
+        1460-1800</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/600352dd-0fc0-42b6-983f-6a21beec95c4" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1201">
+    <rico:describedBy rdf:resource="record/1.10.69" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1201</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Radermacher</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Radermacher</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1460</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1800</rico:endDate>
+    <rico:date>1460-1800</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Verenigde Oostindische Compagnie, Kamer Zeeland,
+            BewindhebberWestindische Compagnie, Kamer Zeeland,
+            BewindhebberRadermacher</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1872 werd door Mr. E.P. Schorer te Middelburg namens de gezamelijke
+          erfgenamen van zijn vader Mr. Pieter Nicolaas Schorer (overleden 1869) en van
+          Samuel Radermacher (overleden 1761) aan het Nationaal Archief een collectie
+          stukken geschonken, afkomstig van bovengenoemde Samuel en van Daniel
+          Radermacher. Verslagen omtrent 's Rijks oude archieven 1865 - 1877, pagina 82;
+          Correspondentie Algemeen Rijksarchief 1872 (ingekomen brief nr. 183, uitgaande
+          brief nr. 137). Deze stukken betreffen uitsluitend zaken van de Oost- en West
+          Indische Compagnieën en zijn door de beide Radermachers, Samuel en zijn zoon
+          Daniel verzameld in hun functies van bewindhebbers der beide compagnieën. Deze
+          Radermachers behoorden tot het bekende, oorspronkelijk uit Duitsland, maar
+          sinds het eind van de 16e eeuw in Zeeland gevestigde geslacht. A. Ferwerda,
+          Adelijk en aanzienlijk Wapenboek van de Zeven Provincien, deel II, 2e
+          stuk.</html:p>
+          <html:p>Samuel Radermacher, zoon van Daniel Radermacher en Maria Beeckman werd
+          te Midelburg geboren 15 maart 1693 en overleed aldaar 2 oktober 1761. Hij huwde
+          14 oktober 1721 te Middelburg Maria Elisabeth de la Rue. Als weduwnaar
+          hertrouwde hij 2 januari 1732 met Cornelia Boddaert, dochter van Mr. Pieter
+          Boddaert en Maria Kien. Hij vervulde veschillende functies in de stedelijke
+          regering, zo was hij in 1715 tweede griffier ter thesaurie, in 1718 werd hij
+          griffier. Als schepen komt hij voor tussen de jaren 1726 - 1760, als raad 1728
+          - 1755. Verder bekleedde hij het ambt van thesaurier en was verschillende jaren
+          burgermeester. Sinds 1730 tot zijn dood in 1761 was hij bewindhebber van de
+          Oost Indische Compagnie. Nieuw Biografisch Woordenboek, deel II, kolom 1157;
+          Nagtglas, Levensberichten van Zeeuwen II, pagina 459.</html:p>
+          <html:p>Zijn zoon Daniel Radermacher, heer van Nieuwerkerk werd te Middelburg
+          geboren 21 november 1722 en overleed aldaar 8 maart 1803. Hij huwde Susanna
+          Libertina Boogaert, dochter van Paulus Boogaert en Ignatia Geertruyda Timmers.
+          3 november 1756, na de dood van zijn vrouw hertrouwde hij met Clasina
+          Petronella de Kokelaer, weduwe van Mr. Daniel Jan Bouwens te Amsterdam. 9
+          augustus 1741 werd hij als student in de rechten ingeschreven bij de Leidse
+          Universiteit, waar hij 1 juli 1743 promoveerde. Ook hij bekleedde verschillende
+          ambten in zijn vaderstad, werd in 1762 raad en in 1763 schepen. In 1761 was hij
+          zijn vader als bewindhebber van de VOC opgevolgd. Hij steunde kunst en
+          wetenschappen, in het bijzonder interesseerde hij zich voor de scheepsbouw.
+          Door tussenkomst van het Zeeuws Genootschap werd door hem een som beschikbaar
+          gesteld voor een prijsvraag betreffende de beste schepen voor de VOC. Nieuw
+          Biografisch Woordenboek, deel II, kolom 1152; Nagtglas II, pagina 460. Op dit
+          gebied zijn tal van stukken door hem verzameld en in de collectie
+          bewaard.</html:p>
+          <html:p>Behalve van Samuel en Daniel Radermacher zijn er tussen door hen
+          verzamelde stukken en aantekeningen nog een klein aantal stukken aanwezig,
+          afkomstig van de grootvader van Samuel, Johan Radermacher, die geboren werd te
+          Amsterdam circa 1633 en te Middelburg overleed 24 mei 1704. Hij was een zoon
+          van Daniel Radermacher en Maria de Looper en gehuwd met Maria van der Stringe.
+          In 1669 hertrouwde hij met Johanne de Haze. Ferwerda, deel II, 2e stuk; Nieuw
+          Biografisch Woordenboek II, 1156; Nagtglas II, pagina 459.</html:p>
+          <html:p>Aan de Universiteit van Utrecht werd hij in 1651 ingeschreven als
+          student in de rechten. In 1658 verkreeg hij als licentiaat in die wetenschap
+          het poorterschap te Middelburg. Tot de vermogende kooplieden behorend, werd hij
+          in 1674 bewindhebber van de heropgerichte West Indische Compagnie. De in de
+          collectie aanwezige stukken hebben uitsluitend betrekkingop deze functie.
+          Bovendien was hij waterbaljuw van Zeeland en sinds 1679 tot zijn overlijden
+          vervulde hij de functie van baljuw van Middelburg. Uit zijn eerste huwelijk met
+          Maria van de Stringe stamt Daniel Radermacher, de vader van Samuel.</html:p>
+          <html:p>Tenslotte zijn in de collectie nog aanwezig een aantal stukken
+          afkomstig van Pieter Boddaert, schoonvader van Samuel Radermacher. Ook deze
+          Pieter Boddaert behoorde tot een patricisch Zeeuws geslacht als zoon van Pieter
+          Boddaert, kiesheer en bewindhebber van de Oost Indische Compagnie en van
+          Cornelia van der Helm. A.J. van de Aa, Biografisch Woordenboek, deel II, pagina
+          211; Nagtglas, I, pagina 46. Pieter Boddaert Jr. werd geboren 4 augustus 1659
+          en was gehuwd met Anna Maria Kien. Evenals zijn vader vervulde hij tal van
+          stedelijke functies, was raad, schepen, burgermeester en bovendien bewindhebber
+          van de Oost Indische Compagnie. Daarnaast was hij een ijverig beoefenaar van
+          wetenschappen, in het bijzonder van het bijbelonderzoek. Hij stierf 14 maart
+          1732. Eén van zijn dochters, Cornelia, huwde met Samuel Radermacher.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Verenigde Oostindische Compagnie, Kamer Zeeland,
+            BewindhebberWestindische Compagnie, Kamer Zeeland,
+            BewindhebberRadermacher</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1872 werd door Mr. E.P. Schorer te Middelburg namens de gezamelijke
+          erfgenamen van zijn vader Mr. Pieter Nicolaas Schorer (overleden 1869) en van
+          Samuel Radermacher (overleden 1761) aan het Nationaal Archief een collectie
+          stukken geschonken, afkomstig van bovengenoemde Samuel en van Daniel
+          Radermacher. Verslagen omtrent 's Rijks oude archieven 1865 - 1877, pagina 82;
+          Correspondentie Algemeen Rijksarchief 1872 (ingekomen brief nr. 183, uitgaande
+          brief nr. 137). Deze stukken betreffen uitsluitend zaken van de Oost- en West
+          Indische Compagnieën en zijn door de beide Radermachers, Samuel en zijn zoon
+          Daniel verzameld in hun functies van bewindhebbers der beide compagnieën. Deze
+          Radermachers behoorden tot het bekende, oorspronkelijk uit Duitsland, maar
+          sinds het eind van de 16e eeuw in Zeeland gevestigde geslacht. A. Ferwerda,
+          Adelijk en aanzienlijk Wapenboek van de Zeven Provincien, deel II, 2e
+          stuk.</html:p>
+          <html:p>Samuel Radermacher, zoon van Daniel Radermacher en Maria Beeckman werd
+          te Midelburg geboren 15 maart 1693 en overleed aldaar 2 oktober 1761. Hij huwde
+          14 oktober 1721 te Middelburg Maria Elisabeth de la Rue. Als weduwnaar
+          hertrouwde hij 2 januari 1732 met Cornelia Boddaert, dochter van Mr. Pieter
+          Boddaert en Maria Kien. Hij vervulde veschillende functies in de stedelijke
+          regering, zo was hij in 1715 tweede griffier ter thesaurie, in 1718 werd hij
+          griffier. Als schepen komt hij voor tussen de jaren 1726 - 1760, als raad 1728
+          - 1755. Verder bekleedde hij het ambt van thesaurier en was verschillende jaren
+          burgermeester. Sinds 1730 tot zijn dood in 1761 was hij bewindhebber van de
+          Oost Indische Compagnie. Nieuw Biografisch Woordenboek, deel II, kolom 1157;
+          Nagtglas, Levensberichten van Zeeuwen II, pagina 459.</html:p>
+          <html:p>Zijn zoon Daniel Radermacher, heer van Nieuwerkerk werd te Middelburg
+          geboren 21 november 1722 en overleed aldaar 8 maart 1803. Hij huwde Susanna
+          Libertina Boogaert, dochter van Paulus Boogaert en Ignatia Geertruyda Timmers.
+          3 november 1756, na de dood van zijn vrouw hertrouwde hij met Clasina
+          Petronella de Kokelaer, weduwe van Mr. Daniel Jan Bouwens te Amsterdam. 9
+          augustus 1741 werd hij als student in de rechten ingeschreven bij de Leidse
+          Universiteit, waar hij 1 juli 1743 promoveerde. Ook hij bekleedde verschillende
+          ambten in zijn vaderstad, werd in 1762 raad en in 1763 schepen. In 1761 was hij
+          zijn vader als bewindhebber van de VOC opgevolgd. Hij steunde kunst en
+          wetenschappen, in het bijzonder interesseerde hij zich voor de scheepsbouw.
+          Door tussenkomst van het Zeeuws Genootschap werd door hem een som beschikbaar
+          gesteld voor een prijsvraag betreffende de beste schepen voor de VOC. Nieuw
+          Biografisch Woordenboek, deel II, kolom 1152; Nagtglas II, pagina 460. Op dit
+          gebied zijn tal van stukken door hem verzameld en in de collectie
+          bewaard.</html:p>
+          <html:p>Behalve van Samuel en Daniel Radermacher zijn er tussen door hen
+          verzamelde stukken en aantekeningen nog een klein aantal stukken aanwezig,
+          afkomstig van de grootvader van Samuel, Johan Radermacher, die geboren werd te
+          Amsterdam circa 1633 en te Middelburg overleed 24 mei 1704. Hij was een zoon
+          van Daniel Radermacher en Maria de Looper en gehuwd met Maria van der Stringe.
+          In 1669 hertrouwde hij met Johanne de Haze. Ferwerda, deel II, 2e stuk; Nieuw
+          Biografisch Woordenboek II, 1156; Nagtglas II, pagina 459.</html:p>
+          <html:p>Aan de Universiteit van Utrecht werd hij in 1651 ingeschreven als
+          student in de rechten. In 1658 verkreeg hij als licentiaat in die wetenschap
+          het poorterschap te Middelburg. Tot de vermogende kooplieden behorend, werd hij
+          in 1674 bewindhebber van de heropgerichte West Indische Compagnie. De in de
+          collectie aanwezige stukken hebben uitsluitend betrekkingop deze functie.
+          Bovendien was hij waterbaljuw van Zeeland en sinds 1679 tot zijn overlijden
+          vervulde hij de functie van baljuw van Middelburg. Uit zijn eerste huwelijk met
+          Maria van de Stringe stamt Daniel Radermacher, de vader van Samuel.</html:p>
+          <html:p>Tenslotte zijn in de collectie nog aanwezig een aantal stukken
+          afkomstig van Pieter Boddaert, schoonvader van Samuel Radermacher. Ook deze
+          Pieter Boddaert behoorde tot een patricisch Zeeuws geslacht als zoon van Pieter
+          Boddaert, kiesheer en bewindhebber van de Oost Indische Compagnie en van
+          Cornelia van der Helm. A.J. van de Aa, Biografisch Woordenboek, deel II, pagina
+          211; Nagtglas, I, pagina 46. Pieter Boddaert Jr. werd geboren 4 augustus 1659
+          en was gehuwd met Anna Maria Kien. Evenals zijn vader vervulde hij tal van
+          stedelijke functies, was raad, schepen, burgermeester en bovendien bewindhebber
+          van de Oost Indische Compagnie. Daarnaast was hij een ijverig beoefenaar van
+          wetenschappen, in het bijzonder van het bijbelonderzoek. Hij stierf 14 maart
+          1732. Eén van zijn dochters, Cornelia, huwde met Samuel Radermacher.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Verenigde Oostindische Compagnie, Kamer Zeeland,
+            BewindhebberWestindische Compagnie, Kamer Zeeland,
+            BewindhebberRadermacher</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1872 werd door Mr. E.P. Schorer te Middelburg namens de gezamelijke
+          erfgenamen van zijn vader Mr. Pieter Nicolaas Schorer (overleden 1869) en van
+          Samuel Radermacher (overleden 1761) aan het Nationaal Archief een collectie
+          stukken geschonken, afkomstig van bovengenoemde Samuel en van Daniel
+          Radermacher. Verslagen omtrent 's Rijks oude archieven 1865 - 1877, pagina 82;
+          Correspondentie Algemeen Rijksarchief 1872 (ingekomen brief nr. 183, uitgaande
+          brief nr. 137). Deze stukken betreffen uitsluitend zaken van de Oost- en West
+          Indische Compagnieën en zijn door de beide Radermachers, Samuel en zijn zoon
+          Daniel verzameld in hun functies van bewindhebbers der beide compagnieën. Deze
+          Radermachers behoorden tot het bekende, oorspronkelijk uit Duitsland, maar
+          sinds het eind van de 16e eeuw in Zeeland gevestigde geslacht. A. Ferwerda,
+          Adelijk en aanzienlijk Wapenboek van de Zeven Provincien, deel II, 2e
+          stuk.</html:p>
+          <html:p>Samuel Radermacher, zoon van Daniel Radermacher en Maria Beeckman werd
+          te Midelburg geboren 15 maart 1693 en overleed aldaar 2 oktober 1761. Hij huwde
+          14 oktober 1721 te Middelburg Maria Elisabeth de la Rue. Als weduwnaar
+          hertrouwde hij 2 januari 1732 met Cornelia Boddaert, dochter van Mr. Pieter
+          Boddaert en Maria Kien. Hij vervulde veschillende functies in de stedelijke
+          regering, zo was hij in 1715 tweede griffier ter thesaurie, in 1718 werd hij
+          griffier. Als schepen komt hij voor tussen de jaren 1726 - 1760, als raad 1728
+          - 1755. Verder bekleedde hij het ambt van thesaurier en was verschillende jaren
+          burgermeester. Sinds 1730 tot zijn dood in 1761 was hij bewindhebber van de
+          Oost Indische Compagnie. Nieuw Biografisch Woordenboek, deel II, kolom 1157;
+          Nagtglas, Levensberichten van Zeeuwen II, pagina 459.</html:p>
+          <html:p>Zijn zoon Daniel Radermacher, heer van Nieuwerkerk werd te Middelburg
+          geboren 21 november 1722 en overleed aldaar 8 maart 1803. Hij huwde Susanna
+          Libertina Boogaert, dochter van Paulus Boogaert en Ignatia Geertruyda Timmers.
+          3 november 1756, na de dood van zijn vrouw hertrouwde hij met Clasina
+          Petronella de Kokelaer, weduwe van Mr. Daniel Jan Bouwens te Amsterdam. 9
+          augustus 1741 werd hij als student in de rechten ingeschreven bij de Leidse
+          Universiteit, waar hij 1 juli 1743 promoveerde. Ook hij bekleedde verschillende
+          ambten in zijn vaderstad, werd in 1762 raad en in 1763 schepen. In 1761 was hij
+          zijn vader als bewindhebber van de VOC opgevolgd. Hij steunde kunst en
+          wetenschappen, in het bijzonder interesseerde hij zich voor de scheepsbouw.
+          Door tussenkomst van het Zeeuws Genootschap werd door hem een som beschikbaar
+          gesteld voor een prijsvraag betreffende de beste schepen voor de VOC. Nieuw
+          Biografisch Woordenboek, deel II, kolom 1152; Nagtglas II, pagina 460. Op dit
+          gebied zijn tal van stukken door hem verzameld en in de collectie
+          bewaard.</html:p>
+          <html:p>Behalve van Samuel en Daniel Radermacher zijn er tussen door hen
+          verzamelde stukken en aantekeningen nog een klein aantal stukken aanwezig,
+          afkomstig van de grootvader van Samuel, Johan Radermacher, die geboren werd te
+          Amsterdam circa 1633 en te Middelburg overleed 24 mei 1704. Hij was een zoon
+          van Daniel Radermacher en Maria de Looper en gehuwd met Maria van der Stringe.
+          In 1669 hertrouwde hij met Johanne de Haze. Ferwerda, deel II, 2e stuk; Nieuw
+          Biografisch Woordenboek II, 1156; Nagtglas II, pagina 459.</html:p>
+          <html:p>Aan de Universiteit van Utrecht werd hij in 1651 ingeschreven als
+          student in de rechten. In 1658 verkreeg hij als licentiaat in die wetenschap
+          het poorterschap te Middelburg. Tot de vermogende kooplieden behorend, werd hij
+          in 1674 bewindhebber van de heropgerichte West Indische Compagnie. De in de
+          collectie aanwezige stukken hebben uitsluitend betrekkingop deze functie.
+          Bovendien was hij waterbaljuw van Zeeland en sinds 1679 tot zijn overlijden
+          vervulde hij de functie van baljuw van Middelburg. Uit zijn eerste huwelijk met
+          Maria van de Stringe stamt Daniel Radermacher, de vader van Samuel.</html:p>
+          <html:p>Tenslotte zijn in de collectie nog aanwezig een aantal stukken
+          afkomstig van Pieter Boddaert, schoonvader van Samuel Radermacher. Ook deze
+          Pieter Boddaert behoorde tot een patricisch Zeeuws geslacht als zoon van Pieter
+          Boddaert, kiesheer en bewindhebber van de Oost Indische Compagnie en van
+          Cornelia van der Helm. A.J. van de Aa, Biografisch Woordenboek, deel II, pagina
+          211; Nagtglas, I, pagina 46. Pieter Boddaert Jr. werd geboren 4 augustus 1659
+          en was gehuwd met Anna Maria Kien. Evenals zijn vader vervulde hij tal van
+          stedelijke functies, was raad, schepen, burgermeester en bovendien bewindhebber
+          van de Oost Indische Compagnie. Daarnaast was hij een ijverig beoefenaar van
+          wetenschappen, in het bijzonder van het bijbelonderzoek. Hij stierf 14 maart
+          1732. Eén van zijn dochters, Cornelia, huwde met Samuel Radermacher.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Bevat stukken betreffende bestuur en bedrijf der VOC en WIC in Nederland en
+      overzee, afkomstig van leden van de familie Rademacher, bewindhebbers van deze
+      compagnieën. Bevat tevens stukken betreffende de Zeeuwse
+      commerciecompagnieën.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3 />
+      <html:p />
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>638 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>6,89 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

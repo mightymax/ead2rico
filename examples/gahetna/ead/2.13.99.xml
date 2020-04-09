@@ -1,0 +1,3424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<!-- 26-10-2017 09:53:11 -->
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.13.99::Ministerie van Defensie: Collectie Zuiveringen)//NL" url="http://hdl.handle.net/10648/cf29f28c-88ba-4eaa-8ee8-c398e81f5ad2" urn="2.13.99.ead.xml">2.13.99</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het archief van het Ministerie van Defensie: Collectie betreffende zuiveringen, 1945-1959. Band I: Inleiding, Inventaris</titleproper>
+				<author>E. van Heugten, E. Mettes, R. van Velden</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="2000">2000</date>
+				<p id="copyright">
+					<extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref>
+				</p>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Jaap van Rijswijck, <date calendar="gregorian" era="ce" normal="20060929">29 september 2006</date>
+			</creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: <lb/>S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, Erven B. van der Kamp, Groningen 1898;<lb/>S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920;<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, Rijks Archiefschool, Utrecht 1974;<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983;<lb/>J.L. van der Gouw e.a., <title linktype="simple">Nederlandse Archiefterminologie</title>, Tjeenk Willink, Zwolle 1962;<title linktype="simple">Archivistische Terminologie</title>, Rijks Archiefschool, Utrecht 1975;<title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983</descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20070521">21 mei 2007 </date>
+				<item>
+					<num>1</num> Beschrijvingen inv.nrs. 833-846 toegevoegd, door Diederick Kortlang </item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20090217">17 februari 2009</date>
+				<item>
+					<num>2</num> Bijlage ingevoegd door <name>Jaap van Rijswijck</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce"> </date>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Ministerie van Defensie: Collectie Zuiveringen</unittitle>
+			<unittitle type="short">Defensie / Coll. Zuiveringen</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1945/1959" type="inclusive">1945-1959</unitdate>
+			<unitdate type="bulk" era="ce" calendar="gregorian"/>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">D27547</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">42.70 meter; </extent>
+				<extent unit="files">825 inventarisnummers.</extent>
+			</physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>
+			</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">&#160;</origination>
+			<origination>
+</origination>
+			<origination>
+				<corpname>Adviescommissie zuivering van de dienst van loodswezen</corpname>
+			</origination>
+			<origination>
+				<corpname>Commissie beoordeling officieren bezet gebied</corpname>
+			</origination>
+			<origination>
+				<corpname>Commissie Van Asbeck, gedragingen marine-officieren Nederland</corpname>
+			</origination>
+			<origination>
+				<corpname>Commissie verantwoording krijgsgevangen officieren der KL</corpname>
+			</origination>
+			<origination>
+				<corpname>Commissie verantwoording krijgsgevangen officieren KNIL</corpname>
+			</origination>
+			<origination>
+				<corpname>Commissie zuivering beroepspersoneel beneden den rand van 2e luitenant</corpname>
+			</origination>
+			<origination>
+				<corpname>Militaire commissie van advies zuiveringsbesluit</corpname>1945
+</origination>
+			<origination>
+				<corpname>Zuiveringscommissie ingesteld door het bestuur van de Koninklijke Nederlandsche Amateur Schermbond</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">De archiefbescheiden in de collectie zuiveringen van het Ministerie van Defensie bevatten voornamelijk dossiers op het gebied van het verhoren, onderzoeken, beoordelen van en adviseren aan de minister betreffende het al dan niet handhaven van militairen. Het archief is nader toegankelijk door middel van eigentijdse toegangen en door namen- en zakenindexen. Hier rusten echter openbaarheidbeperkingen op.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<bioghist>
+				<head>Geschiedenis van de archiefvormer</head>
+				<bioghist>
+					<head>INLEIDING</head>
+					<p/>
+				</bioghist>
+				<bioghist>
+					<head>Geschiedenis van de archiefvormers</head>
+					<p>Bij besluit van 13 januari 1944 (No E 14) werd het Zuiveringsbesluit vastgesteld. In genoemd besluit werd bepaald dat - onder andere - de Hoge Colleges van Staat gezuiverd zouden worden. </p>
+					<p>In augustus 1945 werd een nieuw Zuiveringsbesluit vastgesteld: het Zuiveringsbesluit 1945 (Stb F 132). In vergelijking met het eerdere besluit kende het 2 nieuwe gronden waarop gezuiverd (de facto: ontslagredenen) kon worden en meer gradaties in strafopleggingen. Zo konden ambtenaren die ontrouw waren gebleken aan de zaak van het Koninkrijk of door gedragingen of uitlatingen blijk hadden gegeven van een nationaal-socialistische geestesgesteldheid worden ontslagen. Ook konden lichtere straffen worden opgelegd.</p>
+					<p>Artikel 5 lid 4 verplicht een commissie van onderzoek in te stellen, bij gemeenschappelijke beschikking van de Minister-president en de minister van Binnenlandse Zaken. De taak van deze commissie was het adviseren van de betrokken minister alvorens deze tot ontslag op grond van de bepalingen van genoemd Zuiveringsbesluit overging.</p>
+					<p>Bij Koninklijk Besluit van 23 februari 1946, nr. 23 werd de werkwijze van de zuiveringscommissies vastgelegd.</p>
+					<p>Om te kunnen beoordelen welke officieren of minderen voor ontslag in aanmerking kwamen, werden er drie commissies ingesteld:</p>
+					<p>1) De commissie beoordeling officieren bezet gebied (voortaan: CBOBG), onder voorzitterschap van de reserve generaal-majoor H. Koot, werd ingesteld bij ministeriële beschikking van 7 juni 1945, nr. 75.</p>
+					<p>In augustus 1945 werden de volgende subcommissies ingesteld:</p>
+					<p>Noord-Holland; 's-Gravenhage en omstreken; Rotterdam en omstreken; Utrecht west; Utrecht oost; Groningen-Friesland en Drenthe; Overijssel en Gelderland; Noord-Brabant en Zeeland; Limburg.</p>
+					<p>Daarnaast werd een subcommissie voor de beoordeling van officieren van gezondheid geïnstalleerd. Deze werd ook, na toevoeging van een hoofdofficier van de tandheelkundige dienst respectievelijk van de farmaceutische dienst, bevoegd voor het beoordelen van tandartsen en apothekers.  <note>
+							<p> Voor stukken omtrent het eindverslag en beschouwingen omtrent de werkzaamheden van deze subcommissie zie onder andere Centraal Archievendepot (CAD). geheim verbaalarchief ministerie van Oorlog (mvO), verbaal van 23v maart 1948, Y 54. </p>
+						</note>
+					</p>
+					<p>Ook werden aparte subcommissies in het leven geroepen voor de beoordeling van veterinaire officieren en (hoofd-)opzichters van fortificatiën.</p>
+					<p>Hoofdofficieren verschenen in persoon voor de CBOBG, terwijl subalterne- en aspirant-officieren werden gehoord door de regionale subcommissies. De subcommissies zonden de dossiers door naar de CBOBG, die, in het geval de subcommissie een gunstig advies gaf, het dossier naliep en, zo er geen bijzonderheden in het dossier opdook, zonder verhoor van de betrokkenen dit overnam en aldus de minister meedeelde.</p>
+					<p>Indien het oordeel van een subcommissie over een officier ongunstig luidde werd de betrokkene opnieuw gehoord, nu door de CBOBG.</p>
+					<p>De commissie beëindigde haar werkzaamheden met ingang van 1 juli 1947.  <note>
+							<p> CAD, geheim verbaalarchief mvO, verbaal van 18 juni 1947, nr. W 107.  </p>
+						</note>  De subcommissie ter beoordeling van veterinaire officieren zette haar activiteiten voort onder de naam commissie voor de beoordeling van officieren-paardenarts en ressorteerde als zodanig rechtstreeks onder de minister van Oorlog.  <note>
+							<p> CAD, geheim verbaalarchief mvO, verbaal van 14 juli 1947, nr. Q 121. </p>
+						</note>  Deze commissie werd opgeheven met ingang van 15 maart 1948.  <note>
+							<p> CAD, geheim verbaalarchief mvO, verbaal van 28 februari 1948, nr. E 39. </p>
+						</note>
+					</p>
+					<p>De CBOBG bracht ongeveer 8850 adviezen uit, waarbij 350 zaken voor nader advies aan de militaire commissie van advies (zie hieronder) werden voorgelegd.</p>
+					<p>2) Verder functioneerde nog de commissie verantwoording krijgsgevangen officieren der KL (voortaan: CVKO) onder voorzitterschap van luitenant-generaal J.J.G. van Voorst tot Voorst. Hier werden 2900 gevallen onderzocht, waarvan 150 nader door de militaire commissie van advies werden beschouwd.</p>
+					<p>3) De commissie zuivering beroepspersoneel beneden den rang van 2e luitenant, met als voorzitter kolonel V.E. Nierstrasz werd ingesteld op 1 januari 1946 en eind 1946 opgeheven. Dit nadat om en nabij 1230 dossiers behandeld waren, waarvan 836 behorend tot het beroeps- en reservepersoneel en 396 dienstplichtigen. Inzake het beroepspersoneel werd in 150 zaken aan de minister het advies niet handhaven gegeven.</p>
+					<p>Op grond van door de drie bovengenoemde commissies uitgebrachte adviezen bepaalde de minister van Oorlog, welke officieren en minderen voor ontslag in aanmerking kwamen.</p>
+					<p>De militaire commissie  <note>
+							<p> De commissie voerde deze taak uit op grond van het Zuiveringsbesluit 1945, artikel 5, lid 4 (Stb F 132). </p>
+						</note>  van advies Zuiveringsbesluit 1945, ingesteld bij beschikking van de Minister-president en de minister van Binnenlandse Zaken van 24 mei 1946 nr. Z5392, had tot taak de minister van Oorlog advies uit te brengen in gevallen waarin deze minister overwoog beroeps- of reservepersoneel te ontslaan op grond van bepalingen van genoemd Zuiveringsbesluit. Deze commissie werd voorgezeten door luitenant-generaal b.d. jhr. W. Röell. Op 19 december 1946 werden een aantal plaatsvervangende leden benoemd en werd tevens mr. J.C. van Alphen de Veer tot secretaris benoemd. Eind 1958 beëindigde de commissie haar werkzaamheden. De commissie vroeg daarom de minister van Oorlog om de opheffing van de commissie te bewerkstelligen. Hierbij moest ook een regeling worden getroffen inzake het archief.  <note>
+							<p> CAD, archief ministerie van Oorlog, directoraat personeel, dossier  P 114705. </p>
+						</note>
+					</p>
+					<p>Deze commissie werd opgeheven bij gemeenschappelijke beschikking van de Minister-president en de minister van Binnenlandse Zaken van 21 april 1959.</p>
+				</bioghist>
+				<bioghist>
+					<head>Adviescommissie zuivering van het loodswezen</head>
+					<p>Bij beschikking van de minister van Marine van 10 augustus 1945 werd de Marine-inlichtingendienst opdracht gegeven een onderzoek uit te voeren naar de politieke gezindheid en de houding en gedragingen tijdens de bezetting van het personeel van de dienst van loodswezen. Aan de hand van de door deze dienst opgemaakte rapportages werd vervolgens door een commissie onder voorzitterschap van kapitein ter zee K. van Aller advies uitgebracht of en zo ja welke maatregelen tegen personeel van deze dienst diende te worden getroffen.</p>
+				</bioghist>
+				<bioghist>
+					<head>Commissie van Asbeck</head>
+					<p>Deze zuiveringscommissie was belast met het onderzoeken van de gedragingen van marine-officieren en werd ingesteld bij Koninklijk Besluit van 28 september 1945, nr. 36.  <note>
+							<p>  Zie voor de voorstukken: Centraal Archievendepot, het zeer geheim archief van het ministerie van Marine, dossier II/27/310/1/ZG. </p>
+						</note>
+					</p>
+					<p>Commissie Verantwoording Krijgsgevangen Officieren van het Koninklijk Nederlandsch-Indisch Leger (CVKOKNIL)</p>
+					<p>Deze commissie werd ingesteld bij beschikking van 25 juni 1945 door de minister van Oorlog, met als doelstelling het beoordelen van gedragingen van officieren van het KNIL die bij het uitbreken van de oorlog in Nederland verbleven. Voorzitter was lt-gen  J.J.G. Baron van Voorst tot Voorst.</p>
+				</bioghist>
+			</bioghist>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<custodhist>
+					<head>Geschiedenis van de archieven</head>
+					<custodhist>
+						<head>CBOBG</head>
+						<p>Het archief kende een tweedeling: dossiers inzake te handhaven en dossiers inzake niet te handhaven officieren. De dossiers handhaven werden alfabetisch-lexicografisch opgelegd. De afdeling officieren niet handhaven was (in 1960) als volgt opgebouwd: 
+<list mark="hyphen" type="marked">
+								<item>A 13 Adressen onbekend
+</item>
+								<item>A 14 Geïnterneerden
+</item>
+								<item>A 15 Gehoord door subcommissie, doch niet door hoofdcommissie
+</item>
+								<item>A 16 Nimmer gehoord
+</item>
+								<item>A 17 Officieren, die tijdens de bezetting niet in bezet gebied waren
+</item>
+								<item>A 18 Aalmoezeniers en veldpredikers
+</item>
+								<item>A 19 Zijn in krijgsgevangenschap geweest
+</item>
+								<item>A 20 Officieren van hoge rang
+</item>
+								<item>A 21 Subcommissie: niet handhaven. Door vertrek naar Indië niet door hoofdcommissie gehoord
+</item>
+								<item>A 22 Overleden
+</item>
+								<item>A 23 Nimmer gehoord
+</item>
+								<item>A 24 Van alles wat
+</item>
+								<item>A 25 Buitenlands
+</item>
+								<item>A 26 Subcommissie: handhaven. Daarna klacht ingekomen
+</item>
+								<item>A 27 Gepensioneerden
+</item>
+								<item>A 28 Nimmer gehoord. Indië
+</item>
+								<item>A 29 Marineofficieren
+</item>
+								<item>A 30 Zieke officieren
+</item>
+								<item>A 31 KNIL
+</item>
+								<item>A 32 Personen, die in 1940 geen officier noch adspirant-officier waren
+</item>
+							</list>
+						</p>
+						<p>Het archief van de CBOBG werd omstreeks september 1947 overgedragen aan de secretaris van de militaire commissie van advies Zuiveringsbesluit 1945. In de akte van overdracht werd opgemerkt dat de dossiers A 28-A 32 bij de overdracht niet werden aangetroffen. De CBOBG weigerde het kaartsysteem mee over te dragen, omdat, zo werd gesteld, op deze kaarten &quot;(...) dusdanige aantekeningen stonden, die voor buitenstaanders, waaronder gerekend werd ieder die niet tot het secretariaat van de Commissie Koot ... niet begrijpelijk [waren].&quot;</p>
+						<p>Na opheffing van de commissie voor de beoordeling van officieren-paardenarts werd het archief van voornoemde commissie eveneens aan de secretaris van de militaire commissie van advies Zuiveringsbesluit 1945 overgedragen.</p>
+						<p>Tijdens de bewerking van het archief werd een dossier afgedwaalde archiefbescheiden, aangetroffen in de collectie H. Koot, teruggebracht in deze collectie onder inventarisnummer 616.</p>
+					</custodhist>
+				</custodhist>
+				<custodhist>
+					<head>CVKO</head>
+					<p>De eigentijdse toegang op het archief bestond uit een alfabetisch-lexicografische kaartindex en een kaartindex, maar dan gesplitst in reserve-officieren, non-actief personeel et cetera.</p>
+					<p>Het archief van de CVKO werd eind 1947 eveneens overgedragen aan de militaire commissie van advies Zuiveringsbesluit 1945.</p>
+				</custodhist>
+				<custodhist>
+					<head>Commissie zuivering beroepspersoneel beneden den rang van 2e luitenant</head>
+					<p>Het archief van de commissie Nierstrasz werd omstreeks december 1946 aan het ministerie van Oorlog overgedragen.  <note>
+							<p> CAD, geheim verbaalarchief mvO, verbaal 1946 nr. I 263. </p>
+						</note>
+					</p>
+				</custodhist>
+				<custodhist>
+					<head>Militaire commissie van advies Zuiveringsbesluit 1945</head>
+					<p>De dossiers, 1980 stuks in totaal, waren numeriek opgeborgen. Er was een alfabetisch-lexicografische index in de vorm van een kaartsysteem. Op deze kaartjes was per dossier onder andere vermeld de datum en de inhoud van het aan de minister uitgebrachte advies en de door deze genomen beslissing. Door de commissie uitgebrachte adviezen werden zowel opgeborgen in het dossier van de desbetreffende persoon als in serie die numeriek werd opgelegd. De serie dossiers was verder ontsloten door middel van een inhoudsopgave (&quot;dossierboek&quot;) waarin aantekening werd gehouden van het nummer van het dossier, naam, voornamen (afgekort), rang/stand, eventueel seponeren van de zaak (indien een A in blauw potlood tussen de rang staat), inhoud van het advies van de commissie, de datum van de doorzending van het advies aan de minister, de datum van en het dossiernummer van de beslissing van de minister.</p>
+					<p>De archieven van de militaire commissie van advies Zuiveringsbesluit 1945, CBOBG, CVKO en de adviescommissie voor de zuivering van het personeel van de voormalige Nederlandse Arbeidsdienst werden op 16 november 1960 door de secretaris van de voormalige militaire commissie van advies Zuiveringsbesluit 1945 overgedragen aan het ministerie van Defensie.  <note>
+							<p> CAD, archief ministerie van Defensie, dossier 258720. </p>
+						</note>
+					</p>
+				</custodhist>
+				<custodhist>
+					<head>CVKOKNIL</head>
+					<p>De archiefbescheiden welke beschreven zijn onder inventarisnummer 623 werden in 1997 overgedragen door de Centrale Archief Selectiedienst aan het CAD. De stukken werden tijdens de bewerking door het CAS van de zuiveringsarchieven van het Ministerie van Binnenlandse Zaken aangetroffen en van dit archiefblok afgescheiden.</p>
+				</custodhist>
+				<acqinfo>
+					<head>De verwerving van het archief</head>
+					<p>Overbrenging van een overheidsarchief</p>
+					<p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p>
+				</acqinfo>
+				<acqinfo altrender="ABS">
+					<head>De verwerving van het archief</head>
+					<p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p>
+				</acqinfo>
+			</custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek">MAISAO-WOTAP</subject>
+				<subject source="ABS_trefwoord">2.13</subject>
+			</controlaccess>
+			<scopecontent>
+				<head>Inhoud</head>
+				<scopecontent>
+					<head>Aanwijzingen voor het gebruik</head>
+					<p>De bijlagen 1-6, welke zijn opgenomen in band II en III, zijn slechts raadpleegbaar na ondertekening van een formulier voor inzage van stukken met openbaarheidsbeperking.</p>
+				</scopecontent>
+			</scopecontent>
+			<appraisal>
+				<head>Selectie en vernietiging</head>
+				<p>In 1999 werden bij de inventarisatie van deze archieven totaal 48 centimeter archiefbescheiden vernietigd. In het algemeen werden dubbele exemplaren verwijderd en vernietigd. Uit het archief van de militaire commissie Zuiveringsbesluit 1945 werden vernietigd: 
+<list mark="hyphen" type="marked">
+						<item>Minuten van aanbiedingsbrieven van adviezen inzake artikel 5 lid 4 van het Zuiveringsbesluit 1945 aan de minister van Oorlog, zonder de bijlagen;
+</item>
+						<item>Ingekomen aanbiedingsbrieven van afschriften van beschikkingen van het ministerie van Oorlog en het ministerie van Marine, aangetroffen zonder de bijlagen (deze bevinden zich op een hoger bewaarniveau, in casu in het geheim verbaalarchief van het ministerie van Oorlog, serie verbalen inzake de zuivering in minuutvorm);
+</item>
+						<item>Comptabele bescheiden;
+</item>
+						<item>Stukken betreffende tewerkstelling, bevordering, voordracht voor een koninklijke onderscheiding, ontheffing uit functie van medewerkers bij de commissie;
+</item>
+						<item>Stukken betreffende vacatiegelden van leden van de commissie;
+</item>
+						<item>Stukken betreffende een onderzoek naar het opheffen van voorlopig arrest van de res-kap J.H.G.H. V. door lt-gen mr J.H. Kruls;
+</item>
+						<item>Stukken betreffende een onderzoek door de commissie ad hoc inzake M.L. P.;
+</item>
+						<item>Het gedeponeerd archief (ingekomen en minuten van uitgaande stukken) bij de subcommissie Utrecht-oost, 1945
+</item>
+						<item>Uit het archief van de commissie zuivering beroepspersoneel beneden den rang van 2e luitenant werd ongeveer 24 centimeter dubbele archiefbescheiden, afschriften en documentatie vernietigd.
+</item>
+					</list>
+				</p>
+			</appraisal>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>Tijdens de inventarisatie werden de volgende handelingen verricht: 
+<list mark="hyphen" type="marked">
+						<item>het (voor zover nodig dan wel mogelijk) herstellen van de oude orde, met name de ordening van de stukken op registratienummer;
+</item>
+						<item>het samenstellen van een beschrijvende inventaris;
+</item>
+						<item>het verzorgen van de materiële toestand van het archief volgens de Normen goede en geordende staat;
+</item>
+						<item>het ompakken in zuurvrije omslagen en archiefdozen, alsmede het etiketteren van de omslagen en de archiefdozen.
+</item>
+					</list>
+				</p>
+				<p>Volgens de Lijst van te vernietigen archiefbescheiden van het ministerie van defensie, hoofdstuk 6200, 7200, 8200, nr. 108 had een groot deel van de stukken feitelijk vernietigd mogen worden. Stukken betreffende zuivering mogen volgens die lijst na 50 jaar vernietigd worden. Toch is er voor gekozen niet tot vernietiging over te gaan. Hiervoor zijn tal van redenen aan te voeren. Zo bevatten veel dossiers (afschriften van) verslagen van oorlogshandelingen en andere voor de militair-historische geschiedschrijving wellicht interessante bescheiden. Tenslotte is er sprake van een bijzonder, eenmalig precedent. Deze omstandigeheden hebben ons doen overwegen de volledige neerslag van de zuivering, dus ook op uitvoeringsniveau, blijvend te bewaren.</p>
+				<p>Tijdens de bewerking van het archief van de CBOBG werd een dossier afgedwaalde archiefbescheiden, aangetroffen in de collectie H. Koot, teruggebracht in deze collectie onder inventarisnummer 616.</p>
+				<p>De inventarisnummers 626- 633 en 639- 659 zijn niet toegekend.</p>
+			</processinfo>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head>
+			<accessrestrict id="accessrestrict">
+				<head>Openbaarheidsbeperkingen</head>
+				<legalstatus type="ABS">Volledig beperkt openbaar (B). Tot 75 jaar na sluiting dossier  alleen ter inzage na schriftelijke toestemming tot raadpleging, te verkrijgen d.m.v. een schriftelijk verzoek (per brief, inclusief onderzoeksopzet) aan de directeur van het Nationaal Archief t.a.v. het hoofd Onderzoek. Dit geldt ook voor de bijlagen op de toegang.</legalstatus>
+			</accessrestrict>
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Krachtens artikel 15, lid 1 van de Archiefwet 1995 is de openbaarheid van de gehele collectie beperkt tot 75 jaar na sluiting van het dossier. Ter beoordeling aan de beheerder van het algemeen rijksarchief (thans Nationaal Archief) mogen archiefbescheiden slechts worden geraadpleegd na ondertekening van een verklaring waarin onderzoeker verklaart geen inbreuk te zullen plegen op de eerbiediging van de persoonlijke levenssfeer van de in de archiefbescheiden genoemde personen.</p>
+				<p>De bijlagen 1-6, welke zijn opgenomen in band II en III, zijn slechts raadpleegbaar na ondertekening van een formulier voor inzage van stukken met openbaarheidsbeperking.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<phystech>
+				<p>Het archief kent geen materiële beperkingen.</p>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: 
+<list numeration="arabic" type="ordered">
+						<item>U maakt een profiel aan op <extref actuate="onrequest" href="https://www.gahetna.nl/user/register" linktype="simple" show="new">www.gahetna.nl</extref>, en logt vervolgens in;
+</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;
+</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;
+</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;
+</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.
+</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG:  <lb/>Nationaal Archief, Den Haag, Ministerie van Defensie: Collectie Zuiveringen, nummer toegang 2.13.99, inventarisnummer ... </p>
+				<p>VERKORT:  <lb/>NL-HaNA, Defensie / Coll. Zuiveringen, 2.13.99, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+			<relatedmaterial>
+				<head>Verwante archieven</head>
+				<p>Inventaris van het archief van de commissie onderzoek gedragingen marinepersoneel Nederlands-Indië, 1945-1949 (CAD inv. nr. 168).Zie toegang 2.12.51</p>
+				<p>Voor meer stukken inzake zuivering zie ook het geheim verbaalarchief van het ministerie van Oorlog, 1946-1954, serie zuivering.</p>
+			</relatedmaterial>
+		</descgrp>
+		<descgrp type="appendices">
+			<head>Bijlagen</head>
+			<odd type="appendix_glossary">
+				<head>Lijst met gebruikte afkortingen in stukken alsmede in de nadere toegangen </head>
+				<list type="deflist">
+					<head>Wapen</head>
+					<defitem>
+						<label>AD</label>
+						<item>Algemene Dienst</item>
+					</defitem>
+					<defitem>
+						<label>Art</label>
+						<item>Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>BA</label>
+						<item>Bereden Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>BD</label>
+						<item>Bijzondere Diensten</item>
+					</defitem>
+					<defitem>
+						<label>BVA</label>
+						<item>Bereden Veld Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>Cav</label>
+						<item>Cavalerie</item>
+					</defitem>
+					<defitem>
+						<label>G</label>
+						<item>Genie</item>
+					</defitem>
+					<defitem>
+						<label>GD</label>
+						<item>Geneeskundige Dienst</item>
+					</defitem>
+					<defitem>
+						<label>Geneesk Tr</label>
+						<item>Geneeskundige Troepen</item>
+					</defitem>
+					<defitem>
+						<label>Gr</label>
+						<item>Grenadiers</item>
+					</defitem>
+					<defitem>
+						<label>GS</label>
+						<item>Generale Staf</item>
+					</defitem>
+					<defitem>
+						<label>H</label>
+						<item>Huzaren</item>
+					</defitem>
+					<defitem>
+						<label>Inf</label>
+						<item>Infanterie</item>
+					</defitem>
+					<defitem>
+						<label>Int</label>
+						<item>Intendance</item>
+					</defitem>
+					<defitem>
+						<label>J</label>
+						<item>Jagers</item>
+					</defitem>
+					<defitem>
+						<label>KMD</label>
+						<item>Korps Motor Dienst</item>
+					</defitem>
+					<defitem>
+						<label>KRA</label>
+						<item>Korps Rijdende Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>LuA</label>
+						<item>Luchtdoel Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>LW</label>
+						<item>Luchtwacht</item>
+					</defitem>
+					<defitem>
+						<label>MA</label>
+						<item>Militaire Administratie</item>
+					</defitem>
+					<defitem>
+						<label>Mart</label>
+						<item>Motorartillerie</item>
+					</defitem>
+					<defitem>
+						<label>MD</label>
+						<item>Materieel Dienst</item>
+					</defitem>
+					<defitem>
+						<label>MeteoD</label>
+						<item>Meteorologische Dienst</item>
+					</defitem>
+					<defitem>
+						<label>MG</label>
+						<item>Militair Gezag</item>
+					</defitem>
+					<defitem>
+						<label>MGD</label>
+						<item>Militair Geneeskundige Dienst</item>
+					</defitem>
+					<defitem>
+						<label>ML</label>
+						<item>Militaire Luchtvaart</item>
+					</defitem>
+					<defitem>
+						<label>MP</label>
+						<item>Militaire Politie</item>
+					</defitem>
+					<defitem>
+						<label>PW</label>
+						<item>Pantserwagen</item>
+					</defitem>
+					<defitem>
+						<label>SD</label>
+						<item>Speciale Diensten</item>
+					</defitem>
+					<defitem>
+						<label>VLSKM</label>
+						<item>Vrijwillige Landstorm Korps Motordienst</item>
+					</defitem>
+					<defitem>
+						<label>Wr</label>
+						<item>Wielrijders</item>
+					</defitem>
+				</list>
+				<list type="deflist">
+					<head>Onderdeel</head>
+					<defitem>
+						<label>AAT</label>
+						<item>Aan en Afvoer Troepen</item>
+					</defitem>
+					<defitem>
+						<label>AD</label>
+						<item>Algemene Dienst</item>
+					</defitem>
+					<defitem>
+						<label>Afw Bur</label>
+						<item>Afwikkelingsbureau</item>
+					</defitem>
+					<defitem>
+						<label>AHK</label>
+						<item>Algemeen Hoofdkwartier</item>
+					</defitem>
+					<defitem>
+						<label>AI</label>
+						<item>Artillerie-Inrichtingen</item>
+					</defitem>
+					<defitem>
+						<label>AID</label>
+						<item>Artillerie Inlichtingendienst</item>
+					</defitem>
+					<defitem>
+						<label>AMA</label>
+						<item>Artillerie Meetafdeling</item>
+					</defitem>
+					<defitem>
+						<label>AMC</label>
+						<item>Artillerie Meetcompagnie</item>
+					</defitem>
+					<defitem>
+						<label>AMD</label>
+						<item>Artillerie Meetdienst</item>
+					</defitem>
+					<defitem>
+						<label>AMRS</label>
+						<item>Artillerie Motorrijschool</item>
+					</defitem>
+					<defitem>
+						<label>APD</label>
+						<item>Algemeen Paardendepot</item>
+					</defitem>
+					<defitem>
+						<label>APM</label>
+						<item>Algemeen Park Motorvoertuigen</item>
+					</defitem>
+					<defitem>
+						<label>Apoth</label>
+						<item>Apotheek</item>
+					</defitem>
+					<defitem>
+						<label>Aut Bat</label>
+						<item>Auto Bataljon</item>
+					</defitem>
+					<defitem>
+						<label>BAMO</label>
+						<item>Bureau Aanmaak Munitie in Oorlogstijd</item>
+					</defitem>
+					<defitem>
+						<label>Bat</label>
+						<item>Bataljon</item>
+					</defitem>
+					<defitem>
+						<label>Batt</label>
+						<item>Batterij</item>
+					</defitem>
+					<defitem>
+						<label>Bcie</label>
+						<item>Bewakingscompagnie</item>
+					</defitem>
+					<defitem>
+						<label>Bdet</label>
+						<item>Bewakingsdetachement</item>
+					</defitem>
+					<defitem>
+						<label>Ber off</label>
+						<item>beroeps officier</item>
+					</defitem>
+					<defitem>
+						<label>BewTr</label>
+						<item>Bewakingstroepen</item>
+					</defitem>
+					<defitem>
+						<label>BOUV</label>
+						<item>Buitengewone Oproeping - Uitwendige Veiligheid </item>
+					</defitem>
+					<defitem>
+						<label>BVV</label>
+						<item>Bureau Voorbereidende Vernielingen</item>
+					</defitem>
+					<defitem>
+						<label>BVV</label>
+						<item>Bureau Voorbereiding Vernielingen</item>
+					</defitem>
+					<defitem>
+						<label>cdt</label>
+						<item>commandant</item>
+					</defitem>
+					<defitem>
+						<label>Centr Hosp</label>
+						<item>Centraal Hospitaal </item>
+					</defitem>
+					<defitem>
+						<label>Chir hosp</label>
+						<item>Chirurgisch hospitaal</item>
+					</defitem>
+					<defitem>
+						<label>Cie</label>
+						<item>Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>CITB</label>
+						<item>Centraal Inundatie- en Technisch Bureau</item>
+					</defitem>
+					<defitem>
+						<label>CLB</label>
+						<item>Centraal Luchtwacht Bureau</item>
+					</defitem>
+					<defitem>
+						<label>CLD</label>
+						<item>Commandement Lichte Divisie</item>
+					</defitem>
+					<defitem>
+						<label>CLV</label>
+						<item>Commando Lucht Verdediging</item>
+					</defitem>
+					<defitem>
+						<label>CM</label>
+						<item>Compagnie Mortieren</item>
+					</defitem>
+					<defitem>
+						<label>CMH</label>
+						<item>Centraal Militair Hospitaal</item>
+					</defitem>
+					<defitem>
+						<label>CMMKU</label>
+						<item>Centrale Magazijnen van Militaire Kleding en Uitrusting</item>
+					</defitem>
+					<defitem>
+						<label>Co</label>
+						<item>Commando</item>
+					</defitem>
+					<defitem>
+						<label>COI</label>
+						<item>Centrale Onderwijs Inrichting</item>
+					</defitem>
+					<defitem>
+						<label>Comm</label>
+						<item>Commando</item>
+					</defitem>
+					<defitem>
+						<label>COPsyDV</label>
+						<item>Centraal Orgaan ter regeling van de Psychiatrische Dienst ter Velde</item>
+					</defitem>
+					<defitem>
+						<label>COW</label>
+						<item>Centraal orgaan voor de voorziening in behoeften van de weermacht</item>
+					</defitem>
+					<defitem>
+						<label>CP</label>
+						<item>Compagnie Pioniers</item>
+					</defitem>
+					<defitem>
+						<label>CPO</label>
+						<item>Centraal Psychiatrisch Orgaan</item>
+					</defitem>
+					<defitem>
+						<label>CT</label>
+						<item>Compagnie Torpedisten</item>
+					</defitem>
+					<defitem>
+						<label>CvP</label>
+						<item>Commissie van Proefneming</item>
+					</defitem>
+					<defitem>
+						<label>DB</label>
+						<item>Depot Bewaking</item>
+					</defitem>
+					<defitem>
+						<label>Dep Bat</label>
+						<item>Depot Bataljon</item>
+					</defitem>
+					<defitem>
+						<label>Depcie</label>
+						<item>Depot compagnie</item>
+					</defitem>
+					<defitem>
+						<label>Det</label>
+						<item>Detachement</item>
+					</defitem>
+					<defitem>
+						<label>DEV</label>
+						<item>Directie Etappen en Verkeersdienst</item>
+					</defitem>
+					<defitem>
+						<label>DIB</label>
+						<item>Dienst Identificatie en Berging</item>
+					</defitem>
+					<defitem>
+						<label>DInf</label>
+						<item>Depot Infanterie</item>
+					</defitem>
+					<defitem>
+						<label>Dinttr</label>
+						<item>Depot Intendancetroepen</item>
+					</defitem>
+					<defitem>
+						<label>dir</label>
+						<item>dirigerend</item>
+					</defitem>
+					<defitem>
+						<label>Div</label>
+						<item>Divisie</item>
+					</defitem>
+					<defitem>
+						<label>DKMG</label>
+						<item>Dienst Kwartiermeester Generaal</item>
+					</defitem>
+					<defitem>
+						<label>DMA</label>
+						<item>Depot Motorartillerie</item>
+					</defitem>
+					<defitem>
+						<label>DMD</label>
+						<item>Depot Motordienst</item>
+					</defitem>
+					<defitem>
+						<label>DML</label>
+						<item>Directeur Materieel Landmacht</item>
+					</defitem>
+					<defitem>
+						<label>DPt</label>
+						<item>Detachement Politietroepen</item>
+					</defitem>
+					<defitem>
+						<label>DvD</label>
+						<item>Departement van Defensie</item>
+					</defitem>
+					<defitem>
+						<label>EAC</label>
+						<item>Etappen Auto Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>EAI</label>
+						<item>Eerstaanwezend Ingenieur</item>
+					</defitem>
+					<defitem>
+						<label>ED</label>
+						<item>Etappen Directie</item>
+					</defitem>
+					<defitem>
+						<label>Esk</label>
+						<item>Eskadron</item>
+					</defitem>
+					<defitem>
+						<label>EVD</label>
+						<item>Etappen en Verkeersdienst</item>
+					</defitem>
+					<defitem>
+						<label>EWR</label>
+						<item>Eskadron Wielrijders</item>
+					</defitem>
+					<defitem>
+						<label>GB</label>
+						<item>Grens Bataljon</item>
+					</defitem>
+					<defitem>
+						<label>GD</label>
+						<item>Geneeskundige Dienst</item>
+					</defitem>
+					<defitem>
+						<label>gedet</label>
+						<item>gedetacheerd</item>
+					</defitem>
+					<defitem>
+						<label>Genie Tr</label>
+						<item>Genie Troepen</item>
+					</defitem>
+					<defitem>
+						<label>Gr</label>
+						<item>Grenadiers</item>
+					</defitem>
+					<defitem>
+						<label>GS</label>
+						<item>Generale Staf</item>
+					</defitem>
+					<defitem>
+						<label>GT</label>
+						<item>Geneeskundige Troepen</item>
+					</defitem>
+					<defitem>
+						<label>Hfd</label>
+						<item>Hoofd</item>
+					</defitem>
+					<defitem>
+						<label>Hfdkw</label>
+						<item>Hoofdkwartier</item>
+					</defitem>
+					<defitem>
+						<label>Hfdvbpl</label>
+						<item>Hoofdverbandplaats</item>
+					</defitem>
+					<defitem>
+						<label>HKV</label>
+						<item>Hoofdkwartier van het Veldleger</item>
+					</defitem>
+					<defitem>
+						<label>HvH</label>
+						<item>Hoek van Holland</item>
+					</defitem>
+					<defitem>
+						<label>IDC</label>
+						<item>Indelings Districtscommandant</item>
+					</defitem>
+					<defitem>
+						<label>IdG</label>
+						<item>Inspectie der Genie</item>
+					</defitem>
+					<defitem>
+						<label>IGDKL</label>
+						<item>Inspectie Geneeskundige Dienst Koninklijke Landmacht</item>
+					</defitem>
+					<defitem>
+						<label>IMGD</label>
+						<item>Inspectie Militair Geneeskundige Dienst</item>
+					</defitem>
+					<defitem>
+						<label>JaVA</label>
+						<item>Jachtvliegtuigafdeling</item>
+					</defitem>
+					<defitem>
+						<label>Jur</label>
+						<item>Juridische</item>
+					</defitem>
+					<defitem>
+						<label>K</label>
+						<item>Korps</item>
+					</defitem>
+					<defitem>
+						<label>Kart</label>
+						<item>Kustartillerie</item>
+					</defitem>
+					<defitem>
+						<label>KMA</label>
+						<item>Koninklijke Militaire Academie</item>
+					</defitem>
+					<defitem>
+						<label>KMAR</label>
+						<item>Koninklijke Marechaussee</item>
+					</defitem>
+					<defitem>
+						<label>KMD</label>
+						<item>Korps Motor Dienst</item>
+					</defitem>
+					<defitem>
+						<label>KMG</label>
+						<item>Kwartiermeester Generaal</item>
+					</defitem>
+					<defitem>
+						<label>KMK</label>
+						<item>Koninklijke Militaire Kapel</item>
+					</defitem>
+					<defitem>
+						<label>KML</label>
+						<item>Koninklijke Militaire Luchtvaart</item>
+					</defitem>
+					<defitem>
+						<label>KMR</label>
+						<item>Koninklijke Marine Reserve</item>
+					</defitem>
+					<defitem>
+						<label>KNIL</label>
+						<item>Koninklijk Nederlands Indisch Leger</item>
+					</defitem>
+					<defitem>
+						<label>KPT</label>
+						<item>Korps Pontonniers en Torpedisten</item>
+					</defitem>
+					<defitem>
+						<label>KRA</label>
+						<item>Korps Rijdende Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>KT</label>
+						<item>Korps Tolken</item>
+					</defitem>
+					<defitem>
+						<label>Lab</label>
+						<item>Laboratorium</item>
+					</defitem>
+					<defitem>
+						<label>Lad</label>
+						<item>Luchtafweerdienst</item>
+					</defitem>
+					<defitem>
+						<label>Lafwd</label>
+						<item>Luchtafweerdienst</item>
+					</defitem>
+					<defitem>
+						<label>Lask</label>
+						<item>Landstormkorps</item>
+					</defitem>
+					<defitem>
+						<label>LD</label>
+						<item>Lichte Divisie</item>
+					</defitem>
+					<defitem>
+						<label>LK</label>
+						<item>Leger Korps</item>
+					</defitem>
+					<defitem>
+						<label>Lkt</label>
+						<item>Legerkorpstrein</item>
+					</defitem>
+					<defitem>
+						<label>LmGr</label>
+						<item>Luchtmachtgroep</item>
+					</defitem>
+					<defitem>
+						<label>LSK</label>
+						<item>Luchtstrijdkrachten</item>
+					</defitem>
+					<defitem>
+						<label>LuA</label>
+						<item>Luchtdoel Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>LuMitr</label>
+						<item>Luchtdoelmitrailleur</item>
+					</defitem>
+					<defitem>
+						<label>LVA</label>
+						<item>Luchtvaartafdeling</item>
+					</defitem>
+					<defitem>
+						<label>LVB</label>
+						<item>Luchtvaart bedrijf</item>
+					</defitem>
+					<defitem>
+						<label>Lvbrig</label>
+						<item>Luchtvaartbrigade</item>
+					</defitem>
+					<defitem>
+						<label>Lvd</label>
+						<item>Luchtverdediging</item>
+					</defitem>
+					<defitem>
+						<label>LvdG</label>
+						<item>Luchtverdediginggroep</item>
+					</defitem>
+					<defitem>
+						<label>LvdK</label>
+						<item>Luchtverdedigingkring</item>
+					</defitem>
+					<defitem>
+						<label>LvR</label>
+						<item>Luchtvaartregiment</item>
+					</defitem>
+					<defitem>
+						<label>Lvt</label>
+						<item>Luchtvaarttroepen</item>
+					</defitem>
+					<defitem>
+						<label>Lwd</label>
+						<item>Luchtwachtdienst</item>
+					</defitem>
+					<defitem>
+						<label>MA</label>
+						<item>Militaire Administratie</item>
+					</defitem>
+					<defitem>
+						<label>Mart</label>
+						<item>Motorartillerie</item>
+					</defitem>
+					<defitem>
+						<label>MBEM</label>
+						<item>Materieel Bureau Elektronica Marine</item>
+					</defitem>
+					<defitem>
+						<label>MC</label>
+						<item>Mitrailleur Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>MCPD</label>
+						<item>Militair Centrale Tandprothesen Dienst</item>
+					</defitem>
+					<defitem>
+						<label>MD</label>
+						<item>Motordienst</item>
+					</defitem>
+					<defitem>
+						<label>MeetC</label>
+						<item>Meet Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>MeetG</label>
+						<item>Meet Groep</item>
+					</defitem>
+					<defitem>
+						<label>MELD</label>
+						<item>Mitrailleur Eskader Lichte Divisie</item>
+					</defitem>
+					<defitem>
+						<label>MGD</label>
+						<item>Militair Geneeskundige Dienst</item>
+					</defitem>
+					<defitem>
+						<label>MHA</label>
+						<item>Mobiele Herstel Afdeling</item>
+					</defitem>
+					<defitem>
+						<label>Mil Hosp Af</label>
+						<item>Militair Hospitaal Amersfoort</item>
+					</defitem>
+					<defitem>
+						<label>Mil Hosp Utr</label>
+						<item>Militair Hospitaal Utrecht</item>
+					</defitem>
+					<defitem>
+						<label>Mil Vet Dienst</label>
+						<item>Militair Veterinaire Dienst</item>
+					</defitem>
+					<defitem>
+						<label>Mitr hwpl</label>
+						<item>Mitrailleur herstelwerkplaats</item>
+					</defitem>
+					<defitem>
+						<label>Mitr</label>
+						<item>Mitrailleur</item>
+					</defitem>
+					<defitem>
+						<label>MK</label>
+						<item>Militaire Krijgsraad</item>
+					</defitem>
+					<defitem>
+						<label>ML</label>
+						<item>Militaire Luchtvaart</item>
+					</defitem>
+					<defitem>
+						<label>MP</label>
+						<item>Militaire Politie</item>
+					</defitem>
+					<defitem>
+						<label>MPhD</label>
+						<item>Militair Pharmaceutische dienst</item>
+					</defitem>
+					<defitem>
+						<label>MpsESt</label>
+						<item>Militair Psychiatrisch Evacuatie Station</item>
+					</defitem>
+					<defitem>
+						<label>MT</label>
+						<item>Marine Troepen</item>
+					</defitem>
+					<defitem>
+						<label>Mtrd</label>
+						<item>Materieeldienst</item>
+					</defitem>
+					<defitem>
+						<label>Munp</label>
+						<item>Munitiepark</item>
+					</defitem>
+					<defitem>
+						<label>Mvb</label>
+						<item>Motorverkeersbrigade</item>
+					</defitem>
+					<defitem>
+						<label>Mvt</label>
+						<item>Motorvoertuigen</item>
+					</defitem>
+					<defitem>
+						<label>NGAT</label>
+						<item>Netherlands Gouverment Air Transport</item>
+					</defitem>
+					<defitem>
+						<label>NHW</label>
+						<item>Noord-Holland West</item>
+					</defitem>
+					<defitem>
+						<label>NRKr</label>
+						<item>Nederlands Rode Kruis</item>
+					</defitem>
+					<defitem>
+						<label>NSF</label>
+						<item>Nederlandse Springstoffen Fabriek</item>
+					</defitem>
+					<defitem>
+						<label>NT</label>
+						<item>Nederlandse Troepen</item>
+					</defitem>
+					<defitem>
+						<label>OLZ</label>
+						<item>Opperbevelhebber van Land en Zeemacht</item>
+					</defitem>
+					<defitem>
+						<label>Opl</label>
+						<item>opleiding</item>
+					</defitem>
+					<defitem>
+						<label>PA</label>
+						<item>Ponton Afdeling</item>
+					</defitem>
+					<defitem>
+						<label>PA</label>
+						<item>Pontonniersafdeling</item>
+					</defitem>
+					<defitem>
+						<label>PAC</label>
+						<item>Pantser Afweer Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>PAG</label>
+						<item>Pantserafweergeschut</item>
+					</defitem>
+					<defitem>
+						<label>Paw</label>
+						<item>Pantserwagens</item>
+					</defitem>
+					<defitem>
+						<label>PC</label>
+						<item>Pioniers Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>pcdt</label>
+						<item>pelotonscommandant</item>
+					</defitem>
+					<defitem>
+						<label>Pl</label>
+						<item>Plaatselijke</item>
+					</defitem>
+					<defitem>
+						<label>Poltr</label>
+						<item>Politietroepen</item>
+					</defitem>
+					<defitem>
+						<label>Ptr</label>
+						<item>Pontonniers</item>
+					</defitem>
+					<defitem>
+						<label>R</label>
+						<item>Regiment </item>
+					</defitem>
+					<defitem>
+						<label>RA</label>
+						<item>Regiment Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>Reg</label>
+						<item>Regiment</item>
+					</defitem>
+					<defitem>
+						<label>Reg-LuA</label>
+						<item>Regiment Luchtdoel Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>Remr</label>
+						<item>Remonte-rijder</item>
+					</defitem>
+					<defitem>
+						<label>RGr</label>
+						<item>Regiment Grenadiers</item>
+					</defitem>
+					<defitem>
+						<label>RGC</label>
+						<item>Reserve Grens Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>RGGr</label>
+						<item>Regiment Grenscompagnie Grenadiers</item>
+					</defitem>
+					<defitem>
+						<label>RGT</label>
+						<item>Regiment Genie Troepen</item>
+					</defitem>
+					<defitem>
+						<label>RH</label>
+						<item>Regiment Huzaren</item>
+					</defitem>
+					<defitem>
+						<label>RHM</label>
+						<item>Regiment Huzaren motorrijder</item>
+					</defitem>
+					<defitem>
+						<label>RI</label>
+						<item>Regiment Infanterie</item>
+					</defitem>
+					<defitem>
+						<label>RJ</label>
+						<item>Regiment Jagers</item>
+					</defitem>
+					<defitem>
+						<label>RK</label>
+						<item>Rode Kruis</item>
+					</defitem>
+					<defitem>
+						<label>RKA</label>
+						<item>Regiment Kust Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>RKArt</label>
+						<item>Regiment Kust Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>RKrcie</label>
+						<item>Rode Kruis compagnie</item>
+					</defitem>
+					<defitem>
+						<label>RMA</label>
+						<item>Regiment Motor Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>RMG</label>
+						<item>Rijks Magazijn voor Geneesmiddelen</item>
+					</defitem>
+					<defitem>
+						<label>RRA</label>
+						<item>Regiment Rijdende Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>RS</label>
+						<item>Regiment Stoottroepen</item>
+					</defitem>
+					<defitem>
+						<label>RVA</label>
+						<item>Regiment Veld Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>RW</label>
+						<item>Regiment Wielrijders</item>
+					</defitem>
+					<defitem>
+						<label>Sba</label>
+						<item>Schipbrugafdeling</item>
+					</defitem>
+					<defitem>
+						<label>SC</label>
+						<item>Sectie C.</item>
+					</defitem>
+					<defitem>
+						<label>scdt</label>
+						<item>sectie commandant</item>
+					</defitem>
+					<defitem>
+						<label>SCIV</label>
+						<item>Schade Commissie Inundatiën Veldleger</item>
+					</defitem>
+					<defitem>
+						<label>SD</label>
+						<item>Speciale diensten</item>
+					</defitem>
+					<defitem>
+						<label>SDOA</label>
+						<item>School Dienstplichtigen Officieren Administratie</item>
+					</defitem>
+					<defitem>
+						<label>Sie</label>
+						<item>Sectie</item>
+					</defitem>
+					<defitem>
+						<label>SK</label>
+						<item>Stafkwartier</item>
+					</defitem>
+					<defitem>
+						<label>SocD</label>
+						<item>Sociale dienst</item>
+					</defitem>
+					<defitem>
+						<label>SpC</label>
+						<item>Speciale Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>Spwd</label>
+						<item>Spoorwegdienst</item>
+					</defitem>
+					<defitem>
+						<label>SROBA</label>
+						<item>School reserve officieren bereden artillerie</item>
+					</defitem>
+					<defitem>
+						<label>SROG</label>
+						<item>School reserve officieren genie</item>
+					</defitem>
+					<defitem>
+						<label>SROI</label>
+						<item>School reserve officieren infanterie</item>
+					</defitem>
+					<defitem>
+						<label>SROLuA</label>
+						<item>School reserve officieren luchtdoelartillerie</item>
+					</defitem>
+					<defitem>
+						<label>SROMA</label>
+						<item>School reserve officieren militaire administratie</item>
+					</defitem>
+					<defitem>
+						<label>SROML</label>
+						<item>School reserve officieren militaire luchtvaart</item>
+					</defitem>
+					<defitem>
+						<label>SROOA</label>
+						<item>School reserve officieren onbereden artillerie</item>
+					</defitem>
+					<defitem>
+						<label>SRORA</label>
+						<item>School reserve officieren regiment artillerie</item>
+					</defitem>
+					<defitem>
+						<label>TA</label>
+						<item>Triangulatieafdeling </item>
+					</defitem>
+					<defitem>
+						<label>SROvGez</label>
+						<item>School reserve officieren van Gezondheid</item>
+					</defitem>
+					<defitem>
+						<label>TBF</label>
+						<item>Territoriaal Bevelhebber Friesland</item>
+					</defitem>
+					<defitem>
+						<label>TBNB</label>
+						<item>Territoriaal Bevelhebber Noord Brabant</item>
+					</defitem>
+					<defitem>
+						<label>TBO</label>
+						<item>Territoriaal Bevelhebber Oost</item>
+					</defitem>
+					<defitem>
+						<label>TBZL</label>
+						<item>Territoriaal Bevelhebber Zuid Limburg </item>
+					</defitem>
+					<defitem>
+						<label>TCFGrDr</label>
+						<item>Territoriaal Commando Friesland Groningen en Drente</item>
+					</defitem>
+					<defitem>
+						<label>THC</label>
+						<item>Technische Hogeschool Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>Thkd</label>
+						<item>Tandheelkundige dienst</item>
+					</defitem>
+					<defitem>
+						<label>TMD</label>
+						<item>Terreinmeetdienst</item>
+					</defitem>
+					<defitem>
+						<label>TTD</label>
+						<item>Telegraaf- en Telefoondienst</item>
+					</defitem>
+					<defitem>
+						<label>VA</label>
+						<item>Veld Artillerie</item>
+					</defitem>
+					<defitem>
+						<label>Vapoth</label>
+						<item>Veldapotheek</item>
+					</defitem>
+					<defitem>
+						<label>Vbd Afd</label>
+						<item>Verbindingsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>VbdA</label>
+						<item>Verbindingsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>Vbdd</label>
+						<item>Verbindingsdienst</item>
+					</defitem>
+					<defitem>
+						<label>VbdD</label>
+						<item>Verbindingsdienst</item>
+					</defitem>
+					<defitem>
+						<label>VC</label>
+						<item>Veld Compagnie</item>
+					</defitem>
+					<defitem>
+						<label>VCA</label>
+						<item>Verenigde centrale autobedrijven</item>
+					</defitem>
+					<defitem>
+						<label>VerbplA</label>
+						<item>Verbandplaatsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>Verk</label>
+						<item>Verkennings</item>
+					</defitem>
+					<defitem>
+						<label>VerkA</label>
+						<item>Verkenningsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>Verkgr</label>
+						<item>Verkenningsgroep</item>
+					</defitem>
+					<defitem>
+						<label>Verl Afd</label>
+						<item>Verlichtingsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>VerVA</label>
+						<item>Verkenningsvliegtuigafdeling</item>
+					</defitem>
+					<defitem>
+						<label>VetD</label>
+						<item>Veterinaire Dienst</item>
+					</defitem>
+					<defitem>
+						<label>Vg H</label>
+						<item>Vesting Holland</item>
+					</defitem>
+					<defitem>
+						<label>VG</label>
+						<item>Verkenningsgroep</item>
+					</defitem>
+					<defitem>
+						<label>VgH</label>
+						<item>Vesting Holland</item>
+					</defitem>
+					<defitem>
+						<label>VGt</label>
+						<item>Verenigde Goederentrein</item>
+					</defitem>
+					<defitem>
+						<label>Vk</label>
+						<item>Verkeer</item>
+					</defitem>
+					<defitem>
+						<label>Vkg</label>
+						<item>Verkenningsgroep</item>
+					</defitem>
+					<defitem>
+						<label>VL</label>
+						<item>Veldleger</item>
+					</defitem>
+					<defitem>
+						<label>VLA</label>
+						<item>Verlichtingsafdeling</item>
+					</defitem>
+					<defitem>
+						<label>VLK</label>
+						<item>Vrijwillige Landstorm Korps</item>
+					</defitem>
+					<defitem>
+						<label>VLSK</label>
+						<item>Vrijwillige Landstorm Korps</item>
+					</defitem>
+					<defitem>
+						<label>VPR</label>
+						<item>Verenigd Regiment Patrouille</item>
+					</defitem>
+					<defitem>
+						<label>VPT</label>
+						<item>Varende Pontonniers</item>
+					</defitem>
+					<defitem>
+						<label>VRD</label>
+						<item>Vuurregelingsdienst</item>
+					</defitem>
+					<defitem>
+						<label>Vtd</label>
+						<item>Vaartuigendienst</item>
+					</defitem>
+					<defitem>
+						<label>Vtdep</label>
+						<item>Vaartuigendepot</item>
+					</defitem>
+					<defitem>
+						<label>VWB</label>
+						<item>Verenigde Blikfabrieken Werkliedenkorps ?</item>
+					</defitem>
+					<defitem>
+						<label>VZS</label>
+						<item>Veldziekenstal</item>
+					</defitem>
+					<defitem>
+						<label>Wb</label>
+						<item>Wegenbouwwerken</item>
+					</defitem>
+					<defitem>
+						<label>Wlk</label>
+						<item>Werkliedenkorps</item>
+					</defitem>
+					<defitem>
+						<label>Wmvz</label>
+						<item>Weermachtsvoorzieningen</item>
+					</defitem>
+					<defitem>
+						<label>Wnr</label>
+						<item>Waarnemer</item>
+					</defitem>
+					<defitem>
+						<label>Wr</label>
+						<item>Wielrijders</item>
+					</defitem>
+					<defitem>
+						<label>Wt</label>
+						<item>Wegentroepen</item>
+					</defitem>
+					<defitem>
+						<label>ZenG</label>
+						<item>Zieken en Gewonden</item>
+					</defitem>
+					<defitem>
+						<label>ZL</label>
+						<item>Zuid Limburg</item>
+					</defitem>
+					<defitem>
+						<label>ZLA (tl)</label>
+						<item>Zoeklichtenafdeling (tegen luchtdoelen)</item>
+					</defitem>
+					<defitem>
+						<label>ZlA</label>
+						<item>Zoeklicht Afdeling</item>
+					</defitem>
+					<defitem>
+						<label>ZSA</label>
+						<item>Ziekenstal (A) Doorn</item>
+					</defitem>
+				</list>
+				<list type="deflist">
+					<head>Rangen en functies</head>
+					<defitem>
+						<label>Aooi</label>
+						<item>Adjudant onder officier instructeur</item>
+					</defitem>
+					<defitem>
+						<label>Ambt</label>
+						<item>Ambtenaar</item>
+					</defitem>
+					<defitem>
+						<label>Bl</label>
+						<item>Binnenloods</item>
+					</defitem>
+					<defitem>
+						<label>Cdt</label>
+						<item>Commandant</item>
+					</defitem>
+					<defitem>
+						<label>Comm</label>
+						<item>Commissaris</item>
+					</defitem>
+					<defitem>
+						<label>Dir</label>
+						<item>Directeur</item>
+					</defitem>
+					<defitem>
+						<label>Gasoff</label>
+						<item>Gasofficier</item>
+					</defitem>
+					<defitem>
+						<label>Gzv</label>
+						<item>Gezagsvoerder</item>
+					</defitem>
+					<defitem>
+						<label>Hbl</label>
+						<item>Hoornblazer</item>
+					</defitem>
+					<defitem>
+						<label>Hbls</label>
+						<item>Hulpbinnenloods</item>
+					</defitem>
+					<defitem>
+						<label>Hfd</label>
+						<item>Hoofd</item>
+					</defitem>
+					<defitem>
+						<label>Hfsm</label>
+						<item>Hoefsmid</item>
+					</defitem>
+					<defitem>
+						<label>Hl</label>
+						<item>Hulploods</item>
+					</defitem>
+					<defitem>
+						<label>Hofm</label>
+						<item>Hofmeester</item>
+					</defitem>
+					<defitem>
+						<label>Hschr</label>
+						<item>Hulpschrijver</item>
+					</defitem>
+					<defitem>
+						<label>Hzl</label>
+						<item>Hulpzeeloods</item>
+					</defitem>
+					<defitem>
+						<label>Insp gen</label>
+						<item>Inspecteur generaal</item>
+					</defitem>
+					<defitem>
+						<label>Kapmr</label>
+						<item>Kapelmeester</item>
+					</defitem>
+					<defitem>
+						<label>Klm</label>
+						<item>Kleermaker</item>
+					</defitem>
+					<defitem>
+						<label>Kpl</label>
+						<item>Korporaal</item>
+					</defitem>
+					<defitem>
+						<label>Kpt</label>
+						<item>Kapitein</item>
+					</defitem>
+					<defitem>
+						<label>Ktl</label>
+						<item>Kantoorloper</item>
+					</defitem>
+					<defitem>
+						<label>Kwm</label>
+						<item>Kwartiermeester</item>
+					</defitem>
+					<defitem>
+						<label>Li matr</label>
+						<item>Lichtmatroos</item>
+					</defitem>
+					<defitem>
+						<label>Lkw</label>
+						<item>Loodskwekeling</item>
+					</defitem>
+					<defitem>
+						<label>Ll oo vl</label>
+						<item>Leerling onderofficier vlieger</item>
+					</defitem>
+					<defitem>
+						<label>Ll vtm</label>
+						<item>Leerling vliegtuigmaker</item>
+					</defitem>
+					<defitem>
+						<label>Ls</label>
+						<item>Loodsschipper</item>
+					</defitem>
+					<defitem>
+						<label>Lt-gen</label>
+						<item>Luitenant-generaal</item>
+					</defitem>
+					<defitem>
+						<label>Lt-kol</label>
+						<item>Luitenant-kolonel</item>
+					</defitem>
+					<defitem>
+						<label>Ltz</label>
+						<item>Luitenant ter zee</item>
+					</defitem>
+					<defitem>
+						<label>Lw</label>
+						<item>Lichtwachter</item>
+					</defitem>
+					<defitem>
+						<label>Mach</label>
+						<item>Machinist</item>
+					</defitem>
+					<defitem>
+						<label>Machd</label>
+						<item>Machinedrijver</item>
+					</defitem>
+					<defitem>
+						<label>Magb</label>
+						<item>Magazijnbeheerder</item>
+					</defitem>
+					<defitem>
+						<label>Magmr</label>
+						<item>Magazijnmeester</item>
+					</defitem>
+					<defitem>
+						<label>Mapoth</label>
+						<item>Militair Apotheker</item>
+					</defitem>
+					<defitem>
+						<label>Mar</label>
+						<item>Marechaussee</item>
+					</defitem>
+					<defitem>
+						<label>Mat mtd</label>
+						<item>Matroos motordienst</item>
+					</defitem>
+					<defitem>
+						<label>Matr</label>
+						<item>Matroos</item>
+					</defitem>
+					<defitem>
+						<label>Mrsmbw</label>
+						<item>Meester smid bankwerker</item>
+					</defitem>
+					<defitem>
+						<label>Mtm</label>
+						<item>Monteursmaat</item>
+					</defitem>
+					<defitem>
+						<label>Mtr</label>
+						<item>Matroos</item>
+					</defitem>
+					<defitem>
+						<label>Muz</label>
+						<item>Muzikant</item>
+					</defitem>
+					<defitem>
+						<label>Off</label>
+						<item>Officier</item>
+					</defitem>
+					<defitem>
+						<label>Okapmr</label>
+						<item>Onder kapelmeester</item>
+					</defitem>
+					<defitem>
+						<label>Opp schr</label>
+						<item>Opperschrijver</item>
+					</defitem>
+					<defitem>
+						<label>Ovw</label>
+						<item>Oorlogsvrijwilliger</item>
+					</defitem>
+					<defitem>
+						<label>Owmr adm</label>
+						<item>Opperwachtmeester administrateur</item>
+					</defitem>
+					<defitem>
+						<label>Opz fort</label>
+						<item>Opzichter fortificatiën</item>
+					</defitem>
+					<defitem>
+						<label>OSD</label>
+						<item>Officier Speciale Diensten</item>
+					</defitem>
+					<defitem>
+						<label>OTO</label>
+						<item>Officier Technisch Opzichter</item>
+					</defitem>
+					<defitem>
+						<label>Owmr</label>
+						<item>Opperwachtmeester</item>
+					</defitem>
+					<defitem>
+						<label>PA</label>
+						<item>Paardenarts</item>
+					</defitem>
+					<defitem>
+						<label>Remr</label>
+						<item>Remonterijder</item>
+					</defitem>
+					<defitem>
+						<label>Ritm</label>
+						<item>Ritmeester</item>
+					</defitem>
+					<defitem>
+						<label>Rl</label>
+						<item>Rivierloods</item>
+					</defitem>
+					<defitem>
+						<label>Scdt</label>
+						<item>Sectie Commandant</item>
+					</defitem>
+					<defitem>
+						<label>Schil</label>
+						<item>Schilder</item>
+					</defitem>
+					<defitem>
+						<label>Schip</label>
+						<item>Schipper</item>
+					</defitem>
+					<defitem>
+						<label>Schm</label>
+						<item>Schoenmaker</item>
+					</defitem>
+					<defitem>
+						<label>Schr</label>
+						<item>Schrijver</item>
+					</defitem>
+					<defitem>
+						<label>Sdgm</label>
+						<item>Scheepsdiepgangmeter</item>
+					</defitem>
+					<defitem>
+						<label>Secr</label>
+						<item>Secretaris</item>
+					</defitem>
+					<defitem>
+						<label>Sgt-cap</label>
+						<item>Sergeant capitulant</item>
+					</defitem>
+					<defitem>
+						<label>Sld</label>
+						<item>Soldaat</item>
+					</defitem>
+					<defitem>
+						<label>Slm</label>
+						<item>Sergeant laarzen maker</item>
+					</defitem>
+					<defitem>
+						<label>Sma</label>
+						<item>Sergeant majoor administrateur</item>
+					</defitem>
+					<defitem>
+						<label>Smi</label>
+						<item>Sergeant majoor instructeur</item>
+					</defitem>
+					<defitem>
+						<label>Smvpl</label>
+						<item>Sergeant majoor verpleger</item>
+					</defitem>
+					<defitem>
+						<label>Snm</label>
+						<item>Seinersmaat</item>
+					</defitem>
+					<defitem>
+						<label>St</label>
+						<item>Stoker</item>
+					</defitem>
+					<defitem>
+						<label>Stim</label>
+						<item>Scheepstimmerman</item>
+					</defitem>
+					<defitem>
+						<label>Tb</label>
+						<item>Tamboer</item>
+					</defitem>
+					<defitem>
+						<label>Tel</label>
+						<item>Telefonist</item>
+					</defitem>
+					<defitem>
+						<label>Vdg</label>
+						<item>Vaandrig</item>
+					</defitem>
+					<defitem>
+						<label>Vl</label>
+						<item>Vlieger</item>
+					</defitem>
+					<defitem>
+						<label>Vtm</label>
+						<item>Vliegtuigmaker</item>
+					</defitem>
+					<defitem>
+						<label>Vtmm</label>
+						<item>Vliegtuigmakersmaat</item>
+					</defitem>
+					<defitem>
+						<label>Vttel</label>
+						<item>Vliegtuig telegrafist</item>
+					</defitem>
+					<defitem>
+						<label>Vw</label>
+						<item>Vuurwerker</item>
+					</defitem>
+					<defitem>
+						<label>Wkn</label>
+						<item>Werkman</item>
+					</defitem>
+					<defitem>
+						<label>Wmr</label>
+						<item>Wachtmeester</item>
+					</defitem>
+					<defitem>
+						<label>Zl</label>
+						<item>Zeeloods</item>
+					</defitem>
+					<defitem>
+						<label>Zls</label>
+						<item>Zeeloods stuurman</item>
+					</defitem>
+					<defitem>
+						<label>Zvplm</label>
+						<item>Ziekenverplegersmaat</item>
+					</defitem>
+					<defitem>
+						<label>Zwn</label>
+						<item>Zeewaarnemer</item>
+					</defitem>
+				</list>
+			</odd>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unittitle>EIGENTIJDSE TOEGANGEN</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie zuivering beroepspersoneel beneden den rang van 2e luitenant</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>560-561</unitid>
+							<unittitle>Agenda's van in- en uitgaande stukken,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947.</unitdate>
+							<physdesc>2 katernen</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338053" type="ABS">560</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3672bf5d-e4d9-4430-82b2-cbd14622a0be</unitid>
+								<unittitle>Nrs. 1-828.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338054" type="ABS">561</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e301e7c5-4191-46e5-9142-f6329b54a05c</unitid>
+								<unittitle>Nrs. 829-1594.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Militaire commissie van advies Zuiveringsbesluit 1945</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338056" type="ABS">562</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/baaa0050-7e9a-4af0-8a21-750019b891d9</unitid>
+							<unittitle>Agenda van ingekomen en uitgaande stukken,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1959">1946-1959.</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>563-564</unitid>
+							<unittitle>Inhoudsopgave van de dossiers, staten houdende de namen, de rang/stand, eventueel seponeren van de zaak, inhoud van het advies van de commissie, de datum van de doorzending van het advies aan de minister en de datum van en het dossiernummer van de beslissing van de minister,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1955">1946-1955.</unitdate>
+							<physdesc>2 banden</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338057" type="ABS">563</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0e2ffff2-ae82-4c75-8a37-9e54bf48d339</unitid>
+								<unittitle>Nrs 1-742.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338058" type="ABS">564</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/454d24ec-07ad-4a61-8562-984e8115edc4</unitid>
+								<unittitle>Nrs. 743-1980.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338059" type="ABS">565</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6838b269-061c-472b-92b3-f4f4c87d180e</unitid>
+							<unittitle>Staat houdende gegevens inzake dossiernummers 1382-1489, concept, net, doorslag. Met aantekeningen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1959">[1959].</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Oorlog</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338060" type="ABS">566</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3879058f-fa2d-4e3b-bd99-62dc310fd0d4</unitid>
+							<unittitle>Indicateur inzake verbalen betreffende de zuivering van personeel,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1949">1946-1949.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3767275" type="ABS">833</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/49727fea-49d3-40f9-aeb4-f17af2dac61b</unitid>
+							<unittitle>Fiches,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947">1947.</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>SERIEEL</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie Beoordeling Officieren Bezet Gebied</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947, met retroacta</unitdate>
+							<physdesc>294 pakken</physdesc>
+						</did>
+						<odd>
+							<p>Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.<lb/>Voor een zakenindex, zie bijlage 3.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Subcommissie ter beoordeling van veterinaire officieren, later commissie voor de beoordeling van officieren-paardenarts</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1948">1945-1948</unitdate>
+							<physdesc>13 pakken</physdesc>
+						</did>
+						<odd>
+							<p>Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie verantwoording krijgsgevangen officieren der KL</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>122 pakken</physdesc>
+						</did>
+						<odd>
+							<p>Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.<lb/>Voor een zakenindex, zie bijlage 5.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie zuivering beroepspersoneel beneden den rang van 2e luitenant</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338061" type="ABS">567</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3225aa72-9ee2-47dc-9db5-7444fd0b43e8</unitid>
+							<unittitle>Ingekomen en minuten van uitgaande stukken,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1954">1945-1954</unitdate>
+							<physdesc>160 pakken</physdesc>
+						</did>
+						<odd>
+							<p>Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Militaire commissie van advies Zuiveringsbesluit 1945</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338062" type="ABS">568</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3ad0a5e9-28d8-4e2d-8abf-0539d050b724</unitid>
+							<unittitle>Ingekomen stukken,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1948">1946-1948.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338063" type="ABS">569</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3b8cfe4a-7def-41a5-8ced-043ed1244aad</unitid>
+							<unittitle>Minuten van uitgaande stukken,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1956">1946-1950, 1952-1954, 1956.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1954">1945-1954</unitdate>
+							<physdesc>239 pakken</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date>
+								</ref>
+							</p>
+						</accessrestrict>
+						<odd>
+							<p> De dossiernrs: 969 - 1048 zijn niet aangetroffen.</p>
+						</odd>
+						<odd>
+							<p> Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.</p>
+						</odd>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Inspecteur-generaal/directoraat-generaal voor het Loodswezen</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid type="blank">---</unitid>
+							<unittitle>Dossiers inzake het verhoren, onderzoeken, beoordelen van en adviseren aan de minister inzake het al dan niet handhaven van militairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1953">1946-1947, 1949, 1951, 1953</unitdate>
+							<physdesc>4 pakken</physdesc>
+						</did>
+						<odd>
+							<p>Voor een alfabetisch-lexicografische geordende nadere toegang, zie bijlage 4.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Het archief van de commissie Van Asbeck, gedragingen marine-officieren Nederland, 1945-1946</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>570-574</unitid>
+							<unittitle>Dossiers betreffende verklaringen van en onderzoekingen naar de gedragingen van Nederlandse marine-officieren tijdens de meidagen van 1940, alsmede eindverslagen van de commissie Van Asbeck teneinde te adviseren omtrent de geschiktheid van marinepersoneel om in de verkregen rang in de zeemacht te blijven dienen, met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946.</unitdate>
+							<physdesc>4 pakken en 1 omslag</physdesc>
+						</did>
+						<odd>
+							<p>Voor een nadere toegang, zie bijlage 1.</p>
+						</odd>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338064" type="ABS">570</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/150c3eb8-5e3a-4252-a052-affb4d64539b</unitid>
+								<unittitle>Nrs. 1 - 16</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338065" type="ABS">571</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/57314524-9666-464c-ad3a-b42ade525a89</unitid>
+								<unittitle>Nrs. 17 - 42</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2475317" type="ABS">572</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/fd4d8513-773f-4b8b-9889-ba0e0e672005</unitid>
+								<unittitle>Nrs. 43 - 214</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2475318" type="ABS">573</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/253fde43-dd4c-49a1-9fe9-b0ac1f403a7d</unitid>
+								<unittitle>Nrs. 226 - 340</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2475319" type="ABS">574</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/18f741f0-9c7f-470f-a1aa-0b5b64dd673c</unitid>
+								<unittitle>ongenummerd</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Oorlog, geheim verbaalarchief</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>575-606</unitid>
+							<unittitle>Verbalen geheim, minuten van besluiten inzake de zuivering van personeel met daarbij opgelegde stukken, alsmede voor kennisgeving aangenomen ingekomen stukken.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1954">1946-1954</unitdate>
+							<physdesc>26 pakken en 6 omslagen</physdesc>
+						</did>
+						<odd>
+							<p>Voor een nadere toegang, zie bijlage 2.</p>
+						</odd>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338066" type="ABS">575</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0edb886b-27a6-461f-96d0-f897f741c4fa</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1946</unitdate>, nr. 3 - 65</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338067" type="ABS">576</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a8167738-89af-4d2c-a3cc-a49b3c227f21</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1946</unitdate>, nr. 72 - 199</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338068" type="ABS">577</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/17f8e50c-8027-47ff-b385-f6a6b804ebc8</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1946</unitdate>, nr. 202 - 246</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338069" type="ABS">578</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/2784567f-27b9-41e6-843f-7121d852400e</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1946</unitdate>, nr. 247 - 290</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338070" type="ABS">579</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5be61d1d-41db-4a13-9118-6cef1995e849</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 1 - 32</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338071" type="ABS">580</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6257adc8-2a25-4f75-ab61-756b3e314c0d</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 33 - 54</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338072" type="ABS">581</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5af840ce-5930-4b9e-8cf6-906878107647</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 55 - 75</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338073" type="ABS">582</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7680d9e2-6ecf-48dc-98e4-66c09211941a</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 77 - 112</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338074" type="ABS">583</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f943d6a8-d17a-45f1-b3d2-5f21c1f8d8d2</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 119 - 167</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338075" type="ABS">584</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4aa1a16f-13fc-450c-b00e-ffc2b8921e2e</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 168 - 202</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338076" type="ABS">585</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c6373eec-1643-4050-9314-98b823440078</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1947</unitdate>, nr. 205 - 219</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338077" type="ABS">586</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7c3fa369-4dae-460c-8ab0-0de9976c72a0</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 1 - 35</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338078" type="ABS">587</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0822218a-aa7a-4458-941f-f01360332907</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 36 - 55</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338079" type="ABS">588</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0911b8e5-7000-4b2c-b082-b09add8e9661</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 56 - 61</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338080" type="ABS">589</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e68b158b-cd29-41b7-81af-03d26dfcf25f</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 3 - S 94</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338081" type="ABS">590</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/003173e5-6931-4093-9e91-97abfc70c1c2</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr.T 94 - 104</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338082" type="ABS">591</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8c5c0f92-697f-4ba3-a224-c2dbd7a8ba72</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 107 - 118</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338083" type="ABS">592</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/bc494f18-ff90-47fc-8c04-cad962f25e2c</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 119 - 151</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338084" type="ABS">593</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/85303dad-4b3a-4f0c-922c-503143844a2c</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 154 - 177</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338085" type="ABS">594</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/092ab932-0a5a-45a7-98ca-d573accbc97b</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 178 - 193</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338086" type="ABS">595</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/857b90a6-4925-441d-b644-b9975191b06f</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate>, nr. 194 - 229</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338087" type="ABS">596</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/bc51d08a-df7e-4f07-b640-140ccdaeb464</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1948</unitdate> nr. 231 - 244, 1949 nr. 6 - 25</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338088" type="ABS">597</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/93a032c4-6546-48cb-af93-9d2ad4ef9c1b</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1949</unitdate>, nr. 28 - 97</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338089" type="ABS">598</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/2fe30920-cf40-488c-958f-2793145e913d</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1949</unitdate>, nr. 100 - 194</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338090" type="ABS">599</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e4d97ff4-78c9-479e-8406-cba03bd8e764</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1949</unitdate>, nr. 201 - 226</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338091" type="ABS">600</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5d36ec73-6cc4-4adf-9b90-966be19ec258</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1949</unitdate> nr. 227 - 294, 1950 nr. 1 - 15</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338092" type="ABS">601</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/744c85bf-8778-4aad-953d-d1c20deed6ae</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1950</unitdate> nr. 17 - 140</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338093" type="ABS">602</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/04accb86-0771-4bcf-a92f-1558fd951f9b</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1950</unitdate> nr. 151 - 313, 1951 nr. 5 - 14</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338094" type="ABS">603</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/96aacf2f-28db-459a-872c-002630b7d78e</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1951</unitdate> nr. 17 - 112</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338095" type="ABS">604</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7fff163a-c634-49c2-9c5b-818c17dc48cd</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1951</unitdate> nr. 115 - 289</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338096" type="ABS">605</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a1008f10-0e10-41d9-b9d7-eab2de741b94</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1951</unitdate> nr. 313 - 336, <unitdate calendar="gregorian" era="ce">1952</unitdate> nr. 1 - 395</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2338097" type="ABS">606</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ce903f60-8b7c-4986-9db4-a97b16a4b51d</unitid>
+								<unittitle>
+									<unitdate calendar="gregorian" era="ce">1953</unitdate> nr. 39 - 543, <unitdate calendar="gregorian" era="ce">1954</unitdate> nr. 2 - 151</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Marine, zeer geheim verbaalarchief</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338119" type="ABS">636</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/79d8ff5d-bdc1-4c61-b448-41d484e75751</unitid>
+							<unittitle>Verbalen zeer geheim, minuten van besluiten inzake de zuivering van officieren met daarbij opgelegde stukken, alsmede voor kennisgeving aangenomen ingekomen stukken.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<odd>
+							<p>Voor een nadere toegang zie bijlage 6.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Marine, bureau personeelsadministratie</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>834-844</unitid>
+							<unittitle>Stukken betreffende de zuivering van marinepersoneel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1949">1945-1949</unitdate>
+							<physdesc>11 omslagen</physdesc>
+						</did>
+						<odd>
+							<p>De stukken zijn in 1951 gedeclassificeerd tot confidentieel.</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+								</ref>
+							</p>
+						</accessrestrict>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767276" type="ABS">834</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/fe650ccb-5713-4e8f-a488-5397a521d5d5</unitid>
+								<unittitle>Nrs. 582-687.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767277" type="ABS">835</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4c5abcc9-85d9-49a2-8d44-4dccd6b34a24</unitid>
+								<unittitle>Nrs. 702-1100.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767278" type="ABS">836</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/bbb4ccff-90b3-4681-9b49-b45441f6f985</unitid>
+								<unittitle>Nrs. 1108-1700.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767279" type="ABS">837</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/06d3b694-7661-4939-bd60-f8a4c6d062f5</unitid>
+								<unittitle>Nrs. 1701-2465.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767280" type="ABS">838</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a956c69e-d487-4db6-993e-19e2825470d2</unitid>
+								<unittitle>Nrs. 2531-2964.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767281" type="ABS">839</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/be2115d7-d66a-449f-b424-a26aa34d8f55</unitid>
+								<unittitle>Nrs. 3007-3968.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767282" type="ABS">840</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7da7008d-1a34-4f2e-a50f-f8d266976869</unitid>
+								<unittitle>Nrs. 4173-4899.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767283" type="ABS">841</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/b1e9a392-dc34-467a-bd5e-b244a6ce5f7e</unitid>
+								<unittitle>Nrs. 4905-6144.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767284" type="ABS">842</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6aa841b2-8495-4333-8ae7-74982127bb1e</unitid>
+								<unittitle>Nrs. 6156-7214.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767285" type="ABS">843</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a305a63b-433b-4dfd-a13b-054e0e6ad7a5</unitid>
+								<unittitle>Nrs. 7386-11599.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="3767286" type="ABS">844</unitid>
+								<unitid audience="internal" type="handle">http://hdl.handle.net/10648/131bd764-7db8-44b1-8cf2-b9a316d049d4</unitid>
+								<unittitle>Nrs. 11130-151832.</unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+									</ref>
+								</p>
+							</accessrestrict>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3584672" type="ABS">845</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d7b7f623-6229-434b-8e55-5f1a8927855f</unitid>
+							<unittitle>Lichtingsbonnen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1953">c. 1946-1953</unitdate>
+							<physdesc>1 omslag</physdesc>
+							<physloc type="ABS">Ontbreekt</physloc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3584673" type="ABS">846</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0eb08b30-5131-4244-abe6-d7c0b72c762e</unitid>
+							<unittitle>Brief van de voorzitter van de commissie onderzoek gedragingen Marinepersoneel Batavia inzake de aanbieding van het rapport betreffende het uitwijken van schepen en vliegtuigen en het evacuëren van marinepersoneel uit Nederlands-Indië in februari/maart 1942, met bijlagen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 stuk</physdesc>
+							<physloc type="ABS">Ontbreekt</physloc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>NIET SERIEEL</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie Beoordeling Officieren Bezet Gebied</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338107" type="ABS">616</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5ff9d901-544d-406d-810d-621b32edb7c1</unitid>
+							<unittitle>Stukken betreffende de organisatie en de werkzaamheden van de subcommissie zuivering van officieren van gezondheid van de CBOBG,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Commissie zuivering beroepspersoneel beneden den rang van 2e luitenant</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338098" type="ABS">607</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9c6ae671-1acf-4f51-9b70-7826087848a4</unitid>
+							<unittitle>Correspondentie met de adviescommissie van de voormalige Nederlandse Arbeidsdienst inzake verzoeken om inlichtingen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338099" type="ABS">608</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4d8b740b-8c58-440c-adb1-57a609e281d0</unitid>
+							<unittitle>Stukken betreffende een mogelijke herziening van de door de ministerraad vastgestelde richtlijn en betreffende herstel van pensioenrechten, vervallen verklaard krachtens het Zuiveringsbesluit 1945 bij verleende ontslagen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1952">1952.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Militaire commissie van advies Zuiveringsbesluit 1945</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338100" type="ABS">609</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f602ff6d-c9ab-45ab-aa68-c0ef88416654</unitid>
+							<unittitle>Algemeene richtlijnen voor de subcommissies [van de commissie beoordeling officieren bezet gebied] bij de beoordeling van officieren, drukwerk,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+							<physdesc>1 katern</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338101" type="ABS">610</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ee09eba9-0545-4a09-b5f4-6266c356bc75</unitid>
+							<unittitle>Staat houdende gegevens van beroeps- en reserveofficieren van de Koninklijke landmacht en het Koninklijk Nederlands-Indisch Leger, die nooit in Duitse krijgsgevangenschap zijn geweest, uit krijgsgevangenschap zijn ontslagen, dan wel na ontslag opnieuw krijgsgevangen genomen zijn, met diverse aanvullingen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338102" type="ABS">611</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/bc3c6eca-302c-4920-8893-005a3ad366d8</unitid>
+							<unittitle>Stukken betreffende het ontwerp van wet en de memorie van toelichting van de wet Zuivering Officieren Koninklijke Landmacht,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338103" type="ABS">612</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8e27df52-98c9-41c2-9fff-98ad68bd1b4e</unitid>
+							<unittitle>Stukken betreffende de werkzaamheden en adviezen uitgebracht door de commissie zuivering beroepspersoneel beneden den rang van 2e luitenant,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338104" type="ABS">613</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/012c649b-71cd-47cf-a82f-4214706d52e8</unitid>
+							<unittitle>Stukken inzake het herstel in pensioenrechten van krachtens het Zuiveringsbesluit 1945 ontslagen burgeramtenaren en beroepsmilitairen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1957">1946-1949, 1952, 1955-1957.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338105" type="ABS">614</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1f05b8fd-e0c0-487f-88ec-78f9386d22b5</unitid>
+							<unittitle>Stukken betreffende de uitspraak van de bijzondere raad van cassatie inzake het nationaal-socialistische karakter van de Nederlandse Arbeidsdienst, alsmede een historische schets van deze beweging,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947">1947.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338106" type="ABS">615</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c95bd496-0939-4636-80ec-bac335c941f2</unitid>
+							<unittitle>Stukken betreffende de mogelijke overgave van archief aan bijvoorbeeld het Rijksinstituut voor oorlogsdocumentatie en de overname van archieven van andere zuiveringscommissies, alsmede de opbouw daarvan,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947/1948">1947-1948.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338108" type="ABS">617</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/54d711d0-3142-48cc-a3c9-81bc0264489e</unitid>
+							<unittitle>Stukken betreffende verslagen van de werkzaamheden van de commissie,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1949">[1945, 1949].</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338109" type="ABS">618</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c81b0254-c41c-4af8-b131-2942d7d34537</unitid>
+							<unittitle>Memorandum inzake het standpunt, houding en werkwijze van de Uytterschotbeweging, afschrift,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">[1946].</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338110" type="ABS">619</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/abad79c8-c879-4a94-9bac-74248ef90da4</unitid>
+							<unittitle>Stukken betreffende de houding van militairen gedurende de mobilisatie en oorlogsdagen 1939-1940, afschriften,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1948">[1948].</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Oorlog</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338120" type="ABS">637</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4f98b64c-10c4-4e52-a81b-50f739f8dea9</unitid>
+							<unittitle>Brief van de majoor GS van het KNIL E. Engles aan de minister van Oorlog inzake de aanbieding van een verslag over de gedragingen van militairen tijdens krijgsgevangenschap, afschrift, met bijlagen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338111" type="ABS">620</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e10e3f1a-07fa-4acc-a546-1e2331af1400</unitid>
+							<unittitle>Ontslagbeschikkingen op basis van het Zuiveringsbesluit 1945 van vaandrigs, afschriften,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947">1947.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338112" type="ABS">621</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7da1391f-2805-4e0f-998b-9fe00af96b0c</unitid>
+							<unittitle>Stukken betreffende onderzoekingen naar de gedragingen van eervol ontslagen beroepsmilitairen, dan wel op wachtgeld gestelde beroepsmiliairen tijdens de bezetting, in verband met de pensioengeldige diensttijd en de pensioengrondslag,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1948">1948.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338116" type="ABS">625</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e1896804-1ef7-4e82-8f87-bc3c1dae0d7d</unitid>
+							<unittitle>Dossier inzake de zuivering van H.R.B.,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1948/1955">1948-1955.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Ministerie van Marine, zeer geheim archief</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338121" type="ABS">638</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/46a060ed-aa94-4c99-8179-13f7d4135755</unitid>
+							<unittitle>Stukken betreffende de instelling, samenstelling en werkzaamheden van zuiveringscommissies,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Inspecteur-generaal/directoraat-generaal voor het Loodswezen</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338113" type="ABS">622</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9bd5f723-aa16-48bf-a532-d07f7758718d</unitid>
+							<unittitle>Stukken betreffende de zuivering van het personeel van het het loodswezen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1953">1945-1953.</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>CVKOKNIL</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="2338114" type="ABS">623</unitid>
+						<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6af14f8d-3e5e-4769-aed5-3526c1123180</unitid>
+						<unittitle>Stukken betreffende de gedragslijn ten aanzien van officieren van het Koninklijk Nederlands-Indisch Leger welke uit krijgsgevangenschap zijn teruggekeerd,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946.</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+							</ref>
+						</p>
+					</accessrestrict>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>GEDEPONEERDE ARCHIEFBESCHEIDEN</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Zuiveringscommissie, ingesteld door het bestuur van de Koninklijke Nederlandsche Amateur Schermbond</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338115" type="ABS">624</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1b98c067-f341-4bd2-be55-84695ba0bbf8</unitid>
+							<unittitle>Stukken betreffende de zuivering van P. K.,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>DOCUMENTATIE</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>634-635</unitid>
+						<unittitle>Politiek opsporingsregister, nr. 7, november 1945.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945">1945.</unitdate>
+						<physdesc>2 banden</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338117" type="ABS">634</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/667d6cad-96be-476a-8231-a9a7f006c4b7</unitid>
+							<unittitle>A-P.</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2338118" type="ABS">635</unitid>
+							<unitid audience="internal" type="handle">http://hdl.handle.net/10648/000758da-ba7c-4b42-a534-bb1c23e56907</unitid>
+							<unittitle>P-Z.</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date>
+								</ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unittitle>AANVULLINGEN ONTVANGEN IN 2003</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="2475314" type="ABS">639</unitid>
+						<unitid audience="internal" type="handle">http://hdl.handle.net/10648/cac4820b-a275-4ff4-bc49-9d9d90356606</unitid>
+						<unittitle>Afschriften van uitgaande brieven van minsterie van Marine, betreffende adviezen van de adviescommissie Zuivering Nederlandse Ridderorde over ontneming van onder-scheidingen van marinepersoneel in verband met de zuivering,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948/1952">1948-1952</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date>
+							</ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="2475315" type="ABS">640</unitid>
+						<unitid audience="internal" type="handle">http://hdl.handle.net/10648/81c5b508-8322-4b05-a62e-17f39732d1c2</unitid>
+						<unittitle>Afschriften van besluiten van ministeries Binnenlandse Zaken Oorlog, marine en Uniezaken en Overzeese Rijksdelen met ontwerp van het KB tot opheffing van de commissies van advies zuivering Nederlandse ridderorden ,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1952">1952</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date>
+							</ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="2475316" type="ABS">641</unitid>
+						<unitid audience="internal" type="handle">http://hdl.handle.net/10648/215f1936-8c0d-4d23-abf4-6ab109e28c73</unitid>
+						<unittitle>Verslagen van de commissie Van Asbeck betreffende onderzoeksrapporten zuivering marine-officieren Koninklijke Marine</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1953">1945-1953</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date>
+							</ref>
+						</p>
+					</accessrestrict>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

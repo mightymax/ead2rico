@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/a9e9dd14-c48c-4aef-83e7-0b507267eeb6"
+  rdf:about="record/2.04.26.02">
+    <rico:identifier>2.04.26.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1987</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/B24055" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.04.26.02/i1" />
+      <rico:instantiates rdf:resource="record/2.04.26.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190812</rico:hasModificationDate>
+        <html:p>12 augustus 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2019-07-04</rico:hasModificationDate>
+        <html:p>4 juli 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2015-12-21</rico:hasModificationDate>
+        <html:p>21 dec 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130823</rico:hasModificationDate>
+        <html:p>23 augustus 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130117</rico:hasModificationDate>
+        <html:p>17 januari 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111123</rico:hasModificationDate>
+        <html:p>23 november 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100204</rico:hasModificationDate>
+        <html:p>4 februari 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20070919</rico:hasModificationDate>
+        <html:p>19 september 2007</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20071220</rico:hasModificationDate>
+        <html:p>20 december 2007</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van Binnenlandse
+        Zaken: Kabinetsarchief, 1817-1949</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/a9e9dd14-c48c-4aef-83e7-0b507267eeb6" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/B24055">
+    <rico:describedBy rdf:resource="record/2.04.26.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>B24055</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Binnenlandse Zaken, Kabinet</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>BiZa / Kabinetsarchief</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1817</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1949</rico:endDate>
+    <rico:date>1817-1949</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Binnenlandse Zaken / Kabinet van de
+            ministerMinisterie van Waterstaat, Nationale Nijverheid en Koloniën / Kabinet
+            van de ministerJhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Jhr. mr. Edmond Charles Guillaume Ghislain de la Coste,
+            (1778-1870) Mr. Hendrik Jacob baron van Doorn van Westcapelle, (1786-1853)
+            Hendrik Markus baron de Kock, (1779-1845) Willem Anne baron Schimmelpenninck
+            van der Oye, (1800-1872) Mr. Johan Adriaan ridder van der Heim van
+            Duivendijke, (1791-1870) Mr. Cornelis van Vollenhoven, (1778-1849) Mr.
+            Lodewijk Napoleon graaf van Randwijck, (1807-1891) Mr.dr. Jan Heemskerk
+            Abrahamszoon, (1818-1897) Mr. Aeneas baron Mackay, (1838-1909)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat onder meer rapporten van de gouverneurs in de provincie
+      over oppositionele kranten en katholieke geestelijken in de Zuidelijke provincies,
+      over de openbare orde tijdens de Belgische Opstand (1830-1831) en de 'publieke
+      geest' in de periode 1830-1844. Voorts zijn er verslagen van vergaderingen van
+      Provinciale Staten en dossiers gevormd door de afdeling Spoorwegen, stukken over de
+      Spoorwegstaking van 1903, de toestand in het land tijdens de Eerste Wereldoorlog,
+      het Belgisch annexionisme ten aanzien van Zuid-Limburg en Zeeuws-Vlaanderen,
+      verleende decoraties, benoeming en ontslag van burgemeesters.Het Kabinetsarchief
+      bestaat overwegend uit dossiers, die over langere periodes doorlopen en vanaf 1874
+      jaarlijks werden genummerd, met de bijbehorende indices en klappers. Het
+      Kabinetsarchief bevat de stukken van vertrouwelijke aard, die tot 1850 ook wel
+      werden opgeborgen in het Geheim archief: het is dus aan te bevelen beide archieven
+      naast elkaar te raadplegen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>945 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>71,15 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

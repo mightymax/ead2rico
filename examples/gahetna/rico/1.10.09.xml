@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d5d88dbc-3917-4eac-8d43-3b0ab165142b"
+  rdf:about="record/1.10.09">
+    <rico:identifier>1.10.09</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1984</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1131" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.09/i1" />
+      <rico:instantiates rdf:resource="record/1.10.09" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100225</rico:hasModificationDate>
+        <html:p>25 februari 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100422</rico:hasModificationDate>
+        <html:p>22 april 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van A. Bogaers: Klerk ter
+        Secretarie van de Raad van State [levensjaren 1722-1809],
+        1559-1794</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d5d88dbc-3917-4eac-8d43-3b0ab165142b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1131">
+    <rico:describedBy rdf:resource="record/1.10.09" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1131</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Archief Adriaan Bogaers</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bogaers</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1559</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1794</rico:endDate>
+    <rico:date>1559-1794</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bogaers, Adriaan (1722-1809)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Adriaan Bogaers werd op 14 maart 1722 in Geldrop geboren als zoon van
+          Frans Bogaers en Catherina Mathijsdr. Booms. Het gezin Bogaers trok in de jaren
+          veertig naar Den Haag J.G. Gleichman, Het leven van mr. Adriaan Bogaers
+          (1795-1870), Amsterdam 1875, p. 2 (hierna aan te duiden als: Gleichman).
+          .</html:p>
+          <html:p>Op 1 oktober 1749 kreeg Adriaan een aanstelling als ordinaris klerk ter
+          secretarie van de Raad van State Commissieboek Raad van State 1749-1766, inv.
+          nr. 1539, folio 21. . Volgens een staat van traktement uit 1669 werkten er
+          zeven commiezen van de financie, vijf klerken van de Raad en één klerk van de
+          financie op de secretarie van de Raad van State. In de tijd van Bogaers zal de
+          personeelsbezetting niet veel groter geweest zijn A.Th. van Deursen, De Raad
+          van State onder de Republiek van 1588-1795, in: Raad van State 450 jaar, Den
+          Haag 1981, p. 61. . Een instruktie voor de secretarie-klerken is niet
+          voorhanden; de invulling van hun taak werd waarschijnlijk overgelaten aan hun
+          direkte baas, de secretaris. Hun voornaamste taken waren: het opzoeken en
+          afschrijven van retroacta, benodigd voor de behandeling van zaken in de
+          vergaderingen van de Raad; het in het net schrijven van resoluties, akten,
+          brieven, etc.; het opstellen van eenvoudige memoranda; het kopieëren van oude
+          registers van resoluties, generale petities en staten van oorlog; het
+          vervaardigen van repertoria op de resoluties van de Raad; archiefzorg.</html:p>
+          <html:p>Twee zoons van Bogaers, Jan en Frans, hebben in het laatste kwart van
+          de 18e eeuw als respektievelijk kamerbewaarder en nouvelleschrijver bij de Raad
+          gewerkt Jan's aanstelling d.d. 19 november 1782 in: Commissieboek Raad van
+          State 1782-1792, inv. nr. 1541, folio 25 verso. Frans' aanstelling in een
+          resolutie van de Raad van State, d.d. 7 september 1786, inv. nr. 360, folio
+          1400. .</html:p>
+          <html:p>Op 4 maart 1795 werd de Raad van State opgeheven en vervangen door het
+          Comité tot de algemene zaken van het bondgenootschap te lande. Bogaers,
+          inmiddels opgeklommen tot eerste en expediërende klerk, bleef net als de meeste
+          van zijn kollega's op zijn post gehandhaafd Gleichman, p. 4. ; de kontinuïteit
+          tussen de beide lichamen diende gewaarborgd te blijven A.M. Elias, Van Raad van
+          State, Comité te lande en Staatsraad (1795-1810), in: Raad van State 450 jaar,
+          p. 118. . In 1798 hield Bogaers het verder voor gezien en hem werd een
+          jaarlijks pensioen toegelegd. Op 30 januari 1809, inmiddels 86 jaar oud,
+          overleed hij in Den Haag Gleichman, p. 3 en 4. .</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat repertoria van resoluties van de Raad van State, stukken
+      betreffende de bemoeienis van de Raad van State met de generaliteitsfinanciën en
+      met militaire zaken en stukken betreffende de jurisdictie van de Raad van
+      State.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.22 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>94 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

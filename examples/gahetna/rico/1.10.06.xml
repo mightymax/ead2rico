@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/7c68d607-c812-4eb4-b691-20ddb7454119"
+  rdf:about="record/1.10.06">
+    <rico:identifier>1.10.06</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1986</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1128" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.06/i1" />
+      <rico:instantiates rdf:resource="record/1.10.06" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090917</rico:hasModificationDate>
+        <html:p>17 september 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100225</rico:hasModificationDate>
+        <html:p>25 februari 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100225</rico:hasModificationDate>
+        <html:p>25 februari 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van mr. D.R.W. Bisdom [levensjaren
+        1740-1814], mr. J. Bisdom [levensjaren 1696-1762] en mr. G.D. Denick [levensjaren
+        1724-1780], 1280-1810</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/7c68d607-c812-4eb4-b691-20ddb7454119" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Het archief bevat geschreven en gedrukte teksten, maar ook oude
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1128">
+    <rico:describedBy rdf:resource="record/1.10.06" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1128</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Bisdom</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bisdom</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1280</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1810</rico:endDate>
+    <rico:date>1280-1810</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FamilieBisdom</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacob Bisdom en Anna Maria Zeegers, zijn eerste vrouw, kregen zeven
+          kinderen. Hun oudste dochter, Anna Elisabeth Bisdom, trouwde in 1751 met Gerard
+          Daniel Denick, elf jaar na de geboorte van de jongste zoon van de familie, Dirk
+          Rudol Wijckerheld Bisdom geheten. Voor nadere gegevens over de familie Bisdom
+          zie onder meer: Algemeen Rijksarchief, Archief van de familie Gevers, 2.21.183,
+          coll. 338, inv.nrs. 112, 120 en 144; Centraal Bureau voor Genealogie, Dossier
+          Wijckerheld Bisdom; A.A. Vorsterman van Oyen, Stam- en Wapenboek van
+          aanzienlijke Nederlandsche familiën met genealogische en heraldische
+          aantekeningen, deel I, Groningen 1885, blz. 57; J.C. Kort, Archief van de
+          familie Bisdom van Vliet, (1190) 1717-1923 (1924) Den Haag 1995.</html:p>
+          <html:p>De kinderen Bisdom brachten een groot deel van hun jeugd door in Den
+          Haag. In 1739 verhuisde men naar Delft, dat men in 1744 verliet om zich in
+          Rotterdam te vestigen. Rotterdam was de stad waar Denick werd geboren en waar
+          hij zijn verdere leven zou doorbrengen. Ook Wijckerheld Bisdom woonde hier
+          lange tijd met zijn gezin. Zijn vrouw, Digna Wendelia Meyners, was een dochter
+          van de Rotterdamse burgemeester mr. Gerard François Meyners.</html:p>
+          <html:p>Zowel vader Jacob, als zijn zoon en schoonzoon (hierna kortweg
+          aangeduid als de Bisdoms) was jurist. Jacob Bisdom en Denick waren gepromoveerd
+          aan de universiteit te Utrecht, terwijl Wijckerheld Bisdom zijn rechtenstudie
+          aan de universiteit van Leiden had voltooid. Alle drie begonnen zij hun
+          loopbaan als advocaat van het Hof van Holland. De verschillende openbare
+          functies die zij hierna zouden bekleden waren telkens in dienst van Holland of
+          van de Generaliteit. Hieronder een chronologisch overzicht van deze
+          functies.</html:p>
+          <html:p>Mr. Jacob Bisdom (Haastrecht 1696 - Delft 1762)1718 - 1734Advocaat van
+          het Hof van Holland1734 - 1739Advocaat-fiscaal en procureur-generaal in het
+          crimineel van het Hof van Holland1739 - 1744Pensionaris van Delft1744 -
+          1762Advocaat-fiscaal van de Admiraliteit op de Maas</html:p>
+          <html:p>Mr. Gerard Daniël Denick (Rotterdam 1724 - Rotterdam 1780)1745 -
+          1750Advocaat van het Hof van Holland1750 - 1780Advocaat-fiscaal van de
+          Admiraliteit op de Maas1752 - 1780Lid van de vroedschap te Rotterdam1766 -
+          1780Meerdere malen burgemeester van Rotterdam1777 - 1780Commissaris der
+          posterijen van Holland</html:p>
+          <html:p>Mr. Dirk Rudolf Wijckerheld Bisdom (Delft 1740 - Leiden 1814)1761 -
+          1762Advocaat van het Hof van Holland1762 - 1780Tweede equipagemeester van de
+          Admiraliteit op de Maas1764 - 1780Secretaris van Rotterdam1780 -
+          1785Advocaat-fiscaal van de Admiraliteit op de Maas1782 - 1785Lid van het
+          Departement van Marine1785 - 1787Thesaurier-generaal van de Unie1788 -
+          1795Raadsheer in de Hoge Raad1802 - 1808Hoofdschout van Leiden1808 -
+          1810Burgemeester van Leiden</html:p>
+          <html:p>Ofschoon Jacob Bisdom bijna twintig jaar lang zeer consciëntieus het
+          ambt van advocaat- fiscaal bij de Admiraliteit op de Maas bekleedde, behield
+          hij toch een zekere voorliefde voor het strikt juridische werk. In het jaar
+          1757 besluit hij een brief aan de Hoge Raad (waar hij achttien jaar daarvoor is
+          vertrokken) in het voor hem in die laatste jaren zo kenmerkende bibberige
+          handschrift met de opmerking dat hij dit college de grootste hoogachting en
+          erkentenis blijft toedragen, '.. bij het welke ik 16 jaren als advocaat, en nog
+          5 jaren als fiscaal, met genoegen heb geverseert en doorgebragt..'. Archief
+          Bisdom, inv.nr. 78. Voor Jacob Bisdom zie: ARA, Archief Gevers, 2.21.183,
+          inv.nr. 112.</html:p>
+          <html:p>Op verzoek van diens schoonvader werd Denick op 25 juni 1750 door de
+          Staten-Generaal benoemd als advocaat-fiscaal van de Admiraliteit op de Maas,
+          een functie die hij tot aan zijn dood in 1780 zou vervullen. Daarnaast was hij
+          in Rotterdam nog in een groot aantal andere openbare functies werkzaam, zoals
+          lid van de vroedschap, weesmeester, kapitein der burgerij of schutterij,
+          gedeputeerde ter dagvaart van de Staten van Holland, boonheer, fabriekmeester,
+          rekenmeester, burgemeester, commissaris van de wisselbank en vredemaker. Verder
+          behoorde hij van 1769 tot 1780 tot de mecenaten van het Bataafse Genootschap
+          aldaar. Voor Gerard Daniël Denick zie: ARA, Archief Gevers, 2.21.183, inv.nr.
+          120, J.H.W. Unger, e.d., Bronnen voor de geschiedenis van Rotterdam, deel I,
+          Rotterdam 1892, p. 556, E.A. Engelbrecht e.d., Bronnen voor de geschiedenis van
+          Rotterdam, deel V, Rotterdam 1973, pp. 342-343, P.C. Molhuysen, e.a. e.d.,
+          Nieuw Nederlandsch Biografisch woordenboek, deel I, Leiden 1911, p.
+          707.</html:p>
+          <html:p>Wijckerheld Bisdom stond van hen drieën als regent het meest in
+          aanzien. Lange tijd kon hij rekenen op de steun en de bescherming van de
+          stadhouder. Zijn benoeming tot advocaat- fiscaal van de Admiraliteit op de Maas
+          in 1780 vond plaats op verzoek van Willem V, die hem vervolgens twee jaar later
+          in deze hoedanigheid opnam in zijn Departement van Marine.</html:p>
+          <html:p>Zeer tegen zijn zin gaf Wijckerheld Bisdom zijn functie als
+          advocaat-fiscaal op 22 februari 1785 op om 23 februari het ambt van
+          thesaurier-generaal van de Unie te aanvaarden, waartoe hij was verzocht. In
+          zijn afscheidsrede voor de Admiraliteitsraad op 1 maart klinkt zijn
+          teleurstelling door. Hij spreekt bij deze gelegenheid de hoop uit dat hij zich
+          in zijn nieuw baan wederom zal kunnen inzetten voor '.. het zeewezen, dat
+          bolwerk voor den staat in 't gemeen ... de commercie (die bron van 's lands
+          bestaan en welvaart in het byzonder) en het eenige middel om deze republiq nog
+          te bewaaren bij derselver independentie en te doen behouden de noodige
+          consideratie onder Europese mogendheden..'. ARA, archief Admiraliteit op de
+          Maas, inv.nr. 176. Een aantal illusies armer diende hij twee en een half jaar
+          later zijn ontslag in. Voor de Raad van State licht hij ter vergadering op 19
+          oktober 1787 zijn verzoek tot ontslag als volgt toe: '.. dat de huiverigheid,
+          die ik nu ruim derde half jaar geleeden betoonde, in het aanvaarden van deeze
+          aanzienelijke Charge, voornamelijk voortsproot uit een vrees, dat den Staat zoo
+          wel van buiten als van binnen met eene bijna onmisbaare ondergang wierd
+          gedreigd, en dat deeze mijne vrees zedert tot mijn innig leedweezen maar al te
+          zeer is gebillykt ...'. ARA, archief Raad van State, inv.nr. 363. Desondanks
+          kwam hij er niet slecht van af: in de toekomst zou hij een jaargeld van
+          vierduizend gulden ontvangen en verder werd hem een zetel in de Hoge Raad
+          aangeboden.</html:p>
+          <html:p>Ten gevolge van de Bataafse omwenteling in de hieruit voortvloeiende
+          mortificatie van de Hoge Raad werd hij in 1795 ambteloos burger. In 1796
+          weigerde hij de eed op de beginselen der volkssoevereiniteit af te leggen
+          waardoor zijn benoeming tot representant in de Nationale Vergadering geen
+          doorgang kon vinden. Het is echter tekenend voor zijn gematigde opstelling dat
+          hij reeds in 1802 als hoofdschout van Leiden weer een invloedrijke positie
+          innam in het Hollandse bestuursapparaat.</html:p>
+          <html:p>Niet alleen de politiek, maar ook het culturele leven had zijn
+          belangstelling. Sinds 1804 was hij lid van de Hollandse Maatschappij der
+          Wetenschappen in Haarlem en vanaf 1806 van de Maatschappij der Nederlandse
+          Letterkunde te Leiden. Voor Dirk Rudolf Wijckerheld Bisdom zie: Centraal Bureau
+          voor Genealogie, dossier Wijckerheld Bisdom; ARA, Archief Gevers, inv.nr. 112;
+          J.H.W. Unger e.d. Bronnen voor de geschiedenis van Rotterdam, deel I, Rotterdam
+          1892, p.49; P.C. Molhuysen e.a. e.d., Nieuw Nederlandsch Biografisch
+          woordenboek, deel IV, Leiden 1918, pp. 151-153.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jacob Bisdom 1696-1762</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacob Bisdom en Anna Maria Zeegers, zijn eerste vrouw, kregen zeven
+          kinderen. Hun oudste dochter, Anna Elisabeth Bisdom, trouwde in 1751 met Gerard
+          Daniel Denick, elf jaar na de geboorte van de jongste zoon van de familie, Dirk
+          Rudol Wijckerheld Bisdom geheten. Voor nadere gegevens over de familie Bisdom
+          zie onder meer: Algemeen Rijksarchief, Archief van de familie Gevers, 2.21.183,
+          coll. 338, inv.nrs. 112, 120 en 144; Centraal Bureau voor Genealogie, Dossier
+          Wijckerheld Bisdom; A.A. Vorsterman van Oyen, Stam- en Wapenboek van
+          aanzienlijke Nederlandsche familiën met genealogische en heraldische
+          aantekeningen, deel I, Groningen 1885, blz. 57; J.C. Kort, Archief van de
+          familie Bisdom van Vliet, (1190) 1717-1923 (1924) Den Haag 1995.</html:p>
+          <html:p>De kinderen Bisdom brachten een groot deel van hun jeugd door in Den
+          Haag. In 1739 verhuisde men naar Delft, dat men in 1744 verliet om zich in
+          Rotterdam te vestigen. Rotterdam was de stad waar Denick werd geboren en waar
+          hij zijn verdere leven zou doorbrengen. Ook Wijckerheld Bisdom woonde hier
+          lange tijd met zijn gezin. Zijn vrouw, Digna Wendelia Meyners, was een dochter
+          van de Rotterdamse burgemeester mr. Gerard François Meyners.</html:p>
+          <html:p>Zowel vader Jacob, als zijn zoon en schoonzoon (hierna kortweg
+          aangeduid als de Bisdoms) was jurist. Jacob Bisdom en Denick waren gepromoveerd
+          aan de universiteit te Utrecht, terwijl Wijckerheld Bisdom zijn rechtenstudie
+          aan de universiteit van Leiden had voltooid. Alle drie begonnen zij hun
+          loopbaan als advocaat van het Hof van Holland. De verschillende openbare
+          functies die zij hierna zouden bekleden waren telkens in dienst van Holland of
+          van de Generaliteit. Hieronder een chronologisch overzicht van deze
+          functies.</html:p>
+          <html:p>Mr. Jacob Bisdom (Haastrecht 1696 - Delft 1762)1718 - 1734Advocaat van
+          het Hof van Holland1734 - 1739Advocaat-fiscaal en procureur-generaal in het
+          crimineel van het Hof van Holland1739 - 1744Pensionaris van Delft1744 -
+          1762Advocaat-fiscaal van de Admiraliteit op de Maas</html:p>
+          <html:p>Mr. Gerard Daniël Denick (Rotterdam 1724 - Rotterdam 1780)1745 -
+          1750Advocaat van het Hof van Holland1750 - 1780Advocaat-fiscaal van de
+          Admiraliteit op de Maas1752 - 1780Lid van de vroedschap te Rotterdam1766 -
+          1780Meerdere malen burgemeester van Rotterdam1777 - 1780Commissaris der
+          posterijen van Holland</html:p>
+          <html:p>Mr. Dirk Rudolf Wijckerheld Bisdom (Delft 1740 - Leiden 1814)1761 -
+          1762Advocaat van het Hof van Holland1762 - 1780Tweede equipagemeester van de
+          Admiraliteit op de Maas1764 - 1780Secretaris van Rotterdam1780 -
+          1785Advocaat-fiscaal van de Admiraliteit op de Maas1782 - 1785Lid van het
+          Departement van Marine1785 - 1787Thesaurier-generaal van de Unie1788 -
+          1795Raadsheer in de Hoge Raad1802 - 1808Hoofdschout van Leiden1808 -
+          1810Burgemeester van Leiden</html:p>
+          <html:p>Ofschoon Jacob Bisdom bijna twintig jaar lang zeer consciëntieus het
+          ambt van advocaat- fiscaal bij de Admiraliteit op de Maas bekleedde, behield
+          hij toch een zekere voorliefde voor het strikt juridische werk. In het jaar
+          1757 besluit hij een brief aan de Hoge Raad (waar hij achttien jaar daarvoor is
+          vertrokken) in het voor hem in die laatste jaren zo kenmerkende bibberige
+          handschrift met de opmerking dat hij dit college de grootste hoogachting en
+          erkentenis blijft toedragen, '.. bij het welke ik 16 jaren als advocaat, en nog
+          5 jaren als fiscaal, met genoegen heb geverseert en doorgebragt..'. Archief
+          Bisdom, inv.nr. 78. Voor Jacob Bisdom zie: ARA, Archief Gevers, 2.21.183,
+          inv.nr. 112.</html:p>
+          <html:p>Op verzoek van diens schoonvader werd Denick op 25 juni 1750 door de
+          Staten-Generaal benoemd als advocaat-fiscaal van de Admiraliteit op de Maas,
+          een functie die hij tot aan zijn dood in 1780 zou vervullen. Daarnaast was hij
+          in Rotterdam nog in een groot aantal andere openbare functies werkzaam, zoals
+          lid van de vroedschap, weesmeester, kapitein der burgerij of schutterij,
+          gedeputeerde ter dagvaart van de Staten van Holland, boonheer, fabriekmeester,
+          rekenmeester, burgemeester, commissaris van de wisselbank en vredemaker. Verder
+          behoorde hij van 1769 tot 1780 tot de mecenaten van het Bataafse Genootschap
+          aldaar. Voor Gerard Daniël Denick zie: ARA, Archief Gevers, 2.21.183, inv.nr.
+          120, J.H.W. Unger, e.d., Bronnen voor de geschiedenis van Rotterdam, deel I,
+          Rotterdam 1892, p. 556, E.A. Engelbrecht e.d., Bronnen voor de geschiedenis van
+          Rotterdam, deel V, Rotterdam 1973, pp. 342-343, P.C. Molhuysen, e.a. e.d.,
+          Nieuw Nederlandsch Biografisch woordenboek, deel I, Leiden 1911, p.
+          707.</html:p>
+          <html:p>Wijckerheld Bisdom stond van hen drieën als regent het meest in
+          aanzien. Lange tijd kon hij rekenen op de steun en de bescherming van de
+          stadhouder. Zijn benoeming tot advocaat- fiscaal van de Admiraliteit op de Maas
+          in 1780 vond plaats op verzoek van Willem V, die hem vervolgens twee jaar later
+          in deze hoedanigheid opnam in zijn Departement van Marine.</html:p>
+          <html:p>Zeer tegen zijn zin gaf Wijckerheld Bisdom zijn functie als
+          advocaat-fiscaal op 22 februari 1785 op om 23 februari het ambt van
+          thesaurier-generaal van de Unie te aanvaarden, waartoe hij was verzocht. In
+          zijn afscheidsrede voor de Admiraliteitsraad op 1 maart klinkt zijn
+          teleurstelling door. Hij spreekt bij deze gelegenheid de hoop uit dat hij zich
+          in zijn nieuw baan wederom zal kunnen inzetten voor '.. het zeewezen, dat
+          bolwerk voor den staat in 't gemeen ... de commercie (die bron van 's lands
+          bestaan en welvaart in het byzonder) en het eenige middel om deze republiq nog
+          te bewaaren bij derselver independentie en te doen behouden de noodige
+          consideratie onder Europese mogendheden..'. ARA, archief Admiraliteit op de
+          Maas, inv.nr. 176. Een aantal illusies armer diende hij twee en een half jaar
+          later zijn ontslag in. Voor de Raad van State licht hij ter vergadering op 19
+          oktober 1787 zijn verzoek tot ontslag als volgt toe: '.. dat de huiverigheid,
+          die ik nu ruim derde half jaar geleeden betoonde, in het aanvaarden van deeze
+          aanzienelijke Charge, voornamelijk voortsproot uit een vrees, dat den Staat zoo
+          wel van buiten als van binnen met eene bijna onmisbaare ondergang wierd
+          gedreigd, en dat deeze mijne vrees zedert tot mijn innig leedweezen maar al te
+          zeer is gebillykt ...'. ARA, archief Raad van State, inv.nr. 363. Desondanks
+          kwam hij er niet slecht van af: in de toekomst zou hij een jaargeld van
+          vierduizend gulden ontvangen en verder werd hem een zetel in de Hoge Raad
+          aangeboden.</html:p>
+          <html:p>Ten gevolge van de Bataafse omwenteling in de hieruit voortvloeiende
+          mortificatie van de Hoge Raad werd hij in 1795 ambteloos burger. In 1796
+          weigerde hij de eed op de beginselen der volkssoevereiniteit af te leggen
+          waardoor zijn benoeming tot representant in de Nationale Vergadering geen
+          doorgang kon vinden. Het is echter tekenend voor zijn gematigde opstelling dat
+          hij reeds in 1802 als hoofdschout van Leiden weer een invloedrijke positie
+          innam in het Hollandse bestuursapparaat.</html:p>
+          <html:p>Niet alleen de politiek, maar ook het culturele leven had zijn
+          belangstelling. Sinds 1804 was hij lid van de Hollandse Maatschappij der
+          Wetenschappen in Haarlem en vanaf 1806 van de Maatschappij der Nederlandse
+          Letterkunde te Leiden. Voor Dirk Rudolf Wijckerheld Bisdom zie: Centraal Bureau
+          voor Genealogie, dossier Wijckerheld Bisdom; ARA, Archief Gevers, inv.nr. 112;
+          J.H.W. Unger e.d. Bronnen voor de geschiedenis van Rotterdam, deel I, Rotterdam
+          1892, p.49; P.C. Molhuysen e.a. e.d., Nieuw Nederlandsch Biografisch
+          woordenboek, deel IV, Leiden 1918, pp. 151-153.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Dirk Rudolf Wijckerheld Bisdom 1740-1814</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacob Bisdom en Anna Maria Zeegers, zijn eerste vrouw, kregen zeven
+          kinderen. Hun oudste dochter, Anna Elisabeth Bisdom, trouwde in 1751 met Gerard
+          Daniel Denick, elf jaar na de geboorte van de jongste zoon van de familie, Dirk
+          Rudol Wijckerheld Bisdom geheten. Voor nadere gegevens over de familie Bisdom
+          zie onder meer: Algemeen Rijksarchief, Archief van de familie Gevers, 2.21.183,
+          coll. 338, inv.nrs. 112, 120 en 144; Centraal Bureau voor Genealogie, Dossier
+          Wijckerheld Bisdom; A.A. Vorsterman van Oyen, Stam- en Wapenboek van
+          aanzienlijke Nederlandsche familiën met genealogische en heraldische
+          aantekeningen, deel I, Groningen 1885, blz. 57; J.C. Kort, Archief van de
+          familie Bisdom van Vliet, (1190) 1717-1923 (1924) Den Haag 1995.</html:p>
+          <html:p>De kinderen Bisdom brachten een groot deel van hun jeugd door in Den
+          Haag. In 1739 verhuisde men naar Delft, dat men in 1744 verliet om zich in
+          Rotterdam te vestigen. Rotterdam was de stad waar Denick werd geboren en waar
+          hij zijn verdere leven zou doorbrengen. Ook Wijckerheld Bisdom woonde hier
+          lange tijd met zijn gezin. Zijn vrouw, Digna Wendelia Meyners, was een dochter
+          van de Rotterdamse burgemeester mr. Gerard François Meyners.</html:p>
+          <html:p>Zowel vader Jacob, als zijn zoon en schoonzoon (hierna kortweg
+          aangeduid als de Bisdoms) was jurist. Jacob Bisdom en Denick waren gepromoveerd
+          aan de universiteit te Utrecht, terwijl Wijckerheld Bisdom zijn rechtenstudie
+          aan de universiteit van Leiden had voltooid. Alle drie begonnen zij hun
+          loopbaan als advocaat van het Hof van Holland. De verschillende openbare
+          functies die zij hierna zouden bekleden waren telkens in dienst van Holland of
+          van de Generaliteit. Hieronder een chronologisch overzicht van deze
+          functies.</html:p>
+          <html:p>Mr. Jacob Bisdom (Haastrecht 1696 - Delft 1762)1718 - 1734Advocaat van
+          het Hof van Holland1734 - 1739Advocaat-fiscaal en procureur-generaal in het
+          crimineel van het Hof van Holland1739 - 1744Pensionaris van Delft1744 -
+          1762Advocaat-fiscaal van de Admiraliteit op de Maas</html:p>
+          <html:p>Mr. Gerard Daniël Denick (Rotterdam 1724 - Rotterdam 1780)1745 -
+          1750Advocaat van het Hof van Holland1750 - 1780Advocaat-fiscaal van de
+          Admiraliteit op de Maas1752 - 1780Lid van de vroedschap te Rotterdam1766 -
+          1780Meerdere malen burgemeester van Rotterdam1777 - 1780Commissaris der
+          posterijen van Holland</html:p>
+          <html:p>Mr. Dirk Rudolf Wijckerheld Bisdom (Delft 1740 - Leiden 1814)1761 -
+          1762Advocaat van het Hof van Holland1762 - 1780Tweede equipagemeester van de
+          Admiraliteit op de Maas1764 - 1780Secretaris van Rotterdam1780 -
+          1785Advocaat-fiscaal van de Admiraliteit op de Maas1782 - 1785Lid van het
+          Departement van Marine1785 - 1787Thesaurier-generaal van de Unie1788 -
+          1795Raadsheer in de Hoge Raad1802 - 1808Hoofdschout van Leiden1808 -
+          1810Burgemeester van Leiden</html:p>
+          <html:p>Ofschoon Jacob Bisdom bijna twintig jaar lang zeer consciëntieus het
+          ambt van advocaat- fiscaal bij de Admiraliteit op de Maas bekleedde, behield
+          hij toch een zekere voorliefde voor het strikt juridische werk. In het jaar
+          1757 besluit hij een brief aan de Hoge Raad (waar hij achttien jaar daarvoor is
+          vertrokken) in het voor hem in die laatste jaren zo kenmerkende bibberige
+          handschrift met de opmerking dat hij dit college de grootste hoogachting en
+          erkentenis blijft toedragen, '.. bij het welke ik 16 jaren als advocaat, en nog
+          5 jaren als fiscaal, met genoegen heb geverseert en doorgebragt..'. Archief
+          Bisdom, inv.nr. 78. Voor Jacob Bisdom zie: ARA, Archief Gevers, 2.21.183,
+          inv.nr. 112.</html:p>
+          <html:p>Op verzoek van diens schoonvader werd Denick op 25 juni 1750 door de
+          Staten-Generaal benoemd als advocaat-fiscaal van de Admiraliteit op de Maas,
+          een functie die hij tot aan zijn dood in 1780 zou vervullen. Daarnaast was hij
+          in Rotterdam nog in een groot aantal andere openbare functies werkzaam, zoals
+          lid van de vroedschap, weesmeester, kapitein der burgerij of schutterij,
+          gedeputeerde ter dagvaart van de Staten van Holland, boonheer, fabriekmeester,
+          rekenmeester, burgemeester, commissaris van de wisselbank en vredemaker. Verder
+          behoorde hij van 1769 tot 1780 tot de mecenaten van het Bataafse Genootschap
+          aldaar. Voor Gerard Daniël Denick zie: ARA, Archief Gevers, 2.21.183, inv.nr.
+          120, J.H.W. Unger, e.d., Bronnen voor de geschiedenis van Rotterdam, deel I,
+          Rotterdam 1892, p. 556, E.A. Engelbrecht e.d., Bronnen voor de geschiedenis van
+          Rotterdam, deel V, Rotterdam 1973, pp. 342-343, P.C. Molhuysen, e.a. e.d.,
+          Nieuw Nederlandsch Biografisch woordenboek, deel I, Leiden 1911, p.
+          707.</html:p>
+          <html:p>Wijckerheld Bisdom stond van hen drieën als regent het meest in
+          aanzien. Lange tijd kon hij rekenen op de steun en de bescherming van de
+          stadhouder. Zijn benoeming tot advocaat- fiscaal van de Admiraliteit op de Maas
+          in 1780 vond plaats op verzoek van Willem V, die hem vervolgens twee jaar later
+          in deze hoedanigheid opnam in zijn Departement van Marine.</html:p>
+          <html:p>Zeer tegen zijn zin gaf Wijckerheld Bisdom zijn functie als
+          advocaat-fiscaal op 22 februari 1785 op om 23 februari het ambt van
+          thesaurier-generaal van de Unie te aanvaarden, waartoe hij was verzocht. In
+          zijn afscheidsrede voor de Admiraliteitsraad op 1 maart klinkt zijn
+          teleurstelling door. Hij spreekt bij deze gelegenheid de hoop uit dat hij zich
+          in zijn nieuw baan wederom zal kunnen inzetten voor '.. het zeewezen, dat
+          bolwerk voor den staat in 't gemeen ... de commercie (die bron van 's lands
+          bestaan en welvaart in het byzonder) en het eenige middel om deze republiq nog
+          te bewaaren bij derselver independentie en te doen behouden de noodige
+          consideratie onder Europese mogendheden..'. ARA, archief Admiraliteit op de
+          Maas, inv.nr. 176. Een aantal illusies armer diende hij twee en een half jaar
+          later zijn ontslag in. Voor de Raad van State licht hij ter vergadering op 19
+          oktober 1787 zijn verzoek tot ontslag als volgt toe: '.. dat de huiverigheid,
+          die ik nu ruim derde half jaar geleeden betoonde, in het aanvaarden van deeze
+          aanzienelijke Charge, voornamelijk voortsproot uit een vrees, dat den Staat zoo
+          wel van buiten als van binnen met eene bijna onmisbaare ondergang wierd
+          gedreigd, en dat deeze mijne vrees zedert tot mijn innig leedweezen maar al te
+          zeer is gebillykt ...'. ARA, archief Raad van State, inv.nr. 363. Desondanks
+          kwam hij er niet slecht van af: in de toekomst zou hij een jaargeld van
+          vierduizend gulden ontvangen en verder werd hem een zetel in de Hoge Raad
+          aangeboden.</html:p>
+          <html:p>Ten gevolge van de Bataafse omwenteling in de hieruit voortvloeiende
+          mortificatie van de Hoge Raad werd hij in 1795 ambteloos burger. In 1796
+          weigerde hij de eed op de beginselen der volkssoevereiniteit af te leggen
+          waardoor zijn benoeming tot representant in de Nationale Vergadering geen
+          doorgang kon vinden. Het is echter tekenend voor zijn gematigde opstelling dat
+          hij reeds in 1802 als hoofdschout van Leiden weer een invloedrijke positie
+          innam in het Hollandse bestuursapparaat.</html:p>
+          <html:p>Niet alleen de politiek, maar ook het culturele leven had zijn
+          belangstelling. Sinds 1804 was hij lid van de Hollandse Maatschappij der
+          Wetenschappen in Haarlem en vanaf 1806 van de Maatschappij der Nederlandse
+          Letterkunde te Leiden. Voor Dirk Rudolf Wijckerheld Bisdom zie: Centraal Bureau
+          voor Genealogie, dossier Wijckerheld Bisdom; ARA, Archief Gevers, inv.nr. 112;
+          J.H.W. Unger e.d. Bronnen voor de geschiedenis van Rotterdam, deel I, Rotterdam
+          1892, p.49; P.C. Molhuysen e.a. e.d., Nieuw Nederlandsch Biografisch
+          woordenboek, deel IV, Leiden 1918, pp. 151-153.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Gerard Daniel Denick 1724-1780</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacob Bisdom en Anna Maria Zeegers, zijn eerste vrouw, kregen zeven
+          kinderen. Hun oudste dochter, Anna Elisabeth Bisdom, trouwde in 1751 met Gerard
+          Daniel Denick, elf jaar na de geboorte van de jongste zoon van de familie, Dirk
+          Rudol Wijckerheld Bisdom geheten. Voor nadere gegevens over de familie Bisdom
+          zie onder meer: Algemeen Rijksarchief, Archief van de familie Gevers, 2.21.183,
+          coll. 338, inv.nrs. 112, 120 en 144; Centraal Bureau voor Genealogie, Dossier
+          Wijckerheld Bisdom; A.A. Vorsterman van Oyen, Stam- en Wapenboek van
+          aanzienlijke Nederlandsche familiën met genealogische en heraldische
+          aantekeningen, deel I, Groningen 1885, blz. 57; J.C. Kort, Archief van de
+          familie Bisdom van Vliet, (1190) 1717-1923 (1924) Den Haag 1995.</html:p>
+          <html:p>De kinderen Bisdom brachten een groot deel van hun jeugd door in Den
+          Haag. In 1739 verhuisde men naar Delft, dat men in 1744 verliet om zich in
+          Rotterdam te vestigen. Rotterdam was de stad waar Denick werd geboren en waar
+          hij zijn verdere leven zou doorbrengen. Ook Wijckerheld Bisdom woonde hier
+          lange tijd met zijn gezin. Zijn vrouw, Digna Wendelia Meyners, was een dochter
+          van de Rotterdamse burgemeester mr. Gerard François Meyners.</html:p>
+          <html:p>Zowel vader Jacob, als zijn zoon en schoonzoon (hierna kortweg
+          aangeduid als de Bisdoms) was jurist. Jacob Bisdom en Denick waren gepromoveerd
+          aan de universiteit te Utrecht, terwijl Wijckerheld Bisdom zijn rechtenstudie
+          aan de universiteit van Leiden had voltooid. Alle drie begonnen zij hun
+          loopbaan als advocaat van het Hof van Holland. De verschillende openbare
+          functies die zij hierna zouden bekleden waren telkens in dienst van Holland of
+          van de Generaliteit. Hieronder een chronologisch overzicht van deze
+          functies.</html:p>
+          <html:p>Mr. Jacob Bisdom (Haastrecht 1696 - Delft 1762)1718 - 1734Advocaat van
+          het Hof van Holland1734 - 1739Advocaat-fiscaal en procureur-generaal in het
+          crimineel van het Hof van Holland1739 - 1744Pensionaris van Delft1744 -
+          1762Advocaat-fiscaal van de Admiraliteit op de Maas</html:p>
+          <html:p>Mr. Gerard Daniël Denick (Rotterdam 1724 - Rotterdam 1780)1745 -
+          1750Advocaat van het Hof van Holland1750 - 1780Advocaat-fiscaal van de
+          Admiraliteit op de Maas1752 - 1780Lid van de vroedschap te Rotterdam1766 -
+          1780Meerdere malen burgemeester van Rotterdam1777 - 1780Commissaris der
+          posterijen van Holland</html:p>
+          <html:p>Mr. Dirk Rudolf Wijckerheld Bisdom (Delft 1740 - Leiden 1814)1761 -
+          1762Advocaat van het Hof van Holland1762 - 1780Tweede equipagemeester van de
+          Admiraliteit op de Maas1764 - 1780Secretaris van Rotterdam1780 -
+          1785Advocaat-fiscaal van de Admiraliteit op de Maas1782 - 1785Lid van het
+          Departement van Marine1785 - 1787Thesaurier-generaal van de Unie1788 -
+          1795Raadsheer in de Hoge Raad1802 - 1808Hoofdschout van Leiden1808 -
+          1810Burgemeester van Leiden</html:p>
+          <html:p>Ofschoon Jacob Bisdom bijna twintig jaar lang zeer consciëntieus het
+          ambt van advocaat- fiscaal bij de Admiraliteit op de Maas bekleedde, behield
+          hij toch een zekere voorliefde voor het strikt juridische werk. In het jaar
+          1757 besluit hij een brief aan de Hoge Raad (waar hij achttien jaar daarvoor is
+          vertrokken) in het voor hem in die laatste jaren zo kenmerkende bibberige
+          handschrift met de opmerking dat hij dit college de grootste hoogachting en
+          erkentenis blijft toedragen, '.. bij het welke ik 16 jaren als advocaat, en nog
+          5 jaren als fiscaal, met genoegen heb geverseert en doorgebragt..'. Archief
+          Bisdom, inv.nr. 78. Voor Jacob Bisdom zie: ARA, Archief Gevers, 2.21.183,
+          inv.nr. 112.</html:p>
+          <html:p>Op verzoek van diens schoonvader werd Denick op 25 juni 1750 door de
+          Staten-Generaal benoemd als advocaat-fiscaal van de Admiraliteit op de Maas,
+          een functie die hij tot aan zijn dood in 1780 zou vervullen. Daarnaast was hij
+          in Rotterdam nog in een groot aantal andere openbare functies werkzaam, zoals
+          lid van de vroedschap, weesmeester, kapitein der burgerij of schutterij,
+          gedeputeerde ter dagvaart van de Staten van Holland, boonheer, fabriekmeester,
+          rekenmeester, burgemeester, commissaris van de wisselbank en vredemaker. Verder
+          behoorde hij van 1769 tot 1780 tot de mecenaten van het Bataafse Genootschap
+          aldaar. Voor Gerard Daniël Denick zie: ARA, Archief Gevers, 2.21.183, inv.nr.
+          120, J.H.W. Unger, e.d., Bronnen voor de geschiedenis van Rotterdam, deel I,
+          Rotterdam 1892, p. 556, E.A. Engelbrecht e.d., Bronnen voor de geschiedenis van
+          Rotterdam, deel V, Rotterdam 1973, pp. 342-343, P.C. Molhuysen, e.a. e.d.,
+          Nieuw Nederlandsch Biografisch woordenboek, deel I, Leiden 1911, p.
+          707.</html:p>
+          <html:p>Wijckerheld Bisdom stond van hen drieën als regent het meest in
+          aanzien. Lange tijd kon hij rekenen op de steun en de bescherming van de
+          stadhouder. Zijn benoeming tot advocaat- fiscaal van de Admiraliteit op de Maas
+          in 1780 vond plaats op verzoek van Willem V, die hem vervolgens twee jaar later
+          in deze hoedanigheid opnam in zijn Departement van Marine.</html:p>
+          <html:p>Zeer tegen zijn zin gaf Wijckerheld Bisdom zijn functie als
+          advocaat-fiscaal op 22 februari 1785 op om 23 februari het ambt van
+          thesaurier-generaal van de Unie te aanvaarden, waartoe hij was verzocht. In
+          zijn afscheidsrede voor de Admiraliteitsraad op 1 maart klinkt zijn
+          teleurstelling door. Hij spreekt bij deze gelegenheid de hoop uit dat hij zich
+          in zijn nieuw baan wederom zal kunnen inzetten voor '.. het zeewezen, dat
+          bolwerk voor den staat in 't gemeen ... de commercie (die bron van 's lands
+          bestaan en welvaart in het byzonder) en het eenige middel om deze republiq nog
+          te bewaaren bij derselver independentie en te doen behouden de noodige
+          consideratie onder Europese mogendheden..'. ARA, archief Admiraliteit op de
+          Maas, inv.nr. 176. Een aantal illusies armer diende hij twee en een half jaar
+          later zijn ontslag in. Voor de Raad van State licht hij ter vergadering op 19
+          oktober 1787 zijn verzoek tot ontslag als volgt toe: '.. dat de huiverigheid,
+          die ik nu ruim derde half jaar geleeden betoonde, in het aanvaarden van deeze
+          aanzienelijke Charge, voornamelijk voortsproot uit een vrees, dat den Staat zoo
+          wel van buiten als van binnen met eene bijna onmisbaare ondergang wierd
+          gedreigd, en dat deeze mijne vrees zedert tot mijn innig leedweezen maar al te
+          zeer is gebillykt ...'. ARA, archief Raad van State, inv.nr. 363. Desondanks
+          kwam hij er niet slecht van af: in de toekomst zou hij een jaargeld van
+          vierduizend gulden ontvangen en verder werd hem een zetel in de Hoge Raad
+          aangeboden.</html:p>
+          <html:p>Ten gevolge van de Bataafse omwenteling in de hieruit voortvloeiende
+          mortificatie van de Hoge Raad werd hij in 1795 ambteloos burger. In 1796
+          weigerde hij de eed op de beginselen der volkssoevereiniteit af te leggen
+          waardoor zijn benoeming tot representant in de Nationale Vergadering geen
+          doorgang kon vinden. Het is echter tekenend voor zijn gematigde opstelling dat
+          hij reeds in 1802 als hoofdschout van Leiden weer een invloedrijke positie
+          innam in het Hollandse bestuursapparaat.</html:p>
+          <html:p>Niet alleen de politiek, maar ook het culturele leven had zijn
+          belangstelling. Sinds 1804 was hij lid van de Hollandse Maatschappij der
+          Wetenschappen in Haarlem en vanaf 1806 van de Maatschappij der Nederlandse
+          Letterkunde te Leiden. Voor Dirk Rudolf Wijckerheld Bisdom zie: Centraal Bureau
+          voor Genealogie, dossier Wijckerheld Bisdom; ARA, Archief Gevers, inv.nr. 112;
+          J.H.W. Unger e.d. Bronnen voor de geschiedenis van Rotterdam, deel I, Rotterdam
+          1892, p.49; P.C. Molhuysen e.a. e.d., Nieuw Nederlandsch Biografisch
+          woordenboek, deel IV, Leiden 1918, pp. 151-153.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Jacob Bisdom (1696-1762) was van 1744-1762 advocaat-fiscaal van de
+      Admiraliteit op de Maas. Ook zijn schoonzoon Gerard Daniel Denick (1724-1780) en
+      zijn jongste zoon Dirk Rudolf Wijckerheld Bisdom (1740-1814) vervulden die functie.
+      De Bisdoms verzamelden veel stukken uit hoofde van hun ambtelijke functies, maar
+      ook over onderwerpen die hun interesse hadden, zoals: zeezaken, handel, juridische,
+      financiële en politieke zaken. De indeling van het archief was vooral het werk van
+      Wijckerheld Bisdom, hij verdeelde de stukken in een gedeelte over de Republiek en
+      een gedeelte over de Staten van Holland en hij maakte recueils, inhoudsopgaven en
+      indices. Onder de stukken bevinden zich retroacta van de Staten-Generaal,
+      afschriften van resoluties en historische geschriften. Een deel van het archief is
+      al beschreven in de gedrukte Inventaris van de archief der Admiraliteitscolleges
+      van De Hullu in 1924. De Hullu scheidde de stukken betreffende admiraliteits- en
+      zeezaken uit het archief Bisdom van de marinearchieven en beschreef ze als
+      admiraliteitscollectie nr. XXXI</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>22.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>333 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

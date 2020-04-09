@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/ade844d2-db04-4195-bceb-8a7e7702d417"
+  rdf:about="record/1.10.29">
+    <rico:identifier>1.10.29</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1964</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1160" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.29/i1" />
+      <rico:instantiates rdf:resource="record/1.10.29" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120622</rico:hasModificationDate>
+        <html:p>22 juni 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        21121121</rico:hasModificationDate>
+        <html:p>21 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130716</rico:hasModificationDate>
+        <html:p>16 juli 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131202</rico:hasModificationDate>
+        <html:p>2 december 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Fagel,
+        1513-1927</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/ade844d2-db04-4195-bceb-8a7e7702d417" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1160">
+    <rico:describedBy rdf:resource="record/1.10.29" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1160</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Fagel</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Fagel</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1513</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1927</rico:endDate>
+    <rico:date>1513-1927</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>FagelRosaGoedecke, vanHackebracht, vanFagel, GasparFagel, Hendrik
+            baron (de jonge)Fagel, Jacob baronFagel, Francois Willem baronFagel, Robert
+            baronFagel, Francois Hendrik Robert René baron</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>François Fagel de Oudste was de eerste Fagel, die op Nederlands
+          grondgebied het levenslicht zag. Hij was ook de eerste Nederlandse Fagel, die
+          in dit land een hoge functie bekleedde, nl. die van raadsheer in de Hoge Raad
+          van Holland.</html:p>
+          <html:p>Deze François was de zoon van François Fagel en diens tweede vrouw
+          Agnes of Agneta Poignet, die in het jaar 1585 tengevolge van de
+          tegen-reformatie in de Spaanse Nederlanden naar Amsterdam waren gevlucht, waar
+          zij een onderdak vonden bij Gaspar Poignet, de vader van Agnes, aan de
+          Kalverstraat. Agnes beviel hier op 30 mei 1585 van een zoon François, die later
+          de bijnaam 'de Oudste' kreeg. Zijn vader overleed twee jaren later op 30
+          september 1587 en werd 2 oktober d.a.v. in de Westerkerk bijgezet. W. M. C.
+          Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen', 1906, 53
+          vlg.</html:p>
+          <html:p>Vader François werd in Lokeren in Vlaanderen geboren als zoon van Joris
+          Fagel en diens tweede vrouw Péronne Martens. Het is niet duidelijk van wie deze
+          Joris afstamde al komen reeds leden van het geslacht Fagel, Faghel, Faghele
+          voor in de 14de eeuw, zoals blijkt uit aantekeningen in het familiearchief.
+          Inventaris nr. 3, stuk 8. Ook Joris was in Lokeren omstreeks 1500 geboren. Hij
+          huwde driemaal en verwekte bij zijn drie vrouwen tien kinderen, zoals op de
+          stamboom te zien is, die bij deze inventaris is gevoegd. Drie van deze kinderen
+          zijn belangrijk, omdat zij de stichters werden van even zoveel takken van het
+          geslacht Fagel. Zijn oudste zoon Colvaert werd het hoofd van de tak Lokeren,
+          terwijl zijn broeders Pieter en François verhuisden naar Neuve-Eglise
+          (Nieuwkerk) in Vlaanderen. Na de vlucht van François naar het noorden bleef
+          Pieter hier wonen en werd zodoende het hoofd van de tak Neuve-Eglise. François
+          werd tengevolge van zijn vlucht het hoofd van de Nederlandse tak, die zich de
+          'FAMILIE Fagel' noemde. Later, toen afstammelingen van François en Agnes
+          Poignet in de Nederlandse adelstand met de titel van baron waren verheven,
+          sprak men ook van de 'zogenoemde adellijke tak' van het geslacht Fagel. De
+          baronnentitel viel bij Koninklijk Besluit van 16 september 1815 nr. 67 aan de
+          toen levende broeders Hendrik, Jacob, François Willem, Robert en Willem Hendrik
+          Jacob Fagel toe met de bepaling, dat deze titel erfelijk zou zijn bij recht van
+          eerstgeboorte.</html:p>
+          <html:p>In de loop van de 17de en 18de eeuw kwamen ook afstammelingen van de
+          takken Lokeren en Neuve-Eglise naar Nederland, maar zij werden niet in de
+          adelstand verheven. Het zou te ver voeren om ook stambomen van deze takken in
+          deze inventaris op te nemen, ook al omdat deze afstamming niet precies bekend
+          is. Inventaris nr. 3, stukken 6 en 9. In ieder geval is Lokeren de bakermat van
+          het geslacht Fagel vanaf Joris Fagel. Zijn zoon François verkeerde vóór zijn
+          vlucht naar Nederland in Vlaamse ambtenaren- en koopmanskringen. Hij verhuisde
+          van Neuve-Eglise naar Antwerpen en werd in 1575 aangesteld tot schepen van
+          Brugge, een ambt dat hij bekleedde tot 1582. W. M. C. Regt, Genealogie der
+          Familie Fagel 'Gen. en Herald. Bladen', 1906, 53 vlg. In hetzelfde jaar werd
+          hij tot 'clerq van de weeserie' van Brugge benoemd. Op een register van deze
+          weeskamer noteerde hij: 'Franchois Faghele, clerq van weesen deser stede heeft
+          dit bouck begonst den Ven septembris 1583'. Hij hield dit register bij tot 6
+          maart 1584 toen het handschrift totaal veranderde. Idem Dit was het gevolg van
+          zijn ontslag en verbanning uit de stad omdat hij het Calvinisme aanhing,
+          hetgeen dus omstreeks 6 maart 1584 gebeurd moet zijn. Hij vestigde zich toen
+          als koopman in Antwerpen, maar moest tengevolge van de opening van het beleg
+          door Parma de wijk nemen naar het noorden.</html:p>
+          <html:p>Met recht kan men deze François Fagel beschouwen als stamvader van de
+          adellijke tak van het geslacht Fagel, die in mannelijke lijn met Jacob John
+          baron Fagel in 1928 uitstierf. De stamboom van deze tak laat zien hoe
+          uitgebreid deze familie Fagel vooral in de 17de eeuw was. In de 18de eeuw begon
+          het verval reeds, want het is opmerkelijk hoevele familieleden - en in het
+          bijzonder mannelijke - ongehuwd zijn gebleven. Tevens valt het op, dat het
+          bestaan van deze tak gedurende de 18de en 19de eeuw telkens aan een zijden
+          draad hing en afhankelijk was van slechts één mannelijke telg, nl. van Hendrik
+          Fagel de Oude, François Fagel de Jonge, Jacob baron Fagel en François Hendrik
+          Robert René baron Fagel . . . . . . totdat Jacob John baron Fagel verkoos
+          vrijgezel te blijven.</html:p>
+          <html:p>Door de familieleden, zowel mannelijke als vrouwelijke, werden talrijke
+          aanzienlijke ambten tijdens het bewind van de Republiek der Zeven Verenigde
+          Nederlanden en het Koninkrijk der Nederlanden bekleed. Welgeteld leverde de
+          familie Fagel gedurende vier eeuwen de volgende functionarissen op en zulks
+          tijdens de Republiek: vijf griffiers van de Staten-Generaal, twee commiezen of
+          adjunct-griffiers van de Staten-Generaal, die het eigenlijke griffierschap niet
+          bereikten, een raadpensionaris van Holland, een pensionaris van Haarlem, drie
+          leden van de rechterlijke macht, een vrouwelijke hoffunctionaris, een gezant,
+          vier officieren, twee burgemeesters, een vendumeester aan de Kaap de Goede
+          Hoop.</html:p>
+          <html:p>Tijdens het Koninkrijk is de verdeling anders, nl.: een minister van
+          staat, drie gezanten, een hoofdambtenaar, drie mannelijke en vier vrouwelijke
+          hoffunctionarissen.</html:p>
+          <html:p>De ambten tijdens de Republiek waargenomen zijn veel talrijker dan die
+          tijdens het Koninkrijk, waarbij men echter dient te bedenken, dat de
+          republikeinse in een periode van drie eeuwen werden bekleed en de koninklijke
+          in een periode van nauwelijks een eeuw. In totaal gaat het hier om 33 ambten in
+          de staatkundige, diplomatieke en militaire sfeer, die door 22 Fagels werden
+          bekleed. Deze getallen dekken elkaar niet omdat zich in deze lijst gevallen
+          voordoen van een opeenvolging in verschillende ambten door één en dezelfde
+          persoon. Gaspar Fagel bijv. was eerst pensionaris van Haarlem, toen griffier
+          der Staten-Generaal en tenslotte raadpensionaris van Holland.</html:p>
+          <html:p>Zonder twijfel zijn de bijnamen 'de Oude' en 'de Jonge' voor enkele
+          telgen, die de voornaam Hendrik of François kregen, reeds in de 18de eeuw
+          ontstaan. Men kan zich voorstellen dat deze bijnamen niet alleen in de kring
+          van de familie werden gebruikt, maar ook bij de griffie der Staten-Generaal,
+          waar al deze oude en jonge Fagels hun werkkring hadden. Eerlijkheidshalve moet
+          hier aan worden toegevoegd dat de bijnaam 'de Oudste' pas is ontstaan tijdens
+          de inventarisatie van het familiearchief Fagel, maar nu alleen om er oudere
+          generaties mee aan te geven.</html:p>
+          <html:p>De familie Fagel heeft zich gedurende de 16de, 17de en 18de eeuw tot
+          een aanzienlijk regentengeslacht ontwikkeld, hetgeen hun ambten en huwelijken
+          met andere voorname families bewijzen. Zij voerden een fiere wapenspreuk 'In
+          recto decus', waaraan alle familieleden zich zonder uitzondering hebben
+          gehouden. W. M. C. Regt, Genealogie der Familie Fagel 'Gen. en Herald. Bladen',
+          1906, 50 en foto van het wapen op p. 48. Zij waren trouwe dienaars van het Huis
+          Oranje-Nassau, waarmede zij intieme relaties onderhielden. Ook hun betrekkingen
+          met buitenlandse staatslieden en diplomaten waren van groot belang. In dit
+          opzicht waren zij in het bijzonder op Groot-Brittannië georiënteerd, hetgeen
+          als het ware in het verloop der gebeurtenissen tijdens de tweede helft van de
+          17de eeuw, de gehele 18de eeuw en het begin van de 19de eeuw lag opgesloten.
+          Zowel de voorbereiding van de expeditie van prins Willem III naar Engeland,
+          waarvan de spil bij raadpensionaris Gaspar Fagel in 1688 lag, evenals de
+          voorbereiding van de terugkeer van prins Willem VI door Hendrik en Robert Fagel
+          in 1813 duiden als het ware in de geschiedenis van de familie Fagel het begin
+          en het einde van deze periode van Engels-Nederlandse betrekkingen aan.</html:p>
+          <html:p>Behalve de officieren in de familie Fagel, studeerden nagenoeg alle
+          mannelijke Fagels in de rechten, zowel in het buitenland als hier te lande. Zij
+          waren bekwame latinisten, een eigenschap, die zij reeds jong ontwikkelden en
+          tijdens hun studie in de praktijk brachten. Hun belangstelling ging meestal
+          niet alleen naar het gekozen vak zelve uit, maar ook bestudeerden enkele hunner
+          godsdienstige en vooral politieke wetenschappen. Deze inslag spreekt het
+          sterkste bij François Fagel de Oude, Hendrik Fagel de Oude, François Fagel de
+          Jonge en Hendrik Fagel de Jonge. Hun 'Eigenhandige Aanteekeningen' over al deze
+          onderwerpen bevinden zich nog in het familiearchief Fagel. Behalve hun
+          belangstelling voor de a-vakken waren François Fagel de Jonge en zijn zoon
+          Hendrik Fagel de Jonge exponenten van de interesse voor de b-vakken.</html:p>
+          <html:p>Naast hun studies op het gebied der wetenschappen hadden deze Fagels
+          ook een open oog voor literatuur en kunst. Zij bezaten een uitgebreide
+          bibliotheek, die de grondslag van hun kennis vormde. Zeer bekend was hun
+          schilderijenverzameling, waarin vele werken van bekende 16de-, 17de- en
+          18de-eeuwse meesters voorkwamen. Tenslotte dient ook de collectie munten,
+          penningen, tekeningen en kaarten genoemd te worden, die voornamelijk door
+          François Fagel de Jonge werd samengesteld.</html:p>
+          <html:p>Bij de biografische schetsen van leden van de familie Fagel zijn alleen
+          bronnen vermeld, die niet ontleend zijn aan de gegevens betreffende het
+          geslacht Fagel, verstrekt in het Genealogisch Repertorium door Jhr. mr. dr. E.
+          A. van Beresteyn, 2de druk, aangevuld met gegevens in Inventarissen van Rijks-
+          en andere Archieven , 1930, III, 331 en Verslagen omtrent 's Rijks Oude
+          Archieven , 1914, II, 79, alsmede in M. A. van Rhede van der Kloot,
+          Aanteekeningen Regeerende Families te 's-Gravenhage en Scheveningen , 1905, 14
+          en 22, in het Geslachtsregister Koenen (nr. 27 in kw.st. van F. A. C. Pauw), in
+          de Ridderschap van Noord-Brabant door Wildeman (nr. 7 in kw.st. van Jhr. J. M.
+          van Singendonck), in de Kwartierstaat door Van Rhede van der Kloot en Bär (nr.
+          13 en 15 in kw.st. van mr. C. J. E. graaf van Bylandt), in de Kwartierstaten
+          door Van der Dussen en Smissaert , deel I (nr. 11 in kw.st. van mr. J. J. L.
+          van der Brugghen en dito in kw.st. van mr. W. R. baron van Tuyll van
+          Serooskerken), idem deel II (nr. 11 in kw.st. van mr. L. Hulsen de Beyer en
+          nrs. 11 en 15 in kw.st. van Jhr. C. P. D. van Singendonck), idem deel III (nr.
+          11 in kw.st. van mr. A. Warin). Evenmin worden gegevens vermeld, voorkomende in
+          de bekende biografische woordenboeken van Kok, Van der Aa en het Nieuw
+          Nederlandsch Biografisch Woordenboek . Onder de 'voornaamste literatuur', die
+          per persoon in deze inventaris is opgenomen, wordt niet de literatuur vermeld,
+          die is opgenomen in het Nieuw Nederlandsch Biografisch Woordenboek en zijn
+          voorgangers. De meeste van de genoemde boekwerken werden direct geput uit de
+          bronnen van het familiearchief Fagel.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat uit drie hoofdgroepen: stukken van persoonlijke aard,
+      stukken van ambtelijke aard en briefwisselingen. Het eerste deel bevat overwegend
+      benoemingen (commissies e.d.) en overige particuliere stukken over de levensloop
+      van diverse leden van het geslacht Fagel. De familie speelde met name in de 18e
+      eeuw een belangrijke rol in de ambtenarij op generaliteitssniveau, overwegend als
+      griffiers van de Staten-Generaal. Er zijn tevens diverse reisjournalen, dagboeken,
+      aantekeningen over ambtelijke werkzaamheden maar bijvoorbeeld ook van
+      geschiedkundige of theoretische aard of uit de studietijd en andersoortige
+      manuscripten. Ten tweede bevat het archief een aantal ambtelijke stukken, meest
+      opgesteld in hun hoedanigheid als griffier: het zogeheten griffiersarchief. Dit
+      loopt van de 16e-18e eeuw. Er zijn stukken over de griffie en het ambt van
+      griffier; indices op de resoluties van de Staten-Generaal; agenda's en registers
+      van uitgaande brieven; stukken over de werkzaamheden van de diverse
+      generaliteitscolleges; de prins van Oranje, het stadhouderschap en de domeinen.
+      Tevens zijn er stukken over allerlei gewestelijke zaken; over de financiën; leger
+      en vloot; buitenlandse zaken (ontvangst van diplomaten, buitenlandse betrekkingen);
+      religie en kerkelijke zaken; juridische zaken; Generaliteitslanden; VOC; WIC en
+      Suriname. Van een aantal leden van de familie zijn er ook nog stukken opgesteld als
+      ambassadeur of in overige officiële betrekkingen. Ten derde is er een reeks
+      briefwisselingen voor de periode 1672-1688 en vanaf 1700 tot eind 19e eeuw met
+      zowel familieleden als een aparte reeks met gezanten (alleen voor de 18e
+      eeuw).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>5345 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>61,99 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

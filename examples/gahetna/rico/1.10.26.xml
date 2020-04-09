@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/1e0853ec-7bf0-4733-889c-4308af8a2992"
+  rdf:about="record/1.10.26">
+    <rico:identifier>1.10.26</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1918</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1156" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.26/i1" />
+      <rico:instantiates rdf:resource="record/1.10.26" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van C.W.F. Dumas [levensjaren
+        1721-1796], 1700-1796</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/1e0853ec-7bf0-4733-889c-4308af8a2992" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1156">
+    <rico:describedBy rdf:resource="record/1.10.26" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1156</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie C.W.F. Dumas</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Dumas</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1700</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1796</rico:endDate>
+    <rico:date>1700-1796</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Dumas, Charles William Frederic (1721-1796)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Charles William Frederic Dumas werd 15 Februari 1721 in het vorstendom
+          Brandenburg-Anspach uit Fransche ouders geboren, kwam, na een tienjarig
+          verblijf in Zwitserland, omstreeks 1750 naar de Republiek, en was athans reeds
+          vóór 1756 in den Haag gevestigd, waar hij zich met letterkundigen arbeid en de
+          vertaling van Duitsche en Engelsche wetenschappelijke werken bezig hieldZie:
+          Biographie Universelle (Michaud), waar ten onrechte gezegd wordt
+          "waarschijnlijk geboren in Holland", en waar van zijne werkzaamheid als
+          politiek agent niet gerept wordt..</html:p>
+          <html:p>In 1768 heeft Dumas het plan opgevat zich een onafhankelijk bestaan te
+          verwerven in eene der Britsche koloniën in Amerika; hij raadpleegde daaromtrent
+          Benjamin Franklin, die destijds als afgevaardigde der koloniën te Londen
+          verblijf hield. Van dat plan kwam niets; maar de voortgezette briefwisseling
+          met Franklin werd de aanleiding, waardoor Dumas zich in den politieken dienst
+          dier kolonie heeft gesteld: in Amerika teruggekeerd, richtte Franklin zich, als
+          lid van het Comité benoemd door het Congres voor de geheime correspondentie der
+          Amerikaansche provincies met Europa, bij een schrijven van 9 en 12 December
+          1775 tot Dumas, waarbij hij hem aanbood zich aan den dienst der Amerikaansche
+          zaak te wijden. Dit voorstel werd door Dumas met geestdrift aangenoomenZie
+          inventaris no. 1: missive aan Franklin dd. 30 April 1776., die er zich later
+          bij verschillende gelegenheden op beroemde de oudste dienaar en politieke agent
+          der Vereenigde Staten in Europa, buiten Engeland te zijn geweest. Deze eerste
+          commissie van Dumas als geheim Amerikaansch agent werd bevestigd bij latere
+          commissies van 1777 Februari 4 en Augustus 8, en 1778 Mei 14. Nadat J. Adams
+          als Amerikaansch gezant door de Staten-Generaal ook formeel erkend wasZie
+          inventaris no. 1: missive aan Livingston dd. 10 Mei 1782.), bepleitte Dumas de
+          noodzakelijkheid van zijne formeele erkenning als delegatie-secretaris en
+          Chargé d'affairesZie inventaris no. 1: missive aan Livingston dd. 1782 April 4,
+          den Hollandschen gezant Van Berkel te Philadelphia dd. 1784 Februari 1 en 1786
+          Februari 24.. Bij een besluit van het Congres (van 14 October 1785) werd hem
+          een jaarlijksch salaris van 1300 dollar toegekend, terwijl de Fransche
+          regeering hem in 1786 eene toelage van 1500 livres verstrekte voor zijne
+          diensten, "in den dienst der Vereenigde Staten, van Frankrijk en van de
+          Republiek" bewezen. In het belang nl. der Amerikaansche zaak had Dumas zich van
+          den beginne af in verbinding gesteld met het Fransche gezantschap, om den
+          materieelen en moreelen steun der Fransche regeering te verwerven. Hij bleef
+          met dat gezantschap in relatie en verleende er evenzeer zijne diensten aan als
+          aan Amerika, zooals o.a. blijkt uit zijne rol van onderhandelaar bij pogingen
+          tot het plaatsen eener Fransche leening in 1785, in samenwerking met den
+          Franschen agent graaf de CoetlouryZie over Coetloury en Dumas als Fransche
+          agenten o.a. bij Colenbrander, Patriottentijd II, bladz. 164..</html:p>
+          <html:p>Aan den in het begin van 1782 nog te Amsterdam vertoevenden
+          Amerikaanschen gezant kon Dumas meldenZie inventarir no. 1: missive dd. 1782
+          Februari 22 aan N. Dumas., dat hij volgens diens opdracht het hotel van de
+          gravin de Wickradt op den Fluwelen Burgwal te 's-Gravenhage had aangekocht, dat
+          bestemd was het Amerikaansche gezantschapshotel te worden. Adams vertrok echter
+          spoedig, nadat het tractaat van vriendschap en handel van Amerika met de
+          Republiek was gesloten, en wel in het najaar 1782 naar Parijs en naderhand als
+          gezant naar Londen, zoodat het hotel meestal onbewoond bleef.</html:p>
+          <html:p>Over de rol, die Dumas bij politieke gebeurtenissen gespeeld heeft,
+          bevatten de brieven vele bijzonderheden: zoo o.a. beroemt hij er zich in 1785
+          op zijn deel te hebben bijgedragen tot den pas gesloten vrede met den keizer en
+          de alliantie met FrankrijkZie inventaris no. 1: missive aan Franklin dd. 29
+          November 1785.. Zeker is, dat hij ook, toen de gebeurtenissen zich tegen de
+          patriotten keerden, aan de in het najaar van 1787 uitgebroken onlusten en
+          plunderingen niet ontkomen is. Het feit, day hij niet formeel geaccrediteerd
+          was, maakte zijne positie nog meer onzeker: uit zijne correspondentie tijdens
+          dat woelige tijdvak blijkt, dat hij op 19 September de bescherming inriep van
+          de militaire machtZie inventaris no. 1: missive aan Generaal Kretsmar dd. 19
+          September 1787., om zijn huis tegen plundering te beschermen, en dat hij
+          zichzelf en zijn gezin in veiligheid moest stellen in het Fransche
+          gezantschapInventaris no. 1: missive aan De St. Pricat van 20 September 1787 en
+          de Verac van 22 September 1787..</html:p>
+          <html:p>Dat ook naderhand de nieuwe regeering der Republiek hem niet welwillend
+          gezind was, blijkt uit de tegen hem gerichte resolutie der Staten-Generaal van
+          23 September 1788, waarbij verklaard werd, "dat hij zich onbevoegd den titel
+          van Agent der Vereenigde Staten aanmatigde", en aan de Gedeputeerden van
+          Holland verzocht werd te zorgen, dat "die titel, voor zijn woning geplaatst,
+          wierde uitgewischt".</html:p>
+          <html:p>Naderhand heeft Dumas eerherstel van den hem aangedane smaad verzocht
+          en verkregen bij de provisioneele representanten, die bij hunne resolutie van
+          14 Augustus 1795 verklaarden, dat Dumas, "hoewel nimmer bij Haar Hoogmogenden
+          als Agent der Vereenigde Staten erkend, niettemin een reeks van jaren in den
+          Haag resideerende, met de zaken van de Vereenigde Staten is gechargeerd geweest
+          en zelfs door Haar Hoogmogenden bij resolutie van 26 Juni 1783 als Chargé
+          d'affaires van de Vereenigde Staten plechtig is erkend; dat door den griffier
+          Fagel met den burger Dumas in die kwaliteit is uitgewisseld de acte van
+          ratificatie op het Tractaat van Vriendschap en Commercie tusschen H.H.M. en de
+          Vereenigde Staten van Amerika gesloten; en dat uit een missive van den Minister
+          Adams te Londen resideerend van 25 October 1787 aan den Griffier Fagel bleek,
+          dat hij direct van het Congres dependeerde, dat hij in dienst van de Vereenigde
+          Staten steeds met hun vertrouwen is vereerd gebleven." Dit vertrouwen heeft
+          Dumas tot zijn dood toe genoten, terwijl ook zijn werk als letterkundige door
+          Amerika erkend werd door zijne benoeming, tegelijk met prof. Luzac te Leiden,
+          tot lid der "académie américaine des arts et des sciences" te Cambridge bij
+          Boston (vergelijk minuut-btief van den secretaris dier instelling van 1790 Juli
+          14).</html:p>
+          <html:p>Dumas overleed te 's-Gravenhage in 1796.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>C.W.F. Dumas was letterkundige en agent der Verenigde Staten in de
+      Republiek, die ook met de Franse gezant contacten onderhield. Hij verzamelde in die
+      hoedanigheid een groot aantal (deels gedrukte) resoluties, rapporten en berichten
+      over de Amerikaanse Onafhankelijkheidsoorlog, de 4e Engelse Oorlog tussen de
+      Republiek en Groot-Brittannië en het daarop volgende conflict tussen de patriotten
+      en de prinsgezinden. Het archief bevat verder brieven aan bekende en minder bekende
+      tijdgenoten, zoals George Washington, Benjamin Franklin, Thomas Jefferson en John
+      Adams.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.81 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>106 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/f5969058-91ef-4ca6-b7f1-78825acf3a3a"
+  rdf:about="record/1.01.47.13">
+    <rico:identifier>1.01.47.13</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1978</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/189" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.01.47.13/i1" />
+      <rico:instantiates rdf:resource="record/1.01.47.13" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100422</rico:hasModificationDate>
+        <html:p>22 april 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Admiraliteitscolleges:
+        Verzameling P. en G. van Olivier, 1656-1806</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/f5969058-91ef-4ca6-b7f1-78825acf3a3a" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/189">
+    <rico:describedBy rdf:resource="record/1.01.47.13" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>189</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Admiraliteitscolleges XXA Paulus - Olivier</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Admiraliteiten / Van Olivier</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1656</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1806</rico:endDate>
+    <rico:date>1656-1806</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Admiraliteitscolleges, 1586-1795</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De hierna beschreven archivalia zijn afkomstig van mr. Pieter Paulus en
+          Gerrit van Olivier; en hebben uitsluitend betrekking op hun functies
+          respectievelijk in de "Admiraliteit op de Maze" (Paulus), het "Comitté tot de
+          zaken van de Marine" (Paulus/Olivier) en de "Zeeraad der Bataafsche Republiek"
+          (Olivier)</html:p>
+          <html:p>Mr. Pieter Paulus (1753/4-1796) stond bekend als Nederlands
+          rechtsgeleerde en politicus. In 1785 aanvaardde hij de functie van
+          advocaat-fiscaal bij de Admiraliteit op de Maze. Commissiebenoeming Archief
+          Staten Generaal inv.no.122.93 folio 7; april 7. In februari 1788 werd hij
+          daaruit ontslagen wegens patriottische gezindheid. Zie archief
+          "Admiraliteiten"; Verzameling XXXVII "Van der Heim" [1.01.47.27], inv.no. 318.
+          Paulus werd op 1 maart 1796 tot president van de Nationale Vergadering, de
+          "democratische vervanger" van de dan opgeheven Staten-Generaal, gekozen. Een
+          longontsteking deed hem echter een kleine twee weken, daarna op 13 maart,
+          plotseling overlijden. In 1795 en 1796 was hij voorzitter van het "Committé tot
+          de zaken van de Marine". Van deze laatste functie en zijn functie m.b.t. de
+          Admiraliteit op de Maze zijn in deze verzameling stukken te vinden.</html:p>
+          <html:p>Waarschijnlijk zijn de archivalia later aangevuld door Gerrit van
+          Olivier. Deze trouwde namelijk in 1798 met de weduwe van Paulus, Françoise
+          Vockestaert (1755-1807); en zal daardoor de beschikking over diens nagelaten
+          papieren hebben gehad. Gerrit van Olivier (1759-1827) eveneens patriot heeft,
+          mede onder invloed van zijn duitse vriend Bennet, zijn leven voor een groot
+          deel gewijd aan de natuurwetenschappen. Ten tijde van de "Republiek" was hij
+          lid van diverse comité's waaronder het "Committé tot de zaken der Marine"
+          (1795-1798) en later de "Zeeraad der Bataafsche Republiek". Na 1813 verkoos
+          Olivier een ambtloos bestaan; zijn aandacht weer richtend op de
+          wetenschap.</html:p>
+          <html:p>Van beider handen zijn diverse publicaties verschenen op
+          respectievelijk politiek en staatkundig; en wetenschappelijk gebied. Zie Van
+          der Aa - Biographisch Woordenboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Comité tot de Zaken van de Marine</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De hierna beschreven archivalia zijn afkomstig van mr. Pieter Paulus en
+          Gerrit van Olivier; en hebben uitsluitend betrekking op hun functies
+          respectievelijk in de "Admiraliteit op de Maze" (Paulus), het "Comitté tot de
+          zaken van de Marine" (Paulus/Olivier) en de "Zeeraad der Bataafsche Republiek"
+          (Olivier)</html:p>
+          <html:p>Mr. Pieter Paulus (1753/4-1796) stond bekend als Nederlands
+          rechtsgeleerde en politicus. In 1785 aanvaardde hij de functie van
+          advocaat-fiscaal bij de Admiraliteit op de Maze. Commissiebenoeming Archief
+          Staten Generaal inv.no.122.93 folio 7; april 7. In februari 1788 werd hij
+          daaruit ontslagen wegens patriottische gezindheid. Zie archief
+          "Admiraliteiten"; Verzameling XXXVII "Van der Heim" [1.01.47.27], inv.no. 318.
+          Paulus werd op 1 maart 1796 tot president van de Nationale Vergadering, de
+          "democratische vervanger" van de dan opgeheven Staten-Generaal, gekozen. Een
+          longontsteking deed hem echter een kleine twee weken, daarna op 13 maart,
+          plotseling overlijden. In 1795 en 1796 was hij voorzitter van het "Committé tot
+          de zaken van de Marine". Van deze laatste functie en zijn functie m.b.t. de
+          Admiraliteit op de Maze zijn in deze verzameling stukken te vinden.</html:p>
+          <html:p>Waarschijnlijk zijn de archivalia later aangevuld door Gerrit van
+          Olivier. Deze trouwde namelijk in 1798 met de weduwe van Paulus, Françoise
+          Vockestaert (1755-1807); en zal daardoor de beschikking over diens nagelaten
+          papieren hebben gehad. Gerrit van Olivier (1759-1827) eveneens patriot heeft,
+          mede onder invloed van zijn duitse vriend Bennet, zijn leven voor een groot
+          deel gewijd aan de natuurwetenschappen. Ten tijde van de "Republiek" was hij
+          lid van diverse comité's waaronder het "Committé tot de zaken der Marine"
+          (1795-1798) en later de "Zeeraad der Bataafsche Republiek". Na 1813 verkoos
+          Olivier een ambtloos bestaan; zijn aandacht weer richtend op de
+          wetenschap.</html:p>
+          <html:p>Van beider handen zijn diverse publicaties verschenen op
+          respectievelijk politiek en staatkundig; en wetenschappelijk gebied. Zie Van
+          der Aa - Biographisch Woordenboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Zeeraad der Bataafsche Republiek</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De hierna beschreven archivalia zijn afkomstig van mr. Pieter Paulus en
+          Gerrit van Olivier; en hebben uitsluitend betrekking op hun functies
+          respectievelijk in de "Admiraliteit op de Maze" (Paulus), het "Comitté tot de
+          zaken van de Marine" (Paulus/Olivier) en de "Zeeraad der Bataafsche Republiek"
+          (Olivier)</html:p>
+          <html:p>Mr. Pieter Paulus (1753/4-1796) stond bekend als Nederlands
+          rechtsgeleerde en politicus. In 1785 aanvaardde hij de functie van
+          advocaat-fiscaal bij de Admiraliteit op de Maze. Commissiebenoeming Archief
+          Staten Generaal inv.no.122.93 folio 7; april 7. In februari 1788 werd hij
+          daaruit ontslagen wegens patriottische gezindheid. Zie archief
+          "Admiraliteiten"; Verzameling XXXVII "Van der Heim" [1.01.47.27], inv.no. 318.
+          Paulus werd op 1 maart 1796 tot president van de Nationale Vergadering, de
+          "democratische vervanger" van de dan opgeheven Staten-Generaal, gekozen. Een
+          longontsteking deed hem echter een kleine twee weken, daarna op 13 maart,
+          plotseling overlijden. In 1795 en 1796 was hij voorzitter van het "Committé tot
+          de zaken van de Marine". Van deze laatste functie en zijn functie m.b.t. de
+          Admiraliteit op de Maze zijn in deze verzameling stukken te vinden.</html:p>
+          <html:p>Waarschijnlijk zijn de archivalia later aangevuld door Gerrit van
+          Olivier. Deze trouwde namelijk in 1798 met de weduwe van Paulus, Françoise
+          Vockestaert (1755-1807); en zal daardoor de beschikking over diens nagelaten
+          papieren hebben gehad. Gerrit van Olivier (1759-1827) eveneens patriot heeft,
+          mede onder invloed van zijn duitse vriend Bennet, zijn leven voor een groot
+          deel gewijd aan de natuurwetenschappen. Ten tijde van de "Republiek" was hij
+          lid van diverse comité's waaronder het "Committé tot de zaken der Marine"
+          (1795-1798) en later de "Zeeraad der Bataafsche Republiek". Na 1813 verkoos
+          Olivier een ambtloos bestaan; zijn aandacht weer richtend op de
+          wetenschap.</html:p>
+          <html:p>Van beider handen zijn diverse publicaties verschenen op
+          respectievelijk politiek en staatkundig; en wetenschappelijk gebied. Zie Van
+          der Aa - Biographisch Woordenboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Olivier, Pieter Paulus van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De hierna beschreven archivalia zijn afkomstig van mr. Pieter Paulus en
+          Gerrit van Olivier; en hebben uitsluitend betrekking op hun functies
+          respectievelijk in de "Admiraliteit op de Maze" (Paulus), het "Comitté tot de
+          zaken van de Marine" (Paulus/Olivier) en de "Zeeraad der Bataafsche Republiek"
+          (Olivier)</html:p>
+          <html:p>Mr. Pieter Paulus (1753/4-1796) stond bekend als Nederlands
+          rechtsgeleerde en politicus. In 1785 aanvaardde hij de functie van
+          advocaat-fiscaal bij de Admiraliteit op de Maze. Commissiebenoeming Archief
+          Staten Generaal inv.no.122.93 folio 7; april 7. In februari 1788 werd hij
+          daaruit ontslagen wegens patriottische gezindheid. Zie archief
+          "Admiraliteiten"; Verzameling XXXVII "Van der Heim" [1.01.47.27], inv.no. 318.
+          Paulus werd op 1 maart 1796 tot president van de Nationale Vergadering, de
+          "democratische vervanger" van de dan opgeheven Staten-Generaal, gekozen. Een
+          longontsteking deed hem echter een kleine twee weken, daarna op 13 maart,
+          plotseling overlijden. In 1795 en 1796 was hij voorzitter van het "Committé tot
+          de zaken van de Marine". Van deze laatste functie en zijn functie m.b.t. de
+          Admiraliteit op de Maze zijn in deze verzameling stukken te vinden.</html:p>
+          <html:p>Waarschijnlijk zijn de archivalia later aangevuld door Gerrit van
+          Olivier. Deze trouwde namelijk in 1798 met de weduwe van Paulus, Françoise
+          Vockestaert (1755-1807); en zal daardoor de beschikking over diens nagelaten
+          papieren hebben gehad. Gerrit van Olivier (1759-1827) eveneens patriot heeft,
+          mede onder invloed van zijn duitse vriend Bennet, zijn leven voor een groot
+          deel gewijd aan de natuurwetenschappen. Ten tijde van de "Republiek" was hij
+          lid van diverse comité's waaronder het "Committé tot de zaken der Marine"
+          (1795-1798) en later de "Zeeraad der Bataafsche Republiek". Na 1813 verkoos
+          Olivier een ambtloos bestaan; zijn aandacht weer richtend op de
+          wetenschap.</html:p>
+          <html:p>Van beider handen zijn diverse publicaties verschenen op
+          respectievelijk politiek en staatkundig; en wetenschappelijk gebied. Zie Van
+          der Aa - Biographisch Woordenboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Olivier, Gerrit van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De hierna beschreven archivalia zijn afkomstig van mr. Pieter Paulus en
+          Gerrit van Olivier; en hebben uitsluitend betrekking op hun functies
+          respectievelijk in de "Admiraliteit op de Maze" (Paulus), het "Comitté tot de
+          zaken van de Marine" (Paulus/Olivier) en de "Zeeraad der Bataafsche Republiek"
+          (Olivier)</html:p>
+          <html:p>Mr. Pieter Paulus (1753/4-1796) stond bekend als Nederlands
+          rechtsgeleerde en politicus. In 1785 aanvaardde hij de functie van
+          advocaat-fiscaal bij de Admiraliteit op de Maze. Commissiebenoeming Archief
+          Staten Generaal inv.no.122.93 folio 7; april 7. In februari 1788 werd hij
+          daaruit ontslagen wegens patriottische gezindheid. Zie archief
+          "Admiraliteiten"; Verzameling XXXVII "Van der Heim" [1.01.47.27], inv.no. 318.
+          Paulus werd op 1 maart 1796 tot president van de Nationale Vergadering, de
+          "democratische vervanger" van de dan opgeheven Staten-Generaal, gekozen. Een
+          longontsteking deed hem echter een kleine twee weken, daarna op 13 maart,
+          plotseling overlijden. In 1795 en 1796 was hij voorzitter van het "Committé tot
+          de zaken van de Marine". Van deze laatste functie en zijn functie m.b.t. de
+          Admiraliteit op de Maze zijn in deze verzameling stukken te vinden.</html:p>
+          <html:p>Waarschijnlijk zijn de archivalia later aangevuld door Gerrit van
+          Olivier. Deze trouwde namelijk in 1798 met de weduwe van Paulus, Françoise
+          Vockestaert (1755-1807); en zal daardoor de beschikking over diens nagelaten
+          papieren hebben gehad. Gerrit van Olivier (1759-1827) eveneens patriot heeft,
+          mede onder invloed van zijn duitse vriend Bennet, zijn leven voor een groot
+          deel gewijd aan de natuurwetenschappen. Ten tijde van de "Republiek" was hij
+          lid van diverse comité's waaronder het "Committé tot de zaken der Marine"
+          (1795-1798) en later de "Zeeraad der Bataafsche Republiek". Na 1813 verkoos
+          Olivier een ambtloos bestaan; zijn aandacht weer richtend op de
+          wetenschap.</html:p>
+          <html:p>Van beider handen zijn diverse publicaties verschenen op
+          respectievelijk politiek en staatkundig; en wetenschappelijk gebied. Zie Van
+          der Aa - Biographisch Woordenboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken over diverse ambten bij de Admiraliteitscolleges,
+      diverse stukken (meest resoluties van de Staten van Holland uit de 18e eeuw) over
+      de heffing van convooien en licenten en enige losse stukken over diverse
+      onderwerpen betrekkelijk handel en scheepvaart.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.54 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>46 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

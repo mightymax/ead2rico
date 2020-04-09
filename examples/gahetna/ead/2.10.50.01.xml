@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:38:38 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.10.50.01::Ministerie van Koloniën: Algemeen Stamboek KNIL)//NL" url="http://proxy.handle.net/10648/9213dd09-d491-49bd-b20c-6db7e3f5f993" urn="2.10.50.01.ead.xml">2.10.50.01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van de stamboeken van onderofficieren en minderen KNIL (inclusief Pupillen) 1832-1899 en enig ander archiefmateriaal van het KNIL 1881-1950</titleproper>
+        <author>G.H. de Kinkelder, H.A.J. van Schie</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="2002">2002</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Florie Barnhoorn, <date calendar="gregorian" era="ce" normal="20070307">7 maart 2007</date>
+      </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, Erven B. van der Kamp, Groningen 1898;
+                  S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920;
+                  <title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, Rijks Archiefschool, Utrecht 1974;
+                  <title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983;
+                  <title linktype="simple">ISAD (G) : General International Standard Archival Description, second edition</title>, Ottawa 2000;
+                  <title linktype="simple">Archivistische Terminologie</title>, Rijks Archiefschool, Utrecht 1975;
+                  <title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983
+   </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce" normal="20080125">25 januari 2008</date>
+        <item>Abstract aangepast door <name>Henny van Schie</name>.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Ministerie van Koloniën: Algemeen Stamboek KNIL</unittitle>
+      <unittitle type="short">Koloniën / Algemeen Stamboek KNIL</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1832/1950" type="inclusive">1832-1950</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">K27014</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">12.50 meter; </extent>
+        
+      <extent unit="files">183 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>
+      </langmaterial>
+      <materialspec label="Soort archiefmateriaal: "/>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Generale Intendance voor de Administratie van Oorlog</corpname>
+      </origination>
+      <origination>
+        <corpname>Generale Intendance voor de Administratie van Oorlog</corpname>
+      </origination>
+      <origination>
+        <famname/>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">De stamboeken bevatten persoonsgegevens van militairen die in het Indische Leger en het KNIL hebben gediend en bevatten data over geboorte, huwelijk, kinderen, opleiding, signalement en gegevens over de militaire loopbaan waaronder rang, wapenonderdeel, krijgsverrichtingen, internering en onderscheidingen. De archiefbescheiden uit de zogenaamde "Linnen Banden" zijn geordend in drie delen: stukken van het Koninklijke Nederlands-Indische Leger, gevormd in Batavia; idem, gevormd in Nederland en indices op de scheepstransporten van militairen bestemd voor Oost-Indië. Onder de "Linnenbanden" zijn ook opgenomen een serie stamboeken Pupillen (1848-1899). Naast de stamboeken is er ook ander materiaal van het KNIL uit de jaren 1881-1950. Het betreft stukken van het hoofdkwartier van de Adjudant-Generaal in Nederlands-Indië met gegevens over benoemingen, bevorderingen, ontslag, pensionering en dergelijke. Ook is er een lijst van marinepersoneel dat krijgsgevangen is geweest. Daarnaast zijn er stukken van de Kwartiermeester-Generaal, de Topografische Dienst te Weltevreden, de Permanente Karteringscommissie en het Vrouwenkorps KNIL. De archiefstukken die vanaf ca. 1880 in Nederland verzameld zijn, zijn afkomstig van het Commissariaat van Afmonstering te Den Haag, de Koloniale Reserve te Nijmegen, het KNIL-centrum Nederland te Nijmegen en de Recruteringsofficier Vrouwenkorps/KNIL bij het CIZ in Den Haag. Onder de indices op de scheepstransporten is ook een lijst van stamboeknummers betreffende militairen die ter Kuste van Guinea (St. George d'Elmina) zijn ingescheept: de zogenoemde Afrikaanse werving.			
+			</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <bioghist>
+          <head>Overzicht van Stamboeken</head>
+          <p>Overzicht van de Stamboeken van Onderofficieren en minderen van het K.N.I.L. Van de periode 1815 - 1875 (serie 1 E 1 - 77 E 1) en 1876 - 1898 (serie 1 E - 49 E) en van de Pupillen van de periode 1848 - 1899</p>
+          <p>In de hierna beschreven series stamboeken van onderofficieren en minderen van het Koninklijke Nederlands-Indische Leger staan de uit Nederland komende militairen per scheepstransport bijeen vermeld. Daarbinnen staan de namen van deze groep helaas niet alfabetisch ingeschreven. De scheepstransporten zelf staan weer in chronologische volgorde naar datum van ontscheping in Nederlands Indië. Tussen de verschillende 'ontschepingen' in inschrijvingen vermeld van in Indië zelf op diverse wijzen aangenomen militairen. De delen 1 tot en met 9 van de eerste serie vertonen in dit opzicht echter een wat minder duidelijk patroon; als groep beslaan zij de periode ca. 1815 - 1834. Deze groep vormt het geheel aan onderofficieren en minderen, die bij de oprichting van het K.N.I.L. in 1832 reeds in militaire dienst in Nederlands-Indië aanwezig waren.</p>
+          <p>De inschrijvingen per scheepstransport sluiten aan op die in de stamboeken van het Algemeen Depot der Landmacht, later het Koloniaal Werfdepot te Harderwijk, waar in de laatste kolom de datum van inscheping op een bepaald schip bestemd voor de Oost wordt vermeld. Zie voor deze stamboeken de inventaris 2.13.09. Deze inschepingsdata komen ook voor in de inschrijvingen in de stamboeken van het K.N.I.L. en aan de hand van de alfabetisch (op scheepsnaam) subsidiair chronologisch (op datum van inscheping op het betreffende schip) ingerichte overzichten kan men de nummergroep en het boekdeel vinden waarin de gezochte Indië-ganger zal zijn ingeschreven.</p>
+          <p>In deze stamboeken zijn ook opgenomen de veelvuldig voorkomende ogenschijnlijk met de chronologie der inschrijvingen strijdige inschepingen van (veel) oudere datum. Veelal betreft dit een hernieuwd dienstverband, waarbij de voorafgaande staat van dienst vanaf de inscheping naar Indië wordt vermeld, en soms kan men deze inschrijvingen ook vinden door nummerverwijzingen bij de eerdere inschrijvingen.</p>
+        </bioghist>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+      <acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek">MAISAO-WOTAP</subject>
+        <subject source="ABS_trefwoord">2.10</subject>
+      </controlaccess>
+      <appraisal>
+        <head>Selectie en vernietiging</head>
+        <p>Een aantal delen uit beide eerste series ontbreekt. Uit de lijsten valt op te maken welke periode deze delen bestrijken. Deze delen en de delen vanaf 1898 zijn verloren gegaan tijdens de japanse bezetting van Nederlands-Indië van 1942-1945.</p>
+      </appraisal>
+      <processinfo>
+        <head>Verantwoording van de bewerking</head>
+        <p>De kleine serie stamboeken Pupillen Nederlands-Indië is in dit geheel opgenomen omdat de zuiver chronologische inschrijvingen verwijzen naar de inschrijvingen in de beide andere series stamboeken.</p>
+      </processinfo>
+      <arrangement>
+        <head>Ordening van het archief</head>
+        <p>De stukken uit dit archief zijn onderverdeeld  in drie series:
+			<list>
+            <item>Archiefbescheiden van het Koninklijke Nederlands-Indisch Leger, gevormd in Batavia</item>
+            <item>Archiefbescheiden van het Koninklijke Nederlands-Indisch Leger, gevormd in Nederland</item>
+            <item>Indices op de scheepstransporten van militairen bestemd voor Oost-Indië</item>
+          </list>
+        </p>
+        <p>De indices bestaan uit drie onderdelen:
+			<list type="ordered" numeration="arabic">
+            <item>afzonderlijke index over de periode 1815-1876;</item>
+            <item>afzonderlijke index over de periode 1876-1898;</item>
+            <item>lijst van stamboeknummers betreffende militairen die ter Kuste van Guinea (St. George d'Elmina) zijn ingescheept: de zgn. Afrikaanse werving.</item>
+          </list>
+        </p>
+      </arrangement>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <phystech>
+        <p>De originele stamboeken inv.nrs. 1-115 verkeren in een slechte materiële staat, wat tot gevolg heeft dat ze niet aangevraagd kunnen worden. Bij het aanvragen met de terminal krijgt u een mededeling ter zake. De delen zijn verfilmd en op microfiche voor raadpleging beschikbaar. De microfiches zijn beschikbaar in het microfilmdepot bij de studiezaal zelfbediening in kast D7d. Op de fiches staan de stamboeknummers aangegeven.</p>
+      </phystech>
+      <otherfindaid>
+        <head>Andere toegang</head>
+        <p>2.13.09: Stamboeken van onderofficieren en manschappen van de Koninkljike Landmacht 1814 - 1924 (1931)</p>
+      </otherfindaid>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Ministerie van Koloniën: Algemeen Stamboek KNIL, nummer toegang 2.10.50.01, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Koloniën / Algemeen Stamboek KNIL, 2.10.50.01, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <altformavail>
+        <p>Het merendeel van de originele stamboeken zijn verfilmd en op microfiche voor raadpleging beschikbaar. De microfiches zijn beschikbaar in het microfilmdepot bij de studiezaal zelfbediening in kast D7d. Op de fiches staan de stamboeknummers aangegeven.</p>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unittitle>ARCHIEFBESCHEIDEN VAN HET KONINKLIJKE NEDERLANDS-INDISCHE LEGER, GEVORMD IN BATAVIA</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Stamboeken "linnen banden"</unittitle>
+          </did>
+          <odd>
+            <p>Stamboeken van onderofficieren en manschappen van het K.N.I.L. van de periode (1815-) 1832 - 1876 en 1876 - 1898, inclusief serie stamboeken pupillen (1848 - 1899). Deze stamboeken zijn bijgehouden door de staf van het K.N.I.L. te Batavia.</p>
+            <p>LET OP: Met het jaar 1876 (inventarisnummer 70) begint de nummering van de inschrijvingen opnieuw met nr. 1. Bij een nummerverwijzing moet u dus steeds nagaan of het een inschrijving van vóór of vanaf 1876 betreft.</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93241" type="ABS">1</unitid>
+              <unitid type="obsolete">1 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/93031c56-c00b-4dc5-87e5-0d00a5d3f66b</unitid>
+              <unittitle>1 - 996, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93242" type="ABS">2</unitid>
+              <unitid type="obsolete">2 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea1b4e9f-3478-44a5-955b-24f971f94512</unitid>
+              <unittitle>997 - 2.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93243" type="ABS">3</unitid>
+              <unitid type="obsolete">3 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b092519-7a69-4b25-82fe-51c877f4a70e</unitid>
+              <unittitle>2.001 - 3.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93244" type="ABS">4</unitid>
+              <unitid type="obsolete">4 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5f63726-6bcd-4e3f-97d6-7f9c3692e86e</unitid>
+              <unittitle>3.001 - 4.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93245" type="ABS">5</unitid>
+              <unitid type="obsolete">5 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d6a0e2c-6477-434a-ac5d-c29ad728d5f0</unitid>
+              <unittitle>4.001 - 5.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93246" type="ABS">6</unitid>
+              <unitid type="obsolete">6 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9983aa11-d275-41e8-9041-1520172c8065</unitid>
+              <unittitle>5.001 - 6.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93247" type="ABS">7</unitid>
+              <unitid type="obsolete">7 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50042015-cf66-4293-8ff4-cb1c0d0b9a0c</unitid>
+              <unittitle>6.001 - 7.000, inschrijving: in 1832 in dienst</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">8 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb0e43a8-7268-4da8-9d9a-651ffa5dcdea</unitid>
+              <unittitle>7.001 - 8.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93248" type="ABS">8</unitid>
+              <unitid type="obsolete">9 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c5890aa-7f38-46ef-b9d3-cbe6beec03ae</unitid>
+              <unittitle>8.001 - 9.000, inschrijving tot 1-04-1834</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93249" type="ABS">9</unitid>
+              <unitid type="obsolete">10 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b36683f9-56f3-464a-b319-0a1e3aa4dcdd</unitid>
+              <unittitle>9.001 - 10.000, inschrijving van 1-04-1834 tot en met 23-04-1835</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93250" type="ABS">10</unitid>
+              <unitid type="obsolete">11 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/99bfb83e-2e9d-4b8d-aa91-2e7c62d156a4</unitid>
+              <unittitle>10.001 - 11.000, inschrijving van 1-06-1835 tot en met 20-10-1835</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93251" type="ABS">11</unitid>
+              <unitid type="obsolete">12 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25e907ea-fa27-4091-a071-b1e7c92a9c5a</unitid>
+              <unittitle>11.001 - 12.000, inschrijving van 20-10-1835 tot en met 22-07-1836</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93252" type="ABS">12</unitid>
+              <unitid type="obsolete">13 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/be85eee8-2118-4925-b25c-a5b0f6d15ed0</unitid>
+              <unittitle>12.001 - 13.000, inschrijving van 22-07-1836 tot en met 20-12-1836</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93253" type="ABS">13</unitid>
+              <unitid type="obsolete">14 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df0cd9c4-dbeb-42fc-b99f-6c90945c56c9</unitid>
+              <unittitle>13.001 - 14.000, inschrijving van 28-01-1837 tot en met 1-05-1837</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93254" type="ABS">14</unitid>
+              <unitid type="obsolete">15 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d7a3c5a-344c-4a1b-8228-9c7dfcfa7657</unitid>
+              <unittitle>14.001 - 15.000, inschrijving van 10-04-1837 tot en met 15-11-1837</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">16 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8030df99-e8ea-4aab-8f5a-e5271e297b88</unitid>
+              <unittitle>15.001 - 16.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93255" type="ABS">15</unitid>
+              <unitid type="obsolete">17 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/42cba355-3679-4790-8ca0-42195147484d</unitid>
+              <unittitle>16.001 - 17.000, inschrijving van 29-09-1838 tot en met 3-04-1839</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">18 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/493c1c76-035f-4cf6-a5d3-de984a75e3ee</unitid>
+              <unittitle>17.001 - 18.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93256" type="ABS">16</unitid>
+              <unitid type="obsolete">19 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb1288ad-2597-4adb-9d43-9256c2a3974c</unitid>
+              <unittitle>18.001 - 19.000, inschrijving van 21-12-1839 tot en met 13-08-1841</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93257" type="ABS">17</unitid>
+              <unitid type="obsolete">20 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8132efbf-1754-4636-acdc-db1c0863fde5</unitid>
+              <unittitle>19.001 - 20.000, inschrijving van 13-08-1841 tot en met 6-06-1842</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93258" type="ABS">18</unitid>
+              <unitid type="obsolete">21 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7935fb1a-ae18-4d36-b0bc-4f17da6827af</unitid>
+              <unittitle>20.001 - 21.000, inschrijving van 6-06-1842 tot en met 12-11-1842</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93259" type="ABS">19</unitid>
+              <unitid type="obsolete">22 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/677cc23a-bf77-4c4a-88c1-8c5d4eeb2a6a</unitid>
+              <unittitle>21.001 - 22.000, inschrijving van 12-11-1842 tot en met 17-10-1843</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93260" type="ABS">20</unitid>
+              <unitid type="obsolete">23 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f72c273-fff7-40d9-9c3a-18015ec54afd</unitid>
+              <unittitle>22.001 - 23.000, inschrijving van 17-10-1843 tot en met 12-04-1845</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93261" type="ABS">21</unitid>
+              <unitid type="obsolete">24 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f19548c-67e5-466a-9559-8a329726916c</unitid>
+              <unittitle>23.001 - 24.000, inschrijving van 12-04-1845 tot en met 20-04-1846</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93262" type="ABS">22</unitid>
+              <unitid type="obsolete">25 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/52925fd6-2995-4d29-8485-5df61ca93018</unitid>
+              <unittitle>24.001 - 25.000, inschrijving van 20-04-1846 tot en met 13-11-1846</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93263" type="ABS">23</unitid>
+              <unitid type="obsolete">26 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/19ac5dab-e3a5-43ea-995e-a858502791e9</unitid>
+              <unittitle>25.001 - 26.000, inschrijving van 17-03-1847 tot en met 21-08-1847</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93264" type="ABS">24</unitid>
+              <unitid type="obsolete">27 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e767ff9-8a86-4b6d-a910-d8951dbe9ed1</unitid>
+              <unittitle>26.001 - 27.000, inschrijving van 21-08-1847 tot en met 29-07-1848</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93265" type="ABS">25</unitid>
+              <unitid type="obsolete">28 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f259fe3-ea42-409e-867c-0d4a934cdce4</unitid>
+              <unittitle>27.001 - 28.000, inschrijving van 29-07-1848 tot en met 28-10-1848</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93266" type="ABS">26</unitid>
+              <unitid type="obsolete">29 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b68bc14-0aea-4f77-8690-0b442309a89b</unitid>
+              <unittitle>28.001 - 29.000, inschrijving van 28-10-1848 tot en met 5-05-1849</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93267" type="ABS">27</unitid>
+              <unitid type="obsolete">30 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/46e3ecfa-3dd7-40bb-b4c3-8764f8539d69</unitid>
+              <unittitle>29.001 - 30.000, inschrijving van 5-05-1849 tot en met 7-05-1850</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93268" type="ABS">28</unitid>
+              <unitid type="obsolete">31 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eb72561f-584d-49b6-a072-baedf22be7ba</unitid>
+              <unittitle>30.001 - 31.000, inschrijving van  7-05-1850 tot en met 15-07-1851</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">32 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/645cea0f-5948-4aa8-9092-bcd954936c09</unitid>
+              <unittitle>31.001 - 32.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93269" type="ABS">29</unitid>
+              <unitid type="obsolete">33 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e65fe1e5-2a16-4fc1-b771-ee189892b639</unitid>
+              <unittitle>32.001 - 33.000, inschrijving van 30-04-1852 tot en met 27-05-1853</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93270" type="ABS">30</unitid>
+              <unitid type="obsolete">34 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa4eb60d-afa6-4528-b39c-a53ca1b1443b</unitid>
+              <unittitle>33.001 - 34.000, inschrijving van 27-05-1853 tot en met 20-12-1853</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93271" type="ABS">31</unitid>
+              <unitid type="obsolete">35 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e94beba4-56b1-46d1-8e7f-90db8a1ed76d</unitid>
+              <unittitle>34.001 - 35.000, inschrijving van 20-12-1853 tot en met 13-11-1854</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93272" type="ABS">32</unitid>
+              <unitid type="obsolete">36 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/344e7f48-0c01-461f-9f78-81329c1186a0</unitid>
+              <unittitle>35.001 - 36.000, inschrijving van 13-12-1854 tot en met 8-11-1855</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93273" type="ABS">33</unitid>
+              <unitid type="obsolete">37 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf5e5c33-4606-463b-97bc-2b99b8072740</unitid>
+              <unittitle>36.001 - 37.000, inschrijving van 8-11-1855 tot en met 7-11-1856</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93274" type="ABS">34</unitid>
+              <unitid type="obsolete">38 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/486a7cf9-c1c0-402f-bf40-68e46bb3e906</unitid>
+              <unittitle>37.001 - 38.000, inschrijving van 7-11-1856 tot en met 29-01-1857</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93275" type="ABS">35</unitid>
+              <unitid type="obsolete">39 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c1f27b2-1cce-4762-a745-62421c25ba46</unitid>
+              <unittitle>38.001 - 39.000, inschrijving van 29-01-1857 tot en met 4-05-1857</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93276" type="ABS">36</unitid>
+              <unitid type="obsolete">40 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a6ada6a-996a-4947-bc58-f37ac061bb41</unitid>
+              <unittitle>39.001 - 40.000, inschrijving van 4-05-1857 tot en met 29-09-1857</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93277" type="ABS">37</unitid>
+              <unitid type="obsolete">41 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbe16f5d-523c-4b59-abff-ee88ffd23fa3</unitid>
+              <unittitle>40.001 - 41.000, inschrijving van 29-09-1857 tot en met 21-11-1857</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93278" type="ABS">38</unitid>
+              <unitid type="obsolete">42 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a1f5cac-f2f6-4b0d-b834-be7d21d8625f</unitid>
+              <unittitle>41.001 - 42.000, inschrijving van 10-12-1857 tot en met 31-03-1858</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93279" type="ABS">39</unitid>
+              <unitid type="obsolete">43 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0fadf027-5644-4820-8d60-808438857f38</unitid>
+              <unittitle>42.001 - 43.000, inschrijving van 31-03-1858 tot en met 6-09-1858</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93280" type="ABS">40</unitid>
+              <unitid type="obsolete">44 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab1fcaab-4aec-47f5-a911-bb3a83b51526</unitid>
+              <unittitle>43.001 - 44.000, inschrijving van 6-09-1858 tot en met 28-02-1859</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93281" type="ABS">41</unitid>
+              <unitid type="obsolete">45 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/01d48f47-6a28-4e88-a637-c866d2a87e00</unitid>
+              <unittitle>44.001 - 45.000, inschrijving van 28-02-1859 tot en met 2-10-1859</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93282" type="ABS">42</unitid>
+              <unitid type="obsolete">46 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddd9406f-dee2-4baa-bedb-743fe27daef9</unitid>
+              <unittitle>45.001 - 46.000, inschrijving van  2-10-1859 tot en met 2-11-1859</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93283" type="ABS">43</unitid>
+              <unitid type="obsolete">47 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2056658-486f-44ef-b8b9-8bcf6e2fcf0c</unitid>
+              <unittitle>46.001 - 47.000, inschrijving van  2-11-1859 tot en met 1-03-1860</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93284" type="ABS">44</unitid>
+              <unitid type="obsolete">48 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0150fba8-4119-41f1-ac9b-2e78a8fe1594</unitid>
+              <unittitle>47.001 - 48.000, inschrijving van  1-03-1860 tot en met 28-07-1860</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93285" type="ABS">45</unitid>
+              <unitid type="obsolete">49 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/07d9cd33-6ba8-40c3-a29b-6e4e7ed6a039</unitid>
+              <unittitle>48.001 - 49.000, inschrijving van 18-11-1860 tot en met 11-05-1861</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93286" type="ABS">46</unitid>
+              <unitid type="obsolete">50 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/46b6ded5-1313-434d-83fe-bf67df9620f7</unitid>
+              <unittitle>49.001 - 50.000, inschrijving van 11-05-1861 tot en met 1-12-1861</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93287" type="ABS">47</unitid>
+              <unitid type="obsolete">51 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/434ee4e4-7cb6-48fa-86b1-876d008c7b5b</unitid>
+              <unittitle>50.001 - 51.000, inschrijving van 14-12-1861 tot en met 21-06-1862</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93288" type="ABS">48</unitid>
+              <unitid type="obsolete">52 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4794d824-db1a-4d18-b060-0e544bd2d50c</unitid>
+              <unittitle>51.001 - 52.000, inschrijving van 21-06-1862 tot en met 19-09-1863</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93289" type="ABS">49</unitid>
+              <unitid type="obsolete">53 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c17389b-d513-473b-93fb-9f2608223fa7</unitid>
+              <unittitle>52.001 - 53.000, inschrijving van 19-09-1863 tot en met 4-06-1864</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">54 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ce47a9b-0df7-44ee-bf5c-2c02be7516bc</unitid>
+              <unittitle>53.001 - 54.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93290" type="ABS">50</unitid>
+              <unitid type="obsolete">55 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3bd116d3-bcf4-4e6f-ba19-6d018e4047cf</unitid>
+              <unittitle>54.001 - 55.000, inschrijving van  2-03-1865 tot en met 29-07-1865</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93291" type="ABS">51</unitid>
+              <unitid type="obsolete">56 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/946fd872-5c59-4e86-92cb-0d5ee80c809d</unitid>
+              <unittitle>55.001 - 56.000, inschrijving van 29-07-1865 tot en met 27-04-1866</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">57 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3a514d4-ec24-4134-9d67-3c6c57461adc</unitid>
+              <unittitle>56.001 - 57.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93292" type="ABS">52</unitid>
+              <unitid type="obsolete">58 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e4e10fb-78a6-411e-b37f-2e0750e56edc</unitid>
+              <unittitle>57.001 - 58.000, inschrijving van  6-12-1866 tot en met 30-04-1867</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93293" type="ABS">53</unitid>
+              <unitid type="obsolete">59 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5f6a527-4cde-4024-bde5-e5772e560e5c</unitid>
+              <unittitle>58.001 - 58.956, inschrijving van 30-04-1867 tot en met 24-11-1867</unittitle>
+            </did>
+            <odd>
+              <p>gedeelte ontbreekt</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93294" type="ABS">54</unitid>
+              <unitid type="obsolete">60 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d42b8160-d42b-4991-b7e4-9860d69c3d9f</unitid>
+              <unittitle>59.001 - 60.000, inschrijving van 18-12-1867 tot en met 20-05-1868</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93295" type="ABS">55</unitid>
+              <unitid type="obsolete">61 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d509f67a-5649-4709-ae4d-1ed5a25e751e</unitid>
+              <unittitle>60.001 - 61.000, inschrijving van 20-05-1868 tot en met 14-11-1868</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93296" type="ABS">56</unitid>
+              <unitid type="obsolete">62 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df5bee52-535c-4097-b9d2-a5cc1c809b45</unitid>
+              <unittitle>61.001 - 62.000, inschrijving van 14-11-1868 tot en met 15-05-1869</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93297" type="ABS">57</unitid>
+              <unitid type="obsolete">63 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/449582a3-9eef-4091-87dc-ada81c3b5b05</unitid>
+              <unittitle>62.001 - 63.000, inschrijving van 15-05-1869 tot en met 25-09-1869</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93298" type="ABS">58</unitid>
+              <unitid type="obsolete">64 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1428b926-e0ef-42a3-921c-972c8ac28346</unitid>
+              <unittitle>63.005 - 64.000, inschrijving van 20-11-1869 tot en met 30-04-1870</unittitle>
+            </did>
+            <odd>
+              <p>gedeelte ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93299" type="ABS">59</unitid>
+              <unitid type="obsolete">65 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23938509-1244-423e-aa81-2dc7d66b1cfe</unitid>
+              <unittitle>64.001 - 65.000, inschrijving van 30-04-1870 tot en met 1-04-1871</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93300" type="ABS">60</unitid>
+              <unitid type="obsolete">66 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed15994f-61db-4701-9f61-4e226ba63974</unitid>
+              <unittitle>65.001 - 66.000, inschrijving van 15-05-1871 tot en met 22-03-1872</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">67 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd22fa71-c149-471a-a5aa-0448d2c35d82</unitid>
+              <unittitle>66.001 - 67.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93301" type="ABS">61</unitid>
+              <unitid type="obsolete">68 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/22f49920-42a7-4c62-89ab-108c5f527e4b</unitid>
+              <unittitle>67.001 - 68.000, inschrijving van  8-02-1873 tot en met 4-06-1873</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93302" type="ABS">62</unitid>
+              <unitid type="obsolete">69 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a4cb09c-108d-4d8e-bd43-dd5852a84c6a</unitid>
+              <unittitle>68.001 - 69.000, inschrijving van  4-06-1873 tot en met 30-08-1873</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">70 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec1c5096-512e-430d-bb2e-ae0a280f4c76</unitid>
+              <unittitle>69.001 - 70.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93303" type="ABS">63</unitid>
+              <unitid type="obsolete">71 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bbc1b689-52b8-4782-871a-8961265eee2f</unitid>
+              <unittitle>70.001 - 71.000, inschrijving van 22-09-1873 tot en met 17-12-1873</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93304" type="ABS">64</unitid>
+              <unitid type="obsolete">72 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ed197f0-abc3-4ef0-bab8-4f33576481c8</unitid>
+              <unittitle>71.001 - 72.000, inschrijving van 17-12-1873 tot en met 4-08-1874</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93305" type="ABS">65</unitid>
+              <unitid type="obsolete">73 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f2d96c1-76ee-4119-86d2-a3bb45a77eea</unitid>
+              <unittitle>72.001 - 73.000, inschrijving van  4-08-1874 tot en met 28-11-1874</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93306" type="ABS">66</unitid>
+              <unitid type="obsolete">74 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ddbf90f-c278-4bbf-8ba0-c6a4502d99b0</unitid>
+              <unittitle>73.001 - 74.000, inschrijving van 28-11-1874 tot en met 15-05-1875</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93307" type="ABS">67</unitid>
+              <unitid type="obsolete">75 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3cd802ca-26e3-417a-a22b-0b61608d0949</unitid>
+              <unittitle>74.001 - 75.000, inschrijving van 15-05-1875 tot en met 7-08-1875</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93308" type="ABS">68</unitid>
+              <unitid type="obsolete">76 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/34f79728-78b1-4a1a-a1e2-1b50275697b1</unitid>
+              <unittitle>75.001 - 76.000, inschrijving van  7-08-1875 tot en met 4-09-1875</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93309" type="ABS">69</unitid>
+              <unitid type="obsolete">77 E 1</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/80dd59e7-e9fe-46e6-9c19-04d7981551df</unitid>
+              <unittitle>76.001 - 77.000, inschrijving van 18-09-1875 tot en met 30-10-1875</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">78 E 1</unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d910a33-9822-4f39-af36-f416178e115d</unitid>
+              <unittitle>77.001 - 78.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93310" type="ABS">70</unitid>
+              <unitid type="obsolete">1 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dc30e46e-217e-449e-9284-689d98c5388b</unitid>
+              <unittitle>1 - 1.000, inschrijving van 19-02-1876 tot en met 29-04-1876</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93311" type="ABS">71</unitid>
+              <unitid type="obsolete">2 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4033c228-da93-4077-b5a1-9b11ca1e32eb</unitid>
+              <unittitle>1.001 - 2.000, inschrijving van 29-04-1876 tot en met 22-07-1876</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">3 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0329dd4-96da-4836-9e53-f78e57342744</unitid>
+              <unittitle>2.001 - 3.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93312" type="ABS">72</unitid>
+              <unitid type="obsolete">4 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3830978-b255-4d3a-8fe5-4ec097bd9737</unitid>
+              <unittitle>3.001 - 4.000, inschrijving van 14-10-1876 tot en met 13-01-1877</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">5 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a872e44-b2b6-4dac-b90b-f0310bcfff19</unitid>
+              <unittitle>4.001 - 5.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93313" type="ABS">73</unitid>
+              <unitid type="obsolete">6 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2c7ce85-2d56-4003-81d4-15690f565d04</unitid>
+              <unittitle>5.001 - 6.000, inschrijving: 19-05-1877 tot en met 11-08-1877</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93314" type="ABS">74</unitid>
+              <unitid type="obsolete">7 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1325b025-cddb-4196-a3e5-594f9b3accd4</unitid>
+              <unittitle>6.001 - 7.000, inschrijving van 11-08-1877 tot en met 5-01-1878</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93315" type="ABS">75</unitid>
+              <unitid type="obsolete">8 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd3d972d-a931-4a75-a639-91a0ba056417</unitid>
+              <unittitle>7.001 - 8.000, inschrijving van  5-01-1878 tot en met 8-05-1878</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93316" type="ABS">76</unitid>
+              <unitid type="obsolete">9 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b6498003-06ee-4e52-be9c-79b65febbd25</unitid>
+              <unittitle>8.001 - 9.000, inschrijving van  8-05-1878 tot en met 7-12-1878</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93317" type="ABS">77</unitid>
+              <unitid type="obsolete">10 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c1f0c7e-8e7b-48c7-b0b8-bdddc8873834</unitid>
+              <unittitle>9.001 - 10.000, inschrijving van  7-12-1878 tot en met 7-06-1879</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93318" type="ABS">78</unitid>
+              <unitid type="obsolete">11 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c98b9a5-dd7c-40ed-99cd-ab985945d7a8</unitid>
+              <unittitle>10.001 - 11.000, inschrijving van  7-06-1879 tot en met 20-12-1879</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93319" type="ABS">79</unitid>
+              <unitid type="obsolete">12 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/79b98c1b-9499-4d0c-b79d-0487ed639ce6</unitid>
+              <unittitle>11.001 - 12.000, inschrijving van 20-12-1879 tot en met 11-09-1880</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">13 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a1242f4b-420b-4779-b907-d2f89a5b102a</unitid>
+              <unittitle>12.001 - 13.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">14 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe5f8451-7590-4c8c-b971-0ba655ec74e4</unitid>
+              <unittitle>13.001 - 14.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">15 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b15e635-8d5e-4ff3-90eb-31e889ade455</unitid>
+              <unittitle>14.001 - 15.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93320" type="ABS">80</unitid>
+              <unitid type="obsolete">16 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae365ef2-d6c3-4f37-8880-b3ac4348c8a5</unitid>
+              <unittitle>15.001 - 16.000, inschrijving van 22-04-1882 tot en met 16-12-1882</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93321" type="ABS">81</unitid>
+              <unitid type="obsolete">17 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/62e00c3d-56bc-4175-bf50-6a2ca0512af7</unitid>
+              <unittitle>16.001 - 17.000, inschrijving van 16-12-1882 tot en met 14-07-1883</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93322" type="ABS">82</unitid>
+              <unitid type="obsolete">18 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5552a5de-4d78-4233-8511-e19144d1cb6a</unitid>
+              <unittitle>17.001 - 18.000, inschrijving van 14-07-1883 tot en met 29-12-1883</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93323" type="ABS">83</unitid>
+              <unitid type="obsolete">19 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffe3ca1d-8519-46dd-877c-a85eca2f1155</unitid>
+              <unittitle>18.001 - 19.000, inschrijving van 24-12-1883 tot en met 14-06-1884</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93324" type="ABS">84</unitid>
+              <unitid type="obsolete">20 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a71376c7-fde8-4ef8-aef8-27856d6e2ae6</unitid>
+              <unittitle>19.001 - 20.000, inschrijving van 14-06-1884 tot en met 21-01-1885</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93325" type="ABS">85</unitid>
+              <unitid type="obsolete">21 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/112525dc-67fd-453c-8c25-02dd1a1e1291</unitid>
+              <unittitle>20.001 - 21.000, inschrijving van 21-01-1885 tot en met 20-06-1885</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93326" type="ABS">86</unitid>
+              <unitid type="obsolete">22 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcb94eea-2efa-4450-905a-f4d7b498619d</unitid>
+              <unittitle>21.001 - 22.000, inschrijving van 20-06-1885 tot en met 30-01-1886</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93327" type="ABS">87</unitid>
+              <unitid type="obsolete">23 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/455d5683-bd91-4738-a992-bc15271c996c</unitid>
+              <unittitle>22.001 - 23.000, inschrijving van 30-01-1886 tot en met 11-09-1886</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93328" type="ABS">88</unitid>
+              <unitid type="obsolete">24 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/efeca1ed-65e5-463c-b81e-79c458a22872</unitid>
+              <unittitle>23.001 - 24.000, inschrijving van 11-09-1886 tot en met 25-12-1886</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93329" type="ABS">89</unitid>
+              <unitid type="obsolete">25 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/894b2ff7-2c46-4e93-8c5b-3116476b80b6</unitid>
+              <unittitle>24.001 - 25.000, inschrijving van  3-01-1887 tot en met 2-07-1887</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93330" type="ABS">90</unitid>
+              <unitid type="obsolete">26 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cc31c0d6-33af-48c7-96be-2b8914786b34</unitid>
+              <unittitle>25.001 - 26.000, inschrijving van  2-07-1887 tot en met 10-12-1887</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93331" type="ABS">91</unitid>
+              <unitid type="obsolete">27 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1fc2620-af26-4182-97a6-c25e320d8424</unitid>
+              <unittitle>26.001 - 27.000, inschrijving van 10-12-1887 tot en met 5-05-1888</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">28 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5aeddfd-2c1f-45a6-ae83-16bf2572e52d</unitid>
+              <unittitle>27.001 - 28.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93332" type="ABS">92</unitid>
+              <unitid type="obsolete">29 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/293b04a6-2949-462f-898a-3644e69606b2</unitid>
+              <unittitle>28.001 - 29.000, inschrijving van 17-11-1888 tot en met 29-06-1889</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">30 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/508ee513-1db8-4c79-a093-d615092e064b</unitid>
+              <unittitle>29.001 - 30.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">31 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cf98c6d-4679-4151-bd20-061401c55163</unitid>
+              <unittitle>30.001 - 31.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93333" type="ABS">93</unitid>
+              <unitid type="obsolete">32 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/49bbcc59-7798-4e10-baf5-dfefb84e2109</unitid>
+              <unittitle>31.001 - 32.000, inschrijving van 11-10-1890 tot en met 30-05-1891</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93334" type="ABS">94</unitid>
+              <unitid type="obsolete">33 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fdfbe4a-dbd3-4d62-b475-c2a138e12f6d</unitid>
+              <unittitle>32.001 - 33.000, inschrijving van 30-05-1891 tot en met 28-11-1891</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93335" type="ABS">95</unitid>
+              <unitid type="obsolete">34 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8600099c-695b-4c07-bf84-ba5cf3b4178f</unitid>
+              <unittitle>33.001 - 34.000, inschrijving van 28-11-1891 tot en met 14-05-1892</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93336" type="ABS">96</unitid>
+              <unitid type="obsolete">35 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6437f053-13cb-4e0f-9432-1e47fc70d740</unitid>
+              <unittitle>34.001 - 35.000, inschrijving van 14-05-1892 tot en met 19-11-1892</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93337" type="ABS">97</unitid>
+              <unitid type="obsolete">36 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0be4736-8435-4c0c-b0c0-1f11000db8ef</unitid>
+              <unittitle>35.001 - 36.000, inschrijving van 19-11-1892 tot en met 20-05-1893</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93338" type="ABS">98</unitid>
+              <unitid type="obsolete">37 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a3347e0-64ee-4bd0-aaff-30478a57df70</unitid>
+              <unittitle>36.001 - 37.000, inschrijving van 20-05-1893 tot en met 2-12-1893</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93339" type="ABS">99</unitid>
+              <unitid type="obsolete">38 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9bb091f6-ec75-45f6-a324-38bf5160978f</unitid>
+              <unittitle>37.001 - 38.000, inschrijving van  2-12-1893 tot en met 7-04-1894</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93340" type="ABS">100</unitid>
+              <unitid type="obsolete">39 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/948247ef-0424-44dc-8fd3-10ae2f41b63d</unitid>
+              <unittitle>38.001 - 39.000, inschrijving van  7-04-1894 tot en met 8-09-1894</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93341" type="ABS">101</unitid>
+              <unitid type="obsolete">40 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/60918ec5-f86a-41fd-9064-0e8b1278372c</unitid>
+              <unittitle>39.001 - 40.000, inschrijving van  8-09-1894 tot en met 20-10-1894</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93342" type="ABS">102</unitid>
+              <unitid type="obsolete">41 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11c65d0a-6f62-46cc-8e0d-42dce4603adc</unitid>
+              <unittitle>40.001 - 41.000, inschrijving van 20-10-1894 tot en met 1-12-1894</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93343" type="ABS">103</unitid>
+              <unitid type="obsolete">42 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc2cb157-9727-4b5d-b304-dfa9eb72d1f7</unitid>
+              <unittitle>41.001 - 42.000, inschrijving van  1-12-1894 tot en met 27-04-1895</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93344" type="ABS">104</unitid>
+              <unitid type="obsolete">43 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8fb164ce-022f-4c93-b727-6bb8ff73966c</unitid>
+              <unittitle>42.001 - 43.000, inschrijving van 27-04-1895 tot en met 28-09-1895</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid type="blank">---</unitid>
+              <unitid type="obsolete">44 E </unitid>
+              
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/56a1b47d-7ab4-488f-b645-8441194c2dd7</unitid>
+              <unittitle>43.001 - 44.000</unittitle>
+            </did>
+            <odd>
+              <p>ontbreekt</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93345" type="ABS">105</unitid>
+              <unitid type="obsolete">45 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e67b9b1-7a6e-4c61-95c1-fff2ff359a2f</unitid>
+              <unittitle>44.001 - 45.000, inschrijving van 25-04-1896 tot en met 20-06-1896</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93346" type="ABS">106</unitid>
+              <unitid type="obsolete">46 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca375d72-b155-4f4f-9055-85c7f835c4ec</unitid>
+              <unittitle>45.001 - 46.000, inschrijving van 20-06-1896 tot en met 14-11-1896</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93347" type="ABS">107</unitid>
+              <unitid type="obsolete">48 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ab4a957-7212-492f-aa65-edab1d2462b0</unitid>
+              <unittitle>47.001 - 48.000, inschrijving van  5-06-1897 tot en met 30-10-1897</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="93348" type="ABS">108</unitid>
+              <unitid type="obsolete">49 E</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f89ab999-936d-4c19-bf51-27729de1a281</unitid>
+              <unittitle>48.001 - 49.000, inschrijving van 30-10-1897 tot en met 26-03-1898</unittitle>
+            </did>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>109-111</unitid>
+              <unittitle>Pupillen</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="93349" type="ABS">109</unitid>
+                <unitid type="obsolete">Pup. 1</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ec4546a-dcce-4ccf-b563-cd24d8335af4</unitid>
+                <unittitle>1 - 1.000, inschrijving van 21-07-1848 tot en met 31-05-1869</unittitle>
+              </did>
+              <phystech type="ABS">
+                <p>Niet raadpleegbaar</p>
+              </phystech>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="93350" type="ABS">110</unitid>
+                <unitid type="obsolete">Pup. 2</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b8052fe0-1783-4d3e-9c69-590c18c3542a</unitid>
+                <unittitle> 1.000 - 2.000, inschrijving van 31-05-1869 tot en met 15-06-1888</unittitle>
+              </did>
+              <phystech type="ABS">
+                <p>Niet raadpleegbaar</p>
+              </phystech>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="93351" type="ABS">111</unitid>
+                <unitid type="obsolete">Pup. 3</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/18f22399-4c39-4b81-9cd9-7fd2b20ef59b</unitid>
+                <unittitle>2.000 - 2.514, inschrijving van 30-06-1888 tot en met 1-08-1899</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>112-115</unitid>
+              <unittitle>Klapper op namen van officieren, voorkomend in een serie KNIL-stamboeken, op fiches.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1970/1975">ca. 1970-1975</unitdate>
+              <physdesc>4 pakken</physdesc>
+            </did>
+            <odd>
+              <p> Dit kaartsysteem is thans niet bruikbaar. Men raadplege toegang 2.10.50, met name de inv.nrs. 318-331 en 444-448.</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2339997" type="ABS">112</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eff8ae30-526f-418a-9a50-e4648740c507</unitid>
+                <unittitle>A-F</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2339998" type="ABS">113</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86277ebc-b8cd-4988-84ba-8dc341c2a2fa</unitid>
+                <unittitle>G-M</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2339999" type="ABS">114</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75ad2dec-c350-4243-9657-47de1bfa3f5a</unitid>
+                <unittitle>N-U</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2340000" type="ABS">115</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2703623d-fc75-4b40-b3f2-5e82528d6887</unitid>
+                <unittitle>V-Z</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Hoofdkwartier Adjudant-Generaal in Nederlands-Indië</unittitle>
+          </did>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Dossiers</unittitle>
+            </did>
+            <c04 level="otherlevel" otherlevel="filegrp">
+              <did>
+                <unitid>116-121</unitid>
+                <unittitle>Verzameling voorschriften en instructies, gestencild, met inhoudsopgave.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1945/1950">1945-1950</unitdate>
+                <physdesc>6 pakken</physdesc>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342254" type="ABS">116</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d8d8fc4-b18c-4174-a821-46196821b167</unitid>
+                  <unittitle>A-B</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342255" type="ABS">117</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/68e6f40f-5522-4cb1-8863-c86ab18e8a79</unitid>
+                  <unittitle>C-D</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342256" type="ABS">118</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7076d8bf-44b6-4317-8984-35fdc4ab17a9</unitid>
+                  <unittitle>E-K</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342257" type="ABS">119</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa425461-e4fd-4921-9508-8d9bc40bad65</unitid>
+                  <unittitle>L-P</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342258" type="ABS">120</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/70384aa8-2971-4390-97cf-54dc412067ad</unitid>
+                  <unittitle>R-U</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342259" type="ABS">121</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5e71ac6-228f-4054-ab58-b2b9ae89208a</unitid>
+                  <unittitle>V-Z</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342260" type="ABS">122</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/541f0285-2e5b-4e6c-b170-80fb66aca803</unitid>
+                <unittitle>Agenda van ingekomen stukken.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946">1946 april-mei</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342261" type="ABS">123</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ddbbca6-1c6a-4b9a-9976-0ab146427997</unitid>
+                <unittitle>Dossier betreffende C.J. Vink, majoor der infanterie van het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1949">1930-1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342262" type="ABS">124</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0da4401e-ebbf-4955-bff3-bc732f6cb2d7</unitid>
+                <unittitle>Circulaires betreffende betalingsregeling voor personeel op Java en Madoera (I.R. 1946), gestencild en afschriften.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946/1948">1946-1948</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342263" type="ABS">125</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/44d99f14-3a23-456f-8d5f-cfb0a8c20331</unitid>
+                <unittitle>Werving-algemeen: aangaan van verbintenissen bij het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1948">1947-1948</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342264" type="ABS">126</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1197d7c-1b36-4e6c-8574-781a6027c228</unitid>
+                <unittitle>Voorschriften betreffende het aangaan van kortdienstverband bij het KNIL, gestencild.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1949">1947-1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Naamlijsten en beschikkingen</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342265" type="ABS">127</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97dc4c92-86fd-477c-8abe-a55624ae6f2e</unitid>
+                <unittitle>Bevorderingsregister voor het schrijverspersoneel.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1921/1949">1921-1949</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="filegrp">
+              <did>
+                <unitid>128-140</unitid>
+                <unittitle>Uittreksels uit het register van besluiten van de luitenant-gouverneur-generaal van Nederlands-Indië en de Hoge Vertegenwoordiger van de Kroon in Indonesië, beschikkingen van het Ministerie van Koloniën te Londen en beschikkingen van het KNIL betreffende benoeming, bevordering en ontslag van officieren bij het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949">1940, 1942-1949</unitdate>
+                <physdesc>13 banden</physdesc>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342266" type="ABS">128</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4117c071-3283-42df-870f-7a2d610d1d70</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1940, 1942-1944</unitdate>, band 1</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342267" type="ABS">129</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59626df0-2842-49bb-aaae-7b6b7c61bdca</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1945</unitdate>, band 2</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342268" type="ABS">130</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/04f1ab57-b1ea-47b8-9c5e-ba8ebc9ebad4</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1946 jan. - mei</unitdate>, band 3</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342269" type="ABS">131</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0661c03-dfdd-4e52-b95e-6e7f31c51d58</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1946 juni - aug.</unitdate>, band 4</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342270" type="ABS">132</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb15c08d-b332-4168-8e8b-3889caf4c9d5</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1946 sep. - dec.</unitdate>, band 5</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342271" type="ABS">133</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8060193b-78bd-4dd8-bcfb-17f6c827ce93</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1947 jan. - apr.</unitdate>, band 6</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342272" type="ABS">134</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6ec11eb-23e7-4ebd-a2d4-1db716e60c6e</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1947 mei - aug.</unitdate>, band 7</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342273" type="ABS">135</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a16a8226-8c51-4af0-9838-2f8c7b6a35ad</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1947 sep. - dec.</unitdate>, band 8</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342274" type="ABS">136</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e100dfe5-1b63-49af-9b76-e33b91638f1c</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1948 jan. - apr.</unitdate>, band 9</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342275" type="ABS">137</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a5af338-0ac6-4409-9b61-9945aafbb3f4</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1948 mei - sep.</unitdate>, band 10</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342276" type="ABS">138</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f01380d0-67d4-491c-8ff0-001a48af49bc</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1948 okt. - dec.</unitdate>, band 11</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342277" type="ABS">139</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ea3ba1a-ac49-425e-b839-89789c066f81</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1949 jan. - juni</unitdate>, band 12</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342278" type="ABS">140</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d0d1cfb-3b82-4b81-964c-d853d9f6768b</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce">1949 juli - okt.</unitdate>, band 13</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342279" type="ABS">141</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/39b2d9aa-6b6e-435d-ba0f-264550816f58</unitid>
+                <unittitle>Bevorderings- en anciënniteitsregisters van administratief KNIL-personeel en van personeel werkzaam bij de Militaire Luchtvaart en de Leger Verbindingsdienst.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1945/1950">1945-1950</unitdate>
+                <physdesc>1 pak</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342280" type="ABS">142</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7ddc0a7-cf2d-4b08-ac61-5e90e9cde6a5</unitid>
+                <unittitle>Register van militaire schrijvers, geplaatst bij het Departement van Oorlog te Batavia, afdelingsgewijs ingedeeld.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1942">1941-1942</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342281" type="ABS">143</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e506c01b-96b9-4c33-82a4-92533722608d</unitid>
+                <unittitle>Register van het personeel van het wapen der artillerie.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342282" type="ABS">144</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/843a3d7f-e95c-4f34-ba2a-baf5a10ac396</unitid>
+                <unittitle>Dossierregister inzake onderofficieren en minderen, tegen wie een strafzaak aanhangig is.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1948">ca.1948</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342283" type="ABS">145</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7bfab7e4-6c5a-463b-a2d5-6543c07511d4</unitid>
+                <unittitle>Register van het personeel van het Korps Militair Bureaupersoneel.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1948/1950">1948-1950</unitdate>
+                <physdesc>1 pak</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342284" type="ABS">146</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff1bdb0a-e70a-43db-8203-cfc4aa225f01</unitid>
+                <unittitle>Lijst van marinepersoneel, dat krijgsgevangen is geweest.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946">c.1946</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342285" type="ABS">147</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac25265c-19b0-4860-9248-a557b4edc6fd</unitid>
+                <unittitle>Naam- en bevorderingsregister van onderofficieren van het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+                <physdesc>1 deel</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342286" type="ABS">148</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fff8ae08-983e-4ae9-8729-154dece94def</unitid>
+                <unittitle>Ingekomen en uitgaande stukken betreffende personen voor wie geen dossier is aangelegd.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1944/1950">1944-1950</unitdate>
+                <physdesc>1 pak</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342287" type="ABS">149</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f79f058f-d68b-4cd6-b4f3-4305a49aa37c</unitid>
+                <unittitle>Naamlijsten van officieren en dienstplichtig personeel van het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946/1949">1946-1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342288" type="ABS">150</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/95afbaa2-0157-4ca8-a329-2d1a5836b50c</unitid>
+                <unittitle>Beschikkingen betreffende benoeming en ontslag van personeel van de Netherlands Forces Intelligence Service (NEFIS).</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1949">1947-1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342289" type="ABS">151</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2dbd424-82c0-4d86-a386-6f7742be2d10</unitid>
+                <unittitle>Ontnemen van een tijdelijk verleende rang aan officieren, afschriften.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1949">1947-1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="otherlevel" otherlevel="filegrp">
+              <did>
+                <unitid>152-153</unitid>
+                <unittitle>Registers van deelnemers aan KNIL-opleidingen en cursussen.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1950">1947-1950</unitdate>
+                <physdesc>14 delen</physdesc>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342290" type="ABS">152</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/96f87dcb-bda2-4947-9371-17ef808459cc</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1947/1950">1947-1950</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unitid identifier="2342291" type="ABS">153</unitid>
+                  <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff0b91db-1b4f-4803-beea-bca50cbf3e73</unitid>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1949/1950">1949-1950</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342292" type="ABS">154</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/102f3bb0-619a-478a-aa24-f331d1858224</unitid>
+                <unittitle>Anciënniteitsregisters van onderofficieren van het KNIL, in lijstvorm.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949">1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342293" type="ABS">155</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca24afc7-14ae-4f0c-b486-91fcb34b763c</unitid>
+                <unittitle>Lijsten van overleden militairen, volgens opgave van het Centraal Informatiebureau van het Rode Kruis te Batavia.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949">1949</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342294" type="ABS">156</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/855c414f-ef53-4d81-9615-5ec4d3e30bb5</unitid>
+                <unittitle>Staten van afgekeurde, ontslagen en gepensioneerde militairen van het KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949/1950">1949-1950</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342283" type="ABS">145</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cac3e413-94f1-44ac-9f3d-0672a7a0c1f5</unitid>
+                <unittitle>Ranglijst van het Korps Militair Bureau Personeel KNIL.</unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950">1950</unitdate>
+                <physdesc>1 omslag</physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Kwartiermeester-Generaal</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342295" type="ABS">157</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5e9be83a-c272-4eb1-a87a-1580f4d7f128</unitid>
+              <unittitle>Inlevering van particuliere wapens door KNIL-militairen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Topografische Dienst te Weltevreden</unittitle>
+          </did>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>158-159</unitid>
+              <unittitle>Ingekomen en uitgaande stukken van de Topografische Dienst.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935/1950">1935-1950</unitdate>
+              <physdesc>2 pakken</physdesc>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342296" type="ABS">158</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59c9de4c-dfe4-4623-bf73-f6ff334f21a6</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1947">1935-1947</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342297" type="ABS">159</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0aadf10-6351-44dc-a6dd-c2f4ecd8e349</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1947/1950">1947-1950</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Permanente Karteringscommissie</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342298" type="ABS">160</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36cfc954-85d2-43c2-a231-b9bd0cc81ba2</unitid>
+              <unittitle>Ingekomen en uitgaande stukken van de Permanente Karteringscommissie.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936/1941">1936-1941</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Vrouwenkorps KNIL</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342299" type="ABS">161</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd96d7cf-2276-4d78-9700-a29d5fad948d</unitid>
+              <unittitle>Correspondentie van het Korpscommando VK te Batavia.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1944/1950">1944-1950</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342300" type="ABS">162</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cf5d0c4-dfe2-490b-b02d-a0430e52f5c5</unitid>
+              <unittitle>Beschikkingen betreffende overplaatsing, bevordering en ontslag van personeel van het Vrouwenkorps, afschriften.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1944/1950">1944-1950</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342301" type="ABS">163</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9539c77e-e0ff-4a77-be67-9a7c2ae30630</unitid>
+              <unittitle>Nominatieve staten, naamlijsten van personeel van het Vrouwenkorps.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1945/1950">1945-1950</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342302" type="ABS">164</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/526dc5f8-083b-428d-9b36-202d30938f0c</unitid>
+              <unittitle>Korpsorders van het Korpscommando betreffende benoeming, bevordering, overplaatsing en ontslag van personeel van het Vrouwenkorps.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1950">1948-1950</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>ARCHIEFBESCHEIDEN VAN HET KONINKLIJKE NEDERLANDS-INDISCHE LEGER, GEVORMD IN NEDERLAND</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Commissariaat van Afmonstering te Den Haag</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342303" type="ABS">165</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/57144a9c-7fef-4fc3-8210-1191c9f297fe</unitid>
+              <unittitle>Register van het Commissariaat van Afmonstering te 's-Gravenhage met aantekeningen betreffende de afmonstering van militairen en de Koloniale Reserve.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1881/1910">c.1881-1910</unitdate>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>166-167</unitid>
+              <unittitle>Registers van afmonstering van militairen uit West-Indië, met indices,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1908/1910">1908-1910</unitdate>
+              <physdesc>2 delen</physdesc>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342304" type="ABS">166</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1338e61-22f6-4de1-946a-217cef772b72</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1908/1934">1908-1934</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342305" type="ABS">167</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/03b475b0-f12a-4522-8a5c-5f62b1ee484c</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1940">1935-1940</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>168-177</unitid>
+              <unittitle>Registers van afmonstering van militairen uit Oost-Indië, met indices.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1921/1940">1921-1940</unitdate>
+              <physdesc>10 delen</physdesc>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342306" type="ABS">168</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d7dff9a-76f3-42a1-916b-4367ce3a5a23</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1921">1921</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342307" type="ABS">169</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9993494-4679-45fb-9bd1-e80183964963</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1922">1922</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342308" type="ABS">170</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d18b9fd4-01c4-4ab0-9863-9950192897eb</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1923">1923</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342309" type="ABS">171</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd7746a0-6742-4b6d-9ed6-003b56f90a33</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1925">1925</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342310" type="ABS">172</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58862bd3-04e0-48fe-9d91-21463aac864c</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342311" type="ABS">173</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/67e72b3d-d5c0-48c1-8c78-3e3ff847a7f7</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1927/1928">1927-1928</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342312" type="ABS">174</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d92479a-1a40-45d0-b460-2689b6a61c55</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1931/1932">1931-1932</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342313" type="ABS">175</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c051af65-8b5c-4d4c-a65d-019b193713d3</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1936">1935-1936</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342314" type="ABS">176</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d2b1708-6705-4dd7-9b5a-b1de02e8a23d</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1937/1938">1937-1938</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="2342315" type="ABS">177</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/47076656-8ae9-4271-96a1-f622152d650c</unitid>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342316" type="ABS">178</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/600e6a01-8736-43ef-b837-236c0fbd938e</unitid>
+              <unittitle>Agenda van ingekomen stukken van het Commissariaat van Afmonstering te 's-Gravenhage.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1940">1930-1940</unitdate>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342317" type="ABS">179</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc34688e-8d09-4637-9bbe-7ed57fa7df42</unitid>
+              <unittitle>Brievenboek van het Commissariaat van Afmonstering, deel XIII.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931-1940</unitdate>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Koloniale Reserve te Nijmegen</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342318" type="ABS">180</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a692f357-1b89-40b1-a028-fd0bf350fb1b</unitid>
+              <unittitle>Voorschrift tarieven bij de Koloniale Reserve, met aangebrachte wijzigingen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925/1939">1925-1939</unitdate>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>KNIL-centrum Nederland te Nijmegen</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342319" type="ABS">181</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fff3f804-ab58-4a48-8c1d-3bfd23b47b71</unitid>
+              <unittitle>Administratieve voorschriften van de Adjudant-Generaal voor alle militaire gezaghebbers, gestencild.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1947/1950">1947-1950</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Recruteringsofficier Vrouwenkorps/KNIL bij het CIZ in Den Haag</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342320" type="ABS">182</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b54bbcb-830a-4d7c-aac6-346fc868d218</unitid>
+              <unittitle>Correspondentie van de recruteringsofficier Vrouwenkorps/KNIL bij het CIZ in Den Haag.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1946/1949">1946-1949</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2342321" type="ABS">183</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/389e987e-7648-48c2-8783-b376701fad4a</unitid>
+              <unittitle>Beschikkingen betreffende overplaatsing, bevordering en ontslag van personeel van het Vrouwenkorps/KNIL, afschriften.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1946/1949">1946-1949</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

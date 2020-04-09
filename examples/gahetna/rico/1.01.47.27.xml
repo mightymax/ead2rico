@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/c112d299-b906-4d1c-90c0-cc595ba0fe87"
+  rdf:about="record/1.01.47.27">
+    <rico:identifier>1.01.47.27</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1924</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1103" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.01.47.27/i1" />
+      <rico:instantiates rdf:resource="record/1.01.47.27" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Admiraliteitscolleges:
+        Verzameling J. en P. van der Heim, 1492-1786</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/c112d299-b906-4d1c-90c0-cc595ba0fe87" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1103">
+    <rico:describedBy rdf:resource="record/1.01.47.27" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1103</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Admiraliteitscolleges XXXVII Van de Heim</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Admiraliteiten / Van der Heim</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1492</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1786</rico:endDate>
+    <rico:date>1492-1786</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Heim, J. van der (1727-1799)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De stukken zijn afkomstig van Mr. Jacob van der Heim, secretaris van de
+          Admiraliteit op de Maze (1746-1795), en diens zoon Mr. Paulus van der Heim,
+          toegevoegd aan zijn vader als tweede secretaris (1772-1795). Wegens hun
+          langdurig functioneren als secretaris van een der Admiraliteitscolleges, hebben
+          zij een rijke collectie stukken gevormd.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Heim, P. van der (1753-1823)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De stukken zijn afkomstig van Mr. Jacob van der Heim, secretaris van de
+          Admiraliteit op de Maze (1746-1795), en diens zoon Mr. Paulus van der Heim,
+          toegevoegd aan zijn vader als tweede secretaris (1772-1795). Wegens hun
+          langdurig functioneren als secretaris van een der Admiraliteitscolleges, hebben
+          zij een rijke collectie stukken gevormd.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat een rijke collectie stukken inzake de Admiraliteiten voor
+      de 17e-18e eeuw. In de eerste plaats plakkaten, resoluties, verbalen etc. over
+      allerlei onderwerpen: het zeewezen in het algemeen, bestuur, rechtspraak,
+      financiën, konvooien en licenten, officieren en matrozen, zeemacht, scheepsbouw,
+      uitrustingen ter zee, konvooiiering en kaapvaart. In de tweede plaats zijn er met
+      betrekking tot de Admiraliteit van de Maze reeksen van resoluties op deze terreinen
+      voor de tweede helft van de 18e eeuw, aangevuld met plakkaten, adviezen en brieven.
+      Voor elk van de bovenstaande onderwerpen zijn er weer een aantal losse stukken. Ook
+      van de overige admiraliteiten zijn er wat losse stukken. Tevens zijn er stukken
+      over de handel, scheepvaart, visserij en nijverheid van de Republiek in het
+      algemeen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>28.05 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>516 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

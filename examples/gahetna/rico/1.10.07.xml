@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/99f58e38-63c2-4097-a221-f1c1c3f693d9"
+  rdf:about="record/1.10.07">
+    <rico:identifier>1.10.07</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1906</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1129" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.07/i1" />
+      <rico:instantiates rdf:resource="record/1.10.07" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van W.O. Bloys van Treslong:
+        Kolonel, Kapitein-ter-zee en Provisioneel Gouverneur van Suriname,
+        1802-1804</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/99f58e38-63c2-4097-a221-f1c1c3f693d9" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven documenten, geen bijzondere handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1129">
+    <rico:describedBy rdf:resource="record/1.10.07" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1129</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Bloys van Treslong</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bloys van Treslong</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1802</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1804</rico:endDate>
+    <rico:date>1802-1804</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Waarnemend gouverneur van Suriname</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Willem Otto Bloys van Treslong, geboren te Steenbergen in 1765 en
+          overleden te Den Haag in 1837, was de zoon van Cornelis Johannes Bloys van
+          Treslong en diens tweede echtgenote Johanna Isabella Calkoen. Hij trouwde in
+          1806 met Petronella van der Meersch. Het huwelijk bleef kinderloos.</html:p>
+          <html:p>Nadat hij in 1780 als luitenant in dienst was getreden bij de
+          Admiraliteit op de Maas volgde een voorspoedige loopbaan. In 1793 werd hij
+          wegens de verovering van een schip op de Fransen bevorderd tot buitengewoon
+          kapitein- en het jaar daarop tot kapitein-ter-zee. In 1802 werd hij bevorderd
+          tot schout-bij-nacht en in 1802 tot vice-admiraal. Van 1802 tot 1804 was hij
+          waarnemend gouverneur van Suriname. Van laatstgenoemde functie zijn
+          archiefstukken bewaard gebleven. Zie ook Nieuw Nederlandsch Biografisch
+          Woordenboek, deel 8, kolom 131.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Willem Otto Bloys van Treslong , 1765-1837</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Willem Otto Bloys van Treslong, geboren te Steenbergen in 1765 en
+          overleden te Den Haag in 1837, was de zoon van Cornelis Johannes Bloys van
+          Treslong en diens tweede echtgenote Johanna Isabella Calkoen. Hij trouwde in
+          1806 met Petronella van der Meersch. Het huwelijk bleef kinderloos.</html:p>
+          <html:p>Nadat hij in 1780 als luitenant in dienst was getreden bij de
+          Admiraliteit op de Maas volgde een voorspoedige loopbaan. In 1793 werd hij
+          wegens de verovering van een schip op de Fransen bevorderd tot buitengewoon
+          kapitein- en het jaar daarop tot kapitein-ter-zee. In 1802 werd hij bevorderd
+          tot schout-bij-nacht en in 1802 tot vice-admiraal. Van 1802 tot 1804 was hij
+          waarnemend gouverneur van Suriname. Van laatstgenoemde functie zijn
+          archiefstukken bewaard gebleven. Zie ook Nieuw Nederlandsch Biografisch
+          Woordenboek, deel 8, kolom 131.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de collectie van Willem Otto Bloys van Treslong als
+      waarnemend gouverneur-generaal van Suriname van 1802-1804. Het omvat een journaal,
+      correspondentie en notulen van de waarnemend gouverneur en de twee oudste Raden van
+      Politie en Justitie. Tevens bevat het notulen van het Hof van Civiele Justitie.
+      Verder zijn er financiële gegevens over naar Suriname verzonden troepen tussen
+      1802-1807.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.09 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>49 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

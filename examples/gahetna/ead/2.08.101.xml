@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<!-- 20111209  --><ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" scriptencoding="iso15924" repositoryencoding="iso15511" findaidstatus="unverified-full-draft">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.08.101::Kadaster: registratie van beschikkingen van het Nederlandse Beheersinstituut)//NL" urn="2.08.101.ead.xml" url="http://proxy.handle.net/10648/aa8c4320-8aff-40c1-ac87-1e04e9e0f1ba">2.08.101</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van archiefbescheiden van het Kadaster: registratie van beschikkingen van het Nederlandse Beheersinstituut, (1921) 1940-1959 (1979)</titleproper>
+				<author>I. Heidebrink, M.-J. Vos</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date normal="2011" era="ce" calendar="gregorian">2011</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date normal="2011" era="ce" calendar="gregorian">2011</date>  vervaardigd door Henny van Schie op basis van de richtlijn <title>Het gebruik van Encoded Archival Description op het Nationaal Archief, versie 1.7.2</title>. Eindredactie: Henny van Schie, <date normal="20111209" era="ce" calendar="gregorian">9 december 2011</date>.
+			</creation>
+			<langusage>This finding aid is written in 
+				<language langcode="dut" scriptcode="Latn">Dutch</language>.
+			</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen:
+				<bibref>
+					<title>ISAD(G): Algemene Internationale Norm voor Archivistisch Beschrijven, vertaling van de tweede uitgave</title>, Antwerpen / Leuven / Amsterdam 2004</bibref>;
+ 	  			<bibref>
+					<title>Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003</bibref>.
+			</descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date era="ce" calendar="gregorian"/>
+				<item/>
+			</change>
+			<change>
+				<date era="ce" calendar="gregorian"/>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Kadaster: registratie van beschikkingen van het Nederlandse Beheersinstituut</unittitle>
+			<unittitle type="short">Kadaster / beschikkingen NBI</unittitle>
+			<unitdate label="Periode: " type="inclusive" normal="1921/1979" era="ce" calendar="gregorian">1921-1979</unitdate>
+			<unitdate type="bulk" normal="1940/1959" era="ce" calendar="gregorian">merendeel 1940-1959</unitdate>
+			<unitid label="Archiefbloknummer: " repositorycode="NL-HaNA" countrycode="NL">F38</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">1.50 meter; </extent>
+				
+			<extent unit="files">59 inventarisnummers.</extent></physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.
+			</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften. </materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>kantoor van de ontvanger der registratie en domeinen te Alkmaar</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Assen</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Breda</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te 's-Gravenhage</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Leiden</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Leeuwarden</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Roermond</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Rotterdam</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Sneek</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Utrecht</corpname>
+			</origination>
+			<origination>
+				<corpname>Kantoor van de hypotheken, het kadaster en de scheepsbewijzen te Winschoten</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat beschikkingen van het Nederlandse Beheersinstituut (NBI), die zijn toegestuurd aan de verschillende kantoren van de Bewaarders van Hypotheken, het Kadaster en Scheepsbewijzen om te worden ingeschreven in de betreffende registers. De beschikkingen met bijbehorende documenten hebben betrekking op onteigening en beheer van onroerende goederen in Nederland tijdens de Duitse bezetting en naoorlogs rechtsherstel.</abstract>
+		</did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist></descgrp>
+		<descgrp type="content_and_structure">
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				
+			<subject source="ABS_trefwoord"/></controlaccess>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Kadaster: registratie van beschikkingen van het Nederlandse Beheersinstituut, nummer toegang 2.08.101, inventarisnummer ...</p>
+				<p>VERKORT: <lb/>NL-HaNA, Kadaster / beschikkingen NBI, 2.08.101, inv.nr. ...</p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+			<relatedmaterial>
+				<head>Verwante archieven</head>
+				<p><list type="marked" mark="hyphen"><item>Toegang 2.09.16, Nederlandse Beheersinstituut , Beheersdossiers 1945-1967</item>
+<item>Toegang 2.09.49, Nederlandse Beheersinstituut, Hoofdkantoor 1945-1967</item>
+<item>Toegang 2.09.48.02, Raad voor het Rechtstherstel, Afdeling Rechtspraak 1945-1967</item></list>
+</p>
+			</relatedmaterial>
+			<bibliography>
+				<head>Publicaties</head>
+				<p><bibref>Aalders, Gerard H., <title>Berooid: de beroofde Joden en het Nederlandse restitutiebeleid sinds 1945</title> (Amsterdam, 2001)</bibref>
+	<bibref>Slot, Eric, "Crimineel vastgoed circuit verdiende grof geld aan Jodenvervolging”, in: <title>Historisch Nieuwsblad</title>, vol.17 (2008), afl. 9, p. 36-45</bibref>
+	<bibref>Veraart, Wouter en Laurens Winkel, <title>The post-war restitution of property rights in Europe: comparative perspectives</title>, (Amsterdam, 2011)</bibref></p>
+	<p>Zie ook: <extref linktype="simple" href="http://archievenwo2.nl" show="new" actuate="onrequest">Wegwijzer Archieven Tweede Wereldoorlog</extref></p>
+			</bibliography>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">1.</unitid>
+					<unittitle>Alkmaar</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804332" type="ABS">1</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6030bc0f-1bac-4081-965c-b14d24a43be6</unitid>
+						<unittitle>Register van ingekomen en uitgaande brieven van het kantoor Alkmaar van de Dienst der Belastingen, Administratie der Registratie en Domeinen met een index op zaken en persoonsnamen.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1942-01-01/1956-12-31">1942-1956</unitdate>
+						<physdesc>1 band</physdesc>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">2.</unitid>
+					<unittitle>Assen </unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>2-3</unitid>
+						<unittitle>Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse percelen.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1942-01-01/1942-12-31">1942</unitdate>
+						<physdesc>2 omslagen</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804333" type="ABS">2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bad80e2e-6fe6-4466-81a1-f25941950929</unitid>
+							<unittitle>Volgnummers 2-163</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804334" type="ABS">3</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba2df69e-7d2b-4c54-ba61-69f7501f0dfb</unitid>
+							<unittitle>Volgnummers 164-398</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>4-8</unitid>
+						<unittitle>Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse percelen, met enkele stukken over opheffing van beheren en verkoop door de NGV.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1943-01-01/1944-12-31">1943-1944</unitdate>
+						<physdesc>5 omslagen</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804335" type="ABS">4</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbe39bf4-f853-4a0c-b307-1a0284fc2bc9</unitid>
+							<unittitle>Volgnummers 117-296</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804336" type="ABS">5</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/150b5a6b-d72a-4c5d-89de-ae2f4e1ff8c8</unitid>
+							<unittitle>Volgnummers 298-412</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804337" type="ABS">6</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/51b32296-2c19-4a5e-8a9f-cc89dfc4c498</unitid>
+							<unittitle>Volgnummers 417-555</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804338" type="ABS">7</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0ea0623-b5ab-424e-b092-736c22580d4f</unitid>
+							<unittitle>Volgnummers 557-697</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804339" type="ABS">8</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/831c9f9c-da9c-49e2-a05d-09d0d4757b47</unitid>
+							<unittitle>Volgnummers 698-853 </unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">3.</unitid>
+					<unittitle>Breda</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804340" type="ABS">9</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/78e1803b-681a-4b41-a5ce-668a205526ab</unitid>
+						<unittitle>Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joods onroerend goed, met bijbehorende lijst.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1942-01-01/1944-12-31">1942-1944</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>De stukken zijn genummerd 872-1074</p>
+					</odd>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">4.</unitid>
+					<unittitle>'s-Gravenhage</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804341" type="ABS">10</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d893f2e-86db-4a0d-b545-e8fafe8f3b3a</unitid>
+						<unittitle>Correspondentie betreffende vordering van gronden en percelen door de staat op basis van het Algemeen Vorderingsbesluit 1940.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1942-01-01/1947-12-31">1942-1947, 1951</unitdate>
+						<physdesc>1 pak</physdesc>
+					</did>
+					<odd>
+						<p>De stukken zijn genummerd 3/138 t/m 3/4001 (met hiaten)</p>
+					</odd>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>11-16</unitid>
+						<unittitle> Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse percelen of verkoop daarvan aan niet-joden, met af en toe aantekening op de stukken van naoorlogs rechtsherstel.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1941-01-01/1943-12-31">1941-1943</unitdate>
+						<physdesc>6 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804342" type="ABS">11</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d712b18-8a0a-4912-91bc-a91d146e1022</unitid>
+							<unittitle>Volgnummers 1-211a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804343" type="ABS">12</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/82394b4a-078f-401f-9db4-b23b76ad7514</unitid>
+							<unittitle>Volgnummers 213-340</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804344" type="ABS">13</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bb5dadf-7340-42b9-b853-1131f28d8729</unitid>
+							<unittitle>Volgnummers 341-500</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804345" type="ABS">14</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4dde1b6-14cb-4c16-a1db-f1e8864485ac</unitid>
+							<unittitle>Volgnummers 501-709</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804346" type="ABS">15</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22b7ea85-8d15-4f76-9a15-f210a963c4af</unitid>
+							<unittitle>Volgnummers 710-845a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804347" type="ABS">16</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5844553-0cbd-439f-a782-169a7e206f57</unitid>
+							<unittitle>Volgnummers 846-<unitdate era="ce" calendar="gregorian" normal="1000-01-01/1000-12-31">1000</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>17-18</unitid>
+						<unittitle>Stukken betreffende bewindvoering over vijandelijk vermogen tijdens de oorlogsjaren en verzoeken van door de Duitse autoriteiten aangestelde beheerders om gegevens inzake het beheer vast te leggen in de registers van het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1941-01-01/1945-12-31">1941-1945</unitdate>
+						<physdesc>1 pak en 1 omslag</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804348" type="ABS">17</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92547c81-94de-485d-aea5-b0930d1ab2ee</unitid>
+							<unittitle>Volgnummers 1-96 met een namenlijst van 124 beheerders</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804349" type="ABS">18</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a3ea11a-aeae-4703-9529-9513d891957b</unitid>
+							<unittitle>Volgnummers 97-124</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>19-28</unitid>
+						<unittitle>Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse percelen, met enkele aantekeningen op de stukken van naoorlogs rechtsherstel.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1942-01-01/1944-12-31">1942-1944</unitdate>
+						<physdesc>10 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804350" type="ABS">19</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e6ceaa5-5667-4488-9aa0-3a61c70ca6cb</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1001-01-01/1135-12-31">1001-1135</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804351" type="ABS">20</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9ea6c28-c528-481f-9e24-f26d0a4c018b</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1136-01-01/1236-12-31">1136</unitdate>-1236a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804352" type="ABS">21</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/49c4e149-59b0-406b-becc-096e1d356146</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1237-01-01/1331-12-31">1237</unitdate>-1331a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804353" type="ABS">22</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/11bc6379-21a7-4717-8939-fcd0155bc08f</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1332-01-01/1500-12-31">1332-1500</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804354" type="ABS">23</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9af259ad-cc6a-4863-822f-e3b048f44b9a</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1501-01-01/1618-12-31">1501</unitdate>-1618a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804355" type="ABS">24</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c708ce29-9ca1-4450-aed6-c06753c54c6f</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1619-01-01/1763-12-31">1619-1763</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804356" type="ABS">25</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0a23dfa-9198-45f6-a83c-aec8e8559690</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="1764-01-01/2000-12-31">1764-2000</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804357" type="ABS">26</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/41da6e20-f003-4737-bc49-eb1870150760</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="2001-01-01/2246-12-31">2001</unitdate>-2246a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804358" type="ABS">27</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/37f79aa5-b97a-4e09-94d4-1868fcaa7db5</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="2247-01-01/2441-12-31">2247-2441</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804359" type="ABS">28</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/765d6311-1048-4c24-8656-dfe9950dec1a</unitid>
+							<unittitle>Volgnummers <unitdate era="ce" calendar="gregorian" normal="2442-01-01/2623-12-31">2442-2623</unitdate>
+							</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804360" type="ABS">29</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/12057ab8-3180-4f80-a194-282762865b06</unitid>
+						<unittitle>Stukken betreffende verzoeken van het Nederlandse Beheersinstituut om aantekeningen over beheer van percelen door Niederländische Grundstücksverwaltung (NGV) door te halen in de registers van het kadaster en aan te tekenen dat het beheer weer is overgedragen aan de oorspronkelijke rechthebbende(n).</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1952-12-31">1945-1952</unitdate>
+						<physdesc>1 pak</physdesc>
+					</did>
+					<odd>
+						<p>Genummerd 1-125, met een lijst van percelen waarover een beheerder is aangesteld.</p>
+					</odd>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>30-31</unitid>
+						<unittitle>Stukken betreffende de benoeming van beheerders van vijandelijk vermogen na de oorlog, opheffing van het beheer en registratie van het beheer in het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1951-12-31">1945-1951</unitdate>
+						<physdesc>2 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804361" type="ABS">30</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b67cb4f-ecc1-4c78-92e1-680dc50e7c8f</unitid>
+							<unittitle>Volgnummers 101-225a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804362" type="ABS">31</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e951ccb3-777d-46be-8dcf-7b4419449e3c</unitid>
+							<unittitle>Volgnummers 226-300</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804363" type="ABS">32</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aabec8e2-bb83-44b9-afe7-f1dbbf182ca3</unitid>
+						<unittitle>Correspondentie over rechtsherstelaanvragen, toezending formulieren voor rechtsherstel van onroerende goederen en kennisgeving van geschillen voor de Raad van het Rechtsherstel.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1946-01-01/1946-12-31">1946, 1957, 1959</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">5.</unitid>
+					<unittitle>Leiden</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>33-41</unitid>
+						<unittitle>Verzoeken van het Nederlandse Beheersinstituut om besluiten tot opheffing van het beheer van vijandelijk vermogen in te schrijven in de registers van het kadaster, met retroacta 1921-1945 en documenten betreffende nadere afhandeling.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1979-12-31">1945-1979</unitdate>
+						<physdesc>3 pakken en 6 omslagen </physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804364" type="ABS">33</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3486828-776c-4379-afd5-036a97773596</unitid>
+							<unittitle>Volgnummers 2-111</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804365" type="ABS">34</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/37c6962c-1d17-47fc-8f26-dadd52ad0550</unitid>
+							<unittitle>Volgnummers 112-179</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804366" type="ABS">35</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4ea3a17-485d-4a87-99d3-b0c9911ec375</unitid>
+							<unittitle>Volgnummers 180-300</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804367" type="ABS">36</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/859ea4ba-55bc-4d64-a17c-e56a861d119f</unitid>
+							<unittitle>Volgnummers 301-358</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804368" type="ABS">37</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7931008a-d99e-4b37-b371-869b1e5dbb32</unitid>
+							<unittitle>Volgnummers 359-385a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804369" type="ABS">38</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/543d38ad-62c3-4908-b56c-add583535266</unitid>
+							<unittitle>Volgnummers 386-413</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804370" type="ABS">39</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d34fc4f-ef50-4fe2-b896-34d29c4a6885</unitid>
+							<unittitle>Volgnummers 414-468a</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804371" type="ABS">40</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcd00e5d-cca2-4563-b6f2-496de02c4a97</unitid>
+							<unittitle>Volgnummers 469-517</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804372" type="ABS">41</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd8c7e9d-286a-4797-9b98-a8269178f567</unitid>
+							<unittitle>Volgnummers 518-550 </unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">6.</unitid>
+					<unittitle>Leeuwarden</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>42-43</unitid>
+						<unittitle>Stukken betreffende de benoeming van beheerders van vijandelijk vermogen na de oorlog, opheffing van het beheer en registratie daarvan in het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1949-12-31">1945-1949</unitdate>
+						<physdesc>2 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804373" type="ABS">42</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9add29eb-d288-4b00-8cc0-26f50691996a</unitid>
+							<unittitle>Volgnummers 1-162</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804374" type="ABS">43</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6017f9dd-a41a-4555-ae25-aae01130f583</unitid>
+							<unittitle>Volgnummers 163-301</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804375" type="ABS">44</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d13b8994-9453-4d14-823b-16fec29f7a36</unitid>
+						<unittitle>“Kanteekeningen ingevolge het Besluit Vijandelijk Vermogen (Staatsblad nr. E 133)”, drie schriftjes met aantekeningen over gevoerde beheren.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-06-19/1947-08-06">1945 juni 19 - 1947 augustus 6</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804376" type="ABS">45</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a1a4b6b2-18aa-473d-97b1-2ebfc5d6adb9</unitid>
+						<unittitle>Formulieren met aangifte bij de Raad voor het Rechtsherstel van eigendomsovergangen en hypotheken tijdens de oorlogsjaren.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1946-01-01/1946-12-31">1946</unitdate>
+						<physdesc>1 pak</physdesc>
+					</did>
+					<odd>
+						<p>De aangifteformulieren, genummerd (met hiaten) 1701-16826 en deels ongenummerd, zijn kopieën van de stukken in de geschillendossiers van de Raad voor het Rechtsherstel, afdeling Onroerende Goederen.</p>
+					</odd>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">7.</unitid>
+					<unittitle>Roermond</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804377" type="ABS">46</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/175aa8e8-6635-4ade-a4d5-98192b187cab</unitid>
+						<unittitle>Correspondentie over het ten gunste van het Duitse Rijk in beheer nemen van roerende en onroerende goederen van kloosters en verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse bedrijven en percelen.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1941-01-01/1944-12-31">1941-1944</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>De stukken zijn genummerd 1102-1247</p>
+					</odd>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">8.</unitid>
+					<unittitle>Rotterdam</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>47-49</unitid>
+						<unittitle>Stukken betreffende de benoeming van beheerders van vijandelijk vermogen, opheffing van het beheer en registratie daarvan in het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1972-12-31">1945-1972</unitdate>
+						<physdesc>3 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804378" type="ABS">47</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b359544-601a-4d53-94fa-4dcc1d58804b</unitid>
+							<unittitle>Volgnummers 1-515</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804379" type="ABS">48</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/07e15f25-7256-414f-978f-8eb00c56117c</unitid>
+							<unittitle>Volgnummers 516-765</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804380" type="ABS">49</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ef2c19f3-bb3c-4572-8a7c-dd1c264e4099</unitid>
+							<unittitle>Volgnummers 766-993</unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">9.</unitid>
+					<unittitle>Sneek</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804381" type="ABS">50</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bdbfb84-4182-428a-a7ce-9857d7f28b64</unitid>
+						<unittitle>Stukken betreffende de benoeming van beheerders van vijandelijk vermogen, opheffing van het beheer en registratie daarvan in het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1958-12-31">1945-1958</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>Volgnummers 1-64</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804382" type="ABS">51</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8ba487b-d1f5-4127-9932-12091cd97480</unitid>
+						<unittitle>Ingekomen beschikkingen op verzoeken om gedeeltes van de landgoederen Harich (gemeente Gaasterland) en Huis ter Heide (gemeente Langweer) aan te merken als een landgoed als bedoeld in artikel 1 van de Natuurschoonwet 1928.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1949-01-01/1958-12-31">1949-1958</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">10.</unitid>
+					<unittitle>Utrecht</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>52-53</unitid>
+						<unittitle>Stukken betreffende de benoeming van beheerders van vijandelijk vermogen, opheffing van het beheer en registratie daarvan in het kadaster.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1947-12-31">1945-1947</unitdate>
+						<physdesc>2 pakken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804383" type="ABS">52</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e442258-2668-48af-a4ae-b17ab620a5f9</unitid>
+							<unittitle>Volgnummers 1-184</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804384" type="ABS">53</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/152d8258-3627-4787-b681-22c1eb979459</unitid>
+							<unittitle>Volgnummers 185-400</unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">11.</unitid>
+					<unittitle>Winschoten </unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>54-58</unitid>
+						<unittitle>Verzoeken van de Niederländische Grundstücksverwaltung (NGV) om inschrijving in de registers van het kadaster van onder beheer gestelde joodse percelen of verkoop daarvan aan niet-joden, met enkele stukken over liquidatie van joodse bedrijven, onteigening van niet-joods onroerend goed en aanstelling van beheerders van vijandelijk vermogen na de oorlogsjaren.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1941-01-01/1946-12-31">1941-1946</unitdate>
+						<physdesc>5 omslagen</physdesc>
+					</did>
+					<odd>
+						<p>Volgnummers staan aan de achterzijde van de stukken</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804385" type="ABS">54</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f4d48a1-ad7d-4ca9-96cc-d0a9d1c0188d</unitid>
+							<unittitle>Volgnummers 226-350</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804386" type="ABS">55</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec2b110c-32ea-4bd9-a259-0ea265a79d59</unitid>
+							<unittitle>Volgnummers 352-462</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804387" type="ABS">56</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/80363b45-2460-4868-978d-fdf440a7dcba</unitid>
+							<unittitle>Volgnummers 463-661</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804388" type="ABS">57</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/afe24405-2e59-4bb5-8eca-2aa128352f1c</unitid>
+							<unittitle>Volgnummers 662-755</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="3804389" type="ABS">58</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d455e8d6-f718-4285-8bed-4a893e2f7cc7</unitid>
+							<unittitle>Volgnummers 756-838</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3804390" type="ABS">59</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5ef91a4-eece-4e5b-83d4-f8e773db8e38</unitid>
+						<unittitle>Formulieren met aangifte bij de Raad voor het Rechtsherstel van eigendomsovergangen en hypotheken tijdens de oorlogsjaren, met correspondentie over het beheer van vijandelijk vermogen na de oorlog.</unittitle>
+						<unitdate era="ce" calendar="gregorian" normal="1945-01-01/1952-12-31">1945-1952</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>De aangifteformulieren zijn kopieën van de stukken in de geschillendossiers van de Raad voor het Rechtsherstel, afdeling Onroerende Goederen.</p>
+					</odd>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

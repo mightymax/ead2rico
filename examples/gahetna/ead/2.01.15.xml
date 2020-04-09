@@ -1,0 +1,3512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<!-- 20-06-2017 18:00:01 -->
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.01.15::Oorlog voor 1813, Stamboeken)//NL" url="http://proxy.handle.net/10648/250c43db-b939-4215-ae6d-31d2a81cf281" urn="2.01.15.ead.xml">2.01.15</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van de stamboeken, naamlijsten, conduite- en pensioenstaten van officieren, onderofficieren en minderen der Landmacht, ca. 1795-1813</titleproper>
+				<author>W.H. Avelingh</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1959">1959</date>
+				<p id="copyright">
+					<extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref>
+				</p>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Gijsbert Kruithof, <date calendar="gregorian" era="ce" normal="20070312">12 maart 2007</date>
+			</creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: <bibref linktype="simple">S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920</bibref>.</descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20111123">23 november 2011</date>
+				<item>
+					<num>3</num> Link naar digitale index toegevoegd door <name>Pauline van den Heuvel</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20110830">30 augustus 2011</date>
+				<item>Link naar digitale index toegevoegd door <name>Pauline van den Heuvel</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20071011">11 oktober 2007 </date>
+				<item>Beschrijvingen uit toegang 2.01.34 (inv.nrs. 187-331) toegevoegd. Tevens extra nummer 332 opgenomen. Spelling hier en daar gemoderniseerd, door Diederick Kortlang </item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce"/>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Oorlog voor 1813, Stamboeken</unittitle>
+			<unittitle type="short">Oorlog / Stamboeken voor 1813</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1795/1813" type="inclusive">1795-1813</unitdate>
+			<unitdate type="bulk" era="ce" calendar="gregorian"/>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">D23320</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">12.00 meter; </extent>
+				<extent unit="files">331 inventarisnummers.</extent>
+			</physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>. Enkele stukken zijn in het <language langcode="fre" scriptcode="Latn">Frans</language> gesteld.</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven en gedrukte documenten. Geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">&#160;</origination>
+			<origination>
+				<corpname>Ministerie van Oorlog</corpname>
+			</origination>
+			<origination>
+				<corpname>Agentschap van Oorlog</corpname>
+			</origination>
+			<origination>
+				<corpname>Comité tot de Algemene Zaken van het Bondgenootschap te Lande</corpname>
+			</origination>
+			<origination>
+				<corpname>Departement van Oorlog</corpname>
+			</origination>
+			<origination>
+				<corpname>Raad van Oorlog</corpname>
+			</origination>
+			<origination>
+				<corpname>Secretaris van Staat voor de Zaken van Oorlog</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Het archief is onderverdeeld in twee hoofdrubrieken te weten Militaire Stamboeken etc. vóór 1813 en Militaire pensioenen vóór 1813. Een militair stamboek vermeldt van elke militair het nummer en de staat van dienst. De eerste hoofdrubriek bevat als subrubriek de stamboeken van de infanterie, artillerie en cavalerie met hun onderdelen uit de jaren 1795-1810. Het betreft zowel officieren, als onderofficieren en minderen.Een tweede subrubriek vormen de stam- en naamlijsten, <lb/>- en mutatiestaten, onder meer van officieren infanterie, artillerie, genie en cavalerie in dienst van de Bataafse republiek. Met staten van dienst sinds 1786 en een alfabetische klapper.<lb/>Daarnaast zijn er naamlijsten van garnizoensofficieren bewaard gebleven, die gelegerd waren in onder meer  Suriname, Curaçao en  aan de Kaap de Goede Hoop,  evenals naam - en stamlijsten van officieren in Franse dienst. Uit 1797 dateert een naamlijst van leerlingen en kinderen van militairen.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<p>De in deze inventaris opgenomen stamboeken, naamlijsten, conduite- en pensioenstaten van officieren, onderofficieren en minderen der landmacht zijn voornamelijk afkomstig uit de archieven van de Raad van State en van het Ministerie van Oorlog. </p>
+				<acqinfo altrender="ABS">
+					<head>De verwerving van het archief</head>
+					<p>Het archief is bij Koninklijk Besluit of ministeriële beschikking overgebracht.</p>
+				</acqinfo>
+			</custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">2.01</subject>
+			</controlaccess>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>Daar de eigenlijke serie stamboeken betrekkelijk onvolledig is, werd getracht door het opnemen van andere bescheiden- zoals stamlijsten, conduite - en pensioenstaten- aan dit euvel zoveel mogelijk tegemoet te komen. </p>
+				<p>Toevoeging beschrijvingen uit 2.01.34 (oktober 2007)</p>
+				<p>Om de zeer incomplete serie stamboeken uit de periode 1795-1813 aan te vullen zijn uit het archief van het Departement van Oorlog over de jaren 1795-1810 (1813) de uittreksels uit de stamboeken en andere registers verwijderd. Deze stam- en naamlijsten en conduite- en pensioenstaten werden door de commandanten van de verschillende landmachtonderdelen min of meer regelmatig naar het departement gestuurd</p>
+				<p>Deze lijsten en staten zijn in de verzameling Stamboeken van officieren, onderofficieren en minderen van de Landmacht, 1795-1813, ondergebracht en in aansluiting daarop doorgenummerd (de nrs. 187-322). Hierbij is - voor zover mogelijk- de indeling van de oorspronkelijke verzameling gevolgd. Deze aldus verkregen verzameling werd met particuliere schenkingen aangevuld. Deze stukken zijn eveneens in de inventaris opgenomen, maar veelal niet uitgesplitst. Zij werden achterin de inventaris beschreven (inv.nrs. 323-331)</p>
+				<p> De door C.J. de Groot in 1977 begonnen inventarisatiewerkzaamheden  werden in 1981 voortgezet en in 1982 voltooid door R.L. Eggermont, medewerker van de Tweede Afdeling van het Algemeen Rijksarchief.</p>
+			</processinfo>
+			<arrangement>
+				<head>Ordening van het archief</head>
+				<p>Alle in deze stukken vermelde militairen, zowel officieren, onderoficieren als minderen, zijn opgenomen in de klappers op de militaire stamboeken en pensioenen van vóór 1813 en in de afzonderlijke klapper op de overlijdensakten van Nederlandse soldaten in Franse krijgsdienst.</p>
+				<p>De uit het departementsarchief verwijderde stukken (de uittreksels) zijn voorzien van het exhibitumnummer zodat eventuele voorstukken in het archief van het Departement van Oorlog kunnen worden opgespoord. Gezien het groot aantal namen dat op de lijsten voorkomt is elk blad van de lijsten voorzien van een nummer, dat in de bijbehorende klapper achter het inventarisnummer staat</p>
+			</arrangement>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head>
+			<accessrestrict id="accessrestrict">
+				<head>Openbaarheidsbeperkingen</head>
+				<legalstatus type="ABS">Volledig openbaar.</legalstatus>
+			</accessrestrict>
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<phystech>
+				<p>Een klein aantal stukken van dit archief is in slechte materiële staat, wat tot gevolg heeft dat het niet aangevraagd kan worden. een opgave van de desbetreffende inventarisnummers op deze plaats is nagelaten, aangezien de materiële staat en de bijbehorende raadpleegmogelijkheden niet een permanente sitautue vormen (restauratie, verfilming, etc.) Bij het aanvragen met de terminal krijgt u een mededeling ter zake.</p>
+			</phystech>
+			<otherfindaid>
+				<head>Andere toegang</head>
+				<p>Op de stamboeken Officieren, Onderofficieren en Manschappen is een  <extref linktype="simple" href="http://proxy.handle.net/10648/4e05af20-dd55-102c-b2c7-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nrs. 2.01.16 t/m 2.01.18).</p>
+				<p>Op de stamboeken Officieren, Onderofficieren en Manschappen Supplement is een  <extref linktype="simple" href="http://proxy.handle.net/10648/02b985a2-cd6d-102c-9f8b-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nrs. 2.01.34 t/m 2.01.38).</p>
+				<p>Op de overlijdensaktes Nederlandse militairen in Franse hospitalen (inventarisnummers 147-154) is een  <extref linktype="simple" href="http://proxy.handle.net/10648/4e05b8ee-dd55-102c-b2c7-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nr. 2.01.19).</p>
+				<p>Op de pensioenstaten (inventarisnummers 156-186) is een  <extref linktype="simple" href="http://proxy.handle.net/10648/02b9663a-cd6d-102c-9f8b-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nr. 2.01.20).</p>
+			</otherfindaid>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: 
+<list numeration="arabic" type="ordered">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;
+</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;
+</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;
+</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;
+</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.
+</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG:  <lb/>Nationaal Archief, Den Haag, Oorlog voor 1813, Stamboeken, nummer toegang 2.01.15, inventarisnummer ... </p>
+				<p>VERKORT:  <lb/>NL-HaNA, Oorlog / Stamboeken voor 1813, 2.01.15, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">I</unitid>
+					<unittitle>MILITAIRE STAMBOEKEN, NAAMLIJSTEN, PENSIOENSTATEN ETC. VOOR 1813</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">A</unitid>
+						<unittitle>STAMBOEKEN EN  UITTREKSELS UIT DE STAMBOEKEN EN PENSIOENREGISTERS</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.1</unitid>
+							<unittitle>INFANTERIE</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93538" type="ABS">187</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e1e9609-c188-4749-bf6c-7ed08a971071</unitid>
+								<unittitle>1e Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1803">1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93352" type="ABS">1</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2cb02c05-c15f-4023-997a-78f28b29c686</unitid>
+								<unittitle>2de Halve Brigade, 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93539" type="ABS">188</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6074f5f8-2019-4ab1-9ee1-633b676f3459</unitid>
+								<unittitle>2de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1803">1796, 1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93540" type="ABS">189</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/850100dc-6959-4502-81ef-a5ad21ff8107</unitid>
+								<unittitle>3de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1803">1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93353" type="ABS">2</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/06ac961d-3aab-43f0-baca-3158baa23c86</unitid>
+								<unittitle>4de Halve Brigade, 2de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93541" type="ABS">190</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7c8064c-75ee-4cdb-afde-ee0052acdd3f</unitid>
+								<unittitle>4de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1803">1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93354" type="ABS">3</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25cf897f-e56e-46c5-ad08-69647b8ea562</unitid>
+								<unittitle>5de Halve Brigade, 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93355" type="ABS">4</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ebaf02b-bc27-479e-8526-45e7773d1b34</unitid>
+								<unittitle>5de Halve Brigade, 2de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93356" type="ABS">5</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4536ff9-7b76-4387-b577-76f474a6af74</unitid>
+								<unittitle>5de Halve Brigade, 3e Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93542" type="ABS">191</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c17e356-5cfb-4223-b97f-fff215b7f3f2</unitid>
+								<unittitle>5de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1803">1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93357" type="ABS">6</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc54d7af-c194-44d1-8bdc-9517d32b7672</unitid>
+								<unittitle>6de Halve Brigade, 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93543" type="ABS">192</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea77cfc5-45e5-41aa-85cf-987d56b7075c</unitid>
+								<unittitle>6de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1803">1795, 1796, 1800 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93358" type="ABS">7</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/74180573-be1a-433e-9212-ac817f767487</unitid>
+								<unittitle>7de Halve Brigade, 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93544" type="ABS">193</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/334b4eda-bc86-4528-b6d5-cd5740f2fec8</unitid>
+								<unittitle>7de Halve Brigade, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795, 1796, 1799 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93545" type="ABS">194</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ed19649-1ff2-4151-be3b-d028239ea433</unitid>
+								<unittitle>1ste Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93546" type="ABS">195</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/65e79dad-ef43-4d7a-bac2-2d1e621119ca</unitid>
+								<unittitle>2de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1806">1804 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93359" type="ABS">8</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e17e7572-26f2-4c95-9284-81ed85d62525</unitid>
+								<unittitle>3de Bataljon, Algemeen stamboek</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1805">1803 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93547" type="ABS">196</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/73335eb4-4bbb-470e-8f35-f40efe150d6c</unitid>
+								<unittitle>3de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1806">1804 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93548" type="ABS">197</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2f2ddb4-3899-4d6c-82dd-2c65cc333b1f</unitid>
+								<unittitle>4de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1807">1804 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93549" type="ABS">198</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffe22148-7b7f-4e99-9478-4abdb07fb578</unitid>
+								<unittitle>5de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93550" type="ABS">199</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6124c171-6c03-4f83-ad6c-3a55b535493d</unitid>
+								<unittitle>6de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93551" type="ABS">200</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5a20342-81bf-4770-a141-de8eee0743d5</unitid>
+								<unittitle>7de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93552" type="ABS">201</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3079ee1-fbe6-408b-91f1-5157102fd08f</unitid>
+								<unittitle>8ste Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1806">1804, 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93553" type="ABS">202</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffe82b24-b6f0-4730-9e5f-8a659a07bce0</unitid>
+								<unittitle>9de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93360" type="ABS">9</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2350c507-5eca-4fae-bf99-729e3503991e</unitid>
+								<unittitle>10de Bataljon, Algemeen stamboek</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1805">1803 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93554" type="ABS">203</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/21081ac3-7d6c-43c7-8f13-54bb4a4b8904</unitid>
+								<unittitle>10de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1806">1804 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93555" type="ABS">204</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/84c97a63-3a44-43cb-9ee2-e686e449c9a3</unitid>
+								<unittitle>11de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93556" type="ABS">205</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5e38db26-719b-45c9-b921-5de884a85837</unitid>
+								<unittitle>12de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93557" type="ABS">206</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9eb7000d-206d-4c97-9a81-97a59eb8b3ea</unitid>
+								<unittitle>13de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93558" type="ABS">207</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d1431ce-7722-443d-8170-52d5ce0d4bf4</unitid>
+								<unittitle>14de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93559" type="ABS">208</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/988765fe-55b0-4024-aa17-5b928e37d23c</unitid>
+								<unittitle>15de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93560" type="ABS">209</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df9abb60-7d34-45d5-89f7-aa296b14b135</unitid>
+								<unittitle>16de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93361" type="ABS">10</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cac25a8-1d30-4deb-ab36-2ce9d09d4d88</unitid>
+								<unittitle>17de Bataljon, Algemeen stamboek; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1805">1803 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93561" type="ABS">210</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/87b4fda7-1ee1-4b8a-bc12-7683aed1fc62</unitid>
+								<unittitle>17de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93562" type="ABS">211</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f3447c2-b132-4011-a90a-2dd5540dcf9d</unitid>
+								<unittitle>18de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805">1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93362" type="ABS">11</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c510b7d3-4070-4562-8c6e-feb5d6db296f</unitid>
+								<unittitle>19de Bataljon, Algemeen stamboek</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1805">1803 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93563" type="ABS">212</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b3ba714-f214-46c0-b196-ae69c2e5ddca</unitid>
+								<unittitle>19de Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93564" type="ABS">213</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba4a354b-8f24-43ea-98a3-aa1b4e8e7f4e</unitid>
+								<unittitle>20ste Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93565" type="ABS">214</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/523bc007-d33b-4246-9d50-901f3f84675e</unitid>
+								<unittitle>21ste Bataljon Bataafse infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid type="blank">---</unitid>
+								<unitid audience="internal" type="handle">41ae01ba-bece-3e21-e053-c900a8c079af</unitid>
+								<unittitle>22ste en 23ste Bataljon Bataafse infanterie</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1806">1802 - 1806</unitdate>
+							</did>
+							<odd>
+								<p>Behoren tot de Koloniale Troepen, zie inv.nrs. 281-281</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93566" type="ABS">215</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08869978-edea-46b2-835b-21c48c5b9378</unitid>
+								<unittitle>1de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93567" type="ABS">216</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/58420562-7213-473a-be14-9c12af9adfd5</unitid>
+								<unittitle>2de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93364" type="ABS">13</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5ffc5ea-378e-40f0-8b39-a32f814a980b</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, Grenadiers compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93365" type="ABS">14</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b0b0123-07d0-4480-a81f-cc1583c6a7bd</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, Voltigeurs compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1809">1805 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93366" type="ABS">15</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d419d88-95d3-4462-87d5-de14a274e6a4</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, 2de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1809">1805 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93367" type="ABS">16</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/38919a07-c1fa-48a5-9f22-47f0a6f945c3</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, 3de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93368" type="ABS">17</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f886a288-2cf9-44ac-bfad-434e1808eaba</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, 4de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93369" type="ABS">18</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/500b4630-cca7-466e-8f51-e7bfcd26bb88</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, 5de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1809">1805 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93370" type="ABS">19</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a170ea48-d1a5-4a14-9ebf-dd4eaff17745</unitid>
+								<unittitle>2de Regiment Infanterie van Linie 2de Bataljon, 6de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93568" type="ABS">217</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2889b269-81cf-4a0c-8bc7-e93ad1a609dc</unitid>
+								<unittitle>3de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93569" type="ABS">218</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/be09241a-5a50-4178-9c6d-0242fb7902c8</unitid>
+								<unittitle>4de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93371" type="ABS">20</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c0fcd27-7d3e-4c6c-833c-d5ba22ae0c8b</unitid>
+								<unittitle>4de Regiment Infanterie van Linie 2de Bataljon, 7de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93372" type="ABS">21</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03225c2d-f862-43c7-a205-0825bfdc296c</unitid>
+								<unittitle>4de Regiment Infanterie van Linie 1ste Bataljon officieren; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93373" type="ABS">22</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dfcfaf41-e2f2-409e-8f98-da427e88ab3f</unitid>
+								<unittitle>4de Regiment Infanterie van Linie 1ste en 2de Bataljon ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809/1810">1809 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93570" type="ABS">219</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8304d0c-c5bf-4731-ab76-b60f5fa2786a</unitid>
+								<unittitle>5de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93374" type="ABS">23</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4119b7b0-291d-4e9e-b2c9-f6113c0f45fb</unitid>
+								<unittitle>5de Regiment Infanterie van Linie 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93375" type="ABS">24</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1bb5dcdf-271d-4f78-bcc2-15b2af879ca5</unitid>
+								<unittitle>5de Regiment Infanterie van Linie 2de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93376" type="ABS">25</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba3262ac-6f13-4e22-acde-42703348209c</unitid>
+								<unittitle>5de Regiment Infanterie van Linie 3de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93571" type="ABS">220</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22acbc2e-2a79-4042-b42a-d408dc4a1881</unitid>
+								<unittitle>6de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1810">1805 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93377" type="ABS">26</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/33c42ee5-b86e-4fb6-8984-663c2f2e1c4c</unitid>
+								<unittitle>6de Regiment Infanterie van Linie 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93378" type="ABS">27</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/69685950-edb5-477f-92db-3154d9bf6b94</unitid>
+								<unittitle>6de Regiment Infanterie van Linie 2de Bataljon ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93379" type="ABS">28</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/51fda567-ffb6-4e7a-ae7a-14ccec16a8c8</unitid>
+								<unittitle>6de Regiment Infanterie van Linie 3de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93380" type="ABS">29</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3380bd82-649a-4090-8b47-ea0378670108</unitid>
+								<unittitle>6de Regiment Infanterie van Linie Algemeen Stamboek ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93381" type="ABS">30</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/34567e0c-8a7c-4c9d-a203-038507413e54</unitid>
+								<unittitle>6de Regiment Infanterie van Linie Algemeen Stamboek ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93572" type="ABS">221</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7dc2511-fc47-433a-be87-e97d528ca78b</unitid>
+								<unittitle>7de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93382" type="ABS">31</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7237efaf-cc0e-442c-a24c-15387b9f1411</unitid>
+								<unittitle>7de Regiment Infanterie van Linie 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93383" type="ABS">32</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d36906d5-c886-4ab7-822c-a6b08a6371c3</unitid>
+								<unittitle>7de Regiment Infanterie van Linie 2de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93573" type="ABS">222</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c177cd17-d358-421f-8608-4dd9b67c9bcb</unitid>
+								<unittitle>8ste Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93384" type="ABS">33</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2118566a-a93c-457a-b106-dfbccb37078b</unitid>
+								<unittitle>8ste Regiment Infanterie van Linie 1ste Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93385" type="ABS">34</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddd3e76c-bf17-4f8a-8941-faa6b09d76e3</unitid>
+								<unittitle>8ste Regiment Infanterie van Linie 3de Bataljon</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93574" type="ABS">223</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c293d1a-357d-4cbe-8828-3a0c8f467ed0</unitid>
+								<unittitle>9de Regiment Infanterie van Linie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93386" type="ABS">35</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d48bd61-18f6-409b-907e-61b391b67cf0</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 1ste Bataljon, Grenadiers compagnie 1ste en 2e compagnie; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93387" type="ABS">36</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7cda5d9-2459-4afc-9877-692fdd9d77e4</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 1ste Bataljon, 3de - 5de compagnie; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93388" type="ABS">37</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a743bb4c-738c-4cea-b479-e01fd12b714b</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 1ste Bataljon 6de - 8ste compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93389" type="ABS">38</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d902e5e-7805-4fa2-a1b2-c880c8bfa09f</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 1ste en 2de Bataljon ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1807">1806 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93390" type="ABS">39</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2c77afc-f410-4e82-bfad-0815ede1e306</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 1ste en 2de Bataljon ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93391" type="ABS">40</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9be58b8e-608f-4138-8373-28c709299a5a</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 2de Bataljon Grenadiers compagnie 1e &amp; 2e compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93392" type="ABS">41</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/215e85f1-70e1-43d0-99c8-12bc57073148</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 2de Bataljon, 3de - 5de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1808">1803 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93393" type="ABS">42</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b34e08f-e3b0-43f8-8bce-af4a4c2caf94</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 2de Bataljon, 6de - 8e compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93394" type="ABS">43</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/db22e637-efa1-414d-83f8-0737c4241075</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 3de Bataljon, Grenadiers compagnie, 1ste &amp; 2de compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93395" type="ABS">44</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/78acd99b-d1f4-42b9-b2da-d8eb37a51607</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 3de Bataljon, 3de - 5de compagnie; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93396" type="ABS">45</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92ab9038-14a9-4050-8eaa-3a234f78920c</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 3de Bataljon, 6de - 8e compagnie ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93397" type="ABS">46</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc39f952-6d7e-413c-944c-b6df08a6ee64</unitid>
+								<unittitle>9de Regiment Infanterie van Linie 3de Bataljon ; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1808">1805 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93575" type="ABS">224</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a5d33e67-b1b9-4363-b8d9-6ea2ca6b80f5</unitid>
+								<unittitle>1ste Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795, 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93576" type="ABS">225</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/16dde3d8-ee10-4fc7-9fce-d0a1fbee7ea8</unitid>
+								<unittitle>2de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795, 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93577" type="ABS">226</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b499803-32fa-42e7-b03e-6675363e12f5</unitid>
+								<unittitle>3de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795, 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93578" type="ABS">227</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b66520ab-5a61-4673-bb41-ed9bacda7303</unitid>
+								<unittitle>4de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795, 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid type="blank">---</unitid>
+								<unitid audience="internal" type="handle">41ae01ba-befe-3e21-e053-c900a8c079af</unitid>
+								<unittitle>5de, 6de, 7de, 8ste en 9de Bataljon Jagers, Uittreksels</unittitle>
+							</did>
+							<odd>
+								<p>Behoren tot de Koloniale Troepen, zie inv.nrs. 287-291.</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93581" type="ABS">230</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6177ad65-cb06-4c43-9850-ed1baede21d8</unitid>
+								<unittitle>1ste Regiment Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93582" type="ABS">231</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/832c39e1-e47c-44ce-9312-1d7400d73bea</unitid>
+								<unittitle>2de Regiment Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1807">1806 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93583" type="ABS">232</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec717a6f-616b-4baa-9cce-b94a74cfbb81</unitid>
+								<unittitle>3de Regiment Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93579" type="ABS">228</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/87c707f6-d1b0-4035-9dd1-e31a7f052b71</unitid>
+								<unittitle>1ste Regiment Lichte Infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1807">1806 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93580" type="ABS">229</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/70cfebe0-24a4-4b4c-baf4-b44e49fec38f</unitid>
+								<unittitle>2de Regiment Lichte Infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1807">1806 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93584" type="ABS">233</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/66f84248-c012-42d9-9666-97ee7bd1192e</unitid>
+								<unittitle>Regiment van Saxen-Gotha, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1806">1800 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93585" type="ABS">234</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22626d28-c17d-460a-8604-6270580dd0d9</unitid>
+								<unittitle>1ste Regiment van Waldeck, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1806">1800 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93586" type="ABS">235</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/64397949-1696-4f4f-913f-e658e0db9478</unitid>
+								<unittitle>2de Regiment van Waldeck, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1806">1800 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93398" type="ABS">47</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/52c4220e-13d2-461b-a885-1e07b9ab2d82</unitid>
+								<unittitle>2de Regiment Van Waldeck 1ste Bataljon officieren; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1783/1806">1783 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93399" type="ABS">48</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25c2371e-4a3c-4177-9f66-49e053122eb1</unitid>
+								<unittitle>2de Regiment Van Waldeck 2de Bataljon officieren; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1783/1806">1783 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93587" type="ABS">236</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/51ba0c46-f23a-40ed-8866-eb8b4c59574a</unitid>
+								<unittitle>5e Bataljon van Waldeck, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1806">1800 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93400" type="ABS">49</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/13ccbbb7-2eed-4ebf-af4b-65ac4ebee57a</unitid>
+								<unittitle>5de Bataljon, Van Waldeck Kaap de Goede Hoop, officieren</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1805">1802 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93401" type="ABS">50</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/37aa4e53-09c0-4000-b620-d949c242e2ae</unitid>
+								<unittitle>5de Bataljon, Van Waldeck Kaap de Goede Hoop; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1805">1802 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93588" type="ABS">237</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e87aeaea-aa9c-4b7a-87bd-627392b9c1a0</unitid>
+								<unittitle>Korps Israëlieten, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93589" type="ABS">238</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/81d4c64a-ac85-44ce-9616-539c95fde8ba</unitid>
+								<unittitle>Bataljon Vrijwilligers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93590" type="ABS">239</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d692cd5-49c9-474c-b729-f38b7822152f</unitid>
+								<unittitle>Legioen Vélites [Lichte Jagers], Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.2</unitid>
+							<unittitle>ARTILLERIE</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93591" type="ABS">240</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6393c77c-367c-4230-a370-e079906480b3</unitid>
+								<unittitle>Artillerie [niet onderverdeeld], Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1807">1795 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93402" type="ABS">51</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e94ef5c-6f06-4546-9f6a-57079b3a58f8</unitid>
+								<unittitle>Brigade Rijdende Artillerie Kleine Staf, 1ste en 2de compagnie</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93596" type="ABS">245</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c99c08c0-656f-4fbf-9fc8-3ff6dcc9e612</unitid>
+								<unittitle>Brigade Rijdende Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1810">1801 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93403" type="ABS">52</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8aa56ea-d397-443f-b75c-7df601d34267</unitid>
+								<unittitle>Brigade Rijdende Artillerie Staf, Kleine Staf, 1ste en 2de compagnie</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1807">1804 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93404" type="ABS">53</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0513c44-ba09-41a4-9ada-78c587926137</unitid>
+								<unittitle>Brigade Rijdende Artillerie Algemeen Stamboek; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93405" type="ABS">54</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a88b9ba7-a129-412a-a028-787a5a5723cf</unitid>
+								<unittitle>Brigade Rijdende Artillerie Algemeen Stamboek; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93406" type="ABS">55</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/423b9a37-5e8f-423c-81f9-26ab6c7bede1</unitid>
+								<unittitle>Regiment Artillerie te Voet; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93592" type="ABS">241</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/79bfec43-1db9-45ab-ae3a-f35c11e49fec</unitid>
+								<unittitle>Regiment Artillerie 1ste Bataljon, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1809">1796 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93593" type="ABS">242</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ebeef7f-7295-47b4-a795-df67d5801b3d</unitid>
+								<unittitle>Regiment Artillerie 2de Bataljon, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1809">1795 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93594" type="ABS">243</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c990aa2f-36ed-407e-bcc7-714b6f3020af</unitid>
+								<unittitle>Regiment Artillerie 3de Bataljon, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1809">1795 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93595" type="ABS">244</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcf4d637-ca32-453a-b811-6900ccfbf6ce</unitid>
+								<unittitle>Regiment Artillerie 4de Bataljon, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1809">1800 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93600" type="ABS">249</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08e33dce-8bc5-429f-b0c6-c3dca07b8fcc</unitid>
+								<unittitle>Bataljon Werklieden, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809">1808 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93407" type="ABS">56</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/eed11b34-8b39-44c3-96e8-ae7a41b6abfc</unitid>
+								<unittitle>Bataljon Werklieden; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93597" type="ABS">246</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6dce379-afc1-462f-8877-185f3852f842</unitid>
+								<unittitle>Koninklijk Zeeuws Legioen Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807">1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93598" type="ABS">247</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1715a0c9-44b6-4303-a58c-470faf746a42</unitid>
+								<unittitle>Bataljon Veld- en Transporttrein, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1810">1802, 1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93599" type="ABS">248</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/613ec9f6-20e4-44ca-a449-a94958d5ba31</unitid>
+								<unittitle>Compagnie Veteranen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1809">1807 - 1809</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.3</unitid>
+							<unittitle>CAVALERIE</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93601" type="ABS">250</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c45a94b-c7a4-4a94-b2f8-a36b64e76960</unitid>
+								<unittitle>Cavalerie [niet onderverdeeld], Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93602" type="ABS">251</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1838eab-ac32-4522-a40f-e98a3bf8428f</unitid>
+								<unittitle>1ste Regiment Zware Cavalerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1807">1796, 1800 - 1803, 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93408" type="ABS">57</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8413e3d2-e017-47ea-9370-598774942625</unitid>
+								<unittitle>1ste Regiment Zware Cavalerie</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93603" type="ABS">252</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d61b2eeb-5900-4026-820c-f0b5a9cd91b3</unitid>
+								<unittitle>2de Regiment Zware Cavalerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1807">1801 - 1803, 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93409" type="ABS">58</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f457d52-af32-41bf-96a6-9de79ab31531</unitid>
+								<unittitle>2de Regiment Zware Cavalerie</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1805">1795 - 1805</unitdate>
+							</did>
+						</c04>
+						
+
+<c04 level="file">
+<did>
+<unitid type="ABS" identifier="51035626">261</unitid>
+<unitid type="handle" audience="internal">http://hdl.handle.net/10648/7e112e12-eb1f-37e6-e053-09f0900ac30a</unitid>
+<unittitle>2e regiment Curassiers, Uittreksels</unittitle>
+<unitdate era="ce" calendar="gregorian">1808-1810</unitdate>
+</did>
+</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93410" type="ABS">59</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/69d8e8c7-cfb4-4886-9037-5bb35c96ba2c</unitid>
+								<unittitle>Regiment Dragonders</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93609" type="ABS">258</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c69c9af5-9a8b-404f-b809-462620a2c633</unitid>
+								<unittitle>Regiment Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1804">1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93415" type="ABS">64</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/52588de5-3948-42dd-8768-66bdb1842487</unitid>
+								<unittitle>1ste Regiment Dragonders</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93610" type="ABS">259</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7382f44d-13a5-4c2a-9df7-d25fcdd98c87</unitid>
+								<unittitle>1ste Regiment Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93611" type="ABS">260</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e202e7e5-4401-4676-9e6b-ad30cc1fa0a4</unitid>
+								<unittitle>2de Regiment Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1806">1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93604" type="ABS">253</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d476dc03-22f3-4873-a7ed-ba4c6f4bce40</unitid>
+								<unittitle>Regiment Huzaren, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1806">1800 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93411" type="ABS">60</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1338f87-6ca2-4c9a-aa3a-d29fb806165d</unitid>
+								<unittitle>Regiment Huzaren (Kol. Quaita); onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93605" type="ABS">254</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/31492eb0-0729-4169-9997-49196c1744e5</unitid>
+								<unittitle>2de Regiment Huzaren, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810-</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93606" type="ABS">255</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c38d7b1-e299-4433-8968-2babdc9879a7</unitid>
+								<unittitle>3de Regiment Huzaren, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1809">1806 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93417" type="ABS">66</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b143a72-777c-450c-9569-05bd766cfe3e</unitid>
+								<unittitle>3de Regiment Huzaren; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1810">1806 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93412" type="ABS">61</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ac213ee-3b2a-435b-940c-dce4151c8fcf</unitid>
+								<unittitle>1ste Regiment Lichte Dragonders</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1805">1803 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93607" type="ABS">256</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bdaeb9a4-da5d-41a8-a520-b156e2542302</unitid>
+								<unittitle>1ste Regiment Lichte Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1805">1804 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93608" type="ABS">257</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3677fbcf-54d5-4229-af42-23d7812f46b6</unitid>
+								<unittitle>2de Regiment Lichte Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804">1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93413" type="ABS">62</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7cd6850-844a-4dbb-a2e9-5fa50a9de292</unitid>
+								<unittitle>2de Regiment Lichte Dragonders 1ste en 2de escadron</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1806">1803 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93414" type="ABS">63</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/62dbc4f1-4785-4ad5-a560-80bc88f29341</unitid>
+								<unittitle>2de Regiment Lichte Dragonders 3de en 4de escadron</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1806">1803 - 1806</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.4</unitid>
+							<unittitle>GENIE</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93613" type="ABS">262</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/50bbc59d-3f28-4338-bd1f-efe96a100404</unitid>
+								<unittitle>Korps Mineurs en Sappeurs</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1807">1795 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93614" type="ABS">263</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb66ed1e-875f-4f44-bec9-6f8b59a5cbcb</unitid>
+								<unittitle>Korps Ingenieurs</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807">1807</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.5</unitid>
+							<unittitle>GARDE</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93615" type="ABS">264</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a382f6c-f06f-4b51-85f4-0d4201400397</unitid>
+								<unittitle>Korps Bezolde Gardes van Amsterdam, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1807">1801 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93616" type="ABS">265</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92fecf14-ba34-4d49-ab9a-ccdc911c3417</unitid>
+								<unittitle>Compagnie Friese Gardes, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1801">1800 - 1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93617" type="ABS">266</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/43d3f395-1c57-49a4-9180-ac79491e3fc4</unitid>
+								<unittitle>Compagnie Nationale (voorheen Groninger) Garde, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801">1801</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93618" type="ABS">267</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0201db3-d264-4446-99ef-187f00737966</unitid>
+								<unittitle>Lijfgarde te voet, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93619" type="ABS">268</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7fc42f26-9360-414a-938b-060d9deae7df</unitid>
+								<unittitle>Lijfgarde te paard, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93416" type="ABS">65</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/59916370-1f4f-478c-93c9-133e5cac2bba</unitid>
+								<unittitle>Korps Lijfgarde te paard</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1807">1805 - 1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93620" type="ABS">269</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90c8ff33-f24f-4d56-9168-2e57401bde36</unitid>
+								<unittitle>Garde van de Koning, Regiment Lijfwacht te voet, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93621" type="ABS">270</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/26aa83a0-3f49-4a83-b189-90d3cef5ae94</unitid>
+								<unittitle>Garde van de Koning, Regiment Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807">1807</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93622" type="ABS">271</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd5d1a21-5370-4d2d-af25-3e2bcd143c91</unitid>
+								<unittitle>Garde van de Koning, Regiment Grenadiers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93363" type="ABS">12</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c745eb2e-6b4b-416b-9134-a3061d646c09</unitid>
+								<unittitle>Grenadiers der Garde Kleine staf; onderofficieren, minderen</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1811">1805 - 1811</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93623" type="ABS">272</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/74beccc7-3578-43da-ae23-40c0a1d245d5</unitid>
+								<unittitle>Garde van de Koning, Divisie Rijdende Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807, 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93624" type="ABS">273</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83d9b68f-a7fa-47be-85b4-78d35886807d</unitid>
+								<unittitle>Garde van de Koning, Compagnie Artillerietrein, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93625" type="ABS">274</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/300b2703-269e-4446-8280-effe94cb7352</unitid>
+								<unittitle>Koninklijke Garde te paard, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93626" type="ABS">275</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/98ea23fc-06fb-49cb-807d-5d0976e4e27f</unitid>
+								<unittitle>Garde van de Koning, Regiment Cavalerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93627" type="ABS">276</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2fc4d1a8-1c93-413d-8d92-a3be7d82cdb7</unitid>
+								<unittitle>Garde van de Koning, Regiment Kurassiers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1809">1807 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93628" type="ABS">277</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbe20b85-8249-4686-af1b-1ee4aa74ef32</unitid>
+								<unittitle>Garde van de Koning, Regiment Huzaren, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93629" type="ABS">278</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f313ee16-088d-4184-aa65-697cce8384c9</unitid>
+								<unittitle>Garde van de Koning, Korps Adelborsten, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93630" type="ABS">279</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dafa5c6d-2560-49a9-ae25-50332ae94599</unitid>
+								<unittitle>Garde van de Koning, Compagnie Veteranen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.6</unitid>
+							<unittitle>KOLONIALE TROEPEN</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93631" type="ABS">280</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a7e9b3a-0ea0-41e2-9db9-7434de4f4051</unitid>
+								<unittitle>Depot Oost-Indische Troepen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803">1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93632" type="ABS">281</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e788ca2f-a401-4ad6-bfa9-d17d7aa4a534</unitid>
+								<unittitle>22ste Bataljon Bataafse Infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1806">1802 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93633" type="ABS">282</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ce3ade1-8003-4072-9789-69749e42fd5f</unitid>
+								<unittitle>23ste Bataljon Bataafse Infanterie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1806">1802, 1805 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93634" type="ABS">283</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1354f2d0-f886-49da-b342-df97f2ceb4cc</unitid>
+								<unittitle>Eskadron Lichte Dragonders, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1806">1802, 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93635" type="ABS">284</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6075eab-fb8b-4042-80c9-b7f927a2aaa1</unitid>
+								<unittitle>5de Bataljon Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1810">z.d.</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93636" type="ABS">285</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/52266176-1314-4880-adc6-6285a7c88b7b</unitid>
+								<unittitle>Depot voor de West-Indische Koloniën, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1806">1802 - 1803, 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93637" type="ABS">286</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af335e12-23b8-40c9-a820-822b72ec7174</unitid>
+								<unittitle>Koloniale Troepen in West-Indië, Jagers en Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1806">1796, 1799, 1803 - 1806</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93638" type="ABS">287</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0196164e-277e-4946-86c2-b9033697820f</unitid>
+								<unittitle>5de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1805">1802 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93639" type="ABS">288</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c62308a-6c5b-45a2-b8f0-7c207aff4e36</unitid>
+								<unittitle>6de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1805">1802 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93640" type="ABS">289</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb2e850b-aac9-4ee1-a1e7-852b307a8e69</unitid>
+								<unittitle>7de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1803">1802 - 1803</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93641" type="ABS">290</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c58c020-4a5d-4f3e-9c47-5da4858cf9dc</unitid>
+								<unittitle>8ste Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1809">1802 - 1805, 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93642" type="ABS">291</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b90a2998-139c-4d85-93ae-9c0d71aa8b69</unitid>
+								<unittitle>9de Bataljon Jagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93643" type="ABS">292</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbcdefd0-512c-46c1-9016-4a76fc889cff</unitid>
+								<unittitle>1ste t/m 4de Compagnie Artillerie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1809">1802 - 1803, 1809</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.7</unitid>
+							<unittitle>WERVING</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93644" type="ABS">293</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/23180fba-fa99-444c-a024-f679cc975674</unitid>
+								<unittitle>Depot der Nationale Werving, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1808">1806 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93645" type="ABS">294</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03eea7ae-aadb-428e-94c2-cb13cd4a8a5b</unitid>
+								<unittitle>Depot der Buitenlandse Werving, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>295-296</unitid>
+								<unittitle>Depot der Algemene Werving, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93646" type="ABS">295</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/35c2ee04-3482-4978-a0b5-42970a29584e</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+									</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93647" type="ABS">296</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4fc143e2-25c4-44b8-8bf7-4530e0aea9f5</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce" normal="1809/1810">1809 - 1810</unitdate>
+									</unittitle>
+								</did>
+							</c05>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.8</unitid>
+							<unittitle>SCHOLEN</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93648" type="ABS">297</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04c1c130-9524-49c5-9027-e18203fd5efb</unitid>
+								<unittitle>Artilleriescholen [niet nader onderverdeeld], Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1804/1809">1804, 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93649" type="ABS">298</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/33039ad2-8113-4e16-a468-f2962e32d9bb</unitid>
+								<unittitle>Artillerieschool te Breda, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1805">1796 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93650" type="ABS">299</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed3db28c-9201-412c-976e-6788359c03ad</unitid>
+								<unittitle>Artillerieschool te Groningen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1802">1801 - 1802</unitdate>
+							</did>
+						</c04>
+						
+
+<c04 level="file">
+<did>
+<unitid type="ABS" identifier="51035627">300</unitid>
+<unitid type="handle" audience="internal">http://hdl.handle.net/10648/7e112e12-eb2a-37e6-e053-09f0900ac30a</unitid>
+<unittitle>Artillerieschool te Den Haag, Uittreksels</unittitle>
+<unitdate era="ce" calendar="gregorian">1801-1803</unitdate>
+</did>
+
+</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93652" type="ABS">301</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bab264a0-61f1-4cbe-9ebd-d2f21c1c6d83</unitid>
+								<unittitle>Artillerieschool te Zutphen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1799/1805">1799 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93653" type="ABS">302</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d389ea7-19d6-4b65-89cf-d1a5e3326d40</unitid>
+								<unittitle>Koninklijke Artillerie- en Genieschool te Amersfoort, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808">1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93654" type="ABS">303</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b4cf5083-1c41-46f8-96f2-64ff4b7d3d35</unitid>
+								<unittitle>Koninklijke Militaire School te Honsholredijk, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1809">1807 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93655" type="ABS">304</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bea835a-335c-4948-8d83-0add930872b4</unitid>
+								<unittitle>Koninklijke Militaire School te Den Haag, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93656" type="ABS">305</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8eda7683-fdfc-40c9-b657-581002b068ee</unitid>
+								<unittitle>3e Klasse Koninklijke Kwekelingen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.9</unitid>
+							<unittitle>OVERIGE ONDERDELEN</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93657" type="ABS">306</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/65192d1d-06bf-46b3-bc08-517642af01aa</unitid>
+								<unittitle>Generale Staf, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1808">1806 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93658" type="ABS">307</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/afd7e5c7-41f2-4bf9-b9ad-d46f38ca8e5e</unitid>
+								<unittitle>Plaatselijke Commandanten en Adjudanten, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93659" type="ABS">308</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e7565c5d-d409-4ec0-ab09-ff77eb70d05b</unitid>
+								<unittitle>Officieren van Gezondheid en overig personeel van de Militaire Hospitalen, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1810">1795, 1808 - 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93660" type="ABS">309</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c789b64-7aa7-43d7-8186-00715e021f62</unitid>
+								<unittitle>Korps Koninklijke Hollandse Gendarmes, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1806/1809">1806 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93661" type="ABS">310</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b67ecd3-d922-46cf-8c68-53a636aa9b2e</unitid>
+								<unittitle>Eskadron Politiewacht, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93662" type="ABS">311</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca87a1a4-4eed-4006-8445-71b5cef74170</unitid>
+								<unittitle>Korps Koninklijke Grensjagers, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809"> 1808 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93663" type="ABS">312</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a0cb71a-fb93-4df9-8ae9-45aca8086f49</unitid>
+								<unittitle>&quot;Gardes Côtes&quot;, Kustwacht te Amsterdam, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810"> 1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93664" type="ABS">313</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe91c27f-59c8-4725-bd85-62464ffe0dc2</unitid>
+								<unittitle>Korps Veteranen [niet nader onderverdeeld], Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807/1808"> 1807 - 1808</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93665" type="ABS">314</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c5d79ae-1859-497d-b8e3-9012fac08cfd</unitid>
+								<unittitle>Korps Veteranen 1ste t/m 8ste Compagnie, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809"> 1808 - 1809</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93666" type="ABS">315</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b17b2047-4085-463c-afae-8ee9b855aa1f</unitid>
+								<unittitle>Korps Veteranen 11de Bataljon, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93667" type="ABS">316</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/826cb8ca-b709-483c-b9a8-e6f97a56353b</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de Eems, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1805"> 1800 - 1805</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93668" type="ABS">317</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4ec0b44-736a-470c-a05f-c6c36106d092</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de Oude IJssel, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1804"> 1801 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93669" type="ABS">318</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bdb9dbe7-7e4a-49da-afae-98772bbd6d1e</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de de Rijn, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1804"> 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93670" type="ABS">319</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/61dc3109-6152-4ca4-8a51-c115df0e0da9</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de de Amstel, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1804"> 1800 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93671" type="ABS">320</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d699951-4c81-476e-b781-d45020c90109</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de de Delft, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1804"> 1801 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93672" type="ABS">321</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b33b01ca-ae5a-4ad2-b684-85325bc4d6e0</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de de Schelde en de Maas, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1804"> 1801 - 1804</unitdate>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93673" type="ABS">322</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ca69556-0e03-496b-8c3c-2277f05e9bbe</unitid>
+								<unittitle>Gewapende Burgerwacht in het Departement van de de Dommel, Uittreksels</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1802"> 1800 - 1802</unitdate>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">B</unitid>
+						<unittitle>STAM- EN NAAMLIJSTEN, CONDUITE- EN MUTATIESTATEN</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.1</unitid>
+							<unittitle>Stam- en naamlijsten Nederland</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93418" type="ABS">67</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90ac0ab9-e4e7-40bc-a345-2ce8272785d0</unitid>
+								<unittitle>Stamlijsten van officieren der Infanterie, Artillerie, Genie en Cavalerie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795">1795</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93419" type="ABS">68</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5e56088-5c1b-4102-b317-7c761356582e</unitid>
+								<unittitle>Stamlijsten van officieren der Infanterie, Artillerie, Genie en Cavalerie in dienst der Bataafse Republiek, met staten van dienst sedert 1786. Gedrukt, met alfabetische klapper in handschrift.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796-12/1797-01">1796 december - 1797 januari</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Bijgevoegd sterktestaat van de Nationale Armee. Maart 1796.</p>
+							</scopecontent>
+							<scopecontent>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Infanterie:</entry>
+													<entry>Garnizoenen:</entry>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Haarlem, Arnhem, Leiden</entry>
+												</row>
+												<row>
+													<entry>2de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Nijmegen, Arnhem Nijmegen, Zaltbommel.</entry>
+												</row>
+												<row>
+													<entry>3de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>'s-Gravenhage, Alkmaar, Utrecht, Hoorn</entry>
+												</row>
+												<row>
+													<entry>4de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Delfzijl, Harlingen, Langakkerschans</entry>
+												</row>
+												<row>
+													<entry>5de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Zutphen, Zutphen, Deventer</entry>
+												</row>
+												<row>
+													<entry>6de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Groningen, Coevorden, Heumen</entry>
+												</row>
+												<row>
+													<entry>7de Halve Brigade, bataljon 1 - 3</entry>
+													<entry>Bergen op Zoom, 's-Hertogenbosch, Ouddorp</entry>
+												</row>
+												<row>
+													<entry>1ste Bataljon Jagers</entry>
+													<entry>Almelo</entry>
+												</row>
+												<row>
+													<entry>2de Bataljon Jagers</entry>
+													<entry>Elst</entry>
+												</row>
+												<row>
+													<entry>3de Bataljon Jagers</entry>
+													<entry>Hardenberg</entry>
+												</row>
+												<row>
+													<entry>4de Bataljon Jagers</entry>
+													<entry>Bourtange</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Artillerie:</entry>
+													<entry>Garnizoenen:</entry>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste Bataljon</entry>
+													<entry>Breda</entry>
+												</row>
+												<row>
+													<entry>Bataljon</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>Bataljon</entry>
+													<entry>Zutphen</entry>
+												</row>
+												<row>
+													<entry>Bataljon</entry>
+													<entry>Groningen</entry>
+												</row>
+												<row>
+													<entry>Korps Rijdende Artillerie</entry>
+													<entry>Heusden</entry>
+												</row>
+												<row>
+													<entry>Compagnie Pontonniers</entry>
+													<entry>Dortrecht</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Genie:</entry>
+													<entry>Garnizoenen:</entry>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>Korps Ingenieurs</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>Korps Mineurs en Sappeurs</entry>
+													<entry>Bergen op Zoom</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Cavalerie:</entry>
+													<entry>Garnizoenen:</entry>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste Regiment</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>2de Regiment</entry>
+													<entry>Zaltbommel</entry>
+												</row>
+												<row>
+													<entry>Regiment Dragonders</entry>
+													<entry>Wamel</entry>
+												</row>
+												<row>
+													<entry>Regiment Huzaren</entry>
+													<entry>Groningen</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93420" type="ABS">69</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/84c752b2-9639-48f4-8527-ee5efbb5502a</unitid>
+								<unittitle>Naamlijst van officieren der Bataafse Armee, opgemaakt ter zake van het afleggen en ondertekenen van de eed en verklaring, vereist ingevolge de besluiten der Constituerende Vergadering van 22 januari en 8 februari 1798 en de aanschrijving van de agent van Oorlog van 6 maart 1798.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1798-03/1798-04">1798 maart - april</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93421" type="ABS">70</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/616658f9-f7b4-47b0-9cee-61e9da49d9ab</unitid>
+								<unittitle>Rangeerlijsten van het 3de Bataljon der 3de Halve Brigade te Alkmaar en te Hoorn.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18000408/18020408">1800 april 8, 1802 april 8</unitdate>
+								<physdesc>2 stukken in een omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93422" type="ABS">71</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/522aae9b-ceca-4f25-a766-71da3fedd40c</unitid>
+								<unittitle>Stamlijsten van officieren bij de Lijfgarde van de raadpensionaris en bij de Generale Staf van 's-lands Armee, opgemaakt ingevolge Staatsbesluit van 28 junie 1805 nr. 60. Gedrukt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805">1805</unitdate>
+								<physdesc>1 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93423" type="ABS">72</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/01fcb325-675b-455f-8179-88885c984bca</unitid>
+								<unittitle>Alfabetische naamlijst van officieren der Koninklijke Armee.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807-04/1810-12">1807 [voor april] - 1810 december</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93424" type="ABS">73</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/572c7e8e-5134-4c58-8d12-5e3714e5a19f</unitid>
+								<unittitle>Alfabetische naamlijst van officieren, met verwijzing naar hun staten van dienst sedert 1795.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93425" type="ABS">74</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3cc093a7-2acd-4ea4-9feb-7e727bf78e1b</unitid>
+								<unittitle>Stamlijst van hoofdofficieren der Armee. Nrs. 12 - 173. Incompleet.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93426" type="ABS">75</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/514a5fa8-d902-4bdf-80bf-3ebf88801095</unitid>
+								<unittitle>Stamlijst van officieren van de Generale staf. Nrs. 1 - 5.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93427" type="ABS">76</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d8f364b8-a749-4a37-9f9e-439eaa68511c</unitid>
+								<unittitle>Stamlijst van plaatselijke commandenten en adjudanten in het 1ste Militaire Arrondissement. Nrs. 1 - 10.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="2973360" type="ABS">332</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d6bf31d-ba1f-40cb-bd19-7441bb365eae</unitid>
+								<unittitle>Naamlijst van officieren, onderofficieren en korporaals van het Regiment Grenadiers der Garde, op volgorde van compagnie en rang van anciënniteit, opgesteld in 1809</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1793/1809">1793 - 1809</unitdate>
+								<physdesc>1 deeltje</physdesc>
+							</did>
+							<odd>
+								<p>Namen zijn niet opgenomen in de klapper. Oorspronkelijk inv.nr. 78. Zoek geraakt en weer terug gevonden.</p>
+							</odd>
+							<acqinfo>
+								<p>Aanwinst 2e Afdeling 1900 XVIII nr. 3</p>
+							</acqinfo>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93428" type="ABS">77</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf834575-dc7e-4f79-9d14-510c23ee1213</unitid>
+								<unittitle>Stamlijst van officieren van het Regiment Grenadiers der Garde van de Koning. Nrs. 1 - 79.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Met staat van mutaties 1809 en suppletie-stamlijst bevattende de nrs. 80 - 85.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93430" type="ABS">79</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4174a116-8bb0-4834-9d8b-308d52712dd6</unitid>
+								<unittitle>Stamlijst van officieren van de Regiment Grenadiers en der Compagnie Veteranen van de Garde van de Koning. Nrs. 1 - 116</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809">1808 - 1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93431" type="ABS">80</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e6a2cfb-6c68-4cce-b9ca-091e01d38d68</unitid>
+								<unittitle>Stamlijst van officieren van de 3de klasse der Koninklijke Kwekelingen te 's-Gravenhage. Nrs. 1 - 5.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809">1808 - 1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93432" type="ABS">81</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddfbe7c9-a9f1-4ee0-8937-76c5f790e81d</unitid>
+								<unittitle>Stamlijst van onderofficieren en minderen van het Regiment Grenadiers te voet der Keizerlijke Garde te Amsterdam.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18100726"> 1810 juli 26</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93433" type="ABS">82</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/800705fe-762a-46ab-bc12-f6614aebf4c6</unitid>
+								<unittitle>Stamlijst van officieren, onderofficieren en minderen van het Legioen Vélites te Amersfoort.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18100909">1810 september 9</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93434" type="ABS">83</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4e3cec8-7709-4295-b5b9-6af5e347c4e8</unitid>
+								<unittitle>Stamlijst van officieren van het Korps Adelborsten der Garde van de Koning. Nrs. 1 - 13</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93435" type="ABS">84</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a559c6be-8840-42cc-9a86-390bf6190438</unitid>
+								<unittitle>Stamlijst van officieren van het Korps Lijfwachten aan de Koning. Nrs. 1 - 42</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93436" type="ABS">85</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/435ec173-cb28-48a8-8a49-ebf541375286</unitid>
+								<unittitle>Stamlijst van officieren van het Garderegiment Kurassiers te Leiden. Nrs. 1 - 30</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93437" type="ABS">86</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea4e12a9-08b1-4dee-95dd-53b475e8bf1b</unitid>
+								<unittitle>Stamlijst van officieren van het Regiment Gardes te paard. Nrs. 1 - 22</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Met staat van mutaties 1809.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93438" type="ABS">87</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/258f6634-9077-452d-a7d3-a75964c909ea</unitid>
+								<unittitle>Stamlijst van officieren van het Garderegiment Huzaren. Nrs. 1 - 41</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93439" type="ABS">88</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a222498a-207f-438f-8138-ed454c7af6d4</unitid>
+								<unittitle>Stamlijst van officieren van de Divisie Artillerie van de Garde van de Koning te Haarlem. Nrs. 1 - 7</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93440" type="ABS">89</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d594d058-be93-4792-a925-24881d5a27af</unitid>
+								<unittitle>Stamlijst van officieren van de Compagnie Veteranen der Koninklijke Artillerie te Delft. Nrs. 1 - 3</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93441" type="ABS">90</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce6188b9-8ce9-494b-9bdb-4a81dc12c14b</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie van Linie. Nrs. 1 - 81</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93442" type="ABS">91</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/244ec9ae-01d1-4639-8fae-2eacfd32db01</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 57.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93443" type="ABS">92</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d94eb50-76b1-4cef-ac78-d9ad7ea1375a</unitid>
+								<unittitle>Stamlijst van officieren van het 4de Regiment Infanterie. Nrs. 1 - 68.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93444" type="ABS">93</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f684edc4-2b6d-488c-8fb0-7ca769fb2817</unitid>
+								<unittitle>Stamlijst van officieren van het 5de Regiment Infanterie. Nrs. 1 - 35.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93445" type="ABS">94</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e47812c-d994-4d85-9e94-f26b867de9ab</unitid>
+								<unittitle>Stamlijst van officieren van het 6de Regiment Infanterie. Nrs. 1 - 10.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93446" type="ABS">95</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7841bf7e-da1b-4885-814e-b40b515a506c</unitid>
+								<unittitle>Stamlijst van officieren van het 6de Regiment Infanterie. Nrs. 1 - 17.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93447" type="ABS">96</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75f54e3b-eade-477f-bf9d-cc3ac0572398</unitid>
+								<unittitle>Stamlijst van officieren van het 7de Regiment Infanterie. Nrs. 1 - 98.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93448" type="ABS">97</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8987591a-8643-4033-8c4a-84d40a7eb65c</unitid>
+								<unittitle>Stamlijst van officieren van het 7de Regiment Infanterie. Nrs. 1 - 77.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93449" type="ABS">98</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0ab19fc-1ccc-446a-8bff-7e3c8ff951f1</unitid>
+								<unittitle>Stamlijst van officieren van het Dépot van het 7de Regiment Infanterie van Linie. Nrs. 1 - 15.</unittitle>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93450" type="ABS">99</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d382e430-31b9-4226-ad50-137e20d0ecc6</unitid>
+								<unittitle>Stamlijst van officieren van het 8de Regiment Infanterie. Nrs. 1 - 78.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93451" type="ABS">100</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/40f7fc70-ac66-4cd6-af04-248a07deba43</unitid>
+								<unittitle>Stamlijst van officieren van het 8de Regiment Infanterie. Nrs. 1 - 15.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93452" type="ABS">101</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1ea34c1-01b8-4761-8273-8aeb24662bfc</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 76.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809">1808 - 1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93453" type="ABS">102</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d39aedb-4b4b-44e4-9d68-5cbf1351c594</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 63.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93454" type="ABS">103</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6491483-a22c-4d47-8238-879afe5d2503</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 70.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808/1809">1808 - 1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93455" type="ABS">104</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d7067de-0e48-46f2-a6d5-ada19c94f9f6</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 52.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93456" type="ABS">105</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04ed349a-738e-4a75-a1d0-47d9987d6663</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 67.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93457" type="ABS">106</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d7cb1ae-205e-4127-b176-0e5b0d3d3d9b</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 53.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93458" type="ABS">107</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/876f7a3d-0b4c-4136-a679-a554cc27390a</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 35.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93459" type="ABS">108</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b9a2966-88de-41fa-87d9-1fcff1302cf7</unitid>
+								<unittitle>Stamlijst van officieren van het 3de Regiment Infanterie. Nrs. 1 - 52.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93460" type="ABS">109</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3658eec9-edc6-4e85-a723-239749094477</unitid>
+								<unittitle>Stamlijst van officieren der Artillerie en Genie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1809">1796, 1807 - 1809</unitdate>
+								<physdesc>7 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93461" type="ABS">110</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/abfd2845-991b-4257-8447-50bfed48bf11</unitid>
+								<unittitle>Ranglijsten van officieren der Compagnie Artillerie Veteranen en der Brigade Rijdende Artillerie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18070321/18080808">21 maart 1807 en 8 aug. 1808</unitdate>
+								<physdesc>2 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93462" type="ABS">111</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5241116a-7f11-4d2c-b36f-2cdde68e35ed</unitid>
+								<unittitle>Ranglijst van officieren van het Korps Genie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="17990115">15 jan. 1799</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93463" type="ABS">112</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d6d4c04-232d-4c44-9674-a41c961744f6</unitid>
+								<unittitle>Stamlijst van officieren en adjudant-onderofficieren van het Regiment Koninklijke Artillerie te voet. Nrs. 1 - 119.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93464" type="ABS">113</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/17d7116b-b341-42e2-8549-3a0a6924b573</unitid>
+								<unittitle>Stamlijst van officieren van het Bataljon werklieden der Koninklijke Artillerie te Delft. Nrs. 1 - 30.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93465" type="ABS">114</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4212393e-8e4f-48a8-ab7b-905e4111d00f</unitid>
+								<unittitle>Stamlijst van officieren van het Korps Geographische Ingenieurs te Amsterdam. Nrs. 1 - 8.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93466" type="ABS">115</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5be229a0-0e2b-487f-97e1-3831c4b567ec</unitid>
+								<unittitle>Stamlijst van officieren van het Korps Koninklijke Gendarmerie te Amsterdam. Nrs. 1 - 23.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93467" type="ABS">116</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b5646ad6-c7ff-411a-b65a-3dc77c9ce470</unitid>
+								<unittitle>Stamlijst van onderofficieren der Grensjagers.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>2 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93468" type="ABS">117</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/31dff338-7c39-456e-871e-5673ef582831</unitid>
+								<unittitle>Stamlijst van officieren der Koninklijke Artillerie- en Genieschool te Amersfoort. Nrs. 1 - 5.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93469" type="ABS">118</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/363e6517-3a9a-4532-884a-31166dcd74fd</unitid>
+								<unittitle>Stamlijst van officieren en instructeurs van de Koninklijke Militaire School te Hondsholredijk. Nrs. 1 - 17.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93470" type="ABS">119</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df19b727-bf1a-42a1-af7a-f648f6edb294</unitid>
+								<unittitle>Stamlijst van officieren der Koninklijke Militaire Rijschool te 's-Gravenhage. Nrs. 1 - 7.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93471" type="ABS">120</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1209bd20-9b56-4514-b7fd-b318a2e53bd1</unitid>
+								<unittitle>Stamlijst van officieren van het Algemeen Werfdépot. Nrs. 1 - 14.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93472" type="ABS">121</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd3b5dc2-eaa3-4e36-be11-0535f4b5f769</unitid>
+								<unittitle>Stamlijst van officieren van het Korps Ingenieurs. Met klapper.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1725/1813">1725 - 1813</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Bevat gegevens sinds 1585.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.2</unitid>
+							<unittitle>Stam- en naamlijsten Overzee</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93473" type="ABS">122</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d084790-0260-4e8c-bf26-4c976a3f8ec2</unitid>
+								<unittitle>Naamlijst van officieren, die in 1795, 1796 en 1799 in Suriname en op Curaçao in garnizoen lagen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18071203">3 dec. 1807</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93474" type="ABS">123</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3566098a-5b94-4b6a-b491-0cb77d5f8e94</unitid>
+								<unittitle>Naamlijst van officieren, onderofficieren en minderen aan de kust van Guinea.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1804">1801 - 1804</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93475" type="ABS">124</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/21d49121-c024-4283-8535-78479c56d635</unitid>
+								<unittitle>Naamlijst van officieren van het West-Indische leger, met hun tractementen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802-02/1806-04">Febr. 1802 - april 1806</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93476" type="ABS">125</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/116e1016-f739-4889-8de4-19354d8233cf</unitid>
+								<unittitle>Naamlijst van overleden en vertrokken officieren van het in 1802 uitgezonden Korps West-Indische troepen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18020320/18050731">20 maart 1802 - 31 juli 1805</unitdate>
+								<physdesc>1 deeltje</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93477" type="ABS">126</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/905c65fa-1337-457a-bb94-0ae78b610dda</unitid>
+								<unittitle>Alfabetische klapper op de stamboeken van de in 1802 naar West-Indië uitgegane onderofficieren en minderen, met vermelding van overlijden of vertrek.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1809">1802 - 1809</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93478" type="ABS">127</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c5b12a7-d64f-46bb-b8d5-a4325690114b</unitid>
+								<unittitle>Naamlijsten van officieren, onderofficieren en minderen van het 22st Bataljon Infanterie aan de Kaap de Goede Hoop, met mutatiestaten.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802-04/1802-06">April - Juni 1802</unitdate>
+								<physdesc>7 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93479" type="ABS">128</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/481a8f19-5092-4a32-85ce-ea8fa47a5ebc</unitid>
+								<unittitle>Rang-, stam- en conduitelijst van officieren en cadetten van het 22ste Bataljon Infanterie, gelegerd aan de Kaap de Goede Hoop.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18040701/18050701">1 juli 1804 - 1 juli 1805</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Bevat tevens naamlijst van aangenomen, overleden en ontslagen manschappen, 25 mei 1804 - 31 dec. 1804, en aan keerzijde van 1 jan. 1805 - 6 jan. 1806</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93480" type="ABS">129</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f655177b-1625-4d64-92ea-5086ccc36f7c</unitid>
+								<unittitle>Naamlijsten van officieren, onderofficieren en minderen van de 1ste compagnie Van het escadron Lichte Dragonders aan de Kaap de Goede Hoop, met mutatiën en signalement der paarden.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802-04/1802-06">April - juni 1802</unitdate>
+								<physdesc>3 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93481" type="ABS">130</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/13338ea3-1a7a-475f-bbff-12dc92072cab</unitid>
+								<unittitle>&quot;Nota der tractementen van officieren uit Oost en West, die ter dispositie van de minister zijn gesteld en halve paye genieten&quot;.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1807">(±1807)</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+							<scopecontent>
+								<p>Op deze lijst zijn door Koning Lodewijk Napoleon eigenhandig bijgeschreven de namen van de brigadier de Millet en de Luit.-kolonel Gordon.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.3</unitid>
+							<unittitle>Stam- en naamlijsten In Franse dienst</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93482" type="ABS">131</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ef21948-56c0-477f-9628-83188291263a</unitid>
+								<unittitle>Naamlijst van officieren van het 3de Regiment der Keizerlijke Garde. Versailles.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18120107">7 jan. 1812</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93483" type="ABS">132</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a58dd48-6490-4cfc-9e6f-9adbf77e7d6c</unitid>
+								<unittitle>Etat nominatif des officiers du régiment d'artillerie employés en Hollande.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="17970330">30 maart 1797 (10 germinal an 5)</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93484" type="ABS">133</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e604ca86-db47-4e31-8869-6103ccd9f55c</unitid>
+								<unittitle>Stamlijsten van Franse officieren der Genie in Nederland.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1794/1813">1794 - 1813</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93485" type="ABS">134</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dcb74628-0910-4ef9-8cad-8038aea4e445</unitid>
+								<unittitle>Naamlijsten van Franse commissarissen van Oorlog en Nederlands personeel werkzaam bij de Franse Levensmiddelenmagazijnen en het Comité van administratie der Franse troepen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1795/1796">1795 - 1796</unitdate>
+								<physdesc>7 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93486" type="ABS">135</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c78d081-95da-497f-878d-9d207f436d2b</unitid>
+								<unittitle>Formulieren van eed en getrouwheid aan de Keizer, afgelegd door commissarissen-rapporteurs bij de krijgsraden, magezijnmeesters en conducteurs der Artillerie en Genie, het personeel van de Geneeskundige Dienste, intendanten en opzichters van fortificatien en gebouwen, moerassen en dijken, agenten van krijsgsgevangenen, boomsluiters en sluiswachters.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.4</unitid>
+							<unittitle>Naamlijsten van Elevès etc. en kinderen van militairen</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93487" type="ABS">136</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a2110bc-2277-4989-857b-b32d96a46cd3</unitid>
+								<unittitle>Naamlijsten van élèves, cadetten en volontairs, en van zoons van officieren, onderofficieren en minderen in dienst der Bataafse Republiek, met opgave van leeftijd en religie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1797-05/1797-06">Mei - juni 1797</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<scopecontent>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Infanterie:</entry>
+													<entry>Garnizoenen:</entry>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste halve brigade, bataljon 1 - 3</entry>
+													<entry>Haarlem, Arnhem, Leiden</entry>
+												</row>
+												<row>
+													<entry>2de halve brigade, bataljon 1 - 2</entry>
+													<entry>Culemborg, Bergen op Zoom</entry>
+												</row>
+												<row>
+													<entry>3de halve brigade, bataljon 1 - 3</entry>
+													<entry>'s-Gravanhage, Alkmaar, Utrecht</entry>
+												</row>
+												<row>
+													<entry>4de halve brigade, bataljon 1 - 2</entry>
+													<entry>Groningen, Harlingen</entry>
+												</row>
+												<row>
+													<entry>5de halve brigade, bataljon 2 - 3</entry>
+													<entry>Nijmegen, Deventer</entry>
+												</row>
+												<row>
+													<entry>6de halve brigade, bataljon 1 - 3</entry>
+													<entry>Leeuwarden, Middelburg, Wijk bij Duurstede</entry>
+												</row>
+												<row>
+													<entry>7de halve brigade, bataljon 1 - 3</entry>
+													<entry>Enkhuizen, Alkmaar, Hoorn</entry>
+												</row>
+												<row>
+													<entry>1ste en 3de Bataljon Jagers</entry>
+													<entry>Zwolle, Coevorden</entry>
+												</row>
+												<row>
+													<entry>1ste regiment Van Waldeck</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>2de regiment Van Waldeck</entry>
+													<entry>Alkmaar</entry>
+												</row>
+												<row>
+													<entry>5de Bataljon Van Waldeck</entry>
+													<entry>Delft</entry>
+												</row>
+												<row>
+													<entry>Regiment Van Saxen Gotha, 1e Bataljon</entry>
+													<entry>Hellevoetsluis</entry>
+												</row>
+												<row>
+													<entry>Regiment Van Saxen Gotha, 2e Bataljon</entry>
+													<entry>Hellevoetsluis</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Artillerie:</entry>
+													<entry/>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste Bataljon Artillerie</entry>
+													<entry>Breda</entry>
+												</row>
+												<row>
+													<entry>2de Bataljon Artilllerie</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>4de Bataljon Artillerie</entry>
+													<entry>Groningen</entry>
+												</row>
+												<row>
+													<entry>Brigade Rijdende Artillerie</entry>
+													<entry>Heusden</entry>
+												</row>
+												<row>
+													<entry>Cadetten der Artillerie-school te</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>Cadetten der Artillerie-school te</entry>
+													<entry>Zutphen</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Genie:</entry>
+													<entry/>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>Korps Mineurs en Sappeurs</entry>
+													<entry>Bergen op Zoom</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+								<p>
+									<table colsep="0" frame="all" rowsep="0">
+										<tgroup cols="2">
+											<thead>
+												<row>
+													<entry>Cavalerie:</entry>
+													<entry/>
+												</row>
+											</thead>
+											<tbody>
+												<row>
+													<entry>1ste regiment Cavalerie</entry>
+													<entry>'s-Gravenhage</entry>
+												</row>
+												<row>
+													<entry>2de regiment Cavalerie</entry>
+													<entry>Zaltbommel, Haarlem</entry>
+												</row>
+												<row>
+													<entry>Regiment Dragonders</entry>
+													<entry>Zaltbommel</entry>
+												</row>
+												<row>
+													<entry>Regiment Huzaren</entry>
+													<entry>Groningen</entry>
+												</row>
+											</tbody>
+										</tgroup>
+									</table>
+								</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.5</unitid>
+							<unittitle>Conduite- en mutatiestaten</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93488" type="ABS">137</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7bff345d-f2b2-4686-8df5-5e47dd4e4a30</unitid>
+								<unittitle>Conduitestaten van officieren en cadetten van 's-lands Armee.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801/1802">1801 - 1802</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<scopecontent>
+								<p>Zie specificatie.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93489" type="ABS">138</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/407962bb-f516-49c0-8ec4-ba94900a098b</unitid>
+								<unittitle>Conduitestaten van officieren en cadetten van 's-lands Armee.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1803/1804">1803 - 1804</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<scopecontent>
+								<p>Zie specificatie.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.6</unitid>
+							<unittitle>Stukken betreffende aanstelling, ontslag, overplaatsing.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93490" type="ABS">139</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f00241cc-eec6-4a97-849e-cd6a6294e1af</unitid>
+								<unittitle>Eedboek van officieren in dienst der Bataafse Republiek.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="17980302/18011207">1798 maart 2- 1801 december 7</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93491" type="ABS">140</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/289f74f5-f072-4012-8354-fd98243ba5da</unitid>
+								<unittitle>Alfabetische klapper op de aangestelde en ontslagen officieren van de Betaafse Armee.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18000515/18050321">1800 mei 15 - 1805 maart 21</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93492" type="ABS">141</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/24a8d67e-d2dd-4f1c-82f3-e2ee682215cc</unitid>
+								<unittitle>Alfabetische klapper op de aangestelde en ontslagen officieren bij de Gewapende Burgermacht.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18000503/18030906">1800 mei 3 - 1803 september 6</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93493" type="ABS">142</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e04c1947-2c3f-4744-bdc3-b998b84436d7</unitid>
+								<unittitle>Monsterrol van officieren, onderofficieren en minderen van de Lijf compagnie van het 1ste Bataljon en 3 compagnien van het 2de Bataljon van het regiment Zwitsers van Luitenant-generaal Mey, gelegerd te Gray.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="17941201">1794 december 1</unitdate>
+								<physdesc>4 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93494" type="ABS">143</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aee6de67-2c9c-404a-9cba-257bb0312b9b</unitid>
+								<unittitle>Aanneemrol van manschappen van de compagnie Bataafse Gardes, voorheen Friese Gardes.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1799-10/1801-10">1799 oktober 8 - 1801 oktober</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93495" type="ABS">144</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6170f145-019f-496d-b1f9-7f719129201b</unitid>
+								<unittitle>Naamlijst van aangenomen en ontslagen manschappen van het 22ste Bataljon Infanterie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="18020504/18051212">1802 mei 4 - 1805 december 12</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<scopecontent>
+								<p>Bevat tevens sterktestaten van 3 mei 1802 - 1 jan. 1806. Keerzijde bevat veranderingen in de samenstelling van het bataljon van 3 mei 1802 - 4 dec. 1803.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93496" type="ABS">145</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffa377aa-61aa-498a-a444-faea2058eae5</unitid>
+								<unittitle>Staten van dienst van officieren, onderofficieren en minderen, ingezonden in verband met hernieuwde plaatsing in militair verband.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1811/1812">1811 - 1812</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<scopecontent>
+								<p>In alfabetische volgorde.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.7</unitid>
+							<unittitle>Stukken betreffende overlijden van militairen</unittitle>
+						</did>
+						<otherfindaid>
+							<p>Op de overlijdensaktes Nederlandse militairen in Franse hospitalen (inventarisnummers 147-154) is een  <extref linktype="simple" href="http://proxy.handle.net/10648/4e05b8ee-dd55-102c-b2c7-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nr. 2.01.19).</p>
+						</otherfindaid>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93497" type="ABS">146</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1ac6161-e386-4afa-b088-4dd341f15a5e</unitid>
+								<unittitle>Naamlijst van gesneuvelde, gewonde, gevangen genomen of vermiste, eervol en oneervol vermelde officieren, onderofficieren en minderen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1799/1809">1799 - 1809</unitdate>
+								<physdesc>4 stukken in 1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>147-154, 329</unitid>
+								<unittitle>Overlijdensakten van Nederlandse soldaten in Franse dienst.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1792/1815">1792 - 1815</unitdate>
+								<physdesc>9 omslagen</physdesc>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93498" type="ABS">147</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e458450-1a1b-4a1b-813e-65ec4eb1b908</unitid>
+									<unittitle>A - B</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93499" type="ABS">148</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d306bc4-484e-41f3-ae46-751175b47a6f</unitid>
+									<unittitle>C - F</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93500" type="ABS">149</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75910bad-5f34-4c88-b13c-1dc0312baa91</unitid>
+									<unittitle>G - H</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93501" type="ABS">150</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad6aad02-f381-410e-b941-bdb956234427</unitid>
+									<unittitle>I - K</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93502" type="ABS">151</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1071d95a-9b9e-4a09-8c7f-1932f9cd354a</unitid>
+									<unittitle>L - M</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93503" type="ABS">152</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25e0051b-125c-4988-8c20-fddb5a3c59b6</unitid>
+									<unittitle>N - R</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93504" type="ABS">153</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/167db195-375f-49a2-818e-a07267fafc85</unitid>
+									<unittitle>S - U</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93505" type="ABS">154</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1acddb97-0364-4eed-8dd5-0decd206e2aa</unitid>
+									<unittitle>V - Z</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="93680" type="ABS">329</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e0c6fc0-3645-4f72-8598-cf4c4b56ca6d</unitid>
+									<unittitle>Niet gealfabetiseerd, <unitdate calendar="gregorian" era="ce" normal="1807/1813">1807, 1812, 1813</unitdate>
+									</unittitle>
+								</did>
+								<odd>
+									<p>Aanwinst 1972 D9.48.</p>
+								</odd>
+							</c05>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93506" type="ABS">155</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a96e020c-6ba5-4d41-b250-925f7ba74bc6</unitid>
+								<unittitle>Alfabetische klapper op overlijdensakten van Nederlandse soldaten in Franse dienst.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1792/1815">1792 - 1815</unitdate>
+								<physdesc>1 deel</physdesc>
+							</did>
+							<odd>
+								<p>Betreft nadere toegang op inv.nrs. 147-154.</p>
+							</odd>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.8</unitid>
+							<unittitle>Overige stukken</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93674" type="ABS">323</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8f8e2e4-e6ba-4178-83cb-489846fd4226</unitid>
+								<unittitle>Staten van dienst van militairen die vóór 1796 de dienst verlaten hebben.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1796/1810">1796 - 1810</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93675" type="ABS">324</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe4d65b3-710c-4d45-8d26-57901a7b1265</unitid>
+								<unittitle>Lijsten van militairen die in militaire hospitalen verpleegd worden.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93676" type="ABS">325</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5174d9c4-5c02-46b1-a052-60dd8a6d6040</unitid>
+								<unittitle>Staten van signalementen van deserteurs.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802/1810">1802, 1803, 1807 - 1810</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93677" type="ABS">326</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92089866-1d1b-466d-8de2-31518f22ca6d</unitid>
+								<unittitle>Diverse lijsten.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1800/1810">1800 - 1810</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="93682" type="ABS">331</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4af0b0d6-0517-45e3-a189-f8c5417021b1</unitid>
+								<unittitle>Dienststaten van burgergeëmployeerden, opgevraagd door de Minister van Oorlog bij brief van 12 september 1808 no.15.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1808">1808</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">II</unitid>
+					<unittitle>MILITAIRE PENSIOENEN VÓÓR 1813.</unittitle>
+				</did>
+				<otherfindaid>
+					<p>Op de pensioenstaten (inventarisnummers 156-186) is een  <extref linktype="simple" href="http://proxy.handle.net/10648/02b9663a-cd6d-102c-9f8b-005056a23d00" actuate="onrequest" show="new">digitale index</extref>  beschikbaar (oud nr. 2.01.20).</p>
+				</otherfindaid>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93507" type="ABS">156</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/99022471-2c78-4741-b7dc-b8ed87af5a9e</unitid>
+						<unittitle>Lijst van pensioenen van uitgeweken Bataafse officieren.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="17950709">9 juli 1795</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93508" type="ABS">157</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5d3a1bc-2e03-4679-81a9-c59497f08589</unitid>
+						<unittitle>Lijst van officieren van de oude Armee, die bij de nieuwe organisatie van 1795 gepensionneerd zijn.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="17951021">21 oktober 1795</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93509" type="ABS">158</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/584f8814-de4c-4d67-8200-01e9bb17a8cb</unitid>
+						<unittitle>Lijst van pensioenen van uitgeweken Bataafse officieren, onderofficieren en minderen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="17950901">1 september 1795</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93510" type="ABS">159</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a325e13-7c32-4bda-b0e3-b472aa4cdb5a</unitid>
+						<unittitle>Alfabetische lijst van pensioenen van officieren.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1802">1795 - 1802</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat tevens enkele weduwepensioenen en pensioenen van onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93511" type="ABS">160</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/14d47861-423b-4013-ab9d-b06d84cc0944</unitid>
+						<unittitle>Generale alfabetische lijst van gepensioneerden, behoord hebbend tot de in 1795 opgeheven regimenten. Met aantekeningen van overlijden tot 1803.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1802">1795 - 1802</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93512" type="ABS">161</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c481105c-4567-43b7-83fa-955684f63835</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de voorheen ter repartitie van Holland staande regimenten. Met aantekeningen van overlijden tot 1803.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1803">1795 - 1803</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93513" type="ABS">162</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22ddcd95-5d96-456d-b487-edd87f11c651</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de voorheen ter repartitie van Holland staande compagnien Invalides. Met aantekeningen van overlijden tot 1803.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1803">1795 - 1803</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93514" type="ABS">163</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/840caabe-3268-471f-a153-7dcf80af7526</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de in 1795 opgeheven Korpsen Gardes te voet, Gardes te paard en Garde-Dragonders. Met aantekeningen van overlijden tot 1803.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1803">1795 - 1803</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93515" type="ABS">164</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/495519e7-dc4d-487d-b777-399a6248fd30</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de in 1795 opgeheven regimenten Van Nyvenheim, Van Monster en Nassau-Usingen. Met aantekeningen van overlijden tot 1802.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1802">1795 - 1802</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat uitsluitend onderofficieren en minderen</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93516" type="ABS">165</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6934870c-8d01-448f-8f3d-3ea3e3a59ed1</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de in 1795 opgeheven Zwitserse regimenten. Met aantekeningen van overlijden tot 1802.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1802">1795 - 1802</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat uitsluitend onderofficieren en minderen</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93517" type="ABS">166</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa44444e-f0b3-4b69-a225-5dac5ab56888</unitid>
+						<unittitle>Alfabetische lijst van sedert 1795 gegageerde onderofficieren en minderen, die hun gagementen ontvangen in het Departement Overijssel. Met enkele aantekeningen van overlijden.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1807">1795 - 1807</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93518" type="ABS">167</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/abcaebd0-53d8-4047-bb6f-082d4a03e8f5</unitid>
+						<unittitle>Alfabetisch register van sedert 1795 gegageerde onderofficieren en minderen, die hun gagementen ontvangen in het Departement Groningen. Met enkele aantekeningen van overlijden.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1807">1795 - 1807</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93519" type="ABS">168</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3304762a-5a88-4843-be3d-3c69d923faaf</unitid>
+						<unittitle>Alfabetisch register van sedert 1795 gegageerde onderofficieren en minderen, die hun gagementen ontvangen in het Departement Holland. Met enkele aantekeningen van overlijden.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1807">1795 - 1807</unitdate>
+						<physdesc>1 deel.</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93678" type="ABS">327</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5aa8511a-c5d7-49bf-bc53-137e6a7ab344</unitid>
+						<unittitle>Pensioenstaten van militairen, relatieven uit het verbaal van Oorlog.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1810">1795, 1807 - 1810</unitdate>
+						<physdesc>1 deel.</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93520" type="ABS">169</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4dc9527b-816f-416e-a0d1-bab88a7d5285</unitid>
+						<unittitle>Alfabetische lijst van gagementen. Soldij van retraite en reforme van onderofficieren en minderen. Met aantekeningen van overlijden tot 1810.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1795/1810">1795 - 1810</unitdate>
+						<physdesc>1 deel.</physdesc>
+					</did>
+					<scopecontent>
+						<p>uitbetaald door de betaalmeester van Oorlog, en gegageerden, uitbetaald door de ontvangers-generaal te Amsterdam, Rotterdam, Dordrecht, Leiden, Alkmaar, Middelburg, Leeuwarden, Utrecht, Arnhem, Nijmegen, Zutphen, Groningen, Zwolle, Kampen, Deventer, 's-Hertogenbosch, Breda, Bergen op Zoom, Grave en Assen.</p>
+					</scopecontent>
+					<arrangement>
+						<p>Gerangschikt volgens binnen- en buitenlandse gegageerden,</p>
+					</arrangement>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93521" type="ABS">170</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/883fbb78-7385-4a6d-b8eb-2385028eec43</unitid>
+						<unittitle>Lijst van gepensionneerde officieren. Gedrukt.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="17960827">27 oktober 1796</unitdate>
+						<physdesc>1 deeltje</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat tevens opgaven van gedenuncieerde officieren.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93522" type="ABS">171</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/20538aa4-f276-4d57-a9e5-d88d3b85ea2b</unitid>
+						<unittitle>Alfabetische lijst van gepensioneerden, behoord hebbende tot de voorheen ter repartitie van Gelderland (kwartieren van Nijmegen en de Beluwe) staande regimenten. Met aantekeningen van overlijden tot 1810.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1796">1796</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat uitsluitend onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93523" type="ABS">172</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e102239-c591-40c8-929c-a37677f43229</unitid>
+						<unittitle>Register van militaire pensioenen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1798/1803">1798 - 1803</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk officieren. Tevens zijn enkele weduwepensioenen en aantekeningen van overlijden opgenomen. Met klapper.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93524" type="ABS">173</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/79d0134d-512e-4b6c-b97d-09b0243a93da</unitid>
+						<unittitle>Alfabetische lijst van pensioenen, tractementen van retraite en reforme van officieren. Met aantekeningen van overlijden tot 1809.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1799/1809">1799 - 1809</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93525" type="ABS">174</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0202017b-1ccf-440d-a3ac-c0db694fc073</unitid>
+						<unittitle>Alfabetische lijsten van gepensioneerden, behoord hebbende tot de voorheen ter repartitie van Zeeland, Friesland, Utrecht, Drenthe, Groningen en Gelderland (Kwartier van Zutphen) staande regimenten. Met aantekeningen van overlijden tot 1802.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1799/1802">1799 - 1802</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat uitsluitend onderofficieren en minderen.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93526" type="ABS">175</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e2e27a1-3250-42f8-bf0f-62d2a6bbac9d</unitid>
+						<unittitle>Register van militaire pensioenen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1803/1808">1803 - 1808</unitdate>
+						<physdesc>1deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat voornamelijk officieren. Tevens zijn enkele weduwepensioenen en aantekeningen van overlijden opgenomen. Met klapper.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93527" type="ABS">176</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6dd0a981-501b-41cd-8749-d411a083392d</unitid>
+						<unittitle>Lijst van gegageerde onderofficieren en minderen. Nrs. 3097 - 4390.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1803/1810">1803 - 1810</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93528" type="ABS">177</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0eb5f735-c6c5-4442-aed5-c0e1e9a04b98</unitid>
+						<unittitle>Lijsten van gepensionneerde officieren, wier pensioenen resp. worden uitbetaald in de Departementen Friesland, Groningen, Overijssel, Gelderland, Utrecht, Holland, Zeeland, Bataafs Brabant en van officieren, woonachtig in het buitenland, wier pensioenen door het Departement Holland worden betaald. Gedrukt.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1804">1804</unitdate>
+						<physdesc>9 stukken in 1 omslag</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93529" type="ABS">178</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/81ab1b07-bd4e-43c3-95fe-b3d5ab1fc19d</unitid>
+						<unittitle>Lijst van pensioenen, uitbetaald aan weduwen van officieren.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1804/1807">1804 - 1807</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93530" type="ABS">179</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a931ee9-cab7-44be-9372-a30b5e1b89c1</unitid>
+						<unittitle>Lijsten van gepensionneerde officieren. Gedrukt.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="18050628">28 juni 1805</unitdate>
+						<physdesc>3 stukken in 1 omslag</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93531" type="ABS">180</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f9e9dfb-0eb5-4d2b-9e18-8a8cb70cef68</unitid>
+						<unittitle>Lijst van pensioenen, toegekend aan de weduwen van in de veldtochten van 1799 - 1801 gesneuvelde officieren, onderofficieren en minderen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="18070724">24 juli 1807</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93532" type="ABS">181</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/431dbf0e-adf0-4809-b719-065ffe85bf85</unitid>
+						<unittitle>Lijst van gratificaties, toegekend aan de weduwen van in de veldtocht van 1799 gesneuvelde onderofficieren en minderen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="18070821">21 augustus 1807</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93533" type="ABS">182</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af1f79e4-4c33-4a0f-b81e-afdcccd0b64a</unitid>
+						<unittitle>Register van pensioenen en gratificaties, verleend aan weduwen en nagelaten kinderen van officieren, onderofficieren en minderen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<scopecontent>
+						<p>Met klapper</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93534" type="ABS">183</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d044d7f4-8097-441a-a75d-84494127199e</unitid>
+						<unittitle>Lijst van soldijen van reforme van onderofficieren en minderen. Nrs. 1 - 518.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1807/1810">1807 - 1810</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93535" type="ABS">184</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c1980ea-82d0-487b-bc27-c8b61bd71748</unitid>
+						<unittitle>Lijst van pensioenen van officieren. Nrs. 1 - 644.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<scopecontent>
+						<p>Met klapper (onvolledig).</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93536" type="ABS">185</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/239eb2bb-d1d1-44d9-abd9-a1945b1c96a5</unitid>
+						<unittitle>Lijst van gagement of reforme van onderofficieren en minderen. Nrs. 1 - 934.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1808/1810">1808 - 1810</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<scopecontent>
+						<p>Met klapper.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93537" type="ABS">186</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b51debba-c022-4124-bdea-7ace4f20f55e</unitid>
+						<unittitle>Register van militaire pensioenen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1809/1810">1809 - 1810</unitdate>
+						<physdesc>1 deel.</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat uitsluitend officieren. Opgenomen in één aantekening van overlijden. Met klapper.</p>
+					</scopecontent>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93679" type="ABS">328</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f76b68d3-8506-4dff-831d-e3a084cef3d7</unitid>
+						<unittitle>Pensioenstaten van militairen, afkomstig uit het archief van de Staatssecretarie onder Lodewijk Napoleon.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1810">1810</unitdate>
+						<physdesc>1 omslag.</physdesc>
+					</did>
+					<odd>
+						<p>Afkomstig uit 2.01.01.07, inv.nr. 491</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="93681" type="ABS">330</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90ace001-dd56-4923-84a1-8d3b89d90567</unitid>
+						<unittitle>Verklaringen van erfrecht van overleden gepensioneerde militairen</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1811/1813">1811 - 1813</unitdate>
+						<physdesc>1 omslag.</physdesc>
+					</did>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

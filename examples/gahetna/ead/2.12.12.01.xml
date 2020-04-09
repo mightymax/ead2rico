@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:41:14 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.12.12.01::Commandant der Marine te Willemsoord)//NL" url="http://proxy.handle.net/10648/322d3203-ef5c-4ca2-88a3-aa3d7bfac5f5" urn="2.12.12.01.ead.xml">2.12.12.01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de Commandant der Marine te Willemsoord, 1841-1943</titleproper>
+        <author>H.E.M. Mettes</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1999">1999</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Otto van der Meij, <date calendar="gregorian" era="ce"/>
+      </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Commandant der Marine te Willemsoord</unittitle>
+      <unittitle type="short">Marinecommandant Willemsoord</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1841/1943" type="inclusive">1841-1943</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">D27514</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">0.90 meter; </extent>
+        
+      <extent unit="files">84 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>
+      </langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Commandant der Marine te Willemsoord</corpname>
+      </origination>
+      <origination>
+        <famname/>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">In dit archief bevinden zich stukken betreffende de aangelegenheden van de Commandant van Marine te Willemsoord, alsmede het maritiem hospitaal aldaar over de periode 1841-1940. Verder bevat het archief gegevens over het functioneren van de marine tijdens de mobilisatie (zomer 1939-mei 1940) en het optreden van de marine in mei 1940. Tenslotte is er enige documentatie over personeel van de marine in Nederland tijdens de Duitse bezettingstijd (demobilisatie, krijgsgevangenschap).</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek">MAISAO-WOTAP</subject>
+        <subject source="ABS_trefwoord">2.12</subject>
+      </controlaccess>
+      
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Commandant der Marine te Willemsoord, 1841-1943, nummer toegang 2.12.12.01, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Marinecommandant Willemsoord, 2.12.12.01, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178121" type="ABS">1</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5426e00c-a9b6-47cb-a287-55fb0d16d556</unitid>
+          <unittitle>Stukken betreffende de samenstelling van het korps schrijvers en victualiemeesters bij de Nederlandse marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1841/1844">1841-1844.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178122" type="ABS">2</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9ced63d-396a-4382-8d07-7d966ec3ab1b</unitid>
+          <unittitle>Verbalen, minuten van besluiten en uitgaande stukken met daarbij opgelegde ingekomen stukken, alsmede voor kennisgeving aangenomen ingekomen stukken</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1843/1925">1843 december 1925.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178123" type="ABS">3</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7f56d91-a535-4273-a2dd-cbcc55dbd3a4</unitid>
+          <unittitle>Koninklijk Besluit van 25 december 1846, nr. 56 inzake de administratie en het beheer van het maritiem hospitaal te Willemsoord, afschrift, met aantekeningen in de kantlijn,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1847">1847.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>4-5</unitid>
+          <unittitle>Kopieboeken van de hoofdingenieur der marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1892/1912">1892-1912.</unitdate>
+          <physdesc>2 banden</physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178124" type="ABS">4</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d4f8f97-28e1-4688-b8df-01c1399a1ad4</unitid>
+            <unittitle>1992-1898.</unittitle>
+          </did>
+          <odd>
+            <p>Met los inliggende index.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178125" type="ABS">5</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25bae798-9234-4345-871a-79fb14a5b58f</unitid>
+            <unittitle>1899-1912.</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178126" type="ABS">6</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bae8227-f2ca-447e-96d7-1c0feff27e51</unitid>
+          <unittitle>Stukken betreffende vaarwegen in de stelling van Amsterdam,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1894/1897">1894-1897.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178127" type="ABS">7</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf6587f0-cf08-4a22-b2c0-7ad3d776adf1</unitid>
+          <unittitle>Brief aan de minister van Marine inzake drankbestrijding bij de marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1903">1903.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178128" type="ABS">8</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/440cf693-bbfb-4d22-82d0-9cd4ccba89a7</unitid>
+          <unittitle>Stukken betreffende het werven en opleiden van leerling-onderofficieren en matrozen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1906/1914">1906, 1914.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178129" type="ABS">9</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffe13bde-3749-40bb-bacc-7b149e3eae8c</unitid>
+          <unittitle>Stukken betreffende het ontwerpen van een manoeuvreerboek voor torpedoboten,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1908/1910">1908-1910.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178130" type="ABS">10</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1b4ac2f-4280-42f6-b2e0-d28bef03b53a</unitid>
+          <unittitle>Ingekomen en minuten van uitgaande stukken bij en van de dirigerend officier van gezondheid 1e klasse, chef van het marinehospitaal te Willemsoord,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1909/1917">1909-1917.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178131" type="ABS">11</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a997dd4d-c73b-445f-9734-a21856e729fa</unitid>
+          <unittitle>Ingekomen brief van de minister van Marine inzake de beproeving van een blusinrichting om het vlammen van brandbare gassen op de schoorstenen van torpedoboten bij het ontwikkelen van groot vermogen tegen te gaan, met bijlagen en kantbeschikking,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914">1914.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178132" type="ABS">12</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b404583-ce6b-4d1c-bb9a-a567004d2370</unitid>
+          <unittitle>Ingekomen brief van de minister van Marine inzake het afvoeren uit de sterkte van pantser- en torpedoboten en wachtschepen, met bijlage en kantbeschikking,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914">1914.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178133" type="ABS">13</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ce7f370-acd6-4b81-b58e-e09e91df9532</unitid>
+          <unittitle>Stukken betreffende de bouw en verbouw van gebouwen op het terrein van de Rijkswerf te Den Helder,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1916">1914, 1916.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178134" type="ABS">14</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0e3e95b-eb7a-4aaf-bc86-8d3c22c39205</unitid>
+          <unittitle>Stukken betreffende de neutraliteitsproclamatie en de handhaving van deze neutraliteit,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1917">1914-1917.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178135" type="ABS">15</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/215777d5-0112-4489-b420-18030dafc881</unitid>
+          <unittitle>Stukken betreffende draadloze communicatie bij de Koninklijke Marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1915/1918">1915-1918.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178136" type="ABS">16</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/78f86dbf-ce37-4729-a3e4-c1161027e47f</unitid>
+          <unittitle>Stukken betreffende de instructie bewakingsdienst,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1915/1918">1915-1918.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178137" type="ABS">17</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/639e1e3e-e8cb-4321-9a34-1f828723170b</unitid>
+          <unittitle>Stukken betreffende strategische en technische eisen waaraan bij de bouw van nieuwe onderzeeboten voor Nederland en Nederlands-Indië moet worden voldaan,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1916">1916.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178138" type="ABS">18</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4feda16-04bb-415c-9f13-8af7b3efbffa</unitid>
+          <unittitle>Stukken betreffende de demobilisatie.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918">1918.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178139" type="ABS">19</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a886ac6a-399a-4ab0-baf6-266e31afcd79</unitid>
+          <unittitle>Stukken betreffende de opleiding van zeeofficieren en officieren werktuigkundigen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918">1918.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178140" type="ABS">20</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/074e6e89-7a21-4c66-a403-9261eaec1b96</unitid>
+          <unittitle>Jaarverslagen van diverse marine-onderdelen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1920/1939">1920, 1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178141" type="ABS">21</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59c56b1b-5680-4409-b571-94a44e5fcee8</unitid>
+          <unittitle>Stukken betreffende reisrapporten van Hr.Ms. schepen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1921/1937">1921-1922, 1926, 1928-1930, 1933, 1935-1937.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178142" type="ABS">22</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcf01e45-00e3-498c-a5d0-456c87ffd3c9</unitid>
+          <unittitle>Stukken betreffende de organisatie en taakuitvoering van het stafmuziekkorps van de Koninklijke Marine te Den Helder,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1922/1940">1922-1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178143" type="ABS">23</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d49e3cfa-f546-4635-ba82-466aff8cc11f</unitid>
+          <unittitle>Stukken betreffende het conceptreglement voor het automatisch pistool nr. 1 (Parabellum),</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1928">1928.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178144" type="ABS">24</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/48765f08-ab78-418e-9db8-f4963319490c</unitid>
+          <unittitle>Brief aan de minister van Marine inzake een wijziging van het voorschrift mutatiestaat, minuut, met bijlagen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1928">1928.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178145" type="ABS">25</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3334283b-1443-41f9-8689-dbb585de6b3d</unitid>
+          <unittitle>Brief van de directeur van de Rijkswerf Willemsoord aan de chef afdeling materieel van het ministerie van Marine inzake de aanbieding van een memo over de toename van de werkzaamheden bij de afdeling werktuigbouw van deze Rijkswerf, met bijlage,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1928">1928.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178146" type="ABS">26</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbe3fd30-77ce-4fc6-a884-bc09a6eb9973</unitid>
+          <unittitle>Stukken betreffende de bouw van arbeiderswoningen op het terrein van het voormalig marine-etablissement te Amsterdam,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178147" type="ABS">27</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/24e29bc8-44aa-4e12-b40d-8792bc58ca78</unitid>
+          <unittitle>Stukken betreffende het oproepen en herstellen in actieve dienst van gepensioneerd personeel van de Koninklijke Marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934-1935, 1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178148" type="ABS">28</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bcb8274b-3471-4006-92d1-da0008f2c0c5</unitid>
+          <unittitle>Stukken betreffende de instructie, opleiding en werkzaamheden van de chef torpedo-atelier en de hoofd- inschieter,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1935/1937">1935, 1937.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178149" type="ABS">29</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c655df52-ffcb-4777-88f7-b850a681d0c8</unitid>
+          <unittitle>Brief van de chef marinestaf inzake de oorlogsgereedheid van het vliegkamp Schellingwoude,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938">1938.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>30-35</unitid>
+          <unittitle>Ingekomen rapporten verrichtingen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+          <physdesc>6 omslagen</physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178150" type="ABS">30</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58132dfc-8280-4b90-b896-edaf23adc8e0</unitid>
+            <unittitle>Van de onderzeedienst, <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178151" type="ABS">31</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94e2502c-f730-443e-ac4a-3969daebbdec</unitid>
+            <unittitle>Van Hr.Ms. wachtschip Willemsoord. <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178152" type="ABS">32</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab9ffde4-be29-4639-9e0e-dd860be176dd</unitid>
+            <unittitle>Van vliegkampen de Kooy, De Mok en Schellingwoude. <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178153" type="ABS">33</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b63fd7b-024e-4f72-9ee7-fe275a82934e</unitid>
+            <unittitle>Hr.Ms. Z 3, 5, 7 en 8. <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178154" type="ABS">34</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4618827-9c1d-4aec-bff1-64829bc6edf8</unitid>
+            <unittitle>Hr.Ms. Willem van der Zaan <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178155" type="ABS">35</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69799fc7-cabd-4336-93f2-c9e0eed3310c</unitid>
+            <unittitle>Afdeling materieelconversatie van de marine service- en radiodienst te Willemsoord, <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178156" type="ABS">36</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f12fc9c9-8c60-4f3d-b850-1f2e440ef4ed</unitid>
+          <unittitle>Stukken betreffende werkzaamheden verricht door de marine gasdienst,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178157" type="ABS">37</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/026eeacf-57ec-46a9-9c55-0df3a8b23328</unitid>
+          <unittitle>Brief van de chef van de marinestaf aan de oudste vliegtuigcommandant vliegkamp De Mok te Texel inzake de dislocatie van vliegtuigen, afschrift,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178158" type="ABS">38</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c831f6aa-2fd1-45f4-a8b6-45b48dc0592d</unitid>
+          <unittitle>Kennisgeving inzake het vertrek en de reis van de Hr.Ms. O 19 naar Nederlands-Indië,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178159" type="ABS">39</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/996b98b9-75c9-4f4a-8a3f-4bc33dd9cae7</unitid>
+          <unittitle>Brief van de commandant der maritieme middelen te Vlissingen inzake de gewijzigde vredesinstructie van de luchtbeschermingsofficier in het commando Zeeland, met bijlage, met kantbeschikking,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178160" type="ABS">40</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cf5bc3b-9410-4152-9123-5e75614d8acd</unitid>
+          <unittitle>Brief van de minister van Defensie inzake de toezending van het Overzicht der totale aanbouwkosten van schepen en vaartuigen der Koninklijke Marine (...) ten laste van het begrotingsjaar 1938, met bijlage,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178161" type="ABS">41</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/37912aeb-ffc2-44c5-96af-88540e2c69c6</unitid>
+          <unittitle>Rapport betreffende de reis van Hr.Ms. flottieljeleider Tromp naar de Noorse wateren van 22 mei tot 1 juni 1939,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178162" type="ABS">42</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/57408762-cd87-41dd-b6ed-1d89f36d97c1</unitid>
+          <unittitle>Briefwisseling met B. Kusters inzake een overzicht van het aantal voorradige schepen en het jaar van in dienst stelling,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178163" type="ABS">43</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c97aa57-3f1b-478a-8edc-be35093b6528</unitid>
+          <unittitle>Stukken betreffende de instelling en samenstelling van het commandement maritieme middelen te Rotterdam,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178164" type="ABS">44</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dc6aaac5-e37e-48b5-80b2-c7daf44f80bf</unitid>
+          <unittitle>Stukken betreffende het verstrekken en bekendmaken van vlootorders,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178165" type="ABS">45</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2484c59d-c5ed-495a-a606-5a929f465fcb</unitid>
+          <unittitle>Brief van de chef marinestaf inzake het intrekken van het waarschuwingstelegram A,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178166" type="ABS">46</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/54a04b4f-70fd-49b6-a230-48b958c5979e</unitid>
+          <unittitle>Brief van de oudste vliegkampcommandant De Kooy inzake verboden luchtvaartroutes aan de Duitse westgrens, met kantbeschikking,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178167" type="ABS">47</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f08fa887-4a12-4c79-9a58-556b9756bc73</unitid>
+          <unittitle>Circulaire van de oudste vliegkampcommandant De Mok inzake de overgang van de neutraliteits- naar de oorlogsopstelling,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178168" type="ABS">48</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9e1a7c8-5484-4dcf-9267-4e97be0b8c26</unitid>
+          <unittitle>Circulaire van de chef marinestaf inzake het op peil houden van de vastberadenheid en paraatheid van de troepen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178169" type="ABS">49</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4125b66-6efb-470f-bd59-98748e45b8e4</unitid>
+          <unittitle>Telexbericht van de secretaris van de commandant der marine inzake een wijziging van het kenteken van militaire vliegtuigen van de Koninklijke Marine, afschrift,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178170" type="ABS">50</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c28e2a4e-1b49-4c12-87c0-415c45c402af</unitid>
+          <unittitle>Staat houdende de bemanningen van schepen toegevoegd aan Hr.Ms. Schorpioen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178171" type="ABS">51</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d594e18-750f-4747-9d3f-d5d9853d509b</unitid>
+          <unittitle>Brief van de commandant divisie III hulpmijnenvegers inzake namen en nummers van boeienschepen, met bijlage,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178172" type="ABS">52</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b1dc37f-788d-45c7-8170-7f3fa2554bc3</unitid>
+          <unittitle>Brief van de minister van Defensie inzake de uitreizen van en instructie aan Hr.Ms. van Kinsbergen, O 15 en O 20, met bijlagen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178173" type="ABS">53</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f0f8b7db-c6ca-4803-aba0-5159949037f1</unitid>
+          <unittitle>Stukken betreffende de voorlopige instructie van de commandant eskadervliegtuigen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178174" type="ABS">54</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75c36e52-0e3e-44d6-b354-b2a4a5780657</unitid>
+          <unittitle>Staten houdende de gereedheid van vliegtuigen in beheer bij het vliegkamp De Kooy,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178175" type="ABS">55</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f59cf78-cc7a-40b6-99bf-4178374a6142</unitid>
+          <unittitle>Brief aan de minister van Defensie inzake de plaatsing van officieren bij het marinedepot Rotterdam, concept en expeditie,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+          <physdesc>2 stukken</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178176" type="ABS">56</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8be625bd-d936-4762-965e-6dc08a4dbbfb</unitid>
+          <unittitle>Stukken betreffende ongevallen bij de uitvoering van werkzaamheden bij marine-onderdelen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>57-60</unitid>
+          <unittitle>Stukken betreffende de verdediging, bezetting en encadrering.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+          <physdesc>4 omslagen</physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178177" type="ABS">57</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e56fee5-f031-4372-b891-991911a91f82</unitid>
+            <unittitle>Hoek van Holland, <unitdate calendar="gregorian" era="ce" normal="1939">1939.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178178" type="ABS">58</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b0afb98-7530-48ad-a9ba-425c373c4b91</unitid>
+            <unittitle>Waddeneilanden, <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178179" type="ABS">59</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2c762f3-c409-4c30-a923-e3a36bf33a3f</unitid>
+            <unittitle>Hellevoetsluis, <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2178180" type="ABS">60</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a0c8361-822e-412c-8a31-1d8070c0a7e1</unitid>
+            <unittitle>Amsterdam, <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178181" type="ABS">61</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58d8005d-893a-4fa9-8bc1-2f40871e530a</unitid>
+          <unittitle>Stukken betreffende de organisatie van de luchtbescherming zowel bij de Rijkswerf als in diverse gemeentes,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178182" type="ABS">62</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4655fd6-2bde-40ae-b265-52ace5689bbd</unitid>
+          <unittitle>Stukken betreffende het in- en uit dienst stellen van vaartuigen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178183" type="ABS">63</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0e7c145-05a7-42e9-a698-da1ed88915de</unitid>
+          <unittitle>Brief aan de minister van Defensie inzake de vervanging van 34 adelborsten op diverse posten door zeemiliciens-sergeanten, met bijlage, minuut,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178184" type="ABS">64</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8651792e-bb25-4bac-b3b4-a1bc9795bd60</unitid>
+          <unittitle>Ingekomen maandelijkse rapporten,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 pak</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178185" type="ABS">65</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c35691c8-5541-4b9e-92f7-f9926ab7558a</unitid>
+          <unittitle>Stukken betreffende detachering, overplaatsing, ontslag, verlof, herstel in actieve dienst, sneuvelen, verwonding van marinepersoneel tijdens de meidagen 1940 en na de capitulatie van het Nederland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 pak</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178186" type="ABS">66</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83325141-b2c4-43c0-94ea-03bc05609b5b</unitid>
+          <unittitle>Stukken betreffende rapportages van verrichtingen van marine-onderdelen tijdens de meidagen 1940,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178187" type="ABS">67</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5825994-c208-4ff3-8abe-a3c7b160a09c</unitid>
+          <unittitle>Stukken betreffende de staat van gereedheid van schepen in conservatie bij de Rijkswerf,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178188" type="ABS">68</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3808d8a-d183-48ab-a006-1453b830e660</unitid>
+          <unittitle>Brief van de chef van de marinestaf inzake de aanbieding van een afschrift van een brief van de deutsche Kommissar für die demobilmachtung der niederländischen Wehrmacht, Schwabedissen inzake het in krijgsgevangenschap voeren van generaal Winkelman, het regelen van zijn opvolging en het opheffen van de functie van Opperbevelhebber der land- en zeestrijdkrachten, met bijlage,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178189" type="ABS">69</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e5de4856-24dd-4019-86ba-01d36d1406d2</unitid>
+          <unittitle>Brief van de commandant Hr.Ms. wachtschip Willemsoord inzake het verbranden van het archief van dit schip,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178190" type="ABS">70</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e08a7a8-43d0-4e52-982c-bd9ebf7facc9</unitid>
+          <unittitle>Brief van de chef van de marinestaf inzake de mogelijke terugkeer van krijgsgevangen marinepersoneel,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178191" type="ABS">71</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eda25c55-4ea3-4c53-b7a9-1f6c236a2f9b</unitid>
+          <unittitle>Stukken betreffende de toestand van batterijen geschut opgesteld in Den Helder,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178192" type="ABS">72</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/847013a9-dd88-4514-a1b6-88ff0e1ab133</unitid>
+          <unittitle>Stukken betreffende het verplaatsen van de zetel van de zeekrijgsraad,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178193" type="ABS">73</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2c335ae-1252-448d-82eb-bd1c44312371</unitid>
+          <unittitle>Stukken betreffende de arbeidsvoorwaarden van marinepersoneel na de meidagen 1940,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178194" type="ABS">74</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f1e02ea-3eaf-4bad-9ce8-f4a01c8ed2e8</unitid>
+          <unittitle>Circulaire van de commandant van het marinedepot 's-Gravenhage inzake een verhuizing van zijn kantoor,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178195" type="ABS">75</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac422a87-1466-4ddf-aafa-b2a2a53ecbb3</unitid>
+          <unittitle>Brief van de directeur van de Rijkswerf inzake het tot zinken brengen van schepen, met kantbrief,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178196" type="ABS">76</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/012d4808-6f42-46e0-9992-91083937b438</unitid>
+          <unittitle>Stukken betreffende de sterkte van marine-onderdelen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178197" type="ABS">77</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b128970-94bf-44ab-868e-a3ee68aba7e7</unitid>
+          <unittitle>Brief van de commandant der maritieme middelen aan de chef marinestaf inzake de samenstelling van het marinedepot Rotterdam. afschrift,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">1940.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178198" type="ABS">78</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/34b13f10-4312-4e11-a460-d82a125f0496</unitid>
+          <unittitle>Nota van J.J.L. Willinge aan de commandant der marine inzake de aanbieding van een nota over de organisatie van de scheepsdienst, met bijlage,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1943">1943.</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178199" type="ABS">79</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e118b8c-1bc5-4b3e-b55e-428dae67794f</unitid>
+          <unittitle>Nota inzake de personele bezetting van kustforten door de Koninklijke Landmacht en/of - Marine,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1913">[1913]</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178200" type="ABS">80</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b6a295e-9f05-43ed-ae7f-3314ddab9e84</unitid>
+          <unittitle>Stukken betreffende overzichten van het aantal beambten en werklieden werkzaam bij de rijkswerven te Willemsoord en Hellevoetsluis,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1927/1933">[1927], 1933</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178201" type="ABS">81</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d9ed681-6e12-42b9-bbf4-c3037318d5ff</unitid>
+          <unittitle>Voorschriften voor de commandant der marine te Willemsoord,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1929">[1929]</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178202" type="ABS">82</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/687d04b9-9d45-4b3a-b542-35f5cf1dfabc</unitid>
+          <unittitle>Stukken betreffende de wijziging van het stafvoorschrift,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1932">[1932]</unitdate>
+          <physdesc>1 omslag</physdesc>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178203" type="ABS">83</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25e7c817-a358-4c61-ae64-53e9b481d797</unitid>
+          <unittitle>Aantekening van de commandant der Zeemacht inzake het rapport van de commissie Kan tot herziening der maritieme middelen in Nederlands-Indië.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1933">[1933]</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+        <odd>
+          <p>Incompleet.</p>
+        </odd>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2178204" type="ABS">84</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/19ca5101-546d-42eb-ac26-d08ec8602977</unitid>
+          <unittitle>Telegram inzake het optreden van de Koninklijke Marine ten opzichte van het Duitse leger,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1940">[1940]</unitdate>
+          <physdesc>1 stuk</physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

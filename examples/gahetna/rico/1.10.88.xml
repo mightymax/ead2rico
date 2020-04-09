@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d1014e7f-8ae6-4ed9-ad91-90bac480ce9b"
+  rdf:about="record/1.10.88">
+    <rico:identifier>1.10.88</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1930</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1226" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.88/i1" />
+      <rico:instantiates rdf:resource="record/1.10.88" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121121</rico:hasModificationDate>
+        <html:p>21 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Van Zijll,
+        1430-1666</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d1014e7f-8ae6-4ed9-ad91-90bac480ce9b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>De stukken zijn grotendeels geschreven in het gotische cursiefschrift,
+        met name in de oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1226">
+    <rico:describedBy rdf:resource="record/1.10.88" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1226</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Van Zijll</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Zijll, van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1430</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1666</rico:endDate>
+    <rico:date>1430-1666</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Rysenborch</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Luntius</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Rodenburgh</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Everdingen</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Blom</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Willem Claesz. van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Pelgrum Willemsz. van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Willem Pelgrumsz. van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cornelis van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Heyltgen Joostendr. van Brederode</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Joost van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cornelis van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Johannes van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Frans van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Abraham van Zijll</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De aanteekening in den inventaris van den Raad van State voegt bij den
+          naam van den ontvanger Van Zijll geen voornaam toe. Personen van dezen naam,
+          die als ontvanger der gemeene middelen te Hulst gefungeerd hebben. zijn
+          geweest: Frans van Zijll 1647-1655 en diens zoon Philips van Zijll 1655-1666.
+          Betreffende Frans van Zijll komen ook bescheiden in het archief van den Raad
+          van State voor. De inventaris vermeldt onder: Kas 4 loquet 16 no. 12 "Eenige
+          stukken rakende het insolvente comptoir van Van Zijll in leven ontfanger van de
+          gemeene middelen te Hulst. Verdragen met desselfs weduwe ingevolge resolutie
+          Raad van State 25 November 1662 ..............."</html:p>
+          <html:p>Van de hieronder beschreven verzameling mogen wij echter aannemen, dat
+          zij afkomstig is van Philips van Zijll. In de eerste plaats wijst daarop de
+          aanwezigheid van een stuk, dat gedateerd is 1666; en voorts blijkt uit
+          bescheiden in het archief van den Raad van State, dat de papieren van Philips
+          van Zijll in den zomer van 1666 in beslag zijn genomen en opgezonden naar Den
+          Haag. Bij resolutie van 10 Juli 1666 heeft de Raad van State den commies der
+          financiën Jasper van der Haer opgedragen de papieren, meubelen enz., aanwezig
+          in het comptoir en woonhuis van Van Zijll, te inventariseeren. De inventaris,
+          opgemaakt ten overstaan van burgemeester en schepenen van Hulst op 19 Juli
+          1666, is in het archief van den Raad van State aanwezig. Inv. no 2114. Bij
+          resolutie van 30 Juli 1666 heeft die Raad den ontvanger Philips van Zijll
+          ontslagen en gelast, dat de stukken, door Van der Haer overgezonden, gesteld
+          zouden worden in handen van den thesaurier-generaal.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken van ambtelijke en persoonlijke aard afkomstig uit
+      het bezit van Philips van Zijll (1583-1637), ontvanger van de gemene middelen te
+      Hulst 1655-1666: het betreft voornamelijk stukken van. Joost van Zijll, secretaris,
+      ontvanger der verpondingen en griffier van het Leenhof van Vianen. In het archief
+      zijn onder meer charters te vinden uit de periode 1430-1572 en transportbrieven
+      betreffende land en goederen onder het Leenhof van Vianen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.03 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>173 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

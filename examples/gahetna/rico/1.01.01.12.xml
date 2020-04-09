@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/4ad78365-a5ff-4f25-ab57-cff557bb039f"
+  rdf:about="record/1.01.01.12">
+    <rico:identifier>1.01.01.12</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1976</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/112" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.01.01.12/i1" />
+      <rico:instantiates rdf:resource="record/1.01.01.12" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110411</rico:hasModificationDate>
+        <html:p>11 april 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Audiëntie van Maria van
+        Hongarije en Emmanuel Philibert van Savoye, 1535-1558</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/4ad78365-a5ff-4f25-ab57-cff557bb039f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven documenten. De Nederlandse stukken van voor ca. 1700
+        zijn geschreven in het gotische cursiefschrift, met name in de Oud-Hollandse
+        klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/112">
+    <rico:describedBy rdf:resource="record/1.01.01.12" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>112</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Audience van Maria van Hongarije en Emmanuel Philibert van
+      Savoye</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Audience</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1535</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1558</rico:endDate>
+    <rico:date>1535-1558</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De audience van Maria van Hongarije en Emmanuel Philibert van
+            Savoye, 1535-1558.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij de benoeming van Maria van Hongarije als landvoogdes op 1 oktober
+          1531 voerde Karel V ook enige ingrijpende hervormingen op bestuurlijk gebied
+          door. Tot 1531 waren de centrale instellingen in de Nederlanden steeds
+          rechtstreeks onderworpen geweest aan de vorst als afdelingen van zijn
+          persoonlijke raad. Vanaf dit moment echter maken deze instellingen, te weten de
+          Raad van State, De Raad van Financiën en de Geheime Raad (conseil privé) geen
+          deel meer uit van zijn vorstelijke raad, maar worden zij colleges naast de
+          landvoogdes. De Raad van State kreeg van Karel V een raadgevende bevoegdheid in
+          politieke aangelegenheden toebedeeld, met de bedoeling een te eigenzinnige
+          politiek van de landvoogdes uit te schakelen. De Raad van Financiën moest
+          instaan voor een degelijk financieël beheer in de Nederlanden. De Geheime Raad
+          zou de landvoogdes terzijde staan bij bestuur, wetgeving en rechtspraak.
+          Doordat de voorzitter van de Geheime Raad door zijn talrijke nevenfuncties,
+          zoals de verplichting aanwezig te zijn bij vergaderingen van de Raad van State
+          en van de Raad van Financiën, veelvuldig afwezig was, werd de audiencier de
+          voornaamste ambtenaar van de Geheime Raad. De audiencier behandelde de
+          requesten en stond in voor de redactie van de belangrijkste akten, plakkaten en
+          verordeningen; hij verzorgde een belangrijk gedeelte van de briefwisseling van
+          de landvoogdes en speelde een voorname rol bij het zegelen van de bescheiden.
+          Ook ondertekende hij als "sécrétaire seul signant en finances" in de Raad van
+          Financiën alle open brieven. Soms kreeg hij op uitdrukkelijk bevel van de
+          landvoogdes toegang tot vergaderingen van de Raad van State, vooral wanneer er
+          in deze Raad belangrijke brieven getoond moesten worden.</html:p>
+          <html:p>Bij de inning van de zegelrechten werd de audiencier bijgestaan door de
+          controleur van het zegel, gewoonlijk één van de gewone secretarissen van de
+          Geheime Raad.</html:p>
+          <html:p>Tijdens de landvoogdij van Maria van Hongarije (1531-1555) en Emmanuel
+          Philibert van Savoye (1555-1559) werd het ambt van audiencier uitgeoefend door:
+          Laurent Dublioul (aangesteld door Karel V in 1531)Willem Pensart (1532 februari
+          14 - 1538, tevens secretaris van de Raad van State)Pieter Verreycken (1532
+          secretaris van de Geheime Raad, 1538-1552 audiencier, tevens charterbewaarder
+          in Vlaanderen)Pieter d'Overloepe (1552 voorlopig audiencier, 1555 februari 5,
+          definitieve benoeming tot audiencier - 1577, tevens secretaris van de Raad van
+          Brabant.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Onder keizer Karel V zetelde het bestuur van zijn vorstendommen in Brussel.
+      Dit bestuur werd gevormd door de gemeenschappelijke vorst met ondersteuning van de
+      Centrale Raden. Om zijn gezag en autoriteit te handhaven, koos de keizer vanaf 1531
+      voor het aanstellen van familieleden als regent. Zijn zuster Maria van Hongarije
+      was landvoogdes vanaf 1531 tot 1555. Emmanuel Philibert van Savoye was landvoogd
+      van 1555 tot 1559 onder Filips II, zoon van Karel V.Het archief bevat minuten van
+      stukken uitgegeven op naam van Karel V en Maria van Hongarije betreffende de oorlog
+      tegen Frans I, koning van Frankrijk en ordonnanties van Maria van Hongarije en
+      Emmanuel Philibert van Savoye aan de president van het conseil privé inzake het
+      vervaardigen en zegelen van plakkaten en brieven volgens bijgaande
+      minuten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.25 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>12 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

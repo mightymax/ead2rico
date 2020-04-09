@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/0d609608-8afa-4bd9-b445-5755b118f673"
+  rdf:about="record/2.01.28.03">
+    <rico:identifier>2.01.28.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1899</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/K23023" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.01.28.03/i1" />
+      <rico:instantiates rdf:resource="record/2.01.28.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190614</rico:hasModificationDate>
+        <html:p>14 juni 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20180215</rico:hasModificationDate>
+        <html:p>15 feb 2018</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121215</rico:hasModificationDate>
+        <html:p>15 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100419</rico:hasModificationDate>
+        <html:p>19 april 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de divisie West van het
+        Ministerie van Koophandel en Marine, 1806-1807 en van het Ministerie van Marine
+        en Koloniën, 1808-1810</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/0d609608-8afa-4bd9-b445-5755b118f673" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/K23023">
+    <rico:describedBy rdf:resource="record/2.01.28.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>K23023</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Koophandel en Koloniën: Divisie West
+      [West-Indië]</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Koloniën West-Indië, 1806-1810</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1801</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1811</rico:endDate>
+    <rico:date>1801-1811</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Koophandel en Koloniën, Boekhouder-Generaal en
+            Ontvanger-GeneraalMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Marine en Koloniën, Commissarissen Militaire Zaken, Tweede
+            Divisie WestMinisterie van Marine en Koloniën, Tweede Divisie (West)Raad der
+            Amerikaanse Bezittingen en Etablissementen, Boekhouder-Generaal en
+            Ontvanger-GeneraalRaad der Amerikaanse Bezittingen en Etablissementen,
+            Commissaris en Commies van Militaire Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Ministerie van Marine en Koloniën bevat verbalen met
+      indexen en bijlagen, kopieboeken en correspondentie van ambtenaren en ministers uit
+      de periode juli 1806 - december 1810 onder anderen van J.C. van der Kemp,
+      secretaris van de raad van Amerikaanse koloniën, later advocaat-generaal bij het
+      Hooge Geregtshof in den Haag. Als lid van de Raad van Koophandel en Koloniën
+      onderhandelde hij in 1815 met de Engelse bestuurders over de Amerikaanse koloniën
+      die zij op de Nederlanders hadden veroverd.De rubrieken gewijd aan de koloniën op
+      de kust van Guinea en aan Berbice, Curaçao, St. Eustatius en St. Martin (Saba)
+      bevatten eveneens correspondentie, voorts memories, kopierapporten en monsterrollen
+      van onder meer " 's-konings slaven ter kuste van Guinea ", maar ook extracten uit
+      brieven van Pieter Linthorst (1757- 1807). Deze begon zijn carrière als bediende
+      bij een boek- en behangseldrukkerij te Utrecht en beëindigde als
+      gouverneur-generaal van de Kust van Guinea, van 1805 tot 1807.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>252 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>14,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

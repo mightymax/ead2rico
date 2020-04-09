@@ -1,0 +1,3094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "https://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<!-- 24-12-2019 10:07:12 -->
+<ead audience="external">
+<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.09.68::Ministerie van Justitie: archieven betreffende Zuiveringsaangelegenheden (excl. de politiezuivering), en het archief van het Hoge College voor de Rechterlijke Macht)//NL" url="http://hdl.handle.net/10648/748f72d4-e1c9-4012-9e50-6630c52800fb" urn="NL-HaNA_2.09.68.ead.xml">2.09.68</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van de archieven betreffende zuiveringsaangelegenheden van het Ministerie van Justitie, (1936) 1944-1959</titleproper>
+<author>CAS 669</author></titlestmt>
+<editionstmt><edition>Versie: 20-06-2018</edition></editionstmt>
+<publicationstmt>
+<publisher>Nationaal Archief, Den Haag</publisher>
+<date calendar="gregorian" era="ce" normal="2004">2004</date>
+<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+<notestmt><note><p>Geanonimiseerde versie.</p></note></notestmt>
+</filedesc>
+<profiledesc>
+<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Elena Magnée-Smirnova, <date calendar="gregorian" era="ce" normal="20061010">10 oktober 2006</date>. </creation>
+<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: <lb/>S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, Erven B. van der Kamp, Groningen 1898;<lb/>S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920;<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, Rijks Archiefschool, Utrecht 1974;<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983;<title linktype="simple">ISAD (G) : General International Standard Archival Description, second edition</title>, Ottawa 2000;<lb/>J.L. van der Gouw e.a., <title linktype="simple">Nederlandse Archiefterminologie</title>, Tjeenk Willink, Zwolle 1962;<title linktype="simple">Archivistische Terminologie</title>, Rijks Archiefschool, Utrecht 1975;<title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983;<title linktype="simple">Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003</descrules>
+</profiledesc>
+<revisiondesc audience="internal">
+<change>
+<date calendar="gregorian" era="ce" normal="20130123">23 januari 2013</date>
+<item><num>4</num> Concordans (bijlage 8) ingevoegd als tabel, door <persname>Hanno de Vries</persname></item>
+</change>
+<change>
+<date calendar="gregorian" era="ce" normal="20071119">19 november 2007</date>
+<item><num>3</num> Bijlage 8 met scripting ingevoerd als unitid[@type=&quot;obsolete&quot;], door <persname>Dirk van Laanen</persname></item>
+</change>
+<change>
+<date calendar="gregorian" era="ce" normal="20071119">19 november 2007</date>
+<item><num>2</num> De volgende tien inventarisnummers 'ontdubbeld': 21, 76, 134, 140, 150, 151, 175, 176, 182, 186. Waren kennelijk door CAS bedoeld als een soort uitbreidbare verzamelbeschrijvingen met steeds 1 enkele deelbeschrijving. Relevante gedeelten uit zgn. deelbeschrijving omhooggezet , door <persname>Dirk van Laanen</persname></item>
+</change>
+<change>
+<date calendar="gregorian" era="ce" normal="20070402">2 april 2007</date>
+<item><num>1</num> Lijsten in inleiding verbeterd, door <persname>Henny van Schie</persname></item>
+</change>
+</revisiondesc>
+</eadheader>
+<archdesc level="fonds" type="inventory">
+<did>
+<head>Beschrijving van het archief</head>
+<unittitle label="Naam archiefblok: ">Ministerie van Justitie: archieven betreffende Zuiveringsaangelegenheden (excl. de politiezuivering), en het archief van het Hoge College voor de Rechterlijke Macht</unittitle>
+<unittitle type="short">Justitie / Zuiveringsaangelegenheden</unittitle>
+<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1936/1959" type="inclusive">1936-1959</unitdate>
+<unitdate type="bulk" era="ce" calendar="gregorian" normal="1944/1959">merendeel 1944-1959</unitdate>
+<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">J26587</unitid>
+<physdesc label="Omvang: "><extent unit="files">233 inventarisnummer(s); </extent></physdesc>
+<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzonder handschriften.</materialspec>
+<repository label="Archiefbewaarplaats: ">Nationaal Archief</repository><physloc/>
+<origination label="Archiefvormers: ">
+<corpname>Ministerie van Justitie</corpname>
+
+<corpname>Hoge College voor de Rechterlijke Macht</corpname>
+
+</origination>
+<abstract label="Samenvatting van de inhoud van het archief: ">Het archief betreffende de Zuiveringsaangelegenheden (excl. Politiezuivering) bevat archiefbescheiden zoals brieven, nota's en verbalen over de zuivering van het justitieel apparaat. Daarnaast zijn er ook archiefbescheiden in te vinden met betrekking tot de bemoeienis met overige zuiveringsaangelegenheden zoals artsen, burgermeesters en de zuiveringsactiviteiten van het bedrijfsleven. Het archief van het Hoge College voor de Rechterlijke macht bevat correspondentie, notulen van vergaderingen en het eindverslag van de werkzaamheden.</abstract>
+</did>
+<descgrp type="context">
+<head>Archiefvorming</head>
+
+<bioghist>
+<head>Geschiedenis van de archiefvormer</head>
+<bioghist>
+<head>GESCHIEDENIS VAN DE ZUIVERING VAN AMBTENAREN EN DE RECHTERLIJKE MACHT</head>
+<bioghist>
+<head>BIJZONDERE RECHTSPLEGING EN ZUIVERING</head>
+<p>Tijdens de Duitse bezetting van Nederland in de Tweede Wereldoorlog waren zowel de illegaliteit als de uitgeweken regering in Londen ervan overtuigd dat na de bevrijding alle 'foute' Nederlanders zwaar gestraft moesten worden. Ook koningin Wilhelmina liet zich meermalen in die bewoordingen uit: 'voor verraders is in een vrij Nederland geen plaats meer' <note>  <p>Radiorede op 10 mei 1941</p></note> . </p>
+<p>Daartoe werden in Londen voorbereidingen getroffen om deze 'foute' Nederlanders te weren uit de maatschappij en uit de door hen beklede functies en hun daden te bestraffen (bijzondere rechtspleging). De juridische grondslagen lagen in de in december 1943 gereed gekomen Besluiten Buitengewoon Strafrecht <note>  <p>Besluit van 22 december 1943, Stb. D 61</p></note>  en Buitengewone Rechtspleging <note>  <p>Besluit van 22 december 1943, Stb. D 63 </p></note> . </p>
+<p>De coördinatie van de bijzondere rechtspleging was opgedragen aan de minister van Justitie.  Een andere voorbereidende maatregel was gericht op een spoedige herinrichting van het binnenlands bestuur en op herstel van het vertrouwen van de burgers in de overheid. Daarom moest het ambtenarenkorps worden doorgelicht en ontdaan van 'foute' elementen. Niet alleen pro-Duitse figuren moesten worden verwijderd, maar men vond het noodzakelijk het gehele ambtenarenapparaat aan de tand te voelen, te 'zuiveren'. Deze term was voorheen niet bekend in het Nederlandse rechtsbestel, maar werd in de Londense wetgeving voor het eerst geïntroduceerd als term voor zuivering van bepaalde maatschappelijke functies, het verwijderen van onzuivere personen uit die functies. De juridische grondslag werd gelegd in het Zuiveringsbesluit 1944 <note>  <p>Besluit van 13 januari 1944 houdende vaststelling van het Zuiveringsbesluit,  Stb. nr. E 14</p></note> , dat naast ambtenaren ook gericht was op de leden van de rechterlijke macht. </p>
+<p>De coördinatie van de ambtenarenzuivering werd opgedragen aan de minister van Binnenlandse Zaken.  </p>
+<p>Het Militair Gezag (MG), als tijdelijk bestuur na de bevrijding van het Zuiden van Nederland in september 1944, begon voortvarend met de bijzondere rechtspleging en de zuivering. Na de bevrijding van de rest van Nederland in april/mei 1945 zijn de zaken in een stroomversnelling geraakt. Door aanloopproblemen kwam alles toen pas goed op gang al werd het twijfelachtig of de voor de zuivering gestelde einddatum 1 januari 1946 zou worden gehaald. </p>
+</bioghist>
+<bioghist>
+<head>JURIDISCH KADER VAN DE ZUIVERING</head>
+<p>Voor de zuivering van overheidspersoneel werd op 13 januari 1944 de basis gelegd toen het  Zuiveringsbesluit tot stand kwam. </p>
+<p>Hierin werden maatregelen aangekondigd tegen ambtenaren die blijk hadden gegeven van ontrouw aan de zaak van het Koninkrijk, de Koningin en de regering en tegen ambtenaren van wie 'op grond van hun houding tijdens de bezetting niet de getrouwe medewerking aan het herstel van Ons Vaderland werd verwacht'. </p>
+<p>Evident foute personen moesten uit hun functie worden geschorst in afwachting van nadere maatregelen en personen over wie twijfel bestond kon worden bevolen zonder opgave van redenen de uitoefening van hun functie te staken, in afwachting van een onderzoek. De strafmaatregelen richtten zich voornamelijk op ontslag met verlies van alle rechtspositionele rechten; er was geen mogelijkheid tot beroep. </p>
+<p>Het Zuiveringsbesluit 1944 voorzag dus niet in een nuancering van tucht- of strafmaatregelen, zodat ambtenaren bij de eerste procedures in het bevrijde Zuiden vaak strenger gestraft werden dan die in het later bevrijde deel van Nederland, wat deels nog kon worden ondervangen door het latere Zuiveringsbesluit 1945 van toepassing te verklaren op alle zuiveringsgevallen die waren beoordeeld naar maatstaven van het Zuiveringsbesluit 1944.  </p>
+<p>Na de vervanging in januari 1945 van mr. J.A.W. Burger door dr. L.J.M. Beel als minister van Binnenlandse Zaken, kwamen twee wetsbesluiten tot aanvulling van het Zuiveringsbesluit 1944 tot stand: het Koninlijk Besluit van 12 mei 1945 <note>  <p>Koninlijk Besluit nr. F 69</p></note> , waarin een mogelijkheid voor beroep was opgenomen en het Koninlijk Besluit van 2 augustus 1945 <note>  <p>Koninlijk Besluit nr. F 132, ook wel Zuiveringsbesluit 1945</p></note>  waarin een nuancering in de strafmaat was aangebracht: naast ontslag konden ook andere tuchtmaatregelen uit het Ambtenarenreglement worden toegepast, b.v. overplaatsing, terugplaatsing in rang, ophouden van bevordering of een formele berisping. </p>
+<p>In oktober 1945 werd opnieuw een wijziging aangebracht middels een Koninlijk Besluit <note>  <p>Stb. nr. 221</p></note> , waarin een mogelijkheid tot 'eervol' ontslag was opgenomen. </p>
+</bioghist>
+<bioghist>
+<head>HOGE COLLEGE VOOR DE RECHTERLIJKE MACHT</head>
+<p>Bij KB van 13 januari 1944, no. E. 14, gewijzigd bij KB van 12 april 1945, no. F. 56 en van 12 mei 1945, no. F. 68, houdende vaststelling van het Zuiveringsbesluit, werden regelen getroffen, onder meer voor de zuivering van de rechterlijke macht. </p>
+<p>Dit gewijzigd besluit werd ingetrokken bij KB van 2 augustus 1945, no. F. 132, houdende vaststelling van het Zuiveringsbesluit 1945. Evenwel bevatte dit in artikel 1, lid 1 uitdrukkelijk de bepaling, dat het niet van toepassing was op de met rechtspraak belaste leden van de rechterlijke macht, noch op de procureur-generaal bij de Hoge Raad. Aangezien geen overgangsbepalingen waren vastgesteld moet worden aangenomen dat na 4 augustus 1945, de dag van de inwerkingtreding van het Zuiveringsbesluit 1945, geen regeling gold voor de met rechtspraak belaste leden van de rechterlijke macht, noch voor de procureur-generaal bij de Hoge Raad. </p>
+<p>Aan deze toestand werd een einde gemaakt door de uitvaardiging van de besluiten van 26 oktober 1945, genummerd F 242 en F 243. Het eerste bevatte nadere regelen aangaande de zuivering van de rechterlijke macht; het andere stelde voorschriften vast ten aanzien van de in de bezettingstijd benoemde en ontslagen leden van de rechterlijke macht. </p>
+<p>Het besluit, vervat in KB F. 242, verstond onder de leden van de rechterlijke macht, de leden met rechtspraak belast en de procureur-generaal bij de Hoge Raad der Nederlanden, mits benoemd vóór 10 mei 1940 (art. 1). </p>
+<p>In artikel 2 werd bepaald, dat deze leden zouden worden ontslagen, indien zij van ontrouw aan de zaak van het Koninkrijk of aan de Koningin hadden doen blijken; door gedragingen of uitlatingen blijk hadden gegeven van een nationaal-socialistische geestesgesteldheid; of bij de vervulling van hun taak tijdens de bezetting in ernstige mate op voor de Nederlandse rechtsbedeling schadelijke wijze waren tekort geschoten. </p>
+<p>Voor de toepassing van deze maatregelen werd bij KB van 3 december 1945, no. 86 het Hoge College voor de Rechterlijke Macht in het leven geroepen. Daarnaast werd in het ressort van iedere gerechtshof ingesteld een Rechterlijke Zuiveringsraad. </p>
+<p>In het Hoge College voor de Rechterlijke Macht werden bij eerder genoemd KB benoemd tot lid, tevens president mr. J.R.H. van Schaik, oud minister van Justitie. Tot leden werden verder benoemd: </p>
+<p>
+<list mark="hyphen" type="marked">
+<item>P. Scholten, oud-hoogleraar van de gemeentelijke Universiteit van Amsterdam;
+</item>
+<item>J.K. Onnen, oud-president van het Hoog Gerechtshof van Nederlands-Indië;
+</item>
+<item>G. Kirberger, oud-raadsheer in de Hoge Raad der Nederlanden;
+</item>
+<item>J. Verdam, president van het Gerechtshof te Amsterdam;
+</item>
+<item>Jhr. P.J.H.M. van der Does de Willebois, vice-president van het Gerechtshof te Amsterdam;
+</item>
+<item>F.F. Viehoff, vice-president van het Gerechtshof te Leeuwarden;
+</item>
+<item>Th. L. van Berckel, raadsheer in het Gerechtshof te 's-Gravenhage;
+</item>
+<item>F.J.W.M. de Nerée tot Babberich, raadsheer in het Gerechtshof te 's-Hertogenbosch;
+</item>
+<item>H. de Bie, president van de arrondissementsrechtbank te Rotterdam.
+</item>
+</list>Tot secretaris werd benoemd dr. L.W.G. Scholten. </p>
+<p>Op zijn daartoe strekkend verzoek kreeg mr. F.F. Viehoff eervol ontslag uit zijn functie als lid bij KB van 31 januari 1946. Bij hetzelfde besluit werd in zijn plaats benoemd mr. R.P. Cleveringa, president van het Gerechtshof te Leeuwarden. Het bureau van het college werd gevestigd in het gebouw van het Ministerie van Justitie. Door tussenkomst van de president konden de zittingen worden gehouden in het gebouw van de Tweede Kamer. In totaal werden zes en twintig zittingen gehouden. Drie daarvan waren ingevolge het voorschrift van artikel 9, lid 5 van het Zuiveringsbesluit Rechterlijke Macht, gedeeltelijk openbaar. </p>
+<p>Krachtens besluit van het college werd bij de behandeling van zaken het volgende in acht genomen:  
+<list mark="hyphen" type="marked">
+<item>Bij het vooronderzoek zou slechts, indien dit wenselijk was, de betrokken Zuiveringsraad worden ingeschakeld.
+</item>
+<item>Een lidcommissaris werd slechts benoemd, indien de behoefte daaraan zich deed gevoelen.
+</item>
+<item>Hij te wiens aanzien een onderzoek werd ingesteld, zou zich door een raadsman kunnen doen bijstaan. Het dossier zou, voorzover het feitelijke gegevens bevatte, ter inzage van beiden worden gesteld op het bureau onder toezicht van de secretaris.
+</item>
+<item>Getuigen zouden, onder goedkeuring van het college, ook door de belanghebbende kunnen worden voorgebracht.
+</item>
+</list></p>
+<p>Ingevolge dit alles werd in vier zaken een lidcommissaris aangewezen. In vier gevallen werd bijstand verleend door een raadsman. Het Hoge College riep achttien getuigen op voor de behandeling ter zitting. Bij de verhoren door een lidcommissaris werden dertig getuigen gehoord. Ter uitvoering van artikel 9 van het Zuiveringsbesluit Rechterlijke Macht zijn vijftien zaken behandeld <note>  <p>Zie hiervoor de inv.nrs. 216-229</p></note> . </p>
+<p>Overeenkomstig artikel 3, lid 2 van het KB van 26 oktober 1945, F. 243 vroeg de minister van Justitie advies aan het Hoge College in dertien zaken. <note>  <p>Zie hiervoor de inv.nrs. 202-215</p></note> </p>
+<p>Het Hoge College ontving in de loop van het jaar 1947 van alle Zuiveringsraden het bericht, dat geen verdere gevallen, die tot zuivering aanleiding behoorden te geven, aan deze organen bekend waren. De minister van Justitie gaf eveneens te kennen, dat van zijn zijde geen verdere zaken aanhangig zouden worden gemaakt. Aangezien het Hoge College ook ambtshalve geen gevallen voor zuivering meer ter hand wenste te nemen, verklaarde het in zijn zitting van 21 juni 1947, dat het zijn taak had vervuld. Overeenkomstig het bepaalde in artikel 16 van het Zuiveringsbesluit Rechterlijke Macht gaf het Hoge College hiervan aan Hare Majesteit de Koningin bericht. <note>  <p>Zie hiervoor inv.nr. 231</p></note> </p>
+<p>De minister van Justitie werd hiervan mededeling gedaan, terwijl tevens aan hem een verslag van de verrichte werkzaamheden werd gezonden. <note>  <p>Zie hiervoor inv.nr. 233</p></note> </p>
+</bioghist>
+</bioghist>
+</bioghist>
+<custodhist>
+<head>Geschiedenis van het archiefbeheer</head>
+<p>De archiefbescheiden van het Ministerie van Justitie betreffende de zuivering waren bijeengebracht in een aantal zgn. depots, namelijk: </p>
+<p>
+<list mark="hyphen" type="marked">
+<item>Depot 146: Zuivering rechterlijke macht, omvang 0,75 meter
+</item>
+<item>Depot 152: Hoog Adviescollege zuivering Rechterlijke Macht; omvang 0,25 meter
+</item>
+<item>Depot 164: Zuivering Hoge Raad der Nederlanden, omvang 0,125 meter
+</item>
+<item>Depot 166: Zuivering algemeen, omvang 1,625 meter
+</item>
+</list>Daarnaast werd een archief met stukken inzake de zuivering van het gevangeniswezen ter bewerking aangeboden. </p>
+<p>Hieronder volgt een nadere omschrijving van de bewerkte depots. </p>
+<custodhist>
+<head>Depot 146</head>
+<p>Dit depot had als oorspronkelijke omschrijving &quot;Personeel rechterlijke macht&quot;. Hierin aangetroffen een serie zuiveringsdossiers betreffende lager personeel werkzaam bij de gerechten (uitvoering van het Zuiveringsbesluit 1945). <note>  <p>Zie hiervoor de inv.nrs. 39-75.</p></note>  De dossiers zijn gevormd door de 4e afdeling A, later 8e afdeling B van het Ministerie van Justitie en zijn afkomstig uit het archiefblok Kabinet chronologisch. </p>
+</custodhist>
+<custodhist>
+<head>Depot 152</head>
+<p>Dit depot betreft het door het Hoge College voor de Rechterlijke Macht zelfstandig gevormd archief. </p>
+</custodhist>
+<custodhist>
+<head>Depot 164</head>
+<p>Dit depot bevat archiefbescheiden van het Ministerie van Justitie te Londen, Militair Gezag, sectie II Justitie en het Kabinetsarchief. De bescheiden van het Militair Gezag zijn zeer waarschijnlijk eind oktober 1945 aan de minister van Justitie overgedragen ter verdere behandeling. Een concrete aanwijzing werd in het archief echter niet aangetroffen. De plaatsingslijst behorend bij dit depot bevat 63 beschrijvingen van voornamelijk losse documenten. Samen vormen ze het dossier &quot;Hoge raadsprobleem&quot;. </p>
+</custodhist>
+<custodhist>
+<head>Depot 166</head>
+<p>De stukken afkomstig uit dit depot zijn afkomstig uit het Geheim chronologisch archief, 1945-1949 en het Kabinet chronologisch archief, 1945-1949. Daarnaast werd nog één doos diversen aangetroffen die afkomstig lijkt uit het geheim archief. Ten aanzien van de bestanden afkomstig uit het Kabinetsarchief, 1945-1949 kan het volgende worden meegedeeld. Het Kabinetsarchief bestaat uit verbalen geborgen in onderwerpsdossiers voorzien van een jaar met volgnummer. Elke onderwerpsdossier heeft een agenda waarin de in het dossier aanwezige verbalen zijn opgenomen. Wel moet worden opgemerkt dat niet alle in de agenda genoemde verbalen in het dossier aanwezig zijn. Er werden veel uitleenbriefjes uit een grijs verleden aangetroffen. Bovendien zijn sommige verbalen gewoon niet aanwezig of geborgen in andere dossiers. Het Geheim archief bestaat uit losse verbalen voorzien van een jaaraanduiding met volgnummer. Als toegang op de archieven waren in een aantal gevallen summiere plaatsingslijsten aanwezig. De kwaliteit en het niveau van de beschrijvingen waren echter van matige kwaliteit. Met name de relatie tussen de verschillende bestanden en de stukken was niet altijd goed te leggen. Bovendien was in een aantal gevallen de relatie van de stukken met de archiefvormer verstoord. </p>
+</custodhist>
+<acqinfo altrender="ABS">
+<head>De verwerving van het archief</head>
+<p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p>
+</acqinfo>
+</custodhist></descgrp>
+
+<descgrp type="content_and_structure">
+<head>Inhoud en structuur van het archief</head>
+
+<scopecontent>
+<head>Inhoud</head>
+<scopecontent>
+<head> AANWIJZINGEN VOOR HET DOEN VAN ONDERZOEK IN DE ARCHIEVEN</head>
+<p>Zoals reeds vermeld in het vorige hoofdstuk bestaat het in deze inventaris beschreven archiefmateriaal uit de door het Ministerie van Justitie gevormde archieven betrekking hebbende op de zuivering, voornamelijk met betrekking tot de zuivering van de rechterlijke macht. </p>
+<p>Voor het doen van onderzoek naar de zuivering van met name de rechterlijke macht vormen de in deze inventaris beschreven archieven een goed startpunt. Daarnaast is de zuivering van een aantal andere groepen, zoals het notariaat, de verzekeringskamer en het gevangeniswezen in deze toegang opgenomen. </p>
+<p>Een aantal in de inventaris opgenomen series is nader toegankelijk gemaakt in bijlagen. Het betreft:  
+<list mark="hyphen" type="marked">
+<item>Bijlage 1:zuiveringsdossiers lager personeel gerechten;
+</item>
+<item>Bijlage 2:staking raadsheren Hoge Raad;
+</item>
+<item>Bijlage 3:burgemeesternamen voorkomend in dossier Londens archief P 161 E;
+</item>
+<item>Bijlage 4:namen voorkomend in dossier Londens archief P 161 F;
+</item>
+<item>Bijlage 5:namen van personen ten aanzien waarvan het advies werd gevraagd van het Hoge College voor de Rechterlijke Macht;
+</item>
+<item>Bijlage 6:namen van personen ten aanzien waarvan een onderzoek werd ingesteld door het Hoge College voor de Rechterlijke Macht.
+</item>
+</list></p>
+<p>Naast bovenstaande specificaties zijn de in de dossiers uit het Kabinetsarchief voorkomende persoonsnamen opgenomen in bijlage 7. </p>
+<p>Als bijlage bij de inventaris is een concordans opgenomen van oud depot-, doos- en mapnummer naar nieuw inventarisnummer. Hierdoor is het mogelijk om in het verleden gebruikte annotaties te blijven gebruiken </p>
+</scopecontent>
+</scopecontent>
+<appraisal>
+<head>Selectie en vernietiging</head>
+<p>Behoudens dubbelen is er niets uit de archieven vernietigd. </p>
+</appraisal>
+<processinfo>
+<head>Verantwoording van de bewerking</head>
+<p>De archieven zijn bewerkt om ze te laten voldoen aan de normen goede, geordende en toegankelijke staat. </p>
+<p>De oorspronkelijke omvang van de archieven vóór de bewerking bedroeg ca. 3 meter. Na bewerking en herverpakking bedraagt de omvang 2,5 meter. </p>
+</processinfo></descgrp>
+
+<descgrp type="access_and_use">
+<head>Aanwijzingen voor de gebruiker</head>
+
+<accessrestrict id="accessrestrict">
+<head>Openbaarheidsbeperkingen</head>
+<legalstatus type="ABS">Deels openbaar, deels beperkt openbaar (B).</legalstatus>
+</accessrestrict><userestrict><head>Beperkingen aan het gebruik</head>
+<p>Reproductie van originele bescheiden uit dit archief is aan beperkingen onderhevig.</p></userestrict>
+<phystech type="ABS">
+<head>Materiële beperkingen</head>
+<p>Het archief kent geen beperkingen voor het raadplegen van stukken als gevolg van slechte materiële staat.</p>
+</phystech>
+<phystech>
+<p>De stukken van dit archief verkeren in een goede materiële staat, wat tot gevolg heeft dat alle nummers aangevraagd kunnen worden. </p>
+</phystech>
+<odd type="application_instruction">
+<head>Aanvraaginstructie</head>
+<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: 
+<list numeration="arabic" type="ordered">
+<item><extref actuate="onrequest" href="https://www.nationaalarchief.nl/user/login" linktype="simple" show="new">Creëer een account of log in</extref>.</item><item>Selecteer in de archiefinventaris een archiefstuk.</item>
+<item>Klik op ‘Reserveer’ en kies een tijdstip van inzage.</item>
+</list></p>
+</odd>
+<prefercite>
+<head>Citeerinstructie</head>
+<p>Bij het citeren in annotatie en verantwoording dient het archief  tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Ministerie van Justitie: archieven betreffende Zuiveringsaangelegenheden (excl. de politiezuivering), en het archief van het Hoge College voor de Rechterlijke Macht, nummer toegang 2.09.68, inventarisnummer ... </p>
+<p>VERKORT: <lb/>NL-HaNA, Justitie / Zuiveringsaangelegenheden, 2.09.68, inv.nr. ... </p>
+</prefercite></descgrp>
+
+<descgrp type="allied_materials">
+<head>Verwant materiaal</head>
+
+<altformavail type="ABS">
+<head>Beschikbaarheid van kopieën</head>
+<p>Inventarisnummers van dit archief zijn niet in kopievorm beschikbaar</p>
+</altformavail>
+<relatedmaterial>
+<head>Verwante archieven</head>
+<p>De dossiers van de zuivering van de ambtenaren van het Ministerie van Justitie treft u aan in de archieven van het Ministerie van Binnenlandse Zaken. Zie hiervoor de inventaris met toegangsnummer 2.04.67. </p>
+<p>De dossiers betreffende de zuivering van de politie treft u ook niet aan in deze inventaris. Deze dossiers werden in een eerder stadium reeds door de CAS toegankelijk gemaakt en door het Ministerie van Justitie overgedragen aan het Nationaal Archief. Zie hiervoor de inventaris met toegangsnummer 2.09.54 </p>
+</relatedmaterial></descgrp>
+
+<descgrp type="appendices">
+<head>Bijlagen</head>
+
+<odd type="appendix_concordance">
+<head>Concordans</head>
+<table colsep="1" frame="all" rowsep="1">
+<head>Concordans van oude depot/doosnummer naar inventarisnummer</head>
+<tgroup cols="2">
+<colspec colwidth="*" />
+<colspec colwidth="*" />
+<thead>
+<row>
+<entry>Oude code</entry>
+<entry>Inv.nr.</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Depot 146</entry>
+<entry/>
+</row>
+<row>
+<entry>Depot 146 / map 1.01</entry>
+<entry>39</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.02</entry>
+<entry>40</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.03</entry>
+<entry>41</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.04</entry>
+<entry>42</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.05</entry>
+<entry>43</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.06</entry>
+<entry>44</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.07</entry>
+<entry>45</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.08</entry>
+<entry>46</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.09</entry>
+<entry>47</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.10</entry>
+<entry>48</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.11</entry>
+<entry>49</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.12</entry>
+<entry>50</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.13</entry>
+<entry>51</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.14</entry>
+<entry>52</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.15</entry>
+<entry>53</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.16</entry>
+<entry>54</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.17</entry>
+<entry>55</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.18</entry>
+<entry>56</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.19</entry>
+<entry>57</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.20</entry>
+<entry>58</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.21</entry>
+<entry>59</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.22</entry>
+<entry>60</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.23</entry>
+<entry>61</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.24</entry>
+<entry>62</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.25</entry>
+<entry>63</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.26</entry>
+<entry>64</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.27</entry>
+<entry>65</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.28</entry>
+<entry>66</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.29</entry>
+<entry>67</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.30</entry>
+<entry>68</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.31</entry>
+<entry>69</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.32</entry>
+<entry>70</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.33</entry>
+<entry>71</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.34</entry>
+<entry>72</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.35</entry>
+<entry>73</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.36</entry>
+<entry>74</entry>
+</row>
+<row>
+<entry>Depot 146 / map 1.37</entry>
+<entry>75</entry>
+</row>
+<row>
+<entry>Depot 164</entry>
+<entry/>
+</row>
+<row>
+<entry>Depot 164 / nr. 01</entry>
+<entry>78</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 01</entry>
+<entry>88</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 02</entry>
+<entry>79</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 03</entry>
+<entry>80</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 04</entry>
+<entry>81</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 05</entry>
+<entry>82</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 06</entry>
+<entry>83</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 07</entry>
+<entry>84</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 08</entry>
+<entry>85</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 09</entry>
+<entry>86</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 10</entry>
+<entry>87</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 12</entry>
+<entry>89</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 13</entry>
+<entry>92</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 14</entry>
+<entry>93</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 15</entry>
+<entry>90</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 16</entry>
+<entry>91</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 17</entry>
+<entry>94</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 18</entry>
+<entry>95</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 19</entry>
+<entry>96</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 20</entry>
+<entry>97</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 21</entry>
+<entry>98</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 22</entry>
+<entry>99</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 23</entry>
+<entry>129</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 24</entry>
+<entry>100</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 25</entry>
+<entry>107</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 26</entry>
+<entry>132</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 27</entry>
+<entry>101</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 28</entry>
+<entry>102</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 29</entry>
+<entry>116</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 30</entry>
+<entry>118</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 31</entry>
+<entry>105</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 32</entry>
+<entry>106</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 33</entry>
+<entry>104</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 34</entry>
+<entry>108</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 35</entry>
+<entry>109</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 36</entry>
+<entry>118</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 37</entry>
+<entry>113</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 38-39</entry>
+<entry>110</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 39</entry>
+<entry>110</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 40</entry>
+<entry>111</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 41</entry>
+<entry>115</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 42</entry>
+<entry>112</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 43-44</entry>
+<entry>132</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 45</entry>
+<entry>119</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 46</entry>
+<entry>117</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 47</entry>
+<entry>116</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 48</entry>
+<entry>114</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 49</entry>
+<entry>116</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 50</entry>
+<entry>122</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 51</entry>
+<entry>121</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 52</entry>
+<entry>124</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 53</entry>
+<entry>124</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 54</entry>
+<entry>125</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 55</entry>
+<entry>126</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 56</entry>
+<entry>133</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 57</entry>
+<entry>127</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 58</entry>
+<entry>128</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 59</entry>
+<entry>130</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 60</entry>
+<entry>120</entry>
+</row>
+<row>
+<entry>Depot 164 / nr. 61</entry>
+<entry>131</entry>
+</row>
+<row>
+<entry>Depot 166</entry>
+<entry/>
+</row>
+<row>
+<entry>Depot 166 / doos 01</entry>
+<entry>5, 10, 22-23, 29, 77</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 02</entry>
+<entry>24, 30</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 03</entry>
+<entry>25, 32</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 04</entry>
+<entry>26, 31</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 05</entry>
+<entry>27-28, 33</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 06</entry>
+<entry>34-38, 76, 132-133</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 07</entry>
+<entry>135-139, 141, 148-149</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 08</entry>
+<entry>142, 145-146</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 09</entry>
+<entry>143-144</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 10</entry>
+<entry>147, 150-151</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 11</entry>
+<entry>14-15, 17-21</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 12</entry>
+<entry>11-13, 140, 175-182, 186</entry>
+</row>
+<row>
+<entry>Depot 166 / doos 13</entry>
+<entry>1-4, 6, 16, 134, 183-185</entry>
+</row>
+<row>
+<entry>Geheim</entry>
+<entry/>
+</row>
+<row>
+<entry>Geheim 1945 / 35 M2</entry>
+<entry>3</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 86 R8</entry>
+<entry>6</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 267 H4</entry>
+<entry>2</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 269</entry>
+<entry>5</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 740 E4</entry>
+<entry>183</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 741 E5</entry>
+<entry>184</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 742 E6</entry>
+<entry>185</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 745 E6</entry>
+<entry>4</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 1100 E5</entry>
+<entry>1</entry>
+</row>
+<row>
+<entry>Geheim 1945 / 1109 R8</entry>
+<entry>6</entry>
+</row>
+<row>
+<entry>Geheim 1946 / 003</entry>
+<entry>76</entry>
+</row>
+<row>
+<entry>Geheim 1946 / 785A</entry>
+<entry>134</entry>
+</row>
+<row>
+<entry>Geheim 1946 / 1075</entry>
+<entry>76</entry>
+</row>
+<row>
+<entry>Geheim 1947 / 941</entry>
+<entry>10</entry>
+</row>
+<row>
+<entry>Kabinet</entry>
+<entry/>
+</row>
+<row>
+<entry>Kabinet 1945 / 25</entry>
+<entry>17</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 26</entry>
+<entry>13</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 27</entry>
+<entry>11</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 28</entry>
+<entry>12</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 29</entry>
+<entry>18</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 30</entry>
+<entry>19</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 31</entry>
+<entry>20</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 245</entry>
+<entry>22</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 246</entry>
+<entry>140</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 252</entry>
+<entry>23</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 253</entry>
+<entry>24</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 254</entry>
+<entry>25</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 255</entry>
+<entry>26</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 256</entry>
+<entry>27</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 257</entry>
+<entry>132</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 400A</entry>
+<entry>177</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 564</entry>
+<entry>34</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 800</entry>
+<entry>137</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 813</entry>
+<entry>138</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1050</entry>
+<entry>141</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1053</entry>
+<entry>148</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1305</entry>
+<entry>135</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1506</entry>
+<entry>37</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1545</entry>
+<entry>178</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1548</entry>
+<entry>175</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 1564</entry>
+<entry>176</entry>
+</row>
+<row>
+<entry>Kabinet 1945 / 2003</entry>
+<entry>151</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 25</entry>
+<entry>14</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 251</entry>
+<entry>28</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 252</entry>
+<entry>29</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 253</entry>
+<entry>30</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 254</entry>
+<entry>32</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 255</entry>
+<entry>31</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 256</entry>
+<entry>33</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 257</entry>
+<entry>133</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 258</entry>
+<entry>35</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 800</entry>
+<entry>139</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1050</entry>
+<entry>142</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1050</entry>
+<entry>143</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1050</entry>
+<entry>144</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1050</entry>
+<entry>145</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1050</entry>
+<entry>146</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1053</entry>
+<entry>149</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1262</entry>
+<entry>77</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1304</entry>
+<entry>136</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1502</entry>
+<entry>180</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1506</entry>
+<entry>38</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1545</entry>
+<entry>179</entry>
+</row>
+<row>
+<entry>Kabinet 1946 / 1546</entry>
+<entry>21</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 1100</entry>
+<entry>15</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 1100 B70</entry>
+<entry>182</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 4260a</entry>
+<entry>36</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 6807</entry>
+<entry>181</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 900a</entry>
+<entry>150</entry>
+</row>
+<row>
+<entry>Kabinet 1947 / 930a</entry>
+<entry>147</entry>
+</row>
+<row>
+<entry>Kabinet 1949 / 1100 V61</entry>
+<entry>186</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</odd></descgrp>
+<dsc type="combined">
+<head>Beschrijving van de series en archiefbestanddelen</head>
+
+<c01 level="series">
+<did>
+<unitid type="series_code">1</unitid>
+<unittitle>Archieven van het ministerie van Justitie</unittitle>
+</did>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.1</unitid>
+<unittitle>Algemeen</unittitle>
+</did>
+<c03 level="file">
+<did>
+<unitid identifier="43200358" type="ABS">1</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/1100 E5</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/bd95ada6-7800-4ef2-93ee-fb7d1e676be8</unitid>
+<unittitle>Dossier Geheim 1945/1100 E7: Gedeponeerd dossier J 2493 Londens Archief betreffende optreden van ambtenaren in bezet gebied, 1941.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200359" type="ABS">2</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/267 H4</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ff9eaf88-2cc0-4219-a7bd-53b1bfa7970b</unitid>
+<unittitle>Dossier Geheim 1945/267 H4: notulen van de gecombineerde vergadering van de Centrale advies Commissie, het College van Inspecteurs van de politieke Opsporingsdiensten en een aantal hoofden van deze diensten, gehouden op 17 aug. 1945.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200360" type="ABS">3</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/35 M2</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/28712158-111e-4051-b7ef-76d66ccd4017</unitid>
+<unittitle>Dossier Geheim 1945/35 M2: Afschrift van een brief van de &quot;Groote Advies Commissie der Illegaliteit&quot; aan de minister van Binnenlandse Zaken betreffende de rol van de Commissaris der Koningin bij de zuivering.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200363" type="ABS">4</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/745 E6</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e1f2f06f-680d-4135-aef8-b486db5247f4</unitid>
+<unittitle>Dossier Geheim 1945/745 E6: Gedeponeerd dossier P 118 Londens Archief betreffende Nederlanders in leidende functies.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200366" type="ABS">5</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Geheim 1945/269</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5b7dde7d-c80b-4772-95fa-63165196561f</unitid>
+<unittitle>Krantenartikel &quot;Hoe zuiver is de zuivering?&quot;.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200367" type="ABS">6</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/1109 R8 Geheim 1945/86 R8</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c8601101-d048-4260-8d86-3772b6c1fc03</unitid>
+<unittitle>Weekrapporten van het Militair Gezag.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200368" type="ABS">7</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d64f71ca-a084-42c4-891c-3934fa83a898</unitid>
+<unittitle>Stukken betreffende het ontwerpen en vaststellen van modellen, nodig voor de uitvoering van diverse zuiveringsbesluiten.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1954">1945-1954</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c03>
+<c03 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>8-9</unitid>
+<unittitle>Stukken betreffende richtlijnen van de Ministeries van Binnenlandse Zaken en Justitie inzake uitvoering van de zuivering en het rechtsherstel.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1959">1945-1959</unitdate>
+<physdesc>1 pak en 1 omslag</physdesc>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200370" type="ABS">8</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c5d3b87c-4c40-452d-bc52-e965574105f2</unitid>
+<unittitle>Zuivering, 1945 - 1959</unittitle>
+<physdesc>pak</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200371" type="ABS">9</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9c8bc869-5dca-4caf-85cc-768b402cbf45</unitid>
+<unittitle>Rechtsherstel, 1945 - 1947</unittitle>
+</did>
+</c04>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200372" type="ABS">10</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Geheim 1947/941</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1ae091b6-f963-4bb9-a4fe-1902497dfa79</unitid>
+<unittitle>Afschrift van een opgaaf van de Nederlandse Militaire Missie bij de Geallieerde Bestuursraad in Duitsland inzake de stand van de zuiveringsactie in Duitsland, met aanbiedingsbrief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.2</unitid>
+<unittitle>Zuivering personeel/ambtenaren van het Ministerie van Justitie</unittitle>
+</did>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.2.1</unitid>
+<unittitle>Algemeen</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>11-15</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+<physdesc>1 pak en 4 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200378" type="ABS">11</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/27</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d782ad47-e0a4-4094-bd96-205ee9a25f75</unitid>
+<unittitle>Dossier Kabinet 1945/27, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200381" type="ABS">12</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/28</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/76840777-124b-425b-9f7c-5d6c810f1c6a</unitid>
+<unittitle>Dossier Kabinet 1945/28, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200384" type="ABS">13</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/26</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/53f25d89-6146-4462-b3bb-532251db9975</unitid>
+<unittitle>Dossier Kabinet 1945/26, 1945 - 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200387" type="ABS">14</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1946/25</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/42ed6ff0-44f9-420c-9ddb-01a9ae7b36e3</unitid>
+<unittitle>Dossier Kabinet 1946/25, 1946 - 1947</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200390" type="ABS">15</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1947/1100</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/b0bc4d82-c570-476a-a36c-ef8b7abcd3ba</unitid>
+<unittitle>Dossier Kabinet 1947/1100; Opgave stand zuivering personeel Ministerie van Justitie, 1946 - 1947</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.2.2</unitid>
+<unittitle>Politieke inlichtingen leidende ambtenaren Ministerie van Justitie</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200394" type="ABS">16</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/46d5bf6a-0fda-4085-9213-a3b97300064c</unitid>
+<unittitle>Rapport over de houding en gedragingen van prof. dr. O. Schrieke, als secretaris-generaal van het Departement van Justitie in de periode 1941-1945, met bijlagen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>17-20</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>4 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200400" type="ABS">17</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1945/25</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/85feb33c-cfe9-4a99-8b27-c61c440336ac</unitid>
+<unittitle>Dossier Kabinet 1945/25, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200403" type="ABS">18</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1945/29</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9523e854-5950-4630-afe9-a18bc6d97298</unitid>
+<unittitle>Dossier Kabinet 1945/29, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200406" type="ABS">19</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1945/30</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0106185d-33f0-45e7-a054-29499482a9ed</unitid>
+<unittitle>Dossier Kabinet 1945/30, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200409" type="ABS">20</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1945/31</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/16933770-46c3-4ffa-a1c0-d900043f21e4</unitid>
+<unittitle>Dossier Kabinet 1945/31, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.2.3</unitid>
+<unittitle>Zuivering en rechtsherstel ambtenaren uit Nederlands-Indië</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200413" type="ABS">21</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 11 Kabinet 1946/1546</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/72d6483c-3765-45c9-9228-3a569b369642</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1946/1546</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946/1948">1946-1948</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20240101">01-01-2024</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.3</unitid>
+<unittitle>Zuivering Rechterlijke Macht</unittitle>
+</did>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.1</unitid>
+<unittitle>Algemeen</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>22-33</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+<physdesc>5 pakken en 7 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200423" type="ABS">22</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Kabinet 1945/245</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a4e191b8-9f02-4f65-9c82-a4e06369843f</unitid>
+<unittitle>Dossier Kabinet 1945/245; Algemeen, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200426" type="ABS">23</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Kabinet 1945/252</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9328d61c-a4b5-41cc-9a4d-c28f4cdfa161</unitid>
+<unittitle>Dossier Kabinet 1945/252; Zuivering ressort 's-Hertogenbosch, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200429" type="ABS">24</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 02 Kabinet 1945/253</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/15aff9bc-f135-477c-b33c-c57cee017eb1</unitid>
+<unittitle>Dossier Kabinet 1945/253; Zuivering ressort Arnhem, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200432" type="ABS">25</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 03 Kabinet 1945/254</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/260345de-6213-43be-8541-c22b9c5b918f</unitid>
+<unittitle>Dossier Kabinet 1945/254; Zuivering ressort 's-Gravenhage, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200435" type="ABS">26</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 04 Kabinet 1945/255</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8bb0ee6a-300e-4639-b258-61fa5321bfe0</unitid>
+<unittitle>Dossier Kabinet 1945/255; Zuivering ressort Amsterdam, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200438" type="ABS">27</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 05 Kabinet 1945/256</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f097d48e-69d6-4d95-85c1-4d2942ddc420</unitid>
+<unittitle>Dossier Kabinet 1945/256; Zuivering ressort Leeuwarden, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200441" type="ABS">28</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 05 Kabinet 1946/251</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/317dae1f-7a0e-4aad-ba58-2dc533fcc000</unitid>
+<unittitle>Dossier Kabinet 1946/251; Zuivering rechterlijke macht algemeen, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200444" type="ABS">29</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Kabinet 1946/252</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/58806440-46a4-481c-ba31-9dbf3ca33acd</unitid>
+<unittitle>Dossier Kabinet 1946/252; Zuivering ressort 's-Hertogenbosch, 1946</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200447" type="ABS">30</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 02 Kabinet 1946/253</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8afed2ec-1f9e-4e2e-82f8-26948bee2ef6</unitid>
+<unittitle>Dossier Kabinet 1946/253; Zuivering ressort Arnhem, 1946</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200450" type="ABS">31</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 04 Kabinet 1946/255</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8a4c6832-738f-407d-ad06-f41329d751e8</unitid>
+<unittitle>Dossier Kabinet 1946/255; Zuivering ressort Amsterdam, 1946</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200453" type="ABS">32</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 03 Kabinet 1946/254</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/959bf917-86d0-4b85-8c75-0d8744c41db8</unitid>
+<unittitle>Dossier Kabinet 1946/254; Zuivering ressort 's-Gravenhage, 1946 - 1947</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200456" type="ABS">33</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 05 Kabinet 1946/256</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/cab91c3c-3b96-4662-a744-df32ab75a093</unitid>
+<unittitle>Dossier Kabinet 1946/256; Zuivering ressort Leeuwarden, 1946 - 1947</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.2</unitid>
+<unittitle>Hoge College voor de Rechterlijke Macht</unittitle>
+</did>
+<odd>
+<p>Zie voor het archief van het Hoge College voor de Rechterlijke Macht, hoofdstuk 2, de inv.nrs. 187-233.</p>
+</odd>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>34-36</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+<physdesc>3 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200465" type="ABS">34</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Kabinet 1945/564</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/36ca41c1-03f1-49e5-894c-9f2a57115b87</unitid>
+<unittitle>Dossier Kabinet 1945/564; Hoge College voor de Rechterlijke Macht, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200468" type="ABS">35</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Kabinet 1946/258</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/da7b8e25-063e-42d4-af8d-829cae1e5e34</unitid>
+<unittitle>Dossier Kabinet 1946/258; Hoge College voor de Rechterlijke Macht, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200471" type="ABS">36</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Kabinet 1947/4260a</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/13f6b4c0-de38-4668-8d4d-7d82f8116f7d</unitid>
+<unittitle>Dossier Kabinet 1947/4260a; Hoge College voor de Rechterlijke Macht, 1947</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.3</unitid>
+<unittitle>Zuiveringsraden Rechterlijke Macht</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>37-38</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>2 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200478" type="ABS">37</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Kabinet 1945/1506</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/49b20a71-9513-467f-832f-30aa7395386c</unitid>
+<unittitle>Dossier Kabinet 1945/1506; Commissie Zuivering Overheidspersoneel en Zuiveringsraden Rechterlijke Macht, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200481" type="ABS">38</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Kabinet 1946/1506</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/eade8671-a8f6-4086-b0e0-34e0c7e1d195</unitid>
+<unittitle>Dossier Kabinet 1946/1506; Commissie Zuivering Overheidspersoneel en Zuiveringsraden Rechterlijke Macht, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.4</unitid>
+<unittitle>Zuivering lager personeel gerechten</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid type="blank">---</unitid>
+<unittitle>Zuiveringingsdossiers, betreffende lager personeel gerechten.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1936/1957">(1936) 1944-1957</unitdate>
+<physdesc>1 pak en 36 omslagen</physdesc>
+</did>
+<odd>
+<p>Voor specificatie zie bijlage.</p>
+</odd>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200488" type="ABS">76</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Geheim 1946/003 Geheim 1946/1075</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/b200b869-9650-4fe3-afba-0fda7789c893</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1946/1262; Zuivering lager personeel gerechten</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200493" type="ABS">77</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 01 Kabinet 1946/1262</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1466085e-b684-4404-8682-3f6f8e471bf9</unitid>
+<unittitle>Stukken betreffende zuivering van de parketgroep 's-Gravenhage.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.5</unitid>
+<unittitle>Zuivering Hoge Raad</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid type="blank">---</unitid>
+<unittitle>Stukken betreffende de staking van negen raadsheren en een substituut-griffier van de Hoge Raad, naar aanleiding van hun gedrag tijdens de Duitse bezetting, met bijlagen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1940/1945">1940-1945</unitdate>
+<physdesc>10 omslagen</physdesc>
+</did>
+<odd>
+<p>Bevat stukken uit het dossier van de Sub-Sectie II C van de Staf Militair Gezag. Zie voor specificatie bijlage 2.</p>
+</odd>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200500" type="ABS">88</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 01</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/12f2b7e0-9a86-4e3e-9634-a2a0a53a8351</unitid>
+<unittitle>Afschriften van correspondentie tussen een raadsheer van de Hoge Raad en een hoogleraar van de Rijksuniversiteit te Leiden aangaande de ratio achter de houding van de Hoge Raad tijdens de bezetting.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1943">1943</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200503" type="ABS">89</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 12</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/25f929d1-9743-43b9-804a-95e238910f01</unitid>
+<unittitle>Afschrift van een artikel uit Vrij Nederland, getiteld: &quot;De eerste verkenningsaanval op de rechterlijke macht&quot;, betreffende de verordening van de secretaris-generaal van het Ministerie van Justitie houdende uitbreiding van de bevoegdheden van de rechtbankpresidenten.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200504" type="ABS">90</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 15</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7345c8d4-1878-47bd-a5bf-f46574e83e4e</unitid>
+<unittitle>Afschrift van een Koninklijk Besluit van de minister van Justitie (Afdeling II, No. 2647/P. 118 G.) betreffende het ontslag van een aantal ambtenaren en leden van de rechterlijke macht, in verband met hun houding tijdens de bezetting.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200507" type="ABS">91</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 16</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f86f6748-ddcb-4852-8cae-580b9d1dbf6e</unitid>
+<unittitle>Brief van de minister van Justitie aan luitenant-kolonel Snijders, Militair Gezag te Brussel, over enkele rapporten door deze gemaakt over schorsing en staking van leden van de Hoge Raad, met bijlagen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200510" type="ABS">92</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 13</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a668c865-0ced-4a95-be7e-2e69513ed7a1</unitid>
+<unittitle>Brief van de minister van Justitie in Londen aan de Chef-Staf Militair Gezag, met een voorstel om alle leden van de Hoge Raad na de bevrijding van Nederland te staken in hun functie, met afschrift en aantekeningen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200511" type="ABS">93</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 14</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4371a61f-2066-4540-886f-f42a57f19c93</unitid>
+<unittitle>Stakings- en schorsingsbesluiten van een aantal leden van de Hoge Raad, genomen door de Chef-Staf Militair Gezag, de generaal-majoor H.J. Kruls.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200514" type="ABS">94</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 17</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6a3d8f5d-874d-48a0-8daa-ab864b2d200e</unitid>
+<unittitle>Stukken betreffende het rekest van een raadsheer en procureur-generaal bij de Hoge Raad, tot intrekking van de maatregelen die genomen zijn door de minister van Justitie en tot intrekking van de benoemingen van leden van de Hoge Raad, tijdens de bezetting geschied.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944">1944</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200515" type="ABS">95</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 18</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ceff2185-a92b-44bd-bccc-06f0cef1bb85</unitid>
+<unittitle>Brieven van de Militaire Commissaris in de provincie Gelderland, luitenant-kolonel A.F.H. Blaauw, aan de Chef-Staf Militair Gezag betreffende de zuivering van de Hoge Raad.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944/1945">1944-1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200518" type="ABS">96</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 19</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c8e6e825-0f45-4d22-80e1-61c76042bb04</unitid>
+<unittitle>Brief van W.Chr. Posthumus Meyjes, sous-chef Militair Gezag aan de minister van Justitie over een eventuele gedeeltelijke intrekking van de schorsingsbesluiten ten aanzien van de leden van de Hoge Raad, 29 januari.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200521" type="ABS">97</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 20</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6745e2d6-7854-4d57-9e62-24d55fddc072</unitid>
+<unittitle>Brief van de procureur-generaal bij de Hoge Raad aan de minister van Justitie waarin een uiteenzetting van de situatie van de schorsing van de leden van de Hoge Raad en de publieke opinie hiertegenover, met een brief ter doorzending aan kolonel Snijders, Militair Gezag te Brussel, 19 maart.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200524" type="ABS">98</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 21</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3a88a880-0ca7-40f6-8e9f-4bae8e239a1f</unitid>
+<unittitle>Stukken betreffende de intrekking van de schorsingsbesluiten ten aanzien van de leden van de Hoge Raad, 26 april-14 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200527" type="ABS">99</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 22</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/33cd65ee-b37b-4089-b853-b6334b658317</unitid>
+<unittitle>Nota van mr. Fick over de gebeurtenissen in Nijmegen tijdens de schorsing van de leden van de Hoge Raad en de latere intrekking van de hiertoe uitgevaardigde besluiten, met aantekeningen van de secretaris-generaal Van Angeren en mr. Fick, mei.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200530" type="ABS">100</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 24</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/5f7d6a58-ea1c-44fa-a953-67a66f740e9e</unitid>
+<unittitle>Brief van de minister van Justitie aan de minister-president met mededelingen over het onderhoud met de heren Van der Dries, Fick en Donner op 2 juli 1945.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200533" type="ABS">101</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 27</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/b7358ddf-6d2f-420e-ac88-74b30aacd1d5</unitid>
+<unittitle>Artikel van prof. mr. R.P. Cleveringa getiteld &quot;Het vermogensrechtelijk herstel&quot;, overdruk uit Economisch-Statistische Berichten van 4 juli.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200534" type="ABS">102</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 28</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/117c656c-ea05-4583-98d5-6c49f1c5664b</unitid>
+<unittitle>Nota van mr. Tenkink aan de minister van Justitie over de constructie van de organen die een eventuele zuivering van de Hoge Raad zouden moeten uitvoeren, 20 juli.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200535" type="ABS">103</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/dea95428-b698-43bd-a11f-0616bc17840d</unitid>
+<unittitle>Stukken betreffende een te openen gesprek tussen een commissie van drie personen uit de ministerraad en een driemanschap uit de Hoge Raad, om tot een oplossing te komen van het Hoge Raadsprobleem, met bijlagen, 26 juli en 1 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200538" type="ABS">104</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 33</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/84ebd2b2-a9e3-4f56-a610-9a9a6b6fa5a9</unitid>
+<unittitle>Memorandum van een raadsheer van de Hoge Raad met een reactie op de brief van 21 juni 1945, waarin de minister van Justitie kritiek heeft op de Hoge Raad, augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200541" type="ABS">105</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 31</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7bfb30cd-e115-4e6e-85f6-516700b30152</unitid>
+<unittitle>Telegram uit Groningen aan de minister van Justitie met het verzoek om de Hoge Raad en haar zuivering flink aan te pakken, 7 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200544" type="ABS">106</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 32</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4e7b424d-68e9-43ed-9d38-ba087ab66313</unitid>
+<unittitle>Brief van een geschorst raadsheer van de Hoge Raad aan de minister van Justitie met het verzoek zijn schorsingsbesluit in te trekken, 11 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200547" type="ABS">107</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 25</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/62a90b63-a065-4baa-b04a-9d2d15e3fff5</unitid>
+<unittitle>Nota van de minister van Justitie aan de minister van Overzeese Gebiedsdelen en de minister-president inzake de Hoge Raadskwestie naar aanleiding van een bespreking met mr. Van den Dries op 18 augustus 1945.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200550" type="ABS">108</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 34</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1a5d50ea-d614-4169-84c9-18d0acb90f09</unitid>
+<unittitle>Nota aan de minister van Justitie met de data van schorsing, en opheffing daarvan, van de leden van de Hoge Raad, met aantekening, 24 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200553" type="ABS">109</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 35</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/159ac9b9-d612-4396-ac49-19122bc27469</unitid>
+<unittitle>Nota van de minister van Justitie aan de ministerraad over het verloop van de Hoge Raadskwestie, 25 augustus.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200556" type="ABS">110</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 38 Depot 164/nr. 39</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4fe6d46e-1393-44f8-9478-4f6772e0b524</unitid>
+<unittitle>Concepten en brief van het kabinet Schermerhorn-Drees aan de zgn. &quot;oude leden&quot; van de Hoge Raad over het beleid van haar voorgangers, de beide kabinetten Gerbrandy, en de zienswijze, die zijzelf op het Hoge Raadsprobleem heeft, 3 september.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200559" type="ABS">111</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 40</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/904d0839-85e1-4bf0-b2dd-6e53aac25cdc</unitid>
+<unittitle>Brief van de leden van de Hoge Raad aan de ministerraad met een verdediging van hun houding tijdens de bezetting, 26 september.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>1 stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200562" type="ABS">112</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 42</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7a6148a0-27f5-42c8-b416-2c3454388cc0</unitid>
+<unittitle>Artikelen uit &quot;De nieuwe Nederlander&quot; en &quot;Het Parool&quot; over de uitgifte van de correspondentie tussen de leden van de Hoge Raad en de regering, oktober.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200563" type="ABS">113</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 37</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e7e35f31-91ee-4b2a-9fea-0bfb994d90d1</unitid>
+<unittitle>Concepten en brief van de regering aan de leden van de Hoge Raad, waarin zij haar houding ten aanzien van de gedragingen van de leden van de Hoge Raad tijdens de bezetting kenbaar maakt, najaar 1945.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200566" type="ABS">114</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 48</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/82b262af-ebe3-4c1d-9bf7-d1859dcb808f</unitid>
+<unittitle>Concept van een brief van de minister van Justitie aan de Koningin, met een uiteenzetting van de stand van zaken in verband met het zgn. Hoge Raadsprobleem, najaar.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200569" type="ABS">115</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 41</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/18f403c7-abc9-439f-8ad8-dd802e9c0683</unitid>
+<unittitle>Brief van de minister van Justitie aan de Hoge Raad betreffende haar positie ten opzichte van de regering, 4 oktober.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200570" type="ABS">116</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 29 Depot 164/nr. 47 Depot 164/nr. 49</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1cc654a1-3927-4adf-ba50-7da33e4318ae</unitid>
+<unittitle>Brief van de leden van de Hoge Raad aan de ministerraad, waarin zij aangeven waarom zij hun functies tijdens de bezetting niet gestaakt hebben.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200573" type="ABS">117</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 46</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/da8c18b7-0561-488c-9a61-45dd3e99ac49</unitid>
+<unittitle>&quot;De Hooge Raad der Nederlanden tijdens de bezetting&quot;, publicatie van mr. N.C.M.A. van den Dries, waarnemend president van de Hoge Raad, gedrukt.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>deel</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200574" type="ABS">118</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 30 Depot 164/nr. 36</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d83b9715-82ef-42dd-bc35-43bf0a7a3113</unitid>
+<unittitle>Correspondentie met de &quot;Groote Advies Commissie der Illegaliteit&quot; over de zuivering van de Hoge Raad.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200577" type="ABS">119</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 45</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8cfc7bee-6fb7-45be-beab-28616e51191d</unitid>
+<unittitle>Kamerverslagen betreffende de verkiezing van nieuwe leden voor de Hoge Raad, en de behandeling van nota's van verschillende ministers betreffende het beleid ten aanzien van de zuivering.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200578" type="ABS">120</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 60</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/72e06db1-370c-4c3e-9346-efbe45a74a4f</unitid>
+<unittitle>Stukken betreffende de regels die voor de zuivering van de Hoge Raad vastgesteld zijn, met staatsblad F. 242 en F. 243.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200579" type="ABS">121</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 51</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ce6bb7ff-ea56-47cd-89f7-c4c9f20a6c62</unitid>
+<unittitle>Aantekeningen betreffende de benoeming van de president van de Hoge Raad en de eventuele staatsrechterlijke kanten aan de zaak, februari.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200582" type="ABS">122</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 50</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/dfafabfe-a3a1-4600-b225-49de237d45f9</unitid>
+<unittitle>Stukken betreffende de behandeling van het vraagstuk inzake het wel of niet handhaven van de staatsrechtelijke gewoonte om uit een voordracht van de Tweede kamer voor de vervulling van een vacature in de Hoge Raad de eerste persoon te benoemen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200583" type="ABS">123</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a6c96152-9d9e-481c-b15b-08904b16c207</unitid>
+<unittitle>Artikel uit het Algemeen Handelsblad van 13 maart over de berechting van Seys-Inquart, waarin vermeldt dat zijn verdediging onder andere gegrond zal worden op een arrest van de Hoge Raad van 12 januari 1942, op grond waarvan de Rijkscommissaris bevoegd was wettige verordeningen uit te vaardigen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200584" type="ABS">124</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 52 Depot 164/nr. 53</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3db9046f-c343-4dba-84b5-cad16b4739a7</unitid>
+<unittitle>Open brief aan de Nederlandse regering om een eventuele in te stellen strafvervolging tegen de leden van de Hoge Raad, 13 maart.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200585" type="ABS">125</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 54</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f419ebd2-d2b2-46c1-a123-f02e5fea0a4b</unitid>
+<unittitle>Nota van mr. Hooykaas aan de minister van Justitie over uitlatingen, die mr. De Zaayer ten nadele van leden van de Hoge Raad gedaan zou hebben, 15 maart.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200588" type="ABS">126</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 55</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/43d16607-c6a7-4686-9015-b69aaab9c669</unitid>
+<unittitle>Nota van mr. Hooykaas aan de secretaris-generaal over de ontstane vacatures bij de Hoge Raad, 16 april.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200591" type="ABS">127</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 57</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/dd3e21dd-8be9-4086-81f8-91c51e9394be</unitid>
+<unittitle>Aanhangsel, behorend bij het verslag van de handelingen van de Tweede Kamer met vragen van de heer Goedhart betreffende de zuivering van de Hoge Raad en het antwoord van de minister van Justitie daarop, 10 mei en 12 juni.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200592" type="ABS">128</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 58</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/63e0cab2-84be-482e-b69c-a0022a821617</unitid>
+<unittitle>Nota van mr. Hooykaas aan de minister van Justitie over de vervolging van de tijdens de bezetting fungerende president van de Hoge Raad, 21 mei.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200595" type="ABS">129</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 23</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8aa62db7-27d7-420b-8fb6-c2e2dc0ff62e</unitid>
+<unittitle>Afschrift van een brief van de &quot;Groote Advies-Commissie der Illegaliteit&quot; aan de minister van Justitie met het verzoek om een gesprek over de zuivering van de Hoge Raad, 22 mei.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200598" type="ABS">130</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 59</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/299a194a-5840-40b2-b70a-0e934b401227</unitid>
+<unittitle>Nota van mr. Hooykaas aan de minister van Justitie naar aanleiding van een bezoek van mr. Donner, betreffende de benoeming van nieuwe leden van de Hoge Raad en de stagnering van de werkzaamheden ten gevolge van het ontbreken van voldoende mankracht, 24 september.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200601" type="ABS">131</unitid><unitid audience="internal" type="obsolete">Depot 164/nr. 61</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/cfb49e65-e11c-4e86-85f2-2c62e71a7c89</unitid>
+<unittitle>Nota van de minister van Justitie voor de ministerraad betreffende de voorgeschiedenis en het verloop van de gebeurtenissen inzake het Hoge Raadsprobleem, 27 september.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>132-133</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>1 pak en 1 omslag</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200607" type="ABS">132</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Depot 164/nr. 26 Depot 164/nr. 43 Depot 164/nr. 44 Kabinet 1945/257</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/861f1acb-28db-455c-958b-2cbcd87ae9e2</unitid>
+<unittitle>Dossier Kabinet 1945/257; Zuivering Hoge Raad, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200610" type="ABS">133</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 06 Depot Depot 164/nr. 56 Kabinet 1946/257</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6f4d81ab-11a1-4a6e-8600-4346380a9aa5</unitid>
+<unittitle>Dossier Kabinet 1946/257; Zuivering Hoge Raad, 1946</unittitle>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200613" type="ABS">134</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1946/785A</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/077f42fd-ba32-4c8d-a87c-637b06a22b0f</unitid>
+<unittitle>Verbalen afkomstig uit het Geheim archief. Dossier Geheim 1946/785A: Brief van minister van Justitie aan Hooge College voor de Rechterlijke Macht inzake de beoordeling van het algemene beleid van de Hoge Raad, met afschriften van de briefwisseling tussen de Hoge Raad en de regering</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.6</unitid>
+<unittitle>Zuivering deurwaarders</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>135-136</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>2 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200620" type="ABS">135</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1945/1305</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9e41dbee-fffd-479a-a195-aaa8803bb2e2</unitid>
+<unittitle>Dossier Kabinet 1945/1305; Zuivering deurwaarders, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200623" type="ABS">136</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1946/1304</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0463c98c-c0e6-47ff-8486-c4b1596e8c53</unitid>
+<unittitle>Dossier Kabinet 1946/1304; Zuivering deurwaarders, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.7</unitid>
+<unittitle>Zuivering Pachtkamers</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>137-139</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>3 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200630" type="ABS">137</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1945/800</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a9adb085-5892-4995-8fe3-5f6a01d611d0</unitid>
+<unittitle>Dossier Kabinet 1945/800; Pachtkamers, algemeen, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200633" type="ABS">138</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1945/813</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f4380c63-82f2-44d5-a6a5-2e2748859e83</unitid>
+<unittitle>Dossier Kabinet 1945/813; Pachtkamer Helmond, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200636" type="ABS">139</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1946/800</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ce0f6f93-2bd3-4816-b632-a3cc065b76ad</unitid>
+<unittitle>Dossier Kabinet 1946/800; Pachtkamers, algemeen, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.3.8</unitid>
+<unittitle>Rechtsherstel rechterlijke macht</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200640" type="ABS">140</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/246</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ac9543d4-c5c4-4808-9bd4-43f5d1008542</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1945/246 - 1945/250</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.4</unitid>
+<unittitle>Zuivering Politie</unittitle>
+</did>
+<odd>
+<p>Zie hiervoor afzonderlijke toegang.</p>
+</odd>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.5</unitid>
+<unittitle>Zuivering Notariaat</unittitle>
+</did>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.5.1</unitid>
+<unittitle>Algemene richtlijnen zuivering Notariaat</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>141-147</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1948">1945-1948</unitdate>
+<physdesc>4 pakken en 3 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200653" type="ABS">141</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1945/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c5c2d95f-6ddc-421e-af8f-06c64a28a8bc</unitid>
+<unittitle>Dossier Kabinet 1945/1050; Zuivering Notariaat, 1945</unittitle>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200656" type="ABS">142</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 08 Kabinet 1946/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/4f28ce4f-27d7-469b-a910-019bc2ae1a3e</unitid>
+<unittitle>Dossier Kabinet 1946/1050; Agenda, 1946</unittitle>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200659" type="ABS">143</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 09 Kabinet 1946/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a1f48654-78d4-42db-b580-a98df29ac8ce</unitid>
+<unittitle>Dossier Kabinet 1946/1050a - 1946/1050dy; Zuivering Notariaat, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200662" type="ABS">144</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 09 Kabinet 1946/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/08bb15ab-9ebc-43f6-91aa-c098feb0f265</unitid>
+<unittitle>Dossier Kabinet 1946/1050eb - 1946/1050fv; Zuivering Notariaat, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200665" type="ABS">145</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 08 Kabinet 1946/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/51b65410-1bd8-4db3-be9a-c6f76f1ad44a</unitid>
+<unittitle>Dossier Kabinet 1946/1050gb - 1946/1050hz; Zuivering Notariaat, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200668" type="ABS">146</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 08 Kabinet 1946/1050</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/64fe55e5-5f8e-4b22-98ba-2815c09eda2c</unitid>
+<unittitle>Dossier Kabinet 1946/1050ik - 1946/1050my; Zuivering Notariaat, 1946 - 1947</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200671" type="ABS">147</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 10 Kabinet 1947/930a</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d9593c7f-10c6-4704-9e21-ca7342a7e189</unitid>
+<unittitle>Dossier Kabinet 1947/930a; Zuivering Notariaat, 1947 - 1948</unittitle>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20240101">01-01-2024</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.5.2</unitid>
+<unittitle>Commissie van advies zuivering Notariaat</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>148-149</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>2 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200678" type="ABS">148</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1945/1053</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0255bcc7-e245-4afe-98e6-e3ec867f9d03</unitid>
+<unittitle>Dossier Kabinet 1945/1053; Adviescommissie zuivering notarissen, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200681" type="ABS">149</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 07 Kabinet 1946/1053</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/84e3e3bc-1cf3-4ce6-bd41-7a611cbaed46</unitid>
+<unittitle>Dossier Kabinet 1946/1053; Adviescommissie zuivering notarissen, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.5.3</unitid>
+<unittitle>&quot;Jodentransporten&quot;</unittitle>
+</did>
+<odd>
+<p>Het betreft de medewerking van notarissen aan het transport van onroerende goederen van Joden.</p>
+</odd>
+<c04 level="file">
+<did>
+<unitid identifier="43200687" type="ABS">150</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 10 Kabinet 1947/900a</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/66f8b718-4181-4f6b-8bf3-0f942bf6962c</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1947/900a; &quot;Jodentransporten&quot;</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947/1950">1947-1950</unitdate>
+<physdesc>pak</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20260101">01-01-2026</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.6</unitid>
+<unittitle>Zuivering Verzekeringskamer</unittitle>
+</did>
+<c03 level="file">
+<did>
+<unitid identifier="43200693" type="ABS">151</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 10 Kabinet 1945/2003</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/37a5ac9d-613b-4a99-8b51-9fda9c20f328</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1945/2003; Zuivering Verzekeringskamer</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.7</unitid>
+<unittitle>Zuivering Gevangeniswezen</unittitle>
+</did>
+<c03 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>152-173</unitid>
+<unittitle>Stukken betreffende de zuivering van het personeel van het gevangeniswezen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1944/1948">1944-1948</unitdate>
+<physdesc>22 omslagen</physdesc>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200700" type="ABS">152</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ccc5a883-5079-4483-b528-f4d738bfffa8</unitid>
+<unittitle>Algemeen, 1945 - 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+<odd>
+<p>Bevat o.a. overzicht opgelegde maatregelen aan gevangenispersoneel ingevolge adviezen Zuiveringscommissie.</p>
+</odd>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200705" type="ABS">153</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/3165a9ae-3c72-4604-b6fb-8ef8b998cfe1</unitid>
+<unittitle>Gevangenis en Huis van Bewaring Alkmaar, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200708" type="ABS">154</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a2a35889-bc77-484c-ae5f-78d360233629</unitid>
+<unittitle>Huis van Bewaring Almelo, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200711" type="ABS">155</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ba049f92-8223-4f3e-a067-2615c5a4e1a2</unitid>
+<unittitle>Huis van Bewaring I, II en III Amsterdam, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200714" type="ABS">156</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f85e5f09-a1bd-42f9-84df-a637195c20b2</unitid>
+<unittitle>Gevangenis en Huis van Bewaring I en II Arnhem, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200717" type="ABS">157</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/19d18861-d906-4acf-a3c7-53cb384de24f</unitid>
+<unittitle>Huis van Bewaring Assen en Veenhuizen, 1944-1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200720" type="ABS">158</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/33570cab-0b3d-4d44-ad64-65e8dfd5bf80</unitid>
+<unittitle>Rijksasiel Avereest en Huis van Bewaring Winschoten, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200723" type="ABS">159</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e1e4e34e-5b26-4462-bd9f-9c956544cb20</unitid>
+<unittitle>Gevangenis Breda, 1945 - 1948</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20240101">01-01-2024</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200726" type="ABS">160</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/307f9a89-bade-4e14-9750-8753c7d1cc78</unitid>
+<unittitle>Huis van Bewaring Dordrecht, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200729" type="ABS">161</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/cdf95b1e-beb9-41b9-981f-823750afac90</unitid>
+<unittitle>Gevangenis en Huis van Bewaring 's-Gravenhage, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200732" type="ABS">162</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7b99c0d2-b27b-45b6-ad5d-3640f7307cb5</unitid>
+<unittitle>Gevangenis en Huis van Bewaring Groningen, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200735" type="ABS">163</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0eb6a42a-e596-4d3a-9a4e-dc1b411e0371</unitid>
+<unittitle>Gevangenis en Huis van Bewaring Haarlem, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200738" type="ABS">164</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/f5f0dc4f-926f-4a9c-a36c-7db04f79e5c5</unitid>
+<unittitle>Huis van Bewaring 's-Hertogenbosch, 1944</unittitle>
+</did>
+
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200741" type="ABS">165</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/773caeb1-4e94-4fb6-bcdf-3477ee49a72f</unitid>
+<unittitle>Gevangenis en Huis van Bewaring Leeuwarden, 1945 - 1948</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20240101">01-01-2024</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200744" type="ABS">166</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a2fa312a-9b53-4da4-9e80-d3465be1e7cb</unitid>
+<unittitle>Huis van Bewaring Maastricht, 1944 - 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200747" type="ABS">167</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/db1d9593-1587-418a-97aa-1986e1a1644f</unitid>
+<unittitle>Huis van Bewaring Middelburg, 1944 - 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200750" type="ABS">168</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/9287b07a-68f4-411b-82a3-ba784f55607b</unitid>
+<unittitle>Gevangenis Roermond, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200753" type="ABS">169</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/c32b9498-9610-4f70-9a4b-37ad66b79ae1</unitid>
+<unittitle>Gevangenis en Huis van Bewaring I en II Rotterdam, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200756" type="ABS">170</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a7913324-36d6-4a46-ba04-c6dd5990b3a1</unitid>
+<unittitle>Hulpgevangenis Tiel, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200759" type="ABS">171</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e9d11d31-55c2-407c-911d-d2cfadb63794</unitid>
+<unittitle>Huis van Bewaring I en II Utrecht, 1945 - 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200762" type="ABS">172</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/2472c19c-e0d2-46aa-b55b-981da5153b7f</unitid>
+<unittitle>Bijzondere Strafgevangenis en Huis van Bewaring Zutphen, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200765" type="ABS">173</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/76a061e3-8b03-483d-9791-b289105c2793</unitid>
+<unittitle>Huis van Bewaring Zwolle, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200768" type="ABS">174</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/00aea1e3-cb65-4dec-ac6f-8f7d0406dc9a</unitid>
+<unittitle>Stukken betreffende het herstellen van de pensioenrechten na de zuivering van het personeel van het gevangeniswezen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1948/1950">1948-1950</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20260101">01-01-2026</date></ref></p>
+</accessrestrict>
+</c03>
+</c02>
+<c02 level="subseries">
+<did>
+<unitid type="series_code">1.8</unitid>
+<unittitle>Bemoeienis met overige zuiveringsaangelegenheden</unittitle>
+</did>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.1</unitid>
+<unittitle>Zuivering artsenberoep</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200773" type="ABS">175</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/1548</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/402603fc-ad1b-42e6-bec8-17741132a3e3</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1946/1548</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.2</unitid>
+<unittitle>Zuivering kunst</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200779" type="ABS">176</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/1564</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/25c390c5-9eaa-4d00-98e0-586561fe3460</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1946/1564</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.3</unitid>
+<unittitle>Zuivering bedrijfsleven</unittitle>
+</did>
+<c04 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>177-181</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1949">1945-1949</unitdate>
+<physdesc>5 omslagen</physdesc>
+</did>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+<c05 level="file">
+<did>
+<unitid identifier="43200788" type="ABS">177</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/400A</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/6a43c474-7dc0-478a-8a4e-f3a72c1f49f1</unitid>
+<unittitle>Dossier Kabinet 1945/400A, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200791" type="ABS">178</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1945/1545</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e91fe703-0655-428d-8d73-b8012035fdb2</unitid>
+<unittitle>Dossier Kabinet 1946/1545, 1945</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200794" type="ABS">179</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1946/1545</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/40fa05ea-834e-4b1e-b910-d540c5a5eab9</unitid>
+<unittitle>Dossier Kabinet 1946/1545, 1946</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200797" type="ABS">180</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1946/1502</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/facb4811-8277-497b-ab6a-35cbcb8c1156</unitid>
+<unittitle>Dossier Kabinet 1946/1502, 1946 - 1947</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c05>
+<c05 level="file">
+<did>
+<unitid identifier="43200800" type="ABS">181</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1947/6807</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/867d5ff0-3508-450d-a369-599bf55a1c33</unitid>
+<unittitle>Dossier Kabinet 1947/6807, 1947 - 1949</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20250101">01-01-2025</date></ref></p>
+</accessrestrict>
+</c05>
+</c04>
+<c04 level="file">
+<did>
+<unitid identifier="43200803" type="ABS">182</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1947/1100 B70</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/baa70f30-a47e-45f2-b4a1-8861a0dae16e</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1947/1100 B70</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voor in een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.4</unitid>
+<unittitle>Zuivering burgemeesters</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200809" type="ABS">183</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/740 E4</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/8a534714-3d97-4834-aeb0-43f721ba1a9e</unitid>
+<unittitle>Dossier Geheim 1945/740 E4: Gedeponeerd dossier P 161E Londens Archief betreffende zuivering burgemeesters.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+<odd>
+<p>Zie voor de in het dossier voorkomende namen bijlage 3 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.5</unitid>
+<unittitle>Zuivering gemeentepersoneel</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200815" type="ABS">184</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/741 E5</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a51b7dbb-a751-4cda-82fa-ba4d8f1afa3f</unitid>
+<unittitle>Dossier Geheim 1945/741 E5: Gedeponeerd dossier P 161F Londens Archief betreffende zuivering gemeentepersoneel.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+<odd>
+<p>Zie voor de in het dossier voorkomende namen bijlage 4 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.6</unitid>
+<unittitle>Zuivering personeel belastingdienst</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200821" type="ABS">185</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 13 Geheim 1945/742 E6</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/603a1d73-19f0-4e7f-8a01-d556f521d708</unitid>
+<unittitle>Dossier Geheim 1945/742 E6: Gedeponeerd dossier P 161G Londens Archief betreffende zuivering leden van de belasting.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20210101">01-01-2021</date></ref></p>
+</accessrestrict>
+</c04>
+</c03>
+<c03 level="subseries">
+<did>
+<unitid type="series_code">1.8.7</unitid>
+<unittitle>Beëindiging zuiveringswerkzaamheden</unittitle>
+</did>
+<c04 level="file">
+<did>
+<unitid identifier="43200825" type="ABS">186</unitid><unitid audience="internal" type="obsolete">Depot 166/doos 12 Kabinet 1949/1100 V61</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/43fcd961-9cc6-4905-86fb-8b2e1ec092cb</unitid>
+<unittitle>Verbalen afkomstig uit het Kabinetsarchief. Dossier Kabinet 1949/1100 V61</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1949">1949</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20250101">01-01-2025</date></ref></p>
+</accessrestrict>
+<odd>
+<p>De verbalen zitten geborgen in onderwerpsmappen voorzien van een jaar en volgnummer aanduiding. Elke map bevat voorin een agenda die een overzicht geeft van de in de map geborgen verbalen. Opgemerkt wordt dat niet alle in de agenda genoemde verbalen aanwezig zijn. Zie voor de in de mappen voorkomende persoonsnamen bijlage 7 bij de inventaris.</p>
+</odd>
+</c04>
+</c03>
+</c02>
+</c01>
+<c01 level="series">
+<did>
+<unitid type="series_code">2</unitid>
+<unittitle>Archief van het Hoge College voor de Rechterlijke Macht</unittitle>
+</did>
+<c02 level="file">
+<did>
+<unitid identifier="43200831" type="ABS">187</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e67d2c80-c3d0-4561-be8b-ec16f005e907</unitid>
+<unittitle>Afschriften van het Koninklijk Besluit van 3 december 1945, no. 85 houdende instelling van en benoeming van leden in het Hoge College voor de Rechterlijke Macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200832" type="ABS">188</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e812bc35-c6d7-45c1-983d-a02e3e3a9a1e</unitid>
+<unittitle>Brief voor de Chef van het Kabinet van het Ministerie van Justitie inzake het vinden van bureauruimte.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200833" type="ABS">189</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/811b1ebd-c76d-462c-9afe-629d2706d24b</unitid>
+<unittitle>Telegram voor dr. L.W.G. Scholten met bericht van benoeming tot secretaris van het Hoge College voor de Rechterlijke Macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200834" type="ABS">190</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/7ceb4c6e-9d23-47fe-8515-c61b00cfccb8</unitid>
+<unittitle>Afschriften van Koninklijke Besluiten inzake de benoeming en ontslag van leden in de rechterlijke zuiveringsraden.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200835" type="ABS">191</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/898a10d1-1986-46e5-99b3-f786e5b90a94</unitid>
+<unittitle>Notities betreffende de zuivering van de rechterlijke macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200838" type="ABS">192</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/379837db-3987-4633-b943-2d779f5a6ec2</unitid>
+<unittitle>Agenda's van inkomende en uitgaande stukken.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c02>
+<c02 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid>193-195</unitid>
+<unittitle>Correspondentie van de secretaris.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+<physdesc>3 omslagen</physdesc>
+</did>
+<c03 level="file">
+<did>
+<unitid identifier="43200840" type="ABS">193</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/466cc78c-9c39-4071-b830-c730e163a9a2</unitid>
+<unittitle>Met de leden van het Hoge College voor de Rechterlijke Macht</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200843" type="ABS">194</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/59f59982-2cce-4328-917c-8df4b4bd8221</unitid>
+<unittitle>Met de president van het Hoge College voor de Rechterlijke Macht</unittitle>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c03>
+<c03 level="file">
+<did>
+<unitid identifier="43200846" type="ABS">195</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/e703b441-6550-4e39-8b81-88f0309ca273</unitid>
+<unittitle>Met de secretaris-generaal van het Ministerie van Justitie</unittitle>
+</did>
+</c03>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200847" type="ABS">196</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/a6bc19b2-94e0-4f9b-a272-0ca303ab05cb</unitid>
+<unittitle>Afschrift van het Koninklijk Besluit van 31 januari 1946, no. 37 waarbij aan mr. F.F. Viehoff ontslag wordt verleend en waarbij mr. R.P. Cleveringa wordt benoemd in het Hoge College voor de Rechterlijke Macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200850" type="ABS">197</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/35bd3f00-e3c1-4f63-9a81-934148e4dc19</unitid>
+<unittitle>Mededelingenblad van de Groningse Oud-Illegale Werkers (GOIW) met een artikel inzake de officier van Justitie te Groningen, ontvangen van het Gemeenschap Oud Illegale Werkers Nederland, provincie Groningen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200851" type="ABS">198</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d51656ee-8fdd-44cc-94f2-7b55b97335bb</unitid>
+<unittitle>Stukken betreffende het advies van de Rechterlijke Zuiveringsraad in het ressort 's-Hertogenbosch inzake de, tijdens de bezetting benoemde president van de rechtbank te Maastricht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200854" type="ABS">199</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/1c30757a-4beb-47c1-a527-7aaf175250a2</unitid>
+<unittitle>Stukken betreffende het instellen van een onderzoek naar het beleid van de Hoge Raad der Nederlanden tijdens de bezetting.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20220101">01-01-2022</date></ref></p>
+</accessrestrict>
+<odd>
+<p>Het onderzoek werd verricht overeenkomstig artikel 9 van het Zuiveringsbesluit Rechterlijke Macht.</p>
+</odd>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200859" type="ABS">200</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/0f04563b-dfd8-44b0-a5fa-0a180bb49cac</unitid>
+<unittitle>Correspondentie met de rechterlijke zuiveringsraden.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200862" type="ABS">201</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/78c713f6-809c-418c-85af-27f1cd493d40</unitid>
+<unittitle>Notulen van vergaderingen, met aantekeningen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c02>
+<c02 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid type="blank">---</unitid>
+<unittitle>Stukken betreffende het behandelen van verzoeken tot het instellen van onderzoeken naar gedragingen van de met rechtspraak belaste leden van de rechterlijke macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947</unitdate>
+<physdesc>14 omslagen</physdesc>
+</did>
+<odd>
+<p>Onderzoek van de zaken vond plaats op verzoek van de minister van Justitie, overeenkomstig art. 3, lid 2 van het KB van 26 oktober 1945 (Stbl. F. 243). Zie voor een specificatie van de inventarisnummers bijlage 5 bij de inventaris.</p>
+</odd>
+</c02>
+<c02 level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid type="blank">---</unitid>
+<unittitle>Stukken betreffende het instellen van onderzoeken naar gedragingen van de met rechtspraak belaste leden van de rechterlijke macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947</unitdate>
+<physdesc>14 omslagen</physdesc>
+</did>
+<odd>
+<p>Het onderzoek werd verricht overeenkomstig artikel 9 van het Zuiveringsbesluit Rechterlijke Macht. Zie voor een specificatie van de inventarisnummers bijlage 6 bij de inventaris.</p>
+</odd>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200871" type="ABS">230</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/d560f682-3127-46b0-be97-e2a9f0a78fe1</unitid>
+<unittitle>Brief aan de minister van Justitie inzake de overdracht van het archief van het Hoge College voor de Rechterlijke Macht aan het geheim archief van het Ministerie van Justitie.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200872" type="ABS">231</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/ac3e4988-bf89-4bb3-96c8-a9b89f2fbe5a</unitid>
+<unittitle>Brief aan Hare Majesteit de Koningin met het bericht dat het Hoge College voor de Rechterlijke Macht zijn taak heeft vervuld.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>stuk</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200873" type="ABS">232</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/91752564-e9b5-4676-8c5d-a795fb3cfc83</unitid>
+<unittitle>Correspondentie met de minister van Justitie inzake beëindiging van de werkzaamheden van het Hoge College voor de Rechterlijke Macht.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+</c02>
+<c02 level="file">
+<did>
+<unitid identifier="43200874" type="ABS">233</unitid>
+<unitid audience="internal" type="handle">http://hdl.handle.net/10648/758f73a1-f34e-47de-acd1-9b8c0edb4248</unitid>
+<unittitle>Eindverslag van de werkzaamheden, met kladaantekeningen.</unittitle>
+<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+<physdesc>omslag</physdesc>
+</did>
+<accessrestrict type="ABS">
+<p><ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot <date calendar="gregorian" era="ce" normal="20230101">01-01-2023</date></ref></p>
+</accessrestrict>
+</c02>
+</c01></dsc>
+
+</archdesc>
+</ead>

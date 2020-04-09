@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/09643b2f-fb79-42a9-85ac-bc336fff57e6"
+  rdf:about="record/1.10.47">
+    <rico:identifier>1.10.47</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1400</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1177" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.47/i1" />
+      <rico:instantiates rdf:resource="record/1.10.47" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Ten Hove,
+        1589-1791</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/09643b2f-fb79-42a9-85ac-bc336fff57e6" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten en enkele chartes. De stukken
+        van vòòr ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1177">
+    <rico:describedBy rdf:resource="record/1.10.47" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1177</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Ten Hove</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hove, ten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1589</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1791</rico:endDate>
+    <rico:date>1589-1791</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ten Hove</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Michiel ten Hove, geb. te Nijmegen 4-5-1585, overl. te Amsterdam
+          30-8-1614 (zoon van Nicolaes die "in die troubele tijden zijn woonplaets uijt
+          Cleese naar Nijmeegen" overbracht, en van Clara Lamerts), vestigde zich in 1602
+          te Amsterdam als koopman op `t Water en handelde er o.a. onder de firma Gerrit
+          Lemmen en Michiel ten Hove Naamklapper op het verdwenen Reg. der Wisselb. D,
+          1612. ). Trouwde te Amsterdam 28-12-1610 Susanna Kromhuizen, geb. te Antwerpen
+          1588. overl. te Amsterdam 24-4-1622, dr. van Melchior en van Maria Timmerman.
+          Zij hertrouwde 27-6-1617 Jacob Tiboel, geb. te Emmerik 1588, overl. te
+          Amsterdam en begraven in de O.-kerk 6-10-1642, suikerbakker bij zijn overlijden
+          wonende op de Keizersgracht "in de Schaepskoy". Hij hertrouwde 31-11-1626 Maria
+          Geesters, ged.in de O-kerk 15-1-1601 en begr. in de O.-kerk 23-12-1680, dr. van
+          Harmen Zie Elias no. 21, bijl. 2. ) en van Magdalena Gemart.</html:p>
+          <html:p>Uit het eerstgenoemde huwelijk werden twee zoons geboren:</html:p>
+          <html:p>a. Mr. Nicolaes ten Hove, geb. te Amsterdam 1-11-1611, overl. aldaar
+          15-10-1673. Gedeputeerde van de Staat, met mr. Gijsbert de Witt, aan de koning,
+          de koningin-regentes en de regering van Portugal 1657; raad ter Admiraliteit te
+          Amsterdam voor de provincie Gelderland 1675-1679; bewindhebber der W.I.C. voor
+          de kamer Rotterdam. Trouwde te `s-Gravenhage 15-2-1637 Cornelia Fagel
+          Halfzuster van Caspar Fagel, raadpensionaris van Holland en West-Friesland. ),
+          geb. te `s-Gravenhage 20-6-1613, overl. te Amsterdam 1-11-1693, dr. van mr.
+          François, raadsheer in de Hoge Raad van Holland, Zeeland en West-Friesland
+          (1619) en van zijn eerste vrouw Maria Rose.</html:p>
+          <html:p>Hun zes gehuwde kinderen waren:</html:p>
+          <html:p>aa. Maria ten Hove, trouwde Antoine Warin (zie Elias: aant. bij no.
+          376).</html:p>
+          <html:p>bb. Mr. Michiel ten Hove, geb. te `s-Gravenhage 24-2-1640, aldaar
+          kinderloos overl. 24-3-1689. Advocaat der W.I.C.; pensionaris van Haarlem
+          (volgde als zodanig zijn oom Gaspar Fagel op) 1672-1689; commissaris der Staten
+          tot redres van `s Lands Tin 10-2-1685. Waarnemend raadpensionaris van Holland
+          en West-Friesland (na de dood van zijn oom Fagel) 22-12-1688 (overleed vóór de
+          Staten tot de definitieve benoeming van een raadpensionaris hadden kunnen
+          overgaan); hoogheemraad van Rijnland 1680; Heer te Sloten 22-3-1672.</html:p>
+          <html:p>Elisabeht Bebber, geb. te Dordrecht 1644, overl. te `s-Gravenhage
+          28-2-1704, wed. van Jehan Diercquens uit Middelburg, zeer vermogend koopman te
+          Amsterdam, op de O.Z. Achterburgwal en eigenaar van de suikerraffinaderijen
+          "Diercquens Paradijs" op de Houtgracht te Amsterdam, de "Rosbeijer" op de
+          Haringkade te Middelburg en "de Wijnbergh" op de Wijnbergsche Kaai te
+          Vlissingen.</html:p>
+          <html:p>cc. Magdalena ten Hove, trouwde Joan van Beaumont de Jonge (zie Elias
+          no. 97, bijl. 1) weduwnaar van Catharina Charles.</html:p>
+          <html:p>dd. Françoise ten Hove, trouwde met Jan van Erpecum (vgl. Elias no.
+          133), hertrouwde met Arent van der Waayen (zie Elias: Aant. bij no.
+          357).</html:p>
+          <html:p>ee. Abigael ten Hove, geb. 9-2-1650, trouwde 2-12-1644 mr. François
+          Doublet Heer van Groenevelt, overl. 7-6-1688. Schout van `s-Gravenhage 1679;
+          burgemeester aldaar 1680; drossaard en dijkgraaf van Gorinchem en het land van
+          Arkel 1686, zn. van Philips Heer van Groenevelt, burgemeester van `s-Gravenhage
+          1672, ontvanger-generaal en Catharina van Overrijn. Hij hertrouwde Maria Fagel,
+          geb. 11-10-1649, overl. 30-11-1729, dr. van mr. Henrie, griffier der
+          Staten-Generaal 1672 en van Margaretha Rosa.</html:p>
+          <html:p>ff. Cornelis ten Hove, geb. 18-8-1658, overl. te `s-Gravenhage
+          6-7-1694. Commies-generaal der convooien en licenten ter Admiraliteit te
+          Amsterdam 1679; secretaris der Generaliteitsrekenkamer 1684; bewindhebber der
+          W.I.C. Trouwde te Haarlem 24-21682 Catharina Diercquens, ged. in de Hervormde
+          Kerk 9-12-1664 te `s-Gravenhage, overl. 4-6-1715, dr. van Jehan (zie hiervóór)
+          en Elisabeth Bebber (die hertrouwde met Michiel ten Hove).</html:p>
+          <html:p>Uit dit huwelijk werden acht kinderen geboren waaronder de drie
+          volgende zoons:</html:p>
+          <html:p>aaa. Mr. Michiel ten Hove, geb. 3-9-1684, overl. te `s-Gravenhage
+          20-11-1751, secr. aldaar 1710-1751. Trouwde te Amsterdam 4-8-1712 met Anna
+          Maria du Peyrou, geb. 30-1-1685, kinderloos overl. 11-2-1748, dr. van Jean (zie
+          Elias: aant. bij no. 347) en Anna Maria Vellepontoux.</html:p>
+          <html:p>bbb. Mr. Johan ten Hove, geb. 22-2-1690, ongeh. overl. te `s-Gravenhage
+          8-11-1747. Schout van `s-Gravenhage 1715; burgemeester aldaar 1723; griffier
+          van de Lenen van Holland en Westfriesland 1727. Ontvanger van de Societeit te
+          `s-Gravenhage.</html:p>
+          <html:p>ccc. Mr. Nicolaas ten Hove, geb. 15-10-1693, overl. 31-1-1738. Agent
+          van Hare Hoog Mogenden 1720; raadsheer aan de Hoven van Holland, Zeeland en
+          West-Friesland 12-7-1725; secretaris van de Raad van State 27-10-1725;
+          thesaurier-generaal der Unie 4-4-1737. Trouwde 4-3-1725 met Maria Françoise
+          Fagel, geb. 19-7-17-5, overl. 27-4-1773, dr. van Cornelis Gerard, raadsheer aan
+          de Hoven van Holland, Zeeland en West-Friesland en van Elisabeth
+          Leicquens.</html:p>
+          <html:p>Hun drie kinderen waren:</html:p>
+          <html:p>A. Mr. Cornelis Michiel ten Hove, geb. 2-6-1726, ongeh. overl. Griffier
+          der Lenen van Holland en Westfriesland 1747-1795.</html:p>
+          <html:p>B. Maria Françoise ten Hove, trouwde David ten Hove (zie
+          later).</html:p>
+          <html:p>C. Mr. Nicolaas ten Hove, geb. 11-9-1732, ongeh. overl. te
+          `s-Gravenhage 26-3-1782. Commies ter Griffie van H.H.M. 1750-1767; raad en
+          generaalmeester van de Munten der Verenigde Nederlanden 1767.</html:p>
+          <html:p>b. Melchior ten Hove, geb. te Amsterdam 15-3-1614, vestigde zich te
+          Nijmegen en werd er schout 1642; 2e burgemeester 1661; 1e burgemeester 1670
+          Mededeling van de heer H.D.J. van Scherichaven, gemeente-archivaris te
+          Nijmegen. ). Gedeputeerde ter Staten-Generaal voor de provincie Gelderland;
+          raad-ordinaris aan het Hof van Gelderland voor het kwartier Nijmegen 28-7-1654
+          Mededeling van mr. J.I. Bijleveld, rijksarchivaris te Arnhem. ). Bewindhebber
+          der V.O.C. van de kamer Amsterdam voor de provincie Utrecht 1669. Trouwde te
+          Nijmegen apr. 1638 met Henrica Ingenhagen, overl. te Nijmegen 5-6-1661 en
+          hertrouwde 29-10-1662 met Maria Gout wed. van Jonkh. Everard van Steenhuysen
+          tot Zandhuysen.</html:p>
+          <html:p>Uit het tweede huwelijk werden zes kinderen geboren; uit het eerste
+          vijf waaronder:</html:p>
+          <html:p>Dr. David ten Hove, Heer van Rhijnauwen, ged. te Nijmegen 21-10-1642,
+          overl. te Amsterdam en begr. in de O.-Kerk 28-10-1727. Werd 14-2-1675 door
+          stadhouder Willem III aangesteld tot momber des Furstendoms Gelderland, deed
+          vanwege zijn ouderdom afstand van deze betrekking 27-10-1708 Mededeling van mr.
+          J.I. Bijleveld, rijksarchivaris te Arnhem. ), waarna hij Arnhem verliet en zich
+          metter woon vestigde te Amsterdam op de Kloveniersburgwal. Hij was zeer
+          vermogend en kocht in 1718 het Huis te Rhijnauwen onder Rhijnauwen (prov.
+          Utrecht). Trouwde in 1681 met Johanna van Soest, geb. te Amsterdam 1660, dr.
+          van Abraham van Soest Jacquesz. van Antwerpen, koopman te Amsterdam op de Oude
+          Turfmarkt en van Susanna Kromhuizen Melchiorsdr Susanna Kromhuizen hertr. in
+          het stadhuis te Amsterdam 8-6-1670 met Jan Annickhuysen, koopman op de
+          Keizersgracht en weduwnr. van Anna Maria Roeland. ).</html:p>
+          <html:p>Mr. Melchior ten Hove, Heer van Rhijnauwen, Sleeburg en Nieuwwaal, geb.
+          te Arnhem 5-5-1682, overl. te Amsterdam 30-4-1750. Woonde in 1742 als rentenier
+          te Amsterdam op de Keizersgracht, Zuidz. tussen de Reguliersgracht en de
+          Vijzelstraat in een huis, thans no. 672, dat hij 16-5-1736 voor ? 66.500
+          gekocht had Quytsch E. 5, fol. 242 vo. ). Hij hield in 1742 vier dienstboden,
+          een buitenplaats (`t Huis te Rynauwen), een koets en vier paarden en werd
+          geschat op een inkomen van ? 22 à ? 24.000 J. Bicker Raye, aant. II, p. 283. ).
+          Kanunnik in het Kapittel van Oud-Munster te Utrecht 1703-1748. Trouwde te
+          Amstelveen 3-8-1718 met Johanna Maria Kromhuizen, vrouwe van Den Bosch, ged.
+          25-3-1689 en overl. 31-10-1763 "laatende een seer grooten schat gelt nae"
+          Johanna Maria Kromhuizen erfde bij de dood van haar broer Abr. Kromhuizen, heer
+          van Den Bosch 12-8-1751 als diens universeel erfgenaam een vermogen van (
+          1.623. ), dr. van Abraham Kromhuizen, schatrijk koopman en reder op de Oostzee
+          en Noorwegen Reg. van Goede Mannen 1683-1700 no. 1814-1817 R.J. ), wonend te
+          Amsterdam op de Keizersgracht (Melchiorsz. en Jannetje Ablijn) en van Susanna
+          van Gistele.</html:p>
+          <html:p>Uit dit huwelijk werd één zoon geboren:</html:p>
+          <html:p>David ten Hove, Heer van Sleeburg, Den Bosch, Den Breur en Nieuwwaal.
+          Raad 1766-1783; op zijn verzoek werd hem i.v.m. ziekte zijn ontslag verleend
+          als raad in de Vroedschap 22-1-1783 Res. Vroedschap 22-1-1783. ). Commissaris
+          1749; kanunnik in de Kapittels van St. Maria 1748-1786, en van Oud-Munster
+          1748-1776 te Utrecht; kerkmeester 1749; meesterknaap van de houtvesterij van
+          Brederode 1776. Woonde op de Herengracht tussen de Leidsestraat en de Nieuwe
+          Spiegelstraat (in sep. 1787 door zijn erfgenamen verkocht voor ? 83.000) en was
+          de eigenaar van de hofstede "Woestduyn" onder Heemstede en Vogelenzang (die
+          zijn moeder in 1751 van haar broer Abraham Kromhuizen geërfd had en die door
+          Ten Hove`s erfgenamen in 1787 verkocht werd voor ? 35.500). Hij was enige malen
+          milionair. Geb. te Utrecht 8-3-1724, overl. te Amsterdam 27-5-1787. Trouwde
+          8-7-1749 Cornelia Adriana Sautijn, geb. 14-10-1724, overl. 4-9-1750, dr. van
+          mr. Willem (zie Elias: aant. no. 205) en van Wendela Eleonora Reael. Hertrouwde
+          te `s-Gravenhage mrt. 1756 Maria Françoise ten Hove, geb. 16-6-1728, kinderloos
+          overl. 1761, dr. van mr. Nicolaas (zie hiervoor) en Maria Françoise Fagel.
+          Trouwde voor de derde maal op 25-9-1763 Jacoba Graswinckel, geb. 7-1-1723,
+          overl. te Heemstede 28-7-1771, wed. van Adriaan Temminck (Elias: aant. bij no.
+          326), dr. van mr. Jan (Elias no. 196) en Johanna Graafland. Vierde huwelijk
+          20-4-1777 met Sophia Adriana Kerckrinck, geb. 1-4-1737, overl. 27-3-1778, dr.
+          van mr. Joan Hendrik (Elias no. 382) en Haasje van Collen.</html:p>
+          <html:p>Kinderen:</html:p>
+          <html:p>AA Uit het eerste huwelijk:</html:p>
+          <html:p>Wendela Eleonora ten Hove, Vrouwe van Doorn, Den Bosch en Sleeburg,
+          geb. 21-8-1750, overl. 26-2-1814. Trouwde met mr. Willem Munter (Elias no.
+          288), hertrouwde te Bloemendaal okt. 1780 mr. Jan Carel Godin, Graaf van het
+          H.R., Heer van Boelestijn, geb. te Utrecht 26-6-1752, overl. De Bilt 14-3-1787.
+          Raad van de stad Utrecht 1776; schout aldaar 1781; kanunnik in het Kapittel van
+          St. Maria aldaar, zn. van Pieter Anthonij (Elias: aant. bij no. 37) en Isabella
+          Lucretia Barchman Wuytiers.</html:p>
+          <html:p>BB Sophia Adriana ten Hove. Trouwde met mr. Joan Huydecooper (Elias no.
+          382).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De oudste telg van het geslacht Ten Hove was de koopman Michiel ten Hove
+      (1585-1614), zijn zoon Nicolaes (1611-1673) was gedeputeerde van de Staat en
+      bewindhebber van der W.I.C. voor de kamer Rotterdam en diens zoon Michiel ten Hove
+      (1640-1689) was waarnemend raadspensionaris van Holland en West-Friesland van 1688
+      tot 1689. Melchior ten Hove (geb. 1614), de andere zoon van Michiel was o.a.
+      burgemeester van Nijmegen en bewindhebber der V.O.C. van de kamer Amsterdam. Het
+      geslacht ten Hove's vervulde belangrijke bestuurlijke functies en had vele
+      bezittingen o.a. het Huis te Rhijnauwen.De collectie archiefbescheiden van het
+      geslacht Ten Hove bevat o.a. verkoop- en huwelijksaktes, testamenten, financiële
+      stukken, afschriften van brieven en enkele charters.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.35 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>152 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

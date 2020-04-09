@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/76209aca-8a30-2c9d-e053-09f0900a9814"
+  rdf:about="record/2.01.27.03">
+    <rico:identifier>2.01.27.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1900</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/K23022" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.01.27.03/i1" />
+      <rico:instantiates rdf:resource="record/2.01.27.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van Koophandel
+        en Koloniën, 1806-1807, en van het Ministerie van Marine en Koloniën,
+        1808-1810</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/76209aca-8a30-2c9d-e053-09f0900a9814" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/K23022">
+    <rico:describedBy rdf:resource="record/2.01.27.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>K23022</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Koophandel en Koloniën, Ministerie van Marine en
+      Koloniën</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Koloniën Oost-Indië, 1806-1810</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1806</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1810</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1806-1810</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commercie-ComptoirCommissaris te MiddelburgCommissie tot de
+            Kerkelijke Zaken, Eerste Divisie OostGenerale Intendance voor de Financiën en
+            der Publieke SchatkistMinisterie van Koophandel en KoloniënMinisterie van
+            Koophandel en Koloniën, Algemene DirectieMinisterie van Koophandel en
+            Koloniën, Commissarissen Militaire Zaken, Divisie WestMinisterie van
+            Koophandel en Koloniën, Commissarissen te AmsterdamMinisterie van Koophandel
+            en Koloniën, Commissie tot de Kerkelijke Zaken, Divisie OostMinisterie van
+            Koophandel en Koloniën, Directie KoophandelMinisterie van Koophandel en
+            Koloniën, Divisie OostMinisterie van Koophandel en Koloniën, Divisie
+            WestMinisterie van Koophandel en Koloniën, Raden voor Koophandel en
+            FinanciënMinisterie van Marine en Koloniën, Bureau van KoophandelMinisterie
+            van Marine en Koloniën, Eerste Divisie (Oost)Ministerie van Marine en
+            Koloniën, Raden voor Koophandel en FinanciënMinisterie van Marine en
+            Koloniën, Zevende, later Vierde Divisie (Commerciële Zaken)Raad der
+            Aziatische Bezittingen en Etablissementen, Commissaris kantoor ZeelandRaad
+            der Aziatische Bezittingen en Etablissementen, Commissie tot de Kerkelijke
+            ZakenMinisterie van Marine en Koloniën</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Koninklijk Besluit van 6 juli 1806 werd P. van der Heim benoemd tot
+          directeur-generaal van Koophandel en Koloniën. Op 29 juli 1806 werden de Raad
+          der Aziatische Bezittingen en de Raad der Amerikaanse Bezittingen (waaraan
+          sinds 1801 het West-Indisch Comité was toegevoegd) afgeschaft en per 1 augustus
+          1806 verenigd in het Ministerie van Koophandel en Koloniën, ondergeschikt aan
+          koning Lodewijk Napoleon.</html:p>
+          <html:p>Het ministerie bestond uit een Eerste Divisie voor de Oost-Indische
+          Zaken, een Tweede Divisie voor de West-Indische Zaken en een Derde Divisie voor
+          de Koophandel.</html:p>
+          <html:p>De reorganisatie, voornamelijk bedoeld om Koloniën onder éénhoofdig
+          gezag te brengen, zou slechts tijdelijk zijn. Op 14 januari 1808 werd het
+          Ministerie van Marine en Koloniën opgericht. Het bestond uit een Algemene
+          Directie voor de boekhouding van het ministerie, een Tweede, Derde en Vierde
+          Divisie voor marine, een Vijfde Divisie voor het toezicht op de militaire
+          strijkrachten in de koloniën, een Zesde Divisie voor het bestuur van de
+          koloniën en een Zevende Divisie voor de verkoop van koloniale
+          producten.</html:p>
+          <html:p>In november 1808 werd de organisatie vereenvoudigd. Naast de Algemene
+          Directie voor de boekhouding van Marine en Koloniën werden een Eerste en Tweede
+          Divisie voor Marine ingesteld, een Derde Divisie voor civiele, militaire en
+          politieke aangelegenheden in de koloniën (de voormalige Zesde Divisie), een
+          Vierde Divisie voor de verkoop van koloniale producten en bevoorrading van de
+          kolonieën (de voormalige Zevende Divisie).</html:p>
+          <html:p>Na de inlijving van Holland bij Frankrijk werd het ministerie bij
+          Keizerlijk Decreet van 27 juni 1810 per januari 1811 deel van het Franse
+          ministerie van Marine en Koloniën.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Bevat grotendeels stukken betreffende Azië. De stukken betreffende
+      West-Indië, Amerika, Koophandel en Marine zijn ondergebracht in aparte archieven.
+      Het "Aziatische Archief" bestaat uit drie delen, te weten: 1. het archief van het
+      Ministerie van Koophandel en Koloniën, bevattende resoluties, rapporten enz.
+      1806-1807 van de minister met bijlagen, alfabetische en chronologische registers en
+      indices, verbalen", rapporten enz. 1806-1807 van de verschillende bureaus van de
+      Eerste Divisie; 2. het archief van het Ministerie van Marine en Koloniën bevat
+      verbalen, rapporten enz. 1808-1810 van de minister met alfabetische indices en
+      chronologische registers, verbalen, rapporten enz. 1808-1812 van de verschillende
+      bureaus van de Zesde Divisie (later: Derde Divisie), verbalen, rapporten enz.
+      1808-1813 van de Zevende Divisie (later: Vierde Divisie); 3. later ingekomen
+      stukken, waaronder rapporten en memoranda 1806-1813, overgekomen stukken van Indië
+      1805-1810, stukken van de Eerste Divisie van het Ministerie van Koophandel en
+      Koloniën 1807, stukken van de Zesde Divisie (later: Derde Divisie) van het
+      Ministerie van Marine en Koloniën 1806-1810, stukken van de Commissie tot de
+      Kerkelijke Zaken, 1801-1810 en miscellania 1807-1812.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor kopiëren van stukken, niet aan beperkingen
+      onderhevig.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>230 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>25,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

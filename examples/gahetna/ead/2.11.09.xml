@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:39:22 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.11.09::Verslagen en Mededelingen van de Landbouw)//NL" url="http://proxy.handle.net/10648/2e11c60f-92fe-4e2f-bb5f-4cff947c3353" urn="2.11.09.ead.xml">2.11.09</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het archief van het Ministerie van Landbouw en Visserij: Verslagen en Mededelingen over de Landbouw, 1815-1966</titleproper>
+				<author>jhr. R.H.M. van Kinschot</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1982">1982</date>
+				<p id="copyright">
+					<extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref>
+				</p>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Ancella Steketee, 
+		  <date calendar="gregorian" era="ce" normal="20090723">23 juli 2009</date>. 
+	  </creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+					<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, Rijks Archiefschool, Utrecht 1974</bibref>;
+                  <bibref linktype="simple">
+					<title linktype="simple">Archivistische Terminologie</title>, Rijks Archiefschool, Utrecht 1975</bibref>.
+                </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce"/>
+				<item/>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce">13 februari 2015</date>
+				<item><num>3</num>Inv.nrs. 25-30 toegevoegd door <name>Henny van Schie</name>.</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20131212">12 december 2013</date>
+				<item>
+					<num>2</num> Bijlage Lijst van Verslagen en Mededelingen toegevoegd door <name>Hans Punt</name>.</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20100816">16 augustus 2010</date>
+				<item>
+					<num>1</num> Nieuw abstract (versie F. Otten) ingehangen door <name>Anita Bouwman</name>.</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Verslagen en Mededelingen van de Landbouw</unittitle>
+			<unittitle type="short">Verslagen en Mededelingen Landbouw</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1815/1966" type="inclusive">1815-1966</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">L220</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">3.00 meter; </extent>
+				
+			<extent unit="files">28 inventarisnummers.</extent></physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Ministerie van Publiek Onderwijs, Nationale Nijverheid en Koloniën (tot</corpname>, 1825)</origination>
+			<origination>
+				<corpname>Ministerie van Binnenlandse Zaken (1825-1830)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Waterstaat, Nationale Nijverheid en Koloniën (1830-1834)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Buitenlandse Zaken (1834-1841)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Binnenlandse Zaken / Afdeling Nijverheid (1841-1878)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Waterstaat, Handel en Nijverheid / Afdeling Handel en Nijverheid (1878-1898)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Binnenlandse Zaken / Afdeling Landbouw (1898-1905)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Landbouw, Nijverheid en Handel (1905-1922)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Binnenlandse Zaken / Directie van de Landbouw (1922-1932)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Economische Zaken en Arbeid (1932-1935)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Landbouw en Visserij (1935-1937)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Economische Zaken (1937-1940)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Landbouw en Visserij (1940-1945)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Lanbouw, Visserij en Voedselvoorziening (1945-1959)</corpname>
+			</origination>
+			<origination>
+				<corpname>Ministerie van Landbouw en Visserij (1959-1966)</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Deze verzameling gedrukt materiaal bevat een aantal (onvolledige) reeksen van publicaties, zoals: het Verslag van de Landbouw in Nederland, het Verslag van het veeartsenijkundig staatstoezicht en (vanaf 1904) de Verslagen en Mededelingen van de Directie van de Landbouw. In de laatste publicatie werden naast de periodieke verslagen ook incidentele rapporten opgenomen, bijvoorbeeld over het grondgebruik of de samenstelling van de veestapel.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<p>In de periode van 1799-1806 verzamelde de Agent van Nationale Oeconomie met de hulp van burgemeesters gegevens van de landbouwstand. Bij Staatsbesluit van 24 maart 1806 kreeg de Commissaris tot de zaken van de Landbouw der Bataafse Republiekinstructie "een rapport wegens den Staat des Landbouws over de geheele Republick" jaarlijks te publiceren. Zo kwamen van 1806-1810 de "Staten van den Landbouw" uit in het "Magazijn van het Vaderlandschen Landbouw". De daarop volgende jaren kwamen door de troebelen met de Fransen geen staten uit. In 1816 gaf de eerste klasse van het Koninklijk Nederlandsch Instituut een verslag over deze jaren (1811 en 1812) uit. Deze gegevens maakten onderdeel uit van een overzicht van 1806-1812 door J. Kops.</p>
+				<p>Van 1813 tot 1828 werden de gegevens gepubliceerd op last van de regering. Daarna in 1829, werd de redaktie opgedragen aan een Commissie uit de Nederlandsche Huishoudelijke Maatschappij. De verslagen verschenen onder de naam "Algemeen verslag wegens den Staat van den Landbouw in het Koningrijk der Nederlanden". In 1835 ging de redactie naar een Commissie uit de Maatschappij van Nijverheid; dit duurde tot 1859. De regering gaf in 1851 opdracht aan dr J. Wttewaall het Landbouwverslag uit te geven. In 1860 verscheen de laatste uitgave van hem. Over de periode 1851-1859 bestaan dubbele jaarverslagen.</p>
+				<p>De jaarverslagen van 1861 tot 1875 zijn bewerkt door dr W.C. Staring. Van 1876-1883 bewerkte C.J.M. Jongkindt Coninck, directeur van de Rijkslandbouwschool, het verslag. De adjunct-directeur der Rijkslandbouwschool redigeerde het verslag van 1884.</p>
+				<p>L. Broekema verzorgde de publicaties van 1885 tot 1893.</p>
+				<p>Toen ging de opdracht over naar het Nederlandsch Landbouw comité. Uiteindelijk, in 1904, nam de Afdeling Landbouwen, later de Directie van de Landbouw de publicaties voor haar rekening.</p>
+				<custodhist>
+					<head>Verslagen en Mededelingen.</head>
+					<p>Vanaf 1904 verschijnt de serie Verslagen en Mededelingen van de Afdeling Landbouw en sedert 1906 de Directie van de Landbouw. Met deze serie zijn het "Blauwboek" (dozen 13-15) en het Landbouwverslag vervangen. Het Landbouwverslag komt als deel uit deze serie, terwijl de verschillende onderwerpen van het "Blauwboek" afzonderlijk per onderwerp, per deel verschijnen. Vanaf 1949 wordt de serie verzorgd door de afdeling Documentatie, en met ingang van 1958 door de Hoofdafdeling Documentatie en Publikaties.</p>
+				</custodhist>
+				
+			<acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek">13.02</subject>
+				<subject source="ABS_trefwoord">2.11</subject>
+			</controlaccess>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>Bij de inventarisatie werd allereerst gestreefd naar het vormen van series. De publikaties over de incidentele onderwerpen zijn chronologisch geordend. In de bijlage kan men onder het jaar en nummer de volledige titel van deze publikaties vinden.</p>
+			</processinfo>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Verslagen en Mededelingen van de Landbouw, nummer toegang 2.11.09, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Verslagen en Mededelingen Landbouw, 2.11.09, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+		</descgrp>
+		<descgrp type="appendices">
+			<head>Bijlagen</head>
+			<odd type="appendix_index">
+				<head>Lijst van Verslagen en Mededelingen van de Afdeling, later Directie van de Landbouw, 1904-1962.</head>
+				<p>Zie inv.nr. 22-24</p>
+				<odd>
+					<head>Verslagen en Mededelingen van de Afdeling Landbouw Ministerie van Waterstaat, Handel en Nijverheid.</head>
+					<list type="marked">
+						<head>1904</head>
+						<item>1. Boterproduktie en botercontrole in Nederland</item>
+						<item>2. Verslag over den landbouw in Nederland over 1903</item>
+						<item>3. De bestrijding van de tuberculose over het rundvee</item>
+						<item>4. Beknopt verslag der land- en tuinbouwproefvelden over 1903</item>
+						<item>5. Mededelingen van consulaire ambtenaren over Nederlandse kaas</item>
+						<item>6. Verslagen der Rijkslandbouwproefstations over 1903.</item>
+					</list>
+					<list type="marked">
+						<head>1905</head>
+						<item>1. Lijst van verenigingen op land- en tuinbouw gebied.</item>
+						<item>2. Verslag over het landbouwonderwijs over 1903-1904</item>
+						<item>3. Verslag over den landbouw in Nederland over 1904</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Landbouw, Nijverheid en Handel</head>
+					<list type="marked">
+						<item>4. Verslagen der Rijkslandbouwproefstations over 1904-1905</item>
+						<item>5. De Landbouw in Denemarken</item>
+						<item>6. Rundveefokkerij</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Verslagen en mededelingen van de Directie van den Landbouw Ministerie van Landbouw, Nijverheid en Handel.</head>
+					<list type="marked">
+						<head>1906</head>
+						<item>1. Varkenshouderij in Nederland</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Beschrijving van den tuinbouw in Nederland</item>
+						<item>4. Verslag over den landbouw in Nederland over 1905</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations over 1905-1906</item>
+						<item>6. Onze Nederlandse kaas</item>
+						<item>6. De teelt van en de handel in Nederlandse zaai- en pootuien</item>
+						<item>6. Veeteelt en zuivelbereiding in Zweden</item>
+						<item>7. Paardenfokkerij.</item>
+					</list>
+					<list type="marked">
+						<head>1907</head>
+						<item>1. Verslag over het landbouwonderwijs over 1904-1906</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouw gebied.</item>
+						<item>3. Onze tuinbouw m.b.t. het buitenland</item>
+						<item>4. Verslag over den landbouw in Nederland over 1906</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations over 1906-1907</item>
+						<item>6. De verbetering der landbouwwerktuigen en de bevordering van hun gebruik in Duitsland en Oostenrijk.</item>
+						<item>6. De griendcultuur in Nederland</item>
+						<item>6. De cultuur in de in 1906 in Zeeland ondergeloopen polders.</item>
+					</list>
+					<list type="marked">
+						<head>1908</head>
+						<item>1. Beknopt verslag der land- en tuinbouwproefvelden over 1904, 1905 en 1906.</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land en tuinbouwgebied.</item>
+						<item>3. Schapenhouderij</item>
+						<item>4. Verslag over den landbouw in Nederland over 1907</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations over 1907-1908</item>
+						<item>6. Ontginning van woeste gronden</item>
+						<item>6. de kaasbereiding in de Rijnprovincie</item>
+						<item>6. de cursus te Eisenach</item>
+						<item>7. Rundveefokkerij.</item>
+					</list>
+					<list type="marked">
+						<head>1909</head>
+						<item>1. Verslag over het landbouwonderwijs over 1906-1908</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Maatregelen ter hervorming van het pachtwezen in Groot-Britannië en Ierland.</item>
+						<item>4. Verslag over den landbouw in Nederland over 1908</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations over 1908-1909</item>
+						<item>6. Paardenfokkerij.</item>
+					</list>
+					<list type="marked">
+						<head>1910</head>
+						<item>1. Slibbemesting</item>
+						<item>1. De landbouw in het Belgische lössgebied</item>
+						<item>1. Voederproef met gepasteuriseerde afgeroomde melk</item>
+						<item>1. Het uitvriezen der tarwe</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Beschrijving van de aardappelcultuur in Nederland</item>
+						<item>4. Verslag over den landbouw in Nederland over 1909</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations over 1909-1910</item>
+						<item>6. Veetelling 1910</item>
+						<item>6.Het kadaster en de boekhouding op den grondeigendom in Nederland</item>
+						<item>6. De cultuur en de in 1906 in Zeeland ondergelopen polders</item>
+						<item>6. Arbeidsbemiddeling ten plattelande.</item>
+					</list>
+					<list type="marked">
+						<head>1911</head>
+						<item>1. Beknopt verslag der landbouwproefvelden over 1907, 1908 en 1909</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over het landbouwonderwijs over 1908-1910</item>
+						<item>4. Verslag over den landbouw in Nederland over 1910</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1910-1911</item>
+						<item>6. Veefokkerij</item>
+					</list>
+					<list type="marked">
+						<head>1912</head>
+						<item>1. Het mond- en klauwzeer in Nederland in 1911</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>3. Het grond-gebruik in Nederland gevolgd door eene beschrijving der landbouwgebieden</item>
+						<item>4. Verslag over den landbouw in Nederland over 1911</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1911-1912</item>
+						<item>5. Verslag betreffende takken van dienstressorterende onder de Directie van den Landbouw over 1911</item>
+					</list>
+					<list type="marked">
+						<head>1913</head>
+						<item>1. Beknopt verslag der tuinbouwproefvelden over 1907-1911</item>
+						<item>1. Hamburg en Bremen als afzetplaatsen van tuinbouwproducten</item>
+						<item>1. De zaadteelt in Quedlinburgen Erfurt</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Beschrijving der vlascultuur en vlasindustrie in Nederland</item>
+						<item>4. Verslag over den Landbouw in Nederland over 1912</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1912-1913</item>
+						<item>6. Verslag der in 1912 gehouden tuinbouwtelling De Amerikaanse veenbes.</item>
+					</list>
+					<list type="marked">
+						<head>1914</head>
+						<item>1. De landbouw in Argentinië</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Beknopt verslag der landbouwproefvelden over 1910, 1911 en 1912</item>
+						<item>4. Verslag over den landbouw in Nederland over 1913</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1913-1914</item>
+					</list>
+					<list type="marked">
+						<head>1915</head>
+						<item>1. Verslag eener excursie naar Zuid-Engeland</item>
+						<item>1. De melkvoorziening van Groot-Brittannië Landprijzen</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>3. Verslag over den landbouw in Nederland over 1914</item>
+						<item>4. Verslag van den Rijkslandbouwconsulent te Londen.</item>
+						<item>4. Het benutten van suikerbietenhoppen en- bladeren</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1914-1915.</item>
+					</list>
+					<list type="marked">
+						<head>1916</head>
+						<item>1. Het Fonds voor den Landbouw</item>
+						<item>1. Onze veehandel op het buitenland</item>
+						<item>1. Verslag van de Rijkslandbouwconculent te Londen</item>
+						<item>1. Register op de verslagen en mededelingen 1904-1915.</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over den landbouw in Nederland over 1915</item>
+						<item>4. Verslag over het mond- en klauwzeer in 1912-1916</item>
+						<item>5. Verslag der Rijkslandbouwproefstations over 1915-1916</item>
+						<item>-. Verslag "betreffende de takken van dienstressorteerende onder de Directie van den Landbouw over 1915</item>
+					</list>
+					<list type="marked">
+						<head>1917</head>
+						<item>1. De invloed van den waterafvoer op het Nederlandsche landbouwbedrijf</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>3. Verslag over den landbouw over 1916</item>
+						<item>4. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1916-1917</item>
+						<item>-. Verslag betreffende takken van dienst ressorteerdende onder de Directie van den Landbouw over 1916</item>
+					</list>
+					<list type="marked">
+						<head>1918</head>
+						<item>1. De fruitteelt in de provincie Gelderland tussen Rijn en Maas.</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over den landbouw in Nederland over 1917</item>
+						<item>4. Beschouwingen over landbouwstatistiek</item>
+						<item>5. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1917-1918.</item>
+					</list>
+					<list type="marked">
+						<head>1919</head>
+						<item>1. Beknopt verslag der landbouwproefvelden over 1913-1916</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over den landbouw in Nederland over 1918</item>
+						<item>4. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1918-1919.</item>
+					</list>
+					<list type="marked">
+						<head>1920</head>
+						<item> 1. De schade door wild en schadelijk gedierte toegebracht aan land-,tuin- en bosbouw.</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over den landbouw in Nederland in 1919.</item>
+						<item>4. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1919-1920.</item>
+					</list>
+					<list type="marked">
+						<head>1921</head>
+						<item>1. Wetenschappelijk onderzoek en regeringszorg voor de aardappelcultuur</item>
+						<item>1. De overstroming in Noord-Holland in januari 1916 en haar gevolgen voor den land- en tuinbouw.</item>
+						<item>1. De bedrijfsuitkomsten van de Nederlandsche landbouw gedurende en na den crisisjaren.</item>
+						<item>2. Lijst van officieële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>3. Verslag over den landbouw in Nederland over 1920.</item>
+						<item>4. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1920-1921</item>
+						<item>5. Verslagen van buitenlandse reizen.</item>
+					</list>
+					<list type="marked">
+						<head>1922</head>
+						<item>1. Veetelling 1921</item>
+						<item>1. Bijenhouderij</item>
+						<item>1. Verveningen in Drenthe</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>3. Verslag over den landbouw in Nederland over 1921</item>
+						<item>4. Verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1921-1922</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Binnenlandsche Zaken en Landbouw</head>
+					<list type="marked">
+						<head>1923</head>
+						<item>1. De landbouw in Noord-Frankrijk</item>
+						<item>1. Rundveefokkerij in België</item>
+						<item>1. Fokkerij van zwartbontvee in het Groot-Hertogdom Luxemburg</item>
+						<item>1. Wirtschaftberatung und Beispiel-Wirtschaften in Deutschland</item>
+						<item>2. Het grondgebruik in Nederland in 1921</item>
+						<item>3. Verslag over den landbouw in Nederland over 1922</item>
+						<item>4. Verslag betreffende takken van dienst ressorteerende onder de Directie van den Landbouw over 1922</item>
+						<item>4. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1922-1923</item>
+					</list>
+					<list type="marked">
+						<head>1924</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>2. Verslag over den landbouw in Nederland over 1923</item>
+						<item>3. Rundveefokkerij en- fokkerij in Nederland</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1923</item>
+						<item>4. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1923-1924</item>
+					</list>
+					<list type="marked">
+						<head>1925</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. Ruilverkaveling</item>
+						<item>2. Bedrijfsuitkomsten in den landbouw in 1923</item>
+						<item>2. Waarde van de Nederlandse bodemproduktie 1923</item>
+						<item>3. Verslag over den landbouw in Nederland over 1924</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1924</item>
+						<item>- Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1924-1925.</item>
+					</list>
+					<list type="marked">
+						<head>1926</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>2. Verslag over den landbouw in Nederland over 1925 (Hierin is opgenomen een overzicht van de bedrijfsuitkomsten in den landbouw in 1924)</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1925</item>
+						<item>3. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1925-1926</item>
+					</list>
+					<list type="marked">
+						<head>1927</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. Verslag over den landbouw in Nederland over 1926.</item>
+						<item>3. Het zuivelbedrijf in Denemarken</item>
+						<item>3. De teelt van groenten en vroege aardappelen in Italië.</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1926.</item>
+						<item>4. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1926-1927</item>
+					</list>
+					<list type="marked">
+						<head>1928</head>
+						<item>1. Lijst van officiële personen, instelling en vereniging op land- en tuinbouwgebied.</item>
+						<item>2. Verslag over den landbouw in Nederland over 1927</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1927</item>
+						<item>3. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1927-1928.</item>
+					</list>
+					<list type="marked">
+						<head>1929</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. Verslag over den landbouw in Nederland over 1928</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1928.</item>
+						<item>3. Beknopte verslagen der Rijkslandbouwproefstations voor controle-onderzoek over 1928-1929</item>
+					</list>
+					<list type="marked">
+						<head>1930</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. Verslag over den landbouw in Nederland over 1929</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1929</item>
+						<item>3. Beknopte verslagen der Rijkslandbouwproefstations over 1929-1930</item>
+					</list>
+					<list type="marked">
+						<head>1931</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>2. Verslag over den landbouw in Nederland over 1930</item>
+						<item>3. Verslagen van de studiereizen der centrale commissie voor Ruilverkaveling naar Würtemberg, Westfalen, Zwitserland en Frankrijk.</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Economische Zaken en Arbeid</head>
+					<list type="marked">
+						<head>1932</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>2. De fokkerij van het zwartbont Friesch Hollandsche rundveeras in de V.S. van Amerika in verband met de werkzaamheid van The Holstein-Friesian Association of America</item>
+						<item>3. Verslag over den landbouw in Nederland over 1931</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Economische Zaken</head>
+					<list type="marked">
+						<head>1933</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>2. Verslag betreffende de takken van dienst ressorteerende onder de Directie van de Landbouw over 1930</item>
+						<item>2. Beknopte verslagen der Rijkslandbouwproefstations over 1930-1931</item>
+					</list>
+					<list type="marked">
+						<head>1934</head>
+						<item>1. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1931</item>
+						<item>1. Beknopte verslagen der Rijkslandbouwproefstations over 1931-1932</item>
+						<item>2. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied</item>
+						<item>3. Verslag over den landbouw in Nederland over 1932</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1932.</item>
+						<item>5. Verslag over den landbouw in Nederland over 1933</item>
+					</list>
+					<list type="marked">
+						<head>1935</head>
+						<item>1. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1933</item>
+						<item>1. Beknopte verslagen der Rijkslandbouwproefstation voor controle-onderzoek over 1933-1934</item>
+						<item>2. De bedrijfsuitkomsten van den landbouw in het boekjaar 1933-1934</item>
+						<item>3. Het grondgebruik in Nederland in 1930, gevolgd door een beschrijving der Landbouwgebieden</item>
+						<item>4. Verslag over den landbouw in Nederland over 1934</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Landbouw en Visserij</head>
+					<list type="marked">
+						<item>5. Verslag betreffende de takken van dienst ressorteerende onder de Directie van de Landbouw over 1934</item>
+						<item>5. Beknopte verslagen der Rijkslandbouwproefstations (over 1934-1935)</item>
+					</list>
+					<list type="marked">
+						<head>1936</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. De bedrijfsuitkomsten van den landbouw in het boekjaar 1934-1935</item>
+						<item>3. Verslag over den landbouw in Nederland over 1935</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van de Landbouw over 1935</item>
+						<item>4. Beknopte verslagen der Rijkslandbouwproefstations (over 1935-1936)</item>
+					</list>
+					<list type="marked">
+						<head>1937</head>
+						<item>1. De economische toestand van den landbouw in 1935-1936 en andere onderwerpen.</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Economische Zaken</head>
+					<list type="marked">
+						<item>2. Verslag over den landbouw in Nederland over 1936</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1936</item>
+						<item>3. Beknopte verslagen over Rijkslandbouwproefstations (over 1936-1937)</item>
+					</list>
+					<list type="marked">
+						<head>1938</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+						<item>2. De economische toestand van den landbouw in 1936-1937 en andere onderwerpen</item>
+						<item>3. Verslag over den landbouw in Nederland over 1937</item>
+						<item>4. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1937</item>
+						<item>4. Beknopte verslagen der Rijkslandbouwproefstations, Deel I en II (over 1937-1938)</item>
+					</list>
+					<list type="marked">
+						<head>1939</head>
+						<item>1. De economische toestand van de landbouw in 1937-1938 en andere onderwerpen</item>
+						<item>2. Verslag over den landbouw in Nederland over het jaar 1938</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1938</item>
+						<item>- Beknopte verslagen der Rijkslandbouwproefstations Deel I en II (over 1938-1939)</item>
+					</list>
+					<list type="marked">
+						<head>1940</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land- en tuinbouwgebied.</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Landbouw en Visserij</head>
+					<list type="marked">
+						<item>2. De economische toestand van den landbouw in 1938-1939 en andere onderwerpen</item>
+						<item>3. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw over 1939</item>
+						<item>3. Beknopte verslagen der Rijkslandbouwproefstations deel I en II (over 1939-1940)</item>
+					</list>
+					<list type="marked">
+						<head>1942</head>
+						<item>1. Verslag betreffende de takken van dienst ressorteerende onder de Directie van den Landbouw in 1940</item>
+						<item>1. Beknopte verslagen der Rijkslandbouwproefstations (over 1940)</item>
+					</list>
+					<list type="marked">
+						<head>1943</head>
+						<item>1. Verslag over den landbouw in Nederland over 1939</item>
+						<item>2. Verslag over den landbouw in Nederland over 1940</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Ministerie van Landbouw, Visserij en Voedselverdeling</head>
+					<list type="marked">
+						<head>1945</head>
+						<item>1. Verslag over den landbouw in Nederland over 1941</item>
+						<item>2. Overzicht van de ontwikkeling van den landbouw in Engeland en Wales voor en gedurende den oorlog, meer in het bijzonder van den akkerbouw, met korte beschouwingen over den landbouw in Schotland en Noord-Ierland.</item>
+					</list>
+					<list type="marked">
+						<head>1946</head>
+						<item>1. Zuivelbereiding in Denemarken en Zweden</item>
+					</list>
+					<list type="marked">
+						<head>1948</head>
+						<item>1. Lijst van officiële personen, instellingen en verenigingen op land en tuinbouwgebied</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Verslagen en Mededelingen van het Ministerie van Landbouw, Visserij en Voedselvoorziening</head>
+					<list type="marked">
+						<head>1949</head>
+						<item>1. Verslag over den Landbouw in Nederland over de jaren 1942-1945</item>
+						<item>2. Buitenlandse agrarische aangelegenheden</item>
+						<item>(1.) Verslag van het Regeringscommissariaat voor Buitenlandse Agrarische Aangelegenheden over de periode 1945-1948</item>
+						<item>3. Buitenlandse agrarische aangelegenheden</item>
+						<item>(2.) De tuinbouw in België</item>
+						<item>4. Buitenlandse agrarische aangelegenheden</item>
+						<item>(3.) De bereiding van enkele Franse kaassoorten</item>
+					</list>
+					<list type="marked">
+						<head>1950</head>
+						<item>1. Verslag over de landbouw in Nederland over 1947</item>
+						<item>2. Buitenlandse agrarische aangelegenheden</item>
+						<item>(4.) De consumptievoorziening in Denemarken en Zweden</item>
+						<item>3. Verslag over de landbouw in Nederland 1948</item>
+					</list>
+					<list type="marked">
+						<head>1951</head>
+						<item>1. Verslag over de landbouw in Nederland over 1949</item>
+						<item>2. Verslag over de landbouw in Nederland: Bedrijfsuitkomsten over de jaren 1946, 1947, 1948</item>
+						<item>3. Verslag over de landbouw in Nederland over 1950</item>
+					</list>
+					<list type="marked">
+						<head>1952</head>
+						<item>1. Verslag over de landbouw in Nederland over 1951</item>
+						<item>2. Buitenlandse agrarische aangelegenheden</item>
+						<item>(5.) Enige aspecten van de hedendaagse emigratie van Nederlanders naar Canada</item>
+					</list>
+					<list type="marked">
+						<head>1953</head>
+						<item>1. Buitenlandse agrarische aangelegenheden: Beperking van het gebruik van kuilvoeder in Zwitserland in verband met de kaasbereiding</item>
+					</list>
+					<list type="marked">
+						<head>1954</head>
+						<item>1. Verslag over de landbouw in Nederland over 1952</item>
+						<item>2. De plaats van het bos in de Nederlandse samenleving</item>
+					</list>
+					<list type="marked">
+						<head>1955</head>
+						<item>1. Verslag over de landbouw in Nederland over 1953</item>
+						<item>2. Buitenlandse agrarische aangelegenheden: De Tuinbouw in Engeland</item>
+						<item>3. Buitenlandse agrarische aangelegenheden: De Britse landbouw</item>
+						<item>4. Buitenlandse agrarische aangelegenheden: Tien jaar F.A.O.</item>
+						<item>5. Buitenlandse agrarische aangelegenheden: De melkwinning op de boerderij in Engeland en Wales gedurende de winter</item>
+					</list>
+					<list type="marked">
+						<head>1956</head>
+						<item>1. Verslag over de landbouw in Nederland over 1954</item>
+						<item>2. Het beleid inzake de produktie en de afzet van warmoezerijgewassen</item>
+					</list>
+					<list type="marked">
+						<head>1956</head>
+						<item>1. Verslag over de landbouw in Nederland over 1955</item>
+					</list>
+					<list type="marked">
+						<head>1957</head>
+						<item>1. Verslag over de landbouw in Nederland over 1956</item>
+					</list>
+					<list type="marked">
+						<head>1958</head>
+						<item>1. Verslag over de landbouw in Nederland over 1957</item>
+					</list>
+					<list type="marked">
+						<head>1959</head>
+						<item>1. Verslag over de landbouw in Nederland over 1958</item>
+					</list>
+				</odd>
+				<odd>
+					<head>Verslagen en Mededelingen van het Ministerie van Landbouw en Visserij</head>
+					<list type="marked">
+						<head>1960</head>
+						<item>1. Verslag over de landbouw in Nederland over 1959</item>
+					</list>
+					<list type="marked">
+						<head>1961</head>
+						<item>1. Verslag over de landbouw in Nederland over 1960</item>
+					</list>
+					<list type="marked">
+						<head>1962</head>
+						<item>1. Verslag over de landbouw in Nederland over 1961</item>
+					</list>
+				</odd>
+			</odd>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>1-12</unitid>
+					<unittitle>Verslagen over de Landbouw in Nederland.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1815/1966">1815-1966</unitdate>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30779" type="ABS">1</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5be8a36-6a2e-4ac3-a209-e69e04d2857c</unitid>
+						<unittitle>1815-1817, 1823-1825 in het Nederlands</unittitle>
+						<unittitle>1815, 1816, 1818, 1819, 1821, 1822 in het Frans</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30780" type="ABS">2</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2cff7030-eae6-4592-bc4b-b893b6bd22e9</unitid>
+						<unittitle>1865, 1867-1872</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid type="blank">---</unitid>
+						<unittitle>1877-1895</unittitle>
+					</did>
+					<odd>
+						<p>De verslagen over de jaren 1877-1895 zijn overgebracht naar het archief WHN I, toegang 2.16.60.04, inv.nrs. 730-745.</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30783" type="ABS">5</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aed62c47-07c8-4e14-968a-8ac2154c328f</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1896/1898">1896-1898</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30784" type="ABS">6</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d66b961-d365-476a-804f-290f0db169d8</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1899/1900">1899-1900</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30785" type="ABS">7</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af976a58-782a-4f77-845c-78f84be84b48</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1903/1916">1903-1916</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30786" type="ABS">8</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/559d0e93-d9de-49d8-9c8b-a9272ed723c9</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1917/1930">1917-1930</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30787" type="ABS">9</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5324d629-7706-4670-950d-1f127936578b</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1931/1940">1931-1940</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30788" type="ABS">10</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d0850cc-0e06-41cb-8475-7a87dbdf6241</unitid>
+						<unittitle>1941-1945, 1947-1952</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30789" type="ABS">11</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/60096ead-a3bf-4c3e-9c27-abca64e83ef9</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1953/1958">1953-1958</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30790" type="ABS">12</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a915bab3-0b79-4662-ad66-e30a3c590afe</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1959/1966">1959-1966</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>13-15</unitid>
+					<unittitle>Verzameling van verslagen betrekking hebbende op het landbouwonderwijs; de vanwege het Rijk gesubsidieërde proefvelden, de rijkslandbouwproefstations, het veeartsenijkundig onderwijs en de paardenfokkerij als tak van staatszorg over de jaren 1891-1902, het zgn. Blauwboek.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1891/1902">[1891-1902]</unitdate>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30791" type="ABS">13</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/615691c8-4134-4ba5-99e7-3c80567f141d</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1891/1898">1891-1898</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30792" type="ABS">14</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/32045ce5-4819-49de-8d04-ee94edfa550b</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1899/1901">1899-1901</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30793" type="ABS">15</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6b32488-4ea8-4c60-a7c8-50b1c629f9d5</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1901/1902">1901-1902</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="file">
+				<did>
+					<unitid identifier="30794" type="ABS">16</unitid>
+					<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4550a70-4d67-4952-b392-5463a37bcf47</unitid>
+					<unittitle>Beknopt verslag der land- en tuinbouw proefvelden over 1903-1916.</unittitle>
+					<unittitle>Verslag over het Landbouwonderwijs over 1903-1910.</unittitle>
+					<unittitle>Verslag van de werkzaamheden der Rijksseruminrichting over 1904-1905.</unittitle>
+					<unitdate calendar="gregorian" era="ce">1903-1916</unitdate>
+				</did>
+			</c01>
+			<c01 level="file">
+				<did>
+					<unitid identifier="30795" type="ABS">17</unitid>
+					<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4221dd8a-8836-41ec-a4e8-8bda71a65e97</unitid>
+					<unittitle>Verslag der Rijkslandbouwproefstations.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1912/1921">1912-1921</unitdate>
+				</did>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>18-19</unitid>
+					<unittitle>Verslag betreffende de takken van dienstressorterende onder de Directie van de Landbouw over 1911-1940, waarin opgenomen de beknopte verslagen van de Rijkslandbouwproefstations.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1922/1940">1922-1940</unitdate>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30796" type="ABS">18</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75a8910f-ec41-4cff-af8f-5208e9e0e557</unitid>
+						<unittitle>1911, 1915, 1916, 1919, 1922-1935</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30797" type="ABS">19</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6558d150-83fb-484c-afcd-c72cfb97a9e9</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1936/1940">1936-1940</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>20-21</unitid>
+					<unittitle>Lijst van officiële personen, instellingen en verenigingen op land en tuinbouw gebied.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1905/1947">1905-1921, 1924-1933, 1935, 1937, 1939, 1947</unitdate>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30798" type="ABS">20</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92f4bcca-c6ee-47b8-afbb-c131b18d080c</unitid>
+						<unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1905/1921">1905-1921</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30799" type="ABS">21</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a43b6cf0-bd62-41ed-9eef-368ff01e9de5</unitid>
+						<unittitle>1924-1933, 1935, 1937, 1939, 1947.</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="file">
+				<did>
+					<unitid identifier="30800" type="ABS">22</unitid>
+					<unitid audience="internal" type="handle">http://proxy.handle.net/10648/731a9bad-8c31-4317-b820-65becf8a5148</unitid>
+					<unittitle>De bedrijfsuitkomsten van den Landbouw in de boekjaren 1933-1939, 1946-1948.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1933/1948">1933-1948</unitdate>
+				</did>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>22-24</unitid>
+					<unittitle>Verslagen en Mededelingen over de Landbouw.</unittitle>
+					<unitdate calendar="gregorian" era="ce" normal="1904/1956">1904-1956</unitdate>
+				</did>
+				<odd>
+					<p> Zie voor nadere omschrijvingen de bijlage.</p>
+				</odd>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30800" type="ABS">22</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0671878-2adb-48fa-8d67-169f31af98ca</unitid>
+						<unittitle>1904 nrs. 1, 3, 5; 1905 nrs. 1, 5, 6; 1906 nrs. 1, 3, 6, 7; 1907 nrs. 3, 6; 1908 nrs. 3, 6, 7; 1909 nrs. 3, 6;</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30801" type="ABS">23</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5099a1a3-596a-482a-beb5-b3934e5abf0e</unitid>
+						<unittitle>1910 nrs. 1, 3, 6; 1911 nr. 6; 1912 nrs. 1, 3; 1913 nrs. 1, 3, 6; 1914 nr. 1; 1915 nr. 1, 4; 1916 nrs. 1, 4; 1917 nr. 1; 1918 nrs. 1, 4; 1920 nr. 1; 1921 nrs. 1, 5; 1922 nr. 1;</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30802" type="ABS">24</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c51c5e3-0d87-47a3-beec-50c1e4941e16</unitid>
+						<unittitle>1923 nrs. 1, 2; 1924 nr. 3; 1925 nr. 2; 1927 nr. 3; 1931 nr. 3; 1932 nr. 2, 1935 nr. 3; 1945 nr. 2; 1946 nr. 1; 1949 nrs. 2, 3; 1950 nr. 2; 1952 nr. 2; 1953 nr. 1; 1954 nr. 2; 1955 nrs. 3, 4, 5; 1956 nr. 2.</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="30802" type="ABS">24</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c80f3c2-af12-4afe-b6e5-e9908b43365f</unitid>
+						<unittitle>Verslag aan de Koningin van de bevindingen en handelingen van het Veeartsenijkundig Staatstoezicht.<unitdate calendar="gregorian" era="ce" normal="1906/1916">1906-1911, 1914-1916</unitdate>
+						</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>25-26</unitid>
+					<unittitle>Verslagen van de werkzaamheden der Rijksseruminrichting over de jaren 1904-1945.</unittitle>
+					<unitdate normal="1906/1947">1906-1947</unitdate>
+					<physdesc>2 pakken</physdesc>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="4531978" type="ABS">25</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/14da18aa-a6d0-4984-b15a-686f8ed2d465</unitid>
+						<unittitle>over de jaren 1904-1931</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="4531979" type="ABS">26</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f42672a7-5677-4de2-9301-9ac66f97d4ef</unitid>
+						<unittitle>over de jaren 1932-1945</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="otherlevel" otherlevel="filegrp">
+				<did>
+					<unitid>27-29</unitid>
+					<unittitle>Verslagen aan de Koningin van de bevindingen en handelingen van het Veeartsenijkundig Staatstoezicht in de periode 1897-1920.</unittitle>
+					<unitdate normal="1899/1922">1899-1922</unitdate>
+					<physdesc>3 pakken</physdesc>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="4531980" type="ABS">27</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/735cf501-7aa1-427e-8a1d-f3487c19d539</unitid>
+						<unittitle>over de periode 1897-1903</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="4531981" type="ABS">28</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/099a019e-e5e7-4ecf-9ab0-5cd29ccf659b</unitid>
+						<unittitle>over de periode 1904-1912</unittitle>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="4533731" type="ABS">29</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2e68ee6-7eba-4c91-997a-f2ddf1ffc388</unitid>
+						<unittitle>over de periode 1913-1920</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01 level="file">
+				<did>
+					<unitid identifier="4533732" type="ABS">30</unitid>
+					<unitid audience="internal" type="handle">http://proxy.handle.net/10648/254ba6e0-5f83-4032-9f2a-2ae4421bd967</unitid>
+					<unittitle>Verslagen aan de minister van Binnenlandse Zaken en Landbouw over de werkzaamheden van de Veeartsenijkundige Dienst en de gezondheidstoestand van de veestapel in de jaren 1921-1933.</unittitle>
+					<unitdate normal="1923/1935">1923-1935</unitdate>
+					<physdesc>1 pak</physdesc>
+				</did>
+				<scopecontent>
+					<p>Het verslag over het jaar 1931 is uitgebracht aan de minister van Economische Zaken en Arbeid en de verslagen over de jaren 1932-1933 zijn uitgebracht aan de minister van Economische Zaken.</p>
+				</scopecontent>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

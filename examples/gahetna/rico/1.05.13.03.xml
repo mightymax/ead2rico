@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/b9d4d82c-9818-4e31-9507-613585ab2e82"
+  rdf:about="record/1.05.13.03">
+    <rico:identifier>1.05.13.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/157" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.05.13.03/i1" />
+      <rico:instantiates rdf:resource="record/1.05.13.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20200107</rico:hasModificationDate>
+        <html:p>7 januari 2020</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van St. Maarten, (1806) 1828-1845
+        (1902)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/b9d4d82c-9818-4e31-9507-613585ab2e82" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/157">
+    <rico:describedBy rdf:resource="record/1.05.13.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>157</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>St. Maarten: Archieven na 1828</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>St. Maarten na 1828</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1806</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1902</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1806-1902</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Administrateur der Financiën en Ontvanger van St. MaartenCollege
+            voor de Kleine Zaken van St. MaartenCommissarissen tot de Kleine Zaken op St.
+            MaartenGarnizoenscommandant van St. MaartenGezaghebber van St.
+            MaartenKoloniale Raad van St. MaartenKoloniale Raad van St. Maarten,
+            SecretarisLandstorm van St. MaartenPresident van de Raad van Politie van St.
+            MaartenProcureur des Konings van St. MaartenRaad van Civiele en Criminele
+            Justitie van St. MaartenRaad van Politie van St. MaartenRaad van Politie van
+            St. Maarten, Secretaris fungerend als NotarisRaad voor Administratie van het
+            Pensioenfonds voor Ambtenaren in de Nederlandse Westindische Koloniën te St.
+            MaartenRechtbank van St. MaartenRechtbank voor de Kleine Zaken van St.
+            MaartenSecretaris-Vendumeester van St. MaartenWees- en Desolate Boedelkamer
+            van St. MaartenWees- en Onbeheerde Boedelkamer van St. Maarten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De archieven van St. Maarten van na 1828 bevatten stukken van diverse
+      instellingen, onder meer de archieven van het eilandbestuur, dat wil zeggen,
+      aanvankelijk de president van de Raad van Politie, vanaf 1834 de Gezaghebber,
+      bijgestaan door de Raad van Politie/Koloniale Raad. Verder zijn aanwezig de
+      archieven van het beheer der financiën van het bestuur (de Administratie der
+      Financiën), het militair garnizoen (de garnizoenscommandant en de commandant van de
+      Landstorm), de hogere rechtspraak (de Raad van Civiele en Criminele Justitie/de
+      Rechtbank), de lagere rechtspraak (het College van Kleine Zaken/de Commissarissen
+      tot de Kleine Zaken), de volontaire rechtspraak (secretariële en notariële akten)
+      en het beheer van boedels van minderjarige wezen en insolvente boedels. Tot de
+      stukken behoren o.a. van het eilandbestuur journalen, besluiten / verordeningen en
+      correspondentie van de vertegenwoordiger van de GG en enkele specifieke
+      administraties, waaronder het bevolkingsregister en de overzichten van vrijgelaten
+      slaven, alsmede de notulen met bijlagen van de koloniale raad. De archieven
+      bevatten ook notulen van de vergaderingen van de Raad van Civiele en Criminele
+      Justitie/Rechtbank, de Commissarissen tot de Kleine Zaken en van de commissarissen
+      van de Wees- en Onbeheerde Boedelkamer, alsmede rekesten, sententies, secretariële
+      en notariële protocollen, grootboeken en staten van uitrustingsstukken en buskruit
+      van het garnizoen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>126 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5,25 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:43:24 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.13.40::Centraal Inundatie en Technisch Bureau van de Staf der Genie)//NL" url="http://proxy.handle.net/10648/8cd97a8c-4b9e-48e3-80ab-486c31de15c1" urn="2.13.40.ead.xml">2.13.40</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de Staf der Genie: Centraal Inundatie- en Technisch Bureau, 1815-1951</titleproper>
+        <author>Medew. Schaarsb.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1979">1979</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2008">2008</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Pauline van den Heuvel, 
+		  <date calendar="gregorian" era="ce" normal="20081128">28 november 2008</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Centraal Inundatie en Technisch Bureau van de Staf der Genie</unittitle>
+      <unittitle type="short">Genie / Centraal Inundatie- en Technisch Bur.</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1815/1951" type="inclusive">1815-1951</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">D27111</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">29.00 meter; </extent>
+        
+      <extent unit="files">259 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Staf der Genie / Centraal Inundatie- en Technisch Bureau</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief van het Centraal Inundatie en Technisch Bureau van de Staf der Genie bevat stukken betreffende onderdelen van de Nieuwe Hollandse Waterlinie, zoals stellingen en verdedigingswerken, en het Amsterdam-Rijnkanaal en rijkswegen, alsmede series chronologisch geordende brieven.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">2.13</subject>
+      </controlaccess>
+      
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Centraal Inundatie en Technisch Bureau van de Staf der Genie, 1815-1951, nummer toegang 2.13.40, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Genie / Centraal Inundatie- en Technisch Bur., 2.13.40, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172641" type="ABS">1</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90685d8f-657d-470a-a973-af47f1b11bac</unitid>
+          <unittitle>Rijksweg 1, 2 A'dam - Hoevelake en A'dam - Utrecht,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1951">1931 - 1951</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172642" type="ABS">2</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/215c09ae-4034-4352-bd23-40624a451cca</unitid>
+          <unittitle>Rijksweg 3, 4, 4a A'dam - Den Haag en Osten - Leiden,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172643" type="ABS">3</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c386e61c-15c1-49cb-8ccb-c977c089dce9</unitid>
+          <unittitle>Rijksweg 6, 7, 9, 12 A'dam - Velzen, A'dam - Wieringen en Beverwijk - Kastricum (bij Gouda),</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1935/1940">1935 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172644" type="ABS">4</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b499127-5c43-4402-813c-f5e8c6f6b5e1</unitid>
+          <unittitle>Rijksweg 12 I en 12 II,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1938">1931 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172645" type="ABS">5</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5259348f-661d-47c4-bcab-48fa38b33fa4</unitid>
+          <unittitle>Rijksweg 15 Gorinchem - Wadenburg,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172646" type="ABS">6</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a2f9ef8-5fcd-465e-a6ab-2b6c79a15b17</unitid>
+          <unittitle>Rijksweg 22 I en II,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1938">1931 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172647" type="ABS">7</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a5ee0ab6-70d3-4df4-bebb-22da47e4e94b</unitid>
+          <unittitle>Rijksweg 22 II,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1937/1938">1937 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172648" type="ABS">8</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ceddadb-dacf-42fe-b09e-6e96944feeb9</unitid>
+          <unittitle>Rijksweg 22 IV, rijksweg 23, 25,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1936/1951">1936 - 1951</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172649" type="ABS">9</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e5352c73-4b28-40e3-a6fd-99007e193c5e</unitid>
+          <unittitle>Rijksweg 26 Diefdijk - Vianen - Wadenburg,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1933/1939">1933 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172650" type="ABS">10</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1235c26b-3374-4869-9fab-70fceec3bd25</unitid>
+          <unittitle>Rijksweg 27, 36, 38, 43, 65, 67, 68 en 76,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1927/1939">1927 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172651" type="ABS">11</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11345a99-8c5c-4c50-961d-c80ccd8c6f82</unitid>
+          <unittitle>Provincialeweg 19, 35a, 37, 41 en 42,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1935/1949">1935 - 1949</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>12-28</unitid>
+          <unittitle>Amsterdams rijnkanaal,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1929/1950">1929 - 1950</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172652" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc744cd8-7814-44b4-adf5-ce5cb37f062a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1936">1931-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172653" type="ABS">13</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fac9c7fa-763e-4416-a190-653a0b67022a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1950">1934-1950</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172654" type="ABS">14</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b40f4b5-a739-4ef5-8d22-c66167edffb7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1938">1931-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172655" type="ABS">15</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/72838f1f-b3ab-4d6d-bce7-4d029b5c9fa1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936/1939">1936-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172656" type="ABS">16</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6669403-6dcc-4fad-8617-974315287422</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172657" type="ABS">17</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b428b417-c9b6-47ab-8b21-e89d217babb0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172658" type="ABS">18</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1215dd5f-7369-42fa-bc9e-1bbd91c895e8</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929/1940">1929-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172659" type="ABS">19</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31aed449-69b4-418e-8edb-cc24fb3499c3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172660" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ec5eb5f-3d6f-489a-b7f4-dbab4859a411</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172661" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f636d4d4-06e0-4a01-8f4f-b5b19431e769</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1939">1932-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172662" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8a051ee-1383-4013-9092-3a25e9c4cf42</unitid>
+            <unittitle>---</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172663" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/747e9217-c24c-49fe-9ced-a7eaebb4b8d7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933/1940">1933-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172664" type="ABS">24</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7fc116d2-ed7b-469b-9ac2-0701a5bc2a59</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1940">1934-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172665" type="ABS">25</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12cd0d30-bb23-415b-810a-dc0829851d32</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172666" type="ABS">26</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/546d2b36-f0ed-401d-bc17-75b76a6b4080</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933/1939">1933-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172667" type="ABS">27</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e5408ddf-5e0a-4710-8702-4ce6c61bced5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1940">1934-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172668" type="ABS">28</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e57eab9c-86f8-4c9d-bc6c-c980a37f77e4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>29-31</unitid>
+          <unittitle>Amsterdams boven rijn,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1924/1935">1924 - 1935</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172669" type="ABS">29</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c9c98d0-1f3f-474e-bc26-5c2944ee8834</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1935">1931-1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172670" type="ABS">30</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b050486d-db1a-42bc-86af-5eeee8d43c65</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1931">1924-1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172671" type="ABS">31</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2167a992-3362-4333-bcc9-4245cd969f1a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925/1930">1925-1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>32-34</unitid>
+          <unittitle>Stelling Friesland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918/1940">1918 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172672" type="ABS">32</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/81542a05-c8c5-4a5a-8382-3d53bca8d96e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1918/1936">1918-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172673" type="ABS">33</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a86ec8a2-16ae-4d37-b511-b188dd89b4fa</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172674" type="ABS">34</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/30173e7b-b8a6-432f-9ae3-7d55dac538fb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>35-40</unitid>
+          <unittitle>Stelling Gelderland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1906/1940">1906 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172675" type="ABS">35</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dadc7f41-42ba-44b2-8848-7dab955251ce</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1933">1931-1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172676" type="ABS">36</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7b18c83c-c841-461a-ad67-d96517d53987</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1940">1934-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172677" type="ABS">37</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69f5ad8e-7bfa-4fd4-98a8-998e9d3874c0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172678" type="ABS">38</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/243d4a30-f4f9-4274-b786-dcc88bf34f74</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1940">1928-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172679" type="ABS">39</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c296b24-385e-4fb0-ac2a-6625c46f9bca</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1906/1922">1906-1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172680" type="ABS">40</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9ee946e-f0bf-49b9-841e-15c847c53f1d</unitid>
+            <unittitle>---</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>41-47</unitid>
+          <unittitle>Gooi stelling,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1815/1946">1815 - 1946</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172681" type="ABS">41</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90930ee2-fa83-4313-865f-b21245b1955d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1900/1930">1900-1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172682" type="ABS">42</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fff49a91-eac4-460f-8718-a2ac78e5e576</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1937">1928-1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172683" type="ABS">43</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7329291-6f1a-4cea-b5b9-64a3971bc110</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1815/1893">1815-1893</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172684" type="ABS">44</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f5e2888-4217-4fc2-bf96-4cf6b9d68e26</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1875/1896">1875-1896</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172685" type="ABS">45</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e68ec7e7-2045-4336-bc06-b1614aa3afb4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1893/1898">1893-1898</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172686" type="ABS">46</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4908890-7db3-4587-9d0a-7461258e3174</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1899/1946">1899-1946</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172687" type="ABS">47</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/968d6b1a-3ea4-457b-aa0b-d815d83e9b9c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1888/1922">1888-1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172688" type="ABS">48</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ee8d116-4cca-4374-90d1-d2347e082748</unitid>
+          <unittitle>Stelling Gouda,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918/1940">1918 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>49-59</unitid>
+          <unittitle>Stelling Amsterdam,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1885/1940">1885 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172689" type="ABS">49</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c19b63cb-a9bb-4220-a421-f82fcb60bc8e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1918/1925">1918-1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172690" type="ABS">50</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d93392f0-9ceb-4df0-bf1d-95d621ff3b94</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935/1940">1935-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172691" type="ABS">51</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c635361-96be-4859-bf17-22045320d27f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1919/1922">1919-1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172692" type="ABS">52</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd2f37c4-2048-45ce-b670-6f6f97583937</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1885">1885</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172693" type="ABS">53</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/85734d6c-85be-442d-a326-6db352dc82e7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1933">1930-1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172694" type="ABS">54</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9be4817a-b433-4f46-9ff0-43498ce5a3b0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1935">1931-1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172695" type="ABS">55</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/91cf8e45-3645-409d-930e-b64d85279b5a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1940">1932-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172696" type="ABS">56</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7a2d47d-89f4-435e-a096-cd01b338b311</unitid>
+            <unittitle>---</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172697" type="ABS">57</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83008d1f-1abf-4e9d-9b1c-aaf476f8e3a2</unitid>
+            <unittitle>kaarten</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172698" type="ABS">58</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45c7e4bb-4baa-46c2-a61c-d34b0b29ff56</unitid>
+            <unittitle>kaarten</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172699" type="ABS">59</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/356f592d-0775-4866-9ea1-c90f0839a94d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>60-62</unitid>
+          <unittitle>Stelling Amsterdam, sectie V.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172700" type="ABS">60</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b796ebf1-2e8a-4d66-a724-dda6655997c5</unitid>
+            <unittitle>Bestanddeel 1</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172701" type="ABS">61</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/77f87fae-e370-4c17-abb5-a66efd474a79</unitid>
+            <unittitle>Bestanddeel 2</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172702" type="ABS">62</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8442d4e2-b3b6-4538-a8a6-1be605b6558b</unitid>
+            <unittitle>Bestanddeel 3</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>63-66</unitid>
+          <unittitle>Stelling IJmuiden,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1940">1914 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172703" type="ABS">63</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e73c017d-2296-4dc7-adf7-04e4d3bba453</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1914/1936">1914-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172704" type="ABS">64</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f837896-e5bc-4143-ae6e-f130a789bd68</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933/1938">1933-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172705" type="ABS">65</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/408ba6ef-753a-4b3a-951f-37a1dfb66205</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172706" type="ABS">66</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a017412c-00f7-4a7e-a263-5d6e3f7c8548</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927/1940">1927-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>67-68</unitid>
+          <unittitle>Stelling Den Helder,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1910/1939">1910 - 1939</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172707" type="ABS">67</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/064b6051-e906-42e4-847e-3ffe78562284</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1910/1939">1910-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172708" type="ABS">68</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83861b8e-b112-444b-9c37-5b833b5c8260</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1939">1931-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172709" type="ABS">69</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a94955f-348a-474e-b33b-53e78be2781d</unitid>
+          <unittitle>Stelling Zuid-Holland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1815/1895">1815 - 1895</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172710" type="ABS">70</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b6f6b089-cd09-4b82-b78c-7bebd40f5f4e</unitid>
+          <unittitle>Stelling Zuid-Holland, Brielle,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1890/1926">1890 - 1926</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172711" type="ABS">71</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5477bd4-6bb8-4e00-9286-1b93d26dab77</unitid>
+          <unittitle>Stelling Zuid-Holland, Brielle Willemstad,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172712" type="ABS">72</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5edc36ba-ecb3-41eb-a58b-73b122ec2c7d</unitid>
+          <unittitle>Stelling Zuid-Holland, Briellsche maasbotlek,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172713" type="ABS">73</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf4ca070-b26e-47d6-a914-5fc07265e27e</unitid>
+          <unittitle>Stelling Zuid-Holland, Hollandsdiep volkerrak.</unittitle>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172714" type="ABS">74</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d636b09-4e55-4e38-ad8f-a3fb11171353</unitid>
+          <unittitle>Stelling Zuid-Holland, Willemstad,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1883/1925">1883 - 1925</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172715" type="ABS">75</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5ce1bd80-1a57-4622-af53-f9a5f9140777</unitid>
+          <unittitle>Stelling Zuid-Holland, Oldgensplaat numansdorp,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1898/1939">1898 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172716" type="ABS">76</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dfefacb5-bd97-426c-aa9b-89c748a53236</unitid>
+          <unittitle>Stelling Zuid-Holland, Dortse biesbosch,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1924/1935">1924 - 1935</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172717" type="ABS">77</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/67ed5bb2-9512-4e94-b923-bf6b0a452fb7</unitid>
+          <unittitle>Stelling Zeeland, Zuid Beverland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1940">1914 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172718" type="ABS">78</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a79a93c2-3bb1-4180-8345-999543292354</unitid>
+          <unittitle>Stelling Noord-Brabant,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1938">1934 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172719" type="ABS">79</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a4a11a5-b5a5-4f1c-b62c-d455bda28cb3</unitid>
+          <unittitle>Stelling Noord-Brabant, Meierij,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1935/1940">1935 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172720" type="ABS">80</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36783013-312f-4255-aac9-1accfd4d4529</unitid>
+          <unittitle>Stelling Noord-Brabant, Woensdrecht Noord Kil,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1927">1914 - 1927</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172721" type="ABS">81</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eff7ebca-257d-4000-b5b7-5b0a5cfd2375</unitid>
+          <unittitle>Stelling Noord-Brabant, Noord Kil - West Brabant,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1918">1914 - 1918</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172722" type="ABS">82</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7efc4621-84e7-40fd-a046-10d76001b4f6</unitid>
+          <unittitle>Stelling Noord-Brabant, Zuid-Moerdijk,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1869/1937">1869 - 1937</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172723" type="ABS">83</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4e360b5-7467-4a5c-8960-fd060582dfac</unitid>
+          <unittitle>Stelling Noord - Brabant, Dongen inundatie,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1920/1938">1920 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172724" type="ABS">84</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d19bfcc7-d9da-4731-b46f-dbcc28960ab8</unitid>
+          <unittitle>Stelling Noord-Brabant, Oss Lithoyen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1928/1939">1928 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172725" type="ABS">85</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4da7d08-4b7b-444a-896e-9e48d3dbe58e</unitid>
+          <unittitle>Stelling Noord-Brabant, Land van Altena - Poederoylin,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1908/1939">1908 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>86-88</unitid>
+          <unittitle>Stelling Noord-Brabant, Peel,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934 - 1939</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172726" type="ABS">86</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a28112e-cd6b-45fb-8eb4-ba1f46c93490</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1936">1934-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172727" type="ABS">87</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa84e0ef-5d04-4a4a-8f3f-ef7cf074e0ae</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1939">1934-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172728" type="ABS">88</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cca8d4d-1965-49dd-a737-5f6b4bf550bd</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>89-109</unitid>
+          <unittitle>Verdedigingswerken,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1923/1951">1923 - 1951</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172729" type="ABS">89</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d86b987-7d90-4be7-8d72-e78ced109895</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937/1938">1937-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172730" type="ABS">90</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/39da20f4-bdc8-47ac-a716-0f8559f505d0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1940">1932-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172731" type="ABS">91</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b5a16f1-ea47-4446-a2fd-f0393e8a41d3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937/1940">1937-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172732" type="ABS">92</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1bf7473-8ce8-45d2-906b-c801d0e66001</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1939">1938-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172733" type="ABS">93</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5497d7e2-f36a-4da0-b8bc-d4ee5a687f80</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936/1940">1936-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172734" type="ABS">94</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/41a4364b-8b4b-479c-98d3-8df2f44c6e2b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1940">1928-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172735" type="ABS">95</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d87c2123-272b-4a85-8f16-217369c7b50e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936/1940">1936-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172736" type="ABS">96</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/accdd238-2b95-4142-a1fc-68842e1e639d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1937">1934-1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172737" type="ABS">97</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9276ebba-5461-4fe0-bf14-9064faaeddbf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1940">1928-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172738" type="ABS">98</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd472f90-ef9e-4efd-ba72-c8cd8d78ec42</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1930">1928-1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172739" type="ABS">99</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51cbf662-8c68-4114-8304-31499f581491</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172740" type="ABS">100</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/37c1cff6-33d0-4783-9184-d3ded5dcce5f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172741" type="ABS">101</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45d3b64c-8aa8-4235-900d-d56995ba23e2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172742" type="ABS">102</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/67ef8d1d-c2e4-422a-a9d7-9226dc034f91</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172743" type="ABS">103</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4bb504e6-b0b1-4b10-9125-1c7820e83216</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172744" type="ABS">104</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c98d0f43-68d2-4741-ba10-61e628b34416</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1951">1950-1951</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172745" type="ABS">105</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ecd74da-1557-407e-97a0-aeb78bf7a927</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923/1939">1923-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172746" type="ABS">106</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ab0df6e-c930-4cbd-b7de-5e5b5308d273</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925/1939">1925-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172747" type="ABS">107</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/785e524a-11d0-43ee-b989-fab4096f7bf3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1950">1924-1950</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172748" type="ABS">108</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a06ee08e-daec-4030-b6d6-f27639d71c62</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927/1939">1927-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172749" type="ABS">109</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/139ead1e-feb6-43b6-8339-080c981d9814</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927/1935">1927-1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172750" type="ABS">110</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/08d7d711-a7f7-4b54-87c8-267d1f18c3a6</unitid>
+          <unittitle>Verdedigingswerken, militaire aardrijkskunde en stratigie,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1938">1934 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>111-123</unitid>
+          <unittitle>Verdedigingswerken,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1897/1945">1897 - 1945</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172751" type="ABS">111</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89aafdf9-8ffb-4fba-9bf4-edfad99ea786</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1939">1928-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172752" type="ABS">112</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f1d62c1-b4de-40c4-9da4-933ac445e3b0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172753" type="ABS">113</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bcd1355d-f682-4b99-9f73-4570a4ebdf06</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1938">1934-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172754" type="ABS">114</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5239ba98-5871-48e0-b257-8d524cf86d0b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1938">1932-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172755" type="ABS">115</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2cf013b-d5aa-4ea2-af97-55a621226686</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1903/1918">1903-1918</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172756" type="ABS">116</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c96319d1-a3d9-4cff-900e-3197491806d1</unitid>
+            <unittitle>vervallen stukken</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172757" type="ABS">117</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/70e11377-ba28-48dd-8dc9-c187c299c981</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1897/1921">1897-1921</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172758" type="ABS">118</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e05a78d5-f1b7-41d9-b813-5d09472ce479</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1913/1941">1913-1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172759" type="ABS">119</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bb6b03a-1ff4-472f-89be-bb60f9b00889</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1934">1930-1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172760" type="ABS">120</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/637f8103-25dc-4045-825a-bf12d887b9f4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1940">1930-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172761" type="ABS">121</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/40158a13-8ddb-4fcd-b8ba-b200c351c5bd</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1939">1938-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172762" type="ABS">122</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9611e52b-7f14-49f0-aeb3-5b4aaf44d989</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1940">1932-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172763" type="ABS">123</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f00ae131-3a25-42ba-a39e-8e1674034eef</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1916/1945">1916-1945</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172764" type="ABS">124</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2daa033-05a1-465b-87a4-378d50ef2bff</unitid>
+          <unittitle>Zuidenzee werken,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1920/1923">1920 - 1923</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172765" type="ABS">125</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/507dcc05-ec38-4ccc-a350-1d6bb282830e</unitid>
+          <unittitle>Zuidenzee werken, commissie Defensiebelangen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1924/1935">1924 - 1935</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172766" type="ABS">126</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/184ae169-8656-405f-9954-d376894725fd</unitid>
+          <unittitle>Zuidenzee werken,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1933/1938">1933 - 1938</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172767" type="ABS">127</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c853922-f21a-418f-82fe-fc14fa4204ce</unitid>
+          <unittitle>Zuidenzee werken, commissie Defensiebelangen,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938/1940">1938 - 1940</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172768" type="ABS">128</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9eb0042-690a-47ea-b7a5-d62c10687e7f</unitid>
+          <unittitle>Staf H.K.S. Genie, diverse en voorschriften,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1947">1914 - 1947</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172769" type="ABS">129</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/300ffe05-96ea-43b1-9049-d808df49a6d1</unitid>
+          <unittitle>Staf H.K.S. Genie, B.O.S.,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1948/1949">1948 - 1949</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172770" type="ABS">130</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/041c9445-bb22-4b93-a4cc-d96c054dc41b</unitid>
+          <unittitle>Staf H.K.S. Genie, pers. archief,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1924/1936">1924 - 1936</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172771" type="ABS">131</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6d90a69-9cff-4506-b563-16217fb04373</unitid>
+          <unittitle>Staf H.K.S. Genie, pers. archief,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938/1939">1938 - 1939</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172772" type="ABS">132</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/909776f5-1c1d-47e9-a147-8f91fac7b75c</unitid>
+          <unittitle>Staf H.K.S. Genie Duitschland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1945/1946">1945 - 1946</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172773" type="ABS">133</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ef4e8603-e641-44ef-840d-43f12b7436d5</unitid>
+          <unittitle>Staf H.K.S. Genie Duitschland,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1944/1945">1944 - 1945</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172774" type="ABS">134</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f020c9a-f451-4ba1-b6fc-ff51d872e170</unitid>
+          <unittitle>Staf H.K.S. Genie Duitschland, kaarten 115,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172775" type="ABS">135</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0dfc98a2-54ba-446d-b734-879f5c64180c</unitid>
+          <unittitle>Staf H.K.S. Genie,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1946/1951">1946 - 1951</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>136-156</unitid>
+          <unittitle>Brieven,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1919/1940">1919 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172776" type="ABS">136</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e135bdf-2be1-4553-88c9-e5ff2a0df6ae</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1919">1919</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172777" type="ABS">137</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/82ec4f9d-751c-4f71-8b41-2d86a411d4be</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1920/1922">1920-1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172778" type="ABS">138</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c9e633d-1423-4e6c-be03-afff75fafd80</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923/1924">1923-1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172779" type="ABS">139</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d1d57e0-f15d-4c04-a7b3-ea30345db713</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925">1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172780" type="ABS">140</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84fc3230-58fd-4aa4-9b87-4369c4b170d9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172781" type="ABS">141</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce0c8308-2246-4ce9-b3bb-6fb5629e84da</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172782" type="ABS">142</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f75bf3e-0bd0-4ee6-9f8e-5f6092313b40</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1929">1928-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172783" type="ABS">143</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71a79432-dfe8-4d3a-b26d-9105284363ae</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930">1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172784" type="ABS">144</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/565c0412-e75a-4ac3-9ecd-fcedb3ba50e2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931">1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172785" type="ABS">145</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1dc17204-bbcb-4bd7-b1e4-dd470275a1cb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932">1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172786" type="ABS">146</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6451ec2-d2ed-4028-8689-132ac3af2e91</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933">1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172787" type="ABS">147</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/48edbef2-e750-46ee-aef6-958019bfd989</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172788" type="ABS">148</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c3f9d2a-3b59-43b3-a035-54c1105b3808</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172789" type="ABS">149</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/729d64a5-020a-4819-8297-10efc4aa852a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172790" type="ABS">150</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1dc0b0d5-1945-4369-b39a-7f5b48e29584</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172791" type="ABS">151</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba0f99ba-68e4-4429-91ea-8727287e6f3a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172792" type="ABS">152</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fefefe4-8459-419d-9f99-d131d370c4ad</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172793" type="ABS">153</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bcff005-ad4a-4d53-ba63-e6fafa1ff75a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172794" type="ABS">154</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f018bd58-765a-4963-bd4a-f51a24b4ffe2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172795" type="ABS">155</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c725cb24-b161-4e22-9c98-cbab12adbf59</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172796" type="ABS">156</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d65ce6d-6b01-4945-91cc-679b32884132</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172797" type="ABS">157</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce1575a1-fc98-400a-95f7-f881c050e3df</unitid>
+          <unittitle>Brieven en klappers,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918/1946">1918 - 1946</unitdate>
+        </did>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>158-172</unitid>
+          <unittitle>Brieven,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1936/1940">1936 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172798" type="ABS">158</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3aac5726-fdcf-4c6b-9edc-52dd50efafb4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172799" type="ABS">159</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/013ca61d-7310-4ed7-ae5a-099701caef71</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172800" type="ABS">160</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fdbd71c1-ae74-4afd-b24e-883ee933c576</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172801" type="ABS">161</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/26be85be-54fb-40eb-b0b4-7f911afbe17c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172802" type="ABS">162</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4690fc83-2742-4b14-8238-436ef2fdd817</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172803" type="ABS">163</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5e8f9adb-fe3f-4773-b477-75c0adcd9e0b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172804" type="ABS">164</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84e53ab7-5c18-4703-9170-e578eb3b6c76</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172805" type="ABS">165</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/729abea6-633f-4621-bac9-2ce272b5a7f5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172806" type="ABS">166</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ecbe08c-de0e-400b-a520-009b6fb2bde8</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172807" type="ABS">167</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/078539e2-10ff-4064-8701-514519fa2e8f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172808" type="ABS">168</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eda8d52d-d619-4a69-ba80-79b028c4b870</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172809" type="ABS">169</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59260ff7-2768-41b2-bdd3-f627dc8f3927</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172810" type="ABS">170</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45326fe5-34a1-4665-bd7f-afba934e075f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172811" type="ABS">171</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fac5b8b5-aa3a-4577-9efc-1a9a0a085078</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172812" type="ABS">172</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b05174d0-da75-4d75-85ff-09f8499f37df</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>173-182</unitid>
+          <unittitle>Boeken alg. en geheim,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1922/1939">1922 - 1939</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172813" type="ABS">173</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5164e693-70a2-4fa0-ae1b-930488a63355</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1922/1928">1922-1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172814" type="ABS">174</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/29622372-2d06-48aa-b64f-3a3e0030d49b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929/1930">1929-1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172815" type="ABS">175</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c331cdb6-5238-497a-8650-de5dab34efd3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1932">1931-1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172816" type="ABS">176</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/306b69c6-0a79-4803-a2db-774522f73908</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1933">1932-1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172817" type="ABS">177</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/55cccdf2-b251-4130-a0c2-afa53b49f024</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172818" type="ABS">178</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/73bc0dfb-e14d-4df2-a54d-8a1db8c22015</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172819" type="ABS">179</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0a62b29-cf62-4a05-8df4-4fd420ab0358</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172820" type="ABS">180</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/14004167-6fd0-4057-b618-890f255ad9c9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172821" type="ABS">181</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d35fc6bb-a409-4821-8053-1e4fe19a15eb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172822" type="ABS">182</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e659a550-30af-4baa-a20b-bf8ce00956db</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>183-197</unitid>
+          <unittitle>Brieven,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172823" type="ABS">183</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eb45ef6b-bcfb-4ef7-ba0a-aeb17c0996c2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931">1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172824" type="ABS">184</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f143bd87-8773-4996-a4a9-2e70a6e8d525</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932">1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172825" type="ABS">185</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa6627d1-e439-4998-ae8f-9e5c1e17638b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933">1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172826" type="ABS">186</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75823fe1-4561-455b-a7f7-d8e905b28fcf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172827" type="ABS">187</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8640aac-5c0d-4039-9edb-4fe1a6423a00</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172828" type="ABS">188</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/025e0421-f04d-4261-9e6c-268e76e66d0a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172829" type="ABS">189</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bfeeaee6-528c-4941-9a18-bbc183190810</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172830" type="ABS">190</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3142aa29-94ac-4295-bf42-e8ab8b60abc2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172831" type="ABS">191</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/15492a33-081b-4007-add9-3dcc5ae29b18</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172832" type="ABS">192</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b0ad47c-4a03-483e-b220-7eb4a3910d80</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172833" type="ABS">193</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/659ef37e-0839-400f-9860-2b0023fa8680</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172834" type="ABS">194</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cc2dedd-5007-4b43-900b-e88b068412fe</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172835" type="ABS">195</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ce3ec4a-9499-4907-a68b-fec28f6b2a8e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172836" type="ABS">196</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90266571-1763-49df-94b2-87d363f8538a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172837" type="ABS">197</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fddd2fa-862b-4171-ad71-375381be8b09</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172838" type="ABS">198</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/00470001-fb70-40d7-9a8a-c3a948583e73</unitid>
+          <unittitle>Brieven niet afgedaan,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1937/1940">1937 - 1940</unitdate>
+        </did>
+        <odd>
+          <p>Klappers A.N.G.,</p>
+          <p>1931 - 1939.</p>
+        </odd>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>199-203</unitid>
+          <unittitle>Brieven boeken,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1931/1939">1931 - 1939</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172839" type="ABS">199</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d30e091c-e0a8-4031-9dec-ed42c927e202</unitid>
+            <unittitle>1931, 1934 - 1935</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172840" type="ABS">200</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2e0f310-2ffe-4ba8-a325-2ef67c392ba4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172841" type="ABS">201</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3750783b-24f4-4214-a58c-7641a264e01e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172842" type="ABS">202</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6561442c-9cc8-4bca-86e5-e43dc02b2b74</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172843" type="ABS">203</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bf056ee-7e94-4db4-bd18-208e1b87f8a5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>204-213</unitid>
+          <unittitle>Brieven,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1937/1940">1937 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172844" type="ABS">204</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa19c4fd-ec9b-471d-a5d9-65d449a775cb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172845" type="ABS">205</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/af018b7c-dc32-4052-a2df-7655eaa94ae4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172846" type="ABS">206</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/094358a9-cc50-496e-8a42-25db680e19cf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172847" type="ABS">207</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/692adf15-8a9e-4d18-b5cc-baf878f59074</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172848" type="ABS">208</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5ad7c590-5a00-4eb7-97e9-91b0b540f8be</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172849" type="ABS">209</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5dff116b-51d1-46fb-9511-7f71e7238181</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172850" type="ABS">210</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9de90d3-2291-4850-8dd1-b6445e4deb75</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172851" type="ABS">211</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8be818ec-bb96-413f-823c-b4b8c39bf17a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172852" type="ABS">212</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/705c0744-e40b-4033-9dab-4cab34f2ef4e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172853" type="ABS">213</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/487fed00-c5a8-4ec8-bdcd-029c9d1f738f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="1172854" type="ABS">214</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f55c2611-0869-4655-81e5-79b912f4d7fb</unitid>
+          <unittitle>Brieven geheim,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1918/1919">1918 - 1919</unitdate>
+        </did>
+        <odd>
+          <p>Klappers,</p>
+          <p>1918 - 1935.</p>
+        </odd>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>215-241</unitid>
+          <unittitle>Brieven geheim,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1923/1940">1923 - 1940</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172855" type="ABS">215</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5045d469-e1bd-4d95-9441-c06d98e9f691</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923/1924">1923-1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172856" type="ABS">216</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ef9c7b2-fda6-4062-a329-beaf239e688d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925">1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172857" type="ABS">217</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86b268fe-9e95-46d3-9b09-b628a4d6d01a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172858" type="ABS">218</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1455790f-8596-49bf-9c8d-f2b851075ee1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172859" type="ABS">219</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8fb6942c-d535-4cf7-ac20-82204e185c14</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172860" type="ABS">220</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7c44e3a-afd4-4da3-a1d6-c4736d2c1bfa</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172861" type="ABS">221</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6104812-6821-4139-a10e-a0805474721a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928">1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172862" type="ABS">222</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de4e8eec-3ffa-406d-a8a8-91aebaba3e5f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928">1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172863" type="ABS">223</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccd579f0-f9e3-46d2-8410-3ae2c714f984</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929">1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172864" type="ABS">224</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f804961-851f-40c8-a1f5-1015b2e34d59</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929">1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172865" type="ABS">225</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c66540fd-e858-4dac-8bc0-9f0739efe668</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929">1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172866" type="ABS">226</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c090ce12-fb3c-484e-b0a2-1f102541f8b5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930">1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172867" type="ABS">227</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e2b9c54-6885-46fa-87ed-6341625d4f5c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931">1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172868" type="ABS">228</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e840733-d518-49df-a485-821d69f8240c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931">1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172869" type="ABS">229</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1218288b-bee3-4ed9-b0b8-9469e1eb91d9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932">1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172870" type="ABS">230</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b17d46a-2f12-41e5-b3f2-e9135cffe5b4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933">1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172871" type="ABS">231</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50b7ecfd-7db9-4b80-bfd9-ba394afd7738</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933">1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172872" type="ABS">232</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f40b757-8029-4de9-b992-b428e77a1ed5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172873" type="ABS">233</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b6bb383-1c8b-4a0e-b029-f82a0fb3baf2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172874" type="ABS">234</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8d657e2-63df-44a5-9ce9-be7bd5cca437</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172875" type="ABS">235</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/66e409a4-ac82-49a6-aa8c-f50645d53f46</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172876" type="ABS">236</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0012b367-9ebc-4bd1-91a2-33b4086d9dfb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172877" type="ABS">237</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2c71b2f-d2f2-4dd1-b41f-179458d396e0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172878" type="ABS">238</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7815abdf-8f4b-48ed-a56a-4d71e24c9b49</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1932">1931-1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172879" type="ABS">239</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fdc7f099-c051-4eb3-9246-defaabdef733</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933/1935">1933-1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172880" type="ABS">240</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9bb2e4e3-ceb3-43ba-991f-1b492545999b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172881" type="ABS">241</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97101eff-8029-4e3f-8c7b-9250c01db083</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1940">1934-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>242-259</unitid>
+          <unittitle>Centraal inundatie bureau, brieven geheim,</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1934/1945">1934 - 1945</unitdate>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172882" type="ABS">242</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ae61c72-428c-4b33-b639-e0425266e987</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934">1934</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172883" type="ABS">243</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7482a955-40c1-466b-9509-26e84db3cb0d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935">1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172884" type="ABS">244</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c969b70e-d727-4afa-a6e0-9bf33fa8717e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936">1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172885" type="ABS">245</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/443d05e1-86af-4868-a4c7-34292812f93f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172886" type="ABS">246</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31185b99-0db4-473d-b749-e2feae0e85bf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172887" type="ABS">247</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/20c88b5d-13eb-4548-b912-40fc2980f891</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172888" type="ABS">248</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/62b41e4a-03ba-4710-9b0a-8eb8b1cc58a6</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931">1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172889" type="ABS">249</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c151003e-798c-4346-9702-36065fda4b66</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932">1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172890" type="ABS">250</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac450d42-f7d7-4e2c-aa25-577d0e71f6cd</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932/1933">1932-1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172891" type="ABS">251</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3811b969-5cad-400e-9834-fd66f56f6a91</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933">1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172892" type="ABS">252</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dcdf8e75-7994-4cbf-ab0e-a1d854f77752</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1936">1931-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172893" type="ABS">253</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f02ea6b-05dd-4d0d-9d87-d462d58df474</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937">1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172894" type="ABS">254</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e31cd39a-aac9-4351-8df8-09fb52ae68f7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938">1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172895" type="ABS">255</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b6ab2d87-78fc-40b6-8fdd-6a66d91dbb8d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172896" type="ABS">256</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/549b00ef-c2ad-4243-8bcc-71216578f2c9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939">1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172897" type="ABS">257</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e85b5338-13ce-4f1c-9ddd-e8b2f5f66a90</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940">1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172898" type="ABS">258</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/740eb9da-6427-4c57-a388-e68f0f8dbb66</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940/1945">1940-1945</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1172899" type="ABS">259</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2b28e81-9b16-43e6-9a44-406eecdf3838</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1940">1931-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

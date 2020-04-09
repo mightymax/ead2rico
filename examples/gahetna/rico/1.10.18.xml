@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/215d2318-fb9c-44b2-9dd9-cfd3d354726f"
+  rdf:about="record/1.10.18">
+    <rico:identifier>1.10.18</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1971</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1149" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.18/i1" />
+      <rico:instantiates rdf:resource="record/1.10.18" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120921</rico:hasModificationDate>
+        <html:p>21 september 2012</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van J.D. van der Capellen tot den
+        Poll [levensjaren 1741-1784], 1349-1786</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/215d2318-fb9c-44b2-9dd9-cfd3d354726f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1149">
+    <rico:describedBy rdf:resource="record/1.10.18" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1149</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie J.D. van der Capellen tot den Poll</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Capellen tot den Poll, van der</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1349</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1786</rico:endDate>
+    <rico:date>1349-1786</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Capellen tot den Poll, J.D. van der</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Joan Derk van der Capellen wordt op 2 november 1741 te Tiel geboren uit
+          het huwelijk van Frederik Jacob van der Capellen en Anna Elisabeth van Bassenn.
+          Na zijn studietijd te Utrecht (1758-1763) houdt hij zich bezig met engels, oude
+          talen en filosofie, tot hij zich in 1767 informeert omtrent trent de
+          mogelijkheid tot admissie in de Zutfense ridderschap.</html:p>
+          <html:p>Deze admissie blijkt niet mogelijk, doch dankzij zijn huwelijk met de
+          Overijsselse freule Hillegonda Anna Bentinck kan de baron op 12 maart 1770 een
+          request om admissie in de Ridderschap van Overijssel indienen. Eerst na een
+          slepende procedure wordt Van der Capellen op 20 juni 1772 verschreven van de
+          Breedenhorst, later van de Pol. Hier begint de eigenlijke politieke
+          werkzaamheid van Van der Capellen.</html:p>
+          <html:p>Allereerst vraagt de kwestie van augmentatie en equipage zijn aandacht
+          (1773) ,vervolgens die der Schotse Brigade (1775-1776), waarbij Van der
+          Capellen voor het eerst de drukpers voor zijn doeleinden inschakelt.</html:p>
+          <html:p>Vervolgens houdt hij zich bezig met de zaak rond de
+          regeringsreglementen en de begeving der provinciale commissies (1777), welke
+          kwestie uitloopt op een konflikt om de democratie binnen de Statenvergadering.
+          Het meest geruchtmakend echter, wordt de zaak van de afschaffing der
+          drostendiensten, waaraan Van der Capellen zich wijdt vanaf april 1778. Zijn
+          "Vertoog over de onwettigheid der Drostendiensten" is voor de Ridderschap
+          aanleiding om hem op 27 oktober 1778 voorlopig te schorsen als lid van de
+          Staten van Overijssel.</html:p>
+          <html:p>Tijdens deze voorlopige schorsing ijvert Van der Capellen allereerst
+          voor zijn readmissie. Zo wendt hij zich tot de Stadhouder, mobiliseert de
+          publieke opinie door het stimuleren van requestenbewegingen onder de bevolking
+          ten plattelande en in de kleine en grote steden, en schrijft het anoniem
+          verschenen pamflet: "Aan het Volk van Nederland". Als gevolg van deze acties
+          wordt de Ridderschap gedwongen tot Van der Capellen's readmissie op 1 november
+          1782.</html:p>
+          <html:p>Tevens biedt de periode van voorlopige schorsing Van der Capellen
+          gelegenheid zijn correspondenties uit te breiden, waarbij de briefwisseling met
+          belanghebbenden in Franse en Amerikaanse zaken - bijvoorbeeld met Adams,
+          Franklin, Livingston - vooropstaat. Zo wordt hem verzocht, de mogelijkheden tot
+          vestiging van een Amerikaans gezantschap in de Republiek te onderzoeken,
+          hetgeen een begin vormt van zijn contacten met de patriotten in Holland. Tevens
+          beijvert Van der Capellen zich, interesse te kweken voor deelname Amerikaanse
+          leningen, waarbij o.m. Diriks, De Neufville en Erkelens binnen zijn
+          gezichtsveld komen.</html:p>
+          <html:p>Dit zijn ook de jaren waarin reizende propagandisten als Paul Jones en
+          Stephen Sayre contacten leggen met amerikaansgezinden in de Republiek. Met
+          mensen als Bérenger, De Breteuil en De la Vauguyon tenslotte, handelt de
+          correspondentie bovendien over een mogelijke alliantie met Frankrijk.</html:p>
+          <html:p>Van november 1782 tot april 1783 breidt Van der Capellen zijn
+          provinciale akties uit, en bevordert de instelling van burgercommissies en de
+          oprichting van vrijcorpsen. Zijn handelingen in de Statenvergadering blijven
+          beperkt tot de opnieuw te verwachten begeving der commissies. In de zomer van
+          1783 kan Van der Capellen tijdens een reis door Utrecht en Holland zijn
+          contacten met de patriotten aldaar enigszins uitbreiden, doch op de
+          regentenvergaderingen, dat najaar in Amsterdam gehouden, heeft hij weinig in te
+          brengen.</html:p>
+          <html:p>Het advies over de mogelijke alliantie met Frankrijk, op 12 december
+          1783 is Van der Capellens laatste actie in de Statenvergadering: het conflict
+          rond de overstemming, dat reeds geruime tijd bestond, leidt de dag daarna tot
+          een scheuring tussen Ridderschap en Steden.</html:p>
+          <html:p>De hierop volgende maanden wordt de toch reeds zwakke gezondheid van
+          Van der Capellen, na de inspanningen van laatste jaren, nog extra belast door
+          huiselijke moeilijkheden.</html:p>
+          <html:p>Joan Derk van der Capellen overlijdt op 6 juni 1784.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Joan Derk van der Capellen tot den Poll was een belangrijk politicus en
+      patriottenleider. Hij is waarschijnlijk (anoniem) schrijver van het pamflet 'Aan
+      het volk van Nederland'. Dit pamflet was een aanklacht tegen de politiek van de
+      regenten en het zwakke beleid van Willem V. Een groot deel van het archief bestaat
+      uit correspondentie, o.a. met zijn patriottische medestanders John Adams en Richard
+      Price. Verder bevat het archief stukken betreffende zijn admissie in de ridderschap
+      van Overijssel en zijn politieke werkzaamheden.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.93 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>340 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

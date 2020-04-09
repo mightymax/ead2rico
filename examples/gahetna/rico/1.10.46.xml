@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/2ed62b97-9ebe-4925-861b-06b9fbd75587"
+  rdf:about="record/1.10.46">
+    <rico:identifier>1.10.46</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1176" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.46/i1" />
+      <rico:instantiates rdf:resource="record/1.10.46" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140514</rico:hasModificationDate>
+        <html:p>14 mei 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110411</rico:hasModificationDate>
+        <html:p>11 april 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van T. Hope [levensjaren
+        1704-1779]; J. Hope [levensjaren 1737-1784], 1602-1783</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/2ed62b97-9ebe-4925-861b-06b9fbd75587" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1176">
+    <rico:describedBy rdf:resource="record/1.10.46" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1176</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Hope</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hope</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1602</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1783</rico:endDate>
+    <rico:date>1602-1783</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Thomas Hope</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Thomas Hope van 1704 tot 1779. Hij was een van de acht zonen van
+          Archibald Hope en werd geboren in Rotterdam. Op 22-jarige leeftijd ging hij
+          werken voor het handelshuis van zijn oudste broer Archibald junior. Na de dood
+          van zijn broer Archibald in 1734 associeerde hij zich met zijn broer Adriaan.
+          De omzetten van het handelshuis groeiden gestaag. Tijdens de zogenaamde
+          Zevenjarige oorlog (1756-1763) kwam de grote doorbraak. In 1762 werden neef
+          Henry (1735-1811) en zoon Jan (of John; 1737-1784) medefirmanten en de naam van
+          het handelshuis veranderde: van "Thomas &amp; Adriaan Hope" in "Hope &amp; Co".
+          Terwijl henry zich vooral met de firma bezighield, groeide Jan uit tot
+          bestuurder. Zo werd deze o.a. in 1768 lid van het Vroedschap van
+          Amsterdam.</html:p>
+          <html:p>In 1752 werd Thomas Hope beëdigd als hoofdparticipant in de Kamer
+          Amsterdam van de Verenigde Oostindische Compagnie (VOC). Vier jaar later werd
+          hij bewindhebber en volgens Hardenbroek was hij al snel de meest invloedrijke
+          van alle bewindhebbers Elias II, p. 933-943, noot uu: 'De energieke Thomas Hope
+          had weldra van alle bewindhebbers den meesten invloed'.Op 4 april 1766 werd
+          Thomas Hope representant van willem V, opperbewindhebber van de VOC. Als
+          participant, bewindhebber en later representant van Willem V was hij lid van
+          verschillende commissies van de VOC, zoals de commissie tot de directe vaart en
+          handel op China, de commissie tot de visitatie der Boeken, de Secrete
+          Commissie.</html:p>
+          <html:p>Op zijn verzoek werd hij 5 september 1770 uit deze functie ontslagen en
+          nam hij ook ontslag als bewindhebber. Zijn zoon Jan volgde hem op als
+          bewindhebber en bleef dit tot zijn dood in 1784. Het ambt van representant werd
+          na 1770 niet meer vervuld.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jan Hope</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Thomas Hope van 1704 tot 1779. Hij was een van de acht zonen van
+          Archibald Hope en werd geboren in Rotterdam. Op 22-jarige leeftijd ging hij
+          werken voor het handelshuis van zijn oudste broer Archibald junior. Na de dood
+          van zijn broer Archibald in 1734 associeerde hij zich met zijn broer Adriaan.
+          De omzetten van het handelshuis groeiden gestaag. Tijdens de zogenaamde
+          Zevenjarige oorlog (1756-1763) kwam de grote doorbraak. In 1762 werden neef
+          Henry (1735-1811) en zoon Jan (of John; 1737-1784) medefirmanten en de naam van
+          het handelshuis veranderde: van "Thomas &amp; Adriaan Hope" in "Hope &amp; Co".
+          Terwijl henry zich vooral met de firma bezighield, groeide Jan uit tot
+          bestuurder. Zo werd deze o.a. in 1768 lid van het Vroedschap van
+          Amsterdam.</html:p>
+          <html:p>In 1752 werd Thomas Hope beëdigd als hoofdparticipant in de Kamer
+          Amsterdam van de Verenigde Oostindische Compagnie (VOC). Vier jaar later werd
+          hij bewindhebber en volgens Hardenbroek was hij al snel de meest invloedrijke
+          van alle bewindhebbers Elias II, p. 933-943, noot uu: 'De energieke Thomas Hope
+          had weldra van alle bewindhebbers den meesten invloed'.Op 4 april 1766 werd
+          Thomas Hope representant van willem V, opperbewindhebber van de VOC. Als
+          participant, bewindhebber en later representant van Willem V was hij lid van
+          verschillende commissies van de VOC, zoals de commissie tot de directe vaart en
+          handel op China, de commissie tot de visitatie der Boeken, de Secrete
+          Commissie.</html:p>
+          <html:p>Op zijn verzoek werd hij 5 september 1770 uit deze functie ontslagen en
+          nam hij ook ontslag als bewindhebber. Zijn zoon Jan volgde hem op als
+          bewindhebber en bleef dit tot zijn dood in 1784. Het ambt van representant werd
+          na 1770 niet meer vervuld.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Bevat stukken van Thomas Hope, representant van stadhouder Willem V en van
+      Jan Hope, bewindhebber der VOC, 1770.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>120 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,2777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:45:44 -->
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.14.46::Ereraden en Centrale Ereraad voor de Kunst)//NL" url="http://proxy.handle.net/10648/28a327ad-57d5-45b3-9bb3-84ac539b18cd" urn="2.14.46.ead.xml">2.14.46</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van de archieven van het Bureau Zuivering Kunstenaars en van de Ereraden voor de Kunst, (1939) 1945-1952</titleproper>
+				<author>E.P. Veltkamp, C.D.E.M. Vierling</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1992">1992</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Ellen Altona, <date calendar="gregorian" era="ce" normal="20070307">20070307</date>
+			</creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+					<title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983</bibref>;
+                  <bibref linktype="simple">
+					<title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983</bibref>.
+   </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+		<change>
+			<date normal="20150223">23 februari 2015</date>
+			<item><num>5</num>Geboorte- en overlijdensjaren toegevoegd: alle dossiers hebben betrekking op overleden persoen, waardoor het gehele archief openbaar is, door <name>Henny van Schie</name></item>
+		</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20130425">25 april 2013</date>
+				<item>
+					<num>4</num>Openbaar te maken nummers na onderzoek toegevoegd (tranche 3)  <name>Caroline Leistra</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20130418">18 april 2013</date>
+				<item>
+					<num>3</num>Openbaar te maken nummers na onderzoek toegevoegd (tranche 1 en 2, tranche 3 volgt)  <name>Diederick Kortlang</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20130218">18 februari 2013</date>
+				<item>
+					<num>2</num>Wijziging om synchronisatie ivm openbaarheid te forceren, door <name>Diederick Kortlang</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20091204">04 december 2009</date>
+				<item>
+					<num>1</num>Abstracts gewijzigd door <name>Otto van der Meij</name>
+				</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Ereraden en Centrale Ereraad voor de Kunst</unittitle>
+			<unittitle type="short">Ereraden v.d. Kunst</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1939/1952" type="inclusive">1939-1952</unitdate>
+			<unitdate calendar="gregorian" era="ce" normal="1945/1952" type="bulk">merendeel 1945-1952</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">O27587</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">1.20 meter; </extent>
+				<extent unit="files">258 inventarisnummers.</extent>
+			</physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Bureau der Verenigde Eereraden voor kunstenaarsberoepen</corpname>
+			</origination>
+			<origination>
+				<corpname>Centrale Ereraad voor de Kunst</corpname>
+			</origination>
+			<origination>
+				<corpname>Ereraden voor de Kunst</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Er waren zes ereraden: architectuur, beeldende kunsten, letterkunde, muziek, toneel (inclusief dans en film) en (later) amusements- en kleinkunstenaars. Vanaf 1948 werd de zuivering overgenomen door de Centrale Raad voor de Kunst, die ook beroepsprocedures afwikkelde van personen aan wie na de oorlog een beroepsverbod was opgelegd. Het archief bevat materiaal over de organisatie en werkwijze van alle instanties die met de kunstzuivering te maken hebben gehad. Aan het archief zijn een aantal stukken toegevoegd uit het archief van het Kabinet van het ministerie van OKW betreffende de kunstzuivering. Het grootste deel van het archief bestaat uit persoonsdossiers met zaken en beroepszaken van architecten, musici, toneelspelers, dansers, componisten, schrijvers, schilders en beeldende kunstenaars. 
+  
+      
+      
+        <lb/>Bezoekers krijgen microfilms en -fiches van dit archief ter inzage.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<bioghist>
+				<head>Geschiedenis van de archiefvormer</head>
+				<bioghist>
+					<head>De geschiedenis van de kunstzuivering</head>
+					<p>Tijdens de Tweede Wereldoorlog werd al gedacht aan de berechting van diegenen die geheel of gedeeltelijk 'fout' waren geweest. In 1944 werd door de regering een besluit afgekondigd dat de zuivering van ambtenaren regelde. De beoefenaars van vrije beroepen zoals de kunstenaars, vielen daar buiten. Het Militair Gezag (M.G.) begon zich na de bevrijding van het Zuiden met het optreden van niet-zuivere kunstenaars bezig te houden. Nadat ook het Noorden bevrijd was, werden landelijke richtlijnen uitgevaardigd door de Chef Staf M.G.</p>
+					<p>Op 6 februari 1945 werd een landelijke sectie XIV van het M.G. opgericht, belast met zaken betreffende onderwijs, kunsten en wetenschappen. De subsectie Kunst werd onder andere de taak der kunstzuivering opgedragen. Prof. dr. N.A. Donkersloot nam op 1 juni 1945 de leiding van deze sectie over van L.P.J. Braat. Donkersloot had zich al eerder in de kunstzuivering verdiept in zijn functie bij het Provinciaal Militair Commissariaat voor Noord-Holland en bij de Nederlandse Federatie van Beroepsverenigingen van kunstenaars.</p>
+					<p>Na de bevrijding van Noord-Nederland werd door het College van Vertrouwensmannen een zogenaamde kunstpauze afgekondigd: kunstenaars mochten zonder toestemming van de Militaire Commissarissen hun beroep niet uitoefenen. Deze kunstpauze werd op 10 juni 1945 opgeheven. Daarna moesten kunstenaars in het bezit zijn van voorlopige vergunningen tot optreden. Deze vergunningen werden afgegeven door Militaire Commissarissen die bij de beoordeling van de aanvragen werden geadviseerd door speciaal ingestelde, plaatselijke commissies. Dit vergunningenstelsel werd, in verband met de aanstaande liquidatie van het M.G. in januari 1946, vervallen verklaard op 15 oktober 1945.</p>
+					<p>Naast de plaatselijke adviescommissies bestond er een landelijke adviescommissie voor de kunstzuivering. Deze ontstond door fusering van de commissie voor het Zuiden en die voor het Noorden. Naast het adviseren van de Chef Staf M.G. verzamelde de commissie documentatiemateriaal ten behoeve van de kunstzuivering door de in te stellen ereraden voor de kunst.</p>
+					<p>De ereraden voor de kunstenaarsberoepen werden ingesteld op 15 juni 1945. Er waren aanvankelijk vijf ereraden: voor architectuur, beeldende kunsten, letterkunde, muziek en voor toneel; aan de laatste werden twee leden toegevoegd voor de zuivering van dans- en filmkunstenaars. Later werd een zesde ereraad ingesteld die de houding van amusements- en kleinkunstenaars moest beoordelen. In juni 1945 gaven de ereraden gezamenlijk een verklaring uit. Het lidmaatschap van de Kultuurkamer alleen werd niet voldoende geacht om iemand als niet-zuiver te veroordelen. Profiteren of propageren van maatregelen en instellingen van de bezetter moest wel veroordeeld worden. In deze verklaring werd een algemene maatregel afgekondigd tegen hen die zich aan dit laatste hadden schuldig gemaakt; namen werden niet genoemd. De raden werkten bij de beoordeling van de afzonderlijke personen volgens 'richtlijnen omtrent doel, samenstelling en werkwijze' zoals die door het M.G. voor de ereraden waren opgesteld. Zaken werden in behandeling genomen op verzoek van de belanghebbende kunstenaars zelf.</p>
+					<p>De uitspraken van de ereraden hadden niet de door hen verwachte uitwerking op de houding van publiek, kunstenaars en overheid. Sommige kunstenaars die door de ereraden waren uitgesloten van beroeps uitoefening, bleven gewoon optreden; burgemeesters traden alleen op wanneer ordeverstoringen dreigden.</p>
+					<p>Om aan de uitspraken sancties te verbinden werd door het Departement van Onderwijs, Kunsten en Wetenschappen, waaronder de ereraden na de opheffing van de staat van beleg ressorteerden, een Koninklijk Besluit voorbereid. De Raad van State adviseerde in november 1945 dit besluit niet af te kondigen: de Staten Generaal waren inmiddels weer bijeengekomen en de kunstzuivering zou bij wet in plaats van bij K.B. geregeld dienen te worden. Op 5 april 1946 werd de Wet zuivering kunstenaars afgekondigd. Naast de regeling van de ten uitvoerlegging van de uitspraken, werd in de wet de mogelijkheid tot beroep tegen uitspraken vastgelegd. Ten behoeve van dit laatste werd de Centrale Ereraad voor de Kunst in het leven geroepen. Alleen juristen konden deel uitmaken van de Centrale Ereraad.</p>
+					<p>Nadere regels over de uitvoering van de Wet zuivering kunstenaars werden gegeven in ministeriële beschikkingen van 25 april 1946.</p>
+					<p>Verzet tegen de zuivering van kunstenaars kwam vooral van de 'Actie rechtsherstel der Nederlandse kunstenaars'. Deze maakte bezwaren tegen het gebrek aan het juridische gehalte van de M.G.-richtlijnen. De Actie Rechtsherstel achtte de uitspraken tegen kunstenaars in veel gevallen onrechtvaardig zwaar. Anderen vonden daarentegen dat de ereraden in sommige gevallen veel te mild oordeelden. Bij een uitvoering van de Amsterdamse Opera gaf het publiek uiting aan zijn ontstemming over de houding van dit gezelschap in oorlogstijd. Naar aanleiding van deze ongeregeldheden werd een zevende ereraad ingesteld: de Ereraad voor solisten van de afdeling Opera van het Gemeentelijk Theater-bedrijf te Amsterdam.</p>
+					<p>Na de instelling van de Centrale Ereraad werd door een paar honderd kunstenaars beroep aangetekend tegen de uitspraken van de ereraden. Er werd ook in beroep gegaan tegen de algemene uitspraak van de Verenigde Eereraden uit juni 1945. De Centrale Ereraad maakte bij revisie gebruik van de door de ereraden verzamelde informatie. Ze ging echter ook vaak zelf over tot verhoor en onderzoek. Meestal kwam de Centrale Ereraad tot een mildere strafoplegging dan die van de ereraden. Dit leidde tot een conflict met de nog in functie zijnde ereraden, die zich door herziening van hun uitspraken gedesavoueerd voelden. Zij beschouwden hun werk niet langer zinvol en boden bijna alle eind 1946 hun ontslag aan bij de minister. Deze verleende dat pas per 1 januari 1948. Na hun ontslagaanvragen namen de ereraden geen zaken meer in behandeling; de meeste waren toen ook al afgedaan. De Centrale Ereraad had alle beroepszaken in maart 1948 afgehandeld. Omdat in een nieuwe wet nieuwe taken aan haar zouden worden opgedragen, werd zij niet van haar taak ontheven. Bij wet van 2 juni 1949 kreeg de Centrale Ereraad de bevoegdheid zaken in de eerste aanleg te behandelen. Verder werd bepaald, dat leden van de voormalige ereraden in de Centrale Ereraad zitting moesten nemen; de eis dat de leden van de Centrale Ereraad juristen moesten zijn, kwam hiermee te vervallen. In januari 1951 werd de laatste zaak door de ereraad afgesloten. Een aantal zaken werd geseponeerd. De leden werd per 9 januari 1952 ontslag verleend.</p>
+				</bioghist>
+				<bioghist>
+					<head>De organisatie van de ereraden en de centrale ereraad voor de kunst</head>
+					<p>Bij de instelling van de ereraden werd door de Chef Staf M.G. een algemeen voorzitter benoemd. Deze woonde, net als de adviseur voor kunstzaken van het M.G., Donkersloot, de vergaderingen van alle ereraden bij. Aan elk der ereraden werd een secretaris toegevoegd. Na enige tijd werd besloten voor elk ereraad een eigen voorzitter te benoemen; deze moest jurist zijn.</p>
+					<p>Ten behoeve van alle ereraden functioneerde er een bureau der Vereenigde Eereraden voor Kunststenaarsberoepen, ook wel genoemd Bureau Zuivering Kunstenaars en later, na de opheffing van de ereraden, bureau Centrale Ereraad. Dit bureau was onderdeel van het M.G., maar werd na opheffing daarvan, toegevoegd aan het ministerie van Onderwijs, Kunsten en Wetenschappen. Het bureau handelde eenvoudige zaken af; het merendeel van de stukken werd ter afdoening doorgezonden naar de verschillende ereraden of Donkersloot.</p>
+					<p>De zaken werden door de raden in hun vergadering behandeld. Er werden anders dan bij de later ingestelde Centrale Ereraad - geen afzonderlijke zittingen per kunstenaar gehouden. Informatie ontleenden zij aan particulieren, kunstenaarsverenigingen en voor een belangrijk deel aan de archieven van Duitse instellingen, zoals de Kultuurkamer. Verhoren van de aangeklaagden vonden lang niet in alle gevallen plaats.</p>
+					<p>De Centrale Ereraad werkte anders. Dit kwam mede door de afkondiging van de Wet zuivering kunstenaars en de ministeriële beschikkingen die eisen stelden aan de procedure. Alle leden van de raad waren bovendien jurist. Het verhoren van de kunstenaars werd nu algemeen gebruik. Voor alle kunstenaars werden afzonderlijke zittingen gehouden (voor één zaak meestal meer dan één). Hiervan werden processen-verbaal opgemaakt. Meer dan voorheen werden de uitspraken gemotiveerd. De hogere eisen die aan de bewijslast en de procedure werden gesteld, resulteerden in de meeste gevallen in een mildere strafoplegging dan die van de ereraden.</p>
+					<p>De Centrale Ereraad kende drie kamers waar recht werd gesproken. Het vierde rechtscollege vormde de zogenaamde voorzitterskamer. Deze kamer bestond uit de drie voorzitters van de drie kamers en behandelde de ernstigste zaken. De raad had met het oog op het aantal kamers, en vanwege het feit dat zowel in Amsterdam als in Den Haag recht gesproken werd, een aantal secretarissen. Het algemeen secretariaat werd ondergebracht bij de Afdeling Kabinet van het ministerie van Onderwijs, Kunsten en Wetenschappen.</p>
+				</bioghist>
+			</bioghist>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<p>De taak der kunstzuivering berustte bij het M.G. De correspondentie kwam binnen en ging uit van sectie XIV M.G. De meeste stukken werden ter afdoening doorgezonden naar secretarissen van de ereraden of naar Donkersloot; eenvoudig af te handelen brieven werden door het M.G. afgedaan. Zo ontstonden verspreid over de Randstad zeven, later acht archieven: een van elke ereraad, het archief Donkersloot en het archief sectie XIV, subsectie Kunst.</p>
+				<p>Nadat het M.G. werd opgeheven, werden de medewerkers die zich met de kunstzuivering hadden bezig gehouden, ondergebracht bij het Bureau der Verenigde Eereraden voor de Kunstenaarsberoepen. Het personeel zorgde, net als onder sectie XIV M.G., voor de administratie en archivering van de stukken. Een deel van het M.G.-archief ging naar het bureau; in februari 1946 werd een verzoek gedaan aan het M.G. om de beleidsstukken inzake de kunstzuivering bij het bureau te deponeren.</p>
+				<p>Vooruitlopend op de opheffing van de ereraden per 1 januari 1948, werden de medewerkers van het bureau in september 1947 van hun taak ontheven. De archieven werden overgedragen aan de Afdeling Kabinet van het Ministerie van Onderwijs, Kunsten en Wetenschappen.</p>
+				<p>Daarop werden de archieven verzameld die berustten bij de secretarissen van de voormalige ereraden. Na de opheffing van de ereraden kwam de uitvoerende taak der kunstzuivering, en dus de zorg voor de archieven, te berusten bij de Centrale Ereraad.</p>
+				<p>Na de afkondiging van de wet van 2 juni 1949 werden de archieven geheel herordend. Er werd een serie van circa 1000 persoonsdossiers gevormd, die bij verdere behandeling van de zaken werden aangevuld. Dit gebeurde onder leiding van de plaatsvervangend secretaris van de Centrale Ereraad, tevens plaatsvervangend kabinetschef van het Ministerie van O, K en W. Toen deze met ingang van 23 mei 1950 algemeen secretaris van de raad werd, kwam het beheer van de archieven geheel te liggen bij de Afdeling Kabinet van het ministerie.</p>
+				<p>Na het ontslag van de leden van de Centrale Ereraad in januari 1952, werden de archieven betreffende de kunstzuivering als onderdeel van het archief van de Afdeling Kabinet aan de Centrale Archiefbewaarplaats van het ministerie overgedragen. Daarna werd het archief geïnventariseerd; hiervan bestaat alleen een kaartinventaris.</p>
+				<p>Op 5 juni 1968 brak er brand uit in de archiefdepots van het ministerie, waarbij circa 1 m' van de zuiveringsarchieven verloren ging. In 1980 werd een deel van de archieven uitgeleend aan het Rijksinstituut voor Oorlogsdocumentatie ten behoeve van de samenstelling van een publicatie. Daarna werden vier dossiers betreffende de zuivering van prof. dr Willem Mengelberg overgedragen aan het Algemeen Rijksarchief, als onderdeel van de serie Persoonsdossiers uit diverse afdelingsarchieven van het ministerie van Onderwijs, Kunsten en Wetenschappen (geboortejaren tot en met 1903). In 1986 werd begonnen met de herinventarisatie van de archieven van de ereraden en de Centrale Ereraden voor de Kunst.</p>
+				<p>In 1992 werd begonnen met de inventarisatie van het aan het ministerie geschonken archief van wijlen Sj. Leiker, secretaris van de Ereraad voor de Letterkunde. Dit archief vormde een welkome aanvulling en is geïntegreerd in het deel van het reeds aanwezige archief van de Ereraad voor de Letterkunde. De persoonsdossiers zijn toegevoegd aan de lijst van individuele kunstenaars in deze inventaris.</p>
+				
+			<acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek">MAISAO-WOTAP</subject>
+				<subject source="ABS_trefwoord">2.14</subject>
+			</controlaccess>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>In 1949/1950 werd het archief grootscheeps herordend. De verantwoordelijke persoon vervulde een functie als secretaris van de Centrale Ereraad en was tevens plaatsvervangend chef van de Afdeling Kabinet van het ministerie die verantwoordelijk was voor de kunstzuivering; de archieven van het uitvoerend orgaan, de Centrale Ereraad, en het verantwoordelijk orgaan, het ministerie, raakten door deze omstandigheid verward. In de jaren zestig werden de archieven geïnventariseerd door een medewerker van de Centrale Archiefbewaarplaats van het ministerie. Daarna ging een deel van deze archieven in 1968 door brand verloren. Deze vier factoren maakten een herinventarisatie noodzakelijk.</p>
+				<p>Bij de archiefordening was met het bestemmingsbeginsel geen rekening gehouden. De archieven van het M.G. (zowel van de Chef Staf als van de Provinciale en Plaatselijke Militaire Commissarissen), van de ereraden, de Centrale Ereraad en van de Afdeling Kabinet van het Ministerie van O.,K. en W. waren sterk vermengd geraakt. Bij de inventarisatie van de jaren zestig is deze toestand ongewijzigd gebleven. Bij de herinventarisatie werd getracht de oorspronkelijke plaats zoveel mogelijk aan de stukken terug te geven; in een aantal gevallen was deze niet meer te achterhalen. Met name de M.G.en de Kabinetsstukken werden van de andere archieven afgescheiden. Niet afgescheiden werden de retroacta die geïncorporeerd waren in de dossiers die dienden bij de behandeling van de zaken door de ereraden. Deze retroacta, deels in originali, deels in afschrift, zijn afkomstig uit ondermeer de archieven van de kunstenaars zelf, de Kultuurkamer en het Departement voor Volkvoorlichting en Kunsten; het laatste archiefmateriaal werd verzameld door de Adviescommissies voor het Zuiden en het Noorden en na opheffing aan het Bureau der Verenigde Eereraden voor de Kunstenaars overgedragen.</p>
+				<p>Stukken betreffende hoger beroepszaken, die door de Centrale Ereraad behandeld werden, kwamen zodoende in de archieven van de ereraden terecht. Ook de persoonsdossiers van de kunstenaars die nooit voor de ereraden waren geweest, maar door de Centrale Ereraad in eerste instantie waren behandeld, kwamen terecht in de archieven van de ereraden. Deze orde werd bij de herinventarisatie verlaten, het bestemmingsbeginsel is duidelijker uitgangspunt geworden. Echter, de stukken die zijn ontvangen of opgemaakt bij de eerste behandeling van zaken door de ereraden betreffende in beroep gegane kunstenaars, zijn geplaatst in het archief van de Centrale Ereraad. Dit is gedaan ter bevordering van de toegankelijkheid, terwijl het bovendien niet altijd mogelijk was de ereraads- en Centrale Ereraadsstukken van elkaar te scheiden. Bij de dossiers inzake de zuivering van individuele kunstenaars door de Centrale Ereraad is aangegeven welke ereraad de zaak in eerste instantie heeft behandeld; waar dit niet vermeld is, behandelde de Centrale Ereraad deze zaken in eerste aanleg.</p>
+				<p>Door de onvolledigheid van de archieven waren de leden niet voor alle ereraden te achterhalen. Alleen de lijst van de leden van de centrale ereraad is volledig. Hierbij konden ook de data van benoeming en ontslag worden vermeld; waar laatstgenoemde data niet afzonderlijk zijn opgegeven, geldt 9 januari 1952.</p>
+				<p>Dubbelen en stukken van eenvoudige aard werden vernietigd. De omvang van de archieven bedraagt na inventarisatie 1.250 m.</p>
+			</processinfo>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list numeration="arabic" type="ordered">
+						<item>U maakt een profiel aan op <extref actuate="onrequest" href="https://www.gahetna.nl/user/register" linktype="simple" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Ereraden en Centrale Ereraad voor de Kunst, nummer toegang 2.14.46, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Ereraden v.d. Kunst, 2.14.46, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+			<altformavail>
+				<p>Bezoekers krijgen microfilms en fiches van dit archief ter inzage.</p>
+			</altformavail>
+			<separatedmaterial>
+				<head>Afgescheiden archiefmateriaal</head>
+				<p>Er is onderzoek gedaan naar de aanwezigheid van stukken afkomstig van de ereraden die zich elders bevinden. Het archief van prof. Donkersloot, ontstaan in verband met zijn adviseurschap voor kunstzaken bij het M.G., is gedeeltelijk terechtgekomen in zijn persoonlijk archief; de berust bij het Nederlands Letterkundig Museum en Documentatiecentrum te 's-Gravenhage.</p>
+				<p>De dossiers betreffende de zuivering van prof. dr Willem Mengelberg zijn krachtens het bestemmingsbeginsel weer teruggekeerd naar het archief van de Centrale Ereraad</p>
+				<p>In het archief zijn stukken aangetroffen van de Afdeling Kabinet van het Ministerie van Onderwijs, Kunsten en Wetenschappen, die betrekking hebben op de zuivering. Deze stukken zijn van het archief afgezonderd om krachtens het herkomstbeginsel te worden teruggebracht tot het Kabinetsarchief.</p>
+			</separatedmaterial>
+			<relatedmaterial>
+				<head>Verwante archieven</head>
+				<p>De stukken afkomstig van het M.G. werden overgebracht naar het Nationaal Archief, waar zich het archief van sectie XIV M.G. bevindt. (toegang 3.09.34)</p>
+			</relatedmaterial>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="subseries">
+				<did>
+					<unittitle>Algemeen</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1649624" type="ABS">1</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc5e3adb-4c60-485d-833b-ba28b10f3b1a</unitid>
+						<unittitle>Agenda van ingekomen en uitgaande stukken van sectie XIV, sub-sectie Kunst van het Militair Gezag en van het bureau.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<altformavail type="ABS">
+						<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+					</altformavail>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1649625" type="ABS">2</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cba731d7-5c34-4208-8934-de39084d8842</unitid>
+						<unittitle>Ingekomen stukken en doorslagen van uitgaande stukken.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					<altformavail type="ABS">
+						<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+					</altformavail>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1649626" type="ABS">3</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffc15dd7-e548-429d-917e-3d67be5f8a59</unitid>
+						<unittitle>Notulen van de vergadering d.d. 21-12-1945 van de Verenigde Eereraden voor de Kunstenaarsberoepen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<altformavail type="ABS">
+						<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+					</altformavail>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1649627" type="ABS">4</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9955a42d-736a-40c0-9f08-250becef8b19</unitid>
+						<unittitle>Stukken afkomstig uit de documentatieverzameling van het bureau.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1940/1945">1940-1945</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<altformavail type="ABS">
+						<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+					</altformavail>
+				</c02>
+			</c01>
+			<c01 level="subseries">
+				<did>
+					<unittitle>Ereraden voor de kunst</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de amusements- of kleinkunst</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649628" type="ABS">5</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1548e4f8-5eaf-4336-a256-95eff2fbb080</unitid>
+							<unittitle>Lijsten houdende opgaven van de vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649629" type="ABS">6</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec0b32b0-e214-456f-bb7c-174d7f413f93</unitid>
+							<unittitle>Lijst houdende een opgave van door ereraad gevormde dossiers.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de architectuur en toegepaste kunsten</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649630" type="ABS">7</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d240e918-a094-49e8-aef4-daa79f459b99</unitid>
+							<unittitle>Notulen</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>8-10</unitid>
+							<unittitle>Stukken betreffende de zuivering van individuele architecten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1941/1946">1941-1946</unitdate>
+							<physdesc>3 omslagen</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649631" type="ABS">8</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b373dc07-3e47-46cf-8ad3-cb13fb1879b0</unitid>
+								<unittitle>Willem Marinus Dudok, <unitdate calendar="gregorian" era="ce" normal="1941/1946">1941-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649632" type="ABS">9</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c225dad7-353d-4ce1-b060-c8b4877905d2</unitid>
+								<unittitle>Herman Laurens Mens, <unitdate calendar="gregorian" era="ce" normal="1943/1946">1943-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649633" type="ABS">10</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/680f929f-63c6-451a-a7b5-8f5022fc15e2</unitid>
+								<unittitle>Herman Trudo Maria Reuser, <unitdate calendar="gregorian" era="ce" normal="1942/1946">1942-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649634" type="ABS">11</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1afc129-e0f8-4a18-8ef5-8570900241b1</unitid>
+							<unittitle>Stukken betreffende de zuivering van het architectenbureau Freij &amp; Dorgelo te Rotterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1941/1946">1941-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649635" type="ABS">12</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc504acf-04bb-4d5f-a294-8ed180ba5e7c</unitid>
+							<unittitle>Stukken betreffende het lidmaatschap van architecten van nationaal-socialistische organisaties en commissies.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942/1946">1942-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649636" type="ABS">13</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/82c1789c-fe7a-49d4-919c-9b76e8581882</unitid>
+							<unittitle>Stukken houdende opgaven van door de ereraad behandelde zaken en vonnissen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649637" type="ABS">14</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4a669b5-bd9a-462e-b68f-ad22ef4ce8b5</unitid>
+							<unittitle>Brieven van mevrouw L. Wenckebach-Lam en mevrouw M.C. Brouwer-Breedt Bruyn naar aanleiding van uitspraken van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649638" type="ABS">15</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/42695e06-3734-4542-9135-13fe473d13aa</unitid>
+							<unittitle>Briefwisseling tussen de ereraad en de voormalige bestuursleden van het bouwmeestersgilde Nijmegen inzake de uitzending van architecten naar Duitsland in 1940 en 1941.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649639" type="ABS">16</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/05e9637c-0238-4a5a-80ca-fb0657c532e4</unitid>
+							<unittitle>Lijsten houdende opgaven van personen die beroep hebben aangetekend tegen vonnissen van de ereraad, met aantekeningen.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649640" type="ABS">17</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f91a684-33b1-4344-b8fd-7444b604d633</unitid>
+							<unittitle>Lijsten houdende opgaven van door de ereraad gevormde dossiers.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de beeldende kunsten</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649641" type="ABS">18</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9060568-c3d8-4a5e-ada2-54369fb4ddd0</unitid>
+							<unittitle>Notulen</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649642" type="ABS">19</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e42cbd44-a326-424d-80fc-d57a9a3790d2</unitid>
+							<unittitle>Briefwisseling tussen beeldende kunstenaars en de ereraad naar aanleiding van aanvragen tot voorlopige vergunning tot expositie bij het M.G., en van de algemene uitspraak van de verenigde ereraden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						<arrangement>
+							<p> Alfabetisch op naam van de kunstenaar</p>
+						</arrangement>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649643" type="ABS">20</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bbb6c14-07ee-4a0a-8f53-faa431647d41</unitid>
+							<unittitle>Briefwisseling tussen Herman Berserik en de ereraad inzake het vonnis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649644" type="ABS">21</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/163cc92a-9155-469a-a24b-dbf9726e6f0e</unitid>
+							<unittitle>Stukken betreffende het vonnis van de ereraad aangaande de bestuursleden van verschillende verenigingen van beeldende kunstenaars.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649645" type="ABS">22</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c130527-f77a-44c3-be24-5526ffbd0630</unitid>
+							<unittitle>Notitie houdende een opgave van vonnissen inzake Louis Bron en Ype Wenning.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649646" type="ABS">23</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cd6494c-6a00-494b-8a2b-e71af3b0fd4b</unitid>
+							<unittitle>Lijst houdende een opgave van personen die beroep hebben aangetekend tegen vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de letterkunde</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649647" type="ABS">24</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/41228e22-9c5f-4f4d-8336-3a498460c833</unitid>
+							<unittitle>Notulen</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649648" type="ABS">25</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6537d82-e80e-4b22-a477-5be1b51e529b</unitid>
+							<unittitle>Lijsten van de Kultuurkamer met namen betreffende een vergoeding voor correspondentschappen .</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942/1943">1942-1943</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649649" type="ABS">26</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08135c13-6f28-42c4-a7c4-0aaa16cf3c86</unitid>
+							<unittitle>"Kulturele berichten", korte berichten van de Berichtendienst Nederlandse Omroep te Hilversum over muziek- en toneeluitvoeringen en tentoonstellingen in Nederland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1944">1944 januari-juni</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649650" type="ABS">27</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/301e37ff-0920-4314-8059-a134df548667</unitid>
+							<unittitle>Vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649651" type="ABS">28</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba5ad8f7-4907-4db4-9c73-6821d4d79ef5</unitid>
+							<unittitle>Stukken betreffende een collectief vonnis van 18-09-1945.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649652" type="ABS">29</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2658932-bc3a-4275-9820-564a4eead66c</unitid>
+							<unittitle>Stukken betreffende een eventueel overnemen van elkaars uitspraken in de veroordeling van 'veroordeelden' tussen Vlaanderen en Nederland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649653" type="ABS">30</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a50bac1-a53f-4d42-b26a-344f508be5a7</unitid>
+							<unittitle>Stukken betreffende verzoeken om inlichtingen inzake enkele auteurs door diverse instellingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649654" type="ABS">31</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ed8e551-9748-42b6-9e1d-9b60c72c3b6e</unitid>
+							<unittitle>Stukken betreffende de toneelschrijver Yme Christianes Schuitmaker.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649655" type="ABS">32</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff42ed2e-52ab-4500-9dae-98bea0376914</unitid>
+							<unittitle>Lijsten met namen van schrijvers en schrijfsters die zijn aangetroffen op contracten bij de Nederlandse Nationaal socialistische Uitgeverij (N.E.N.A.S.U.).</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/2.14.46/file/32" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649656" type="ABS">33</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/279d1ce5-9c0a-443d-98b5-fe8ddfaa494d</unitid>
+							<unittitle>Contracten van de NENASU met diverse schrijvers.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1943/1946">1943-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649657" type="ABS">34</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9e4b27d-8e4c-4e60-90fb-3ce715c5ddaa</unitid>
+							<unittitle>Lijsten van personen die gedurende de bezetting vertaald dan wel gepubliceerd hebben.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649658" type="ABS">35</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f15c39de-d49a-46e0-b548-d895343d8547</unitid>
+							<unittitle>Lijsten houdende opgaven van vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649659" type="ABS">36</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f496748-6fe5-4e67-adba-fcee27ccf272</unitid>
+							<unittitle>Lijst houdende een opgave van personen die beroep hebben aangetekend tegen vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649660" type="ABS">37</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4466c7f6-37df-48b0-87b2-9f93d378b763</unitid>
+							<unittitle>Lijst van boeken met een propagandistische inhoud en vanuit het Duits vertaalde boeken gerangschikt naar hun uitgevers. Met geleidebrief.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649661" type="ABS">38</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c58a279-d552-44b2-9237-d0c16587aff4</unitid>
+							<unittitle>Memo betreffende problemen tussen de Eereraden en de Centrale Ereraad. Met geleidebrief.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649662" type="ABS">39</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b386eb10-dbdc-4e53-b2cc-b5d0c6596588</unitid>
+							<unittitle>Memo betreffende een opsomming van maatregelen die getroffen dienen te worden tegen kunstenaars die tijdens de bezetting gecollaboreerd hebben met de vijand.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>I stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649663" type="ABS">40</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/51db5dfe-8dd8-4518-a89a-f435394ba275</unitid>
+							<unittitle>Brief met een standaardtekst waarin afkeuring wordt uitgesproken over de houding van de aangeschreven persoon tijdens de bezetting.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649664" type="ABS">41</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4966152a-691c-4314-882c-fefecc4d41c2</unitid>
+							<unittitle>Nota betreffende een ontwerp contributieregeling voor 1942 van de Kultuurkamer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942">1942</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de muziek</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649665" type="ABS">42</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/510931b4-865a-49a2-93f0-c332aaaa4087</unitid>
+							<unittitle>Notulen</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945- 1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649666" type="ABS">43</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f056805-ed72-452c-8580-b348159e6bf5</unitid>
+							<unittitle>Stukken betreffende de verstrekking van inlichtingen omtrent maatregelen tegen musici.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>44-48</unitid>
+							<unittitle>Stukken betreffende de zuivering van individuele personen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1940/1946">1940-1946</unitdate>
+							<physdesc>4 omslagen en 1 pak</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649667" type="ABS">44</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce686cf1-77df-4aab-a691-b09d510690e9</unitid>
+								<unittitle>Albertus H. Bruggenman, fluitist-pianist. <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+								<physdesc/>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649668" type="ABS">45</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5601908f-c7d9-4c95-af0d-f18833bff652</unitid>
+								<unittitle>Corry Bijster, concert- en operazangeres. <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+								<physdesc/>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649669" type="ABS">46</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a05ba6cb-b744-44e3-a5f5-41b85a9ed155</unitid>
+								<unittitle>Willem van Otterlo, dirigent van het Utrechtsch Stedelijk Orkest. <unitdate calendar="gregorian" era="ce" normal="1941/1945">1941-1945</unitdate>
+								</unittitle>
+								<physdesc/>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649670" type="ABS">47</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/01e1e7e9-2a24-4e3a-ae4f-a833892943cf</unitid>
+								<unittitle>Johannes Koenradus Pinkse, kapelmeester van het politiestafmuziekkorps. <unitdate calendar="gregorian" era="ce" normal="1943/1946">1943-1946</unitdate>
+								</unittitle>
+								<physdesc/>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649671" type="ABS">48</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0166033-aa35-44b7-87aa-d57b738326cc</unitid>
+								<unittitle>Mr Harm Smedes, ambtenaar bij het Departement voor Volksvoorlichting en Kunsten, laatstelijk hoofd van de afdeling Muziek. <unitdate calendar="gregorian" era="ce" normal="1940/1945">1940-1945</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>49-55</unitid>
+							<unittitle>Stukken betreffende de zuivering van muziekverenigingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1941/1947">1941-1947</unitdate>
+							<physdesc>7 omslagen</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649672" type="ABS">49</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/07f8b1d4-6f1d-44cc-85d8-d8a563fedf53</unitid>
+								<unittitle>Amsterdam, Concertgebouworkest, <unitdate calendar="gregorian" era="ce" normal="1941/1945">1941-1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649673" type="ABS">50</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dc2ed31d-940a-4f07-8ade-626d4d4af793</unitid>
+								<unittitle>Arnhem, Arnhemse Orkestvereniging, <unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+								</unittitle>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649674" type="ABS">51</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd8ed208-bf4e-48b6-8559-1558b26c6897</unitid>
+								<unittitle>'s-Gravenhage, Residentieorkest, <unitdate calendar="gregorian" era="ce" normal="1942/1946">1942-1946</unitdate>
+								</unittitle>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649675" type="ABS">52</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/16148e70-7c71-488d-96dd-9bf402b98920</unitid>
+								<unittitle>'s-Gravenhage, Nederlands Strijkkwartet, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649676" type="ABS">53</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba78a957-6cf1-475b-820d-efbcb5ce13c2</unitid>
+								<unittitle>Groningen, Groningse Orkestvereniging, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649677" type="ABS">54</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6f51ebb-cff9-4539-bd4c-0bf597d74abe</unitid>
+								<unittitle>Haarlem, Haarlemse Orkestvereniging, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649678" type="ABS">55</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/50e550ba-9765-46c6-b0d1-cdb40dd797a9</unitid>
+								<unittitle>Maastricht, Maastrichts Stedelijk Orkest, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did>
+							<altformavail type="ABS">
+								<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+							</altformavail>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649679" type="ABS">56</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f96e7ef9-3f54-4268-86b1-780880e14c90</unitid>
+							<unittitle>Stukken betreffende de zuivering van amateur-muziek- en -zangverenigingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649680" type="ABS">57</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a066744-454d-40ed-b5c0-2c1d4a9e93bd</unitid>
+							<unittitle>Stukken betreffende de advisering aan het aan het M.G. omtrent het verlenen van voorlopige vergunningen tot optreden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1940/1946">1940-1946</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649681" type="ABS">58</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdc32287-c480-49e5-9c6f-0a75dd97def9</unitid>
+							<unittitle>Stukken betreffende de benoeming en het ontslag van leden van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649682" type="ABS">59</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e450b28-d45c-4555-ae13-fca4a7964084</unitid>
+							<unittitle>Brieven van Piet Tiggers en prof. dr. K. Ph. Bernet Kempers houdende inlichtingen betreffende verschillende kunstenaars.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945 en z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649683" type="ABS">60</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2500bd8-3ae6-4299-af88-1fbf7389c6aa</unitid>
+							<unittitle>Vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649684" type="ABS">61</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cba3dfa-f8f8-4c55-8494-21b28e21cbbf</unitid>
+							<unittitle>Brief van sectie XIV M.G., prof. dr. N.A. Donkersloot, aan de voorzitters van de ereraden houdende informatie over het ontwerp van wet inzake de kunstzuivering.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649685" type="ABS">62</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/71c6d322-fb26-4384-95a6-c140c9cbef73</unitid>
+							<unittitle>Lijst van verenigingen op cultureel gebied die het predikaat 'koninklijk' voeren of waarvan de koningin erelid of beschermvrouwe is.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649686" type="ABS">63</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c73da14-fac1-4efd-8ce2-f3e6351261e1</unitid>
+							<unittitle>Lijst houdende de opgaven van de data van behandeling van zaken in de ereraadsvergaderingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649687" type="ABS">64</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/98f3c13c-05c0-49b3-b4d0-617e1e3b6fd8</unitid>
+							<unittitle>Lijsten houdende opgaven van vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649688" type="ABS">65</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7b13e200-5165-4b15-b960-0b6fc2df3655</unitid>
+							<unittitle>Lijsten houdende opgaven van personen die beroep hebben aangetekend tegen vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649689" type="ABS">66</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c12be02e-9a59-40e1-9bb3-09fd5f1145e3</unitid>
+							<unittitle>Lijst houdende een opgave van door de ereraad gevormde dossiers.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor de solisten van de afdeling opera van het Gemeentelijk Theaterbedrijf te Amsterdam</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649690" type="ABS">67</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/133fcf4c-0c62-4fc9-9cbd-0c09fca2f79d</unitid>
+							<unittitle>Stukken betreffende het vonnis van de Eereraad voor de solisten van de afdeling opera van het Gemeentelijk theaterbedrijf te Amsterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1948">1945-1948</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Eereraad voor het toneel en de danskunst</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649691" type="ABS">68</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c6cda00-4966-4fc5-88a1-efd6bcd89a33</unitid>
+							<unittitle>Stukken betreffende de advisering aan het M.G. omtrent het verlenen van voorlopige vergunningen tot optreden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942/1946">1942-1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649692" type="ABS">69</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3419835f-77f8-4bfb-8dee-932b2cdfc977</unitid>
+							<unittitle>Stukken betreffende de zuivering van toneelspelers die werkzaam zijn geweest bij De Nederlandse Omroep.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942/1945">1942-1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649693" type="ABS">70</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/59bbd1c6-fd91-48d8-b124-fd1d7c6458c3</unitid>
+							<unittitle>Collectieve vonnissen van de ereraad inzake leden van de Kultuurkamer en betreffende amateur-toneelverenigingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649694" type="ABS">71</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4caf23c2-e8b2-4e94-af55-4e2126c67b87</unitid>
+							<unittitle>Collectieve vonnissen van de ereraad inzake individuele toneelspelers.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649695" type="ABS">72</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22cb7efa-e447-4b31-adfc-91c60cfbb3a7</unitid>
+							<unittitle>Brief van sectie XIV M.G. prof. dr. N.A. Donkersloot, aan de voorzitters van de ereraden houdende informatie over het ontwerp van wet inzake de kunstzuivering.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649696" type="ABS">73</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5673999b-b4ad-469c-bf8b-85ef8f6de46c</unitid>
+							<unittitle>Stukken houdende inlichtingen over meer dan één persoon.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649697" type="ABS">74</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd6ac13a-cece-4815-8159-9421edb2356e</unitid>
+							<unittitle>Stukken betreffende klachten ingediend tegen de 'Toneelgroep 5 mei 1945' waarin de zuiverheid van de leden in de oorlog wordt betwist.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>75-82</unitid>
+							<unittitle>Stukken betreffende de zuivering van individuele toneelspelers.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1944/1946">1944-1946</unitdate>
+							<physdesc>8 omslagen</physdesc>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649698" type="ABS">75</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4636ffac-7be3-4884-b3d2-8ff97f18f6c5</unitid>
+								<unittitle>A.M.P. (Ton) van Aelst en Johanna Henriëtte Busch, <unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649699" type="ABS">76</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9eb48dc8-87e5-4334-9c34-33e74e54c499</unitid>
+								<unittitle>Jacques van Bijlevelt, <unitdate calendar="gregorian" era="ce" normal="1944/1946">1944-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649700" type="ABS">77</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a1dbf06-0d8c-4f13-9de9-a7ae27e5e78a</unitid>
+								<unittitle>Cor Hermus, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649701" type="ABS">78</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08f3c233-f892-4bb9-910b-93725ff41bbd</unitid>
+								<unittitle>Johannes Franciscus Jansen (Hans Kaart), <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649702" type="ABS">79</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a90c0a2-5c87-4cf2-b475-6d2d2b6e7603</unitid>
+								<unittitle>Ank Oster-van der Moer, <unitdate calendar="gregorian" era="ce" normal="1945/1946">1945-1946</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649703" type="ABS">80</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08d7d480-b36c-40f4-9057-64252defba1d</unitid>
+								<unittitle>Guus Oster, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649704" type="ABS">81</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/50faff89-0b96-44ef-a726-5596707c012f</unitid>
+								<unittitle>Cor en Antoon Ruys, <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649705" type="ABS">82</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ada6cffc-0aaf-4f29-86f4-cbab672dd9c2</unitid>
+								<unittitle>Emest Pieter Coenraad van Vrijberghe de Coningh (Cruys Voorbergh), <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+								</unittitle>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649706" type="ABS">83</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/494de622-8cfb-4f7b-8a5c-7ba57c432f30</unitid>
+							<unittitle>Lijst houdende een opgave van door de ereraad behandelde en te behandelen zaken.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649707" type="ABS">84</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2380c071-7a6e-499c-bff5-2c026174ee71</unitid>
+							<unittitle>Lijst houdende een opgave van vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649708" type="ABS">85</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ffaa1ab-6835-4ab4-916c-e2952f98047b</unitid>
+							<unittitle>Lijsten houdende opgaven van personen en verenigingen voor amateurtoneel die beroep hebben aangetekend tegen vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unittitle>Centrale Ereraad voor de Kunst</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649709" type="ABS">86</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc77d3ac-2524-4f64-8740-21a6920d518e</unitid>
+							<unittitle>Notulen</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649710" type="ABS">87</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c17366c3-6040-45ca-ad16-806c6333a11f</unitid>
+							<unittitle>Stukken betreffende de zuivering van de Koninklijke Letterlievende Vereniging 'J.J. Cremer' te Haarlem (ETD).</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1942/1947">1942-1947</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649711" type="ABS">88</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9522830-ad3a-4ca5-be3d-2fd43959b190</unitid>
+							<unittitle>Stukken betreffende door de ereraad geseponeerde zaken.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1945/1950">1945-1950</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649712" type="ABS">89</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/53de9d59-41e4-42cb-827a-91f9d2682556</unitid>
+							<unittitle>Stukken houdende inlichtingen over verschillende personen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649713" type="ABS">90</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bbd34dd-fa08-42a1-b12d-ced54a922666</unitid>
+							<unittitle>Stukken betreffende de benoeming, de eedsaflegging en het ontslag van leden van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649714" type="ABS">91</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5cdd4920-bdc4-4d0f-aa86-4277e940fcc2</unitid>
+							<unittitle>Stukken betreffende de zuivering van het Harmoniekorps van de Steenkolen-handelsvereniging S.H.V. te Rotterdam (EM).</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1947">1946-1947</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649715" type="ABS">92</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce4ac5c5-c5d6-4351-9494-e4a99b567984</unitid>
+							<unittitle>Stukken betreffende de instelling van de diverse kamers van de ereraad en de verdeling van de te behandelen zaken over deze kamers.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946/1950">1946-1950</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649716" type="ABS">93</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dcde9304-3f24-4eab-8311-2320ef4ca2db</unitid>
+							<unittitle>Stukken betreffende de aanvraag tot ontslag van leden van de ereraad voor de architectuur, letterkunde en toneel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1946">1946</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649717" type="ABS">94</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c873a466-2bb5-4aab-a539-e5d96b917db8</unitid>
+							<unittitle>Stukken betreffende het secretariaat van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947/1948">1947-1948</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649718" type="ABS">95</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccce926f-0284-48d9-9899-c6570e162976</unitid>
+							<unittitle>Staten houdende opgaven van vonnissen van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1947/1949">1947-1949 en z.j.</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+						<phystech type="ABS">
+							<p>Niet raadpleegbaar</p>
+						</phystech>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649719" type="ABS">96</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2073d68b-138e-44c8-9e73-d074c449d8c6</unitid>
+							<unittitle>Briefwisseling tussen de leden van de ereraad en Leden van de voormalige Eereraad voor de Letterkunde betreffende Willy Corsari, A. Roothaert en Anne de Vries.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1950">1950</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649720" type="ABS">97</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4fc4715d-faf8-445c-abeb-9786e77dbbb2</unitid>
+							<unittitle>Stukken betreffende de opheffing van de ereraad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1951/1952">1951-1952</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649721" type="ABS">98</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b5a0f00-737a-4d21-843b-409658b5d5a6</unitid>
+							<unittitle>Lijst houdende een opgave van stukken die gediend hebben bij de zuivering van het architectenbureau Merkelbach &amp; Karsten te Amsterdam (EA).</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649722" type="ABS">99</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03c41d14-81bd-44bd-88bf-e9465bf34682</unitid>
+							<unittitle>Lijst houdende een opgave van stukken die gediend hebben bij de zuivering van de bestuursleden van beeldende kunstenaarsverenigingen (EBK).</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649723" type="ABS">100</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/054d134c-5690-424f-8003-239a71815c45</unitid>
+							<unittitle>Lijsten houdende opgaven van zaken die in eerste instantie door de ereraad behandeld dienen te worden.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649724" type="ABS">101</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6be7e31-0b9f-4f79-9ff4-56721fde1796</unitid>
+							<unittitle>Lijst houdende een opgave van personen die geen beroep hebben aangetekend tegen de vonnissen van de ereraden.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1649725" type="ABS">102</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/63b7af5a-ade7-4adb-9cb9-fb2429ed38ad</unitid>
+							<unittitle>Notitie betreffende de aantallen door de ereraden gevonniste en bij de Centrale Ereraad in beroep gegane kunstenaars.</unittitle>
+							<unitdate calendar="gregorian" era="ce">Z.j.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<altformavail type="ABS">
+							<p>Dit inventarisnummer is alleen als kopie te raadplegen.</p>
+						</altformavail>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>103-258</unitid>
+							<unittitle>Stukken betreffende de zuivering van individuele kunstenaars.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1939/1951">1939-1951</unitdate>
+						</did>
+						<odd>
+							<p>Beschrijvingen van dossiers van personen jonger dan 100 jaar zijn niet opgenomen.</p>
+						</odd>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649726" type="ABS">103</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/593900a9-6e38-4ee6-8894-ebf7a644dd34</unitid>
+								<unittitle>H.P. van den Aardweg (EL); Geboren: 1899-07-19 (overleden 1971-07-04), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649727" type="ABS">104</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e0172c7-28a6-420a-b891-350d2ab7b9d5</unitid>
+								<unittitle>Marinus Adam, toonkunstenaar (EM); Geboren: 1920-08-02 (overleden 1977-05-30), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649728" type="ABS">105</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/113d42e5-ec9d-46c4-b586-c74b276d3b28</unitid>
+								<unittitle>J.C.P. Alberts (EL); Geboren 1893-02-11 (overleden 1967-10-28), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649729" type="ABS">106</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b531d48-7107-4e67-823b-bcea97a1f334</unitid>
+								<unittitle>J.C. Alders (EL); Geboren 1903 (overleden, jaar onbekend), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649730" type="ABS">107</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/65e41014-2540-4123-9dc3-7f9f2dc64dba</unitid>
+								<unittitle>Jo van Ammers-Küller, letterkundige (EL); Geboren 1884-08-13 (overleden 1966-01-23), <unitdate normal="1941/1950" era="ce" calendar="gregorian">1941-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649731" type="ABS">108</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3e49f29-37f6-427e-8d61-af84ec689fe8</unitid>
+								<unittitle>Peter van Andel (EL); Geboren 1908-10-27 (overleden 1986), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649732" type="ABS">109</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab5368c7-dc83-44d7-82c7-9a43381e832f</unitid>
+								<unittitle>Jan Apon (EL); Geboren 1907-10-26 (overleden 1993-02-01), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649733" type="ABS">110</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1c71f55-0ed9-4cbf-80aa-1ee2efc3a411</unitid>
+								<unittitle>Louis Marie George Arntzenius, musicus en journalist; Geboren 1898-07-05 (overleden 1964-09-15) en Emile Hortense Felixine Yvonne Arntzenius-Georgi, leidster van de Afdeling Ballet van het Gemeentelijk Theaterbedrijf te Amsterdam (ETD); Geboren 1903-10-29 (overleden 1975-01-25), <unitdate normal="1941/1950" era="ce" calendar="gregorian">1941-1950</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649734" type="ABS">111</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/143f7758-8293-480d-9a17-1bffb6db9d44</unitid>
+								<unittitle>Marcel J.A. Artz; Geboren 1899-11-24 (overleden, jaar onbekend), <unitdate normal="1944" era="ce" calendar="gregorian">1944</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649735" type="ABS">112</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b946b28-597a-43a4-a03d-aed88d9ff3f4</unitid>
+								<unittitle>Geertruida Johanna Jacoba Atema, concertzangeres. (EM); Geboren 1914-12-06 (overleden, jaar onbekend), <unitdate normal="1945/1950" era="ce" calendar="gregorian">1945-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649736" type="ABS">113</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df3b92a5-370b-4d9c-83c5-0ab2760b13ba</unitid>
+								<unittitle>Cecilia Petronelle Johanna Bach, toneelspeelster (ETD); Geboren 1916-11-21 (overleden 2003-01-17), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649737" type="ABS">114</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/73275e05-a017-4c4b-8af5-b108c6b1a70d</unitid>
+								<unittitle>Herman Hendrik Badings, componist (EM); Geboren 1907-01-17 (overleden 1987-06-26), <unitdate normal="1941/1947" era="ce" calendar="gregorian">1941-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649738" type="ABS">115</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a5336ff-db2a-4474-a035-52a1dce53a19</unitid>
+								<unittitle>Henk Bakker, toneelschrijver (EL); Geboren 1895-03-12 (overleden 1972), <unitdate normal="1945/1948" era="ce" calendar="gregorian">1945-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649739" type="ABS">116</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e7e2190-d003-4077-83c2-237c83ef92d1</unitid>
+								<unittitle>Agnes Bartels (EL): Geboren ca. 1912 (overleden, jaar onbekend), <unitdate normal="1942" era="ce" calendar="gregorian">1942</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649740" type="ABS">117</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b969b2ce-2a4f-4cd5-b9fc-a6f91852dd01</unitid>
+								<unittitle>Piet A. Begeer (EL); Geboren 1890-11-19 (overleden 1975-03-29), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649741" type="ABS">118</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b42997bc-a5d7-4442-aa40-2dab6a107c87</unitid>
+								<unittitle>Daniël Wilhelm Bekking, kunstschilder (EBK); Geboren 1906-01-08 (overleden 1973-09-04), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649742" type="ABS">119</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1e8befd-681f-448d-a25a-6425f4d613a1</unitid>
+								<unittitle>Johannes Fredericus van den Berg, kunstschilder (EBK); Geboren 1918-05-29 (overleden 2000-06-13), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649743" type="ABS">120</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f6cf787-5bc7-4c12-88e8-be6333bf34d4</unitid>
+								<unittitle>Willem Berkel, zanger; Geboren 1909-07-27 (overleden 1968-05-24), <unitdate normal="1942/1950" era="ce" calendar="gregorian">1942-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649744" type="ABS">121</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7f5d2ae-94d8-4fb5-8038-49ef58d34267</unitid>
+								<unittitle>Martien Beversluis, pseudoniem van M.B. Versluis, Letterkundige (EL); Geboren 1894-03-28 (overleden 1966-02-18), <unitdate normal="1948" era="ce" calendar="gregorian">1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649745" type="ABS">122</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/77e7350e-55c7-4242-b9e5-a20c2c2f1808</unitid>
+								<unittitle>N. Boelen-Ranneft (EL); (1889-1991), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649746" type="ABS">123</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75e69b3b-25c9-42f9-95a3-c0dfd42550f2</unitid>
+								<unittitle>Johannes Albertus Boer, architect (EA); Geboren 1895-02-22 (overleden 1971-02-12), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649747" type="ABS">124</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7524d5d5-35af-46b7-a0ce-8326b87231f0</unitid>
+								<unittitle>Johannes Boezer; Geboren 1879-04-27 (overleden 1955-11-23) en Catharina Frederika Boezer-Götte (artiestennaam Ellen Durieux); Geboren 1890-03-09 (overleden 1977-03-01), toneelspelers (ETD), <unitdate normal="1946/1948" era="ce" calendar="gregorian">1946-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649748" type="ABS">125</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ec4b72a-3081-4b37-882d-7d8b1ef078a5</unitid>
+								<unittitle>W.L. Boldingh-Goemans (EL); Geboren 1875-01-29 (overleden 1952-08-12), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649749" type="ABS">126</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2f2007d-ecef-4fda-836b-8daebfe0a7db</unitid>
+								<unittitle>Wilhemus Theodorus H. ten Bosch, architect (EA); Geboren 1895-03-09 (overleden 1967-01-13), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649750" type="ABS">127</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0daac200-67bf-4fad-ae17-775f813685ca</unitid>
+								<unittitle>Frits Bouwmeester, Toneelspeler (ETD); Geboren 1885-10-31 (overleden 1967-11-17), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649751" type="ABS">128</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/59f927c5-7ebb-4cc8-99d3-944b0881d3d5</unitid>
+								<unittitle>Abe Brouwer (EL); Geboren 1901-09-18 (overleden 1985-03-18), <unitdate normal="1942" era="ce" calendar="gregorian">1942</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649752" type="ABS">129</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b8085e40-7925-4dc6-8404-cbec393de128</unitid>
+								<unittitle>Til Brugman (EL); Geboren 1888-09-16 (overleden 1958-07-24), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649753" type="ABS">130</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04883224-6c54-404f-8630-06e4f1de64eb</unitid>
+								<unittitle>H. de Bruin (EL); Geboren 1899-03-22 (overleden 1947-06-10), <unitdate normal="1944/1945" era="ce" calendar="gregorian">1944-1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649754" type="ABS">131</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8783d4aa-f58d-430d-a754-def6bb7a2b5a</unitid>
+								<unittitle>Henricus Josephus Bruning, letterkundige; Geboren 1900-07-10 (overleden 1983-01-17), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649755" type="ABS">132</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04fa29cc-1d71-47e6-9c85-69ac69916f86</unitid>
+								<unittitle>Philippe Céleste la Chapelle (ETD); Geboren 1882-08-01 (overleden 1969-07-16), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649756" type="ABS">133</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/956c2be2-2766-472e-a548-22686f08bda1</unitid>
+								<unittitle>Wolfgang Cordan (EL); Geboren 1909-06-03 (overleden 1966-01-29), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649757" type="ABS">134</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/28b6150b-d700-493c-a7e0-f7a92a53c80a</unitid>
+								<unittitle>Willy Corsari, letterkundige; Geboren 1897-12-26 (overleden 1998-05-11), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946 en z.j.</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649758" type="ABS">135</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/40497994-de76-481d-ab0b-81e48ad34997</unitid>
+								<unittitle>Hans Marinus van Dokkum, kunstschilder (EBK); Geboren 1908-08-17 (overleden 1995-01-24), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649759" type="ABS">136</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bed31adf-b7ee-4373-a19e-0ad05484f09e</unitid>
+								<unittitle>M.H. Du Croo (EL); Geboren 1887-04-08 (overleden 1951-04-23), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649760" type="ABS">137</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc5b72d8-38d8-4ace-a960-14dcbded61b3</unitid>
+								<unittitle>Jan van Dam (EL); Geboren 1896-10-03 (overleden 1979-10-30), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649761" type="ABS">138</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a57db1ff-1bda-432b-8964-e82b14502f79</unitid>
+								<unittitle>H.J. van Deursen (EL); Geboren 1898-12-29 (overleden 1962-02-15), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649762" type="ABS">139</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2de64ad-977a-49ee-bfe5-d4c97759dc85</unitid>
+								<unittitle>J.H. Eekhout (EL); Geboren 1900-01-10 (overleden 1978-03-06), <unitdate normal="1942/1947" era="ce" calendar="gregorian">1942-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							<physloc type="ABS">Ontbreekt</physloc></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649763" type="ABS">140</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b372d8cd-1eb1-4901-8d51-60a1f6b8e23f</unitid>
+								<unittitle>Piet van Egmond, toonkunstenaar (EM); Geboren 1912-04-14 (overleden 1982-05-11), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649764" type="ABS">141</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bf45996-0a28-462c-8d0d-30b1f44a3d3f</unitid>
+								<unittitle>Anton Eldering, concertzanger (EM); Geboren 1912 (overleden 1992), <unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649765" type="ABS">142</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/197db777-6cb8-4c26-9b5f-7d9ab2a2b7b1</unitid>
+								<unittitle>Evert Elsenaar, musicus (EM); Geboren 1898-06-27 (overleden 1965-02-25), <unitdate normal="1944" era="ce" calendar="gregorian">1944</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649766" type="ABS">143</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b9354c2-5331-4bb9-a3ee-eadaf0c26411</unitid>
+								<unittitle>Ben van Eysselstein (EL); Geboren 1898-01-23 (overleden 1973-08-13), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649767" type="ABS">144</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/84f2cf97-47a4-4adb-904c-431148c3d776</unitid>
+								<unittitle>A.H. van der Feen (EL); Geboren 1873 (overleden 1953-01-02), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649768" type="ABS">145</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/10c1d61a-f72a-4361-b151-1f0e14edc19a</unitid>
+								<unittitle>Willem Fekken, kunstschilder (EBK); Geboren 1908 (overleden 1999), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649769" type="ABS">146</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b4c03e52-921e-4c91-82ed-09c27a03a107</unitid>
+								<unittitle>J.K. Feylbrief (ps. J. van Oudshoorn) (EL); Geboren 1876-12-20 (overleden 1951-07-31), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649770" type="ABS">147</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c0d7aa6-c4d2-4444-a062-7b5b4f1497c8</unitid>
+								<unittitle>Eduard Flipse, dirigent (EM); Geboren 1896-02-26 (overleden 1973-09-11), <unitdate normal="1941/1949" era="ce" calendar="gregorian">1941-1949</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649771" type="ABS">148</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c58117ff-91d7-4f97-95a3-cb72f806a6f8</unitid>
+								<unittitle>Marinus Flipse, pianist (EM); Geboren 1908-08-28 (overleden 1997-04-06), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649772" type="ABS">149</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1403651e-801b-45d7-9209-4ddbc1ea9152</unitid>
+								<unittitle>S. Franke (EL); Geboren: 1880 (overleden 1957), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649773" type="ABS">150</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83551174-aa6a-498d-96e0-8d782cba08d9</unitid>
+								<unittitle>J. Fransen (EL); Geboren 1877 (overleden 1948), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649774" type="ABS">151</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04522ff0-c0a9-4372-ba9d-3600db6c4598</unitid>
+								<unittitle>Suzanne Wilhelmina Frauenfelder, toneelspeelster (ETD): geboren: 1920-04-30 (overleden 1947-11-17)<unitdate normal="1943/1946" era="ce" calendar="gregorian">1943-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649775" type="ABS">152</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ba28c65-5d3f-40ea-b017-ba2aa6561b62</unitid>
+								<unittitle>Albertus Johannes Fredericus Wilhelminus Arthur Gerlach, toneelspeler (ETD); Geboren 1906-04-13 (overleden 1963), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649776" type="ABS">153</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/955fe069-b8dc-4404-9b96-e3b329f9fc89</unitid>
+								<unittitle>C. Gerretson (EL); Geboren 1884-02-09 (overleden 1958-10-27), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649777" type="ABS">154</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4cdb73b1-88c6-4379-8af0-4dff3e5bf7f6</unitid>
+								<unittitle>Mr. J.J. van Geuns (EL); Geboren: 1893-02-15 (overleden 1959-03-06), <unitdate normal="1942/1947" era="ce" calendar="gregorian">1942-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649778" type="ABS">155</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8c84837-f922-4209-9cc3-601b266d61c0</unitid>
+								<unittitle>Otto Glastra van Loon, dirigent (EM); Geboren: 1906-04-18 (overleden 1986), <unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649779" type="ABS">156</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a41aa0c9-fab9-428f-8625-78d17336dedf</unitid>
+								<unittitle>B.J.W. de Graaff (EL); Geboren: 1898 (overleden 1983), <unitdate normal="1942" era="ce" calendar="gregorian">1942</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649780" type="ABS">157</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fad7e7f5-8209-4b49-9dea-396c5cce5899</unitid>
+								<unittitle>Ger Griever (EL); Geboren 1900-08-06 (overleden 1970)<unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649781" type="ABS">158</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6cf43cf-2f93-4711-94df-0b618eebbfa7</unitid>
+								<unittitle>Comelis Wilhelmus de Groot, toonkunstenaar; Geboren: 1914-07-17 (overleden 1993-05-16), <unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649782" type="ABS">159</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f8de3b6-1698-400e-8650-cbd20da70d4a</unitid>
+								<unittitle>Theunes Haakma Wagenaar, architect (EA); Geboren: 1908 (overleden 1986), <unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649783" type="ABS">160</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/27fb1a7c-fa67-487b-b108-0fc0a349e2a4</unitid>
+								<unittitle>Jan Hendrik Hageboud, toneelspeler (ETD): Geboren: 1920-12-26 (overleden, jaar onbekend)<unitdate normal="1943/1948" era="ce" calendar="gregorian">1943-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649784" type="ABS">161</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e02c6c0d-36b4-4b8c-82bc-4e27c9c3ff60</unitid>
+								<unittitle>Dr. J. [Johannes] van Ham (EL); Geboren: 1892-03-11 (overleden 1985-12-30), <unitdate normal="1942/1947" era="ce" calendar="gregorian">1942-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649785" type="ABS">162</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/512fca59-a276-4082-a824-4008d5e1aa9b</unitid>
+								<unittitle>Jac. [Jacob] van Hattum (EL): Geboren: 1900-02-10 (overleden 1981-08-19), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649786" type="ABS">163</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/466b77e1-eb17-4e7f-af61-dd6f71a776e7</unitid>
+								<unittitle>F.W. van Heerikhuizen (EL); Geboren: 1910-08-05 (overleden 1969-02-18)<unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649787" type="ABS">164</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea1bfb64-e1a0-49e4-9e0c-99f411aa7dfe</unitid>
+								<unittitle>Adriaan Nicolaas Johan van Hees, oudregiseur bij de Nederlandse Omroep; Geboren: 1910-05-03 (overleden 1976-12-02), <unitdate normal="1945/1950" era="ce" calendar="gregorian">1945-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649788" type="ABS">165</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0545a68-438e-4572-a9bf-1b926a58e08c</unitid>
+								<unittitle>J.W. van der Heiden (EL); Geboren: 1880 (overleden 1960), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649789" type="ABS">166</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdb9cec3-be72-46d3-9b7f-40fcb2ff5b1f</unitid>
+								<unittitle>August Theodoor Anton Heyting, letterkundige (EL); Geboren 1879-08-19 (overleden 1949-11-02)<unitdate normal="1946" era="ce" calendar="gregorian">1946 en z.j.</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							<odd>
+								<p>Van de in een inliggende inhoudslijst opgesomde stukken is geen enkele aangetroffen[DjK 18-4-2013].</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649790" type="ABS">167</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0ec85a8-98b4-4e26-bb83-684f52e8d2f2</unitid>
+								<unittitle>Han G. Hoekstra (EL); Geboren 1906-09-04 (overleden 1988-04-15), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649791" type="ABS">168</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f72476ac-4d0a-441c-8b6e-8c2d87fd2c93</unitid>
+								<unittitle>Henri van Hoof (EL); Geboren 1914 (overleden 1992)<unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649792" type="ABS">169</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9690417-5ac0-481f-b1e6-d48947cf0ecd</unitid>
+								<unittitle>Heinrich Wolfgang Horn (EL) (ps. Wolfgang Cordan); Geboren: 1909-06-03 (overleden 1966-01-29), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649793" type="ABS">170</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/41197c8d-68b1-43f4-a69b-bec221ee057d</unitid>
+								<unittitle>R. [Roel] F.M. Houwink sr, Letterkundige (EL); Geboren: 1899-01-17 (overleden 1987-06-03), <unitdate normal="1945/1948" era="ce" calendar="gregorian">1945-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649794" type="ABS">171</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f00e1e6-366b-4c9e-b5eb-25cef7b7747a</unitid>
+								<unittitle>L. [Leonhard] Huizinga (EL); Geboren 1906-08-03 (overleden 1980-06-09)<unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649795" type="ABS">172</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d39d69b-7431-4e3d-988e-12ee4156a417</unitid>
+								<unittitle>Willem van der Kulk (ps. Willem van Iependaal) (EL); Geboren 1891-03-24 (overleden 1970-10-23), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649796" type="ABS">173</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7889fa5-7992-4659-814d-09436b68a2ab</unitid>
+								<unittitle>Joh. P. Jansen (EL); Geboren: 1873 (overleden 1956)<unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649797" type="ABS">174</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/42b79ab8-ab8c-4771-8fad-51eb7f9eb1ec</unitid>
+								<unittitle>Johannes Jacobus Jaspers, toneelspeler (ETD); Geboren: 1919-12-14  (overleden 1998-05-02), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649798" type="ABS">175</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/803737fa-0038-4d17-aea2-c9104681b942</unitid>
+								<unittitle>A.M. de Jong (EL); Geboren 1888-03-29 (overleden 1943-10-18), <unitdate normal="1952" era="ce" calendar="gregorian">1952</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649799" type="ABS">176</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c4b355b-c610-41bc-b8aa-322490d95396</unitid>
+								<unittitle>Germ de Jong, kunstschilder (EBK); Geboren 1886-03-08 (overleden 1967-11-04), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649800" type="ABS">177</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c6674f5-686d-4053-8cd7-e3f5bfc4a0fa</unitid>
+								<unittitle>S. Jonker (EL); Geboren: ca. 1895 (overleden, jaar onbekend), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649801" type="ABS">178</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7885cd86-ea2c-4740-a785-7a530b345597</unitid>
+								<unittitle>Roelf Jongman, beeldend kunstenaar (EBK); Geboren: 1887-08-07 (overleden 1958-06-28), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649802" type="ABS">179</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd2c452e-6a31-4189-b42d-777bce2557c0</unitid>
+								<unittitle>Heinrich Jacobus Jordans, dirigent van het Maastrichts Stedelijk Orkest (EM); Geboren 1914-09-14 (overleden 2003-09.04), <unitdate normal="1941/1950" era="ce" calendar="gregorian">1941-1950</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+							<odd>
+								<p>Hij was in de periode 1940-1945 ook dirigent van de Arnhemsche Orkest Vereniging</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649803" type="ABS">180</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2a25b8a-da5b-4721-a5a3-bb932acc354a</unitid>
+								<unittitle>Barend Jordens, beeldende kunstenaar (EBK); Geboren 1888-12-17 (overleden 1972-04-03)<unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649804" type="ABS">181</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8c01aee-cdab-4803-908e-2091852f205a</unitid>
+								<unittitle>André Jurres, pianist; Geboren: 1912 (overleden 2001)<unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649805" type="ABS">182</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f61ba9f3-2a8b-4089-9c63-6574b10fbb5d</unitid>
+								<unittitle>Johannes Antonius [Johan] Kaart, toneelspeler (ETD); Geboren: 1897-02-17 (overleden 1976-02-02), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649806" type="ABS">183</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a849a917-bd57-47d1-88e9-56721383fec1</unitid>
+								<unittitle>Douwe Kalma (EL); Geboren: 1896-04-03 (overleden 1953-10-18), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649807" type="ABS">184</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b208e6f-8714-4990-aa34-77a576e0a886</unitid>
+								<unittitle>Mathias Kemp (EL); Geboren: 1890-12-31 (overleden 1964-08-07), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649808" type="ABS">185</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ceb74efc-48b3-46af-a154-dac5aa6b0a93</unitid>
+								<unittitle>H.M. Klomp (ps. Mien Proost) (EL); Geboren: 1902-02-21 (overleden 1987-11-07), <unitdate normal="1942" era="ce" calendar="gregorian">1942</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649809" type="ABS">186</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e49c9648-68a6-43ae-be96-24f61b312757</unitid>
+								<unittitle>Jan Koetsier, tweede dirigent van het Concertgebouworkest (EM); Geboren: 1911-08-14 (overleden 2006-04-28), <unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649810" type="ABS">187</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c271a5d-2e90-4aed-8993-85bf965baa14</unitid>
+								<unittitle>Antonie Hendrik [Han] König, toneelspeler (ETD): Geboren 1911-12-14 (overleden 1969-06-29), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649811" type="ABS">188</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/47bc2ff3-c428-420a-935d-cefd2e027fbd</unitid>
+								<unittitle>Frederik Koning (EL) (ps. K. Frits en J. van Arkel Zegwaard); Geboren 1900-09-05 (overleden, jaar onbekend), <unitdate normal="1946/1950" era="ce" calendar="gregorian">1946-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							<odd>
+								<p>Volgens een aantal bronnen was J. van Arkel Zegwaard het pseudoniem van de schrijver H.P. van den Aardweg. </p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649812" type="ABS">189</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/797530fd-9597-4d9c-8ee4-1b9a29cd1fb2</unitid>
+								<unittitle>Louis Marie Albertus Kuitenbrouwer (ps. Albert Kuyle), letterkundige (EL); Geboren 1904-02-27 (overleden 1958-03-04), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649813" type="ABS">190</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a6dd582-9f97-4b77-a249-282b21b0b941</unitid>
+								<unittitle>Cornelis Jan Laseur, toneelspeler en directeur (ETD); Geboren 1899-04-03 (overleden 1960-01-02), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649814" type="ABS">191</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/54526bb8-2a2a-42a6-afed-d4c8a50e244b</unitid>
+								<unittitle>Catharina van der Linden; Geboren: 1909-11-02 (overleden 2002-12-26), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649815" type="ABS">192</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/70f04041-dd2c-479a-9181-210a5d94b42c</unitid>
+								<unittitle>A. [onleesbaare handtekening: Mattens, Mallens?]; Geboren:  vóór 1914 (overleden, jaar onbekend), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649816" type="ABS">193</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/297a48b5-f5dd-4a9a-b956-4d47ed881a80</unitid>
+								<unittitle>Cornelis Dirk van der Lugt Melsert, toneelspeler en directeur (ETD); Geboren: 1882-07-04 (overleden 1969-08-16)<unitdate normal="1941/1947" era="ce" calendar="gregorian">1941-1947</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649817" type="ABS">194</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2cb7be10-a86f-4e21-ad12-9ef69b8986ef</unitid>
+								<unittitle>Henricus Antonius [Han] van Meegeren, kunstschilder; Geboren: 1889-10-10 (overleden 1947-12-30), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649818" type="ABS">195</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/141b04fb-cb82-40ca-a8ff-15bcd833b0e1</unitid>
+								<unittitle>Johan de Meester jr., toneelspeler en regisseur (ETD); Geboren: 1897 (overleden 1986), <unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649819" type="ABS">196</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c973faf4-e094-4079-852f-21f37c24aac0</unitid>
+								<unittitle>Curt Rudolf Mengelberg, directeur van het Concertgebouworkest (EM); Geboren 1892-02-01 (overleden 1959-10-13), <unitdate normal="1939/1947" era="ce" calendar="gregorian">1939-1947</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649820" type="ABS">197</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a0fc78fc-9d6b-4bc8-b316-a61882ced219</unitid>
+								<unittitle>Willem Mengelberg, eerste dirigent van het Concertgebouworkest (EM);  Geboren: 1871-03-28 (Overleden 1951-03-22), <unitdate normal="1940/1948" era="ce" calendar="gregorian">1940-1948</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649821" type="ABS">198</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/45eeccf3-2710-442a-aa8d-07968b16a49c</unitid>
+								<unittitle>Rucky van Mill, concertpianiste (EM); Geboren: 1917 (overleden 2004), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649822" type="ABS">199</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/642d1953-fa25-4c7b-8b3d-76972a0ec1b9</unitid>
+								<unittitle>Willem Minderman, kunstschilder (EBK); Geboren 1910-08-13 (overleden 1985-07-24), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649823" type="ABS">200</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/46a628f0-026e-4fc2-ae7f-b7ad8c8eb1cf</unitid>
+								<unittitle>Anthonius Franciscus Mirande, letterkundige (EL): Geboren: 1886 (overleden 1950), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649824" type="ABS">201</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2dd291b9-43ea-4fad-9786-d18d8f3d53b5</unitid>
+								<unittitle>Gerrit Jurjen Moed, organist (EM); Geboren: 1912 (overleden na 1973), <unitdate normal="1940/1946" era="ce" calendar="gregorian">1940-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649825" type="ABS">202</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/798dcbbc-07bd-4307-a30a-53e0457d6400</unitid>
+								<unittitle>Albert Mol, balletdanser (ETD); Geboren: 1917-01-03 (overleden 2004-03-09), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649826" type="ABS">203</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8d3e489-ba72-4511-aa7d-c760d674db66</unitid>
+								<unittitle>Sytse Jan van der Molen, letterkundig (EL); Geboren: 1912 (overleden 1995), <unitdate normal="1941/1946" era="ce" calendar="gregorian">1941-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649827" type="ABS">204</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cee3d30-9c71-4efd-8897-29b9dc6deaa4</unitid>
+								<unittitle>Christaan Moret, kunstschilder (EBK); Geboren: 1906 (overleden 1979), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649828" type="ABS">205</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e06f691-ce52-4b18-83cd-5afeb71f8250</unitid>
+								<unittitle>Piet J. Mossinkoff (EL); Geboren: 1894 (overleden 1975), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649829" type="ABS">206</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f59e97d0-8452-4eda-950c-7c4da9fad6b7</unitid>
+								<unittitle>H.H.J. Moulijn-Haitsma Mulier (EL); Geboren: 1877 (overleden 1948), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649830" type="ABS">207</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a97fa12f-22fe-4d3b-a270-bd22257d455b</unitid>
+								<unittitle>Gerrit Mulder (EL); Geboren 1895 (overleden 1961), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649831" type="ABS">208</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/292650ff-d68e-4850-b05e-186f7e279cc2</unitid>
+								<unittitle>Hans Nesna (EL); Geboren: 1897 (overleden 1958), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649832" type="ABS">209</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1c22890-3ffa-430b-ac17-35f246d54977</unitid>
+								<unittitle>Paul Niessing, pianist (EM); Geboren: 1917 (overleden 1989), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649833" type="ABS">210</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fad1c5f6-a7c9-4337-8843-8afec08ce1cf</unitid>
+								<unittitle>A.J.D. van Oosten (EL); Geboren: 1898 (overleden 1969), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649834" type="ABS">211</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/698eb136-a9ce-4358-8519-6976c3804e04</unitid>
+								<unittitle>Antonius [Ton, Tony] van Otterloo jr., toneelspeler (ETD); Geboren 1910-03-13 (overleden 1979-09-27)<unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649835" type="ABS">212</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ced731f8-f88a-4171-9c2a-8476dc1faf09</unitid>
+								<unittitle>Josephus Theodorus Popelier, uitgever (EL); Geboren: 1912 (overleden, jaar onbekend), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649836" type="ABS">213</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f73d662a-d51c-47d8-baaa-896448f090f6</unitid>
+								<unittitle>Mary Pos (EL); Geboren: 1904 (overleden 1987), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649837" type="ABS">214</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/78c917d1-1f4f-475a-923d-a3032b3c65a8</unitid>
+								<unittitle>P.D. Rezelman, kunstschilder (EBK); Geboren: 1887 (overleden 1967), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649838" type="ABS">215</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d42e4024-f305-43dd-aca7-1f758237a92c</unitid>
+								<unittitle>Jacobus van Rheenen, letterkundige (EL); Geboren: 1909 (overleden 1971), <unitdate normal="1944/1950" era="ce" calendar="gregorian">1944-1950</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649839" type="ABS">216</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ff1a908-f466-490e-92f6-1a5a7279c5a1</unitid>
+								<unittitle>A. Roothaert (EL); Geboren: 1896 (overleden 1967), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649840" type="ABS">217</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/06fa8b3e-0102-43b2-b7fa-6336798951eb</unitid>
+								<unittitle>Benjamin Lucien Royaards, toneelspeler en -regisseur (ETD); Geboren: 1904 (overleden 1966), <unitdate normal="1943/1947" era="ce" calendar="gregorian">1943-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649841" type="ABS">218</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c891699-3d66-48fb-8406-03509327a727</unitid>
+								<unittitle>Mr J.C.J. van Schagen (EL); Geboren: 1891 (overleden 1985), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649842" type="ABS">219</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c2195cb-b376-42de-bc9d-555d9372bb03</unitid>
+								<unittitle>C.L. Schepp (ps Jan Prins) (EL); Geboren: 1876 (overleden 1948), <unitdate normal="1943/1945" era="ce" calendar="gregorian">1943-1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649843" type="ABS">220</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c664d00-df78-4bfb-b5d5-1893d68f793b</unitid>
+								<unittitle>Mr Hendrik Scholte (EL); Geboren: 1903 (overleden 1988), <unitdate normal="1945/1947" era="ce" calendar="gregorian">1945-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649844" type="ABS">221</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/39b51055-f73b-4af8-a705-4bebaa62903e</unitid>
+								<unittitle>Con Schröders (EL); Geboren: 1921 (overleden 2010), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649845" type="ABS">222</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/de693cf8-970a-4b49-8692-ec29d65d50fa</unitid>
+								<unittitle>Jan Rudolf Willem Sinninghe, letterkundige (EL); Geboren: 1904 (overleden 1988), <unitdate normal="1943/1947" era="ce" calendar="gregorian">1943-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649846" type="ABS">223</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fdd47f0e-8913-49fa-b90f-0424e7377b72</unitid>
+								<unittitle>Klaas Smelik, letterkundige (EL); Geboren: 1897 (overleden 1986), <unitdate normal="1945/1948" era="ce" calendar="gregorian">1945-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649847" type="ABS">224</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/50eeb660-ae44-4a5b-9d7c-26018fa2ce55</unitid>
+								<unittitle>Gabriël Smit (EL); Geboren: 1910 (overleden 1981), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649848" type="ABS">225</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd18a321-bab3-4862-a607-3e171718da99</unitid>
+								<unittitle>Kathinka Smits Verburg-Lannoy (EL); Geboren 1917 (overleden 1996), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649849" type="ABS">226</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/302019ce-41ba-4def-93eb-ad89fef3c22d</unitid>
+								<unittitle>F. Smulders (ps; Vlemminx (EL); Geboren 1907 (overleden 1972)<unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							<physloc type="ABS">Ontbreekt</physloc></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649850" type="ABS">227</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2edf75dc-92e0-4a95-a1c6-1005ca3e010b</unitid>
+								<unittitle>Kees Spierings (EL); Geboren: 1898 (overleden 1972), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649851" type="ABS">228</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6635d7dc-9467-41a0-b0ad-be6d4ac8e822</unitid>
+								<unittitle>Arthur Staal, architect (EA); Geboren: 1907 (overleden 1993), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649852" type="ABS">229</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e7c4ead4-3463-481e-bd62-a7535ef9ae69</unitid>
+								<unittitle>Theodorus Gerardus Wilhelmus Stiphout, kunstschilder (EBK); Geboren: 1913 (overleden 2002), <unitdate normal="1948" era="ce" calendar="gregorian">1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649853" type="ABS">230</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a52ff8a-110a-4c3d-9c99-4e2baeb7ddd2</unitid>
+								<unittitle>W.H. Stroink, vertaalster (EL); Geboren 1901 (overleden 1990), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649854" type="ABS">231</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6b50585-37ae-4034-968e-9a66e130d1af</unitid>
+								<unittitle>L. van Suchtelen-Leembruggen (EL); Geboren: 1878 (overleden 1949), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649855" type="ABS">232</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f77eb77-719f-4c35-b67d-8f3fd21f7e50</unitid>
+								<unittitle>Zoltan Szatmáry, kunstschilder (EBK); Geboren: 1909 (overleden 1975), <unitdate normal="1946/1947" era="ce" calendar="gregorian">1946-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649856" type="ABS">233</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22c77157-a639-422e-9189-8bcfa01a2483</unitid>
+								<unittitle>Johannes Tomas Lambertus Tebben, kunstschilder (EBK); Geboren: 1909 (overleden 1978), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649857" type="ABS">234</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b87da856-d11a-4f32-851d-31f23f7c55ff</unitid>
+								<unittitle>J. Tersteeg (EL); Geboren: 1873 (overleden 1953), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649858" type="ABS">235</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/99ace8b2-34ba-4b8d-96d3-65713ceb82bd</unitid>
+								<unittitle>Dr. Joh. Theunisz (EL); Geboren: 1900 (overleden 1979), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649859" type="ABS">236</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/710290e3-60b1-4434-b1d1-f1dff0ae414b</unitid>
+								<unittitle>Jan Gerhard Toonder, letterkundige (EL); Geboren 1914 (overleden 1992), <unitdate normal="1945/1948" era="ce" calendar="gregorian">1945-1948</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649860" type="ABS">237</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/633de7e6-141e-4d62-b1a2-fa557754bc70</unitid>
+								<unittitle>Jan Ubink (EL); Geboren: 1884 (overleden 1960), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649861" type="ABS">238</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2bc4723a-2f04-48cf-bba0-e569d2dcb72e</unitid>
+								<unittitle>Hendrik Willem Valk, architect (EA); Geboren: 1886 (overleden 1973), <unitdate normal="1947" era="ce" calendar="gregorian">1947 en z.j.</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649862" type="ABS">239</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/45c1eff2-6b2b-4c42-b561-d49415117ba3</unitid>
+								<unittitle>Victor Varangot (EL); Geboren: 1912 (overleden 1992), <unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649863" type="ABS">240</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d01c03c-e8f7-4454-b13d-47fea27659a2</unitid>
+								<unittitle>Dirk Verbeek, toneelspeler en directeur (ETD); Geboren: 1883 (overleden 1954), <unitdate normal="1942/1947" era="ce" calendar="gregorian">1942-1947</unitdate>
+								</unittitle>
+								<physdesc>1 pak</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649864" type="ABS">241</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6261f338-c80b-46a5-8410-db226b68d7d9</unitid>
+								<unittitle>A. Comelis Veth (EL); Geboren: 1880 (overleden, jaar onbekend), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649865" type="ABS">242</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83205973-45de-4039-94b2-73c276e1f7ae</unitid>
+								<unittitle>Henk Viskil, zanger (EM); Geboren: 1894 (overleden, jaar onbekend), <unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649866" type="ABS">243</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/95ddc8f1-9134-4293-ba55-0c00644ba453</unitid>
+								<unittitle>Bert Voeten (EL); Geboren 1918 (overleden 1992), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649867" type="ABS">244</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/315ebc52-d05c-4936-ab1d-482c00ac1427</unitid>
+								<unittitle>Alexander Nicolaas Voormolen, componist (EM); Geboren: 1895 (overleden 1980), <unitdate normal="1944/1946" era="ce" calendar="gregorian">1944-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649868" type="ABS">245</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d130102-1879-4647-b445-628a24d0cebf</unitid>
+								<unittitle>Dr A.C.J. de Vrankrijker (EL); Geboren: 1907 (overleden 1995), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>4 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649869" type="ABS">246</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3298df9e-c76d-4225-bbb1-e10011e86063</unitid>
+								<unittitle>Anne de Vries, letterkundige (EL); Geboren: 1904 (overleden 1964), <unitdate normal="1942/1951" era="ce" calendar="gregorian">1942-1951</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649870" type="ABS">247</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d363bfb1-c6e4-4771-92e0-94b7c4b7a9c9</unitid>
+								<unittitle>Prof. dr. Jan (P.M.L.) de Vries (EL); Geboren: 1890 (overleden 1964), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649871" type="ABS">248</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/be2f81c7-aee1-4104-a170-69cb8b3331b9</unitid>
+								<unittitle>Victor E. Vriesland (EL); Geboren: 1892 (overleden 1974), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>3 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649872" type="ABS">249</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4808dc63-88e2-4d78-a56a-64d7e2b768d8</unitid>
+								<unittitle>Theo J. van der Wal (EL); Geboren: 1910-09-14 (overlden 1984-07-24), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649873" type="ABS">250</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a00a8964-ae4e-4b77-ae83-abe81b581557</unitid>
+								<unittitle>J.H. van de Wall (EL); Geboren: 1869 (overleden 1948), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649874" type="ABS">251</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/21ad08ae-024b-4ae0-a360-bd8f5b879f94</unitid>
+								<unittitle>Aleid Wensink (EL); Geboren 1920 (overleden 2001), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649875" type="ABS">252</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aef76eba-69ac-4dff-b7e3-7cee2d535770</unitid>
+								<unittitle>J.W.F. Werumeus Buning (EL); Geboren: 1891 (overleden 1958), <unitdate normal="1945/1946" era="ce" calendar="gregorian">1945-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649876" type="ABS">253</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd487f66-400e-41c2-a41f-a98230b0c4aa</unitid>
+								<unittitle>Gerhardus Bernardus Josephus Westerman, beeldend kunstenaar (EBK); Geboren: 1880 (overleden 1971), <unitdate normal="1947" era="ce" calendar="gregorian">1947</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649877" type="ABS">254</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6abd178-4652-43d9-b894-363f8f9ab428</unitid>
+								<unittitle>J.C. Winterink (EL); Geboren: 1894 (overleden 1960), <unitdate normal="1946" era="ce" calendar="gregorian">1946</unitdate>
+								</unittitle>
+								<physdesc>2 stukken</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649878" type="ABS">255</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5c8adf1-4948-4b0a-8c3e-0d800fdc6b1b</unitid>
+								<unittitle>Max Wolters, kunstredacteur (EL); Geboren: 1905 (overleden 1991), <unitdate normal="1943/1947" era="ce" calendar="gregorian">1943-1947</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649879" type="ABS">256</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/45f65fe7-0f73-46d4-9a60-0b9d626016eb</unitid>
+								<unittitle>C. W. Wormser (EL); Geboren: 1876 (overleden 1946), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649880" type="ABS">257</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2dcc6a94-39a6-4936-915d-edd1f18a6dda</unitid>
+								<unittitle>E. Zandstra (EL) geboren: 1897 (overleden, jaar onbekend), <unitdate normal="1945" era="ce" calendar="gregorian">1945</unitdate>
+								</unittitle>
+								<physdesc>1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1649881" type="ABS">258</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e2ef0cc-d3f7-4804-a027-02601a084bc1</unitid>
+								<unittitle>Dick Zwier, kunstschilder (EBK); Geboren: 1915 (overleden 1993), <unitdate normal="1942/1946" era="ce" calendar="gregorian">1942-1946</unitdate>
+								</unittitle>
+								<physdesc>1 omslag</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

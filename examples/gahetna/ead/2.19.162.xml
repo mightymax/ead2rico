@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:53:37 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.19.162::Nederlandse COBOL Commissie)//NL" url="http://proxy.handle.net/10648/fe6401ae-87ab-458a-90e8-297a4c8a78a4" urn="2.19.162.ead.xml">2.19.162</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de Nederlandse COBOL Commissie, 1963-1994</titleproper>
+        <author>J.A.A. Bervoets</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="2008">2008</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Anita Bouwman, 
+		  <date calendar="gregorian" era="ce" normal="20100105">05 januari 2010</date>
+      </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+          <title linktype="simple">ISAD(G) : Algemene Internationale Norm voor Archivistisch Beschrijven, vertaling van de tweede uitgave</title>, Antwerpen / Leuven / Amsterdam 2004</bibref>;
+                  <bibref linktype="simple">
+          <title linktype="simple">Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003</bibref>.
+                </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce" normal="20100812">12 augustus 2010</date>
+        <item>
+          <num>1</num>Lijst van afkortingen ingevoegd door <name>Arina Overkleeft</name>.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce" normal="20100907">7 september 2010</date>
+        <item>
+          <num>2</num>Inventarisnummer 77 toegevoegd door <name>Diederick Kortlang</name>.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Nederlandse COBOL Commissie</unittitle>
+      <unittitle type="short">COBOL Cie.</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1963/1994" type="inclusive">1963-1994</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">I39</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">2.30 meter; </extent>
+        
+      <extent unit="files">77 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>. Het archief bevat tevens stukken in het <language langcode="eng" scriptcode="Latn">Engels</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften. Het archief bevat cassettebanden, die worden overgedragen aan het NIBG.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Geruikerscommissie COBOL (1963-1967)</corpname>
+      </origination>
+      <origination>
+        <corpname>Nederlandse COBOL-commissie (1967-2004)</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">De Nederlandse COBOL-commissie was een Nederlandse gebruikers- en adviesgroep inzake de computerprogrammeertaal COBOL. Het archief bevat onder meer stukken betreffende de standaardisering van deze taal, correspondentie, notulen, ledenlijsten, enkele publicaties en foto's.</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <bioghist>
+          <head>Ontstaan van de commissie</head>
+          <p>COBOL is de afkorting voor Common Business Oriented Language, een derde generatie programmeertaal, gericht op het omgaan met (grote) gegevensbestanden in een batch-georiënteerde omgeving, zoals bedrijfsadministratie (bijvoorbeeld het koppelen van boekhouding aan cliëntendossiers van banken). Zij is ontwikkeld door een groep Codasyl (Conference on Data Systems Languages), aanvankelijk onder supervisie van het Amerikaanse ministerie van Defensie in 1959-1960.</p>
+          <p>De daarop volgende versie uit 1961 werd na zijn implementatie naar het buitenland geëxporteerd en voorgelegd aan het Amerikaanse Nationale Standaardiseringsorgaan ANSI en de Internationale Standaardiseringsorganisatie van de Verenigde Naties ISO. Tijdens deze procedure bij de Verenigde Naties werden in de aangesloten landen gebruikersorganisaties opgericht, die het programma verspreidden, maar ook toetsten en de ISO en de ANSI adviseerden over wenselijke aanpassingen. Een daarvan is de Nederlandse COBOL-gebrukerscommissie, in 1963 opgericht door ex-wereldkampioen schaken Max Euwe, die een jaar later tot buitengewoon hoogleraar in de methodologie van de automatische informatieverwerking in Rotterdam zou worden benoemd. Vanaf 1967 heette dit orgaan de Nederlandse COBOL-commissie. Hierin waren zowel het bedrijfsleven als de overheid vertegenwoordigd.</p>
+        </bioghist>
+        <bioghist>
+          <head>Taken</head>
+          <p>De COBOL-commissie schreef zich twee taken toe:
+				<list numeration="arabic" type="ordered">
+              <item>het verspreiden van kennis van COBOL en het uitwisselen van ervaring met het program.</item>
+              <item>het leveren van bijdragen aan de internationale standaardisatie van (herzieningen) van COBOL.</item>
+            </list>
+          </p>
+          <bioghist>
+            <head>Kennisoverdracht</head>
+            <p>Hiervoor organiseerde de COBOL-commissie enquêtes in het bedrijfsleven. Zij hield seminars en voorlichtingsbijeenkomsten, en zag toe op trainingen en de halfjaarlijks gehouden examens. De voorzitter van de commissie, W.B.C. Ebbinkhuijsen, schreef hiervoor instructieboeken.</p>
+          </bioghist>
+          <bioghist>
+            <head>Standaardisatie</head>
+            <p>Op basis van ervaringen van gebruikers in Nederland deed zij voorstellen over de normen en bracht zij haar stem uit bij de vaststelling van de nieuwe internationale standaarden. Daarom correspondeerde zij met het contactbureau van Codasyl (Conference on Data Systems Languages), die vanaf 1965 onder verschillende benamingen actief was en vanaf 1969 COBOL toepaste in het netwerk database model van Charles William Bachman. De commissie was betrokken bij de herziening van vier standaarden, waarvan het jaarcijfer verwijst naar het jaar van de ANSI-goedkeuring: COBOL 68, COBOL 74, COBOL 86 en COBOL 2002. Deze herziene standaarden, veelal aangepast aan nieuwe programmatuurontwikkelingen zoals de aanpassing aan IBM-eisen en de invoering van Windows, worden eerst jaren later door de ISO overgenomen, veelal met amenderingen op basis van de bovengenoemde gebruikersadviezen. Daarom was de commissie werkgroep van het Nederlands Normalisatie-instituut NEN en adviseerde het het Comité Européenne de Normalisation CEN, dat op alle technische terreinen bindende normrichtlijnen uitvaardigt.</p>
+          </bioghist>
+        </bioghist>
+        <bioghist>
+          <head>Opheffing van de commissie</head>
+          <p>Na de vaststelling van de standaard COBOL 2002 werd de COBOL-commissie Nederland in 2004 opgeheven.</p>
+        </bioghist>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <p>Het archief van de commissie werd oorspronkelijk opgeslagen op papier in een seriestelsel. Later werd een deel van de correspondentie digitaal gevoerd zonder dat daarvan kopieën of papieren uitdraaien werden bewaard. Deze bestanden zijn in 2005 door een computercrash verloren geraakt; een poging om een 300-tal brieven van de schijf op te roepen en op CD-rom vast te zetten heeft niet tot resultaat geleid.</p>
+        <acqinfo>
+          <p>Het 'papieren' archief werd in mei 2005 overgebracht naar het Nationaal Archief.</p>
+          <p>De rechtstitel is (nog) onbekend</p>
+        </acqinfo>
+      <acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is door schenking verworven.</p></acqinfo></custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">2.19</subject>
+      </controlaccess>
+      <processinfo>
+        <head>Verantwoording van de bewerking</head>
+        <p>Bij de beschrijving van het archief zijn de aangetroffen series in stand gehouden. Bijlagen die wegens hun formaat of hun veelvuldig gebruik niet in de series zijn geborgen, zijn apart beschreven.</p>
+        <p>De toegang werd in 2008 voltooid door J.A.A. Bervoets.</p>
+      </processinfo>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Nederlandse COBOL Commissie, 1963-1994, nummer toegang 2.19.162, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, COBOL Cie., 2.19.162, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <separatedmaterial>
+        <head>Afgescheiden archiefmateriaal</head>
+        <p>Stukken betreffende internationale vergaderingen zijn in het bezit van W.B.C. Ebbinkhuijsen te Camperduin.</p>
+      </separatedmaterial>
+    </descgrp>
+    <descgrp type="appendices">
+      <odd type="appendix_glossary">
+        <head>Lijst van afkortingen</head>
+        <list type="deflist">
+          <defitem>
+            <label>ANSI</label>
+            <item>American National Standard Institute</item>
+          </defitem>
+          <defitem>
+            <label>CEN</label>
+            <item>Comité Européen de Normalisation</item>
+          </defitem>
+          <defitem>
+            <label>Codasyl</label>
+            <item>Conference on Data Systems Languages</item>
+          </defitem>
+          <defitem>
+            <label>COBOL</label>
+            <item>Common Business Oriented Langauge</item>
+          </defitem>
+          <defitem>
+            <label>DDL</label>
+            <item>Data Description Language committee</item>
+          </defitem>
+          <defitem>
+            <label>ISO</label>
+            <item>International Organization for Standardization van de Verenigde Naties.</item>
+          </defitem>
+          <defitem>
+            <label>JOD</label>
+            <item>Journal of Development</item>
+          </defitem>
+          <defitem>
+            <label>NCC</label>
+            <item>Nederlandse COBOL-commissie</item>
+          </defitem>
+          <defitem>
+            <label>NEN</label>
+            <item>Nederlands Normalisatie Instituut</item>
+          </defitem>
+        </list>
+      </odd>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Vergaderingen</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419862" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a174623c-0875-4701-81e4-38268180bf7e</unitid>
+            <unittitle>Notulen van vergaderingen van de COBOL-gebruikerscommissie, met bijlagen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1963/1966">1963-1966</unitdate>
+          </did>
+          <odd>
+            <p> De bijlagen bestaan uit in 1963 ontvangen standaarden en instructies van de Amerikaanse COBOL-organisatie.</p>
+          </odd>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>2-5</unitid>
+            <unittitle>Notulen van vergaderingen van de Nederlandse COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1967/1985">1967-1985</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419863" type="ABS">2</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3cdd8f7-8365-41b2-8a33-695af888b336</unitid>
+              <unittitle>1967-1973 september, genummerd 1-72.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419864" type="ABS">3</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7a98354-54b0-4855-b701-f66c71b0addd</unitid>
+              <unittitle>1973 november - 1980.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419865" type="ABS">4</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d8785069-729a-4ac1-a33c-e12f76e0d19e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981/1985">1981-1985</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419866" type="ABS">5</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5ca52b10-25cb-4245-902d-34cd3851135d</unitid>
+              <unittitle>Foto's genomen tijdens de vergadering van 10 maart 1976.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>6-10</unitid>
+            <unittitle>Notulen van vergaderingen met ingekomen stukken van de Nederlandse COBOL-commissie. </unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1986/1992">1986-1992</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419867" type="ABS">6</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6089e535-ac40-4886-9ea4-5d45a631b6e7</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1986/1987">1986-1987</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419868" type="ABS">7</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7ab219d-e5b0-404c-b6a6-d5680d69624d</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1988">1988</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419869" type="ABS">8</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/172e3b26-c741-47ad-8fc5-808db85d8bbb</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1989/1990">1989-1990</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419870" type="ABS">9</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13ad2e17-b67c-46b4-bbaa-d4d53db1bc03</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1991">1991</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419871" type="ABS">10</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/24799ae9-7ce9-4c2e-915f-d56d072220bf</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1992">1992</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419872" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3d76bcc-a610-4151-ba50-9aa863462364</unitid>
+            <unittitle>Vergaderstukken van de Nederlandse COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1992/1997">1992, 1997</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419873" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b58e069-6f78-476d-be7a-1210fe534886</unitid>
+            <unittitle>Presentielijsten van vergaderingen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1987/1997">1987-1997</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondentie</unittitle>
+        </did>
+        <odd>
+          <p> De hier beschreven stukken zijn als afzonderlijke correspondentieseries bewaard naast de notulen van de vergaderingen. De secretaris nummerde de ingekomen en uitgaande stukken, die hij vanaf 1974 jaarlijks van een lijst voorzag. Deze lijst is niet altijd bewaard gebleven. Van 1985 tot 1992 is een groot gedeelte van de correspondentie digitaal opgeslagen; voor de overdracht van deze correspondentie, voor zover bewaard gebleven, worden technische voorbereidingen getroffen. De belangrijkste ingekomen stukken zijn in die periode als bijlage bij de notulen gevoegd. Na 1992 is de niet-digitale correspondentie weer op de gebruikelijke wijze geregistreerd en bewaard door het secretariaat.</p>
+        </odd>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>13-42</unitid>
+            <unittitle>Correspondentie van het secretariaat van de Nederlandse COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1966/1985">1966-1985</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419874" type="ABS">13</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f560575-855a-4e6e-8d81-ce7cbe50643c</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1966/1970">1966-1970</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419875" type="ABS">14</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6308c436-1ae9-49f4-a6c9-010969d2b5cd</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1971">1971</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419876" type="ABS">15</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/772cb3cf-3e98-49e0-b073-23449c4bf8db</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419877" type="ABS">16</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a73c4f23-2b21-4482-a163-4c4bf8a001c6</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1973">1973</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419878" type="ABS">17</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bed26129-1fc7-45f3-abd4-f5cd4a244a50</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1974">1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419879" type="ABS">18</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c64fe354-e639-4ff9-8f57-f502abfbcfbc</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1975">1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419880" type="ABS">19</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a57f70e-4256-473c-b6ca-2a21f4174832</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1976">1976</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419881" type="ABS">20</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e557561-8c9e-4272-8aa4-7b1586b38144</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1977">1977</unitdate>, nr. 1-48, januari 10 - november 4.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419882" type="ABS">21</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a392c17-8d4f-40b4-a82f-898bf68dbf03</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1977">1977</unitdate>, nr. 49-53 oktober - december, met nummerlijst over 1977.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419883" type="ABS">22</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/975c76eb-57f1-4f9d-9b18-ac60ca04a4dd</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1978">1978</unitdate>, nr. 1-30, januari - april 10.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419884" type="ABS">23</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b8a989eb-395e-4750-b7ff-48c7bee5a05e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1978">1978</unitdate>, nr. 31-60, april 14 - juli 6.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419885" type="ABS">24</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/41f2264d-4f78-4ab2-ac3e-49fda7af22ce</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1978">1978</unitdate>, nr. 61-81, juli 31 - december 19.</unittitle>
+            </did>
+            <odd>
+              <p> een nummerlijst over 1978 ontbreekt.</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419886" type="ABS">25</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb35d786-d17d-4c97-bdb5-f029eb840b30</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1979">1979</unitdate>, nr. 1-69, januari 11 - april 1, met nummerlijst.</unittitle>
+            </did>
+            <odd>
+              <p> Het vervolg op deze lijst ontbreekt in dit jaar..</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419887" type="ABS">26</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c27c62af-a1b8-46ae-b916-d003a52387da</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1979">1979</unitdate>, nr. 70-100, april 23 - juli 2.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419888" type="ABS">27</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/113faafb-8d15-4d92-8eb6-f82fffbef32c</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1979">1979</unitdate>, nr. 101-116a, augustus - oktober.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419889" type="ABS">28</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2f16693-e53f-4c64-8201-e26f356674c9</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1980">1980</unitdate>, nr. 1-45, januari - 18 maart, met nummerlijst.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419890" type="ABS">29</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a73c675e-a616-4fe3-9d38-44398bd1f1af</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1980">1980</unitdate>, nr. 46-82, maart 12 - augustus 21, met nummerlijst.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419891" type="ABS">30</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ecac259-e70f-402b-9936-a9e8238f9a05</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1980">1980</unitdate>. nr. 83-117, augustus 20 - december 31, met nummerlijst en extra nummerlijst over het gehele jaar.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419892" type="ABS">31</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1116837c-3ec6-4b24-b27d-041edb696a10</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981">1981</unitdate>, nr. 1-20, januari 1 - februari 24.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419893" type="ABS">32</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/30f8df8a-10f1-42c5-8490-c28bbfb3a13a</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981">1981</unitdate>, nr. 21-65, maart - april 28.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419894" type="ABS">33</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba0fea8e-dcbc-4b2f-a583-71684f85618e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981">1981</unitdate>, nr. 66-96, juli - oktober 7.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419895" type="ABS">34</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2066b23-1381-4e9a-bc4d-46a8ac5a48e2</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981">1981</unitdate>, nr.97-122, oktober 5 - december 31, met nummerlijst over het jaar 1981.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419896" type="ABS">35</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/19afc2a2-0883-4d39-8298-b5dc1081ae3d</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1982">1982</unitdate>, nr. 1-31, januari - mei 13.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419897" type="ABS">36</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ee5304f-7030-420e-bad9-8ff5c105e068</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1982">1982</unitdate>, nr. 32-76, mei 24 - december 15, met nummerlijst over het jaar 1982.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419898" type="ABS">37</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbf5617d-1531-4c6c-a066-6c78dce0949a</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1983">1983</unitdate>, nr. 1-42, januari 1- juli 17, met nummerlijst.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419899" type="ABS">38</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5a9a999-8948-482f-9d32-c0423884b825</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1983">1983</unitdate>, nr. 43-90, juli 25 - december 22, met nummerlijst.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419900" type="ABS">39</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ab67ad0-8b8e-4c40-bc28-3ed05c7d425a</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1984">1984</unitdate>, nr. 1-60, januari 1 - september.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419901" type="ABS">40</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b5c1417b-840d-45bc-aada-1878d3e6c7c6</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1984">1984</unitdate>, nr. 61-89, september - november, met nummerlijst over het jaar 1984.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419902" type="ABS">41</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/72352063-8351-4423-8160-2e67754bb5bd</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1985">1985</unitdate>, nr. 1-30, januari - april 4.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419903" type="ABS">42</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/63127ead-6710-4bd9-a143-09451ebe201a</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1985">1985</unitdate>, nr. 31-80, april 12 - november, met nummerlijst over het haar 1985.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>43-45, 77</unitid>
+            <unittitle>Correspondentie van het secretariaat de Nederlandse COBOL-commissie, met nummerlijsten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1993/2004">1993-2004</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419904" type="ABS">43</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9fec9f63-dd2c-43c2-b9f2-1079933a5d60</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993">1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419905" type="ABS">44</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a70cd622-5d04-4e4d-8af4-b43669f40377</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1994">1994</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419906" type="ABS">45</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/598253f9-af77-46d9-93b5-3d7f38004c1e</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1995/1997">1995-1997</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3594912" type="ABS">77</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12e3526c-b054-4477-be49-81df9c445821</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1998/2004">1998-2004</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>46-58</unitid>
+            <unittitle>Ingekomen standaarden, met ontwerpen, amendementen en rapporten van standaardiseringsorganisaties.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1960/1996">1960-1996</unitdate>
+          </did>
+          <odd>
+            <p> Standaarden voor computerprogramma's worden ontworpen en/of vastgesteld door het Amerikaanse Ministerie van Defensie, het American National Standard Institute (ANSI) en de International Organization for Standardization van de Verenigde Naties (ISO). Het uiteindelijke internationale product is de ISO-norm, die bindend is voor de normatieve afspraken van de bij de VN aangesloten landen.</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419907" type="ABS">46</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/44cad41a-1620-4256-b0c9-3dbca5bc2e95</unitid>
+              <unittitle>Rapport van het Amerikaanse ministerie van Defensie aan Codasyl, "including initial specifications for a Common Business Oriented Language for programming electronic digital computers". <unitdate calendar="gregorian" era="ce" normal="1960">1960 april</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419908" type="ABS">47</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0107d218-012d-403f-9545-0e9de2ea54d1</unitid>
+              <unittitle>Tekst van de vastgestelde Amerikaanse nationale standaard voor de programmeertaal COBOL. <unitdate calendar="gregorian" era="ce" normal="1974">1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419909" type="ABS">48</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8019d9d3-c8fd-4591-973e-fd3ce87af2d1</unitid>
+              <unittitle>Verslag van de committee current procedure van het ANSI. <unitdate calendar="gregorian" era="ce" normal="1979">1979 maart 30</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419910" type="ABS">49</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e6ce29f-a331-4dd9-9138-094a85b2238d</unitid>
+              <unittitle>Refernce manual voor de programmeertaal Ada, ontworpen door het Amerikaanse ministerie van Defensie en goedgekeurd door het ANSI. <unitdate calendar="gregorian" era="ce" normal="1983">1983 februari 17</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419911" type="ABS">50</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/691c12d7-1b69-4897-b940-107477ff87bb</unitid>
+              <unittitle>Rapporten van het Federal Software Testing Center met certificaten voor COBOL en andere software. Als ingekomen geagendeerd 1985/46. <unitdate calendar="gregorian" era="ce" normal="1984">1984 september 1</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419912" type="ABS">51</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90b9046d-47cc-4984-8fe4-3331b21798ee</unitid>
+              <unittitle>Werkontwerp voor de Databese language SQL2, verspreid door ANSI en ISO. Als ingekomen geagendeerd 1987/37. <unitdate calendar="gregorian" era="ce" normal="1987">1987 juli</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419913" type="ABS">52</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d0cedf4-9edd-4dba-911e-73ca1a194a4e</unitid>
+              <unittitle>Ontwerpvoorstel voor het zoek- en management programma SQL2 door ANSI en ISO. Als ingekomen geagendeerd 1989/21. <unitdate calendar="gregorian" era="ce" normal="1989">1989 januari</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>53-55</unitid>
+              <unittitle>American National Standard voor COBOL 1989, met ontwerpen. <unitdate calendar="gregorian" era="ce" normal="1981/1989">1981-1989</unitdate>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unitid identifier="3419914" type="ABS">53</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9090bf78-b860-40e1-86b5-425e96df3f40</unitid>
+                <unittitle>Draft 1981, met overlegrapport van het ANSI. <unitdate calendar="gregorian" era="ce" normal="1981">1981 september</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="3419915" type="ABS">54</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f187a96b-e1b9-4d28-82a1-e99d0b42c389</unitid>
+                <unittitle>Draft 1983, met overlegrapport van het ANSI. <unitdate calendar="gregorian" era="ce" normal="1983">1983 juni</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="3419916" type="ABS">55</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dedb883e-6a66-4cbe-80dd-58b90613c1af</unitid>
+                <unittitle>Door ISO vastgestelde standaard van het ANSI. <unitdate calendar="gregorian" era="ce" normal="1989">1989</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419917" type="ABS">56</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7af9708-da27-4556-b412-5068c38cc38e</unitid>
+              <unittitle>Ontwerpen van door de COBOL technical committee ingediende amendementen op de COBOL-standaard van 1989, verspreid door de ISO. Als ingekomen geagendeerd 1992/33. <unitdate calendar="gregorian" era="ce" normal="1991">1991 oktober</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419918" type="ABS">57</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d328dd5-ad7b-4f32-a5d0-b6cb38bb6358</unitid>
+              <unittitle>Ontwerp van een internationale standaard van het From Interface Management System (FIMS), verspreid door de ISO. <unitdate calendar="gregorian" era="ce" normal="1993">1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419919" type="ABS">58</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a705ef61-b839-4a94-ac9d-d0f6243f4b6b</unitid>
+              <unittitle>Losbladig ontwerp van een nieuw COBOL-programma, verspreid door ISO. <unitdate calendar="gregorian" era="ce" normal="1996">1996</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>59-65</unitid>
+            <unittitle>Afzonderlijk bewaarde ingekomen stukken van het bureau van Codasyl (= Conference on Data Systems Languages).</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1969/1981">1969-1981</unitdate>
+          </did>
+          <odd>
+            <p> Het bureau gaf aan verschillende elkaar opvolgende afdelingen of werkgroepen de taak om met de Nederlandse COBOL-commissie te corresponderen of aan deze commissie verslagen en rapporten te sturen. De meeste ingekomen verslagen en rapporten van Codasyl bevinden zich in de chronologische correspondentie. De hieronder beschreven stukken waren te omvangrijk om in de ordners geborgen te worden.</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419920" type="ABS">59</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71030cc0-667c-429e-8dd5-6ba75b75ee7e</unitid>
+              <unittitle>Rapport van de Database Taskgroup. <unitdate calendar="gregorian" era="ce" normal="1969">1969 oktober</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419921" type="ABS">60</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/758c728f-a096-489d-94d9-e73659cb7d7e</unitid>
+              <unittitle>Rapport van de Database Taskgroup. <unitdate calendar="gregorian" era="ce" normal="1971">1971 april</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419922" type="ABS">61</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d6a0583-d1f3-4637-86de-ba01ed953de4</unitid>
+              <unittitle>Database facility program. <unitdate calendar="gregorian" era="ce" normal="1973">1973 maart</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419923" type="ABS">62</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6546761-e26d-47fb-9321-8a3a713934b5</unitid>
+              <unittitle>Journal of Development van het Programming Language Committee. 1973, geagendeerd als ingekomen 1973/31. <unitdate calendar="gregorian" era="ce" normal="1973">1973</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419924" type="ABS">63</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5dd85fe-7609-494c-9ff4-242e24b5c78f</unitid>
+              <unittitle>Journal of Development van het DDL (Data Description Language committee). Geagendeerd als ingekomen 1974/7. <unitdate calendar="gregorian" era="ce" normal="1973">1973 juni</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419925" type="ABS">64</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1e2f2d8-e76b-47b1-a382-98d8386dec36</unitid>
+              <unittitle>Journal of Development van het COBOL Committee. <unitdate calendar="gregorian" era="ce" normal="1978">1978</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419926" type="ABS">65</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd78f5a8-163d-42fb-abc5-ddc0af18319e</unitid>
+              <unittitle>Journal of Development van het COBOL Committee. <unitdate calendar="gregorian" era="ce" normal="1981">1981</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419927" type="ABS">66</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/77146344-5db7-4acf-b810-9176ac52b34f</unitid>
+            <unittitle>Ingekomen kosten-batenanalyse inzake de overbrenging van technologische problemen van COBOL, Cobol user requirement studies, door Siegfried Mahkorn van de EG-werkgroep voor standaarden (later CEN voor de Europese Commissie, uitgegeven door hjet Gesellschaft für Mathematik und Datenbearbeitung (GMD) te Bonn.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1976">1976 november</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>67-69</unitid>
+            <unittitle>Ingekomen leerboeken COBOL, door W.B.C. Ebbinkhuijsen, met opdrachten aan de COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1975/1992">1975-1992</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419928" type="ABS">67</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/454a66af-307f-4d25-b71a-bc89c57fc362</unitid>
+              <unittitle>Tweede druk van het leerboek, gebaseerd op de ANSI-standaard 1974. <unitdate calendar="gregorian" era="ce" normal="1976">1976</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419929" type="ABS">68</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d724163d-24b2-4566-aff4-77d393b83e23</unitid>
+              <unittitle>Derde druk van het leerboek, gebaseerd op de ANSI-standaard 1974/ISO-standaard 1979. <unitdate calendar="gregorian" era="ce" normal="1979">1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419930" type="ABS">69</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e91d340-c942-48a4-8411-c99c5d2ee923</unitid>
+              <unittitle>Instructie- en oefenboek Werken met COBOL 1985. <unitdate calendar="gregorian" era="ce" normal="1992">1992</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publicaties en presentaties</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419931" type="ABS">70</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/02c5fb33-83b1-47f4-99a5-dd4651e6908f</unitid>
+            <unittitle>Ledenlijsten en adreslijsten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1992/1997">1992-1997</unitdate>
+          </did>
+          <odd>
+            <p> De lijsten bevatten gegevens over de commissieleden vanaf 1963.</p>
+          </odd>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>71-72</unitid>
+            <unittitle>Stukken betreffende een studiedag bij gelegenheid van de viering van 25 jaar COBOL.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1984/1985">1984-1985</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419932" type="ABS">71</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4751f03e-6cd5-4311-9501-6b070c1f7e80</unitid>
+              <unittitle>Studiegids, met correspondentie.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="3419933" type="ABS">72</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f06331bd-39da-4c07-bfef-a53596d1c8f7</unitid>
+              <unittitle>Tasje met badge, uitgereikt aan studiedeelnemers.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419934" type="ABS">73</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13efa54c-d69f-4416-81e0-60aebfe24877</unitid>
+            <unittitle>Convocaat en congresstukken voor COBOL-vision '93, een eendaags seminar te Rotterdam.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1992">1992 december</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419935" type="ABS">74</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c94e2d8-baf8-46b4-b0b4-a9edfe073f3b</unitid>
+            <unittitle>Zakboek COBOL, met verkorte weergave van de ISO-norm COBOL 1989-1985, samengesteld door de COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419936" type="ABS">75</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/110568a0-87cd-4e28-b661-e5eac4ced685</unitid>
+            <unittitle>Doos met voorwerpen, bedoeld als relatiegeschenk ter aanbeveling van de producten van de COBOL-commissie.</unittitle>
+            <unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Bandopnamen</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="3419937" type="ABS">76</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cdf543d-2dcc-461a-b5cd-34b0c745b39f</unitid>
+            <unittitle>Bandopnamen van de bijeenkomst van 8 januari 1985.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1985">1985</unitdate>
+          </did>
+          <odd>
+            <p> 4 cassettebanden BASF LH extra I, 90 minuten per band dubbelzijdig opgenomen.</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

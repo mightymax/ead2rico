@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/2bf0c418-250d-497a-8341-e65c4be815a0"
+  rdf:about="record/1.10.57">
+    <rico:identifier>1.10.57</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1968</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1188" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.57/i1" />
+      <rico:instantiates rdf:resource="record/1.10.57" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        21121121</rico:hasModificationDate>
+        <html:p>21 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120622</rico:hasModificationDate>
+        <html:p>22 juni 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080526</rico:hasModificationDate>
+        <html:p>26 mei 2008</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van D.A. Meerman van der Goes
+        [levensjaren 1748-1805], (1755) 1769-1795</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/2bf0c418-250d-497a-8341-e65c4be815a0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1188">
+    <rico:describedBy rdf:resource="record/1.10.57" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1188</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Meerman van der Goes</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Meerman van der Goes</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1755</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1795</rico:endDate>
+    <rico:date>1755-1795</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Verenigde Oostindische Compagnie, Tweede Advocaat</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Daniel Adriaan Meerman van der Goes werd de 5de februari 1748 te Leiden
+          geboren uit een Delfts regentengeslacht, waarvan leden reeds sinds het midden
+          van de 15de eeuw functies uitoefenden. Hij was een zoon van mr. Adriaan van der
+          Goes (1719-1759) en van Magdalena Hester van Eys (1717-1759), dochter van
+          Daniel van Eys en Sara Dozy. Zie de bibliografie Zijn vader was aanvankelijk
+          lid van de Veertigraad (1747) en Schepen (1754) te Leiden en na het overlijden
+          van diens vader, mr. Willem Adriaan van der Goes (1696-1751), ontvanger van
+          Gemene Landsmiddelen over Leiden en Rijnland. Vermoedelijk werd Daniel genoemd
+          naar zijn grootvader van moederszijde: Daniel van Eys, Adriaan naar zijn vader
+          en Meerman naar de familienaam van zijn grootmoeder van vaderskant, Maria
+          Allegonda Meerman (1689-1744), echtgenote van mr. Willem Adriaan van der
+          Goes.</html:p>
+          <html:p>Behalve de familienaam Van der Goes werd de naam Meerman door hem en
+          zijn nakomelingen als familienaam gebruikt. Dit blijkt ook uit het wapen dat de
+          tak Meerman van der Goes voerde: Gevierendeeld: I en IV: in zwart 3 zilveren
+          bokkenkoppen met gouden hoorns, zijnde van der Goes; II en III: in zwart een
+          zilveren meerman met de staart, waarin een slag, horizontaal naar links
+          gericht, met zilveren stormhoed op het hoofd en in de opgerichte rechterhand
+          een naar links gerichte zilveren gebogen Turkse sabel met gouden gevest en aan
+          de linkerarm een ovaal zilveren schild met smalle gouden rand waarop een gouden
+          kruis stond, zijnde Meerman. Helmteken en schildhouders waren als bij het wapen
+          Van der Goes, d.i. helmteken: 3 zilveren bokkenkoppen tussen 2 zilveren
+          fazantenveren, en schildhouders: 2 omkijkende bokken met gouden
+          hoorns.</html:p>
+          <html:p>Blijkens het "Album Studiosorum Academiae Lugduno Bataviae" (blz. 1066)
+          werd Daniel Adrianus Meerman van der Goes, "Leidensis" en 12 jaar oud., de 17e
+          maart 1760 als "honoris ergo" en de 3e juli 1765 (blz. 1085) als "juris
+          studiosus" ingeschreven. Hij promoveerde te Leiden 18 september 1769 op het
+          proefschrift "De Pactis Successoriis".</html:p>
+          <html:p>Zijn dienst in de Oost-Indische Compagnie begon in 1776. Bij resolutie
+          van de Heren Zeventien genomen binnen Middelburg in Zeeland op vrijdag 29 maart
+          1776, werd mr. Daniel Adriaan Meerman van der Goes benoemd tot adjunct-advocaat
+          van de Compagnie op een jaarlijks tractement van fl. 1000,- ingaande de 1e
+          april 1776, mits hij participeerde met fl. 3000,- kapitaal. Tegelijk met de
+          benoeming van mr. F. W. Boers, tweede advocaat van de Compagnie tot eerste
+          advocaat, volgde bij de resolutie van Heren XVII d.d. 7 april 1777 de benoeming
+          van mr. D.A. Meerman van der Goes tot tweed advocaat op een tractement van fl.
+          2000,-, dat een jaar daarna bij resolutie van Heren XVII d.d. 9 oktober 1778
+          tot fl. 3000,- werd verhoogd.</html:p>
+          <html:p>Na de benoeming tot tweede advocaat werd mr. D.A. Meerman van der Goes
+          bij resolutie van Heren XVII d.d. 1 oktober 1777 tot de secrete zaken
+          gecommitteerd. Tijdens zijn ambtstermijn bij de Compagnie werd hem op verzoek
+          van de kamer Amsterdam en bij resolutie van Heren XVII d.d. 21 oktober 1779
+          opgedragen de post van chartermeester bij genoemde kamer te nemen, tegen een
+          jaarlijkse douceur van fl. 800,-.</html:p>
+          <html:p>Het ambt van advocaat bij de Compagnie (ook wel "Minister" genoemd)
+          werd in 1614 ingesteld. Oorspronkelijk had de Compagnie slechts één advocaat,
+          doch de toenemende omvang van de werkzaamheden dwong spoedig tot de aanstelling
+          van een tweede advocaat en later ook van een adjuct-advocaat. De eerste
+          advocaat genoot een jaarlijks tractement van fl. 3100,-, een huishuur van fl.
+          1000,- en fl. 250,- voor briefporti, de tweede advocaat fl. 2000,- en de
+          adjunct-advocaat fl. 1000,-. Om hun inkomsten te vermeerderen genoten ze verder
+          nog velerlei voordelen, zoals bv. 1000 zilveren dukatons als verering,
+          etc.</html:p>
+          <html:p>De aanstelling van de advocaten van de Compagnie geschiedde op de
+          voorwaarden genoemd bij de "Instructie voor de Advocaten van de Generale
+          Nederlandsche Geoctroyeerde Oost Indische Compagnie". Zie bijlage</html:p>
+          <html:p>Uit de Instructie van 1755 blijkt dat de functie van de advocaat voor
+          het grootste deel bestond uit het secretariaat van de vergaderingen van Heren
+          XVII en die van de kamer Amsterdam en zeker niet de thans gangbare betekenis
+          van het woord advocaat dekt. Tot de werkzaamheden van de advocaat behoorden het
+          bijwonen van de vergaderingen van de Heren XVII, de Haagse Besognes en
+          Commissies, het aan de orde stellen van zaken in de vergadering, het lezen van
+          missiven, requesten, remonstrantiën etc., het optekenen van de resoluties en
+          het registreren in "Secreete boeken of notulen", die evenals andere geheime
+          stukken en papieren door de advocaat werden bewaard. Hij moest de generale
+          missiven van de Gouverneur-Generaal en Raden van Indië extraheren, doorlezen en
+          zich een mening vormen over alle verbalen, dagregisters, resolutieboeken en
+          brieven van de opperhoofden van de verschillende comptoiren. Aan de hand
+          hiervan werden door hem voorts alle minuten voor de antwoorden van Heren XVII
+          opgesteld. Hij nummerde alle ingekomen- en uitgaande stukken en schreef ze in
+          registers en copieboeken.</html:p>
+          <html:p>In de meeste en belangrijkste commissies had de advocaat zitting en een
+          raadgevende stem. Vaak werden hem vertrouwelijke zendingen opgedragen, of
+          vergezelde hij de gecommitteerde(n) naar de Staten Generaal of naar Engeland.
+          Kwam de beurt van het voorzitterschap van Heren XVII aan de kamer Zeeland,dan
+          werd hem door de Generale Compagnie verzocht bij de terugkeer van retourschepen
+          aldaar aanwezig te zijn en de zaken van de Generale oostindische Compagnie waar
+          te nemen.</html:p>
+          <html:p>De plaats van de uitoefening van zijn functie was de kamer Amsterdam en
+          hij was bovendien verplicht zijn diensten te verlenen aan deze kamer en aan de
+          respectieven departementen van de kamer. Het voorbereiden van de particuliere
+          vergaderingen van in-en in de kamer Amsterdam en de daarbij behorende
+          werkzaamheden behoorde tot zijn taak. Want feitelijk was de advocaat van de
+          Compagnie ook tevens de advocaat van de kamer Amsterdam. Volgens één van de
+          voorwaarden voor zijn aanstelling moest hij minstens fl. 3000,- in de V.O.C.
+          participeren, wat meestal neerkwam op deelname voor dit bedrag in de kamer
+          Amsterdam. Bij aanvaarding van hun ambt moesten de advocaten de eed afleggen,
+          dat zij gedurende hun diensttijd geen andere functies dan bij de Compagnie
+          zouden vervullen. Voorts werd hun verboden giften, gaven of geschenken van
+          Compagniesdienaren of van personen die bij de vergadering van Heren XVII of bij
+          de respectieve kamers belang hadden, aan te nemen. Aangezien de werkkring
+          waarin de advocaten zich bewogen zeer belangrijk was, konden zij, en dan vooral
+          de eerste advocaat, veel invloed uitoefenen.</html:p>
+          <html:p>De eerste en tweede advocaat van de Compagnie hadden de beschikking
+          over enige klerken. Zo was Pieter van Duin als klerk aan de tweede advocaat,
+          mr. D.A. Meerman van der Goes, toegevoegd; toen Pieter van Duin in 1780 tezamen
+          met mr. Pieter Jacobus Guepin tot klerk van de eerste advocaat werd aangesteld,
+          volgde Roelof Jacobus Dozy hem op als klerk van de tweede advocaat.</html:p>
+          <html:p>De slechte toestand van de Oostindische Compagnie was in 1780 in een
+          kritiek stadium gekomen. Op het einde van dat jaar verklaarde Engeland de
+          oorlog aan de Republiek. Deze oorlog had voor de Oostindische Compagnie
+          loodnottige gevolgen.</html:p>
+          <html:p>In Azië gingen tal van forten en factorijen met de daar aanwezige
+          voorraden en goederen verloren. Vele schepen, vaak met rijke ladingen, vielen
+          in handen van de Engelsen. Anderen moesten naar neutralere havens uitwijken
+          en/of een anderen route nemen dan gebruikelijk was. Zij bereikten daardoor pas
+          na een jaar de Nederlandse havens. Uit vrees dat de Engelsen de schepen zouden
+          veroveren, had gedurende de jaren 1781, 1782 en 1783 geen vervoer naar
+          Nederland plaats. De goederen lagen daardoor te Batavia opgehoopt en in
+          Amsterdam kwam een tekort aan contanten.</html:p>
+          <html:p>Bij het uitbreken van de oorlog en vooral toen het gerucht in omloop
+          kwam, dat er geen gelden voor aflossing van de anticipatiepenningen in voorraad
+          waren, werd de druk op het opvragen van de anticipatiepenningen met de dag
+          groter, vooral in Amsterdam, waar zich meer dan 2/3 van de anticipatiepenningen
+          bevond. Gedwongen door de steigende nood, wendden de Bewindhebbers zich reeds
+          in het begin van het jaar 1781 tot de Staten van Holland teneinde surseance van
+          betaling te verkrijgen. Bij de Staten-Generaal werd aangedrongen tot
+          versterking van convooi voor de Indië bestemde schepen. Dit liep tenslotte uit
+          op een subsidie van de Generaliteit, ofschoon later bleek, dat alleen Holland
+          zijn quota betaalde.</html:p>
+          <html:p>Dit was het begin van een reeks subsidies en gegarandeerde negociaties
+          door Holland verleend, doch ook het begin van een sterke controle op de
+          Oostindische Compagnie, die langzamerhand tot een directe inmenging uitgroeide.
+          Doordat de bewindhebbers hun toevlucht hadden genomen tot de Staten was het
+          onmogelijk om de invloed van de Staat te weren.</html:p>
+          <html:p>Bij de pogingen tot verbetering en hervorming van de Oostindische
+          Compagnie konden de bewindhebbers zich niet onttrekken aan de politieke strijd
+          die na de oorlog met Engeland steeds heviger werd. Het Vijfde Departement Bij
+          de reeds bestaande vier departementen, d.i. van de ontvangst, de equipagie of
+          scheepsuitrusting, de rekenkamer en de handel, werd in 1786 op voorstel van de
+          Staten van Holland (en niettegenstaande de protesten van de kamer Zeeland een
+          nieuwe commissie toegevoegd, belast met het verzorgen van de correspondentie
+          van -en naar Indië. Deze commissie, het z.g. "Preparatoir Besogne" of het
+          Vijfde Departement werd later het Departement tot de Indische Zaken genoemd.
+          dat door de bemoeiingen van de Staten van Holland werd opgericht, bleef een
+          doorn in het oog van de bewindhebbers.</html:p>
+          <html:p>Mr. D.A. Meerman van der Goes heeft tot 1785 bij de Compagnie gediend.
+          Bij resolutie van de Heren XVII d.d. 7 december 1781 werd hem dispensatie van
+          de eed op het 11e artikel van de Instructie Zie bijlageverleend, zodat hij na
+          oktober 1781 tot en met november 1784, behalve advocaat van de Compagnietevens
+          pensionaris van de stad Amsterdam was, welk ambt hij tot 1795
+          bekleedde.</html:p>
+          <html:p>Hoewel hij na 1784 zijn advocaatschap bij de Compagnie had neergelegd,
+          betekende dit niet dat zijn bemoeiingen zich niet meer tot de zaken van de
+          Compagnie uitstrekten. Uit zijn collectie blijkt, dat hij stukken betreffende
+          de Oostindische compagnie -lopende over de jaren 1785-1791- in zijn bezit had
+          en de gang van zaken bijhield.</html:p>
+          <html:p>Opmerkelijk is het nauwe verband tussen de regering van Amsterdam en
+          het bewind van de Oostindische Compagnie, doordat veelal dezelfde personen
+          zowel functies in de Amsterdamse magistraat bezetten, als zitting hadden in het
+          bestuur van de V.O.C. Het overwicht van Amsterdam ten opzichte van de overige
+          steden van Holland en van de Generaliteit in zijn algemeen was ook duidelijk te
+          merken in de verhouding van de kamer Amsterdam tot de andere kamers (gevolg van
+          overheersende financiële aandeel van de kamer Amsterdam in de
+          Compagnie).</html:p>
+          <html:p>Bij resolutie d.d. 17 november 1784 had de Presidiale Kamer ingestemd
+          met het eervol ontslag verleend aan mr. D.A. Meerman van der Goes en als blijk
+          voor zijn goede en trouwe diensten, werd hij met 1000 zilveren ducatons
+          vereerd, ook ontving hij zijn leven lang een bewindhebbersportie specerijen en
+          had hij het gebruik van de binnen -en buitenjachten van de Compagnie.</html:p>
+          <html:p>Als tweede advocaat van de Compagnie werd mr. D.A. Meerman van der Goes
+          bij resolutie van Herem XVII d.d. 28 april 1785 vervangen door de
+          adjunct-advocaat, mr. Pieter Graafland Jansz.</html:p>
+          <html:p>Na het aftreden van mr. F.W. Boers als eerste advocaat hadden Heren
+          XVII op voorstel van kamer Amsterdam, bij resolutie d.d. 12 juli 1787, mr. D.A.
+          Meerman van der Goes als eerste kandidaat en mr. S.C. Nederburgh (de tweede
+          advocaat) als tweede, voor de opvolging voorgedragen. De Erfstadhouder/
+          Opperbewindhebber benoemde echter, bij zijn brief d.d. 14 juli 1787 mr. S.C.
+          Nederburgh tot eerste advocaat. Na de afzetting van de pensionaris mr. E.F.
+          Berckel, fungeerde mr. D.A. Meerman van der Goes als eerste pensionaris van de
+          stad Amsterdam. Bij resolutie d.d. 27 januari 1792, in aanmerking genomen
+          hebbende "de ijver en de affectie waarmede de pensionaris Van der Goes die post
+          nu seedert den jaare 1781 waargenomen en vele goede diensten aan de stad
+          bewezen heeft", hadden Vroedschap en Burgemeesters van Amsterdam goed gevonden
+          om zijn jaarlijkse tractement met een bedrag van fl. 1000,- te vermeerderen,
+          ingaande primo augustus 1791. Tot en met 17 januari 1795 werden de notulen van
+          de vergadering van de vroedschap en burgemeesters van Amsterdam door mr. D.A.
+          Meerman van der Goes opgemaakt.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Meerman van der Goes, Daniël Adriaan (1748-1805)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Daniel Adriaan Meerman van der Goes werd de 5de februari 1748 te Leiden
+          geboren uit een Delfts regentengeslacht, waarvan leden reeds sinds het midden
+          van de 15de eeuw functies uitoefenden. Hij was een zoon van mr. Adriaan van der
+          Goes (1719-1759) en van Magdalena Hester van Eys (1717-1759), dochter van
+          Daniel van Eys en Sara Dozy. Zie de bibliografie Zijn vader was aanvankelijk
+          lid van de Veertigraad (1747) en Schepen (1754) te Leiden en na het overlijden
+          van diens vader, mr. Willem Adriaan van der Goes (1696-1751), ontvanger van
+          Gemene Landsmiddelen over Leiden en Rijnland. Vermoedelijk werd Daniel genoemd
+          naar zijn grootvader van moederszijde: Daniel van Eys, Adriaan naar zijn vader
+          en Meerman naar de familienaam van zijn grootmoeder van vaderskant, Maria
+          Allegonda Meerman (1689-1744), echtgenote van mr. Willem Adriaan van der
+          Goes.</html:p>
+          <html:p>Behalve de familienaam Van der Goes werd de naam Meerman door hem en
+          zijn nakomelingen als familienaam gebruikt. Dit blijkt ook uit het wapen dat de
+          tak Meerman van der Goes voerde: Gevierendeeld: I en IV: in zwart 3 zilveren
+          bokkenkoppen met gouden hoorns, zijnde van der Goes; II en III: in zwart een
+          zilveren meerman met de staart, waarin een slag, horizontaal naar links
+          gericht, met zilveren stormhoed op het hoofd en in de opgerichte rechterhand
+          een naar links gerichte zilveren gebogen Turkse sabel met gouden gevest en aan
+          de linkerarm een ovaal zilveren schild met smalle gouden rand waarop een gouden
+          kruis stond, zijnde Meerman. Helmteken en schildhouders waren als bij het wapen
+          Van der Goes, d.i. helmteken: 3 zilveren bokkenkoppen tussen 2 zilveren
+          fazantenveren, en schildhouders: 2 omkijkende bokken met gouden
+          hoorns.</html:p>
+          <html:p>Blijkens het "Album Studiosorum Academiae Lugduno Bataviae" (blz. 1066)
+          werd Daniel Adrianus Meerman van der Goes, "Leidensis" en 12 jaar oud., de 17e
+          maart 1760 als "honoris ergo" en de 3e juli 1765 (blz. 1085) als "juris
+          studiosus" ingeschreven. Hij promoveerde te Leiden 18 september 1769 op het
+          proefschrift "De Pactis Successoriis".</html:p>
+          <html:p>Zijn dienst in de Oost-Indische Compagnie begon in 1776. Bij resolutie
+          van de Heren Zeventien genomen binnen Middelburg in Zeeland op vrijdag 29 maart
+          1776, werd mr. Daniel Adriaan Meerman van der Goes benoemd tot adjunct-advocaat
+          van de Compagnie op een jaarlijks tractement van fl. 1000,- ingaande de 1e
+          april 1776, mits hij participeerde met fl. 3000,- kapitaal. Tegelijk met de
+          benoeming van mr. F. W. Boers, tweede advocaat van de Compagnie tot eerste
+          advocaat, volgde bij de resolutie van Heren XVII d.d. 7 april 1777 de benoeming
+          van mr. D.A. Meerman van der Goes tot tweed advocaat op een tractement van fl.
+          2000,-, dat een jaar daarna bij resolutie van Heren XVII d.d. 9 oktober 1778
+          tot fl. 3000,- werd verhoogd.</html:p>
+          <html:p>Na de benoeming tot tweede advocaat werd mr. D.A. Meerman van der Goes
+          bij resolutie van Heren XVII d.d. 1 oktober 1777 tot de secrete zaken
+          gecommitteerd. Tijdens zijn ambtstermijn bij de Compagnie werd hem op verzoek
+          van de kamer Amsterdam en bij resolutie van Heren XVII d.d. 21 oktober 1779
+          opgedragen de post van chartermeester bij genoemde kamer te nemen, tegen een
+          jaarlijkse douceur van fl. 800,-.</html:p>
+          <html:p>Het ambt van advocaat bij de Compagnie (ook wel "Minister" genoemd)
+          werd in 1614 ingesteld. Oorspronkelijk had de Compagnie slechts één advocaat,
+          doch de toenemende omvang van de werkzaamheden dwong spoedig tot de aanstelling
+          van een tweede advocaat en later ook van een adjuct-advocaat. De eerste
+          advocaat genoot een jaarlijks tractement van fl. 3100,-, een huishuur van fl.
+          1000,- en fl. 250,- voor briefporti, de tweede advocaat fl. 2000,- en de
+          adjunct-advocaat fl. 1000,-. Om hun inkomsten te vermeerderen genoten ze verder
+          nog velerlei voordelen, zoals bv. 1000 zilveren dukatons als verering,
+          etc.</html:p>
+          <html:p>De aanstelling van de advocaten van de Compagnie geschiedde op de
+          voorwaarden genoemd bij de "Instructie voor de Advocaten van de Generale
+          Nederlandsche Geoctroyeerde Oost Indische Compagnie". Zie bijlage</html:p>
+          <html:p>Uit de Instructie van 1755 blijkt dat de functie van de advocaat voor
+          het grootste deel bestond uit het secretariaat van de vergaderingen van Heren
+          XVII en die van de kamer Amsterdam en zeker niet de thans gangbare betekenis
+          van het woord advocaat dekt. Tot de werkzaamheden van de advocaat behoorden het
+          bijwonen van de vergaderingen van de Heren XVII, de Haagse Besognes en
+          Commissies, het aan de orde stellen van zaken in de vergadering, het lezen van
+          missiven, requesten, remonstrantiën etc., het optekenen van de resoluties en
+          het registreren in "Secreete boeken of notulen", die evenals andere geheime
+          stukken en papieren door de advocaat werden bewaard. Hij moest de generale
+          missiven van de Gouverneur-Generaal en Raden van Indië extraheren, doorlezen en
+          zich een mening vormen over alle verbalen, dagregisters, resolutieboeken en
+          brieven van de opperhoofden van de verschillende comptoiren. Aan de hand
+          hiervan werden door hem voorts alle minuten voor de antwoorden van Heren XVII
+          opgesteld. Hij nummerde alle ingekomen- en uitgaande stukken en schreef ze in
+          registers en copieboeken.</html:p>
+          <html:p>In de meeste en belangrijkste commissies had de advocaat zitting en een
+          raadgevende stem. Vaak werden hem vertrouwelijke zendingen opgedragen, of
+          vergezelde hij de gecommitteerde(n) naar de Staten Generaal of naar Engeland.
+          Kwam de beurt van het voorzitterschap van Heren XVII aan de kamer Zeeland,dan
+          werd hem door de Generale Compagnie verzocht bij de terugkeer van retourschepen
+          aldaar aanwezig te zijn en de zaken van de Generale oostindische Compagnie waar
+          te nemen.</html:p>
+          <html:p>De plaats van de uitoefening van zijn functie was de kamer Amsterdam en
+          hij was bovendien verplicht zijn diensten te verlenen aan deze kamer en aan de
+          respectieven departementen van de kamer. Het voorbereiden van de particuliere
+          vergaderingen van in-en in de kamer Amsterdam en de daarbij behorende
+          werkzaamheden behoorde tot zijn taak. Want feitelijk was de advocaat van de
+          Compagnie ook tevens de advocaat van de kamer Amsterdam. Volgens één van de
+          voorwaarden voor zijn aanstelling moest hij minstens fl. 3000,- in de V.O.C.
+          participeren, wat meestal neerkwam op deelname voor dit bedrag in de kamer
+          Amsterdam. Bij aanvaarding van hun ambt moesten de advocaten de eed afleggen,
+          dat zij gedurende hun diensttijd geen andere functies dan bij de Compagnie
+          zouden vervullen. Voorts werd hun verboden giften, gaven of geschenken van
+          Compagniesdienaren of van personen die bij de vergadering van Heren XVII of bij
+          de respectieve kamers belang hadden, aan te nemen. Aangezien de werkkring
+          waarin de advocaten zich bewogen zeer belangrijk was, konden zij, en dan vooral
+          de eerste advocaat, veel invloed uitoefenen.</html:p>
+          <html:p>De eerste en tweede advocaat van de Compagnie hadden de beschikking
+          over enige klerken. Zo was Pieter van Duin als klerk aan de tweede advocaat,
+          mr. D.A. Meerman van der Goes, toegevoegd; toen Pieter van Duin in 1780 tezamen
+          met mr. Pieter Jacobus Guepin tot klerk van de eerste advocaat werd aangesteld,
+          volgde Roelof Jacobus Dozy hem op als klerk van de tweede advocaat.</html:p>
+          <html:p>De slechte toestand van de Oostindische Compagnie was in 1780 in een
+          kritiek stadium gekomen. Op het einde van dat jaar verklaarde Engeland de
+          oorlog aan de Republiek. Deze oorlog had voor de Oostindische Compagnie
+          loodnottige gevolgen.</html:p>
+          <html:p>In Azië gingen tal van forten en factorijen met de daar aanwezige
+          voorraden en goederen verloren. Vele schepen, vaak met rijke ladingen, vielen
+          in handen van de Engelsen. Anderen moesten naar neutralere havens uitwijken
+          en/of een anderen route nemen dan gebruikelijk was. Zij bereikten daardoor pas
+          na een jaar de Nederlandse havens. Uit vrees dat de Engelsen de schepen zouden
+          veroveren, had gedurende de jaren 1781, 1782 en 1783 geen vervoer naar
+          Nederland plaats. De goederen lagen daardoor te Batavia opgehoopt en in
+          Amsterdam kwam een tekort aan contanten.</html:p>
+          <html:p>Bij het uitbreken van de oorlog en vooral toen het gerucht in omloop
+          kwam, dat er geen gelden voor aflossing van de anticipatiepenningen in voorraad
+          waren, werd de druk op het opvragen van de anticipatiepenningen met de dag
+          groter, vooral in Amsterdam, waar zich meer dan 2/3 van de anticipatiepenningen
+          bevond. Gedwongen door de steigende nood, wendden de Bewindhebbers zich reeds
+          in het begin van het jaar 1781 tot de Staten van Holland teneinde surseance van
+          betaling te verkrijgen. Bij de Staten-Generaal werd aangedrongen tot
+          versterking van convooi voor de Indië bestemde schepen. Dit liep tenslotte uit
+          op een subsidie van de Generaliteit, ofschoon later bleek, dat alleen Holland
+          zijn quota betaalde.</html:p>
+          <html:p>Dit was het begin van een reeks subsidies en gegarandeerde negociaties
+          door Holland verleend, doch ook het begin van een sterke controle op de
+          Oostindische Compagnie, die langzamerhand tot een directe inmenging uitgroeide.
+          Doordat de bewindhebbers hun toevlucht hadden genomen tot de Staten was het
+          onmogelijk om de invloed van de Staat te weren.</html:p>
+          <html:p>Bij de pogingen tot verbetering en hervorming van de Oostindische
+          Compagnie konden de bewindhebbers zich niet onttrekken aan de politieke strijd
+          die na de oorlog met Engeland steeds heviger werd. Het Vijfde Departement Bij
+          de reeds bestaande vier departementen, d.i. van de ontvangst, de equipagie of
+          scheepsuitrusting, de rekenkamer en de handel, werd in 1786 op voorstel van de
+          Staten van Holland (en niettegenstaande de protesten van de kamer Zeeland een
+          nieuwe commissie toegevoegd, belast met het verzorgen van de correspondentie
+          van -en naar Indië. Deze commissie, het z.g. "Preparatoir Besogne" of het
+          Vijfde Departement werd later het Departement tot de Indische Zaken genoemd.
+          dat door de bemoeiingen van de Staten van Holland werd opgericht, bleef een
+          doorn in het oog van de bewindhebbers.</html:p>
+          <html:p>Mr. D.A. Meerman van der Goes heeft tot 1785 bij de Compagnie gediend.
+          Bij resolutie van de Heren XVII d.d. 7 december 1781 werd hem dispensatie van
+          de eed op het 11e artikel van de Instructie Zie bijlageverleend, zodat hij na
+          oktober 1781 tot en met november 1784, behalve advocaat van de Compagnietevens
+          pensionaris van de stad Amsterdam was, welk ambt hij tot 1795
+          bekleedde.</html:p>
+          <html:p>Hoewel hij na 1784 zijn advocaatschap bij de Compagnie had neergelegd,
+          betekende dit niet dat zijn bemoeiingen zich niet meer tot de zaken van de
+          Compagnie uitstrekten. Uit zijn collectie blijkt, dat hij stukken betreffende
+          de Oostindische compagnie -lopende over de jaren 1785-1791- in zijn bezit had
+          en de gang van zaken bijhield.</html:p>
+          <html:p>Opmerkelijk is het nauwe verband tussen de regering van Amsterdam en
+          het bewind van de Oostindische Compagnie, doordat veelal dezelfde personen
+          zowel functies in de Amsterdamse magistraat bezetten, als zitting hadden in het
+          bestuur van de V.O.C. Het overwicht van Amsterdam ten opzichte van de overige
+          steden van Holland en van de Generaliteit in zijn algemeen was ook duidelijk te
+          merken in de verhouding van de kamer Amsterdam tot de andere kamers (gevolg van
+          overheersende financiële aandeel van de kamer Amsterdam in de
+          Compagnie).</html:p>
+          <html:p>Bij resolutie d.d. 17 november 1784 had de Presidiale Kamer ingestemd
+          met het eervol ontslag verleend aan mr. D.A. Meerman van der Goes en als blijk
+          voor zijn goede en trouwe diensten, werd hij met 1000 zilveren ducatons
+          vereerd, ook ontving hij zijn leven lang een bewindhebbersportie specerijen en
+          had hij het gebruik van de binnen -en buitenjachten van de Compagnie.</html:p>
+          <html:p>Als tweede advocaat van de Compagnie werd mr. D.A. Meerman van der Goes
+          bij resolutie van Herem XVII d.d. 28 april 1785 vervangen door de
+          adjunct-advocaat, mr. Pieter Graafland Jansz.</html:p>
+          <html:p>Na het aftreden van mr. F.W. Boers als eerste advocaat hadden Heren
+          XVII op voorstel van kamer Amsterdam, bij resolutie d.d. 12 juli 1787, mr. D.A.
+          Meerman van der Goes als eerste kandidaat en mr. S.C. Nederburgh (de tweede
+          advocaat) als tweede, voor de opvolging voorgedragen. De Erfstadhouder/
+          Opperbewindhebber benoemde echter, bij zijn brief d.d. 14 juli 1787 mr. S.C.
+          Nederburgh tot eerste advocaat. Na de afzetting van de pensionaris mr. E.F.
+          Berckel, fungeerde mr. D.A. Meerman van der Goes als eerste pensionaris van de
+          stad Amsterdam. Bij resolutie d.d. 27 januari 1792, in aanmerking genomen
+          hebbende "de ijver en de affectie waarmede de pensionaris Van der Goes die post
+          nu seedert den jaare 1781 waargenomen en vele goede diensten aan de stad
+          bewezen heeft", hadden Vroedschap en Burgemeesters van Amsterdam goed gevonden
+          om zijn jaarlijkse tractement met een bedrag van fl. 1000,- te vermeerderen,
+          ingaande primo augustus 1791. Tot en met 17 januari 1795 werden de notulen van
+          de vergadering van de vroedschap en burgemeesters van Amsterdam door mr. D.A.
+          Meerman van der Goes opgemaakt.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat ambtelijke stukken van D.A. Meerman van der Goes,
+      advocaat der VOC.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.71 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>263 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

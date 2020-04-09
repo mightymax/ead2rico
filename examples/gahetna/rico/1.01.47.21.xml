@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/e3d8cf60-6707-49a4-8a47-744b5ff189be"
+  rdf:about="record/1.01.47.21">
+    <rico:identifier>1.01.47.21</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1924</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/197" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.01.47.21/i1" />
+      <rico:instantiates rdf:resource="record/1.01.47.21" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080514</rico:hasModificationDate>
+        <html:p>14 mei 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Admiraliteitscolleges:
+        Verzameling J. Bisdom, 1525-1793</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/e3d8cf60-6707-49a4-8a47-744b5ff189be" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/197">
+    <rico:describedBy rdf:resource="record/1.01.47.21" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>197</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Admiraliteitscolleges XXXI Bisdom</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Admiraliteiten / Bisdom</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1525</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1793</rico:endDate>
+    <rico:date>1525-1793</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>College ter Admiraliteit op de Maze</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>College ter Admiraliteit op de Maze,
+            Advocaat-Fiscaal</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>College ter Admiraliteit op de Maze, Tweede
+            Equipagemeester</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Departement van Marine van Zijne Hoogheid, Lid</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Willem V, Prins van Oranje, Departement van Marine,
+            Lid</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bisdom</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Gerard Daniel Denick</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze verzameling is afkomstig van Mr. Jacob Bisdom, advocaat-fiscaal
+          bij de Admiraliteit op de Maze (1744-1762), diens schoonzoon Mr. Gerard Daniel
+          Denick, eerst adjunct-fiscaal (1748-1762), en naderhand advocaat-fiscaal bij
+          voormelde Admiraliteit (1762-1780), en zijn zoon Mr. Dirk Rudolf Wijckerheld
+          Bisdom, achtereenvolgens tweede equipagemeester (1762-1780) en advocaat-fiscaal
+          bij diezelfde Admiraliteit (1780-1785) en tevens lid van het Departement der
+          marine van Zijn Hoogheid (1782-1785).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Deze verzameling stukken betreffende zee-en admiraliteitszaken is afkomstig
+      van Mr. Jacob Bisdom, diens schoonzoon Mr. Gerard Daniel Denick, zijn zoon Mr. Dirk
+      Rudolf Wijckerheld Bisdom, allen advocaat-fiscaal geweest bij de Admiraliteit op de
+      Maze in de periode (1744-1785). De laatste was tevens lid van het Departement der
+      marine van Zijn Hoogheid (1782-1785).Het archief is verdeeld in zes hoofdgroepen,
+      te weten Zeewezen in het algemeen; Admiraliteit op de Maze; Admiraliteiten te
+      Amsterdam, in Zeeland, in West-Friesland en het Noorderkwartier en in Friesland;
+      handel, visserij en nijverheid; koloniën; en betrekkingen met vreemde
+      mogendheden.Het bevat onder andere resolutiën, ordonnantiën, plakkaten,
+      publicatiën, retroacta, etc. van de Staten Generaal en de Admiraliteit op de Maze
+      vanaf 1563, stukken betreffende "het zeevolk", bouw en uitrusting van schepen,
+      financiën, convooien, in- en uitvoerrechten, juridische zaken en kaapvaart en
+      enkele stukken betreffende de Vierde Engelse Oorlog.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>21.75 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>303 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

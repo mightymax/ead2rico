@@ -1,0 +1,2948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<!-- 20161114 14:13:21 -->
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.02.20.02::Kabinet der Koningin Geheim Archief)//NL" url="http://proxy.handle.net/10648/f7d32fdb-406f-46e1-8f3b-f1cd79831505" urn="2.02.20.02.ead.xml">2.02.20.02</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het geheim archief van het Kabinet der Koningin, 1946-1975 (1984)</titleproper>
+				<author>G.M. Baldé</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1997">1997</date>
+				<p id="copyright">
+					<extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref>
+				</p>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Digitale toegang in <date calendar="gregorian" era="ce" normal="2003">2003</date> door de CAS te Winschoten op basis van EAD_richtlijnen_NL-HaNA_1.5.1 ontleend aan de ProCAS-database met behulp van uitvoerstrategie XML. Eindredactie: Hanno de Vries, <date calendar="gregorian" era="ce" normal="20031023">23 oktober 2003</date></creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen:
+            <title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>Stichting Archiefschool, 's-Gravenhage 1983;
+            <title linktype="simple">Lexicon der Nederlandse Archieftermen</title>Stichting Archiefpublikaties, 's-Gravenhage 1983.
+         </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20080107">7 januari 2008</date>
+				<item><num>1</num> Abstract aangepast en bestanddelen 13864-13873 verwijderd en overgebracht naar 2.02.14 en 2.02.20 door <name>Henny van Schie</name></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20080428">28 april 2008</date>
+				<item><num>2</num> Attribuut id verwijderd bij unitid's onder een component van het type level='file' (180 gevallen). Er bestonden geen verwijzingen naar. <name>Dirk van Laanen</name></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20090506">6 mei 2009</date>
+				<item><num>3</num> Bestanddelen 13877-13900 toegevoegd door <name>Henny van Schie</name>.</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20100113"> 13 januari 2010</date>
+				<item><num>4</num> Typefouten in formulering openbaarheidsbeperking verbeterd, door <name>Diederick Kortlang</name></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20111005"> 5 oktober 2011</date>
+				<item><num>5</num> Formulering openbaarheidsbeperking gewijzigd op verzoek van Bodien Abels, door <name>Diederick Kortlang</name></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20140424">24 april 2014</date>
+				<item><num>6</num> inv.nr. 13695A ingevoegd door <persname>Gijs Boink</persname></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20160927"> 27 september 2016</date>
+				<item><num>7</num> Formulering beschrijving inv.nr. 13880 op verzoek van het KvK aangepast door <name>Diederick Kortlang</name></item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20170920"> 20 september 2017</date>
+				<item><num>8</num> Opnieuw Formulering beschrijving inv.nr. 13880 op verzoek van het KvK aangepast door <name>Diederick Kortlang</name></item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Kabinet der Koningin Geheim Archief</unittitle>
+			<unittitle type="short">KdK / Geheim Archief</unittitle>
+			<unitdate label="Periode: " type="inclusive" normal="1945/1984" era="ce" calendar="gregorian">1945-1984</unitdate>
+			<unitdate calendar="gregorian" era="ce" normal="1946/1975" type="bulk">merendeel 1946-1975</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">H4</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">12.00 meter; </extent>
+				<extent unit="files">211 inventarisnummers.</extent>
+			</physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>. Een klein gedeelte is gesteld in talen als het <language langcode="fre" scriptcode="Latn">Frans</language> en <language langcode="eng" scriptcode="Latn">Engels</language>.
+      </langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, geypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Kabinet der Koningin</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Chronologisch geordende geheime adviezen en rapporten aan de Koningin uitgebracht, alsmede rapporten en notities van Nederlandse gezanten / ambassadeurs. In dit archief zijn voorts de stukken opgenomen betreffende kabinetsformaties, personeel (toelagen, bevorderingen, onderscheidingen) van het Kabinet der Koningin, ontwerp-troonredes, ontwerp-redes voor de sluiting van de Staten-Generaal, staatsbezoeken, alsook politieke en economische rapportage over Indonesië, Suriname, Nederlandse Antillen en Nederlands Nieuw-Guinea.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				
+			<acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">2.02</subject>
+			</controlaccess>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head>
+			<accessrestrict id="accessrestrict">
+				<head>Openbaarheidsbeperkingen</head>
+				<legalstatus type="ABS">Voor raadpleging van archiefbescheiden, jonger dan 75 jaar, is schriftelijke toestemming vereist van de Directeur van het Kabinet der Koning.</legalstatus>
+			</accessrestrict>
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Wanneer de Directeur van het Kabinet der Koningin toestemming geeft tot het raadplegen of openbaren van bescheiden uit dit archief, kunnen hierbij beperkende bepalingen gesteld worden met betrekking tot het reproduceren van deze bescheiden.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<phystech>
+				<p>Het archief bevat geen stukken welke in een zodanige staat verkeren, dat raadpleging of kopiëring ervan aan belemmeringen onderworpen zijn. Evenmin behoren buitenformaat stukken of anderszins afwijkende stukken tot het archief.</p>
+			</phystech>
+			<otherfindaid>
+				<head>Andere toegang</head>
+				<p>Het Geheim Archief maakt deel uit van het archief van het Kabinet des Konings / Kabinet der Koningen, (1830) 1841-1988. dit archief is beschreven in de volgende toegangen: 2.02.04 Kabinet des Konings, (1830) 1841-1897; 2.02.14 Inventaris van het archief van het Kabinet der Koningin, 1898-1945; 2.02.18 Dossierlijst van het Londens archief van het Kabinet der Koningin, 1940-1945; 2.02.20 Kabinet der Koningin, 1946-1975; 2.02.30 Kabinet der Koningen: Verbaalarchief, 1976-1988. Op het Geheim Verbaalarchief, beschreven in deze inventaris (inv.nrs. 13687-13767), bestaat een chronologisch register, met beknopte inhoudsomschrijving der stukken: toegangnr. 2.02.20.03. Deze nadere toegang is niet openbaar.</p>
+			</otherfindaid>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list></p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Kabinet der Koningin Geheim Archief, nummer toegang 2.02.20.02, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, KdK / Geheim Archief, 2.02.20.02, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+			<relatedmaterial>
+				<head>Verwante archieven</head>
+				<p>Inhoudelijk verwant aan het Geheim Archief zijn de archieven van de onderscheiden ambassades en gezantschappen van het ministerie van Buitenlandse Zaken in het buitenland.</p>
+			</relatedmaterial>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">A</unitid>
+					<unittitle>Chronologische series en toegangen</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid id="inv.nr.5">13687-13767</unitid>
+						<unittitle>Geheim Verbaalarchief</unittitle>
+						<unitdate normal="1946/1975" calendar="gregorian" era="ce">1946-1975</unitdate>
+					</did>
+					<otherfindaid>
+						<p>Op het Geheim Verbaal bestaat een chronologisch register, met beknopte inhoudsomschrijving der stukken (nummer toegang: 2.02.20.03). Dit register is slechts in te  zien na schriftelijke toestemming van de Directeur van het Kabinet der Koningin</p>
+					</otherfindaid>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698752" type="ABS">13687</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83e58f85-161c-4f1c-96a3-b6ea3a2a42dd</unitid>
+							<unittitle>letters A-Z1 <unitdate normal="1946" calendar="gregorian" era="ce">1946</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698753" type="ABS">13688</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe1a685c-ceb9-4fb1-bb6f-708a2b27e339</unitid>
+							<unittitle>letters A2-U2 <unitdate normal="1946" calendar="gregorian" era="ce">1946</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698754" type="ABS">13689</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b322cbb-efad-41ec-86e4-e3f836f6e43c</unitid>
+							<unittitle>letters A-Z <unitdate normal="1947" calendar="gregorian" era="ce">1947</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698755" type="ABS">13690</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ece37da-2d33-4121-b38f-7088d74f22b8</unitid>
+							<unittitle>letters A1-U1 <unitdate normal="1947" calendar="gregorian" era="ce">1947</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698756" type="ABS">13691</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/23475f0c-d81b-4e98-a469-0abd94a8085e</unitid>
+							<unittitle>letters A-E2 <unitdate normal="1948" calendar="gregorian" era="ce">1948</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698757" type="ABS">13692</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2951d0e9-b514-4500-a2e9-cb18ed7877b5</unitid>
+							<unittitle>letters F2-J2 <unitdate normal="1948" calendar="gregorian" era="ce">1948</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698758" type="ABS">13693</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1006effb-c425-43f6-8451-2c7d915f5a1f</unitid>
+							<unittitle>letters K2-X3 <unitdate normal="1948" calendar="gregorian" era="ce">1948</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698759" type="ABS">13694</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/944a12a8-2452-41fa-b902-49aacec051b6</unitid>
+							<unittitle>letters A-P <unitdate normal="1949" calendar="gregorian" era="ce">1949</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid>13695-13695A</unitid>
+							<unittitle>letters Q-I1 <unitdate normal="1949" calendar="gregorian" era="ce">1949</unitdate></unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1698760" type="ABS">13695</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f51bb809-2c61-4816-b6e3-0391e1c73745</unitid>
+								<unittitle>letters Q-I1 <unitdate normal="1949" calendar="gregorian" era="ce">1949</unitdate></unittitle>
+							</did>
+							<accessrestrict type="ABS">
+								<p>
+									<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+								</p>
+							</accessrestrict>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid type="ABS" identifier="4193783">13695A</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/761176dc-86c0-43cf-a564-c50a47c346f1</unitid>
+								<unittitle>Akte van de bestuursoverdracht van de Hoge Vertegenwoordiger van de Kroon in Indonesië A.H.J. Lovink aan de gemachtigden van de regering van de Republiek der Verenigde Staten van Indonesië van <unitdate calendar="gregorian" era="ce" normal="19491227">27 december 1949</unitdate>, met bijlage en geleidebrief</unittitle>
+							<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/2.02.20.02/file/13695A" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							<odd>
+								<p>afgezonderd uit inv.nr. 13695</p>
+							</odd>
+						</c04>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698761" type="ABS">13696</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c961032c-411d-4523-b2c1-9a4ea57a9ee0</unitid>
+							<unittitle>letters A-L1 <unitdate normal="1950" calendar="gregorian" era="ce">1950</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698762" type="ABS">13697</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c4fe2e5-d902-497b-beaa-5ce0354372a0</unitid>
+							<unittitle>letters bijlagen L1 <unitdate normal="1950" calendar="gregorian" era="ce">1950</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698763" type="ABS">13698</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4d5e0cd-8d2d-43a3-89c3-852ec9058fc1</unitid>
+							<unittitle>letters A-L2 <unitdate normal="1951" calendar="gregorian" era="ce">1951</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698764" type="ABS">13699</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/18839029-bb4e-42f7-9c1b-b6b45e49c006</unitid>
+							<unittitle>letters M2-S3 <unitdate normal="1951" calendar="gregorian" era="ce">1951</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698765" type="ABS">13700</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6851afe-eb22-4872-8e0c-1f48ee58d452</unitid>
+							<unittitle>letters A-C2 <unitdate normal="1952" calendar="gregorian" era="ce">1952</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698766" type="ABS">13701</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab4a1110-29b0-420d-aef0-dd3d3bf1e48a</unitid>
+							<unittitle>letters D2-X2 <unitdate normal="1952" calendar="gregorian" era="ce">1952</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698767" type="ABS">13702</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac1812d2-b8d8-4c85-bc8f-0ddfbf83888d</unitid>
+							<unittitle>letters A-M <unitdate normal="1953" calendar="gregorian" era="ce">1953</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698768" type="ABS">13703</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/70585695-fd66-4e69-982c-a596e11ca20d</unitid>
+							<unittitle>letters A-R <unitdate normal="1954" calendar="gregorian" era="ce">1954</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698769" type="ABS">13704</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e65d3046-5c87-4d58-a2ee-9d36538a7859</unitid>
+							<unittitle>letters A-Z <unitdate normal="1955" calendar="gregorian" era="ce">1955</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698770" type="ABS">13705</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab5d219e-1370-43bb-9a2e-dfed46bd6730</unitid>
+							<unittitle>letters A1-L1 <unitdate normal="1955" calendar="gregorian" era="ce">1955</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698771" type="ABS">13706</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a3be0ab-13e6-4525-b607-c70d412a0ab8</unitid>
+							<unittitle>letters A-Z1 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698772" type="ABS">13707</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cd3a761-87a1-44de-8711-bedd1fa75155</unitid>
+							<unittitle>letters A2-Z2 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698773" type="ABS">13708</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/85d682bf-6664-44e4-ac7e-1b4955dda3bd</unitid>
+							<unittitle>letters A3-U3 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698774" type="ABS">13709</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a2afbcf-f4e6-4bfb-befb-0884abd35e08</unitid>
+							<unittitle>letters V3-Z3 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698775" type="ABS">13710</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f04da865-9f83-486b-a05c-0b7ae06cb4fd</unitid>
+							<unittitle>letters A4-J4 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698776" type="ABS">13711</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f708bb3-82a8-4056-a4a3-e399bf1dbfdc</unitid>
+							<unittitle>letters K4-S4 <unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698777" type="ABS">13712</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/343d60bc-0296-49a9-b94d-5dc168da7167</unitid>
+							<unittitle>letters A-T <unitdate normal="1957" calendar="gregorian" era="ce">1957</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698778" type="ABS">13713</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/58816ca1-c55a-4a47-a7bd-7097da1e8789</unitid>
+							<unittitle>letters A-K1 <unitdate normal="1958" calendar="gregorian" era="ce">1958</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2034">2034</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698779" type="ABS">13714</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f0efc29-d91a-4798-82cf-8f33fe26bda4</unitid>
+							<unittitle>letters L1-C2 <unitdate normal="1958" calendar="gregorian" era="ce">1958</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2034">2034</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698780" type="ABS">13715</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b8358f2a-4d44-4489-a149-79a51c71ea76</unitid>
+							<unittitle>letters A-U <unitdate normal="1959" calendar="gregorian" era="ce">1959</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698781" type="ABS">13716</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed4e475b-0c12-4eff-8f74-d4ac58ed4928</unitid>
+							<unittitle>letters V-Z2 <unitdate normal="1959" calendar="gregorian" era="ce">1959</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698782" type="ABS">13717</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/86cde957-032d-4f9b-ac67-51930bfbf47f</unitid>
+							<unittitle>letters A3-U3 <unitdate normal="1959" calendar="gregorian" era="ce">1959</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698783" type="ABS">13718</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/350abd97-4ae2-40de-b5c1-2abfe9cb71d1</unitid>
+							<unittitle>letters V3 <unitdate normal="1959" calendar="gregorian" era="ce">1959</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698784" type="ABS">13719</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/37e620aa-73c2-4e54-80ed-0ce6c9e9aaed</unitid>
+							<unittitle>letters A-J1 <unitdate normal="1960" calendar="gregorian" era="ce">1960</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2036">2036</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698785" type="ABS">13720</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e20ca466-010e-4797-9ea3-1cd58b6dc7a3</unitid>
+							<unittitle>letters A-T <unitdate normal="1961" calendar="gregorian" era="ce">1961</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698786" type="ABS">13721</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d57236a-1073-4e67-8b1b-93bbad0c6c80</unitid>
+							<unittitle>letters U-O1 <unitdate normal="1961" calendar="gregorian" era="ce">1961</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698787" type="ABS">13722</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a22579ce-6805-4930-ac70-1ce62e4deca3</unitid>
+							<unittitle>letters P1-T1 <unitdate normal="1961" calendar="gregorian" era="ce">1961</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698788" type="ABS">13723</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/933d6f09-e84c-4bbe-8a00-30bab98a4ba0</unitid>
+							<unittitle>letters A-Z <unitdate normal="1962" calendar="gregorian" era="ce">1962</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698789" type="ABS">13724</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/84660ce1-9622-477e-a7d4-f34e891cd65a</unitid>
+							<unittitle>letters A1-F1 <unitdate normal="1962" calendar="gregorian" era="ce">1962</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698790" type="ABS">13725</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6446c09e-b8b3-480d-b86a-6ff2843fe8cb</unitid>
+							<unittitle>letters A-Z <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698791" type="ABS">13726</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b021bf1-62e3-4a60-a914-842da53bc958</unitid>
+							<unittitle>letters A1-W2 <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698792" type="ABS">13727</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/974fb303-6c03-488d-bb64-401cca296e32</unitid>
+							<unittitle>letters X2-Y2 <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698793" type="ABS">13728</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9ae95d6-b99a-4479-b3c9-1d7f332df61d</unitid>
+							<unittitle>letters A3-K3 <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698794" type="ABS">13729</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd830fa8-ee67-4d76-9021-1b1c5c401a48</unitid>
+							<unittitle>letters Z2 <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698795" type="ABS">13730</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0831817f-b5b7-4ebd-aa30-b0e585792159</unitid>
+							<unittitle>letters N3-A4 <unitdate normal="1963" calendar="gregorian" era="ce">1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698796" type="ABS">13731</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8b3981a-ff73-40d5-82c0-78de1038352c</unitid>
+							<unittitle>letters A-S <unitdate normal="1964" calendar="gregorian" era="ce">1964</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2040">2040</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698797" type="ABS">13732</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e46cf77a-f58c-4d6b-9151-98fac044db7f</unitid>
+							<unittitle>letters A-H1 <unitdate normal="1965" calendar="gregorian" era="ce">1965</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2041">2041</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698798" type="ABS">13733</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5804eda-f7ea-4c18-931e-0f1b59568889</unitid>
+							<unittitle>letters I1-P2 <unitdate normal="1965" calendar="gregorian" era="ce">1965</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2041">2041</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698799" type="ABS">13734</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/accd172a-58ae-4877-adb0-be831ad4c6cc</unitid>
+							<unittitle>letters A-Z <unitdate normal="1966" calendar="gregorian" era="ce">1966</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2042">2042</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698800" type="ABS">13735</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cfe00da-8ead-4801-8766-cc411b9baa71</unitid>
+							<unittitle>letters A1-Z1 <unitdate normal="1966" calendar="gregorian" era="ce">1966</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2042">2042</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698801" type="ABS">13736</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2fe817df-00ba-4180-8429-ce089dd62a62</unitid>
+							<unittitle>letters A2-U2 <unitdate normal="1966" calendar="gregorian" era="ce">1966</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2042">2042</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698802" type="ABS">13737</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a05836f-d0a2-4167-8378-4b42eb107217</unitid>
+							<unittitle>letters A-S1 <unitdate normal="1967" calendar="gregorian" era="ce">1967</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2043">2043</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698803" type="ABS">13738</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/15fe0efc-9d90-4c28-8b9e-2c2a5014da69</unitid>
+							<unittitle>letters T1-G3 <unitdate normal="1967" calendar="gregorian" era="ce">1967</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2043">2043</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698804" type="ABS">13739</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccba8f15-6e6b-4e6b-a7a7-0712c4468e0b</unitid>
+							<unittitle>letters A-V <unitdate normal="1968" calendar="gregorian" era="ce">1968</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2044">2044</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698805" type="ABS">13740</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90f54aa6-4255-4824-9fd9-da4ab8091f5c</unitid>
+							<unittitle>letters W-L <unitdate calendar="gregorian" era="ce">19681</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2044">2044</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698806" type="ABS">13741</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c3fcb56-5aad-4998-a789-0663c8bbc9fd</unitid>
+							<unittitle>letters A-D1 <unitdate normal="1969" calendar="gregorian" era="ce">1969</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698807" type="ABS">13742</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/58f6a75b-98da-47d4-9b0a-57a56257ce79</unitid>
+							<unittitle>letters E1-R1 <unitdate normal="1969" calendar="gregorian" era="ce">1969</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698808" type="ABS">13743</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/96ec8f48-c378-4d40-95dc-222ce3e540b6</unitid>
+							<unittitle>letters S1-J2 <unitdate normal="1969" calendar="gregorian" era="ce">1969</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698809" type="ABS">13744</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/48002e2f-e210-49a9-93d7-ea90ed3a5594</unitid>
+							<unittitle>letters A-U <unitdate normal="1970" calendar="gregorian" era="ce">1970</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2046">2046</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698810" type="ABS">13745</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04399c82-0a99-4e18-836f-071a76e3501e</unitid>
+							<unittitle>letters V-J1 <unitdate normal="1970" calendar="gregorian" era="ce">1970</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2046">2046</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698811" type="ABS">13746</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d8ba4674-99d2-4f83-984a-ff46b690cd7f</unitid>
+							<unittitle>letters K1-M2 <unitdate normal="1970" calendar="gregorian" era="ce">1970</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2046">2046</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698812" type="ABS">13747</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a851856c-203d-41bc-88e4-fca111286f45</unitid>
+							<unittitle>letters A-P <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698813" type="ABS">13748</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/93bbddf5-5c65-4409-ab3d-0db320131e5e</unitid>
+							<unittitle>letters Q-Z1 <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698814" type="ABS">13749</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e72466cd-e83d-491e-b01b-c5ad829ac2e4</unitid>
+							<unittitle>letters A2-M2 <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698815" type="ABS">13750</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf6eb502-ad57-453a-9ef6-080d4e8ff58e</unitid>
+							<unittitle>letters N2-Q3 <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698816" type="ABS">13751</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e97d625-2fe1-492e-a273-2058722c0942</unitid>
+							<unittitle>map I <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698817" type="ABS">13752</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/44c80d1f-6e40-4826-9ce4-7a0f0e61637d</unitid>
+							<unittitle>map II <unitdate normal="1971" calendar="gregorian" era="ce">1971</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698818" type="ABS">13753</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/26bb95af-f63c-48da-8711-6ae2bf5190c9</unitid>
+							<unittitle>letters A-Z <unitdate normal="1972" calendar="gregorian" era="ce">1972</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698819" type="ABS">13754</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/46d72037-d52e-4153-bf6f-43feefd9e427</unitid>
+							<unittitle>letters A1-Z1 <unitdate normal="1972" calendar="gregorian" era="ce">1972</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698820" type="ABS">13755</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/934f2a03-a0e1-45e4-af69-9a8912e16f37</unitid>
+							<unittitle>letters A2-Z2 <unitdate normal="1972" calendar="gregorian" era="ce">1972</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698821" type="ABS">13756</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/215f4bf2-b5f1-4210-a99e-233803752036</unitid>
+							<unittitle>letters A3-Y3 <unitdate normal="1972" calendar="gregorian" era="ce">1972</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698822" type="ABS">13757</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7fcce9e6-ee16-4bc3-a749-62b0a9f31a46</unitid>
+							<unittitle>letters A-Z1 <unitdate normal="1973" calendar="gregorian" era="ce">1973</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698823" type="ABS">13758</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a86a6d57-2212-4792-bfe8-634a00ee093a</unitid>
+							<unittitle>letters A2-Z2 <unitdate normal="1973" calendar="gregorian" era="ce">1973</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698824" type="ABS">13759</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd9739ae-df33-48c5-8ae6-e50c19f6d5c0</unitid>
+							<unittitle>letters A3-A4 <unitdate normal="1973" calendar="gregorian" era="ce">1973</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698825" type="ABS">13760</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0fba7ca4-c014-43f4-a3d0-92f1917dfe96</unitid>
+							<unittitle>letters A-Z <unitdate normal="1974" calendar="gregorian" era="ce">1974</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2050">2050</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698826" type="ABS">13761</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/70733e9e-b2cc-436f-9d2a-f333875c6d95</unitid>
+							<unittitle>letters A1-Z1 <unitdate normal="1974" calendar="gregorian" era="ce">1974</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2050">2050</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698827" type="ABS">13762</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9acf98ce-8227-4dfe-9359-3b8129d0e38d</unitid>
+							<unittitle>letters A2-Z2 <unitdate normal="1974" calendar="gregorian" era="ce">1974</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2050">2050</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698828" type="ABS">13763</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3629c770-3b26-41ef-a741-a1059f9ed560</unitid>
+							<unittitle>letters A3-J3 <unitdate normal="1974" calendar="gregorian" era="ce">1974</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2050">2050</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698829" type="ABS">13764</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f46f60d4-0f84-4cdb-8590-713ab0ead76c</unitid>
+							<unittitle>letters A-Q <unitdate normal="1975" calendar="gregorian" era="ce">1975</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698830" type="ABS">13765</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e4cbafd-166e-4bff-9240-f163859760a9</unitid>
+							<unittitle>letters R-U <unitdate normal="1975" calendar="gregorian" era="ce">1975</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698831" type="ABS">13766</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c259a2c-7b4c-4fd6-9a39-ba7d5d0c6f40</unitid>
+							<unittitle>letters W-Z <unitdate normal="1975" calendar="gregorian" era="ce">1975</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698832" type="ABS">13767</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d8c75367-8d0b-4edd-968b-e1976afcb8c8</unitid>
+							<unittitle>letters A1-M <unitdate normal="1975" calendar="gregorian" era="ce">1975</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid id="inv.nr.87">13768-13817</unitid>
+						<unittitle>Ingekomen (politieke) rapporten van gezanten/ambassadeurs van het ministerie van Buitenlandse Zaken (geheime bijlagen van het gewoon verbaalarchief)</unittitle>
+						<unitdate normal="1952/1975" calendar="gregorian" era="ce">1952-1975</unitdate>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698833" type="ABS">13768</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9838c7f-f8d2-4c20-8179-4aa07e12dd9d</unitid>
+							<unittitle>
+								<unitdate normal="1952-01/1952-08" calendar="gregorian" era="ce">1952 jan.-aug.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698834" type="ABS">13769</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/829d9677-2a59-480c-a115-bd77207179d8</unitid>
+							<unittitle>
+								<unitdate normal="1952-09/1952-12" calendar="gregorian" era="ce">1952 sep.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698835" type="ABS">13770</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8219480-8605-4e16-98b9-f46b747b7da8</unitid>
+							<unittitle>
+								<unitdate normal="1953-01/1953-06" calendar="gregorian" era="ce">1953 jan.-juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698836" type="ABS">13771</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc9a09c8-7f78-4591-af72-1cc597b55118</unitid>
+							<unittitle>
+								<unitdate normal="1953-07/1953-12" calendar="gregorian" era="ce">1953 juli-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698837" type="ABS">13772</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/45d14c83-f488-46fe-8ab6-4a6975855f86</unitid>
+							<unittitle>
+								<unitdate normal="1954-01/1954-03" calendar="gregorian" era="ce">1954 jan.-mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698838" type="ABS">13773</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/77119ecf-6af9-46c4-8cbb-2a4b9c49f2ce</unitid>
+							<unittitle>
+								<unitdate normal="1954-04/1954-05" calendar="gregorian" era="ce">1954 apr.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698839" type="ABS">13774</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/531d74e7-d6e6-427c-b496-ec8e09f74616</unitid>
+							<unittitle>
+								<unitdate normal="1954-06/1954-07" calendar="gregorian" era="ce">1954 juni-juli</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698840" type="ABS">13775</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/47795810-401e-4720-974a-0497a81c969b</unitid>
+							<unittitle>
+								<unitdate normal="1954-08" calendar="gregorian" era="ce">1954 aug.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698841" type="ABS">13776</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/93561de8-c505-4bc1-b6bf-14dd65b3d4c1</unitid>
+							<unittitle>
+								<unitdate normal="1954-09/1954-10" calendar="gregorian" era="ce">1954 sep.-okt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698842" type="ABS">13777</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f31da9b7-cebc-434b-8d75-6fcdef329543</unitid>
+							<unittitle>
+								<unitdate normal="1954-11/1954-12" calendar="gregorian" era="ce">1954 nov.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698843" type="ABS">13778</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7da488c-8e55-42d0-95d2-552f6943c8f5</unitid>
+							<unittitle>
+								<unitdate normal="1955-01/1955-03" calendar="gregorian" era="ce">1955 jan.-mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698844" type="ABS">13779</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/be34ca2b-dd0c-4324-b767-23b8778304e3</unitid>
+							<unittitle>
+								<unitdate normal="1955-03/1955-04" calendar="gregorian" era="ce">1955 mrt.-apr.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698845" type="ABS">13780</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/39f96ddf-c1a9-42cb-b1a8-21046adebc12</unitid>
+							<unittitle>
+								<unitdate normal="1955-04/1955-05" calendar="gregorian" era="ce">1955 apr.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698846" type="ABS">13781</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac30db03-3f4a-4f3c-99fa-993f0fa041ba</unitid>
+							<unittitle>
+								<unitdate normal="1955-06" calendar="gregorian" era="ce">1955 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698847" type="ABS">13782</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4214a922-2598-4ed7-8366-0801492d2842</unitid>
+							<unittitle>
+								<unitdate normal="1955-07" calendar="gregorian" era="ce">1955 juli</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698848" type="ABS">13783</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/35d27603-bb86-4f5c-91e4-35465d217fbd</unitid>
+							<unittitle>
+								<unitdate normal="1955-08/1955-11" calendar="gregorian" era="ce">1955 aug.-nov.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698849" type="ABS">13784</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/de939c8c-bfef-48a5-90f6-23d68c8510f4</unitid>
+							<unittitle>
+								<unitdate normal="1955-12/1956-01" calendar="gregorian" era="ce">1955 dec.-1956 jan.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698850" type="ABS">13785</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bf35c03-caf6-4356-a7d2-e62268ba6c49</unitid>
+							<unittitle>
+								<unitdate normal="1956-02/1956-03" calendar="gregorian" era="ce">1956 feb.-mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698851" type="ABS">13786</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d84e9a6-f7a1-4180-ac34-dc8f218d96f0</unitid>
+							<unittitle>
+								<unitdate normal="1956-04/1956-08" calendar="gregorian" era="ce">1956 apr.-aug.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698852" type="ABS">13787</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d4ad316-7868-446a-833d-c7fd1ee95107</unitid>
+							<unittitle>
+								<unitdate normal="1956-08/1956-12" calendar="gregorian" era="ce">1956 aug.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698853" type="ABS">13788</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4bd0f004-05a5-467b-93fd-67f4d52c65c3</unitid>
+							<unittitle>
+								<unitdate normal="1957-01/1957-05" calendar="gregorian" era="ce">1957 jan.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698854" type="ABS">13789</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd8af1b8-815e-4371-b767-a3c6f41ee142</unitid>
+							<unittitle>
+								<unitdate normal="1957-06/1957-08" calendar="gregorian" era="ce">1957 juni-aug.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698855" type="ABS">13790</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2064489a-bba0-4335-a980-ec503a3668a3</unitid>
+							<unittitle>
+								<unitdate normal="1957-09/1957-11" calendar="gregorian" era="ce">1957 sep.-nov.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698856" type="ABS">13791</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/09a29663-4fde-4b3b-9672-9eebfef35c26</unitid>
+							<unittitle>
+								<unitdate normal="1957-12/1958-07" calendar="gregorian" era="ce">1957 dec.-1958 juli</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2034">2034</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698857" type="ABS">13792</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/57901541-a8d3-4dd2-b8ed-324886ff96ec</unitid>
+							<unittitle>
+								<unitdate normal="1958-08/1958-12" calendar="gregorian" era="ce">1958 aug.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2034">2034</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698858" type="ABS">13793</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4da4282e-5510-4ac4-bc39-94b1fad767c0</unitid>
+							<unittitle>
+								<unitdate normal="1959-01/1959-05" calendar="gregorian" era="ce">1959 jan.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698859" type="ABS">13794</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/785c7729-dbdc-45dc-8b96-93f083b098c5</unitid>
+							<unittitle>
+								<unitdate normal="1959-06/1959-12" calendar="gregorian" era="ce">1959 juni-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698860" type="ABS">13795</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/61f1090e-ed0b-4370-b597-ea3ba156bc9e</unitid>
+							<unittitle>
+								<unitdate normal="1960-01/1960-09" calendar="gregorian" era="ce">1960 jan.-sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2036">2036</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698861" type="ABS">13796</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b5a8acb-bcfe-4bc5-8f91-2d49a69663e8</unitid>
+							<unittitle>
+								<unitdate normal="1960-10/1961-03" calendar="gregorian" era="ce">1960 okt.-1961 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698862" type="ABS">13797</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e5b3aecf-559b-4de9-9f85-59ee793d37ea</unitid>
+							<unittitle>
+								<unitdate normal="1961-04/1961-12" calendar="gregorian" era="ce">1961 apr.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698863" type="ABS">13798</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/294bb3f3-96ba-486d-adf5-83528b32c56b</unitid>
+							<unittitle>
+								<unitdate normal="1962-01/1962-05" calendar="gregorian" era="ce">1962 jan.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698864" type="ABS">13799</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/419bf40c-18d5-451d-ab9b-4e123582ec0a</unitid>
+							<unittitle>
+								<unitdate normal="1962-06/1962-11" calendar="gregorian" era="ce">1962 juni-nov.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698865" type="ABS">13800</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1df8ade1-f3d1-4f44-8f64-646b94331904</unitid>
+							<unittitle>
+								<unitdate normal="1962-12/1963-04" calendar="gregorian" era="ce">1962 dec.-1963 apr.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698866" type="ABS">13801</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa1d1d08-bc0b-44f9-928e-d47b3babb86e</unitid>
+							<unittitle>
+								<unitdate normal="1963-05/1964-03" calendar="gregorian" era="ce">1963 mei-1964 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2040">2040</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698867" type="ABS">13802</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd336e4a-7fd8-4952-89b2-9e139a6b6ae5</unitid>
+							<unittitle>
+								<unitdate normal="1964-04/1964-12" calendar="gregorian" era="ce">1964 apr.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2040">2040</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698868" type="ABS">13803</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/528d3ef4-3786-42f0-8136-f6c039d2efb4</unitid>
+							<unittitle>
+								<unitdate normal="1965-01/1965-10" calendar="gregorian" era="ce">1965 jan.-okt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2041">2041</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698869" type="ABS">13804</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/89b60415-615e-42f7-adb7-d6d5a1a8c359</unitid>
+							<unittitle>
+								<unitdate normal="1965-11/1966-07" calendar="gregorian" era="ce">1965 nov.-1966 juli</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2042">2042</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698870" type="ABS">13805</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2951125-91a9-4857-8226-c508d25da422</unitid>
+							<unittitle>
+								<unitdate normal="1966-08/1967-05" calendar="gregorian" era="ce">1966 aug.-1967 mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2043">2043</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698871" type="ABS">13806</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a177046-38c0-4050-b7ce-c96c426a4bed</unitid>
+							<unittitle>
+								<unitdate normal="1967-06/1968-04" calendar="gregorian" era="ce">1967 juni-1968 apr.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2044">2044</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698872" type="ABS">13807</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b1c413f-a65f-4fac-b222-e41bcc5e1662</unitid>
+							<unittitle>
+								<unitdate normal="1969-01/1969-05" calendar="gregorian" era="ce">1969 jan.-mei</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698873" type="ABS">13808</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3da23e2d-2c32-4ff7-8e61-4664c640132e</unitid>
+							<unittitle>
+								<unitdate normal="1969-06/1969-12" calendar="gregorian" era="ce">1969 juni-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698874" type="ABS">13809</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/678b38e4-378b-4bfb-bedd-5bb45b3d51f3</unitid>
+							<unittitle>
+								<unitdate normal="1970-01/1970-07" calendar="gregorian" era="ce">1970 jan.-juli</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2046">2046</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698875" type="ABS">13810</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/69e52acc-48c8-4b2e-a0b3-88e6402545c3</unitid>
+							<unittitle>
+								<unitdate normal="1970-08/1971-06" calendar="gregorian" era="ce">1970 aug.-1971 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698876" type="ABS">13811</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/336116f5-54d1-45af-b619-aa0a99733a25</unitid>
+							<unittitle>
+								<unitdate normal="1971-07/1972-03" calendar="gregorian" era="ce">1971 juli-1972 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698877" type="ABS">13812</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83d3dc66-b233-4aa8-938d-f9f44cc9f21a</unitid>
+							<unittitle>
+								<unitdate normal="1972-04/1972-12" calendar="gregorian" era="ce">1972 apr.-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2048">2048</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698878" type="ABS">13813</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/01acc549-2e2e-48d9-a577-64285d9553a3</unitid>
+							<unittitle>
+								<unitdate normal="1973-01/1973-06" calendar="gregorian" era="ce">1973 jan.-juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698879" type="ABS">13814</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e89e1d0-b26c-4c69-8984-97364a722120</unitid>
+							<unittitle>
+								<unitdate normal="1973-07/1973-12" calendar="gregorian" era="ce">1973 juli-dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698880" type="ABS">13815</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c509da2-1a7f-46d8-bf92-541ae61b3d16</unitid>
+							<unittitle>
+								<unitdate normal="1974-01/1974-06" calendar="gregorian" era="ce">1974 jan.-juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2050">2050</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698881" type="ABS">13816</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2088347-0757-402c-92ff-a338834cb9a5</unitid>
+							<unittitle>
+								<unitdate normal="1974-07/1975-02" calendar="gregorian" era="ce">1974 juli-1975 feb.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698882" type="ABS">13817</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/64bd8311-9d47-4d4e-bf50-18c2b59c25cf</unitid>
+							<unittitle>
+								<unitdate calendar="gregorian" era="ce">1975 mrt.-dec.embe</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2051">2051</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid id="inv.nr.138">13818-13830</unitid>
+						<unittitle>(Politieke) Notities en rapporten opgesteld door Gezanten/Ambassadeurs van het ministerie van Buitenlandse Zaken ten behoeve van de Koningin (geheime bijlagen van het gewoon archief)</unittitle>
+						<unitdate normal="1946/1958" calendar="gregorian" era="ce">1946-1958</unitdate>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698883" type="ABS">13818</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/87e269ee-ab14-4a00-a49c-3dab4edd591a</unitid>
+							<unittitle>
+								<unitdate normal="1946" calendar="gregorian" era="ce">1946</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698884" type="ABS">13819</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fab97c99-1802-4a6c-bcee-a4dfaadfeac7</unitid>
+							<unittitle>
+								<unitdate normal="1947" calendar="gregorian" era="ce">1947</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698885" type="ABS">13820</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2284aa86-dae2-406c-aa4e-e6eb490531bc</unitid>
+							<unittitle>
+								<unitdate normal="1948" calendar="gregorian" era="ce">1948</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698886" type="ABS">13821</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec3e7769-a374-43b5-a40a-453415e8e88d</unitid>
+							<unittitle>
+								<unitdate normal="1949" calendar="gregorian" era="ce">1949</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698887" type="ABS">13822</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/797299b3-fd67-433c-8bf3-ca4740a62eaf</unitid>
+							<unittitle>
+								<unitdate normal="1950" calendar="gregorian" era="ce">1950</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698888" type="ABS">13823</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e86b61b-daec-4d5e-965c-56ccd9acfda1</unitid>
+							<unittitle>
+								<unitdate normal="1951" calendar="gregorian" era="ce">1951</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698889" type="ABS">13824</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/53c8fcf6-119b-4885-995c-bc9983aac7dc</unitid>
+							<unittitle>
+								<unitdate normal="1952" calendar="gregorian" era="ce">1952</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698890" type="ABS">13825</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/31dda866-4738-4e64-a7ae-665e4e493616</unitid>
+							<unittitle>
+								<unitdate normal="1953" calendar="gregorian" era="ce">1953</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698891" type="ABS">13826</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ee8cdb7-c06f-475b-9f31-c9a386b03fb7</unitid>
+							<unittitle>
+								<unitdate normal="1954" calendar="gregorian" era="ce">1954</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698892" type="ABS">13827</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ec54140-6035-458f-bed9-99625cd1edf4</unitid>
+							<unittitle>
+								<unitdate normal="1955" calendar="gregorian" era="ce">1955</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698893" type="ABS">13828</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/422cc137-fd90-4ee5-9b75-f79ea766266c</unitid>
+							<unittitle>
+								<unitdate normal="1956" calendar="gregorian" era="ce">1956</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698894" type="ABS">13829</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ab6e6a5-7c39-4018-800b-3954890c43b2</unitid>
+							<unittitle>
+								<unitdate normal="1957" calendar="gregorian" era="ce">1957</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698895" type="ABS">13830</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/97586955-c3b5-4475-b8a0-194049b69ffb</unitid>
+							<unittitle>
+								<unitdate normal="1958" calendar="gregorian" era="ce">1958</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2034">2034</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid id="inv.nr.152">13831-13863</unitid>
+						<unittitle>Registers van ingekomen rapporten van gezanten/ambassadeurs van het ministerie van Buitenlandse Zaken (geheime bijlagen van het gewone archief)</unittitle>
+						<unitdate normal="1946/1961" calendar="gregorian" era="ce">1946-1961</unitdate>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698896" type="ABS">13831</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/23a342d8-e237-4671-b1b9-f0b2db17940c</unitid>
+							<unittitle>
+								<unitdate normal="1946-01-05/1946-03-29" calendar="gregorian" era="ce">1946 5 jan.-29 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698897" type="ABS">13832</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c72c7c2f-d646-4d52-a45c-995e8d73499e</unitid>
+							<unittitle>
+								<unitdate normal="1946-04-03/1946-06-28" calendar="gregorian" era="ce">1946 3 apr.-28 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698898" type="ABS">13833</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f43d9ba0-027c-4fe6-be37-a224adb6d724</unitid>
+							<unittitle>
+								<unitdate normal="1946-07-01/1946-09-30" calendar="gregorian" era="ce">1946 1 juli-30 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698899" type="ABS">13834</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d44b9b6-43e4-41ab-92ed-5ea44dd9128d</unitid>
+							<unittitle>
+								<unitdate normal="1946-10-03/1946-12-24" calendar="gregorian" era="ce">1946 okt. 3-dec. 24</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2022">2022</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698900" type="ABS">13835</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b62ae634-0486-4740-96f3-cb6999a3034b</unitid>
+							<unittitle>
+								<unitdate normal="1947-01-04/1947-03-28" calendar="gregorian" era="ce">1947 4 jan.-28 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698901" type="ABS">13836</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2198e0cc-f840-4339-82b9-f55603f4e60b</unitid>
+							<unittitle>
+								<unitdate normal="1947-04-08/1947-06-28" calendar="gregorian" era="ce">1947 8 apr.-28 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698902" type="ABS">13837</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f649501-2ad4-414b-821b-bc0240b45b86</unitid>
+							<unittitle>
+								<unitdate normal="1947-07-01/1947-09-30" calendar="gregorian" era="ce">1947 1 juli-30 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698903" type="ABS">13838</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/784a0dd9-8d7c-47d6-99af-c5f357f050d5</unitid>
+							<unittitle>
+								<unitdate normal="1947-10-02/1947-12-19" calendar="gregorian" era="ce">1947 2 okt.-19 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698904" type="ABS">13839</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d80fd0e3-ac81-4eee-bab6-9fa72f0dbc0d</unitid>
+							<unittitle>
+								<unitdate normal="1948-01-05/1948-03-31" calendar="gregorian" era="ce">1948 5 jan.-31 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698905" type="ABS">13840</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/da7a3a70-5072-4fb8-aa6f-cdec56accfc0</unitid>
+							<unittitle>
+								<unitdate normal="1948-04-01/1948-06-28" calendar="gregorian" era="ce">1948 1 apr.-28 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698906" type="ABS">13841</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d96eee2-1c92-4de3-a4cf-76b1154f8769</unitid>
+							<unittitle>
+								<unitdate normal="1948-07-01/1948-09-30" calendar="gregorian" era="ce">1948 1 juli-30 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698907" type="ABS">13842</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f2fbb06-0f38-4d4e-aa85-9657b9daf97b</unitid>
+							<unittitle>
+								<unitdate normal="1948-10-01/1948-12-31" calendar="gregorian" era="ce">1948 1 okt.-31 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698908" type="ABS">13843</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a87d7294-46b5-4b38-90a0-a88d8b5e96d7</unitid>
+							<unittitle>
+								<unitdate normal="1949-01-03/1949-03-31" calendar="gregorian" era="ce">1949 3 jan.-31 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698909" type="ABS">13844</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f4c34dea-69dd-4a32-b6f5-6c40828b376a</unitid>
+							<unittitle>
+								<unitdate normal="1949-04-02/1949-06-30" calendar="gregorian" era="ce">1949 2 apr.-30 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698910" type="ABS">13845</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c71c7e69-4efb-486c-a25c-5dfac0bdcfa9</unitid>
+							<unittitle>
+								<unitdate normal="1949-07-06/1949-09-30" calendar="gregorian" era="ce">1949 6 juli-30 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698911" type="ABS">13846</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/de57abab-e26d-4393-94ab-4045aed197e8</unitid>
+							<unittitle>
+								<unitdate normal="1949-10-04/1949-12-31" calendar="gregorian" era="ce">1949 4 okt.-31 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698912" type="ABS">13847</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c57a73cb-161d-4fff-b1a9-276e02cba526</unitid>
+							<unittitle>
+								<unitdate normal="1950-01-03/1950-03-30" calendar="gregorian" era="ce">1950 3 jan.-30 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698913" type="ABS">13848</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e70122d6-14f8-4536-95e2-bd777a721400</unitid>
+							<unittitle>
+								<unitdate normal="1950-04-03/1950-06-29" calendar="gregorian" era="ce">1950 3 apr.-29 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698914" type="ABS">13849</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/88033e05-839c-4299-93d7-1f73ee1b13a5</unitid>
+							<unittitle>
+								<unitdate normal="1950-07-01/1950-09-25" calendar="gregorian" era="ce">1950 1 juli-25 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698915" type="ABS">13850</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee9907c6-68a3-405e-ad24-32f61d83f64f</unitid>
+							<unittitle>
+								<unitdate normal="1950-10-17/1950-12-19" calendar="gregorian" era="ce">1950 17 okt.-19 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698916" type="ABS">13851</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f96b668e-3762-4e4c-a76a-759cc3eea0dc</unitid>
+							<unittitle>
+								<unitdate normal="1951-01-13/1951-03-29" calendar="gregorian" era="ce">1951 13 jan.-29 mrt.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698917" type="ABS">13852</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc63b8cf-5007-45b9-8452-ef461edaea77</unitid>
+							<unittitle>
+								<unitdate normal="1951-04-05/1951-06-08" calendar="gregorian" era="ce">1951 5 apr.-8 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698918" type="ABS">13853</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/da1acb95-a279-4a59-b5b8-762cbb56f339</unitid>
+							<unittitle>
+								<unitdate normal="1951-07-05/1951-09-25" calendar="gregorian" era="ce">1951 5 juli-25 sep.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698919" type="ABS">13854</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf323587-545d-4ca4-b1c7-0b0cfa49af15</unitid>
+							<unittitle>
+								<unitdate normal="1951-10-02/1951-11-26" calendar="gregorian" era="ce">1951 2 okt.-26 nov.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2027">2027</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698920" type="ABS">13855</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b2bb4d5-faf5-4d26-a582-4a5ee851b4bf</unitid>
+							<unittitle>
+								<unitdate normal="1952-01-25/1952-06-25" calendar="gregorian" era="ce">1952 25 jan.-25 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698921" type="ABS">13856</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ebdcc852-9125-42b5-9bba-aa39ce1ae395</unitid>
+							<unittitle>
+								<unitdate normal="1952-07-04/1952-12-12" calendar="gregorian" era="ce">1952 4 juli-12 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2028">2028</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698922" type="ABS">13857</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e38d90c0-05a6-424c-94d0-125165fb800d</unitid>
+							<unittitle>
+								<unitdate normal="1953-01-28/1953-06-19" calendar="gregorian" era="ce">1953 28 jan.-19 juni</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698923" type="ABS">13858</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e04da9e5-5548-4370-b457-a7728ce54959</unitid>
+							<unittitle>
+								<unitdate normal="1953-07-01/1953-12-28" calendar="gregorian" era="ce">1953 1 juli-28 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2029">2029</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698924" type="ABS">13859</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e6e67cc-d7aa-4cc0-836b-8c287cdea328</unitid>
+							<unittitle>
+								<unitdate normal="1954-02-02/1954-12-06" calendar="gregorian" era="ce">1954 2 feb.-6 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698925" type="ABS">13860</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5be769ff-4dda-4e85-a099-f61eea006e0a</unitid>
+							<unittitle>
+								<unitdate normal="1955-01-20/1955-12-14" calendar="gregorian" era="ce">1955 20 jan.-14 dec.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2031">2031</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698926" type="ABS">13861</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6049f90-1a50-417e-95ca-8ce4dd12e358</unitid>
+							<unittitle>
+								<unitdate normal="1956-01-31/1956-08-09" calendar="gregorian" era="ce">1956 31 jan.-9 aug.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698927" type="ABS">13862</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/92f5cb96-d70e-4a0b-bee6-22cd4dab917e</unitid>
+							<unittitle>
+								<unitdate normal="1957-01-25/1957-11-19" calendar="gregorian" era="ce">1957 25 jan.-19 nov.</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2033">2033</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698928" type="ABS">13863</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c559bb68-8988-43a6-86c1-c939bfe50659</unitid>
+							<unittitle>
+								<unitdate normal="1958-04-21/1961-11-09" calendar="gregorian" era="ce">1958 apr. 21-1961 nov. 9</unitdate>
+							</unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2037">2037</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid id="inv.nr.199">13874-13875</unitid>
+						<unittitle>Agenda/Klappers op het geheim verbaalarchief</unittitle>
+						<unitdate normal="1947/1978" calendar="gregorian" era="ce">1947-1978</unitdate>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698939" type="ABS">13874</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d9d60d2-fae6-493a-9d80-0c8e569210b2</unitid>
+							<unittitle>Klapper,
+              <unitdate normal="1947/1963" calendar="gregorian" era="ce">1947-1963</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1698940" type="ABS">13875</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/014ec503-65ab-4283-97df-0e4589c274fb</unitid>
+							<unittitle>Klapper,
+              <unitdate normal="1964/1978" calendar="gregorian" era="ce">1964-1978</unitdate></unittitle>
+						</did>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2054">2054</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2907130" type="ABS">13876</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1d9696e-bce8-4986-87e6-255fb20fe33a</unitid>
+							<unittitle>Agenda,
+              <unitdate calendar="gregorian" era="ce" normal="1957/1984">1957-1984</unitdate></unittitle>
+						</did>
+						<odd>
+							<p>De agenda over de periode 1946-1956 bevindt zich in inv.nr. 9029 (toegang 2.02.14).</p>
+						</odd>
+						<accessrestrict type="ABS">
+							<p>
+								<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2060">2060</date></ref>
+							</p>
+						</accessrestrict>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">B</unitid>
+					<unittitle>Losse dossiers en stukken</unittitle>
+				</did>
+				<custodhist>
+					<p>Een aantal stukken en dossiers is nooit geregistreerd geweest. Deze stukken konden en kunnen dan ook niet in het reguliere chronologisch geordende archief op datum en nummer worden opgeborgen. Ze zijn bij het Kabinet der Koningin in bureaus en kasten blijven liggen en uiteindelijk in het geheim archief opgeborgen. De aard van deze stukken is veelal niet geheim, maar omdat ze als onderdeel van het geheim archief zijn overgedragen, zijn ze hier opgeborgen en beschreven. De beperkingen ten aanzien van de openbaarheid, zoals geldend voor het geheim archief, is ook op deze stukken van toepassing.</p>
+				</custodhist>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391772" type="ABS">13877</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbb51bec-6462-4920-884d-fba530bdb122</unitid>
+						<unittitle>Notitie over het beheer van het archief van het Kabinet der Koningin bij het Algemeen Rijksarchief en het ontslag der daarmee belaste ambtenaren in 1942, met bijlagen, afschriften.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945">c. 1945</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2021">2021</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391773" type="ABS">13878</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cc4c7def-92cd-4715-8385-3a003191725c</unitid>
+						<unittitle>Teksten van toespraken en dankbetuigingen van de Koningin en anderen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1954">1945-1954</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<scopecontent>
+						<p>Bevat:<list mark="hyphen" type="marked">
+								<item>Radiorede in het Engels van Koningin Wilhelmina met dank voor alle hulp aan Nederland, 1945.</item>
+								<item>Telexverslag van de nieuwjaarstoespraak van minister-president Schermerhorn, 1946 jan.</item>
+								<item>Diëstoespraak van Koningin Wilhelmina voor de Rijksuniversiteit Leiden, 1946 feb.</item>
+								<item>Toespraak van prinses Juliana tijdens het bezoek van mrs. Roosevelt, 1948 apr.</item>
+								<item>Telexverslag in het Nederlands van de toespraak van Churchill in de Ridderzaal, 1948 mei.</item>
+								<item>Perscommuniqué, dank uitsprekend van de Koningin voor een geschenk van de bisschop van New York, 1948.</item>
+								<item>Dankbrieven van prinses Wilhelmina aan diverse staatshoofden wegens ontvangen felicitaties bij haar ambtsjubileum, 1948.</item>
+								<item>Toespraak over de toekomstige verhoudingen met Indonesië, 1948.</item>
+								<item>Toespraak van de Koningin bij het 100-jarig bestaan van de Provinciale Wet, 1950 juli.</item>
+								<item>Toespraak van de Koningin bij de opening van het nieuwe provincie in Arnhem, 1954 sep.</item>
+							</list></p>
+					</scopecontent>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2030">2030</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391774" type="ABS">13879</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/44370440-8490-4f45-b25f-2888ed73ec43</unitid>
+						<unittitle>Stukken betreffende de zuivering van D. Schuitemaker, hoofdcommissaris van Politie te Utrecht.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1947">1947</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2023">2023</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391775" type="ABS">13880</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a5919217-a268-4fb1-a677-c7a53b6a32a1</unitid>
+						<unittitle>Foto's van de Dienst Legercontacten Indonesië over de activiteiten van Indonesische militairen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948">1948</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>Onbekend is waarom deze foto's aan het Kabinet zijn toegestuurd</p>
+					</odd>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2024">2024</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391776" type="ABS">13881</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/37dccde8-e3fe-4be0-bee7-3e68b15e3e21</unitid>
+						<unittitle>Brief van de minister van Oorlog met afwijzend advies over de mogelijke benoeming van de heer Pantchoulidzew tot reserve-officier.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1949-12">1949 dec</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2025">2025</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391777" type="ABS">13882</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a339f25c-0c46-44c3-8840-0ae20608f78f</unitid>
+						<unittitle>Uitnodigingsbrief van Koning George VI aan Koningin Juliana voor een staatsbezoek aan Engeland, met concept-antwoordbrief.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1950">1950</unitdate>
+						<physdesc>2 stukken</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2026">2026</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391778" type="ABS">13883</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d43ab4e9-13c4-4656-acb1-54ae7f780ecc</unitid>
+						<unittitle>Stukken betreffende verzoeken van dr. E. van Raalte om inzage in documenten, behorend tot het archief van het Kabinet der Koningin.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1952/1970">1952-1970</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2046">2046</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391779" type="ABS">13884</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e511c7bc-da70-4812-bc3d-8ab8d1655cfa</unitid>
+						<unittitle>Aantekeningen van Koningin Juliana van haar gesprekken met ministers en fractievoorzitters in 1956, waaronder die tijdens de kabinetsformatie.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1956">1956</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<odd>
+						<p>In ringband.</p>
+					</odd>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2032">2032</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391780" type="ABS">13885</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed52c439-0826-413a-bb93-da55889ddf74</unitid>
+						<unittitle>Notities over de relatie tussen Indonesië en Nederland met betrekking tot Nederlands Nieuw-Guinea.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1959">1959</unitdate>
+						<physdesc>3 stukken</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="2998962" type="ABS">9216</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c836f6d1-dfc3-4589-ae0a-8c96dea5a05a</unitid>
+						<unittitle>Rapport van de commissie van onderzoek inzake eventuele onwettige censuur in Nederlands-Nieuw-Guinea </unittitle>
+						<unitdate normal="1959" calendar="gregorian" era="ce">1959</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2035">2035</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391781" type="ABS">13886</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d96eb0c-7040-49c2-b9be-3dcc24147572</unitid>
+						<unittitle>Notitie over de viering van Koninginnedag op 1 mei 1961.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1960-11">1960 nov</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2036">2036</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391782" type="ABS">13887</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22415253-875b-4487-bc66-7dd8f69376c5</unitid>
+						<unittitle>Notities voor de redactie van een condoleancebrief van de de Koningin, bestemd voor de nabestaanden van gesneuvelde militairen in Nederlands Nieuw-Guinea.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1962-06">1962 juni</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391783" type="ABS">13888</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f4fc7f1-8d9e-425a-8bae-6c20e495cd7f</unitid>
+						<unittitle>Notitie over het gebruik als oefenterrein door Defensie van een strook grond op de Veluwe, welke eigendom is van prinses Wilhelmina.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1962-10">1962 okt</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2038">2038</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391784" type="ABS">13889</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/407f626e-9c34-4822-a1e3-223acaccd7c5</unitid>
+						<unittitle>Aantekeningen over de verhouding tussen kerk en staat naar aanleiding van de aanwezigheid van een Nederlandse bijzondere zending bij de opening van het tweede Vaticaans concilie en de kroning van paus Paulus VI.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1962/1963">1962-1963</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391785" type="ABS">13890</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a0d9164-f342-492b-86ef-6b379a067ced</unitid>
+						<unittitle>Correspondentie met J. Steur van het Algemeen Rijksarchief over zich in het Fürstlich Wiedisches Archiv te Neuwied bevindende documenten betrekking hebbend op het Koninklijk Huis.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1962/1971">1962, 1971</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391786" type="ABS">13891</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/99c31517-3bbf-4e2b-aaf7-928c17a37fe6</unitid>
+						<unittitle>Nota's betreffende het mogelijke herstel van de diplomatieke betrekkingen met Indonesië.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1963">1963</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391787" type="ABS">13892</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4386f771-05a8-4076-bb8f-6cbcd0114386</unitid>
+						<unittitle>Dankbetuiging van minister Cals wegens gelukwensen van de directeur van het Kabinet der Koningin bij de totstandkoming van de wet op het voortgezet onderwijs.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1963-03">1963 mrt</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2039">2039</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391788" type="ABS">13893</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/470c942b-ddae-4711-906e-b9c57deaba74</unitid>
+						<unittitle>Nota's van de minister van Sociale Zaken en Volksgezondheid betreffende de loonpolitieke situatie in Nederland in 1963 en 1964.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1963/1964">1953-1964</unitdate>
+						<physdesc>2 stukken</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2040">2040</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391789" type="ABS">13894</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3aeb6a63-5fb2-4f0b-beeb-973ea01adef3</unitid>
+						<unittitle>Nota's betreffende een werkstaking van Scheveningse vissers in februari 1964.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1964">1964</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2040">2040</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391790" type="ABS">13895</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2742d6b5-7a86-4c81-ad60-9af99231338d</unitid>
+						<unittitle>Nota's betreffende de ministeriële verantwoordelijkheid in aangelegenheden van het Koninklijk Huis.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1964/1965">1964-1965</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2041">2041</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391791" type="ABS">13896</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5edd863d-c06b-4046-a39d-3a3b86fa858c</unitid>
+						<unittitle>Nota's en telegrammen betreffende een grensgeschil tussen Suriname en Brits Guyana.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1966/1968">1966-1968</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2044">2044</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391792" type="ABS">13897</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5001ccce-7c74-44c5-b17d-622e25fbd3ca</unitid>
+						<unittitle>Nota's betreffende de bestuurshervorming van universiteiten en hogescholen.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1969">1969</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391793" type="ABS">13898</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e641182a-927b-4706-9d2a-41ffcab20ff3</unitid>
+						<unittitle>Stukken betreffende de bemoeienis van de directeur van het Kabinet der Koningin met de publicatie van deel 1 en 2 van L. de Jong's "Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog".</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1969">1969</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2045">2045</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391794" type="ABS">13899</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e704ade-1e2b-403a-9087-6e428bb82d42</unitid>
+						<unittitle>Notities naar aanleiding van een interview van prins Bernhard in NRC-Handelsblad van 1 november 1971.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1971">1971</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2047">2047</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="3391795" type="ABS">13900</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b07478b0-00c9-4563-a133-28527f05589b</unitid>
+						<unittitle>Nota van de chef van het militaire huis van de Koningin betreffende de organisatie van een militair huldeblijk aan de Koningin bij haar 25-jarig regeringsjubileum.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1973">1973</unitdate>
+						<physdesc>1 omslag</physdesc>
+					</did>
+					<accessrestrict type="ABS">
+						<p>
+							<ref actuate="onrequest" linktype="simple" show="replace" target="accessrestrict">Openbaarheid beperkt tot 1 januari <date calendar="gregorian" era="ce" normal="2049">2049</date></ref>
+						</p>
+					</accessrestrict>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

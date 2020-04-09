@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:27:27 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.05.48.01::Ministerie van Buitenlandse Zaken: Restbescheiden)//NL" url="http://proxy.handle.net/10648/87985faa-6b60-4dcd-bc57-d709b7a7b657" urn="2.05.48.01.ead.xml">2.05.48.01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van het Ministerie van Buitenlandse Zaken, 1871-1940: restbescheiden welke buiten de chronologische en dossier-ordeningen zijn komen te staan</titleproper>
+        <author>H.H. Jongbloed</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1991">1991</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Otto van der Meij, <date calendar="gregorian" era="ce" normal="20070119">20070119.</date>
+      </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+          <title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983</bibref>;
+                  <bibref linktype="simple">
+          <title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983</bibref>
+      </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce" normal="20070529">29 mei 2007</date>
+        <item>
+          <num>1</num> Abstract aangepast.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce" normal="20101209">9 december 2010</date>
+        <item>
+          <num>2</num>Bijlage concordans ingevoegd door <name>Arina Overkleeft</name>.
+				</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Ministerie van Buitenlandse Zaken: Restbescheiden</unittitle>
+      <unittitle type="short">BuZa / Restbescheiden</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1871/1936" type="inclusive">1871-1936</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">Z26042</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">0.90 meter; </extent>
+        
+      <extent unit="files">96 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>
+      </langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname> Ministerie van Buitenlandse Zaken</corpname>
+      </origination>
+      <origination>
+        <corpname>Ministerie van Buitenlandse Zaken / Afdeling Juridische Zaken</corpname>
+      </origination>
+      <origination>
+        <corpname>Ministerie van Buitenlandse Zaken / Eerste Afdeling Politieke Zaken</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat stukken betreffende de grensscheidingen met Pruisen en Hannover, respectievelijk Duitsland en met België inzake Baarle-Nassau en Baarle-Hertog, alsmede enkele stukken m.b.t. Zuid-Afrika.</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <p>In de archiefvorming van het ministerie van Buitenlandse Zaken is bij 1871 een belangrijke caesuur aangebracht. Terwijl voorheen gearchiveerd werd volgens een verbaalstelsel, werd vanaf 1871 overwegend een dossierstelsel toegepast, onderscheiden in A-dossiers betreffende politieke en B-dossiers betreffende consulaire en handelszaken. Naast deze dossierreeksen werd een beperkte hoeveelheid stukken chronologisch opgelegd op agenderingsnummer. Dit dossierstelsel is reeds in de jaren-1860 ontwikkeld en toegepast op een gedeelte van de eigentijdse archivering. Het heeft er alle schijn van, dat men in die tijd ook doende is geweest om het bestaande verbaal-archief ten dele om te werken naar hetzelfde dossierstelsel.</p>
+        <p>De archieven van het ministerie en daaronder ressorterende instellingen over het tijdvak 1813-1870 zijn bij drie overdrachten in het eerste kwart van de 20e eeuw in beheer gekomen van het Algemeen Rijksarchief. Zij werden daar ieder afzonderlijk geïnventariseerd, waarbij wel steeds, per archiefvormer, de nummeringen van latere overdrachten werden aangesloten op die van de eerdere. Naderhand volgden verschillende kleinere overdrachten, die uiteindelijk in 1947 in een vierde deeltoegang werden samengevat. Het resultaat van dit alles was, dat de archieven van ministerie en de onderhorigheden weliswaar ieder voor zich als een beheerseenheid waren opgevat (eenheids-nummeringen), maar dat de toegangen van iedere beheerseenheid steeds over vier verschillende deel-inventarissen verspreid waren.</p>
+        <p>De caesuur van 1870/71 is bij deze overdrachten niet altijd strikt toegepast, zodat in de vier toegangen op beperkte schaal archiefmateriaal van nà 1870 terecht kwam. Bij successieve overdrachten in de jaren 1970 en -80 werden vervolgens de archieven van het ministerie en onderhorigheden van nà 1870 overgedragen, zonder het reeds overgedragen materiaal uit dat tijdvak, dat dus was aangehaakt bij het archief uit het tijdvak 1813-1870, werd overgeheveld.</p>
+        <p>In 1970 zijn voorts de toegangen op de archieven van gezantschappen en consulaten losgemaakt van de toegangen op het ministerie-archief 1813-1870. In 1990 kwam vervolgens een tweetal nieuwe toegangen op het departementaal archief 1813-1870 gereed: toegang 2.05.02 beschreef de reeks ratificaties, en toegang 2.05.01 het overige archiefmateriaal van het ministerie. Terecht zonderde de inventarisator het materiaal van nà 1870 af. Zo kwam het enigszins tussen wal en schip te hangen. De "restbescheiden 1871-1940" zijn daarom tot een zelfstandige eenheid gegroepeerd en in de onderhavige inventaris beschreven. Overigens bleek, dat enkele stukken van vòòr 1871 toch bij deze restanten waren achtergebleven. Deze zijn uiteraard weer toegevoegd waar dat behoort, en bijgeschreven in inventaris 2.05.01.</p>
+        <p>De restbescheiden 1871-1940 zijn in overwegende mate afkomstig uit de categorieën A VI, VII en IX van de oorspronkelijke vier toegangen uit de eerste helft van deze eeuw. Deze codering heeft dus niets van doen met het latere dossierstelsel, maar is ontleend aan de indelingssystematiek van de vier oude inventarissen, waarbij hoofdgroep A stond voor "archief van het ministerie". Subcategorie VI beschreef bescheiden betreffende de grensregelingen met Pruisen, VII die met Hannover, en IX die met België <note>
+            <p>Voor verwante stukken wordt verwezen naar: Algemeen Rijksar¬chief, Tweede Afdeling, archief van het ministerie van Buitenlandse Zaken, A-dossiers 1871-1918 (nummer toegang 2.05.03), inv.nrs. 10, 87, 247-251 (A-dossiers 15, 38, 122-125) inzake de grensregeling met Duitsland (Pruisen en Hannover), inv.nrs. 10-12 (A-dossier 22 inzake grensregeling met België); en Algemeen Rijksarchief, Tweede Afdeling, archief van het ministerie van Buitenlandse Zaken, A-dossiers 1919-1940 (nummer toegang 2.05.21) inv.nrs. 913, 983 en 1114-1118 (A-dossiers 15, 38 en 122-125 inzake grensregeling met Duitsland), inv. nrs. 914 (A-dossier 22 inzake grensregeling met België).</p>
+          </note> . Hoewel men zich destijds dus bewust was van het feit dat deze bescheiden tot het ministerie-archief behoorden, hadden zij toch een afzonderlijke nummering.</p>
+        <acqinfo>
+          <head>De verwerving van het archief</head>
+          <p>Overbrenging van een overheidsarchief</p>
+        </acqinfo>
+      </custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">2.05</subject>
+      </controlaccess>
+      <processinfo>
+        <head>Verantwoording van de bewerking</head>
+        <p>De oorspronkelijke indeling is in het navolgende gehandhaafd, de beschrijvingen zijn alleen redaktioneel iets opgefleurd; de nummering is uiteraard nieuw. Onderlinge verwijzingen zijn aan deze nieuwe nummering aangepast. Om onverklaarbare redenen ontbraken al in de oude toegangen een aantal nummers in de categorie A VI, terwijl bij andere beschrijvingen wel werd verwezen naar deze ontbrekende. Aangezien de oorzaak van dit raadsel niet is opgehelderd, zijn de voorheen ontbrekende nummers nu tussengevoegd met mededeling, dat beschrijvingen of stukken niet zijn aangetroffen.</p>
+        <p>De "overige bescheiden" lijken vooral op grond van hun formaten te zijn veroordeeld tot een eigen leven.</p>
+        <p>Voor alle eventualiteiten is tenslotte een concordans toegevoegd van vroegere naar aktuele nummers.</p>
+        <p>De gezamenlijke omvang van deze stukken is 0,8 m'.</p>
+      </processinfo>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Ministerie van Buitenlandse Zaken: Restbescheiden, 1871-1936, nummer toegang 2.05.48.01, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, BuZa / Restbescheiden, 2.05.48.01, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <descgrp type="appendices">
+      <head>Bijlagen</head>
+      <odd type="appendix_concordance">
+        <head>Concordans op de restbescheiden Buitenlandse Zaken 1871-1940</head>
+        <table colsep="1" frame="all" rowsep="1">
+          <tgroup cols="2">
+            <colspec colwidth="*"/>
+            <colspec colwidth="*"/>
+            <thead>
+              <row>
+                <entry>oude code en/of nr.</entry>
+                <entry>nieuw nr.</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>A VI</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>22</entry>
+                <entry>1</entry>
+              </row>
+              <row>
+                <entry>23</entry>
+                <entry>2</entry>
+              </row>
+              <row>
+                <entry>24</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry>25</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>26</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>27</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>28</entry>
+                <entry>7</entry>
+              </row>
+              <row>
+                <entry>29</entry>
+                <entry>8</entry>
+              </row>
+              <row>
+                <entry>30</entry>
+                <entry>9</entry>
+              </row>
+              <row>
+                <entry>31</entry>
+                <entry>10</entry>
+              </row>
+              <row>
+                <entry>32</entry>
+                <entry>11</entry>
+              </row>
+              <row>
+                <entry>33</entry>
+                <entry>12</entry>
+              </row>
+              <row>
+                <entry>34</entry>
+                <entry>13</entry>
+              </row>
+              <row>
+                <entry>35</entry>
+                <entry>14</entry>
+              </row>
+              <row>
+                <entry>36</entry>
+                <entry>15</entry>
+              </row>
+              <row>
+                <entry>37</entry>
+                <entry>16</entry>
+              </row>
+              <row>
+                <entry>38</entry>
+                <entry>17</entry>
+              </row>
+              <row>
+                <entry>39</entry>
+                <entry>18</entry>
+              </row>
+              <row>
+                <entry>40</entry>
+                <entry>19</entry>
+              </row>
+              <row>
+                <entry>41</entry>
+                <entry>20</entry>
+              </row>
+              <row>
+                <entry>42</entry>
+                <entry>21</entry>
+              </row>
+              <row>
+                <entry>43</entry>
+                <entry>22</entry>
+              </row>
+              <row>
+                <entry>44</entry>
+                <entry>23</entry>
+              </row>
+              <row>
+                <entry>45</entry>
+                <entry>24</entry>
+              </row>
+              <row>
+                <entry>46</entry>
+                <entry>25</entry>
+              </row>
+              <row>
+                <entry>47</entry>
+                <entry>26</entry>
+              </row>
+              <row>
+                <entry>48</entry>
+                <entry>27</entry>
+              </row>
+              <row>
+                <entry>49</entry>
+                <entry>28</entry>
+              </row>
+              <row>
+                <entry>50</entry>
+                <entry>29</entry>
+              </row>
+              <row>
+                <entry>51</entry>
+                <entry>30</entry>
+              </row>
+              <row>
+                <entry>52</entry>
+                <entry>31</entry>
+              </row>
+              <row>
+                <entry>53</entry>
+                <entry>32</entry>
+              </row>
+              <row>
+                <entry>54</entry>
+                <entry>33</entry>
+              </row>
+              <row>
+                <entry>55</entry>
+                <entry>34</entry>
+              </row>
+              <row>
+                <entry>56</entry>
+                <entry>35</entry>
+              </row>
+              <row>
+                <entry>57</entry>
+                <entry>36</entry>
+              </row>
+              <row>
+                <entry>58</entry>
+                <entry>37</entry>
+              </row>
+              <row>
+                <entry>59</entry>
+                <entry>38</entry>
+              </row>
+              <row>
+                <entry>60</entry>
+                <entry>39</entry>
+              </row>
+              <row>
+                <entry>61</entry>
+                <entry>40</entry>
+              </row>
+              <row>
+                <entry>62</entry>
+                <entry>41</entry>
+              </row>
+              <row>
+                <entry>63</entry>
+                <entry>42</entry>
+              </row>
+              <row>
+                <entry>64</entry>
+                <entry>43</entry>
+              </row>
+              <row>
+                <entry>65</entry>
+                <entry>44</entry>
+              </row>
+              <row>
+                <entry>66</entry>
+                <entry>45</entry>
+              </row>
+              <row>
+                <entry>67</entry>
+                <entry>46</entry>
+              </row>
+              <row>
+                <entry>68</entry>
+                <entry>47</entry>
+              </row>
+              <row>
+                <entry>69</entry>
+                <entry>48</entry>
+              </row>
+              <row>
+                <entry>70</entry>
+                <entry>49</entry>
+              </row>
+              <row>
+                <entry>71</entry>
+                <entry>50</entry>
+              </row>
+              <row>
+                <entry>72</entry>
+                <entry>51</entry>
+              </row>
+              <row>
+                <entry>73</entry>
+                <entry>52</entry>
+              </row>
+              <row>
+                <entry>74</entry>
+                <entry>53</entry>
+              </row>
+              <row>
+                <entry>75</entry>
+                <entry>54</entry>
+              </row>
+              <row>
+                <entry>76</entry>
+                <entry>55</entry>
+              </row>
+              <row>
+                <entry>77</entry>
+                <entry>56</entry>
+              </row>
+              <row>
+                <entry>78</entry>
+                <entry>57</entry>
+              </row>
+              <row>
+                <entry>79</entry>
+                <entry>58</entry>
+              </row>
+              <row>
+                <entry>80</entry>
+                <entry>59</entry>
+              </row>
+              <row>
+                <entry>81</entry>
+                <entry>60</entry>
+              </row>
+              <row>
+                <entry>82</entry>
+                <entry>61</entry>
+              </row>
+              <row>
+                <entry>83</entry>
+                <entry>62</entry>
+              </row>
+              <row>
+                <entry>84</entry>
+                <entry>63</entry>
+              </row>
+              <row>
+                <entry>85</entry>
+                <entry>64</entry>
+              </row>
+              <row>
+                <entry>86</entry>
+                <entry>65</entry>
+              </row>
+              <row>
+                <entry>87</entry>
+                <entry>66</entry>
+              </row>
+              <row>
+                <entry>88</entry>
+                <entry>67</entry>
+              </row>
+              <row>
+                <entry>89</entry>
+                <entry>68</entry>
+              </row>
+              <row>
+                <entry>90</entry>
+                <entry>69</entry>
+              </row>
+              <row>
+                <entry>91</entry>
+                <entry>70</entry>
+              </row>
+              <row>
+                <entry>92</entry>
+                <entry>71</entry>
+              </row>
+              <row>
+                <entry>93</entry>
+                <entry>72</entry>
+              </row>
+              <row>
+                <entry>94</entry>
+                <entry>73</entry>
+              </row>
+              <row>
+                <entry>95</entry>
+                <entry>74</entry>
+              </row>
+              <row>
+                <entry>A VII</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>25</entry>
+                <entry>75</entry>
+              </row>
+              <row>
+                <entry>26</entry>
+                <entry>76</entry>
+              </row>
+              <row>
+                <entry>27</entry>
+                <entry>77</entry>
+              </row>
+              <row>
+                <entry>28</entry>
+                <entry>78</entry>
+              </row>
+              <row>
+                <entry>29</entry>
+                <entry>79</entry>
+              </row>
+              <row>
+                <entry>30</entry>
+                <entry>80</entry>
+              </row>
+              <row>
+                <entry>31</entry>
+                <entry>81</entry>
+              </row>
+              <row>
+                <entry>32</entry>
+                <entry>82</entry>
+              </row>
+              <row>
+                <entry>33</entry>
+                <entry>83</entry>
+              </row>
+              <row>
+                <entry>34</entry>
+                <entry>84</entry>
+              </row>
+              <row>
+                <entry>35</entry>
+                <entry>85</entry>
+              </row>
+              <row>
+                <entry>36</entry>
+                <entry>86</entry>
+              </row>
+              <row>
+                <entry>37</entry>
+                <entry>87</entry>
+              </row>
+              <row>
+                <entry>38</entry>
+                <entry>88</entry>
+              </row>
+              <row>
+                <entry>39</entry>
+                <entry>89</entry>
+              </row>
+              <row>
+                <entry>40</entry>
+                <entry>90</entry>
+              </row>
+              <row>
+                <entry>41</entry>
+                <entry>91</entry>
+              </row>
+              <row>
+                <entry>42</entry>
+                <entry>92</entry>
+              </row>
+              <row>
+                <entry>A IX</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>44</entry>
+                <entry>93</entry>
+              </row>
+              <row>
+                <entry>3582</entry>
+                <entry>94</entry>
+              </row>
+              <row>
+                <entry>3583</entry>
+                <entry>95</entry>
+              </row>
+              <row>
+                <entry>3584</entry>
+                <entry>96</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </odd>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">1</unitid>
+          <unittitle>Grensscheiding met Pruisen</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472207" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb668a3d-05b7-4012-812e-1a8580d6ad16</unitid>
+            <unittitle>Proces-verbaal van heroprichting en bevestiging van de omgevallen grenspaal 213.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1871">1871 sep 27</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472208" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1876d3f2-7da8-4419-9f8b-c7d8adc87ad7</unitid>
+            <unittitle>Overeenkomst tot regeling van de grensscheiding tussen Süderwick (Pruisen) en Dinxperlo (Nederland), met kaart waarop de plaatsen van palen 179-186, 730 en 731 zijn aangegeven, en bijlagen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1872">1872 aug 12</unitdate>
+            <physdesc>5 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 4.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472209" type="ABS">3</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6985bfb9-0f62-4d5c-8481-3f2250df7b45</unitid>
+            <unittitle>Proces-verbaal van plaatsing van grenspalen bedoeld in het verdrag van 11 december 1868.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1874">1874 sep 17</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Voor het genoemde verdrag zie: archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3735.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472210" type="ABS">4</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/16ba90df-d426-4ce0-8dce-f6e096591d98</unitid>
+            <unittitle>Verklaring betreffende de wijziging van lengte en kleur van de grenspalen bedoeld in art. 2 van de hierboven onder nr. 2 genoemde overeenkomst.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1877">1877 jun 07</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472211" type="ABS">5</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/48fddc2d-1e5d-4e22-80dd-1ade2bad1252</unitid>
+            <unittitle>Overeenkomst van 8 mei 1879 betreffende de grens tussen de gemeenten Gendringen en Anholt (grenspalen 721 en 722bis), met aangehechte kaart en bijlagen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1879/1881">1879-1881</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472212" type="ABS">6</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f833be8c-1c17-4e74-b0fe-486e7a7868e3</unitid>
+            <unittitle>Overeenkomst van 22 augustus 1879 betreffende de grensscheiding langs de gemeenten Winterswijk (Nederland) en Barlo (Pruisen), tussen de grenspalen 758 en 759, met de Nederlandse akte van bekrachtiging, kaart en proces-verbaal van uitvoering der overeenkomst.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1879/1882">1879-1882</unitdate>
+            <physdesc>4 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472213" type="ABS">7</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3b8bbec-e1a3-4f3d-b42a-883a9426007e</unitid>
+            <unittitle>Overeenkomst van 12 mei 1880 tot grensregeling tussen de gemeenten Eibergen (Nederland) en Ammerloe (Pruisen) bij grenssteen 38 en grenspaal 813, met aangehechte kaart en akte van bekrachtiging.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1880">1880</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie ook nr. 8.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472214" type="ABS">8</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36bce50d-de2b-479f-9627-40541fa8f21f</unitid>
+            <unittitle>Overeenkomst van 16 augustus 1883 betreffende herstelling van de grensaanduiding tussen de gemeenten Eibergen en Ammerloe en over de wijziging van de nummers van grenspalen 812-862 in 809-862, met kaart, akte van bekrachtiging en proces-verbaal.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1885">1885</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+          <odd>
+            <p> De kaart geeft de plaatsen van palen 830 en 831 en de tussenpalen 830 a-m. Zie ook nrs. 7, 14-17.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472215" type="ABS">9</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/10498c7c-33ac-4a9a-b3b7-80fc3be83347</unitid>
+            <unittitle>Verklaring betreffende de heroprichting van grenspalen 562-563.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1891">1891 sep 28 en nov 18</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472216" type="ABS">10</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/10f27554-5591-4a30-8b26-d2e7715c06cd</unitid>
+            <unittitle>Verklaring betreffende de oprichting van nieuwe grenspalen van beide zijden van de spoorweg Straelen-Venlo tussen palen 476 en 477.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1892">1892 mrt 24</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472217" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/712faf71-f999-45e9-8ffe-07f39cbdff4e</unitid>
+            <unittitle>Protocol van vaststelling der standplaatsen van de nieuwe palen vermeld in nr. 10.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1893">1893 mrt 18</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472218" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7cad8945-d1ec-4fa7-ad0c-f0499b1e1bdf</unitid>
+            <unittitle>Protocol van vernieuwing van de grensscheiding, met bijlagen en beschrijving van de plaatsen van tussenpalen tussen de palen 325 en 326.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1895">1895 jul 29</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3727, alsmede nr. 13 hieronder.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472219" type="ABS">13</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7f6a8de-ba77-4365-9ed9-a846f87f08ba</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472220" type="ABS">14</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/db24d343-ba93-4432-ae60-c0322f31d6f7</unitid>
+            <unittitle>Eindprotocol betreffende de vaststelling van de grens bij palen 36 en 37 en van het onderzoek van de grens Overijssel-Westfalen tussen palen 832 en 857, met bijlagen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1896">1896 nov 05</unitdate>
+            <physdesc>6 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 8, 15-18, 21.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472221" type="ABS">15</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3039d538-d00d-4894-93c2-913e8e3d0074</unitid>
+            <unittitle>Overeenkomst tot wijziging van het eindprotocol vermeld onder nr. 14.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1898">1898 okt 05</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 14, 16-18, 21.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472222" type="ABS">16</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df0377d7-7c73-41e3-a962-f185249d87ad</unitid>
+            <unittitle>Proces-verbaal van verbetering en afbakening van de grens tussen palen 403-406, 17 okt 1898, met aanvullend proces-verbaal, 12 dec 1902.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1898/1902">1898, 1902</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 17.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472223" type="ABS">17</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59781f2f-6c3e-4c7d-99c2-a079e998780b</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472224" type="ABS">18</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58b6f1b9-9f36-4d04-b24d-9a123521f7d9</unitid>
+            <unittitle>Protocol betreffende de werkzaamheden ter uitvoering van het protocol vermeld in nr. 14.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1899">1899 dec 16</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 14, 15, 17.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472225" type="ABS">19</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec1a1d53-b084-4a25-b10f-7c047469c60e</unitid>
+            <unittitle>Verdrag betreffende de verbetering van het grensgedeelte van de Bocholter AA, 18 apr 1900, met minuut van de Nederlandse akte van bekrachtiging en volmacht voor de Nederlandse gedelegeerden.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1899/1900">1899, 1900</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472226" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/26218a0d-8f38-4d6a-ad43-d56f65e0fd9f</unitid>
+            <unittitle>Proces-verbaal van grensopneming tussen de palen 196a en 212, met 21 kaarten, 2 mei 1900, en toegevoegde brief van de Pruisische regeringspresident over aanvulling en verbetering, 7 nov 1901.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900/1901">1900, 1901</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472227" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f72b4dff-4347-4c02-ace9-e74100236287</unitid>
+            <unittitle>Slotprotocol van beëindiging van de werkzaamheden, welke blijkens het protocol vermeld in nr. 18 nog onafgedaan waren, met kaarten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900">1900 jun 30</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 14-16, 18.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472228" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/898bf239-70bc-4cd5-9243-8c99f3cd7b36</unitid>
+            <unittitle>Proces-verbaal van verplaatsing van de dubbele grenspalen 271 en 272 nabij Mindergangelt.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900">1900 dec 14</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472229" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0ecfb8e-5c56-49a7-a210-8250a7d42dd3</unitid>
+            <unittitle>Processen-verbaal van verificatie van de grens, herstel van grenspaal 200 en de plaatsing van paal 203a.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1901">1901 apr 25/26</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 20.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472230" type="ABS">24</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a532b7c0-768a-4231-8fb2-ee25079a696f</unitid>
+            <unittitle>Overeenkomst tot regeling van het fabrieksverkeer aan de Nederlands-Duitse grens ter vervanging van de op 30 juni 1899 buiten werking getreden voorlopige schikking dienaangaande van 26 juni 1816, met de Duitse akte van ministeriële bekrachting en minuut van de Nedrlandse akte.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1901">1901 jun 05</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3723.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472231" type="ABS">25</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5b90676-f1e4-4e6b-8627-194c2758435b</unitid>
+            <unittitle>Proces-verbaal van 31 okt 1902 tot aanvulling van het generaal proces-verbaal van 23 sep 1818, met kaarten, inz. grenspalen 635-637.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1902/1904">1902-1904</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3724.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472232" type="ABS">26</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bdc1118d-18cd-4bab-9ea6-0ed321b43d24</unitid>
+            <unittitle>Verhandeling betreffende de wijziging van par. 5 van het reglement van onderhoud van het kanaal vanaf de Neder-Hettische landweer door Bergerbroek tot aan de Oude Rijn, nabij Elten, van 13 jun 1836.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1904">1904 mei 20</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3731.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472233" type="ABS">27</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e3551f9-e57a-4606-9eac-6be0d9c090db</unitid>
+            <unittitle>Proces-verbaal van vaststelling van de grens tussen palen 348 en 349, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1905">1905 jan 30</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472234" type="ABS">28</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23c38c66-604e-4d5c-aab7-6c222babfb97</unitid>
+            <unittitle>Proces-verbaal van heroprichting van grenspalen 56-61 op de grens der gemeente Lonneker.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1905">1905 sep 22</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 29, 30.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472235" type="ABS">29</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/643099e6-1bff-4c70-9fc4-a8e3951ed5f6</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472236" type="ABS">30</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7b7e8e42-5e28-4137-81ff-0a8d5e566ff1</unitid>
+            <unittitle>Protocol van herplaatsing van grenspalen 56/-58/845, 60/-en 61/845 op de grens van Lonneker, met kaarten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1905">1905 sep 22</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 28, 29.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472237" type="ABS">31</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3ce7664-e2ea-4b9e-b98a-2b7d7eaace61</unitid>
+            <unittitle>Proces-verbaal van grensonderzoek langs de gemeente Groesbeek tussen palen 622 en 632. Afschriften en vertaling, met kaarten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1906">1906 okt 29</unitdate>
+            <physdesc>5 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 32.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472238" type="ABS">32</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa2563cd-43fa-4ac0-a797-0f2521925eb3</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472239" type="ABS">33</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5794f69c-7563-43dd-8088-d01a40d657b4</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 21a/837.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1909">1909 dec 16</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472240" type="ABS">34</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/22c33394-c243-457c-add6-5a2a507cac27</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472241" type="ABS">35</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/afaee9a6-da5c-4822-bce6-242ec68da44b</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van paal 20/837 (Haaksbergen-Lonneker), met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1909">1909 feb 10</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472242" type="ABS">36</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cf004e7-1695-4876-bca1-5455cfc0bf58</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van grenspalen 43/- en 44/844, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1909">1909 jun 20</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472243" type="ABS">37</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8b6da68-b940-4e37-81cc-893a98d52e14</unitid>
+            <unittitle>Protocol van onderzoek naar grenspalen 40/- tot 41/843 en 43/- tot 44/844.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1909">1909 okt 09</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 36 en 38.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472244" type="ABS">38</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/80ef7440-0024-43cd-96b2-2a5a33e2882c</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472245" type="ABS">39</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3545da4c-7382-48d8-8e0d-b6833baa91cc</unitid>
+            <unittitle>Protocol van vaststelling van de grens tussen palen 622 en 632 langs de gemeente Groesbeek.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1910">1910 jul 29</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3724, en nrs. 31, 32 hierboven.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472246" type="ABS">40</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf6718e4-8110-43c6-accb-6639f9808cac</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472247" type="ABS">41</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7493169-a73c-4a83-87b9-e86d4ba181c9</unitid>
+            <unittitle>Kaart van de door meting vastgestelde plaatsen van grenspalen 168-170, 750 en 751 langs de gemeente Aalten. Afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1911">[1911]</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472248" type="ABS">42</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/43527574-4c6b-440d-9cb1-72141ccee96a</unitid>
+            <unittitle>Proces-verbaal van plaatsing van grenspalen 176 a-i en 177 a-d tussen palen 176/736, 177/735 en 176/734, langs de oude Aaltense zandweg. Afschrift, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1912">1912 mei 02</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472249" type="ABS">43</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f03d817-20a4-4678-83e9-49b6e3f74b0c</unitid>
+            <unittitle>Proces-verbaal van verbetering van de grensafbakening tussen palen 171/749 en 174/747, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1912">1912 dec 18</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 46.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472250" type="ABS">44</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d440c320-60ba-4503-a29b-6720d26e258e</unitid>
+            <unittitle>Proces-verbaal van verbetering van de grensafbakening tussen palen 175o en 745, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1912">1912 dec 18</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 46.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472251" type="ABS">45</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/086b4abe-20bb-4e1e-86d0-1e1a650abeb3</unitid>
+            <unittitle>Proces-verbaal van verbetering van de grensafbakening tussen palen 725 en 726, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 jan 15</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 46.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472252" type="ABS">46</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e61d1023-fded-48cf-8461-4e7b3fd7f963</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472253" type="ABS">47</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/06c1bfd0-8167-41e8-8b4c-9c89f73a3b9c</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 19a/836, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 feb 19</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 52.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472254" type="ABS">48</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e8f18fc-1998-4476-966f-1ff1c5a0b49a</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspalen 20c/837 en 20d/837, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 feb 19</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 52.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472255" type="ABS">49</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/53badb52-8808-44ca-ad0f-fb135bf14689</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 33a, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 feb 19</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 52.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472256" type="ABS">50</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ba2a109-722b-4ff7-891a-d1d37676b6c1</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 40a, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 feb 19</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 52.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472257" type="ABS">51</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f7c757d-c951-4232-8ca8-08b45d97762e</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 47a, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 feb 19</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 52.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472258" type="ABS">52</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5872415e-fcef-4022-b87f-20302d807f22</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472259" type="ABS">53</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/593d205b-6b51-43f3-a20e-ccfcd7ae265b</unitid>
+            <unittitle>Proces-verbaal van plaatsing van nieuwe tussenpalen 809a en 809b, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 aug 12</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 54.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472260" type="ABS">54</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90d9f34b-8643-40f6-a584-10233bce2b81</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472261" type="ABS">55</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b149684-d47b-4f1b-9fbb-edd8abc61c19</unitid>
+            <unittitle>Proces-verbaal van vervanging van de houten grenspalen tussen palen 830 en 830a door stenen palen, en de plaatsing van nieuwe tussenpalen 830 n-r, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 sep 16</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 56.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472262" type="ABS">56</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e4997b3-9b5e-44e5-9a3a-50ab22154ce5</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472263" type="ABS">57</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/81fdf886-0618-40de-a66f-7f4f98544f38</unitid>
+            <unittitle>Proces-verbaal van plaatsing van nieuwe grensstenen nrs. 101 a-b, 102 a-b, 103 a-c aan de grens van Winterswijk, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1913">1913 nov 11</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 58.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472264" type="ABS">58</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86f02911-a66c-41c6-8130-d643fe10e8f4</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472265" type="ABS">59</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/47f4f589-9677-44e0-bfd1-671ad2f264fa</unitid>
+            <unittitle>Nieuw reglement van onderhoud van het kanaal vanaf de Neder-Hettische landweer door Bergerbroek tot aan de Oude Rijn, nabij Elten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1914">1914 sep 29</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+          <odd>
+            <p> Zie archief van het ministerie van Buitenlandse Zaken 1813-1870 (nummer toegang 2.05.01) inv.nr. 3731, en nr. 26.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472266" type="ABS">60</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/751286bd-06ba-4476-b51a-db3a712dca3b</unitid>
+            <unittitle>Proces-verbaal van plaatsing van de nieuwe grenspaal 174a tussen palen 174/- en 175/1766 (nieuw 747 en 746) op de grens van Aalten, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1915">1915 jun 05</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nrs. 43 en 61.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472267" type="ABS">61</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59194a78-ab90-46dc-bd93-22843e4f7ac4</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472268" type="ABS">62</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f8d386a-ae96-45eb-b88f-388b36ed043d</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van paal 847 aan de rechteroever der Glanerbeek gemeente Lonneker, met afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1917">1917 feb 03</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+          <odd>
+            <p> Zie nr. 63.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472269" type="ABS">63</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f669fe12-995b-4b32-9546-0acdfbb81615</unitid>
+            <unittitle>Reeds in de oorspronkelijke toegang-1927/1947 niet opgenomen. Stuk(ken) niet aangetroffen.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472270" type="ABS">64</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb7e7e80-9de6-4e89-9d30-7599ffc34076</unitid>
+            <unittitle>Protocol van inschakeling van een nieuwe steen tussen rijksgrensstenen 76 en 77/850, met een veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1923">1923 nov 23</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472271" type="ABS">65</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e87de57-5a02-481b-91b0-7559610c30e4</unitid>
+            <unittitle>Proces-verbaal van grensvaststelling tussen de stenen 757 en 758, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1926">1926 mei 18</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472272" type="ABS">66</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2f2e3de-2462-47e3-a8cf-1d3c762e6221</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van rijksgrenssteen 5/832 en herstelling van 6/832 op de grens van de gemeenten Ammeloe-Wennewick en Haaksbergen, met veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 okt</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472273" type="ABS">67</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/15ad4acc-7d6d-4662-a025-f831fc234200</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van rijksgrenssteen 78, met kaarten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 okt 31</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472274" type="ABS">68</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9400489e-fb3a-471b-ad95-9940e078d0b7</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van rijksgrenssteen 853, met kaarten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 okt 31</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472275" type="ABS">69</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8cd2575-692a-4f00-acc9-d14456d5211f</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van rijksgrenssteen 114, met veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 nov 18</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472276" type="ABS">70</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97b77af6-eb6b-40cc-8e3d-66c98f3932a8</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van rijksgrenssteen 29/840, met veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 nov 25</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472277" type="ABS">71</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b77cdf93-5bcb-4c14-86f5-6c8ce8a82ccd</unitid>
+            <unittitle>Proces-verbaal van vernieuwing en verplaatsing van rijksgrenssteen 848 bij Glanerbrug, met veldwerk en kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1935">1935 sep 25</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472278" type="ABS">72</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/06fbf8b0-f26e-4264-ad00-141f16d0f3aa</unitid>
+            <unittitle>Slotprotocol van vaststelling en afpaling van de grens langs de Koningsweg tussen palen 682 en 683.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1930">1930 jan 08</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472279" type="ABS">73</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6360e939-915e-42cd-9fac-0ed0a1f0ead1</unitid>
+            <unittitle>Protocol van vaststelling van het gemeenschappelijk grenspunt tussen Nederland, Duitsland en België bij Moresnet, grenssteen 193, met situatietekeningen en bijlage.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1922">1922 nov 08</unitdate>
+            <physdesc>4 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472280" type="ABS">74</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/be336e03-ba2d-4970-bfed-42de30dcc282</unitid>
+            <unittitle>Eindrapport over de vaststelling en herafpaling van de grens bij steen 12/834 langs de gemeenten Ammeloe en Haaksbergen, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1936">1936 okt 31</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">2</unitid>
+          <unittitle>Grensscheiding met Hannover</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472281" type="ABS">75</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f034d0f9-a2ab-4bca-9298-1fe31c2bd816</unitid>
+            <unittitle>Overeenkomst tot regeling van de indijking van de Dollard en de afwatering van Groningen op de Aa, met minuut van akte van bekrachtiging.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1874">1874 sep 23</unitdate>
+            <physdesc>1 stuk</physdesc>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <odd>
+            <p> Reeds in de toegang 1927/1947 opgegeven als "leeg omslag". Een aldaar aangetroffen potlood-aantekening maakt melding van uitlening aan "heer v. Heeckeren".</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472282" type="ABS">76</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9463c52-ad94-4d8d-9ee7-32d88f9b1553</unitid>
+            <unittitle>Overeenkomst met Pruisen tot vaststelling van de grens in het gedempte deel van de Aa (Thalweg) tussen palen 202 en 202a, met verklaring van verbetering der overeenkomst, en kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1882/1883">1882-1883</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472283" type="ABS">77</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/993f76cb-15e1-4a50-a0b5-a84eb97df350</unitid>
+            <unittitle>Proces-verbaal van plaatsing van grensaanduidingen in het gedempte deel van de Aa tussen palen 202 en 202a, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1884">1884</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472284" type="ABS">78</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0473762b-697a-4892-89b3-5b66c866859b</unitid>
+            <unittitle>Proces-verbaal betreffende de beginselen in acht te nemen bij het opmaken van een supplement op het grenstractaat van 2 juli 1824.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1889">1889</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472285" type="ABS">79</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/53328af8-4183-43d7-9be4-0415a421f7d0</unitid>
+            <unittitle>Eindprotocol betreffende de revisie van de grens tussen Nederland en Pruisen van 27 jun 1891, met daarop gestelde Pruisische akte van bekrachtiging, met acht supplementen tit het tractaat van 2 juli 1824 tussen Nederland en Hannover, en met vier processen-verbaal van 19 sep, 21 en 24 okt 1898 en 29 apr 1902, alle goedgekeurd 24 nov 1902.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1891/1902">1891-1902</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472286" type="ABS">80</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50b28256-4691-4d02-ae90-e74ad156614b</unitid>
+            <unittitle>Eindprotocol betreffende de afbakening van de grens in de Dollard, grenssteen 203b en grenspalen C, D en E, met kaart.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1896">1896 okt 27</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472287" type="ABS">81</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13499447-29f5-41bb-b9e0-0cf002fcf9b5</unitid>
+            <unittitle>Verslag van een bespreking van de werkzaamheden ter uitvoering van par. III van het onder nr. 79 genoemde protocol.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1897">1897 okt 07</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472288" type="ABS">82</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58fdbcac-90eb-478e-a802-b25ad426549a</unitid>
+            <unittitle>Aanvullingscroquis behorend bij het onder nr. 79 genoemde protocol, in 54 bladen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="z.d.">z.j.</unitdate>
+            <physdesc>1 pak</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472289" type="ABS">83</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4999ac0b-71f4-40b4-87e2-bc83996345bf</unitid>
+            <unittitle>Afschrift van nr. 82.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="z.d.">z.j.</unitdate>
+            <physdesc>1 pak</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472290" type="ABS">84</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b97887d-93f0-4e2e-b8d7-606374aef16c</unitid>
+            <unittitle>Verslag van een nadere bespreking van de werkzaamheden ter uitvoering van par. III van het onder nr. 79 genoemde protocol.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1902">1902 nov 24</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472291" type="ABS">85</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e746cc04-b686-4a3b-860b-32dd3c3cdb35</unitid>
+            <unittitle>Proces-verbaal van herplaatsing van paal 134 op de grens van Coevorden, met kaart van 14/18 dec 1899, en met supplement op het proces-verbaal.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900">1900 jun 05, jul 10</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472292" type="ABS">86</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/522fc3f0-c908-4a4b-aa75-47de376d96e4</unitid>
+            <unittitle>Tweede supplement tot het generaal proces-verbaal van grensafpaling tussen Nederland en het voormalige koninkrijk Hannover van 12 sep 1825, betreffende de grenslijn in de Dollard, ter uitvoering van par. III van het protocol genoemd in nr. 79; Nederlandse en Duitse teksten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1902">1902 nov 24</unitdate>
+            <physdesc>2 banden</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472293" type="ABS">87</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7570867-d9b9-4892-aed1-f319ba4e03b1</unitid>
+            <unittitle>Derde supplement tot het generaal proces-verbaal van grensafpaling tussen Nederland en het voormalige koninkrijk Hannover van 12 sep 1825, betreffende de grenslijn aan de Rammelbeek tussen de palen 41 en 42, met aanvullingscroquis in tweevoud.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1904">1904</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472294" type="ABS">88</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/82222273-83d2-461b-8f48-c38b723a15cf</unitid>
+            <unittitle>Proces-verbaal van verplaatsing van paal 198 op de grens van de gemeente Beerta, met kaart. Afschrift.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1911">1911 jul 5/6</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472295" type="ABS">89</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6b6be06-f46d-493f-bfdd-1f03b96d3656</unitid>
+            <unittitle>Verslag van de heroprichting van een tussensteen tussen grensstenen 30 en 31 en vòòr steen 27, met twee veldwerken.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1925">1925 apr 08</unitdate>
+            <physdesc>3 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472296" type="ABS">90</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c360bda1-8132-4097-885d-63f32d2fbc07</unitid>
+            <unittitle>Proces-verbaal van vernieuwing van de rijksgrenssteen 22, met veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1931">1931 apr 01</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472297" type="ABS">91</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/006499e6-6e31-488f-92f1-7009eea3fa58</unitid>
+            <unittitle>Proces-verbaal van vaststelling van de Nederlands-Pruisische grens tussen de stenen 60, 61 en 62, nabij Denekamp, met veldwerk.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1925">1925 aug 03</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472298" type="ABS">92</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/80ebbb97-62ba-42bf-b1be-5e604c25b52a</unitid>
+            <unittitle>Proces-verbaal van vernieuwing van rijksgrenssteen 46, met veldwerk en een foto in vier stukken.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1927">1927 nov 08</unitdate>
+            <physdesc>1 omslag</physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">3</unitid>
+          <unittitle>Grensscheiding met België</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472299" type="ABS">93</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1aac46e5-36ad-439b-b6c7-2672bd1f655d</unitid>
+            <unittitle>Bijlagen tot de overeenkomst van grensregeling tussen Baarle-Nassau en Baarle-Hertog van 1892, o.m. behelzend: <lb/>- kaart van de gemeente Baarle-Nassau behorend bij de nota van 21 sep 1875 van de Nederlandse commissie inzake deze grensregeling, 1 stuk; <lb/> - kaart van de voorgestelde grensregeling behorend bij een brief van de Nederlandse commissarissen aan de Commissaris des Konings in Noord-Brabant, 1882, 1 stuk;<lb/> - kaarten van de voorgestelde grensregeling behorend bij een brief van de Nederlandse commissarissen aan de minister van Binnenlandse Zaken, 1885, 2 stukken;<lb/> - kaart van de voorgestelde grensregeling van de ingenieur-verificateur van het kadaster te 's-Hertogenbosch, 1886, 1 stuk<lb/> - kaarten van de internationale commissie voor deze grenswijziging, 1887, 2 stukken;<lb/> - kaart van de voorgestelde grenswijziging behorend bij een brief van 21 oktober 1892 van de Nederlandse commissarissen aan de minister van Binnenlandse Zaken, 1892, 1 stuk;<lb/> - kaarten van de voorgestelde grenswijziging behorend bij een brief van 28 november 1892 van de Nederlandse commissarissen aan de minister van Binnenlandse Zaken, 1892, 3 stukken;<lb/> - leggers van de gemeente Baarle-Nassau betreffende de eigendommen welke van Nederland naar België overgaan.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1875/1892">1875-1892</unitdate>
+            <physdesc>1 pak</physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">4</unitid>
+          <unittitle>Overige stukken</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472300" type="ABS">94</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c365f6d0-6487-4279-8d14-84519f286c0e</unitid>
+            <unittitle>Repertoires van akten onderhevig aan het recht van registratie.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1897/1907">1897-1907</unitdate>
+            <physdesc>3 katernen</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472301" type="ABS">95</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a1fcf96-2baf-4fa2-90bf-6a18cd7d8a3b</unitid>
+            <unittitle>Tekeningen, foto's en kaarten behorend bij een verslag van een zending naar Zuid-Afrika.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1899/1900">1899-1900</unitdate>
+            <physdesc>1 doos</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1472302" type="ABS">96</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9efb1333-db1e-4184-8490-0cebcb5dfeaa</unitid>
+            <unittitle>Verzoekschriften van Nederlandse vrouwen aan H.M. om bemiddeling tot behoud van de onafhankelijkheid van de Zuid-Afrikaanse republieken.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900">1900</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

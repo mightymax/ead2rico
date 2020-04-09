@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/8cd0c1a7-0570-480b-8f0c-11178adace83"
+  rdf:about="record/1.10.05.02">
+    <rico:identifier>1.10.05.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1982</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/1150" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/1.10.05.02/i1" />
+      <rico:instantiates rdf:resource="record/1.10.05.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120913</rico:hasModificationDate>
+        <html:p>13 september 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120924</rico:hasModificationDate>
+        <html:p>24 september 2012</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van G. Cnoll [levensjaren
+        1644-1710], 1678-1709</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/8cd0c1a7-0570-480b-8f0c-11178adace83" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/1150">
+    <rico:describedBy rdf:resource="record/1.10.05.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>1150</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Cnoll</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Cnoll</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1678</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1709</rico:endDate>
+    <rico:date>1678-1709</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cnoll, Govert (1644-1710)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Govert Pietersz. Cnoll werd geboren te Delft als zoon van Pieter
+          Govertsz. Cnoll en Anna van Mierops. Zijn exacte geboortedatum is niet bekend.
+          Hij werd op 16 mei 1644 gedoopt in de Oude Kerk te Delft. G.A. Delft, D.T.B.
+          nr. 9.Op 20 juli 1680 trouwt hij met Elisabeth Catherina KetelG.A. Delft,
+          D.T.B. nr. 132(in de collectie zijn enige brieven aanwezig van Cnolls zwager,
+          majoor Barend Ketel).</html:p>
+          <html:p>Cnolls loopbaan in Indië begon in 1686. Hij ging erheen als sergeant
+          per schip Boswijk onder commando van Jeroen Rijkwaart voor de Kamer Zeeland van
+          de VOC op 4 februari van dat jaar kwam Cnoll te Batavia aan. Hij werd
+          aangesteld tot sergeant te Jambi, waar de VOC de vorst van Jambi een aanval
+          hielp afslaan van de radja van Johor en de sultan van Palembang. In januari
+          1694 werd hij in diezelfde plaats bevorderd tot vaandrig. Met deze rang ging
+          hij in 1697 mee naar Perzië met de schepen Oostsouburg en Vosmaer om de Perzen
+          te helpen Maskat te veroveren op de Arabieren en in maart 1699 ging hij als
+          luitenant mee in een expeditie naar Sukadana (Borneo)</html:p>
+          <html:p>In november 1701 begonnen Cnolls werkzaamheden op de Noord-Oostkust van
+          Java. hij werd toen aangesteld tot kapitein-luitenant van het garnizoen te
+          Semarang.</html:p>
+          <html:p>Met het optreden van Joan van Hoorn als gouverneur-generaal van Indië,
+          bij wie hij zeer in de gunst stond, begon zijn snelle promotie. Eind november
+          van het jaar 1705 werd hij aangesteld tot commandeur van Java's Noord-Oostkust,
+          in opvolging van Herman de Wilde en Michiel Ram. Van mei 1706 - november 1707
+          had hij met die rang de leiding van een grote Javaanse expeditie, in welke
+          hoedanigheid hij veel tot de onderwerping van dit eiland heeft bijgedragen
+          (meer hierover in de volgende paragraaf).</html:p>
+          <html:p>Eind december van dat jaar 1707 werd Cnoll commissaris over Java's
+          Noord-Oostkust en Cirebon. Hij werd tevens aangewezen tot landdrost van de
+          Bataviase omelanden, welke betrekking hij zou aanvaarden als zijn werkzaamheden
+          elders op Java zouden zijn afgelopen, maar op 26 juli 1709 wordt hem toegestaan
+          om te repatriën. Hij doet dit als schout-bij-nacht van de retourvloot waarmee
+          Joan van Hoorn als admiraal thuisvoer, per schip Hoedenskerke voor
+          Delft.</html:p>
+          <html:p>In 1710 sterft Govert Cnoll te Delft. Hij werd op 26 juli van dat jaar
+          aldaar begraven.G.A. Delft, D.T.B. nr. 47.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Bevat ambtelijke stukken van Govert Cnoll, VOC-dienaar 1686-1709 en o.m.
+      commandeur van Java's Oostkust.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>130 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

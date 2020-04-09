@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:19:12 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::1.10.90.03::Van Bylandt, Supplement III)//NL" url="http://proxy.handle.net/10648/b9dbe3f0-29d7-4e57-8976-9ea26968b206" urn="1.10.90.03.ead.xml">1.10.90.03</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de familie Van Bylandt: Supplement III, 1578-1900</titleproper>
+        <author>J.A.A. Bervoets</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1987">1987</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Ancella Steketee, 
+		  <date calendar="gregorian" era="ce" normal="20090618">18 juni 2009</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+          <title linktype="simple">Leidraad bij de lessen in het ordenen en beschrijven van archieven</title>, geheel herziene editie, Stichting Archiefschool, 's-Gravenhage 1983</bibref>;
+                  <bibref linktype="simple">
+          <title linktype="simple">Lexicon der Nederlandse Archieftermen</title>, Stichting Archiefpublikaties, 's-Gravenhage 1983</bibref>.
+                </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+<date normal="20110421" era="ce" calendar="gregorian">21 april 2011</date>
+<item><num>1</num>Lijst verwante archieven ingehangen door <name>Anita Bouwman</name>.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce" normal="20121213">13 december 2012</date>
+        <item>
+          <num>2</num> Afbeelding ingevoegd door <name>Hans Punt</name>.</item>
+      </change> 
+      <change>
+				<date calendar="gregorian" era="ce" normal="20131017">17 oktober 2013</date>
+				<item>
+					<num>3</num>Bijlage ingevoegd door <name>Hans Punt</name>.</item>
+			</change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Van Bylandt, Supplement III</unittitle>
+      <unittitle type="short">Bylandt, van suppl. 3</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1578/1900" type="inclusive">1578-1900</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">1144</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">1.14 meter; </extent>
+        
+      <extent unit="files">48 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, charters en munten.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <famname>Bylandt, van</famname>
+      </origination>
+      <origination>
+        <persname>Bylandt, Willem Frederik graaf van (1771-1855)</persname>
+      </origination>
+      <origination>
+        <persname>Bylandt, Eugène Jean Alexander graaf van (1807-1876)</persname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat met name genealogieën van en over dit geslacht en verder nog enige losse stukken, waaronder brieven en stukken over de school- en studietijd (met tevens enkele dissertaties).</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <p>De archieven van het geslacht Van Bylandt worden verspreid over een aantal archiefdiensten in Nederland bewaard. De Eerste Afdeling van het Algemeen Rijksarchief beheerde tot op heden twee archieven Van Bylandt: het archief van de familie Van Bylandt, gelicht uit een omvangrijker familiearchief Van Bylandt, dat in 1950 door jonkvrouwe M.A.O.C. gravin Van Bylandt aan het gemeentearchief in Den Haag was geschonken (inventaris E.D. Eijken, 1961). En de familiearchieven Van Bylandt-Halt en Van Bylandt-Rheydt, die in 1969/1970 door de M. A.O.C. gravin Van Bylandt Stichting aan het Algemeen Rijksarchief in bruikleen waren gegeven (inventaris L. Balk, 1983).</p>
+        <p>Dit deel is door M.A.O.C. gravin Van Bylandt vóór de oorlog aan haar neef W.F.L. van Bylandt toevertrouwd. Oorspronkelijk maakte dit deel uit van het familiearchief Van Bylandt dat in 1969/1970 in bruikleen aan het Algemeen Rijksarchief werd afgestaan. Als de oorlogsomstandigheden dit niet hadden verhinderd zouden de hier onder III genoemde stukken wellicht onder berusting van de familiestichting Van Bylandt zijn geraakt en in 1969/1970 met de overige archiefstukken van de Stichting zijn meegekomen. De stukken arriveerden in 1986 op de Tweede Afdeling van het Algemeen Rijksarchief. J.A.A. Bervoets maakte hiervan een plaatsingslijst. Dit bestand kan als een aanvulling beschouwd worden op het familiearchief Van Bylandt-Halt omdat er naast stukken van Willem Frederik van Bylandt (1771-1855) ook stukken van nakomelingen van Jean Charles van Bylandt (1776-1841) in voorkomen.</p>
+        <p>Stamlijst van afstammelingen van Roeleman van Bylandt:</p>
+				<p>
+					<extptr actuate="onload" href="http://www.gahetna.nl/sites/default/files/afbeeldingen/toegangen/NL-HaNA_1.10.90.01-03_Lijst-afstammelingen.jpg" linktype="simple" show="embed"/>
+				</p>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <acqinfo>
+          <p>Zending 1986.</p>
+        <p>Het archief is door schenking verworven.</p></acqinfo>
+      <acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is door schenking verworven.</p></acqinfo></custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">1.10</subject>
+      </controlaccess>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Van Bylandt, Supplement III, nummer toegang 1.10.90.03, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Bylandt, van suppl. 3, 1.10.90.03, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <relatedmaterial>
+        <head>Verwante archieven</head>
+			<p> 
+De nummers 1 t/m 5 verwijzen naar verwante archieven waar stukken te vinden zijn betreffende leden van de familie Van Bylandt (zie voor toegangnummers volgende tabel).
+</p>
+<table frame="none" colsep="0" rowsep="0"><head/>
+<tgroup cols="4">   <colspec colwidth="1*"/>
+            <colspec colwidth="4*"/>   
+               <colspec colwidth="1*"/>  
+                  <colspec colwidth="1*"/>  
+            <thead><row><entry/><entry>Leden familie Bylandt</entry><entry>Nr.</entry><entry>Inv. nrs</entry></row></thead>
+
+<tbody><row><entry>1.</entry><entry>Roeleman</entry><entry>4</entry><entry>1</entry></row>
+<row><entry/><entry/><entry>5</entry><entry>17</entry></row>
+<row><entry>2.</entry><entry>Albrecht Otto Roeleman Frederik</entry><entry>1</entry><entry>29, 30</entry></row>
+<row><entry/><entry/><entry>4</entry><entry>2</entry></row>
+<row><entry>3.</entry><entry>Alexander</entry><entry>1</entry><entry>32-39</entry></row>
+<row><entry/><entry/><entry>2</entry><entry>1, 2</entry></row>
+<row><entry>4.</entry><entry>Otto Anne</entry><entry>1</entry><entry>40-46</entry></row>
+<row><entry/><entry/><entry>2</entry><entry>3</entry></row>
+<row><entry/><entry/><entry>3</entry><entry>3</entry></row>
+<row><entry>5.</entry><entry>Willem Frederik</entry><entry>3</entry><entry>6-16</entry></row>
+<row><entry/><entry/><entry>4</entry><entry>12-73</entry></row>
+<row><entry/><entry/><entry>5</entry><entry>24-26</entry></row>
+<row><entry>6.</entry><entry>Jean Charles of Jan Carel</entry><entry>1</entry><entry>47-64</entry></row>
+<row><entry/><entry/><entry>2</entry><entry>4-12</entry></row>
+<row><entry/><entry/><entry>5</entry><entry>35, 36</entry></row>
+<row><entry>7.</entry><entry>Frederik Hugues Alexander</entry><entry>3</entry><entry>17</entry></row>
+<row><entry/><entry/><entry>4</entry><entry>74, 75</entry></row>
+<row><entry>8.</entry><entry>Edouard Henri Elphinstone</entry><entry>3</entry><entry>18</entry></row>
+<row><entry/><entry/><entry>4</entry><entry>76-99</entry></row>
+<row><entry>9.</entry><entry>Eugène Jean Alexander</entry><entry>1</entry><entry>65-90</entry></row>
+<row><entry/><entry/><entry>2</entry><entry>13-29</entry></row>
+<row><entry/><entry/><entry>c</entry><entry>28-34</entry></row>
+<row><entry>10.</entry><entry>Louis Eugène</entry><entry>3</entry><entry>19-38</entry></row>
+<row><entry/><entry/><entry>4</entry><entry>100-116</entry></row>
+<row><entry>11.</entry><entry>Anna Agnes Elisa(beth)</entry><entry>4</entry><entry>117-118</entry></row>
+<row><entry>12.</entry><entry>Willem Henry</entry><entry>3</entry><entry>38</entry></row>
+<row><entry/><entry>Christiaan Rynhold</entry><entry>4</entry><entry>119</entry></row>
+<row><entry>13.</entry><entry>Charles Malcolm</entry><entry>4</entry><entry>120-272</entry></row>
+<row><entry/><entry>Ernest George</entry><entry>5</entry><entry>37, 38</entry></row>
+<row><entry>14.</entry><entry>Alexander Willem Frederik</entry><entry>4</entry><entry>273, 274</entry></row>
+<row><entry>15.</entry><entry>Alfred Edouard Agenor</entry><entry>4</entry><entry>275</entry></row>
+<row><entry>16.</entry><entry>Carel Jan Emilius</entry><entry>1</entry><entry>91-92</entry></row></tbody></tgroup></table>
+  <p> </p>
+<table frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">   <colspec colwidth="1*"/>  
+       <colspec colwidth="7*"/>  <thead><row><entry>Nr. </entry><entry>Toegang</entry></row></thead>
+<tbody><row><entry>1</entry><entry>1.10.14 -Inventaris van het archief van de familie Van Bylandt, 1277-1908</entry></row>
+<row><entry>2</entry><entry>1.10.15 -Inventaris van de familie-archieven van de Familie Van Bylandt-Halt, Familie Van Bylandt-Rheydt, 1289-1970</entry></row>
+<row><entry>3</entry><entry>1.10.90.01 - Inventaris van het archief van W.F. graaf Van Bylandt [levensjaren 1771-1855] en zijn nakomelingen, (1459) 1787-1924</entry></row>
+<row><entry>4</entry><entry>1.10.90.02 - Inventaris van het archief van de familie Van Bylandt: Supplement II, 1669-1923</entry></row>
+<row><entry>5</entry><entry>1.10.90.03 - Inventaris van het archief van de familie Van Bylandt: Supplement III, 1578-1900</entry></row></tbody></tgroup></table>
+			
+
+      </relatedmaterial>
+      </descgrp>
+      <descgrp type="appendices">
+			<head>Bijlagen</head>
+			<odd type="appendix_concordance">				
+				<head>Concordantie van naam, inventaris en inventarisnummer</head>
+				<list type="ordered">
+					<item>Inventaris E.D. Eijken, 1961; Toegangnummer 1.10.14</item>
+					<item>Inventaris L. Balk, 1983; Toegangnummer 1.10.15</item>
+					<item>Plaatsingslijst J.A.A. Bervoets, 1984 (I); Toegangnummer 1.10.90.01</item>
+					<item>Voorlopige inventaris H.H. Jongbloed, 1985 (II); Toegangnummer 1.10.90.02</item>
+					<item>Plaatsingslijst J.A.A. Bervoets, 1986 (III);  Toegangnummer 1.10.90.03</item>
+				</list>
+				<table frame="all" colsep="1" rowsep="1">
+					<tgroup cols="3">
+						<thead>
+							<row>
+								<entry>Naam</entry>
+								<entry>Plaatsingslijst/inventaris</entry>
+								<entry>Inventarisnummers</entry>
+							</row>
+						</thead>
+						<tbody>
+							<row>
+								<entry>1. Roeleman</entry>
+								<entry>4</entry>
+								<entry>1</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>17</entry>
+							</row>
+							<row>
+								<entry>2. AIbrecht Otto Roeleman Frederik</entry>
+								<entry>1</entry>
+								<entry>29, 30</entry>
+							</row>
+							<row>
+							<entry/>
+							<entry>4</entry>
+							<entry>2</entry></row>
+							<row>
+								<entry>3. Alexander</entry>
+								<entry>1</entry>
+								<entry>32-39</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>2</entry>
+								<entry>1-2</entry>
+							</row>
+							<row>
+								<entry>4. Otto Anne</entry>
+								<entry>1</entry>
+								<entry>40-46</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>2</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>3</entry>
+								<entry>3</entry>
+							</row>
+							<row>
+								<entry>5.Willem Frederik</entry>
+								<entry>3</entry>
+								<entry>6-16</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>12-73</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>24-26</entry>
+							</row>
+							<row>
+								<entry>6. Jean Charles of Jan Carel</entry>
+								<entry>1</entry>
+								<entry>47-64</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>2</entry>
+								<entry>4-12</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>35, 36</entry>
+							</row>
+							<row>
+								<entry>7. Frederik Hugues  Alexander </entry>
+								<entry> 3</entry>
+								<entry>17</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>74, 75</entry>
+							</row>
+							<row>
+								<entry>8. Edouard Henri Elphinstone</entry>
+								<entry>3</entry>
+								<entry>18</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>76-99</entry>
+							</row>
+							<row>
+								<entry>9. Eugene Jean Alexander</entry>
+								<entry>1</entry>
+								<entry>65-90</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry> 2</entry>
+								<entry>13-29</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>28-34</entry>
+							</row>
+							<row>
+								<entry>10. Louis Eugene</entry>
+								<entry>3</entry>
+								<entry>19-38</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>100-116</entry>
+							</row>
+							<row>
+								<entry>11. Anna Agnes Elisa(beth)</entry>
+								<entry>4</entry>
+								<entry>117-118</entry>
+							</row>
+							<row>
+								<entry>12. Willem Henry Christiaan Rynhold</entry>
+								<entry>3</entry>
+								<entry>38</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>119</entry>
+							</row>
+							<row>
+								<entry>13. Charles Malcolm Ernest George</entry>
+								<entry>4</entry>
+								<entry>120-272</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>37, 38</entry>
+							</row>
+							<row>
+								<entry>14. Alexander Willem Frederik</entry>
+								<entry>4</entry>
+								<entry>273, 274</entry>
+							</row>
+							<row>
+								<entry>15. Alfred Edouard Agenor</entry>
+								<entry>4</entry>
+								<entry>275</entry>
+							</row>
+							<row>
+								<entry>16.Carel Jan Emilius</entry>
+								<entry>1</entry>
+								<entry>91-92</entry>
+							</row>
+								<row>
+								<entry/>
+								<entry>2</entry>
+								<entry>30-116</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>5</entry>
+								<entry>39-42</entry>
+							</row>
+							<row>
+								<entry>17.Otto Johan Willem Carel</entry>
+								<entry>4</entry>
+								<entry>350-351</entry>
+							</row>
+							<row>
+								<entry>18. Willem Peter</entry>
+								<entry>3</entry>
+								<entry>39</entry>
+							</row>
+							<row>
+								<entry/>
+								<entry>4</entry>
+								<entry>276-342</entry>
+							</row>
+							<row>
+								<entry>19. Dmitrij Louis</entry>
+								<entry>4</entry>
+								<entry>343-345</entry>
+							</row>
+							<row>
+								<entry>20. Anna Caroline Leopoldine</entry>
+								<entry>4</entry>
+								<entry>346</entry>
+							</row>
+							<row>
+								<entry>21.Marie Alexandrine Otheline Caroline</entry>
+								<entry>2</entry>
+								<entry>117-156 </entry>
+							</row>
+							<row>
+								<entry>22. Willem Frederik Lodewijk</entry>
+								<entry>4</entry>
+								<entry>347-349</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+			</odd>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">I.</unitid>
+          <unittitle>GENEALOGIEEN EN GENEALOGISCHE VERZAMELINGEN.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33319" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2efbb2ca-b399-4c00-8ddc-5558dbe9bdab</unitid>
+            <unittitle>Manuscripten van mr. G. van Hasselt, prof. Bondam en H. van Wijn, houdende afschriften van charters en kopieën van zegels als bronnenmateriaal over de familie Van Bylandt over de 14-16e eeuw.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1700/1799">E.J. (eind 18e eeuw)</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33320" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/116d5620-913f-43f2-a50c-ea84c152567b</unitid>
+            <unittitle>Manuscripten van n.n., houdende afschriften van charters betreffende de familie Van Bylandt, met marginale commentaren en kopieën van zegels door H. van Wijn (?).</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1800">z.j. (ca. 1800)</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33321" type="ABS">3</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b17caace-6d73-4e3f-b974-e61df9c235bf</unitid>
+            <unittitle>Genealogie van de familie Van Bylandt, met wapentekeningen en bijlagen door Willem Frederik van Bylandt en zijn nakomelingen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1800/1899">z.j. (19e eeuw)</unitdate>
+            <physdesc>1 deel</physdesc>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>4-5</unitid>
+            <unittitle>Wapenboeken met stambomen van aanverwante families.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1800/1899">z.j. (begin 19e eeuw)</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33322" type="ABS">4</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3499cd0-ba86-4da2-8695-87c95d7b58e0</unitid>
+              <unittitle>Eerste deel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33323" type="ABS">5</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31f858bb-8fd9-4137-b986-345d9cf976cc</unitid>
+              <unittitle>Tweede deel</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>6-8</unitid>
+            <unittitle>Genealogiën van (vermoedelijk) Louis Eugène van Bylandt (1808-1888).</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1870/1875">z.j. (ca. 1870-1875)</unitdate>
+            <physdesc>3 delen</physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33324" type="ABS">6</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e6c8467-2e1f-4d00-a678-5b73bcf5dff9</unitid>
+              <unittitle>Genealogie van de familie Van den Bilant en Van Bylandt.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33325" type="ABS">7</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/605c79b5-5c54-4913-b39c-5e287d5cd3c3</unitid>
+              <unittitle>Genealogieën van aanverwante families.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33326" type="ABS">8</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a4cef37-bf44-44f3-a0c1-4ae7c7a72031</unitid>
+              <unittitle>"Kennisgevingen van huwelijken, overlijden" over 1839-1874.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33327" type="ABS">9</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/956f10aa-a3bf-4cc0-8696-506e2e7301ff</unitid>
+            <unittitle>Genealogische aantekeningen, vermoedelijk verzameld door A.A. Vorsterman van Oyen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1800/1999">z.j. (19e-20e eeuw)</unitdate>
+            <physdesc>1 pak</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33328" type="ABS">10</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eeb82017-d1eb-4e64-b058-a49f9c661742</unitid>
+            <unittitle>Afschriften van genealogische en historische literatuur over de familie Van Bylandt, met staten van aanverwanten, door Louis Eugène van Bylandt</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1808/1888">(1808-1888)</unitdate>
+            <physdesc>1 deel</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33329" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d8a95ba1-8daa-4a57-8f74-a87a6a1cd1d7</unitid>
+            <unittitle>Familieboekje, houdende overlijdensberichten en aantekeningen betreffende de familie van Eugène Alexander Jan van Bylandt (1807-1876), met uittreksel van akten van de burgerlijke stand.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1863/1879">(1863-1879)</unitdate>
+            <physdesc>1 deel</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33330" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/248cdaff-927e-4c20-9feb-abeea94beab0</unitid>
+            <unittitle>Kwartierstaat van Carel Jan Emilius graaf van Bylandt (1840-1902). Gedrukt.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1880">1880</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33331" type="ABS">13</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c48139de-c9f9-4cd0-8141-373dfdde0ba2</unitid>
+            <unittitle>Genealogische beschrijving van de familie Van Neck, met uittreksels van akten van de burgerlijke standen kopieën van portretten.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1852">1852 en z.j</unitdate>
+            <physdesc>1 band in 1 foudraal</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33332" type="ABS">14</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a1abf83f-bbd7-4feb-bcaf-177ec04c327f</unitid>
+            <unittitle>Cartularium, houdende notariële afschriften van charters inzake rechten van de familie Van Zevender, met wapentekeningen en genealogische aantekeningen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1636">1636 en z.j. (15e eeuw)</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+          <odd>
+            <p>De oudste afgeschreven stukken dateren van 1213.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33333" type="ABS">15</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/663b824d-4615-4bf9-8f18-f1eec73f614b</unitid>
+            <unittitle>Genealogie van de familie Van Keppell en aanverwante geslachten, opgesteld door Willem van Tuyll.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1671">1671</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>16-19</unitid>
+            <unittitle>Adelsbewijzen.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33334" type="ABS">16</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b1594ab-8f14-4c0b-abf5-5a70bd7357fc</unitid>
+              <unittitle>Akte, houdende verheffing van Rodemann (Roeleman ?) Freiherr von Bylandt-Rheid und Oy und Spalberg, Persingen und Waringen tot Rijksgraaf van het H. Roomse Rijk door keizer Leopold 1678.</unittitle>
+              <physdesc>1 charter</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33335" type="ABS">17</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe18a8a6-47bc-4c72-99a2-126c4c339a8d</unitid>
+              <unittitle>Afschrift van lijstnummer 16.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33336" type="ABS">18</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/73efadf4-0f1d-41a5-862e-ae7108d995e9</unitid>
+              <unittitle>Akte, houdende de verheffing van Johan Sigmund Freiherr von Bylandt in de adelstand door Frederik Wilhelm, markgraaf van Brandenburg. <unitdate calendar="gregorian" era="ce" normal="1683">1683</unitdate>
+              </unittitle>
+              <physdesc>1 charter</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33337" type="ABS">19</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6871eb3-7c22-442c-9a1f-4ca74d87c7b7</unitid>
+              <unittitle>Akte, houdende de bevestiging van Jan Carel graaf van Bylandt als graaf van het H. Roomse Rijk door koning Willem I. <unitdate calendar="gregorian" era="ce" normal="1816">1816</unitdate>
+              </unittitle>
+              <physdesc>1 charter</physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">II.</unitid>
+          <unittitle>PERSOONLIJKE BESCHEIDEN.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33338" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/02ed2e46-6675-4978-bc54-fb15958a8cfb</unitid>
+            <unittitle>Dissertatie van J.W. van Bylandt Halt over de afkomst van keizer Justinianus voor zijn doctorsgraad in de rechten aan de universiteit te Duisburg.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1708">1708</unitdate>
+            <physdesc>1 deel</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33339" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/abf7bc21-6c4e-410e-9ee2-0ff098355e10</unitid>
+            <unittitle>Dissertatie van Lambertus van Bylandt over enkele bepalingen inzake de herroepbaarheid van giften voor zijn doctorsgraad in de rechten aan de universiteit te Utrecht.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1736">1736</unitdate>
+            <physdesc>1 deel</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33340" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/211e6f3b-1785-4ae0-964f-a1a1ee650354</unitid>
+            <unittitle>Akte van huwelijkse voorwaarden tussen Johann Adam baron van Schleussing en gravin Christina Charlotte Marie van Bylandt, gesloten ten overstaan van vrienden en dedingslieden in Hoeve.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1744">1744</unitdate>
+            <physdesc>1 charter</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33341" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5456f05b-1edc-43f3-8ad7-ff1133903ee6</unitid>
+            <unittitle>Dissertatie van Lambertus Hugo Abraham van Bylandt over het begrip "resinnoxiae utilitatie" voor zijn doctorsgraad in de rechten aan de universiteit te Leiden.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1771">1771</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>24-26</unitid>
+            <unittitle>Stukken, afkomstig van Willem Frederik, graaf van Bylandt (1771-1855), betrekking hebbend op zijn werkzaamheden als goeverneur van Brussel tijdens het uitbreken van de Belgische opstand.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1830/1831">1830-1831</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33342" type="ABS">24</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fa2284b-2879-44d5-b056-a727dab642ae</unitid>
+              <unittitle>Register van uitgaande brieven van Van Bylandt als bevelhebber van de troepen van West-Zuid-Brabant. <unitdate calendar="gregorian" era="ce" normal="1830">Augustus-september 1830</unitdate>
+              </unittitle>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33343" type="ABS">25</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba7ed026-27d3-429e-81cc-c8b9a6116c3b</unitid>
+              <unittitle>Ingekomen missiven, met concepten van proclamaties, sterkestaten en lijsten van gewonden en gesneuvelden. <unitdate calendar="gregorian" era="ce" normal="1830">Augustus-september 1830</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33344" type="ABS">26</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9487ddc7-c8cc-4866-aa45-4b24e9997325</unitid>
+              <unittitle>Brieven van Van Bylandt en G. van Lennep aan W. van den Bergh, notaris in Den Haag, over de verrekening van kosten van de druk van zijn "verhaal van het oproer te Brussel". <unitdate calendar="gregorian" era="ce" normal="1831">1831</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+            <odd>
+              <p>Vgl. toegang 1.10.90.02, inv.nr. 60.</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33345" type="ABS">27</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/959cd552-e9f0-4b8d-8a3a-e0d06a56f123</unitid>
+            <unittitle>Etude nécrologique sur le comte Guillaume Frédéric de Bylandt... door E. de Saint-Maurice Cabany. Overdruk uit de serie Galerie des Notabilités nobiliaires de la Hollande.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1856">1856</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>28-34</unitid>
+            <unittitle>Stukken, afkomstig van Eugène Jean Alexander graaf van Bylandt (1807-1876).</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33346" type="ABS">28</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5ec304e9-96c9-4f2f-8d86-8202e9adb69d</unitid>
+              <unittitle>Dissertarie over de regeringsvorm onder de graven van Holland ter verkrijging van het doctoraat in de rechten aan de universiteit van Leiden. <unitdate calendar="gregorian" era="ce" normal="1830">1830</unitdate>
+              </unittitle>
+              <physdesc>1 deel</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33347" type="ABS">29</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6cd17d84-d54e-49eb-8ac1-c883053b7c2a</unitid>
+              <unittitle>Briefwisseling met zijn zoon Carel Jan Emilius van Bylandt, 1872-1874; D.J. Elout van Soeterwoude, 23 december 1874, G. Groen van Prinsterer, 1856-1872; L. van Heeckeren van Enghuizen (namens koningin Sohpie), 29 september 1861, Le Rütte, 6 oktober 1862; J.A. Singendonk, 1871-1874; W.L. Stanford, 25 november 1853. <unitdate calendar="gregorian" era="ce" normal="1853/1874">1853-1874</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33348" type="ABS">30</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c00b6218-96d9-4a4e-855e-68affe0b05c2</unitid>
+              <unittitle>Financiëel overzicht van de Waalse gemeente te Den Haag, opgemaakt voor de Commission des Cultes aldaar, over 1853-1862, met ingekomen bedelbrief van oprichters van een evangelisch bedehuis in Marienbad. <unitdate calendar="gregorian" era="ce" normal="1855">1855 en z.j</unitdate>
+              </unittitle>
+              <physdesc>2 stukken</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33349" type="ABS">31</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b84d27c0-78e9-47da-9790-f9d35e3f95a4</unitid>
+              <unittitle>Ingekomen brieven van leden van de Eerste Kamer en ministers van Binnenlandse Zaken bij Van Bylandt als voorzitter van de Eerste Kamer over parlementaire aangelegenheden. <unitdate calendar="gregorian" era="ce" normal="1871/1874">1871-1874</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33350" type="ABS">32</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6621e38c-ee77-4f9f-86d2-648bb1ea2e48</unitid>
+              <unittitle>Ingekomen stukken van een comité voor een huldeblijk van J.R. Thorbecke. <unitdate calendar="gregorian" era="ce" normal="1872">1872</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33351" type="ABS">33</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a356132b-4965-469b-9107-43e1f4f2e139</unitid>
+              <unittitle>Concept van een redevoering bij gelegenheid van het vierhonderdjarig bestaan van de Leidse hogeschool. <unitdate calendar="gregorian" era="ce" normal="1875">8 februari 1875</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33352" type="ABS">34</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/941eeabb-a45d-48a8-a018-6539373ee5ce</unitid>
+              <unittitle>Kwitantie van de Kanselarij der beide Orden naar aanleiding van de terugzending van zijn decoraties. <unitdate calendar="gregorian" era="ce" normal="1876">20 maart 1876</unitdate>
+              </unittitle>
+              <physdesc>1 stuk</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33353" type="ABS">35</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0e2a8de-66f9-49fd-bde4-913054e7343c</unitid>
+            <unittitle>Brief van Eugène Jean Alexander van Bylandt aan zijn vader Jean Charles (1776-1841), houdende relaas van zijn belevenissen tijdens zijn eerste collegedag aan de universiteit van Leiden als "groen".</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1825">1825</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33354" type="ABS">36</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8532c9f-ef49-4e16-a4be-b6e379103b5b</unitid>
+            <unittitle>Ingekomen brieven bij Otteline Agnes Catharina van Bylandt, geboren van Limburg Stirum, (1788-1853) van haar kleinzoon Carel Jan Emilus van Bylandt, 1849-1850; prinses Marianne der Nederlanden, 18 maart 1848 en n.n. 1845.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1845/1850">1845-1850</unitdate>
+            <physdesc>1 omslag</physdesc>
+          </did>
+          <odd>
+            <p>Bij de brieven van prinses Marianne en n.n. behoren enveloppen met lakzegels.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33355" type="ABS">37</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1db856ae-d624-4335-a4a0-ad587b41e552</unitid>
+            <unittitle>Brieven van Charles Malcolm Ernest George graaf van Bylandt (1818-1893) aan zijn echtgenote A.P. Jazykov (toegang 1.10.90.02, inv.nr. 155)</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1863/1888">1863-1888</unitdate>
+            <physdesc>1 omslag</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33356" type="ABS">38</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11b9cb70-9e0a-41ae-84e9-9328e3c456aa</unitid>
+            <unittitle>Oorkonde, aangeboden aan Charles Malcolm Ernest George graaf van Bylandt (1818-1893) bij de eerste steenlegging van een standbeeld van stadhouder-koning Willem III ter herdenking van de Glorious Revolution te Brixham.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1888">December 1888</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>39-41</unitid>
+            <unittitle>Archiefstukken van Carel Jan Emilius graaf van Bylandt</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1840/1902">(1840-1902)</unitdate>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33357" type="ABS">39</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/18e0dc8a-9e56-485a-89a9-907de44880c6</unitid>
+              <unittitle>Stukken betreffende zijn schooltijd, met studie-aantekeningen. <unitdate calendar="gregorian" era="ce" normal="1850/1858">1850-1858 en z.j</unitdate>
+              </unittitle>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33358" type="ABS">40</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e16085ac-fb73-4ed2-8252-4b3782dd4d81</unitid>
+              <unittitle>Doctorsbul in de rechten, uitgereikt door de universiteit van Leiden. <unitdate calendar="gregorian" era="ce" normal="1864">1864</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="33359" type="ABS">41</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d06f03d7-8443-492d-96c1-dd9a775fd031</unitid>
+              <unittitle>Circulaire, houdende vermelding van Van Bylandt als bestuurslid van een kinderziekenhuis <unitdate calendar="gregorian" era="ce">z.j</unitdate>
+              </unittitle>
+              <physdesc>1 stuk</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33360" type="ABS">42</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/234e3aca-3b60-48ff-b11c-0766bfa743f4</unitid>
+            <unittitle>Uittreksels van de Burgerlijke Stand betreffende Sophie Alexandrine van der Staal van Piershil.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1849/1891">1849, 1891</unitdate>
+            <physdesc>2 stukken</physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">III.</unitid>
+          <unittitle>ZAKELIJKE STUKKEN EN VARIA.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33361" type="ABS">43</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7487b068-dbaa-4a6c-8650-9b08d871ce8d</unitid>
+            <unittitle>Munten, geslagen door de graaf van Bergh, heer van Bylandt, Heerenberg, Boxmeer, Hoernolt en Wisch.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1578">1578 en z.j</unitdate>
+            <physdesc>2 munten</physdesc>
+          </did>
+          <phystech type="ABS">
+            <p>Niet raadpleegbaar</p>
+          </phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33362" type="ABS">44</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/089268bb-a66e-4798-abb3-2419c8a0f6ea</unitid>
+            <unittitle>Akte, houdende een schuldbekentenis van de weduwen van Ary Bagijn en Sebastiaan de Bra voor Nicolaes Peysel, met hypotheekstelling van een pand aan de Zuid-binnensingel te 's-Gravenhage, verleden voor schepenen aldaar. 30 mei 1709. Gekwiteerd. 14 mei 1716.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1709/1716">[1709, 1716]</unitdate>
+            <physdesc>1 charter</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33363" type="ABS">45</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f7118cc-0ccc-4ae0-8d92-41f8b962d8be</unitid>
+            <unittitle>Verkoopcondities van enige onroerende goederen van Maria Delvendiep, weduwe van Sebastiaan de Bra, door Johannes Beek, notaris in Den Haag.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1716">1716</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33364" type="ABS">46</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e35ae3f-0c76-4aa2-96e1-e64c079d982e</unitid>
+            <unittitle>Gedrukte processtukken betreffende een vordering van Otto Freerik Roeleman, graaf van Bylandt, als heer van Dalem aan de Gecommitteerde Raden van Gelderland wegens door de Militie aangebrachte schade aan bedijkingen, met aantekeningen.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1754/1759">1754-1759</unitdate>
+            <physdesc>1 band</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33365" type="ABS">47</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/073f59f5-085d-4375-b88e-546ce617d77a</unitid>
+            <unittitle>"Inventaris van stukken betreffende de heerlijkheid Waelsdorp, berustend in het gemeentearchief in Den Haag" uit de serie Genealogisch en heraldisch archief van A.A. Vorsterman van Oyen. Regestenlijst.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1900">z.j. (ca 1900)</unitdate>
+            <physdesc>1 deeltje</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="33366" type="ABS">48</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d52109cd-b3e0-4c29-af0c-97ff0bae1dbb</unitid>
+            <unittitle>Verzameling wapentekeningen, vermoedelijk door W.F. van Bylandt.</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1800/1899">z.j. (19e eeuw)</unitdate>
+            <physdesc>1 omslag</physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
