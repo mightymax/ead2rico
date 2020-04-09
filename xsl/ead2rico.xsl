@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- XSLT stylesheet converting EAD to RiC-O
+<!-- XSLT stylesheet converting EAD to RiC-O -->
 <!-- Endocoded Archival Description 2002 (EAD) into Records in Contexts Ontology (RiC-O) 0.1-->
 <!-- Mark Lindeman, inspired by work from Ivo Zandhuis -->
 
