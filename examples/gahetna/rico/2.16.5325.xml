@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/62d89226-eba9-4b3b-8796-24fe1cb5be59"
+  rdf:about="record/2.16.5325">
+    <rico:identifier>2.16.5325</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2010</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/5325" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.5325/i1" />
+      <rico:instantiates rdf:resource="record/2.16.5325" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Directie Waterhuishouding en
+        Waterbeweging van Rijkswaterstaat, (1945) 1981-1985</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/62d89226-eba9-4b3b-8796-24fe1cb5be59" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Het archief bevat CD-roms.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/5325">
+    <rico:describedBy rdf:resource="record/2.16.5325" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>5325</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rijkswaterstaat: Directie Waterhuishouding en
+      Waterbeweging</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>RWS / Directie Waterhuishouding en
+      Waterbeweging</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1985</rico:endDate>
+    <rico:date>1945-1985</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijkswaterstaat / Directie Waterhuishouding en
+            Waterbeweging</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij Ministeriële Beschikking van 31 maart 1959 werd binnen
+          Rijkswaterstaat een nieuwe directie ingesteld met als naam: Directie
+          Waterhuishouding en Waterbeweging. De taken die uitgevoerd dienden te worden,
+          werden voorheen verricht door de Directie Algemene dienst, later genoemd
+          Directie Algemene Dienst en Waterhuishouding en door de Centrale
+          Studiedienst.</html:p>
+          <html:p>De Directie Waterhuishouding en Waterbeweging kreeg als algemene taak:
+          de studie van de waterhuishouding en de waterbeweging en daarmee samenhangende
+          vraagstukken in de rivieren, kanalen, zeearmen en kustwateren. Men moest
+          studies gaan verrichten op de gebieden: Waterhuishouding en Waterkwaliteit en
+          waterbeheersing. De Directie had vanuit haar taakstelling veel contacten met
+          vrijwel alle onderdelen van Rijkswaterstaat. Daarnaast werd veel contact
+          onderhouden met instanties in binnen- en buitenland, die zich op hetzelfde
+          terrein bewogen; hieronder viel het deelnemen aan internationale congressen die
+          noodzakelijk zijn voor het op peil houden van het wetenschappelijk
+          niveau.</html:p>
+          <html:p>Onvrede met het weinig inzichtelijke werk van de verschillende
+          studiediensten binnen de Rijkswaterstaat leidde tot een landelijk
+          districtenstelsel voor de Directie Waterhuishouding en Waterbeweging.
+          Opeenvolgend werden vier districten ingesteld, te weten: District Zuidwest,
+          District Zuidoost, District Noord en District Kust en Zee.</html:p>
+          <html:p>De districten werden later weer opgeheven en de taken gingen
+          voornamelijk over naar de regionale directies van Rijkswaterstaat. De te
+          bewaren stukken van die directies zullen niet overgaan naar het Nationaal
+          Archief, maar naar regionale historische centra.</html:p>
+          <html:p>In 1985 werd de Directie Waterhuishouding en Waterbeweging in het kader
+          van Operatie Drieluik - een reorganisatie - getransformeerd tot de Dienst
+          Getijdewateren (zout water) enerzijds en de Dienst Binnenwateren / RIZA (zoet
+          water) anderzijds. De Dienst Getijdewateren werd in 1994 omgedoopt tot het
+          Rijksinstituut voor Kust en Zee (RIKZ).</html:p>
+          <html:p>De volledige historische achtergronden en ontwikkelingen van de
+          Directie Waterhuishouding en Waterbeweging zijn uitgebreid beschreven in de
+          volgende publicatie: 28. Waterstaat. Rapport van een institutioneel onderzoek
+          naar het overheidshandelen op het beleidsterrein waterstaat over de periode
+          1945-1994 (samenstelling: J.W.J.M. Bogaarts; ISBN 90-74442-31-5), 's-Gravenhage
+          1995.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat voor het grootste deel uit onderzoeksrapporten en
+      andere stukken met betrekking tot integraal waterbeheer.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>38.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>4045 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/4b103fbb-3adb-4c45-87e3-25b5aeeddb57"
+  rdf:about="record/2.21.205.16">
+    <rico:identifier>2.21.205.16</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1988</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C24475" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.205.16/i1" />
+      <rico:instantiates rdf:resource="record/2.21.205.16" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080919</rico:hasModificationDate>
+        <html:p>19 september 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van M.J. Duparc [levensjaren
+        1870-1925], 1914-1925</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/4b103fbb-3adb-4c45-87e3-25b5aeeddb57" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C24475">
+    <rico:describedBy rdf:resource="record/2.21.205.16" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C24475</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 517 M.J. Duparc</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Duparc</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1914</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1925</rico:endDate>
+    <rico:date>1914-1925</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Mozes Isaac Duparc (1870-1925)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Mozes Isaac Duparc werd geboren op 2 april 1870 te Leeuwarden als zoon
+          van Alexander Moses Duparc, handelaar in effecten, en Henrietta Cohen. Zijn
+          moeder overleed op de dag van zijn geboorte; zijn vader verhuisde in augustus
+          1870 naar Londen en woonde later in Frankfurt, waar hij op 28 oktober 1875
+          overleed.</html:p>
+          <html:p>Duparc groeide op in het gezin van mr Salomon Jozef Cohen, een broer
+          van zijn moeder. Mr S.J. Cohen was van 1867 tot 1900 leraar aan de Rijks H.B.S.
+          te Leeuwarden en tevens advokaat aldaar. Hij speelde een belangrijke rol in het
+          leven van de joodse gemeente van Leeuwarden. Zo was hij van 1884 tot 1900
+          voorzitter van de kerkeraad. Hij toonde begrip voor de chassidische beweging en
+          had een positieve belangstelling voor de heroprichting van een joodse natie.
+          Cohen stimuleerde zijn neef Mozes Isaac tot de studie van de klassieke talen en
+          het hebreeuws.</html:p>
+          <html:p>Duparc werd op 15 juli 1882 ingeschreven als leerling van het Stedelijk
+          Gymnasium te Leeuwarden; hij behaalde het diploma op 3 juli 1888. Op 24
+          september 1888 werd hij ingeschreven als student klassieke talen aan de
+          Rijksuniversiteit te Leiden. Hij slaagde voor het candidaatsexamen in 1891. Het
+          naar eigen zeggen onverdraaglijke antisemitisme van zijn hoogleraar prof. dr
+          J.J. Hartman verhinderde hem af te studeren. In 1895 ving hij aan met de
+          rechtenstudie op advies van het Tweede Kamerlid H. Goeman Borgesius, wiens
+          kinderen hij les gaf. Tot aan zijn overlijden zou hij bijlessen grieks en
+          latijn geven. Op 2 november 1898 promoveerde hij aan de Rijksuniversiteit te
+          Leiden op stellingen tot doctor in de rechtswetenschap. Het proefschrift was
+          opgedragen aan zijn pleegouders.</html:p>
+          <html:p>Bij de Afdeling Kunsten en Wetenschappen van het Ministerie van
+          Binnenlandse Zaken bestond eind 1898 al meer dan een jaar een vacature. Op
+          voorspraak van de toenmalige minister, H. Goeman Borgesius, werd Duparc door de
+          chef van die Afdeling, jhr mr Victor de Stuers aangenomen; in een nota aan de
+          minister schreef De Stuers, dat "het met den heer Duparc te wagen is. Hij zal
+          op het gebied der geschiedenis veel bij te pleisteren hebben, maar hij schijnt
+          mij zeer intelligent en ijverig". Met ingang van 1 januari 1899 werd Duparc
+          benoemd tot adjunct-commies bij de Afdeling Kunsten en Wetenschappen (KB
+          30-12-1898, nr. 33).</html:p>
+          <html:p>Er volgde daar een gestage carrière: commies (KB 24-5-1905, nr. 29),
+          hoofdcommies (KB 27-12-1907, nr. 59), en referendaris (KB 29-1-1914, nr. 79).
+          Per 1 juni 1916 verliet de chef van de Afdeling, ir J.A. Royer, de rijksdienst
+          wegens het bereiken van de pensioengerechtigde leeftijd. Duparc volgde hem
+          op.</html:p>
+          <html:p>De Afdeling Kunsten en Wetenschappen ging op 25 september 1918 over
+          naar het nieuw gevormde Ministerie van Onderwijs, Kunsten en Wetenschappen.
+          Daar volgde de benoeming van Duparc tot administrateur (KB 4-2-1919, nr.
+          22).</html:p>
+          <html:p>Duparc trouwde te 's-Gravenhage op 14 april 1904 met Caroline Simons.
+          Uit dit huwelijk werden twee kinderen geboren, waaronder een jong gestorven
+          zoon. De andere, oudste, zoon was Frederic Jules Duparc, de latere raadadviseur
+          voor Culturele Zaken bij het Ministerie van Cultuur, Recreatie en
+          Maatschappelijk werk en auteur van de Archiefwet 1962. In diens boek "Een Eeuw
+          strijd voor Nederlands Cultureel Erfgoed" wordt het ambtelijk leven van M.I.
+          Duparc beschreven.</html:p>
+          <html:p>Bij beschikking van de Arrondissementsrechtbank te 's-Gravenhage van 17
+          november 1921 liet Duparc zijn voornamen wijzigen in Maurits Izak. Duparc
+          overleed plotseling op 25 mei 1925 te Parijs, toen hij daar aanwezig was ter
+          gelegenheid van de Exposition Internationale des arts décoratifs et industriels
+          modernes, een tentoonstelling waar hij een werkzaam aandeel in had
+          gehad.</html:p>
+          <html:p>Voor zijn verdiensten was hij benoemd tot ridder in de Orde van de
+          Nederlandse Leeuw, ridder in de Orde van de Kroon van België en commandeur in
+          de Orde van het Legioen van Eer van Frankrijk.</html:p>
+          <html:p>Hij werd later gekarakteriseerd als iemand, "die een principiële
+          verdraagzaamheid cultiveerde en een absoluut respect toonde voor de ander, los
+          van iedere ideologie".</html:p>
+          <html:p>In de NRC van 9 juni 1925 werd hij herdacht door dr H.E. van Gelder:
+          "Men heeft toen (in 1916) tenslotte geen 'nieuwen De Stuers' gekregen, maar een
+          departementsambtenaar met buitengewone gaven van verstand en hart, die
+          belangstelling had voor de aan zijn toezicht en zorg toevertrouwde levende
+          zaken, die met al de toewijding waarover hij kon beschikken de bevordering der
+          belangen van de vaderlandsche kunst en wetenschap nastreefde, maar die, waar
+          hij zijn heele persoonlijkheid inzette, geen oogenblik trachtte een persoonlijk
+          régime te voeren, zooals De Stuers dat had gedaan".</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van Mozes Isaac Duparc bestaat uit fotokopieën van bij hem
+      tussen 1914 en 1925 ingekomen brieven uit hoofde van zijn functie bij de Afdeling
+      Kunsten en Wetenschappen van het Ministerie van Binnenlandse Zaken. De brieven
+      bespreken culturele onderwerpen, kenmerken zich door een informele toon en zijn
+      afkomstig van prominente figuren uit de kunst- en cultuurwereld van die tijd: er
+      zijn onder andere kopieën van brieven aanwezig van August Allebé, Louis Couperus,
+      Antonius Johannes Derkinderen, Robert Fruin, Johan Huizinga, Willem Kloos en Samuel
+      Muller Fzn.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>135 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

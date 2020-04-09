@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/7f15d669-f12e-116b-e053-09f0900a964e"
+  rdf:about="record/2.06.188">
+    <rico:identifier>2.06.188</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2019</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/E41" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.06.188/i1" />
+      <rico:instantiates rdf:resource="record/2.06.188" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de Nationale Telecommunicatie Raad,
+        1953-1984</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/7f15d669-f12e-116b-e053-09f0900a964e" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>papier</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/E41">
+    <rico:describedBy rdf:resource="record/2.06.188" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>E41</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Nationale Telecommunicatie Raad (NTR) Ministerie van Verkeer en
+      Waterstaat, Ministerie van Economische Zaken, Archief Nationale Telecommunicatie
+      Raad</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>NTR NTR</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1984</rico:endDate>
+    <rico:date>1953-1984</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nationale Telecommunicatie Raad, , 1953 - 1984
+            Lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat van de
+            Nationale Telecommunicatie Raad, , 1953 - 1991 Lidmaatschapsarchief van de
+            Nationale Telecommunicatie Coördinatie Commissie, , 1980 - 1984</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Nationale Telecommunicatie Raad (NTR) is ingesteld in 1953 door de
+          Minister van Algemene Zaken:</html:p>
+          <html:p>Ter bevordering van de samenwerking tussen de militaire en de
+          burgerlijk verbindingsdiensten in in vredestijd en een doelmatige snelle en
+          voortvarende coördinatie en distributie van verbindingen in geval van oorlog,
+          oorlogsgevaar of andere buitengewone omstandigheden:</html:p>
+          <html:p>In vredestijd: al die maatregelen voor te stellen, welke nodig zijn
+          voor de uitvoering van de oorlogstaak; overleg te plegen met de departementen
+          en interdepartementale colleges; het noodzakelijk contact te onderhouden met
+          geallieerde en intergeallieerde autoriteiten. In oorlogstijd: overleg te plegen
+          met de Nederlandse, geallieerde en intergeallieerde autoriteiten en organen,
+          voor zover het Militair Gezag dat nodig vindt. Militair Gezag is de wettelijke
+          benaming voor de militaire overheid die tijdens de staat van oorlog en de staat
+          van beleg is toegerust met bijzondere bevoegdheden, noodzakelijk met het oog op
+          de uitvoering van de militaire taak ter handhaving van de veiligheid; zich voor
+          de uitvoering van zijn taak door de noodzakelijke bureaus te laten bijstaan. In
+          artikel 4 van de instellingsbeschikking staat als taak zoals onder a. bedoeld:
+          onder de algemene leiding van het Militair Gezag te adviseren inzake de
+          coördinatie en de distributie van de beschikbare verbindingen alsmede het doen
+          tot stand brengen van nieuwe dan wel aanvullende verbindingen, zodat aan de
+          eisen van de algemene oorlogvoering van het Koninkrijk en de met Nederland
+          verbonden mogendheden doelmatig, snel en voortvarend wordt voldaan.</html:p>
+          <html:p>Het lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat
+          van de NTR en het lidmaatschapsarchief van de Nationale Telecommunicatie
+          Coördinatie Commissie, deze beide lidmaatschapsarchieven zijn via V&amp;W en
+          EZ(K) overgeleverd en door EZK mee in bewerking gegeven, zij geven inhoudelijke
+          aanvulling op het hoofdarchief.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nationale Telecommunicatie Raad, , 1953 - 1984
+            Lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat van de
+            Nationale Telecommunicatie Raad, , 1953 - 1991 Lidmaatschapsarchief van de
+            Nationale Telecommunicatie Coördinatie Commissie, , 1980 - 1984</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Nationale Telecommunicatie Raad (NTR) is ingesteld in 1953 door de
+          Minister van Algemene Zaken:</html:p>
+          <html:p>Ter bevordering van de samenwerking tussen de militaire en de
+          burgerlijk verbindingsdiensten in in vredestijd en een doelmatige snelle en
+          voortvarende coördinatie en distributie van verbindingen in geval van oorlog,
+          oorlogsgevaar of andere buitengewone omstandigheden:</html:p>
+          <html:p>In vredestijd: al die maatregelen voor te stellen, welke nodig zijn
+          voor de uitvoering van de oorlogstaak; overleg te plegen met de departementen
+          en interdepartementale colleges; het noodzakelijk contact te onderhouden met
+          geallieerde en intergeallieerde autoriteiten. In oorlogstijd: overleg te plegen
+          met de Nederlandse, geallieerde en intergeallieerde autoriteiten en organen,
+          voor zover het Militair Gezag dat nodig vindt. Militair Gezag is de wettelijke
+          benaming voor de militaire overheid die tijdens de staat van oorlog en de staat
+          van beleg is toegerust met bijzondere bevoegdheden, noodzakelijk met het oog op
+          de uitvoering van de militaire taak ter handhaving van de veiligheid; zich voor
+          de uitvoering van zijn taak door de noodzakelijke bureaus te laten bijstaan. In
+          artikel 4 van de instellingsbeschikking staat als taak zoals onder a. bedoeld:
+          onder de algemene leiding van het Militair Gezag te adviseren inzake de
+          coördinatie en de distributie van de beschikbare verbindingen alsmede het doen
+          tot stand brengen van nieuwe dan wel aanvullende verbindingen, zodat aan de
+          eisen van de algemene oorlogvoering van het Koninkrijk en de met Nederland
+          verbonden mogendheden doelmatig, snel en voortvarend wordt voldaan.</html:p>
+          <html:p>Het lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat
+          van de NTR en het lidmaatschapsarchief van de Nationale Telecommunicatie
+          Coördinatie Commissie, deze beide lidmaatschapsarchieven zijn via V&amp;W en
+          EZ(K) overgeleverd en door EZK mee in bewerking gegeven, zij geven inhoudelijke
+          aanvulling op het hoofdarchief.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nationale Telecommunicatie Raad, , 1953 - 1984
+            Lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat van de
+            Nationale Telecommunicatie Raad, , 1953 - 1991 Lidmaatschapsarchief van de
+            Nationale Telecommunicatie Coördinatie Commissie, , 1980 - 1984</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Nationale Telecommunicatie Raad (NTR) is ingesteld in 1953 door de
+          Minister van Algemene Zaken:</html:p>
+          <html:p>Ter bevordering van de samenwerking tussen de militaire en de
+          burgerlijk verbindingsdiensten in in vredestijd en een doelmatige snelle en
+          voortvarende coördinatie en distributie van verbindingen in geval van oorlog,
+          oorlogsgevaar of andere buitengewone omstandigheden:</html:p>
+          <html:p>In vredestijd: al die maatregelen voor te stellen, welke nodig zijn
+          voor de uitvoering van de oorlogstaak; overleg te plegen met de departementen
+          en interdepartementale colleges; het noodzakelijk contact te onderhouden met
+          geallieerde en intergeallieerde autoriteiten. In oorlogstijd: overleg te plegen
+          met de Nederlandse, geallieerde en intergeallieerde autoriteiten en organen,
+          voor zover het Militair Gezag dat nodig vindt. Militair Gezag is de wettelijke
+          benaming voor de militaire overheid die tijdens de staat van oorlog en de staat
+          van beleg is toegerust met bijzondere bevoegdheden, noodzakelijk met het oog op
+          de uitvoering van de militaire taak ter handhaving van de veiligheid; zich voor
+          de uitvoering van zijn taak door de noodzakelijke bureaus te laten bijstaan. In
+          artikel 4 van de instellingsbeschikking staat als taak zoals onder a. bedoeld:
+          onder de algemene leiding van het Militair Gezag te adviseren inzake de
+          coördinatie en de distributie van de beschikbare verbindingen alsmede het doen
+          tot stand brengen van nieuwe dan wel aanvullende verbindingen, zodat aan de
+          eisen van de algemene oorlogvoering van het Koninkrijk en de met Nederland
+          verbonden mogendheden doelmatig, snel en voortvarend wordt voldaan.</html:p>
+          <html:p>Het lidmaatschapsarchief van het ministerie van Verkeer en Waterstaat
+          van de NTR en het lidmaatschapsarchief van de Nationale Telecommunicatie
+          Coördinatie Commissie, deze beide lidmaatschapsarchieven zijn via V&amp;W en
+          EZ(K) overgeleverd en door EZK mee in bewerking gegeven, zij geven inhoudelijke
+          aanvulling op het hoofdarchief.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De NTR heeft tot taak overleg te plegen over het te voeren beleid inzake op
+      grond van de Telecommunicatiewet en de Postwet te geven voorschriften, aanwijzingen
+      en regels met betrekking tot het functioneren van het telecommunicatie- en
+      postverkeer onder buitengewone omstandigheden, waaronder grootschalige rampen e
+      vergelijkbare calamiteiten in vredestijd, en bijzondere omstandigheden in verband
+      met de handhaving van de internationale rechtsorde, alsmede over de ter zake te
+      treffen voorbereidingen. De NTR is voorts belast met het plegen van overleg over
+      een zo effectief mogelijk gebruik van de in voornoemd kader getroffen en te treffen
+      telecommunicatie- en postvoorzieningen. De NTR overlegt over de ontwerpinstructie
+      voor het onder buitengewone omstandigheden te activeren Nationaal
+      Telecommunicatiebureau, dat in die situatie belast is met het nemen van maatregelen
+      teneinde een zo efficiënt mogelijk beheer en gebruik van de telecommunicatie
+      infrastructuur, het frequentiespectrum en het postvervoer te bevorderen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het Auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>100 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2,80 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

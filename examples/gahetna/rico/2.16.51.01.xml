@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/c1be7e90-09f3-4e98-a18b-92b6a9a616cd"
+  rdf:about="record/2.16.51.01">
+    <rico:identifier>2.16.51.01</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1984</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/W26535" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.51.01/i1" />
+      <rico:instantiates rdf:resource="record/2.16.51.01" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080929</rico:hasModificationDate>
+        <html:p>29 september 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Staatscommissie voor het
+        Vervoer (Commissie Patijn), (1880) 1923-1936 (1937)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/c1be7e90-09f3-4e98-a18b-92b6a9a616cd" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/W26535">
+    <rico:describedBy rdf:resource="record/2.16.51.01" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>W26535</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Waterstaat: Staatscommissie
+      Vervoer</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Staatscie. Vervoer</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1880</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1937</rico:endDate>
+    <rico:date>1880-1937</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Staatscommissie voor het Vervoer</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De regering had door de spoorwegovereenkomsten van 1920, die met de
+          Maatschappij tot exploitatie van Staatsspoorwegen en de Hollandsche IJzeren
+          Spoorwegmaatschappij waren gegaan, direct belang gekregen bij het reilen en
+          zeilen van de spoorwegen. Door een dividendgarantie had de regering zich
+          verplicht de tekorten van de spoorwegen voor haar rekening te nemen in ruil
+          voor medezeggenschap in het spoorwegbedrijf. In het begin van de twintiger
+          jaren kwam het gemotoriseerd wegverkeer op gang. De autobusdienstondernemers
+          konden scherp concurreren met het railvervoer, omdat zij in tegenstelling tot
+          de ondernemers van spoor- en tramwegmaatschappijen niet aan vergunningen waren
+          gebonden. Deze ontwikkeling maakte het steeds wenselijker het vervoersvraagstuk
+          aan en onderzoek te onderwerpen. De minister van Waterstaat deed daartoe in
+          1922 een voorstel aan de MinisterraadZie minuut-brief van de minister van
+          Waterstaat aan de Voorzitter van de Ministerraad d.d. 21-11-1922; port.nr. 27B,
+          doos nr. 2997, archief afd. Spoorwegen, Vervoer/Mijnwezen, 1906-1945/6. ARA,
+          Tweede Afdeling.. Naar aanleiding van dit voorstel besloot de regering een
+          commissie in te stellen, die als opdracht meekreeg een onderzoek te doen
+          "aangaande de vraag of en in hoeverre maatregelen nodig zijn om te bevorderen,
+          dat de land- en waterwegen en de spoor- en intercommunicale tramwegen op de
+          meest economische gronden dienstbaar worden gemaakt aan het vervoer van
+          reizigers en van goederen"Ingesteld bij Koninklijk Besluit van 12 mei 1923, no.
+          40..</html:p>
+          <html:p>In correspondentie met het Ministerie van Waterstaat werd de commissie
+          aangeduid met de "Staatscommissie voor het Vervoervraagstuk" of kortweg de
+          "Staatscommissie voor het vervoer" welke naam sinds 1929 door de commissie zelf
+          in haar brievenhoofd werd gevoerd. De Staatscommissie werd ook wel naar haar
+          voorzitter de Commissie Patijn genoemd. In het voorstel zoals dat aan de
+          Ministerraad was gezonden, had de Minister van Waterstaat wegens de vele
+          hierbij betrokken belangen gedacht aan een breed samengestelde commissie. Bij
+          de instelling in 1923 is het toch een commissie van beperkte omvang geworden.
+          Dit werd noodzakelijk geacht voor een vlotte wijze van werken. Naast mr. R.J.H.
+          Patijn als voorzitter was ir. G.J. van den Broek tot secretaris benoemd. De
+          volledige samenstelling van de commissie met de wijzigingen hierin is in
+          bijlage A gegeven.</html:p>
+          <html:p>Behoudens een kleine uitbreiding in november 1925 is het aantal
+          commissieleden niet meer vergroot. Eerder dat jaar was de toevoeging van
+          vertegenwoordigers van landbouwbelangen afgeketstZie minuut-brief van de
+          Minister van Waterstaat aan de Minister van Binnenlandsche Zaken en Landbouw
+          d.d. 7-2-1925; port.nr. 27B, doos nr. 2997, archief afd. Spoorwegen,
+          Vervoer/Mijnwezen, 1906-1945/6. ARA, Tweede Afdeling..</html:p>
+          <html:p>Ook de Nederlandsche Bond van Autobusdienstondernemers en de Gemeente
+          Amsterdam verzochten zich in de commissie te laten vertegenwoordigen, maar de
+          Staatscommissie adviseerde de Minister van Waterstaat hieraan niet te
+          voldoenZie inv. Nr. 8.. Zonodig kon de Staatscommissie immers altijd
+          belanghebbende horen. De mogelijkheid hiertoe was in een artikel van de
+          instellingsbeschikking geopend. In 1931 kon de Staatscommissie zich wel
+          verenigen met de toevoeging van mr. D.G.W. Spitzen en mr. J.F. SchönfeldBij
+          Koninklijk Besluit van 27-6-1931, no. 174, zijn mr. D.G.W. Spitzen,
+          referendaris-chef van de Afdeling Binnenlandsch Bestuur bij het Departement van
+          Binnenlandsche Zaken, en mr. J.F. Schönfeld, administrateur bij het Departement
+          van Waterstaat, als leden toegevoegd.. Deze heren namen uitsluitend deel aan de
+          behandeling van het probleem van de scheepvaartrechten.</html:p>
+          <html:p>Direct na haar instelling benoemde de Staatscommissie de heer Ed.C.
+          Witschey tot adjunct-secretarisZie blz. 5 van het Eerste Verslag, inv. Nr. 24..
+          In 1929 is dr. N.A. Lunsingh Tonckens benoemd tot ambtenaar in dienst van de
+          StaatscommissieZie inv. nr. 9.. Volgens de presentatielijst behorende bij de
+          vergadering van 12 oktober 1931 maakte behalve deze twee heren ook mr. F.L.
+          Schlingemann deel uit van het secretariaatsbureauZie inv. nr. 1.. De heer
+          Witschey kreeg in 1935 ontslag op grond van bezwaren, die door de
+          Rijksrekenkamer naar voren waren gebrachtZie blz. 1 van de notulen van de
+          vergadering van 25-3-1935, inv. nr. 1..</html:p>
+          <html:p>De staatscommissie had dus tot taak te onderzoeken hoe de diverse
+          verkeersmiddelen zo economisch mogelijk ten behoeve van het vervoer van
+          reizigers en goederen konden werken. De Staatscommissie wilde aan deze opdracht
+          voldoen door het hele vervoersvraagstuk in één theoretische beschouwing te
+          behandelen. Schema's werden voor een dergelijk Algemeen Rapport opgezet. Omdat
+          een aantal zaken om een spoedige oplossing vroegen, moest dit plan worden
+          losgelaten. Rond 1930 is er nog een vruchtloze poging ondernomen om tot een
+          algemeen rapportage te komen. Een enquête over de organisatie van het vervoer
+          is nog voor dit doel uitgevoerd, maar een onderzoek naar de rentabiliteit van
+          de verschillende verkeersmiddelen is in het ontwerpstadium blijven stekenZie
+          inv. nr. 15 en 16.. Hierna is het plan voor een Algemeen Rapport niet meer van
+          stal gehaald. De Minister van Waterstaat had al in zijn installatierede de
+          spoorwegtekorten, de concurrentie tussen rail- en wegverkeer en een door
+          gebruikers van wegen en waterwegen op te brengen belasting als aandachtspunten
+          genoemdZie blz. 6 van het Eerste Verslag, inv. nr. 24.. Voor de behandeling van
+          deze zaken werd het werk aan het Algemeen Rapport onderbroken. Op 24 november
+          1924 kon de Staatscommissie de Minister van Waterstaat haar Eerste Verslag
+          aanbieden, waarin de drie aandachtspunten uitgebreid aan de orde werden
+          gesteld. Een wijziging van de Wet op de Openbare Middelen van Vervoer van 1880
+          en de Wegenbelastingwet zijn als gevolg van dit Eerste Verslag tot stand
+          gekomen. In de wetswijziging werd een concessieregeling voor het
+          personenvervoer per autobus opgenomen; in de Wegenbelastingwet de instelling
+          van het Wegenfonds.</html:p>
+          <html:p>Na het Eerste Verslag heeft de Staatscommissie alleen adviezen
+          uitgebracht over bijzondere onderwerpen. Uit eigen gelederen werden door de
+          Staatscommissies kleine subcommissies benoemd om ontwerp-adviezen op te
+          stellen. Deze subcommissies werkten ieder onder leiding van een voorzitter aan
+          één onderwerp. Wanneer een ontwerp-advies tot stand was gekomen, werd dit
+          uitvoerig in één of meer vergaderingen van de Staatscommissie besproken,
+          zonodig gewijzigd en tenslotte als advies van de Staatscommissie naar buiten
+          gebracht. Hierbij bezat ieder commissielid het recht een eventueel afwijkende
+          mening in het eindadvies te laten opnemen.</html:p>
+          <html:p>Uit de stukken kan worden afgeleid, dat slechts voor de Subcommissie
+          voor de Twente-kanalen en de Subcommissie voor de Scheepvaartrechten een
+          secretaris was aangesteld. De nodige correspondentie betreffende de
+          ontwerp-adviezen werd door de Staatscommissie gevoerd. Vertegenwoordigers van
+          het secretariaatsbureau zijn wel steeds op de vergaderingen van de
+          subcommissies aanwezig geweest. Wie de notulen van die vergaderingen heeft
+          opgesteld, is niet vast te stellen. Behalve deze subcommissies met haar
+          ad-hoc-taken voor bijzondere onderwerpen waren twee subcommissies werkzaam met
+          een permanent karakter: één voor de landwegen en één voor de waterwegen. Over
+          de taak en werkwijze van deze twee permanente subcommissies zijn geen
+          bijzonderheden mee te delen. Slechts één verslag van de Subcommissie voor de
+          Waterwegen is bewaard gebleven. Op deze vergadering zijn de scheepvaartrechten
+          en het kanaal Meppel-Westerbork aan de orde gekomen. In de Verantwoording van
+          de inventarisatie wordt op de ordening van de bescheiden van de beide soorten
+          subcommissies nader ingegaan.</html:p>
+          <html:p>De bijzondere onderwerpen, waarover de Minister van Waterstaat advies
+          had gevraagd, zijn nu verdeeld in vijf groepen. In de eerste zijn de adviezen
+          inzake het vervoer in het algemeen ondergebracht. Ook het Eerste Verslag is
+          hier geplaatst.</html:p>
+          <html:p>In het rapport inzake de instelling van een vervoerraad gaf de
+          Staatscommissie aan hoe zij deze adviesraad geregeld zou willen zien. Ten
+          aanzien van haar eigen werkzaamheden concludeerde de Staatscommissie, dat het
+          doel beter bereikt zou worden, indien een orgaan in het leven werd geroepen,
+          dat gekend zou worden in alle grote vraagstukken die op het openbaar vervoer
+          betrekking hebben. De regering heeft op dit advies echter geen reactie
+          gegeven.</html:p>
+          <html:p>De Staatscommissie achtte in 1933 in haar rapport inzake het
+          voorontwerp van wet tot wijziging van de Wet op de Openbare Middelen van
+          Vervoer een concessiestelsel voor vrachtauto's in beginsel aanvaardbaar; dit in
+          tegenstelling tot het gestelde in het Eerste Verslag en in het hierna vermelde
+          Rapport inzake de regeling van het openbaar goederenvervoer per vrachtauto. In
+          dit voorontwerp zijn artikelsgewijs de wijzigingsvoorstellen voor de Wet op de
+          Openbare Middelen van Vervoer beschreven.</html:p>
+          <html:p>In de tweede groep zijn de adviezen inzake het wegvervoer
+          bijeengebracht. In 1928 is een rapport opgesteld inzake de regeling van de
+          bebouwing langs rijkswegen. Hierin werd een ontwerpverordening houdende
+          beperkende bepalingen opgenomen, omdat aan een dergelijke lintbebouwing veel
+          bezwaren kleefden voor het autoverkeer.</html:p>
+          <html:p>In het rapport inzake de regeling van het openbaar goederenvervoer per
+          vrachtauto uit 1929 maakte de Staatscommissie nog steeds bezwaar tegen een
+          vergunningenstelsel voor het vrachtautovervoer. De regeling van de arbeidstijd
+          van chauffeurs werd wel aanbevolen.</html:p>
+          <html:p>De Minister van Waterstaat vroeg in 1929 of het zinvol zou zijn de
+          toepassing van het systeem-Verhoop te bevorderen. Door de Firma Verhoop's
+          Fabrieken &amp; Agenturen te Hilversum was een constructie ontworpen voor
+          vrachtauto's waardoor de wegenslijtage aanmerkelijk zou worden beperkt. Na het
+          overlijden van de betrokken ondernemer richtte de rechtsopvolger zijn aandacht
+          op overzeese landen als afzetgebied voor deze vinding en stelde daarom een
+          eventuele steun van de Nederlandse overheid minder op prijs dan zijn
+          voorganger. De Staatscommissie staakte daarop de werkzaamheden aan deze
+          adviesaanvraag.</html:p>
+          <html:p>Onder de derde groep vallen de adviezen inzake het railvervoer. In het
+          Rapport inzake het Eerste Verslag van de Commissie voor het Tramwegvraagstuk
+          kon de Staatscommissie in grote lijnen meegaan met het door deze commissie
+          ontworpen wetsvoorstel.</html:p>
+          <html:p>De Staatscommissie nam in het Rapport inzake onteigening ten behoeve
+          van mijnspoorwegen het vraagstuk van de kolenafvoer van de mijnen naar de Maas
+          onder de loep.</html:p>
+          <html:p>In de vierde groep zijn de "natte" adviezen verzameld. Het Rapport
+          inzake het Convenantvraagstuk gaf de oplossing aan zoals de Staatscommissie die
+          zag voor het probleem, dat de uit 1817 daterende overeenkomst (=het Convenant)
+          tussen de stad Groningen en Drentse Veengenoten inzake de afvoer van turf langs
+          de stadskanalen en de heffingen van sluis-, brug- en doorvaartgelden niet
+          langer voldeed.</html:p>
+          <html:p>Het rapport inzake de scheepvaartrechten heeft de Staatscommissie zo
+          niet de meeste hoofdbrekens dan toch de meeste tijd gekost. In 1924 is door de
+          Minister van Waterstaat reeds een adviesaanvraag ter zake ingediend; pas in
+          1935 kon het rapport worden aangeboden, waarbij de Staatscommissie zich heeft
+          moeten beperken tot de juridische zijden van het probleem en bij de berekening
+          van de opbrengsten en uitgaven tot die van de doorgaande binnenvaart. Een
+          speciale subcommissie van de Centrale Commissie van Advies en Bijstand voor het
+          Verkeersfonds, die in 1941 tot de Commissie Scheepvaartrechten is verheven,
+          heeft zich daarna met dit probleem bezig gehoudenZie de Inventaris van het
+          archief van de Commissie Scheepvaartrechten, 1935-1948. H.B. Miserus.
+          Ministerie van Verkeer en Waterstaat. 1976.. Tenslotte zijn in de vijfde groep
+          de adviezen inzake de aanleg of verbetering van kanalen geplaatst. Het betreft
+          het kanaal Meppel-Westerbork, de Twente-kanalen, de Westlandse kanalen, het
+          kanaal Axel-Hulst, de Gooise kanalen, de Westfriese kanalen en de kanalen in
+          Zuid-Oost Groningen. Hierbij moet worden aangetekend dat over de Twente-kanalen
+          twee rapporten zijn verschenen. Het eerste rapport uit 1927 bevat de resultaten
+          van een rentabiliteitsonderzoek dat was ingesteld naar aanleiding van een
+          rapport dat door de ingenieur van de Rijkswaterstaat C. Wolterbeek was
+          opgesteld. Vier jaar later werd opnieuw een advies uitgebracht, omdat er
+          rekening gehouden moest worden met vergroting van de sluizen en de ontwatering
+          van verschillende gebieden.</html:p>
+          <html:p>Een aantal van deze adviezen werd door de regering voor publicatie
+          vrijgegeven: het eerste Verslag en de rapporten inzake lintbebouwing, openbaar
+          goederenvervoer per vrachtauto, vervoerraad en wijziging op de Wet Openbare
+          Middelen van Vervoer. Tegen publicatie van het advies inzake de
+          scheepvaartrechten maakte de Staatscommissie naar aanleiding van een vraag van
+          de Minister van Waterstaat geen bezwaarZie inv. nr. 66..</html:p>
+          <html:p>De Minister van Waterstaat verbood bij brief van 24 december 1931, nr.
+          377, openbaarmaking van het eerste rapport inzake de Twente-kanalen. Hierin
+          verklaarde hij, dat op grond van verschillende argumenten zijn ambtsvoorganger
+          reeds bezwaren had geopperd tegen een "deswege door een lid van de Tweede Kamer
+          der Staten-Generaal kenbaar gemaakte wensch"Zie inv. nr. 72.%</html:p>
+          <html:p>Het secretariaatsbureau is betrokken geweest bij het opstellen van
+          diverse (ontwerp-) adviezen. Zo blijkt uit de notulen van 6 november 1929 "dat
+          het rapport (inzake het autovrachtvervoer - J.G.) nader zal worden gereed
+          gemaakt door het bureau, nadat de benodigde informaties zullenzijn
+          verkregen"Zie blz. 13 van de notulen van de vergadering van 6-11-1929, inv. nr.
+          1..</html:p>
+          <html:p>In de vergadering van 24 maart 1930 concludeerde de voorzitter naar
+          aanleiding van de discussie over het Algemeen Rapport "dat men geen bezwaar
+          heeft het secretariaat met den arbeid te doen aanvangen"Zie blz. 9 van de
+          notulen van de vergadering van 24-3-1930, inv. nr. 1.. Ook bij het advies
+          inzake een in te stellen vervoerraad is het secretariaat betrokken geweestZie
+          blz. 4 van de notulen van de vergadering van 29-6-1931 en blz. 11 van die van
+          12-10-1931, inv. nr. 1.. Ditzelfde geldt voor het rapport inzake de
+          scheepvaartrechten Zie blz. 8 van de notulen van de vergadering van 25-3-1935,
+          inv. nr. 1..</html:p>
+          <html:p>Het initiatief tot haar opheffing is van de Staatscommissie zelf
+          uitgegaan. In 1935 was de taak geregeld van de in te stellen Centrale Commissie
+          van Advies en Bijstand voor het Verkeersfonds, die de regering hetzij gevraagd,
+          hetzij uit eigen beweging van advies zou moeten dienen inzake alle onderwerpen
+          betreffende dit fonds en de regeling van het verkeer. Met de instelling van de
+          Centrale Commissie in datzelfde jaar was bij de leden van de Staatscommissie
+          twijfel gerezen of er voor hen nog wel een taak restte. De Staatscommissie
+          stelde bij de aanbieding van het rapport inzake de scheepvaartrechten haar
+          mandaat ter beschikkingZie brief van de Staatscommissie aan de Minister van
+          Waterstaat van inv. nr. 64.. De Minister van Waterstaat nam dit aanbod over en
+          bij Koninklijk Besluit no. 73 van 9 januari 1936 is de Staatscommissie voor het
+          Vervoer opgeheven. Voorzover de Staatscommissie zich nog niet volledig van de
+          haar opgedragen taak mocht hebben gekweten, kon deze worden overgenomen door de
+          Centrale Commissie, aldus het opheffingsbesluit.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In 1923 werd de "Staatscommissie voor het Vervoervraagstuk" ingesteld om te
+      onderzoeken hoe de land- en waterwegen en de spoor- en intercommunicale tramwegen
+      op de meest economische gronden dienstbaar konden worden gemaakt aan het vervoer
+      van reizigers en van goederen.Het archief van de Staatscommissie voor het Vervoer
+      bevat o.a. notulen en agenda's van vergaderingen, stukken betreffende de in- en
+      samenstelling van de Staatscommissie, de algemene rapportage, adviezen inzake het
+      vervoer op de weg, op het spoor en te water en tevens inzake de aanleg van
+      waterwegen. Verder bevat het archief documentatie en als gedeponeerd archief de
+      stukken van de heer Lunsingh Tonckens als vertegenwoordiger van het Ministerie van
+      Waterstaat in de Commissie inzake coördinatie van spoorweg- en automobieltransport
+      van de Nederlandse Organisatie voor de Internationale Kamer van
+      Koophandel.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>102 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

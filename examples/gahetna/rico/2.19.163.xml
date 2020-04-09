@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/db958a4e-3763-4afc-a591-0d2170e847ee"
+  rdf:about="record/2.19.163">
+    <rico:identifier>2.19.163</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2006</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I60" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.163/i1" />
+      <rico:instantiates rdf:resource="record/2.19.163" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Federatie van
+        Bedrijfsverenigingen (1915-) 1929-1995</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/db958a4e-3763-4afc-a591-0d2170e847ee" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I60">
+    <rico:describedBy rdf:resource="record/2.19.163" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I60</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Federatie van Bedrijfsverenigingen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Federatie van Bedrijfsverenigingen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1915</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1995</rico:endDate>
+    <rico:date>1915-1995</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Federatie van Bedrijfsverenigingen, (1915-)
+            1929-1995</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Met de invoering van de Ongevallenwet in 1901 kwam een verplichte
+          verzekering tegen bedrijfsongevallen voor industriële arbeiders tot stand. De
+          uitvoering van deze wet werd overgedragen aan de in 1902 opgerichte Centrale
+          Werkgevers Risico-Bank. De werkgevers in de land- en tuinbouwsector richtten
+          voor ongevallenverzekering in 1909 de Centrale Landbouw-Onderlinge en de
+          Tuinbouw-Onderlinge op. De administratie en belangenbehartiging van deze
+          organisaties werd overgedragen aan de coöperatieve vereniging Centraal Beheer,
+          het centrale administratie-orgaan, dat in 1909 opgericht werd, ook met het oog
+          op toekomstige wetten en organisaties voor risico's. Zo werd onder andere de
+          vereniging Zee-Risico opgericht voor de uitvoering van de
+          Oorlogszeeongevallenwet van 1915. Voor de uitvoering van de Ziektewet van 1930
+          werden vanaf 1929 bedrijfsverenigingen opgericht.</html:p>
+          <html:p>Als centraal overlegorgaan werd tegelijkertijd op 13 september 1929 de
+          'Federatie van Bedrijfsverenigingen voor Ziekengeldverzekering' opgericht. Dit
+          was een vrijwillig samenwerkingsverband van de aangesloten
+          bedrijfsverenigingen, en was als zodanig geen uitvloeisel van enige wet- of
+          regelgeving. Een uitbreiding, alsmede een vereenvoudiging en uniformering van
+          het sociale verzekeringsstelsel kwam tot stand door de Organisatiewet Sociale
+          Verzekering van 1952. Deze wet droeg met ingang van 1953 de uitvoering van de
+          wettelijke sociale verzekeringen tegen ongevallen, ziekte, invaliditeit en
+          werkloosheid, alsook de uitvoering van de Kinderbijslagwet op aan 26
+          bedrijfsverenigingen, ingedeeld naar sectoren van het bedrijfs- en
+          beroepsleven. Als opvolger van Centraal Beheer werd het Gemeenschappelijk
+          Administratiekantoor (Gak) opgericht, dat de administratie verzorgde voor een
+          aantal bedrijfsverenigingen en bedrijfspensioenfondsen. De federatie bleef
+          bestaan als overkoepelende beleidsvormende organisatie, de naam werd gewijzigd
+          in Federatie van Bedrijfsverenigingen (FBV). Bij de oprichting in 1995 van het
+          Tica (Tijdelijk instituut voor coördinatie en afstemming), in vervolg op de
+          uitkomst van de Parlementaire Enquête door de commissie Buurmeijer in 1992-1993
+          naar de misstanden in de sv-wereld, werd de FBV opgeheven; haar taak werd
+          overgenomen door het Tica. Bij de herziening vervolgens van de Organisatiewet
+          Sociale Verzekering in 1997 werden ook de bedrijfsverenigingen opgeheven; hun
+          taken werden overgenomen door de opvolger van het Tica: het Landelijk instituut
+          voor sociale verzekeringen (Lisv). Dat heeft bestaan tot eind 2001, waarna het
+          opging in het UWV, samen met het Gak en de overige uitvoeringsinstellingen
+          sv.</html:p>
+          <html:p>Als samenwerkingsverband richtte de FBV zich vooral op bevordering van
+          samenwerking tussen de aangesloten bedrijfsverenigingen en van uniformiteit in
+          uitvoering en organisatie. Daartoe werden voornamelijk beleidsbepalende
+          instrumenten ontwikkeld (bijvoorbeeld modelstatuten en -reglementen). Men
+          speelde daarnaast ook een adviserende rol bij uitvoeringsperikelen en
+          bemiddelde richting overheid. In het FBV-bestuur waren de werkgevers en
+          werknemers vanuit diverse belangenverenigingen paritair vertegenwoordigd. Naast
+          het FBV-bestuur (algemeen en dagelijks) en de Algemene Ledenvergadering,
+          bestonden in de vorm van commissies overlegstructuren. De belangrijkste daarvan
+          was de Contact Commissie (met ingang van 1952 de Commissie van Voorbereiding
+          (CVV)), die zich bezighield met het voorbereiden van de besluiten die ter
+          vergadering van het bestuur vastgesteld dienden te worden, en de voorbereiding
+          van de inbreng van de FBV in vergaderingen met de SVR en de GMD. Daarnaast was
+          er de Gemengde Commissie waarin de FBV contacten onderhield met de
+          Gemeenschappelijke Medische Dienst (GMD). Men communiceerde richting het veld
+          middels circulaires (beleidsadviezen), mededelingen (informatie over technische
+          zaken op beleidsniveau) en adviseursbrieven (uitvoeringstechnische zaken op
+          ambtelijk niveau). Ook publiceerde men rapporten en brochures over meer
+          algemene sv-aangelegenheden. Eventuele gegevens ten bate van onderzoek naar
+          sv-relevante zaken werden middels 'enquêtes' bij de bedrijfsverenigingen
+          opgevraagd; daarnaast gebruikte men dit communicatiemiddel ook voor
+          opiniepeiling omtrent nieuwe of lopende ontwikkelingen.</html:p>
+          <html:p>Belangrijkste gesprekspartners van de FBV waren de Vereniging van Raden
+          van Arbeid, de SVR, de GMD en de administrateurs (Centraal Beheer, later het
+          Gak).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Dit archief bestaat voornamelijk uit vergaderstukken, jaarverslagen en
+      correspondentie van de FBV. Verder bevat het statuten en stukken betreffende
+      reglementering en administratieovereenkomsten, stukken betreffende
+      personeelsvertegenwoordiging, en stukken van diverse werkgroepen, commissies en
+      andere overlegorganen. Tot slot bevat het archief ook publicaties van het
+      FBV.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>16.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>364 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

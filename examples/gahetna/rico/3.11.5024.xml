@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/19e51235-cbea-473d-bc69-35040e1b05b3"
+  rdf:about="record/3.11.5024">
+    <rico:identifier>3.11.5024</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2010</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/5024" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.11.5024/i1" />
+      <rico:instantiates rdf:resource="record/3.11.5024" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Inspectie Landbouwonderwijs
+        ''s-Gravenhage, 1972-1985</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/19e51235-cbea-473d-bc69-35040e1b05b3" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/5024">
+    <rico:describedBy rdf:resource="record/3.11.5024" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>5024</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Landbouw, Natuurbeheer en Visserij: Inspectie
+      Landbouwonderwijs 's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>LNV / Isp. Landbouwonderwijs</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1972</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1985</rico:endDate>
+    <rico:date>1972-1985</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Inspectie Landbouwonderwijs 's-Gravenhage</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Binnen het overheidstaakgebied 'Onderwijs en Wetenschappen' vormt
+          'Agrarisch Onderwijs' een beleidsterrein dat tot de jaren zestig geregeld was
+          bij een eigen wet- en regelgeving. Halverwege de jaren zestig werd deze aparte
+          landbouwonderwijswetgeving opgenomen in het geheel van de Nederlandse
+          onderwijswet- en regelgeving. De taken en handelingen die de minister van
+          Onderwijs, Cultuur en Wetenschappen (OCW) uitvoert ten aanzien van het totale
+          onderwijsbestel, worden voor het Agrarisch Onderwijs uitgevoerd door de
+          minister van Landbouw, Natuurbeheer en Visserij.</html:p>
+          <html:p>Het toezicht op het agrarisch onderwijs is opgedragen aan de minister
+          van Landbouw via de Wet op het voortgezet onderwijs. Het wordt op zijn gezag
+          uitgevoerd door de Inspectie van het Landbouwonderwijs. Taken:Het toezien op
+          naleving van de bepalingen van wet- en regelgeving.Het organiseren en
+          administratief ondersteunen van visitaties aan instellingen voor agrarisch
+          onderwijs.Het evalueren en controleren van en rechtstreeks rapporteren aan de
+          minister van Landbouw over de kwaliteit van het agrarisch onderwijs.Het op
+          eigen initiatief verrichten van onderzoek op het gebied van het agrarisch
+          onderwijs.Het onderwijskundig en methodologisch ondersteunen van de
+          instellingen voor agrarisch onderwijs.</html:p>
+          <html:p>De functionele verzelfstandiging van de Inspectie in 1990 was bedoeld
+          als waarborg van de onafhankelijkheid van de inspectie ten opzichte van de
+          instellingen voor agrarisch onderwijs en de beleidsontwikkeling van de Directie
+          Landbouwonderwijs. Een groot deel van de beheerstaken van de Inspectie kwam te
+          vervallen. In 1992 kent de Inspectie een onderverdeling naar de volgende
+          aandachtsgebieden: de Landbouwuniversiteit, 3 agrarische hogescholen, 2
+          landbouwpraktijkscholen en het internationaal agrarisch onderwijs;3 agrarische
+          hogescholen, 6 landbouwpraktijkscholen, de STOAS, de LPC, het CITO;de AOC, de
+          scholen voor lager en middelbaar agrarisch onderwijs, en scholengemeenschappen
+          met een afdeling agrarisch onderwijs ende overige AOC, scholen voor lager en
+          middelbaar agrarisch onderwijs en scholengemeenschappen met een afdeling
+          agrarisch onderwijs.</html:p>
+          <html:p>De volledige historische achtergronden en ontwikkelingen van de
+          Inspectie van het Landbouwonderwijs en van het beleidsterrein agrarisch
+          onderwijs zijn uitgebreid beschreven in de volgende publicatie: 26. Agrarisch
+          Onderwijs. Een onderzoek naar actoren, taken en handelingen op het
+          beleidsterrein Agrarisch Onderwijs in de periode 1945-1992 (samenstelling:
+          G.M.C.J. Smeets; ISBN 90-74442-30-7), 's-Gravenhage 1995.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat uit notulen van vergaderingen met toezichthouders (op
+      cursussen) en onderwijsgevenden (directeuren van agrarische scholen en
+      tuinbouwscholen).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>4 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

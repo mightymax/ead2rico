@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/fb27fa95-707c-4f8c-8833-1f4f7b64184d"
+  rdf:about="record/2.10.50">
+    <rico:identifier>2.10.50</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/K23093" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.10.50/i1" />
+      <rico:instantiates rdf:resource="record/2.10.50" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2018</rico:hasModificationDate>
+        <html:p>9 november 2018</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121005</rico:hasModificationDate>
+        <html:p>5 oktober 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111124</rico:hasModificationDate>
+        <html:p>24 november 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111123</rico:hasModificationDate>
+        <html:p>23 november 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111018</rico:hasModificationDate>
+        <html:p>18 oktober 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101209</rico:hasModificationDate>
+        <html:p>9 december 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100222</rico:hasModificationDate>
+        <html:p>22 februari 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080308</rico:hasModificationDate>
+        <html:p>8 maart 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080114</rico:hasModificationDate>
+        <html:p>14 januari 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20070522</rico:hasModificationDate>
+        <html:p>22 mei 2007</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van Koloniën:
+        Stamboeken en pensioenregisters van Militairen KNIL in Oost- en West-Indië,
+        1815-1949 (1954)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/fb27fa95-707c-4f8c-8833-1f4f7b64184d" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/K23093">
+    <rico:describedBy rdf:resource="record/2.10.50" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>K23093</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Koloniën: Stamboeken en pensioenregisters
+      Militairen KNIL Oost-Indië en West-Indië</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Koloniën / Stamboeken Militairen KNIL Oost- en
+      West-Indië</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1815</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1954</rico:endDate>
+    <rico:date>1815-1954</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie voor Uniezaken en Overzeese Rijksdelen1949-1952
+            Ministerie van Overzeese Rijksdelen1952-1959 Generale Directie voor de
+            Koophandel en Koloniën1815-1818 Ministerie van Publiek Onderwijs, Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1818-1824 Ministerie
+            van Nationale Nijverheid en Koloniën / Administratie voor de
+            Koloniën1824-1825 Ministerie van Marine en Koloniën / Directie voor de Zaken
+            van de Koloniën1825-1830 Ministerie van Waterstaat, Nationale Nijverheid en
+            Koloniën / Administratie voor de Koloniën1830-1831 Ministerie van Nationale
+            Nijverheid en Koloniën / Administratie voor de Koloniën1831-1834 Ministerie
+            van Koloniën1834-1840 Ministerie van Marine en Koloniën1840-1841 Ministerie
+            van Koloniën1842-1945 Ministerie van Overzeese
+            Gebiedsdelen1945-1949</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De stamboeken en pensioenregisters bevatten persoonsgegevens van militairen
+      in Nederlands-Indië, Suriname en de Nederlandse Antillen uit de periode 1815-1949.
+      Die gegevens betreffen standaard geboorteplaats en -datum van de militair, namen
+      ouders, signalement en de militaire loopbaan waaronder rang, wapenonderdeel,
+      krijgsverrichtingen, internering, onderscheidingen en pensioenen. De
+      stamboekgegevens zijn ontsloten door - deels digitale - naamklappers per serie, die
+      verwijzen naar nummers waaronder de militairen zijn ingeschreven (stamboeknummers)
+      of naar de pagina's (folionummers) van de registers. Er is dus geen algemene index
+      op de namen van al deze militairen. Een aantal van deze naamklappers staat op
+      microfilm in de studiezaal Verfilmde Bestanden.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3 />
+      <html:p />
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>856 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>50,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

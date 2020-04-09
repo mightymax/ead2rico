@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/e6bf0273-ea90-4a69-acc5-d14eeb397fd8"
+  rdf:about="record/3.08.07">
+    <rico:identifier>3.08.07</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2009</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/37312" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.08.07/i1" />
+      <rico:instantiates rdf:resource="record/3.08.07" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190129</rico:hasModificationDate>
+        <html:p>29 jan 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111005</rico:hasModificationDate>
+        <html:p>5 oktober 2011</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de verzameling Registers 50 en 51 en
+        Oorspronkelijk Aanwijzende Tafels (OAT) Kadaster Zuid-Holland, vestiging
+        Rotterdam</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/e6bf0273-ea90-4a69-acc5-d14eeb397fd8" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Kadastrale gegevens.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/37312">
+    <rico:describedBy rdf:resource="record/3.08.07" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>37312</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Kadaster Zuid-Holland, Kantoor Rotterdam, Registers 50 en 51 met
+      Oorspronkelijk Aanwijzende Tafels (OAT) en andere restbestanden</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Kadaster / Rotterdam / Registers</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1832</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1989</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1832-1989</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Kadaster Zuid-Holland / vestiging Rotterdam</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de Oorspronkelijk Aanwijzende Tafels (OAT) waarin per
+      kadastrale gemeente in Zuid Holland de eindresultaten van de schattingen en
+      metingen in 1832 zijn vastgelegd. Daarnaast bevat het archief de Suppletoire
+      Aanwijzende Tafels (SAT) waarin de latere wijzigingen staan opgenomen. De lopende
+      administratie van het eigendom van een pand is te vinden in de Oorspronkelijk
+      Kadastrale Legger (OKL). Deze is niet te raadplegen via dit archief, maar via het
+      digitale zoeksysteem genaamd Digilegger. Tenslotte treft men in dit archief nog een
+      aantal specifieke toegangen aan zoals successie- en hypotheekregisters.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1088 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>133,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+        <html:p>Gebruiksduplicaten van de originele aanwijzende tafels (inv.nrs. 1 t/m
+        85) waren tot medio 2018 in de vorm van microfiches in de zelfbedieningsruimte
+        van de studiezaal van het Nationaal Archief beschikbaar. Deze microfiches zijn
+        sinds begin 2019 aanvraagbaar onder archiefinventaris 4.DUPKT, zie daarin
+        inventarisnummers 2 en 3.</html:p>
+        <html:p>De Oorspronkelijk Aanwijzende Tafels zijn in digitale vorm raadpleegbaar
+        via de Beeldbank van de Rijksdienst voor het Cultureel Erfgoed.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

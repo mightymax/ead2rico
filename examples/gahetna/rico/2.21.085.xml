@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6eecd1f4-29b4-2a8b-e053-09f0900aaf28"
+  rdf:about="record/2.21.085">
+    <rico:identifier>2.21.085</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1977</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C25071" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.085/i1" />
+      <rico:instantiates rdf:resource="record/2.21.085" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080822</rico:hasModificationDate>
+        <html:p>22 augustus 2008.</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080919</rico:hasModificationDate>
+        <html:p>19 september 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20091216</rico:hasModificationDate>
+        <html:p>16 december 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het geslacht Heldring en
+        aanverwante geslachten, 1650-2002</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6eecd1f4-29b4-2a8b-e053-09f0900aaf28" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. De Nederlandstalige
+        stukken van vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met
+        name in de oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C25071">
+    <rico:describedBy rdf:resource="record/2.21.085" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C25071</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 148 Heldring</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Heldring</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1650</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2002</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1650-2002</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>familie Heldring,familie Janssen,familie Van VhelenThierens,
+            J.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het belang van dit familiearchief is voornamelijk gelegen in de
+          aanwezigheid van de papieren van twee van haar leden te weten ds. Ottho Gerhard
+          Heldring (1804-1876) en van Ernst Heldring (1871-1954). De eerste was predikant
+          te Hemmen, daarnaast oprichter van de Heldringgestichten te Zetten en van het
+          opvoedingstehuis te Hoenderloo en een belangrijke figuur in het Revéil. Zijn
+          kleinzoon Ernst Heldring (1871-1954) was als directeur van de Koninklijke
+          Nederlandsche Stoomboot-Maatschappij een vooraanstaand man in het
+          scheepvaartwezen op nationaal en internationaal niveau met bemoeiingen met tal
+          van commissariaten, waarvan de Nederlandsche Bank en de Koninklijke Nederlandse
+          Hoogovens en Staalfabrieken wel de belangrijkste waren. Daarnaast was hij
+          voorzitter van de Amsterdamse kamer van koophandel en fabrieken en had tevens
+          bemoeiingen met de internationale kamer. Tenslotte was hij vanaf 1939 directeur
+          van de Nederlandsche Handel-Maatschappij.</html:p>
+          <html:p>Door al deze werkzaamheden was hij op de hoogte van al de grote
+          economische vraagstukken van zijn tijd.</html:p>
+          <html:p>De stukken betreffende eerstgenoemde zijn wellicht nog in waarde
+          toegenomen omdat van de overige stukken, die op hem en op de Heldringgestichten
+          betrekking hadden en die in Zetten berustten, door Momenteel berust het
+          gehavende restant in Revéil-archief, dat ondergebracht is in de bibliotheek van
+          de Universiteit te Amsterdam. Zie Bijlage 2 bij deze inventaris. oorlogsgeweld
+          veel is vernietigd en beschadigd . De stukken van laatstgenoemde hebben hun
+          belang reeds bewezen door de publicatie van de "Herinneringen en dagboek van
+          Ernst Heldring, 1871-1954" door dr. Joh. de Vries als uitgave van het
+          Nederlands Historisch Genootschap te Utrecht. De originelen, waarop deze
+          publicatie berust, bevinden zich in dit archief. Bij de beschrijving hiervan in
+          deze inventaris is zoveel als doenlijk naar deze uitgave verwezen.</html:p>
+          <html:p>Naast deze publicatie is vooral over genoemde ds. Ottho Gerhard
+          Heldring reeds zoveel gepubliceerd, dat daarnaar verwezen kan worden middels de
+          als bijlagen bij deze inventaris gevoegde bibliografieën en aanvullingen op
+          bestaande bibliografieën van de door hem en over hem verschenen geschriften
+          alsmede van de publicaties over de door hem opgerichte gestichten.</html:p>
+          <html:p>Voor bijzonderheden betreffende de genealogie en de oorsprong van het
+          geslacht Heldring alsmede betreffende de oorsprong van de naam Heldring zie men
+          inventarisnummer 230. Hierin vindt men ook alle gegevens betreffende de
+          luitenant-generaal, later commandeur, Gerhard Heinrich (von) Heldring, die bij
+          het uitbreken van de onlusten in 1830 bevelhebber van Maastricht was. Hij was
+          in 1790 door de keurvorst van Beieren in de erfelijke rijksadelstand verheven
+          op grond van een voorgewende afstamming uit een Lijflands geslacht. Daarop
+          volgde in 1811 de verheffing tot graaf door de koning van Westfalen. Zie inv.
+          nrs. 17 en 52. Hij voerde een ander wapen dan zijn vader Hans Hendrik Heldring
+          en ontkende ook alle familieverwantschap met zijn neven en nichten, die van hun
+          zijde wel relatie met hem probeerden te onderhouden.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>familie Heldring,familie Janssen,familie Van VhelenThierens,
+            J.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het belang van dit familiearchief is voornamelijk gelegen in de
+          aanwezigheid van de papieren van twee van haar leden te weten ds. Ottho Gerhard
+          Heldring (1804-1876) en van Ernst Heldring (1871-1954). De eerste was predikant
+          te Hemmen, daarnaast oprichter van de Heldringgestichten te Zetten en van het
+          opvoedingstehuis te Hoenderloo en een belangrijke figuur in het Revéil. Zijn
+          kleinzoon Ernst Heldring (1871-1954) was als directeur van de Koninklijke
+          Nederlandsche Stoomboot-Maatschappij een vooraanstaand man in het
+          scheepvaartwezen op nationaal en internationaal niveau met bemoeiingen met tal
+          van commissariaten, waarvan de Nederlandsche Bank en de Koninklijke Nederlandse
+          Hoogovens en Staalfabrieken wel de belangrijkste waren. Daarnaast was hij
+          voorzitter van de Amsterdamse kamer van koophandel en fabrieken en had tevens
+          bemoeiingen met de internationale kamer. Tenslotte was hij vanaf 1939 directeur
+          van de Nederlandsche Handel-Maatschappij.</html:p>
+          <html:p>Door al deze werkzaamheden was hij op de hoogte van al de grote
+          economische vraagstukken van zijn tijd.</html:p>
+          <html:p>De stukken betreffende eerstgenoemde zijn wellicht nog in waarde
+          toegenomen omdat van de overige stukken, die op hem en op de Heldringgestichten
+          betrekking hadden en die in Zetten berustten, door Momenteel berust het
+          gehavende restant in Revéil-archief, dat ondergebracht is in de bibliotheek van
+          de Universiteit te Amsterdam. Zie Bijlage 2 bij deze inventaris. oorlogsgeweld
+          veel is vernietigd en beschadigd . De stukken van laatstgenoemde hebben hun
+          belang reeds bewezen door de publicatie van de "Herinneringen en dagboek van
+          Ernst Heldring, 1871-1954" door dr. Joh. de Vries als uitgave van het
+          Nederlands Historisch Genootschap te Utrecht. De originelen, waarop deze
+          publicatie berust, bevinden zich in dit archief. Bij de beschrijving hiervan in
+          deze inventaris is zoveel als doenlijk naar deze uitgave verwezen.</html:p>
+          <html:p>Naast deze publicatie is vooral over genoemde ds. Ottho Gerhard
+          Heldring reeds zoveel gepubliceerd, dat daarnaar verwezen kan worden middels de
+          als bijlagen bij deze inventaris gevoegde bibliografieën en aanvullingen op
+          bestaande bibliografieën van de door hem en over hem verschenen geschriften
+          alsmede van de publicaties over de door hem opgerichte gestichten.</html:p>
+          <html:p>Voor bijzonderheden betreffende de genealogie en de oorsprong van het
+          geslacht Heldring alsmede betreffende de oorsprong van de naam Heldring zie men
+          inventarisnummer 230. Hierin vindt men ook alle gegevens betreffende de
+          luitenant-generaal, later commandeur, Gerhard Heinrich (von) Heldring, die bij
+          het uitbreken van de onlusten in 1830 bevelhebber van Maastricht was. Hij was
+          in 1790 door de keurvorst van Beieren in de erfelijke rijksadelstand verheven
+          op grond van een voorgewende afstamming uit een Lijflands geslacht. Daarop
+          volgde in 1811 de verheffing tot graaf door de koning van Westfalen. Zie inv.
+          nrs. 17 en 52. Hij voerde een ander wapen dan zijn vader Hans Hendrik Heldring
+          en ontkende ook alle familieverwantschap met zijn neven en nichten, die van hun
+          zijde wel relatie met hem probeerden te onderhouden.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>familie Heldring,familie Janssen,familie Van VhelenThierens,
+            J.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het belang van dit familiearchief is voornamelijk gelegen in de
+          aanwezigheid van de papieren van twee van haar leden te weten ds. Ottho Gerhard
+          Heldring (1804-1876) en van Ernst Heldring (1871-1954). De eerste was predikant
+          te Hemmen, daarnaast oprichter van de Heldringgestichten te Zetten en van het
+          opvoedingstehuis te Hoenderloo en een belangrijke figuur in het Revéil. Zijn
+          kleinzoon Ernst Heldring (1871-1954) was als directeur van de Koninklijke
+          Nederlandsche Stoomboot-Maatschappij een vooraanstaand man in het
+          scheepvaartwezen op nationaal en internationaal niveau met bemoeiingen met tal
+          van commissariaten, waarvan de Nederlandsche Bank en de Koninklijke Nederlandse
+          Hoogovens en Staalfabrieken wel de belangrijkste waren. Daarnaast was hij
+          voorzitter van de Amsterdamse kamer van koophandel en fabrieken en had tevens
+          bemoeiingen met de internationale kamer. Tenslotte was hij vanaf 1939 directeur
+          van de Nederlandsche Handel-Maatschappij.</html:p>
+          <html:p>Door al deze werkzaamheden was hij op de hoogte van al de grote
+          economische vraagstukken van zijn tijd.</html:p>
+          <html:p>De stukken betreffende eerstgenoemde zijn wellicht nog in waarde
+          toegenomen omdat van de overige stukken, die op hem en op de Heldringgestichten
+          betrekking hadden en die in Zetten berustten, door Momenteel berust het
+          gehavende restant in Revéil-archief, dat ondergebracht is in de bibliotheek van
+          de Universiteit te Amsterdam. Zie Bijlage 2 bij deze inventaris. oorlogsgeweld
+          veel is vernietigd en beschadigd . De stukken van laatstgenoemde hebben hun
+          belang reeds bewezen door de publicatie van de "Herinneringen en dagboek van
+          Ernst Heldring, 1871-1954" door dr. Joh. de Vries als uitgave van het
+          Nederlands Historisch Genootschap te Utrecht. De originelen, waarop deze
+          publicatie berust, bevinden zich in dit archief. Bij de beschrijving hiervan in
+          deze inventaris is zoveel als doenlijk naar deze uitgave verwezen.</html:p>
+          <html:p>Naast deze publicatie is vooral over genoemde ds. Ottho Gerhard
+          Heldring reeds zoveel gepubliceerd, dat daarnaar verwezen kan worden middels de
+          als bijlagen bij deze inventaris gevoegde bibliografieën en aanvullingen op
+          bestaande bibliografieën van de door hem en over hem verschenen geschriften
+          alsmede van de publicaties over de door hem opgerichte gestichten.</html:p>
+          <html:p>Voor bijzonderheden betreffende de genealogie en de oorsprong van het
+          geslacht Heldring alsmede betreffende de oorsprong van de naam Heldring zie men
+          inventarisnummer 230. Hierin vindt men ook alle gegevens betreffende de
+          luitenant-generaal, later commandeur, Gerhard Heinrich (von) Heldring, die bij
+          het uitbreken van de onlusten in 1830 bevelhebber van Maastricht was. Hij was
+          in 1790 door de keurvorst van Beieren in de erfelijke rijksadelstand verheven
+          op grond van een voorgewende afstamming uit een Lijflands geslacht. Daarop
+          volgde in 1811 de verheffing tot graaf door de koning van Westfalen. Zie inv.
+          nrs. 17 en 52. Hij voerde een ander wapen dan zijn vader Hans Hendrik Heldring
+          en ontkende ook alle familieverwantschap met zijn neven en nichten, die van hun
+          zijde wel relatie met hem probeerden te onderhouden.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>familie Heldring,familie Janssen,familie Van VhelenThierens,
+            J.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het belang van dit familiearchief is voornamelijk gelegen in de
+          aanwezigheid van de papieren van twee van haar leden te weten ds. Ottho Gerhard
+          Heldring (1804-1876) en van Ernst Heldring (1871-1954). De eerste was predikant
+          te Hemmen, daarnaast oprichter van de Heldringgestichten te Zetten en van het
+          opvoedingstehuis te Hoenderloo en een belangrijke figuur in het Revéil. Zijn
+          kleinzoon Ernst Heldring (1871-1954) was als directeur van de Koninklijke
+          Nederlandsche Stoomboot-Maatschappij een vooraanstaand man in het
+          scheepvaartwezen op nationaal en internationaal niveau met bemoeiingen met tal
+          van commissariaten, waarvan de Nederlandsche Bank en de Koninklijke Nederlandse
+          Hoogovens en Staalfabrieken wel de belangrijkste waren. Daarnaast was hij
+          voorzitter van de Amsterdamse kamer van koophandel en fabrieken en had tevens
+          bemoeiingen met de internationale kamer. Tenslotte was hij vanaf 1939 directeur
+          van de Nederlandsche Handel-Maatschappij.</html:p>
+          <html:p>Door al deze werkzaamheden was hij op de hoogte van al de grote
+          economische vraagstukken van zijn tijd.</html:p>
+          <html:p>De stukken betreffende eerstgenoemde zijn wellicht nog in waarde
+          toegenomen omdat van de overige stukken, die op hem en op de Heldringgestichten
+          betrekking hadden en die in Zetten berustten, door Momenteel berust het
+          gehavende restant in Revéil-archief, dat ondergebracht is in de bibliotheek van
+          de Universiteit te Amsterdam. Zie Bijlage 2 bij deze inventaris. oorlogsgeweld
+          veel is vernietigd en beschadigd . De stukken van laatstgenoemde hebben hun
+          belang reeds bewezen door de publicatie van de "Herinneringen en dagboek van
+          Ernst Heldring, 1871-1954" door dr. Joh. de Vries als uitgave van het
+          Nederlands Historisch Genootschap te Utrecht. De originelen, waarop deze
+          publicatie berust, bevinden zich in dit archief. Bij de beschrijving hiervan in
+          deze inventaris is zoveel als doenlijk naar deze uitgave verwezen.</html:p>
+          <html:p>Naast deze publicatie is vooral over genoemde ds. Ottho Gerhard
+          Heldring reeds zoveel gepubliceerd, dat daarnaar verwezen kan worden middels de
+          als bijlagen bij deze inventaris gevoegde bibliografieën en aanvullingen op
+          bestaande bibliografieën van de door hem en over hem verschenen geschriften
+          alsmede van de publicaties over de door hem opgerichte gestichten.</html:p>
+          <html:p>Voor bijzonderheden betreffende de genealogie en de oorsprong van het
+          geslacht Heldring alsmede betreffende de oorsprong van de naam Heldring zie men
+          inventarisnummer 230. Hierin vindt men ook alle gegevens betreffende de
+          luitenant-generaal, later commandeur, Gerhard Heinrich (von) Heldring, die bij
+          het uitbreken van de onlusten in 1830 bevelhebber van Maastricht was. Hij was
+          in 1790 door de keurvorst van Beieren in de erfelijke rijksadelstand verheven
+          op grond van een voorgewende afstamming uit een Lijflands geslacht. Daarop
+          volgde in 1811 de verheffing tot graaf door de koning van Westfalen. Zie inv.
+          nrs. 17 en 52. Hij voerde een ander wapen dan zijn vader Hans Hendrik Heldring
+          en ontkende ook alle familieverwantschap met zijn neven en nichten, die van hun
+          zijde wel relatie met hem probeerden te onderhouden.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De twee meest bekende personen uit de Heldring familie zijn dominee Ottho
+      Gerhard Heldring, oprichter van de Heldring gestichten te Zetten en het
+      opvoedingtehuis te Hoenderloo, en belangrijkste figuur in het Réveil, en Ernst
+      Heldring, onder andere bekend als directeur van de Koninklijke Nederlandsche
+      Stoomboot-Maatschappij en later de Nederlandsche Handel-Maatschappij. Verder was
+      hij commissaris voor de Nederlandsche Bank en de Koninklijke Nederlandse Hoogovens
+      en Staalfabrieken, en voorzitter van de Amsterdamse kamer van koophandel en
+      fabrieken. Het grootste deel van het archief bestaat uit stukken betreffende Ernst
+      Heldring en zijn werkzaamheden, zijn memoires, dagboeken en reisverslagen, zijn
+      correspondentie, zijn verslagen, verhandelingen, voordrachten maar ook zijn
+      genealogische activiteiten.Voor het overige bevat het genealogische, persoonlijke
+      en zakelijke stukken betreffende de familie Heldring en aanverwante geslachten,
+      variërende van liefdesbrieven tot benoemingen in het leger, en van notariële akten
+      tot een liederenbundel.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A), deels niet openbaar. Voor
+      raadpleging van de inv.nrs. 509-574 en 576-581, jonger dan 20 jaar, is de
+      toestemming vereist van de directeur Nationaal Archief (2003-415). Voor publicatie
+      van gegevens van pupillen van de Heldringgestichten uit stukken, jonger dan 75
+      jaar, is eveneens toestemming vereist van de directeur Nationaal Archief
+      (1983-D9.28). Inv.nr. 129 is verzegeld tot het overlijden van het langst levende
+      kind van E. Heldring (L. Heldring).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>582 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>11,10 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

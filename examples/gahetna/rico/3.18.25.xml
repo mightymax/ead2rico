@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/5c1f5a0e-f08b-42be-b615-bc30ed90b4f9"
+  rdf:about="record/3.18.25">
+    <rico:identifier>3.18.25</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1940</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36024" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.25/i1" />
+      <rico:instantiates rdf:resource="record/3.18.25" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150113</rico:hasModificationDate>
+        <html:p>13 januari 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150113</rico:hasModificationDate>
+        <html:p>13 januari 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140210</rico:hasModificationDate>
+        <html:p>10 februari 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110405</rico:hasModificationDate>
+        <html:p>5 april 2011</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het klooster Sint Ursula te
+        Schiedam</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/5c1f5a0e-f08b-42be-b615-bc30ed90b4f9" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven teksten en charters. De Nederlandstalige stukken zijn
+        geschreven in het gotische cursiefschrift, met name in de oud-Hollandse
+        klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36024">
+    <rico:describedBy rdf:resource="record/3.18.25" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36024</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Klooster St. Ursula te Schiedam</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Klooster St. Ursula te Schiedam</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1401</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1572</rico:endDate>
+    <rico:date>1401-1572</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Klooster St. Ursula te Schiedam, 1401-1572</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Van een klooster van St. Ursula te Schiedam kan men eigenlijk pas
+          spreken sinds het jaar 1439 (reg.no. 28). Aan wie het huis, genoemd in het
+          charter d.d. 17 Sept. 1405 (reg. no. 2) was gewijd, blijkt niet, terwijl in een
+          charter d.d. 1424 (reg.no. 4) dit klooster zelfs het St. Katrinenhuis genoemd
+          wordt. Ook in de andere stukken vóór het jaar 1439 wordt St. Ursula óf in het
+          geheel niet genoemd óf te zamen met vele andere heiligen als schutspatronen en
+          -patronessen van het klooster. Dat de zusters tot de derde orde van St.
+          Franciscus, de Tertiarissen, behoorden, wordt in de charters wél vermeld,
+          behalve in het reeds genoemde d.d. 1405. In dit laatste echter wordt wel
+          verwezen naar zusterhuizen van deze orde in Delft en Rotterdam, zoodat we
+          aannemen mogen, dat de vrouwen, die omstreeks het Jaar 1405 begonnen samen te
+          wonen, reeds toen tot dezelfde orde behoorden. Het verband tusschen de stukken
+          van vóór en na 1439 is verder ook zoo duidelijk, dat ze zeker afkomstig moeten
+          zijn uit eenzelfde kloosterarchief.</html:p>
+          <html:p>Het oorspronkelijk zusterhuis stond ten Oosten van de kerk te Schiedam
+          (reg.no. 2) en werd eerst in het jaar 1425 tot klooster verheven (reg.no. 6).
+          Reeds op het eind van 1428 of begin van 1429 blijkt het huis door een hevige
+          brand verwoest te zijn, waarna de bewoonsters vergunning kregen een nieuw huis
+          te laten bouwen in de parochie de Ketel binnen Schiedam (reg.no. 8 tot 13). De
+          plaats van dit nieuwe gebouw wordt eenigszins aangeduid doordat in stukken d.d.
+          1433, 1545 en 1556 sprake is van het St. Ursula convent Overdam. Uit
+          verschillende koopbrieven en uit het als inv.no. 28 beschreven register van
+          landerijen van het klooster blijkt verder, dat dit gelegen heeft aan de
+          Noordzijde van den Dam en zich ten Oosten heeft uitgestrekt langs de Breestraat
+          tot de Raambrug. In het eerder genoemde charter d.d. 1405 (reg.no. 2) bepaalde
+          de magistraat der stad Schiedam, dat de zusters jaarlijks twee burgers zouden
+          kiezen als haar raadslieden, die daarna van stadswege als zoodanig aangesteld
+          werden. Deze worden "opzieners en buitenvaders" genoemd (zie reg.no. 189 in
+          dorso). Het klooster genoot sinds het jaar 1405 vrijstelling van stedelijke
+          accijns. Door schenkingen, uiterste wilsbeschikkingen en aankoop werd het
+          grondbezit vrij aanzienlijk. Het feit, dat het opnemen van arme maagden meer
+          dan eens als voorwaarde in uiterste wilsbeschikkingen ten behoeve van het
+          klooster voorkomt, maakt het waarschijnlijk, dat geheel onvermogende zusters
+          tot de uitzonderingen behoord hebben.</html:p>
+          <html:p>Wat betreft het recht van exemtie blijkt het volgende: Bij een bul d.d.
+          18 Januari 1401 heeft paus Bonifacius IX aan het kapittel der Tertiarissen te
+          Utrecht toegestaan, dat de daartoe behoorende kloosters slechts geestelijken
+          van hun eigen orde, als visitatoren behoefden te aanvaarden. P. Dalm. van Heel
+          in Bijdr. Bisd. Haarlem, deel 56, p. 438. Blijkens een in het archief van het
+          klooster van St. Agatha te Delft berustend charter d.d. 26 April 1468 stelde de
+          bisschop van Utrecht echter in dat jaar de prioren der Regulieren in Eemsteyn
+          bij Dordrecht, die te Leiderdorp en Rugge bij Brielle verkiesbaar als
+          visitatoren, zoowel van het klooster van St. Agatha te Delft als van St. Ursula
+          te Schiedam. Dr. S.W.A. Drossaers in Inv. der Delftsche Statenkloosters pag.
+          194, reg.no. 306. Hierop hebben deze beide kloosters op hun verzoek van paus
+          Paulus II bij een bul d.d. 5 November 1468 het recht van exemtie verkregen, P.
+          Dalm. van Heel in Archief van het Aartsbisdom Utrecht 1939 deel 63, pag. 40-41
+          en in Bijdr. Bisd. Haarlem, deel 56, pag. 438 ev. welk recht evenwel door paus
+          Sixtus IV op 8 Juni weer werd herroepen. als boven pag. 202, reg.no.
+          343.</html:p>
+          <html:p>In het archief van het St. Ursula klooster is nog een charter d.d. 12
+          April 1521 (reg.no. 149) aanwezig, waarbij het klooster ook uit naam van eenige
+          kloosters te Delft en Den Haag, waaronder er ook waren die tot het kapittel van
+          Syon te Delft behoorden, protesteerde bij den paus tegen een visitatie door den
+          bisschop van Utrecht.</html:p>
+          <html:p>Omtrent den ondergang van het St. Ursula klooster worden noch in het
+          archief, noch bij de schrijvers bijzonderheden aangetroffen. Het register van
+          landerijen (inv.no. 28) is bijgewerkt tot het jaar 1572. In de maand Juni van
+          dat jaar sloot Schiedam zich bij den opstand tegen Spanje aan, welk feit voor
+          het lot der kloosters in de stad beslissend was.</html:p>
+          <html:p>Een lijst van paters en maters van het klooster is o.a. in het jaar
+          1939 afgedrukt in het archief van het Aartsbisdom Utrecht. P. Dalm van Heel in
+          Arch. Aartsb. Utrecht 1939, deel 63, pag. 201. In de tweede helft der 15e eeuw
+          worden als maters vermeld Maria en Katharina, beiden dochters van Jacob
+          Offhuys, schepen van Delft, (zie inv.no. 131-133). Het klooster erfde vele
+          goederen van dit geslacht.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het St. Ursulaklooster te Schiedam bestaat voornamelijk uit
+      charters uit de vijftiende en zestiende eeuw betreffende privileges geschonken door
+      de bisschop van Utrecht, de orde van St. Franciscus, registers van te ontvangen
+      pachten en renten en eigendomsakten van huizen en landerijen in
+      Zuid-Holland.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>180 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

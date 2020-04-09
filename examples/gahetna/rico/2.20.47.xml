@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/383581e4-9cf7-4356-b9ca-07d3750aca4f"
+  rdf:about="record/2.20.47">
+    <rico:identifier>2.20.47</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1994</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I28001" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.20.47/i1" />
+      <rico:instantiates rdf:resource="record/2.20.47" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100813</rico:hasModificationDate>
+        <html:p>13 augustus 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121212</rico:hasModificationDate>
+        <html:p>12 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20200320</rico:hasModificationDate>
+        <html:p>20 maart 2020</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Nederlandse Basalt
+        Maatschappij (NBM), (1902) 1912-1978</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/383581e4-9cf7-4356-b9ca-07d3750aca4f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I28001">
+    <rico:describedBy rdf:resource="record/2.20.47" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I28001</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Nederlandsche Basalt Maatschappij</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Ned. Basalt Mij.</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1902</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1978</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1902-1978</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>N.V. De ConventieNassauischen Basalt Aktien GesellschaftS.Prins
+            Dz. Algemeen Handelsbureau Im-en ExportSchelpkalkbranderij Het
+            KlaverbladS.Prins Dz.Zaandam Handel in Bouwmaterialen en Sanitaire
+            ArtikelenN.V. Kalkbranderij Het KlaverbladN.V. Nederlandsche Basalt
+            MaatschappijMij. Exploitatie Steenfabriek De BommelerwaardVereinigung Absatz
+            Wasser-Wegebausteinen in Holland ("WaWeCo")Westdeutsche Hartstein G.m.b.H
+            (Westharg)Deutsche Strassenbau G.m.b.H.N.V. Hollandsche Basaltine
+            Tegelfabriek (HBT)N.V. Internationale Basalt MaatschappijN.V. Belgische
+            AsfaltwegenbouwN.V. Basalt &amp; Bouwstoffen M.Mitteldeutsche Hartstein
+            Industrie Aktien GesellschaftN.V. Schelpkalkfabrieken ValkenburgN.V.
+            Bouwmaterialenhandel v/h L.van WagtendonkPrins-Padbou Maatskappy Bpk/EB
+            (Kaapstad)V.O.F. Nederlandsche Basalt MaatschappijN.V. Grondstoffen Handel
+            der Vereenigde StahlwerkeN.V. Reederij ZaanlandStichting Pensioenfonds
+            M.Grondexploitatie-en Beleggingsmij Arnhem-ZuidN.V. Aannemingsbedrijf M.
+            ZaandamN.V. Vauma p/a Steenbrekerij MaastrichtVerkoop Associatie VauatolN.V.
+            Nederlandsche Bouw Maatschappij ZaandamN.V. Zaanse Betonmortel CentraleN.V.
+            Internationale Aannemingsmaatschappij Holland (DICC)N.V. Afrika Constructie
+            MaatschappijN.V. Betonmortelbedrijf Den HaagN.V. Bermuda Investmest
+            CompanyN.V. Atlantic Equipment Company (Ltd)N.V. Algera Wolvega Aannemings-
+            en Handelsmij.N.V. Verenigde M. bedrijvenN.V. Nederlandse Bouw Mij. M.N.V.
+            Slem NederlandN.V. Stagro GrondstabilisatieN.V. J. van VemdeN.V.
+            Aannemingsbedrijf M.N.V. Belgische Asfalt en Betonmaatschappij
+            (B.A.B.)Stichting Sociaal Fonds Prins-Van Zanten, , 1970 Simon Prins Dzn
+            (1877-Hendrik Dirk Prins (1906-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Nederlandse Basalt Maatschappij (1902 - 1972) bevat
+      stukken betreffende verschillende N.V.'s, opgericht door Simon Prins Dzn. en zijn
+      zoon Hendrik D. Prins. Dit zijn grotendeels stukken afkomstig van de N.V.
+      Nederlandse Basalt Maatschappij, de N.V. Verenigde M. bedrijven en de N.V.
+      Aannemingsbedrijf M. te Zaandam. Het betreft voornamelijk oprichtingsakten,
+      statuten, notulenboeken, aandelenboeken en stukken m.b.t. financiële
+      aangelegenheden. Daarnaast bevat het archief stukken m.b.t. de oprichters (vader en
+      zoon Prins) jubilea en speciale gelegenheden van bedrijven personen en
+      personeelsvereniging.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>227 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>6,50 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

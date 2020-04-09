@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/0e86f796-fae7-4cab-96cc-f33bf365f8b0"
+  rdf:about="record/3.18.07">
+    <rico:identifier>3.18.07</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1916</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36007" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.07/i1" />
+      <rico:instantiates rdf:resource="record/3.18.07" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190315</rico:hasModificationDate>
+        <html:p>15 maart 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131001</rico:hasModificationDate>
+        <html:p>1 oktober 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het klooster
+        Koningsveld</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/0e86f796-fae7-4cab-96cc-f33bf365f8b0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36007">
+    <rico:describedBy rdf:resource="record/3.18.07" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36007</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Delftse Statenkloosters Koningsveld</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Delftse Statenkloosters / Koningsveld</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1251</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1575</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1251-1575</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Klooster Koningsveld</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In het jaar 1251 was Richardis van Delf, moei van Willem II, Roomsch
+          koning, blijkens een oorkonde van datzelfde jaar, voornemens een klooster voor
+          mannen te stichten "in curte nostra de Delf", zooals de koning het noemt In het
+          charter dd. 1251 reg. no. 1. ; "in haars vaders Wthof" zegt de Divisiekroniek
+          18e divisie, cap. 27. . Het was het terrein, waarop de koning een woning had
+          laten zetten, die door Richardis bewoond werd; het lag aan de Schie en den weg
+          naar Rotterdam, tegenover den Abtswoudschen weg en heette Koningsveld.</html:p>
+          <html:p>Aangemoedigd door de gunstige bepaling, die haar neef voor het te
+          stichten klooster maakte 1) (geen schenking evenwel zooals V.d. Bergh, Oorkbk.
+          I no. 544 het noemt), moet zij al spoedig aan dat voornemen gevolg gegeven
+          hebben; want reeds in September van het volgende jaar wekte paus Innocentius IV
+          een ieder op, bij te dragen tot den bouw van een kerk, waartoe proost en
+          convent van Campus Regis, zijn "dilecti filii" besloten hadden, maar die zonder
+          den steun van goedgeefsche geloovigen niet tot een eind gebracht kon worden In
+          het charter dd. 1252 reg. no. 2. . Het klooster was dus in 1252 bewoonbaar en
+          bewoond, niet voltooid evenwel, want in 1262 beloofde Hendrik, bisschop van
+          Utrecht zestig dagen aflaat aan ieder, die de afgevaardigden der nonnen van
+          Koningsveld welwillend zouden ontvangen en weldadig behandelen, wanneer zij
+          bijdragen zouden komen vragen voor de voltooiing van het klooster In het
+          charter dd. 1262 reg. no. 10. .</html:p>
+          <html:p>Zooals uit dezen bisschoppelijken brief blijkt, hadden de monniken
+          plaats gemaakt voor de nonnen, die voor het vervolg het klooster zouden blijven
+          bewonen, wat zij blijkens het oudste mij bekende stuk In het charter dd. 1258
+          reg. no. 4. , waarin van vrouwen sprake is, reeds in Februari 1258 deden. Waar
+          de monnikken gebleven zijn, is niet bekend; er zijn vermoedens, dat zij naar de
+          abdij te Middelburg zijn verplaatst.</html:p>
+          <html:p>Dat er lang voor dit klooster een ander mannenklooster zou hebben
+          bestaan, ten Z. waarvan Richardis het hare gesticht zou hebben, zal wel niet
+          meer zijn dan een legende. van Heussen H. van Heussen, Hist. Episc. Ultrataj,
+          1723, pag. 588. vertelt het op gezag van Opmeer, Römer R. C. H. Römer, Overzigt
+          van de kloosters en abdijen in Holland en Zeeland, 1854. I. p.p. 76, 154. op
+          dat van beide, hoewel hij zijn bedenkingen heeft.</html:p>
+          <html:p>Opmeer Opus Chronogr. fo. 381. zegt: "orro eius amita Richardis in
+          fundo suo, qui ab "Australi parte monachorum Praemonstratensium situs erat,
+          monasterium "monialium eiusdem ordinis (ei nomen Campi Regis tribuens)
+          "exstruxit". En wat verder: "Ceterum Guilielmus hos monachos Praemonstratenses
+          "Metelliburgum ad occupandum coenobium paucorum maleferiatorum "canonicorum
+          Regularium transmisit illorumque monasterium "in nosocomium
+          convertit."</html:p>
+          <html:p>Tegen deze bewering is niets in te brengen dan dat OPMEER zijn bron
+          niet noemt, dat de Beschrijving van Delft D. van Bleyswyck, Beschrijvinge ven
+          Delft, 1667. ).een ziekenhuis op die plaats niet kent, en dat Richardis een
+          mannen- en geen vrouwenklooster stichtte. Genoeg om te twijfelen aan van Rijns
+          H. van Rijn, Outheden en Gestichten, 1726, pag. 739. verzekering, dat Opmeer
+          van de geschiedenis van Koningsveld beter op de hoogte was dan alle andere
+          historieschrijvers bij elkaar.</html:p>
+          <html:p>Zijn ongenoemde bron blijkt bovendien het ontstaan van het verhaal der
+          twee kloosters veroorzaakt te hebben. Het is nl. duidelijk, dat Opmeer zijn
+          gegevens uit de Divisiekroniek had, wanneer men bij beiden de plaatsen
+          vergelijkt. In de kroniek luidt deze aldus: "in denselven "jare na dat coninc
+          Willem doot ghebleven was, stichtte ende "fondeerde Joncvrou Richard van Delft
+          des voorseyden coninx "moye een nonnencloester in aflaet haers Broeders Ziele
+          in haer "Vaders Wthof bij Delft an die zuytside van der Premonstreytenoorde
+          "dat Coninx-Velt genoemt is" enz. De woorden "an die zuytside "van der Prem.
+          oorde" zijn verwarrend; maar plaatst men achter "zuytside" een komma, dan wordt
+          de zin duidelijk; het klooster werd in den Uuthof gebouwd, die aan de Z.zijde
+          van Delft lag en was van de Prem. orde. Aan deze plaats, gevoegd bij het feit,
+          dat het klooster eerst door mannen en later door vrouwen werd bewoond, zal dus
+          de vergissing te wijten zijn.</html:p>
+          <html:p>van Heussen heeft echter nog een bewijs en wel een bul van Innocentius
+          IV, d.d. 11 October 1252 van Heussen, t. a. p. , het eenige stuk, waardoor
+          volgens Römer het mannenklooster bekend is. De paus bevestigt daarin alle
+          vrijdommen, schenkingen enz. die het klooster van zijn voorgangers ontvangen
+          heeft, en daar Innocentius in 1243 paus werd en zijn voorlaatste voorganger
+          Gregorius IX in 1227, moet dat klooster in 1252 minstens 25 jaar bestaan
+          hebben, wil er van voorgangers sprake kunnen zijn.</html:p>
+          <html:p>Beschouwt men nu evenwel deze bul, dan vestigt zij in alle opzichten
+          den indruk van tot een zeer jong klooster gericht te zijn. B.v. zij die het
+          godsdienstig leven verkoren hebben, hebben den apostolischen steun noodig om
+          niet van hun goede voornemens afgebracht te worden, waarom de paus de broeders
+          van Koningsveld in het Bisdom Utrecht, waar zij zich tot den goddelijken dienst
+          verbonden hebben, op hun verzoek in zijn bescherming neemt. Hij bevestigt hen
+          in hun bezit o. a. in dat van het gasthuis te Delft (volgens J. Meerman, Gesch.
+          van Koning Willem I, pag. 26, kort voordat Richardis haar klooster liet bouwen,
+          door Willem gesticht) en regelt de rechten en plichten van hun kerkelijk
+          leven.</html:p>
+          <html:p>Het komt mij voor, dat het een der eerste pauselijke brieven is, die
+          het klooster ontving en men, zooals Römer al oppert, in de passage, waarin
+          sprake is van 's pausen voorgangers, niet meer behoeft te zien dan een formule
+          in iederen dergelijken brief te vinden; het is de gewone opsomming: goederen
+          door schenkingen van "pontifices, reges, principes, fideles" of op andere wijze
+          verkregen. Men zou er even goed uit kunnen afleiden, dat het klooster koningen
+          onder zijn begunstigers gehad moet hebben, hoewel Willem II toch zeker de
+          eenige geweest zal zijn.</html:p>
+          <html:p>Bij deze bul, dat eenige bewijsstuk voor het bestaan van het
+          geheimzinnige klooster, kan ik nu nog een tweede voegen, nl. de reeds vermelde
+          van September van hetzelfde jaar, die tot nu toe blijkbaar niet bekend was. De
+          paus spreekt daarin van "dilecti filii" en heeft het dus ook hier over een
+          mannenklooster. Er is niet de minste reden die beide brieven op verschillende
+          kloosters te doen slaan en nu is de omgeving, waarin die van September
+          voorkomt, op zich zelf een bewijs dat hij, en dus ook de andere, op ons
+          klooster betrekking heeft. De notaris Arnoldus Nicolaasz. instrumenteert nl. in
+          1456, dat de proost van Koningsveld een nuntius zal rondzenden om bijdragen te
+          vragen voor het herstel van de kerk, die bij den brand van 1452 beschadigd is.
+          Tot meer opwekking geeft hij daarbij afschrift van de bul van September 1252 en
+          van den reeds genoemden bisschoppelijken brief van 1262 ten gunste van het
+          nonnenklooster uitgevaardigd; nu is het toch niet waarschijnlijk, dat hij
+          daarvoor een brief genomen zou hebben, die op een ander klooster, dat bovendien
+          al sinds twee eeuwen niet meer bestond, betrekking had.</html:p>
+          <html:p>Ook dat oude klooster zou Koningsveld geheeten hebben; waar zou een
+          klooster bij Delft, op de plaats waar Willem II een woning had doen bouwen, dat
+          's Konings Uythof was genoemd, dien naam anders vandaan hebben dan van den
+          roomsch-koning, die dat evenwel niet voor 1248 werd? De overeenkomst met
+          Genesis XIV, 18 en 19, waarop van Bleijswijck wijst, lijkt wat ver gezocht.
+          Hiermee zou dan nog eens de beruchte plaats in de bul van October 1252
+          vervallen.</html:p>
+          <html:p>Heeft er een mannenklooster bestaan vóór het onze, dan is dat zelfs
+          niet door één stuk bekend, slechts door een plaats bij opmeer, waarop nog wel
+          iets te zeggen valt.</html:p>
+          <html:p>Aan de gunst, waarin het klooster der adellijke jonkvrouwen, want dat
+          was het, bij de grafelijke familie stond, had het de incorporatie der kerken te
+          Pijnakker en te Schiedam te danken; eveneens een groot aandeel in het bestuur
+          der gasthuizen te Delft en te Schiedam en de begeving van de kapelaniën in die
+          gasthuizen. In de uitoefening van die rechten werd het door den abt van Egmond
+          en door de stedelijke regeeringen veelvuldig gestoord, waartoe het evenwel een
+          enkele keer zelf aanleiding gegeven schijnt te hebben. De noodige priesters
+          koos het klooster uit de kanunnikken der abdij van Mariënweerd bij Kuilenburg,
+          waarmee het in nauwe betrekking stond en wier abt, vader-abt van Koningsveld
+          was. In overleg met hem werd in 1398 het bestuur van het klooster geregeld en
+          mogelijke geschillen aan zijn beslissing overgelaten van Heussen, a. w. pag.
+          419. . De priorin had volgens die regeling, met twee helpsters, waarschijnlijk
+          de onderpriorin en de thesauraria of custos, het financieele beheer der
+          huishouding. Zij keerden den proost jaarlijks 200 pond Hollandsch uit. waarvan
+          deze den kapelaan en den rentmeester moest betalen en zichzelf, den kapelaan en
+          den leidekker, wanneer hij aan het klooster werkte, den kost geven; ieder
+          kwartaal legden de drie jonkvrouwen haar rekening over aan het convent. Zeker
+          waren inkomsten en levensstandaard in 1537 zeer gestegen, de rentmeester kreeg
+          toen alleen 116 pond Hollandsch.</html:p>
+          <html:p>De memoriegoederen werden afzonderlijk beheerd; de rentmeester had bij
+          dat beheer de memorievrouwe boven zich, die brieven en registers
+          bewaarde.</html:p>
+          <html:p>In 1572 werd het klooster gesloopt om te voorkomen, dat de Spanjaarden
+          er bij een aanval op de stad gebruik van zouden maken, daar het buiten tegen de
+          stadswallen aan lag. De nonnen, die te Delft bleven, kregen volgens ordonnantie
+          van den prins sinds Februari 1572 alimentatie.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het klooster Koningsveld bevond zich in de buurt van Delft. Het archief
+      bevat stukken betreffende het klooster en de orde van Premonstreit. Daarnaast
+      stukken betreffende het beheer van landerijen en huizen, het gasthuis te Delft en
+      Schiedam en rentebrieven.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>328 inventarisnummer(s)</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0,20 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/71041078-4705-4071-a80d-4a3e731f59df"
+  rdf:about="record/2.21.018">
+    <rico:identifier>2.21.018</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1977</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22283" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.018/i1" />
+      <rico:instantiates rdf:resource="record/2.21.018" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100811</rico:hasModificationDate>
+        <html:p>11 augustus 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140210</rico:hasModificationDate>
+        <html:p>10 februari 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140414</rico:hasModificationDate>
+        <html:p>14 april 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het geslacht Van Beresteyn en
+        aanverwante geslachten</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/71041078-4705-4071-a80d-4a3e731f59df" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22283">
+    <rico:describedBy rdf:resource="record/2.21.018" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22283</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 197 Familiearchief Van Beresteyn</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Beresteyn, van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1376</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1988</rico:endDate>
+    <rico:date>1376-1988</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beresteyn, Familie VanGael, FamilieKnobbert, FamilieHoeff,
+            Familie Van derAssendelft, Familie VanGroot, Familie DeBrühl, FamilieGaymans,
+            FamilieForsten, FamilieZuylen, Familie VanFrowein, FamilieBleiswijk, Familie
+            VanPieuse Fonds Maria Duyst, Hetetc.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat documenten en brieven van verschillende leden van de
+      familie Van Beresteyn sinds de 16e eeuw. Deze familie bracht verschillende
+      handelaren, kooplieden en bestuurders voort, en verwierf grote welstand. Eltjo
+      Allegondus van Beresteyn (1876-1948), die als bestuurder en politicus o.a.
+      burgemeester van Veendam en lid van de Tweede Kamer was, heeft zich als genealoog
+      met name toegelegd op de vervolmaking van het familiearchief Beresteyn.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>26.90 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2148 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

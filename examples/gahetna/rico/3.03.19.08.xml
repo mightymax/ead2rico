@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/26e24816-b7bf-4be1-b503-d0cc9b425386"
+  rdf:about="record/3.03.19.08">
+    <rico:identifier>3.03.19.08</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1928</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/344" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.03.19.08/i1" />
+      <rico:instantiates rdf:resource="record/3.03.19.08" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080808</rico:hasModificationDate>
+        <html:p>8 augustus 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20200323</rico:hasModificationDate>
+        <html:p>23 maart 2020</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Rechtbank van Enkele Politie
+        van het kanton Ridderkerk</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/26e24816-b7bf-4be1-b503-d0cc9b425386" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/344">
+    <rico:describedBy rdf:resource="record/3.03.19.08" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>344</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rechtbank van Enkele Politie te Ridderkerk</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rechtbank Enkele Politie Ridderkerk</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1813</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1830</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1813-1830</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rechtbank van Enkele Politie van het Kanton
+            Ridderkerk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Kort na de inlijving van ons land bij Frankrijk werd de rechterlijke
+          indeeling geregeld nl. bij Keizerlijk Decreet d.d. 18 October 1810.</html:p>
+          <html:p>In elk kanton werd een vredegerecht en eene rechtbank van enkele
+          politie opgericht. Gedurende het geheele bestaan der rechtbanken van enkele
+          politie, tot 1 October 1838, bleef deze rechterlijke indeeling gelden,
+          behoudens eenige wijzigingen, vastgesteld bij Koninklijk Besluit d.d. 27 April
+          1824.</html:p>
+          <html:p>De crimineele rechtspraak stond in verband met de verdeeling der
+          strafbare feiten in contraventions de police, délits en crimes volgens den Code
+          Pénal.</html:p>
+          <html:p>Art. 138 van den Code d'Instruction Criminelle bepaalde, dat de
+          eerstgenoemde politie-overtredingen berecht moesten worden door den
+          vrederechter als hoofd der rechtbank van enkele politie en door de maires,
+          aldus, dat de vrederechter bevoegd was in de gemeente, waar het vredegerecht
+          gevestigd was, terwijl zijn bevoegdheid in de andere gemeenten van zijn kanton
+          beperkt werd door die van de maires, die o.a. optraden als de eisch beneden de
+          15 francs bleef en in geval van heeterdaad. Van de vonnissen dezer rechtbanken
+          van enkele politie bestond appèl op de correctioneele kamers der rechtbanken
+          van eersten aanleg.</html:p>
+          <html:p>De Rechtbank van Enkele Politie sprak recht bij eenvoudige
+          wetsovertredingen: verstoring van de openbare orde, overtreding van
+          gemeentelijke verordeningen (het te laat sluiten van een tapperij, of het
+          gebruik van valse gewichten bijvoorbeeld), het niet voldoen aan een oproep voor
+          militaire dienst, kleine diefstallen en straatschenderij (het ingooien van
+          ruiten bijvoorbeeld).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat minuten van de rol, met bijlagen voor de periode
+      1816-1830, alsmede een getuigenverhoor ter zake van doodslag te Charlois in
+      1813.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0,10 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

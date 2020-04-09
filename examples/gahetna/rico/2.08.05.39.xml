@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/11e94e6c-133e-4cbf-9394-6ff361d669ba"
+  rdf:about="record/2.08.05.39">
+    <rico:identifier>2.08.05.39</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1995</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/F25539" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.08.05.39/i1" />
+      <rico:instantiates rdf:resource="record/2.08.05.39" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120126</rico:hasModificationDate>
+        <html:p>26 januari 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131023</rico:hasModificationDate>
+        <html:p>23 oktober 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de verbaalarchieven van het Ministerie van
+        Financiën: Afdeling Personeel, 1831-1929</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/11e94e6c-133e-4cbf-9394-6ff361d669ba" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/F25539">
+    <rico:describedBy rdf:resource="record/2.08.05.39" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>F25539</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Financiën: Afdeling Personeel</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Financiën / Personeel</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1831</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1929</rico:endDate>
+    <rico:date>1831-1929</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Financiën / Afdeling Personeel,
+            1831-1929</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de periode tot 1845 behandelde deze afdeling de personeelszaken voor
+          de gehele buitendienst van het ministerie. In de periode 1845-1926 de
+          personeelszaken van de administraties der directe belastingen, invoerrechten en
+          accijnzen, alsmede van de Rijnvaart en van de Waarborgkantoren. Bij de
+          oprichting van de Administratie der Belastingen in 1926 werd de afdeling
+          Personeel weer gecentraliseerd voor de gehele belastingdienst. In 1929 werd de
+          afdeling als de Afdeling Personeel van de Belastingdienst opgenomen in de
+          Centrale Directie. Tot deze directie behoorde ook een Afdeling Organisatie van
+          de Belastingdienst, welke vooral met de materiële voorzieningen van deze dienst
+          was belast. De personeelszaken van de registratie, het kadaster en de
+          hypotheken werden in de periode 1845-1926 door de Administratie der Registratie
+          etc behartigd, het posterij-personeel in de periode 1845-1877 door de afdeling
+          Posterijen en het ministeriepersoneel had gedurende de gehele periode 1831-1940
+          het Secretariaat als haar personeelsafdeling.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief maakt deel uit van de 3e Afdeling van het Ministerie van
+      Financiën. Het bevat resoluties (besluiten) en ingekomen stukken van de
+      Administratie der Directe Belastingen, In- en Uitgaande Rechten en Accijnzen
+      (Afdeling Personeel) en van de Administratie der Belastingen over de periode
+      1831-1929.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>239.25 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2060 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

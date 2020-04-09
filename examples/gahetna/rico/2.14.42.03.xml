@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/3e592479-a466-446c-92c0-cdfde0857cda"
+  rdf:about="record/2.14.42.03">
+    <rico:identifier>2.14.42.03</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1990</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/O27579" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.14.42.03/i1" />
+      <rico:instantiates rdf:resource="record/2.14.42.03" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080815</rico:hasModificationDate>
+        <html:p>15 augustus 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Staatscommissie Concentratie
+        Bijzonder Lager Onderwijs, 1936-1937</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/3e592479-a466-446c-92c0-cdfde0857cda" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/O27579">
+    <rico:describedBy rdf:resource="record/2.14.42.03" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>O27579</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Onderwijs en Wetenschappen: Staatscommissie
+      Concentratie Bijzonder Lager Onderwijs</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Staatscie. Concentratie Bijzonder Lager
+      Onderwijs</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1936</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1937</rico:endDate>
+    <rico:date>1936-1937</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Staatscommissie "Concentratie Bijzonder Lager
+            Onderwijs"</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De staatscommissie werd ingesteld bij KB van 11 februari 1936, nr. 15,
+          nadat de regering paragraaf 12 van het wetsontwerp van 6 augustus 1935 had
+          ingetrokken als gevolg van de vele kritiek hierop. In deze paragraaf stond een
+          bepaling, die aangaf dat bijzondere scholen naar het oordeel van het
+          departement, bij ministerieel besluit konden worden opgeheven. Dergelijke
+          besluiten konden worden uitgevaardigd naar aanleiding van de opheffing en
+          concentratie van een aantal openbare scholen. Zoals in een commentaar in De
+          Tijd van 23 januari 1937 vermeld staat werd hiermee gelijkheid in behandeling
+          tussen openbaar en bijzonder onderwijs beoogd, maar in feite resulteerde het in
+          een willekeurige behandeling van het bijzonder onderwijs. Begrijpelijkerwijze
+          kwam parlementair rechts hiertegen in verzet aldus De Tijd.</html:p>
+          <html:p>Op 4 maart werd 1936 door de minister van O.K. en W. de commissie
+          geïnstalleerd - bestaande uit leden van de Tweede Kamer der Staten-Generaal -
+          die een compromis moest zien te vinden tussen enerzijds de (rechtse)
+          kamermeerderheid in zijn verzet tegen de dreigende rechtsongelijkheid tussen
+          openbaar en bijzonder onderwijs, en anderzijds de linkse regering in haar door
+          de wet opgedragen zorg voor de voorziening van voldoende openbaar
+          onderwijs.</html:p>
+          <html:p>De taak van de commissie was: te onderzoeken, of een wettelijke
+          regeling kan worden getroffen om de concentratie van bijzondere scholen voor
+          algemeen vormend lager onderwijs te verwezenlijken op een wijze die de bezwaren
+          tegen paragraaf 12 van het bij koninklijke boodschap van 6 augustus 1935
+          ingediende wetsontwerp ondervangt en eventueel voorstellen in die richting te
+          doen;voorstellen te doen, welke betrekking hebben op de materie, geregeld in de
+          wet van 4 augustus 1933, staatsblad no 414.Deze wet hield in: het beperken van
+          uitgaven, welke voor de openbare kassen voortvloeien uit de uitvoering van de
+          Lageronderwijswet 1920.</html:p>
+          <html:p>De commissie hield 13 plenaire vergaderingen, de subcommissie
+          vergaderde 7 keer. De subcommissie werd zo vaak als de commissie dit nodig
+          achtte bijeen geroepen om een voorstel te doen. De leden van de subcommissie
+          werden door de voorzitter aangewezen. De werkzaamheden van de staatscommissie
+          kwamen op 13 december 1936 gereed. Het rapport werd 16 december ingediend en op
+          8 januari 1937 uitgebracht. De kern van het uitgebrachte rapport lag in de
+          gelijkschakeling van het openbaar en bijzonder onderwijs. De gelijkschakeling
+          hield in dat zowel het openbaar onderwijs als het bijzonder onderwijs hetzelfde
+          minimum aantal leerlingen moest hebben om bestaansrecht te behouden. Door de
+          bezuinigingen op het onderwijs was de regering genoodzaakt het aantal scholen
+          terug te brengen. Het stichten van nieuwe scholen werd van regeringszijde sterk
+          afgeremd. Doordat het ontwerp van de staatscommissie unaniem werd aanvaard, was
+          zij van mening dat zij de bedenkingen tegen paragraaf 12 hiermee had
+          ondervangen. Met het uitbrengen van het rapport achtte de staatscommissie haar
+          taak volbracht.</html:p>
+          <html:p>Mr. P.J.M. Aalberse werd opgevolgd door mr. C.M.J.F. Goseling, lid van
+          de Tweede Kamer der Staten-Generaal. Door het overlijden van Th. Ketelaar werd
+          D. Kooiman benoemd tot zijn opvolger.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In 1936 werd de Staatscommissie "Concentratie Bijzonder Lager Onderwijs"
+      insteld nadat er commotie was ontstaan over de mogelijke dreiging van
+      rechtsongelijkheid tussen het algemeen en bijzondere onderwijs. Bevat notulen van
+      de commissie en nota's, rapporten aangaande en voorstellen tot wijziging van de
+      Lager Onderwijs wet van 1920. Bevat tevens krantenknipsels.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>8 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

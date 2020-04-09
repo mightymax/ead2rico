@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/60dfe2a9-17a9-46c5-88a1-451ddff44fc9"
+  rdf:about="record/2.11.62">
+    <rico:identifier>2.11.62</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2007</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/L43" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.11.62/i1" />
+      <rico:instantiates rdf:resource="record/2.11.62" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Rijkszuivelstation Leiden,
+        1903-1979</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/60dfe2a9-17a9-46c5-88a1-451ddff44fc9" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/L43">
+    <rico:describedBy rdf:resource="record/2.11.62" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>L43</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rijkszuivelstation Leiden</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rijkszuivelstation Leiden</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1903</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1979</rico:endDate>
+    <rico:date>1903-1979</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijkszuivelstation Leiden</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Koninklijk Besluit van 23 februari 1903 tot instelling van een
+          Rijkszuivelstation zegt: "Het Rijkszuivelstation is belast met het onderzoek
+          van monsters genomen ter uitvoering van de Boterwet, alsook met het
+          wetenschappelijk onderzoek van zuivel en zuivelproducten en met hetgeen
+          daarmede samenhangt".</html:p>
+          <html:p>De genoemde samenhang leidde al spoedig tot het onderzoek van
+          margarine, in verband met de vervalsingen van boter, en de grondstoffen van
+          margarine (oliën en vetten). Door de inschakeling bij de controle op de
+          naleving van de Landbouw-Crisiswet 1933, waarvoor het Rijkszuivelstation over
+          de deskundigheid en de ruimte beschikte, onderging de taak een aanzienlijke
+          uitbreiding die leidde tot het onderzoek van zuivelhoudende producten
+          (melkpoeder in chocola, botervet in koek) en olie- en vethoudende producten
+          (oliezaden, bakkerijgrondstoffen). Dit werk nam andere vormen aan in de
+          oorlogsjaren en zette zich voort in verrichtingen voor de Algemene Inspectie
+          Dienst en voor de productschappen.</html:p>
+          <html:p>Het werk voor de productschappen verminderde echter aanzienlijk in de
+          jaren 1950 - 1955 door de intrekking van tal van oorlogsmaatregelen. Hierdoor
+          was het mogelijk om zonder uitbreiding van formatie belangrijke nieuwe
+          opdrachten te aanvaarden:</html:p>
+          <html:p>In 1958 telde het station 65 medewerkers, waaronder 8 academici. De
+          medewerkers waren allemaal werkzaam in de binnendienst. Voor monsternemingen
+          was men aangewezen op andere organen.</html:p>
+          <html:p>Het laboratorium was gesplitst in de afdelingen: boter en kaas, melk-
+          en melkproducten, oliën en vetten, margarine, toevoegingen, microchemie en
+          bacteriologie. Daarnaast had het Rijkszuivelstation nog drie taken van
+          bijzondere aard:</html:p>
+          <html:p>Door de intrekking van de Boterwet in 1960 en het daarop betrekking
+          hebbende KB van 1903 was de basis voor de oorspronkelijke taak
+          vervallen.</html:p>
+          <html:p>Op 21 oktober 1975 werd het Rijkszuivelstation te Leiden samen met het
+          Rijkslandbouw-proefstation voor Meststoffen- en Veevoederonderzoek te
+          Maastricht geïntegreerd tot het Rijks Kwaliteitsinstituut voor Land- en
+          Tuinbouwproducten (Rikilt) te Wageningen. (Instelllingsbeschikking Rijks
+          Kwaliteitsinstituut voor Land- en Tuinbouwproducten d.d. 16 oktober 1975, no. J
+          1247, Staatscourant 2020, 20 oktober 1975)</html:p>
+          <html:p>Tot aan het gereedkomen van het nieuwe laboratorium voor het Rikilt te
+          Wageningen in 1979, zijn de werkzaamheden van beide bovengenoemde stations op
+          de gebruikelijke wijze te Leiden en Maastricht voortgezet.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het Rijkszuivelstation (1903-1979) was een controle- en onderzoeksinstituut
+      voor zuivel en zuivelproducten, o.a. belast met de uitvoering van de Boterwet. Het
+      archief bevat stukken van algemene aard en stukken bijzondere onderwerpen, onder
+      andere betrekking hebbend op de organisatie, financiën, personeel, taakuitvoering
+      en internationale betrekking. De documenten in het archief bestaan uit
+      vergaderstukken, voorschriften, verslagen en rapportages, correspondentie,
+      lezingen, en artikelen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>160 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

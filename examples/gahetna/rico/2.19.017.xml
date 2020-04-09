@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/e53e6183-d1a7-465a-b8e1-4f2f367bf1a0"
+  rdf:about="record/2.19.017">
+    <rico:identifier>2.19.017</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1976</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I23352" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.017/i1" />
+      <rico:instantiates rdf:resource="record/2.19.017" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het dr. D. Bosfonds, 1916-1970
+        (1971)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/e53e6183-d1a7-465a-b8e1-4f2f367bf1a0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I23352">
+    <rico:describedBy rdf:resource="record/2.19.017" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I23352</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Dr. D. Bosfonds</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bosfonds</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1916</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1971</rico:endDate>
+    <rico:date>1916-1971</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Dr. D. Bosfonds</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op 22 december 1916 kwamen een aantal vrienden en geestverwanten van de
+          op 6 mei van het jaar overleden vrijzinnig-democratische politicus D. Bos
+          (1862-1916) bijeen om "als duurzame huldiging" een fonds te zijner
+          nagedachtenis op te richten. Aldus een circulaire, samengesteld op de
+          oprichtingsbijeenkomst van 22 september 1916. Inventarisnummer 1. Hierbij
+          gingen de gedachten vooral uit naar zijn initiatieven op onderwijsterrein en de
+          verruiming van ontwikkelingsmogelijkheden van brede lagen der bevolking. Zie
+          voor meer gegevens over D.Bos de biografie van dr. E. van Raalte: "Dr. D. Bos,
+          leven en werken van een Nederlands staatsman", Assen 1962. De papieren van D.
+          Bos bevinden zich in het Algemeen Rijksarchief en werden in 1965 door W. Visser
+          geïnventariseerd. Zie hiervoor: Inventarissen van de collecties D. Bos, A.L. en
+          C.J. de Bruijn Kops e.a., Algemeen Rijksarchief, Den Haag, 1970. Uiteindelijk
+          werd besloten om het fonds, waarvan het aanvangskapitaal fl. 5000,-- zou
+          bedragen, te bestemmen voor "sociaal paedagogischen arbeid ter bevordering van
+          de vrije volksontwikkeling in den ruimsten zin des woords". Aldus de
+          doelstellingen van het fonds, geformuleerd in de statuten. Inventarisnummer 1.
+          De stichtingsakte, die op 21 maart 1917 door een uitvoerend comité notarieel
+          werd bekrachtigd, beoogde in concreto de oprichting van een
+          sociaal-paedagogisch instituut, steun aan instellingen van vakonderwijs en het
+          verlenen van studiebeurzen ten bate van het vakonderwijs en
+          handelsonderwijs.</html:p>
+          <html:p>De gelden van de stichting werden volgens de statuten beheerd door een
+          raad van beheer, bestaande uit één lid, aan te wijzen door de weduwe D.
+          Bos-Meihuizen, en de leden van het uitvoerend comité. Uit hun midden werd een
+          dagelijks bestuur gekozen, dat het fonds naar buiten in rechte
+          vertegenwoordigde en voor zijn handelingen verantwoording schuldig was aan de
+          raad van beheer. Het fonds zou zich in zijn middelen voorzien door giften van
+          particulieren en door de werving van jaarlijkse contribuanten. In de praktijk
+          hield de raad van beheer in 1931 op te functioneren, zodat het dagelijks
+          bestuur uiteindelijk over het fonds beschikte.</html:p>
+          <html:p>De nagestreefde sociaal-paedagogische arbeid beperkte zich allengs tot
+          het wetenschappelijk terrein. In 1920 werd het sociaal-paedagogisch instituut
+          "Dr. D.Bos-stichting" aan de Rijksuniversiteit van Groningen geopend. Onder
+          leiding van H.J.F.W. Brugmans verrichtte het baanbrekend werk bij de toepassing
+          van het psychologisch onderzoek tijdens de beroepsopleiding en in de
+          arbeidsplaatsen. Nadat Brugmans in 1927 hoogleraar was geworden verengde het
+          werkterrein zich tot de beroepsselectie, doordat zijn assistent, de latere
+          andragoog T.T. ten Have, de leiding had over een Gronings bureau voor
+          beroepskeuze. Hier kwam verandering in, toen het bestuur in 1957 besloot om een
+          ruimer terrein te bestrijken. Het instituut werd opgeheven, daar de
+          psychotechniek nu ook door reeds bestaande universitaire instellingen werd
+          toegepast. Door middel van lezingencycli zou nu worden getracht om andere
+          aspecten van de sociale paedagogiek onder brede aandacht te brengen.</html:p>
+          <html:p>In 1938 en 1939 traden achtereenvolgens Ph. Kohnstamm en E. Carp als
+          sprekers op.</html:p>
+          <html:p>Het uitbreken van de Tweede Wereldoorlog betekende een voorlopige
+          stopzetting van de werkzaamheden van het fonds. Pas in 1954 werd weer een
+          bestuursvergadering belegd, nadat sedert 1951 steun werd verleend aan
+          onderzoekingsprojecten van Ten Have, die nu hoogleraar in de grondslagen van de
+          sociale paedagogiek aan de Gemeenteuniversiteit van Amsterdam was. Sedertdien
+          verstrekte het in overleg met diverse universitaire instellingen opdrachten
+          voor sociaal-paedagogische onderzoekingen.</html:p>
+          <html:p>Op 19 september 1959 paste het fonds zich aan bij de Wet op de
+          Stichtingen van 1956 en nam het de naam "Stichting Dr. D. Bos-fonds" aan. Het
+          begon toen een campagne voor een eeuwfeest van zijn naamgever, en droeg aan de
+          historicus dr. E. van Raalte op om een biografie van Bos samen te stellen. In
+          september 1962 vond een uitreiking van deze biografie plaats, alsmede een
+          kranslegging op het graf van Bos en een bijeenkomst in de zaak van de Tweede
+          Kamer in den Haag.</html:p>
+          <html:p>Op 28 oktober 1969 besloot het bestuur de stichting op te heffen en de
+          beheerde gelden ter beschikking te stellen aan een onderzoeksproject. Het
+          bedrag, vastgesteld op f. 26.374,15, werd op 2 oktober 1970 overgemaakt aan het
+          Nederlands Centrum voor Democratische Burgerschapvorming voor een
+          onderzoeksproject over "politieke socialisatie".</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Dr. D. Bosfonds (1916-1970) bevat onder meer notulen,
+      verslagen van de werkzaamheden, lijsten van donateurs, teksten van lezingen over
+      opvoeding en onderwijs, en stukken inzake de instelling en financiering van
+      sociaal-pedagogische instituten aan de Rijksuniversiteiten van Groningen en Utrecht
+      en aan de Gemeentelijke Universiteit van Amsterdam.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>31 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

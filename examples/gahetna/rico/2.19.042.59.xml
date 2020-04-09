@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/9c378aab-5dc1-48cd-ad5d-4dad2b7295be"
+  rdf:about="record/2.19.042.59">
+    <rico:identifier>2.19.042.59</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1987</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I26185" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.042.59/i1" />
+      <rico:instantiates rdf:resource="record/2.19.042.59" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Vereniging Het Metalen
+        Kruis, 1853-1891</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/9c378aab-5dc1-48cd-ad5d-4dad2b7295be" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I26185">
+    <rico:describedBy rdf:resource="record/2.19.042.59" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I26185</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Vereniging Het Metalen Kruis</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Vereniging Het Metalen Kruis</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1853</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1891</rico:endDate>
+    <rico:date>1853-1891</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Vereniging"Het Metalen Kruis", 1853-1891</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Metalen Kruis 1830-1831 werd ingesteld door Koning Willem I bij
+          Koninklijk Besluit no. 70 van 12 september 1831 en uitgereikt aan allen die in
+          de Nationale Militie of de Koninklijke Marine aan de krijgsverrichtingen in de
+          jaren 1830 en 1831 hadden deelgenomen: voorbeelden zijn de Tiendaagse Veldtocht
+          en de verdediging van het Scheldegebied rond Antwerpen. Een apart
+          herinneringskruis, het Metalen Kruis Vrijwilligers 1830-1831 werd uitgereikt
+          aan deelnemers aan eenheden die zich als zodanig hadden aangemeld, zoals de
+          studentenjagers van de universiteiten. Twintig jaar later werd een vereniging
+          opgericht van dragers van dit herinneringskruis, die zich tot doel stelden de
+          herinnering aan hun krijgsverrichtingen levend te houden en onderling in
+          contact te blijven. De vereniging kende een uitgebreid netwerk van plaatselijke
+          afdelingen, waarvan in ieder geval stukken bewaard zijn gebleven in Alkmaar,
+          Amsterdam, Delft, Dordrecht, Gouda, ’s-Gravenhage, Groningen, Haarlem, Tilburg,
+          Utrecht, Zwolle Grote plaatselijke afdelingen (bijv. ‘s-Gravenhage) werden
+          ingedeeld in secties: een eerste sectie voor “de beschaafden stand” en een
+          tweede sectie door “den fatsoenlijken burgerstand”.</html:p>
+          <html:p>De belangrijkste activiteit van de vereniging was de oprichting van een
+          standbeeld op de Dam in Amsterdam, met een afbeelding van de Nederlandse Maagd
+          als karakteristiek negentiende-eeuws symbool van de eendracht van het land; In
+          1856 onthuld en esthetisch van meet af aan omstreden, is het met de bijnaam
+          “Naatje van de Dam” de geschiedenis ingegaan.. Daarnaast vonden tal van
+          plaatselijke plechtigheden plaats waarvan de neerslag te vinden is in tal van
+          oorkonden, vaandels, gedenkstukken in edelmetaal en andere voor de negentiende
+          eeuw karakteristieke designobjecten. Ook spande het bestuur zich in voor de
+          blijvende bewaring van gedenkwaardigheden – bijvoorbeeld archieven – van
+          opvallende helden uit de strijd tegen de afscheiding; die kregen een plaats in
+          de bibliotheek van de Koninklijke Militaire Akademie in Breda.</html:p>
+          <html:p>In 1891 deed het secretariaat een laatste oproep tot een landelijke
+          herdenking van de Tiendaagse Veldtocht: het aantal plaatselijke comités was op
+          één hand te tellen en men gaf ternauwernood antwoord.</html:p>
+          <html:p>Een vereniging die onmiddellijk na de krijgsverrichtingen in België
+          werd opgericht is de Mobiele Sociëteit in Amsterdam, ook bekend als de
+          Citadel-vereeniging, waarvan de Wetten op 29 oktober 1832 werden vastgesteld.
+          In 1885 noteerde de secretaris van “Het metalen kruis” dat zij ontbonden
+          was.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Mobiele Sociëteit te Amsterdam, 1832-1881</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Metalen Kruis 1830-1831 werd ingesteld door Koning Willem I bij
+          Koninklijk Besluit no. 70 van 12 september 1831 en uitgereikt aan allen die in
+          de Nationale Militie of de Koninklijke Marine aan de krijgsverrichtingen in de
+          jaren 1830 en 1831 hadden deelgenomen: voorbeelden zijn de Tiendaagse Veldtocht
+          en de verdediging van het Scheldegebied rond Antwerpen. Een apart
+          herinneringskruis, het Metalen Kruis Vrijwilligers 1830-1831 werd uitgereikt
+          aan deelnemers aan eenheden die zich als zodanig hadden aangemeld, zoals de
+          studentenjagers van de universiteiten. Twintig jaar later werd een vereniging
+          opgericht van dragers van dit herinneringskruis, die zich tot doel stelden de
+          herinnering aan hun krijgsverrichtingen levend te houden en onderling in
+          contact te blijven. De vereniging kende een uitgebreid netwerk van plaatselijke
+          afdelingen, waarvan in ieder geval stukken bewaard zijn gebleven in Alkmaar,
+          Amsterdam, Delft, Dordrecht, Gouda, ’s-Gravenhage, Groningen, Haarlem, Tilburg,
+          Utrecht, Zwolle Grote plaatselijke afdelingen (bijv. ‘s-Gravenhage) werden
+          ingedeeld in secties: een eerste sectie voor “de beschaafden stand” en een
+          tweede sectie door “den fatsoenlijken burgerstand”.</html:p>
+          <html:p>De belangrijkste activiteit van de vereniging was de oprichting van een
+          standbeeld op de Dam in Amsterdam, met een afbeelding van de Nederlandse Maagd
+          als karakteristiek negentiende-eeuws symbool van de eendracht van het land; In
+          1856 onthuld en esthetisch van meet af aan omstreden, is het met de bijnaam
+          “Naatje van de Dam” de geschiedenis ingegaan.. Daarnaast vonden tal van
+          plaatselijke plechtigheden plaats waarvan de neerslag te vinden is in tal van
+          oorkonden, vaandels, gedenkstukken in edelmetaal en andere voor de negentiende
+          eeuw karakteristieke designobjecten. Ook spande het bestuur zich in voor de
+          blijvende bewaring van gedenkwaardigheden – bijvoorbeeld archieven – van
+          opvallende helden uit de strijd tegen de afscheiding; die kregen een plaats in
+          de bibliotheek van de Koninklijke Militaire Akademie in Breda.</html:p>
+          <html:p>In 1891 deed het secretariaat een laatste oproep tot een landelijke
+          herdenking van de Tiendaagse Veldtocht: het aantal plaatselijke comités was op
+          één hand te tellen en men gaf ternauwernood antwoord.</html:p>
+          <html:p>Een vereniging die onmiddellijk na de krijgsverrichtingen in België
+          werd opgericht is de Mobiele Sociëteit in Amsterdam, ook bekend als de
+          Citadel-vereeniging, waarvan de Wetten op 29 oktober 1832 werden vastgesteld.
+          In 1885 noteerde de secretaris van “Het metalen kruis” dat zij ontbonden
+          was.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De vereniging van "Het Metalen Kruis'' werd in 1856 opgericht en was
+      bedoeld voor de dragers van deze militaire onderscheiding. Het Metalen Kruis
+      1830-1831 werd aan alle oud-strijders verleend die deel hadden genomen aan de
+      krijgshandelingen tijdens de Belgische opstand in 1830-1831. Voor soldaten die
+      vrijwillig en zonder handgeld deel hadden genomen aan dezelfde krijgskundige
+      handelingen was er de Metalen Kruis Vrijwilligers 1830-1831. Het archief van de
+      Vereniging bevat correspondentie van het hoofdbestuur en overige administratieve
+      stukken, stukken m.b.t. de herdenking van de Tiendaags Veldtocht in 1881 en stukken
+      betreffende de wapenverzameling van S.J. Roosdorp.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>28 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

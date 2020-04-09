@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/b6b3f0f3-c6c4-4b9a-9fe8-22131d935204"
+  rdf:about="record/2.14.43">
+    <rico:identifier>2.14.43</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/O27580" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.14.43/i1" />
+      <rico:instantiates rdf:resource="record/2.14.43" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20070726</rico:hasModificationDate>
+        <html:p>26 juli 2007</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080815</rico:hasModificationDate>
+        <html:p>15 augustus 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090717</rico:hasModificationDate>
+        <html:p>17 juli 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120925</rico:hasModificationDate>
+        <html:p>25 september 2012</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van Onderwijs,
+        Kunsten en Wetenschappen: Directie Algemeen Voortgezet en Voorbereidend
+        Wetenschappelijk Onderwijs en voorgangers, (1874) 1918-1975</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/b6b3f0f3-c6c4-4b9a-9fe8-22131d935204" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/O27580">
+    <rico:describedBy rdf:resource="record/2.14.43" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>O27580</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Onderwijs en Wetenschappen: (Hoofd)afdeling
+      Voorbereidend Hoger en Middelbaar Onderwijs</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>OW / Voorbereidend Hoger en Middelbaar
+      Onderwijs</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1874</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1975</rico:endDate>
+    <rico:date>1874-1975</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Onderwijs, Kunsten en Wetenschappen /
+            (Hoofd)afdeling Voorbereidend Hoger en Middelbaar Onderwijs</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Tot 25 september 1918 viel onderwijs onder verantwoordelijkheid van het
+          Ministerie van Binnenlandse Zaken. Op 25 september werd een afzonderlijk
+          Ministerie van Onderwijs, Kunsten en Wetenschappen ingesteld en bij beschikking
+          van 27 september 1918 nr. 4 van de afdeling Kabinet werden zes afdelingen
+          ingesteld, t.w.: de afdeling Hoger Onderwijsde afdeling Middelbaar Onderwijsde
+          afdeling Vakonderwijsde afdeling Lager Onderwijs A (Algemeen)de afdeling Lager
+          Onderwijs F (Financieel)de afdeling Kunsten en Wetenschappen Op 1 oktober 1927
+          ging de afdeling Middelbaar Onderwijs (1918-1927) over in de afdeling
+          Voorbereidend Hoger en Middelbaar Onderwijs (VHMO) (1927-1960). In 1960
+          veranderde de naam in "hoofdafdeling VHMO" en in 1967 ging de afdeling over in
+          de directie Algemeen Voortgezet en Voorbereidend Wetenschappelijk Onderwijs
+          (AVO).</html:p>
+          <html:p>Het ontwerp van wet tot regeling van het voorbereidend hoger en
+          middelbaar onderwijs werd op 22 maart 1919 bij de Staten-Generaal ingediend en
+          bereikte een jaar later het Staatsblad. De wet van 1 maart 1920, Stbl.nr. 106,
+          trad op 1 september 1920 in werking. In de jaren volgend op de instelling van
+          de afdeling VHMO werd herhaaldelijk aangedrongen op wijziging (herziening) van
+          het voorbereidend hoger en middelbaar onderwijs, in de zin van een wettelijke
+          regeling voor lycea, middelbare meisjesscholen en de A-afdelingen van de
+          hogereburgerscholen. Vooruitlopend op de totstandkoming van de wetsontwerpen
+          voor het voorbereidend hoger en middelbaar onderwijs werd de uitvoering van de
+          werkzaamheden ofwel de administratie bij de afdelingen middelbaar onderwijs,
+          hoger onderwijs en nijverheids- en handelsonderwijs steeds meer geconcentreerd
+          in één afdeling die op 1 oktober 1927 de naam VHMO kreeg.</html:p>
+          <html:p>In 1945 was er sprake van vernieuwing van het onderwijs, op basis van
+          het rapport van de voormalige minister van Onderwijs, Kunsten en Wetenschappen,
+          G. Bolkestein. Ook in de troonrede werd gesproken van de voorbereiding van een
+          reorganisatie van het onderwijs. In het kader van de vernieuwing van het
+          onderwijs kondigde de troonrede in 1947 voorstellen aan ter herziening van de
+          regeling van het voorbereidend hoger en middelbaar onderwijs en het
+          Nijverheidsonderwijs. Een jaar later verkeerden de wetsontwerpen tot o.m.
+          regeling van het voorbereidend hoger en middelbaar onderwijs in vergevorderde
+          staat van voorbereiding. In 1950 werd de nota-Rutten aangekondigd, over het
+          geheel van onderwijsvoorzieningen, die de basis legde voor de Wet op het
+          Voortgezet Onderwijs, de Mammoetwet. Als vervolg daarop werd op 18 februari
+          1950 een tweede nota aan de Tweede Kamer aangeboden. In deze nota werden voor
+          het eerst de termen hoger algemeen voortgezet onderwijs (h.a.v.o.) en
+          middelbaar algemeen voortgezet onderwijs (m.a.v.o.) gebruikt. Op 29 oktober
+          1950 werd het wetsontwerp tot regeling van het voortgezet onderwijs ingediend.
+          Dit ontwerp behelsde een wettelijke regeling van alle soorten voortgezet
+          onderwijs tussen lagere school en universiteit. Op 10 november 1958 stelde de
+          voorzitter van de Tweede Kamer een bijzondere commissie in tot voorbereiding
+          van de behandeling van dit wetsontwerp. In dat jaar werd ook de inspectie bij
+          het voorbereidend hoger en middelbaar onderwijs gereorganiseerd in verband met
+          de snelle groei van het aantal scholen en leerlingen. In 1960 moesten ook de
+          regeling en de duur van de examens van gymnasia en hogereburgerscholen
+          gewijzigd worden in verband met de sterke stijging van het aantal
+          examenkandidaten en het beperkt aantal beschikbare gecommitteerden. Op 12
+          februari 1963 werd de 'Wet op het voortgezet onderwijs, ter vervanging van de
+          Kweekschoolwet, de Middelbaaronderwijswet, de Nijverheidsonderwijswet en van
+          gedeelten van de Hogeronderwijswet' (de Mammoetwet) aangenomen. Honderd jaar na
+          de invoering van de eerste wet op het middelbaar onderwijs telde Nederland ruim
+          450 dagscholen voor het voorbereidend hoger en middelbaar onderwijs. In 1966
+          werd de Overgangswet W.V.O. ingediend bij de Tweede Kamer. Deze wet beoogde de
+          overgang van de oude naar de nieuwe onderwijsstructuur soepel te doen verlopen
+          en in de W.V.O. een aantal wijzigingen aan te brengen die wenselijk waren
+          gebleken in het overleg met de onderwijsorganisaties. Op 19 januari 1967 werd
+          de Overgangswet W.V.O. goedgekeurd. In 1968 startten alle scholen voor
+          voortgezet onderwijs met een eerste leerjaar nieuwe stijl: de brugklas. Hieraan
+          voorafgaande waren al heel wat experimenten uitgevoerd: onder de
+          eindexamenkandidaten voor het voorbereidend hoger en middelbaar onderwijs dat
+          jaar was al een aantal h.a.v.o.- en m.a.v.o.-IV-kandidaten.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Onderwijs, Kunsten en Wetenschappen / Afdeling
+            Middelbaar Onderwijs</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Tot 25 september 1918 viel onderwijs onder verantwoordelijkheid van het
+          Ministerie van Binnenlandse Zaken. Op 25 september werd een afzonderlijk
+          Ministerie van Onderwijs, Kunsten en Wetenschappen ingesteld en bij beschikking
+          van 27 september 1918 nr. 4 van de afdeling Kabinet werden zes afdelingen
+          ingesteld, t.w.: de afdeling Hoger Onderwijsde afdeling Middelbaar Onderwijsde
+          afdeling Vakonderwijsde afdeling Lager Onderwijs A (Algemeen)de afdeling Lager
+          Onderwijs F (Financieel)de afdeling Kunsten en Wetenschappen Op 1 oktober 1927
+          ging de afdeling Middelbaar Onderwijs (1918-1927) over in de afdeling
+          Voorbereidend Hoger en Middelbaar Onderwijs (VHMO) (1927-1960). In 1960
+          veranderde de naam in "hoofdafdeling VHMO" en in 1967 ging de afdeling over in
+          de directie Algemeen Voortgezet en Voorbereidend Wetenschappelijk Onderwijs
+          (AVO).</html:p>
+          <html:p>Het ontwerp van wet tot regeling van het voorbereidend hoger en
+          middelbaar onderwijs werd op 22 maart 1919 bij de Staten-Generaal ingediend en
+          bereikte een jaar later het Staatsblad. De wet van 1 maart 1920, Stbl.nr. 106,
+          trad op 1 september 1920 in werking. In de jaren volgend op de instelling van
+          de afdeling VHMO werd herhaaldelijk aangedrongen op wijziging (herziening) van
+          het voorbereidend hoger en middelbaar onderwijs, in de zin van een wettelijke
+          regeling voor lycea, middelbare meisjesscholen en de A-afdelingen van de
+          hogereburgerscholen. Vooruitlopend op de totstandkoming van de wetsontwerpen
+          voor het voorbereidend hoger en middelbaar onderwijs werd de uitvoering van de
+          werkzaamheden ofwel de administratie bij de afdelingen middelbaar onderwijs,
+          hoger onderwijs en nijverheids- en handelsonderwijs steeds meer geconcentreerd
+          in één afdeling die op 1 oktober 1927 de naam VHMO kreeg.</html:p>
+          <html:p>In 1945 was er sprake van vernieuwing van het onderwijs, op basis van
+          het rapport van de voormalige minister van Onderwijs, Kunsten en Wetenschappen,
+          G. Bolkestein. Ook in de troonrede werd gesproken van de voorbereiding van een
+          reorganisatie van het onderwijs. In het kader van de vernieuwing van het
+          onderwijs kondigde de troonrede in 1947 voorstellen aan ter herziening van de
+          regeling van het voorbereidend hoger en middelbaar onderwijs en het
+          Nijverheidsonderwijs. Een jaar later verkeerden de wetsontwerpen tot o.m.
+          regeling van het voorbereidend hoger en middelbaar onderwijs in vergevorderde
+          staat van voorbereiding. In 1950 werd de nota-Rutten aangekondigd, over het
+          geheel van onderwijsvoorzieningen, die de basis legde voor de Wet op het
+          Voortgezet Onderwijs, de Mammoetwet. Als vervolg daarop werd op 18 februari
+          1950 een tweede nota aan de Tweede Kamer aangeboden. In deze nota werden voor
+          het eerst de termen hoger algemeen voortgezet onderwijs (h.a.v.o.) en
+          middelbaar algemeen voortgezet onderwijs (m.a.v.o.) gebruikt. Op 29 oktober
+          1950 werd het wetsontwerp tot regeling van het voortgezet onderwijs ingediend.
+          Dit ontwerp behelsde een wettelijke regeling van alle soorten voortgezet
+          onderwijs tussen lagere school en universiteit. Op 10 november 1958 stelde de
+          voorzitter van de Tweede Kamer een bijzondere commissie in tot voorbereiding
+          van de behandeling van dit wetsontwerp. In dat jaar werd ook de inspectie bij
+          het voorbereidend hoger en middelbaar onderwijs gereorganiseerd in verband met
+          de snelle groei van het aantal scholen en leerlingen. In 1960 moesten ook de
+          regeling en de duur van de examens van gymnasia en hogereburgerscholen
+          gewijzigd worden in verband met de sterke stijging van het aantal
+          examenkandidaten en het beperkt aantal beschikbare gecommitteerden. Op 12
+          februari 1963 werd de 'Wet op het voortgezet onderwijs, ter vervanging van de
+          Kweekschoolwet, de Middelbaaronderwijswet, de Nijverheidsonderwijswet en van
+          gedeelten van de Hogeronderwijswet' (de Mammoetwet) aangenomen. Honderd jaar na
+          de invoering van de eerste wet op het middelbaar onderwijs telde Nederland ruim
+          450 dagscholen voor het voorbereidend hoger en middelbaar onderwijs. In 1966
+          werd de Overgangswet W.V.O. ingediend bij de Tweede Kamer. Deze wet beoogde de
+          overgang van de oude naar de nieuwe onderwijsstructuur soepel te doen verlopen
+          en in de W.V.O. een aantal wijzigingen aan te brengen die wenselijk waren
+          gebleken in het overleg met de onderwijsorganisaties. Op 19 januari 1967 werd
+          de Overgangswet W.V.O. goedgekeurd. In 1968 startten alle scholen voor
+          voortgezet onderwijs met een eerste leerjaar nieuwe stijl: de brugklas. Hieraan
+          voorafgaande waren al heel wat experimenten uitgevoerd: onder de
+          eindexamenkandidaten voor het voorbereidend hoger en middelbaar onderwijs dat
+          jaar was al een aantal h.a.v.o.- en m.a.v.o.-IV-kandidaten.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Onderwijs en Wetenschappen / Directie Algemeen
+            Voortgezet en Voorbereidend Wetenschappelijk Onderwijs</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Tot 25 september 1918 viel onderwijs onder verantwoordelijkheid van het
+          Ministerie van Binnenlandse Zaken. Op 25 september werd een afzonderlijk
+          Ministerie van Onderwijs, Kunsten en Wetenschappen ingesteld en bij beschikking
+          van 27 september 1918 nr. 4 van de afdeling Kabinet werden zes afdelingen
+          ingesteld, t.w.: de afdeling Hoger Onderwijsde afdeling Middelbaar Onderwijsde
+          afdeling Vakonderwijsde afdeling Lager Onderwijs A (Algemeen)de afdeling Lager
+          Onderwijs F (Financieel)de afdeling Kunsten en Wetenschappen Op 1 oktober 1927
+          ging de afdeling Middelbaar Onderwijs (1918-1927) over in de afdeling
+          Voorbereidend Hoger en Middelbaar Onderwijs (VHMO) (1927-1960). In 1960
+          veranderde de naam in "hoofdafdeling VHMO" en in 1967 ging de afdeling over in
+          de directie Algemeen Voortgezet en Voorbereidend Wetenschappelijk Onderwijs
+          (AVO).</html:p>
+          <html:p>Het ontwerp van wet tot regeling van het voorbereidend hoger en
+          middelbaar onderwijs werd op 22 maart 1919 bij de Staten-Generaal ingediend en
+          bereikte een jaar later het Staatsblad. De wet van 1 maart 1920, Stbl.nr. 106,
+          trad op 1 september 1920 in werking. In de jaren volgend op de instelling van
+          de afdeling VHMO werd herhaaldelijk aangedrongen op wijziging (herziening) van
+          het voorbereidend hoger en middelbaar onderwijs, in de zin van een wettelijke
+          regeling voor lycea, middelbare meisjesscholen en de A-afdelingen van de
+          hogereburgerscholen. Vooruitlopend op de totstandkoming van de wetsontwerpen
+          voor het voorbereidend hoger en middelbaar onderwijs werd de uitvoering van de
+          werkzaamheden ofwel de administratie bij de afdelingen middelbaar onderwijs,
+          hoger onderwijs en nijverheids- en handelsonderwijs steeds meer geconcentreerd
+          in één afdeling die op 1 oktober 1927 de naam VHMO kreeg.</html:p>
+          <html:p>In 1945 was er sprake van vernieuwing van het onderwijs, op basis van
+          het rapport van de voormalige minister van Onderwijs, Kunsten en Wetenschappen,
+          G. Bolkestein. Ook in de troonrede werd gesproken van de voorbereiding van een
+          reorganisatie van het onderwijs. In het kader van de vernieuwing van het
+          onderwijs kondigde de troonrede in 1947 voorstellen aan ter herziening van de
+          regeling van het voorbereidend hoger en middelbaar onderwijs en het
+          Nijverheidsonderwijs. Een jaar later verkeerden de wetsontwerpen tot o.m.
+          regeling van het voorbereidend hoger en middelbaar onderwijs in vergevorderde
+          staat van voorbereiding. In 1950 werd de nota-Rutten aangekondigd, over het
+          geheel van onderwijsvoorzieningen, die de basis legde voor de Wet op het
+          Voortgezet Onderwijs, de Mammoetwet. Als vervolg daarop werd op 18 februari
+          1950 een tweede nota aan de Tweede Kamer aangeboden. In deze nota werden voor
+          het eerst de termen hoger algemeen voortgezet onderwijs (h.a.v.o.) en
+          middelbaar algemeen voortgezet onderwijs (m.a.v.o.) gebruikt. Op 29 oktober
+          1950 werd het wetsontwerp tot regeling van het voortgezet onderwijs ingediend.
+          Dit ontwerp behelsde een wettelijke regeling van alle soorten voortgezet
+          onderwijs tussen lagere school en universiteit. Op 10 november 1958 stelde de
+          voorzitter van de Tweede Kamer een bijzondere commissie in tot voorbereiding
+          van de behandeling van dit wetsontwerp. In dat jaar werd ook de inspectie bij
+          het voorbereidend hoger en middelbaar onderwijs gereorganiseerd in verband met
+          de snelle groei van het aantal scholen en leerlingen. In 1960 moesten ook de
+          regeling en de duur van de examens van gymnasia en hogereburgerscholen
+          gewijzigd worden in verband met de sterke stijging van het aantal
+          examenkandidaten en het beperkt aantal beschikbare gecommitteerden. Op 12
+          februari 1963 werd de 'Wet op het voortgezet onderwijs, ter vervanging van de
+          Kweekschoolwet, de Middelbaaronderwijswet, de Nijverheidsonderwijswet en van
+          gedeelten van de Hogeronderwijswet' (de Mammoetwet) aangenomen. Honderd jaar na
+          de invoering van de eerste wet op het middelbaar onderwijs telde Nederland ruim
+          450 dagscholen voor het voorbereidend hoger en middelbaar onderwijs. In 1966
+          werd de Overgangswet W.V.O. ingediend bij de Tweede Kamer. Deze wet beoogde de
+          overgang van de oude naar de nieuwe onderwijsstructuur soepel te doen verlopen
+          en in de W.V.O. een aantal wijzigingen aan te brengen die wenselijk waren
+          gebleken in het overleg met de onderwijsorganisaties. Op 19 januari 1967 werd
+          de Overgangswet W.V.O. goedgekeurd. In 1968 startten alle scholen voor
+          voortgezet onderwijs met een eerste leerjaar nieuwe stijl: de brugklas. Hieraan
+          voorafgaande waren al heel wat experimenten uitgevoerd: onder de
+          eindexamenkandidaten voor het voorbereidend hoger en middelbaar onderwijs dat
+          jaar was al een aantal h.a.v.o.- en m.a.v.o.-IV-kandidaten.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Onder de benaming Voorbereidend hoger en middelbaar onderwijs (VHMO) vielen
+      in de loop der jaren schooltypen als gymnasium, mms, hbs, havo, nijverheids-,
+      handels- en pedagogische opleidingen. Het archief bevat onder meer een omvangrijke
+      serie dossiers inzake oprichting, erkenning en omzetting van scholen en de naleving
+      van subsidievoorwaarden. Voorts zijn er stukken over de positie van leerkrachten en
+      de inrichting van schoolgebouwen. Ook bevat het archief dossiers over de nieuwe wet
+      op het voortgezet onderwijs (mammoetwet) en nieuwe schooltypen zoals de havo en
+      mavo. Gedeponeerd bij het archief zijn stukken van voorbereidende en begeleidende
+      commissies en stichtingen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>20.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1179 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

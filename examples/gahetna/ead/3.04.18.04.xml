@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 20100609 -->
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.04.18.04::Collectie namenklappers op de doop-, trouw- en begraafboeken van Rijswijk)//NL" url="http://proxy.handle.net/10648/0773d533-0c1a-4cfb-a9bd-d38f3f4a79ea" urn="3.04.18.04.ead.xml">3.04.18.04</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van de collectie namenklappers op de doop-, trouw- en begraafboeken van Rijswijk, 1560-1812</titleproper>
+				<author>J.J. Bink et al.</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1962">1962</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2010">2010</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: , 
+		  <date calendar="gregorian" era="ce"/>. 
+	  </creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal"/>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce"/>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Collectie namenklappers op de doop-, trouw- en begraafboeken van Rijswijk</unittitle>
+			<unittitle type="short">Namenklappers Rijswijk</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1650/1812" type="inclusive">1650-1812</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">GEDTBZHDK04</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">- meter; </extent>
+				<extent unit="files">91 inventarisnummers</extent>
+			</physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Nederlands<language langcode="dut" scriptcode="Latn"/>
+			</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven en gedrukte teksten.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Algemeen Rijksarchief</corpname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Tot aan de invoering van de burgerlijke stand in 1811 werden de doop-, trouw- en begraafboeken bijgehouden door de (hervormde) kerkelijke gemeente of parochie. De Rijswijkse registers zijn toegankelijk via namenklappers (persoonsnamenlijsten). De onderhavige toegang (inventaris) vormt daarop weer een alfabetische index op achternaam.</abstract>
+		</did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p/></acqinfo></custodhist></descgrp>
+		<descgrp type="content_and_structure">
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">3.04</subject>
+			</controlaccess>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head>
+			<accessrestrict id="accessrestrict">
+				<head>Openbaarheidsbeperkingen</head>
+				<p>Volledig openbaar</p>
+        <legalstatus>De collectie is een duplicaat van een archief in eigen beheer.</legalstatus>
+			</accessrestrict>
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Scans van de districtklappers zijn te zien via de links in deze toegang. In de studiezaal van het Nationaal Archief zijn de papieren klappers.</p>
+				<p>Over dit onderwerp kunt u meer vinden in het informatieblad op de website van het Nationaal Archief.</p>
+				<p>Voor een stappenplan voor het onderzoek in de DTB's van Zuid-Holland kiest u op de website van het Nationaal Archief voor<title linktype="simple">Voorouders</title> en vervolgens voor <title linktype="simple">DTB Zuid-Holland.</title>
+				</p>
+      </odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Collectie namenklappers op de doop-, trouw- en begraafboeken van Rijswijk, nummer toegang 3.04.18.04, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Namenklappers Rijswijk, 3.04.18.04, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code"/>
+					<unittitle>Namenklapper dopen Rijswijk 1650-1812</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>1-10</unitid>
+						<unittitle>Alfabetische lijst op beginletter achternaam: A t/m IJ.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid>1</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/58c97407-d20c-4251-b2e8-00633ffe5e09</unitid>
+							<unittitle>Acker, J.J. van den t/m Boom, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Vanaf pag. 4 t/m 20</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8032639f-9a1c-4246-a0d1-1a3dc21673a0</unitid>
+							<unittitle>Boomhoff, L. t/m Eldik, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Vanaf pag. 21</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>3</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/31eb0dc8-7054-4eff-853a-3d9585549e3d</unitid>
+							<unittitle>Elferinck, B. t/m Heij, A. de</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/3" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>4</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a403c3d-1c65-40b3-a2a1-41e4b533ce89</unitid>
+							<unittitle>Heij, T. de t/m Claasse, A.J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/4" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>5</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bbec8fdb-8c03-4c0a-8512-be00a6359488</unitid>
+							<unittitle>Claasse, A. t/m Leeuwen, C. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/5" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>6</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d8bb669-3fc5-406e-a6a3-040087931474</unitid>
+							<unittitle>Leeuwen, C. van t/m Olingius, F.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/6" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>7</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c401b245-7f61-49ba-8b1f-fb0c56d00eb7</unitid>
+							<unittitle>Olleman, L. t/m Rusten, H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/7" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>8</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1cff26e4-2f89-4da7-aebf-74efed8bf3d1</unitid>
+							<unittitle>Ruijgrock, H.L. t/m Steens, W.W.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/8" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>9</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2d32041-0889-41f8-896f-13d5dc1c9e84</unitid>
+							<unittitle>Steevelaar, C. t/m Werselt, M. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/9" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>10</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/913d919c-4fa1-44f4-a608-cb821f646561</unitid>
+							<unittitle>Werven, J.P. van der t/m IJel, T. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/10" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Einde op pag. 186</p>
+						</odd>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code"/>
+					<unittitle>Namenklapper trouwen Rijswijk 1596-1811</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>11-43</unitid>
+						<unittitle>Alfabetische lijst op beginletter achternaam: A t/m IJ.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid>11</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2efa5c27-323a-4094-8b6b-b5a62f63407d</unitid>
+							<unittitle>A, C.V. van t/m Ariens, T.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/11" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Vanaf pag. 3 t/m 20</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>12</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/49a4dfd6-e94e-403f-b59b-e82a9bd25072</unitid>
+							<unittitle>Ariens, T. t/m Bemont, J.P. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/12" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Vanaf pag. 21</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>13</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b8e31e74-757e-4b05-a44a-269eaff2c057</unitid>
+							<unittitle>Bemijn, A. t/m Boda, H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/13" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>14</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bfc2fa7d-64ec-4eb9-848c-ac530d17e077</unitid>
+							<unittitle>Bodaan, J. t/m Brakel tot den Brakel, F. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/14" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>15</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b651dcc9-4a44-4f0f-9882-ff09589c995c</unitid>
+							<unittitle>Brakel, J. van t/m Buysen, P. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/15" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>16</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6068290b-d381-4d82-81dd-f1cb18d0427f</unitid>
+							<unittitle>Buyster, C. t/m Dort, W. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/16" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>17</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/41b45134-8695-4a5a-abf9-0141c3bf8822</unitid>
+							<unittitle>Dort, W. van t/m Es, E. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/17" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>18</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ac2a416-d597-42f9-8a45-679bc4b9d98b</unitid>
+							<unittitle>Es, F. van t/m Geest, M. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/18" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>19</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/60fde497-164d-41a3-a775-cb6f9a97087b</unitid>
+							<unittitle>Geest, P. van t/m Groener, H.J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/19" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>20</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7fa2887-1c86-4620-be36-f2d7d2ac1bb3</unitid>
+							<unittitle>Groenestein, A. van t/m Heide, M. ter</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/20" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>21</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2f6a2bf-cd52-4552-b2fd-1da3749d6bbc</unitid>
+							<unittitle>Heide, N.C. van der t/m Hodenpijl, J.L.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/21" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>22</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/73ddbb12-9e58-45f5-9a9b-9add084f6bad</unitid>
+							<unittitle>Hodenpijl, M. t/m Huysman, J.S.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/22" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>23</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a370f636-65ed-41b6-a6b4-9de0b541f0a1</unitid>
+							<unittitle>Huysman, J.S. t/m Jansdr. Van Amsterdam, N.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/23" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>24</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/56e9c2c5-64c1-4024-afd0-423244f04567</unitid>
+							<unittitle>Jansdr., N. t/m Kalff, N.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/24" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>25</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/20718ba2-169b-4433-a8c3-2bb1927614d6</unitid>
+							<unittitle>Caljert, D. t/m Clausis, A.M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/25" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>26</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/380a62d5-ed9f-49f4-bd36-456e02b5a230</unitid>
+							<unittitle>Clausus, A.M. t/m Cornelis Kalckmeter, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/26" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>27</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c54d37c-fb46-4f98-a447-49ffd7f379e0</unitid>
+							<unittitle>Cornelis, C. t/m Kunst, C.A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/27" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>28</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f92b3b5d-6617-42e6-8997-9e1bede9516f</unitid>
+							<unittitle>Kunst, C.L. t/m Leeuwenburg, M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/28" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>29</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a58f36bc-2434-46f9-84fa-5d99d780be0f</unitid>
+							<unittitle>Leeuwputten, W. van t/m Maertens, S.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/29" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>30</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b083e4d-88c6-4e6d-b9b2-5e098ec6b137</unitid>
+							<unittitle>Maertens, S. t/m Michielsdr., E.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/30" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>31</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cab5de69-ddf9-431f-8271-1a5539b29745</unitid>
+							<unittitle>Michielsdr., G. t/m Noë, W.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/31" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>32</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/73da69f8-d217-4c31-9f88-8a537422aaea</unitid>
+							<unittitle>Noel, A. t/m Padde, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/32" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>33</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f553b1d6-5d89-4ddc-9b74-324a86b0c7b9</unitid>
+							<unittitle>Padde, C. van Pijnaker, S.J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/33" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>34</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/47829946-d714-4473-a503-ae0c33f989b8</unitid>
+							<unittitle>Pijnaker, M. t/m Rooderkerck, M.C. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/34" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>35</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa2405e9-0520-4670-855b-172f9c4c6e90</unitid>
+							<unittitle>Rooj, W. t/m Schaeck, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/35" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>36</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b70db604-e87f-45b7-890c-33bf9e8a75db</unitid>
+							<unittitle>Schaeffer, A.M. t/m Slof, A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/36" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>37</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e674ede-77f2-4f3a-9826-46aba57a57c4</unitid>
+							<unittitle>Sloot, A.A. van der t/m Sprenhuysen in 't Bree, M.P. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/37" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>38</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/74df3c30-37fd-4569-94f3-9f26679ea953</unitid>
+							<unittitle>Sprenkhuyse, M. t/m Swol, T.D. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/38" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>39</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e24e989-3fe7-4daf-90e3-2926e7668829</unitid>
+							<unittitle>Swijck, J. van t/m Vaert, J.H. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/39" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>40</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5280cb0f-76da-4a6b-9ddd-c9546fd74382</unitid>
+							<unittitle>Vaert, J.P. van der t/m Vinck, S.A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/40" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>41</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b79f866b-55ee-43c6-95eb-49722fbe213e</unitid>
+							<unittitle>Vinck, W. t/m Weebers, K.G.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/41" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>42</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4858d8d0-9dca-4a64-b912-c4661e58c50a</unitid>
+							<unittitle>Weegel, H. van t/m Wolf, B.C. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/42" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>43</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f7290f6-16b3-461b-bbbf-67ad01bd02f2</unitid>
+							<unittitle>Wolf Kratsenberg van Minden, C. t/m IJtz, W.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/43" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Einde op pag. 647</p>
+						</odd>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code"/>
+					<unittitle>Namenklapper begraven Rijswijk 1560-1812: A-IJ</unittitle>
+				</did>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>44-91</unitid>
+						<unittitle>Alfabetisch lijst op beginletter achternaam.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid>44</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f5f35f0-29ef-45c5-8895-2f6e73f96b5f</unitid>
+							<unittitle>Aa, A. van der t/m Bakker, A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/44" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Begin map 1 (letters A-L), op pagina 1</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>45</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25170c06-546f-448a-880b-83da48ce674b</unitid>
+							<unittitle>Bakker, B. t/m Bent, J.M. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/45" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>46</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25ae4714-ff4e-4227-874a-e37c52779c8c</unitid>
+							<unittitle>Bent, N. van der t/m Blaas, H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/46" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>47</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0776480-98bd-4fdb-8265-c3ad868017f0</unitid>
+							<unittitle>Blaasman, J. t/m Boon, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/47" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>48</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c95ac056-42ec-4536-8291-c4c0ea65cbe8</unitid>
+							<unittitle>Boon, D. t/m Bras, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/48" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>49</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f42d29d1-3e1a-4bba-a019-02f182aca340</unitid>
+							<unittitle>Bras, J. t/m Burg, E. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/49" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>50</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75ebaa7b-a4f1-4e5f-be03-b3ae0dc08632</unitid>
+							<unittitle>Burg, F.W. van der t/m Denson, A.E.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/50" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>51</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/42061431-9446-4006-a244-1e07726317de</unitid>
+							<unittitle>Denterem, A. van t/m Douzijn, C.L.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/51" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>52</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5ccef6bd-0486-4bbf-b734-a3496981ed04</unitid>
+							<unittitle>Doyewaart, A. t/m Eeden, A.C. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/52" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>53</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9e42c15-6d5d-4d50-aca4-6d219973bb14</unitid>
+							<unittitle>Eeden, A. van t/m Erckes, M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/53" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>54</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d3b2255-e0df-4449-8c94-0e3a55261144</unitid>
+							<unittitle>Erkom, J.W. van t/m Fössinger, G.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/54" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>55</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dba45a19-b2a7-4662-84f3-e13bff355b60</unitid>
+							<unittitle>Fotel, P. t/m Gent, A. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/55" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>56</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/65f2e011-fb6c-4250-89ba-ce40ebd2c392</unitid>
+							<unittitle>Gent, A. van t/m Gockel, J.H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/56" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>57</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac5012ea-bd12-46b4-b437-c859c7e55ff4</unitid>
+							<unittitle>Gockel, J.H. t/m Greefkes, M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/57" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>58</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/39723c47-6a16-4988-8a5c-6c6c9d889c8a</unitid>
+							<unittitle>Greefkes, N. t/m Haak, J. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/58" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>59</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/99986da8-7717-4afb-a8ba-c324313d8666</unitid>
+							<unittitle>Haak, J. van der t/m Heer, E. de</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/59" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>60</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a385f0e4-7c4c-40cc-a1f6-45653800d0ab</unitid>
+							<unittitle>Heer, J. de t/m Hillenaar, H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/60" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>61</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/17849cdf-93e4-495d-94be-c0c9425fbfc9</unitid>
+							<unittitle>Hillenaar, J. t/m Horst, B. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/61" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>62</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/39927680-ea50-4137-b596-1611740fcbdf</unitid>
+							<unittitle>Horst, C. van der t/m Jansz., A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/62" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>63</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2571e67-e1e9-44af-8ac0-8ffb8cbccc09</unitid>
+							<unittitle>Jansz., L. t/m Karrewijne, M.P. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/63" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>64</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d12f996d-d610-48f2-a77a-6b858506516c</unitid>
+							<unittitle>Carrio, P. t/m Clercq, A. de</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/64" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>65</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/56535d25-7553-408a-b113-9ffebb9d5c3f</unitid>
+							<unittitle>Clercq, F. de t/m Koolen, P.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/65" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>66</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4599677c-662f-4d53-bc36-8befa99f4cb9</unitid>
+							<unittitle>Koolen, E. van t/m Kristenhooven, H. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/66" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>67</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea3477af-7b03-4165-b75c-fff8643419b3</unitid>
+							<unittitle>Kristenhooven, H. van t/m Laverlee, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/67" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>68</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b5789fa1-b54a-47b9-ba60-f6f266c1ce34</unitid>
+							<unittitle>Lavers, D. van t/m Lequiere, S.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/68" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>69</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a61f4598-b7f4-4d7d-babd-0acc2b28bc12</unitid>
+							<unittitle>Lercke, J.F. t/m Lorier, F.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/69" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>70</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5330c3ad-2b75-407c-8038-c73af3db491b</unitid>
+							<unittitle>Lorius, W. t/m Lijsterman, G.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/70" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Einde map 1 (letters A-L), op pagina 529</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>71</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a394141-cc2e-4ed0-8b6b-e5b0df024e9b</unitid>
+							<unittitle>Maak, C. t/m Mesker, A.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/71" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Begin map 2 (letters M-IJ), op pagina 530</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>72</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbbbecac-0f5b-4e67-affa-703076f7bb9b</unitid>
+							<unittitle>Mesker, A. t/m Moser, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/72" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>73</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5da73147-0cf2-4502-b3fc-e20e2e84fb70</unitid>
+							<unittitle>Moser, M.E. t/m Nix, M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/73" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>74</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4af8c038-b79f-408e-83a5-4a4f9f579d5c</unitid>
+							<unittitle>Nix, M. t/m Osenbrug, S. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/74" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>75</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90ba9081-58a1-4a6f-a603-4565a396e3db</unitid>
+							<unittitle>Osnabrugge, R.J. van t/m Pieterse J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/75" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>76</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a567db13-d684-44ae-bfd2-45da61af6aeb</unitid>
+							<unittitle>Pieterse, L. t/m Rahlenbeeck, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/76" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>77</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0150427c-3de4-4b61-873c-95059962eb5b</unitid>
+							<unittitle>Ra(o)jen, A.C. van t/m Riem, C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/77" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>78</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03a35805-2cde-4b05-af7b-424faff07717</unitid>
+							<unittitle>Riem, C. t/m Roosendaal, M.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/78" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>79</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/122c2ff6-3682-4b03-acdd-559b2f908f9f</unitid>
+							<unittitle>Rooseveld, F.H. t/m Ruyven, H. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/79" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>80</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af4201bb-6b3f-4e07-ae66-01b0a222ec37</unitid>
+							<unittitle>Ruijven, H. van t/m Schak, O.F.C. (baron) van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/80" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>81</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/33434f99-2225-40e1-bbf1-38354d7a6049</unitid>
+							<unittitle>Schalaski, C.W. t/m Segeling, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/81" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>82</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c134e546-fdab-4188-8ef0-7100ca164546</unitid>
+							<unittitle>Zelis, C. t/m Smit, A.E.F.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/82" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Eindigt na 14 pagina's op pag. 764 (pag. 765-774 ontbreken door foutieve nummering)</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>83</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6fd06f3-f444-4d0b-ba5b-c5ace45d5816</unitid>
+							<unittitle>Smit, A. t/m Spek, J.C. van der</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/83" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Begint op pag. 775</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>84</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1938857a-27b3-4a84-b7a2-e9a940249b53</unitid>
+							<unittitle>Spek, M.M. van der t/m Stoop, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/84" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>85</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/358e50d9-9626-40d6-a97b-489017a3d6b0</unitid>
+							<unittitle>Stoop, J. t/m Tekelenburg, J.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/85" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>86</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dca3546f-b155-43cf-8a3a-c832d0cc9059</unitid>
+							<unittitle>Tekelenburg, J. t/m Uijten, M. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/86" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>87</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6dda0d28-30d4-4ac0-af30-e2b804b770dc</unitid>
+							<unittitle>Uijttermeer, M. t/m Versteeg. N.H.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/87" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>88</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/91793394-329f-4ff2-9740-f768f8988b42</unitid>
+							<unittitle>Versteeg, W. t/m Vos, H. de</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/88" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>89</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3ead8ef-e9a7-4252-857d-aec8a58cd61c</unitid>
+							<unittitle>Vos, J.M. de t/m Wekeren, J. van</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/89" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>90</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b22807d-f59f-4dd5-88c4-d985d534a09e</unitid>
+							<unittitle>Wel, A. van t/m Witteman, A.C.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/90" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid>91</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6cec3f3c-f25e-4219-9f96-5cf2c8cc0dba</unitid>
+							<unittitle>Witteman, C. t/m IJzerdoorn, D.</unittitle>
+						<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.04.18.04/file/91" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+						<odd>
+							<p>Einde map 2 (letters M-IJ), op pag. 945</p>
+						</odd>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

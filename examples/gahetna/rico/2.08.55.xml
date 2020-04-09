@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/3e153797-42c2-4154-b204-444e0596ae85"
+  rdf:about="record/2.08.55">
+    <rico:identifier>2.08.55</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/F28071" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.08.55/i1" />
+      <rico:instantiates rdf:resource="record/2.08.55" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101122</rico:hasModificationDate>
+        <html:p>22 november 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Bureau Herstelbetalings- en
+        Recuperatiegoederen (HERGO) van het Ministerie van Financiën en zijn
+        rechtsvoorgangers, (1945) 1946-1953 (1961)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/3e153797-42c2-4154-b204-444e0596ae85" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/F28071">
+    <rico:describedBy rdf:resource="record/2.08.55" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>F28071</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Financiën en rechtsvoorgangers: Bureau
+      Herstelbetalings- en Recuperatiegoederen (HERGO)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Financiën / Hergo</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1961</rico:endDate>
+    <rico:date>1945-1961</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bureau Herstelbetalings- en Recuperatiegoederen (HERGO)
+            1946-1953</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In januari 1945 werd de afdeling War Material van het Militair Gezag (MG)
+      in het leven geroepen, die verantwoordelijk was voor het verzamelen, beheren en
+      verdelen of verkopen van alle goederen die in Nederland waren buitgemaakt op de
+      Duitse strijdkrachten. Bij de beëindiging van de werkzaamheden van het MG werd deze
+      taak overgedragen aan het Bureau Oorlogsbuit van het ministerie van Financiën. Dat
+      bureau, opgericht in december 1945, stond o.l.v. mr. J. Jolles. In november 1946
+      werd ook de recuperatie van weggevoerde goederen of herstelbetalingen, tot dan een
+      taak van de Rijksbureaus van het ministerie van Handel en Nijverheid, een taak van
+      het Bureau Oorlogsbuit. Geleidelijk werd dat de hoofdtaak. In augustus 1948 werd de
+      naam dan ook gewijzigd in Bureau Herstelbetalings- en Recuperatiegoederen (Hergo).
+      Alle goederen, waarvan kon worden vastgesteld dat zij geroofd waren, moesten worden
+      gerestitueerd. Cultureel erfgoed moest altijd worden gerestitueerd. Het
+      Commissariaat-Generaal voor de Nederlandsche Economische Belangen (CGR) in
+      Duitsland spoorde de goederen op en bracht ze tot de Nederlandse grens. Vanaf
+      november 1946 nam het Bureau Oorlogsbuit ze in ontvangst. Deze probeerde ze terug
+      te geven aan de oorspronkelijke eigenaren of hun nabestaanden of deze anderszins
+      schadeloos te stellen. In juni 1949 werd het Hergo belast met de afwikkeling van de
+      werkzaamheden van het CGR en de Stichting Nederlands Kunstbezit. In februari 1953
+      werd het Hergo opgeheven. Het archief bevat verslagen van vergaderingen,
+      correspondentie, stukken betreffende de organisatie en het werk, financiële
+      stukken, personeelsbeleid, rapporten van het CGR, stukken betreffende oorlogsbuit
+      (smalspoor, barakken, bouwmaterialen en binnenschepen), recuperatie en
+      herstelbetalingen (effecten, schepen, spoorwegmateriaal, diamanten, machines en
+      werktuigen). Er is gedeponeerd archief van de Commissie Duitse Opstallen en de
+      Stichting Teruggevoerde Diamant.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>10.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>224 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

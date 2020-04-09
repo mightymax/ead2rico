@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/710da0fa-85ed-4b11-a458-95712765606a"
+  rdf:about="record/2.21.388">
+    <rico:identifier>2.21.388</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2010</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C45" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.388/i1" />
+      <rico:instantiates rdf:resource="record/2.21.388" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van prof.mr. A.K. Koekkoek
+        (1945-2005)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/710da0fa-85ed-4b11-a458-95712765606a" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C45">
+    <rico:describedBy rdf:resource="record/2.21.388" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C45</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>A.K. Koekkoek [levensjaren 1945 - 2005]</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Koekkoek, A.K.</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1971</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2005</rico:endDate>
+    <rico:date>1971-2005</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>A.K. Koekkoek (1945-2005)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Geschiedenis van de archiefvormer Zie ook
+          http://www.parlement.com/9291000/biof/02524 en Koekkoeks eigenhandig curriculum
+          vitae in inv.nr. 2.</html:p>
+          <html:p>Adriaan Kornelis Koekkoek (roepnaam Alis) werd op 15 januari 1945 te
+          Willemstad (Noord-Brabant) geboren in een gereformeerd onderwijzersgezin. Hij
+          bezocht protestants-christelijke lagere scholen achtereenvolgens te Wilnis,
+          Leiden en Amsterdam en daarna in de jaren 1957-1963 het Christelijk Lyceum te
+          Leiden, waar hij het gymnasium-a diploma behaalde. Van 1963-1969 studeerde
+          Koekkoek rechten aan de Vrije Universiteit (VU) te Amsterdam waar hij in 1969
+          cum laude de meestersgraad behaalde. In 1978 promoveerde hij aan diezelfde VU
+          bij prof.dr. I.A. Diepenhorst en prof.mr. H.J.M. Jeukens (Tilburg, copromotor)
+          op de dissertatie Partijleiders en kabinetsformaties, een rechtsvergelijkende
+          studie over de rol van partijleiders bij de kabinetsformatie in Engeland,
+          West-Duitsland, België en Nederland.</html:p>
+          <html:p>Per 18 augustus 1969 was Koekkoek ondertussen in dienst getreden van de
+          Katholieke Hogeschool Tilburg (KHT, in 1986 omgedoopt tot Katholieke
+          Universiteit Brabant (KUB) en in 2001 tot Universiteit van Tilburg (UvT))
+          waaraan hij tot zijn overlijden op 18 april 2005 verbonden zou blijven, eerst
+          als wetenschappelijk medewerker staats- en bestuursrecht, vanaf 1977 als
+          hoofdmedewerker en ingaande 1 mei 1981 als gewoon hoogleraar staats- en
+          bestuursrecht. In de jaren 1985-1994 leidde hij daar onderzoeksprogramma's op
+          het gebied van Grondrechten en Rechtsvergelijking.</html:p>
+          <html:p>Koekkoeks levensbeschouwelijke oriëntatie en politieke belangstelling
+          vonden hun expressie in zijn lidmaatschap van de Anti-Revolutionaire Jongeren
+          Studieklubs (ARJOS) in de jaren-1960 en voorzitter van de ARJOS-afdeling
+          Nieuw-Vennep (1961-1965), waar hij tevens bestuurslid van de kiesvereniging van
+          de Anti-Revolutionaire Partij (ARP) was (1960-1963). Na zijn vestiging in
+          Tilburg werd hij daar actief in de plaatselijke ARP-organisatie als voorzitter
+          van de kiesvereniging Tilburg (1970-1974). Hij trad ook toe tot het provinciaal
+          comité van de ARP en de landelijke ARP-partijraad. Van 1978-1982 was hij voor
+          de ARP lid van de Tilburgse gemeenteraad. Na de fusie in oktober 1980 van ARP,
+          Katholieke Volkspartij (KVP) en Christelijk-Historische Unie (CHU) tot CDA
+          zette Koekkoek zijn politieke activiteit in CDA-verband voort, met als meest
+          zichtbare expressies zijn lidmaatschap van de Tweede Kamer (1994-1998) en van
+          de Eerste Kamer (2003-2005).</html:p>
+          <html:p>Als Tweede Kamerlid was Koekkoek CDA-woordvoerder voor en lid van de
+          Vaste Commissies voor Justitie en Onderwijs en plv. commissielid voor
+          Binnenlandse Zaken. Als uitvloeisel van zijn portefeuille Justitie maakte hij
+          deel uit van de Parlementaire Enquête Commissie Opsporingsmethoden
+          (Commissie-Van Traa, 1995-1996), ingesteld naar aanleiding van de commotie over
+          de methoden waarvan politie en het Openbaar Ministerie zich bedienden bij de
+          bestrijding van de georganiseerde criminaliteit. Met het kamerlid E. van
+          Middelkoop (Gereformeerd Politiek Verbond, GPV) diende Koekkoek in 1995 een
+          voorstel in tot opneming in de Grondwet van een artikel dat de overheid zou
+          opdragen het gebruik van de Nederlandse taal te bevorderen. Het voorstel
+          behaalde in 1997 echter geen Kamermeerderheid.</html:p>
+          <html:p>Ook buiten het verband van ARP resp. het CDA ontwikkelde Koekkoek tal
+          van nevenactiviteiten, deels verband houdend met zijn juridische professie -
+          bijvoorbeeld als raadsheer-plaatsvervanger bij het gerechtshof 's-Hertogenbosch
+          - maar niet minder ook op het gebied van onderwijs en onderwijsorganisatie. Op
+          dat vlak is met name te noemen zijn lidmaatschap van de Onderwijsraad
+          (1987-1994) met het voorzitterschap van de afdeling Leerplaninterpretatie
+          daarvan. In onderwijsaangelegenheden manifesteerde Koekkoek zich als
+          pleitbezorger van onderwijs op levensbeschouwelijke grondslag, zoals blijkt uit
+          zijn bemoeienis met de oprichting en nadien het voorzitterschap van de
+          Stichting Bevordering Bijzonder Onderwijs in de Lidstaten van de Europese
+          Unie.</html:p>
+          <html:p>Koekkoek publiceerde successievelijk een omvangrijk en geschakeerd
+          oeuvre, bestaande uit monografische werken, Behalve zijn al genoemde
+          dissertatie zijn te noemen Bijdrage tot een christen-democratische staatsleer
+          (1982), De onderlinge verhouding van grondrechten (1985), Administrative law
+          and the constitution in Ireland and the Netherlands (1987), Organisatie van de
+          rechtspraak (1999), De grondwet : een systematisch en artikelsgewijs commentaar
+          (2000) en Rechter en bestuur in constitutioneel perspectief (2001). bijdragen
+          aan en redactie van talrijke bundels en enkele honderden kortere of langere
+          artikelen in tijdschriften en dagbladen. Een door Koekkoek zelf opgesteld
+          overzicht van publicaties in inv.nr. 208.</html:p>
+          <html:p>Koekkoek huwde in 1969 met mw. H. Dudok. Het huwelijk werd gezegend met
+          drie kinderen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Documentatie en archiefmateriaal betrekking hebbend op de werkzaamheden van
+      de archiefvormer</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A), deels niet openbaar. Inv.nrs.
+      163 t/m 171 beperkt openbaar (A); inv.nrs. 159-161, 175 en 215 NIET openbaar (niet
+      onthefbaar).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>217 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

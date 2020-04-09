@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/26d5e428-bf05-440d-9e24-7ff760884770"
+  rdf:about="record/2.15.30">
+    <rico:identifier>2.15.30</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1989</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/S28531" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.15.30/i1" />
+      <rico:instantiates rdf:resource="record/2.15.30" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131029</rico:hasModificationDate>
+        <html:p>29 oktober 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Nederlandse Vereniging
+        Landverhuizing, 1913-1931; Emigratie Centrale Holland, (1922) 1923-1931 (1952);
+        Stichting Landverhuizing Nederland, 1931-1953</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/26d5e428-bf05-440d-9e24-7ff760884770" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/S28531">
+    <rico:describedBy rdf:resource="record/2.15.30" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>S28531</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Voorlopers Nederlandse Emigratie Dienst</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Ned. Emigratie Dienst / voorlopers</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1913</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:endDate>
+    <rico:date>1913-1953</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nederlandse Vereniging Landverhuizing, 1913-1931</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de jaren voor de eerste wereldoorlog wilde de Nederlandse regering
+          een oplossing vinden voor de toegenomen werkloosheid. In 1910 werd een
+          staatscommissie ingesteld met als taak zich over dit probleem te buigen. Toen
+          in 1914 de commissie haar eindverslag uitbracht, werd landverhuizing als een
+          van de middelen ter bestrijding van de werkloosheid genoemd. De regering vond
+          het echter niet op haar weg liggen te bemiddelen in emigratieaangelegenheden.
+          Bij het mislukken van de emigratie zou zij immers verantwoordelijk kunnen
+          worden gesteld. Veel liever zag de regering dat de verantwoordelijkheid voor
+          allerlei emigratietaken bij een centrale emigratievereniging kwam te liggen.
+          Een particuliere vereniging verdiende daarbij de voorkeur boven een openbare,
+          want een rijksinstelling zou zich met name in het buitenland veel minder Vrij
+          kunnen bewegen. Intussen was op 12 december 1913 de Nederlandse Vereniging
+          Landverhuizing (NVL) opgericht. Volgens de statuten had de NVL als doel: het
+          geven van voorlichting aan hen, die er over denken als landverhuizer Nederland
+          te verlaten;het verlenen van bijstand bij de uitvoering van dit voornemen;het
+          houden van voeling met hen die geëmigreerd zijn; een en ander in aansluiting op
+          propaganda voor landverhuizing en op financiële hulp aan emigranten.
+          Inventarisnummer 8</html:p>
+          <html:p>De vereniging had meteen de aandacht van de regering. Toen de NVL
+          aanklopte voor regeringssubsidies werd een bedrag van f 10.000,- voor het jaar
+          1914 en een zelfde bedrag voor de volgende jaren ter beschikking gesteld.
+          Voorwaarde hiervoor was wel dat een regeringscommissaris werd aangesteld, zodat
+          er controle op het beleid van de NVL kon worden uitgeoefend.</html:p>
+          <html:p>De eerste jaren had de NVL vrijwel niets te doen. De oorlogstoestand en
+          de geringe belangstelling onder de Nederlanders om te emigreren waren hiervan
+          de oorzaak. Hierbij kwam dat de activiteiten van particuliere emigrantenwervers
+          het er voor de NVL niet beter op maakte. De emigratiewetgeving, daterend uit
+          1861 en aangevuld in 1869 en 1885, was volstrekt onvoldoende om daadkrachtig
+          tegen wervers op te treden. Zo maakten vooral de wervers van de Canadese
+          spoorwegmaatschappijen het de NVL erg lastig. Pas met de invoering van de
+          Landverhuizerswet 1936 werden de activiteiten van emigratiebemiddelaars
+          enigszins aan banden gelegd.</html:p>
+          <html:p>De eerste directeur van de NVL werd J. Maurer. Hij maakte in 1915 een
+          reis naar Canada om de vestigingskansen voor Nederlanders te
+          bekijken.Inventarisnummer 18 Ook nam hij contact op met reeds gemigreerde
+          Nederlanders. In 1917 werd hij opgevolgd door J.C.C. Sandberg. Onder zijn
+          leiding werden de eerste correspondenten in Canada aangesteld, die de NVL van
+          waardevolle inlichtingen voorzagen.Inv.nrs. 19 en 20</html:p>
+          <html:p>De NVL deed dan wel zijn best om onpartijdige voorlichting te geven,
+          maar van een actieve emigratiepolitiek was geen sprake. Toen na 1921 de
+          werkloosheid sterk toenam werd de roep om een organisatie die de emigratie zou
+          bevorderen dan ook groter. A.G. Mörzer-Bruyns, ondervoorzitter van de NVL, en
+          Walrave Boissevain, ondervoorzitter van de Nederlandse maatschappij voor
+          nijverheid en handel, ijverden samen voor de oprichting van zo'n
+          organisatie.</html:p>
+          <html:p>Hun besprekingen leidden ertoe dat op 1 november 1923 de Emigratie
+          Centrale Holland (ECH) werd opgericht. Zij was een stichting met een college
+          van curatoren als bestuur en een directie voor de uitvoering. Walrave
+          Boissevain werd benoemd tot voorzitter van het college van curatoren. A.G.
+          Mörzer-Bruyns was tot zijn vertrek in 1925 directeur. Hij werd opgevolgd door
+          J.A.A. Hartland. In de stichtingsakte werd als doelstelling aangegeven het
+          bevorderen van de landverhuizing en het verrichten van alle handelingen welke
+          middellijk of onmiddellijk konden strekken om dit doel te bereiken, teneinde
+          hiermede de economische belangen van Nederland en zijn bevolking te dienen. De
+          ECH wenste op commerciële basis te werken, voor haar bemiddeling zou een
+          bepaald bedrag moeten worden betaald. Volgens de statuten mocht de ECH geen
+          winst maken Inv.nr. 31. Het was de bedoeling van de ECH om mensen die wensten
+          te emigreren en daartoe de geschiktheid doch niet de middelen hadden een
+          voorschot te verlenen. Voor de gelden die hiervoor nodig waren ontving de ECH
+          van het rijk f 75.000,--en van het bedrijfsleven f 86.000,--als voorschotten.
+          De werkzaamheden zoals de ECH zich die had voorgesteld, werden belemmerd door
+          de crisis waardoor vele landen hun grenzen voor emigranten sloten. Slechts
+          Canada bleef ten opzichte van emigranten een soort open deur-politiek voeren.
+          Dit was stellig de reden dat de ECH ondanks de moordende concurrentie van de
+          Canadese spoorwegmaatschappijen zich vooral op dit land richtteInv.nr. 47. Te
+          Winnipeg werd een raad van advies opgericht waar onder andere de Nederlandse
+          consul L.F.J. Riemsdijk zitting in hadInv.nr. 45. Ook werden enige
+          vertegenwoordigers aangesteld waar- onder J.J. Snor die reeds als correspondent
+          voor de NVL werkte. De samenwerking met de WL in Nederland verliep aanvankelijk
+          goed, maar er ontstonden problemen over het afbakenen van elkaars werkgebied.
+          Bovendien moest de NVL niets hebben van emigratiebevordering, een standpunt dat
+          de ECH wel voor ogen stond. Allereerst werd getracht de WL en de ECH in één
+          gebouw onder te brengen om de problemen op te lossen. De NVL maakte hiertegen
+          bezwaar omdat ze vond dat de ECH te veel aan de leidraad van de
+          vervoersmaatschappij- en liep. Na langdurig overleg en na bemiddeling van de
+          Minister van Landbouw, Handel en Nijverheid werd besloten om tot een fusie over
+          te gaan. Dit leidde ertoe dat op 23 juni 1931 de Stichting Landverhuizing
+          Nederland (SLN) werd opgerichtInv.nr 78. De NVL trad direct na de fusie in
+          liquidatie. Haar fondsen werden gebruikt voor het personeelsfonds waar
+          personeelsleden die in financiële moeilijkheden geraakt waren uit konden worden
+          betaald. De ECH ging niet dadelijk in liquidatie. De raad van beheer van de SLN
+          trad tot de definitieve opheffing in 1951 op als curatorium. Van de renteloze
+          voorschotten die het Rijk aan de ECH had verstrekt kon slechts 25% worden
+          terugbetaald. Van dit geld vormde het Rijk het emigratiefonds. Het geld van dit
+          fonds zou voor speciale emigratiebevorderende doeleinden moeten worden
+          gebruikt. Volgens de stichtingsakte stelde de SLN zich tot doel: "Het
+          verrichten van alle handelingen welke middellijk of onmiddellijk kunnen
+          strekken om leiding te geven aan de landverhuizing uit Nederland.</html:p>
+          <html:p>In de eerste plaats door: het geven van voorlichting omtrent
+          landverhuizing;het verleenen van bijstand bij landverhuizing;het houden van
+          voeling met de landverhuizers;het voortdurend en stelselmatig doen van
+          onderzoek naar de mogelijk- heden, die andere landen voor vestiging en
+          loonenden arbeid aan onze landgenooten bieden."Inv.nr. 78</html:p>
+          <html:p>Het bestuur van de SLN werd gevormd door de raad van beheer. De
+          directeur van de ECH, J.A.A. Hartland, werd tot directeur van de SLN benoemd en
+          de directeur van de NVL, J.C.C. Sandberg, tot secretaris van de raad van
+          beheer. Deze raad, die bij de oprichting bestond uit negen leden, beheerde
+          tevens de gelden van het personeels- en emigratiefonds. De overheid was evenals
+          bij de NVL en de SCH ook betrokken bij de SLN. In de raad van beheer hadden bij
+          de oprichting zitting de Minister van Binnenlandse Zaken en Landbouw en een
+          vertegenwoordiger van de Minister van Arbeid, Handel en Nijverheid. Na 1933
+          werd dit een vertegenwoordiger van het Ministerie van Sociale Zaken. De
+          Minister van Arbeid, Handel en Nijverheid benoemde de voorzitter van de raad
+          van beheer. Na 1933 deed de Minister van Sociale Zaken dit. Voorts hadden
+          oud-leden van de NVL en van de ECH alsmede vertegenwoordigers van de Vereniging
+          van Nederlandse Gemeenten (VNG), van de vakbeweging, van confessionele
+          emigratie-organisaties en van de centrale landbouworganisaties zitting in de
+          raad van beheer.</html:p>
+          <html:p>De Minister van Binnenlandse Zaken en Landbouw had zitting in de raad
+          van beheer omdat vele emigranten boeren waren die door de geringe
+          bestaansmogelijkheden in Nederland elders een nieuw bestaan wilden opbouwen. In
+          de statuten van de SLN werd ook bepaald dat de raad van beheer zou worden
+          bijgestaan door een commissie van bijstand. Uit deze commissie, waarin naast
+          alle leden van de raad van beheer ook vertegenwoordigers van enkele ministeries
+          zitting hadden, werd een vijftal sub-commissies gevormd. De sub-commissies
+          kwamen slechts een enkele keer bijeen. De commissie van bijstand werd geen
+          succes wegens het gebrek aan financiële middelen en het gebrek aan onderwerpen
+          om over te vergaderen. In 1936 werd besloten de commissie op te heffen. In
+          datzelfde jaar vond een statutenwijziging plaatsInv.nr. 86. Nu werd het zo dat
+          de Ministers van Buitenlandse Zaken, van Handel, Nijverheid en Scheepvaart, van
+          Landbouw en Visserij en van Sociale Zaken ieder één lid in de raad van beheer
+          benoemden. De Minister van Sociale Zaken bleef de voorzitter benoemen. Verder
+          werd de raad van beheer vergroot doordat men ook vertegenwoordigers van de
+          werkgeversorganisaties opnam. Ook werd uit de raad een dagelijks bestuur
+          gekozen. Na 1945 werden alle leden van de raad van beheer, behoudens degenen
+          die een ministerie vertegenwoordigen, door de Minister van Sociale Zaken
+          benoemd. De SLR startte haar werkzaamheden in een economisch ongunstige tijd.
+          Het rijksbudget werd getroffen door verminderde belastingopbrengsten en zware
+          werkloosheidslasten. Hierdoor moesten drastische bezuinigingen worden
+          doorgevoerd. Het personeelsbestand van de SLN werd al snel ingekrompen, zodat
+          in 1933 nog slechts de directeur, de adjunct-directeur en twee typistes waren
+          overgebleven. De raad van advies in Canada, een orgaan dat nog uit de tijd van
+          de ECH stamde en de aan emigranten verstrekte voorschotten inde, werd op 1
+          januari 1933 opgeheven. De SLN kreeg aanvankelijk weinig overheidsmiddelen voor
+          financiële ondersteuning van emigranten.</html:p>
+          <html:p>De regering stelde zich namelijk op het standpunt dat emigratie wel een
+          middel ter bestrijding van de werkloosheid was, maar dat de emigrant zelf moest
+          zorgen dat hij de benodigde middelen bijeenkreeg. Het heeft tot 1939 geduurd,
+          voordat de regering naast de gelden van het emigratiefonds een bedrag van f
+          41.000,- beschikbaar stelde voor de emigratiebevordering.</html:p>
+          <html:p>Tegen het einde van de jaren dertig kwam de emigratie langzaam op gang.
+          Veel Nederlanders vertrokken toen naar Zuid-Afrika en Canada. Na de Tweede
+          Wereldoorlog zette de emigratie pas goed door. Australië en Nieuw-Zeeland
+          werden tezamen met Canada de populairste emigratielanden. De SLN heeft in deze
+          emigratie steeds zo goed mogelijk trachten te bemiddelen. De grote
+          emigratiedrang noopte echter tot een ver doorgevoerd regeringsingrijpen. Als
+          gevolg hiervan werd het emigratiebeleid gereorganiseerd. Dit resulteerde in de
+          Wet op de Organen voor de Emigratie van 1952 Wet op de Organen voor de
+          Emigratie d.d. 24 mei 1952, Stb. 279 Door deze Wet Werd de SLN buiten werking
+          gesteld. In 1953 ging de SLN in liquidatie. De taken van de SLN werden
+          ondergebracht bij de nieuw ingestelde Nederlandse Emigratiedienst (NED) van het
+          Ministerie van Sociale Zaken en Volksgezondheid.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Emigratie Centrale Holland, 1923-1931</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de jaren voor de eerste wereldoorlog wilde de Nederlandse regering
+          een oplossing vinden voor de toegenomen werkloosheid. In 1910 werd een
+          staatscommissie ingesteld met als taak zich over dit probleem te buigen. Toen
+          in 1914 de commissie haar eindverslag uitbracht, werd landverhuizing als een
+          van de middelen ter bestrijding van de werkloosheid genoemd. De regering vond
+          het echter niet op haar weg liggen te bemiddelen in emigratieaangelegenheden.
+          Bij het mislukken van de emigratie zou zij immers verantwoordelijk kunnen
+          worden gesteld. Veel liever zag de regering dat de verantwoordelijkheid voor
+          allerlei emigratietaken bij een centrale emigratievereniging kwam te liggen.
+          Een particuliere vereniging verdiende daarbij de voorkeur boven een openbare,
+          want een rijksinstelling zou zich met name in het buitenland veel minder Vrij
+          kunnen bewegen. Intussen was op 12 december 1913 de Nederlandse Vereniging
+          Landverhuizing (NVL) opgericht. Volgens de statuten had de NVL als doel: het
+          geven van voorlichting aan hen, die er over denken als landverhuizer Nederland
+          te verlaten;het verlenen van bijstand bij de uitvoering van dit voornemen;het
+          houden van voeling met hen die geëmigreerd zijn; een en ander in aansluiting op
+          propaganda voor landverhuizing en op financiële hulp aan emigranten.
+          Inventarisnummer 8</html:p>
+          <html:p>De vereniging had meteen de aandacht van de regering. Toen de NVL
+          aanklopte voor regeringssubsidies werd een bedrag van f 10.000,- voor het jaar
+          1914 en een zelfde bedrag voor de volgende jaren ter beschikking gesteld.
+          Voorwaarde hiervoor was wel dat een regeringscommissaris werd aangesteld, zodat
+          er controle op het beleid van de NVL kon worden uitgeoefend.</html:p>
+          <html:p>De eerste jaren had de NVL vrijwel niets te doen. De oorlogstoestand en
+          de geringe belangstelling onder de Nederlanders om te emigreren waren hiervan
+          de oorzaak. Hierbij kwam dat de activiteiten van particuliere emigrantenwervers
+          het er voor de NVL niet beter op maakte. De emigratiewetgeving, daterend uit
+          1861 en aangevuld in 1869 en 1885, was volstrekt onvoldoende om daadkrachtig
+          tegen wervers op te treden. Zo maakten vooral de wervers van de Canadese
+          spoorwegmaatschappijen het de NVL erg lastig. Pas met de invoering van de
+          Landverhuizerswet 1936 werden de activiteiten van emigratiebemiddelaars
+          enigszins aan banden gelegd.</html:p>
+          <html:p>De eerste directeur van de NVL werd J. Maurer. Hij maakte in 1915 een
+          reis naar Canada om de vestigingskansen voor Nederlanders te
+          bekijken.Inventarisnummer 18 Ook nam hij contact op met reeds gemigreerde
+          Nederlanders. In 1917 werd hij opgevolgd door J.C.C. Sandberg. Onder zijn
+          leiding werden de eerste correspondenten in Canada aangesteld, die de NVL van
+          waardevolle inlichtingen voorzagen.Inv.nrs. 19 en 20</html:p>
+          <html:p>De NVL deed dan wel zijn best om onpartijdige voorlichting te geven,
+          maar van een actieve emigratiepolitiek was geen sprake. Toen na 1921 de
+          werkloosheid sterk toenam werd de roep om een organisatie die de emigratie zou
+          bevorderen dan ook groter. A.G. Mörzer-Bruyns, ondervoorzitter van de NVL, en
+          Walrave Boissevain, ondervoorzitter van de Nederlandse maatschappij voor
+          nijverheid en handel, ijverden samen voor de oprichting van zo'n
+          organisatie.</html:p>
+          <html:p>Hun besprekingen leidden ertoe dat op 1 november 1923 de Emigratie
+          Centrale Holland (ECH) werd opgericht. Zij was een stichting met een college
+          van curatoren als bestuur en een directie voor de uitvoering. Walrave
+          Boissevain werd benoemd tot voorzitter van het college van curatoren. A.G.
+          Mörzer-Bruyns was tot zijn vertrek in 1925 directeur. Hij werd opgevolgd door
+          J.A.A. Hartland. In de stichtingsakte werd als doelstelling aangegeven het
+          bevorderen van de landverhuizing en het verrichten van alle handelingen welke
+          middellijk of onmiddellijk konden strekken om dit doel te bereiken, teneinde
+          hiermede de economische belangen van Nederland en zijn bevolking te dienen. De
+          ECH wenste op commerciële basis te werken, voor haar bemiddeling zou een
+          bepaald bedrag moeten worden betaald. Volgens de statuten mocht de ECH geen
+          winst maken Inv.nr. 31. Het was de bedoeling van de ECH om mensen die wensten
+          te emigreren en daartoe de geschiktheid doch niet de middelen hadden een
+          voorschot te verlenen. Voor de gelden die hiervoor nodig waren ontving de ECH
+          van het rijk f 75.000,--en van het bedrijfsleven f 86.000,--als voorschotten.
+          De werkzaamheden zoals de ECH zich die had voorgesteld, werden belemmerd door
+          de crisis waardoor vele landen hun grenzen voor emigranten sloten. Slechts
+          Canada bleef ten opzichte van emigranten een soort open deur-politiek voeren.
+          Dit was stellig de reden dat de ECH ondanks de moordende concurrentie van de
+          Canadese spoorwegmaatschappijen zich vooral op dit land richtteInv.nr. 47. Te
+          Winnipeg werd een raad van advies opgericht waar onder andere de Nederlandse
+          consul L.F.J. Riemsdijk zitting in hadInv.nr. 45. Ook werden enige
+          vertegenwoordigers aangesteld waar- onder J.J. Snor die reeds als correspondent
+          voor de NVL werkte. De samenwerking met de WL in Nederland verliep aanvankelijk
+          goed, maar er ontstonden problemen over het afbakenen van elkaars werkgebied.
+          Bovendien moest de NVL niets hebben van emigratiebevordering, een standpunt dat
+          de ECH wel voor ogen stond. Allereerst werd getracht de WL en de ECH in één
+          gebouw onder te brengen om de problemen op te lossen. De NVL maakte hiertegen
+          bezwaar omdat ze vond dat de ECH te veel aan de leidraad van de
+          vervoersmaatschappij- en liep. Na langdurig overleg en na bemiddeling van de
+          Minister van Landbouw, Handel en Nijverheid werd besloten om tot een fusie over
+          te gaan. Dit leidde ertoe dat op 23 juni 1931 de Stichting Landverhuizing
+          Nederland (SLN) werd opgerichtInv.nr 78. De NVL trad direct na de fusie in
+          liquidatie. Haar fondsen werden gebruikt voor het personeelsfonds waar
+          personeelsleden die in financiële moeilijkheden geraakt waren uit konden worden
+          betaald. De ECH ging niet dadelijk in liquidatie. De raad van beheer van de SLN
+          trad tot de definitieve opheffing in 1951 op als curatorium. Van de renteloze
+          voorschotten die het Rijk aan de ECH had verstrekt kon slechts 25% worden
+          terugbetaald. Van dit geld vormde het Rijk het emigratiefonds. Het geld van dit
+          fonds zou voor speciale emigratiebevorderende doeleinden moeten worden
+          gebruikt. Volgens de stichtingsakte stelde de SLN zich tot doel: "Het
+          verrichten van alle handelingen welke middellijk of onmiddellijk kunnen
+          strekken om leiding te geven aan de landverhuizing uit Nederland.</html:p>
+          <html:p>In de eerste plaats door: het geven van voorlichting omtrent
+          landverhuizing;het verleenen van bijstand bij landverhuizing;het houden van
+          voeling met de landverhuizers;het voortdurend en stelselmatig doen van
+          onderzoek naar de mogelijk- heden, die andere landen voor vestiging en
+          loonenden arbeid aan onze landgenooten bieden."Inv.nr. 78</html:p>
+          <html:p>Het bestuur van de SLN werd gevormd door de raad van beheer. De
+          directeur van de ECH, J.A.A. Hartland, werd tot directeur van de SLN benoemd en
+          de directeur van de NVL, J.C.C. Sandberg, tot secretaris van de raad van
+          beheer. Deze raad, die bij de oprichting bestond uit negen leden, beheerde
+          tevens de gelden van het personeels- en emigratiefonds. De overheid was evenals
+          bij de NVL en de SCH ook betrokken bij de SLN. In de raad van beheer hadden bij
+          de oprichting zitting de Minister van Binnenlandse Zaken en Landbouw en een
+          vertegenwoordiger van de Minister van Arbeid, Handel en Nijverheid. Na 1933
+          werd dit een vertegenwoordiger van het Ministerie van Sociale Zaken. De
+          Minister van Arbeid, Handel en Nijverheid benoemde de voorzitter van de raad
+          van beheer. Na 1933 deed de Minister van Sociale Zaken dit. Voorts hadden
+          oud-leden van de NVL en van de ECH alsmede vertegenwoordigers van de Vereniging
+          van Nederlandse Gemeenten (VNG), van de vakbeweging, van confessionele
+          emigratie-organisaties en van de centrale landbouworganisaties zitting in de
+          raad van beheer.</html:p>
+          <html:p>De Minister van Binnenlandse Zaken en Landbouw had zitting in de raad
+          van beheer omdat vele emigranten boeren waren die door de geringe
+          bestaansmogelijkheden in Nederland elders een nieuw bestaan wilden opbouwen. In
+          de statuten van de SLN werd ook bepaald dat de raad van beheer zou worden
+          bijgestaan door een commissie van bijstand. Uit deze commissie, waarin naast
+          alle leden van de raad van beheer ook vertegenwoordigers van enkele ministeries
+          zitting hadden, werd een vijftal sub-commissies gevormd. De sub-commissies
+          kwamen slechts een enkele keer bijeen. De commissie van bijstand werd geen
+          succes wegens het gebrek aan financiële middelen en het gebrek aan onderwerpen
+          om over te vergaderen. In 1936 werd besloten de commissie op te heffen. In
+          datzelfde jaar vond een statutenwijziging plaatsInv.nr. 86. Nu werd het zo dat
+          de Ministers van Buitenlandse Zaken, van Handel, Nijverheid en Scheepvaart, van
+          Landbouw en Visserij en van Sociale Zaken ieder één lid in de raad van beheer
+          benoemden. De Minister van Sociale Zaken bleef de voorzitter benoemen. Verder
+          werd de raad van beheer vergroot doordat men ook vertegenwoordigers van de
+          werkgeversorganisaties opnam. Ook werd uit de raad een dagelijks bestuur
+          gekozen. Na 1945 werden alle leden van de raad van beheer, behoudens degenen
+          die een ministerie vertegenwoordigen, door de Minister van Sociale Zaken
+          benoemd. De SLR startte haar werkzaamheden in een economisch ongunstige tijd.
+          Het rijksbudget werd getroffen door verminderde belastingopbrengsten en zware
+          werkloosheidslasten. Hierdoor moesten drastische bezuinigingen worden
+          doorgevoerd. Het personeelsbestand van de SLN werd al snel ingekrompen, zodat
+          in 1933 nog slechts de directeur, de adjunct-directeur en twee typistes waren
+          overgebleven. De raad van advies in Canada, een orgaan dat nog uit de tijd van
+          de ECH stamde en de aan emigranten verstrekte voorschotten inde, werd op 1
+          januari 1933 opgeheven. De SLN kreeg aanvankelijk weinig overheidsmiddelen voor
+          financiële ondersteuning van emigranten.</html:p>
+          <html:p>De regering stelde zich namelijk op het standpunt dat emigratie wel een
+          middel ter bestrijding van de werkloosheid was, maar dat de emigrant zelf moest
+          zorgen dat hij de benodigde middelen bijeenkreeg. Het heeft tot 1939 geduurd,
+          voordat de regering naast de gelden van het emigratiefonds een bedrag van f
+          41.000,- beschikbaar stelde voor de emigratiebevordering.</html:p>
+          <html:p>Tegen het einde van de jaren dertig kwam de emigratie langzaam op gang.
+          Veel Nederlanders vertrokken toen naar Zuid-Afrika en Canada. Na de Tweede
+          Wereldoorlog zette de emigratie pas goed door. Australië en Nieuw-Zeeland
+          werden tezamen met Canada de populairste emigratielanden. De SLN heeft in deze
+          emigratie steeds zo goed mogelijk trachten te bemiddelen. De grote
+          emigratiedrang noopte echter tot een ver doorgevoerd regeringsingrijpen. Als
+          gevolg hiervan werd het emigratiebeleid gereorganiseerd. Dit resulteerde in de
+          Wet op de Organen voor de Emigratie van 1952 Wet op de Organen voor de
+          Emigratie d.d. 24 mei 1952, Stb. 279 Door deze Wet Werd de SLN buiten werking
+          gesteld. In 1953 ging de SLN in liquidatie. De taken van de SLN werden
+          ondergebracht bij de nieuw ingestelde Nederlandse Emigratiedienst (NED) van het
+          Ministerie van Sociale Zaken en Volksgezondheid.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting Landverhuizing Nederland, 1931-1953</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de jaren voor de eerste wereldoorlog wilde de Nederlandse regering
+          een oplossing vinden voor de toegenomen werkloosheid. In 1910 werd een
+          staatscommissie ingesteld met als taak zich over dit probleem te buigen. Toen
+          in 1914 de commissie haar eindverslag uitbracht, werd landverhuizing als een
+          van de middelen ter bestrijding van de werkloosheid genoemd. De regering vond
+          het echter niet op haar weg liggen te bemiddelen in emigratieaangelegenheden.
+          Bij het mislukken van de emigratie zou zij immers verantwoordelijk kunnen
+          worden gesteld. Veel liever zag de regering dat de verantwoordelijkheid voor
+          allerlei emigratietaken bij een centrale emigratievereniging kwam te liggen.
+          Een particuliere vereniging verdiende daarbij de voorkeur boven een openbare,
+          want een rijksinstelling zou zich met name in het buitenland veel minder Vrij
+          kunnen bewegen. Intussen was op 12 december 1913 de Nederlandse Vereniging
+          Landverhuizing (NVL) opgericht. Volgens de statuten had de NVL als doel: het
+          geven van voorlichting aan hen, die er over denken als landverhuizer Nederland
+          te verlaten;het verlenen van bijstand bij de uitvoering van dit voornemen;het
+          houden van voeling met hen die geëmigreerd zijn; een en ander in aansluiting op
+          propaganda voor landverhuizing en op financiële hulp aan emigranten.
+          Inventarisnummer 8</html:p>
+          <html:p>De vereniging had meteen de aandacht van de regering. Toen de NVL
+          aanklopte voor regeringssubsidies werd een bedrag van f 10.000,- voor het jaar
+          1914 en een zelfde bedrag voor de volgende jaren ter beschikking gesteld.
+          Voorwaarde hiervoor was wel dat een regeringscommissaris werd aangesteld, zodat
+          er controle op het beleid van de NVL kon worden uitgeoefend.</html:p>
+          <html:p>De eerste jaren had de NVL vrijwel niets te doen. De oorlogstoestand en
+          de geringe belangstelling onder de Nederlanders om te emigreren waren hiervan
+          de oorzaak. Hierbij kwam dat de activiteiten van particuliere emigrantenwervers
+          het er voor de NVL niet beter op maakte. De emigratiewetgeving, daterend uit
+          1861 en aangevuld in 1869 en 1885, was volstrekt onvoldoende om daadkrachtig
+          tegen wervers op te treden. Zo maakten vooral de wervers van de Canadese
+          spoorwegmaatschappijen het de NVL erg lastig. Pas met de invoering van de
+          Landverhuizerswet 1936 werden de activiteiten van emigratiebemiddelaars
+          enigszins aan banden gelegd.</html:p>
+          <html:p>De eerste directeur van de NVL werd J. Maurer. Hij maakte in 1915 een
+          reis naar Canada om de vestigingskansen voor Nederlanders te
+          bekijken.Inventarisnummer 18 Ook nam hij contact op met reeds gemigreerde
+          Nederlanders. In 1917 werd hij opgevolgd door J.C.C. Sandberg. Onder zijn
+          leiding werden de eerste correspondenten in Canada aangesteld, die de NVL van
+          waardevolle inlichtingen voorzagen.Inv.nrs. 19 en 20</html:p>
+          <html:p>De NVL deed dan wel zijn best om onpartijdige voorlichting te geven,
+          maar van een actieve emigratiepolitiek was geen sprake. Toen na 1921 de
+          werkloosheid sterk toenam werd de roep om een organisatie die de emigratie zou
+          bevorderen dan ook groter. A.G. Mörzer-Bruyns, ondervoorzitter van de NVL, en
+          Walrave Boissevain, ondervoorzitter van de Nederlandse maatschappij voor
+          nijverheid en handel, ijverden samen voor de oprichting van zo'n
+          organisatie.</html:p>
+          <html:p>Hun besprekingen leidden ertoe dat op 1 november 1923 de Emigratie
+          Centrale Holland (ECH) werd opgericht. Zij was een stichting met een college
+          van curatoren als bestuur en een directie voor de uitvoering. Walrave
+          Boissevain werd benoemd tot voorzitter van het college van curatoren. A.G.
+          Mörzer-Bruyns was tot zijn vertrek in 1925 directeur. Hij werd opgevolgd door
+          J.A.A. Hartland. In de stichtingsakte werd als doelstelling aangegeven het
+          bevorderen van de landverhuizing en het verrichten van alle handelingen welke
+          middellijk of onmiddellijk konden strekken om dit doel te bereiken, teneinde
+          hiermede de economische belangen van Nederland en zijn bevolking te dienen. De
+          ECH wenste op commerciële basis te werken, voor haar bemiddeling zou een
+          bepaald bedrag moeten worden betaald. Volgens de statuten mocht de ECH geen
+          winst maken Inv.nr. 31. Het was de bedoeling van de ECH om mensen die wensten
+          te emigreren en daartoe de geschiktheid doch niet de middelen hadden een
+          voorschot te verlenen. Voor de gelden die hiervoor nodig waren ontving de ECH
+          van het rijk f 75.000,--en van het bedrijfsleven f 86.000,--als voorschotten.
+          De werkzaamheden zoals de ECH zich die had voorgesteld, werden belemmerd door
+          de crisis waardoor vele landen hun grenzen voor emigranten sloten. Slechts
+          Canada bleef ten opzichte van emigranten een soort open deur-politiek voeren.
+          Dit was stellig de reden dat de ECH ondanks de moordende concurrentie van de
+          Canadese spoorwegmaatschappijen zich vooral op dit land richtteInv.nr. 47. Te
+          Winnipeg werd een raad van advies opgericht waar onder andere de Nederlandse
+          consul L.F.J. Riemsdijk zitting in hadInv.nr. 45. Ook werden enige
+          vertegenwoordigers aangesteld waar- onder J.J. Snor die reeds als correspondent
+          voor de NVL werkte. De samenwerking met de WL in Nederland verliep aanvankelijk
+          goed, maar er ontstonden problemen over het afbakenen van elkaars werkgebied.
+          Bovendien moest de NVL niets hebben van emigratiebevordering, een standpunt dat
+          de ECH wel voor ogen stond. Allereerst werd getracht de WL en de ECH in één
+          gebouw onder te brengen om de problemen op te lossen. De NVL maakte hiertegen
+          bezwaar omdat ze vond dat de ECH te veel aan de leidraad van de
+          vervoersmaatschappij- en liep. Na langdurig overleg en na bemiddeling van de
+          Minister van Landbouw, Handel en Nijverheid werd besloten om tot een fusie over
+          te gaan. Dit leidde ertoe dat op 23 juni 1931 de Stichting Landverhuizing
+          Nederland (SLN) werd opgerichtInv.nr 78. De NVL trad direct na de fusie in
+          liquidatie. Haar fondsen werden gebruikt voor het personeelsfonds waar
+          personeelsleden die in financiële moeilijkheden geraakt waren uit konden worden
+          betaald. De ECH ging niet dadelijk in liquidatie. De raad van beheer van de SLN
+          trad tot de definitieve opheffing in 1951 op als curatorium. Van de renteloze
+          voorschotten die het Rijk aan de ECH had verstrekt kon slechts 25% worden
+          terugbetaald. Van dit geld vormde het Rijk het emigratiefonds. Het geld van dit
+          fonds zou voor speciale emigratiebevorderende doeleinden moeten worden
+          gebruikt. Volgens de stichtingsakte stelde de SLN zich tot doel: "Het
+          verrichten van alle handelingen welke middellijk of onmiddellijk kunnen
+          strekken om leiding te geven aan de landverhuizing uit Nederland.</html:p>
+          <html:p>In de eerste plaats door: het geven van voorlichting omtrent
+          landverhuizing;het verleenen van bijstand bij landverhuizing;het houden van
+          voeling met de landverhuizers;het voortdurend en stelselmatig doen van
+          onderzoek naar de mogelijk- heden, die andere landen voor vestiging en
+          loonenden arbeid aan onze landgenooten bieden."Inv.nr. 78</html:p>
+          <html:p>Het bestuur van de SLN werd gevormd door de raad van beheer. De
+          directeur van de ECH, J.A.A. Hartland, werd tot directeur van de SLN benoemd en
+          de directeur van de NVL, J.C.C. Sandberg, tot secretaris van de raad van
+          beheer. Deze raad, die bij de oprichting bestond uit negen leden, beheerde
+          tevens de gelden van het personeels- en emigratiefonds. De overheid was evenals
+          bij de NVL en de SCH ook betrokken bij de SLN. In de raad van beheer hadden bij
+          de oprichting zitting de Minister van Binnenlandse Zaken en Landbouw en een
+          vertegenwoordiger van de Minister van Arbeid, Handel en Nijverheid. Na 1933
+          werd dit een vertegenwoordiger van het Ministerie van Sociale Zaken. De
+          Minister van Arbeid, Handel en Nijverheid benoemde de voorzitter van de raad
+          van beheer. Na 1933 deed de Minister van Sociale Zaken dit. Voorts hadden
+          oud-leden van de NVL en van de ECH alsmede vertegenwoordigers van de Vereniging
+          van Nederlandse Gemeenten (VNG), van de vakbeweging, van confessionele
+          emigratie-organisaties en van de centrale landbouworganisaties zitting in de
+          raad van beheer.</html:p>
+          <html:p>De Minister van Binnenlandse Zaken en Landbouw had zitting in de raad
+          van beheer omdat vele emigranten boeren waren die door de geringe
+          bestaansmogelijkheden in Nederland elders een nieuw bestaan wilden opbouwen. In
+          de statuten van de SLN werd ook bepaald dat de raad van beheer zou worden
+          bijgestaan door een commissie van bijstand. Uit deze commissie, waarin naast
+          alle leden van de raad van beheer ook vertegenwoordigers van enkele ministeries
+          zitting hadden, werd een vijftal sub-commissies gevormd. De sub-commissies
+          kwamen slechts een enkele keer bijeen. De commissie van bijstand werd geen
+          succes wegens het gebrek aan financiële middelen en het gebrek aan onderwerpen
+          om over te vergaderen. In 1936 werd besloten de commissie op te heffen. In
+          datzelfde jaar vond een statutenwijziging plaatsInv.nr. 86. Nu werd het zo dat
+          de Ministers van Buitenlandse Zaken, van Handel, Nijverheid en Scheepvaart, van
+          Landbouw en Visserij en van Sociale Zaken ieder één lid in de raad van beheer
+          benoemden. De Minister van Sociale Zaken bleef de voorzitter benoemen. Verder
+          werd de raad van beheer vergroot doordat men ook vertegenwoordigers van de
+          werkgeversorganisaties opnam. Ook werd uit de raad een dagelijks bestuur
+          gekozen. Na 1945 werden alle leden van de raad van beheer, behoudens degenen
+          die een ministerie vertegenwoordigen, door de Minister van Sociale Zaken
+          benoemd. De SLR startte haar werkzaamheden in een economisch ongunstige tijd.
+          Het rijksbudget werd getroffen door verminderde belastingopbrengsten en zware
+          werkloosheidslasten. Hierdoor moesten drastische bezuinigingen worden
+          doorgevoerd. Het personeelsbestand van de SLN werd al snel ingekrompen, zodat
+          in 1933 nog slechts de directeur, de adjunct-directeur en twee typistes waren
+          overgebleven. De raad van advies in Canada, een orgaan dat nog uit de tijd van
+          de ECH stamde en de aan emigranten verstrekte voorschotten inde, werd op 1
+          januari 1933 opgeheven. De SLN kreeg aanvankelijk weinig overheidsmiddelen voor
+          financiële ondersteuning van emigranten.</html:p>
+          <html:p>De regering stelde zich namelijk op het standpunt dat emigratie wel een
+          middel ter bestrijding van de werkloosheid was, maar dat de emigrant zelf moest
+          zorgen dat hij de benodigde middelen bijeenkreeg. Het heeft tot 1939 geduurd,
+          voordat de regering naast de gelden van het emigratiefonds een bedrag van f
+          41.000,- beschikbaar stelde voor de emigratiebevordering.</html:p>
+          <html:p>Tegen het einde van de jaren dertig kwam de emigratie langzaam op gang.
+          Veel Nederlanders vertrokken toen naar Zuid-Afrika en Canada. Na de Tweede
+          Wereldoorlog zette de emigratie pas goed door. Australië en Nieuw-Zeeland
+          werden tezamen met Canada de populairste emigratielanden. De SLN heeft in deze
+          emigratie steeds zo goed mogelijk trachten te bemiddelen. De grote
+          emigratiedrang noopte echter tot een ver doorgevoerd regeringsingrijpen. Als
+          gevolg hiervan werd het emigratiebeleid gereorganiseerd. Dit resulteerde in de
+          Wet op de Organen voor de Emigratie van 1952 Wet op de Organen voor de
+          Emigratie d.d. 24 mei 1952, Stb. 279 Door deze Wet Werd de SLN buiten werking
+          gesteld. In 1953 ging de SLN in liquidatie. De taken van de SLN werden
+          ondergebracht bij de nieuw ingestelde Nederlandse Emigratiedienst (NED) van het
+          Ministerie van Sociale Zaken en Volksgezondheid.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Nederlandse regering stimuleerde begin 20e eeuw actief emigratie als
+      middel ter bestrijding van werkloosheid. Het archief van de Nederlandse Vereniging
+      Landverhuizing, en zijn opvolgers de Emigratie Centrale Holland, en de Stichting
+      Landverhuizing Nederland is geordend naar organisatie, onderwerp en correspondent.
+      Het archief bevat o.a. jaarverslagen, notulen, correspondentie, rapporten
+      betreffende emigratielanden, documentatie, oprichtingsverslagen, circulaires, en
+      voorlichtingsmateriaal.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3.60 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>139 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

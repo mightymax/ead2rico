@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/7586b601-0ec4-45e8-8bc3-7f03d3b1249c"
+  rdf:about="record/3.18.06">
+    <rico:identifier>3.18.06</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1916</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36006" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.06/i1" />
+      <rico:instantiates rdf:resource="record/3.18.06" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190315</rico:hasModificationDate>
+        <html:p>15 maart 2019</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2013-11-04</rico:hasModificationDate>
+        <html:p>4 november 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Fraterhuis Sint Hieronymus'
+        dal</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/7586b601-0ec4-45e8-8bc3-7f03d3b1249c" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36006">
+    <rico:describedBy rdf:resource="record/3.18.06" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36006</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Delftse Statenkloosters St. Hiëronymusdal</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Delftse Statenkloosters / St. Hiëronymusdal</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1296</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1571</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1296-1571</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Fraterhuis Sint Hieronymus' dal</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Over het stichtingsjaar van dit fraterhuis zijn de berichten niet
+          eensluidend. In zijn "Scriptum" vertelt Rudolph Dier van Muiden G. Dumbar,
+          Analecta 1719 p. 54. , dat in het jaar, onmiddellijk volgende op dat, waarin
+          Florens Radewijnsz. overleed, de stad Delft aan den prior van het fraterhuis te
+          Deventer verzocht eenige fraters derwaarts te zenden tot het oprichten van een
+          vereeniging, waaraan deze gevolg gaf; dat zou dan in het jaar 1401 geweest
+          moeten zijn. van Heussen, Römer en Delprat G. H. M. Delprat, Verhandeling over
+          de broederschap van G. Groote 1856 p. 120. noemen in navolging van Lindeborn J.
+          Lindeborn, Historia Episcop. Daventriensis 1670 p. 107. het jaar 1403, van
+          Bleyswijck V. Bleyswijck, a. w. p. 324. laat het in het midden. Twee
+          omstandigheden zijn er, die, hoewel niet afdoende, voor het jaar 1403 pleiten.
+          Lindeborn's bronnen lijken betrouwbaar, terwijl genoemde Rudolph zegt, dat hij
+          de feiten meedeelt, gedeeltelijk zooals hij zich herinnert ze te hebben hooren
+          vertellen, gedeeltelijk zooals hij ze persoonlijk heeft bijgewoond. Daar hij nu
+          in 1401 nog slechts 17 jaar oud was, zal zijn bekendheid met de gebeurtenissen,
+          die in dat jaar in het Deventersche fraterhuis plaats hadden, wel uit de eerste
+          bron afkomstig en dus niet boven bedenking verheven zijn. De tweede
+          omstandigheid is, dat het oudste mij bekende stuk, waarin het Delftsche huis
+          genoemd wordt, een charter is van 1404 (zie reg. no. 7). Als het huis toen al
+          drie jaar bestaan had, zou de aanduiding niet zoo omslachtig geweest zijn, als
+          daar het geval is, maar zou het zeer waarschijnlijk zijn naam al gehad
+          hebben.</html:p>
+          <html:p>Leonardus van Echt en nog eenige broeders, door den prior te Deventer
+          uitgekozen, vestigden zich aan de Oude Delft tegenover de Nieuwstraat en, daar
+          het gunstig bekend staande onderwijs der broeders zeker zoowel voor Delft als
+          voor andere gemeenten, die hen in haar midden wenschten, een van de voornaamste
+          redenen daarvoor geweest zal zijn, kregen zij een schoolgebouw Dit
+          schoolgebouw, gewoonlijk het Fraterhuis genoemd en dus niet te verwarren met
+          St. Hieronymus' dal, werd later een College van Theologie, waarin studenten
+          zonder vermogen tot de studie voor predikant in den gereformeerden godsdienst
+          werden opgeleid. in de straat, die thans Schoolstraat heet. In het klooster St.
+          Agatha oefenden de kweekelingen zich in zang en muziek en zongen er geregeld
+          bij de missen en de vesper. Dit klooster voorzag grootendeels in hun
+          onderhoud.</html:p>
+          <html:p>Uit de aanwezige charters blijkt niet, dat de betrekkelijke welvaart,
+          waarin het huis zich in de 16e eeuw verheugde, den broeders spoedig is
+          aangekomen en ook geestelijk leidde het fraterhuis een kwijnend bestaan. Hoe
+          gunstig gezind de stedelijke regeeringen den fraters mochten zijn, de
+          geestelijke orden werkten hun zooveel mogelijk tegen. Wel verbeterde de
+          toestand, toen in 1418 op het concilie te Constanz Grabow als aanklager der
+          broeders in het ongelijk werd gesteld, maar overgang tot een of andere
+          geestelijke orde bleef een dreigend gevaar, waarvan ook St. Hieronymus' dal
+          ruim zijn deel kreeg.</html:p>
+          <html:p>De tweede rector, Pieter Gerrytz., die in 1412 gekozen was, wist de
+          broeders tot het aannemen der derde orde van St. Franciscus te bewegen, en toen
+          in 1418 zijn sympathieën naar de Augustijnen uitgingen, volgden het meerendeel
+          der kloosterlingen hem eveneens Zie Oorspronck van St. Barbarenconvent. Pieter
+          Gerrytsz. was n.l. vóór zijn overgang tot de Augustijnen tevens pater van dat
+          klooster. . Vreezende dat het huis te klein zou blijken voor den toeloop,
+          verlieten de Regulieren het en stichten te Rijswijk het klooster Sion. Zij
+          namen bij die gelegenheid alles uit het gewezen fraterhuis mee, huisraad,
+          altaren en reliquieën, zoodat de nieuwe fraters, die de plaats der afvalligen
+          kwamen innemen, het huis geheel leeg geplunderd vonden.</html:p>
+          <html:p>Het jaar van dien uittocht is evenmin bekend als dat van de stichting
+          van het klooster Sion; oudere bewijzen van het bestaan daarvan dan reg. no. 20
+          d.d. 1435 zijn mij niet bekend, en al is dat zeventien jaar na den overgang tot
+          de orde der Regulieren, veel vroeger zal het toch niet gebeurd zijn, aangezien
+          er in 1436 een proces ontstond tusschen de beide huizen over het bezit der
+          bibliotheek W. Moll, Kerkgeschiedenis van Nederland voor de hervorming II 2. p.
+          169. en de Regulieren, blijkens Inv. no. 1 van het klooster St. Agnes, in 1431
+          nog te Delft woonden.</html:p>
+          <html:p>Van nu af bleef het huis te Delft voor de broeders behouden en ging de
+          uitbreiding van hun bezit geleidelijk voort, totdat de brand van 1536, waarbij
+          de kapel zoowel als het woonhuis afbrandden, daaraan voor goed een einde
+          maakte. Hoewel zij landerijen verkochten tot een waarde van 2800 gld., zagen de
+          broeders geen kans uit eigen middelen de ramp te boven te komen en denzelfden
+          staat te blijven voeren, en de devotie der menschen was zoozeer "vercout", dat
+          zij op hulp van dien kant ook niet meer rekenden. Zij wendden zich tot den
+          bisschop van Utrecht, keizer Karel en de regeering van Delft met het verzoek
+          hun vereeniging te mogen veranderen in een college, dat de eerste tien jaren
+          uit vier, en daarna uit zeven personen (kapelaans) zou bestaan, waaronder een
+          rector; zij zouden niet langer verplicht zijn tot het houden van een
+          gemeenschappelijke tafel en andere ceremoniën en ordonnantiën, zooals tot nu
+          toe het geval was geweest, terwijl het aantal dagelijksche missen tot op de
+          helft zou worden teruggebracht. Van hun inkomsten zou ieder een portie, de
+          rector een dubbele ontvangen. Deze zou bovendien een huis krijgen en een koster
+          moeten onderhouden; hij zou den eersten keer door den bisschop, en voor het
+          vervolg door de kapelaans gekozen, maar door den bisschop geïnstitueerd worden.
+          De broeders, wier aantal na tien jaar overeen zou komen met het aantal der
+          vicarieën in hun kapel (zes), moesten priester zijn.</html:p>
+          <html:p>Zoowel de bevestiging door den bisschop als de autorisatie van den
+          keizer en die van de stad volgde; de laatste stelde nog als voorwaarden, dat
+          het getal der broeders nooit boven de zeven stijgen mocht, dat zij zich nooit
+          deken en kanunniken zouden mogen noemen, hun erf niet mochten uitbreiden noch
+          meer huizen tot geestelijke maken, waarbij de broeders zich
+          neerlegden.</html:p>
+          <html:p>Niet iedereen bleek evenwel verkoud. Eenige dagen nadat de broeders het
+          genoemde verzoek tot den bisschop hadden gericht, wendden zij zich weer tot
+          hem, nu om zijn toestemming te verkrijgen tot de incorporatie van een vicarie
+          op het H. Kruis' altaar in de St. Pieters kerk te Leiden en van de gedeelde
+          vicarie in de kerk te Voorburg, beide aan het college geschonken door mr.
+          Vincent Cornelisz., ambachtsheer van de Ketel. Tevens vroegen zij bij die
+          gelegenheid incorporatie van een vicarie in de St. Hippolytus' kerk te Delft,
+          waarover zij reeds van ouds het patronaatsrecht bezaten. Beide verzoeken werden
+          ingewilligd. Uit erkentelijkheid voor de gunsten, hun door Vincent Cornelisz.
+          bewezen, namen zij hem en zijn erfgenamen, ambachtsheeren van de Ketel, aan als
+          fundateur en patroons met het recht van collatie en presentatie der zes
+          kapelaans. Over het rectorschap was reeds anders beschikt (zie boven). In of
+          aan de woning, die voor den rector gebouwd zou worden, zou mr. Vincent zijn
+          logies mogen doen aanbrengen om dat met bijbehoorende erven te gebruiken voor
+          hem en zijn erfgenamen. Zie den brief aan den bisschop bij R. Boitet, Beschr.
+          Van Delft 1729 pag. 359. Dat deze daaraan gevolg gaf, blijkt uit een
+          verlijbrief van 1593, waarin onder de heerlijkheid van de Ketel ook begrepen
+          wordt "een huysinge binnen Delft metter collatie van ses cappelryen aldaer."
+          Leenregisters Holl. Hooghe Overicheyt B. fo CXXII.</html:p>
+          <html:p>Ook na 1572 bleef het college bestaan, de school werd evenwel naar de
+          veranderde omstandigheden gewijzigd zooals boven vermeld is.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Fraterhuis Sint Hieronymus' dal bevat voornamelijk
+      rentebrieven en eigendomsbewijzen, alsmede jaarrekeningen en enige stukken
+      betreffende het fraterhuis in het algemeen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>95 inventarisnummer(s)</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0,10 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

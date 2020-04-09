@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:11:11 -->
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.19.61::Huis Reigersbergen)//NL" url="http://proxy.handle.net/10648/6e82ff0d-abbc-4a8f-bdb6-2e22a4f94e5c" urn="3.19.61.ead.xml">3.19.61</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het archief van het Huis Reigersbergen</titleproper>
+				<author>W.H. Avelingh</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1954">1954</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Ancella Steketee, 
+		  <date calendar="gregorian" era="ce" normal="20090723">23 juli 2009</date>. 
+	  </creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+					<title linktype="simple">ISAD(G) : Algemene Internationale Norm voor Archivistisch Beschrijven, vertaling van de tweede uitgave</title>, Antwerpen / Leuven / Amsterdam 2004</bibref>;
+                  <bibref linktype="simple">
+					<title linktype="simple">Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003</bibref>.
+                </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20110824">24 augustus 2011</date>
+				<item>
+					<num>1</num>Wijzigingen scanproject (Yvonne Bos) aangebracht door <name>Diederick Kortlang</name>.
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20130102">2 januari 2013</date>
+				<item>
+					<num>2</num>Genealogie toegevoegd door <name>Hans Punt</name>.
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce"/>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Huis Reigersbergen</unittitle>
+			<unittitle type="short">Huis Reigersbergen</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1406/1938" type="inclusive">1406-1938</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">35104</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">0.30 meter; </extent>
+				
+			<extent unit="files">105 inventarisnummers.</extent></physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Reigersbergen, Het Huis</corpname>
+			</origination>
+			<origination>
+				<persname>Jochems, Barend Cornelis</persname>
+			</origination>
+			<origination>
+				<persname>Jochems, Hendrik</persname>
+			</origination>
+			<origination>
+				<persname>Reede van Oudtshoorn-Brommertz, Barones Wilhelmina Elisabeth van</persname>
+			</origination>
+			<origination>
+				<persname>Schaetzen, Familie</persname>
+			</origination>
+			<origination>
+				<persname>Laan, Anna van der</persname>
+			</origination>
+			<origination>
+				<persname>Hoey, Cornelia Jenetta van</persname>
+			</origination>
+			<origination>
+				<persname>Lans, Helena van der</persname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Het archief van de hofstede en later buitenplaats Reigersbergen bevat stukken betreffende het geslacht Jochems en aanverwante geslachten. Verder stukken betreffende onroerende goederen en landerijen gelegen te Wassenaar, 's-Gravenhage en elders gelegen onroerende goederen o.a. in Voorburg, Beierland en Voorschoten.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<bioghist>
+				<head>Geschiedenis van de archiefvormer</head>
+				<p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden, waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen was.</p>
+				<p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven <note>
+						<p> Algemeen Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400; Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62, folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners. </p>
+					</note> en waren vervolgens een bezitting van de leden van het geslacht van Assendelft, die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen, behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar; derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 <note>
+						<p> Wet van 16 Juli 1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van grondgebied heeft plaats gehad op 1 Augustus 1907. </p>
+					</note> heeft de gemeente 's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een verband tussen de naam der bezitting der bezitting Reigersbergen met de geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen ontstaan.</p>
+				<p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te 's-Gravenhage.</p>
+				<p>De familie Jochems heeft het als huismans- of boerenwoning gekochte huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid van 's-Gravenhage en Wassenaar heeft bijgedragen.</p>
+				<p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren 1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven. Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut ook voor deze landgoederen door een totale oorlog de laatste functie in hun eeuwenlange geschiedenis een militaire moeten zijn.</p>
+				<bioghist>
+					<head>Genealogie van het geslacht Jochems</head>
+					<p>I. Jochem Wouters, j. m. te Uchelen onder Beekbergen, tr. Beekbergen 11 Juni 1729 Anna Elisabeth Borren, op Laar onder Otterlo.
+<list type="ordered" numeration="arabic">
+							<head>Uit dit huwelijk:</head>
+							<item>Wouter Jochems, volgt II.</item>
+							<item>Jan Jochems, ged. Beekbergen 23 Mrt. 1732.</item>
+							<item>Gerritjen Jochems, ged. Beekbergen 4 Juli 1734, ondertr. ald. 6 Mrt. 1757 Jan Pouwels, van Apeldoorn.</item>
+							<item>Borre Jochems, geb. Beekbergen, tr. ald. 3 Juni 1764 Hendrina Stoffels, geb. ald., d. v. Stoffel Uleman en Fenneke Veltkens. Zij hertr. te Apeldoorn (ondertr. Beekbergen 6 Mrt. 1767) Jan Gerritsen Disbergh.</item>
+						</list>
+					</p>
+					<p>
+II. Wouter Jochems, ged. Beekbergen 18 Juni 1730, overl. 's-Gravenhage 15 Dec., begr. ald. Nieuwe K. 19 Dec. 1796, tr. ald. Hoogd. K. 3 Juni 1764 Catharina Willemsen, ged. Deventer 1 Juni 1721, overl. 's-Gravenhage 15 Oct. 1813, d.v. Jan en Hillegonda Overhorst.
+<list type="ordered" numeration="arabic">
+							<head>Uit dit huwelijk:</head>
+							<item>Joachim Jochems, volgt III.</item>
+							<item>Hillegonda Jochems, ged. 's-Gravenhage Grote K. 3 Mei 1767, begr. ald. Nieuwe K. 22 Mrt. 1790.</item>
+							<item>Anna Elizabeth Jochems, ged. 's-Gravenhage Grote K. 7 Jan. 1770, overl. ald. 9 Dec. 1822, tr. ald. 13 Mrt. 1796 Mr. Hendrik Verwey Mejan, ged. Rijnsburg 14 Aug. 1768, bankier te 's-Gravenhage, overl. ald. 24 Jan. 1836, z. v. Petrus, baljuw van Rijnsburg (1790), baljuw en schout van Monster en Half Loosduinen (1791), en Sara Geertruy Verwey.</item>
+						</list>
+					</p>
+					<p>
+						<list type="marked">
+							<head>Wouter Jochems</head>
+							<item>wordt door de stad 's-Gravenhage aangesteld als marktschipper op Amsterdam, door overlijden van Elisabeth Weytmar, en legt den eed van zuivering af, 4 Apr. 1764.</item>
+							<item>
+Legt den eed af als schutter in het Blauwe Vendel, 21 Mei 1764. Ingeschreven in het St. Valentyns of Schippersgilde en vertoont zijn burgerrecht, 5 Sept. 1764, deken van dit gilde o.a. in 1776, hoofdman o.a. in 1784 en 1790.</item>
+							<item>
+Koopt met enige marktschippers samen een huis aan de zuidzijde van de Amsterdamse Veerkade voor f. 3.600. Overdracht 7 Apr. 1766 (Transp. 's-Gravenhage nr. 1088, fol. 42vso).</item>
+							<item>
+Koopt een huis, erf en tuin met vrijen uitgang aan de Korte Kraanstraat en 2 huisjes en erven, in een gang achter dat huis uitkomende, gelegen aan de noordzijde van de Middelste Veerkade voor f. 9.450. Overdracht 5 Mei 1773 (Transp, 's-Gravenhage nr. 586, fol. 494vso).</item>
+							<item>
+Leent op onderpand van effecten f. 15.000 van Mr. Leonard Kuysten van Hoesen en f. 16.000 van Mr. Gilles Graafland, 12 Jan. 1787 (Not. 's-Gravenhage nr. 5064).</item>
+							<item>
+Koopt een huis en erf, met een achterhuis uitkomende in de Korte Kraanstraat, gelegen aan de noordzijde van de Veerkade voor f. 1.800. Overdracht 3 Juni 1790 (Transp. 's-Gravenhage nr. 2131, fol. 328). Verkoopt dit huis voor f. 1.700. Overdracht 31 Jan. 1795 (Transp. 's-Gravenhage nr. 929, fol. 345).</item>
+						</list>
+					</p>
+					<p>
+III. Joachim Jochems, ged. 's-Gravenhage Grote K. 16 Mrt. 1766, overl. ald. 21 Dec. 1841, tr. ald. Franse K. 13 Dec. 1789 Jacoba Anna Mejan, ged. Rijnsburg 8 Juni 1766, overl. Wassenaar (Duindigt) 19 Sept. 1829, d. v. Petrus, baljuw van Rijnsburg (1790), baljuw en schout van Monster en Half Loosduinen (1791), en Sara Geertruy Verwey.
+<list type="ordered" numeration="arabic">
+							<head>Uit dit huwelijk:</head>
+							<item>Catharine Hillegonda Jochems, geb. 's-Gravenhage 21 Nov., ged. ald. Grote K. 24 Nov. 1790, overl. ald. 29 Febr. 1872.</item>
+							<item>Petronella Geertruy Jochems, geb. 's-Gravenhage 13 Dec, ged. ald. Hoogd. K. 15 Dec. 1793, overl. ald. (St. Anthony Burgwal) 16 Mrt. 1849.</item>
+							<item>Henrietta Elizabeth Jochems, geb. 's-Gravenhage 13 Juli, ged. ald. Hoogd. K. 17 Juli 1796, overl. ald. 6 Mrt. 1863.</item>
+							<item>Wouter Jochems, geb. 's-Gravenhage 19 Mei, ged. ald. Hoogd. K. 26 Mei 1799, bankier, lid van den Gemeenteraad van 's-Gravenhage 23 Oct. 1843, overl. ald. 8 Jan. 1876.</item>
+							<item>Mr. Hendrik Jochems, volgt IV.</item>
+							<item>Jan Jochems, geb. 's-Gravenhage 11 Dec., ged. ald. Nieuwe K. 19 Dec. 1802, klerk, overl. 's-Gravenhage (St. Anthony Burgwal) 21 Mei 1820.</item>
+							<item>Cornelia Jochems, geb. 's-Gravenhage 1 Apr., ged. ald. Nieuwe. K. 10 Apr. 1804, overl. ald. 25 Nov. 1881, tr. ald. 8 Juli 1829 Adrianus Gerhardus Burgerhoudt, ged. Schiedam 20 Oct. 1798, subst. griffier Hogen Raad, overl. 's-Gravenhage 29 Mei 1842, z. v. Mr. Johannes, lid Staten van Holland, burgemeester van Schiedam, en Francina Benjamina Nijssen.</item>
+						</list>
+					</p>
+					<p>
+						<list type="marked">
+							<head>Joachim Jochems, notaris te 's-Gravenhage 1786-1793 (admissie 13 Sept. 1786), bankier en solliciteur-militair ald. (aanstelling door Gecommitteerde Raden van Holland 8 Apr. 1788), woont 1788 2de Veerkade, 1790-1799 1ste Veerkade.</head>
+							<item>
+Koopt een huis, erf en tuin, met achterhuis, stal en koetshuis, uitkomende in een poort in de Wagenstraat, gelegen aan de zuidzijde van de St. Anthony Burgwal voor f. 10.800 van de Erven Cornelia Heeneman; met nog een aan denzelfden burgwal gelegen huis, erf en tuin voor f. 1.600. Overdracht 11 Dec. 1799 (Transp. 's-Gravenhage nr. 2009, fol. 177).
+</item>
+							<item>"Wouter Jochems en Zoon" competeert een bedrag van f. 330.000 voor aan den Lande verstrekte gelden, ca. 1800 (Alg. R. A. Collectie Elias Canneman, nrs. 5 en 7).
+Koopt de landgoederen Reigersbergen, 1 Mei 1802 en De Loo, 12 Mei 1804.</item>
+							<item>
+Koopt de huismanswoning Hofzicht c.a. aan den Bezuidenhoutsen Weg voor f. 7.800. Overdracht 18 Juni 1804 (Transp. 's-Gravenhage nr. 1746, fol. 153).</item>
+							<item>
+Lid van den Municipalen Raad te 's-Gravenhage 5 Aug. 1811 tot 17 Nov. 1813, van den Provisionelen Raad 17 Nov. 1813 tot 1 Jan. 1816 en van den Gemeenteraad 2 Jan. 1816 tot 1841.</item>
+							<item>
+Wethouder van 's-Gravenhage 12 Aug. 1831 tot 4 Aug. 1837.</item>
+							<item>
+Koopt het landgoed Duindigt van Abraham Christiaan van Citters, kolonel kapitein ter zee te 's-Gravenhage, voor f. 45.000.</item>
+							<item>
+Overdracht 11 Mei 1825 (Alg. R. A., Wassenaar, notaris J. A. van Bergen, deel 8379, nr. 20).</item>
+							<item>
+Ridder in de Orde van den Ned. Leeuw, K. B. 9 Sept. 1826, nr. 116.</item>
+						</list>
+					</p>
+					<p>
+IV. Mr. Hendrik Jochems, geb. 's-Gravenhage 4 Juni, ged. ald. Nieuwe K. 15 Juni 1800, advocaat bij het Hoog Gerechtshof en den Hogen Raad 1822-1866, stadsconsulent te 's-Gravenhage 1833, stadsadvocaat 1835-1849, overl. Wassenaar (Reigersbergen) 18 Oct. 1872, tr. 's-Gravenhage 14 Sept. 1825 Wilhelmina Elisabeth barones van Reede van Oudtshoorn, geb. Vianen 17 Nov., ged. ald. 12 Dec. 1802, overl. Wassenaar (Reigersbergen) 10 Jan. 1889, d. v. Mr. Barend Cornelis en Johanna Wilhelmina Callenburgh Baartmans.
+<list type="ordered" numeration="arabic">
+							<head>Uit dit huwelijk:</head>
+							<item>Mr. Joachim Jochems, volgt V.</item>
+							<item>Wouter Jochems, geb. 's-Gravenhage 25 Jan. 1828, overl. ald. (Nieuwe Molstraat) 16 Dec. 1844.</item>
+							<item>Jacoba Anna Jochems, geb. 's-Gravenhage 20 Juli 1829, overl. Wassenaar (Reigersbergen) 8 Aug. 1899.</item>
+							<item>Barend Cornelis Jochems, geb. 's-Gravenhage 15 Jan. 1831, overl. ald. (Nieuwe Molstraat) 21 Febr. 1831.</item>
+							<item>Henriette Emelie Elizabeth Jochems, geb. 's-Gravenhage 27 Apr. 1833, overl. Wassenaar 29 Nov. 1880.</item>
+						</list>
+					</p>
+					<p>V. Mr. Joachim Jochems, geb. 's-Gravenhage 25 Sept. 1826, overl. ald. 28 Apr. 1901, tr. Brussel Catharina Maria Christina Alida Margaretha Brouwer, geb. 's-Gravenhage 2 Jan. 1851, overl. Brussel 5 Juli 1891, d. v. Hendricus Joannes en Margaretha Cornelia ten Hove.
+<list type="ordered" numeration="arabic">
+							<head>Uit dit huwelijk:</head>
+							<item>Walter Joachim Jochems, geb. Brussel 24 Nov. 1877.</item>
+							<item>Henriette Elisabeth Jochems, geb. Brussel 24 Juli 1882.</item>
+						</list>
+					</p>
+				</bioghist>
+			</bioghist>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<acqinfo>
+					<p>Tijdens de oorlogsjaren is een verzameling archivalia, welke de lange geschiedenis van deze gronden en de lotgevallen van haar in de loop der tijden elkaar opvolgende eigenaren, bezitters en andere bewoners voor de onderzoeker doen herleven en het eigendom zijn van de tegenwoordige eigenaresse der gronden mevrouw H.E. Michiels van Verduynen, door haar aan het Algemeen Rijksarchief in bewaring gegeven.</p>
+				</acqinfo>
+			<acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is voor langere tijd in beheer, niet in eigendom verkregen.</p></acqinfo></custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">3.19</subject>
+			</controlaccess>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>Bij de ordening van "Het archief van het huis Reigersbergen" is een indeling gemaakt tussen de archivalia betreffende het geslacht Jochems en die van andere geslachten.</p>
+				<p>De realia, betreffende de lotgevallen van de onroerende goederen en rechten, zijn gerangschikt naar de geografische ligging der gronden en wel volgens de tegenwoordige indeling der gemeenten, waarbij gemakshalve Wassenaar en 's-Gravenhage in een groep zijn samengevat. De voor dit archief belangrijkste gemeenten, nl. Wassenaar en 's-Gravenhage, gaan vooraan; de overige gemeenten zijn alphabetisch gerangschikt. Het eiland Beierland is in zijn geheel aangeduid. Per gemeente worden eerst de huizen en woningen, vervolgens de landerijen en tenslotte de daarop gevestigde rechten beschreven.</p>
+				<p>In de regestenlijst zijn de stukken tot het jaar 1530 opgenomen.</p>
+			</processinfo>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list numeration="arabic" type="ordered">
+						<item>U maakt een profiel aan op <extref actuate="onrequest" href="https://www.gahetna.nl/user/register" linktype="simple" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Huis Reigersbergen, nummer toegang 3.19.61, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Huis Reigersbergen, 3.19.61, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">a.</unitid>
+					<unittitle>STUKKEN VAN PERSOONLIJKE AARD.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">I.</unitid>
+						<unittitle>STUKKEN BETREFFENDE HET GESLACHT JOCHEMS.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.</unitid>
+							<unittitle>BAREND CORNELIS JOCHEMS.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367873" type="ABS">1</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/425fb20b-629e-4932-b70e-0b63464ce85f</unitid>
+								<unittitle>Bewijs van inlevering der memorie van aangifte van de nalatenschap van Barend Cornelis Jochems.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1831">1831</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.</unitid>
+							<unittitle>MR. HENDRIK JOCHEMS.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367874" type="ABS">2</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1fe748e-70ec-4882-beed-101c38773a4f</unitid>
+								<unittitle>Extract der resolutie van Burgemeester en Wethouders van 's-Gravenhage houdende benoeming van Mr. H. Jochems tot stads consulent.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1833">1833</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367875" type="ABS">3</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf5004a2-60af-4abe-9b19-3686161f181a</unitid>
+								<unittitle>Brief van de Minister van Financien aan Mr. H. Jochems betreffende de afgifte ener assignatie groot F. 5862,95.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1851">1851</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367876" type="ABS">4</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b6ffb73-f89c-4035-8b2e-8d42159e2a11</unitid>
+								<unittitle>Stukken betreffende het executeur-testementairschap van Mr. Jochems over de boedels van Baron A.W. en Baronesse A.C.E. van Nagel van Ampsen-du Tour.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1854">1854</unitdate>
+								<physdesc>11 stukken</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">II.</unitid>
+						<unittitle>STUKKEN BETREFFENDE AANVERWAUTE GESLACHTEN.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.</unitid>
+							<unittitle>WILHELMINA ELISABETH BARONES VAN REEDE VAN OUDTSHOORN-BROMMERTZ.</unittitle>
+						</did>
+						<scopecontent>
+							<p> Het geslacht van Reede van Oudtshoorn is verwant aan het geslacht Jochems door het huwelijk van Wilhelmina Elisabeth barones van Reede van Oudtshoorn met Mr. Hendrik Jochems.</p>
+						</scopecontent>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367877" type="ABS">5</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e536da8-5453-434c-a5e4-74766a070ecd</unitid>
+								<unittitle>Notariele acte van overneming van het olografisch testament van Wilhelmina Elizabeth barones van Reede van Oudtshoorn-Brommertz.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1827">1827</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367878" type="ABS">6</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c5f1f11-db08-445b-9c20-b588045052b5</unitid>
+								<unittitle>Inventaris der nalatenschap van Wilhelmina Elizabeth barones van Reede van Oudtshoorn-Brommerts.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1827">1827</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367879" type="ABS">7</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/797f9170-89e2-4508-91bf-668b7501d030</unitid>
+								<unittitle>Vonnis van de Rechtbank te 's-Gravenhage, waarbij de erfgenamen van W.E. barones van Reede van Oudtshoorn-Brommerts geauthoriseerd worden de nagelaten effecten publiek te doen verkopen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1828">1828</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367880" type="ABS">8</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bae79c8e-70d0-4f8b-8bee-618ce969de7b</unitid>
+								<unittitle>Boedelscheiding der nalatenschap van Wilhelmina Elizabeth barones van Reede van Oudtshoorn-Brommertz.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1828">1828</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.</unitid>
+							<unittitle>HET GESLACHT SCHAETZEN.</unittitle>
+						</did>
+						<scopecontent>
+							<p> Het geslacht Schaetzen is verwant aan het geslacht Michiels van Verduynen door het huwelijk van Josephine baron michiels Hendrica de Schaetzen met Mr. F.G.H.H.A. van Verduynen.</p>
+						</scopecontent>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367881" type="ABS">9</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4cd6aa11-49f1-4c0f-b957-95a43a48379a</unitid>
+								<unittitle>Geslachtsboom der familie Schaetzen, uit Tongeren, over de jaren 1482-1679.</unittitle>
+								<unitdate calendar="gregorian" era="ce">1642</unitdate>
+								<physdesc>1 perkamenten rol</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">III.</unitid>
+						<unittitle>STUKKEN BETREFFENDE ANDERE GESLACHTEN.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.</unitid>
+							<unittitle>ANNA VAN DER LAAN.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367882" type="ABS">10</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4df805b-7f54-4535-8824-735837f1c107</unitid>
+								<unittitle>Octrooi door de Staten van Holland voor Anna van der Laan om over haar leengoederen te beschikken.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1761">1761</unitdate>
+								<physdesc>1 charter</physdesc>
+							<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/10" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							<scopecontent>
+								<p> Anna van der Laan is een dochter uit het huwelijk van Pieter van der Laan en Helena Catharina Raephorst.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.</unitid>
+							<unittitle>CORNELIA JENETTA VAN HOEY.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367883" type="ABS">11</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08d571e0-387a-4927-b6ec-950347784444</unitid>
+								<unittitle>Uittreksel unit het testament van Conelia Jenetta van Hoey, vrouwe van Marlot, waarin zij P. baron van Leyden, heer van Nieuwland, tot universeel erfgenaam benoemt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1783">1783</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">C.</unitid>
+							<unittitle>HELENA VAN DER LANS.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367884" type="ABS">12</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2214b103-d4f2-4e20-9d11-8b64789a7605</unitid>
+								<unittitle>Testament van Helena van der Lans, waarin zij haar echtgenoot W. Hendriks tot universeel erfgenaam benoemt. (Afschrift).</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1833">1833</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+							<scopecontent>
+								<p> Helena van der Lans is een dochter unit het huwelijk van Leendert van der Lans en Cornelia van der Lubbe.</p>
+							</scopecontent>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">b.</unitid>
+					<unittitle>STUKKEN VAN ZAKELIJKE AARD.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">I.</unitid>
+						<unittitle>STUKKEN BETREFFENDE ONROERENDE GOEDEREN, GELEGEN TE WASSENAAR EN 'S-GRAVENHAGE.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.</unitid>
+							<unittitle>HUIZEN EN WONINGEN.</unittitle>
+						</did>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">1.</unitid>
+								<unittitle>REIGERSBERGEN.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367885" type="ABS">13</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b9b90c4-646e-4a83-b2bf-e3b7684a5049</unitid>
+									<unittitle>Notities over de transporten van Reigersbergen over de jaren 1464-1803. 1803. 1 stuk.</unittitle>
+								</did>
+							</c05>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>14, 14.1 - 14.4</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/41a39f4b-9976-4b12-b07b-4352e064890c</unitid>
+									<unittitle>Stukken betreffende de aankoop door Joachim Jochems van de huismanswoning Reigersbergen, groot 32 morgen, afkomstig van Pieter van der Lubbe. 1802. Met oudere transportacten d.d. 1663 en 1671 en acten van boedelscheiding d.d. 1681 en 1739.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1663/1802">1663-1802</unitdate>
+									<physdesc>4 charters en 5 stukken</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760392" type="ABS">14.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e56f8b64-5a6d-4910-ad36-1ec879660fdc</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1802</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/14.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760393" type="ABS">14.2</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/830496bf-66c0-4370-b8ce-dbd651dc7c9a</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1663 april 3</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/14.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760394" type="ABS">14.3</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5aafc562-8f31-4f62-b9d6-6a6fb8f2fe3e</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1663 april 3</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/14.3" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760395" type="ABS">14.4</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9de8d6f-fe9e-44a6-adf8-f1001adb00a4</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1671</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/14.4" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="1367886" type="ABS">14</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8893504-bb18-4e36-aa46-022f5c1d3ec1</unitid>
+										<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+									</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								</c06>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367887" type="ABS">15</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f22a47b-435b-4668-9298-b8599483a6c6</unitid>
+									<unittitle>Acte waarbij de erven van Leendert Augustijnsz Lubbe de boerewoning Reigersbergen, groot 31 morgen, voor 3 jaren verhuren aan Laurens Augustijnsz Lubbe. (Afschrift).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1799">1799</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367888" type="ABS">16</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/800ce0ec-a044-4f85-9b44-b69c2e30b4ba</unitid>
+									<unittitle>Stukken betreffende de onteigening door de gemeente 's-Gravenhage van landerijen ten Noorden van het Haagse Bos, toebehorende aan H.E. Jochems, in verband met de aanleg van de Benoordenhoutse weg.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1922">1922</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367889" type="ABS">17</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae97c70a-eff3-490c-b7c9-5a60ac3dcf29</unitid>
+									<unittitle>Uittreksels van het kadastrale plan der gemeente 's-Gravenhage, omvattende de buitenplaats Reigersbergen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1907/1938">1907, 1922 en 1938</unitdate>
+									<physdesc>3 stuks</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">2.</unitid>
+								<unittitle>HET HUIS TEN BOSCH.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367890" type="ABS">18</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a81f9429-0857-4e2b-a0a5-676f2f35ee1c</unitid>
+									<unittitle>Overeenkomst tussen de Prins van Oranje en de ingelanden van de Veenpolder inzake uitwatering van de vijvers van het Huis ten Bosch. (Negentiende eeuws afschrift).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1687">1687</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">3.</unitid>
+								<unittitle>DE WONING DE HOLLANDSCHE TUIN.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367891" type="ABS">19</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae5c2790-a5a3-40f9-b6dc-42460b4f4621</unitid>
+									<unittitle>Stuk betreffende de openbare verkoop door Leendert van der Lubbe c.s. aan J. Jochems van het huis De Hollandsche Tuin met een morgen land, gelegen naast Reigersbergen te Wassenaar; tuinland, groot twee morgen; een huis met twee morgen land, en een erfpachtsbrief ten laste van C.J. Bloys van Treslong. (Afschrift).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1818">1818</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">4.</unitid>
+								<unittitle>DE HUISMANSWONING HOFZICHT.</unittitle>
+							</did>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>20, 20.1, 20.2</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c0dee74-67cd-415c-b7e3-3758d83581d4</unitid>
+									<unittitle>Stukken betreffende de verkoop van de huismanswoning Hofzicht aan de Bezuidenhoutse weg, met 22 morgen land; en van 3 morgen land door Jacoba Vinkesteyn aan J. Jochems. 1806. Met oudere transportakten d.d. 1782, 1790 en 1791.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1782/1806">1782-1806</unitdate>
+									<physdesc>1 omslag (3 charters en 6 stukken)</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760396" type="ABS">20.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed4792d5-97a2-43d0-9a11-70e70a4c1e8e</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1782</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/20.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760397" type="ABS">20.2</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/09cafb6c-047b-44ba-ade1-732b2bbf319a</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1791</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/20.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="1367892" type="ABS">20</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/64e2a3db-720b-41af-bb66-de30bb855833</unitid>
+										<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+									</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								</c06>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">5.</unitid>
+								<unittitle>ANDERE WONINGEN.</unittitle>
+							</did>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>21, 21.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5a638d0-2b20-4dac-a950-be7111b844d3</unitid>
+									<unittitle>Eigendomsbewijs voor Willemina van Rosenburg van een vierde gedeelte van een boerenwoning aan de Bezuidenhoutse weg met 46 morgen land, afkomstig van de erven van haar echtgenoot Gerrit van der Kroft. Met afschrift van oudere transportakte d.d. 1775, 1802.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1775/1802">1775, 1802</unitdate>
+									<physdesc>1 charter en 1 stuk</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760402" type="ABS">21.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/33b84f09-8389-4215-ab8b-88f27d081a58</unitid>
+										<unittitle>Charter</unittitle>
+									</did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="1367893" type="ABS">21</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/162be88e-522c-4261-9438-624940be17c5</unitid>
+										<unittitle>Afschrift</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/21" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								</c06>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367894" type="ABS">22</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3af96324-8c23-4847-aa64-4bb4f4e823d2</unitid>
+									<unittitle>Eigendomsbewijs voor Pieter van der Lubbe van een huis met 2 morgen land aan de Hereweg te Wassenaar, afkomstig van Willemina-van der Kroft-Rosenburg en haar kinderen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/22" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367895" type="ABS">23</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fc0fa48-6030-4a87-b4b2-67d0f609a865</unitid>
+									<unittitle>Akte, waarbij de erfgenamen van Louwrens van der Velde en Cornelia van der Lubbe verkopen aan hun halfzuster Helena van der Lans: een vierde gedeelte van een woning aan de Hereweg te Wassenaar, nabij Reigersbergen, in 1782 bezwaard met een hypotheek ten behoeve van Anna Engel Wempe.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1819">1819</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367896" type="ABS">24</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8454ea47-2ed1-44ef-90c7-690b946c2e9b</unitid>
+									<unittitle>Stukken betreffende de verkoop door J. Borsboom aan J. Jochems van een huisje bij het Boshek.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1821">1821</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.</unitid>
+							<unittitle>LANDERIJEN.</unittitle>
+						</did>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">1.</unitid>
+								<unittitle>LANDERIJEN IN DE ONMIDDELIJKE OMGEVING VAN REIGERSBERGEN</unittitle>
+							</did>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>25.1 - 25.4</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/826f6866-587e-473b-9111-ef086f985de9</unitid>
+									<unittitle>Akte waarbij Philips de Goede 59 1/2 morgen veenland bij het Haagse Bos verkoopt aan Bertelmeeus Partant.1460. Met vidimus, akte van verpachting aan Gerrit, heer van Assendelft, en onderverpachtingsbrieven.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1461/1462">1461-1462</unitdate>
+									<physdesc>4 charters</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760398" type="ABS">25.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/10a97731-0c1d-485e-baca-d31e58c33789</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1461</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/25.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+									<odd>
+										<p>(regest nrs. 3, 4)</p>
+									</odd>
+									<scopecontent altrender="Appendix_Regestenlijst">
+										<p altrender="regest_nummer">
+											<num type="regest">3</num>
+											<date calendar="julian" era="ce" normal="1460-01-12">1460 Januari 12</date>
+										</p>
+										<p altrender="regest_beschrijving">Philips de Goede verkoopt aan Bertelmus Partant 59 1/2 morgen veenland aupres notre bois et forest a la Haye.</p>
+										<p altrender="regest_datering">
+											<date calendar="julian" era="ce" normal="1460-01-12"/>
+										</p>
+										<p altrender="regest_nb">a) Gevidimeerd in de brief dd. 1462 Juni 14 (Reg. no.6).</p>
+										<p altrender="regest_nb">b) Geinsereerd in de brief dd. 1461 Mei 8 (regest. no. 4).</p>
+										<p altrender="regest_nb">c) Geinsereerd in de brief dd. 1462 Juli 24 (regest no. 7).</p>
+										<p altrender="regest_nb">Bertelmeeus Partant was barbier en kamerdiennaar van Hertog Jan van Beieren (zie leenkamerregister no. 61, folio 39 verso, dd. 20 December 1423).</p>
+									</scopecontent>
+									<scopecontent altrender="Appendix_Regestenlijst">
+										<p altrender="regest_nummer">
+											<num type="regest">4</num>
+											<date calendar="julian" era="ce" normal="1461-05-08">1461 Mei 8</date>
+										</p>
+										<p altrender="regest_beschrijving">Bertelmeeus Partant geeft in erfpacht aan Geryt, heer tot Assendelft, 59 1/2 morgen land gelegen aan de zuidzijde van den bos van der Hage en vermeld in de brief d.d. 1460 Januari 12 (regest no. 3).</p>
+										<p altrender="regest_datering">
+											<date calendar="julian" era="ce" normal="1461-05-08"/>
+										</p>
+										<p altrender="regest_nb">a) Oorspr. (<ref linktype="simple">Inv. no. 25.1</ref>) met het zegel van de oorkonder.</p>
+										<p altrender="regest_nb">b) Geinsereerd in de brief dd.1462 Juli 24 (regest no. 7).</p>
+									</scopecontent>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760399" type="ABS">25.2</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d472d63-0cc6-4d16-975d-9f6cedccacdf</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1461 juni</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/25.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+									<odd>
+										<p>(regest nr. 5).</p>
+									</odd>
+									<scopecontent altrender="Appendix_Regestenlijst">
+										<p altrender="regest_nummer">
+											<num type="regest">5</num>
+											<date calendar="julian" era="ce" normal="1461-06-03">1461 Juni 3</date>
+										</p>
+										<p altrender="regest_beschrijving">Jacob Cruesinck en Adam van Cleve bevestigen, dat zij van Geryt, heer van Assendelft,in erfpacht ontvangen hebben 31 1/2 morgen veenland aan den zuidzijde van den bosche van den Haghe.</p>
+										<p altrender="regest_datering">
+											<date calendar="julian" era="ce" normal="1461-06-03"/>
+										</p>
+										<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 25.2</ref>) met de zegels van de oorkonders.</p>
+									</scopecontent>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760400" type="ABS">25.3</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/091d4fb5-52b8-4254-8ab4-8bc38d5379a0</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1462 juni</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/25.3" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+									<odd>
+										<p>(regest nr. 6).</p>
+									</odd>
+									<scopecontent altrender="Appendix_Regestenlijst">
+										<p altrender="regest_nummer">
+											<num type="regest">6</num>
+											<date calendar="julian" era="ce" normal="1462-06-14">1462 Juni 14</date>
+										</p>
+										<p altrender="regest_beschrijving">Deken en kapittel van Onzer Liever Vrouwen capelle binnen den hove inden Hage geven vidimus van de brief d.d. 1460 Januari 12 (regest no. 3).</p>
+										<p altrender="regest_datering">
+											<date calendar="julian" era="ce" normal="1462-06-14"/>
+										</p>
+										<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 25/3</ref>) met het zegel van de oorkonders.</p>
+										<p altrender="regest_nb">Dit zegel wordt beschreven in: Mr. J. de Riemer, Beschrijving van 's-Gravenhage, 1730, deel 1, pag. 264.</p>
+									</scopecontent>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760401" type="ABS">25.4</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6bd6a09c-d87d-4d8e-9051-7274e76be090</unitid>
+										<unittitle>
+											<unitdate calendar="gregorian" era="ce">1462 juli</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/25.4" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+									<odd>
+										<p>(regest nr. 7).</p>
+									</odd>
+									<scopecontent altrender="Appendix_Regestenlijst">
+										<p altrender="regest_nummer">
+											<num type="regest">7</num>
+											<date calendar="julian" era="ce" normal="1462-07-24">1462 Juli 24</date>
+										</p>
+										<p altrender="regest_beschrijving">Geryt, heer van Assendelft geeft in erfpacht aan Jacob Crusijn en Adam van Cleve 31 1/2 van de 59 1/2 morgen veenland, vermeld in de geinsereerde brieven dd. 1460 Januari 12 (regest no. 3) en 1461 Mei 8 (regest no. 4) en gelegen aan de zuidzijde van den bosse van den Hage, en aan zijn broer Jan van Assendelft de helft van de resterende 28 morgen veenland.</p>
+										<p altrender="regest_datering">
+											<date calendar="julian" era="ce" normal="1462-07-24"/>
+										</p>
+										<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 25.4</ref>) met het zegel van de oorkonder.</p>
+									</scopecontent>
+								</c06>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367898" type="ABS">26</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca1abe3d-33c6-46e3-a6ea-e4562a8b0ecc</unitid>
+									<unittitle>Kaart van 2 partijen weiland ten Noordwesten van Cortenbos.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1507">1507</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367899" type="ABS">27</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/18577cef-9f6e-4307-9b5f-5f3aff540b6d</unitid>
+									<unittitle>Consent van de Hoogheemraden van Delfland aan Cornelis van der Hooch en Pieter van Raephorst, eigenaren van Reigersbergen, tot het verplaatsen van een stenen dam in de landsloot bij Marlot.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1669">1669</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367900" type="ABS">28</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/eb98684d-aa61-43e3-80cb-f6077b00ae6b</unitid>
+									<unittitle>Eigendomsbewijs voor Laurens Raephorst van 7/8 gedeelte van 3 morgen land bij de Waalsdorperlaan, afkomstig van de erven van Dirk Lourisz. van Wouw en Leentje Maartens van Reigersbergen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1682">1682</unitdate>
+									<physdesc>1 charters</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/28" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367901" type="ABS">29</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4cab93dc-74fb-42b1-b472-acc61e7385a4</unitid>
+									<unittitle>Eigendomsbewijs voor Lourens Pietersz van Raephorst van 9 morgen land aan de Bezuidenhoutse weg, afkomstig van zijn broer en zusters.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1685">1685</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/29" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367902" type="ABS">30</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f15a93bc-beae-42bd-affb-e7a61fca60bd</unitid>
+									<unittitle>Overeenkomst tussen Adriaan d'Overschie en H. Ruyghrock betreffende het maken van een schei-sloot met dam aam de Oostzijde van Reigersbergen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1691">1691</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367903" type="ABS">31</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/deb1bdc0-251f-4680-98d7-a8ee1354a5bc</unitid>
+									<unittitle>Eigendomsbewijs voor J. van der Kroft van 17 morgen land aan de Bezuidenhoutse weg, afkomstig van de erven der freules van Gheel van Spanbroek.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1749">1749</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/31" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367904" type="ABS">32</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/db341486-95c1-483c-83c8-beaeee11a64e</unitid>
+									<unittitle>Besluit van het Hoogheemraadschap Delfland over het rooien van bomen voor de woning van G. Vinkesteyn te Wassenaar.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1795">1795</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367905" type="ABS">33</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5d7fa663-439b-4273-a4cc-4242254fa2be</unitid>
+									<unittitle>Akte waarbij de erven van Leendert Augustijnsz.Lubbe aan J. Borsboom een morgen tuinland bij het Haagse Bos voor de jaren 1799-1803. (Afschrift).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1799/1803">1799</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>34, 34.1, 34.2</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad18064e-85e1-41ee-a390-0806289a2a23</unitid>
+									<unittitle>Eigendomsbewijs voor J. Jochems van 12 morgen land te Wassenaar, afkomstig van A. Ponse. 1803. Met oudere transportakten d.d. 1801 en 1802.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1801/1803">1801-1803</unitdate>
+									<physdesc>2 charters en 4 stukken</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760403" type="ABS">34.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b0a2cc4-aefe-40c4-a60b-c287dcc336a2</unitid>
+										<unittitle>Charter, <unitdate calendar="gregorian" era="ce">1803</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/34.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3760404" type="ABS">34.2</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/99b4faf9-d5b1-4914-957f-5294db7b59ee</unitid>
+										<unittitle>Charter, <unitdate calendar="gregorian" era="ce">1802</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/34.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="1367906" type="ABS">34</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/59f7a2fe-b482-49dc-8cc0-875246bb1b82</unitid>
+										<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+									</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								</c06>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367907" type="ABS">35</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec299b52-a551-41c2-b138-053d2800e54e</unitid>
+									<unittitle>Publicatie van Hoogheemraden van Rijnland en bezwaarschrift van ingelanden betreffende de bestrating van de Postweg Den Haag-Haarlem met nadere resolutie van het Hoogheemraadschap daarop. (Afschriften).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1805">1805</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367908" type="ABS">36</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b704d77-3752-49c8-bc18-dd39a0693d8c</unitid>
+									<unittitle>Stukken betreffende de verkoop door Jhr. C.J. Bloys van Treslong aan J. Jochems van 2 bunder weiland nabij Reigersbergen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1824">1824</unitdate>
+									<physdesc>3 stukken</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367909" type="ABS">37</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6df28759-115a-4de1-b8f1-9f7f8ad4f06b</unitid>
+									<unittitle>Uittreksel van het kadastrale plan der gemeente Wassenaar, omvattende weilanden bij Persijnlaan, Veenwatering en Schenk.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1907">1907</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">2.</unitid>
+								<unittitle>LANDERIJEN IN DE VEENPOLDER.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367910" type="ABS">38</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea89acf6-997b-44c4-85fe-f588ee852ffa</unitid>
+									<unittitle>Akte van verkoop voor schepenen van Den Haag van twee partijene wei- en teelland, tezamen groot 5 morgen en 3 hont, gelegen in de Veenpolder in Haagambacht door Cornelis Pieterse van Raephorst, Jasper Cornelisz. van Haestert als echgenoot van Trijntje Pieterse van Raephorst en Martijtje Pieterse van Raephorst aan Laurens Pieterssen van Raephorst.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1695">1695</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/38" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367911" type="ABS">39</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/925fcbd8-5b52-4123-97dc-73b5e0feea5d</unitid>
+									<unittitle>Eigendomsbewijs voor Louwrens Raephorst van 3 morgen weiland in de Veenpolder te 's-Gravenhage, afkomstig van zijn zuster Marytje Raephorst.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1710">1710</unitdate>
+									<physdesc>1 charter</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367912" type="ABS">40</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6fd54b3f-f861-41a3-913f-bb109d685254</unitid>
+									<unittitle>Eigendomsbewijs voor Cornelis van Haastrecht van 3 morgen weiland in de Veenpolder te 's-Gravenhage, afkomstig van Lourens Raephorst.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1715">1715</unitdate>
+									<physdesc>1 charter</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367913" type="ABS">41</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3dad848b-1ff4-48b8-93ce-c77800b8317c</unitid>
+									<unittitle>Notities betreffende de rekening van de omslag in de Veenpolder over 1721; met lijst van ingelanden. Ongedateerd.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1721">1721 en z.d</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367914" type="ABS">42</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/22e8459c-ff2c-4499-94fd-465a3f9f48a1</unitid>
+									<unittitle>Eigendomsbewijs voor Laurens Pietersz Raephorst van 3 morgen weiland in de Veenpolder, afkomstig van Cornelis Jasperse van Haastert.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1732">1732</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/42" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367915" type="ABS">43</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/144b1225-961d-451a-a0db-56779e209e57</unitid>
+									<unittitle>Eigendomsbewijs voor Joachim Jochems van 19 morgen weiland in de Veenpolder te 's-Gravenhage, afkomstig van Pieter Leendertsz Lubbe.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+									<physdesc>1 charter</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367916" type="ABS">44</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b10c7f7-fbd9-470b-9e97-4e1021842287</unitid>
+									<unittitle>Eigendomsbewijs voor J. Jochems van 8 morgen land in de Veenzijdse polder te Wassenaar, afkomstig van C.W. Wijborgh, met onderhandse akte.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+									<physdesc>1 charter en 1 stuk</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/44" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367917" type="ABS">45</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd345ea2-3a38-4233-aa00-290a8901a9c5</unitid>
+									<unittitle>Eigendomsbewijs voor J. Jochems van 4 morgen weiland in de Veenzijdse polder te Wassenaar, afkomstig van C.W. Wyborgh.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1809">1809</unitdate>
+									<physdesc>1 charter</physdesc>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/45" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367918" type="ABS">46</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b83dfdb-8bb3-470f-8c99-5ced4cf27a64</unitid>
+									<unittitle>Eigendomsbewijs voor J. Jochems van 3 morgen weiland in de Veenpolder te 's-Gravenhage, afkomstig van C.J. Bloys van Treslong. (Afschrift).</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1814">1814</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367919" type="ABS">47</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/164cdd96-d6b4-4be8-8c43-796393e8e8c5</unitid>
+									<unittitle>Stukken betreffende de verkoop door de erven van der Meersch aan J. Jochems van 3 morgen weiland aan de Bezuidenhoutse weg.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1818">1818</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367920" type="ABS">48</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/086b78d0-c681-46fb-9d9e-1212ad56a7c5</unitid>
+									<unittitle>Aankondiging van Bestuur der Registratie en Domeinen inzake publieke verkoping van onroerend goed, waaronder enige landerijen in de Veenpolder te 's-Gravenhage.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1819">1819</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367921" type="ABS">49</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a19ae219-6ea8-4d0a-80f9-fd209a54f1f1</unitid>
+									<unittitle>Stukken betreffende de verkoop door het Rijk aan J. Jochems van percelen weiland in de Veen- of Schenkpolder, groot respectievelijk 7, 6 en 3 morgen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1820">1820</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367922" type="ABS">50</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/20255abe-6b24-495d-b001-9c972635744e</unitid>
+									<unittitle>Stukken betreffende de verkoop door W. Velhorst aan J. Jochems van 5 morgen weiland in de Schenkpolder. Met overpad naar de Loolaan.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1820">1820</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="otherlevel" otherlevel="filegrp">
+								<did>
+									<unitid>51, 51.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df3a56aa-aae8-4f23-bc6e-b6598442d603</unitid>
+									<unittitle>Stukken betreffende de verkoop van 16 bunders land aan de Bezuidenhoutse weg in de Veenpolder door C.J. Bloys van Treslong aan J. Jochems. 1824. Met oudere transportakte d.d. 1804.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1804/1824">1804 en 1824</unitdate>
+									<physdesc>1 charter en 2 stukken</physdesc>
+								</did>
+								<c06 level="file">
+									<did>
+										<unitid identifier="3898032" type="ABS">51.1</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/12c16e28-0a16-4602-93ef-a547a900d78b</unitid>
+										<unittitle>Charter, <unitdate calendar="gregorian" era="ce">1804</unitdate>
+										</unittitle>
+									</did>
+								</c06>
+								<c06 level="file">
+									<did>
+										<unitid identifier="1367923" type="ABS">51</unitid>
+										<unitid audience="internal" type="handle">http://proxy.handle.net/10648/211952f1-a6cc-4182-a780-848ecfaab61e</unitid>
+										<unittitle>Stukken, <unitdate calendar="gregorian" era="ce">1824</unitdate>
+										</unittitle>
+									<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/51" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								</c06>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367924" type="ABS">52</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/43da6066-8bfa-4ecd-98d5-c2468dfe402d</unitid>
+									<unittitle>Overeenkomst tussen Mej.H.E. Jochems en het Bestuur van de Veenpolder over het leggen van een duiker.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1847">1847</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367925" type="ABS">53</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75ea04d4-b765-48b1-97ff-ecb01b54372c</unitid>
+									<unittitle>Concept-reglementen voor de Veenpolder te 's-Gravenhage.</unittitle>
+									<unitdate calendar="gregorian" era="ce">19e eeuw</unitdate>
+									<physdesc>1 omslag</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367926" type="ABS">54</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/94a685f0-cee5-4d78-bb84-7c899704fd0f</unitid>
+									<unittitle>Besluit van Dijkgraaf en Hoogheemraden van Rijnland, naar aanleiding van een klacht van W. Jochems, tot opruiming van door ingeland Slaman ten onrechte gemaakte dammen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1866">1866</unitdate>
+									<physdesc>1 stuk</physdesc>
+								</did>
+							</c05>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">C.</unitid>
+							<unittitle>TIENDEN EM RENTEN.</unittitle>
+						</did>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>55, 55.1 - 55.7</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/462f52e6-a19c-4524-a993-703a31535d91</unitid>
+								<unittitle>Akte waarbij H. Mes aan J. Jochems verkoopt 36 pond uit het huis Reigersbergen en een korentiend en smaltiend ten Oosten van het Haagse Bos met 5 pond uit de hoeve Berkenrode te 's-Gravenzande.1817 (afschrift). Met de akten van belening d.d. l405, 1428, 1529, 1710, 1738, 1761, 1764 en 1768.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1405/1817">1405-1817</unitdate>
+								<physdesc>7 charters en 2 stukken</physdesc>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760412" type="ABS">55.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce61e8b1-3c8d-4e36-aceb-e675c07c9b1e</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1406</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								<odd>
+									<p>(regest 1).</p>
+								</odd>
+								<scopecontent altrender="Appendix_Regestenlijst">
+									<p altrender="regest_nummer">
+										<num type="regest">1</num>
+										<date calendar="julian" era="ce" normal="1406-01-13">1406 Januari 13</date>
+									</p>
+									<p altrender="regest_beschrijving">"Graaf Willem van Beieren beleent Engbrecht Werinbrechtszoon met een korentiend en smaltiend, gelegen ""oostwaerts van onzen houte"" in den Hage en 5 pond 's jaars op de hoeve Berckenrode te 's-Gravenzande."</p>
+									<p altrender="regest_datering">
+										<date calendar="julian" era="ce" normal="1406-01-13"/>
+									</p>
+									<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 55.1</ref>) met het geschonden zegel van de oorkonder.</p>
+								</scopecontent>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760413" type="ABS">55.2</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f26a9e8-12c9-41e2-8e67-8e2e042559d5</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1529</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+								<odd>
+									<p>(regest 10).</p>
+								</odd>
+								<scopecontent altrender="Appendix_Regestenlijst">
+									<p altrender="regest_nummer">
+										<num type="regest">10</num>
+										<date calendar="julian" era="ce" normal="1529-09-17">1529 September 17</date>
+									</p>
+									<p altrender="regest_beschrijving">"Keizer Karel V beleent Gerrit, heer tot Assendelft, met een korentiend en smaltiend, gelegen ""oostwaarts van onzen houte"" in den Hage, en 5 pond 's-jaars op de hoeve Berckenrode te 's-Gravenzande."</p>
+									<p altrender="regest_datering">
+										<date calendar="julian" era="ce" normal="1529-09-17"/>
+									</p>
+									<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 55.2</ref>). Het zegel van de oorkonder is verloren.</p>
+								</scopecontent>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760414" type="ABS">55.3</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd1f4928-4c59-44b9-9abb-c5e68f5ed9a7</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1710</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.3" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760415" type="ABS">55.4</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a4d009f-e539-4b45-bffb-7af48f73dc18</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1738</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.4" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760416" type="ABS">55.5</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/96329d5b-8c87-4e0c-9831-609283e51b8a</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1761</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.5" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760417" type="ABS">55.6</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/963c787a-9529-46f9-a539-49d07f5bd17b</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1764</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.6" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760418" type="ABS">55.7</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fedb266-0fcd-4c63-9673-e7efca93b7a0</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1768</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/55.7" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367927" type="ABS">55</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5dce5ab7-11a2-447d-bbe1-b20902b82971</unitid>
+									<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+								</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								<odd>
+									<p>(regest 2).</p>
+								</odd>
+								<scopecontent altrender="Appendix_Regestenlijst">
+									<p altrender="regest_nummer">
+										<num type="regest">2</num>
+										<date calendar="julian" era="ce" normal="1428-08-04">1428 Augustus 4</date>
+									</p>
+									<p altrender="regest_beschrijving">Jacoba van Beieren beleent haar getrouwe klerk Philips Engebrechtssoon met de korentiend en de smaltiend oostwaarts van den houte in den Hage en met 5 pond 's jaars op de hoeve Berkenrode te 's-Gravenzande.</p>
+									<p altrender="regest_datering">
+										<date calendar="julian" era="ce" normal="1428-08-04"/>
+									</p>
+									<p altrender="regest_nb">Afschrift (<ref linktype="simple">Inv. no. 55</ref>) (negentiende eeuw).</p>
+									<p altrender="regest_nb">"De oorspronkelijke akte is in de leenregisters niet aangetroffen; zij staat evenmin in de klapper van Gousset, noch bij de lenen te Wassenaar (leenkamerregister no. 226, folio 45) noch bij die van Berkenrode (id., folio 83 verso). Philips Engebrechtssoon komt als getuige in vele akten voor (leenkamerregister no. 60, folio 13 en verso,d.d.14 Augustus 1418, enz.;b.v. folio 23, d.d.18 Augustus 1428; folio 29, dd. 30 juni 1430, tezamen met Floris van Haemstede en Floris van Kijfhoek. Wel blijkt uit leenkamerregister no. 62, folio 170 verso, d.d.18 April 1434, dat Graaf Philips de Goede Willem Philips Engebrechtssoon zoon met alle goederen beleent, waarmede zijn vader was beleend en waarbij de tienden bij het Haagse Bos worden genoemd. De belening van de vader heeft nooit plaats gehad."</p>
+								</scopecontent>
+							</c05>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">D.</unitid>
+							<unittitle>WARANDE.</unittitle>
+						</did>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>56</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/532d3e5b-4b08-4a51-8fd1-70459108ecec</unitid>
+								<unittitle>Akte waarbij Johan van Wassenaer aan Gerrit en Jan van Assendelft consent verleent tot het maken van een konijnenwarande op hun hofstede onder Wassenaar. 1464. Met confirmatie door Philips de Goede d.d. 1464.</unittitle>
+								<unitdate calendar="gregorian" era="ce">1464</unitdate>
+								<physdesc> 2 charters getransfigeerd</physdesc>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367928" type="ABS">56.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a14718de-554c-4474-9b39-c7786a77ede3</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1464 november 21</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/56.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+								<odd>
+									<p> Reg. nos. 9.</p>
+								</odd>
+								<scopecontent altrender="Appendix_Regestenlijst">
+									<p altrender="regest_nummer">
+										<num type="regest">9</num>
+										<date calendar="julian" era="ce" normal="1464-11-21">1464 November 21</date>
+									</p>
+									<p altrender="regest_beschrijving">Philips de Goede bevestigt het consent, door Johan van Wassenaer tot Voirschoten en tot Catwijck verleend aan Geryt en Jan van Assendelff tot het maken van een konijnenwarande op hun hofstede te Wassenaer d.d. 1460 October 30 (regest no. 8), waardoor deze is gestoken.</p>
+									<p altrender="regest_datering">
+										<date calendar="julian" era="ce" normal="1464-11-21"/>
+									</p>
+									<p altrender="regest_nb">Oorspr. (<ref linktype="simple">Inv. no. 56.1</ref>) met het zegel van de oorkonder.</p>
+								</scopecontent>
+							</c05>
+							<c05 level="item">
+								<did>
+									<unitid>56.2</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1464 oktober 30</unitdate>
+									</unittitle>
+								</did>
+								<odd>
+									<p> Reg. nos. 8.</p>
+								</odd>
+								<scopecontent altrender="Appendix_Regestenlijst">
+									<p altrender="regest_nummer">
+										<num type="regest">8</num>
+										<date calendar="julian" era="ce" normal="1464-10-30">1464 October 30</date>
+									</p>
+									<p altrender="regest_beschrijving">Johan, heer tot Wassenaer, tot Voirschoten en tot Catwijck, verklaart consent te verlenen aan Geryt van Assendelff en Jan van Assendelff tot het maken van een konijnenwarande op hun hofstede te Wassenaar.</p>
+									<p altrender="regest_datering">
+										<date calendar="julian" era="ce" normal="1464-10-30"/>
+									</p>
+									<p altrender="regest_nb">"Oorspr. (<ref linktype="simple">Inv. no. 56.2</ref>) met het geschonden zegel van Philips van Wassenaer, broer van de oorkonder; dat van de oorkonder is verloren."</p>
+									<p altrender="regest_nb">Door deze is gestoken de brief d.d.1464 November 21 (regest no. 9).</p>
+								</scopecontent>
+							</c05>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">E.</unitid>
+							<unittitle>RENTEBRIEVEN EN ANDERE SCHULDVORDERINGEN.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367929" type="ABS">57</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d197a661-5820-4f97-8591-a73c95f8bc1d</unitid>
+								<unittitle>Rentebrief, groot 75 ponden, gaande uit 8 morgen lands bij het Haagse Bos, voor Jhr. Hendrik van Tuyll van Serooskerken van Stavenisse, ten laste van Adriaan van der Meer.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1605">1605</unitdate>
+								<physdesc>1 charter</physdesc>
+							<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/57" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367930" type="ABS">58</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca0b6fdd-a860-444a-9a99-919b9b5ac9fc</unitid>
+								<unittitle>Rentebrief, groot 150 ponden 's jaars, gaande uit twee stukken land bij het Haagse Bos, voor Mr. Cornelis Duys, ten laste van Adriaen Jansz. van der Meer.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1605">1605</unitdate>
+								<physdesc>1 charter</physdesc>
+							<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/58" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>59-59.1</unitid>
+								<unittitle>Akte waarbij de erven van Maria Borsboom-Wempe verklaren ontvangen te hebben van Helena van der Lans het restant van de aflossing der hypotheek, gevestigd in 1782 door J. Sprenkhuizen ten behoeve van Anna Wempe op een huis bij Reigersbergen. 1821 (afschrift). Met de hypotheekakte dd. 1782 en oudere hypotheekakte d.d. 1771.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1771/1821">1771-1821</unitdate>
+								<physdesc>2 charters en 1 stuk</physdesc>
+							</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760432" type="ABS">59.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcb3fa4f-78a1-49d7-bf95-0749420ebb5d</unitid>
+									<unittitle>Charter, <unitdate calendar="gregorian" era="ce">1771</unitdate>
+									</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367931" type="ABS">59</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a4623e1-e937-4ceb-bf28-6565f7cd42c2</unitid>
+									<unittitle>Overige stukken niet apart geborgen</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/59" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">II.</unitid>
+						<unittitle>STUKKEN BETREFFENDE ELDERS GELEGEN ONROERENDE GOEDEREN.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">A.</unitid>
+							<unittitle>BEIERLAND.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367932" type="ABS">60</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bcca526b-00f1-49d3-9244-a86b6c3e0901</unitid>
+								<unittitle>Brieven van de tiendcommissie te Rotterdam aan Mw. H.E. van Tuyll van Serooskerken-Jochems betreffende vervallen tiendrecht van haar toebehorende landerijen te Oud-Beierland.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1909/1911">1909-1911</unitdate>
+								<physdesc>5 stukken</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367933" type="ABS">61</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/17abb802-2693-41b0-b05e-08abfbf8c3f9</unitid>
+								<unittitle>Lijst van eigenaren in de Bosschen-polder te Heinenoord.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1919">1919</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">B.</unitid>
+							<unittitle>VEUR.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367934" type="ABS">62</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/32428566-020c-42fa-bf52-107aa2a60086</unitid>
+								<unittitle>Eigendomsbewijs voor P. van den Bosch van 6 morgen land aan de Achterweg te Veur, afkomstig van de erven Kerkhooven-Taree.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+								<physdesc>1 charter</physdesc>
+							<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/62" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+						</c04>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>63, 63.1 - 63.4</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/71572f59-4d9c-4713-a10e-6daaa02e8970</unitid>
+								<unittitle>Stukken betreffende de verkoop door de erven van Mr. S.A. Gertner aan J. Jochems van de voormalige hofstede Rusthout aan de Achterweg te Veur met 3 morgen land; een huismanswoning daarnaast met 28 morgen land en enkele aangrenzende percelen. 1811. Met oudere transportakten d.d. 1736, 1752, 1767 en 1779.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1736/1811">1736-1811</unitdate>
+								<physdesc>6 charters en 9 stukken</physdesc>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760433" type="ABS">63.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08d6dcfd-6dc9-4e30-b7e3-bd509ccec4dd</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1767</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/63.1" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760434" type="ABS">63.2</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a7fa4be-d2d2-469d-a5db-a4cddf09f82a</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1736</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/63.2" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760435" type="ABS">63.3</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9c9538e-0651-4d1a-8a5f-dca2f3700f1f</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1752</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/63.3" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760436" type="ABS">63.4</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7140688e-71d5-407b-8965-d8de91d02962</unitid>
+									<unittitle>
+										<unitdate calendar="gregorian" era="ce">1779</unitdate>
+									</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/63.4" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367935" type="ABS">63</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/19067fb0-1f01-4ae8-8543-636fd79db9cb</unitid>
+									<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+								</did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+						</c04>
+						<c04 level="otherlevel" otherlevel="filegrp">
+							<did>
+								<unitid>64, 64.1</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6535a7da-cd90-4c19-9201-61d86d1e3924</unitid>
+								<unittitle>Stukken betreffende de verkoop door de erven Th.Th. Cremer aan J. Jochems van 19 morgen land en bis onder Veur. 1816. Met oudere eigendomsbewijzen d.d. 1805.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1805/1816">1805 en 1816</unitdate>
+								<physdesc>2 charters en 5 stukken</physdesc>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="3760442" type="ABS">64.1</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2088581-9b6f-4694-8208-e13b5e526c2c</unitid>
+									<unittitle>Charter</unittitle>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1367936" type="ABS">64</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08814ba9-cb87-4829-9fce-626b6d6995e4</unitid>
+									<unittitle>Overige stukken (niet apart geborgen)</unittitle>
+								<dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.19.61/file/64" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did><altformavail type="ABS"><p>Dit inventarisnummer is alleen als kopie te raadplegen.</p></altformavail>
+							</c05>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367937" type="ABS">65</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4d4a4da-fcb7-40ad-bdc4-4d0790bc5eaf</unitid>
+								<unittitle>Stukken betreffende de aankoop door J. Jochems van 8 morgen bosland onder Veur, afkomstig van J.H. van Wensen en J.P. Taverne. 1819. Met oudere transportakte d.d. 1816 en bijlagen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1816/1819">1816 en 1819</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367938" type="ABS">66</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e9d1a8a-c61a-4ebc-acd9-4ebd7c15174e</unitid>
+								<unittitle>Extract uit de akte van verkaveling door de erven van Cornelia van den Bosch betreffende 3 bunder teelland bij Rusthout in Veur.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1838">1838</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367939" type="ABS">67</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a519e683-19b5-4aa6-bb68-8c35d9ef7d59</unitid>
+								<unittitle>Onderhandse akten van verkoop door W. Jochems en Mr. H. Jochems aan de Holl. IJzeren Spoorweg Mij. van enige percelen weiland onder Veur, met bijlagen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1843">1843</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367940" type="ABS">68</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c183f9c-4cce-4ce7-82f0-487e8b012e41</unitid>
+								<unittitle>Overeenkomst tot ruil van gronden te Veur tussen de Holl. IJzeren Spoorweg Mij, Wouter Jochems e.a. met aangehechte notariele akte.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1843">1843</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367941" type="ABS">69</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9c41505-ec4f-4e63-a2df-4dbcc21a047e</unitid>
+								<unittitle>Stukken betreffende de aankoop van een bouwmanswoning en grond aan de Achterweg te Veur door Mr. H. Jochems van Th. den Hollander. 1853. Met oudere transportakten d.d. 1816, 1823, 1824, 1828.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1816/1853">1816-1853</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<odd>
+								<p> De transportakte d.d. 1853 is niet aanwezig.</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367942" type="ABS">70</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4d96f84-0221-45c2-8634-0defb25f3303</unitid>
+								<unittitle>Stukken betreffende de verkoop door L.J. Godefroy aan Mr. H. Jochems van 2 percelen land in de Duivenvoordse polder, behorende tot de vicarie op het St.Catharina altaar in de St.Pieterskerk te Leiden.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1858">1858</unitdate>
+								<physdesc>1 omslag</physdesc>
+							</did>
+							<odd>
+								<p> De stichtingsakte dezer vicarie is vermeld bij Mr.Dr. J.C. Overvoorde, Gemeentearchief Leiden, Archieven van de kerken, deel I, regest no. 26.</p>
+							</odd>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367943" type="ABS">71</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/67796bd0-758a-44f4-b21b-1ecca3cb7300</unitid>
+								<unittitle>Stukken betreffende de verloop door G. Boon c.s aan W. Jochems van 3 bunder weiland bij de Veurse weg te Veur.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1869">1869</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367944" type="ABS">72</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f7c9624-9a28-4c14-ac06-d995a165cc2a</unitid>
+								<unittitle>Catalogussen van openbare verkopingen te Veur en Stompwijk. (Gedrukt).</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1870/1871">1870, 1871</unitdate>
+								<physdesc>3 stukken</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367945" type="ABS">73</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8ec5bbb-87e5-47a6-8362-e72d7f2fec6f</unitid>
+								<unittitle>Uittreksel van het kadastrale plan der gemeente Veur.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1907">1907</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">C.</unitid>
+							<unittitle>VOORBURG.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367946" type="ABS">74</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9aefebc7-c9a9-4dd1-86e5-fe89a7addaf9</unitid>
+								<unittitle>Notitie betreffende transporten van de hofstede de Loo aan de Broeksloot in de Veenpolder te Voorburg over de jaren 1671-1804.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1671/1804">1671-1804</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367947" type="ABS">75</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6a71794-58b6-48d3-a72e-bfea06549f0a</unitid>
+								<unittitle>Besluit van het bestuur van de Veenpolder onder Voorburg inzake het omslaan van de onderhoudskosten van de molen. (achttiende eeuws afschrift).</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1689">1689</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367948" type="ABS">76</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e81fe2e-6cc7-4d71-b9a2-e6b1f84d7b1f</unitid>
+								<unittitle>Brief van de ingelanden van Voorburg aan een notaris met verzoek zich te wenden tot schout en gerecht van Voorburg inzake de afkondiging van de rekeningen van de contributie der verpondingen en andere omslagen. (achttiende eeuws afschrift).</unittitle>
+								<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367949" type="ABS">77</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ceda787b-6e03-4c10-8f06-9edd12cce7bd</unitid>
+								<unittitle>Lijst met namen van eigenaren van buitenplaatsen.</unittitle>
+								<unitdate calendar="gregorian" era="ce">18e eeuw</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">D.</unitid>
+							<unittitle>VOORSCHOTEN.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367950" type="ABS">78</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a13a0a4-8db5-40a6-a8a9-3f345a54a530</unitid>
+								<unittitle>Besluit van Hoogheemraden van Rijnland, waarbij zij goedkeuren, dat enige ingelanden in de Duivenvoirdse polder onder Voorschoten wijzigingen aanbrengen in een, tussen genoemde ingelanden in 1692 gesloten, overeenkomst aangaande de omslag van de kosten van enige kaden, dammen en duikers. (Afschrift)</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1801">1801</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1367951" type="ABS">79</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/02987a65-6c6e-4387-9aa7-97a8ba209704</unitid>
+								<unittitle>Eigendomsbewijs voor Mej. P.G. Jochems van 6 bunder land in de Duivenvoordse polder te Voorschoten, afkomstig van de erven Westgeest-van der Kroft.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1843">1843</unitdate>
+								<physdesc>1 stuk</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

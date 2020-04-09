@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6b350d5b-3a1f-2cd3-e053-09f0900a2e8a"
+  rdf:about="record/2.06.171">
+    <rico:identifier>2.06.171</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    2010</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/E25" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.06.171/i1" />
+      <rico:instantiates rdf:resource="record/2.06.171" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Directie Interne Zaken en
+        taakvoorgangers van het Ministerie van Economische Zaken, 1951-1997
+        (2002)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6b350d5b-3a1f-2cd3-e053-09f0900a2e8a" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/E25">
+    <rico:describedBy rdf:resource="record/2.06.171" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>E25</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Economische Zaken; Directie Interne
+      Zaken</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>EZ / Interne Zaken</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1951</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2002</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1951-2002</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Directie Interne Zaken, 1951-1997</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Directie Interne Zaken (IZ) en taakvoorgangers</html:p>
+          <html:p>Als taakvoorganger had de Directie Interne Zaken de Directie
+          Administratieve Zaken. De Directie voor Administratieve Zaken heeft van 1949
+          tot 1976 bestaan en heeft in de loop der tijd wel enige organisatorische
+          veranderingen gekend, maar de taken van de directie zijn niet veel veranderd.
+          De Directie voor Administratieve Zaken was belast met: De uitvoering van de
+          Comptabiliteitswet 1927; Het voeren van de centrale boekhouding van het
+          ministerie en van administraties voor bijzondere doeleinden; De controle op het
+          financieel beheer van onder het ministerie ressorterende rijksdiensten en
+          instellingen; De samenstelling van begrotingen, rekening en verslagen wegens de
+          uitgaven; De betaalbaarstelling van vorderingen, traktementen, reis en
+          verblijfkosten en vacatiegelden; Personeelsaangelegenheden van het ministerie
+          en de daaronder ressorterende rijksdiensten en instellingen; De huishouding van
+          het ministerie en de centrale post- en archiefbehandeling; Materieelbeheer en
+          voorziening, dienstvervoer, huisvesting en bedrijfszelfbescherming.</html:p>
+          <html:p>In 1976 is de Directie voor Administratieve Zaken uiteengevallen in
+          meerdere kleinere directies en afdelingen. De Directie Interne Zaken is in 1985
+          mede ontstaan vanuit verschillende andere directies. Onder de Directie Interne
+          Zaken vallen verschillende afdelingen die elk hun eigen takenpakket hebben. De
+          directie is in de loop der jaren vaak veranderd. Veel afdelingen zijn er
+          bijgekomen en velen zijn ook weer verdwenen. Het takenpakket van de Directie
+          Interne Zaken is divers zoals af te lezen valt aan de volgende
+          taakomschrijving: Het leveren van bijdragen in de (inter) departementale
+          beleidsontwikkelingen terzake; Het adviseren van de departementsleiding op het
+          gebied van intern management in het bijzonder met betrekking tot de facilitaire
+          diensten ten behoeve van het ministerie (waaronder de documentaire functie);
+          Het adviseren omtrent het (inter-)departementaal beleid op het gebied van de
+          documentaire informatievoorziening; Het behandelen van aanvragen voor
+          koninklijke onderscheidingen; Het regelen van officiële ontvangsten en
+          coördineren van protocollaire aangelegenheden en de beantwoording van aan H.M.
+          de Koningin en leden van het Koninklijk Huis gerichte verzoeken; Toezicht
+          houden op nucleaire installaties in Nederland voor wat betreft de naleving van
+          de beveiligingsvoorschriften; Het dragen van de verantwoordelijkheid voor de
+          concrete uitvoering van de facilitaire diensten; Het voeren van het financieel
+          beheer van de interne facilitaire diensten; Het verzorgen van het
+          betalingsverkeer betreffende materiële uitgaven van het ministerie met
+          betrekking tot huisvesting en interne milieuzorg; Verzorgen van telexverkeer;
+          Vormen en uitvoeren van het departementale beleid op het gebied van de
+          documentaire informatievoorziening; Het (doen) zorg dragen voor optimale
+          voorzieningen c.q. beheer, op terreinen van beveiliging en
+          bedrijfszelfbescherming; documentaire informatievoorziening; drukwerk; tele- en
+          datacommunicatie; dienstvervoer en dienstreizen; huisvesting; apparatuur;
+          onderhoud en overige materiële aangelegenheden.</html:p>
+          <html:p>Organisatorische veranderingen sinds 1949.</html:p>
+          <html:p>1949 Directie voor Administratieve Zaken Centrale Personeelsafdeling;
+          Afdeling Comptabiliteit; Afdeling Materieel en Huishoudelijke Dienst.</html:p>
+          <html:p>1963 Directie voor Administratieve Zaken Centrale Personeelsafdeling;
+          Afdeling Comptabiliteit; Afdeling Materieel en Huisvesting; Bureau Organisatie
+          en Efficiency; Bureau Beveiligingsaangelegenheden.</html:p>
+          <html:p>1971 Directie voor Administratieve Zaken Hoofdafdeling Personeelszaken;
+          Hoofdafdeling Comptabiliteit; Afdeling Materieel en Huisvesting; Stafafdeling
+          Organisatie en Efficiency; Afdeling Bureau
+          Beveiligingsaangelegenheden.</html:p>
+          <html:p>1985 Directie Interne Zaken Afdeling Kabinet; Afdeling Algemene
+          Secretarie; Onderafdeling Registratuur en Dynamische Archieven; Onderafdeling
+          Semi-Statische Archieven; Onderafdeling Postverwerking; Onderafdeling
+          Tekstverwerking en Reproductie; Afdeling Algemene Zaken; Onderafdeling
+          Verwerving, Aanschaffing en Beheer; Onderafdeling Interne Dienst; Onderafdeling
+          Bedrijfszelfbescherming; Onderafdeling Vervoerszaken; Afdeling Bijzondere
+          Aangelegenheden; Bureau Parlementaire Documentatie.</html:p>
+          <html:p>1992 Directie Interne Zaken Afdeling Financieel-Economische Zaken;
+          Afdeling Beveiliging en BZK; Afdeling Staf en Protocollaire Aangelegenheden;
+          Afdeling Algemene Secretarie; Afdeling Algemene Zaken; Bureau
+          Huisvestingsaangelegenheden; Bureau Inkoop en Beheer; Bureau Vervoer;
+          Projectbureau Herhuisvesting.</html:p>
+          <html:p>1996 Directie Interne Zaken Stafafdeling Financieel-Economische Zaken
+          (FEZ); Afdeling Gebouwzaken (GZ); Bureau Huisvestingsaangelegenheden; Bureau
+          Inkoop en Beheer; Bureau Departementale Beveiliging; Afdeling Operationele
+          Zaken (OZ); Kabinet; Bureau Postverwerking en Grafische Faciliteiten; Bureau
+          Vervoersaangelegenheden; Afdeling Documentaire Informatievoorziening
+          (DIV).</html:p>
+          <html:p>1998 Directie Interne Zaken Stafafdeling Financieel-Economische Zaken
+          (FEZ); Afdeling Gebouwzaken (GZ); Sectie Huisvesting; Sectie Diensten en
+          Middelen; Sectie Telecommunicatie; Sectie Beveiliging; Stafafdeling Inkoop;
+          Afdeling Operationele Zaken (OZ); Kabinet; Bureau Postverwerking en Grafische
+          Faciliteiten Bureau Vervoersaangelegenheden; Afdeling Documentaire
+          Informatievoorziening (DIV).</html:p>
+          <html:p>1999 Directie Interne Zaken Stafafdeling Financiën (FIN); Afdeling
+          Gebouwaken (GZ); Bedrijfsbureau; Sectie Huisvesting; Sectie Diensten en
+          Middelen; Sectie Telecommunicatie; Sectie Beveiliging; Stafafdeling Inkoop;
+          Afdeling Operationele Zaken (OZ); Kabinet; Bureau Postverwerking en Grafische
+          Faciliteiten (PGF); Bureau Vervoersaangelegenheden; Afdeling Documentaire
+          Informatievoorziening (DIV).</html:p>
+          <html:p>2001 Directie Interne Zaken Stafafdeling Financiën (FIN); Afdeling
+          Gebouwaken (GZ); Bedrijfsbureau; Sectie Huisvesting; Sectie Diensten en
+          Middelen; Sectie Telecommunicatie; Sectie Beveiliging; Stafafdeling Inkoop;
+          Afdeling Operationele Zaken (OZ); Bureau Postverwerking en Grafische
+          Faciliteiten (PGF) Bureau Vervoersaangelegenheden; Bureau Buitenlandse
+          Dienstreizen; Afdeling Documentaire Informatievoorziening (DIV).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Directie voor Administratieve Zaken heeft van 1949 tot 1976 bestaan en
+      heeft in de loop der tijd wel enige organisatorische veranderingen gekend, maar de
+      taken van de directie zijn niet veel veranderd. In 1976 is de Directie voor
+      Administratieve Zaken uiteengevallen in meerdere kleinere directies en afdelingen.
+      De Directie Interne Zaken is in 1985 mede ontstaan vanuit verschillende andere
+      directies. Onder de Directie Interne Zaken vallen verschillende afdelingen die elk
+      hun eigen takenpakket hebben. De directie is in de loop der jaren vaak veranderd.
+      Veel afdelingen zijn er bijgekomen en velen zijn ook weer verdwenen. De
+      archiefbescheiden die we tijdens de bewerking zijn tegengekomen hadden betrekking
+      op:- De organisatie en reorganisatie;- Personeelsaangelegenheden van het ministerie
+      en de daaronder ressorterende rijksdiensten en instellingen;- De huishouding van
+      het ministerie en de centrale post- en archiefbehandeling;- De huisvesting;-
+      Jaarwerkplannen, jaarverslagen en beleidsplannen;- Adviseren van de
+      departementsleiding op het gebied van intern management in het bijzonder met
+      betrekking tot de facilitaire diensten ten behoeve van het ministerie (waaronder de
+      documentaire functie);- Adviseren omtrent het (inter)departementaal beleid op het
+      gebied van de documentaire informatievoorziening;- Het behandelen van aanvragen
+      voor koninklijke onderscheidingen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Voor zover bekend zijn er geen beperkingen krachtens het
+      auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2147 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>15,40 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

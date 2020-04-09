@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/c11b9921-c603-44dc-a717-79da610ceec0"
+  rdf:about="record/3.18.18">
+    <rico:identifier>3.18.18</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1920</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36018" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.18/i1" />
+      <rico:instantiates rdf:resource="record/3.18.18" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2013-02-19</rico:hasModificationDate>
+        <html:p>19 februari 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2012-10-08</rico:hasModificationDate>
+        <html:p>8 oktober 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2011-04-04</rico:hasModificationDate>
+        <html:p>4 april 2011</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de abdij Loosduinen,
+        1256-1598</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/c11b9921-c603-44dc-a717-79da610ceec0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36018">
+    <rico:describedBy rdf:resource="record/3.18.18" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36018</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Abdij van Loosduinen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Abdij Loosduinen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1256</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1598</rico:endDate>
+    <rico:date>1256-1598</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Abdij Loosduinen</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Abdij Loosduinen Met enkele wijzigingen overgenomen uit het Verslag
+          van 's Rijks oude archieven 1916. Zie over de stichting en de verdere
+          geschiedenis der abdij het artikel Loosduinen voor de Hervorming door A.
+          Driessen in Bijdragen voor de geschiedenis van het bisdom Haarlem, dl. XXIX en
+          eenige bezwaren tegen dat artikel in dl. XXXVII van hetzelfde tijdschrift. :
+          dit nonnenklooster, welks mater abdis werd genoemd, werd niet lang voor 1231
+          gesticht door Floris IV en Machteld van Brabant, zijn gemalin, op hun eigen
+          terrein in de nabijheid van een lusthof, die de graven van Holland daar reeds
+          vanouds bezaten.</html:p>
+          <html:p>In 1231 werden het klooster en de kapel door bisschop Wilbrand van
+          Utrecht in bescherming genomen en kreeg het het recht een eigen kerkhof en
+          eigen priesters te hebben; in 1233 werd het opgenomen in de orde der
+          Cisterciensers. Vader-abt van het klooster, en als zoodanig belast met de
+          visitatie, was de abt van ter Doest bij Brugge; het oudste bewijs hiervoor is
+          een akte van 1299 Zie De Navorscher 1917, blz. 523. . Afwisselend met deze
+          komen ook de priors van Onze Lieve Vrouwen berg bij IJsselstein en van Aldekamp
+          bij Rijnberk als visitators voor. Bij voortduring mocht het klooster zich
+          verheugen in de gunstbewijzen der grafelijke familie, waartoe zal hebben
+          bijgedragen, dat de bewoonsters doorgaans van adel waren.</html:p>
+          <html:p>In de jaren 1573-1575 werd het klooster gaandeweg afgebroken, nadat de
+          nonnen waarschijnlijk in 's-Gravenhage een onderkomen hadden gevonden. De
+          goederen werden in 1573 door de Staten geannoteerd en onder het beheer van een
+          afzonderlijken ontvanger gesteld, van wie de nonnen sinds 1573 alimentatie
+          ontvingen. De kerk werd in 1580 met het kloosterterrein aan de Hervormden
+          afgestaan.</html:p>
+          <html:p>Uit een kaart in inv.no. 5, waaruit men een duidelijk overzicht krijgt
+          van de ligging der kloostergebouwen in 1572, blijkt, dat het kloostererf, ook
+          wat indeling betreft, geheel overeenkomstig is aan het terrein, waarop nu de
+          kerk der Nederduitsch Hervormde gemeente staat. Een deel dezer kerk met de
+          toren is het laatste overblijfsel van het klooster.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat grotendeels stukken betreffende het beheer der goederen,
+      waaronder veel eigendomsbewijzen en rentebrieven. Daarnaast bevat het enige stukken
+      betreffende de benoeming van de abdis, de verhouding tot de landsheer en een
+      kaartboek van de landerijen waarvoor de opmetingen in 1569 in opdracht van de abdis
+      werden verricht.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>92 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

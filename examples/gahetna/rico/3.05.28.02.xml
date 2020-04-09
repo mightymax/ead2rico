@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6d4d20e2-fe70-4366-99f7-b1dead01cd62"
+  rdf:about="record/3.05.28.02">
+    <rico:identifier>3.05.28.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36108" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.05.28.02/i1" />
+      <rico:instantiates rdf:resource="record/3.05.28.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101130</rico:hasModificationDate>
+        <html:p>30 november 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Reclasseringsraad
+        ''s-Gravenhage, 1948-1985</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6d4d20e2-fe70-4366-99f7-b1dead01cd62" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36108">
+    <rico:describedBy rdf:resource="record/3.05.28.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36108</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Reclasseringsraad 's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Reclasseringsraad 's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1948</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1985</rico:endDate>
+    <rico:date>1948-1985</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Reclasseringsraad te 's-Gravenhage</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het reclasseringswerk in de negentiende eeuw droeg het karakter van
+          liefdadigheid. Het was geheel en al particulier initiatief. Na de eeuwisseling
+          nam het aantal instellingen dat zich met reclassering bezig hield, toe.
+          Bovendien ontstond het besef dat ook de overheid een rol op
+          sociaal-maatschappelijk gebied had te vervullen. Het was de tijd van de
+          totstandkoming van de eerste sociale wetten. Het delict werd door de overheid
+          niet meer louter juridisch bekeken maar men kreeg ook oog voor de sociale
+          aspecten. Steun aan ex-gevangenen werd meer en meer gezien als goede
+          strafrechtelijke politiek. Zo begon de overheid zich met de reclassering te
+          bemoeien. Dat resulteerde in de reclasseringsregeling van 1910. Via deze
+          algemene maatregel van bestuur werd de subsidiëring van het reclasseringswerk
+          geregeld waardoor tevens de mogelijkheid werd geschapen voor controle en
+          beïnvloeding door de overheid.</html:p>
+          <html:p>Omdat in 1915 het instituut van de voorwaardelijke veroordeling in het
+          leven werd geroepen en de mogelijkheden van voorwaardelijke invrijheidstelling
+          werden uitgebreid, ontstond er behoefte aan aanpassing van de
+          reclasseringsregeling. In dat jaar kwam een nieuwe reclasseringsregeling tot
+          stand bij K.B. van 13 december 1915 (Staatsblad nr. 504). Daarin werd de
+          mogelijkheid voorzien van de oprichting van reclasseringsraden. In ieder
+          arrondissement zou zo'n reclasseringsraad kunnen gaan functioneren. De
+          reclasseringsraden werden samengesteld uit afgevaardigden van de diverse
+          reclasseringsinstellingen, leden van de zittende en staande magistratuur en
+          leden van gevangenisbesturen. Zij konden bezoldigde medewerkers aanstellen die
+          de titel van rijksreclasseringsambtenaar kregen. De kosten van de
+          instandhouding van de raden werden door het departement van justitie vergoed.
+          Het was de bedoeling dat ze het werk tussen de plaatselijke
+          reclasseringsinstellingen zouden gaan verdelen, omdat het aantal instellingen
+          was toegenomen en omdat de taken van die instellingen zich uitbreidden. De
+          reclassering werd meer en meer een orgaan van de strafrechtspleging. De raden
+          moesten de minister van justitie, de gevangenisbesturen of het openbaar
+          ministerie adviseren inzake gratie, voorwaardelijke invrijheidstelling of
+          celbezoek door een plaatselijke instelling. De reclasseringsraden zou men
+          kunnen beschouwen als schakel tussen verschillende overheidsorganen die bij de
+          strafrechtspleging betrokken waren (rechters, openbaar ministerie, politie) en
+          de particuliere reclasseringsinstellingen.</html:p>
+          <html:p>Aanvankelijk verliep de oprichting van de reclasseringsraden stroef.
+          Van de particuliere reclasseringsinstellingen rees nogal wat verzet, ofschoon
+          het ministerie van justitie wenste dat het toezicht op de
+          reclasseringsinstellingen vergroot werd. Bemoeienis met de inhoud van het werk
+          werd niet gewenst. Hierdoor en door het feit dat de taken van de raden niet
+          allemaal waren vastgelegd bleef de betekenis van de raden tot aan de Tweede
+          Wereldoorlog beperkt.</html:p>
+          <html:p>Na de oorlog kwam de Reclasseringsregeling van 13 december 1947
+          (Staatsblad nr. H 423) tot stand die de positie van de
+          reclasseringsinstellingen aanzienlijk versterkte. De bedoeling was dat de
+          reclasseringsraden voortaan een onmisbare schakel zouden zijn tussen de
+          instellingen belast met de strafrechtspleging en de particuliere
+          reclasseringsinstellingen. Zij kregen toezicht op en de leiding over alle
+          reclasseringsaangelegenheden. De bemoeienis had betrekking op de feitelijke
+          werkzaamheden van de reclasseringsinstellingen. Hun aangelegenheden van
+          inwendige, huishoudelijke en organisatorische aard vielen buiten zeggenschap
+          van de raden. Zo moesten alle aanvragen voor een voorlichtingsrapport over een
+          gedetineerde gericht worden aan de raad. Deze besliste dan welke
+          reclasseringsinstelling het voorlichtingsrapport zou samenstellen. In
+          bijzondere gevallen kon ook een rijksreclasseringsambtenaar met het
+          samenstellen van een rapport worden belast. Na rapportage kon de raad dan ook
+          nog zijn eigen opmerkingen toevoegen of opdracht geven het rapport te wijzigen.
+          Via de raden werden de voorlichtingsrapporten ter beschikking van de
+          aanvragende instantie gesteld. Verder coördineerden de raden het
+          reclasseringsbezoek aan de gedetineerden. Ook op de nazorg oefenden ze toezicht
+          uit. De reclasseringsinstellingen waren verplicht over hun activiteiten op dit
+          terrein verslag te doen aan de reclasseringsraden.</html:p>
+          <html:p>Op den duur werd de leidende positie van de reclasseringsraden, die in
+          de loop van de tijd nog door allerlei overheidsmaatregelen versterkt werd, door
+          de reclasseringsinstellingen steeds meer als knellend ervaren. Dreven deze
+          instellingen vroeger op de inzet van goedwillende maar niet geschoolde
+          vrijwilligers, rond het midden van de jaren zestig waren het instellingen
+          geworden die volledig steunden op goed geschoolde beroepskrachten. Bovendien
+          kwam er binnen de instellingen steeds meer weerstand om als een verlengstuk van
+          de strafrechtspleging te worden gezien. Niet zo zeer een goede
+          strafrechtspleging maar het behartigen van de belangen van de te reclasseren
+          gedetineerden zagen ze als centrale opgave. Daarom wilden ze zich ontworstelen
+          aan de knellende greep die de overheid had via de reclasseringsraden. De
+          reclasseringsinstellingen zochten aansluiting bij de zich in de jaren zestig
+          sterk ontwikkelende instellingen van maatschappelijke en geestelijke
+          (gezondheids)zorg en het welzijnswerk. Ze wilden een onderdeel zijn van deze
+          "koepel" en geen onderdeel van de strafrechtspleging. Toename van eigen
+          professionaliteit en deskundigheid maakte toezicht op de
+          reclasseringsinstellingen bovendien meer en meer overbodig. Een andere
+          ontwikkeling was dat de scheidslijnen tussen de in de tijd van de verzuiling
+          ontstane particuliere reclasseringsinstellingen steeds meer afbrokkelden. Er
+          werd minder gehecht aan de eigen (levenbeschouwelijke of religieuze)
+          identiteit, maar des te meer aan deskundigheid en professionaliteit. Hierdoor
+          ontstond een toenemende behoefte aan samenwerking tussen de particuliere
+          reclasseringsinstellingen. Uiteindelijk leidde dit in 1975 tot de fusie in de
+          Algemene Reclasseringsvereniging (ARV). Deze overkoepelende organisatie was
+          goed in staat alle werkzaamheden te coördineren. Dit en de toegenomen
+          deskundigheid maakten de werkzaamheden van de reclasseringsraden steeds meer
+          overbodig.</html:p>
+          <html:p>Aan het begin van de jaren tachtig werd sterk de behoefte gevoeld om te
+          bezuinigen op de overheidsuitgaven. Hierbij kon de reclassering niet buiten
+          schot blijven. Nu gebleken was dat de feitelijke werkzaamheden van de
+          reclasseringsraden steeds meer werden overgenomen door de ARV en hun positie
+          dus volkomen uitgehold was, kon de roep om opheffing niet meer uitblijven. Een
+          rapport van de Algemene Rekenkamer toonde dit aan en adviseerde dan ook
+          opheffing om de efficiency van het reclasseringswerk te vergroten. Krachtens de
+          nieuwe Reclasseringsregeling van 1 januari 1986 (Staatsblad nr. 1) werden de
+          reclasseringsraden dan ook opgeheven. De werkzaamheden werden overgenomen door
+          negentien nieuwe stichtingen (in ieder arrondissement één). Particuliere en
+          rijksreclassering gingen daarin samen met uitzondering van de
+          reclasseringsafdeling van het Leger des Heils en de Consultatiebureaus voor
+          Alcohol en Drugs, onder een overkoepelende organisatie geheten Nederlandse
+          Federatie van Reclasseringsinstellingen (NFR).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het reclasseringswerk in de negentiende eeuw droeg het karakter van
+          liefdadigheid. Het was geheel en al particulier initiatief. Na de eeuwisseling
+          nam het aantal instellingen dat zich met reclassering bezig hield, toe.
+          Bovendien ontstond het besef dat ook de overheid een rol op
+          sociaal-maatschappelijk gebied had te vervullen. Het was de tijd van de
+          totstandkoming van de eerste sociale wetten. Het delict werd door de overheid
+          niet meer louter juridisch bekeken maar men kreeg ook oog voor de sociale
+          aspecten. Steun aan ex-gevangenen werd meer en meer gezien als goede
+          strafrechtelijke politiek. Zo begon de overheid zich met de reclassering te
+          bemoeien. Dat resulteerde in de reclasseringsregeling van 1910. Via deze
+          algemene maatregel van bestuur werd de subsidiëring van het reclasseringswerk
+          geregeld waardoor tevens de mogelijkheid werd geschapen voor controle en
+          beïnvloeding door de overheid.</html:p>
+          <html:p>Omdat in 1915 het instituut van de voorwaardelijke veroordeling in het
+          leven werd geroepen en de mogelijkheden van voorwaardelijke invrijheidstelling
+          werden uitgebreid, ontstond er behoefte aan aanpassing van de
+          reclasseringsregeling. In dat jaar kwam een nieuwe reclasseringsregeling tot
+          stand bij K.B. van 13 december 1915 (Staatsblad nr. 504). Daarin werd de
+          mogelijkheid voorzien van de oprichting van reclasseringsraden. In ieder
+          arrondissement zou zo'n reclasseringsraad kunnen gaan functioneren. De
+          reclasseringsraden werden samengesteld uit afgevaardigden van de diverse
+          reclasseringsinstellingen, leden van de zittende en staande magistratuur en
+          leden van gevangenisbesturen. Zij konden bezoldigde medewerkers aanstellen die
+          de titel van rijksreclasseringsambtenaar kregen. De kosten van de
+          instandhouding van de raden werden door het departement van justitie vergoed.
+          Het was de bedoeling dat ze het werk tussen de plaatselijke
+          reclasseringsinstellingen zouden gaan verdelen, omdat het aantal instellingen
+          was toegenomen en omdat de taken van die instellingen zich uitbreidden. De
+          reclassering werd meer en meer een orgaan van de strafrechtspleging. De raden
+          moesten de minister van justitie, de gevangenisbesturen of het openbaar
+          ministerie adviseren inzake gratie, voorwaardelijke invrijheidstelling of
+          celbezoek door een plaatselijke instelling. De reclasseringsraden zou men
+          kunnen beschouwen als schakel tussen verschillende overheidsorganen die bij de
+          strafrechtspleging betrokken waren (rechters, openbaar ministerie, politie) en
+          de particuliere reclasseringsinstellingen.</html:p>
+          <html:p>Aanvankelijk verliep de oprichting van de reclasseringsraden stroef.
+          Van de particuliere reclasseringsinstellingen rees nogal wat verzet, ofschoon
+          het ministerie van justitie wenste dat het toezicht op de
+          reclasseringsinstellingen vergroot werd. Bemoeienis met de inhoud van het werk
+          werd niet gewenst. Hierdoor en door het feit dat de taken van de raden niet
+          allemaal waren vastgelegd bleef de betekenis van de raden tot aan de Tweede
+          Wereldoorlog beperkt.</html:p>
+          <html:p>Na de oorlog kwam de Reclasseringsregeling van 13 december 1947
+          (Staatsblad nr. H 423) tot stand die de positie van de
+          reclasseringsinstellingen aanzienlijk versterkte. De bedoeling was dat de
+          reclasseringsraden voortaan een onmisbare schakel zouden zijn tussen de
+          instellingen belast met de strafrechtspleging en de particuliere
+          reclasseringsinstellingen. Zij kregen toezicht op en de leiding over alle
+          reclasseringsaangelegenheden. De bemoeienis had betrekking op de feitelijke
+          werkzaamheden van de reclasseringsinstellingen. Hun aangelegenheden van
+          inwendige, huishoudelijke en organisatorische aard vielen buiten zeggenschap
+          van de raden. Zo moesten alle aanvragen voor een voorlichtingsrapport over een
+          gedetineerde gericht worden aan de raad. Deze besliste dan welke
+          reclasseringsinstelling het voorlichtingsrapport zou samenstellen. In
+          bijzondere gevallen kon ook een rijksreclasseringsambtenaar met het
+          samenstellen van een rapport worden belast. Na rapportage kon de raad dan ook
+          nog zijn eigen opmerkingen toevoegen of opdracht geven het rapport te wijzigen.
+          Via de raden werden de voorlichtingsrapporten ter beschikking van de
+          aanvragende instantie gesteld. Verder coördineerden de raden het
+          reclasseringsbezoek aan de gedetineerden. Ook op de nazorg oefenden ze toezicht
+          uit. De reclasseringsinstellingen waren verplicht over hun activiteiten op dit
+          terrein verslag te doen aan de reclasseringsraden.</html:p>
+          <html:p>Op den duur werd de leidende positie van de reclasseringsraden, die in
+          de loop van de tijd nog door allerlei overheidsmaatregelen versterkt werd, door
+          de reclasseringsinstellingen steeds meer als knellend ervaren. Dreven deze
+          instellingen vroeger op de inzet van goedwillende maar niet geschoolde
+          vrijwilligers, rond het midden van de jaren zestig waren het instellingen
+          geworden die volledig steunden op goed geschoolde beroepskrachten. Bovendien
+          kwam er binnen de instellingen steeds meer weerstand om als een verlengstuk van
+          de strafrechtspleging te worden gezien. Niet zo zeer een goede
+          strafrechtspleging maar het behartigen van de belangen van de te reclasseren
+          gedetineerden zagen ze als centrale opgave. Daarom wilden ze zich ontworstelen
+          aan de knellende greep die de overheid had via de reclasseringsraden. De
+          reclasseringsinstellingen zochten aansluiting bij de zich in de jaren zestig
+          sterk ontwikkelende instellingen van maatschappelijke en geestelijke
+          (gezondheids)zorg en het welzijnswerk. Ze wilden een onderdeel zijn van deze
+          "koepel" en geen onderdeel van de strafrechtspleging. Toename van eigen
+          professionaliteit en deskundigheid maakte toezicht op de
+          reclasseringsinstellingen bovendien meer en meer overbodig. Een andere
+          ontwikkeling was dat de scheidslijnen tussen de in de tijd van de verzuiling
+          ontstane particuliere reclasseringsinstellingen steeds meer afbrokkelden. Er
+          werd minder gehecht aan de eigen (levenbeschouwelijke of religieuze)
+          identiteit, maar des te meer aan deskundigheid en professionaliteit. Hierdoor
+          ontstond een toenemende behoefte aan samenwerking tussen de particuliere
+          reclasseringsinstellingen. Uiteindelijk leidde dit in 1975 tot de fusie in de
+          Algemene Reclasseringsvereniging (ARV). Deze overkoepelende organisatie was
+          goed in staat alle werkzaamheden te coördineren. Dit en de toegenomen
+          deskundigheid maakten de werkzaamheden van de reclasseringsraden steeds meer
+          overbodig.</html:p>
+          <html:p>Aan het begin van de jaren tachtig werd sterk de behoefte gevoeld om te
+          bezuinigen op de overheidsuitgaven. Hierbij kon de reclassering niet buiten
+          schot blijven. Nu gebleken was dat de feitelijke werkzaamheden van de
+          reclasseringsraden steeds meer werden overgenomen door de ARV en hun positie
+          dus volkomen uitgehold was, kon de roep om opheffing niet meer uitblijven. Een
+          rapport van de Algemene Rekenkamer toonde dit aan en adviseerde dan ook
+          opheffing om de efficiency van het reclasseringswerk te vergroten. Krachtens de
+          nieuwe Reclasseringsregeling van 1 januari 1986 (Staatsblad nr. 1) werden de
+          reclasseringsraden dan ook opgeheven. De werkzaamheden werden overgenomen door
+          negentien nieuwe stichtingen (in ieder arrondissement één). Particuliere en
+          rijksreclassering gingen daarin samen met uitzondering van de
+          reclasseringsafdeling van het Leger des Heils en de Consultatiebureaus voor
+          Alcohol en Drugs, onder een overkoepelende organisatie geheten Nederlandse
+          Federatie van Reclasseringsinstellingen (NFR).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de reclasseringsraad 's-Gravenhage bevat onder
+      jaarverslagen, agenda's en notulen van regiovergaderingen en verslagen van de
+      vergaderingen van de Rijksreclasseringsambtenaren.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.25 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>10 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

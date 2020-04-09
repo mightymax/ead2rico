@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/387b9988-424d-48e2-b3e8-8d44fb7660d8"
+  rdf:about="record/3.07.02">
+    <rico:identifier>3.07.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1985</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3504" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.07.02/i1" />
+      <rico:instantiates rdf:resource="record/3.07.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100622</rico:hasModificationDate>
+        <html:p>22 juni 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100624</rico:hasModificationDate>
+        <html:p>24 juni 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20191211</rico:hasModificationDate>
+        <html:p>11 december 2019</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Arrondissementsingenieurs
+        van Rijkswaterstaat in Zuid-Holland</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/387b9988-424d-48e2-b3e8-8d44fb7660d8" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3504">
+    <rico:describedBy rdf:resource="record/3.07.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3504</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Arrondissements-Ingenieurs van Rijkswaterstaat in
+      Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rijkswaterstaat ZH /
+      Arrondissementsingenieurs</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1808</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1849</rico:endDate>
+    <rico:date>1808-1849</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ingenieur van de wegen en bruggen in de arrondissementen
+            's-Gravenhage en Leiden, , 1811-1813 Ingenieur van de Waterstaat in de
+            voormalige arrondissementen 's-Gravenhage en Leiden, , 1814-1816 Ingenieur
+            van de wegen en bruggen in het arrondissement Rotterdam, , 1811-1813
+            Ingenieur van de Waterstaat in het voormalig arrondissement Rotterdam, ,
+            1814-1816 Ingenieur van de wegen en bruggen in de arrondissementen Dordrecht
+            en Gorinchem, , 1811-1813 Ingenieur van de Waterstaat in de voormalige
+            arrondissementen Dordrecht en Gorinchem, , 1814-1816 Ingenieur van de wegen
+            en bruggen in het arrondissement Brielle, , 1811-1813 Ingenieur van de
+            Waterstaat in het voormalige arrondissement Brielle, , 1814-1816 Ingenieur in
+            het eerste arrondissement, , 1816-1823 Ingenieur in het tweede
+            arrondissement, , 1816-1822 Ingenieur in het derde arrondissement, ,
+            1817-1825 Ingenieur belast met rijkswaterstaatswerken in het westelijk
+            arrondissement, , 1824-1849 Ingenieur belast met rijkswaterstaatswerken in
+            het oostelijk arrondissement, , 1822-1849 Ingenieur belast met de provinciale
+            waterstaatswerken, , 1824-1849</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De archieven van de Arrondissementsingenieurs in Zuid-Holland zijn
+      afkomstig van de archieven van de ingenieurs van de wegen en bruggen, later van de
+      Waterstaat, in de arrondissementen 's-Gravenhage en Leiden, Rotterdam, Dordrecht en
+      Gorinchem en Brielle (1811-1816), ingenieurs van de Waterstaat in het eerste
+      arrondissement te 's-Gravenhage, het tweede arrondissement te Gorinchem, het derde
+      arrondissement te Brielle (1816-1824), ingenieurs van de Waterstaat voor de
+      rijkswaterstaatswerken in het westelijk en oostelijk arrondissement en ingenieurs
+      van de Waterstaat voor de provinciale waterstaatswerken (1822-1849). Enkele
+      archieven zijn op naam van de inspecteur gesteld, te weten die van J. van Lakerveld
+      Blanken (1822-1834), A. Greve (1834-1837) en G.H. Doctors van Leeuwen (1837-1849).
+      Ook losse stukken zijn meerdere malen op naam gesteld.Het archief bevat ingekomen
+      en minuten van uitgaande stukken, bestekken voor het onderhoud van wegen,
+      tolhuizen, bruggen, sluizen en zeewerken, staten van ontvangsten en uitgaven,
+      staten van de waterhoogten, registers van orders, alsmede (week)rapporten van
+      diverse pikeurs en conducteurs. Daarnaast kan men instructies voor de regeling van
+      lokaal verkeer vinden in dit archief.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>324 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>12,10 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

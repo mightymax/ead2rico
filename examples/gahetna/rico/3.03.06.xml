@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d6421886-b524-408d-bd81-d843fd5495dc"
+  rdf:about="record/3.03.06">
+    <rico:identifier>3.03.06</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1935</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3320" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.03.06/i1" />
+      <rico:instantiates rdf:resource="record/3.03.06" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief der Academische Vierschaar,
+        1594-1811</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d6421886-b524-408d-bd81-d843fd5495dc" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3320">
+    <rico:describedBy rdf:resource="record/3.03.06" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3320</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Vierschaar der Universiteit te Leiden</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Academische Vierschaar Leiden</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1594</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1811</rico:endDate>
+    <rico:date>1594-1811</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Academische Vierschaar van de Leidse Universiteit,
+            1594-1811</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Een der voornaamste voorrechten, door Prins Willem I aan de Leidsche
+          Universiteit bij haar oprichting verleend, was het zg. "privilegium
+          fori"Uitvoerig hierover: G.J. van Everdingen, Iets over het voormalig forum
+          privilegiatum van professoren en studenten, en: P. C. Molhuysen, De voorrechten
+          der Leidsche Universiteit, in Med. der Kon. Acad. van Wetenschappen, Afd.
+          Letterk., deel 58, serie B, blz. 17-27, 29-31. voor professoren en studenten,
+          krachtens welk voorrecht deze waren ontheven van de rechtsmacht van den gewonen
+          rechter, zoodat zij alleen voor een bijzondere rechtbank te recht konden
+          staan.</html:p>
+          <html:p>Blijkens de statuten van 2 Juni 1575Art. 28, in 1631 gewijzigd in art.
+          39. bestond het voorrecht der professoren hierin, dat zij als gedaagden terecht
+          stonden voor het Hof van Holland; zelve als eischer optredende, moesten zij
+          evenwel hun tegenpartij voor den gewonen rechter dagvaardenIn 1662 werd dit
+          voorrecht uitgebreid tot de weduwen der professoren..</html:p>
+          <html:p>Voor de studenten en overige lidmaten der Universiteit werd daarentegen
+          een aparte rechtbank ingesteld, bestaande uit den Rector en zijn, Assessoren
+          ten getale van vier, nl. uit iedere faculteit één professor benevens de vier
+          burgemeesters der stad Leiden met twee schepenmeesters. De aldus samengestelde
+          Academische Vierschaar, sedert 30 Mei 1584 bijgestaan door een afzonderlijken
+          secretarisAanvankelijk trad de secretaris der Universiteit tevens als
+          secretaris der Vierschaar op. In 1584 stelden Rector en Assessoren benevens
+          Burgemeesteren en Schepenen den Leidschen notaris Salomon Lenaertsz. van der
+          Woert provisioneel tot secretaris voor de rechtsvordering aan. (Zie P. C.
+          Molhuysen, Bronnen tot de Geschiedenis der Leidsche Universiteit, dl. I, blz.
+          40, 120*-121*). Den 8sten Februari 1593 bepaalden Curatoren en Burgemeesteren,
+          dat voortaan dit secretarisschap zou worden bediend door Jan van Hout naast het
+          secretarisschap van Curatoren en Burgemeesteren. (zie aldaar, blz. 75). Op 21
+          November 1594 werd Salomon van der Woert door hen wederom tot secretaris der
+          Vierschaar aangesteld. (Aldaar, blz. 84). De in het archief nog voorhanden
+          zijnde registers vangen met dien datum aan., sprak recht zoowel in straf- als
+          in burgerlijke zaken, niet alleen bij geschillen tusschen de lidmaten der
+          Universiteit onderling, maar ook, waar het geschillen met burgers betrof, en
+          onverschillig, of zij als eischer dan wel als gedaagde optraden. Nochtans werd
+          aan partijen geen rechtsingang verleend dan nadat zij vooraf waren verschenen
+          voor Rector en Assessoren, die, evenals de vredemakers bij het
+          schepengerechtAldus zegt art. 10 der statuten van 1 October 1631 de partijen
+          tot een vergelijk trachtten te brengen, en eerst, wanneer dit niet mogelijk
+          bleek, de zaak naar de vierschaar verwezen. Van het daarop door de vierschaar
+          gewezen vonnis was geen appèl mogelijk, wel sedert 1656 revisie.</html:p>
+          <html:p>Volgens de nadere ampliatie op art. 39 der statuten d.d. 24 Maart 1662
+          strekte de rechtsmacht der Academische Vierschaar zich uit tot het benoemen van
+          curators over de boedels van studenten en met hen gelijkgestelde lidmaten der
+          Universiteit.</html:p>
+          <html:p>Ondanks de hiermede beoogde nauwe vereeniging tusschen stad en
+          Universiteit bleven botsingen over de wederzijdsche juridictiën niet uit. Naar
+          aanleiding van een geschil bepaalden de Staten van Holland en West-Friesland in
+          1608, dat burgers van Leiden wegens delicten, jegens lidmaten der Universiteit
+          begaan, waarbij de Grafelijkheid gemoeid was, niet langer voor de Academische
+          Vierschaar te recht zouden staan, doch voor schepenen van Leiden. Bij de
+          herziening der statuten in 1631 werd deze wijziging ook in de statuten
+          overgenomen. Bovendien onderging de competentie van de Academische Vierschaar
+          nog een andere wijziging, waardoor zij ook niet meer bevoegd was om recht te
+          spreken in gedingen over erfscheidingen, servituten en dergelijken, al waren
+          beide partijen lidmaten der Universiteit.</html:p>
+          <html:p>Van meer ingrijpenden aard waren de wijzigingen, welke de omwenteling
+          van 1795 met zich mede bracht. Niet alleen kwam er verandering in de
+          samenstelling der Academische Vierschaar, doordat de verdwenen burgemeesters en
+          schepenmeesters werden vervangen door drie burgers, op voordracht van Curatoren
+          door de Provisionele Representanten van Holland benoemd, benevens door drie
+          leden, gekozen uit het Comité van justitie te Leiden, maar het bestaan der
+          vierschaar zelve werd bedreigd. In 1799 stelde de Commissie voor de organisatie
+          der Regterlijke Macht de vraag, "of de Universiteitsvierscharen moesten worden
+          afgeschaft?" Een uitvoerig betoog, door den Senaat gericht aan den Agent voor
+          de Nationale Opvoeding, waarin voor het behoud werd gepleit, had in zoover
+          succes, dat de Tweede Kamer van het Wetgevend Lichaam den 22sten October 1800
+          besloot, de Academische Vierschaar te laten bestaan, doch alleen voor de
+          minderjarige studenten, terwijl al de overige lidmaten der Universiteit, hetzij
+          professoren of anderen, voortaan aan den gewonen rechter onderworpen zouden
+          zijn. Ook onder de regeering van Koning Lodewijk bleef het forum privilegiatum
+          der Leidsche Universiteit op den toenmaligen voet gehandhaafd, doch weldra werd
+          ons land bij Frankrijk ingelijfd, en met de invoering der Fransche
+          rechtspleging was het met de Academische Vierschaar gedaan; zij werd opgeheven
+          bij decreet van den Prins-Stedehouder van 21 Februari 1811. Den 27sten Februari
+          hield de Academische Vierschaar haar laatste zitting en den dag daarop werd zij
+          door een vertegenwoordiger van den prefect der Monden van de Maas
+          ontbonden.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Academische Vierschaar (1594-1811) bevat de wetten en
+      statuten van de Universiteit van Leiden, een lijst van secretarissen en de notulen
+      van de vergaderingen van Rector en Assessoren (bemiddeling) over de periode
+      1623-1810, alsmede de repertoria op de notulen. Van de eigenlijke, rechtsprekende
+      Vierschaar (Rector en Rechteren) zijn in het archief opgenomen de criminele en
+      civiele klacht- en dingboeken (1594-1811) en de repertoria (1594-1767) hierop. Per
+      inventarisnummer is hierbij voorzien in een index op namen en zaken. Daarnaast zijn
+      er een aantal civiele en criminele processtukken aanwezig en voorts enige stukken
+      over juridisdictiegeschillen met andere rechterlijke instanties en overheden. De
+      oorspronkelijke inventarissen zijn eveneens bewaard gebleven.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>57 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

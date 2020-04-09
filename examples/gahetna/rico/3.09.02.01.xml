@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/68c320fa-fc1b-4e48-a1af-33e2869ce5da"
+  rdf:about="record/3.09.02.01">
+    <rico:identifier>3.09.02.01</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1940</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3379" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.09.02.01/i1" />
+      <rico:instantiates rdf:resource="record/3.09.02.01" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Eerstaanwezend Ingenieur der
+        Genie te Brielle; Opzichter te Brielle en te Hellevoetsluis: Luitenant- en
+        Kapitein-ingenieur te Hellevoetsluis, 1788-1828</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/68c320fa-fc1b-4e48-a1af-33e2869ce5da" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3379">
+    <rico:describedBy rdf:resource="record/3.09.02.01" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3379</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Eerstaanwezend Ingenieur der Genie te Brielle en de Opzichters
+      te Brielle en Hellevoetsluis</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Eerstaanwezend Ingenieur Brielle</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1788</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1828</rico:endDate>
+    <rico:date>1788-1828</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Eerstaanwezend Ingenieur te Brielle</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Als eerste Eerstaanwezende ingenieur te Brielle trad in het jaar 1803
+          op kapitein-ingenieur Van Ingen. Hij was belast met de directie over de
+          fortificatiewerken en 's lands gebouwen in het Land van Voorne en op het eiland
+          Goedereede. Dit district behoorde tot het Departement der fortificatiën van de
+          Krammer en Bieschbosch tot en met het eiland Texel, dat in 1808 de naam kreeg
+          van de directie van het Noorden en der Schelde.</html:p>
+          <html:p>Sedert 6 januari 1804 komt de kapitein-ingenieur W. Lobry te Brielle in
+          garnizoen ter vervanging van de kapitein-ingenieur Van Ingen. De
+          luitenant-ingenieur P.J. Ackermans werd aan het garnizoen toegevoegd. Na het
+          vertrek van de luitenant-ingenieur Acekermans kwam luitenant-ingenieur P. v.d.
+          Poel te Brielle in garnizoen. In september 1806 werd hij geplaatst bij de
+          dienst te velde en vertrok naar 's-Gravenhage. Van 21 april 1807 tot 11 mei van
+          dat jaar is de E.A.I van Brielle te Hellevoetsluis in garnizoen geweest en werd
+          hij te Brielle vervangen door luitenant-ingenieur Versteegh en na het vertrek
+          van deze door kapitein-ingenieur W. Valter.</html:p>
+          <html:p>Ingevolge schrijven van de Minister van Oorlog keerde de E.A.I. Lobry
+          weer naar Brielle terug en te Hellevoetsluis opgevolgd door de
+          kapitein-ingenieur Valter. In september 1807 kwam de kapitein-ingenieur Evers
+          te Brielle om aan de E.A.I. te worden toegevoegd. Lang bleef Evers niet te
+          Brielle , reeds in maart 1808 werd hij naar Groningen overgeplaatst en te
+          Brielle opgevolgd door de luitenant-ingenieur Ackermans om zich onder de orders
+          te stellen van de E.A.I. ter uitvoering van het in staat van verdediging
+          brengen van het eiland Goedereede. Luitenant-ingenieur Ackermans werd in
+          september van dat jaar benoemd tot aide de camp van de generaal-majoor,
+          inspecteur der artillerie en genie en vertrok naar Amsterdam, opgevolgd door de
+          luitenant-ingenieur Hemmes. Na de voltooing van de werkzaamheden te goederrede
+          kwam hij te Hellevoetsluis in garnizoen.</html:p>
+          <html:p>Toen de kapitein-ingenieur 1ste klasse W. Lobry, bij schrijven van de
+          Minister van Oorlog, d.d. 2 januari 1809 nr. 74, belast werd met de directie
+          van het district Utrecht met standplaats Naarden, werd de kapitein 2de klasse
+          P.I.I. Rauwenhoff de directie van het eiland Voorne en Goedereede opgedragen
+          met standplaats Brielle.</html:p>
+          <html:p>Op 15 juni 1810 kwam de luitenant-kolonel der genie Speeleveldt te
+          Brielle aan en nam de directie over van de kapitein der genie Rauwenhoff,
+          terwijl deze belast werd met het toezicht op de werkzaamheden te Goedereede. In
+          't eind van oktober 1810 ontving luitenant-kolonel Speeleveldt opdracht om zich
+          te begeven naar Hamburg en gaf hij zijn dienst over aan de kapitein der genie
+          Rauwenhoff. Deze bleef tot september 1813 met de directie over het district
+          Brielle belast.</html:p>
+          <html:p>Met het toezicht der fortificatiewerken, gebouwen etc. te
+          Hellevoetsluis was belast 's-lands opzichter A. Roosendaal en met dat van het
+          eiland Goedereede K. Bakker. In oktober 1810 werden zij benoemd tot "Garde de
+          Genie 1 klasse".</html:p>
+          <html:p>Op 24 mei 1810 kwam te Hellevoetsluis in garnizoen de
+          kapitein-ingenieur L. Erpenbeek. Deze vertrok 27 augustus van dat jaar naar
+          Amsterdam en te Brielle opgevolgd door de kapitein der genie I.D.
+          Pasteur.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Opzichter te Brielle en Hellevoetsluis</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Als eerste Eerstaanwezende ingenieur te Brielle trad in het jaar 1803
+          op kapitein-ingenieur Van Ingen. Hij was belast met de directie over de
+          fortificatiewerken en 's lands gebouwen in het Land van Voorne en op het eiland
+          Goedereede. Dit district behoorde tot het Departement der fortificatiën van de
+          Krammer en Bieschbosch tot en met het eiland Texel, dat in 1808 de naam kreeg
+          van de directie van het Noorden en der Schelde.</html:p>
+          <html:p>Sedert 6 januari 1804 komt de kapitein-ingenieur W. Lobry te Brielle in
+          garnizoen ter vervanging van de kapitein-ingenieur Van Ingen. De
+          luitenant-ingenieur P.J. Ackermans werd aan het garnizoen toegevoegd. Na het
+          vertrek van de luitenant-ingenieur Acekermans kwam luitenant-ingenieur P. v.d.
+          Poel te Brielle in garnizoen. In september 1806 werd hij geplaatst bij de
+          dienst te velde en vertrok naar 's-Gravenhage. Van 21 april 1807 tot 11 mei van
+          dat jaar is de E.A.I van Brielle te Hellevoetsluis in garnizoen geweest en werd
+          hij te Brielle vervangen door luitenant-ingenieur Versteegh en na het vertrek
+          van deze door kapitein-ingenieur W. Valter.</html:p>
+          <html:p>Ingevolge schrijven van de Minister van Oorlog keerde de E.A.I. Lobry
+          weer naar Brielle terug en te Hellevoetsluis opgevolgd door de
+          kapitein-ingenieur Valter. In september 1807 kwam de kapitein-ingenieur Evers
+          te Brielle om aan de E.A.I. te worden toegevoegd. Lang bleef Evers niet te
+          Brielle , reeds in maart 1808 werd hij naar Groningen overgeplaatst en te
+          Brielle opgevolgd door de luitenant-ingenieur Ackermans om zich onder de orders
+          te stellen van de E.A.I. ter uitvoering van het in staat van verdediging
+          brengen van het eiland Goedereede. Luitenant-ingenieur Ackermans werd in
+          september van dat jaar benoemd tot aide de camp van de generaal-majoor,
+          inspecteur der artillerie en genie en vertrok naar Amsterdam, opgevolgd door de
+          luitenant-ingenieur Hemmes. Na de voltooing van de werkzaamheden te goederrede
+          kwam hij te Hellevoetsluis in garnizoen.</html:p>
+          <html:p>Toen de kapitein-ingenieur 1ste klasse W. Lobry, bij schrijven van de
+          Minister van Oorlog, d.d. 2 januari 1809 nr. 74, belast werd met de directie
+          van het district Utrecht met standplaats Naarden, werd de kapitein 2de klasse
+          P.I.I. Rauwenhoff de directie van het eiland Voorne en Goedereede opgedragen
+          met standplaats Brielle.</html:p>
+          <html:p>Op 15 juni 1810 kwam de luitenant-kolonel der genie Speeleveldt te
+          Brielle aan en nam de directie over van de kapitein der genie Rauwenhoff,
+          terwijl deze belast werd met het toezicht op de werkzaamheden te Goedereede. In
+          't eind van oktober 1810 ontving luitenant-kolonel Speeleveldt opdracht om zich
+          te begeven naar Hamburg en gaf hij zijn dienst over aan de kapitein der genie
+          Rauwenhoff. Deze bleef tot september 1813 met de directie over het district
+          Brielle belast.</html:p>
+          <html:p>Met het toezicht der fortificatiewerken, gebouwen etc. te
+          Hellevoetsluis was belast 's-lands opzichter A. Roosendaal en met dat van het
+          eiland Goedereede K. Bakker. In oktober 1810 werden zij benoemd tot "Garde de
+          Genie 1 klasse".</html:p>
+          <html:p>Op 24 mei 1810 kwam te Hellevoetsluis in garnizoen de
+          kapitein-ingenieur L. Erpenbeek. Deze vertrok 27 augustus van dat jaar naar
+          Amsterdam en te Brielle opgevolgd door de kapitein der genie I.D.
+          Pasteur.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Eerstaanwezend Ingenieur te Brielle en de opzichter te Brielle en
+      Hellevoetsluis (1803-1828) waren belast met de directie over de fortificatiewerken
+      en 's lands gebouwen. Het archief bevat correspondentie, bestekken van werken,
+      stukken aangaande het dagelijkse bestuur, rekeningen, begrotingen, en specifieke
+      stukken betreffende het aldaar gelegerde garnizoen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>27 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

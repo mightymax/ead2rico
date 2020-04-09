@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/fc04c551-2131-4436-9727-6221dcb32357"
+  rdf:about="record/2.21.079">
+    <rico:identifier>2.21.079</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1975</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C25067" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.079/i1" />
+      <rico:instantiates rdf:resource="record/2.21.079" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van mr. dr. H.H.A. van Gybland
+        Oosterhoff [levensjaren 1887-1937], 1890-1937 (1940); enkele familieleden,
+        1913-1969</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/fc04c551-2131-4436-9727-6221dcb32357" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale, geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C25067">
+    <rico:describedBy rdf:resource="record/2.21.079" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C25067</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 175 Van Gybland Oosterhoff</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Gybland Oosterhoff, van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1890</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1969</rico:endDate>
+    <rico:date>1890-1969</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Horace Hugo Alexander van Gybland Oosterhoff
+            (1887-1937)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Horace Hugo Alexander van Gybland Oosterhoff werd op 26 mei 1887
+          geboren te Batavia als zoon van Wybe Jacobus van Gybland Oosterhoff, arts en
+          officier van gezondheid bij het K.N.I.L., en Diane Susanne Jéhenne Frederique
+          NeysNederlands Patriciaat, jrg. 24 (1938), p. 223.. Op jeugdige leeftijd naar
+          Nederland gekomen doorliep hij het gymnasium te Haarlem. Op 28 januari 1909
+          behaalde hij zijn doctoraalexamen in de rechten aan de universiteit te
+          Amsterdam en promoveerde op 31 maart daaraanvolgend tot doctor. Na in maart van
+          het daarop volgende jaar tot adjunct-commies aan de afdeling Arbeid van het
+          departement van Landbouw, Nijverheid en Handel te zijn aangestald behaalde hij
+          op 23 mei 1911 zijn doctoraalexamen in de staatswetenschappen aan de
+          universiteit te UtrechtHiervoor en voor het hierna volgende zie het door mej.
+          L.J. van Gybland Oosterhoff over haar broer opgetekend curriculum vitae voorin
+          inv. nr. 23.. Ook hierin behaalde hij een doctorstitel en wel op 7 juni van het
+          daarop volgende jaar. Op 1 maart 1913 verlegde hij zijn arbeidsterrein naar de
+          Centrale Directie van de arbeidsinspectie in Den Haag.</html:p>
+          <html:p>In augustus 1914 werd hij adjunct-secretaris belast met de dagelijkse
+          leiding van het Koninklijk Nationaal Steuncomité. Op 16 juni 1916 werd hij
+          aangesteld bij de Bataafsche Petroleummaatschappij, vanaf 1918 was hij daar
+          chef van de afdeling Algemene zaken en privésecretaris van dr. H. Colijn, die
+          in die tijd behalve lid van de Eerste Kamer directeur van deze maatschappij
+          was. Samen met dr. F.C. Gerretson, die in die tijd eveneens privésecretaris van
+          Colijn was, jhr. W.F. van Lennep, C. Plokhooy, G.H.J. Gijsberti Hodenpijl en
+          mr. W.F.M. Bosschart vormde hij een groep, die contra-actie voerde tegen de
+          revolutionaire aktiviteiten van Troelstra c.s. in de novemberdagen van 1918Zie
+          inv. nr. 321.. Van Van Gijbland Oosterhoff was het plan afkomstig de Landstorm
+          te mobiliseren, hetgeen op 12 november, toen de provocatie van de S.D.A.P. er
+          officiëel was, ook inderdaad geschiedde. Samen met Gerretson stelde hij een
+          telegram op voor Colijn, die op dat moment in Londen verbleef, hetgeen deze de
+          suggestie aan de hand deed, dat bij de te sluiten overeenkomst voor de levering
+          van levensmiddelen van Entente-zijde zou worden gesteld dat geen levensmiddelen
+          zouden worden geleverd aan een regering, die met geweld aan het bewind zou zijn
+          gekomen.</html:p>
+          <html:p>De gebeurtenissen in de periode van 8 tot en met 15 november van 1918
+          vormden een begin-gebeurtenis, die bepalend zijn voor heel het politieke denken
+          en voelen van Van Gybland Oosterhoff. Dit manifesteerde zich vooral ná 1924
+          toen hij tot secretaris was geworden van de toen van de universiteit van
+          Utrecht opgerichte Indologische faculteit. In dit denken stond een politiek,
+          die gericht was op een nationale eenheid-zowel intern als van de rijksdelen
+          onderling-en die voortbouwde op historische grondslag en zich schaarde om het
+          huis van Oranje als nationaal volkssymbool, centraal. Deze politiek richtte
+          zich tegen alles wat "rood" was, d.w.z. elke politieke richting, die zich
+          richtte op een vaag illusionistisch internationalisme, die antikoloniaal, dus
+          tegen de rijkseenheid was, die niet voortbouwde op een historische grondslag en
+          daarom-voor zover het ons land betrof-antimonarchaal, anti-oranje was. Wij
+          komen hier nog nader op terug.</html:p>
+          <html:p>Tot 1920 bleef hij werkzaam bij de afdeling Algemene zaken van de
+          Bataafsche Petroleummaatschappij en was hij als zodanig tevens secretaris van
+          Colijn in Londen. In deze periode, vooral in de jaren 1915-1917 reisde hij
+          veel, maakte o.a. een wereldreis en diende tijdens een verblijf in
+          Nederlands-Indië het gouvernement aldaar van advies over de mijnordonnantie en
+          de indische mijnwetZie inv. nr. 70 en 313-314.. In 1920 werd hij uitgezonden
+          naar Mexico om met de regering aldaar te onderhandelen over de mijnwetgeving.
+          In februari 1920 werd hij opgenomen in de directie van de Corona, een
+          dochtermaatschappij voor Mexico van de Koninklijke Petroleum Maatschappij. In
+          Mexico-City was hij voorzitter van de Nederlandse vereniging.</html:p>
+          <html:p>Weer terug in Nederland speelde hij in de jaren 1924-1925 een rol bij
+          de oprichting van de Indologische faculteit aan de universiteit van Utrecht,
+          waarvan hij secretaris van het college van curatoren werd alsmede secretaris
+          van het voor de instandhouding van deze faculteit opgerichte Indologische
+          fondsZie inv. nr. 102 en 322..</html:p>
+          <html:p>In oktober 1929 verscheen het eerste nummer van De Rijkseenheid, een
+          staatkundig en economisch weekblad ter versterking van de banden tussen
+          Nederland en de Indiën. Het blad werd geredigeerd door mr. A.J.A.A. baron van
+          Heemstra, A.J.W. Harloff en mr. dr. H.H.A. van Gybland OosterhoffZie inv. nr.
+          324.. Voor de Utrechtse indologische faculteit vormde De Rijkseenheid een
+          belangrijke spreekbuis. Zowel de staatkundige ontwikkelingen als de
+          cultuurbeweging in Zuid-Afrika werden op de voet gevolgd. In het bijzonder
+          hield het weekblad zich bezig met de gebreken van onze defensiepolitiek en de
+          daaruit voortvloeiende gevaren voor de verdediging van de rijksdelen
+          overzee.</html:p>
+          <html:p>Voor de rechtvaardiging van het nederlands gezag in Indië greep hij
+          terug op de opvatting, die de toen overleden staatsman jhr. mr. A.F. de
+          Savornin Lohman daarover hadZie voor het hierna volgende: inv. nr. 188.. In het
+          kort komt deze gedachtengang hierop neer. Een volk heeft niet het recht om de
+          schatten, die het in zijn bodem bewaart, of die door zijn bodem worden
+          voortgebracht, voor zichzelf te bewaren. Zomin een volk als een individu mag
+          zichzelf een zodanig recht toekennen op de grond, dat de schatten, die de
+          Schepper erin verborgen heeft, niet tot gemeen gebruik van allen kunnen worden
+          gebezigd. Maar wanneer dat zo is, dan moet ook degene, die een bepaald land
+          gaat exploiteren, dat kunnen doen en daarvoor van de overheid van dat land de
+          nodige bescherming genieten. Schiet de overheid te kort, dan mag dat volk door
+          zijn vertegenwoordigers zelf die taak overnemen. Als nu een volk in een vreemd
+          land komt, welks regering niet in staat is het recht in zo voldoende mate te
+          handhaven dat dit daar kan leven en handeldrijven, dan moet dat volk als
+          sterker van aanleg, dat bestuur zelf wel gaan uitoefenen. De vreemdeling mag
+          dus het gezag overnemen, maar dat gezag moet rechtvaardig zijn en aan zijn hoge
+          roeping voldoen: handhaving van het recht.</html:p>
+          <html:p>De oprichting van het Verbond voor Nationaal Herstel ontstond uit de
+          kringen rondom De RijkseenheidZie voor het hierna volgende: de inv. nrs.
+          133-134. Reeds in 1932 werd er een beroep gedaan op professor dr. J.L. Pierson
+          zich aan het hoofd te stellen van een groot nationaal front op de grondslag van
+          de rijkseenheid. Hij belegde een bijeenkomst en hieruit ontstond een kerngroep
+          van slechts weinigen, die geregeld overleg pleegden. In het nummer van 22
+          oktober 1932 van De RijkseenheidZie inv. nr. 214. stond een artikel over de
+          "Nationaal-herstel"-concentratie, waarin de vraag gesteld werd of deze
+          concentratie, die in dit artikel niet zozeer als een nieuwe partij gezien werd
+          maar als een federatief verband van partijen, op basis van een
+          christelijk-nationale politiek tot stand zou kunnen worden gebracht. Van
+          Gybland Oosterhoff schreef op 28 oktober 1932 aan Bauduin dat hij bezig was
+          "poolshoogte te nemen of met eerste klasse mensen een concentratie mogelijk
+          is"; ook professor Gerretson meende dat hier autoriteit tegenover majoriteit
+          gesteld moest worden. Terwijl men naarstig bezig was met de opstelling van een
+          manifest vond juist de beruchte muiterij op de "Zeven Provinciën" plaats. De
+          inhoud van het manifest werd hierop afgestemd door daarin te stellen dat door
+          dit gebeuren het voor ieder weldenkend Nederlander duidelijk geworden moest
+          zijn "welke noodlottige en voor het Nederlandsche volk beschamende gevolgen de
+          bestaande verslapping van het gezag met zich medebrengt". Het manifest trok
+          hierdoor in brede kringen de aandacht. De oprichting van het Verbond voor
+          Nationaal Herstel vond hierna plaats op 21 februari 1933. Als voorzitter trad
+          luitenant-generaal H.N.A. Swart op. Dr. H.H.A. van Gybland Oosterhoff was
+          ondervoorzitter. De grootste aanhang verkreeg het Verbond uit de
+          conservatief-oppositionele vleugels van de Christelijk-Historische Unie,
+          waartoe ook Van Gybland Oosterhoff behoord had, en van de Liberale
+          Vrijheidsbond. Voorts vond het Verbond in katholiek-nationale kringen aanhang;
+          een van de belangrijkste vertegenwoordigers van deze groep was pater Wouter
+          Lutkie, die aan alle voorbereidende besprekingen van het Verbond deelnam.
+          Generaal Snijders, die erevoorzitter van het Verbond was, steunde het door een
+          oproep aan het Nederlandse volk in zijn radiorede van 29 maart 1933, welke
+          vooral in militaire en intellectuele kringen weerklank vond. Anderzijds bleek
+          al spoedig, dat de nationale gedachte van het Verbond, waar deze niet verbonden
+          was met een sociale idee, geen aantrekkingskracht op de massa kon
+          uitoefenen.</html:p>
+          <html:p>De eigenlijke oprichting van het Verbond voor Nationaal Herstel had
+          plaats op 21 februari 1933Zie inv. nr. 151.. Als doelstelling werd aangegeven
+          het bevorderen van de nationale gedachte op een tiental grondslagen te
+          weten:</html:p>
+          <html:p>Trouw aan het Oranjehuis,Erkenning van het christelijk karakter van ons
+          volksleven als de historische grondslag en de bezielende geest van onze
+          nationale beschaving,De nationale staat als de staatkundige verwerkelijking van
+          de historische vrijheidsgedachte op geestelijk en stoffelijk gebied,Krachtige
+          handhaving van orde en gezag; wering van elke gezagsondermijning,Handhaving en
+          versterking van de band tussen de verschillende delen van het rijk,Handhaving
+          en versterking van de weerbaarheid des rijks tot wettige
+          zelfverdediging,Erkenning van de individuele bestaansverantwoordelijkheid, in
+          zover deze strookt met de welvaart des volks in al zijn geledingen,Verwerping
+          van de klassenstrijd,Aanvaarding van het organisch-corporatief element in onze
+          staatsinrichting in het kader van de nationale gedachte als middel tot
+          bestrijding van het verworden parlementair-democratische stelsel,Aanvaarding
+          van het beginsel van economische zelfbescherming, in verband van de
+          rijkseenheid (Nederland en de Indiën), waar en wanneer dit door de economische
+          ontwikkeling in de wereld noodzakelijk wordt gemaakt ter verdediging van het
+          levensbestaan van het rijk.</html:p>
+          <html:p>Het Verbond voor Nationaal Herstel werd door haar tegenstanders niet
+          ten onrechte als een fascistische beweging gekarakteriseerd, al moet men
+          daarbij bedenken dat fascisme een modewoord was in die tijd en niet die
+          verwerpelijke betekenis had, die het door de Tweede Wereldoorlog gekregen heeft
+          Zie voor het hierna volgende: inv. nr. 188.. De Verbondsleiding kon dan ook
+          schrijven: "Wij hebben zelf ook gezegd, dat wanneer men onder "fascisme"
+          verstaat de levenswil van een volk, dat niet ten onder wil gaan, wij ons dan
+          ook "fascisten" noemen. Trouwens een man als prof. de Savornin Lohman is door
+          de heer Mendels in de Eerste Kamer een"edel-fascist" genoemd. Van de N.S.B.
+          distancieerde het Verbond zich in 1935 definitief: "Bij overeenstemming van
+          sommige nationale doeleinden is het Verbond voor Nationaal Herstel van de
+          N.S.B. gescheiden door het onoverkomelijk beletsel van het leidersbeginsel
+          ...". Wel aanvaardde het Verbond onvoorwaardelijk de noodzaak van een
+          corporatieve ordening, zoals deze door het fascisme in Italië en Portugal in
+          praktijk werd gebracht, zij het dan een "corporatieve ordening in
+          overeenstemming met volksaard en historie", zoals de titel van een door J.C.
+          den Baars aan dit onderwerp gewijde brochure van het Verbond luiddeZie inv. nr.
+          180..</html:p>
+          <html:p>In het programma van het Verbond, zoals dat in de brochure "Alle hens
+          aan dek" uiteengezet wordtZie inv. nr. 164., luidt één van de doelstellingen:
+          "wijziging van het kiesrecht". Hierop wordt de volgende toelichting gegeven:
+          "Er dient gebroken te worden met een stelsel, dat het aantal boven de
+          hoedanigheid stelt. Met afschaffing van de evenredige vertegenwoordiging kome
+          de adviserende, deskundige vertegenwoordiging van economische en geografische
+          groepen". In het totaal worden in deze brochure 36 doelstellingen genoemd en
+          wel de volgende:</html:p>
+          <html:p>Het verhogen en versterken van het nationale bewustzijn.Trouw aan ons
+          vorstenhuis als symbool der vaderlandse eenheid en
+          onafhankelijkheid.Afschaffing van het verworden democratische parlementaire
+          stelsel.Wijziging van het kiesrecht.Bescherming van de gemeenschap tegen
+          niet-nationale bedrijfsvoering van ondernemingen.Beperking van de gemeentelijke
+          autonomie, geen gelegenheid meer voor inflatoire politiek van openbare
+          lichamen, centrale preventieve contrôle van alle openbare financiële
+          aangelegenheden.Bevordering van het particulier initiatief.Beperking van
+          vrijheid van drukpers, misbruik van deze vrijheid tot ondermijning van
+          godsdienst, gezin en gezag kunnen niet langer worden geduld.Een nationale
+          omroep.Verbod van marxistische en anarchistische partijen en
+          organisaties.Verwerping van de klassenstrijd.Uitbreiding van de
+          rijkspolitie.Geen steun zonder productieve arbeidsprestatie.Inperking der
+          sociale wetgeving, wèl gemeenschapszorg voor ouden van dagen.Dekking van
+          begrotingstekorten door krachtige bezuiniging, niet door nieuwe
+          lasten.Handhaving van gezonde kapitaals-verhoudingen; bestrijding van het
+          marxisme.Aankweken van plichtsgevoel, verantwoordelijkheidsbesef en
+          vertrouwen.Loon en bevordering naar prestatie.Afschaffing van de on-economische
+          arbeidsbeperking.Rijkseenheid.Handhaving, versterking en centralisatie van alle
+          gezag.Bevordering van eenvoud en spaarzin.Vrijheid van godsdienst.Versterking
+          van het gezinsverband.Algemene dienst- en arbeidsplicht.Snel en streng
+          recht.Regeling van de immigratie.Bestrijding van de partijpolitiek.Afschaffing
+          van het stelsel van accumulatie van inkomens.Bevordering van kunsten en
+          wetenschappen in nationale zin en rekening houdend met de volksaard.Bevordering
+          van de kennis van onze vaderlandse geschiedenis.Nationaal onderwijs, geen
+          sectarisme, geen rode onderwijzers; stopzetting van scholenbouw.Vaststelling
+          van maximum en minimum loongrenzen.Economische zelfbescherming.Bevordering van
+          de geestelijke kracht en economische waarde onzer landbouwbevolking.Herziening
+          van het belastingstelsel, vereenvoudiging van de wijze van aanslag en
+          inning.</html:p>
+          <html:p>Van Gybland Oosterhoff was als hoofdredacteur van het vanaf 20 maart
+          1933 verschijnende orgaan de ziel van het VerbondZie voor het hierna volgende:
+          inv. nr. 188.. Hoewel het Verbond zich aanvankelijk uitdrukkelijk als
+          "beweging" manifesteerde, begaf het zich toch in de verkiezingsstrijd voor de
+          Kamerverkiezingen van 1933. Generaal Snijders fungeerde als lijsttrekker, maar
+          zou bij verkiezing niet in het parlement zitting nemen, maar zijn zetel ter
+          beschikking stellen van de volgende kandidaat, mr. dr. W.M. Westerman.
+          Inderdaad behaalde het Verbond één zetel in de Tweede Kamer, welke dus door
+          Westerman, één van haar extreemste vertegenwoordigers, die later naar de N.S.B.
+          zou overgaan, werd ingenomen.</html:p>
+          <html:p>In 1934 voerde ir. Wigersma besprekingen met generaal Snijders over de
+          mogelijkheid van een fusie met de N.S.B. Het initiatief ging geheel van de
+          N.S.B. uit en leidde tot geen enkel resultaat, omdat het leidersbeginsel van de
+          N.S.B.-en meer in het bijzonder de persoon van de leider-een beletsel bleef.
+          Wel kwam het tot een nauwe samenwerking met Nationaal Jongeren Verbond, het
+          Indo-Europees Verbond en de Vaderlandse Club, vooral ook omdat er ook in
+          Nederlands-Indië een bloeiende afdeling van het Verbond was, onder de
+          geïnspireerde leiding van de marineofficier J.A. van Gelder te Soerabaja, met
+          wie Van Gybland Oosterhoff uitgebreidde contacten onderhieldZie inv. nr.
+          159..</html:p>
+          <html:p>Voor de Kamerverkiezingen van 1937 diende Nationaal Herstel voor de
+          laatste maal een kandidatenlijst inZie voor het hierna volgende: inv. nr. 188..
+          Wegens overgang naar de N.S.B. van mr. dr. Westerman was dit maal dr. W. Emmens
+          lijstaanvoerder. Te midden van de voorbereidingen voor de verkiezingsveldslag
+          stierf Van Gybland Oosterhoff plotseling aan een acute buikvliesontsteking op
+          21 januari 1937. Voor het Verbond liepen deze verkiezingen uit op een fiasco.
+          Het verwierf slechts 6000 stemmen en verloor dus zijn enige zetel in de Tweede
+          Kamer. Dit had een grote uittocht van leden tot gevolg. Toch bleef het Verbond
+          nog voortbestaan tot 31 oktober 1940.</html:p>
+          <html:p>Behalve politicus was Van Gybland Oosterhoff nog secretaris van de
+          Ondernemersraad voor Suriname en voorzitter van de Nederlands-Mexicaanse kamer
+          van koophandelZie afdeling B-I-d van deze inventaris..</html:p>
+          <html:p>Daarnaast kunnen twee belangrijke particuliere activiteiten van Van
+          Gybland Oosterhoff niet onvermeld blijven: zijn arbeid ter bestrijding van het
+          communisme zowel op nationaal als internationaal niveau, vooral als deelgenoot
+          aan de Entente internationale contre la IIIe internationale (Entente
+          internationale anti-communiste), alsmede zijn inspanning om meer bekendheid te
+          geven aan de nederlandse cultuur in Zuid-AfrikaZie de afdelingen B-III-a en
+          B-III-b van deze inventaris.. Door zijn beschikking werd na zijn dood zijn
+          uiterst uitgebreide verzameling voorwerpen, boeken, prenten, oude proclamaties,
+          porcelein, meubels etc., alles betrekking hebbende op het Oranjehuis,
+          geschonken aan het Nederlands Cultuurhistorisch Instituut van de universiteit
+          van Pretoria. Daarbij bevindt zich o.m. de kerkbank waarin Willem van Oranje de
+          kerkdiensten placht bij te wonen. Het geheel werd opgesteld in een
+          afzonderlijke ruimte: de Van Gybland Oosterhoff-kamerZie inv. nr. 323.. Deze
+          "Oranje-collectie" werd ná 1945 aangevuld met een verzameling "Oorlog en
+          bezetting van Nederland", waarvan de kern geschonken werd door mej. L.J. van
+          Gybland Oosterhoffen waarvan de catalogus, na geregeld ontvangen aanvullingen,
+          ruim 2500 nummers telt. Deze oorlogscollectie is daarmee een van de grootste,
+          zo niet de grootste van die aard buiten Nederland. Tenslotte werden de door mr.
+          dr. H.H.A. van Gybland Oosterhoff geschonken boeken over Nederlands-Indië en de
+          vóóroorlogse ontwikkelingen aldaar nog aangevuld met een verzameling
+          publicaties betreffende Indonesië in en na de oorlogMededeling van de heer C.
+          van Wermeskerken te Den Haag, alsmede de periodieken Op Wacht, jrg. 1946 en
+          Nederlandse Post (Kaapstad) jrg. 1951..</html:p>
+          <html:p>Eveneens werd na zijn dood ter zijner nagedachtenis een stichting in
+          het leven geroepen ter bekroning van prestaties, van welke aard dan ook, die
+          uitdrukking zouden geven aan de rijkseenheidsgedachte: de mr. dr. Horace Hugo
+          Alexander van Gybland Oosterhoff-Stichting. In 1939 werd de gouden medaille van
+          deze stichting voor het eerst uitgereikt aan dr. V.I. van de Wall voor zijn
+          dissertatie over het hollandse-koloniale barokmeubel, van welk type meubelen de
+          ouders van Horace een grote verzameling hadden aangelegdZie inv. nr.
+          352..</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Horace Hugo Alexander van Gybland Oosterhoff (1887-1937) was werkzaam voor
+      de Bataafsche Petroleummaatschappij, en werd secretaris van de Indologische
+      faculteit van de Utrechtse universiteit. In zijn denken stond een politiek, die
+      gericht was op een nationale eenheid-zowel intern als van de rijksdelen
+      onderling-en die voortbouwde op historische grondslag en zich schaarde om het huis
+      van Oranje als nationaal volkssymbool, centraal. Deze politiek richtte zich tegen
+      alles wat "rood" was. In de crisisjaren was hij betrokken bij de oprichting van het
+      reactionaire "Verbond van Nationaal Herstel". Na zijn dood werd ter zijner
+      nagedachtenis een stichting in het leven geroepen ter bekroning van prestaties, van
+      welke aard dan ook, die uitdrukking zouden geven aan de rijkseenheidsgedachte: de
+      mr. dr. Horace Hugo Alexander van Gybland Oosterhoff-Stichting. Het archief bevat
+      veel correspondentie, herinneringsplakboeken, en stukken opgemaakt uit hoofde van
+      zijn functies.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>353 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/dd240e72-f0ce-4323-b9f2-4f30fbbdf841"
+  rdf:about="record/2.05.48.17">
+    <rico:identifier>2.05.48.17</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1993</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/Z26057" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.05.48.17/i1" />
+      <rico:instantiates rdf:resource="record/2.05.48.17" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Nederlandse Consulaat te
+        Brussel, 1851-1940; en het Bureau ter behartiging van de belangen van
+        Nederlanders te Brussel, 1940-1945</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/dd240e72-f0ce-4323-b9f2-4f30fbbdf841" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/Z26057">
+    <rico:describedBy rdf:resource="record/2.05.48.17" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>Z26057</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Consulaat Brussel (België)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Consulaat Brussel</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1851</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:endDate>
+    <rico:date>1851-1945</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Consulaat Brussel 1851-1940,</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Nederlands consulaat te Brussel werd in 1851 opgericht. Dit in
+          verband met het toenemend aantal Nederlandse schepen dat de haven van Brussel
+          bezocht en dat een beroep deed op consulaire faciliteiten. De consul opereerde
+          onder de hoede van de te Brussel gevestigde Nederlandse gezant, maar maakte
+          geen deel uit van diens organisatie. Tussen 1851 en 1940 waren aan het
+          consulaat de volgende functionarissen verbonden: Dhr. 't Kint van der Kun,
+          1851-1861.Dhr. Barnet Lyon, consul bij KB. 31 augustus 1866 no. 65.A.G. de
+          Mare, consul bij KB. 22 februari 1872 no. 31, ontslagen bij KB. 17 maart no.
+          16.P.P. Everts, vice-consul per koninklijke machtiging 9 oktober 1878, consul
+          bij KB. 16 november 1884 no. 14, overleden 1897.J.D. Ruys, consul bij KB. 5 mei
+          1898 no 22, consul-generaal (persoonlijke titel) bij KB. 19 mei 1906 no. 19,
+          overleden 1916.J.J.J. Schellens, consul bij KB. 9 april 1919 no. 49, ontslagen
+          bij KB. 10 november 1920 no. 51.E.V.J.M. Seydlitz, vice-consul bij KB. 19
+          augustus 1919 no. 40, consul bij KB. 18 augustus 1921 no. 87, overleden
+          1924.G.L. van der Maessen de Sombreff, consul bij KB. 4 juli 1925, ontslagen
+          bij KB. 1 juni 1938 no. 27.A.F. Wurfbain, consul bij KB. 11 maart 1939 no.
+          108.</html:p>
+          <html:p>Buiten Everts en Seydlitz waren vice-consul: V.W.F. de Flines, per
+          koninklijke machtiging 5 mei 1896, overleden 1911.G.L. van der Waarden, bij KB.
+          24 juni 1911 no. 72, ontslagen bij KB. 1 februari 1917 no. 23. Het ressort van
+          het consulaat omvatte de Belgische provincies Brabant en Henegouwen. Nadat de
+          Nederlandse diplomatieke en consulaire vertegenwoordiging in 1940 uit Brussel
+          vertrok werd in de Belgische hoofdstad het Bureau ter Behartiging van de
+          Belangen van Nederlanders geopend. Dit bureau verleende minimale consulaire
+          bijstand aan Nederlanders. Het ressorteerde onder de tijdens de Tweede
+          Wereldoorlog gelijkgeschakelde departementen te Den Haag. Na de bevrijding van
+          België nam de Nederlandse consulaire vertegenwoordiging de taken weer
+          over.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bureau ter behartiging van de belangen van Nederlanders te
+            Brussel 1940-1945</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Nederlands consulaat te Brussel werd in 1851 opgericht. Dit in
+          verband met het toenemend aantal Nederlandse schepen dat de haven van Brussel
+          bezocht en dat een beroep deed op consulaire faciliteiten. De consul opereerde
+          onder de hoede van de te Brussel gevestigde Nederlandse gezant, maar maakte
+          geen deel uit van diens organisatie. Tussen 1851 en 1940 waren aan het
+          consulaat de volgende functionarissen verbonden: Dhr. 't Kint van der Kun,
+          1851-1861.Dhr. Barnet Lyon, consul bij KB. 31 augustus 1866 no. 65.A.G. de
+          Mare, consul bij KB. 22 februari 1872 no. 31, ontslagen bij KB. 17 maart no.
+          16.P.P. Everts, vice-consul per koninklijke machtiging 9 oktober 1878, consul
+          bij KB. 16 november 1884 no. 14, overleden 1897.J.D. Ruys, consul bij KB. 5 mei
+          1898 no 22, consul-generaal (persoonlijke titel) bij KB. 19 mei 1906 no. 19,
+          overleden 1916.J.J.J. Schellens, consul bij KB. 9 april 1919 no. 49, ontslagen
+          bij KB. 10 november 1920 no. 51.E.V.J.M. Seydlitz, vice-consul bij KB. 19
+          augustus 1919 no. 40, consul bij KB. 18 augustus 1921 no. 87, overleden
+          1924.G.L. van der Maessen de Sombreff, consul bij KB. 4 juli 1925, ontslagen
+          bij KB. 1 juni 1938 no. 27.A.F. Wurfbain, consul bij KB. 11 maart 1939 no.
+          108.</html:p>
+          <html:p>Buiten Everts en Seydlitz waren vice-consul: V.W.F. de Flines, per
+          koninklijke machtiging 5 mei 1896, overleden 1911.G.L. van der Waarden, bij KB.
+          24 juni 1911 no. 72, ontslagen bij KB. 1 februari 1917 no. 23. Het ressort van
+          het consulaat omvatte de Belgische provincies Brabant en Henegouwen. Nadat de
+          Nederlandse diplomatieke en consulaire vertegenwoordiging in 1940 uit Brussel
+          vertrok werd in de Belgische hoofdstad het Bureau ter Behartiging van de
+          Belangen van Nederlanders geopend. Dit bureau verleende minimale consulaire
+          bijstand aan Nederlanders. Het ressorteerde onder de tijdens de Tweede
+          Wereldoorlog gelijkgeschakelde departementen te Den Haag. Na de bevrijding van
+          België nam de Nederlandse consulaire vertegenwoordiging de taken weer
+          over.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het Nederlands consulaat te Brussel werd in 1851 opgericht. Dit in
+          verband met het toenemend aantal Nederlandse schepen dat de haven van Brussel
+          bezocht en dat een beroep deed op consulaire faciliteiten. De consul opereerde
+          onder de hoede van de te Brussel gevestigde Nederlandse gezant, maar maakte
+          geen deel uit van diens organisatie. Tussen 1851 en 1940 waren aan het
+          consulaat de volgende functionarissen verbonden: Dhr. 't Kint van der Kun,
+          1851-1861.Dhr. Barnet Lyon, consul bij KB. 31 augustus 1866 no. 65.A.G. de
+          Mare, consul bij KB. 22 februari 1872 no. 31, ontslagen bij KB. 17 maart no.
+          16.P.P. Everts, vice-consul per koninklijke machtiging 9 oktober 1878, consul
+          bij KB. 16 november 1884 no. 14, overleden 1897.J.D. Ruys, consul bij KB. 5 mei
+          1898 no 22, consul-generaal (persoonlijke titel) bij KB. 19 mei 1906 no. 19,
+          overleden 1916.J.J.J. Schellens, consul bij KB. 9 april 1919 no. 49, ontslagen
+          bij KB. 10 november 1920 no. 51.E.V.J.M. Seydlitz, vice-consul bij KB. 19
+          augustus 1919 no. 40, consul bij KB. 18 augustus 1921 no. 87, overleden
+          1924.G.L. van der Maessen de Sombreff, consul bij KB. 4 juli 1925, ontslagen
+          bij KB. 1 juni 1938 no. 27.A.F. Wurfbain, consul bij KB. 11 maart 1939 no.
+          108.</html:p>
+          <html:p>Buiten Everts en Seydlitz waren vice-consul: V.W.F. de Flines, per
+          koninklijke machtiging 5 mei 1896, overleden 1911.G.L. van der Waarden, bij KB.
+          24 juni 1911 no. 72, ontslagen bij KB. 1 februari 1917 no. 23. Het ressort van
+          het consulaat omvatte de Belgische provincies Brabant en Henegouwen. Nadat de
+          Nederlandse diplomatieke en consulaire vertegenwoordiging in 1940 uit Brussel
+          vertrok werd in de Belgische hoofdstad het Bureau ter Behartiging van de
+          Belangen van Nederlanders geopend. Dit bureau verleende minimale consulaire
+          bijstand aan Nederlanders. Het ressorteerde onder de tijdens de Tweede
+          Wereldoorlog gelijkgeschakelde departementen te Den Haag. Na de bevrijding van
+          België nam de Nederlandse consulaire vertegenwoordiging de taken weer
+          over.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het Nederlands consulaat te Brussel werd in 1851 opgericht, dit in verband
+      met het toenemend aantal Nederlandse schepen dat de haven van Brussel bezocht en
+      dat een beroep deed op consulaire faciliteiten. Het archief bevat brievenboeken en
+      overige correspondentie plus een register van binnengekomen schepen. Tevens zijn er
+      stukken betreffende richtlijnen inzake de hulpverlening aan en de toelating van
+      vreemdelingen tot Nederland. Gedurende de Tweede Wereldoorlog fungeerde er een
+      'Bureau ter behartiging van de belangen van Nederlanders'. Dit bureau werd geopend
+      na het vertrek van de Nederlandse diplomatieke en consulaire vertegenwoordiging uit
+      Brussel in mei 1940. Het ressorteerde onder het departement in Den Haag en
+      verleende consulaire bijstand aan Nederlanders in België. Het (onvolledige) archief
+      bevat stukken over de consulaire werkzaamheden, zoals overlijden in het buitenland,
+      nationaliteitskwesties, scheepvaart, juridische bijstand, pensioenkwesties,
+      ondersteuning en rapportages aan het departement in Den Haag. Na de bevrijding van
+      Brussel in september 1944 nam de Nederlandse consulaire dienst de taken weer
+      over.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.60 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>63 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

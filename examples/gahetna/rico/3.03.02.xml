@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/9e22c750-0c86-440a-b824-c7f405ee6c55"
+  rdf:about="record/3.03.02">
+    <rico:identifier>3.03.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1963</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3308" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.03.02/i1" />
+      <rico:instantiates rdf:resource="record/3.03.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20200205</rico:hasModificationDate>
+        <html:p>5 februari 2020</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20180308</rico:hasModificationDate>
+        <html:p>8 maart 2018</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150309</rico:hasModificationDate>
+        <html:p>9 maart 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2014-04-11</rico:hasModificationDate>
+        <html:p>11 april 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20111222</rico:hasModificationDate>
+        <html:p>22 december 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080808</rico:hasModificationDate>
+        <html:p>8 augustus 2008</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Hoge Raad van Holland,
+        Zeeland en (West-)Friesland, 1582-1797</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/9e22c750-0c86-440a-b824-c7f405ee6c55" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <html:p>Normale geschreven en gedrukte teksten. De stukken van vóór ca. 1700 zijn
+        geschreven in het gotische cursiefschrift, met name in de oud-Hollandse
+        klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3308">
+    <rico:describedBy rdf:resource="record/3.03.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3308</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Hoge Raad van Holland en Zeeland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Hoge Raad Holland en Zeeland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1582</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1797</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1582-1797</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoge Raad van Holland, Zeeland en (West-)Friesland,
+            1582-1797</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op het terrein van de rechtspraak maakte de Opstand de inrichting van
+          een nieuw appèl-college noodzakelijk, toen door de scheiding tussen noord en
+          zuid appèl op de Grote Raad van Mechelen niet meer mogelijk was. In 1582 werd
+          de Hoge Raad van Holland en Zeeland opgericht die zijn zetel te 's-Gravenhage
+          kreeg. Het lag in de bedoeling dat de Hoge Raad als centraal rechtscollege zou
+          fungeren, waarbij men van de provinciale hoven in beroep zou kunnen gaan.
+          Behalve door Holland werd de rechtsmacht van de Hoge Raad in 1587 ook door
+          Zeeland erkend, maar de overige gewesten hielden zich afzijdig. Aldus ontstond
+          de merkwaardige situatie dat de werkzaamheden van de Hoge Raad en het hiervoor
+          besproken Hof van Holland, beide gehuisvest in het Haagse Binnenhof, elkaar min
+          of meer overlapten en bijgevolg voortdurend tot competentiegeschillen
+          aanleiding hebben gegeven.</html:p>
+          <html:p>De instructie voor de Hoge Raad van Holland en Zeeland werd in 1582 in
+          289 artikelen vastgelegd. In appèl werden zaken behandeld die voor het Hof van
+          Holland of voor de colleges van dijkgraven en hoogheemraden hadden gediend. In
+          eerste aanleg behandelde de Raad bezitkwesties, burgerlijke geschillen tussen
+          vreemde kooplieden of uitheemsen en zeevaartzaken. Voorts zijn door de
+          Staten-Generaal zaken naar de Hoge Raad verwezen die in hoofdzaak betrekking
+          hadden op de Generaliteitslanden. Daarnaast heeft de Hoge Raad een belangrijke
+          taak vervuld op het terrein van de voluntaire jurisdictie. Evenals bij het Hof
+          van Holland werd een deel van de raadsleden door Zeeland benoemd.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Hoge Raad van Holland en Zeeland fungeerde als beroepscollege voor
+      vonnissen van het Hof van Holland en colleges van dijkgraaf en heemraden. Ook
+      werden zaken door de Staten-Generaal naar de Hoge Raad verwezen. In eerste aanleg
+      behandelde de Hoge Raad geschillen tussen vreemde kooplieden en zeevaartzaken. De
+      Hoge Raad vervulde voorts een belangrijke taak op het terrein van de jurisdictie.
+      Het archief bevat rekesten, rollen, intimatiën, registers, sententies, resoluties,
+      condemnatiën, conclusies, memorialen, rekeningen en dergelijke. De stukken zijn op
+      jaar geordend en deels ontsloten met behulp van indices.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1590 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>155,60 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

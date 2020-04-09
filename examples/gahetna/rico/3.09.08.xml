@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6fc2c1f9-e2d6-4678-8871-7c51dc6f87c9"
+  rdf:about="record/3.09.08">
+    <rico:identifier>3.09.08</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1947</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3393" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.09.08/i1" />
+      <rico:instantiates rdf:resource="record/3.09.08" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de
+        Artillerie-Instructie-Compagnie</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6fc2c1f9-e2d6-4678-8871-7c51dc6f87c9" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3393">
+    <rico:describedBy rdf:resource="record/3.09.08" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3393</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Artillerie-Instructie-Compagnie te
+      Schoonhoven</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Artillerie-Instructie-Compagnie</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1862</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1922</rico:endDate>
+    <rico:date>1862-1922</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie-instructie compagnie te Schoonhoven,
+            1862-1922</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Toen in het jaar 1862 het noodzakelijk bleek te zijn om maatregelen te
+          nemen ter voorziening in de toekomst in de behoefte aan onderofficieren en
+          korporaals bij het wapen der Artillerie, werd door de Minister van Oorlog op de
+          begroting een post uitgetrokken van f. 50,000,- voor de bouw van een kazerne te
+          Doesburg. In de 2de Kamer der Staten-Generaal werden hiertegen bezwaren
+          aangevoerd, met het gevolg, dat die post niet werd toegestaan.</html:p>
+          <html:p>Door het gemeente-bestuur van Schoonhoven werd de Minister van Oorlog
+          te kennen gegeven, dat het prijs zou stellen op vestiging van een op te richten
+          opleidingsschool in hun gemeente. Dit bestuur nom op zich in de kortstmogelijke
+          tijd in de huisvesting der op te richten artillerie-instructie-compagnie op een
+          voor het Rijk kosteloze wijze te voorzien, Een voormalig arsenaal werd
+          aanmerkelijk vergroot en tot kazerne ingericht en de nodige oefenterreinen
+          gereed gemaakt.</html:p>
+          <html:p>Bij Koninklijk Besluit van 11 Mei 1862, no. 51 werd besloten tot
+          oprichting van een afzonderlijke instructie-compagnie te Schoonhoven. Onder de
+          naam van Artillerie-instructie-compagnie was zij een zelfstandig
+          korps.</html:p>
+          <html:p>Tot commandant werd benoemd de kapitein J.C. Collard (Beschikking
+          Minister van Oorlog, 16 Januari 1863, no. 47).</html:p>
+          <html:p>De eerste jongelingen werden tegen 19 Mei 1863 tot indienststelling
+          opgeroepen. Ook konden jongelingen worden aangenomen, bestemd voor de dienst
+          der artillerie in Oost-Indië.</html:p>
+          <html:p>Bij de opheffing der depôt-compagnieën in 1865 bij de drie regimenten
+          vesting-artillerie, die voortaan elk uit 14 compagnieën zouden bestaan, hield
+          de Artillerie-Instructie-Compagnie op een zelfstandig korps te zijn en werd als
+          14e compagnie ingedeeld bij het 2e regiment vesting-artillerie.</html:p>
+          <html:p>Toen in 1870 het leger gemobiliseerd werd tot handhaving onzer
+          neutraliteit bij het uitbreken van de oorlog tussen Duitsland en Frankrijk,
+          werd de compagnie enige tijd aan haar bestemming onttrokken, doordat zij
+          geroepen werd om daaraan een werkzaam deel te nemen. De compagnie rukte 21 Juli
+          op naar de vesting Naarden. Reeds de 19e September van dat jaar kwam zij weder
+          in Schoonhoven terug.</html:p>
+          <html:p>In verband met het toenemend aantal jongelieden, dat in dienst trad met
+          het doel om tot de officiersrang op te klimmen, werd in 1872 een verandering in
+          de opleiding gebracht. In een afzonderlijke klasse werden zij geplaatst,
+          waarbij aan enige officieren het onderricht in een of meer vakken werd
+          opgedragen. Deze toestand werd bestendigd tot in 1877, toen, na de invoering
+          der Wet van 30 Mei, houdende regeling van het onderwijs bij de Koninklijke
+          Militaire Academie bepaald werd, dat bij de compagnie geen jongelingen meer
+          mochten worden aangenomen, met het doel om daarbij voorbereidend onderwijs te
+          ontvangen voor het toelatings-examen tot de wetenschappelijke cursus.</html:p>
+          <html:p>Bij de opheffing van het Regimentsverband bij de vesting-artillerie in
+          1878, werd de Artillerie-Instructie-Compagnie weer een zelfstandig korps onder
+          de naam van Artillerie-Instructie-Compagnie. De naam van jongeling was reeds
+          vervangen door die van volontair.</html:p>
+          <html:p>Bij de reorganisatie van het Wapen den Artillerie in 1881 werd naast de
+          Artillerie-Instructie-Compagnie, die toen de naam kreeg van
+          Instructie-Compagnie, een Instructie-Batterij opgericht, ten einde te voorzien
+          in de behoefte aan kader, uitsluitend bij de bereden artillerie.</html:p>
+          <html:p>Hiermede ging een verandering van bestemming der Instructie-Compagnie
+          gepaard, die nu niet moest dienen tot aankweking en opleiding van
+          onder-officieren en korporaals voor het gehele wapen, maar uitsluitend strekken
+          zou tot voorziening in kader voor de Vesting-Artillerie, Ponteniers en
+          Torpedisten.</html:p>
+          <html:p>De opheffing geschiedde op 1 September 1922.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In 1862 werd door middel van een Koninklijk Besluit de
+      Artillerie-instructie-compagnie in het leven geroepen om aan de toekomstige vraag
+      naar onderofficieren en korporaals bij de artillerie te voldoen. Het
+      gemeente-bestuur van Schoonhoven bood daarop huisvesting en oefenterreinen aan voor
+      de op te richten opleidingsschool. De compagnie zou tot 1922 blijven
+      functioneren.Het archief bevat ontvangen en minuten van verzonden (geheime) brieven
+      en andere stukken, agenda's op deze correspondentie, kopie-rapporten, orderboeken
+      en stukken betreffende praktische zaken, zoals oefeningen en vieringen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5.30 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>89 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6421a304-238f-402b-aeeb-e7792baf8866"
+  rdf:about="record/2.21.342">
+    <rico:identifier>2.21.342</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2005</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C24049" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.342/i1" />
+      <rico:instantiates rdf:resource="record/2.21.342" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150130</rico:hasModificationDate>
+        <html:p>30 januari 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150522</rico:hasModificationDate>
+        <html:p>22 mei 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20171113</rico:hasModificationDate>
+        <html:p>13 november 2017</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van prof. dr. J.Th. de Smidt
+        [levensjaren 1923-2013], 1961-1978</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6421a304-238f-402b-aeeb-e7792baf8866" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gestencilde documenten, vaak in doorslag.
+        Inventarisnummer 15 bevat negatieven; inventarisnummer 48 bevat
+        microfilms.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C24049">
+    <rico:describedBy rdf:resource="record/2.21.342" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C24049</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie prof.dr. J.Th. de Smidt</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Smidt, de</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1939</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2011</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1939-2011</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Smidt, J.Th de., 1923-2013</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacobus Thomas de Smidt (1923-2013) begon zijn loopbaan als leraar
+          Frans, in welk vak hij in 1932 promoveerde. In 1942 bereidde hij zich voor op
+          een studie in de rechten, die hij, na zijn onderduikperiode, in 1950 met een
+          doctoraalexamen afsloot. Hij was inmiddels actief in het Dispuut voor
+          Oud-vaderlands recht De Consumieren, een netwerk dat vanaf 1945 een belangrijke
+          rol zou spelen bij de ontsluiting van oude rechtsbronnen.</html:p>
+          <html:p>In 1956 werd hij benoemd tot hoogleraar Inleiding tot de
+          rechtswetenschap en Grondslagen van het Oud-Nederlands recht aan de Gemeente
+          Universiteit in Amsterdam. In 1965 werd hij hoogleraar Oud-vaderlands recht in
+          Leiden, waarnaast hij nog als buitengewoon hoogleraar in Amsterdam een
+          leerstoel behield. Hij nam het initiatief tot samenstelling van een
+          bibliografie van de Nederlandse rechtsgeschiedenis. Dat leidde tot het ontstaan
+          van het in 1967 gestichte Nederlands Centrum voor Rechtshistorische
+          Documentatie.</html:p>
+          <html:p>Belangrijke projecten zijn de ontdekking en ontsluiting van de
+          Noord-Nederlandse dossiers in het archief van de Hoge Raad van Mechelen, een
+          uitgave van Bronnen van de Nederlandse Codificatie sinds 1798, de ontsluiting
+          van West-Indische plakkaten. Als voorzitter van de in 1968 ingestelde
+          Archiefraad speelde hij een belangrijke rol bij de materiële vernieuwing van
+          het archiefbestel en van de indertijd beleidsmatig verwaarloosde
+          rijksarchiefdienst.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief is het bewaard gebleven werkarchief van de rechtshistoricus
+      prof. mr. J.Th. de Smidt, die een centrale rol speelde in projecten van
+      bronnenuitgaven over de wetgeving in de Nederlanden en de koloniën. Het archief
+      bevat behalve stukken betreffende zijn loopbaan als hoogleraar ook materiaal
+      betreffende zijn voorzitterschap van de Archiefraad. Daarnaast is een collectie
+      onderzoeksdocumentatie opgenomen over de koloniën van de West-Indische Compagnie op
+      het Amerikaanse continent en in het Caraïbisch gebied. Een groot deel van het
+      studiemateriaal, in hoofdzaak afkomstig uit buitenlandse archiefbewaarplaatsen, is
+      niet gepubliceerd.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>115 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5,20 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

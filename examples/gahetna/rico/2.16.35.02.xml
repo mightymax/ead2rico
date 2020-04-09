@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/ac7604c0-6887-40bb-8196-e6334cf7cc13"
+  rdf:about="record/2.16.35.02">
+    <rico:identifier>2.16.35.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1976</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/W26524" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.35.02/i1" />
+      <rico:instantiates rdf:resource="record/2.16.35.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het werkarchief van de waarnemend
+        Directeur-Generaal van Rijkswaterstaat en Hoofdingenieur-Directeur Wegen en
+        Bruggen ir. C.T.C. Heyning [geboren 1888], (1939) 1942-1943</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/ac7604c0-6887-40bb-8196-e6334cf7cc13" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/W26524">
+    <rico:describedBy rdf:resource="record/2.16.35.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>W26524</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Werkarchief C.T.C. Heyning</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Heyning</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1939</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1943</rico:endDate>
+    <rico:date>1939-1943</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Waterstaat / Rijkswaterstaat (Directie van de
+            Waterstaat)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Geschiedenis tevens levensbeschrijving Ir. Cornelis Theodor Christiaan
+          Heijning, geboren te Buitenzorg (N.O.I.) 27 februari 1888.</html:p>
+          <html:p>Na het behalen van zijn diploma civiel-ingenieur in 1911 trad hij als
+          ingenieur in dienst bij de Semarang-Cheribon Stoomtrammaatschappij.</html:p>
+          <html:p>Op 1 februari 1917 werd hij aangesteld als tijdelijk ingenieur van de
+          Rijkswaterstaat ter standplaats Roermond, en werd op 1 november van dat jaar
+          benoemd tot ingenieur 3e klasse en gesteld onder de bevelen van het Hoofd van
+          de 8e directie ter standplaats Roermond, alwaar hij tot en met maart 1927 zou
+          blijven. Op 1 mei 1919 werd hij belast met de dienst van dit arrondissement,
+          waaronder ondermeer de aanleg van het kanaal Wessem-Nederweert
+          ressorteerde.</html:p>
+          <html:p>Op 1 januari 1927 werd hij tevens tewerk gesteld bij de sluisbouw te
+          IJmuiden. Op 1 april daaraanvolgende kreeg hij de leiding van de dienst in het
+          district Sluisbouw IJmuiden ter standplaats IJmuiden onder gelijktijdige
+          bevordering tot de rang van Hoofdingenieur.</html:p>
+          <html:p>Het rapport inzake een scheepvaartweg van Amsterdam naar de Rijn, dat
+          Ir. Wentholt in maart 1927 aan de minister van Waterstaat had uitgebracht
+          Archief "Wentholt", Inleiding., bracht vele pennen in beweging. Zo zag
+          ondermeer een voorstel van de Hoofdingenieur van de Provinciale Waterstaat in
+          Utrecht, Ir. A.A. Mussert, het licht Uitgebracht op 28 maart 1929., waarbij
+          voor een gedeelte van genoemde vaarweg nabij de stad Utrecht een wijziging werd
+          aanbevolen. Dit plan werd aan de minister voorgelegd, welke het ter beoordeling
+          aan Ir. Wentholt doorzond. Na een voorlopig onderzoek berichtte deze van zijn
+          visie waarbij hij een diepere studie van dit rapport door een andere ingenieur
+          aanraadde daar, zo stelde hij "Ik zou dit niet kunnen doen zonder dat de dienst
+          der Twenthekanalen, waarmede ik het thans zeer volhandig heb, daaronder zou
+          lijden".Exh. 9 juli 1929, dossier 98, bundel 2, Waterstaat T Kabinet.,</html:p>
+          <html:p>Deze nadere bestudering nu werd bij schrijven van de minister d.d. 19
+          juli 1929 aan Ir. Heijning opgedragen.Dossier 98, bundel 2 Waterstaat T
+          Kabinet. Hij ging dus het door Ir. Wentholt begonnen werk voortzetten. In maart
+          en juni 1930 bracht hij over deze materie een viertal rapporten aan de minister
+          uit, waarbij hij de voorgestelde wijziging als een verbetering beoordeelde.
+          Hoewel zulks bij de hiervoor genoemde brief van 19 juli van de minister niet
+          werd vastgelegd, bleef hij sinds die datum toch betrokken bij de voorbereiding
+          van de plannen voor de nieuwe scheepvaartweg Amsterdam-Rijn en toen in het
+          najaar van 1930 de werken voor de nieuwe sluis te IJmuiden nagenoeg voltooid
+          waren, werd hem per 1 november 1930 Utrecht als standplaats aangewezen, waarbij
+          hij echter belast bleef met de leiding van enkele nog te voltooien
+          werkzaamheden en te verrichten waarnemingen in IJmuiden. Nadat bij de Wet van
+          27 maart 1931 tot de aanleg van deze vaarweg was besloten, werd hij op 1 juni
+          1931 met de leiding van deze werkzaamheden in het district "Amsterdam-Boven
+          Rijn II" belast, met als standplaats Utrecht.</html:p>
+          <html:p>Op 1 februari 1938 volgde zijn benoeming tot Hoofdingenieur-Directeur
+          in de directie Groningen en Friesland ter standplaats Groningen.</html:p>
+          <html:p>Op 1 juli 1940 werd hij aangewezen als Hoofd van de Centrale Dienst
+          voor de Wegen en Bruggen te 's-Gravenhage.</html:p>
+          <html:p>Sedert de instelling van de Centrale Dienst voor de Wegen en Bruggen
+          was het gebruikelijk dat het Hoofd van die dienst optrad als waarnemend
+          Directeur-Generaal bij diens afwezigheid. Dit was destijds Ir. Wentholt-toen
+          hij Hoofd van genoemde dienst werd-toegezegd, doch werd nimmer in een schrijven
+          officieel vastgelegd. Ook bij het optreden van Ir. Heijning als Hoofd van de
+          Centrale Dienst werd hem door Ir. Wentholt medegedeeld dat het de bedoeling was
+          dat hij bij zijn afwezigheid waarnemend Directeur-Generaal zou zijn. Officieel
+          berustte dan ook zijn bevoegdheid om namens de Directeur-Generaal de stukken af
+          te doen op de beschikking waarbij hem de bevoegdheid werd verleend in groen te
+          paraferen (voorbehouden aan de Directeur-Generaal).Inv. nr. 2, aantekening
+          I.</html:p>
+          <html:p>Op 11 augustus 1943 werden Mr. Spitzen als Secretaris-Generaal en Ir.
+          Wentholt als Directeur-Generaal door de Duitsers ontslagen. Zodra Ir. Wentholt
+          dit vernam, heeft hij Ir. Heijning hiervan telefonisch in kennis gesteld en hem
+          uitgenodigd voor een bespreking, die echter niet op het Waterstaatskantoor
+          mocht plaats vinden, omdat hem de toegang tot dat kantoor door de Duitsers was
+          verboden. Tijdens genoemde bespreking werden zij het erover eens, dat Ir.
+          Heijning voorlopig de Waterstaatsdienst moest leiden en dat hij daartoe ook
+          bevoegd was, gezien de beschikking, waarbij hem destijds de groene paraaf werd
+          verleend.</html:p>
+          <html:p>Zeer kort daarna werd Ir. Heijning door Ir. van der Vegte, de nieuw
+          benoemde Secretaris-Generaal ontboden, die hem de vraag stelde of hij de plaats
+          van Ir. Wentholt wilde innemen. Hij heeft daarop geantwoord, dat hij zich
+          bevoegd achtte om, dank zij de verleende groene paraaf, de taak van
+          Directeur-Generaal tijdelijk waar te nemen, doch dat hij geen prijs stelde op
+          een benoeming tot Directeur-Generaal.</html:p>
+          <html:p>Ir. van der Vegte ging zonder verdere discussie accoord met de
+          tijdelijke waarneming door Ir. Heijning van de taak van Directeur-Generaal.
+          Laatstgenoemde wees er vervolgens op dat, indien de waarneming geruime tijd zou
+          duren, het noodzakelijk was verdere maatregelen te nemen, daar het niet wel
+          mogelijk was beide functies gelijktijdig uit te oefenen. Op een daartoe
+          gestelde vraag deelde de heer van der Vegte mede het waarschijnlijk te achten,
+          dat de waarneming meerdere weken, wellicht nog langer, zou duren en dat hij
+          zich daaromtrent niet bindend kon uitlaten. Ir. Heijning deelde daarop mede
+          voor die periode een Hoofd bij de Centrale Dienst aan te willen stellen ter
+          waarneming van zijn gewone werkzaamheden.Inv. nr. 4, aantekening 1. Op 18
+          augustus 1943 werd aan de waarnemend Directeur-Generaal toegevoegd Ir. Willem
+          Herman Brinkhorst met tijdelijke ontheffing van de dienst als
+          Hoofdingenieur-Directeur in de directie UtrechtAlle gegevens inzake Ir.
+          Brinkhorst werden ontleend aan het Centrale Personeelsbestand van het
+          ministerie van Verkeer en Waterstaat. en werd hem op 20 augustus daaraanvolgend
+          bij schrijven La.RII de groene paraaf verleend.Archief "Kabinet en Secretarie",
+          dossier 130, exh. 27 augustus 1943 nr. 3.</html:p>
+          <html:p>In het najaar van 1943 werd een grote partij ijzer toebehorende aan de
+          Rijkswaterstaat en opgeslagen op meerdere plaatsen in het land, door de
+          Duitsers in beslag genomen. Tegen deze inbeslagname heeft de Rijkswaterstaat
+          niet geprotesteerd, doch toen vanwege het departement de opdracht kwam, om dit
+          ijzer per spoor naar verschillende in het westen van Duitsland gelegen plaatsen
+          te versturen, heeft Ir. Heijning geweigerd deze opdracht aan het betrokken
+          Waterstaatspersoneel door te geven. Hierop werd hij bij Ir. van der Vegte
+          ontboden. Bij de daarop volgende bespreking, die omstreeks 1 november plaats
+          vond, was een Duitse ambtenaar aanwezig, die, toen Ir. Heijning in zijn
+          weigering volhardde, trachtte door dreigementen hem tot andere gedachten te
+          brengen, hetgeen geen resultaat had.Mededeling van Ir. Heijning, mede ter
+          aanvulling van het gestelde in het boek van Prof. L. de Jong "Het Koninkrijk
+          der Nederlanden in de tweede wereldoorlog", deel VII/1, bladzijde 48, laatste
+          alinea.</html:p>
+          <html:p>Ondertussen was het zoeken naar een persoon die definitief de plaats
+          van Ir. Wentholt moest gaan bezetten reeds begonnen. De heer van der Vegte
+          meende deze gevonden te hebben in zijn partijgenoot F.D. Brands. Bij schrijven
+          van 27 september 1943 werd deze "binnen gehaald" als Adviseur inzake
+          Vervoersaangelegenheden toegevoegd aan de heer van der Vegte.Kabinetsarchief
+          van het ministerie van Waterstaat, dossier 244 van 1943, afd.
+          Comptabiliteit.</html:p>
+          <html:p>Op 12 november 1943, nr. 450 schreef deze aan de Secretaris-Generaal
+          van Financiën, Mr. M.M. Rost van Tonningen inzake de Duitse bezwaren tegen deze
+          benoeming en zijn plannen de heer Brands nu te benoemen tot algemeen
+          plaatsvervanger van de Secretaris-Generaal met als persoonlijke titel
+          Directeur-Generaal. Een week later volgde er nogmaals een brief aan Financiën
+          waarin werd voorgesteld de heer Brands tot Directeur-Generaal van de Waterstaat
+          te benoemen waarbij de heer van der Vegte stelde:</html:p>
+          <html:p>"Ondertussen is er een positie van Directeur-Generaal vacant (Directie
+          Waterstaat, Ir. Wentholt) en kan ik Kam. Brands zolang in deze positie
+          benoemen; dit is temeer noodzakelijk omdat Ir. Heijning, die nu waarneemt, zeer
+          waarschijnlijk weggaat. Hij kan dus daar orde op de zaken stellen."</html:p>
+          <html:p>Weer acht dagen later, 26 november 1943, ging er een brief naar
+          Financiën, waarin gesteld werd:</html:p>
+          <html:p>"In verband met de gevangenneming van Ir. Heijning ben ik van plan Kam.
+          Brands met de directie van de Waterstaat te belasten, doch hiervoor moet ik
+          eerst nog spreken met den Rijkscommissaris."</html:p>
+          <html:p>Op 25 november 1943 werd Ir. Heijning door de Duitsers van huis gehaald
+          voor een verhoor, welk "verhoor" zou duren tot na de bevrijding.Mededeling van
+          Ir. Heijning.</html:p>
+          <html:p>Per zelfde datum werd Ir. Brinkhorst bij schrijven van 26 november 1943
+          La.U belast met de leiding van de directie van de Waterstaat.</html:p>
+          <html:p>Op 18 november 1943 viel het besluit dat per 1 december 1943 de heer
+          F.D. Brands benoemd werd tot Directeur-Generaal bij het departement van
+          Waterstaat, zonder voorafgaande geneeskundige keuring en aangewezen als
+          algemeen plaatsvervanger van de Secretaris-Generaal.Persoonlijke notitie van de
+          heer van der Vegte in dossier 244 van 1943, afd. Comptabiliteit.</html:p>
+          <html:p>Bij schrijven van 17 januari 1944 La.Q werd Ir. W.H. Brinkhorst belast
+          met de voorlopige waarneming van het ambt van Directeur-Generaal van de
+          Waterstaat, van welk ambt hij bij schrijven van 29 augustus 1945 La.P met
+          ingang van 13 augustus 1945 werd ontheven.</html:p>
+          <html:p>Inmiddels was Ir. Heijning op 25 mei 1945 uit gevangenschap
+          teruggekeerd, doch het bleek uit gezondheidsoverwegingen noodzakelijk, dat hij
+          enige tijd verlof genoot tot herstel zijner krachten.Mededeling van Ir.
+          Heijning. In augustus 1945 kon hij zijn werkzaamheden ten behoeve van de
+          Rijkswaterstaat definitief hervatten.</html:p>
+          <html:p>Op 1 december 1945 verliet hij de Rijkswaterstaatsdienst om de functie
+          van Directeur-Generaal van de Rijksgebouwendienst te aanvaarden. Op 1 maart
+          1953 verliet hij deze Dienst i.v.m. het bereiken v.d. pensioengerechtigde
+          leeftijd. Van 1 maart 1953 tot 1 maart 1958 was hij adviseur van de
+          Rijkswaterstaat te 's-Gravenhage. In die periode was hij tot 1 juli 1956 lid en
+          voorzitter van de Commissie Taakwaardering Rijkswaterstaat. In mei 1954 werd
+          hij belast met de voorbereiding van een herziening van het aantal, alsmede de
+          grenzen van het gebied of de omvang van het werk der directiën, resp. de
+          diensten van de Rijkswaterstaat;de voorbereiding van een herziening van de
+          (verouderde) instructie voor de ambtenaren van de Rijkswaterstaat.</html:p>
+          <html:p>Verder bracht hij na juli 1956 nog enkele incidentele adviezen uit over
+          aangelegenheden betrekking hebbende op het gebied van: het verloop van het
+          middelbaar technisch personeel;taakwaardering;organisatie en formatie van de
+          Rijkswaterstaat.</html:p>
+          <html:p>Zijn verdiensten voor den lande werden door Koninklijke
+          onderscheidingen gehonoreerd. Hij is Officier in de Orde van Oranje Nassau
+          (1930) en Ridder in de Orde van de Nederlandse Leeuw (1947).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Heyning, Cornelis Theodor Christiaan (1888-?)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Geschiedenis tevens levensbeschrijving Ir. Cornelis Theodor Christiaan
+          Heijning, geboren te Buitenzorg (N.O.I.) 27 februari 1888.</html:p>
+          <html:p>Na het behalen van zijn diploma civiel-ingenieur in 1911 trad hij als
+          ingenieur in dienst bij de Semarang-Cheribon Stoomtrammaatschappij.</html:p>
+          <html:p>Op 1 februari 1917 werd hij aangesteld als tijdelijk ingenieur van de
+          Rijkswaterstaat ter standplaats Roermond, en werd op 1 november van dat jaar
+          benoemd tot ingenieur 3e klasse en gesteld onder de bevelen van het Hoofd van
+          de 8e directie ter standplaats Roermond, alwaar hij tot en met maart 1927 zou
+          blijven. Op 1 mei 1919 werd hij belast met de dienst van dit arrondissement,
+          waaronder ondermeer de aanleg van het kanaal Wessem-Nederweert
+          ressorteerde.</html:p>
+          <html:p>Op 1 januari 1927 werd hij tevens tewerk gesteld bij de sluisbouw te
+          IJmuiden. Op 1 april daaraanvolgende kreeg hij de leiding van de dienst in het
+          district Sluisbouw IJmuiden ter standplaats IJmuiden onder gelijktijdige
+          bevordering tot de rang van Hoofdingenieur.</html:p>
+          <html:p>Het rapport inzake een scheepvaartweg van Amsterdam naar de Rijn, dat
+          Ir. Wentholt in maart 1927 aan de minister van Waterstaat had uitgebracht
+          Archief "Wentholt", Inleiding., bracht vele pennen in beweging. Zo zag
+          ondermeer een voorstel van de Hoofdingenieur van de Provinciale Waterstaat in
+          Utrecht, Ir. A.A. Mussert, het licht Uitgebracht op 28 maart 1929., waarbij
+          voor een gedeelte van genoemde vaarweg nabij de stad Utrecht een wijziging werd
+          aanbevolen. Dit plan werd aan de minister voorgelegd, welke het ter beoordeling
+          aan Ir. Wentholt doorzond. Na een voorlopig onderzoek berichtte deze van zijn
+          visie waarbij hij een diepere studie van dit rapport door een andere ingenieur
+          aanraadde daar, zo stelde hij "Ik zou dit niet kunnen doen zonder dat de dienst
+          der Twenthekanalen, waarmede ik het thans zeer volhandig heb, daaronder zou
+          lijden".Exh. 9 juli 1929, dossier 98, bundel 2, Waterstaat T Kabinet.,</html:p>
+          <html:p>Deze nadere bestudering nu werd bij schrijven van de minister d.d. 19
+          juli 1929 aan Ir. Heijning opgedragen.Dossier 98, bundel 2 Waterstaat T
+          Kabinet. Hij ging dus het door Ir. Wentholt begonnen werk voortzetten. In maart
+          en juni 1930 bracht hij over deze materie een viertal rapporten aan de minister
+          uit, waarbij hij de voorgestelde wijziging als een verbetering beoordeelde.
+          Hoewel zulks bij de hiervoor genoemde brief van 19 juli van de minister niet
+          werd vastgelegd, bleef hij sinds die datum toch betrokken bij de voorbereiding
+          van de plannen voor de nieuwe scheepvaartweg Amsterdam-Rijn en toen in het
+          najaar van 1930 de werken voor de nieuwe sluis te IJmuiden nagenoeg voltooid
+          waren, werd hem per 1 november 1930 Utrecht als standplaats aangewezen, waarbij
+          hij echter belast bleef met de leiding van enkele nog te voltooien
+          werkzaamheden en te verrichten waarnemingen in IJmuiden. Nadat bij de Wet van
+          27 maart 1931 tot de aanleg van deze vaarweg was besloten, werd hij op 1 juni
+          1931 met de leiding van deze werkzaamheden in het district "Amsterdam-Boven
+          Rijn II" belast, met als standplaats Utrecht.</html:p>
+          <html:p>Op 1 februari 1938 volgde zijn benoeming tot Hoofdingenieur-Directeur
+          in de directie Groningen en Friesland ter standplaats Groningen.</html:p>
+          <html:p>Op 1 juli 1940 werd hij aangewezen als Hoofd van de Centrale Dienst
+          voor de Wegen en Bruggen te 's-Gravenhage.</html:p>
+          <html:p>Sedert de instelling van de Centrale Dienst voor de Wegen en Bruggen
+          was het gebruikelijk dat het Hoofd van die dienst optrad als waarnemend
+          Directeur-Generaal bij diens afwezigheid. Dit was destijds Ir. Wentholt-toen
+          hij Hoofd van genoemde dienst werd-toegezegd, doch werd nimmer in een schrijven
+          officieel vastgelegd. Ook bij het optreden van Ir. Heijning als Hoofd van de
+          Centrale Dienst werd hem door Ir. Wentholt medegedeeld dat het de bedoeling was
+          dat hij bij zijn afwezigheid waarnemend Directeur-Generaal zou zijn. Officieel
+          berustte dan ook zijn bevoegdheid om namens de Directeur-Generaal de stukken af
+          te doen op de beschikking waarbij hem de bevoegdheid werd verleend in groen te
+          paraferen (voorbehouden aan de Directeur-Generaal).Inv. nr. 2, aantekening
+          I.</html:p>
+          <html:p>Op 11 augustus 1943 werden Mr. Spitzen als Secretaris-Generaal en Ir.
+          Wentholt als Directeur-Generaal door de Duitsers ontslagen. Zodra Ir. Wentholt
+          dit vernam, heeft hij Ir. Heijning hiervan telefonisch in kennis gesteld en hem
+          uitgenodigd voor een bespreking, die echter niet op het Waterstaatskantoor
+          mocht plaats vinden, omdat hem de toegang tot dat kantoor door de Duitsers was
+          verboden. Tijdens genoemde bespreking werden zij het erover eens, dat Ir.
+          Heijning voorlopig de Waterstaatsdienst moest leiden en dat hij daartoe ook
+          bevoegd was, gezien de beschikking, waarbij hem destijds de groene paraaf werd
+          verleend.</html:p>
+          <html:p>Zeer kort daarna werd Ir. Heijning door Ir. van der Vegte, de nieuw
+          benoemde Secretaris-Generaal ontboden, die hem de vraag stelde of hij de plaats
+          van Ir. Wentholt wilde innemen. Hij heeft daarop geantwoord, dat hij zich
+          bevoegd achtte om, dank zij de verleende groene paraaf, de taak van
+          Directeur-Generaal tijdelijk waar te nemen, doch dat hij geen prijs stelde op
+          een benoeming tot Directeur-Generaal.</html:p>
+          <html:p>Ir. van der Vegte ging zonder verdere discussie accoord met de
+          tijdelijke waarneming door Ir. Heijning van de taak van Directeur-Generaal.
+          Laatstgenoemde wees er vervolgens op dat, indien de waarneming geruime tijd zou
+          duren, het noodzakelijk was verdere maatregelen te nemen, daar het niet wel
+          mogelijk was beide functies gelijktijdig uit te oefenen. Op een daartoe
+          gestelde vraag deelde de heer van der Vegte mede het waarschijnlijk te achten,
+          dat de waarneming meerdere weken, wellicht nog langer, zou duren en dat hij
+          zich daaromtrent niet bindend kon uitlaten. Ir. Heijning deelde daarop mede
+          voor die periode een Hoofd bij de Centrale Dienst aan te willen stellen ter
+          waarneming van zijn gewone werkzaamheden.Inv. nr. 4, aantekening 1. Op 18
+          augustus 1943 werd aan de waarnemend Directeur-Generaal toegevoegd Ir. Willem
+          Herman Brinkhorst met tijdelijke ontheffing van de dienst als
+          Hoofdingenieur-Directeur in de directie UtrechtAlle gegevens inzake Ir.
+          Brinkhorst werden ontleend aan het Centrale Personeelsbestand van het
+          ministerie van Verkeer en Waterstaat. en werd hem op 20 augustus daaraanvolgend
+          bij schrijven La.RII de groene paraaf verleend.Archief "Kabinet en Secretarie",
+          dossier 130, exh. 27 augustus 1943 nr. 3.</html:p>
+          <html:p>In het najaar van 1943 werd een grote partij ijzer toebehorende aan de
+          Rijkswaterstaat en opgeslagen op meerdere plaatsen in het land, door de
+          Duitsers in beslag genomen. Tegen deze inbeslagname heeft de Rijkswaterstaat
+          niet geprotesteerd, doch toen vanwege het departement de opdracht kwam, om dit
+          ijzer per spoor naar verschillende in het westen van Duitsland gelegen plaatsen
+          te versturen, heeft Ir. Heijning geweigerd deze opdracht aan het betrokken
+          Waterstaatspersoneel door te geven. Hierop werd hij bij Ir. van der Vegte
+          ontboden. Bij de daarop volgende bespreking, die omstreeks 1 november plaats
+          vond, was een Duitse ambtenaar aanwezig, die, toen Ir. Heijning in zijn
+          weigering volhardde, trachtte door dreigementen hem tot andere gedachten te
+          brengen, hetgeen geen resultaat had.Mededeling van Ir. Heijning, mede ter
+          aanvulling van het gestelde in het boek van Prof. L. de Jong "Het Koninkrijk
+          der Nederlanden in de tweede wereldoorlog", deel VII/1, bladzijde 48, laatste
+          alinea.</html:p>
+          <html:p>Ondertussen was het zoeken naar een persoon die definitief de plaats
+          van Ir. Wentholt moest gaan bezetten reeds begonnen. De heer van der Vegte
+          meende deze gevonden te hebben in zijn partijgenoot F.D. Brands. Bij schrijven
+          van 27 september 1943 werd deze "binnen gehaald" als Adviseur inzake
+          Vervoersaangelegenheden toegevoegd aan de heer van der Vegte.Kabinetsarchief
+          van het ministerie van Waterstaat, dossier 244 van 1943, afd.
+          Comptabiliteit.</html:p>
+          <html:p>Op 12 november 1943, nr. 450 schreef deze aan de Secretaris-Generaal
+          van Financiën, Mr. M.M. Rost van Tonningen inzake de Duitse bezwaren tegen deze
+          benoeming en zijn plannen de heer Brands nu te benoemen tot algemeen
+          plaatsvervanger van de Secretaris-Generaal met als persoonlijke titel
+          Directeur-Generaal. Een week later volgde er nogmaals een brief aan Financiën
+          waarin werd voorgesteld de heer Brands tot Directeur-Generaal van de Waterstaat
+          te benoemen waarbij de heer van der Vegte stelde:</html:p>
+          <html:p>"Ondertussen is er een positie van Directeur-Generaal vacant (Directie
+          Waterstaat, Ir. Wentholt) en kan ik Kam. Brands zolang in deze positie
+          benoemen; dit is temeer noodzakelijk omdat Ir. Heijning, die nu waarneemt, zeer
+          waarschijnlijk weggaat. Hij kan dus daar orde op de zaken stellen."</html:p>
+          <html:p>Weer acht dagen later, 26 november 1943, ging er een brief naar
+          Financiën, waarin gesteld werd:</html:p>
+          <html:p>"In verband met de gevangenneming van Ir. Heijning ben ik van plan Kam.
+          Brands met de directie van de Waterstaat te belasten, doch hiervoor moet ik
+          eerst nog spreken met den Rijkscommissaris."</html:p>
+          <html:p>Op 25 november 1943 werd Ir. Heijning door de Duitsers van huis gehaald
+          voor een verhoor, welk "verhoor" zou duren tot na de bevrijding.Mededeling van
+          Ir. Heijning.</html:p>
+          <html:p>Per zelfde datum werd Ir. Brinkhorst bij schrijven van 26 november 1943
+          La.U belast met de leiding van de directie van de Waterstaat.</html:p>
+          <html:p>Op 18 november 1943 viel het besluit dat per 1 december 1943 de heer
+          F.D. Brands benoemd werd tot Directeur-Generaal bij het departement van
+          Waterstaat, zonder voorafgaande geneeskundige keuring en aangewezen als
+          algemeen plaatsvervanger van de Secretaris-Generaal.Persoonlijke notitie van de
+          heer van der Vegte in dossier 244 van 1943, afd. Comptabiliteit.</html:p>
+          <html:p>Bij schrijven van 17 januari 1944 La.Q werd Ir. W.H. Brinkhorst belast
+          met de voorlopige waarneming van het ambt van Directeur-Generaal van de
+          Waterstaat, van welk ambt hij bij schrijven van 29 augustus 1945 La.P met
+          ingang van 13 augustus 1945 werd ontheven.</html:p>
+          <html:p>Inmiddels was Ir. Heijning op 25 mei 1945 uit gevangenschap
+          teruggekeerd, doch het bleek uit gezondheidsoverwegingen noodzakelijk, dat hij
+          enige tijd verlof genoot tot herstel zijner krachten.Mededeling van Ir.
+          Heijning. In augustus 1945 kon hij zijn werkzaamheden ten behoeve van de
+          Rijkswaterstaat definitief hervatten.</html:p>
+          <html:p>Op 1 december 1945 verliet hij de Rijkswaterstaatsdienst om de functie
+          van Directeur-Generaal van de Rijksgebouwendienst te aanvaarden. Op 1 maart
+          1953 verliet hij deze Dienst i.v.m. het bereiken v.d. pensioengerechtigde
+          leeftijd. Van 1 maart 1953 tot 1 maart 1958 was hij adviseur van de
+          Rijkswaterstaat te 's-Gravenhage. In die periode was hij tot 1 juli 1956 lid en
+          voorzitter van de Commissie Taakwaardering Rijkswaterstaat. In mei 1954 werd
+          hij belast met de voorbereiding van een herziening van het aantal, alsmede de
+          grenzen van het gebied of de omvang van het werk der directiën, resp. de
+          diensten van de Rijkswaterstaat;de voorbereiding van een herziening van de
+          (verouderde) instructie voor de ambtenaren van de Rijkswaterstaat.</html:p>
+          <html:p>Verder bracht hij na juli 1956 nog enkele incidentele adviezen uit over
+          aangelegenheden betrekking hebbende op het gebied van: het verloop van het
+          middelbaar technisch personeel;taakwaardering;organisatie en formatie van de
+          Rijkswaterstaat.</html:p>
+          <html:p>Zijn verdiensten voor den lande werden door Koninklijke
+          onderscheidingen gehonoreerd. Hij is Officier in de Orde van Oranje Nassau
+          (1930) en Ridder in de Orde van de Nederlandse Leeuw (1947).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>In augustus 1943 werd de toenmalige directeur-generaal dr.ir. L.R. Wentholt
+      door de Duitsers ontslagen waarop ir. Heijning zijn taken waarnam. Gedurende zijn
+      waarnemingsperiode (aug. - nov. 1943) hield hij, gelijk ir. Wentholt, aantekeningen
+      van de werkzaamheden bij. Het archief vormt hier deels de weerslag van. Daarnaast
+      bevat het archief een ingang op de dagaantekeningen van ir. Wentholt en zijn er
+      stukken aanwezig uit zijn periode als hoofd Wegen en Bruggen (jul. 1940 - aug.
+      1943), waarbij er steeds een relatie is met de aantekeningen in het archief van ir.
+      Wentholt.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>10 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

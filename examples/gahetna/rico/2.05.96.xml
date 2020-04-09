@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6f178544-17a7-4be2-a300-f6fb433916d7"
+  rdf:about="record/2.05.96">
+    <rico:identifier>2.05.96</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2004</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/Z22" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.05.96/i1" />
+      <rico:instantiates rdf:resource="record/2.05.96" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131024</rico:hasModificationDate>
+        <html:p>24 oktober 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Nederlandse Gezantschap in
+        Turkije (Ankara), (1858) 1938-1954</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6f178544-17a7-4be2-a300-f6fb433916d7" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/Z22">
+    <rico:describedBy rdf:resource="record/2.05.96" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>Z22</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Buitenlandse Zaken: Gezantschap in Turkije
+      (Ankara)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Gezantschap Turkije, 1938-1954</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1858</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1954</rico:endDate>
+    <rico:date>1858-1954</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Gezantschap Turkije (te Ankara)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ankara (tot 1930 Angora) is de hoofdstad van Turkije gelegen en vanouds
+          een handelscentrum en een marktplaats voor landbouwproducten. In 1919 werd de
+          stad door Mustafa Kemal als zetel van zijn bewind gekozen. In 1923 werd het de
+          hoofdstad (in plaats van Istanboel) van de nieuwe republiek, waarna de stad
+          snel tot bloei kwam.Vooral na de Tweede Wereldoorlog werd Ankara het
+          administratieve middelpunt (zetel parlement, bestuursinstanties, banken) van
+          Turkije.</html:p>
+          <html:p>In de Tweede Wereldoorlog bleef Turkije tot kort voor het eind militair
+          neutraal. Wel zag het zich gedwongen tot het sluiten van een
+          niet-aanvalsverdrag en van handelsverdragen met Duitsland. In februari 1945
+          verklaarde Turkije de oorlog aan Duitsland. De eerste jaren na 1945 was
+          voortdurend sprake van een gespannen verhouding met de Sovjet-Unie. Op
+          militair, economisch en financieel gebied raakte het land steeds afhankelijker
+          van de Verenigde Staten van Amerika. In 1949 trad Turkije toe tot de Raad van
+          Europa.</html:p>
+          <html:p>Op binnenlands politiek terrein deden zich tussen 1945 en 1950 een
+          aantal belangrijke veranderingen voor. In 1946 werd de kieswet herzien, waarbij
+          de vorming van nieuwe politieke partijen werd toegestaan. Voorts kwam in de
+          periode tot 1950 een einde aan de antireligieuze maatregelen. Bij de
+          verkiezingen van mei 1950 behaalden de Democraten een ruime meerderheid in de
+          Nationale Vergadering. Vier jaar later behaalden de Democraten opnieuw een
+          overwinning. De regering voerde daarna een aantal wetten door die haar
+          bevoegdheden sterk uitbreidden.</html:p>
+          <html:p>Gezant te Ankara was van 1938 tot en met 1945 Dr. Ph. C.
+          Visser.</html:p>
+          <html:p>Het gezantschap te Ankara (sedert 1947 tot en met 1951 tevens
+          geaccrediteerd voor Irak) werd in de periode 1945-1954 door de volgende
+          personen vertegenwoordigd:1945-1951 W.A.A.M. Daniels1951-1954 Dr W.
+          Huender</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ankara (tot 1930 Angora) is de hoofdstad van Turkije gelegen en vanouds
+          een handelscentrum en een marktplaats voor landbouwproducten. In 1919 werd de
+          stad door Mustafa Kemal als zetel van zijn bewind gekozen. In 1923 werd het de
+          hoofdstad (in plaats van Istanboel) van de nieuwe republiek, waarna de stad
+          snel tot bloei kwam.Vooral na de Tweede Wereldoorlog werd Ankara het
+          administratieve middelpunt (zetel parlement, bestuursinstanties, banken) van
+          Turkije.</html:p>
+          <html:p>In de Tweede Wereldoorlog bleef Turkije tot kort voor het eind militair
+          neutraal. Wel zag het zich gedwongen tot het sluiten van een
+          niet-aanvalsverdrag en van handelsverdragen met Duitsland. In februari 1945
+          verklaarde Turkije de oorlog aan Duitsland. De eerste jaren na 1945 was
+          voortdurend sprake van een gespannen verhouding met de Sovjet-Unie. Op
+          militair, economisch en financieel gebied raakte het land steeds afhankelijker
+          van de Verenigde Staten van Amerika. In 1949 trad Turkije toe tot de Raad van
+          Europa.</html:p>
+          <html:p>Op binnenlands politiek terrein deden zich tussen 1945 en 1950 een
+          aantal belangrijke veranderingen voor. In 1946 werd de kieswet herzien, waarbij
+          de vorming van nieuwe politieke partijen werd toegestaan. Voorts kwam in de
+          periode tot 1950 een einde aan de antireligieuze maatregelen. Bij de
+          verkiezingen van mei 1950 behaalden de Democraten een ruime meerderheid in de
+          Nationale Vergadering. Vier jaar later behaalden de Democraten opnieuw een
+          overwinning. De regering voerde daarna een aantal wetten door die haar
+          bevoegdheden sterk uitbreidden.</html:p>
+          <html:p>Gezant te Ankara was van 1938 tot en met 1945 Dr. Ph. C.
+          Visser.</html:p>
+          <html:p>Het gezantschap te Ankara (sedert 1947 tot en met 1951 tevens
+          geaccrediteerd voor Irak) werd in de periode 1945-1954 door de volgende
+          personen vertegenwoordigd:1945-1951 W.A.A.M. Daniels1951-1954 Dr W.
+          Huender</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Gezantschap Turkije (te Ankara) bevat voor de periode
+      1938-1954 correspondentie en stukken m.b.t. de organisatie. Verder zijn er losse
+      stukken betreffende de bezetting van Nederland (propaganda van Duitsland),
+      rapporten over de politieke en economische situatie in de buurlanden van Turkije
+      tijdens de Tweede wereldoorlog en de oprichting van een Nederlands Historisch
+      Archeologisch Instituut in het 'Droogmanaat' te Istanboel. Daarnaast bevat het
+      archief stukken betreffende de opneming van Turkije in de Raad van Europa. Tevens
+      zijn er stukken over de onderlinge handel en politieke zaken.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.30 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>127 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

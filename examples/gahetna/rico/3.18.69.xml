@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6454ed08-893e-49ec-84ea-963143fb9f93"
+  rdf:about="record/3.18.69">
+    <rico:identifier>3.18.69</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1987</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35496" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.69/i1" />
+      <rico:instantiates rdf:resource="record/3.18.69" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121129</rico:hasModificationDate>
+        <html:p>29 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Vereniging "Kinderzorg" en
+        voorgangers, 1922-1976</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6454ed08-893e-49ec-84ea-963143fb9f93" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35496">
+    <rico:describedBy rdf:resource="record/3.18.69" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35496</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Vereniging Onze Kinderen, 1922-1957; Vereniging Kinderzorg,
+      1940-1970; J.J.P. Valetonstichting, 1950-1970; Hervormde Stichting Kinderzorg,
+      1964-1976</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Verenigingen Kinderzorg</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1922</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1976</rico:endDate>
+    <rico:date>1922-1976</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De Vereniging "Onze Kinderen" / 1922-1957</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De Vereniging "Kinderzorg" in de Classis Leiden van de
+            Nederlandse Hervormde Kerk / 1940-1970</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ds. J.J.P. Valetonstichting / 1950-1970</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hervormde Stichting Kinderzorg in oprichting /
+            1966-1970</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hervormde Stichting Kinderzorg / 1970-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris omvat de archieven van de Vereniging “Onze Kinderen” te
+          Dordrecht, de Vereniging “Kinderzorg” te Leiden, de Ds. J.J.P.
+          Valeton-Stichting te Dordrecht en de Hervormde Stichting “Kinderzorg” te Gouda.
+          Deze laatste stichting is opgegaan in de Verenigingen “Kinderzorg” te Rotterdam
+          en te ’s-Gravenhage-Delft, waarna zij haar werkzaamheden officieel per 1
+          januari 1974 beëindigde.</html:p>
+          <html:p>Voornoemde voogdijinstellingen waren alle kerkelijke instellingen die
+          vanuit de diaconieën in de classis voor de Nederlands Hervormde Kerk (N.H.K.)
+          werden georganiseerd. Het deel van de voogdijinstellingen voor de tijdelijke of
+          duurzame opvoeding van hulpbehoevende of verwaarloosde minderjarigen in ’t
+          bijzonder van diegenen die tot de N.H.K. behoorden. De voogdijinstellingen
+          trachtten hun doel te bereiken door het plaatsen van de onder hun voogdij
+          gebrachte kinderen in inrichtingen en pleeggezinnen. In financieel opzicht
+          steunden de voogdijinstellingen op de jaarlijkse bijdragen van (de diaconieën),
+          donateurs en begunstigers. Daarnaast ontvangen de voogdijinstellingen nog, als
+          tegemoetkoming in de verzorging van bepaalde kinderen, bijdragen en subsidies
+          van de overheid, instellingen en particulieren. Voor eventuele financiële
+          tekorten waren de instellingen zelf verantwoordelijk waardoor er nogal eens een
+          beroep werd gedaan op particulier initiatief. Van oudsher was het werk van de
+          kinderbescherming een diaconale taak, die door vrijwilligers van de diaconieën
+          zelf werd verricht. Daar in de loop van de tijd het werk van de
+          kinderbescherming specialistischer werd en de procedures om subsidieregelingen
+          ingewikkelder werd het geleidelijk een noodzaak het praktische werk op te
+          dragen aan daartoe opgeleide beroepskrachten. Daarbij kwam nog dat de roep om
+          schaalvergroting en concentratie van de werkzaamheden groter werd. Voor
+          kleinere instellingen werd het vooral uit financieel oogpunt niet meer haalbaar
+          om zelfstandig te functioneren. De oplossing werd dan gezocht in een fusie met
+          andere voogdijinstellingen.</html:p>
+          <html:p>Op 3 nov. 1922 vindt te Dordrecht de stichtingsvergadering plaats van
+          de Vereniging “Onze Kinderen” binnen de classis Dordrecht van de N.H.K. Als
+          opvolger van de failliete Vereniging “Kinderzorg” fungeerde de eerste tijd het
+          oude bestuur als “Voorlopig Comité”. De statuten goedgekeurd bij K.B. d.d. 27
+          september 1923 werden, behoudens enkele kleine wijzigingen van de oude
+          vereniging overgenomen. Bij de vereniging werden alleen die kinderen – behalve
+          bijzondere gevallen – aangenomen over wie de Vereniging “Onze Kinderen” binnen
+          de classis Dordrecht tot voogd en een haar behoud vertrouwd als toeziend voogd
+          werd benoemd. Het toezicht over een kind werd uitgeoefend door een commissie
+          van 2 personen die daarvoor het meest in de gelegenheid ware. In 1948 komt de
+          Vereniging in financiële moeilijkheden. Het gevolg was dat kinderen veelal niet
+          konden worden aangenomen. Daarop werd besloten over te gaan tot een fusie met
+          de Verenigingen uit de classes Gouda en Brielle. Eind 1949 startten de
+          voorbesprekingen en in 1957 was de fusie met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht een feit.</html:p>
+          <html:p>De Vereniging “Kinderzorg” in de classis Leiden werd opgericht 3 maart
+          1940. Het werk van de vereniging werd door vrijwilligers verricht. Daar het
+          werk van de kinderbescherming in de loop van de tijd steeds ingewikkelder werd
+          werd het voor de bestuursleden die ook nog een eigen dagtaak hadden onmogelijk
+          alle werkzaamheden zelf te blijven doen. De wens om tot schaalvergroting en
+          concentratie van de werkzaamheden te komen werd groter. De eerste stap in die
+          richting was een fusie met de voogdijafdeling van de Leidse Diaconie. Ook waren
+          er contacten over samenwerking met de Ds. J.J.P. Valeton-Stichting te
+          Dordrecht. De gesprekken met de laatstgenoemde stichting zijn gestaakt, omdat
+          het niet verantwoord leek plannen te maken zolang de fusie met de Diaconie
+          Leiden sectie Kinderbescherming geen feit was. De fusie met de Leidse Diaconie
+          heeft lange tijd in beslag genomen door de procedure die door de kantonrechter
+          te Leiden werd verlengd, maar kwam uiteindelijk toch in 1964 tot stand. Daarna
+          werden de besprekingen met het bestuur van de “Valeton-Stichting” heropend. Na
+          ampel overleg werd overeengekomen dat beide instellingen een stichting in het
+          leven zouden roepen die het praktisch werk voor beide instellingen zou
+          verrichten en als werkgever zou fungeren. Deze stichting had als bureau het te
+          Gouda bestaande bureau van de Valeton-Stichting. Op 15 april 1970 was de fusie
+          officieel een feit en werd het werk voortgezet door de nieuwe stichting: De
+          Hervormde Stichting “Kinderzorg” te Gouda.</html:p>
+          <html:p>De Ds. J.J.P. Valeton-Stichting werd opgericht op 19 oktober 1950. In
+          de loop van de tijd zijn in de “Valeton-Stichting” opgegaan de Vereniging
+          “Kinderzorg” Brielle en de Vereniging “Onze Kinderen” te Dordrecht zoals eerder
+          beschreven. Zodoende werd de “Valeton-Stichting” een Hervormde
+          voogdijinstelling voor de classes Gouda, Gorinchem, Brielle en Dordrecht. Vanaf
+          1956 beschikte de “Valeton-Stichting” over een eigen bureau te Gouda waardoor
+          het mogelijk werd het werk van de stichting centraal te regelen. Al spoedig
+          echter bleek de behuizing te klein en de behoefte van uitbreiding van
+          kantoorruimte werd mede gevoed door de op hande zijnde fusie met de Vereniging
+          “Kinderzorg” te leiden. In 1963 kon de nieuwe behuizing in het centrum van
+          Gouda betrokken worden. De fusie tussen “Kinderzorg” te Leiden en de
+          “Valeton-Stichting” was een financiële noodzaak geworden omdat de kosten aan
+          kleine instellingen met ieder 200 pupillen niet konden worden opgebracht. Het
+          subsidiesysteem van de apparaatskosten met een bepaald bedrag per verpleegdag
+          bracht met zich dat een minimum aantal verpleegdagen moest worden opgebracht.
+          Dit alleen al dwong tot schaalvergroting en fusie van kleinere instellingen. Na
+          een langdurige periode van overleg tussen de “Valeton-Stichting” en de
+          Vereniging “Kinderzorg” te Leiden kwam bij notariële akte van 15 april 1970 de
+          Hervormde Stichting Kinderzorg te Gouda tot stand.</html:p>
+          <html:p>De Hervormde Stichting Kinderzorg was geen lang leven beschoren. Al in
+          1972 kreeg de stichting te kampen met een kringloop van pupillen. Daarbij kwam,
+          dat de behoefte werd gevoeld om te komen tot herstructureren van de
+          kinderbescherming. Redenen voor de stichting om een samenwerking tot stand te
+          brengen met “Pro-Juventute” te Dordrecht. Na een hoopvolle start trok
+          “Pro-Juventute” zich om redenen van interne aard uit de overlegsituatie terug.
+          In tweede instantie wendde de stichting zich, omdat de situatie geen uitstel
+          meer duldde, tot de Verenigingen “Kinderzorg” te Rotterdam en te
+          ’s-Gravenhage/Delft. Deze waren wel bereid de pupillen over te nemen alsmede
+          enige maatschappelijk werksters. Officieel beëindigde de Hervormde Stichting
+          Kinderzorg op 1 jan. 1974 haar werkzaamheden en droeg deze over aan de
+          Verenigingen “Kinderzorg” te Rotterdam en ’s-Gravenhage/Delft.</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken van diverse verenigingen en stichtingen op het
+      gebied van de kinderzorg over de periode 1922-1976. Het betreft stukken van
+      algemene aard als statuten en reglementen, notulen, correspondentie en fusies,
+      alsmede stukken van meer bijzondere aard betreffende bestuur, pupillen, personeel,
+      samenwerkingsverbanden en financiën.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Bescheiden jonger dan 75 jaar
+      of andere bescheiden (zie nrs. in akte) zijn niet openbaar. Ontheffing mogelijk via
+      schriftelijk verzoek aan de eigenaar (de Ned. Herv. Kerk).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>167 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

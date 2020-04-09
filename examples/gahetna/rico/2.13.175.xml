@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/5c5ac6a1-270f-4a50-b819-d8e1987683bf"
+  rdf:about="record/2.13.175">
+    <rico:identifier>2.13.175</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2008</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/D80" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.13.175/i1" />
+      <rico:instantiates rdf:resource="record/2.13.175" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Koninklijke Marechaussee,
+        1945-1995</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/5c5ac6a1-270f-4a50-b819-d8e1987683bf" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/D80">
+    <rico:describedBy rdf:resource="record/2.13.175" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>D80</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Koninklijke Marechaussee</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Kon. Marechaussee</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1995</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1945-1995</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Defensie en voorganger / Koninklijke Marechaussee,
+            1945-1995</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Koninklijke Marechaussee (KMar) werd opgericht op 26 oktober 1814
+          als Corps de Marechaussée om te voorzien in de behoefte aan een centraal
+          aangestuurd bereden politiekorps met een militaire structuur naast politie in
+          de steden en de veldwacht.</html:p>
+          <html:p>Bij Koninklijk Besluit van 4 november 1889, nr. 14 werd de KMar
+          ingedeeld in drie divisies. Bij een reorganisatie in 1894 werd een splitsing
+          doorgevoerd en werd een vierde divisie toegevoegd.</html:p>
+          <html:p>Op 1 augustus 1945 werd in de Beschikking nopens het Wapen der
+          Koninklijke Marechaussee bepaald dat de organisatie zoveel als mogelijk zou
+          worden hersteld in de oude vorm van voor de Tweede Wereldoorlog en werden ook
+          de taken omschreven. Het wapen werd belast met het geven van bijstand aan de
+          politie, de verzorging van de grensbewaking en militaire politiezorg. Bij brief
+          van 5 oktober 1945 deelde de minister van Oorlog mede, dat het Wapen der
+          Koninklijke Marechaussee uiteindelijk diende te bestaan uit: Eenheden in de
+          eerste plaats bestemd voor het verlenen van militaire bijstand; Onderdelen
+          bestemd voor het verrichten van politiediensten in de garnizoenen; Onderdelen
+          bestemd voor de dienst der grensbewaking; Eenheden bestemd voor het verrichten
+          van politiediensten bij en ten behoeve van de grote eenheden, op te richten
+          onder bevel van de Bevelhebber der Nederlandse Strijdkrachten.</html:p>
+          <html:p>Op 1 december 1945 werd een 5e Divisie toegevoegd, en op 1 maart 1946
+          werd de 6e Divisie opgericht.</html:p>
+          <html:p>De voorlopige samenstelling van het Wapen der Koninklijke Marechaussee
+          werd bij beschikking van 10 september 1946 Legerorders 1946, nr. 389.
+          vastgesteld. Naast de staf bestond het wapen uit zes divisies. De zes divisies
+          waren elk opgedeeld in twee tot vijf districten. Elk district had een of
+          meerdere brigades. Afhankelijk van de grote kon een brigade nog verdeeld zijn
+          in bataljons of compagnieën. Ook waren er bataljons en compagnieën opgericht
+          voor specifieke taken zoals het begeleiden van oefeningen in het buitenland of
+          de hulpverlening bij humanitaire missies. Verder had de KMar een Depot
+          Apeldoorn en Nieuwersluis alwaar de opleiding en vorming werd verzorgd van o.a.
+          het beroepspersoneel, het Depot voor Dienstplichtige Marechaussees en de
+          mobiele afdeling (Apeldoorn). Het Depot voor Dienstplichtigen der KMar werd
+          opgericht op 15 november 1946 en was gevestigd in de Willem III Kazerne te
+          Apeldoorn. Dienstplichtige marechaussees ontvingen hun opleiding bij dit depot.
+          Officieren en onderofficieren die tijdens de mobilisatie zouden worden
+          ingedeeld bij het wapen ontvingen er een aanvullende opleiding. De districten
+          waren opgebouwd uit brigades, zoals hierna volgt: De 1e Divisie was opgebouwd
+          uit de districten Amsterdam en Utrecht; Het district Amsterdam was opgebouwd
+          uit de brigades Amsterdam, Amsterdam-haven, Haarlem (opgericht september 1946),
+          IJmuiden, Schiphol (opgericht september 1946), Alkmaar (opgericht september
+          1946);Het district Utrecht uit de brigades Utrecht, Amersfoort (met ingang van
+          15 juli 1946) , Soesterberg (opgericht september 1946), Soestdijk, Rhenen,
+          Naarden (Bussum) (opgericht september 1946), Hilversum (Staf Inspecteur);De 2e
+          Divisie uit de districten 's-Gravenhage, Rotterdam, Vlissingen en Terneuzen;
+          Het district 's-Gravenhage was opgebouwd uit de brigades 's-Gravenhage,
+          vliegveld Valkenburg, Leiden en Woerden;Rotterdam uit de brigades Rotterdam,
+          Rotterdam-haven, Vlaardingen, Hoek van Holland, Dordrecht (Papendrecht),
+          Gorinchem, Willemsdorp;Vlissingen uit Vlissingen, Hansweert, Bath (opgeheven
+          1951), Breskens, Oostburg, Sluis, Aardenburg en IJzendijke;Terneuzen uit de
+          brigades Terneuzen, Nieuw Namen, Clinge, Hulst, Koewacht, Sas van Gent,
+          Philippine, Axel, Hontenisse;De 3e Divisie uit de districten Bergen op Zoom,
+          Breda, 's-Hertogenbosch en Eindhoven; Het district Bergen op Zoom was opgebouwd
+          uit de brigades Bergen op Zoom (opgericht augustus 1946), Steenbergen,
+          Willemstad, Sprundel, Roosendaal (opgericht 2 september 1946), Ossendrecht
+          (opgericht 6 november 1946), Hoogerheide (vliegveld) (opgericht 6 november
+          1946), Oudenbosch;Breda uit de brigades Breda, (opgericht augustus 1946),
+          Moerdijk, Raamsdonkveer, Oosterhout, Zevenbergen, Etten, Strijbeek, Zundert
+          (opgericht 6 september 1946), Gilze-Rijen;'s-Hertogenbosch uit 's-Hertogenbosch
+          (opgericht augustus 1946), Grave (opgericht 6 november 1946), Oisterwijk,
+          Hilvarenbeek, Tilburg (opgericht augustus 1946), Goirle (opgericht 6 november
+          1946), Alphen, Baarle-Nassau (opgericht 6 november 1946), Kaatsheuvel,
+          Vierlingsbeek, Boxmeer, Cuijk, Volkel (vliegveld);Eindhoven uit Eindhoven
+          (opgericht augustus 1946), Budel, Heeze, Valkenswaard (opgericht 6 november
+          1946), Bergeijk (opgericht 6 november 1946), Asten, Oirschot, Bladel (opgericht
+          6 november 1946), Vessem, Reusel;De 4e Divisie uit de districten Nijmegen,
+          Arnhem, Winterswijk, Enschede en Zwolle; Het district Nijmegen bestond uit de
+          brigades Nijmegen, Groesbeek, Beek (opgericht 24 oktober 1946), Millingen,
+          Bemmel, Wychen, Andelst, Lobith, Zevenaar (opgericht 25 oktober 1946);Arnhem
+          uit de brigades Arnhem, Deelen, Apeldoorn, Harderwijk, Ermelo, Wezep, Stroe
+          (opgericht 21 juli 1947 als brigade Nieuw-Milligen), Oldebroek, Harskamp,
+          Ede;Winterswijk uit Zutphen, Aalten (opgericht 24 oktober 1946), Winterswijk
+          (opgericht 28 augustus 1946), Neede, Ruurlo, Hengelo, 's-Heerenberg, Ulft
+          (opgericht 30 augustus 1946), Dinxperlo (opgericht 25 oktober 1946),
+          Doetinchem, Doesburg;Enschede uit Enschede, vliegveld Twenthe, Glanerbrug,
+          Haaksbergen, Hengelo, Weerselo, Ootmarsum, Oldenzaal;Zwolle uit Zwolle
+          (opgericht 30 oktober 1946), Kampen (opgericht 25 november 1946), Ommen,
+          Hardenberg, Deventer, Hellendoorn, Steenwijk, Almelo, Tubbergen;De 5e Divisie
+          uit de districten Winschoten, Groningen en Assen; Het district Winschoten
+          bestond uit de brigades Winschoten, Nieuwe Schans, Bellingwolde, Vlagtwedde,
+          Ter Apel, Nieuwolda, Finsterwolde, Muntendam, Veendam, Nieuwe Pekela,
+          Stadskanaal;Groningen uit de brigades Groningen, Delfzijl (opgericht 8 augustus
+          1946), Slochteren, Appingedam, Uithuizen, Stedum, Leeuwarden;Assen uit Assen,
+          Valthermond, Zuidlaren, Borger, Zweelo, Westerbork, Hoogeveen, Emmen, Oud
+          Schoonebeek, Coevorden, Nieuw Schoonebeek, Nieuw Amsterdam, Klazinaveen,
+          Emmercompascum;De 6e Divisie uit de districten Maastricht, Heerlen, Roermond en
+          Venlo; Het district Maastricht bestond uit de brigades Maastricht Wijk
+          (opgericht 8 november 1946), Maastricht West (opgericht 8 november 1946),
+          Meerssen, Beek, Sittard (opgericht 8 november 1946), Geleen, Born, Eysden,
+          Slenaken (opgericht 8 november 1946), Gulpen;Het district Heerlen uit Heerlen,
+          Bingelrade, Brunssum, Hoensbroek, Nieuwenhagen, Kerkrade, Spekholzerheide,
+          Hulsberg, Simpelveld, Vaals;Roermond uit Roermond, Maasbracht, Roosterem, Echt,
+          Vlodrop, Swalmen, Weert, Grathem, Horn;Venlo uit Venlo (opgericht 4 november
+          1946), Arcen, Well (opgericht 4 november 1946), Siebengewald (opgericht 4
+          november 1946), Gennep (opgericht 4 november 1946), Venray, Horst, Maasbree,
+          Heythuizen, Panningen, Reuver</html:p>
+          <html:p>De taken van de KMar werden in 1949 opnieuw als volgt vastgesteld:
+          uitoefenen van de militaire politiezorg; grensbewaking; verlenen van bijstand;
+          opsporen van strafbare feiten bij ontdekking op heterdaad in een strook van
+          twintig kilometer langs de landsgrenzen; verlenen van medewerking aan
+          ambtenaren van Invoerrechten en Accijnzen ter beteugeling van smokkel; de zorg
+          voor de veiligheid van de koningin en leden van haar huis.</html:p>
+          <html:p>Het doel van de grensbewaking was hoofdzakelijk zorg te dragen dat
+          vreemdelingen, wier aanwezigheid niet in Nederland gewenst was te verhinderen
+          dat zij Nederland binnen konden komen en zo nodig op te sporen als zij daar
+          toch in geslaagd waren. Verder werd toezicht gehouden op de in- en uitvoer van
+          goederen en deviezen.</html:p>
+          <html:p>Met ingang van 1 mei 1947 Ministeriële beschikking van 16 april 1947,
+          legerorders 1947 nr. 129. werd de samenstelling van het Wapen der Koninklijke
+          Marechaussee gewijzigd.</html:p>
+          <html:p>De nummering van de divisies werd als volgt gewijzigd: de 1e Divisie
+          werd 5e Divisie (Staf: Amsterdam); de 2e Divisie werd 6e Divisie (Den Haag); de
+          3e Divisie werd 1e Divisie (Eindhoven); de 4e Divisie werd 3e Divisie (Arnhem);
+          de 5e Divisie werd 4e Divisie (Groningen); de 6e Divisie werd 2e divisie
+          (Maastricht).</html:p>
+          <html:p>De onderverdeling van de divisies in districten en brigades bleef
+          verder onveranderd.</html:p>
+          <html:p>In februari 1954 werd een reorganisatie doorgevoerd van de
+          gebiedsindeling in divisies en districten. De indeling in divisies viel samen
+          met die van de Territoriale Bevelhebbers en de gebieden van de districten
+          kwamen overeen met die van de Territoriale Commandanten. Als gevolg van de
+          reorganisatie werden de districten 's-Hertogenbosch, Winterswijk en Winschoten
+          opgeheven. In de 3e Divisie werd een district Apeldoorn opgericht.</html:p>
+          <html:p>Met ingang van 1 oktober werden de brigades Aardenburg, Alphen,
+          Moerdijkbrug, Oostburg, Willemstad, Geleen, Heeze, Hoensbroek, Horst,
+          Panningen, Reusel, Spekholzerheide, Tuddern, Almelo, Doesburg, Doetinchem,
+          Enschede, Ruurlo, Tubbergen, Ulft, Boertange, Emmen, Harlingen, Hoogeveen,
+          Muntendam, Nieuw Amsterdam, Nieuwe Pekela, Nieuwolda, Valthermond, Winschoten
+          en Zaandam opgeheven.</html:p>
+          <html:p>In totaal bestond de organisatie in 1954 uit 6 divisies en 19
+          districten die als volgt over het land waren verdeeld: De 1e Divisie uit de
+          districten Terneuzen, Bergen op Zoom, Breda; Terneuzen uit de brigades
+          Terneuzen, Hontenisse, Hulst, Axel, Sas van Gent, IJzendijke, Sluis, Breskens,
+          Vlissingen, Hansweert;Het district Bergen op Zoom was opgebouwd uit de brigades
+          Bergen op Zoom, Roosendaal, Sprundel, Ossendrecht, Hoogerheid;Breda uit de
+          brigades Breda, Zundert, Gilze-Rijen, Strijbeek, Tilburg, Goirle,
+          Baarle-Nassau, Keizersveer, Hilvarenbeek;De 2e Divisie uit de districten
+          Maastricht, Heerlen, Roermond, Venlo en Eindhoven; Het district Maastricht
+          bestond uit de brigades Maastricht Wijk, Maastricht West, Eysden, Slenaken,
+          Gulpen, Beek;Het district Heerlen uit Heerlen, Sittard, Kerkrade, Vaals,
+          Brunssum, Simpelveld, Nieuwenhagen ;Roermond uit Roermond, Grathem, Vlodrop,
+          Echt, Roosteren, Swalmen;Venlo uit Venlo, Tegelen, Arcen, Venray,
+          Reuver;Eindhoven uit Eindhoven, vliegveld Welschap, Valkenswaard, Bergeijk,
+          Bladel, Budel, Weert;De 3e Divisie uit de districten Nijmegen, Arnhem,
+          Apeldoorn, Enschede en Zwolle; Het district Nijmegen bestond uit de brigades
+          Nijmegen, Groesbeek, Beek, Millingen, Well, Siebengewald, Ottersum,
+          Vierlingsbeek, Cuijk, Grave, Volkel, ´s- Hertogenbosch;Arnhem uit de brigades
+          Arnhem, Deelen, Zevenaar, Lobith, Elten, ´s -Heerenberg, Aalten,
+          Dinxperlo;Enschede uit Ootmarsum, Denekamp, Oldenzaal, Hengelo, Twenthe, Neede,
+          Glanerbrug, Haaksbergen, Groenlo, Winterswijk, Deventer, Zutphen;Zwolle uit
+          Zwolle, Kampen, Hardenberg, Vroomshoop, Wezep, Oldebroek, Harderwijk, Nunspeet,
+          Ermelo;De 4e Divisie uit de districten Groningen en Assen; Groningen uit de
+          brigades Groningen, Delfzijl, Leeuwarden, Den Helder, Alkmaar, Bellingwolde,
+          Nieuwe-Schans, Ter Apel, Vlagtwedde;Assen uit Assen, Klazinaveen, Schoonebeek,
+          Coevorden, Emmercompascum, Zuidlaren, Westerbork, (opgeheven maart 1955),
+          Steenwijk;De 5e Divisie was opgebouwd uit de districten Amsterdam en Utrecht;
+          Het district Amsterdam was opgebouwd uit de brigades Amsterdam,
+          Amsterdam-haven, Schiphol, Haarlem, IJmuiden;Het district Utrecht uit de
+          brigades Utrecht, Bussum, Soestdijk, Soesterberg, Hilversum, Gorinchem;De 6e
+          Divisie uit de districten 's-Gravenhage en Rotterdam; Het district
+          's-Gravenhage was opgebouwd uit de brigades 's-Gravenhage, Valkenburg, Leiden,
+          Woerden, Clingendael, Schoonhoven;Rotterdam uit de brigades Rotterdam,
+          Rotterdam-haven, Hoek van Holland, Dordrecht.</html:p>
+          <html:p>In 1959 werd opnieuw een nieuwe indeling van kracht. Het district
+          Eindhoven werd overgeheveld van de 2e naar de 1e Divisie onder gelijktijdige
+          uitbreiding van genoemd district. Een deel van het district Nijmegen ging over
+          van de 3e naar de 2e Divisie. Het district Nijmegen werd opgeheven onder
+          gelijktijdige oprichting van een district Winterswijk. In de 4e Divisie werden
+          de gezagsgebieden van de districten Groningen en Assen gewijzigd, in de 5e
+          Divisie veranderden de grenzen van de districten Amsterdam en Utrecht. In de 6e
+          Divisie wijzigde het gezagsgebied van het district Rotterdam.</html:p>
+          <html:p>Op 1 juli 1961 werden de brigades IJzendijke, Axel, Breskens,
+          Hontenisse, Hilvarenbeek, Valkenswaard en Roosteren opgeheven. Dit hing samen
+          met een verandering in de grensbewaking, die alleen nog werd uitgeoefend op en
+          nabij de doorlaatposten.</html:p>
+          <html:p>In 1963 werd de brigade Strijbeek opgeheven. Een jaar later,
+          vooruitlopend op een wijziging van de vredessamenstelling van het wapen, werd
+          de brigade Bergeijk met ingang van 1 maart 1964 opgeheven.</html:p>
+          <html:p>In september 1965 werden de brigades Rucphen, Baarle Nasau, Swalmen,
+          Siebengewald, Heerlen, Vroomshoop, Groenlo, Millingen aan de Rijn, Schoonebeek
+          en Klazinaveen opgeheven.</html:p>
+          <html:p>In 1965 vond wederom een grote reorganisatie plaats. Per 1 december van
+          dat jaar bestond het wapen nog maar uit drie divisies. De 1e Divisie omvatte de
+          provincies Limburg, Noord-Brabant en Zeeland. De districten kwamen overeen met
+          de provincies, dus de 1e Divisie was onderverdeeld in drie districten. Het
+          district Limburg was nog onderverdeeld in twee rayons, Zuid en Noord. Het
+          district Noord Brabant was ook in twee rayons opgedeeld, in West en Oost. Het
+          district Noord-Brabant, rayon West bestond uit de brigades Bergen op Zoom,
+          Breda, Gilze-Rijen, Goirle, Hoogerheide, Keizersveer, Putte, Roosendaal,
+          Tilburg, Zundert;Het district Noord-Brabant, rayon Oost bestond uit de brigades
+          Budel, Eindhoven, Grave,'s-Hertogenbosch, Uden, Valkenswaard, Welschap;Het
+          district Limburg, rayon Zuid bestond uit de brigades Beek, Brunssum, Eijdsden,
+          Gulpen, Kerkrade, Maastricht-West, Maastricht-wijk, Nieuwenhagen, Simpelveld,
+          Sittard, Vaals;Het district Limburg, rayon Noord bestond uit de brigades Arcen,
+          Echt, Grathem, Ottersum, Reuver, Roermond, Venlo, Venray, Vlodrop, Weert,
+          Well;Het district Zeeland was opgebouwd uit de brigades Kruiningen, Sluis,
+          Terneuzen en Vlissingen;De 2e Divisie bestond uit de provincies Noord- en
+          Zuid-Holland en Utrecht. Ook hier vielen de districten samen met de
+          provinciegrenzen. Het district Noord-Holland bestond uit de brigades Alkmaar,
+          Amsterdam, Amsterdam-haven, Bussum, Haarlem, Den Helder, Schiphol, IJmuiden;Het
+          district Zuid-Holland bestond uit de brigades Clingendaal, Brielle, Dordrecht,
+          Gorinchem, 's-Gravenhage, Hoek van Holland, Leiden, Rotterdam,
+          Rotterdam-luchthaven, Schoonhoven, Valkenburg, Vlaardingen, Woerden;Het
+          district Utrecht bestond uit de brigades Amersfoort, Hollandsche Rading,
+          Soestdijk, Soesterberg, Utrecht;De 3e Divisie bestond uit drie districten,
+          Gelderland, Overijssel en Noord. Het district Noord was opgebouwd uit de
+          provincies Groningen, Friesland en Drente. Het district Gelderland was
+          opgedeeld in twee rayons, West en Oost. Het district Gelderland, rayon West
+          bestond uit de brigades Apeldoorn, Ede, Ermelo, Garderen,'t Harde, Harderwijk,
+          Harskamp, 't Loo, Nunspeet, Wezep, Zutphen;Het district Gelderland, rayon Oost
+          bestond uit de brigades Aalten, Arnhem, Beek, Deelen, Groesbeek,'s-Heerenberg,
+          Lobith, Neede, Nijmegen, Winterswijk, Zevenaar;Het district Noord bestond uit
+          de brigades Assen, Bellingwolde, Coevorden, Emmercompascuum, Groningen,
+          Leeuwarden, Nieuwe Schans, Ter Apel, Zuidlaren;Het district Overijssel bestond
+          uit de brigades Denekamp, Deventer, Glanerbrug, Haaksbergen, Hardenberg,
+          Hengelo, Kampen, Oldenzaal, Steenwijk, Steenwijkerwold, Vliegbasis Twenthe,
+          Zwolle.</html:p>
+          <html:p>De brigades Ottersum, Well, Echt, Nieuwenhagen, Kerkrade, Simpelveld,
+          Gulpen en Beek werden per 1 maart 1968 opgeheven.</html:p>
+          <html:p>Met ingang van 2 januari 1979 werd de brigade Hollandsche Rading
+          opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Koninklijke Marechaussee (KMar) bevat de (geheime)
+      vergader-, maand- en jaarverslagen van de staf. Naast stukken over de interne
+      organisatie en procedures, zijn er vervolgens archivalia over opleidingen,
+      huisvesting, personeelsbeleid en het materieelbeleid. Verder bevat het stafarchief
+      documenten over de taakuitoefening en bevoegdheden van de KMar, waarbij de stukken
+      over de naoorlogse zuivering, een onderzoek naar de Binnenlandse Strijdkrachten, de
+      inzet in Nieuw-Guinea en de bijdrage aan de Korea-missie van de VN opvallende
+      elementen zijn. Inzake de bijstand van de KMar bij ontruimingen, gijzelingen en
+      vredesoperaties (o.a. UNIFIL) zijn er eveneens bescheiden aanwezig. Over de jaren
+      1950 t/m 1976 heeft de commandant van de KMar een persoonlijk archief van zijn
+      correspondentie bijgehouden. De afzonderlijke staven van de divisies, de districten
+      en brigades hebben aparte archieven aangelegd met daarin in ieder geval de
+      inkomende en uitgaande post, alsmede stukken betreffende de taakuitoefening, het
+      personeelsbeleid, de huisvesting en het materieel.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>354 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>6,40 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

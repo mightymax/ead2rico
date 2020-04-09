@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/9e52e184-5a03-463a-882c-60837c115511"
+  rdf:about="record/3.20.57">
+    <rico:identifier>3.20.57</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35152" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.20.57/i1" />
+      <rico:instantiates rdf:resource="record/3.20.57" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van Jacob Surendonck, (1682)
+        1692-1727 (1739)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/9e52e184-5a03-463a-882c-60837c115511" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35152">
+    <rico:describedBy rdf:resource="record/3.20.57" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35152</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familiearchief Surendonck</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Surendonck</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1682</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1739</rico:endDate>
+    <rico:date>1682-1739</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jacob Surendonck (1647-1729)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Jacob Surendonck was de vierde zoon uit het huwelijk van Wilhelmus
+          Andreas Surendonck en Susanna Brossaert, die op 7 december 1647 te Utrecht werd
+          gedoopt Inventaris van de doop, trouw en begraafregisters van Utrecht 1583-1811
+          (1860). Publicaties van de Gemeentelijke Archiefdienst Utrecht, nr. 3 (Utrecht
+          1990), inv.nr. 97. . Zijn vader (1601-21 september 1652) was rector van de
+          Hiëronymus-school aldaar Nieuw Nederlandsch Biografisch Woordenboek (red. P.C.
+          Molhuysen, P.J. Blok) (NNBW), deel III, Leiden 1914, kol. 1210. . In 1651
+          verhuisde het gezin naar Rotterdam, waar Wilhelmus Surendonck tot rector aan de
+          Latijnse School was benoemd. In de periode van 1634 en 1643 was hij al als
+          conrector aan deze school verbonden geweest. Het was in deze stad dat hij
+          overleed hij en op 21 september 1652 in de Franse Kerk te Rotterdam werd
+          begraven J.H. Scheffer en Fr.D.O. Obreen, Rotterdamsche Historiebladen, Tweede
+          Afdeeling, Geschiedkundige stukken, Eerste deel, Rotterdam 1876, pp. 643-651.
+          Overlijdensdatum ontleend aan NNBW. .</html:p>
+          <html:p>Op 5 mei 1667 werd Jacob(us) Surendonck ingeschreven als student in de
+          letteren aan de universiteit van Leiden Album Studiosorum Academiae Lugduno
+          Batavae 1575-1875, 's-Gravenhage 1875, kol. 536. en op 25 september 1669 als
+          rechten-student aan dezelfde universiteit Album Studiosorum Academiae Lugduno
+          Batavae 1575-1875, 's-Gravenhage 1875, kol. 558. . Zowel de vader van Jacob als
+          twee van zijn broers, Elias en Petrus, hadden hier al voor hem gestudeerd; zijn
+          vader theologie, Elias literatuur en Petrus eveneens theologie Album
+          Studiosorum Academiae Lugduno Batavae 1575-1875, 's-Gravenhage 1875, kol. 140,
+          496, 432. . Reeds op 30 april 1670, dus binnen een jaar nadat hij als
+          rechten-student werd ingeschreven, werd Jacob tot advocaat bij het Hof van
+          Holland benoemd Rijksarchief in Zuid-Holland (RAZH), Archief van het Hof van
+          Holland, inv. nr. 5943, d.d. 30 april 1670. . Van de in die hoedanigheid gedane
+          werkzaamheden werd in zijn archief slechts één stuk teruggevonden Inv. nr. 1.
+          .</html:p>
+          <html:p>Op 28 april 1670, twee dagen voor zijn benoeming tot advocaat bij het
+          Hof van Holland, trouwde hij met Suzanne Trouwers in de Gereformeerde Kerk van
+          Loosduinen Gemeentearchief 's-Gravenhage (GA 's-Gravenhage), Klapper op de
+          doop, trouw en begraafboeken, 1598-1811, nr. 463. . Dit huwelijk bleef
+          kinderloos. Zijn vrouw overleed voor hem. Als weduwnaar hertrouwde hij op 21
+          januari 1679 met Johanna Pijll Gemeentearchief 's-Gravenhage (GA
+          's-Gravenhage), Klapper op de doop, trouw en begraafboeken, 1598-1811, nr. 157.
+          De ondertrouw had plaats op 8 januari 1679. . Zijn broer Johannes, conrector
+          van de Latijnse school te 's-Gravenhage, was al eerder met Petronella Pijll
+          getrouwd W.F. del Campo Hartman, De Haagsch-Amsterdamsche tak van het
+          Utrechtsch-Dordrechtsch geslacht Pijll, in: De Nederlandsche Leeuw, 1938.
+          Maandblad van het Koninklijk Genootschap van geslacht en wapenkunde, 56e jrg.
+          no. 1 (januari 1938), kol. 33-42, met name kol. 36. . Door voornoemd huwelijk
+          raakte ook Jacob verwant aan deze familie, waarvan een groot aantal leden als
+          commies bij verschillende regeringscolleges werkzaam was Zijn schoonvader,
+          Arent Pijll, was werkzaam als commis ter secretarie van de Staten van Holland
+          en West-Friesland, en van zijn zwagers was Arent Pijll klerk van de
+          Generaliteit, Phillippus commis ter Finantie van Holland, Louis commis ter
+          secretarie van de Staten van Holland en West-Friesland en Michiel secretaris
+          van de Levantschen Handel in Amsterdam. Zie: De Nederlandsche Leeuw, kol.
+          35-38. . Dit zou een verklaring kunnen zijn voor zijn langdurige pogingen een
+          soortgelijke betrekking te vinden. Uit dit huwelijk met Johanna Pijll werden -
+          voor zover bekend - negen kinderen geboren: Willem (21 november 1679), Johanna
+          (19 februari 1681), Arent (8 november 1682), Susanna Jakoba (28 februari 1685),
+          Pieter Philips (29 november 1686), Susanna Jakoba (13 maart 1689), Maria
+          Magdalena (5 maart 1692), Margarita (24 januari 1694) en Klara Henriette (7
+          december 1698) GA 's-Gravenhage, Klapper op de DTB's, nr. 1737. .</html:p>
+          <html:p>Op 17 april 1699 werd Jacob Surendonck in plaats van wijlen Pieter Raax
+          op een wedde van f 24,- het jaar tot "advocaat van het Land" benoemd ALgemeen
+          Rijksarchief, Eerste Afdeling, Archief van de Raad van State, inv. nr. 1533,
+          fo. 274 vo. . Hij bleef vermoedelijk daarnaast wel werkzaam bij het Hof van
+          Holland, aangezien hij nog tot 1716 op de lijst van advocaten voorkomt. Deze
+          werd namelijk elk jaar op "Koppermaandag", de maandag na 22 januari (Epifaniën)
+          geresenseerd 3.03.01.01, Archief van het Hof van Holland, inv. nr. 5939.
+          .</html:p>
+          <html:p>Voor zover was na te gaan, begon Surendonck in 1692 met het zenden van
+          brieven, memories en plannen aan Anthonie Heinsius, raadpensionaris van Holland
+          en West-Friesland. Behoudens enkele brieven en memories aan andere personen,
+          vormen dezen het hoofdbestanddeel van het archief. Uit de brieven blijkt dat
+          hij regelmatig persoonlijk contact had met Heinsius; hij zond memories over
+          zaken, welke hij tevoren met Heinsius had besproken Inv. nr. 47. , kondigde aan
+          bij hem op bezoek te komen O.a. inv. nrs. 57, 71 en 80. en zond Heinsius ook
+          felicitaties naar aanleiding van behaalde successen of bij herstel van ziekte
+          Inv. nr. 57, 138 en 156. . De plannen en memories hebben vrijwel allen
+          betrekking op de oorlogen, waarin de Republiek betrokken was, de daarmee
+          samenhangende vredesbesprekingen en - verdragen en de positie van de
+          gereformeerde religie in binnen- en buitenland. Het behoeft nader onderzoek om
+          vast te kunnnen stellen hoeveel invloed hij hierdoor daadwerkelijk op de
+          houding van de raadpensionaris Heinsius en daarmee op die van de buitenlandse
+          politiek heeft gehad. Over het algemeen wordt hij gezien als adviseur van
+          Heinsius. Zo zei Wijn over hem: "die men wel enigszins mag beschouwen als
+          adviseur van de raadpensionaris in militaire zaken" J.W. Wijn, Het Staatsche
+          Leger, dl. VIII, band III, 's-Gravenhage 1964, p. 280. . Porta noemde hem een
+          "intieme vriend" en "prive-sekretaris" van Heinsius A. Porta, Joan en Gerrit
+          Corver, Assen [1975], p. 38. . Veelzeggend voor de relatie is wel dat veel van
+          Surendoncks brieven aan Heinsius niet of slechts met initialen zijn
+          ondertekend, met de toevoeging dat de schrijver bij de ontvanger wel bekend is
+          Zie o.a.: 3.20.57, Het Archief van Jacob Surendonk, inv. nr.142 en 3.01.19, Het
+          archief van Anthonie Heinsius, inv. nr. 1457. .</html:p>
+          <html:p>Heinsius zelf schijnt de memories ook gewaardeerd te hebben; zo schreef
+          Surendonck eens, dat hij een memorie had geschreven, nadat hem door de
+          raadpensionaris was verzocht om "continuatie van dien ouden ijver" bij het
+          opstellen van plannen Inv. nr. 103. en dat hij plannen bleef indienen zolang
+          Heinsius niet liet blijken deze vervelend te vinden Inv. nr. 58. Kennelijk
+          heeft Heinsius dit dan ook niet gedaan. . Bij deze plannen en memories voegde
+          hij al spoedig verzoeken om een aanstelling in een functie, waarin hij "zonder
+          schade in mijn famielje, en belet in mijn beroep, mijne gedachten over die
+          gemeijne saken met meerder vrijheijt, en vrugt soude konnen laten gaan" Inv.
+          nr. 103. . Hij beklaagde zich erover slecht geïnformeerd te zijn, daar hij voor
+          het belangrijke nieuws op kranten was aangewezen, en dreigde bij weigering van
+          een betrekking het schrijven van memories te zullen stoppen Inv. nr. 89. . Hij
+          stelde dat het opstellen van de memories ten koste van zijn werk en familie
+          ging Inv. nr. 103. , en hem de afgelopen vijftien jaar minstens een kwart van
+          zijn tijd had gekost Inv. nr. 109. .</html:p>
+          <html:p>Op 27 september 1709 volgde hij Johan François Vallarea op als "Commis
+          van den lande van Hollandt ende West-Vrieslandt, ten comptoire van de
+          Raedt-Pensionaris" op een tractement van f. 1200,- Resoluties van de Staten van
+          Holland en West-Friesland, d.d. 27 september 1709. A.J. Veendendaal, De
+          briefwisseling van Anthonie Heinsius, 1702-1720, dl.1, 19 maart-31 december
+          1702, 's-Gravenhage 1976 (Rijks Geschiedkundige Publicatiën Grote serie nr.
+          158), p. XXI. . Zijn werkzaamheden bestonden vermoedelijk hoofdzakelijk uit
+          hetgeen eerder in 1656 was vastgesteld als "Instructie waer naer den
+          Commis....sijnen dienst praeciselijck sal hebben te reguleren" 3.01.19, Het
+          Archief van Anthonie Heinsius, inv. nr. 2353. . Op dit stuk staan aantekeningen
+          van Surendonck, wat erop wijst dat hij er de eed op heeft afgelegd. Volgens
+          deze instructie was de commies gehouden de hele dag aanwezig te zijn in het
+          huis van de raadpensionaris om aldaar acten, resoluties, brieven en andere
+          stukken op te stellen, te vertalen en te kopiëren. Verder moest hij als
+          vertegenwoordiger van de raadpensionaris zorg dragen voor de ontvangst van
+          ambassadeurs en ministers; was hij verantwoordelijk voor het resumeren en
+          kopiëren van de resoluties van de Staten van Holland en West-Friesland; diende
+          hij erop toe te zien dat dezen afgeschreven werden door klerken; was hij
+          verantwoordelijk voor het opstellen van een lijst van commissies en van zaken
+          welken voor behandeling naar andere colleges waren doorverwezen, het bijhouden
+          van een inventaris van de stukken in het archief van de raadpensionaris, welken
+          op het land betrekking hadden, en diende hij verder al datgene te doen, wat de
+          raadpensionaris hem zou opdragen. Het was hem verboden iets van hetgeen hij op
+          het kantoor van de raadpensionaris gezien of gehoord had door te geven noch
+          mocht hij ergens geschenken voor aannemen. In het archief van Heinsius zijn
+          enkele stukken aanwezig betreffende Surendoncks werkzaamheden als commies: het
+          resumeren van rekesten 3.01.19, Het archief van Anthonie Heinsius, inv. nr.
+          1549. en een drukfout in een publicatie 3.01.19, Het archief van Anthonie
+          Heinsius, inv. nr. 1737. .</html:p>
+          <html:p>Ook na het indiensttreden bij Heinsius bleef Surendonck zijn memories
+          indienen, al had hij "de eere...meer het geluk...om u hoog Edele mondeling te
+          spreken" en al kon hij "daar voor niet meer als de simpele schrijflonen onder
+          een generale naam (declareren)" Inv. nr. 169. . Ze bleven echter welkom:
+          aangezien hij ambts- en eedshalve genoodzaakt was de bevelen van Heinsius op te
+          volgen, had hij voordien voor het opstellen van memories toestemming gevraagd
+          Inv. nr. 167. . Na het overlijden van Heinsius op 3 augustus 1720 NNBW, dl. I,
+          kol. 1058. H.P. Fölting, De landsadvocaten en raadpensionarissen der Staten van
+          Holland en West-Friesland 1480-1795, 's-Gravenhage 1976, pp.82-85 met name noot
+          1a. kwam echter vrij snel een einde aan deze activiteit. Surendonck schreef nog
+          slechts enkele memories aan de nieuwe raadpensionaris Isaac van
+          Hoornbeek.</html:p>
+          <html:p>Op 4 mei 1724 verzocht Surendonck "gekomen sijnde tot den ouderdom van
+          over de 76 jaren, en ook wat horende sijnde" om een aanstelling als
+          commis-honorair, met behoudt van tractement en een redelijk equivalent van
+          dezelfde emolumenten, van zijn ambt ontheven te worden. Hij wenste de rest van
+          zijn leven nuttig te mogen besteden aan het vervaardigen, corrigeren en voor
+          druk gereed maken van de indices op de resoluties van de Staten van Holland en
+          West Friesland, welke werkzaamheden hij reeds twee maal eerder tot volle
+          tevredenheid van de vorige raadpensionaris en de leden van de Staten van
+          Holland en West-Friesland had verricht 3.01.04, Het archief van de Staten van
+          Holland en West-Friesland, 1572-1795, inv. nr. 1906 d.d. 4 mei 1724. . Op 12
+          juli 1724 verleenden de Staten van Holland hem hiervoor de verzochte
+          toestemming Resoluties van de Staten van Holland en West-Friesland, d.d. 12
+          juni 1724. . Niet hij, maar de commies Johan Samuel Cassa, komt echter de eer
+          toe dit monnikenwerk tot een goed einde te hebben gebracht P.A. Meilink, Johan
+          Samuel Cassa, in: Jaarboek Die Haghe 1933, pp. 36-53 met name p. 43. . Het is
+          niet onwaarschijnlijk dat het Surendonck was, die naderhand op Frans verzoek in
+          1727 een memorie over zijn oude werkgever schreef Een memorie over Anthonie
+          Heinsius, raadpensionaris van Holland, uit 1727. Bewerkt door A.J. Veenendaal
+          jr., in: Nederlandse Historische Bronnen, dl.1, 's-Gravehage 1979, pp. 215-237.
+          . Surendonck overleed in mei 1729 op 82-jarige leeftijd te 's-Gravenhage Op 27
+          mei werd er f. 30,- impost voor het begraven betaald. Zie: GA 's Gravenhage,
+          Klapper op de DTB's, nr. 439, p. 79e. .</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Jacob Surendonck (1647-1729) was advocaat bij het Hof van Holland, tevens
+      'advocaat van het Land', en bevriend met raadpensionaris Anthonie Heinsius. Het
+      archief bestaat deels uit afschriften van stukken, deels uit originelen, die aan
+      Heinsius zijn verzonden. Het grootste gedeelte der stukken heeft betrekking op de
+      Negenjarige oorlog en de Spaanse Successie-oorlog, de hierop volgende
+      vredesbesprekingenen en de positie van de Hugenoten in Frankrijk.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.90 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>321 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/aeff809d-bd32-44cf-bfd1-524f2a363091"
+  rdf:about="record/2.21.007.61">
+    <rico:identifier>2.21.007.61</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1918</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22319" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.007.61/i1" />
+      <rico:instantiates rdf:resource="record/2.21.007.61" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100915</rico:hasModificationDate>
+        <html:p>15 september 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van W.A. baron Schimmelpenninck
+        van der Oye [levensjaren 1800-1872], 1833-1870; A. baron Schimmelpenninck van der
+        Oye [levensjaren 1839-1918], 1859-1917; jhr. L. van Bronkhorst [levensjaren
+        1813-1885]</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/aeff809d-bd32-44cf-bfd1-524f2a363091" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22319">
+    <rico:describedBy rdf:resource="record/2.21.007.61" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22319</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 061 A. Schimmelpenninck van der
+      Oye</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Schimmelpenninck van der Oye</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1833</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1917</rico:endDate>
+    <rico:date>1833-1917</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Willem Anne baron Schimmelpenninck van der Oije van de beide
+            Pollen en Nijenbeek (1800-1872)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Hier volgen eenige bijzonderheden omtrent de drie voornaamste
+          geadresseerden:</html:p>
+          <html:p>Willem Anne baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 6 Januari 1800, overleden 12 December 1872, Minister van
+          Binnenlandsche Zaken 1841-1846, Minister van Staat 7 Februari 1846, Commissaris
+          des Konings in Gelderland 1847-1852, lid van de Tweede Kamer der
+          Staten-Generaal 1853-1860 en van de Eerste Kamer 1860-1872, Opperhofmaarschalk
+          van Z. M. den Koning, commandeur van de Duitsche Orde, toegelaten in de
+          Ridderschap van Gelderland in 1823.</html:p>
+          <html:p>Alexander baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 30 September 1839, overleden 19 Juni 1918, rentmeester van
+          het Kroondomein 9 Mei 1866, lid van de Tweede Kamer der Staten-Generaal
+          1873-1882 en 1886-1888, administrateur van het Kroondomein 1882-1888.
+          Commissaris des Konings in Utrecht 1888-1905. president van de Hoge Raad van
+          Adel 1893-1908, coadjutor en landcommandeur van de Duitse Orde.</html:p>
+          <html:p>Jonkheer Ludolph van Bronkhorst, schoonvader van Alexander baron
+          Schimmelpenninck van der Oije etc. geboren 20 Mei 1813, overleden 19 Augustus
+          1885, kolonel titulair, particulier secretaris van de Prins van Oranje,
+          intendant van Het Loo.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Alexander baron Schimmelpenninck van der Oije van de beide Pollen
+            en Nijenbeek (1839-1918)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Hier volgen eenige bijzonderheden omtrent de drie voornaamste
+          geadresseerden:</html:p>
+          <html:p>Willem Anne baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 6 Januari 1800, overleden 12 December 1872, Minister van
+          Binnenlandsche Zaken 1841-1846, Minister van Staat 7 Februari 1846, Commissaris
+          des Konings in Gelderland 1847-1852, lid van de Tweede Kamer der
+          Staten-Generaal 1853-1860 en van de Eerste Kamer 1860-1872, Opperhofmaarschalk
+          van Z. M. den Koning, commandeur van de Duitsche Orde, toegelaten in de
+          Ridderschap van Gelderland in 1823.</html:p>
+          <html:p>Alexander baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 30 September 1839, overleden 19 Juni 1918, rentmeester van
+          het Kroondomein 9 Mei 1866, lid van de Tweede Kamer der Staten-Generaal
+          1873-1882 en 1886-1888, administrateur van het Kroondomein 1882-1888.
+          Commissaris des Konings in Utrecht 1888-1905. president van de Hoge Raad van
+          Adel 1893-1908, coadjutor en landcommandeur van de Duitse Orde.</html:p>
+          <html:p>Jonkheer Ludolph van Bronkhorst, schoonvader van Alexander baron
+          Schimmelpenninck van der Oije etc. geboren 20 Mei 1813, overleden 19 Augustus
+          1885, kolonel titulair, particulier secretaris van de Prins van Oranje,
+          intendant van Het Loo.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jonkheer Ludolph van Bronkhorst (1813-1885)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Hier volgen eenige bijzonderheden omtrent de drie voornaamste
+          geadresseerden:</html:p>
+          <html:p>Willem Anne baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 6 Januari 1800, overleden 12 December 1872, Minister van
+          Binnenlandsche Zaken 1841-1846, Minister van Staat 7 Februari 1846, Commissaris
+          des Konings in Gelderland 1847-1852, lid van de Tweede Kamer der
+          Staten-Generaal 1853-1860 en van de Eerste Kamer 1860-1872, Opperhofmaarschalk
+          van Z. M. den Koning, commandeur van de Duitsche Orde, toegelaten in de
+          Ridderschap van Gelderland in 1823.</html:p>
+          <html:p>Alexander baron Schimmelpenninck van der Oije van de beide Pollen en
+          Nijenbeek, geboren 30 September 1839, overleden 19 Juni 1918, rentmeester van
+          het Kroondomein 9 Mei 1866, lid van de Tweede Kamer der Staten-Generaal
+          1873-1882 en 1886-1888, administrateur van het Kroondomein 1882-1888.
+          Commissaris des Konings in Utrecht 1888-1905. president van de Hoge Raad van
+          Adel 1893-1908, coadjutor en landcommandeur van de Duitse Orde.</html:p>
+          <html:p>Jonkheer Ludolph van Bronkhorst, schoonvader van Alexander baron
+          Schimmelpenninck van der Oije etc. geboren 20 Mei 1813, overleden 19 Augustus
+          1885, kolonel titulair, particulier secretaris van de Prins van Oranje,
+          intendant van Het Loo.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat correpondentie van Willem Anne baron Schimmelpenninck van
+      der Oije van de beide Pollen en Nijenbeek (1800-1872), die o.a. Minister van
+      Binnenlandse Zaken was; zijn zoon Alexander baron Schimmelpenninck van der Oije van
+      de beide Pollen en Nijenbeek (1839-1918), die onder meer lid was van de Tweede
+      Kamer en Commissaris des Konings in Utrecht; en zijn schoonvader Jonkheer Ludolph
+      van Bronkhorst (1813-1885), die o.a. particulier secretaris was van den Prins van
+      Oranje.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>11 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

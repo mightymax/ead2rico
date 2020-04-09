@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/7808128b-1217-1eb2-e053-09f0900aee90"
+  rdf:about="record/2.25.63">
+    <rico:identifier>2.25.63</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2012</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch.</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/P52" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.25.63/i1" />
+      <rico:instantiates rdf:resource="record/2.25.63" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van IZA Nederland 1993-2006 (2012)
+        en zijn taakvoorgangers, (1952) 1954-2006 (2012)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/7808128b-1217-1eb2-e053-09f0900aee90" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/P52">
+    <rico:describedBy rdf:resource="record/2.25.63" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>P52</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Landelijk Instituut Ziektenkostenverzekering Ambtenaren
+      Nederland [IZA] en voorgangers</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>IZA Nederland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1952</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2012</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1952-2012</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Landelijk Instituut Ziektenkostenverzekering Ambtenaren Nederland
+            [IZA]</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bron: Verslag ‘Ziektekostenvoorzieningen voor ambtenaren’, een
+          doctoraalscriptie voor bestuursrecht en sociaal verzekeringsrecht door H.P.H.M.
+          Teunissen, 1982, archief regiokantoor IZA Gelderland</html:p>
+          <html:p>In 1941 kwam voor het eerst een verplichte collectieve
+          ziektekostenverzekering tot stand. In dat jaar werd het Ziekenfondsbesluit
+          ingevoerd voor werknemers in loondienst met een inkomen beneden de zogenaamde
+          welstandsgrens. Ambtenaren vielen echter buiten de werknemersverzekeringen en
+          moesten daarom zelf voor een ziektekostenverzekering zorgen of de volledige
+          kosten voor ziekte zelf dragen. Na de Tweede Wereldoorlog was de toenmalige
+          regering aanvankelijk van plan ook een geneeskundige voorziening voor het
+          gehele overheidspersoneel te treffen. Dit bleek echter niet haalbaar en
+          verschillende overheidsorganisaties gingen voor het eigen personeel een
+          ziektekostenregeling treffen De afdeling Limburg van de Vereniging van
+          Nederlandse Gemeenten besloot op 4 mei 1950 tot het instellen van een commissie
+          voor het ontwerpen van een regeling voor de geneeskundige verzorging van
+          gemeenteambtenaren in Limburg. Zij had het standpunt ingenomen dat de regeling
+          ook moest gelden voor gepensioneerden, wachtgelders en voor weduwen van
+          ambtenaren. De regeling moest uitgaan van het verrichtingenstelsel en van de
+          bepaling dat de deelnemers een gering deel van de kosten zelf moesten dragen.
+          Dit initiatief werd naar landelijk niveau getild met de instelling van een
+          Commissie Ziektekostenvoorziening door het toenmalige Centraal Orgaan voor
+          gemeenschappelijke behandeling van gemeentelijke personeelsaangelegenheden van
+          de VNG. Het rapport Ziektekostenverzekering, een uitgave in de blauwe reeks van
+          het Centraal Orgaan voor gemeenschappelijke personeelsaangelegenheden uit 1952
+          was het eindrapport van deze commissie m.b.t. dit onderwerp Dit document is
+          opgenomen in de inventaris van IZA Nederland (Nationaal Archief) . Het
+          Limburgse initiatief stond model voor de door de commissie voorgestelde
+          regeling voor al het gemeentepersoneel in Nederland.</html:p>
+          <html:p>Er werd gekozen voor een provincie-gewijze gemeenschappelijke regeling,
+          met een paritair bestuur, bestaande uit vertegenwoordigers van aan de regeling
+          deelnemende gemeenten uit de betreffende provincie en van de bonden van
+          overheidspersoneel. De Instituten Ziektekostenvoorziening voor Ambtenaren (IZA)
+          in de provincie Limburg, Friesland, Gelderland, Overijssel, Noord-Brabant,
+          Utrecht, Groningen/Drenthe, Noord-Holland, Zuid-Holland en Zeeland, zoals ze
+          respectievelijk werden genoemd, zijn tot stand gekomen na 1952 en voor 1956. In
+          de daaropvolgende 20 jaar heeft de oorspronkelijke regeling zich ten aanzien
+          van de soorten zorg flink uitgebreid, waardoor deze zeer goed aansloot op de
+          financiële omstandigheden en geneeskundige behoeften van de deelnemers. Tussen
+          de verstrekkingenlijst van het ziekenfonds en de vergoedingenlijst van het IZA
+          zijn op deze manier grote verschillen ontstaan, voornamelijk op het gebied van
+          tandheelkundige hulp, medische kunst- en hulpmiddelen en genees- en
+          verbandmiddelen. Het systeem van de IZA-regeling was gebaseerd op eigen
+          verantwoordelijkheid van de deelnemers. De vraag naar medische zorg werd door
+          de bijbetalingen in positieve zin beïnvloed, omdat zij onnodige vraag naar
+          medische zorg voorkwamen.</html:p>
+          <html:p>Alle regionale IZA-organisaties handelden zelfstandig. In 1954 echter
+          werd een overkoepelende organisatie, de landelijke ‘Adviescommissie voor IZA
+          besturen’, opgericht. Deze Adviescommissie had ten doel om de doelmatige
+          uitvoering van verschillende regelingen te bevorderen en de contacten tussen de
+          regionale IZA organisaties te verbeteren. De eerste voorzitter van de commissie
+          was de heer O. Norbruis, burgemeester van de gemeente Utrecht en voorzitter van
+          het bestuur van het IZA-Utrecht. Het secretariaat werd ondergebracht bij de
+          VNG. Van elk van de regionale besturen nam één bestuurder deel in de
+          Adviescommissie. Bij de oprichting van de Adviescommissie waren dit de
+          IZA-organisaties Friesland, Gelderland, Overijssel, Noord-Brabant, Limburg en
+          Utrecht. Na 1954 namen ook alle overige provincies deel. Eind 1967 was er een
+          voorstel om de Adviescommissie bij het eveneens bestaande Vereveningsfonds
+          onder te brengen. Het Vereveningsfonds was bedoeld om een tijdelijk financieel
+          tekort bij een regionaal IZA te kunnen dekken uit bijdragen van de regionale
+          IZA organisaties aan dat fonds. Het onderbrengen van de Adviescommissie bij het
+          Vereveningsfonds bleek echter niet haalbaar omdat Limburg en Noord-Brabant niet
+          aan het Vereveningsfonds wilden meedoen. Er ontstond onenigheid over de
+          organisatie van het secretariaat van de nieuwe organisatie. Besloten werd het
+          secretariaat bij de VNG weg te halen en het zelf ter hand te nemen.</html:p>
+          <html:p>In 1968 werd de Adviescommissie na veel discussies opgeheven. Daarvoor
+          in de plaats kwam het Gemeenschappelijk Advies Orgaan IZA’s (GAO). Deze
+          organisatie werd tijdelijk ondergebracht bij het IZA Zuid-Holland. De heer
+          Wieringa, voorzitter van de NCBO (Nederlandse Christelijke Bond van
+          Overheidspersoneel) werd voorzitter en de heer Nieuwkamer, secretaris-directeur
+          van het IZA-Zuid-Holland, werd ambtelijk secretaris. Voorzitter en secretaris
+          zaten ook in de ‘commissie van het dagelijks bestuur’ waarin nog 4 andere leden
+          waren aangesteld. De taken van het Gemeenschappelijk Orgaan waren onder meer
+          het geven van advies en voorlichting, het verzamelen en bewerken van gegevens
+          en het behartigen van de belangen van de aan het orgaan deelnemende instituten
+          tegenover derden. Begin jaren ’70 stelde het bestuur de commissie advisering
+          landelijk bestel Zie ook inv.nr. 31 in met het doel onderzoek te doen naar de
+          verdere mogelijkheden voor toekomstige samenwerking tussen de
+          IZA-organisaties.</html:p>
+          <html:p>In 1974 werd het Gemeenschappelijk Adviesorgaan IZA’s opgeheven en na
+          veel overleg ontstond de Stichting Gemeenschappelijk Adviesorgaan IZA’s
+          (eveneens GAO genoemd) welke op 10 september 1974 werd opgericht. Het bureau
+          van de Stichting werd tijdelijk ondergebracht bij IZA Zuid-Holland, de heer
+          Nieuwkamer, secretaris-directeur van IZA Zuid-Holland, werd parttime directeur.
+          Voor de gezamenlijke werkzaamheden kreeg IZA Zuid-Holland van de Stichting een
+          vergoeding voor de kantoorruimte en 3 medewerkers kwamen in dienst van IZA
+          Zuid-Holland. Het doel van de nieuwe Stichting was het bevorderen van de
+          onderlinge samenwerking en het overleg met andere (publiekrechtelijke)
+          verzekeraars. Voor de beleidsvoorbereiding kende de Stichting vier commissies:
+          de commissie voor deelnemersaangelegenheden, de commissie voor vergoedingen, de
+          commissie voor financiële en administratieve zaken en de commissie voor
+          algemene zaken. Deze commissies waren met name gericht op de gevolgen van het
+          volksgezondheidsbeleid voor de IZA organisaties.</html:p>
+          <html:p>Tegelijk met de oprichting van de Stichting GAO werd de Stichting
+          Gemeenschappelijk Administratief en Financieel Bestel IZA’s opgericht, de
+          erfopvolger van het Vereveningsfonds, De IZA organisaties Limburg en
+          Noord-Brabant deden ook aan dit fonds vooralsnog niet mee. De Stichting
+          Gemeenschappelijk Administratief en Financieel Bestel IZA’s beheerde het fonds
+          voor regulering van het bijdragepercentage en voor dekking van tekorten. Steeds
+          meer regionale IZA organisaties dreigden in de loop van de tijd uit het fonds
+          te stappen. Dit zou uiteindelijk betekenen dat er eind jaren ’70 nog maar 3
+          deelnemers zouden overblijven. Dit vond men onvoldoende draagvlak voor een
+          fonds en besloten werd het reguleringsfonds te liquideren. Het saldo van het
+          fonds werd verdeeld over de regionale IZA’s reguleringsfonds.</html:p>
+          <html:p>In 1974 werd ook de commissie van administrateurs ingesteld. Deze
+          commissie was een informeel overleg tussen regionale directeuren en de
+          directeur van de Stichting waar onderwerpen als vergoedingenbeleid, financieel
+          beleid, personele zaken en andere actuele onderwerpen werden besproken. Vanaf
+          1982 werd dit overleg het directeurenoverleg genoemd, vanaf 1987 de Commissie
+          van Advies. Ondanks dat het een informeel overleg was, werd het ervaren als een
+          zeer belangrijke samenkomst voor het bespreken van praktische zaken.</html:p>
+          <html:p>In 1975 werd de ad-hoc commissie ‘beraad financiële samenwerking’
+          ingesteld waarin vanuit financieel oogpunt mogelijkheden voor een nieuwe
+          samenwerkingsvorm werden voorbereid. Later werd deze commissie het Bestuurlijk
+          Beraad genoemd.In 1987 werd er door de verschillende kantoren een convenant
+          getekend voor financiële en bestuurlijke samenwerking. Begin jaren ’90 werden
+          twee redenen doorslaggevend om de regionale IZA organisaties met elkaar te
+          laten fuseren tot één landelijke verzekeraar: ten eerste de voorgenomen
+          stelselwijziging ziektekostenverzekeringen volgens het plan-Simons en de
+          daarmee gepaard gaande noodzaak tot schaalvergroting; ten tweede het plan van
+          de overheid om de ambtenaren onder de sociale werknemersverzekeringen te
+          brengen. In dat perspectief zou er geen plaats meer zijn voor een
+          publiekrechtelijke regeling als de IZA. De regionale IZA organisaties moesten
+          dus worden voorbereid op een competitieperiode in een privaatrechtelijke
+          situatie. Ter voorbereiding op de fusie werden al centrale organen ingesteld.
+          Een Directie vergaderde over diverse interne en externe aangelegenheden in
+          opmaat naar IZA Nederland. Een eveneens ingesteld managementteam zorgde voor de
+          uitvoering van de centrale besluiten en communicatie naar de kantoren.</html:p>
+          <html:p>Tot april 1993 bestonden er 10 IZA-Regelingen, namelijk IZA-Limburg,
+          Noord-Brabant, Zeeland, Zuid-Holland, Utrecht, Noord-Holland, Friesland,
+          Groningen/Drenthe, Overijssel/Flevoland en Gelderland. Ieder IZA kende een
+          eigen uitvoeringsapparaat met uitzondering van Zuid-Holland en Zeeland die een
+          gemeenschappelijk apparaat hadden. De uitvoering van de regeling was door
+          Zeeland uitbesteed aan het kantoor van IZA-Zuid-Holland.</html:p>
+          <html:p>De regionale IZA organisaties Groningen/Drenthe en Overijssel/Flevoland
+          hadden vanaf het begin al een gezamenlijk bestuur en logisch gezien hadden zij
+          ook een gezamenlijke uitvoering. Bij de verschillende regiokantoren vond
+          administratieve afhandeling van zorgkosten plaats, de verzekerdenadministratie,
+          de premie-incasso en de medische en zorginhoudelijke beoordeling. Daarnaast
+          werden vanuit de regionale kantoren de contacten onderhouden met de regionale
+          zorgaanbieders. Op 1 juni 1993 fuseerden de regionale IZA organisaties tot één
+          IZA Nederland met 9 regiokantoren. De stichting werd eind 1992 opgeheven, IZA
+          Nederland werd medio 1993 opgericht.</html:p>
+          <html:p>In 1993 waren de IZA Regiokantoren gevestigd in Delft,
+          ’s-Hertogenbosch, Groningen, Leeuwarden (in 1997 opgeheven en ondergebracht in
+          het kantoor Groningen), Heerhugowaard (voorheen Alkmaar), Nieuwegein,
+          Oldenzaal, Sittard en Velp. Het hoofdkantoor van IZA stond ook in Nieuwegein,
+          het automatiseringscentrum in Groningen. In het hoofdkantoor te Nieuwegein was
+          de directieraad gevestigd en waren de afdelingen ondergebracht die zich
+          bezighielden met beleidsvoorbereiding, juridische en centrale advisering,
+          markt- en productontwikkeling, bedrijfsvoering, communicatie, personeel en
+          opleiding, en organisatie. De directieraad bestond uit een voorzitter, een
+          directeur bedrijfsvoering, de directeur van IZA en een adjunct directeur
+          verzekeringen, die tevens directiesecretaris was. Er werd een adviescommissie
+          in het leven geroepen – het ‘Advid-Overleg’ - bestaande uit de
+          vestigingsdirecteuren, die de directie adviseerde over beleid en uitvoering.
+          Voor de personele kant werd de medezeggenschapsraad en het Georganiseerd
+          Overleg ingesteld. De medezeggenschapsraad behandelde zaken binnen de
+          uitvoering waar werknemers in hun dagelijks werk mee te maken hebben, zoals
+          aanschaf van meubilair, het instellen van rookpauzes e.d. Het Georganiseerd
+          Overleg was een overleg tussen de bonden en de werkgever over rechtspositionele
+          aangelegenheden, zoals wijziging van het bezoldigingsbesluit, een sociaal plan
+          e.d.</html:p>
+          <html:p>Het IZA beschikte over een eigen automatiseringscentrum (ACI) dat
+          gevestigd was in Groningen. IZA ontwikkelde en bouwde in eigen beheer een
+          maatwerkapplicatie ter ondersteuning van de primaire processen. De
+          kantoorautomatisering was tevens gekoppeld aan deze landelijk technische
+          infrastructuur.</html:p>
+          <html:p>In het kader van employee benefits richtte IZA in 1993 de Stichting IZA
+          Belangen op. Deze stichting werkte samen met Elvia en Spaarbeleg Bank N.V., een
+          100% dochter van Aegon. De stichting bood de IZA verzekerden spaarfaciliteiten
+          en reis- en annuleringsverzekeringen met een breed op de IZA-regeling afgestemd
+          pakket.</html:p>
+          <html:p>Medio 1993 richtte de stichting samen met de Vereniging
+          Zorgverzekeraars Nederland het bedrijf Vektis B.V. op met als doel het leveren
+          van informatiediensten voor de gezondheidszorg.</html:p>
+          <html:p>Met ingang van 1 januari 1996 gingen IZA en zorgverzekeraar VGZ een
+          samenwerkingsverband aan Informatiebrochure IZA Nederland januari 2001 . Vanaf
+          1999 kreeg dit samenwerkingsverband een meer duurzaam karakter op basis van het
+          in 1998 gestelde strategische doel om gezamenlijk uit te groeien tot de grootst
+          mogelijke combinatie van zorgverzekeraars voor ambtenaren en verwante groepen.
+          In 2004 kwam er een bedrijfsfusie tot stand tussen IZA en VGZ. De
+          uitvoeringsorganisatie van IZA werd geprivatiseerd, waarna deze samen met de
+          uitvoeringsorganisatie van VGZ werd ondergebracht in de Coöperatie VGZ-IZA UA.
+          Deze samenwerking leidde ook tot de oprichting van de Stichting IZA
+          Ziektekostenverzekeringen (SIZ) in 1995, een ziekenfonds en particuliere
+          verzekering onder eigen label met als bijzonderheid een pakket vergelijkbaar
+          met het pakket van de IZA, waarbij het IZA regiokantoor Delft de frontoffice
+          uitvoerde en VGZ de backoffice. Hieruit ontstond de Werkgroep SIZ, die
+          vergaderde over interne zaken als inrichting frontoffice en
+          informatievoorziening bij het IZA en VGZ. Er ontstond naast een gezamenlijke
+          marktbewerking en acquisitie een zekere kennisuitwisseling op het gebied van
+          zorginkoop, zorgbeleid, bedrijfszorg, ICT en Human Resources Management. Een
+          bijzonderheid was dat asielzoekers hier ook aan konden deelnemen. Het
+          hoofdkantoor van IZA bood tevens huisvesting aan de Stichting IZA Belangen
+          (SIB), de Stichting IZA Ziektekostenverzekeringen (SIZ) en het secretariaat van
+          de koepel van de publiekrechtelijke ziektekostenverzekeraars KPZ. De voorzitter
+          van de directieraad was tevens de statutair directeur van de stichtingen SIZ en
+          SIB. De SIB behartigde de materiele en immateriële belangen van de deelnemers
+          van de IZA regeling. Dit bestond uit het bieden van diensten als
+          reisverzekeringen, bedrijfszorgpakketten en voorzieningen in de secundaire
+          arbeidsvoorwaarden.</html:p>
+          <html:p>De publiekrechtelijke Interprovinciale Ziektekostenregeling (IZR) die
+          op 1 juli 1953 was opgericht, bracht in 1998 de uitvoering van deze
+          ziektekostenregeling ook onder bij IZA-Nederland. Met ingang van 2005 werd de
+          IZR als zelfstandige regeling opgeheven en sloten de provincies en andere
+          instellingen zich aan bij de IZA-regeling Nederland onder een apart label
+          IZA/IZR. Er werd een stuurgroep en een projectgroep IZA/IZR ingesteld in het
+          kader van de verzelfstandiging van de werkorganisatie van de IZR-regeling. De
+          stuurgroep maakte beleid voor de uitvoering, de projectgroep zorgde voor de
+          implementatie daarvan.</html:p>
+          <html:p>Eerder, in 2002, ontstond IZA/AZ, een ziektekostenverzekering voor
+          medewerkers van Academische Ziekenhuizen, eveneens een apart onderdeel van de
+          IZA-Nederland-regeling.</html:p>
+          <html:p>De publiekrechtelijke zorgverzekeringen hadden overigens een eigen
+          koepelorganisatie, de Kontaktcommissie Publiekrechtelijke
+          Ziektekostenverzekeringen (KPZ). IZA was hierbij aangesloten, evenals de IZR
+          die in hoofdzaak voor provincieambtenaren gold en de Geneeskundige Verzorging
+          Politie (GVP) later Dienst Geneeskundige Verzorging Politie (DGVP), de
+          ziektekostenregeling voor politieambtenaren. KPZ was belangenbehartiger en
+          voerde zelfstandig overleg met de minister van Volksgezondheid. Daarnaast
+          werkte deze organisatie daar waar geen conflicterende belangen waren ook nauw
+          samen met Zorgverzekeraars Nederland (ZN).</html:p>
+          <html:p>Als gevolg van de inwerkingtreding van de Zorgverzekeringswet op 1
+          januari 2006 werd besloten de IZA Nederland-regeling met ingang van diezelfde
+          datum op te heffen. De feitelijke liquidatie van het Openbaar Lichaam IZA
+          Nederland heeft daarna nog tot medio 2012 geduurd.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat uit 4 bestanden van rechtsopvolgers. Het bestand van de
+      Adviescommissie bestaat hoofdzakelijk uit notulen, stukken over de oprichting en
+      beleidsvorming. Het archief van het Gemeenschappelijk Advies Orgaan IZA bevat
+      hoofdzakelijk notulen, stukken over de oprichting, over financiële zaken en over
+      beleidsvorming. Daarnaast zijn er stukken over de uitvoering van de
+      gemeenschappelijke regeling en de zorgregelingen. Het archief van de Stichting
+      Gemeenschappelijk Adviesorgaan IZA’s bevat notulen en verslagen van het bestuur.
+      Daarnaast zijn er stukken over oprichting, taken en opheffing, als ook stukken van
+      het bestuur, van de voorzitter en van commissies. In het archief van IZA Nederland
+      zijn notulen en verslagen van het bestuur aanwezig. Vanaf de oprichting tot de
+      liquidatie zijn stukken bewaard gebleven. Ook van de administratieve organisatie en
+      financiële verantwoording zijn stukken aanwezig. De organisatie maakte zelf beleid
+      voor de uitvoering van haar taken. Bewaard zijn o.a. de gemeenschappelijke
+      regeling, stukken over het zorgbeleid, over het toekenningsbeleid van bijdragen en
+      over het toelatingsbeleid van verschillende groepen deelnemers.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele openbare bescheiden uit dit archief is, behoudens
+      de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Wel zijn er voor een aantal foto's beperkingen krachtens het
+      auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>524 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>12,80 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

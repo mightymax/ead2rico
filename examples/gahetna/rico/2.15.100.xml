@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/e9f88761-5cd3-4264-bef5-fef7d96e7e50"
+  rdf:about="record/2.15.100">
+    <rico:identifier>2.15.100</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2015</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/S60" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.15.100/i1" />
+      <rico:instantiates rdf:resource="record/2.15.100" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Directie Arbeidsmarkt van
+        het Ministerie van Sociale Zaken en Werkgelegenheid (1973)
+        1995-2001(2002)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/e9f88761-5cd3-4264-bef5-fef7d96e7e50" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/S60">
+    <rico:describedBy rdf:resource="record/2.15.100" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>S60</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Sociale Zaken en Werkgelegenheid: Directie
+      Arbeidsmarkt en taakvoorgangers</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>SZW / Arbeidsmarkt</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1973</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2002</rico:endDate>
+    <rico:date>1973-2002</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Directie Complementaire Voorzieningen van het
+            Directoraat-Generaal Sociale Voorzieningen, 1965-1987 Directie Arbeidsmarkt
+            van het Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM),
+            1968-1994 Directie Bijstand en Voorzieningen van het Directoraat-Generaal
+            Sociale Zekerheid (DGSZ), 1988-1994 Directie Arbeidsmarkt,
+            1995-2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Directie Arbeidsmarkt (AM) werd ingesteld per 1 januari 1995. Deze
+          directie nam de taken over van de gelijknamige Directie Arbeidsmarkt van het
+          Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM), 1968-1994.
+          Daarnaast nam deze nieuwe directie de taken met betrekking tot de additionele
+          werkgelegenheid over van Directie Bijstand en Voorzieningen (1988-1994) van het
+          opgeheven Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger
+          de Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987). De Directie Arbeidsmarkt (1968-1994) van het
+          Directoraat-Generaal van Algemene Beleidsaangelegenheden was verantwoordelijk
+          voor ontwikkelen van arbeidsmarkt- en werkgelegenheidsbeleid en analyse van de
+          werkgelegenheids- en werkloosheidsontwikkeling; bijdragen aan de ontwikkeling
+          van het onderwijs- en scholingsbeleid in relatie tot de arbeidsmarkt;
+          analyseren van en adviseren over de positie van minder kansrijke categorieën op
+          de arbeidsmarkt; verrichten van werkzaamheden betreffende coördinatie en
+          advisering op het brede welzijnsgebied; advisering betreffende
+          beleidsinhoudelijke, bestuurlijk-organisatorische en financiële aspecten van
+          het arbeidsvoorzieningsbeleid.</html:p>
+          <html:p>De Directie Bijstand en Voorzieningen (1988-1994) van het opgeheven
+          Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger de
+          Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987) was verantwoordelijk voor het voeren van het beleid
+          inzake de inkomensgaranderende functie van sociale zekerheid op minimumniveau
+          voor zover uitgevoerd door de gemeenten; voeren van het sociale
+          zekerheidsbeleid gericht op maatschappelijke ontplooiing, het voorkomen van
+          uitval uit en bevorderen van (re)ïntegratie in het arbeidsproces; voeren van
+          toezicht, financieel beheer en sturen ten aanzien van de door of onder
+          verantwoordelijkheid van de lagere overheden uitgevoerde sociale
+          zekerheidsregelingen, alsmede het uitvoeringsbeleid ter zake, het coördineren
+          van het beleid inzake uitkeringen op sociaal minimumniveau; van het beleid
+          m.b.t. de uitvoering de sociale zekerheid; van de samenhang tussen het beleid
+          op het gebied van de studiefinanciering en de sociale zekerheidregelingen; van
+          het vreemdelingen- en minderhedenbeleid in relatie tot de sociale zekerheid; de
+          voorbereiding en uitvoering van de publieksvoorlichting; van
+          beleidsvraagstukken inzake aangelegenheden van binnenlands bestuur.</html:p>
+          <html:p>Met ingang van 1 januari 1995 werd het Ministerie van Sociale Zaken en
+          Werkgelegenheid ingrijpend gereorganiseerd, waarbij het departement werd
+          onderverdeeld in zogenaamde beleidsdirecties, facetdirecties en ondersteunende
+          directies. De nieuwe Directie Arbeidsmarkt werd als beleidsdirectie ingesteld
+          en was belast met de zorg voor:het verkleinen van de kwantitatieve en
+          kwalitatieve discrepanties van vraag en aanbod op de arbeidsmarkt en het
+          bevorderen van een betere werking van de arbeidsmarkt;een activerend
+          arbeidsmarktbeleid voor specifieke groepen en het sectorale
+          arbeidsmarktbeleid;een aanbodversterkend scholingsbeleid;een reïntegratiebeleid
+          ten aanzien van specifieke doelgroepen, zowel naar reguliere als naar
+          additionele arbeid;de bestuurlijke en organisatorische aspecten van de
+          Arbeidsvoorzieningsorganisatie;de bevordering van een adequate uitvoering door
+          andere uitvoeringsorganisaties;Europese arbeidsmarktmaatregelen;het
+          internationaal toelatingsbeleid tot de arbeidsmarkt en het tegengaan van
+          illegale arbeid.</html:p>
+          <html:p>Aan de directeur werd het mandaat verleend met betrekking tot het nemen
+          van besluiten over en het vaststellen en ondertekenen van stukken die
+          betrekking hebben op de uitvoering van de Wet sociale werkvoorziening. Op 17
+          oktober 1997 kreeg de directeur-generaal mw. drs. E.J. Mulock Houwer de leiding
+          over deze directie.</html:p>
+          <html:p>De Directie Arbeidsmarkt bestond uit de volgende onderdelen:Bureau
+          Bedrijfsvoering (AM/BB)Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB)Afdeling
+          Categoraal Arbeidsmarktbeleid (AM/CAB)Afdeling Arbeidsvoorziening
+          (AM/ARV)Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW)Bureau
+          Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) (vanaf 1998 - 1 jan.
+          2001)Bureau Ruim Baan (AM/BRB) (vanaf 1999 - 1 jan. 2001)</html:p>
+          <html:p>Het Bureau Bedrijfsvoering (AM/BB) werd belast met alle interne
+          bedrijfsvoeringsprocessen, waaronder werd verstaan de management-,
+          administratieve, secretariële, personele en financiële ondersteuning,
+          automatisering, informatievoorziening, archivering en huisvesting;</html:p>
+          <html:p>De Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB) hield zich bezig met
+          de ontwikkeling en coördinatie van het beleid op het terrein van:de bevordering
+          van de werking van de arbeidsmarkt in het algemeen, waarbij de verdere
+          mogelijkheden tot flexibilisering en deregulering aan de ene kant en het
+          handhaven van de noodzakelijke sociale condities aan de andere kant de grenzen
+          vormden;de relatie tussen regulier werk en additioneel werk;het tegengaan van
+          illegale arbeid, het leveren van een bijdrage aan het beleid met betrekking tot
+          de toelating van buitenlandse arbeidskrachten tot de Nederlandse
+          arbeidsmarkt;scholing in relatie tot de arbeidsmarkt. Doel van het
+          scholingsbeleid was de beroepsbevolking zodanig te kwalificeren, dat hiermee
+          blijvende arbeidsparticipatie verkregen werd. Het beleid richtte zich op de
+          aansluiting van het beroepsonderwijs op de arbeidsmarkt, de scholing van
+          werkzoekenden en de scholing van werkenden;het ontwikkelen van sectoraal
+          (regionaal) arbeidsmarktbeleid; dat wil zeggen het beleid dat gericht is op het
+          oplossen van specifieke arbeidsmarkt problemen op bedrijfstak- of
+          bedrijfsniveau;internationaal arbeidsmarkt- en scholingsbeleid. De Nederlandse
+          bijdrage aan de totstandkoming van Europees beleid en Europese
+          (subsidie-)maatregelen op het terrein van de arbeidsmarkt, het voorbereiden van
+          het beleid en de regelgeving gericht op de uitvoering van dit beleid en deze
+          maatregelen op nationaal niveau en het bevorderen van een adequate uitvoering;
+          met name in het kader van de Europese Unie en de Organisatie voor Economische
+          Samenwerking en Ontwikkeling, het Europees Sociaal Fonds.</html:p>
+          <html:p>De Afdeling Categoraal Arbeidsmarktbeleid (AM/CAB) was verantwoordelijk
+          voor:een activerend arbeidsmarktbeleid voor specifieke groepen, onder wie in
+          het bijzonder etnische minderheden, jongeren en ouderen;een beleid dat gericht
+          is op de terugkeer van (andere) specifieke doelgroepen in zowel de reguliere
+          als de additionele arbeid;coördinatie van de bijdrage van het Ministerie van
+          Sociale Zaken en Werkgelegenheid aan het grote-stedenbeleid</html:p>
+          <html:p>De Afdeling Arbeidsvoorziening (AM/ARV) hield zich bezig met het
+          ontwikkelen van het arbeidsvoorzieningsbeleid gericht op:het bevorderen van een
+          doorzichtige arbeidsmarkt zodat feitelijke matching van vraag en aanbod
+          optimaal verliep;het bevorderen van een kwalitatief en kwantitatief voldoende
+          stelsel van intermediairs op de arbeidsmarkt;het in stand houden van een
+          publieke arbeidsvoorziening als basisvoorzieninghet bevorderen van effectieve
+          samenwerkingsvormen tussen de arbeidsvoorziening en uitvoeringsorganen sociale
+          zekerheid</html:p>
+          <html:p>De Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW) had tot
+          taak:het bevorderen van een adequate uitvoering (in medebewind) van de
+          regelingen die de arbeidsparticipatie van personen met een grote afstand tot de
+          arbeidsmarkt bevorderden. Hierbij kwamen onder meer aan de orde het scheppen
+          van additionele werkgelegenheid, de ontwikkeling van het operationele beleid en
+          de noodzakelijke regelgeving terzake;het scheppen van de kaders waarbinnen de
+          uitvoering van deze regelingen geschiedde - indicatiestelling en toetsing,
+          tegengaan verdringing, arbeidsvoorwaarden e.d. - met inbegrip van de toekenning
+          van financiële middelen.</html:p>
+          <html:p>Bureau Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) hield zich bezig
+          met het bevorderen van de kwaliteit van de per 1 januari 1998 ingevoerde
+          indicatiestelling Wet Sociale Werkvoorziening (WSW). Bureau Ruim Baan (AM/BRB)
+          hield zich bezig met het bevorderen van de implementatie van de Regeling
+          instroom- en doorstroombanen.</html:p>
+          <html:p>Per 1 januari 2002 werd de Directie Arbeidsmarkt opgeheven. De taken
+          werden overgenomen door het nieuw ingestelde Directoraat-Generaal
+          Arbeidsmarktbeleid en Bijstand (DGAB), bestaande uit:het Agentschap SZW;de
+          Directie Algemeen Arbeidsmarktbeleid;de Directie Arbeidsmarktbeleid Bijzondere
+          Groepen;de Directie Bijstand en Gemeentelijk Activeringsbeleid;het Bureau
+          Interbestuurlijke Verhoudingen en Communicatie.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Directie Complementaire Voorzieningen van het
+            Directoraat-Generaal Sociale Voorzieningen, 1965-1987 Directie Arbeidsmarkt
+            van het Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM),
+            1968-1994 Directie Bijstand en Voorzieningen van het Directoraat-Generaal
+            Sociale Zekerheid (DGSZ), 1988-1994 Directie Arbeidsmarkt,
+            1995-2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Directie Arbeidsmarkt (AM) werd ingesteld per 1 januari 1995. Deze
+          directie nam de taken over van de gelijknamige Directie Arbeidsmarkt van het
+          Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM), 1968-1994.
+          Daarnaast nam deze nieuwe directie de taken met betrekking tot de additionele
+          werkgelegenheid over van Directie Bijstand en Voorzieningen (1988-1994) van het
+          opgeheven Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger
+          de Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987). De Directie Arbeidsmarkt (1968-1994) van het
+          Directoraat-Generaal van Algemene Beleidsaangelegenheden was verantwoordelijk
+          voor ontwikkelen van arbeidsmarkt- en werkgelegenheidsbeleid en analyse van de
+          werkgelegenheids- en werkloosheidsontwikkeling; bijdragen aan de ontwikkeling
+          van het onderwijs- en scholingsbeleid in relatie tot de arbeidsmarkt;
+          analyseren van en adviseren over de positie van minder kansrijke categorieën op
+          de arbeidsmarkt; verrichten van werkzaamheden betreffende coördinatie en
+          advisering op het brede welzijnsgebied; advisering betreffende
+          beleidsinhoudelijke, bestuurlijk-organisatorische en financiële aspecten van
+          het arbeidsvoorzieningsbeleid.</html:p>
+          <html:p>De Directie Bijstand en Voorzieningen (1988-1994) van het opgeheven
+          Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger de
+          Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987) was verantwoordelijk voor het voeren van het beleid
+          inzake de inkomensgaranderende functie van sociale zekerheid op minimumniveau
+          voor zover uitgevoerd door de gemeenten; voeren van het sociale
+          zekerheidsbeleid gericht op maatschappelijke ontplooiing, het voorkomen van
+          uitval uit en bevorderen van (re)ïntegratie in het arbeidsproces; voeren van
+          toezicht, financieel beheer en sturen ten aanzien van de door of onder
+          verantwoordelijkheid van de lagere overheden uitgevoerde sociale
+          zekerheidsregelingen, alsmede het uitvoeringsbeleid ter zake, het coördineren
+          van het beleid inzake uitkeringen op sociaal minimumniveau; van het beleid
+          m.b.t. de uitvoering de sociale zekerheid; van de samenhang tussen het beleid
+          op het gebied van de studiefinanciering en de sociale zekerheidregelingen; van
+          het vreemdelingen- en minderhedenbeleid in relatie tot de sociale zekerheid; de
+          voorbereiding en uitvoering van de publieksvoorlichting; van
+          beleidsvraagstukken inzake aangelegenheden van binnenlands bestuur.</html:p>
+          <html:p>Met ingang van 1 januari 1995 werd het Ministerie van Sociale Zaken en
+          Werkgelegenheid ingrijpend gereorganiseerd, waarbij het departement werd
+          onderverdeeld in zogenaamde beleidsdirecties, facetdirecties en ondersteunende
+          directies. De nieuwe Directie Arbeidsmarkt werd als beleidsdirectie ingesteld
+          en was belast met de zorg voor:het verkleinen van de kwantitatieve en
+          kwalitatieve discrepanties van vraag en aanbod op de arbeidsmarkt en het
+          bevorderen van een betere werking van de arbeidsmarkt;een activerend
+          arbeidsmarktbeleid voor specifieke groepen en het sectorale
+          arbeidsmarktbeleid;een aanbodversterkend scholingsbeleid;een reïntegratiebeleid
+          ten aanzien van specifieke doelgroepen, zowel naar reguliere als naar
+          additionele arbeid;de bestuurlijke en organisatorische aspecten van de
+          Arbeidsvoorzieningsorganisatie;de bevordering van een adequate uitvoering door
+          andere uitvoeringsorganisaties;Europese arbeidsmarktmaatregelen;het
+          internationaal toelatingsbeleid tot de arbeidsmarkt en het tegengaan van
+          illegale arbeid.</html:p>
+          <html:p>Aan de directeur werd het mandaat verleend met betrekking tot het nemen
+          van besluiten over en het vaststellen en ondertekenen van stukken die
+          betrekking hebben op de uitvoering van de Wet sociale werkvoorziening. Op 17
+          oktober 1997 kreeg de directeur-generaal mw. drs. E.J. Mulock Houwer de leiding
+          over deze directie.</html:p>
+          <html:p>De Directie Arbeidsmarkt bestond uit de volgende onderdelen:Bureau
+          Bedrijfsvoering (AM/BB)Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB)Afdeling
+          Categoraal Arbeidsmarktbeleid (AM/CAB)Afdeling Arbeidsvoorziening
+          (AM/ARV)Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW)Bureau
+          Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) (vanaf 1998 - 1 jan.
+          2001)Bureau Ruim Baan (AM/BRB) (vanaf 1999 - 1 jan. 2001)</html:p>
+          <html:p>Het Bureau Bedrijfsvoering (AM/BB) werd belast met alle interne
+          bedrijfsvoeringsprocessen, waaronder werd verstaan de management-,
+          administratieve, secretariële, personele en financiële ondersteuning,
+          automatisering, informatievoorziening, archivering en huisvesting;</html:p>
+          <html:p>De Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB) hield zich bezig met
+          de ontwikkeling en coördinatie van het beleid op het terrein van:de bevordering
+          van de werking van de arbeidsmarkt in het algemeen, waarbij de verdere
+          mogelijkheden tot flexibilisering en deregulering aan de ene kant en het
+          handhaven van de noodzakelijke sociale condities aan de andere kant de grenzen
+          vormden;de relatie tussen regulier werk en additioneel werk;het tegengaan van
+          illegale arbeid, het leveren van een bijdrage aan het beleid met betrekking tot
+          de toelating van buitenlandse arbeidskrachten tot de Nederlandse
+          arbeidsmarkt;scholing in relatie tot de arbeidsmarkt. Doel van het
+          scholingsbeleid was de beroepsbevolking zodanig te kwalificeren, dat hiermee
+          blijvende arbeidsparticipatie verkregen werd. Het beleid richtte zich op de
+          aansluiting van het beroepsonderwijs op de arbeidsmarkt, de scholing van
+          werkzoekenden en de scholing van werkenden;het ontwikkelen van sectoraal
+          (regionaal) arbeidsmarktbeleid; dat wil zeggen het beleid dat gericht is op het
+          oplossen van specifieke arbeidsmarkt problemen op bedrijfstak- of
+          bedrijfsniveau;internationaal arbeidsmarkt- en scholingsbeleid. De Nederlandse
+          bijdrage aan de totstandkoming van Europees beleid en Europese
+          (subsidie-)maatregelen op het terrein van de arbeidsmarkt, het voorbereiden van
+          het beleid en de regelgeving gericht op de uitvoering van dit beleid en deze
+          maatregelen op nationaal niveau en het bevorderen van een adequate uitvoering;
+          met name in het kader van de Europese Unie en de Organisatie voor Economische
+          Samenwerking en Ontwikkeling, het Europees Sociaal Fonds.</html:p>
+          <html:p>De Afdeling Categoraal Arbeidsmarktbeleid (AM/CAB) was verantwoordelijk
+          voor:een activerend arbeidsmarktbeleid voor specifieke groepen, onder wie in
+          het bijzonder etnische minderheden, jongeren en ouderen;een beleid dat gericht
+          is op de terugkeer van (andere) specifieke doelgroepen in zowel de reguliere
+          als de additionele arbeid;coördinatie van de bijdrage van het Ministerie van
+          Sociale Zaken en Werkgelegenheid aan het grote-stedenbeleid</html:p>
+          <html:p>De Afdeling Arbeidsvoorziening (AM/ARV) hield zich bezig met het
+          ontwikkelen van het arbeidsvoorzieningsbeleid gericht op:het bevorderen van een
+          doorzichtige arbeidsmarkt zodat feitelijke matching van vraag en aanbod
+          optimaal verliep;het bevorderen van een kwalitatief en kwantitatief voldoende
+          stelsel van intermediairs op de arbeidsmarkt;het in stand houden van een
+          publieke arbeidsvoorziening als basisvoorzieninghet bevorderen van effectieve
+          samenwerkingsvormen tussen de arbeidsvoorziening en uitvoeringsorganen sociale
+          zekerheid</html:p>
+          <html:p>De Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW) had tot
+          taak:het bevorderen van een adequate uitvoering (in medebewind) van de
+          regelingen die de arbeidsparticipatie van personen met een grote afstand tot de
+          arbeidsmarkt bevorderden. Hierbij kwamen onder meer aan de orde het scheppen
+          van additionele werkgelegenheid, de ontwikkeling van het operationele beleid en
+          de noodzakelijke regelgeving terzake;het scheppen van de kaders waarbinnen de
+          uitvoering van deze regelingen geschiedde - indicatiestelling en toetsing,
+          tegengaan verdringing, arbeidsvoorwaarden e.d. - met inbegrip van de toekenning
+          van financiële middelen.</html:p>
+          <html:p>Bureau Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) hield zich bezig
+          met het bevorderen van de kwaliteit van de per 1 januari 1998 ingevoerde
+          indicatiestelling Wet Sociale Werkvoorziening (WSW). Bureau Ruim Baan (AM/BRB)
+          hield zich bezig met het bevorderen van de implementatie van de Regeling
+          instroom- en doorstroombanen.</html:p>
+          <html:p>Per 1 januari 2002 werd de Directie Arbeidsmarkt opgeheven. De taken
+          werden overgenomen door het nieuw ingestelde Directoraat-Generaal
+          Arbeidsmarktbeleid en Bijstand (DGAB), bestaande uit:het Agentschap SZW;de
+          Directie Algemeen Arbeidsmarktbeleid;de Directie Arbeidsmarktbeleid Bijzondere
+          Groepen;de Directie Bijstand en Gemeentelijk Activeringsbeleid;het Bureau
+          Interbestuurlijke Verhoudingen en Communicatie.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Directie Complementaire Voorzieningen van het
+            Directoraat-Generaal Sociale Voorzieningen, 1965-1987 Directie Arbeidsmarkt
+            van het Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM),
+            1968-1994 Directie Bijstand en Voorzieningen van het Directoraat-Generaal
+            Sociale Zekerheid (DGSZ), 1988-1994 Directie Arbeidsmarkt,
+            1995-2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Directie Arbeidsmarkt (AM) werd ingesteld per 1 januari 1995. Deze
+          directie nam de taken over van de gelijknamige Directie Arbeidsmarkt van het
+          Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM), 1968-1994.
+          Daarnaast nam deze nieuwe directie de taken met betrekking tot de additionele
+          werkgelegenheid over van Directie Bijstand en Voorzieningen (1988-1994) van het
+          opgeheven Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger
+          de Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987). De Directie Arbeidsmarkt (1968-1994) van het
+          Directoraat-Generaal van Algemene Beleidsaangelegenheden was verantwoordelijk
+          voor ontwikkelen van arbeidsmarkt- en werkgelegenheidsbeleid en analyse van de
+          werkgelegenheids- en werkloosheidsontwikkeling; bijdragen aan de ontwikkeling
+          van het onderwijs- en scholingsbeleid in relatie tot de arbeidsmarkt;
+          analyseren van en adviseren over de positie van minder kansrijke categorieën op
+          de arbeidsmarkt; verrichten van werkzaamheden betreffende coördinatie en
+          advisering op het brede welzijnsgebied; advisering betreffende
+          beleidsinhoudelijke, bestuurlijk-organisatorische en financiële aspecten van
+          het arbeidsvoorzieningsbeleid.</html:p>
+          <html:p>De Directie Bijstand en Voorzieningen (1988-1994) van het opgeheven
+          Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger de
+          Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987) was verantwoordelijk voor het voeren van het beleid
+          inzake de inkomensgaranderende functie van sociale zekerheid op minimumniveau
+          voor zover uitgevoerd door de gemeenten; voeren van het sociale
+          zekerheidsbeleid gericht op maatschappelijke ontplooiing, het voorkomen van
+          uitval uit en bevorderen van (re)ïntegratie in het arbeidsproces; voeren van
+          toezicht, financieel beheer en sturen ten aanzien van de door of onder
+          verantwoordelijkheid van de lagere overheden uitgevoerde sociale
+          zekerheidsregelingen, alsmede het uitvoeringsbeleid ter zake, het coördineren
+          van het beleid inzake uitkeringen op sociaal minimumniveau; van het beleid
+          m.b.t. de uitvoering de sociale zekerheid; van de samenhang tussen het beleid
+          op het gebied van de studiefinanciering en de sociale zekerheidregelingen; van
+          het vreemdelingen- en minderhedenbeleid in relatie tot de sociale zekerheid; de
+          voorbereiding en uitvoering van de publieksvoorlichting; van
+          beleidsvraagstukken inzake aangelegenheden van binnenlands bestuur.</html:p>
+          <html:p>Met ingang van 1 januari 1995 werd het Ministerie van Sociale Zaken en
+          Werkgelegenheid ingrijpend gereorganiseerd, waarbij het departement werd
+          onderverdeeld in zogenaamde beleidsdirecties, facetdirecties en ondersteunende
+          directies. De nieuwe Directie Arbeidsmarkt werd als beleidsdirectie ingesteld
+          en was belast met de zorg voor:het verkleinen van de kwantitatieve en
+          kwalitatieve discrepanties van vraag en aanbod op de arbeidsmarkt en het
+          bevorderen van een betere werking van de arbeidsmarkt;een activerend
+          arbeidsmarktbeleid voor specifieke groepen en het sectorale
+          arbeidsmarktbeleid;een aanbodversterkend scholingsbeleid;een reïntegratiebeleid
+          ten aanzien van specifieke doelgroepen, zowel naar reguliere als naar
+          additionele arbeid;de bestuurlijke en organisatorische aspecten van de
+          Arbeidsvoorzieningsorganisatie;de bevordering van een adequate uitvoering door
+          andere uitvoeringsorganisaties;Europese arbeidsmarktmaatregelen;het
+          internationaal toelatingsbeleid tot de arbeidsmarkt en het tegengaan van
+          illegale arbeid.</html:p>
+          <html:p>Aan de directeur werd het mandaat verleend met betrekking tot het nemen
+          van besluiten over en het vaststellen en ondertekenen van stukken die
+          betrekking hebben op de uitvoering van de Wet sociale werkvoorziening. Op 17
+          oktober 1997 kreeg de directeur-generaal mw. drs. E.J. Mulock Houwer de leiding
+          over deze directie.</html:p>
+          <html:p>De Directie Arbeidsmarkt bestond uit de volgende onderdelen:Bureau
+          Bedrijfsvoering (AM/BB)Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB)Afdeling
+          Categoraal Arbeidsmarktbeleid (AM/CAB)Afdeling Arbeidsvoorziening
+          (AM/ARV)Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW)Bureau
+          Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) (vanaf 1998 - 1 jan.
+          2001)Bureau Ruim Baan (AM/BRB) (vanaf 1999 - 1 jan. 2001)</html:p>
+          <html:p>Het Bureau Bedrijfsvoering (AM/BB) werd belast met alle interne
+          bedrijfsvoeringsprocessen, waaronder werd verstaan de management-,
+          administratieve, secretariële, personele en financiële ondersteuning,
+          automatisering, informatievoorziening, archivering en huisvesting;</html:p>
+          <html:p>De Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB) hield zich bezig met
+          de ontwikkeling en coördinatie van het beleid op het terrein van:de bevordering
+          van de werking van de arbeidsmarkt in het algemeen, waarbij de verdere
+          mogelijkheden tot flexibilisering en deregulering aan de ene kant en het
+          handhaven van de noodzakelijke sociale condities aan de andere kant de grenzen
+          vormden;de relatie tussen regulier werk en additioneel werk;het tegengaan van
+          illegale arbeid, het leveren van een bijdrage aan het beleid met betrekking tot
+          de toelating van buitenlandse arbeidskrachten tot de Nederlandse
+          arbeidsmarkt;scholing in relatie tot de arbeidsmarkt. Doel van het
+          scholingsbeleid was de beroepsbevolking zodanig te kwalificeren, dat hiermee
+          blijvende arbeidsparticipatie verkregen werd. Het beleid richtte zich op de
+          aansluiting van het beroepsonderwijs op de arbeidsmarkt, de scholing van
+          werkzoekenden en de scholing van werkenden;het ontwikkelen van sectoraal
+          (regionaal) arbeidsmarktbeleid; dat wil zeggen het beleid dat gericht is op het
+          oplossen van specifieke arbeidsmarkt problemen op bedrijfstak- of
+          bedrijfsniveau;internationaal arbeidsmarkt- en scholingsbeleid. De Nederlandse
+          bijdrage aan de totstandkoming van Europees beleid en Europese
+          (subsidie-)maatregelen op het terrein van de arbeidsmarkt, het voorbereiden van
+          het beleid en de regelgeving gericht op de uitvoering van dit beleid en deze
+          maatregelen op nationaal niveau en het bevorderen van een adequate uitvoering;
+          met name in het kader van de Europese Unie en de Organisatie voor Economische
+          Samenwerking en Ontwikkeling, het Europees Sociaal Fonds.</html:p>
+          <html:p>De Afdeling Categoraal Arbeidsmarktbeleid (AM/CAB) was verantwoordelijk
+          voor:een activerend arbeidsmarktbeleid voor specifieke groepen, onder wie in
+          het bijzonder etnische minderheden, jongeren en ouderen;een beleid dat gericht
+          is op de terugkeer van (andere) specifieke doelgroepen in zowel de reguliere
+          als de additionele arbeid;coördinatie van de bijdrage van het Ministerie van
+          Sociale Zaken en Werkgelegenheid aan het grote-stedenbeleid</html:p>
+          <html:p>De Afdeling Arbeidsvoorziening (AM/ARV) hield zich bezig met het
+          ontwikkelen van het arbeidsvoorzieningsbeleid gericht op:het bevorderen van een
+          doorzichtige arbeidsmarkt zodat feitelijke matching van vraag en aanbod
+          optimaal verliep;het bevorderen van een kwalitatief en kwantitatief voldoende
+          stelsel van intermediairs op de arbeidsmarkt;het in stand houden van een
+          publieke arbeidsvoorziening als basisvoorzieninghet bevorderen van effectieve
+          samenwerkingsvormen tussen de arbeidsvoorziening en uitvoeringsorganen sociale
+          zekerheid</html:p>
+          <html:p>De Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW) had tot
+          taak:het bevorderen van een adequate uitvoering (in medebewind) van de
+          regelingen die de arbeidsparticipatie van personen met een grote afstand tot de
+          arbeidsmarkt bevorderden. Hierbij kwamen onder meer aan de orde het scheppen
+          van additionele werkgelegenheid, de ontwikkeling van het operationele beleid en
+          de noodzakelijke regelgeving terzake;het scheppen van de kaders waarbinnen de
+          uitvoering van deze regelingen geschiedde - indicatiestelling en toetsing,
+          tegengaan verdringing, arbeidsvoorwaarden e.d. - met inbegrip van de toekenning
+          van financiële middelen.</html:p>
+          <html:p>Bureau Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) hield zich bezig
+          met het bevorderen van de kwaliteit van de per 1 januari 1998 ingevoerde
+          indicatiestelling Wet Sociale Werkvoorziening (WSW). Bureau Ruim Baan (AM/BRB)
+          hield zich bezig met het bevorderen van de implementatie van de Regeling
+          instroom- en doorstroombanen.</html:p>
+          <html:p>Per 1 januari 2002 werd de Directie Arbeidsmarkt opgeheven. De taken
+          werden overgenomen door het nieuw ingestelde Directoraat-Generaal
+          Arbeidsmarktbeleid en Bijstand (DGAB), bestaande uit:het Agentschap SZW;de
+          Directie Algemeen Arbeidsmarktbeleid;de Directie Arbeidsmarktbeleid Bijzondere
+          Groepen;de Directie Bijstand en Gemeentelijk Activeringsbeleid;het Bureau
+          Interbestuurlijke Verhoudingen en Communicatie.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Directie Complementaire Voorzieningen van het
+            Directoraat-Generaal Sociale Voorzieningen, 1965-1987 Directie Arbeidsmarkt
+            van het Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM),
+            1968-1994 Directie Bijstand en Voorzieningen van het Directoraat-Generaal
+            Sociale Zekerheid (DGSZ), 1988-1994 Directie Arbeidsmarkt,
+            1995-2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Directie Arbeidsmarkt (AM) werd ingesteld per 1 januari 1995. Deze
+          directie nam de taken over van de gelijknamige Directie Arbeidsmarkt van het
+          Directoraat-Generaal Algemene Beleidsaangelegenheden (ABA/AM), 1968-1994.
+          Daarnaast nam deze nieuwe directie de taken met betrekking tot de additionele
+          werkgelegenheid over van Directie Bijstand en Voorzieningen (1988-1994) van het
+          opgeheven Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger
+          de Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987). De Directie Arbeidsmarkt (1968-1994) van het
+          Directoraat-Generaal van Algemene Beleidsaangelegenheden was verantwoordelijk
+          voor ontwikkelen van arbeidsmarkt- en werkgelegenheidsbeleid en analyse van de
+          werkgelegenheids- en werkloosheidsontwikkeling; bijdragen aan de ontwikkeling
+          van het onderwijs- en scholingsbeleid in relatie tot de arbeidsmarkt;
+          analyseren van en adviseren over de positie van minder kansrijke categorieën op
+          de arbeidsmarkt; verrichten van werkzaamheden betreffende coördinatie en
+          advisering op het brede welzijnsgebied; advisering betreffende
+          beleidsinhoudelijke, bestuurlijk-organisatorische en financiële aspecten van
+          het arbeidsvoorzieningsbeleid.</html:p>
+          <html:p>De Directie Bijstand en Voorzieningen (1988-1994) van het opgeheven
+          Directoraat-Generaal Sociale Zekerheid (DGSZ) en haar taakvoorganger de
+          Directie Complementaire Voorzieningen van het Directoraat-Generaal Sociale
+          Voorzieningen (1965-1987) was verantwoordelijk voor het voeren van het beleid
+          inzake de inkomensgaranderende functie van sociale zekerheid op minimumniveau
+          voor zover uitgevoerd door de gemeenten; voeren van het sociale
+          zekerheidsbeleid gericht op maatschappelijke ontplooiing, het voorkomen van
+          uitval uit en bevorderen van (re)ïntegratie in het arbeidsproces; voeren van
+          toezicht, financieel beheer en sturen ten aanzien van de door of onder
+          verantwoordelijkheid van de lagere overheden uitgevoerde sociale
+          zekerheidsregelingen, alsmede het uitvoeringsbeleid ter zake, het coördineren
+          van het beleid inzake uitkeringen op sociaal minimumniveau; van het beleid
+          m.b.t. de uitvoering de sociale zekerheid; van de samenhang tussen het beleid
+          op het gebied van de studiefinanciering en de sociale zekerheidregelingen; van
+          het vreemdelingen- en minderhedenbeleid in relatie tot de sociale zekerheid; de
+          voorbereiding en uitvoering van de publieksvoorlichting; van
+          beleidsvraagstukken inzake aangelegenheden van binnenlands bestuur.</html:p>
+          <html:p>Met ingang van 1 januari 1995 werd het Ministerie van Sociale Zaken en
+          Werkgelegenheid ingrijpend gereorganiseerd, waarbij het departement werd
+          onderverdeeld in zogenaamde beleidsdirecties, facetdirecties en ondersteunende
+          directies. De nieuwe Directie Arbeidsmarkt werd als beleidsdirectie ingesteld
+          en was belast met de zorg voor:het verkleinen van de kwantitatieve en
+          kwalitatieve discrepanties van vraag en aanbod op de arbeidsmarkt en het
+          bevorderen van een betere werking van de arbeidsmarkt;een activerend
+          arbeidsmarktbeleid voor specifieke groepen en het sectorale
+          arbeidsmarktbeleid;een aanbodversterkend scholingsbeleid;een reïntegratiebeleid
+          ten aanzien van specifieke doelgroepen, zowel naar reguliere als naar
+          additionele arbeid;de bestuurlijke en organisatorische aspecten van de
+          Arbeidsvoorzieningsorganisatie;de bevordering van een adequate uitvoering door
+          andere uitvoeringsorganisaties;Europese arbeidsmarktmaatregelen;het
+          internationaal toelatingsbeleid tot de arbeidsmarkt en het tegengaan van
+          illegale arbeid.</html:p>
+          <html:p>Aan de directeur werd het mandaat verleend met betrekking tot het nemen
+          van besluiten over en het vaststellen en ondertekenen van stukken die
+          betrekking hebben op de uitvoering van de Wet sociale werkvoorziening. Op 17
+          oktober 1997 kreeg de directeur-generaal mw. drs. E.J. Mulock Houwer de leiding
+          over deze directie.</html:p>
+          <html:p>De Directie Arbeidsmarkt bestond uit de volgende onderdelen:Bureau
+          Bedrijfsvoering (AM/BB)Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB)Afdeling
+          Categoraal Arbeidsmarktbeleid (AM/CAB)Afdeling Arbeidsvoorziening
+          (AM/ARV)Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW)Bureau
+          Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) (vanaf 1998 - 1 jan.
+          2001)Bureau Ruim Baan (AM/BRB) (vanaf 1999 - 1 jan. 2001)</html:p>
+          <html:p>Het Bureau Bedrijfsvoering (AM/BB) werd belast met alle interne
+          bedrijfsvoeringsprocessen, waaronder werd verstaan de management-,
+          administratieve, secretariële, personele en financiële ondersteuning,
+          automatisering, informatievoorziening, archivering en huisvesting;</html:p>
+          <html:p>De Afdeling Algemeen Arbeidsmarktbeleid (AM/AAB) hield zich bezig met
+          de ontwikkeling en coördinatie van het beleid op het terrein van:de bevordering
+          van de werking van de arbeidsmarkt in het algemeen, waarbij de verdere
+          mogelijkheden tot flexibilisering en deregulering aan de ene kant en het
+          handhaven van de noodzakelijke sociale condities aan de andere kant de grenzen
+          vormden;de relatie tussen regulier werk en additioneel werk;het tegengaan van
+          illegale arbeid, het leveren van een bijdrage aan het beleid met betrekking tot
+          de toelating van buitenlandse arbeidskrachten tot de Nederlandse
+          arbeidsmarkt;scholing in relatie tot de arbeidsmarkt. Doel van het
+          scholingsbeleid was de beroepsbevolking zodanig te kwalificeren, dat hiermee
+          blijvende arbeidsparticipatie verkregen werd. Het beleid richtte zich op de
+          aansluiting van het beroepsonderwijs op de arbeidsmarkt, de scholing van
+          werkzoekenden en de scholing van werkenden;het ontwikkelen van sectoraal
+          (regionaal) arbeidsmarktbeleid; dat wil zeggen het beleid dat gericht is op het
+          oplossen van specifieke arbeidsmarkt problemen op bedrijfstak- of
+          bedrijfsniveau;internationaal arbeidsmarkt- en scholingsbeleid. De Nederlandse
+          bijdrage aan de totstandkoming van Europees beleid en Europese
+          (subsidie-)maatregelen op het terrein van de arbeidsmarkt, het voorbereiden van
+          het beleid en de regelgeving gericht op de uitvoering van dit beleid en deze
+          maatregelen op nationaal niveau en het bevorderen van een adequate uitvoering;
+          met name in het kader van de Europese Unie en de Organisatie voor Economische
+          Samenwerking en Ontwikkeling, het Europees Sociaal Fonds.</html:p>
+          <html:p>De Afdeling Categoraal Arbeidsmarktbeleid (AM/CAB) was verantwoordelijk
+          voor:een activerend arbeidsmarktbeleid voor specifieke groepen, onder wie in
+          het bijzonder etnische minderheden, jongeren en ouderen;een beleid dat gericht
+          is op de terugkeer van (andere) specifieke doelgroepen in zowel de reguliere
+          als de additionele arbeid;coördinatie van de bijdrage van het Ministerie van
+          Sociale Zaken en Werkgelegenheid aan het grote-stedenbeleid</html:p>
+          <html:p>De Afdeling Arbeidsvoorziening (AM/ARV) hield zich bezig met het
+          ontwikkelen van het arbeidsvoorzieningsbeleid gericht op:het bevorderen van een
+          doorzichtige arbeidsmarkt zodat feitelijke matching van vraag en aanbod
+          optimaal verliep;het bevorderen van een kwalitatief en kwantitatief voldoende
+          stelsel van intermediairs op de arbeidsmarkt;het in stand houden van een
+          publieke arbeidsvoorziening als basisvoorzieninghet bevorderen van effectieve
+          samenwerkingsvormen tussen de arbeidsvoorziening en uitvoeringsorganen sociale
+          zekerheid</html:p>
+          <html:p>De Afdeling Regelingen Additionele Werkgelegenheid (AM/RAW) had tot
+          taak:het bevorderen van een adequate uitvoering (in medebewind) van de
+          regelingen die de arbeidsparticipatie van personen met een grote afstand tot de
+          arbeidsmarkt bevorderden. Hierbij kwamen onder meer aan de orde het scheppen
+          van additionele werkgelegenheid, de ontwikkeling van het operationele beleid en
+          de noodzakelijke regelgeving terzake;het scheppen van de kaders waarbinnen de
+          uitvoering van deze regelingen geschiedde - indicatiestelling en toetsing,
+          tegengaan verdringing, arbeidsvoorwaarden e.d. - met inbegrip van de toekenning
+          van financiële middelen.</html:p>
+          <html:p>Bureau Kwaliteitszorg Sociale Werkvoorziening (AM/KSW) hield zich bezig
+          met het bevorderen van de kwaliteit van de per 1 januari 1998 ingevoerde
+          indicatiestelling Wet Sociale Werkvoorziening (WSW). Bureau Ruim Baan (AM/BRB)
+          hield zich bezig met het bevorderen van de implementatie van de Regeling
+          instroom- en doorstroombanen.</html:p>
+          <html:p>Per 1 januari 2002 werd de Directie Arbeidsmarkt opgeheven. De taken
+          werden overgenomen door het nieuw ingestelde Directoraat-Generaal
+          Arbeidsmarktbeleid en Bijstand (DGAB), bestaande uit:het Agentschap SZW;de
+          Directie Algemeen Arbeidsmarktbeleid;de Directie Arbeidsmarktbeleid Bijzondere
+          Groepen;de Directie Bijstand en Gemeentelijk Activeringsbeleid;het Bureau
+          Interbestuurlijke Verhoudingen en Communicatie.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de neerslag van de activiteiten van de directie, o.a. met
+      betrekking tot algemeen arbeidsmarktbeleid, categoraal arbeidsmarktbeleid,
+      arbeidsvoorziening en additionele werkgelegenheid. Het archief bevat ook
+      gedeponeerd archief van twee sectoren van de Hoofdirectie Bijstand en
+      Voorzieningen. Een groot deel van het archief omvat stukken die betrekking hebben
+      op het vaststellen en wijzigingen van beleid, wetgeving en de uitvoering van het
+      beleid.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Voor zover bekend zijn er geen beperkingen krachtens het
+      auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>26.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>783 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Uit dit archief zijn geen kopieën op een alternatieve drager als
+        microfilm, microfiche of in digitale vorm beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

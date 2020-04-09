@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/fcc6282d-4f90-4099-a743-9bd45126310a"
+  rdf:about="record/2.11.80">
+    <rico:identifier>2.11.80</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2008</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch.</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/L19" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.11.80/i1" />
+      <rico:instantiates rdf:resource="record/2.11.80" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Directie Financieel
+        Economische Zaken en taakvoorgangers van het ministerie van Landbouw, Natuur en
+        Voedselkwaliteit, (1949) 1960-1999</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/fcc6282d-4f90-4099-a743-9bd45126310a" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale getypte, gedrukte en geschreven documenten, geen bijzondere
+        handschriften</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/L19">
+    <rico:describedBy rdf:resource="record/2.11.80" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>L19</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Landbouw, Directie Financieel Economische Zaken
+      (FEZ) en taakvoorgangers</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Landbouw / FEZ</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1949</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1999</rico:endDate>
+    <rico:date>1949-1999</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Landbouw, Natuur en Voedselkwaliteit, Directie
+            Financieel Economische Zaken</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het archief van de Directie Financieel Economische Zaken en
+          taakvoorgangers (hierna: FEZ) van het ministerie van Landbouw, Natuur en
+          Voedselkwaliteit bestrijkt de periode van 1949 tot 1999. De stafdirectie FEZ is
+          de "concerncontroller" van het ministerie van Landbouw, Natuur en
+          Voedselkwaliteit. De directie is verantwoordelijk voor het totstandkomen,
+          indienen en beheer van de departementale begroting en draagt zorg voor een
+          adequaat financieel-economisch beleid. FEZ toetst, signaleert en adviseert het
+          departement en het management van LNV over alle fasen van de beleids- en
+          begrotingscyclus. Zij let daarbij op rechtmatigheid, doelmatigheid en
+          doeltreffendheid.</html:p>
+          <html:p>De taken van de Directie Financiële en Materiële Zaken waren in 1974
+          gesplitst in financiële en materiele zaken. Onder de financiële zaken vielen
+          ten eerste de begrotingsvoorbereiding. De Directie beoordeelde in de jaarlijkse
+          begroting alle plannen op hun financieel-economische en budgettaire gevolgen.
+          Daarnaast bracht zij adviezen uit aan departementsleiding, alsmede verzorgde
+          zij de technische en materiele coördinatie binnen het departement. Een andere
+          belangrijke taak was het begrotingsbeheer en centrale administratie, wat zich
+          concentreerde op het houden van toezicht op de voorgenomen en gedane uitgaven.
+          Ten slotte hield men zich bezig met de taken ingevolge artikel 2 en 10 van de
+          Landbouwwet: het beheer van de Centralekas van het Landbouw-Egalisatiefonds. De
+          onderafdeling Materiele Zaken hield zich op de volgende drie terreinen bezig:
+          ten eerste het beleid betreffende bouwzaken en de daarmee verband houdende
+          grondzaken en het beheer van technische installaties. Ten tweede de centrale
+          aankoop en het beheer van het centraal magazijn en ten slotte de
+          vervoersaangelegenheden van het ministerie en de daaronder ressorterende
+          diensten en instellingen.</html:p>
+          <html:p>In 1980 veranderde de naam van de Directie in ‘Directie Financieel
+          Economische Zaken’ en hield de directie zich in hoofdzaak bezig met de
+          uitvoering van de taken ex Comptabiliteitswet 1976 (Stb. 671) en het ‘Besluit
+          taak centrale afdeling Financieel-Economische Zaken’ (Stb. 426, 12 juli 1977).
+          Ook de uitvoering van de Landbouwwet (Stb. 342, laatst gewijzigd op 23 mei
+          1979, Stb. 323) en toezicht op het Landbouw-Egalisatiefonds behoorde tot de
+          taken.</html:p>
+          <html:p>Na de oorlog is door de Staten-Generaal meermalen kritiek geuit op het
+          financieel bestel. Met name de vele afwijkingen tussen begrotings- en
+          rekeningcijfers in de jaarlijkse begrotingen maakten het moeilijk om een juist
+          beeld te vormen van de financiële situatie waarin het Rijk verkeerde. In dit
+          verband werd gepleit voor de uitbreiding van de taken van de Algemene
+          Rekenkamer. Ook het instellen van een afzonderlijk onafhankelijk orgaan voor
+          doelmatigheidscontrole en met een informatieve taak ten behoeve van de Tweede
+          Kamer, werd overwogen. Een en ander leidde midden jaren vijftig van de
+          twintigste eeuw tot het inzicht dat de Comptabiliteitswet van 1924 vervangen
+          diende te worden. Het eerste ontwerp werd in 1972 door de Eerste Kamer
+          verworpen, omdat het in strijd zou zijn met enkele artikelen uit de Grondwet.
+          Dit bezwaar leidde tot een nieuw ontwerp van wet dat uiteindelijk in 1976 in
+          het Staatsblad als Comptabiliteitswet werd gepubliceerd (Stb. 1976,
+          671).</html:p>
+          <html:p>In 1986 werd de wet inzake de controle op de administratie, uitgaven op
+          rekeningen buiten het begrotingsverband en aanbesteding van werken gewijzigd.
+          In 1987 werd een tweede wijziging doorgevoerd inzake de rijksbegroting, de
+          taken van de Algemene Rekenkamer en de verantwoording aan de wetgevende macht.
+          De wijziging van 1988 betrof de regelgeving inzake de participatie van de Staat
+          in privaatrechtelijke rechtspersonen en inzake de controlebevoegdheden van de
+          Algemene Rekenkamer.</html:p>
+          <html:p>In de periode na 1990 is de wet driemaal gewijzigd te weten in 1991
+          (Stb. 752), 1992 (Stb. 350) en 1995 (Stb.375). De wijziging van 1991 had
+          betrekking op de invoering van een geïntegreerd verplichtingen-kasstelsel en de
+          invoering van in de praktijk gebleken noodzakelijke aanpassingen van de wet,
+          zoals de nevenschikking van begrotingen van de ministeries en die van de
+          Staatsbedrijven. De wijziging van 1992 betrof de aanpassing van het hoofdstuk
+          dat de samenstelling en taak van de Algemene Rekenkamer regelt. De
+          eerstvolgende wijziging trad in werking op 1 januari 1995. Deze wijziging had
+          betrekking op de integratie van de begrotingsartikelen personeel en materieel
+          (artikel 5), op de introductie van agentschappen en het afschaffen van de
+          mogelijkheid tot het instellen van Staatsbedrijven en agentschappen (artikel 70
+          t/m 73).</html:p>
+          <html:p>Met ingang van de inwerkingtreding van het besluit kasbeheer (Stb.
+          1998/53) is het kasbeheer gedecentraliseerd. De minister van Financiën blijft
+          verantwoordelijke voor het kasbeheer met betrekking tot (het innen van) de
+          belastingontvangsten, welke door daadwerkelijk door de belastingdienst worden
+          geïnd De overige uitvoerende taken (het verrichten van (kas)uitgaven en het
+          innen van de zogenaamde niet-belastingontvangsten is sinds 1998 overgedragen
+          aan de vakministers. Vanaf 2000 zijn nog drie wijzigingen van de
+          Comptabiliteitswet aan de Staten-Generaal aangeboden, waarvan de laatste
+          wijziging (aangeboden 7 december 2000) nog niet is vastgesteld.</html:p>
+          <html:p>De Directie FEZ is zoals reeds vermeld nauw betrokken bij het opstellen
+          en controleren van de departementale begroting. Als gevolg hiervan worden in
+          onderhavig archief een groot aantal bescheiden aangetroffen welke direct of
+          indirect betrekking hebben op de (departemantale) begroting. Voor het juiste
+          begrip wordt hier puntsgewijs ingegaan op de begrotingscyclus. Bij elke
+          begrotingscyclus kunnen vijf fasen worden onderscheiden: 1. de voorbereiding
+          van de begroting; 2. het vaststellen van de begroting; 3. de
+          begrotingsuitvoering; 4. het opstellen van de rekening en de controle op de
+          begroting; en 5. de verantwoording over het gevoerde beleid en beheer.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Directie Financieel Economische Zaken bevat ondermeer
+      nota's en rapporten van de Algemene Rekenkamer naar aanleiding van de controle op
+      het financiële beheer van diensten en directies van LNV met commentaren van de
+      Directie Financieel Economische Zaken. Daarnaast bevat zij bescheiden inzake het
+      opstellen van de Rijksbegroting van uitgaven in de periode van 1960 - 1977. Het
+      archief bevat vooral stukken betreffende de begroting, het budget en de controle op
+      het financiële beheer, waaronder de controle op subsidies en
+      EG-geldstromen</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>88 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

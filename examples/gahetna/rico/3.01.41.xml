@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/56cff832-91ac-4685-938f-18bb8abf817f"
+  rdf:about="record/3.01.41">
+    <rico:identifier>3.01.41</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1924</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3634" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.01.41/i1" />
+      <rico:instantiates rdf:resource="record/3.01.41" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100311</rico:hasModificationDate>
+        <html:p>11 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100311</rico:hasModificationDate>
+        <html:p>11 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100830</rico:hasModificationDate>
+        <html:p>30 augustus 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120112</rico:hasModificationDate>
+        <html:p>12 januari 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Kantoor der Collectieve
+        Middelen van Holland en West-Friesland in het Zuiderkwartier,
+        1750-1806</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/56cff832-91ac-4685-938f-18bb8abf817f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3634">
+    <rico:describedBy rdf:resource="record/3.01.41" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3634</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectieve Middelen Zuiderkwartier Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Collectieve Middelen Zuiderkwartier Holland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1750</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1806</rico:endDate>
+    <rico:date>1750-1806</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Collectieve Middelen Zuiderkwartier Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De invordering der z.g.n. collectieve middelen geschiedde aanvankelijk
+          door middel van verpachting. Na heftige volksbewegingen in verschillende
+          plaatsen in de republiek, werd dit stelsel in 1748 in de meeste provinciën
+          vervangen door een ander, invordering door middel van bezoldigde collecteurs of
+          gaarders.</html:p>
+          <html:p>In Holland werden de pachterijen, zoaals men ze noemde, op voorstel van
+          den stadhouder, door de Staten afgeschaft bij publicatie van 26 juni 1748.
+          Groot Placcaatboek VII, blz. 1204. Een provisioneel middel Groot Placcaatboek
+          VII, blz. 1206. tot remplaceering van dit middel, eenige overeenkomst hebbende
+          met het familiegeld of personeele quotisatie, werd ingevoerd, dat gegolden
+          heeft tot het jaar 1750.</html:p>
+          <html:p>De Generale ordonnantie op de invordering van des gemeene lands
+          middelen bij collectie over Holland en West-Friesland is van 28 augustus 1749
+          Groot Placcaatbiek VII, blz. 1219. ; daarachter volgen de ordonnantiën op de
+          gemeene middelen, toen mede overzien en verbeterd.</html:p>
+          <html:p>Zooals reeds is opgemerkt, geschiedde voortaan de invordering dezer
+          middelen door bezoldigde gaarders of collecteurs in de verschillende plaatsen.
+          Het opperbeheer was opgedragen aan Gecommitteerde raden in beide kwartieren. In
+          Den Haag en in Hoorn hadden G.R. daarvoor een apart bureau of administratie,
+          het comptoir der collectieve middelen, met een commies, boekhouder en een
+          aantal klerken. Over de inrichting van het kantoor 's-Gravenhage, zie de
+          bijlage.</html:p>
+          <html:p>De afhooring van de rekeningen der gaarders was opgedragen, niet aan de
+          Rekenkamer, maar eveneens aan G.R.Zie art. 6 der instructie van 28 augustus
+          1751 voor de prov. Rekenkamer, waarbij dit voorbehoud wordt gemaakt.</html:p>
+          <html:p>Deze kantoren bestonden tot en met 1806, toen de gewestelijke
+          belastingen plaats maakten voor een systeem van Rijksbelastingen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat ingekomen stukken bij Gecommitteerde Raden gerangschikt
+      per district (1750-1805); brieven van opzieners en gaarders (1750-1756); brieven en
+      ingekomen stukken betreffende de gemeenelands middelen voor enkele districten
+      (1795-1805); brieven van magistraten e.d. aan G.R. (1767-1805). Voor de kwartieren
+      Amsterdam, Schoonhoven, en 's-Gravenhage zijn er een aantal kohieren (eveneens
+      grootboeken en journalen) der collectieve middelen inclusief de onderhorige steden
+      (1800-1805). Van de distrikten in het Zuiderkwartier zijn er rekeningen van de
+      hoofd- en ondergaarders der gemeenelands middelen (1750-1805); voor het
+      Noorderkwartier zijn deze er slechts in beperkte mate (1792-1805).Tevens zijn er
+      stukken m.b.t. de judicature (vonnissen en memorialen van aanhalingen) en personeel
+      (lijsten van collecteurs en bedienden, instructiën en registers met aantekeningen
+      der betaalde tractementen, cautiën e.d.). Er zijn ook enkele verbalen van opzieners
+      wegens visitatiën van de comptoiren. Verder zijn er een aantal verzamelstaten
+      (maandstaten, specistaten, tabellen, berekeningen e.d.) voor distrikten en steden.
+      Ook zijn er enige registers van cautiën. Tot slot is er een reeks resoluties van de
+      Staten en Gecommitteerde Raden rakende de collectieve middelen
+      (1748-1795).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>118.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1454 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

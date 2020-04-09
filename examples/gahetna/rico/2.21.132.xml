@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/20ad31dd-af58-403b-9c1a-20a2d7e439c7"
+  rdf:about="record/2.21.132">
+    <rico:identifier>2.21.132</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1989</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C25104" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.132/i1" />
+      <rico:instantiates rdf:resource="record/2.21.132" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131106</rico:hasModificationDate>
+        <html:p>6 november 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van H.H.J. van de Pol [1894-1971]
+        over de jaren 1918-1980</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/20ad31dd-af58-403b-9c1a-20a2d7e439c7" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C25104">
+    <rico:describedBy rdf:resource="record/2.21.132" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C25104</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 260 H.H.J. van de Pol</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Pol, van de</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1918</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1980</rico:endDate>
+    <rico:date>1918-1980</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Pol, H. H. J. van den (1894-1971)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Hermanus Hendrikus J. van de Pol werd op 16 augustus 1894 in Haarlem
+          geboren. Als autodidact begon hij op 17-jarige leeftijd een loopbaan als
+          leerling bij de Nieuwe Apeldoornse Courant. Later werd hij
+          redakteur-verslaggever aan de Alkmaarsche Courant en de oude Dordrechtsche
+          Courant.</html:p>
+          <html:p>In 1917 werd hij bij het Nederlandsch Correspondentiebureau voor
+          Dagbladen belast met het persklaar maken van het Kamerverslag van de
+          Staten-Generaal, dat in die jaren pagina's van de kranten vulde. In 1920
+          benoemde het Algemeen Handelsblad hem tot Haags korrespondent en
+          plaatsvervangend samensteller van het Kameroverzicht. In 1929 werd hij
+          direkteur-hoofdredakteur van de Delftsche Courant.</html:p>
+          <html:p>Van de Pol was nauw betrokken bij de totstandkoming van het Algemeen
+          Nederlands Persbureau, waardoor vier apart opererende persbureaus werden
+          gebundeld: het Correspondentiebureau voor Dagbladen, het partikuliere
+          persbureau Vaz Diaz, de N.V. Aneta Holland en een telegraafagentschap van
+          Reuter. In 1934 werd hij secretaris van de studiecommissie voor de oprichting,
+          daarna waarnemend direkteur en in 1936 president-direkteur. Zijn streven was om
+          van het A.N.P. een basis te maken voor internationale uitwisseling van
+          telexberichten, zodat er een Europees telexnet zou ontstaan.</html:p>
+          <html:p>Dit streven moest wel mislukken in een tijd van oorlogsdreiging. Het
+          behoud en de integriteit van het Algemeen Nederlands Persbureau kwam zelfs op
+          het spel te staan door de inval van Duitse troepen in Nederland op 10 mei 1940.
+          Een poging van Van de Pol om via Den Helder naar Engeland uit te wijken
+          mislukte. Evenmin was Van de Pol aanvankelijk bij machte om weerstand te bieden
+          tegen de maatregelen van de bezetter, die de feitelijke leiding van het
+          Algemeen Nederlands Persbureau toebedeelde aan de "Toezichthouder" H. Hushahn.
+          Van de Pol deed vergeefse pogingen om de Duitse berichtgeving ten nadele van
+          het uitgeweken Nederlandse vorstenhuis via het als "Adolfs nieuwe papegaai"
+          gekwalificeerde bureau te saboteren. Het leidde op 31 mei 1941 tot zijn ontslag
+          als president-direkteur wegens "politieke onbetrouwbaarheid". Zie hiervoor
+          H.H.J. van de Pol, "Het A.N.P. in oorlogstijd", lijstnummer 17. Vergelijk ook
+          L. de Jong, Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog, deel IV,
+          p. 612 vlgg.</html:p>
+          <html:p>In de laatste maanden van zijn direktoraat slaagde Van de Pol er echter
+          in accomodatie te scheppen voor een illegaal persbureau in de nabijheid van het
+          naar Den Haag overgeplaatste A.N.P.-kantoor. Tezamen met J.C.E. van Lijnden
+          onderhield hij ondergrondse kontakten met geallieerde persbureaus en met de
+          Nederlandse regering in Londen. Zijn rechtstreekse berichtgeving bleef beperkt
+          tot de kontakten, die noodzakelijk waren voor de opbouw van een na-oorlogs
+          A.N.P. In de winter 1944-1945 slaagde hij erin dagelijkse nieuwsbulletins van
+          het persbureau Reuter te verstrekken aan het College van
+          Vertrouwensmannen.</html:p>
+          <html:p>Het zag ernaar uit, dat Van de Pol een belangrijke rol zou spelen in de
+          reorganisatie van het perswezen na de bevrijding : onder meer zou hem het
+          direktoraat van de gezuiverde Nieuwe Rotterdamsche Courant worden aangeboden.
+          Zie hierover lijstnummers 20-23. Eind mei 1945 leidde een openbare aanklacht
+          van Pieter 't Hoen in Het Parool over zijn houding ten aanzien van de
+          gelijkschakeling van het A.N.P. in 1940 tot een onderzoek door de
+          Zuiveringsraad. Hangende dit onderzoek bleef hij bewindvoerder van het A.N.P.
+          onder militair gezag, maar het odium van collaboratie bleef hem boven het hoofd
+          hangen, totdat de Zuiveringsraad hem na ampel verhoor in december 1948 het
+          "certificaat van geen bezwaar" uitreikte. Zie over het verweer van Van de Pol
+          tegen aanvallen van Van 't Hoen en voor de Zuiveringsraad lijstnummer
+          12.</html:p>
+          <html:p>Ook na de oorlog bleef het A.N.P. ijveren voor internationale
+          samenwerking van persagentschappen. In 1954 werd Van de Pol voorzitter van de
+          "groep '39", ontstaan uit een kontaktgroep van neutrale landen in dat jaar,
+          thans uitgebreid over heel Europa. In 1958 werd in Straatsburg de Bond van
+          Europese Persbureaus opgericht, waarvan hij vice-voorzitter werd.</html:p>
+          <html:p>Binnen- en buitenlandse onderscheidingen vielen hem ten deel.</html:p>
+          <html:p>In 1960 bereikte Van de Pol zijn pensioengerechtigde leeftijd en nam
+          hij afscheid van het A.N.P.-bestuur. Hij wijdde zich aan zijn memoires over
+          "Het A.N.P. in oorlogstijd", die hij uitbreidde met onderzoekingen in het
+          Rijksinstituut voor Oorlogsdocumentatie. Dit geschiedwerk was in concept gereed
+          en wachtte op aanvullingen van voormalige medewerkers om in een definitieve
+          vorm te worden gegoten, toen Van de Pol op 28 maart 1971 overleed.</html:p>
+          <html:p>Hij was gehuwd met Jet M. Schokking.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van H.H.J. van de Pol (1894-1971) is een belangrijke bron voor
+      stukken over de oprichting en de beginjaren van het Algemeen Nederlands Persbureau
+      en het ANP tijdens de Tweede Wereldoorlog. Het archief bevat zijn persoonlijke
+      correspondentie, stukken over zijn bemoeienissen met de Nieuw Rotterdamsche Courant
+      in 1944-1945 en een fotoverzameling.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>86 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

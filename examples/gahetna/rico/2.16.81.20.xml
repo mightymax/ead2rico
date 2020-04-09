@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/a787be6b-42b8-417b-a3ee-15a87980e8d2"
+  rdf:about="record/2.16.81.20">
+    <rico:identifier>2.16.81.20</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1996</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/W21018" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.81.20/i1" />
+      <rico:instantiates rdf:resource="record/2.16.81.20" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van het Hoofdbestuur van het
+        Staatsbedrijf der Posterijen, Telegrafie en Telefonie: Tijdelijk Hoofdbestuur,
+        1944-1945</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/a787be6b-42b8-417b-a3ee-15a87980e8d2" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/W21018">
+    <rico:describedBy rdf:resource="record/2.16.81.20" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>W21018</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Tijdelijk Hoofdbestuur [PTT]</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>PTT / Tijdelijk Hoofdbestuur</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1944</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:endDate>
+    <rico:date>1944-1945</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Tijdelijk hoofdbestuur (PTT) 1944-1945</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op 4 oktober 1944 werd door het Militair Gezag (MG) in Maastricht een
+          Tijdelijk Hoofdbestuur opgezet teneinde de PTT-diensten, die door de oorlog
+          totaal ontwricht waren, zo spoedig mogelijk weer op gang te brengen. De heer A.
+          Korff, directeur telefoondistrict, werd benoemd als plaatsvervangend
+          Directeur-Generaal der PTT.</html:p>
+          <html:p>Door de voortdurende oorlogshandelingen in Noord- en Midden-Limburg was
+          er geen contact mogelijk tussen het Tijdelijk Hoofdbestuur in Maastricht en het
+          gebied van de "Corridor" (de weg Valkenswaard-Nijmegen). Het MG heeft daarom op
+          9 oktober 1944 de heer Fokkinga aangewezen als plaatsvervangend
+          Directeur-Generaal der PTT met als standplaats Nijmegen.</html:p>
+          <html:p>Toen steeds duidelijker bleek dat Nijmegen als centraal punt voor de
+          PTT onthoudbaar werd, nam de heer Fokkinga het besluit zijn organisatie naar
+          het veiliger en centraal gelegen Eindhoven over te brengen. Het Tijdelijk
+          Hoofdbestuur behield deze standplaats tot 28 juli 1945.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op 4 oktober 1944 werd door het Militair Gezag (MG) in Maastricht een
+          Tijdelijk Hoofdbestuur opgezet teneinde de PTT-diensten, die door de oorlog
+          totaal ontwricht waren, zo spoedig mogelijk weer op gang te brengen. De heer A.
+          Korff, directeur telefoondistrict, werd benoemd als plaatsvervangend
+          Directeur-Generaal der PTT.</html:p>
+          <html:p>Door de voortdurende oorlogshandelingen in Noord- en Midden-Limburg was
+          er geen contact mogelijk tussen het Tijdelijk Hoofdbestuur in Maastricht en het
+          gebied van de "Corridor" (de weg Valkenswaard-Nijmegen). Het MG heeft daarom op
+          9 oktober 1944 de heer Fokkinga aangewezen als plaatsvervangend
+          Directeur-Generaal der PTT met als standplaats Nijmegen.</html:p>
+          <html:p>Toen steeds duidelijker bleek dat Nijmegen als centraal punt voor de
+          PTT onthoudbaar werd, nam de heer Fokkinga het besluit zijn organisatie naar
+          het veiliger en centraal gelegen Eindhoven over te brengen. Het Tijdelijk
+          Hoofdbestuur behield deze standplaats tot 28 juli 1945.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Op 4 oktober 1944 werd in Maastricht een tijdelijk hoofdbestuur van de PTT
+      geïnstalleerd om het postverkeer en de telefoondiensten in het bevrijde deel van
+      Nederland weer op de been te zetten. Dhr. Fokkinga werd plaatsvervangend
+      directeur-generaal en zijn standplaats werd Eindhoven. Het archief bevat informatie
+      over het functioneren van de PTT in het bevrijde zuiden in 1944-1945. Bijzondere
+      aandacht is er voor oorlogsgerelateerde problemen, zoals het contact met de
+      Nederlandse krijgsgevangen, postverkeer na evacuaties van burgers uit
+      oorlogsgebieden, Rode Kruis-berichten, het post- en telefoonverkeer van de
+      geallieerde militairen, de zuivering van PTT-personeel, de repatriëring van
+      PTT-personeel en de hulpverlening aan de PTT'ers in het westen van
+      Nederland.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>33 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

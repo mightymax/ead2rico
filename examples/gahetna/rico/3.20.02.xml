@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6380a2b6-7810-4141-8872-bb54dba3ad6c"
+  rdf:about="record/3.20.02">
+    <rico:identifier>3.20.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1975</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35002" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.20.02/i1" />
+      <rico:instantiates rdf:resource="record/3.20.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20101122</rico:hasModificationDate>
+        <html:p>22 november 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121203</rico:hasModificationDate>
+        <html:p>3 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Van Assendelft de
+        Coningh, 1645-1959</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6380a2b6-7810-4141-8872-bb54dba3ad6c" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35002">
+    <rico:describedBy rdf:resource="record/3.20.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35002</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familiearchief Van Assendelft de Coningh</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Assendelft de Coningh, van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1645</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1959</rico:endDate>
+    <rico:date>1645-1959</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De Coningh</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Assendelft</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van Assendelft de Coningh</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoeufft</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van der Houven</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Knottenbelt</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De Roever</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Coningh, Job de (1669-1740)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Coningh, Jan de (1703-1736)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Coningh, Arie de (1712-1784)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Coningh, Anna de (1745-1793)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Coningh, Assendelft de (1747-1803)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Arie Dirk van (1794-1859)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Hendrik van (1819-1875)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Cornelis Theodorus van
+            (1821-1890)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Maria Catharina van
+            (1822-1902)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Cornelia van (1841-1915)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Assendelft de Coningh, Adriaan van (1851-1923)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De in deze inventaris beschreven familiepapieren zijn in hoofdzaak
+          afkomstig van Arie de Coningh, geboren te Maassluis in 1712, zoon van de
+          koopman Job de Coningh en Meinsje de Zeeuw. Hij had een oudere broer Jan, die
+          in 1726 vertrok naar Batavia in dienst der Vereenigde Oostindische Compagnie.
+          Koloniaal Archief inv. nr. 9333.</html:p>
+          <html:p>Aanvankelijk leek het erop, dat Arie de Coningh evenals zijn vader
+          koopman zou worden. Hij was enige tijd werkzaam op het kantoor van de
+          Westindische Compagnie te Rotterdam bij de boekhouder Van den Bosch. Inv. nr.
+          150. Om onbekende redenen heeft hij een ambtelijke loopbaan gekozen, die hij
+          met grote ijver en nauwgezetheid heeft vervuld. Hij werd rentmeester, schout,
+          secretaris, notaris, gaardermeester, dijkgraaf en heemraad van Mijnsheerenland
+          van Moerkerken en kort daarop van Maasdam en Sint Anthoniepolder. Inv. nr. 150
+          In 1764 kocht hij de ambachtsheerlijkheid Mijnsheerenland van Moerkerken van
+          François Doublet, heer van Groeneveld en van Mijnsheerenland van Moerkerken.
+          Inv. nrs. 1 en 237.</html:p>
+          <html:p>In 1743 trouwde Arie de Coningh met Agatha van Assendelft, enige
+          dochter uit een oud koopmansgeslacht van Vlaardingen. Zij overleed in 1747 kort
+          na de geboorte van haar zoon, die nog tijdens haar leven gedoopt werd als
+          Assendelft de Coningh. Zie bijlage I. Zijn nakomelingen hebben deze namen als
+          een familienaam aangenomen. Nederlandsch Patriciaat, 28e jaargang, 1942, inv.
+          nr. 1, afbeelding 2.</html:p>
+          <html:p>Dat Arie de Coningh niet onbemiddeld was, blijkt uit de grote bedragen,
+          die hij François Doublet François Doublet was gezant der Republiek in Spanje
+          van 1762-1769. leende, met de heerlijkheid Mijnsheerenland van Moerkerken als
+          onderpand. Inv. nrs. 235, 236. Bij deze leningen speelden zijn schoonvader Dirk
+          van Assendelft en diens zwager Wiggert de Jongh Inv. nrs. 237, 240. een grote
+          rol. Het is vooral deze familie geweest, die hem in staat heeft gesteld de
+          heerlijkheid te kopen. Inv. nr. 235. Als ambachtsheer bleef Arie de Coningh
+          alle openbare ambten bekleden. Volgens J.D. Tresling was hij het type van de
+          machthebber te plattelande. Hij beschrijft hem als buitengewoon werkzaam,
+          nauwgezet en sober. J.D. Tresling, "Rondom de Binnenmaas". Rotterdam, 1936.
+          Daar hij nooit leende en tekorten, die onder zijn beheer ontstonden, uit eigen
+          middelen dekte, stonden aan het einde van zijn leven het ambacht en de polder
+          voor f. 9.000.- bij hem in het krijt. Inv. nr. 226; inv. nrs. 58-68; noot 10.
+          Hij overleed in 1784 te Mijnsheerendland van Moerkerken en werd begraven in de
+          kerk aldaar in de grafkelder van de ambachtsheren.</html:p>
+          <html:p>Assendelft de Coningh was koopman en reder te Vlaardingen en raad in de
+          vroedschap aldaar. Na het overlijden van zijn vader volgde hij hem op als
+          ambachtsheer van Moerkerken. Van de overige functies, die zijn vader bekleedde,
+          nam hij alleen het dijkgraafschap over. J.D. Tresling "Rondom de Binnenmaas".
+          Rotterdam, 1936, inv. Nrs. 242-244.</html:p>
+          <html:p>In tegenstelling tot zijn vader woonde hij meestal te Vlaardingen. Na
+          zijn huwelijk in 1793 verbleef hij meer op het ambachtsherenhuis te
+          Mijnsheerenland van Moerkerken, gewoonlijk genoemd het Hof. Hij werd in
+          Vlaardingen begraven.</html:p>
+          <html:p>Na zijn dood in 1803 werd zijn weduwe Cornelia Theodora van der Houven
+          ambachtsvrouwe van Mijnsheerenland van Moerkerken. Zij hertrouwde in 1804 met
+          Jan Knottenbelt, predikant te Mijnsheerenland van Moerkerken, en woonde
+          gedurende haar hele leven op het Hof van Moerkerken. Na haar overlijden in 1863
+          werd de heerlijkheid in een openbare verkoop gekocht door haar dochter
+          Elisabeth van Assendelft de Coningh, echtgenote van Arnoldus van Gennep,
+          waardoor zij ambachtsvrouwe werd. Haar zoon Jan van Gennep was de laatste
+          ambachtsheer van Mijnsheerenland van Moerkerken. Hij verkocht de heerlijkheid
+          in 1894. Inv. nr. 143-3 en 4. Het archief van de heerlijkheid van
+          Mijnsheerenland van Moerkerken werd in 1909 door het Algemeen Rijksarchief
+          aangekocht en berust thans bij de Derde Afdeling van het Algemeen Rijksarchief.
+          V.R.O.A. 19 143-3 en 4.</html:p>
+          <html:p>De enige zoon van Assendelft de Coningh en Cornelia Theodora van der
+          Houven was Arie Dirk van Assendelft de Coningh. Hij studeerde te Leiden, diende
+          in het leger van Napoleon als garde d'honneur Inv. nrs. 115, 212-214. en meldde
+          zich in 1815 als vrijwilliger bij het nederlandse leger. Inv. nrs. 116- 118,
+          212 brief d.d. 5-4-1815. Hij maakte onder andere deel uit van de manschappen,
+          die onze ontvreemde schilderijen uit Parijs hebben teruggebracht. Inv. nr. 212
+          brief d.d. 4-10-1815.</html:p>
+          <html:p>Zijn bewaard gebleven brieven uit die tijd worden in het boek van J.W.
+          Lichtenauer "De Garde d'Honneur van Napoleon" aangehaald.</html:p>
+          <html:p>Een persoon, die meer aandacht verdiend dan in deze inleiding op de
+          inventaris gegeven kan worden, is de zoon van Arie Dirk van Assendelft de
+          Coningh, Cornelis Theodorus. Door zijn reizen naar Nederlands-Indië en Japan en
+          door zijn verdiensten als schrijver over deze gebieden werd hij lid van de
+          Maatschappij der Nederlandsche Letterkunde te Leiden. Voor zijn
+          levensbeschrijving en bibliografie leze men de "Levensberichten van afgestorven
+          medeleden van de Maatschappij der Nederlandsche Letterkunde 1891 - 1892". Inv.
+          nrs. 133, 135, 137 en 139. R. Kousbroek: "Liefde en dood op Deshima". Avenue
+          november 1974.</html:p>
+          <html:p>Daar het archief geen volledig beeld van de familie geeft, zijn vooral
+          de afschriften van de dagboeken van Maria Catharina van Assendelft de Coningh
+          interessant. Zij geven onder meer een aardig beeld van het familieleven te
+          Mijnsheerenland van Moerkerken voor het overlijden van haar grootmoeder
+          Cornelia Theodora van der Houven. Jammer genoeg is in deze dagboeken veel
+          geschrapt en zijn er op vele plaatsen bladzijden uitgescheurd.</html:p>
+          <html:p>Aanverwante geslachten uit de achttiende eeuw zoals Van Assendelft,
+          Hoogwerff, De Jongh, à Marck en anderen worden onder meer aangetroffen in het
+          familiearchief Van Vredenburch, dat eveneens berust op het Algemeen
+          Rijksarchief.</html:p>
+          <html:p>De familie Van Assendelft de Coningh was via de familie Van Gennep
+          verwant met bekende Nederlanders zoals Abraham Capadose, Johannes van Vloten,
+          Albert Verweij en Frederik van Eeden. Inv. nrs. 5, 6, 143-3, 210.</html:p>
+          <html:p>Genealogie:</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+          <html:p>&#160;</html:p>
+          <html:p />
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Zuid-Hollandse familie (Van Assendelft) de Coningh bevat
+      onder meer genealogieën, persoonlijke correspondentie, boedelinventarissen,
+      verkoopakten van land en goederen en gelegenheidsgedichten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar. Voor publicatie is toestemming van de Algemeen
+      Rijksarchivaris vereist.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>272 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

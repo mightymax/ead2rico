@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/9e85070f-1805-4152-8c92-23946d406d44"
+  rdf:about="record/3.06.13">
+    <rico:identifier>3.06.13</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1992</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3351" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.06.13/i1" />
+      <rico:instantiates rdf:resource="record/3.06.13" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Waarborgkantoor te
+        Rotterdam, 1814-1986</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/9e85070f-1805-4152-8c92-23946d406d44" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Koperen platen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3351">
+    <rico:describedBy rdf:resource="record/3.06.13" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3351</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Waarborgkantoor Rotterdam</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Waarborgkantoor Rotterdam</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1812</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1986</rico:endDate>
+    <rico:date>1812-1986</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Waarborgkantoor Rotterdam 1814-1986</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Vanaf 1852 is de Dienst van de Waarborg Zie ook PIVOT-rapport nr. 36:
+          Drs. G. Beks (samenstelling) Echt goud, echt zilver ? Rapport van een
+          institutioneel onderzoek naar de taken en de handelingen betreffende het
+          waarborgen van (platina), gouden en zilveren werken over de periode 1940 -
+          1995. (Den Haag 1996) belast met het waarborgen van gouden, zilveren (en sedert
+          1950 platina) voorwerpen, die in Nederland vervaardigd zijn of ingevoerd.
+          Daarnaast moeten edelmetalen afkomstig uit particulier bezit, die in de handel
+          worden gebracht, gewaarborgd worden. Het gaat hierbij om het zogenaamde oud
+          goud en oud zilver. Het waarborgen van gouden en zilveren werken geschiedt door
+          het gehalte aan edelmetaal vast te stellen, het zogenaamde keuren. Daarna
+          wordt, nadat vastgesteld is dat de voorwerpen aan de eisen voldoen, op deze
+          voorwerpen een voor dat gehalte vastgesteld stempelmerk (keurteken of
+          gehaltekeurmerk) aangebracht dat een van de wettelijke vastgestelde gehalten
+          aangeeft. Door essayeurs en de technici van de stempelkamer werden de
+          edelmetalen gecontroleerd.</html:p>
+          <html:p>De Waarborgbelasting is een belasting welke betaald wordt voor het
+          laten waarborgen van platina, gouden en zilveren werken "welke hier te lande
+          worden vervaardigd, worden ingevoerd of uit het bezit van anderen in de handel
+          worden gebracht." Art. 6 Waarborgwet 1986. De Waarborgwet 1950 sprak voortaan
+          van 'waarborgrecht' in plaats van 'waarborgbelasting'.</html:p>
+          <html:p>Ook visitatie aan schatplichtigen behoorde tot de taak van de
+          ambtenaren van de directe belastingen of de ambtenaren van de in- en uitgaande
+          rechten en accijnzen. In een register van renseignementen werd door de
+          controleur aantekening gehouden van de aard en de grootte van de te visiteren
+          bedrijven en de hoeveelheid ter keuring aangeboden voorwerpen. Wanneer nieuwe
+          gouden en zilveren werken uitgevoerd werden werd de betaalde waarborgbelasting
+          teruggeven.</html:p>
+          <html:p>Het opsporen van overtredingen was voorbehouden aan ambtenaren van de
+          waarborg en aan ambtenaren der directe belastingen, invoerrechten en accijnzen.
+          Bij constatering van overtredingen werd een procesverbaal opgemaakt. Deze
+          werden, wanneer geen transactie plaatsvond, aan de officier van Justitie bij de
+          Arrondissementsrechtbank van het ressort waarin de bekeuring plaats had
+          opgestuurd.</html:p>
+          <html:p>Ingevolge de Waarborgwet 1950 hield de Waarborg zich bezig met de
+          controle op de naleving van de in deze wet aan de betrokken ondernemers
+          opgelegde verplichtingen. Bij invoering van de Waarborgwet 1950 werd tevens
+          bepaald dat naast gouden en zilveren werken voortaan ook platina werken
+          gewaarborgd moesten worden. Het heffen van belasting naast het keurloon kwam te
+          vervallen terwijl het waarborgrecht als keurloon gehandhaafd bleef. Tenslotte
+          verstrekt de Waarborg informatie op het terrein van edelmetaal aan ondernemers,
+          het publiek, de politie en de belastingdienst. Het beheer van en het toezicht
+          op de Waarborgkantoren berustte sedert 1970 bij de directeur der
+          Rijksbelastingen in het district Utrecht. Deze situatie duurde voort tot aan de
+          privatisering in 1987.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Vanaf 1852 is de Dienst van de Waarborg Zie ook PIVOT-rapport nr. 36:
+          Drs. G. Beks (samenstelling) Echt goud, echt zilver ? Rapport van een
+          institutioneel onderzoek naar de taken en de handelingen betreffende het
+          waarborgen van (platina), gouden en zilveren werken over de periode 1940 -
+          1995. (Den Haag 1996) belast met het waarborgen van gouden, zilveren (en sedert
+          1950 platina) voorwerpen, die in Nederland vervaardigd zijn of ingevoerd.
+          Daarnaast moeten edelmetalen afkomstig uit particulier bezit, die in de handel
+          worden gebracht, gewaarborgd worden. Het gaat hierbij om het zogenaamde oud
+          goud en oud zilver. Het waarborgen van gouden en zilveren werken geschiedt door
+          het gehalte aan edelmetaal vast te stellen, het zogenaamde keuren. Daarna
+          wordt, nadat vastgesteld is dat de voorwerpen aan de eisen voldoen, op deze
+          voorwerpen een voor dat gehalte vastgesteld stempelmerk (keurteken of
+          gehaltekeurmerk) aangebracht dat een van de wettelijke vastgestelde gehalten
+          aangeeft. Door essayeurs en de technici van de stempelkamer werden de
+          edelmetalen gecontroleerd.</html:p>
+          <html:p>De Waarborgbelasting is een belasting welke betaald wordt voor het
+          laten waarborgen van platina, gouden en zilveren werken "welke hier te lande
+          worden vervaardigd, worden ingevoerd of uit het bezit van anderen in de handel
+          worden gebracht." Art. 6 Waarborgwet 1986. De Waarborgwet 1950 sprak voortaan
+          van 'waarborgrecht' in plaats van 'waarborgbelasting'.</html:p>
+          <html:p>Ook visitatie aan schatplichtigen behoorde tot de taak van de
+          ambtenaren van de directe belastingen of de ambtenaren van de in- en uitgaande
+          rechten en accijnzen. In een register van renseignementen werd door de
+          controleur aantekening gehouden van de aard en de grootte van de te visiteren
+          bedrijven en de hoeveelheid ter keuring aangeboden voorwerpen. Wanneer nieuwe
+          gouden en zilveren werken uitgevoerd werden werd de betaalde waarborgbelasting
+          teruggeven.</html:p>
+          <html:p>Het opsporen van overtredingen was voorbehouden aan ambtenaren van de
+          waarborg en aan ambtenaren der directe belastingen, invoerrechten en accijnzen.
+          Bij constatering van overtredingen werd een procesverbaal opgemaakt. Deze
+          werden, wanneer geen transactie plaatsvond, aan de officier van Justitie bij de
+          Arrondissementsrechtbank van het ressort waarin de bekeuring plaats had
+          opgestuurd.</html:p>
+          <html:p>Ingevolge de Waarborgwet 1950 hield de Waarborg zich bezig met de
+          controle op de naleving van de in deze wet aan de betrokken ondernemers
+          opgelegde verplichtingen. Bij invoering van de Waarborgwet 1950 werd tevens
+          bepaald dat naast gouden en zilveren werken voortaan ook platina werken
+          gewaarborgd moesten worden. Het heffen van belasting naast het keurloon kwam te
+          vervallen terwijl het waarborgrecht als keurloon gehandhaafd bleef. Tenslotte
+          verstrekt de Waarborg informatie op het terrein van edelmetaal aan ondernemers,
+          het publiek, de politie en de belastingdienst. Het beheer van en het toezicht
+          op de Waarborgkantoren berustte sedert 1970 bij de directeur der
+          Rijksbelastingen in het district Utrecht. Deze situatie duurde voort tot aan de
+          privatisering in 1987.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Waarborgkantoor Rotterdam - dat ongeveer de jaren 1812
+      tot 1986 bestrijkt - bevat insculpatieplaten van kantoor- en waarborgtekens;
+      insculpatieplaten van meestertekens; registers van meestertekens en van
+      importeurstekens (met klappers; ca. 1940-1986). Ook bevat dit archief stukken
+      betreffende bedrijfsmatige activiteiten en visitatiekaarten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>44 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+        <html:p>Onder de stukken bevinden zich insculpatieplaten van kantoor-, waarborg-
+        en meestertekens.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

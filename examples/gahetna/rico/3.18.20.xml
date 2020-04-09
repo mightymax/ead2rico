@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/326ddfb0-687d-482c-b40d-423a9177ebc1"
+  rdf:about="record/3.18.20">
+    <rico:identifier>3.18.20</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1931</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36019" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.20/i1" />
+      <rico:instantiates rdf:resource="record/3.18.20" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140415</rico:hasModificationDate>
+        <html:p>15 april 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140113</rico:hasModificationDate>
+        <html:p>13 januari 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131022</rico:hasModificationDate>
+        <html:p>22 oktober 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130411</rico:hasModificationDate>
+        <html:p>11 april 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100819</rico:hasModificationDate>
+        <html:p>19 augustus 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief der adellijke Vrouwenabdij van
+        Rijnsburg van de Orde van Benedictus, 1179-1574</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/326ddfb0-687d-482c-b40d-423a9177ebc1" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken zijn
+        geschreven in het gotische cursiefschrift, met name in de oud-Hollandse
+        klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36019">
+    <rico:describedBy rdf:resource="record/3.18.20" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36019</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Abdij van Rijnsburg</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Abdij Rijnsburg</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1179</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1574</rico:endDate>
+    <rico:date>1179-1574</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Adellijke vrouwenabdij van Rijnsburg van de Orde van S.
+            Benedictus</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>uit: IRA (Inventarissen Rijks Archieven) IV (1931) p. 169-256.</html:p>
+          <html:p>De abdij Vgl. Maria Hüffer, De adellijke vrouwenabdij van Rijnsburg,
+          1133-1574, 1923, en de daar aangehaalde bronnen en litteratuur. Over den
+          jaarstijl der abdij zie men haar artikel in Historisch Tijdschrift V, (1926),
+          blz. 230-258. werd gesticht door Petronella, weduwe van graaf Floris II van
+          Holland, op wier verzoek uit het Saksische klooster van Stötterlingenburg in
+          het noorden van het Harzgebergte eenige nonnen van de Benedictijnenorde kwamen
+          om het nieuwe klooster te bevolken, waarna de 16den September 1133 Andreas van
+          Kuik, bisschop van Utrecht, de kerk van de nieuwe Benedictinessenabdij wijdde
+          onder den titel van de H. Maagd. Door Paus Innocentius.II werd in 1140 aan de
+          abdij exemptie verleend, waardoor zij regelrecht stond onder jurisdictie van de
+          H. Stoel. Desondanks traden meermalen de Utrechtsche bisschoppen als
+          scheidsrechters op, bekrachtigden de benoeming van pastoors, gaven toestemming
+          tot investituur der nonnen en bevestigden de benoeming van de abdis. Bij bul
+          van Paus Alexander VI van 5 Maart 1500 werd het getal der nonnen op 40 bepaald,
+          die niet aan ordinaris kloostergeloften gebonden waren. Haar toelating werd
+          verbonden aan de adeldom van vaders en moederszijde en van vier
+          grootouders.</html:p>
+          <html:p>In 1536 werd de abdij in een collegium van kanonessen veranderd onder
+          goedkeuring van Karel V, waardoor in de Alteratie de goederen niet als
+          kloostergoed werden aangemerkt en behandeld, maar aan de Ridderschap van
+          Holland vervielen onder verband van alimentatie van de overgebleven
+          zusters.</html:p>
+          <html:p>in de zomer van 1572 had men reeds veel overlast van de Spanjaarden te
+          verduren en in Februari 1573 had er een schermutseling tussen de Leidenaars. en
+          den vijand plaats, waarbij ook enkele gebouwen der abdij schade leden: De
+          Leidsche burgemeester deed materialen, balken en kunstwerk naar Leiden voeren,
+          waarheen het archief misschien reeds vroeger in veiligheid gebracht was, zoals
+          uit den na te noemen inventaris mag afgeleid worden. Nadat omstreeks dezen tijd
+          de ontvanger van de abdij gevlucht was, werd het beheer der abdijgoederen
+          opgedragen aan Dirk Gerritsz. van Kessel, door den Prins van Oranje aangewezen.
+          Van de Staten ontving de ontvanger zijn bevelen en legde aan deze rekenschap
+          van zijn beheer af. Hierin kwam sedert geen verandering, ondanks requesten van
+          de conventualen in 1573 om haar goederen te mogen gebruiken, zoals bij de abdij
+          Leeuwen-horst gebeurde, waar der administratie aan het klooster bleef en door
+          den eigen ontvanger gevoerd werd. Nog in 1577 deed de abdij van Rijnsburg een
+          poging om het gebruik der goederen terug te krijgen, doch tevergeefs.</html:p>
+          <html:p>in de loop van 1574 werd de abdij door de nonnen voorgoed verlaten, die
+          naar Utrecht en elders bij familie haar toevlucht zochten. De parochiekerk van
+          Rijnsburg werd reeds vóór April 1574 verwoest, terwijl de abdij spoedig daarna
+          in vlammen opging. De laatste abdis, Stephana van Rossum, gestorven 27 December
+          1603, voerde ook na de verstrooiing nog haar weidsche titels en riep de nonnen
+          buiten de abdij bijeen. Na haar benoemde de Ridderschap nog 2 abdissen, waarna
+          die waardigheid geheel gesupprimeerd werd.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de adellijke vrouwenabdij bevat onder meer een lijst van
+      benoemde abdissen van Rijnsburg, pauselijke bullen en aflaatbrieven,
+      privilegebrieven van de Hollandse graven, rekeningen, eigendomsbewijzen van huizen
+      en land in Zuid-Holland en Zeeland, en stukken in verband met tienden en lenen van
+      de abdij.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1256 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

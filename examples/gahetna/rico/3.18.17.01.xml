@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/1aac6ddb-f3ad-4048-818e-b8169dde5430"
+  rdf:about="record/3.18.17.01">
+    <rico:identifier>3.18.17.01</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1935</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35016..1" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.17.01/i1" />
+      <rico:instantiates rdf:resource="record/3.18.17.01" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100504</rico:hasModificationDate>
+        <html:p>4 mei 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20141002</rico:hasModificationDate>
+        <html:p>2 oktober 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de registers en stukken afkomstig van de Abdij
+        Leeuwenhorst, 1410-1571</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/1aac6ddb-f3ad-4048-818e-b8169dde5430" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35016..1">
+    <rico:describedBy rdf:resource="record/3.18.17.01" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35016..1</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Abdij van Leeuwenhorst, Registers en stukken</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Abdij Leeuwenhorst</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1410</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1571</rico:endDate>
+    <rico:date>1410-1571</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Abdij Leeuwenhorst te Noordwijkerhout</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1261 stichtten Aarnout en Waalwijn van Alkamade de abdij. Op St.
+          Thomas-avond in 1262 werd de eerste steen gelegd. De nonnen werden omstreeks
+          1273 opgenomen in de orde van de cisterciënzers en onder toezicht gesteld van
+          het mannenklooster te Kamp (Duitsland). De nonnen verwierven uitgebreid
+          landbezit, voornamelijk in Rijnland en Delfland. Rentmeesters droegen voor het
+          verpachten daarvan en het beheer daarover de verantwoordelijkheid, zodat de
+          nonnen zelf zich aan een contemplatief leven konden wijden.</html:p>
+          <html:p>Zeker in de beginperiode was de abdij Leeuwenhorst een instelling die
+          in aanzien stond. In eerste instantie werden er alleen adellijke jonkvrouwen
+          uit Holland opgenomen, later ook uit andere gewesten, en bovendien kwamen er
+          steeds meer dochters uit patriciërsgeslachten bij. Door deze vertegenwoordigers
+          van lagere standen en de grotere geografische afstand nam de betrokkenheid van
+          familieleden af. Hetzelfde gold op den duur ook voor het aanzien dat de abdij
+          genoot.</html:p>
+          <html:p>Begonnen met acht tot twaalf zusters waren er later gemiddeld dertig
+          zusters in het klooster. Na de landing van de watergeuzen bij Katwijk in 1571
+          vluchtten zij naar Leiden. In 1573, tijdens het beleg van Leiden, werd de
+          abdij, inclusief de kerk, door Leidenaars vernietigd om gebruik door de
+          Spanjaarden te voorkomen. Op dezelfde plek werd later een adellijke hofstede
+          aangelegd.</html:p>
+          <html:p>In 1572-'73 werden met de komst van de Reformatie de kerkelijke
+          goederen onteigend. Het gros van deze goederen werd bestemd voor het onderhoud
+          van de publieke kerk. Met de abdijen van Rijnsburg en Leeuwenhorst stond het
+          anders. In eerste instantie werden ze door de Staten van Holland geconfisqueerd
+          en onder beheer van een rentmeester gesteld, die aan de nonnen een alimentatie
+          uitbetaalde. De Staten wilden de goederen te gelde maken en de opbrengst
+          gebruiken voor de strijd tegen Spanje en de Leidse universiteit. De edelen
+          betoogden echter dat veel van de bezittingen van adellijke herkomst waren. De
+          abdijen waren destijds gesticht door de graven en gravinnen van Holland om
+          adellijke jonkvrouwen op te nemen. Bovendien had de adel ook later nog goederen
+          geschonken voor hun onderhoud. Daarom beschouwden de edelen de geestelijke
+          goederen min of meer als familiebezit, dat nog steeds moest dienen voor de
+          verzorging van adellijke dames. Uiteindelijk lieten de Staten in 1586 de
+          goederen van deze twee abdijen geheel aan de Ridderschap.</html:p>
+          <html:p>Nominaal bleven de abdijen ook na 1572 onder leiding van abdissen
+          staan, die de Ridderschap tot in de zeventiende eeuw benoemde. In 1620 werd
+          besloten voor Rijnsburg geen nieuwe abdis meer te benoemen en voor Leeuwenhorst
+          werd eenzelfde besluit in 1634 van kracht. Nadien waren het oudste en het op
+          een na oudste lid van de Ridderschap respectievelijk abt van Rijnsburg en
+          Leeuwenhorst. Naast de abdissen werden rentmeesters aangesteld. Vanaf 1624 nam
+          een lid van de Ridderschap voor Leeuwenhorst het rentmeesterschap waar. De
+          eigenlijke werkzaamheden werden door commiezen uitgevoerd, aan wie veel
+          verantwoordelijkheden werden toevertrouwd.</html:p>
+          <html:p>G. de Moor wijdde verschillende studies aan de abdij, waarvan de
+          belangrijkste zijn: Verborgen en geborgen. Het cisterciënzerklooster
+          Leeuwenhorst in de Noordwijkse regio (1261-1574) (Hilversum 1994) en Lonen en
+          prijzen in het cisterciënzerinnenklooster Leeuwenhorst bij Noordwijkerhout
+          tussen 1410/11 en 1570/71 (Amsterdam 2000). Zie voor de latere geschiedenis
+          uitvoeriger de inleiding van inventaris 3.01.06 (het archief van de Ridderschap
+          en edelen van Holland en West-Friesland, 1572-1795) en Leeuwenhorst, een
+          Hollandse buitenplaats, de editie 2003 van het Jaarboek van de
+          Kastelenstichting Holland en Zeeland onder redactie van E. den Hartog, R.H.M.
+          van Immerseel en A. Coops.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De stukken uit het archief van de abdij Leeuwenhorst te Noordwijkerhout
+      betreffen vrijwel uitsluitend de administratie en financiën van de rentmeesters uit
+      de periode tussen 1410/11 en 1570/71. Veel materiaal gaat over de aanschaf van
+      gebruiksartikelen voor het klooster en over de verpachting van stukken grond in het
+      Rijnland en het Westland, waar het klooster de meeste bezittingen had.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>240 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

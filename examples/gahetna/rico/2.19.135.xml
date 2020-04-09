@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/aeb59872-3fb8-4b92-8866-74633277e252"
+  rdf:about="record/2.19.135">
+    <rico:identifier>2.19.135</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I28527" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.135/i1" />
+      <rico:instantiates rdf:resource="record/2.19.135" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de verzameling verslagen op het terrein van de
+        geestelijke gezondheidszorg over de jaren 1915-1969</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/aeb59872-3fb8-4b92-8866-74633277e252" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I28527">
+    <rico:describedBy rdf:resource="record/2.19.135" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I28527</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Verslagen Geestelijke Gezondheidszorg</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Verslagen Geestelijke Gezondheidszorg</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1915</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1969</rico:endDate>
+    <rico:date>1915-1969</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Vereniging Nederlandsche Hervormde Stichtingen voor Zenuw- en
+            Geesteszieken 1927-</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1927 werd met steun van het diaconaat in de Nederlandse Hervormde
+          Kerk de 'Vereniging Nederlandsche Hervormde Stichtingen voor Zenuw- en
+          Geesteszieken' opgericht. Inmiddels is die vereniging uitgegroeid tot het
+          huidige werkverband De Open Ankh.</html:p>
+          <html:p>Tot 1951 richtte de toenmalige vereniging (nu De Open Ankh) zich vooral
+          op de psychiatrie. In 1951 werd De Open Ankh ook in de sector zwakzinnigenzorg
+          (later: verstandelijk gehandicaptenzorg) actief. Vanaf 1960 manifesteerde zich
+          de behoefte om voor demente bejaarden eigen psychogeriatrische voorzieningen te
+          scheppen.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1927 werd met steun van het diaconaat in de Nederlandse Hervormde
+          Kerk de 'Vereniging Nederlandsche Hervormde Stichtingen voor Zenuw- en
+          Geesteszieken' opgericht. Inmiddels is die vereniging uitgegroeid tot het
+          huidige werkverband De Open Ankh.</html:p>
+          <html:p>Tot 1951 richtte de toenmalige vereniging (nu De Open Ankh) zich vooral
+          op de psychiatrie. In 1951 werd De Open Ankh ook in de sector zwakzinnigenzorg
+          (later: verstandelijk gehandicaptenzorg) actief. Vanaf 1960 manifesteerde zich
+          de behoefte om voor demente bejaarden eigen psychogeriatrische voorzieningen te
+          scheppen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Vereniging 'Nederlandsche Hervormde Stichtingen voor Zenuw- en
+      Geesteszieken', opgericht in 1927, staat aan de basis van dit archief. Deze
+      vereniging is inmiddels opgegaan in het werkverband De Open Ankh. De
+      archiefstukken, die de periode 1915-1969 bestrijken, bevatten series jaarverslagen
+      van enkele instellingen, werkzaam op het gebied van de krankzinnigenzorg. De series
+      zijn niet volledig. Ook zijn er verslagen van toezichthouders op het gebied van de
+      geestelijke gezondheidszorg, zoals de Provinciale Commissie van toezicht in
+      Zuid-Holland en het Staatstoezicht op de Krankzinnigen en
+      Krankzinnigengestichten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>7 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

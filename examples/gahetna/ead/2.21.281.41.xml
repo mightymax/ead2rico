@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:57:53 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.21.281.41::Collectie 607 Familie Heijning)//NL" url="http://proxy.handle.net/10648/961ee8fb-94d5-4348-8b58-9d6ee83abd44" urn="2.21.281.41.ead.xml">2.21.281.41</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van de familie Heijning, over de jaren 1713-1986</titleproper>
+        <author>E. Heyning</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1997">1997</date>
+      <p id="copyright"><extref linktype="simple" href="http://www.gahetna.nl/auteursrecht" actuate="onrequest" show="new">(c)</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Ellen Altona, 
+		  <date calendar="gregorian" era="ce" normal="20090807">7 augustus 2009</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Collectie 607 Familie Heijning</unittitle>
+      <unittitle type="short">Heijning</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1713/1986" type="inclusive">1713-1986</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">C26148</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">1.50 meter; </extent>
+        
+      <extent unit="files">83 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <famname>Heijning</famname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat in- en uitgaande brieven aan en afkomstig van diverse leden van de familie Heyning (1713-1986). Daarnaast enkele dagboeken, tekeningen, kasboeken en reisaantekeningen.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is door schenking verworven.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">2.21</subject>
+      </controlaccess>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Collectie 607 Familie Heijning, 1713-1986, nummer toegang 2.21.281.41, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Heijning, 2.21.281.41, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>1-2</unitid>
+          <unittitle>Documenten betreffende eerste en tweede generatie aan de Kaap.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1713/1779">1713-1779</unitdate>
+        </did>
+        <odd>
+          <p>. Correspondentie over en kopieën van trouw en doopregisters, notariële akten, locatie plattegronden.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637653" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b28ffd84-1ef3-4d5b-b5c3-174c45ffedec</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637654" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c49caf84-9659-4fe9-812e-052b6a4a0b7c</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637655" type="ABS">3</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd60f6c3-742f-4fa3-a7a1-f32f82e3ddd2</unitid>
+          <unittitle>Brieven van Johannes Cornelis Heijning, 4-8-1754, Kaapstad.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1797/1807">1797-1807</unitdate>
+        </did><phystech type="ABS"><p>Niet raadpleegbaar</p></phystech><odd>
+          <p>. Origineel kopieboek.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637656" type="ABS">4</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f32813d-2ff5-4a40-ad26-94df2fdededa</unitid>
+          <unittitle>Brieven van Johannes Cornelis Heijning, 4-8-1754, Kaapstad.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1808/1810">1808-1810</unitdate>
+        </did><odd>
+          <p>. Origineel kopieboek en origineel laatste brief aan zoon Jacob Daniël.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>5-11</unitid>
+          <unittitle>Brieven van Jacob Daniël Heijning, 24-11-1783, Chinsura, Bengalen.</unittitle>
+        </did>
+        <odd>
+          <p>. Originele kopieboeken en enkele later gemaakte kopieën.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637657" type="ABS">5</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84b68f98-386c-4dd4-85bc-d442f99952a5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1806/1808">1806-1808</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637658" type="ABS">6</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/079a56b4-7cad-4505-8c10-23cd75f00945</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1808/1809">1808-1809</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637659" type="ABS">7</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a2b432a-3d18-42b2-8312-68677069d03d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1810/1812">1810-1812</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637660" type="ABS">8</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/976db65e-5d05-4534-94b8-3af82be2fc70</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1813/1816">1813-1816</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637661" type="ABS">9</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8dc694f-452a-4678-849b-72ba1ee1650a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1818/1819">1818-1819</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637662" type="ABS">10</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6bf7083f-5fb9-4fd4-bd05-6b470ccf2d10</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1820">1820</unitdate>
+            </unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637663" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/956ddcfb-78d4-4087-9b68-1633fdee954f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1820/1825">1820-1825</unitdate>
+            </unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637664" type="ABS">12</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/87117378-cd87-4e29-a139-1af86935c984</unitid>
+          <unittitle>Kasboeken en enkele publikaties van Jacob Daniël Heijning, 24-11-1783, Chinsura, Bengalen.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1815/1817">1815-1817</unitdate>
+        </did><odd>
+          <p> Originelen uit Bengalen.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637665" type="ABS">13</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/388401cb-5e06-4309-b80f-618837d9c11e</unitid>
+          <unittitle>Kasboek van Jacob Daniël Heijning, 24-11-1783, Chinsura, Bengalen.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1826/1832">1826-1832</unitdate>
+        </did><odd>
+          <p>. Originelen uit Amsterdam.</p>
+        </odd><odd>
+          <p>. Origineel familieoverzicht 1784-1832.</p>
+        </odd><odd>
+          <p>. Huislocatie Amsterdam.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637666" type="ABS">14</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/508b0e27-1e59-4738-b8f4-0b0eedaa4e58</unitid>
+          <unittitle>Documenten betreffende:</unittitle>
+        </did><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Dr. Johannes Cornelis Heijning, 13-3-1808, Chinsura.</unittitle>
+          </did>
+          <odd>
+            <p>. Kopiebrief vader J.D.</p>
+          </odd>
+          <odd>
+            <p>. Bij vertrek naar Ediurg in 1824.</p>
+          </odd>
+          <odd>
+            <p>. Diploma / benoemingen van J.C.</p>
+          </odd>
+          <odd>
+            <p>. Huis Zijpe.</p>
+          </odd>
+        </c02><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Petrus Johannes Heijning, 9-8-1817, Chinsura.</unittitle>
+          </did>
+          <odd>
+            <p>. Reisaantekeningen P.J.</p>
+          </odd>
+        </c02><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Edward Heijning (vervolg).
+            <unitdate calendar="gregorian" era="ce" normal="1824/1857">1824-1857</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>. Nillmij publikatie.</p>
+          </odd>
+        </c02></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637667" type="ABS">15</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/99047e8c-ffd1-496f-be2a-a13250b56e61</unitid>
+          <unittitle>Brieven van / aan Petrus Johannes Marie Heijning, 14-4-1844, Den Helder en Eduard Heijning, 4-10-1845.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1858/1860">1858-1860</unitdate>
+        </did><odd>
+          <p>. 36 originele brieven aan / van ouders tijdens Mr. Cornelis periode.</p>
+        </odd><odd>
+          <p>. Woodbury en Page</p>
+        </odd><odd>
+          <p>. foto en kwitantie.</p>
+        </odd><odd>
+          <p>. Publikatie.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637668" type="ABS">16</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23585b45-b9b7-48f0-8617-f710e68930c5</unitid>
+          <unittitle>Boedelscheiding van Adelaïde Jacoba II, 27-10-1847, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+        </did><odd>
+          <p>. Afschrift van testamenten.</p>
+        </odd><odd>
+          <p>. Brief van mr. G. Douwes Dekker over 14 miniaturen.</p>
+        </odd><odd>
+          <p>. Commentaar van Iconografisch Bureau, Den Haag.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637669" type="ABS">17</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4848a6af-2746-4436-be62-569dd903f58e</unitid>
+          <unittitle>Tekeningen van Adelaïde Jacoba II, 27-10-1847, Zijpe.</unittitle>
+        </did><odd>
+          <p>. Origineel plus brief van Clara Hora Siccama - Jäger.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637670" type="ABS">18</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e28af76-5894-40b6-883f-34410437ec17</unitid>
+          <unittitle>Schoolschriften van Johanna Elisabeth Heijning, 22-3-1849, Zijpe.</unittitle>
+        </did><odd>
+          <p>. 3 Originelen.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637671" type="ABS">19</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/173a05ad-5b2f-4457-8832-45d1cb09c749</unitid>
+          <unittitle>Documenten betreffende Ir. Johannes Cornelis Heijning, 20-3-1853, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1878/1909">1878-1909</unitdate>
+        </did><odd>
+          <p>. Originele benoemingen.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>20-21</unitid>
+          <unittitle>Dagboeken van Ir. Johannes Cornelis Heijning, 20-3-1853, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1893/1902">1893-1902</unitdate>
+        </did>
+        <odd>
+          <p>. Originelen.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637672" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad2ffcbc-ca1c-447c-b09e-51e568a52d37</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637673" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cb387a37-7467-45b5-8830-589db3476497</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>22-25</unitid>
+          <unittitle>Documenten van Ir. Johannes Cornelis Heijning, 20-3-1853, Zijpe.</unittitle>
+        </did>
+        <odd>
+          <p>. Opeare Waterstaat van Nederlands Indië, incl. Waterregeling project Demak.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637674" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6c7c448-1c4c-483f-a77d-920032504ffb</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637675" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eda37acf-2f81-476c-a41d-6e7934988dbb</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637676" type="ABS">24</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9db5b568-becf-4f0d-a365-9f34f5a1e698</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637677" type="ABS">25</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/806a177b-dda3-4420-b65b-3804d9278ddc</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637678" type="ABS">26</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/418cabbf-9464-41d2-a0c8-bf351c83134c</unitid>
+          <unittitle>Publikaties betreffende Ir. Johannes Cornelis Heijning, 20-3-1853, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1915">1915</unitdate>
+        </did><odd>
+          <p>. Overlijden Ir. J.C. Heijning 27-2-1915.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637679" type="ABS">27</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/955e4cfb-519b-4f40-8940-fe01af7fd9d3</unitid>
+          <unittitle>Brieven van Geldolph Adriaan de Lange, 3-5-1824, Alkmaar.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1840/1846">1840-1846</unitdate>
+        </did><odd>
+          <p>. 6 schriften met 74 kopiebrieven aan zijn ouders.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>28-29</unitid>
+          <unittitle>Brieven van / aan Sjoerd - Mina - G.A. en familieleden in Alkmaar.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1839/1862">1839-1862</unitdate>
+        </did>
+        <odd>
+          <p>. 59 kopieën plus 2 schriften.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637680" type="ABS">28</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6339267a-adc6-4af5-8678-4cac98954bbb</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637681" type="ABS">29</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e95c88c-a91d-42d7-9bf9-a95d35a28c4e</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637682" type="ABS">30</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f992a02e-f715-478c-b846-bf6768d0ba41</unitid>
+          <unittitle>Brieven van Maria Jeanette Tiedeman, 16-3-1798, Amsterdam.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1874/1885">1874-1885</unitdate>
+        </did><odd>
+          <p>. 15 originelen + 12 kopieën aan Cornelia Elisabeth de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637683" type="ABS">31</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cb1d0ecb-4b25-4a9c-8950-41903893f910</unitid>
+          <unittitle>Brieven van Margaretha Louise Wiggers van Kerchem - van den Toorn, 17-12-1832, Goes en Isabelle Petronella Louise Wiggers van Kerchem - Stelling, 28-10-1832, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1871/1919">1871-1919</unitdate>
+        </did><odd>
+          <p>. 2 tekeningen</p>
+        </odd><odd>
+          <p>. 8 originelen + schrift met kopieën, aan Cornelia Elisabeth de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637684" type="ABS">32</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3c3c7ac-d246-4d8d-adee-7bd66aeffbcd</unitid>
+          <unittitle>Brieven van Eduard II, 4-10-1845, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1878/1881">1878-1881</unitdate>
+        </did><odd>
+          <p>. 17 originelen aan Cornelia E. de Lange, incl. huwelijksannonce en transportregeling.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637685" type="ABS">33</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e5937afa-db10-47e2-9e03-ce021d06c62c</unitid>
+          <unittitle>Brieven van Ds. J.A. Schuurman en Johannes Cornelis Heijning, 20-3-1853, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1875/1905">1875-1905</unitdate>
+        </did><odd>
+          <p>. 14 originelen aan E. en C.E. Heijning - de Lange</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637686" type="ABS">34</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e1b05645-5ab3-4d26-abc1-a66a2163d444</unitid>
+          <unittitle>Brieven van Jannetje Heijning - Swerver, 15-5-1812, VLieland.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1877/1895">1877-1895</unitdate>
+        </did><odd>
+          <p>. 52 originelen + schrift met kopieën aan Cornelia Elisabeth Heijning - de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637687" type="ABS">35</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/289978fc-eda5-44c6-bd56-1224703344de</unitid>
+          <unittitle>Documenten betreffende "Pondok Gedeh".</unittitle>
+        </did><odd>
+          <p>. Locatie</p>
+        </odd><odd>
+          <p>. Geschiedenis</p>
+        </odd><odd>
+          <p>. Verslag 1887</p>
+        </odd><odd>
+          <p>. Plantinstructie suiker</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637688" type="ABS">36</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e1d64c6-2b1b-48f2-bf53-1bcc41c6fe42</unitid>
+          <unittitle>Brieven aan Eduard Heijning, 4-10-1845, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1882/1888">1882-1888</unitdate>
+        </did><odd>
+          <p>. 15 originelen. Onder andere benoeming directeur "Pondok Gedeh"landen.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>37-39</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1878/1888">1878, 1884 t/m 1888</unitdate>
+        </did>
+        <odd>
+          <p>. 244 originelen. Aan haar ouders, G.A. en M.J.J. de Lange -</p>
+          <p>Wiggers van Kerchem.</p>
+        </odd>
+        <odd>
+          <p>. verblijf "Rendeng".</p>
+        </odd>
+        <odd>
+          <p>. verblijf "Pondok Gedeh".</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637689" type="ABS">37</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f878f9d-bdac-4d17-908f-75a9154d9bd7</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637690" type="ABS">38</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/202574a8-22d2-4af5-8df4-b8bf454a4fda</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637691" type="ABS">39</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86311a5b-c56d-43e4-ba91-8070f170352f</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637692" type="ABS">40</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/441e0806-df95-44bf-96db-e6004a876c83</unitid>
+          <unittitle>Brieven aan Geldolph Adriaan de Lange, 3-5-1824, Alkmaar.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1874/1888">1874-1888</unitdate>
+        </did><odd>
+          <p>. 41 originelen + schrift met kopieën aan E. en C.E. Heijning - de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637693" type="ABS">41</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea7b146e-e26c-4b50-9c35-b59e9dba5408</unitid>
+          <unittitle>Documenten betreffende situatie "Pondok Gedeh".</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1886/1888">1886-1888</unitdate>
+        </did><odd>
+          <p>. 16 originelen. Brieven van Hr. Van den Bosch</p>
+        </odd><odd>
+          <p>. doktersattest</p>
+        </odd><odd>
+          <p>. krant 17 aug. 1888</p>
+        </odd><odd>
+          <p>. jaarverslag 1887</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637694" type="ABS">42</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0385bad-acf8-4b31-a7f6-b45efac27fa6</unitid>
+          <unittitle>Brieven aan Eduard Heijning, 4-10-1845, Zijpe.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1888/1889">1888-1889</unitdate>
+        </did><odd>
+          <p>. 21 originelen, incl. beëindiging van het dienstverband.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637695" type="ABS">43</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3bbdd660-a6c5-46d5-93cb-3bc918bf998c</unitid>
+          <unittitle>Brieven van Jacob Daniël Heijning, 3-4-1837, Den Helder.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1880/1915">1880-1915</unitdate>
+        </did><odd>
+          <p>. 38 originelen + 4 schriften. Met kopieën betreffende situatie "Rendeng".</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637696" type="ABS">44</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f3a56a4-06b8-429f-99f2-15d8fe4468c3</unitid>
+          <unittitle>Brieven van / aan Cornelia Elisabeth II. - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1889/1896">1889-1896</unitdate>
+        </did><odd>
+          <p>. Originelen + kopie - schrift.</p>
+        </odd><odd>
+          <p>. Overlijden E. Heijning 16-12-1889, condoleances.</p>
+        </odd><odd>
+          <p>. Financiële situatie.</p>
+        </odd><odd>
+          <p>. relatie tot zwager Jacob Daniël Heijning.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637697" type="ABS">45</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b11821c-4698-4000-b89b-b1eb67e68916</unitid>
+          <unittitle>Documenten betreffende begrafeniskosten, boedelscheiding, weduwepensioen.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1889/1890">1889-1890</unitdate>
+        </did></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637698" type="ABS">46</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7656bdfe-375d-4659-85e5-3a788403a11d</unitid>
+          <unittitle>Brieven van Margaretha Jacoba Johanna de Lange - Wiggers v. Kerchem, 4-11-1882, Kampen.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1857/1931">1857-1931</unitdate>
+        </did><odd>
+          <p>. 12 originelen aan haar moeder Maria Elisabeth</p>
+          <p>Wiggers v. K. - Tiedeman, schoonzuster Wilhelmina</p>
+          <p>Christina de Lange - Landskroon en dochter Cornelia Elisabeth</p>
+          <p>Heijning - de Lange.</p>
+        </odd><odd>
+          <p>. 2 schriften met kopieën</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637699" type="ABS">47</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e71c0213-aeac-4855-9000-f1daffa1600c</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1879/1881">1879-1881</unitdate>
+        </did><odd>
+          <p>. 31 originelen aan Anna Elisabeth Abendanon - de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637700" type="ABS">48</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ccfb7cc-3c9a-4d23-9d2d-765b3393cdf8</unitid>
+          <unittitle>Brieven van Anna Elisabeth Abendanon - de Lange, 19-12-1856, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1877/1881">1877-1881</unitdate>
+        </did><odd>
+          <p>. 66 originelen aan ouders / zusters.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637701" type="ABS">49</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7aed70de-5db5-4808-9cee-db4698beafd0</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1883/1933">1883-1933</unitdate>
+        </did><odd>
+          <p>. 60 originelen aan Mr. Jacques Henry Abendanon en Rosa Manuela Abendanon - Mandri.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637702" type="ABS">50</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e41039fa-9541-4824-b98d-5c94826a19f6</unitid>
+          <unittitle>Jeugdherinneringen van Margaretha J.J. Kessler - de Lange, 7-8-1860, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1860/1873">1860-1873</unitdate>
+        </did><odd>
+          <p>. Vastgelegd in 1908, gekopieerd in 1928.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637703" type="ABS">51</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ef37f9e-3455-45e0-9183-d4e8d142549e</unitid>
+          <unittitle>Brieven aan Margaretha J.J. Kessler - de Lange, 7-8-1860, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1866/1884">1866-1884</unitdate>
+        </did><odd>
+          <p>. 15 originelen van grootmoeder M.E. Wiggers v. Kerchem - Tiedeman en tante "Net", Maria Jeanette Tiedeman, 16-3-1793, Amsterdam.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>52-53</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1881/1933">1881-1933</unitdate>
+        </did>
+        <odd>
+          <p>. 226 originelen aan Margaretha J.J. Kessler - de Lange.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637704" type="ABS">52</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/140477be-3c08-4be3-a8d7-75577d4303a8</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637705" type="ABS">53</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/77e414fb-8256-48b8-8f28-c1cdb01251d9</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637706" type="ABS">54</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/37fcee13-09c2-4dd9-adba-dc972949bab5</unitid>
+          <unittitle>Brieven van Margaretha J.J. Kessler - de Lange, 7-8-1860, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1882/1933">1882-1933</unitdate>
+        </did><odd>
+          <p>. 7 originelen aan fam. Heijning. Onder andere bij overlijden van Cornelia Elisabeth Heijning - de Lange ( 7-7-1933).</p>
+        </odd><odd>
+          <p>. + 2 uitgaven van Kessler - brieven.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637707" type="ABS">55</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b99bcf94-7be0-46ff-8fc6-cabae360781d</unitid>
+          <unittitle>Afscheidswoorden bij het overlijden van Margaretha J.J. Kessler - de Lange.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1938">9 Febr. 1938</unitdate>
+        </did></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637708" type="ABS">56</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbc94bc5-3721-421b-9d83-d0d18e9a3974</unitid>
+          <unittitle>Brieven van Maria Jeanette Bouman / de Lange - de Lange, 20-12-1865, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1881/1923">1881-1923</unitdate>
+        </did><odd>
+          <p>. 36 originelen aan Cornelia Elisabeth Heijning - de Lange en Ir. Eduard Cornelis Abendanon.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637709" type="ABS">57</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d0283b4-c2e7-4931-80f6-c975335f8811</unitid>
+          <unittitle>Brieven van Maria Jeanette Bouman / De Lange - de Lange, 20-12-1865, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1883/1890">1883-1890</unitdate>
+        </did><odd>
+          <p>. 5 originelen aan Rosita M. Abendanon-Mantri.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637710" type="ABS">58</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab4d200f-d69e-4aa7-8db3-6b86e2907450</unitid>
+          <unittitle>Brieven van Maria Jeanette Bouman / de Lange - de Lange, 20-12-1865, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1885/1886">1885-1886</unitdate>
+        </did><odd>
+          <p>. 4 originelen aan Cornelia Elisabeth Heijning - de Lange vanuit Brussel en Nice.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637711" type="ABS">59</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c0b8366-fef8-40f7-a78c-b7eed16060d9</unitid>
+          <unittitle>Brieven van Maria Jeanette Bouman / de Lange - de Lange, 20-12-1865, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1920">1920</unitdate>
+        </did><odd>
+          <p>. 17 originelen vanuit de U.S.A.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637712" type="ABS">60</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ec4b4e0-514c-42b2-8f48-3038ca4902b8</unitid>
+          <unittitle>Brief van Hendrik Jan de Lange, 19-8-1886, Alkmaar.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1923">1923</unitdate>
+        </did><odd>
+          <p>. Betreffende het overlijden van Maria Jeanette de Lange</p>
+          <p>op 7 juli 1923 en de familieverhoudingen.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637713" type="ABS">61</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb61cbfb-b085-44bd-a5fb-bd233a8a04bc</unitid>
+          <unittitle>Brieven aan Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1867/1933">1867-1933</unitdate>
+        </did><odd>
+          <p>. 99 originelen van onder andere Wilhelmina Christina</p>
+          <p>de Lange - Landskroon, Theodora Christina Douwes Dekker - Heijning, Anna de Lange en Dolph Kessler.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637714" type="ABS">62</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7935f30a-67fe-4d28-b82e-0039fada7be8</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1877/1930">1877-1930</unitdate>
+        </did><odd>
+          <p>. 10 originelen aan diversen.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>63-64</unitid>
+          <unittitle>Documenten betreffende Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+        </did>
+        <odd>
+          <p>. Varia, incl. graf op de Algemene Begraafplaats, Kerkhoflaan, Den Haag.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637715" type="ABS">63</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/04fd4e38-f066-44c0-ac8e-4751f0821b61</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637716" type="ABS">64</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/49200572-cebc-4a4d-889b-92d69bbc3a2c</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637717" type="ABS">65</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9b22f48-dacd-46d3-beb9-2329b02f48da</unitid>
+          <unittitle>Brieven van:</unittitle>
+        </did><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Brieven van Ida Anna Jenneke Heijning - Voigt, 21-3-1881, Haarlem.<unitdate calendar="gregorian" era="ce" normal="1903/1947">1903, 1945-1947</unitdate>
+            </unittitle>
+          </did>
+        </c02><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Ir. Geldolph Adriaan Heijning, 10-7-1883, Buitenzorg.<unitdate calendar="gregorian" era="ce" normal="1903/1905">1903-1905</unitdate>
+            </unittitle>
+          </did>
+        </c02><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Mr. Johannes Cornelis Heijning, 12-12-1884, Buitenzorg.<unitdate calendar="gregorian" era="ce" normal="1912/1947">1912-1947</unitdate>
+            </unittitle>
+          </did>
+        </c02><c02 level="otherlevel" otherlevel="subfile">
+          <did>
+            <unitid>-</unitid>
+            <unittitle>Margaretha Eugenia Heijning - Fransen van de Putte, 15-6-1888, Goes.<unitdate calendar="gregorian" era="ce" normal="1945/1947">1945-1947</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>. 25 originelen aan Ir. G.A. en J.K. Heijning - Wilborg, M.J.J. Abendanon - Heijning en C.E. Heijing - de Lange.</p>
+          </odd>
+          <odd>
+            <p>. Afstudeerstellingen.</p>
+          </odd>
+          <odd>
+            <p>. Zuid-Afrikaanse Scheepvaart Mij.</p>
+          </odd>
+          <odd>
+            <p>. Ir. E.C. en M.J.J. Abendanon - Heijning.</p>
+          </odd>
+        </c02></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637718" type="ABS">66</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b096ee62-6733-45de-a61c-c9ec1470bebd</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1858, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1903/1933">1903-1933</unitdate>
+        </did><odd>
+          <p>. 125 originelen aan Margaretha Jacoba J. Abendanon - Heijning.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637719" type="ABS">67</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d37f05b6-7d9b-4b20-86f3-2813a7fe15c4</unitid>
+          <unittitle>Brieven van Margaretha Jacoba Johanna Abendanon - Heijning, 6-7-1886, Buitenzorg.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1894/1938">1894-1938</unitdate>
+        </did><odd>
+          <p>. 90 originelen aan Cornelia E. Heijning - de Lange en Ir. G.A. en J.K. Heijning - Wiborg.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637720" type="ABS">68</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/73d07d7d-0f69-4f47-8f0e-2dd018b6a70f</unitid>
+          <unittitle>Brieven van Prof. Ir. Eduard Cornelius Abendanon, 2-12-1878, Pati (Japara).</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1890/1956">1890-1956</unitdate>
+        </did><odd>
+          <p>. 130 originelen aan grootouders de Lange - Wiggers van Kerchem, Cornelia Elisabeth Heijning - de Lange en familie.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637721" type="ABS">69</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/718cdcc7-8590-40d9-8139-1733bdd04ae3</unitid>
+          <unittitle>Documenten betreffende Prof. Ir. Eduard Cornelius Abendanon, 2-12-1878, Pati (Japara).</unittitle>
+        </did><odd>
+          <p>. Varia, incl. Tampoesoes - Pilaar.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637722" type="ABS">70</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5247468-1b2c-4dec-9332-7669207170de</unitid>
+          <unittitle>Brieven van Cornelis Theodoor Christiaan Heijning, 27-2-1888, Buitenzorg.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1910/1926">1910-1926</unitdate>
+        </did><odd>
+          <p>. 43 originelen aan Cornelia Elisabeth Heijning - de Lange en Maria Hofdijk.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637723" type="ABS">71</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e151e773-7424-4b0e-af1f-386b0f411e6c</unitid>
+          <unittitle>Documenten betreffende Hofdijk / Laatsman fam.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1879/1919">1879-1919</unitdate>
+        </did><odd>
+          <p>. Varia</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637724" type="ABS">72</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d78def9-f080-49c3-84f3-3754d5357edd</unitid>
+          <unittitle>Documenten betreffende Maria Hofdijk, 23-2-1891, Maastricht.</unittitle>
+        </did><odd>
+          <p>. Jeugdherinneringen.</p>
+        </odd><odd>
+          <p>. Erfenis C. Th. Post.</p>
+        </odd><odd>
+          <p>. Brief Maria (dienstbode).</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637725" type="ABS">73</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7479a348-ce28-43f4-b58c-98b630bc79d3</unitid>
+          <unittitle>Brieven van Maria Hofdijk, 23-2-1891, Maastricht.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1917/1932">1917-1932</unitdate>
+        </did><odd>
+          <p>. 56 originelen aan Cornelia Elisabeth Heijning - de Lange.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637726" type="ABS">74</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/616d994a-2233-4dc5-9815-65b09e1594dc</unitid>
+          <unittitle>Brieven van Cornelia Elisabeth Heijning - de Lange, 25-8-1853, Batavia.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1924/1933">1924-1933</unitdate>
+        </did><odd>
+          <p>. 127 originelen aan Maria Heijning - Hofdijk</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637727" type="ABS">75</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3489c005-4d09-4d27-a0a5-56a6966fd653</unitid>
+          <unittitle>Brieven van Maria Heijning - Hofdijk, 23-2-1891, Maastricht.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1919/1932">1919-1932.</unitdate>
+        </did><odd>
+          <p>. 85 originelen aan H.E.L. en E.J. Hofdijk - Laatsman.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637728" type="ABS">76</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/62bb9a5d-f378-4712-863a-ef9be098e051</unitid>
+          <unittitle>Brieven van Hendrik Willem Lambertus Hofdijk, 26-12-1862, Amsterdam en Elisabeth Johanna Hofdijk - Laatsman, 4-11-1867, Maastricht.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1914/1930">1914-1930</unitdate>
+        </did><odd>
+          <p>. 128 originelen aan C. Th. C. en M. Heijning - Hofdijk.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637729" type="ABS">77</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7388fab3-d4bf-463e-a3d7-4d9ccc879f23</unitid>
+          <unittitle>Brieven van Elisabeth Johanna Hofdijk - Laatsman, 4-11-1867, Maastricht.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1877/1944">1877-1944</unitdate>
+        </did><odd>
+          <p>. 28 originelen aan ouders.</p>
+        </odd><odd>
+          <p>. H.W.L. Hofdijk.</p>
+        </odd><odd>
+          <p>. Kinderen bij het overlijden van H.W.L. Hofdijk.</p>
+        </odd><odd>
+          <p>. Oorlogsdagen.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637730" type="ABS">78</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7594af2-4bb8-478d-92b7-6b6367e282ae</unitid>
+          <unittitle>Documenten betreffende Cornelis Theodoor Christiaan en Maria Heijning - Hofdijk.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1917/1983">1917-1983</unitdate>
+        </did><odd>
+          <p>. Familiefeestdagen.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637731" type="ABS">79</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/10cbddce-6e91-4a82-a7bb-d68f3f90ab6f</unitid>
+          <unittitle>Documenten betreffende Cornelis Theodoor Christiaan Heijning, 27-2-1888, Buitenzorg.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1899/1962">1899-1962</unitdate>
+        </did><odd>
+          <p>. Vertrek naar Indië.</p>
+        </odd><odd>
+          <p>. Voetbal.</p>
+        </odd><odd>
+          <p>. Rijkswaterstaat.</p>
+        </odd><odd>
+          <p>. Oorlog.</p>
+        </odd><odd>
+          <p>. Rijks Gebouwen Dienst.</p>
+        </odd><odd>
+          <p>. Ir. D. Rooseurg.</p>
+        </odd></c01>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>80-81</unitid>
+          <unittitle>Documenten betreffende Maria Heijning - Hofdijk, 23-2-1891, Maastricht.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1941/1945">1941-1945</unitdate>
+        </did>
+        <odd>
+          <p>. 5 schriften, oorlogsdagboek + uittreksel ervan, d.d. 1993.</p>
+        </odd>
+        <c02 level="file"><did>
+            <unitid identifier="1637732" type="ABS">80</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c0e453e-20e9-4b2a-9c5d-7239c3d1f707</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+        <c02 level="file"><did>
+            <unitid identifier="1637733" type="ABS">81</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb522a98-898c-4fe5-b306-605ff76287ae</unitid>
+            <unittitle>Niet gespecificeerd</unittitle>
+          </did></c02>
+      </c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637734" type="ABS">82</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c375fe1-024c-4796-a559-187b73a90513</unitid>
+          <unittitle>Documenten betreffende Maria Heijning - Hofdijk, 23-2-1891, Maastricht.</unittitle>
+        </did><odd>
+          <p>. Condoleances bij haar overlijden op 22 juli 1981.</p>
+        </odd></c01>
+      <c01 level="file"><did>
+          <unitid identifier="1637735" type="ABS">83</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98c7b0be-5a93-4def-ad43-d2401cbea8ae</unitid>
+          <unittitle>Documenten betreffende C.Th.C. Heijning, 27-2-1888, Buitenzorg.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1986">1986</unitdate>
+        </did><odd>
+          <p>. Condoleances bij diens overlijden op 5 oktober 1986.</p>
+        </odd></c01>
+    </dsc>
+  </archdesc>
+</ead>

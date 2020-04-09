@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/22493c66-72e3-4c24-b434-f004698852db"
+  rdf:about="record/2.19.262">
+    <rico:identifier>2.19.262</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2015</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I142" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.262/i1" />
+      <rico:instantiates rdf:resource="record/2.19.262" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Nationaal Comité Handhaving
+        Rijkseenheid (NCHR) 1946-1952</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/22493c66-72e3-4c24-b434-f004698852db" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I142">
+    <rico:describedBy rdf:resource="record/2.19.262" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I142</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Stichting Nationaal Comité Handhaving
+      Rijkseenheid</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rijkseenheid</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1946</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1951</rico:endDate>
+    <rico:date>1946-1951</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting Nationaal Comité Handhaving Rijkseenheid,
+            1945-1952</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De oprichtingsvergadering van het Nationaal Comité Handhaving
+          Rijkseenheid (NCHR) vond plaats op 14 december 1946, als uitvloeisel van een
+          radiorede van prof. mr. P.S. Gerbrandy van 2 december 1946 waarin hij stelling
+          nam tegen het in november 1946 geparafeerde akkoord van Lingaddjati tussen de
+          Nederlandse regering en de regering van de Republiek Indonesië. De brede bijval
+          die Gerbrandy’s rede ondervond, leidde tot de oprichting van het Comité. Bij
+          notariële acte van 28 maart 1947 werd daaronder een formele juridische basis
+          gelegd, die het comité de vorm van een stichting gaf. De oprichting daarvan
+          werd verricht door Gerbrandy zelf, oud-minister van Koloniën C.J.I.M. Welter,
+          generaal b.d. H.G. Winkelman en drs. W. Reyseger, handelend voor zichzelf en
+          als gemachtigde van een mej. J.E. van Ravesteyn. De oprichtingsakte formuleerde
+          dat verandering van de grondwettelijke structuur en staatsorde van het
+          Koninkrijk uitsluitend behoorde te geschieden langs de in de grondwet
+          voorgeschreven weg en niet langs wegen waardoor de grondwetgever bij voorbaat
+          gebonden werd. Voor een regeling van de Indische kwestie achtte het Comité
+          daarom de handhaving van de Rijkseenheid een onmisbare voorwaarde. Het Comité
+          zou een algemeen bestuur kennen waaruit een dagelijks bestuur zou kunnen worden
+          gevormd. Dat gebeurde ook dadelijk. Zowel van het algemene als het dagelijkse
+          bestuur werd Gerbrandy voorzitter en Reyseger secretaris. De stichting besloot
+          in januari 1950 in liquidatie te gaan met als liquidateurs Gerbrandy, Welter,
+          J.W. Meyer Ranneft en H.G. Winkelman. In augustus 1952 was de liquidatie
+          voltooid en werd de stichting opgeheven. NL-HaNA 2.21.068 Gerbrandy inv.nr.
+          115.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken over in de organisatie en werkwijze van het
+      Nationaal Comité Handhaving Rijkseenheid, dat zich onder leiding van prof.mr. P.S.
+      Gerbrandy keerde tegen het akkoord van Lingaddjati (november 1946) over de
+      Indonesische onafhankelijkheidskwestie.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>25 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

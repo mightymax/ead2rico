@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/b67ce20a-046b-4060-ab9b-6bb0783a0ed1"
+  rdf:about="record/2.13.86">
+    <rico:identifier>2.13.86</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1999</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/D27515" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.13.86/i1" />
+      <rico:instantiates rdf:resource="record/2.13.86" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20071207</rico:hasModificationDate>
+        <html:p>7 december 2007</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090623</rico:hasModificationDate>
+        <html:p>23 juni 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Artillerie-Inrichtingen,
+        1813-1941 (1942-1972)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/b67ce20a-046b-4060-ab9b-6bb0783a0ed1" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Het archief bevat enkele foto's.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/D27515">
+    <rico:describedBy rdf:resource="record/2.13.86" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>D27515</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Defensie:
+      Artillerie-Inrichtingen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Artillerie-Inrichtingen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1813</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1972</rico:endDate>
+    <rico:date>1813-1972</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Artillerie Stapel- en Constructiemagazijnen, 1813-1886 Directie
+            der Artillerie Stapel- en Constructiewerkplaatsen / Pyrotechnische
+            werkplaatsen, 1818-1860 Pyrotechnische School / Pyrotechnische werkplaatsen,
+            1860-1886 Geweerwinkel te Delft Geweermakers WerkplaatsenInspectie der
+            Draagbare Wapenen, 1852-1887 Werkplaats der Draagbare WapenenGeschutgieterij,
+            1824-1886 Wapenkeuringscommissie te Luik, 1816-1856 Artillerie Stapel- en
+            Constructiemagazijnen te Antwerpen, 1817-1830 Wapenkeuringscommissie Suhl en
+            Solingen, Eberfeld, 1833-1841 Wapenkeuringscommissie te Maastricht,
+            Vuurwerkerij, 1846-1860 Inspectie der buskruitfabricage, 1846-1887
+            IJzergieterij, 1841-1889 Artillerie-Inrichtingen, 1887-1912 Staatsbedrijf der
+            Artillerie-Inrichtingen, 1912-1942 MunitiebureauCentraal Orgaan voor de
+            voorziening in de behoeften van de Weermacht (COW)Commissaris voor de
+            behartiging van de belangen van de voormalige Nederlandse Weermacht /
+            Afdeling E, 1943 Commissaris voor de behartiging van de belangen van de
+            voormalige Nederlandse Weermacht / Afdeling B5, 1943 Ministerie van Oorlog /
+            Afdeling B5: Afwikkeling Staatsbedrijf der Artillerie-Inrichtingen, 1948-1952
+            N.V. Nederlandse Machinefabriek Artillerie-Inrichtingen, 1941-1966 Commissie
+            voor de bezoldiging en titulatuur van de burgerlijke ambtenaren bij de
+            Centrale Magazijnen en bij 's Rijks Magazijn van GeneesmiddelenWeijnman,
+            J.F.Boer, dr. J.H. de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Artillerie-Inrichtingen en voorgangers te Delft, 's-Gravenhage en
+      Hembrug bij Zaandam waren werkplaatsen waar militair materieel werd geproduceerd
+      ten behoeve van de Nederlandse strijdmacht. Naast algemene stukken van de directies
+      van deze instellingen (vooral correspondentie) bevat dit archief stamboeken van
+      militair en burgerlijk personeel alsmede stukken over technische ontwikkelingen in
+      binnen- en buitenland alsmede over de productie van munitie, geschut, vuur-, slag-
+      en steekwapens, gereedschap, paardentuig en voertuigen (o.m. de spreekwoordelijke
+      "dienstfiets") en de beproeving van buitenlandse wapens en pantserstaal.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>121.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2240 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

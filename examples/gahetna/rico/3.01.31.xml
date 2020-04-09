@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/78b381a6-de4a-4766-b659-2ac36fbe6ad2"
+  rdf:about="record/3.01.31">
+    <rico:identifier>3.01.31</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1924</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3553" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.01.31/i1" />
+      <rico:instantiates rdf:resource="record/3.01.31" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Houtvesterij van Holland en
+        West-Friesland</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/78b381a6-de4a-4766-b659-2ac36fbe6ad2" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3553">
+    <rico:describedBy rdf:resource="record/3.01.31" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3553</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Houtvesterij van Holland en West-Friesland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Houtvesterij Holland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1353</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1794</rico:endDate>
+    <rico:date>1353-1794</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Houtvesterij van Holland en West-Friesland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het college van houtvester en meesterknapen van Holland en
+          West-Friesland was belast met de rechtspraak over alle jachtzaken en met het
+          verleenen van jachtvergunningen. Wanneer het is opgericht is niet uit te maken;
+          de oudste bewaard gebleven rol, die in het jaar 1565 aanvangt, is zeker niet de
+          eerste geweest. De namen houtvester en meesterknaap kom men reeds heel vroeg
+          voor; in een charter dd. 1314 Juli 5 spreekt graaf Willem van zijn houtvesters
+          in den houte van Haarlem Van Mieris: Charterboek van Holland II, blz.143, en in
+          een charter dd. 1404 Juli 24 is ons de oudste aanstelling Van Mieris;
+          Charterboek van Holland III, blz. 792. van een knape in de wildernis bewaard
+          gebleven. Behalve de houtvester van het Haarlemmerhout worden nog vermeld die
+          van het Haagsche Bosch, en van het Rijgersbosch, in Bindelmerbroek J.Rendorp;
+          Verhandeling over het recht van de jacht 1777, blz.47. . Deze afzonderlijke
+          houtvesterijen werden later tot één houtvesterij vereenigd, en langzamerhand is
+          daaruit het zuiver rechterlijk college ontstaan, zooals dat bekend is uit het
+          plakkaat-generaal Meruka; "Plakkaten en Ordonnantien van de houtvesterie 1605,
+          blz.56. van de houtvesterij dd. 1517 December 26. Dit college bestond uit een
+          luitenant-houtvester, gewoonlijk alleen houtvester genoemd Waar in onderstaande
+          stukken gesproken wordt van den houtvester is dus eigenlijk de
+          luitenant-houtvester bedoeld. , die als aanklager optrad en drie meesterknapen
+          die het vonnis wezen, en wier aantal eerst tot vier en in het jaar 1716 tot
+          acht werd uitgebreid, toen er vier afgevaardigden van de steden bij kwamen.
+          Blijkens de laatste rol loopende over de jaren 1786 tot 1793 waren er ook toen
+          nog acht meesterknapen. Aan het college waren een secretaris en in later tijd
+          ook nog een advocaat verbonden. De luitenant-houtvester werd verder bijgestaan
+          door substituut-houtvesters, waarvoor in den regel de baljuwen en schouten
+          gekozen werden, en eenaantal ondergeschikte personen,dienaars van de wildernis
+          en duinmeijes genoemd. Behalve het vervolgen der jachtdelicten had de
+          luitenant-houtvester de zorg voor de helmplanting en toezicht op het z.g.
+          blokken of poten van honden Men moest de honden een blok om den hals binden of
+          een voorpoot afhakken. ; dit laatste werd hem opgedragen bij Art.8 van de
+          eerste renovatie Merula; als voren, blz. 65. dd. 1524 Maart 27, van het
+          bovengenoemd plakkaat-generaal op de houtvesterij dd. 1517 December 26. Wat
+          betreft de helmplanting, het toezicht hierop in de streek tusschen Maas en
+          Zijpe werd den luitenant-houtvester bij het plakkaat Merula; als voren, blz.
+          196. dd. 1510 Maart 14 opgedragen, doch spoedig bleek het gebied, waarover zijn
+          zorg zich moest uitstrekken te groot voor één persoon en werd dit over
+          meerderen verdeeld. Bij een keur dd. 1515 October 31 van "den superintendent
+          van de reparaties en onderhoudingen van dijcken en duijnen des lants van
+          Holland en West-Friesland" werden de hoogheemraden van Delfland belast met het
+          Toezicht op de helmplanting in Delfland. Die van Rijnland oefenden in hun
+          gebied ditzelfde toezicht uit. Uit een ordonnantie Merula; als voren, blz. 198.
+          5) Merula; als voren, blz. 207. van het Hof van Holland dd. 11 December 1526
+          blijkt, dat de dorpen on der de duinen gelegen, behalve hun aandeel in de
+          kosten omgeslagen over het gemeeneland van Rijnland bovendien elk nog een
+          bepaald aantal morgen duingrond hadden te beplanten. Dit waren de dorpen
+          Wassenaar, Berkerheide, Katwijk aan den Rijn met Valkenburg, Katwijk aan zee,
+          Noordwijk, Noordwijkerhout, Langeveld, Heemstede, Hillegom, Lisse en Voorhout.
+          Over deze helmplanting was het, dat de luitenant-houtvester het toezicht bleef
+          behouden en de boeten uit verzuim daarvan voortspruitende werden door hem
+          ontvangen. Boven den luitenant-houtvester stond de opperhoutvester van Holland
+          en West-Friesland, welk ambt geworden is tot een eere-ambt, bijna onafgebroken
+          verbonden aan dat van stadhouder van Holland en West-Friesland. Reeds in de
+          ordonnantie Merula; als voren, blz. 3. dd, 1477 September 20 werd door
+          Maximiliaan en Maria bepaald, dat voortaan de stadhouder van Holland tevens
+          opperhoutvester zou zijn (zie Inv. no.89). Zoo werden de prinsen van Oranje als
+          stadhouders van Holland steeds den titel van opperhoutvester. Prins Willem I
+          kreeg in het jaar 1560 reeds het ambt van opperhoutvester, verloor dit tijdens
+          de troebelen en kreeg het in 1572 bij zijn benoeming tot stadhouder weer
+          terug.</html:p>
+          <html:p>Van vonnissen van houtvester en meesterknapen in zaken beneden de 100
+          gulden was geen appel maar slechts reformatie mogelijk, blijkens het plakkaat
+          Groot Plakkaatb. Dl. I, 1421. der Staten van Holland dd. 1621 Juni 25; van
+          vonnissen boven de 100 gulden was appel mogelijk op het Hof van Holland en
+          vandaar op den Hoogen Raad. Gedurende de jaren 1661 tot 1674 berustte dit appel
+          niet bij het Hof van Holland maar bij het leenhof van Holland en West-Friesland
+          blijkens de instructie Als voren: Dl. II, 2645. voor dat leenhof dd. 1661 April
+          7; bij de opheffing van het leenhof in het jaar 1674 kwam het appel echter weer
+          aan het Hof van Holland. Dit bleef zoo tot de afschaffing van het college der
+          houtvesterij in het jaar 1795. Bij decreet der provisioneele representanten van
+          het volk van Holland dd. 1795 Juli 28 waarbij alle jachtrechten werden
+          afgeschaft, werd tevens bepaald, dat alle jachtgerechten, d.w.z. de
+          houtvesterij van Holland, die van Brederode, van Gooiland, Voorne, Putten,
+          Vianen, Ysselstein en Leerdam zouden worden opgeheven en dat de geschillen in
+          zake de jacht voortaan door den gewonen rechter, d.w.z door schout en schepenen
+          zouden worden behandeld, met appel op het Hof van Holland.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Houtvesterij van Holland en West-Friesland was belast met de rechtspraak
+      over alle jachtzaken en met het verlenen van jachtvergunningen. Het archief bevat
+      stukken betreffende jachtvergunningen en financiële zaken, verder o.a. stukken
+      afkomstig van en requesten aan de Opperhoutvester (de prins van Oranje).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>9.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>216 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

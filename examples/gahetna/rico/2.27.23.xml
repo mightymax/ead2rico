@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/3ec203df-81cf-4f68-a531-53881bb95624"
+  rdf:about="record/2.27.23">
+    <rico:identifier>2.27.23</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2009</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/X15" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.27.23/i1" />
+      <rico:instantiates rdf:resource="record/2.27.23" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121122</rico:hasModificationDate>
+        <html:p>22 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100104</rico:hasModificationDate>
+        <html:p>4 januari 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van
+        Volksgezondheid, Welzijn en Sport en taakvoorgangers: Directie Verzetsdeelnemers,
+        Vervolgden en Burgeroorlogsgetroffenen, 1946-1999</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/3ec203df-81cf-4f68-a531-53881bb95624" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/X15">
+    <rico:describedBy rdf:resource="record/2.27.23" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>X15</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Volksgezondheid, Welzijn en Sport: Directie
+      Verzetsdeelnemers, Vervolgden en Burgeroorlogsgetroffenen
+      (DVVB)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>VWS: Verzetsdeelnemers</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1946</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1999</rico:endDate>
+    <rico:date>1946-1999</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Volksgezondheid, Welzijn en Sport en
+            taakvoorgangers</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Deze inventaris bestaat uit stukken uit het archief van de Directie
+          Verzetsdeelnemers, Vervolgden en Burgeroorlogsgetroffenen (1989-2004, DVVB) en
+          diens voorgangers: de Onderafdeling Oorlogsslachtoffers en andere Groepen
+          (1956-1965), Onderafdeling Verzetsslachtoffers en Algemene Zaken (1956-1968),
+          Afdeling Bijstand Bijzondere Groepen (1965-1973), Hoofdafdeling Bijzondere
+          Voorzieningen (1965-1973), Afdeling Buitengewone Pensioenen en Algemene
+          Oorlogsongevallenregeling (1968-1973), Directie Bijstandszaken (1965-1984),
+          Hoofdafdeling Verzetsdeel-nemers en Vervolgden (1973-1979) en ten slotte de
+          Directie Verzetsdeelnemers en Vervolgden (1979-1989, DVV). De taken van DVVB
+          werden in 2004 overgenomen door de Eenheid Oorlogsgetroffenen Herdenking WO II
+          (OHW).</html:p>
+          <html:p>De taken van de Directie Verzetsdeelnemers, Vervolgden en
+          Burgeroorlogsgetroffenen en diens voorgangers waren het opstellen van wet- en
+          regelgeving op het terrein van oorlogsgetroffenen: het voeren van beleid ten
+          aanzien van externe instanties die zich met de toepassing en de uitvoering van
+          de wetten en regelingen bezighouden, inclusief de financiering van zowel de
+          organisaties als de wetten, het zorg dragen voor de immateriële hulpverlening
+          aan oorlogsgetroffenen en het voeren van het beleid inzake de jeugdvoorlichting
+          Wereldoorlog II - heden en de oorlogs- en verzetsmusea en
+          herinneringscentra.</html:p>
+          <html:p>In 1947 werd onder verantwoordelijkheid van de Minister van
+          Binnenlandse Zaken de Wet Buitengewoon Pensioen (Stb. 1947, H313, WBP)
+          vastgesteld. Men kon aanspraak maken op de Wet Buitengewoon Pensioen als men
+          tijdens de bezetting deel had genomen aan het binnenlands verzet. Het toekennen
+          van een recht op pensioen werd gezien als het inlossen van een ereschuld voor
+          hen, die "bereid waren met inzet van hun gehele persoon, met opoffering van hun
+          gezondheid en zelfs hun leven, aan dit verzet deel te nemen." (Memorie van
+          Toelichting).</html:p>
+          <html:p>Snel na de inwerkingtreding van de Wet bleek er de behoefte te bestaan
+          aan een anti-hardheidsregeling zodat bovendien degenen die in het buitenland
+          verzet hadden gepleegd, degenen die door een vooroorlogse activiteit tijdens de
+          bezetting waren gearresteerd en degenen, die slachtoffer van
+          represaillemaatregelen waren geworden, in aanmerking konden komen van een
+          pensioen berekend op de voet van de Wet Buitengewoon Pensioen. In 1952 werd
+          door de Minister van Binnenlandse Zaken in deze leemte voorzien door het
+          opstellen van de Beschikking van 24 januari 1952 waarbij aan personen die "ten
+          gevolge van maatregelen, die de vijand in verband met het verzet tegen hen
+          heeft genomen, invalide zijn geworden dan wel het leven hebben verloren" een
+          uitkering van het Rijk wordt toegekend, berekend op voet van de Wet
+          buitengewoon pensioen. Bij dezelfde Beschikking werd de Commissie van Advies
+          inzake hulpverlening op de voet van de Wet Buitengewoon Pensioen 1940-1945
+          ingesteld, in de wandelgang "Adviescommissie Bijzondere Uitkeringen" genoemd,
+          die de Minister van advies moest dienen over de vraag welke personen voor een
+          uitkering in aanmerking kwamen en over het bedrag wat aan die personen moest
+          worden uitgekeerd.</html:p>
+          <html:p>De Beschikking werd per 1 januari 1978 ingetrokken, toen bij
+          wetswijziging van 18 mei 1977, Stb. 394 een algemene maatregel van bestuur werd
+          aangekondigd waarin categorieën van personen zouden worden aangewezen, op wie
+          de wet van overeenkomstige toepassing zou zijn.</html:p>
+          <html:p>In augustus 1986 trad de Wet Buitengewoon Pensioen Indisch Verzet (Stb.
+          1986, 360, WIV) in werking. Deze wet regelde de toekenning van een buitengewoon
+          pensioen aan mensen die invalide zijn geworden als gevolg aan het deelnemen van
+          verzet in het voormalige Nederlands-Indië tegen de vijandelijke bezettende
+          macht. Nabestaanden van de ver-zetsdeelnemers konden eveneens aanspraak op deze
+          wet doen. De Wet Buitengewoon Pensioen Indisch Verzet komt in grote mate
+          overeen met de andere buitengewone pensioenwet.</html:p>
+          <html:p>De Regeling "nopens de geldelijke verzorging der oorlogsslachtoffers"
+          van 1944 gold voor die slachtoffers van het oorlogsgeweld tegenover wie de
+          overheid een bijzondere solidariteitsplicht voelde. In 1950 werd de Regeling,
+          die tijdelijk was, omgezet in de Regeling hulpverlening oorlogsslachtoffers
+          1940-1945 en in januari 1961 werd deze regeling vervangen door de
+          Rijksgroepsregeling Oorlogsslachtoffers 1940-1945 (Stb. 1960, 226).</html:p>
+          <html:p>Bij de totstandkoming van de Algemene Bijstandswet, waarin eveneens de
+          solidariteit als uitgangspunt voor de rechtsplicht van de overheid tot het
+          verlenen van bijstand aan hulpbehoevende burgers was genomen, werd de
+          hulpverlening aan oorlogsslachtoffers in het bijstandsrecht ingebracht als
+          Rijksgroepsregeling. Deze Rijksgroepsregeling oorlogsslachtoffers 1940-1945
+          (Stb. 1964, 549) ontsproot uit artikel 11, lid twee van de Algemene
+          Bijstandswet. Bij Rijksgroepsregelingen vindt de bijstandsverlening niet plaats
+          op individuele basis maar volgens categorale normen. Een nieuw element was dat
+          de regeling tevens van toepassing werd verklaard op de slachtoffers van de
+          oorlog in het voormalige Nederlands-Indië en op de slachtoffers van de
+          naoorlogse periode aldaar tot eind 1949. Toch bleef de overheid de bijzondere
+          positie van de oorlogsslachtoffers erkennen: de aanspraken van de
+          oorlogsslachtoffers werden ruimer geregeld dan die van een
+          bijstandsgerechtigde. In 1973 werd de Wet uitkeringen vervolgingsslachtoffers
+          1940-1945 van kracht (Stb. 1972, 669). De uitvoering zou voortaan in plaats van
+          door de gemeenten van Rijkswege geschieden. Het karakter van de Wet uitkeringen
+          vervolgingsslachtoffers is dat van een verzorgingsregeling met als doel een
+          redelijke handhaving c.q. herstel van het levenspeil.</html:p>
+          <html:p>Nadat er voor de groep vervolgingsslachtoffers een aparte wetgeving was
+          ontwikkeld, gingen er uit de groep burger-oorlogsslachtoffers stemmen op om ook
+          voor hen een afzonderlijke wetgeving te creëren, los van de Algemene
+          Bijstandswet.</html:p>
+          <html:p>Tot dan toe ontvingen zij een uitkering op basis van de
+          Rijksgroepsregeling Oorlogsslachtoffers 1940-1945. In 1984 werd de wettelijke
+          regeling voor Burgeroorlogsslachtoffers de Wet Uitkeringen
+          burgeroorlogsslachtoffers 1940-1945 van kracht (Stb. 1984, 94, WUBO). De
+          Rijksgroepsregeling Oorlogsslachtoffers 1940-1945 en de daarbij behorende
+          regelingen werden ingetrokken. Evenals de Wet Uitkeringen
+          Vervolgingsslachtoffers (WUV) is de Wet Uitkeringen Burgeroorlogsslachtoffers
+          gebaseerd op een verzorgingsgedachte. In tegenstelling tot de buitengewone
+          pensioenen heeft men recht op een uitkering. Er is bovendien recht op een
+          vergoeding voor medisch en medisch-sociale kosten.</html:p>
+          <html:p>In Nederlands-Indië had men al voor de Japanse bezetting een algemene
+          regeling voor oorlogsslachtoffers getroffen. Bij ordonnantie op 21 februari
+          1942 werd deze Algemene Oorlogsongevallenregeling (AOR) afgekondigd. In
+          beginsel kon ieder die door oorlogsletsel was getroffen evenals diens
+          nabestaanden aanspraak maken op uitkering. De Algemene
+          Oorlogsongevallenregeling beoogde een verzorgingsregeling te zijn. Na de
+          Japanse capitulatie is de regeling uitgebreid in die zin dat onder
+          oorlogsletsel tevens werd begrepen het geestelijk dan wel lichamelijk letsel,
+          opgelopen tijdens internering, gevangenschap of gedwongen tewerkstelling. Bij
+          een aparte ordonnantie werd eveneens het zogenaamde terreurletsel, opgelopen
+          tijdens de ongeregeldheden na de Japanse capitulatie, onder de Algemene
+          Oorlogsongevallenregeling gebracht.</html:p>
+          <html:p>Sinds 1990 is de Pensioen- en Uitkeringsraad (PUR) de enige organisatie
+          die van overheidswege belast is met de toepassing en de uitvoering van de
+          wetten voor Oorlogsgetroffenen: de Wet Buitengewoon Pensioen 1940–1945 (1947),
+          de Wet Buitengewoon Pensioen Indisch verzet (1986), de Wet Uitkeringen
+          Vervolgingsslachtoffers 1940–1945 (1973) en de Wet Uitkeringen
+          Burger-oorlogsslachtoffers 1940–1945 (1984).</html:p>
+          <html:p>Bij de uitvoering van bovengenoemde wetten zijn ook
+          (belangen)organisaties betrokken die daartoe door de overheid zijn aangewezen,
+          zoals Stichting 1940–1945, Stichting Pelita, Stichting Joods Maatschappelijk
+          werk en de Stichting Burgeroorlogsgetroffenen (SBO). Deze Stichtingen nemen
+          direct contact op met de aanvragers en verzorgen het merendeel van de sociale
+          rapportages. Na 1990 kan gesproken worden van een groeiend aantal personen dat
+          een beroep op een van de wetten (WBP, WUV, WUBO en WIV) voor Oorlogsgetroffenen
+          doet. Dit heeft enerzijds te maken met het gegeven dat velen die als
+          jongvolwassene de oorlog hebben meegemaakt de pensioengerechtigde leeftijd
+          bereikten en toen pas geconfronteerd werden met hun oorlogsverleden. Anderzijds
+          nam het aantal aanvragen ook toe omdat de voorlichting via de PUR verbeterde en
+          de overheid wetenschappelijk onderzoek naar bepaalde groepen
+          oorlogsgetroffenen, waar weinig over bekend was, liet uitvoeren. Een
+          belangrijke rol bij het informeren van de oorlogsgetroffenen over de bestaande
+          wetten heeft naast de PUR ook de in 1980 opgerichte Stichting Informatie- en
+          Coördina-tieorgaan Dienstverlening Oorlogsgetroffenen (ICODO) gespeeld door het
+          verzorgen van publicaties, het uitgeven van het tijdschrift ICODO INFO (1983)
+          en de juridische uitgave Oorlogsgetroffenen en Recht (vanaf 1991). Het beleid
+          ten aanzien van de WUBO werd in de onderhavige periode verruimd. Steeds meer
+          groepen oorlogsgetroffenen werden na juridische aanpassingen van de wet onder
+          de WUBO gebracht. Genoemd kunnen worden de verruiming voor Nederlandse
+          ex-dwang-arbeiders die door de Duitse bezetter gedwongen werden om in Duitsland
+          te gaan werken en voor Nederlanders die in Indië de bersiap- en revolutietijd
+          hebben meegemaakt.</html:p>
+          <html:p>De WUV werd daarentegen na jarenlange discussies in 1994 gesloten voor
+          de tweede generatie, dat wil zeggen dat aanvragers die tot de tweede generatie
+          behoorden niet langer als vervolgde werden aangemerkt en alleen aanspraak
+          konden maken op immateriële hulpverlening. Een andere ontwikkeling betreft het
+          instellen van overheidswege van verschillende commissies eind jaren negentig
+          voor het doen van onderzoek naar de Tegoeden Tweede Wereldoorlog.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat dossiers in verband met aanvragen van uitkeringen door
+      verzetslieden en oorlogsslachtoffers, overleg met stichtingen en organisaties op
+      het terrein van oorlogsgetroffenen, de uitvoering van regelingen en het vaststellen
+      van beleid en wetgeving.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens auteursrecht</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>88.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>392 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

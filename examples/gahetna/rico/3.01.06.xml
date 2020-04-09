@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/bee193bf-6683-4cce-af6a-4959d2c8fdd7"
+  rdf:about="record/3.01.06">
+    <rico:identifier>3.01.06</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1982</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3518" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.01.06/i1" />
+      <rico:instantiates rdf:resource="record/3.01.06" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20150320</rico:hasModificationDate>
+        <html:p>20 nrt 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140210</rico:hasModificationDate>
+        <html:p>10 februari 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131120</rico:hasModificationDate>
+        <html:p>20 november 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130517</rico:hasModificationDate>
+        <html:p>17 mei 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20081006</rico:hasModificationDate>
+        <html:p>6 oktober 2008</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Ridderschap en Edelen van
+        Holland en West-Friesland, 1572-1795</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/bee193bf-6683-4cce-af6a-4959d2c8fdd7" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Geschreven en gedrukte documenten. Kennis van het 16e en 17e eeuwse
+        handschrift is noodzakelijk. Het archief bevat een aantal kaarten en
+        tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3518">
+    <rico:describedBy rdf:resource="record/3.01.06" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3518</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ridderschap van Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Ridderschap Holland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1572</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1795</rico:endDate>
+    <rico:date>1572-1795</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commissie belast met de Liquidatie van de Ridderschap en Edelen
+            van Holland en West-Friesland 1795-1811</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p />
+          <html:p>De geschiedenis Met dank aan prof. dr. J.J. Woltjer en H.J.Ph.G. Kaajan
+          voor hun opmerkingen en suggesties, voorts de heren P.J.M. de Baar en J.C. Kort
+          voor hun kritische toets van de voorlopige, in 1982 in beperkte oplage
+          gepubliceerde inventaris van dit archief. H.M. Brokken van het College van de
+          Ridderschap Na de Opstand luidde de officiële naam het "College van de
+          Ridderschap en de Edelen van de Staten van Holland en West-Friesland". als
+          eerste lid van de Staten van Holland, doorgaans kortweg de Ridderschap genoemd,
+          is tot op heden nog ongeschreven. Al ontbreekt dan een monografie over de
+          plaats en samenstelling van dit college in het Hollandse Statenbestel, recente
+          studies hebben echter meer licht geworpen op de oorsprong, plaats en functie
+          van de Ridderschap - en in bredere zin de adel - in de politiek-bestuurlijke
+          constellatie van het graafschap, later het gewest Holland Te noemen zijn, in
+          min of meer chronologische volgorde, de studies van J. Aalbers, J.M. van
+          Winter, H.M. Brokken, H.F.K. van Nierop, J.W. Koopmans, A.J.C.M. Gabriëls en H.
+          Kokken. Recentelijk zag ook het eerste deel van de voor dit onderwerp
+          belangrijke bronnenpublikatie van W. Prevenier en J.G. Smit, Bronnen voor de
+          geschiedenis der dagvaarten van de Staten en steden van Holland vóór 1554, het
+          licht. Voor de volledige titels zij verwezen naar de literatuurlijst aan het
+          slot van deze inleiding. . Voor goed begrip dienen daarom eerst enige woorden
+          te worden gewijd aan de adel in Holland in de middeleeuwen en de opkomst van de
+          ridderschap als stand.</html:p>
+          <html:p>We behoeven daartoe niet te treden in de discussie over de herkomst van
+          de middeleeuwse adel als afstammelingen van de oeradel (nobilitas, nobiles) dan
+          wel van een ambtsadel die door middel van delegatie van bevoegdheden van
+          bovenaf door de vorst zou zijn gecreëerd Cf. Van Winter, Adel en aristocratie
+          in de Middeleeuwen, i.h.b. 361-362. . In dit kader is relevant te constateren -
+          en wij baseren ons hier op de theorieën van J.M. van Winter Respectievelijk
+          neergelegd in haar artikelen:(1) De middeldeleeuwse ridderschap als "classe
+          sociale";(2) Adel en aristocratie in de Middeleeuwen;(3) Adel, ministerialiteit
+          en ridderschap 11de-14de eeuw;(4) Aristocratisering in middeleeuws Nederland. -
+          dat zich in het aristocratiseringsproces sedert de elfde eeuw een tweeledige
+          ontwikkeling heeft voorgedaan. Naast de adel als stand en juridisch
+          bevoorrechte groep tegenover de niet-edele vrijen en onvrijen, is in Nederland
+          uit de stand van ministerialen en dienstlieden, de onvrijen dus, de ridderschap
+          voortgekomen, "die in de twaalfde eeuw nog louter een beroepsgroep van
+          krijgslieden vormde maar met een groeiend prestige" Van Winter,
+          Aristocratisering, 18-19. .</html:p>
+          <html:p>Dit groeiend sociaal prestige maakte het ook voor vrijen en edelen
+          aantrekkelijk de riddertitel te voeren, waardoor er in de dertiende eeuw zich
+          een nieuw soort ridderschap vormde die zich gedroeg als echte aristocratie, dat
+          wil zeggen als maatschappelijke bovenlaag. Deze bovenlaag bestond uit drie
+          standen, te weten de stand van ministerialen, de stand van niet-edele vrijen en
+          de stand van edelen. De drie standen waren sociaal niet homogeen. Door hun
+          functie in de maatschappij en door schildboortigheid (dat wil zeggen het
+          behoren tot een familie van ridders en knapen) vond er echter in de ridderschap
+          een soort samensmelting plaats. Maar het onderscheid bleef, al vervaagden door
+          het voeren van de riddertitel allengs de contouren tussen de standen. De adel
+          was een rechtsstand die haar bevoorrechte positie dankte aan geboorte en
+          afkomst in samenhang met juridische, economische en militaire macht. Anderzijds
+          was er mobiliteit van onderaf door verwerving van de adellijke titel, in
+          Holland door verheffing door de graaf of door het kopen van een adelsbrief. Het
+          aanvankelijk onderscheid tussen de adel als stand en de ridderschap als klasse
+          boette aan scherpte in. Adel en ridderschap vloeiden allengs ineen, al bleven
+          voor de adel geboorte en afkomst en in mindere mate de levenswijze een
+          belangrijke rol spelen.</html:p>
+          <html:p>De tweede fase in het zoëven genoemde aristocratiseringsproces laat
+          zich in Holland en Zeeland duidelijker markeren. In de vijftiger jaren van de
+          veertiende eeuw ging graaf Willem V over tot de creatie van baanderheren, nadat
+          een eerdere aanzet daartoe van graaf Willem IV in 1340-1341 was verzand
+          Brokken, De creatie van baanderheren, passim; idem, Het ontstaan, 120-121; Van
+          Winter, Adel, ministerialiteit en ridderschap, 143. . Graaf Willem V verleende
+          aan enkele vooraanstaande en veelal ook meest vermogende edelen de titel van
+          baanderheer. Hierdoor kwam de adel c.q. de ridderschap uit drie geledingen te
+          bestaan: de baanderheren (barones), de ridders (milites) en knapen (armigeri).
+          In feite betekende dit een afsluiting van de ridderschap naar onderen, door Van
+          Winter als "de verstarring van een oorspronkelijk open aristocratische klasse
+          tot een nieuwe gesloten adelstand" gekarakteriseerd Van Winter,
+          Aristocratisering, 20. . Daarnaast raakte in Holland in de loop van de
+          veertiende eeuw voor de edelen de term "welgeborenen" in zwang, geen
+          afstammelingen van de prefeodale adel zoals Gosses meende, maar behorend tot
+          een familie van ridders en knapen en soms als boerse edelen voortlevend Van
+          Winter, Adel en aristocratie, 361; idem, Adel, ministerialiteit en ridderschap,
+          136 en 139-142; idem, Aristocratisering, 28-29. . Ze werden als leden van de
+          adelstand beschouwd, maar treden sedert het midden van de veertiende eeuw als
+          standsgroepering nauwelijks naar voren. Een nader onderzoek zal aan het licht
+          moeten brengen waar "die waelgeboren luyden" zich in de late middeleeuwen in
+          Holland onderscheidden van de "ridderscip" Zie bijvoorbeeld Prevenier-Smit,
+          Bronnen voor de geschiedenis der dagvaarten,I, nr. 1014: "... dat hij die
+          wailgeboren luyden van Rijnlant dagen soude bij minen here te comen, ende an
+          allen den ridderscip in Rijnlant roerende..." [1423 mei 4-7]. Zie verder het
+          lemma "welgeborenen" bij Prevenier-Smit, I, eerste stuk, 286. .</html:p>
+          <html:p>Deze tweede fase in de ontwikkeling van adel en ridderschap is nauw
+          verweven met de opkomst van de standenvertegenwoordiging in Holland en Zeeland.
+          De graaf was gewoon te regeren met zijn grafelijke raad, het commune consilium,
+          bij welk overleg incidenteel afgevaardigden van (de) steden werden betrokken.
+          Na het vertrek van keizerin Margareta werden bij het aantreden van Willem de
+          Verbeider in het najaar van 1346 in Holland betrok de grafelijke raad
+          vervolgens regelmatig stedelijke vertegenwoordigers bij het overleg Brokken,
+          Het ontstaan, 137 e.v. . Het uitbreken van de partijstrijd tussen Kabeljauwen
+          en Hoeken in 1350 heeft op de evolutie van de representatieve organen in
+          Holland en Zeeland zonder twijfel een katalytisch effect gehad Brokken, Het
+          ontstaan, 143-159. Van Winter, Aristocratisering, 30 uit hierover haar scepsis,
+          zonder evenwel op bronnenmateriaal gebaseerde tegenargumenten aan te dragen.
+          Zie overigens voor de door haar eveneens in twijfel getrokken termen van partij
+          en factie het recent verschenen artikel van A.J. Brand, Twistende Leidenaars. .
+          In de jaren 1352-1353 begonnen de grafelijke raad en de afgevaardigden van (de)
+          steden - als de raad van steden - elkaar op dagvaarten (vergaderingen) te
+          ontmoeten, waar onder leiding van de landsheer 's lands bestuurszaken werden
+          behartigd. De grafelijke raad versmalde in samenstelling tot overwegend leden
+          van de adel, in de bronnen nu en en dan aangeduid met de militia of het
+          consilium dominorum. Door het overwicht van de militia in de grafelijke raad
+          kon vervolgens dit hoogste orgaan als instrument dienen voor de ridderschap als
+          stand Brokken, Het ontstaan, 157-158. . De term ridderschap werd toen nog
+          slechts incidenteel gebruikt als aanduiding voor de adel als collectief. Pas
+          tijdens het tweede decennium van de vijftiende eeuw kwam de term ridderschap in
+          zwang als verzamelnaam voor de baanderheren, ridders en knapen Hardenberg, Het
+          ontstaan van de Staten van Holland, 115. . De eerste omschrijving van de
+          ridderschap als zodanig treffen we aan bij de regeling van de erfopvolging van
+          graaf Willem VI in augustus 1416 Prevenier-Smit, Bronnen voor de geschiedenis
+          der dagvaarten, I, 487. . Het is echter een vermelding in een verhalende bron.
+          Oorkondelijk treedt "de ridderscap van Hollant ende van Zeelant" voor de eerste
+          maal naar voren bij de Zoen van Woudrichem van 13 februari 1419 tussen hertog
+          Jan IV van Brabant en Jan van Beieren Prevenier-Smit, ibidem, nr. 903. . In de
+          jaren 1425-1430 raakte onder Bourgondische invloed ook de term "state" in
+          gebruik voor de vertegenwoordiging van adel en steden Van Riemsdijk, Tresorie
+          en kanselarij, 331-343; Jansma, Raad en Rekenkamer, 52,59 en 144;
+          Prevenier-Smit, Bronnen voor de geschiedenis der dagvaarten, I, nr. 1204, 716.
+          . Kenmerkend voor de evolutie van de standenvertegenwoordiging in Holland is
+          voorts dat de representatie er beperkt bleef tot adel en stedelijke burgerij,
+          en de geestelijkheid zich geen plaats wist te verwerven als eerste lid van de
+          Staten Brokken, Het ontstaan, 158-159; Kokken, Steden en Staten, 27-29.
+          .</html:p>
+          <html:p>In de vijftiende eeuw zijn de Staten van Holland zowel op last van de
+          landsheer - onder meer met betrekking tot de inwilliging van de beden -als
+          zelfstandig in bijzondere vergaderingen bijeengekomen. Het is hier evenwel niet
+          de plaats op deze ontwikkeling uitvoerig in te gaan Zie hiervoor het
+          proefschrift van Kokken, Steden en Staten. . Eerst in de loop van de vijftiende
+          eeuw zijn de Staten van Holland een eigen archief gaan vormen. Hierin werden de
+          stukken bewaard die bestemd waren voor adel en steden van Holland. Het college
+          van de Ridderschap heeft vóór 1572 geen eigen archief gevormd Meilink,
+          Archieven van de Staten van Holland, 14; Brokken, De archieven van de Staten
+          van Holland, passim. .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ridderschap van Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p />
+          <html:p>De geschiedenis Met dank aan prof. dr. J.J. Woltjer en H.J.Ph.G. Kaajan
+          voor hun opmerkingen en suggesties, voorts de heren P.J.M. de Baar en J.C. Kort
+          voor hun kritische toets van de voorlopige, in 1982 in beperkte oplage
+          gepubliceerde inventaris van dit archief. H.M. Brokken van het College van de
+          Ridderschap Na de Opstand luidde de officiële naam het "College van de
+          Ridderschap en de Edelen van de Staten van Holland en West-Friesland". als
+          eerste lid van de Staten van Holland, doorgaans kortweg de Ridderschap genoemd,
+          is tot op heden nog ongeschreven. Al ontbreekt dan een monografie over de
+          plaats en samenstelling van dit college in het Hollandse Statenbestel, recente
+          studies hebben echter meer licht geworpen op de oorsprong, plaats en functie
+          van de Ridderschap - en in bredere zin de adel - in de politiek-bestuurlijke
+          constellatie van het graafschap, later het gewest Holland Te noemen zijn, in
+          min of meer chronologische volgorde, de studies van J. Aalbers, J.M. van
+          Winter, H.M. Brokken, H.F.K. van Nierop, J.W. Koopmans, A.J.C.M. Gabriëls en H.
+          Kokken. Recentelijk zag ook het eerste deel van de voor dit onderwerp
+          belangrijke bronnenpublikatie van W. Prevenier en J.G. Smit, Bronnen voor de
+          geschiedenis der dagvaarten van de Staten en steden van Holland vóór 1554, het
+          licht. Voor de volledige titels zij verwezen naar de literatuurlijst aan het
+          slot van deze inleiding. . Voor goed begrip dienen daarom eerst enige woorden
+          te worden gewijd aan de adel in Holland in de middeleeuwen en de opkomst van de
+          ridderschap als stand.</html:p>
+          <html:p>We behoeven daartoe niet te treden in de discussie over de herkomst van
+          de middeleeuwse adel als afstammelingen van de oeradel (nobilitas, nobiles) dan
+          wel van een ambtsadel die door middel van delegatie van bevoegdheden van
+          bovenaf door de vorst zou zijn gecreëerd Cf. Van Winter, Adel en aristocratie
+          in de Middeleeuwen, i.h.b. 361-362. . In dit kader is relevant te constateren -
+          en wij baseren ons hier op de theorieën van J.M. van Winter Respectievelijk
+          neergelegd in haar artikelen:(1) De middeldeleeuwse ridderschap als "classe
+          sociale";(2) Adel en aristocratie in de Middeleeuwen;(3) Adel, ministerialiteit
+          en ridderschap 11de-14de eeuw;(4) Aristocratisering in middeleeuws Nederland. -
+          dat zich in het aristocratiseringsproces sedert de elfde eeuw een tweeledige
+          ontwikkeling heeft voorgedaan. Naast de adel als stand en juridisch
+          bevoorrechte groep tegenover de niet-edele vrijen en onvrijen, is in Nederland
+          uit de stand van ministerialen en dienstlieden, de onvrijen dus, de ridderschap
+          voortgekomen, "die in de twaalfde eeuw nog louter een beroepsgroep van
+          krijgslieden vormde maar met een groeiend prestige" Van Winter,
+          Aristocratisering, 18-19. .</html:p>
+          <html:p>Dit groeiend sociaal prestige maakte het ook voor vrijen en edelen
+          aantrekkelijk de riddertitel te voeren, waardoor er in de dertiende eeuw zich
+          een nieuw soort ridderschap vormde die zich gedroeg als echte aristocratie, dat
+          wil zeggen als maatschappelijke bovenlaag. Deze bovenlaag bestond uit drie
+          standen, te weten de stand van ministerialen, de stand van niet-edele vrijen en
+          de stand van edelen. De drie standen waren sociaal niet homogeen. Door hun
+          functie in de maatschappij en door schildboortigheid (dat wil zeggen het
+          behoren tot een familie van ridders en knapen) vond er echter in de ridderschap
+          een soort samensmelting plaats. Maar het onderscheid bleef, al vervaagden door
+          het voeren van de riddertitel allengs de contouren tussen de standen. De adel
+          was een rechtsstand die haar bevoorrechte positie dankte aan geboorte en
+          afkomst in samenhang met juridische, economische en militaire macht. Anderzijds
+          was er mobiliteit van onderaf door verwerving van de adellijke titel, in
+          Holland door verheffing door de graaf of door het kopen van een adelsbrief. Het
+          aanvankelijk onderscheid tussen de adel als stand en de ridderschap als klasse
+          boette aan scherpte in. Adel en ridderschap vloeiden allengs ineen, al bleven
+          voor de adel geboorte en afkomst en in mindere mate de levenswijze een
+          belangrijke rol spelen.</html:p>
+          <html:p>De tweede fase in het zoëven genoemde aristocratiseringsproces laat
+          zich in Holland en Zeeland duidelijker markeren. In de vijftiger jaren van de
+          veertiende eeuw ging graaf Willem V over tot de creatie van baanderheren, nadat
+          een eerdere aanzet daartoe van graaf Willem IV in 1340-1341 was verzand
+          Brokken, De creatie van baanderheren, passim; idem, Het ontstaan, 120-121; Van
+          Winter, Adel, ministerialiteit en ridderschap, 143. . Graaf Willem V verleende
+          aan enkele vooraanstaande en veelal ook meest vermogende edelen de titel van
+          baanderheer. Hierdoor kwam de adel c.q. de ridderschap uit drie geledingen te
+          bestaan: de baanderheren (barones), de ridders (milites) en knapen (armigeri).
+          In feite betekende dit een afsluiting van de ridderschap naar onderen, door Van
+          Winter als "de verstarring van een oorspronkelijk open aristocratische klasse
+          tot een nieuwe gesloten adelstand" gekarakteriseerd Van Winter,
+          Aristocratisering, 20. . Daarnaast raakte in Holland in de loop van de
+          veertiende eeuw voor de edelen de term "welgeborenen" in zwang, geen
+          afstammelingen van de prefeodale adel zoals Gosses meende, maar behorend tot
+          een familie van ridders en knapen en soms als boerse edelen voortlevend Van
+          Winter, Adel en aristocratie, 361; idem, Adel, ministerialiteit en ridderschap,
+          136 en 139-142; idem, Aristocratisering, 28-29. . Ze werden als leden van de
+          adelstand beschouwd, maar treden sedert het midden van de veertiende eeuw als
+          standsgroepering nauwelijks naar voren. Een nader onderzoek zal aan het licht
+          moeten brengen waar "die waelgeboren luyden" zich in de late middeleeuwen in
+          Holland onderscheidden van de "ridderscip" Zie bijvoorbeeld Prevenier-Smit,
+          Bronnen voor de geschiedenis der dagvaarten,I, nr. 1014: "... dat hij die
+          wailgeboren luyden van Rijnlant dagen soude bij minen here te comen, ende an
+          allen den ridderscip in Rijnlant roerende..." [1423 mei 4-7]. Zie verder het
+          lemma "welgeborenen" bij Prevenier-Smit, I, eerste stuk, 286. .</html:p>
+          <html:p>Deze tweede fase in de ontwikkeling van adel en ridderschap is nauw
+          verweven met de opkomst van de standenvertegenwoordiging in Holland en Zeeland.
+          De graaf was gewoon te regeren met zijn grafelijke raad, het commune consilium,
+          bij welk overleg incidenteel afgevaardigden van (de) steden werden betrokken.
+          Na het vertrek van keizerin Margareta werden bij het aantreden van Willem de
+          Verbeider in het najaar van 1346 in Holland betrok de grafelijke raad
+          vervolgens regelmatig stedelijke vertegenwoordigers bij het overleg Brokken,
+          Het ontstaan, 137 e.v. . Het uitbreken van de partijstrijd tussen Kabeljauwen
+          en Hoeken in 1350 heeft op de evolutie van de representatieve organen in
+          Holland en Zeeland zonder twijfel een katalytisch effect gehad Brokken, Het
+          ontstaan, 143-159. Van Winter, Aristocratisering, 30 uit hierover haar scepsis,
+          zonder evenwel op bronnenmateriaal gebaseerde tegenargumenten aan te dragen.
+          Zie overigens voor de door haar eveneens in twijfel getrokken termen van partij
+          en factie het recent verschenen artikel van A.J. Brand, Twistende Leidenaars. .
+          In de jaren 1352-1353 begonnen de grafelijke raad en de afgevaardigden van (de)
+          steden - als de raad van steden - elkaar op dagvaarten (vergaderingen) te
+          ontmoeten, waar onder leiding van de landsheer 's lands bestuurszaken werden
+          behartigd. De grafelijke raad versmalde in samenstelling tot overwegend leden
+          van de adel, in de bronnen nu en en dan aangeduid met de militia of het
+          consilium dominorum. Door het overwicht van de militia in de grafelijke raad
+          kon vervolgens dit hoogste orgaan als instrument dienen voor de ridderschap als
+          stand Brokken, Het ontstaan, 157-158. . De term ridderschap werd toen nog
+          slechts incidenteel gebruikt als aanduiding voor de adel als collectief. Pas
+          tijdens het tweede decennium van de vijftiende eeuw kwam de term ridderschap in
+          zwang als verzamelnaam voor de baanderheren, ridders en knapen Hardenberg, Het
+          ontstaan van de Staten van Holland, 115. . De eerste omschrijving van de
+          ridderschap als zodanig treffen we aan bij de regeling van de erfopvolging van
+          graaf Willem VI in augustus 1416 Prevenier-Smit, Bronnen voor de geschiedenis
+          der dagvaarten, I, 487. . Het is echter een vermelding in een verhalende bron.
+          Oorkondelijk treedt "de ridderscap van Hollant ende van Zeelant" voor de eerste
+          maal naar voren bij de Zoen van Woudrichem van 13 februari 1419 tussen hertog
+          Jan IV van Brabant en Jan van Beieren Prevenier-Smit, ibidem, nr. 903. . In de
+          jaren 1425-1430 raakte onder Bourgondische invloed ook de term "state" in
+          gebruik voor de vertegenwoordiging van adel en steden Van Riemsdijk, Tresorie
+          en kanselarij, 331-343; Jansma, Raad en Rekenkamer, 52,59 en 144;
+          Prevenier-Smit, Bronnen voor de geschiedenis der dagvaarten, I, nr. 1204, 716.
+          . Kenmerkend voor de evolutie van de standenvertegenwoordiging in Holland is
+          voorts dat de representatie er beperkt bleef tot adel en stedelijke burgerij,
+          en de geestelijkheid zich geen plaats wist te verwerven als eerste lid van de
+          Staten Brokken, Het ontstaan, 158-159; Kokken, Steden en Staten, 27-29.
+          .</html:p>
+          <html:p>In de vijftiende eeuw zijn de Staten van Holland zowel op last van de
+          landsheer - onder meer met betrekking tot de inwilliging van de beden -als
+          zelfstandig in bijzondere vergaderingen bijeengekomen. Het is hier evenwel niet
+          de plaats op deze ontwikkeling uitvoerig in te gaan Zie hiervoor het
+          proefschrift van Kokken, Steden en Staten. . Eerst in de loop van de vijftiende
+          eeuw zijn de Staten van Holland een eigen archief gaan vormen. Hierin werden de
+          stukken bewaard die bestemd waren voor adel en steden van Holland. Het college
+          van de Ridderschap heeft vóór 1572 geen eigen archief gevormd Meilink,
+          Archieven van de Staten van Holland, 14; Brokken, De archieven van de Staten
+          van Holland, passim. .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p />
+          <html:p>De geschiedenis Met dank aan prof. dr. J.J. Woltjer en H.J.Ph.G. Kaajan
+          voor hun opmerkingen en suggesties, voorts de heren P.J.M. de Baar en J.C. Kort
+          voor hun kritische toets van de voorlopige, in 1982 in beperkte oplage
+          gepubliceerde inventaris van dit archief. H.M. Brokken van het College van de
+          Ridderschap Na de Opstand luidde de officiële naam het "College van de
+          Ridderschap en de Edelen van de Staten van Holland en West-Friesland". als
+          eerste lid van de Staten van Holland, doorgaans kortweg de Ridderschap genoemd,
+          is tot op heden nog ongeschreven. Al ontbreekt dan een monografie over de
+          plaats en samenstelling van dit college in het Hollandse Statenbestel, recente
+          studies hebben echter meer licht geworpen op de oorsprong, plaats en functie
+          van de Ridderschap - en in bredere zin de adel - in de politiek-bestuurlijke
+          constellatie van het graafschap, later het gewest Holland Te noemen zijn, in
+          min of meer chronologische volgorde, de studies van J. Aalbers, J.M. van
+          Winter, H.M. Brokken, H.F.K. van Nierop, J.W. Koopmans, A.J.C.M. Gabriëls en H.
+          Kokken. Recentelijk zag ook het eerste deel van de voor dit onderwerp
+          belangrijke bronnenpublikatie van W. Prevenier en J.G. Smit, Bronnen voor de
+          geschiedenis der dagvaarten van de Staten en steden van Holland vóór 1554, het
+          licht. Voor de volledige titels zij verwezen naar de literatuurlijst aan het
+          slot van deze inleiding. . Voor goed begrip dienen daarom eerst enige woorden
+          te worden gewijd aan de adel in Holland in de middeleeuwen en de opkomst van de
+          ridderschap als stand.</html:p>
+          <html:p>We behoeven daartoe niet te treden in de discussie over de herkomst van
+          de middeleeuwse adel als afstammelingen van de oeradel (nobilitas, nobiles) dan
+          wel van een ambtsadel die door middel van delegatie van bevoegdheden van
+          bovenaf door de vorst zou zijn gecreëerd Cf. Van Winter, Adel en aristocratie
+          in de Middeleeuwen, i.h.b. 361-362. . In dit kader is relevant te constateren -
+          en wij baseren ons hier op de theorieën van J.M. van Winter Respectievelijk
+          neergelegd in haar artikelen:(1) De middeldeleeuwse ridderschap als "classe
+          sociale";(2) Adel en aristocratie in de Middeleeuwen;(3) Adel, ministerialiteit
+          en ridderschap 11de-14de eeuw;(4) Aristocratisering in middeleeuws Nederland. -
+          dat zich in het aristocratiseringsproces sedert de elfde eeuw een tweeledige
+          ontwikkeling heeft voorgedaan. Naast de adel als stand en juridisch
+          bevoorrechte groep tegenover de niet-edele vrijen en onvrijen, is in Nederland
+          uit de stand van ministerialen en dienstlieden, de onvrijen dus, de ridderschap
+          voortgekomen, "die in de twaalfde eeuw nog louter een beroepsgroep van
+          krijgslieden vormde maar met een groeiend prestige" Van Winter,
+          Aristocratisering, 18-19. .</html:p>
+          <html:p>Dit groeiend sociaal prestige maakte het ook voor vrijen en edelen
+          aantrekkelijk de riddertitel te voeren, waardoor er in de dertiende eeuw zich
+          een nieuw soort ridderschap vormde die zich gedroeg als echte aristocratie, dat
+          wil zeggen als maatschappelijke bovenlaag. Deze bovenlaag bestond uit drie
+          standen, te weten de stand van ministerialen, de stand van niet-edele vrijen en
+          de stand van edelen. De drie standen waren sociaal niet homogeen. Door hun
+          functie in de maatschappij en door schildboortigheid (dat wil zeggen het
+          behoren tot een familie van ridders en knapen) vond er echter in de ridderschap
+          een soort samensmelting plaats. Maar het onderscheid bleef, al vervaagden door
+          het voeren van de riddertitel allengs de contouren tussen de standen. De adel
+          was een rechtsstand die haar bevoorrechte positie dankte aan geboorte en
+          afkomst in samenhang met juridische, economische en militaire macht. Anderzijds
+          was er mobiliteit van onderaf door verwerving van de adellijke titel, in
+          Holland door verheffing door de graaf of door het kopen van een adelsbrief. Het
+          aanvankelijk onderscheid tussen de adel als stand en de ridderschap als klasse
+          boette aan scherpte in. Adel en ridderschap vloeiden allengs ineen, al bleven
+          voor de adel geboorte en afkomst en in mindere mate de levenswijze een
+          belangrijke rol spelen.</html:p>
+          <html:p>De tweede fase in het zoëven genoemde aristocratiseringsproces laat
+          zich in Holland en Zeeland duidelijker markeren. In de vijftiger jaren van de
+          veertiende eeuw ging graaf Willem V over tot de creatie van baanderheren, nadat
+          een eerdere aanzet daartoe van graaf Willem IV in 1340-1341 was verzand
+          Brokken, De creatie van baanderheren, passim; idem, Het ontstaan, 120-121; Van
+          Winter, Adel, ministerialiteit en ridderschap, 143. . Graaf Willem V verleende
+          aan enkele vooraanstaande en veelal ook meest vermogende edelen de titel van
+          baanderheer. Hierdoor kwam de adel c.q. de ridderschap uit drie geledingen te
+          bestaan: de baanderheren (barones), de ridders (milites) en knapen (armigeri).
+          In feite betekende dit een afsluiting van de ridderschap naar onderen, door Van
+          Winter als "de verstarring van een oorspronkelijk open aristocratische klasse
+          tot een nieuwe gesloten adelstand" gekarakteriseerd Van Winter,
+          Aristocratisering, 20. . Daarnaast raakte in Holland in de loop van de
+          veertiende eeuw voor de edelen de term "welgeborenen" in zwang, geen
+          afstammelingen van de prefeodale adel zoals Gosses meende, maar behorend tot
+          een familie van ridders en knapen en soms als boerse edelen voortlevend Van
+          Winter, Adel en aristocratie, 361; idem, Adel, ministerialiteit en ridderschap,
+          136 en 139-142; idem, Aristocratisering, 28-29. . Ze werden als leden van de
+          adelstand beschouwd, maar treden sedert het midden van de veertiende eeuw als
+          standsgroepering nauwelijks naar voren. Een nader onderzoek zal aan het licht
+          moeten brengen waar "die waelgeboren luyden" zich in de late middeleeuwen in
+          Holland onderscheidden van de "ridderscip" Zie bijvoorbeeld Prevenier-Smit,
+          Bronnen voor de geschiedenis der dagvaarten,I, nr. 1014: "... dat hij die
+          wailgeboren luyden van Rijnlant dagen soude bij minen here te comen, ende an
+          allen den ridderscip in Rijnlant roerende..." [1423 mei 4-7]. Zie verder het
+          lemma "welgeborenen" bij Prevenier-Smit, I, eerste stuk, 286. .</html:p>
+          <html:p>Deze tweede fase in de ontwikkeling van adel en ridderschap is nauw
+          verweven met de opkomst van de standenvertegenwoordiging in Holland en Zeeland.
+          De graaf was gewoon te regeren met zijn grafelijke raad, het commune consilium,
+          bij welk overleg incidenteel afgevaardigden van (de) steden werden betrokken.
+          Na het vertrek van keizerin Margareta werden bij het aantreden van Willem de
+          Verbeider in het najaar van 1346 in Holland betrok de grafelijke raad
+          vervolgens regelmatig stedelijke vertegenwoordigers bij het overleg Brokken,
+          Het ontstaan, 137 e.v. . Het uitbreken van de partijstrijd tussen Kabeljauwen
+          en Hoeken in 1350 heeft op de evolutie van de representatieve organen in
+          Holland en Zeeland zonder twijfel een katalytisch effect gehad Brokken, Het
+          ontstaan, 143-159. Van Winter, Aristocratisering, 30 uit hierover haar scepsis,
+          zonder evenwel op bronnenmateriaal gebaseerde tegenargumenten aan te dragen.
+          Zie overigens voor de door haar eveneens in twijfel getrokken termen van partij
+          en factie het recent verschenen artikel van A.J. Brand, Twistende Leidenaars. .
+          In de jaren 1352-1353 begonnen de grafelijke raad en de afgevaardigden van (de)
+          steden - als de raad van steden - elkaar op dagvaarten (vergaderingen) te
+          ontmoeten, waar onder leiding van de landsheer 's lands bestuurszaken werden
+          behartigd. De grafelijke raad versmalde in samenstelling tot overwegend leden
+          van de adel, in de bronnen nu en en dan aangeduid met de militia of het
+          consilium dominorum. Door het overwicht van de militia in de grafelijke raad
+          kon vervolgens dit hoogste orgaan als instrument dienen voor de ridderschap als
+          stand Brokken, Het ontstaan, 157-158. . De term ridderschap werd toen nog
+          slechts incidenteel gebruikt als aanduiding voor de adel als collectief. Pas
+          tijdens het tweede decennium van de vijftiende eeuw kwam de term ridderschap in
+          zwang als verzamelnaam voor de baanderheren, ridders en knapen Hardenberg, Het
+          ontstaan van de Staten van Holland, 115. . De eerste omschrijving van de
+          ridderschap als zodanig treffen we aan bij de regeling van de erfopvolging van
+          graaf Willem VI in augustus 1416 Prevenier-Smit, Bronnen voor de geschiedenis
+          der dagvaarten, I, 487. . Het is echter een vermelding in een verhalende bron.
+          Oorkondelijk treedt "de ridderscap van Hollant ende van Zeelant" voor de eerste
+          maal naar voren bij de Zoen van Woudrichem van 13 februari 1419 tussen hertog
+          Jan IV van Brabant en Jan van Beieren Prevenier-Smit, ibidem, nr. 903. . In de
+          jaren 1425-1430 raakte onder Bourgondische invloed ook de term "state" in
+          gebruik voor de vertegenwoordiging van adel en steden Van Riemsdijk, Tresorie
+          en kanselarij, 331-343; Jansma, Raad en Rekenkamer, 52,59 en 144;
+          Prevenier-Smit, Bronnen voor de geschiedenis der dagvaarten, I, nr. 1204, 716.
+          . Kenmerkend voor de evolutie van de standenvertegenwoordiging in Holland is
+          voorts dat de representatie er beperkt bleef tot adel en stedelijke burgerij,
+          en de geestelijkheid zich geen plaats wist te verwerven als eerste lid van de
+          Staten Brokken, Het ontstaan, 158-159; Kokken, Steden en Staten, 27-29.
+          .</html:p>
+          <html:p>In de vijftiende eeuw zijn de Staten van Holland zowel op last van de
+          landsheer - onder meer met betrekking tot de inwilliging van de beden -als
+          zelfstandig in bijzondere vergaderingen bijeengekomen. Het is hier evenwel niet
+          de plaats op deze ontwikkeling uitvoerig in te gaan Zie hiervoor het
+          proefschrift van Kokken, Steden en Staten. . Eerst in de loop van de vijftiende
+          eeuw zijn de Staten van Holland een eigen archief gaan vormen. Hierin werden de
+          stukken bewaard die bestemd waren voor adel en steden van Holland. Het college
+          van de Ridderschap heeft vóór 1572 geen eigen archief gevormd Meilink,
+          Archieven van de Staten van Holland, 14; Brokken, De archieven van de Staten
+          van Holland, passim. .</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Ridderschap en Edelen in Holland en West-Friesland bevat
+      stukken betreffende de ridderschap als stand in het graafschap Holland, stukken
+      betreffende het functioneren van de ridderschap in de vergadering van de Staten van
+      Holland en stukken over de inkomsten en belastingen van de leden.Het merendeel van
+      het archief bevat stukken aangaande het beheer van de ridderschap over de goederen
+      van de abdijen Rijnsbrug en Leeuwenhorst. Dit zijn vooral stukken financiële aard
+      zoals inkomstenlijsten, belastingen en betreffende de aan- en verkoop van roerende
+      en onroerende goederen. Daarnaast bevat het onder ander ook stukken betreffende
+      kerkelijke en bestuurlijke zaken zoals lijsten van nominaties en benoemingen van
+      functionarissen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>32.20 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1947 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

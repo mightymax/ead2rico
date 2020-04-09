@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/37503db4-9fd7-1fe0-e053-c900a8c0b59f"
+  rdf:about="record/2.16.5306">
+    <rico:identifier>2.16.5306</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2007</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/5306" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.5306/i1" />
+      <rico:instantiates rdf:resource="record/2.16.5306" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Rijksinstituut voor
+        Integraal Zoetwaterbeheer en Afvalwaterbehandeling, (1958) 1975-1990
+        (2000)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/37503db4-9fd7-1fe0-e053-c900a8c0b59f" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/5306">
+    <rico:describedBy rdf:resource="record/2.16.5306" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>5306</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rijksinstituut voor Integraal Zoetwaterbeheer en
+      Afvalwaterbehandeling</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>RIZA [Beleidsterrein]</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1958</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2000</rico:endDate>
+    <rico:date>1958-2000</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksinstituut voor de Zuivering van
+            AfvalwaterCoördinatiecommissie Uitvoering Wet Verontreiniging
+            Oppervlaktewateren (CUWVO)Begeleidingscommissie Remote Sensing
+            (BCRS)Interdepartementale werkgroep Verdroging</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1920 nam de minister van Landbouw, Handel en Nijverheid, ir. H.A.
+          van IJsselstein het initiatief voor de oprichting van het Instituut voor
+          Zuivering van Afvalwater in Den Haag. Ir. H.J.N.H. Kessener kreeg de leiding
+          over dit instituut en de negen medewerkers. (instelling : KB 30.7.1920, nr
+          53).</html:p>
+          <html:p>De taak luidde : "de waterverontreiniging te bestrijden en te voorkomen
+          en wel door het verrichten van onderzoekingen zowel aan het instituut zelf als
+          aan proefinstallaties elders en door andere werkzaamheden [...]". Voor het
+          overige hield men zich met name bezig met het geven van voorlichting aan de
+          Commissie inzake de waterverontreiniging, alsmede met de wetenschappelijke
+          bestudering van de openbare wateren. (en de wijze waarop deze kunnen worden
+          beschermd tegen verontreiniging).</html:p>
+          <html:p>In 1920 legde het RIZA de eerste internationale contacten. Twee
+          onderzoeksreizen over de Rijn tot ver in Duitsland leidden er toe dat er in
+          Karnap, aan de monding van de sterk vervuilde Emscher, een zijrivier van de
+          Rijn, een grote zuiveringsinrichting werd gebouwd. In 1923 nam De Haagsche
+          Tramweg Maatschappij in Rijswijk de eerste 'moderne' zuiveringsinrichting voor
+          een remise en 60 bedrijfswoningen in gebruik. Het is een eerste stap in het
+          moeilijke proces om gemeenten te overtuigen van het nut van centrale
+          zuiveringsinrichtingen. In 1940 werden tien zuiveringsinrichtingen bij kazernes
+          gebouwd. De oorlog legt vervolgens vrijwel alles stil.</html:p>
+          <html:p>Vanaf 1947 ressorteerde het instituut onder het Ministerie van Verkeer
+          en Waterstaat, daarvoor Landbouw, Handel en Nijverheid (periode vanaf
+          oprichting tot 1932) en vanaf 1933 tot en met 1946 onder Sociale
+          Zaken.</html:p>
+          <html:p>De wederopbouw van Nederland ging gepaard met een snelle groei van
+          industriële activiteiten en - onvermijdelijk - een grote toename van
+          afvalwaterstromen. Op vele plaatsen werden rioolstelsels aangelegd. Waar het
+          rioolwater uiteindelijk in het oppervlaktewater terecht kwam werd verdunning
+          als een (tijdelijke) oplossing gehanteerd. Vanaf de jaren 50 waren de
+          onderzoekingen van het RIZA meer structureel van aard en werd een begin gemaakt
+          met de aanleg van een uitgebreid meetnet, in 1950 heeft Nederland zo'n 60
+          rioolwaterzuiveringsinrichtingen (vijf jaar later al 350).</html:p>
+          <html:p />
+          <html:p>De kerntaken van het RIZA werden in deze periode (jaren ’50) als volgt
+          gedefinieerd:</html:p>
+          <html:p>In 1954 werd de Internationale Rijncommissie ter Bescherming van de
+          Rijn (IRC) tegen Verontreiniging opgericht, mede door inspanning van het RIZA.
+          In 1955 kreeg het RIZA een eigen vestiging in Sappemeer. Hier was het water
+          sterk vervuild door aardappelmeel-, strokarton- en suikerindustrie. Om de
+          zuiveringskosten te drukken wilde men het water via afvalwaterleidingen naar de
+          Waddenzee en de Eems-Dollard afvoeren. Het RIZA onderzocht of het zelfreinigend
+          vermogen van het Eems-Dollard- estuarium voldoende was om dit op te vangen.
+          Ondanks veel tegenstand van biologen en de opkomende milieubeweging kwamen rond
+          1970 een tweetal 'smeerpijpen' gereed.</html:p>
+          <html:p>In 1970 werd de Wet verontreiniging oppervlaktewateren (WVO) ingevoerd.
+          Met name Artikel 32 van de WVO gaf de taak van het RIZA een wettelijk
+          kader.</html:p>
+          <html:p>In 1972 nam het RIZA twee drijvende meetstations in gebruik in Lobith
+          en in Eysden om de waterkwaliteit in de gaten te houden. Ook benedenstrooms
+          kwamen voorzieningen om alarm te slaan. Voornaamste aanleiding was de
+          alarmerende vervuiling van de Rijn en de Maas. In de jaren 1970-1985 steeg de
+          waterkwaliteit, een nieuw probleem vormde echter eutrofiëring; sterke
+          algengroei door overbemesting met fosfaten en stikstof. Sloten veranderden in
+          'groene soep'. Het RIZA ontwikkelde de methode 'actief biologisch beheer'.
+          Witvissen werden weggevangen en jonge roofvissen uitgezet. Zo werd het
+          biologisch evenwicht van het oppervlaktewater hersteld en verdween de 'groene
+          soep'.</html:p>
+          <html:p>In 1975 vestigde het RIZA zich in Lelystad, met name door het sterk
+          gestegen aantal medewerkers (van ca. 70 in 1970 tot zo'n 200 in 1985). Hier is
+          ook een geheel nieuw laboratoriumcomplex om aan de sterk stijgende behoefte
+          naar onderzoek van afvalwater en oppervlaktewater te kunnen voldoen.</html:p>
+          <html:p>Na 1985 verschoof de aandacht naar vervuiling van het oppervlaktewater
+          door metalen (kwik en cadmium) en allerlei organische microverontreinigingen
+          uit industrie en landbouw (met name DDT, PCB's en PAK). Het RIZA adviseerde
+          over schonere productieprocessen en zuiveringstechnieken en breidde het
+          onderzoek van afvalwater en oppervlaktewater uit (chemisch, bacteriologisch,
+          hydrobiologisch en radiochemisch). Het concept 'integraal waterbeheer' deed
+          tevens haar intrede; de verschillende overheden met taken op het gebied van het
+          waterbeheer gingen een samenhangend waterbeleid voeren. In 1985 werd het
+          Rijksinstituut voor Zuivering van Afvalwater de Dienst Binnenwateren/RIZA. Door
+          een reorganisatie binnen Rijkswaterstaat kreeg het instituut naast
+          waterkwaliteit te maken met waterkwantiteit.</html:p>
+          <html:p>In 1986 was er een brand bij het chemieconcern Sandoz in Basel, waarbij
+          grote hoeveelheden gif met het bluswater in de Rijn belandden, dit leidde tot
+          de totstandkoming van het Rijnaktieplan. In dit plan, ondertekend door de
+          ministers van alle landen waar de Rijn doorheen stroomt, zijn maatregelen
+          opgenomen die ervoor moeten zorgen dat de Rijn in het jaar 2000 weer gezond
+          is.</html:p>
+          <html:p>In 1990 kreeg het instituut de vertrouwde naam RIZA terug, maar behield
+          de brede taakstelling. De betekenis van RIZA is nu: Rijksinstituut voor
+          Integraal Zoetwaterbeer en Afvalwaterbehandeling.</html:p>
+          <html:p>De overstromingen in december 1993 en januari 1995 in Limburg leiden
+          tot het stellen van 'droge voeten' als hoogste prioriteit. Maar niet zonder ook
+          een plaats te gunnen aan bijvoorbeeld natuur en landbouw. Het project ‘de
+          Integrale Verkenning Rijntakken’ kijkt hoe al deze belangen samen kunnen
+          gaan.</html:p>
+          <html:p>In 1995 kreeg het RIZA krijgt er een nieuw taakveld bij: de advisering
+          over een</html:p>
+          <html:p>natuurlijke(r) inrichting van gebieden. Het aantal medewerkers is
+          gegroeid naar zo'n 450. Ook het aantal wetenschappelijke disciplines is
+          toegenomen; het werk is sterk multidisciplinair van karakter en vereist een
+          integrale aanpak. In 1998 gaf de regering opdracht voor een diepgaand onderzoek
+          naar de ernst van de waterverontreiniging.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksinstituut voor de Zuivering van
+            AfvalwaterCoördinatiecommissie Uitvoering Wet Verontreiniging
+            Oppervlaktewateren (CUWVO)Begeleidingscommissie Remote Sensing
+            (BCRS)Interdepartementale werkgroep Verdroging</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1920 nam de minister van Landbouw, Handel en Nijverheid, ir. H.A.
+          van IJsselstein het initiatief voor de oprichting van het Instituut voor
+          Zuivering van Afvalwater in Den Haag. Ir. H.J.N.H. Kessener kreeg de leiding
+          over dit instituut en de negen medewerkers. (instelling : KB 30.7.1920, nr
+          53).</html:p>
+          <html:p>De taak luidde : "de waterverontreiniging te bestrijden en te voorkomen
+          en wel door het verrichten van onderzoekingen zowel aan het instituut zelf als
+          aan proefinstallaties elders en door andere werkzaamheden [...]". Voor het
+          overige hield men zich met name bezig met het geven van voorlichting aan de
+          Commissie inzake de waterverontreiniging, alsmede met de wetenschappelijke
+          bestudering van de openbare wateren. (en de wijze waarop deze kunnen worden
+          beschermd tegen verontreiniging).</html:p>
+          <html:p>In 1920 legde het RIZA de eerste internationale contacten. Twee
+          onderzoeksreizen over de Rijn tot ver in Duitsland leidden er toe dat er in
+          Karnap, aan de monding van de sterk vervuilde Emscher, een zijrivier van de
+          Rijn, een grote zuiveringsinrichting werd gebouwd. In 1923 nam De Haagsche
+          Tramweg Maatschappij in Rijswijk de eerste 'moderne' zuiveringsinrichting voor
+          een remise en 60 bedrijfswoningen in gebruik. Het is een eerste stap in het
+          moeilijke proces om gemeenten te overtuigen van het nut van centrale
+          zuiveringsinrichtingen. In 1940 werden tien zuiveringsinrichtingen bij kazernes
+          gebouwd. De oorlog legt vervolgens vrijwel alles stil.</html:p>
+          <html:p>Vanaf 1947 ressorteerde het instituut onder het Ministerie van Verkeer
+          en Waterstaat, daarvoor Landbouw, Handel en Nijverheid (periode vanaf
+          oprichting tot 1932) en vanaf 1933 tot en met 1946 onder Sociale
+          Zaken.</html:p>
+          <html:p>De wederopbouw van Nederland ging gepaard met een snelle groei van
+          industriële activiteiten en - onvermijdelijk - een grote toename van
+          afvalwaterstromen. Op vele plaatsen werden rioolstelsels aangelegd. Waar het
+          rioolwater uiteindelijk in het oppervlaktewater terecht kwam werd verdunning
+          als een (tijdelijke) oplossing gehanteerd. Vanaf de jaren 50 waren de
+          onderzoekingen van het RIZA meer structureel van aard en werd een begin gemaakt
+          met de aanleg van een uitgebreid meetnet, in 1950 heeft Nederland zo'n 60
+          rioolwaterzuiveringsinrichtingen (vijf jaar later al 350).</html:p>
+          <html:p />
+          <html:p>De kerntaken van het RIZA werden in deze periode (jaren ’50) als volgt
+          gedefinieerd:</html:p>
+          <html:p>In 1954 werd de Internationale Rijncommissie ter Bescherming van de
+          Rijn (IRC) tegen Verontreiniging opgericht, mede door inspanning van het RIZA.
+          In 1955 kreeg het RIZA een eigen vestiging in Sappemeer. Hier was het water
+          sterk vervuild door aardappelmeel-, strokarton- en suikerindustrie. Om de
+          zuiveringskosten te drukken wilde men het water via afvalwaterleidingen naar de
+          Waddenzee en de Eems-Dollard afvoeren. Het RIZA onderzocht of het zelfreinigend
+          vermogen van het Eems-Dollard- estuarium voldoende was om dit op te vangen.
+          Ondanks veel tegenstand van biologen en de opkomende milieubeweging kwamen rond
+          1970 een tweetal 'smeerpijpen' gereed.</html:p>
+          <html:p>In 1970 werd de Wet verontreiniging oppervlaktewateren (WVO) ingevoerd.
+          Met name Artikel 32 van de WVO gaf de taak van het RIZA een wettelijk
+          kader.</html:p>
+          <html:p>In 1972 nam het RIZA twee drijvende meetstations in gebruik in Lobith
+          en in Eysden om de waterkwaliteit in de gaten te houden. Ook benedenstrooms
+          kwamen voorzieningen om alarm te slaan. Voornaamste aanleiding was de
+          alarmerende vervuiling van de Rijn en de Maas. In de jaren 1970-1985 steeg de
+          waterkwaliteit, een nieuw probleem vormde echter eutrofiëring; sterke
+          algengroei door overbemesting met fosfaten en stikstof. Sloten veranderden in
+          'groene soep'. Het RIZA ontwikkelde de methode 'actief biologisch beheer'.
+          Witvissen werden weggevangen en jonge roofvissen uitgezet. Zo werd het
+          biologisch evenwicht van het oppervlaktewater hersteld en verdween de 'groene
+          soep'.</html:p>
+          <html:p>In 1975 vestigde het RIZA zich in Lelystad, met name door het sterk
+          gestegen aantal medewerkers (van ca. 70 in 1970 tot zo'n 200 in 1985). Hier is
+          ook een geheel nieuw laboratoriumcomplex om aan de sterk stijgende behoefte
+          naar onderzoek van afvalwater en oppervlaktewater te kunnen voldoen.</html:p>
+          <html:p>Na 1985 verschoof de aandacht naar vervuiling van het oppervlaktewater
+          door metalen (kwik en cadmium) en allerlei organische microverontreinigingen
+          uit industrie en landbouw (met name DDT, PCB's en PAK). Het RIZA adviseerde
+          over schonere productieprocessen en zuiveringstechnieken en breidde het
+          onderzoek van afvalwater en oppervlaktewater uit (chemisch, bacteriologisch,
+          hydrobiologisch en radiochemisch). Het concept 'integraal waterbeheer' deed
+          tevens haar intrede; de verschillende overheden met taken op het gebied van het
+          waterbeheer gingen een samenhangend waterbeleid voeren. In 1985 werd het
+          Rijksinstituut voor Zuivering van Afvalwater de Dienst Binnenwateren/RIZA. Door
+          een reorganisatie binnen Rijkswaterstaat kreeg het instituut naast
+          waterkwaliteit te maken met waterkwantiteit.</html:p>
+          <html:p>In 1986 was er een brand bij het chemieconcern Sandoz in Basel, waarbij
+          grote hoeveelheden gif met het bluswater in de Rijn belandden, dit leidde tot
+          de totstandkoming van het Rijnaktieplan. In dit plan, ondertekend door de
+          ministers van alle landen waar de Rijn doorheen stroomt, zijn maatregelen
+          opgenomen die ervoor moeten zorgen dat de Rijn in het jaar 2000 weer gezond
+          is.</html:p>
+          <html:p>In 1990 kreeg het instituut de vertrouwde naam RIZA terug, maar behield
+          de brede taakstelling. De betekenis van RIZA is nu: Rijksinstituut voor
+          Integraal Zoetwaterbeer en Afvalwaterbehandeling.</html:p>
+          <html:p>De overstromingen in december 1993 en januari 1995 in Limburg leiden
+          tot het stellen van 'droge voeten' als hoogste prioriteit. Maar niet zonder ook
+          een plaats te gunnen aan bijvoorbeeld natuur en landbouw. Het project ‘de
+          Integrale Verkenning Rijntakken’ kijkt hoe al deze belangen samen kunnen
+          gaan.</html:p>
+          <html:p>In 1995 kreeg het RIZA krijgt er een nieuw taakveld bij: de advisering
+          over een</html:p>
+          <html:p>natuurlijke(r) inrichting van gebieden. Het aantal medewerkers is
+          gegroeid naar zo'n 450. Ook het aantal wetenschappelijke disciplines is
+          toegenomen; het werk is sterk multidisciplinair van karakter en vereist een
+          integrale aanpak. In 1998 gaf de regering opdracht voor een diepgaand onderzoek
+          naar de ernst van de waterverontreiniging.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksinstituut voor de Zuivering van
+            AfvalwaterCoördinatiecommissie Uitvoering Wet Verontreiniging
+            Oppervlaktewateren (CUWVO)Begeleidingscommissie Remote Sensing
+            (BCRS)Interdepartementale werkgroep Verdroging</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1920 nam de minister van Landbouw, Handel en Nijverheid, ir. H.A.
+          van IJsselstein het initiatief voor de oprichting van het Instituut voor
+          Zuivering van Afvalwater in Den Haag. Ir. H.J.N.H. Kessener kreeg de leiding
+          over dit instituut en de negen medewerkers. (instelling : KB 30.7.1920, nr
+          53).</html:p>
+          <html:p>De taak luidde : "de waterverontreiniging te bestrijden en te voorkomen
+          en wel door het verrichten van onderzoekingen zowel aan het instituut zelf als
+          aan proefinstallaties elders en door andere werkzaamheden [...]". Voor het
+          overige hield men zich met name bezig met het geven van voorlichting aan de
+          Commissie inzake de waterverontreiniging, alsmede met de wetenschappelijke
+          bestudering van de openbare wateren. (en de wijze waarop deze kunnen worden
+          beschermd tegen verontreiniging).</html:p>
+          <html:p>In 1920 legde het RIZA de eerste internationale contacten. Twee
+          onderzoeksreizen over de Rijn tot ver in Duitsland leidden er toe dat er in
+          Karnap, aan de monding van de sterk vervuilde Emscher, een zijrivier van de
+          Rijn, een grote zuiveringsinrichting werd gebouwd. In 1923 nam De Haagsche
+          Tramweg Maatschappij in Rijswijk de eerste 'moderne' zuiveringsinrichting voor
+          een remise en 60 bedrijfswoningen in gebruik. Het is een eerste stap in het
+          moeilijke proces om gemeenten te overtuigen van het nut van centrale
+          zuiveringsinrichtingen. In 1940 werden tien zuiveringsinrichtingen bij kazernes
+          gebouwd. De oorlog legt vervolgens vrijwel alles stil.</html:p>
+          <html:p>Vanaf 1947 ressorteerde het instituut onder het Ministerie van Verkeer
+          en Waterstaat, daarvoor Landbouw, Handel en Nijverheid (periode vanaf
+          oprichting tot 1932) en vanaf 1933 tot en met 1946 onder Sociale
+          Zaken.</html:p>
+          <html:p>De wederopbouw van Nederland ging gepaard met een snelle groei van
+          industriële activiteiten en - onvermijdelijk - een grote toename van
+          afvalwaterstromen. Op vele plaatsen werden rioolstelsels aangelegd. Waar het
+          rioolwater uiteindelijk in het oppervlaktewater terecht kwam werd verdunning
+          als een (tijdelijke) oplossing gehanteerd. Vanaf de jaren 50 waren de
+          onderzoekingen van het RIZA meer structureel van aard en werd een begin gemaakt
+          met de aanleg van een uitgebreid meetnet, in 1950 heeft Nederland zo'n 60
+          rioolwaterzuiveringsinrichtingen (vijf jaar later al 350).</html:p>
+          <html:p />
+          <html:p>De kerntaken van het RIZA werden in deze periode (jaren ’50) als volgt
+          gedefinieerd:</html:p>
+          <html:p>In 1954 werd de Internationale Rijncommissie ter Bescherming van de
+          Rijn (IRC) tegen Verontreiniging opgericht, mede door inspanning van het RIZA.
+          In 1955 kreeg het RIZA een eigen vestiging in Sappemeer. Hier was het water
+          sterk vervuild door aardappelmeel-, strokarton- en suikerindustrie. Om de
+          zuiveringskosten te drukken wilde men het water via afvalwaterleidingen naar de
+          Waddenzee en de Eems-Dollard afvoeren. Het RIZA onderzocht of het zelfreinigend
+          vermogen van het Eems-Dollard- estuarium voldoende was om dit op te vangen.
+          Ondanks veel tegenstand van biologen en de opkomende milieubeweging kwamen rond
+          1970 een tweetal 'smeerpijpen' gereed.</html:p>
+          <html:p>In 1970 werd de Wet verontreiniging oppervlaktewateren (WVO) ingevoerd.
+          Met name Artikel 32 van de WVO gaf de taak van het RIZA een wettelijk
+          kader.</html:p>
+          <html:p>In 1972 nam het RIZA twee drijvende meetstations in gebruik in Lobith
+          en in Eysden om de waterkwaliteit in de gaten te houden. Ook benedenstrooms
+          kwamen voorzieningen om alarm te slaan. Voornaamste aanleiding was de
+          alarmerende vervuiling van de Rijn en de Maas. In de jaren 1970-1985 steeg de
+          waterkwaliteit, een nieuw probleem vormde echter eutrofiëring; sterke
+          algengroei door overbemesting met fosfaten en stikstof. Sloten veranderden in
+          'groene soep'. Het RIZA ontwikkelde de methode 'actief biologisch beheer'.
+          Witvissen werden weggevangen en jonge roofvissen uitgezet. Zo werd het
+          biologisch evenwicht van het oppervlaktewater hersteld en verdween de 'groene
+          soep'.</html:p>
+          <html:p>In 1975 vestigde het RIZA zich in Lelystad, met name door het sterk
+          gestegen aantal medewerkers (van ca. 70 in 1970 tot zo'n 200 in 1985). Hier is
+          ook een geheel nieuw laboratoriumcomplex om aan de sterk stijgende behoefte
+          naar onderzoek van afvalwater en oppervlaktewater te kunnen voldoen.</html:p>
+          <html:p>Na 1985 verschoof de aandacht naar vervuiling van het oppervlaktewater
+          door metalen (kwik en cadmium) en allerlei organische microverontreinigingen
+          uit industrie en landbouw (met name DDT, PCB's en PAK). Het RIZA adviseerde
+          over schonere productieprocessen en zuiveringstechnieken en breidde het
+          onderzoek van afvalwater en oppervlaktewater uit (chemisch, bacteriologisch,
+          hydrobiologisch en radiochemisch). Het concept 'integraal waterbeheer' deed
+          tevens haar intrede; de verschillende overheden met taken op het gebied van het
+          waterbeheer gingen een samenhangend waterbeleid voeren. In 1985 werd het
+          Rijksinstituut voor Zuivering van Afvalwater de Dienst Binnenwateren/RIZA. Door
+          een reorganisatie binnen Rijkswaterstaat kreeg het instituut naast
+          waterkwaliteit te maken met waterkwantiteit.</html:p>
+          <html:p>In 1986 was er een brand bij het chemieconcern Sandoz in Basel, waarbij
+          grote hoeveelheden gif met het bluswater in de Rijn belandden, dit leidde tot
+          de totstandkoming van het Rijnaktieplan. In dit plan, ondertekend door de
+          ministers van alle landen waar de Rijn doorheen stroomt, zijn maatregelen
+          opgenomen die ervoor moeten zorgen dat de Rijn in het jaar 2000 weer gezond
+          is.</html:p>
+          <html:p>In 1990 kreeg het instituut de vertrouwde naam RIZA terug, maar behield
+          de brede taakstelling. De betekenis van RIZA is nu: Rijksinstituut voor
+          Integraal Zoetwaterbeer en Afvalwaterbehandeling.</html:p>
+          <html:p>De overstromingen in december 1993 en januari 1995 in Limburg leiden
+          tot het stellen van 'droge voeten' als hoogste prioriteit. Maar niet zonder ook
+          een plaats te gunnen aan bijvoorbeeld natuur en landbouw. Het project ‘de
+          Integrale Verkenning Rijntakken’ kijkt hoe al deze belangen samen kunnen
+          gaan.</html:p>
+          <html:p>In 1995 kreeg het RIZA krijgt er een nieuw taakveld bij: de advisering
+          over een</html:p>
+          <html:p>natuurlijke(r) inrichting van gebieden. Het aantal medewerkers is
+          gegroeid naar zo'n 450. Ook het aantal wetenschappelijke disciplines is
+          toegenomen; het werk is sterk multidisciplinair van karakter en vereist een
+          integrale aanpak. In 1998 gaf de regering opdracht voor een diepgaand onderzoek
+          naar de ernst van de waterverontreiniging.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksinstituut voor de Zuivering van
+            AfvalwaterCoördinatiecommissie Uitvoering Wet Verontreiniging
+            Oppervlaktewateren (CUWVO)Begeleidingscommissie Remote Sensing
+            (BCRS)Interdepartementale werkgroep Verdroging</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1920 nam de minister van Landbouw, Handel en Nijverheid, ir. H.A.
+          van IJsselstein het initiatief voor de oprichting van het Instituut voor
+          Zuivering van Afvalwater in Den Haag. Ir. H.J.N.H. Kessener kreeg de leiding
+          over dit instituut en de negen medewerkers. (instelling : KB 30.7.1920, nr
+          53).</html:p>
+          <html:p>De taak luidde : "de waterverontreiniging te bestrijden en te voorkomen
+          en wel door het verrichten van onderzoekingen zowel aan het instituut zelf als
+          aan proefinstallaties elders en door andere werkzaamheden [...]". Voor het
+          overige hield men zich met name bezig met het geven van voorlichting aan de
+          Commissie inzake de waterverontreiniging, alsmede met de wetenschappelijke
+          bestudering van de openbare wateren. (en de wijze waarop deze kunnen worden
+          beschermd tegen verontreiniging).</html:p>
+          <html:p>In 1920 legde het RIZA de eerste internationale contacten. Twee
+          onderzoeksreizen over de Rijn tot ver in Duitsland leidden er toe dat er in
+          Karnap, aan de monding van de sterk vervuilde Emscher, een zijrivier van de
+          Rijn, een grote zuiveringsinrichting werd gebouwd. In 1923 nam De Haagsche
+          Tramweg Maatschappij in Rijswijk de eerste 'moderne' zuiveringsinrichting voor
+          een remise en 60 bedrijfswoningen in gebruik. Het is een eerste stap in het
+          moeilijke proces om gemeenten te overtuigen van het nut van centrale
+          zuiveringsinrichtingen. In 1940 werden tien zuiveringsinrichtingen bij kazernes
+          gebouwd. De oorlog legt vervolgens vrijwel alles stil.</html:p>
+          <html:p>Vanaf 1947 ressorteerde het instituut onder het Ministerie van Verkeer
+          en Waterstaat, daarvoor Landbouw, Handel en Nijverheid (periode vanaf
+          oprichting tot 1932) en vanaf 1933 tot en met 1946 onder Sociale
+          Zaken.</html:p>
+          <html:p>De wederopbouw van Nederland ging gepaard met een snelle groei van
+          industriële activiteiten en - onvermijdelijk - een grote toename van
+          afvalwaterstromen. Op vele plaatsen werden rioolstelsels aangelegd. Waar het
+          rioolwater uiteindelijk in het oppervlaktewater terecht kwam werd verdunning
+          als een (tijdelijke) oplossing gehanteerd. Vanaf de jaren 50 waren de
+          onderzoekingen van het RIZA meer structureel van aard en werd een begin gemaakt
+          met de aanleg van een uitgebreid meetnet, in 1950 heeft Nederland zo'n 60
+          rioolwaterzuiveringsinrichtingen (vijf jaar later al 350).</html:p>
+          <html:p />
+          <html:p>De kerntaken van het RIZA werden in deze periode (jaren ’50) als volgt
+          gedefinieerd:</html:p>
+          <html:p>In 1954 werd de Internationale Rijncommissie ter Bescherming van de
+          Rijn (IRC) tegen Verontreiniging opgericht, mede door inspanning van het RIZA.
+          In 1955 kreeg het RIZA een eigen vestiging in Sappemeer. Hier was het water
+          sterk vervuild door aardappelmeel-, strokarton- en suikerindustrie. Om de
+          zuiveringskosten te drukken wilde men het water via afvalwaterleidingen naar de
+          Waddenzee en de Eems-Dollard afvoeren. Het RIZA onderzocht of het zelfreinigend
+          vermogen van het Eems-Dollard- estuarium voldoende was om dit op te vangen.
+          Ondanks veel tegenstand van biologen en de opkomende milieubeweging kwamen rond
+          1970 een tweetal 'smeerpijpen' gereed.</html:p>
+          <html:p>In 1970 werd de Wet verontreiniging oppervlaktewateren (WVO) ingevoerd.
+          Met name Artikel 32 van de WVO gaf de taak van het RIZA een wettelijk
+          kader.</html:p>
+          <html:p>In 1972 nam het RIZA twee drijvende meetstations in gebruik in Lobith
+          en in Eysden om de waterkwaliteit in de gaten te houden. Ook benedenstrooms
+          kwamen voorzieningen om alarm te slaan. Voornaamste aanleiding was de
+          alarmerende vervuiling van de Rijn en de Maas. In de jaren 1970-1985 steeg de
+          waterkwaliteit, een nieuw probleem vormde echter eutrofiëring; sterke
+          algengroei door overbemesting met fosfaten en stikstof. Sloten veranderden in
+          'groene soep'. Het RIZA ontwikkelde de methode 'actief biologisch beheer'.
+          Witvissen werden weggevangen en jonge roofvissen uitgezet. Zo werd het
+          biologisch evenwicht van het oppervlaktewater hersteld en verdween de 'groene
+          soep'.</html:p>
+          <html:p>In 1975 vestigde het RIZA zich in Lelystad, met name door het sterk
+          gestegen aantal medewerkers (van ca. 70 in 1970 tot zo'n 200 in 1985). Hier is
+          ook een geheel nieuw laboratoriumcomplex om aan de sterk stijgende behoefte
+          naar onderzoek van afvalwater en oppervlaktewater te kunnen voldoen.</html:p>
+          <html:p>Na 1985 verschoof de aandacht naar vervuiling van het oppervlaktewater
+          door metalen (kwik en cadmium) en allerlei organische microverontreinigingen
+          uit industrie en landbouw (met name DDT, PCB's en PAK). Het RIZA adviseerde
+          over schonere productieprocessen en zuiveringstechnieken en breidde het
+          onderzoek van afvalwater en oppervlaktewater uit (chemisch, bacteriologisch,
+          hydrobiologisch en radiochemisch). Het concept 'integraal waterbeheer' deed
+          tevens haar intrede; de verschillende overheden met taken op het gebied van het
+          waterbeheer gingen een samenhangend waterbeleid voeren. In 1985 werd het
+          Rijksinstituut voor Zuivering van Afvalwater de Dienst Binnenwateren/RIZA. Door
+          een reorganisatie binnen Rijkswaterstaat kreeg het instituut naast
+          waterkwaliteit te maken met waterkwantiteit.</html:p>
+          <html:p>In 1986 was er een brand bij het chemieconcern Sandoz in Basel, waarbij
+          grote hoeveelheden gif met het bluswater in de Rijn belandden, dit leidde tot
+          de totstandkoming van het Rijnaktieplan. In dit plan, ondertekend door de
+          ministers van alle landen waar de Rijn doorheen stroomt, zijn maatregelen
+          opgenomen die ervoor moeten zorgen dat de Rijn in het jaar 2000 weer gezond
+          is.</html:p>
+          <html:p>In 1990 kreeg het instituut de vertrouwde naam RIZA terug, maar behield
+          de brede taakstelling. De betekenis van RIZA is nu: Rijksinstituut voor
+          Integraal Zoetwaterbeer en Afvalwaterbehandeling.</html:p>
+          <html:p>De overstromingen in december 1993 en januari 1995 in Limburg leiden
+          tot het stellen van 'droge voeten' als hoogste prioriteit. Maar niet zonder ook
+          een plaats te gunnen aan bijvoorbeeld natuur en landbouw. Het project ‘de
+          Integrale Verkenning Rijntakken’ kijkt hoe al deze belangen samen kunnen
+          gaan.</html:p>
+          <html:p>In 1995 kreeg het RIZA krijgt er een nieuw taakveld bij: de advisering
+          over een</html:p>
+          <html:p>natuurlijke(r) inrichting van gebieden. Het aantal medewerkers is
+          gegroeid naar zo'n 450. Ook het aantal wetenschappelijke disciplines is
+          toegenomen; het werk is sterk multidisciplinair van karakter en vereist een
+          integrale aanpak. In 1998 gaf de regering opdracht voor een diepgaand onderzoek
+          naar de ernst van de waterverontreiniging.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat dossiers betreffende onderzoek naar en handhaving van de
+      kwaliteit van het oppervlaktewater, tegengaan van lozingen van chemische stoffen,
+      afvalwater- en rioolwaterzuivering, ook in internationaal verband (Rijn, Maas,
+      Schelde).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>630 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>28,50 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

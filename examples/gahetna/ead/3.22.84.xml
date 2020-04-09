@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:13:16 -->
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.22.84::Collectie Realia voormalige Rijksarchief in Zuid-Holland)//NL" url="http://proxy.handle.net/10648/7fe9e849-b1ce-4267-923b-9844b64d4d0f" urn="3.22.84.ead.xml">3.22.84</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van de collectie Realia voormalige Rijksarchief in Zuid-Holland, 1730-1930</titleproper>
+        <author>D.J. Kortlang</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="2008">2008</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2008">2008</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Gijsbert Kruithof, 
+		  <date calendar="gregorian" era="ce" normal="20080429">29 april 2008</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce" normal="20120106">6 januari 2012</date>
+        <item>Redactionele wijzigingen door <name>Diederick Kortlang</name></item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Collectie Realia voormalige Rijksarchief in Zuid-Holland</unittitle>
+      <unittitle type="short">Realia Rijksarchief Zuid-Holland</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1730/1930" type="inclusive">1730-1930</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">37216</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter"> </extent>
+        
+      <extent unit="files">67 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken zijn voorwerpen, maar de teksten die erbij zitten zijn voornamelijk in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Voornamelijk voorwerpen die dienden als bewijsmateriaal in rechtzaken.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Rijksarchief Zuid-Holland</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Deze collectie realia is gevormd door de voormalige derde afdeling van het Algemeen Rijksarchief. De derde afdeling omvatte de Zuid-Hollandse archieven. De voorwerpen zijn afkomstig uit Zuid-Hollandse archieven, zoals het archief van het Hof van Holland, maar ook de Arrondissementsrechtbank Rotterdam. De collectie bevat onder meer voorwerpen die als bewijsmateriaal dienden in rechtzaken, zoals messen, kogels, valse speelkaarten en valse munten. Het materiaal werd vaak gebruikt voor rondleidingen en raakte zo afgescheiden van de archieven waar het bij hoorde.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>De rechtstitel is (nog) onbekend.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek">21</subject>
+        <subject source="ABS_trefwoord">3.22</subject>
+      </controlaccess>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Collectie Realia voormalige Rijksarchief in Zuid-Holland, nummer toegang 3.22.84, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Realia Rijksarchief Zuid-Holland, 3.22.84, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111860" type="ABS">1</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/18f2d15a-7d9d-4d58-8302-52664502c940</unitid>
+          <unittitle>Informatie inzake Christoffel Quelle, beschuldigd van diefstal in dienstbaarheid</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1732">1732</unitdate>
+          <physdesc>sleutel, gesp, 2 lintjes, 2 edelstenen?</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5431, dossier 2</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111861" type="ABS">2</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d6b9f7c-895a-4071-83d7-92a9ce4a12de</unitid>
+          <unittitle>Missive van de procureur-generaal aan de raadsheer Holst met een orangistisch aangeplakt rijmpje tegen de gijzelaar</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1783">1783</unitdate>
+          <physdesc>rijmpje</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5522, dossier 10</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111862" type="ABS">3</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa0a282b-6584-4cd0-8ae8-a69c261b63d2</unitid>
+          <unittitle>Informatie inzake Pieter Mutty wegens vele enorme diefstallen, het helen van gestolen goed, benevens overspel</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1786">1786</unitdate>
+          <physdesc>stukje textiel</physdesc>
+        </did>
+        <odd>
+          <p>exh. 1/2/1786</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5531, dossier 4</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111863" type="ABS">4</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/01555e45-83ca-47cb-b009-f0bd8b6dc066</unitid>
+          <unittitle>Informatie nopens diefstal met braak in de Stadhouderlijke Secretarie</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1794">1794</unitdate>
+          <physdesc>gebroken deurregel</physdesc>
+        </did>
+        <odd>
+          <p>exh. 25/2/1794</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5567, dossier 1</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111864" type="ABS">5</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f2cffe5-10a9-4ed2-8181-c6a3415543ed</unitid>
+          <unittitle>Informatie inzake J. Schwalm beschuldigd van vals militair testament te hebben vervaardigd</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1793">1793</unitdate>
+          <physdesc>stalen cachet (stempel)</physdesc>
+        </did>
+        <odd>
+          <p>exh. 23/10 en 5/11/1793</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5576, dossier 21</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111865" type="ABS">6</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fee198ab-d9b7-4cfe-8b09-db09d4f20502</unitid>
+          <unittitle>Informatie inzake de baljuw Douglas en schepenen van 's-Gravenhage wegens het condemneren van Trijntje Alewijns de Groot over het ophangen van oranje of geel lint binnenshuis</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1787">1787</unitdate>
+          <physdesc>linten</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5537, dossier 37</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111866" type="ABS">7</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d1f36ff-008e-4e5e-813f-7759b287d948</unitid>
+          <unittitle>Intendit van de procureur-generaal contra F.C. Welman wegens moord op de persoon van de weduwe La Piemonte</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1787">1787</unitdate>
+          <physdesc>stukken van een degen</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5457, dossier 1</p>
+        </separatedmaterial>
+        <odd>
+          <p>zie 1746 nr. 7</p>
+        </odd>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111867" type="ABS">8</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a43af407-eac0-4700-a712-a7a134bf9f72</unitid>
+          <unittitle>Informatie inzake mr. C.J. Ockerse, die een vrouw rottingslagen toegebracht had, omdat zij hem schold wegens oneerlijke conversatie met haar buurmeisje</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1782">1782</unitdate>
+          <physdesc>koperen rottingbandje</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5520, dossier 2</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111868" type="ABS">9</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2274619-70aa-475a-b30d-20350f9d250e</unitid>
+          <unittitle>Informatie inzake Johanna Maria Petersen, die zich herhaaldelijk verhangen had om medelijden te wekken</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1770">1770</unitdate>
+          <physdesc>touw [soort keperband]</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5497, dossier 15</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111869" type="ABS">10</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/06ca05fe-2ba5-4838-bf46-a0f6202f9435</unitid>
+          <unittitle>Informatie inzake Antje Polhuis en Aaltje van Dijk, dienstmeiden, wegens het doen maken van een valse sleutel, alleen om ongestoord bij elkander te kunnen komen</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1799">1799</unitdate>
+          <physdesc>grote sleutel</physdesc>
+        </did>
+        <odd>
+          <p>exh. 30/5/1800</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5593, dossier 9</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111870" type="ABS">11</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e110183-2a76-4b42-b319-38dd348a7a18</unitid>
+          <unittitle>Informatie inzake H. van der Horst wegens diefstal van een schel</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1805">1805</unitdate>
+          <physdesc>nijptang</physdesc>
+        </did>
+        <odd>
+          <p>exh. 28/6/1805</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5629, dossier 8</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111871" type="ABS">12</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/65f197a3-dde2-4e2d-b0ab-bd2e6c3be699</unitid>
+          <unittitle>Speelkaarten</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+        </did>
+        <odd>
+          <p>Papieren speelkaart, schoppen 4</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 4331/2 ,</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111872" type="ABS">13</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4e15b63-c2cf-40e9-bc74-7fc1182a3fc3</unitid>
+          <unittitle>Lijst met namen in potlood met telstreepjes erachter [gebruikt als versteviging liassnoer</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1757">1757</unitdate>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 4369/1 ,</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111873" type="ABS">14</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11b62b58-82fd-49d9-8af4-fd6044be53a8</unitid>
+          <unittitle>Speelkaart ruiten 4 [als liasversteviger]</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1792">1792</unitdate>
+        </did>
+        <odd>
+          <p>Speelkaart</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 4408/1 ,</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111874" type="ABS">15</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6688692-1200-494a-92e0-2b343df2746d</unitid>
+          <unittitle>Informatie nopens een gevecht tussen een voerman en twee andere personen</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1792">1792</unitdate>
+          <physdesc>mes</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5564, dossier 12</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111875" type="ABS">16</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1bc88e2-7c18-4c8d-b941-f9b9bbe3a592</unitid>
+          <unittitle>Informatie nopens het uitgeven van koperen Louis voor goud</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1772">1772</unitdate>
+          <physdesc>koperen munt [Louis]</physdesc>
+        </did>
+        <odd>
+          <p>exh. 7/7/1772</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5500, dossier 16</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111876" type="ABS">17</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/167d1e42-8677-4397-8af8-1e404adcdd3a</unitid>
+          <unittitle>Kogel gehaald uit het lijk van Willem Mansvelt blijkens de acte van schouw, dd. 10/9/1792</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1792">1792</unitdate>
+          <physdesc>kogel</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5563, dossier 4</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111877" type="ABS">18</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4600f407-dc33-4c8f-8fa2-78dde3bbdc7f</unitid>
+          <unittitle>Verklaring van mannen van Rijnland over twee stukjes lood op een pistool geladen</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1720">1720</unitdate>
+          <physdesc>stukjes lood</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5396, dossier 5</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111878" type="ABS">19</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a22e1b33-3759-4163-b126-07b759f73d70</unitid>
+          <unittitle>Sleutels</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>2 oude sleutels</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland proceszakken, toegang 3.03.01.01, inv.nr. IIF1 , W3 loc A</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111879" type="ABS">20</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/050f1198-2be6-48f0-9436-983397052821</unitid>
+          <unittitle>2 " nieuwe " sleutels v.d. "nieuwe" sloten die Jacques de la Fontaine aan de kassen moest slaan, waarvan de redenen in de proceszak vermeld zijn</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>2 sleutesl</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland proceszakken, toegang 3.03.01.01, inv.nr. IIF1 , W4 loc B</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111880" type="ABS">21</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f053ed9-338f-434d-8c2c-bc8f00738b80</unitid>
+          <unittitle>Informatie inzake J. Horsbag wegens baldadigheid in dronkenschap gepleegd</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1805">1805</unitdate>
+        </did>
+        <odd>
+          <p>Soort portemonnee of portefeuille met aantekeningen</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5630, dossier 15</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111881" type="ABS">22</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36f0831e-2133-425e-84a4-e17c573dd004</unitid>
+          <unittitle>Maçonniek voorschort</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1787">1787</unitdate>
+          <physdesc>voorschort</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5534, dossier 25</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111882" type="ABS">23</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c67aad53-c025-44a5-a3d5-a96fadd54a73</unitid>
+          <unittitle>Informatie nopens een gevecht tussen de zogenaamde jongen Hercules en de eigenaar van een wassenbeeldenspel die een Hercules vertoonde waarover de eerste gebelgd zijnde het beeld vernield had</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+        <dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.22.84/file/23" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+        <odd>
+          <p>Affiche voorstelling</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5671, dossier 15</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111883" type="ABS">24</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6b3120c-07aa-4a9b-9d73-fe5ddefbf4a9</unitid>
+          <unittitle>Informatie inzake H. van der Burg, klerk ter Rekenkamer, verdacht van de auteur te zijn van een paskwil tegen raadspensionaris Van der Spiegel</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1794">1794</unitdate>
+        </did>
+        <odd>
+          <p>Paskwil</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5570, dossier 5</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111884" type="ABS">25</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/007ef85b-a25f-4f02-a9bb-940f2d4ac000</unitid>
+          <unittitle>Informatie nopens het spelen van komedies in de Beverwijk</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1794">1794</unitdate>
+        <dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.22.84/file/25" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+        <odd>
+          <p>Programma komedie</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5570, dossier 4</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111885" type="ABS">26</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a8e4b0b-ab09-4e43-b145-eb1de5d5cc7e</unitid>
+          <unittitle>Informatie betreffende een pakje met ongeregistreerde Nationale losrenten 4% uit het water opgevist</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1787">1787</unitdate>
+        </did>
+        <odd>
+          <p>Pakje met waardepapieren</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5626, dossier 13</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111886" type="ABS">27</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb0b0959-3117-4535-9c3f-74e0751fb632</unitid>
+          <unittitle>Een pakketje met spotprenten gevonden in een Patrotistische Sociëteit in Den Haag</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1788">1788</unitdate>
+          <physdesc>tekeningen</physdesc>
+        <dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.22.84/file/27" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+        <scopecontent>
+          <p>Spotprenten: "Het Paradijs verloren"; "Het Geldersche zwijngebroed"; "Het Geldersche zwijn"; "Het weegschaal der Gerechtigheid"; "De Delfsche boom van slegte vruchten gezuiverd"</p>
+        </scopecontent>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5539, dossier 8</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111887" type="ABS">28</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7382e52b-3346-4274-af62-ed9030e55c25</unitid>
+          <unittitle>Informatie inzake de majoor L.E. van der Graaft, die de Leidse student Van Schaak moedwillig verwond had, aan welke wond deze was overleden</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1794">1794</unitdate>
+          <physdesc>2 prenten van het graf van de student Van Schaak</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5570, dossier 13</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111888" type="ABS">29</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/814030c4-e38e-46fc-8a97-d302c4509737</unitid>
+          <unittitle>Bankbiljet van 2 dollars gedrukt in 1776 [the United Colonies]</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1776">1776</unitdate>
+        <dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.22.84/file/29" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+        <odd>
+          <p>Bankbiljet</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Familiearchief Berg, toegang 3.20.03, inv.nr. 1184.</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111889" type="ABS">30</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/72d744f7-4c94-48f1-840f-b1de57cb6cf6</unitid>
+          <unittitle>Papieren portefeuille gevouwen uit drukwerk met afbeelding "The rest of the third Fable. The Argument" "Diana transforms in a stag" "Phoseon"</unittitle>
+        </did>
+        <odd>
+          <p>Afkomst uit archief onbekend Genummerd met de hand 95</p>
+        </odd>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111890" type="ABS">31</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/35a6baa2-6ef9-4ee8-9945-8f02ceaf3b17</unitid>
+          <unittitle>Informatie inzake de vaandrig Eduard de Witte, schuldig aan landverraad, als hebbende aangenomen een lading der Engelsen in Zeeland te begunstigen en daartoe aan de de vijand opgave gedaan van de sterkte der troepen en batterijen aldaar. Met twee getekende kaartjes van het eiland Schouwen. Deze zaak heeft tot ernstige jurisdictie kwesties aanleiding gegeven, tussen de Prins die de rechtsmacht van de Hoge Krijgsraad en de Staten die die van het Hof voorstonden.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1784">1784</unitdate>
+          <physdesc>Envelop nog gesloten</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5526, dossier 11</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111891" type="ABS">32</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5dfb078f-79da-480f-9523-9a0aa332cda9</unitid>
+          <unittitle>Mes</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1636">1636</unitdate>
+        <dao linktype="simple" href="http://api.memorix-maior.nl/dam/mets/index/key/naa-mets/tenant/naa/format/xml/findingaid/3.22.84/file/32" actuate="onrequest" show="shownone" audience="internal" role="METS"/></did>
+        <odd>
+          <p>Mes</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland proceszakken, toegang 3.03.01.01, inv.nr. 21, Afgebeeld op Z.H. kalender. Oud nummer: I A 22</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111892" type="ABS">33</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2a7b0de-01bb-4634-9240-6d552ecb0db5</unitid>
+          <unittitle>Touw met haak</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1787">1787</unitdate>
+        </did>
+        <odd>
+          <p>Touw met haak</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5533, dossier 12 Afgebeeld op Z.H. kalender</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111893" type="ABS">34</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e472916-ad3f-447c-bd27-ff4d57e47402</unitid>
+          <unittitle>Ganzeveer</unittitle>
+        </did>
+        <odd>
+          <p>Ganzeveer</p>
+        </odd>
+        <odd>
+          <p>Afkomst uit archief onbekend</p>
+        </odd>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111894" type="ABS">35</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5150e2b5-65ce-48c5-95f2-6cce4974e530</unitid>
+          <unittitle>Bureaugerei met almanak uit 1795</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1795">ca. 1795</unitdate>
+          <physdesc>inktlappen, stempels, almanakje, pennebakken, inktkokers, pennen</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Noorthey-genootschap, toegang 3.22.14, inv.nr. ? ,</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111895" type="ABS">36</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a657752-27a2-43d3-b2af-0cbed7447507</unitid>
+          <unittitle>Betreffende A. Sprangers, Etui met pennen, papier en potloden</unittitle>
+            <unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+            <physdesc>Etui met pennen, papier en potloden</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Assissen monden van de Maas, toegang 3.03.09, inv.nr. 329, Dossier 2202</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111896" type="ABS">37</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/654cadca-8044-4e19-bcc6-18ccaa60e76a</unitid>
+          <unittitle>Eetgerei</unittitle>
+          <physdesc>lepels en vorken</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Advocatenkantoor Blackstone, toegang --, inv.nr. -- ,</p>
+          <p>Archief niet meer bij NA</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111897" type="ABS">38</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc86558a-e00e-4c59-99ee-2a187b608c4f</unitid>
+          <unittitle>Ovaal doosje met opschrift "[...]operen parkementen en papieren. Schelder]</unittitle>
+          <physdesc>doosje</physdesc>
+        </did>
+        <odd>
+          <p>Afkomst uit archief onbekend</p>
+        </odd>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111898" type="ABS">39</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6c9d88c-505e-42b3-930e-ac3bc1dac3a4</unitid>
+          <unittitle>Informatie inzake Hendrik Nobbe wegens hoogverraad als een der aanleggers van een samenzwering der regering door hulp van Franse troepen. met een portefeuille anese waarin enige papieren, een mes, bril en 2 potloden.</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1793">1793</unitdate>
+          <physdesc>portefeuille anese met daarin enige papieren, een mes, bril en 2 potloden</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5566, dossier 1</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111899" type="ABS">40</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/137f926e-1c5d-407e-a582-b300c1a71872</unitid>
+          <unittitle>Proceszak met diverse stempels</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>proceszak/stempels</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. ? , nummer 520</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111900" type="ABS">41</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/041b7d31-a53c-4639-9124-fd14e837cd90</unitid>
+          <unittitle>Lege proceszak met opschrift "Schaap"</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>proceszak</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. ? , nummer 275</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111901" type="ABS">42</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/95e56e07-1aea-4f57-b763-1c899d83e4af</unitid>
+          <unittitle>Lege proceszak met opschrift "V.D. Sprang voor A.C.E."</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>proceszak</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. ? ,</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111902" type="ABS">43</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5a13dd0-d820-4bdf-bd6b-c9a690f5cfff</unitid>
+          <unittitle>Informatie inzake F. von Hatzfeld wegens godslastering ter zake van het uitgeven van een werkje getiteld "La decouverte de la vérité"</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>proceszak met het drukwerkje, lepel, enig lood, waslichten, een koperen knipje en poeder</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5454, dossier 13</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111903" type="ABS">44</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4dc011e5-85ac-4a35-bed3-17c5153642b9</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+        </did>
+        <odd>
+          <p>valse gulden [1897]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 674, Strafprocesdossier 21/9/1975</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111904" type="ABS">45</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7e81557-e1b4-4cc9-800c-82fef953e8ca</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1930">ca. 1930</unitdate>
+          <physdesc>11 valse kwartjes [1928] en 1 valse gulden</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 91, Strafprocesdossier 17/5/1934 [rolnrs. 376-378</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111905" type="ABS">46</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbfc1ac4-19aa-4ef0-b434-8a3e6f6fcf72</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1905">ca. 1905</unitdate>
+        </did>
+        <odd>
+          <p>vals kwartje [1904]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 678, Strafprocesdossier 19/1/1907</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111906" type="ABS">47</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae5d4882-81c0-4f51-85be-e197736810d6</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1930">ca.1930</unitdate>
+        </did>
+        <odd>
+          <p>2 valse guldens [1931]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 84, Strafprocesdossier 15/12/1932 [rolnr. 733]</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111907" type="ABS">48</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/43ff2459-26e2-402a-83ac-268f7252cc87</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+        </did>
+        <odd>
+          <p>3 valse kwartjes [1897] en 1 valse gulden [1897]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 670, Strafprocesdossier 2/6/1904</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111908" type="ABS">49</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb484903-1ecb-4ed0-90f7-3c8bde23f839</unitid>
+          <unittitle>Valsemunterij [contra P. Bredemeijer]</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+        </did>
+        <odd>
+          <p>2 echte dubbeltjes [1893 en 1931 of 1935]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 730, Strafprocesdossier 9/8/1918</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111909" type="ABS">50</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b31992d1-d092-4702-af06-a37cf5235860</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1925">ca. 1925</unitdate>
+        </did>
+        <odd>
+          <p>2 valse guldens [1923]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 1920, Strafprocesdossier 22/1/1925</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111910" type="ABS">51</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f0a1bca-9cad-4783-abdd-fba86184ef19</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1930">ca. 1930</unitdate>
+        </did>
+        <odd>
+          <p>2 valse kwartjes [1926], 21 valse kwartjes [1928], 3 valse rijksdaalders [1930]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 135, Strafprocesdossier 1938 [roln rs. 853-855]</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111911" type="ABS">52</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c10011fe-12d3-4350-b7d6-42ac82260d56</unitid>
+          <unittitle>munten (2 x 2 1/2 cent, 5 x 1 cent)</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+          <physdesc>munten</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Advocatenkantoor Blackstone</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111912" type="ABS">53</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f95edbe0-04f5-4c70-9a8e-7047a3863676</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+        </did>
+        <odd>
+          <p>vals kwartje [1902]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 684, Strafprocesdossier 23/1/1909</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111913" type="ABS">54</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5593c2b0-b274-4efc-a546-b09e330a0c07</unitid>
+          <unittitle>Valsemunterij</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1900">ca. 1900</unitdate>
+        </did>
+        <odd>
+          <p>valse rijksdaalder [1867] en 4 valse guldens [1897]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 684, Strafprocesdossier 5/1/1909</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111914" type="ABS">55</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7975dfbc-10f9-4167-abd0-944e13f4b6dc</unitid>
+          <unittitle>Buitenlandse munten (1876-1910) buitenlandse munten (1876-1910)</unittitle>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Familiearchief Van den Brandeler, toegang 3.20.06, uit bruine fotodoos</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111915" type="ABS">56</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1789c980-3a37-4c6a-b811-8016cc3bae84</unitid>
+          <unittitle>Kogel</unittitle>
+          <physdesc>1 kogel</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, inv.nr. 94, Strafprocesdossier 1934 [rolnr. 968</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111916" type="ABS">57</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7ba86aa-8080-479e-add2-abf0b7e79d0b</unitid>
+          <unittitle>Proces-verbaal 22/3/1945 moord gepleegd op G.H.L. Bakker te Haarlem. Kogels vertoont aan beklaagde C. A. Van der Voort, dd. 17-9-1945</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1945">1945</unitdate>
+        </did>
+        <odd>
+          <p>Kogels gevonden in kleden van het slachtoffer Bakker, 2 kogels, 2 hulzen, 1 kogelpunt</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Krijgsraad te Velde West, toegang 3.03.47, doosnr. 515, rolnr. 1748 Volgens opgave op envelop zouden er 4 patroonhulzen en 3 kogels moeten zijn</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111917" type="ABS">58</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f86b06ee-7a2b-4e52-91a4-b997989913dc</unitid>
+          <unittitle>Proceszak drie guldenstuk ontvangen door koopman Beernewal (beklaagde Gerrit van Eesen]</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1724">1724</unitdate>
+          <physdesc>Proceszak met diverse drie gulden stukken en rijksdaalders</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111918" type="ABS">59</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7ad8c7c-f04e-44e3-80ea-7363382c828c</unitid>
+          <unittitle>Valsemunterij (bewijsstukken)</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1930">ca. 1930</unitdate>
+          <physdesc>munten</physdesc>
+        </did>
+        <odd>
+          <p>1 valse gulden [1901], 1 valse gulden [1931], 1 valse rijksdaalder [1850], 2 valse rijksdaalders [1851], 2 valse rijksdaalders [1873], 11 valse rijksdaalders [1929], 93 valse rijksdaalders [1930], 1 vals gouden tientje [1826], 1 vals gouden tientje [1913], 1 echt gouden tientje [1875]</p>
+        </odd>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Arrondissementsrechtbank Rotterdam, toegang 3.03.17.04, Strafprocesdossier 1932 [rolnrs. 477-479]</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111919" type="ABS">60</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1270829c-1a94-433b-b74b-9025e39137d4</unitid>
+          <unittitle>Strafdossier 28 mei 1891</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1891">ca. 1891</unitdate>
+        </did>
+        <odd>
+          <p>Afkomst uit archief onbekend</p>
+        </odd>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111920" type="ABS">61</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/85dccb90-3b43-448d-ae04-9743342e0db2</unitid>
+          <unittitle>Enveloppen met zakjes met "blauwsel" (monsters)</unittitle>
+          <physdesc>4 enveloppen</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland proceszakken, toegang 3.03.01.01, inv.nr. IIK146</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111921" type="ABS">62</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/49224f61-b34d-4d68-a9b2-d104f798d423</unitid>
+          <unittitle>Wapen (Bajonet)</unittitle>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Familiearchief Van den Brandeler, toegang 3.20.06, inv.nr. 60</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="3111922" type="ABS">63</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/673e6cfe-a6dc-4c62-bad6-75627c59ebb3</unitid>
+          <unittitle>pennen en liassen</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1700/1799">18de eeuw</unitdate>
+          <physdesc>pennen en liassen</physdesc>
+        </did>
+        <separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01</p>
+        </separatedmaterial>
+        <phystech type="ABS">
+          <p>Niet raadpleegbaar</p>
+        </phystech>
+      </c01>
+        <c01 level="file"><did>
+          <unitid identifier="3805362" type="ABS">64</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e5a231b-4a4d-4087-a125-d657287ed889</unitid>
+          <unittitle>Snoeischaar</unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1764/1765">1764-1765</unitdate>
+          <physdesc>snoeischaar</physdesc>
+        </did><odd>
+									<p>Bewijsstukken uit procesdossier tegen Jan van Geleen, geweermaker, en zijn vrouw Beatrix Steen uit Den Haag wegens het 'snoeien' van geld (het afknippen van de randen van zilveren munten).</p>
+								</odd><separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5484 dossier 12</p>
+        </separatedmaterial><phystech type="ABS">
+          
+        <p>Niet raadpleegbaar</p></phystech></c01>
+      <c01 level="file"><did>
+          <unitid identifier="3805363" type="ABS">65</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ecd25465-3444-4e7e-ba85-7478d32398e4</unitid>
+          <unittitle>Afgeknipte randjes van zilveren munten </unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1764/1765">1764-1765</unitdate>
+          <physdesc>zilveren randjes</physdesc>
+        <physloc type="ABS">Ontbreekt</physloc></did><odd>
+									<p>Bewijsstukken uit procesdossier tegen Jan van Geleen, geweermaker, en zijn vrouw Beatrix Steen uit Den Haag wegens het 'snoeien' van geld (het afknippen van de randen van zilveren munten).</p>
+								</odd><separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5484 dossier 12</p>
+        </separatedmaterial><phystech type="ABS">
+          
+        <p>Niet raadpleegbaar</p></phystech></c01>
+        <c01 level="file"><did>
+          <unitid identifier="3805364" type="ABS">66</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/39d18ada-7eef-453b-895b-c19473d55413</unitid>
+          <unittitle>4 valse munten </unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1770">1770</unitdate>
+          <physdesc>4 munten</physdesc>
+        </did><odd>
+									<p>Informatie inzake J.B.M. Porteletti, dit d'Hauteuil, wegens valse munt, met een papier waarin enig valse munt. </p>
+									<p>"Vgl het rapport van Dr. H.C.M. van der Krabben van 28 augustus 1967 briefnr. E 204."</p>
+								</odd><separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5497 dossier 13, port. B</p>
+        </separatedmaterial><phystech type="ABS">
+          
+        <p>Niet raadpleegbaar</p></phystech></c01>
+        <c01 level="file"><did>
+          <unitid identifier="3805365" type="ABS">67</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dad1385c-c782-426c-9577-662658f3d654</unitid>
+          <unittitle>2 proceszakken </unittitle>
+          <unitdate calendar="gregorian" era="ce" normal="1770">z.d. en 1794</unitdate>
+          <physdesc>4 munten</physdesc>
+        </did><odd>
+									<p>Informatie inzake J.B.M. Porteletti, dit d'Hauteuil, wegens valse munt, met een papier waarin enig valse munt. </p>
+									<p>"Vgl het rapport van Dr. H.C.M. van der Krabben van 28 augustus 1967 briefnr. E 204."</p>
+								</odd><separatedmaterial>
+          <p>Afkomstig uit het archief Hof van Holland, toegang 3.03.01.01, inv.nr. 5497 dossier 13, port. B</p>
+        </separatedmaterial><phystech type="ABS">
+          
+        <p>Niet raadpleegbaar</p></phystech></c01>
+    </dsc>
+  </archdesc>
+</ead>

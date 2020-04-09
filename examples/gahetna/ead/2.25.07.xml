@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 13:59:14 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::2.25.07::Digitaal Archief Arbeidsvoorziening)//NL" url="http://proxy.handle.net/10648/68ec5f20-813f-4dca-b1a0-a479caa16eb2" urn="2.25.07.ead.xml">2.25.07</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het digitale archief van de Arbeidsvoorziening, 1994-2001</titleproper>
+        <author>Het Expertise Centrum</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="2003">2003</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2010">2010</date> vervaardigd door ABS-Archeion op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief, versie 1.7.2</title>. Eindredactie: Henny van Schie, <date calendar="gregorian" era="ce" normal="20100608">8 juni 2010</date>.</creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">
+              Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen:
+              <bibref linktype="simple">
+          <title linktype="simple">ISAD(G): Algemene Internationale Norm voor Archivistisch Beschrijven, vertaling van de tweede uitgave</title>, Antwerpen / Leuven / Amsterdam 2004
+              </bibref>;
+              <bibref linktype="simple">
+          <title linktype="simple">Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003
+              </bibref>.
+            </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce">.</date>
+        <item>
+          <num>1</num>. </item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Digitaal Archief Arbeidsvoorziening</unittitle>
+      <unittitle type="short">Digitaal Archief Arbeidsvoorziening</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1994/2001" type="inclusive">1994-2001</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">P7</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="Gb">208 Gb; </extent>
+        
+      <extent unit="files">1 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Digitale documenten.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Centraal Bureau voor de Arbeidsvoorziening</corpname> (CBA, tot 1994)
+				<corpname>Landelijk Bureau Arbeidsvoorziening</corpname> (LBA, vanaf 1994)
+				<corpname>Centraal Bestuur voor de Arbeidsvoorziening</corpname> (CBA)
+				<corpname>Bestuurder Centraal Bestuur Arbeidsvoorziening</corpname>
+        <corpname>Regionaal Bestuur voor de Arbeidsvoorziening</corpname> (RBA)
+				<corpname>Raad voor de Studie- en Beroepskeuze</corpname>
+        <corpname>Inspectie van de Beroepskeuzevoorlichting</corpname>
+        <corpname>Sectorcommissie Artiesten en Musici</corpname> (SECAM)
+				<corpname>Sectorale Commissie Zeescheepvaart en Mobiele Offshore</corpname> (SCZ)
+				<corpname>Ontslagcommissie</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het digitale archief bevat informatie die afkomstig is uit de kantoorautomatiseringsomgeving (tekstdocumenten en e-mailberichten) van de Arbeidsvoorziening. Deze bestanden zijn afkomstig van overkoepelende organen als de concernstaf, het facilitair bedrijf en Werklinq, alsook van de regionale organisatieonderdelen, zoals de Regionale Besturen Arbeidsbureaus (RBA).</abstract>
+    </did>
+    <descgrp type="context">
+      <head>Archiefvorming</head>
+      <bioghist>
+        <head>Geschiedenis van de archiefvormer</head>
+        <bioghist>
+          <head>Historisch perspectief van de archiefvormer</head>
+          <note>
+            <p> De gegevens m.b.t. deze paragraaf zijn ontleend aan de rapporten De geschiedenis van  de openbare arbeidsbemiddeling in Nederland (Research voor Beleid, Leiden 1988) en Tien jaar tripartiete (Arbeidsvoorziening Zoetermeer 2002). </p>
+          </note>
+          <p>Tegen het einde van de 19e eeuw ligt de arbeidsbemiddeling voornamelijk in handen van vakverenigingen en verenigingen op ideële grondslag. Voor die tijd is de arbeidsbemiddeling het werkterrein van particulieren, die op de eerste plaats geïnteresseerd zijn in woekerwinsten. De overheidsbemoeienis met de arbeidsbemiddeling is ontstaan aan het begin van de 20e eeuw. In 1902 werd in Schiedam de eerste gemeentelijke arbeidsbeurs opgericht.</p>
+          <p>In de Eerste Wereldoorlog wordt het probleem van de werkloosheid dermate groot, dat de nationale overheid er niet meer om heen kan: het rijk neemt zijn verantwoordelijkheid met de oprichting van de Centrale Rijks Arbeidsbeurs. In 1916 wordt deze dienst samengevoegd met de Dienst Werkloosheidsverzekering in de Rijksdienst der Werkloosheidsverzekering en Arbeidsbemiddeling. Onder deze Rijksdienst vallen districts-arbeidsbeurzen, gemeentelijke arbeidsbeurzen en agentschappen. Een van taken van de rijksdienst wordt de voorbereiding van een arbeidsbemiddelingwet, die in 1932 in werking treedt. Deze wet stelt een verbod op de arbeidsbemiddeling zonder een vergunning van overheidswege. Daarnaast verschaft deze wet een juridische basis aan de arbeidsbemiddeling, die van overheidswege wordt geleid en in stand gehouden.</p>
+          <p>Tijdens de Tweede Wereldoorlog wordt de arbeidsbemiddeling naar Duits model gereorganiseerd. Het Rijksarbeidsbureau (RAB), een afdeling van het Departement van Sociale Zaken, wordt belast met de openbare arbeidsbemiddeling. Deze afdeling bestaat uit een hoofdbureau, 37 gewestelijke arbeidsbureaus (GAB's) en 144 bijkantoren. Voorts berust bij het RAB ook de zorg voor de openbare voorlichting bij beroepskeuze en de bemiddeling voor het verkrijgen van een gelegenheid om vakkennis op te doen. Op 1 januari 1943 wordt de Afdeling Vakontwikkeling en Sociale Jeugdzorg van de Rijksdienst voor de Werkverruiming ondergebracht bij het RAB. Dit betekent tevens de overgang van de gemeentelijke Centrale Werkplaatsen naar het RAB waarbij de benaming wordt aangepast tot Rijkswerkplaatsen (RWP). De regering in Londen bepaalt in 1944 bij Koninklijk Besluit (KB) dat na de oorlog het bovengenoemde model definitief zal worden overgenomen. Tegelijkertijd vindt er een taakverzwaring plaats door de invoering van de ontslagtaak [artikel 6 van het Buitengewoon Besluit Arbeidsverhoudingen (BBA) 1945].</p>
+          <p>In de jaren vijftig doen zich enkele belangrijke veranderingen voor. In de eerste plaats wordt de bemiddelingsindeling, die gebaseerd was op de verschillende beroepen, vervangen door een beroepenclassificatiesysteem. De idee hierachter was dat veel werkzaamheden door mensen met dezelfde verstandelijke vermogens gedaan konden worden. In de tweede plaats wordt de bestaande gebiedsindeling van de arbeidsbureaus veranderd. Er worden 84 GAB's ingesteld waarvan er 11 als Districtsarbeidsbureau gaan functioneren. Tenslotte wordt de Directie voor de Arbeidsvoorziening (het latere Directoraat-Generaal voor de Arbeidsvoorziening) opgericht dat onderdeel ging uitmaken van het Ministerie van Sociale Zaken en Volksgezondheid. De directie krijgt als taak "een doeltreffende arbeidsvoorziening te bevorderen" alsmede zorg te dragen voor de gesubsidieerde aanvullende werkgelegenheid. Verder wordt de taak uitgebreid met de verplaatsing van arbeidskrachten binnen Europa; arbeidsmarktonderzoek; voorbereiding, uitvoering van verdragen betreffende de uitwisseling van arbeidskrachten en van stagiaires met andere landen en vraagstukken van arbeidsvoorziening in buitengewone omstandigheden. Door de toename van taken en activiteiten verandert de naam arbeidsbemiddeling in arbeidsvoorziening.</p>
+          <p>In verband met de ongewenste associaties, die de benaming "Rijkswerkplaats voor Vakontwikkeling" bleek op te roepen, wordt de naam in de loop van 1958 veranderd in  "Regionale Werkplaats voor Vakopleiding van Volwassenen" en later in "Centrum voor Vakopleiding van Volwassenen".</p>
+          <p>In de jaren zestig krijgt de openbare arbeidsbemiddeling door twee ontwikkelingen een ander karakter die de jaren daarna richtingbepalend zullen zijn. De eerste ontwikkeling wordt geïnitieerd door een OESO-rapport (Organisatie voor Economische Samenwerking en Ontwikkeling).</p>
+          <p>Dit concludeerde kortweg dat Nederland een actief arbeidsmarktbeleid moet gaan voeren om te streven naar volledige werkgelegenheid. De tweede ontwikkeling was het ontstaan van uitzendbureaus, die door de grote vraag naar arbeidskrachten, in toenemende mate concurreren met de arbeidsbureaus. Naar aanleiding van deze ontwikkelingen komt de Sociaal-Economische Raad (SER) in 1971 met een advies over Arbeidsbureau Nieuwe Stijl (ANS), als gevolg waarvan Arbeidsvoorziening het eigen uitzendbureau START opricht.</p>
+          <p>In de jaren zeventig en tachtig krijgt men echter te maken met een grote achteruitgang van de werkgelegenheid en een enorme aanwas van werklozen. Hierop zijn de arbeidsbureaus niet ingesteld en het experiment met ANS stagneert daardoor. Het combineren van de administratieve registratiefunctie van werklozen met de acquisitie van vacatures komt moeizaam op gang. Daarnaast ontstaan nieuwe vormen van concurrentie (headhunters, outplacement, bedrijfsverenigingen) en is de maatschappelijke kritiek op het functioneren van de arbeidsbureaus heviger dan ooit.</p>
+          <p>In 1985 adviseert de SER te komen tot een nieuwe zelfstandige organisatie op tripartiete leest geschoeid. Werkgevers, werknemers en overheid dienen op gelijke wijze verantwoordelijk te zijn voor het arbeidsvoorzieningsbeleid. Het Directoraat-Generaal voor de Arbeidsvoorziening dient te worden vervangen door een nieuw bestuurlijk concept. Dit SER-advies wordt uiteindelijk de basis van de Arbeidsvoorzieningswet (AVW), die op 1 januari 1991 in werking treedt.</p>
+          <p>Met de invoering van de AVW en de bijbehorende invoeringswet wordt de organisatie omgevormd tot een zelfstandig openbaar lichaam, onder een centraal tripartite bestuur van overheid, werkgevers- en werknemersorganisaties, dat verantwoordelijk is voor het arbeidsvoorzieningsbeleid.</p>
+          <p>Eind 1994 wordt tussen de Minister van SZW en sociale partners een 'Partijenovereenkomst inzake hoofdlijnen toekomst Arbeidsvoorziening' gesloten. Deze overeenkomst bevat een aantal afspraken tussen de minister en sociale partners over voortzetting van de tripartiete structuur, het beheer, de financiering en de bestuurlijke inrichting van de organisatie. In maart 1995 presenteert de, door de Minister van SZW ingestelde, Commissie Evaluatie Arbeidsvoorzieningswet (Commissie Van Dijk) haar eindrapport. Hierin uit zij kritiek op het functioneren van het tripartiete bestuursmodel op landelijk niveau. Het eindrapport van de commissie en eerdergenoemde overeenkomst leiden onder meer tot de nieuwe Arbeidsvoorzieningswet 1996, die op 1 januari 1997 in werking treedt.</p>
+          <p>In deze wet wordt de tripartiete bestuursvorm gehandhaafd, zij het dat de vertegenwoordigers van de Rijksoverheid zijn vervangen door onafhankelijke kroonleden. Dit om een betere scheiding van verantwoordelijkheden te realiseren. Daarnaast kent deze wet een andere bevoegdheidsverdeling dan de oude Arbeidsvoorzieningswet. Het Centraal Bestuur en de Regionale Besturen sturen op hoofdlijnen van het beleid. De dagelijkse leiding over de organisatie wordt opgedragen aan de Algemene Directie en de Regionale Directies. De Algemene Directie stuurt de Regionale Directies aan op het gebied van beheer en bedrijfsvoering.</p>
+          <p>In de tweede helft van de jaren negentig wordt het proces van Samenwerking Werk en Inkomen (SWI) gestart. Het kabinet beoogt een vorm van gecoördineerde dienstverlening, waarbij op cliëntniveau de diensten m.b.t. werk en inkomen gecombineerd als één pakket, zo mogelijk vanuit één loket wordt aangeboden.</p>
+          <p>Voor de vormgeving van de samenwerking is de Regiegroep Samenwerking Werk en Inkomen, een samenwerkingsverband van het CBA, het TICA en de VNG, ingesteld. Deze adviseert medio 1997 aan het kabinet om in het hele land te komen tot Centra voor Werk en Inkomen (CWI) waarin gemeenten, arbeidsbureaus en de uitvoeringsinstellingen voor de sociale verzekeringen samenwerken op het gebied van arbeidsbemiddeling en uitkeringsverstrekking. </p>
+          <p>In het Regeerakkoord van 1998 wordt uitgebreid ingegaan op de beoogde veranderingen in de uitvoering van de arbeidsvoorziening en de sociale zekerheid. De reïntegratietaken en de uitkeringsverzorging zouden op termijn moeten worden uitgevoerd door private instanties.</p>
+          <p>In maart 1999 wordt in het Kabinetsstandpunt inzake de Structuur van de uitvoering werk en inkomen (SUWI) opgenomen dat de basisdienstverlening van Arbeidsvoorziening wordt ondergebracht in de CWI's en dat de reïntegratie taken in een afzonderlijk te vormen bedrijf worden ondergebracht.</p>
+          <p>Uiteindelijk neemt het kabinet in maart 2000 in het document "Nader kabinetsstandpunt SUWI" een definitief standpunt in. Het onderdeel van Arbeidsvoorziening dat de arbeidsbemiddeling verzorgt wordt ondergebracht in de Centrale Organisatie werk en inkomen, waarvan ook de CWI's deel uitmaken. Het reïntegratiedeel van Arbeidsvoorziening wordt geprivatiseerd. Er komt een Raad voor Werk en Inkomen, waarin vertegenwoordigers van gemeenten en sociale partners participeren. Er komt een publiek orgaan, het Uitvoeringsorgaan Werknemersverzekeringen (UWV), waarmee de weg naar privatisering van de uitkeringsverzorging wordt verlaten.</p>
+          <p>Het "Nader kabinetsstandpunt SUWI" vormt uiteindelijk de basis voor de Wet Structuur Uitvoeringsorganisatie Werk en Inkomen die op 1 januari 2002 in werking is getreden.</p>
+        </bioghist>
+        <bioghist>
+          <head>Organisatie en taken van de Arbeidsvoorziening, periode 1991-2001</head>
+          <bioghist>
+            <head>Inleiding</head>
+            <p>Op 1 januari 1991 wordt bij wet (Arbeidsvoorzieningswet, Stb.1990, 402) een publiekrechtelijke organisatie, de Arbeidsvoorzieningsorganisatie, in het leven geroepen. De organisatie maakt niet langer deel uit van het Ministerie van Sociale Zaken en Werkgelegenheid (SZW) maar wordt een zelfstandige organisatie bestaande uit een centraal bestuur, een algemeen directeur, een centraal (landelijk) bureau, 28 regionale besturen met alle een regionaal directeur en regionaal stafbureau. Verder maken circa 140 arbeidsbureaus en 60 centra vakopleiding deel uit van de organisatie.</p>
+            <p>De Arbeidsvoorzieningsorganisatie wordt in artikel 2 van de AVW belast met het bevorderen van een doelmatige en rechtvaardige aansluiting van vraag en aanbod van arbeidskrachten op de arbeidsmarkt. Hiertoe draagt zij in elk geval zorg voor (artikel 4 AVW):
+					<list mark="hyphen" type="marked">
+                <item>het verzamelen en verstrekken van informatie over ontwikkelingen op de arbeidsmarkt;</item>
+                <item>voorlichting en advisering, gericht op het inzichtelijk maken van de arbeidsmarkt voor werkgevers en werkzoekenden (met name beroepskeuzevoorlichting);</item>
+                <item>het inrichten en in stand houden van een landelijk gespreide organisatie voor de openbare arbeidsbemiddeling, alsmede het bevorderen van een goede afstemming tussen deze en de door derden verrichte arbeidsbemiddeling;</item>
+                <item>het bevorderen van scholing, alsmede het stimuleren en coördineren van activiteiten van derden op dit terrein;</item>
+                <item>het bekend blijven met de ontwikkelingen van het leerlingwezen en het in overleg met de Minister van Onderwijs &amp; Wetenschappen (O&amp;W) bijdragen aan de ontwikkeling van beleidsvoorstellen daaromtrent.</item>
+              </list>
+            </p>
+            <p>Daarnaast voert de Arbeidsvoorzieningsorganisatie nog enkele andere wettelijke taken uit, waaronder de ontslagtaak (artikel 6 Buitengewoon Besluit Arbeidsverhoudingen).</p>
+            <p>In de nieuwe Arbeidsvoorzieningswet 1996 (AVW 1996) wordt in artikel 3 bepaald dat de doelstelling of kerntaak van de Arbeidsvoorzieningsorganisatie voortaan luidt: het bevorderen van de aansluiting tussen vraag naar en aanbod van arbeidskrachten op de arbeidsmarkt, in het bijzonder door dienstverlening aan moeilijk plaatsbare werkzoekenden</p>
+            <p>In artikel 4 van de AVW 1996 staat wat deze kerntaak in elk geval inhoudt:
+					<list numeration="arabic" type="ordered">
+                <item>Ten behoeve van iedere werkzoekende en werkgever:</item>
+                <item>
+                  <list mark="hyphen" type="marked">
+                    <item>Het inrichten en in stand houden van een landelijk gespreide organisatie voor de openbare arbeidsbemiddeling;</item>
+                    <item>Het registreren van werkzoekenden en het registreren van vacatures;</item>
+                    <item>Het voordragen van geschikte vacatures aan werkzoekenden en het voordragen van geschikte werkzoekenden voor vacatures;</item>
+                    <item>Het verzamelen en analyseren van informatie over ontwikkelingen op de arbeidsmarkt;</item>
+                    <item>Het geven van informatie en advies met betrekking tot arbeidsmarktvraagstukken,  studie- en beroepskeuze en om-, her-, of bijscholing;</item>
+                  </list>
+                </item>
+                <item>Ten behoeve van moeilijk plaatsbare werkzoekenden;</item>
+                <item>
+                  <list mark="hyphen" type="marked">
+                    <item>Het geschikt maken voor hun inschakeling in de arbeid, in het bijzonder door scholing;</item>
+                    <item>Het leveren van bijzondere inspanningen voor hun arbeidsbemiddeling;</item>
+                  </list>
+                </item>
+                <item>Ten behoeve van werkgevers; het leveren van diensten ter vervulling van naar haar oordeel moeilijk vervulbare vacatures.</item>
+              </list>
+            </p>
+            <p>Op 1 januari 2002 is de Arbeidsvoorzieningsorganisatie als gevolg van de invoering van de nieuwe structuur voor werk en inkomen (SUWI) formeel opgesplitst. Vooruitlopend hierop is in oktober 2000 een interne reorganisatie doorgevoerd door de inrichting van vijf intern verzelfstandigde bedrijfsonderdelen:
+					<list mark="hyphen" type="marked">
+                <item>KLIQ (het reïntegratiebedrijf);</item>
+                <item>Centrum Vakopleiding (het scholingsbedrijf voor werkzoekenden);</item>
+                <item>Facent (het facilitair bedrijf van Arbeidsvoorziening);</item>
+                <item>ESF Nederland (nadien Agentschap SZW);</item>
+                <item>Arbeidsbureau Nederland (het publieke bedrijfsonderdeel).</item>
+              </list>
+            </p>
+            <p>Elk van deze onderdelen gaat een eigen toekomst tegemoet. Om dit proces te bespoedigen en helderheid te scheppen voor klanten, opdrachtgevers en ook de eigen medewerkers heeft het Centraal Bestuur voor de Arbeidsvoorziening besloten alle bedrijfsonderdelen op 1 april 2001 over te dragen aan nieuwe bestuurders en zelf terug te treden.</p>
+            <p>Ook de regionale besturen voor de Arbeidsvoorziening treden terug. Bestuur en directie zijn dit overeengekomen met minister van SZW. De door de minister van SZW aangewezen bestuurders geven verder vorm aan de positie van de vijf bedrijfsonderdelen.</p>
+            <p>De vijf voormalige bedrijfsonderdelen van Arbeidsvoorziening zijn per 1 januari 2002 extern verzelfstandigd. De arbeidsvoorzieningsorganisatie is blijven voortbestaan in de vorm van het Concern van Arbeidsvoorziening. Het concern ondersteunt de achtereenvolgende bestuurders (zie hierna) bij de afwikkeling/liquidatie van Arbeidsvoorziening. De Arbeidsvoorzieningswet 1996 is op die situatie aangepast. De (aangepaste) wet blijft van kracht tot de feitelijke liquidatie van Arbeidsvoorziening.</p>
+            <p>Binnen de Arbeidsvoorzieningsorganisatie is een tiental actoren te onderscheiden, die onder de werking van de Archiefwet 1995 vallen en waarvan handelingen zijn opgenomen. Van deze actoren is hieronder een beschrijving opgenomen.</p>
+          </bioghist>
+          <bioghist>
+            <head>Centraal Bestuur voor de Arbeidsvoorziening</head>
+            <p>Het Centraal Bestuur voor de Arbeidsvoorziening (CBA), ingesteld op 1 januari 1991 bij de Arbeidsvoorzieningswet (AVW), staat aan het hoofd van de Arbeidsvoorzieningsorganisatie en is samengesteld uit vertegenwoordigers van de centrale organisaties van werkgevers en werknemers en vertegenwoordigers van de ministers van O&amp;W, Economische Zaken (EZ) en SZW. De Vereniging van Nederlandse Gemeenten (VNG) is lid zonder stemrecht. Het CBA staat onder een onafhankelijk voorzitter. De benoeming van de voorzitter, de plaatsvervangend voorzitters en de (plv.) leden vindt plaats bij Koninklijk Besluit.</p>
+            <p>Artikel 11 van de AVW geeft de taken van het CBA. Het CBA is belast met:
+					<list mark="hyphen" type="marked">
+                <item>Het uitvoeren van de taak van de Arbeidsvoorzieningsorganisatie voor zover daarvoor op centraal niveau beleidsbepaling en -uitvoering noodzakelijk is;</item>
+                <item>Het bevorderen van samenhang tussen het arbeidsvoorzieningsbeleid van de Arbeidsvoorzieningsorganisatie en dat van andere organisaties;</item>
+                <item>Het op verzoek verlenen van ondersteuning aan Regionale Besturen;</item>
+                <item>Het zorg dragen voor een deugdelijk beheer van de middelen van de Arbeidsvoorzieningsorganisatie.</item>
+              </list>
+            </p>
+            <p>De nieuwe AVW 1996 brengt een aantal veranderingen met zich mee voor het CBA. Deze veranderingen hebben onder meer betrekking op vervanging van de vertegenwoordigers van de rijksoverheid door kroonleden in het nieuw te benoemen bestuur en op het takenpakket. Dit gewijzigde takenpakket is omschreven in artikel 14 van de AVW 1996 en luidt:
+					<list mark="hyphen" type="marked">
+                <item>Het vaststellen van het algemene beleid in de vorm van het landelijk beleidsplan;</item>
+                <item>Het vaststellen van de landelijke begroting en van de landelijke jaarrekening en het landelijke jaarverslag;</item>
+                <item>Het toezien op een juiste uitvoering van het vastgestelde algemene beleid, alsmede op de samenhang in het beleid van de Regionale Besturen en de afstemming van het algemene beleid;</item>
+                <item>Het toezien op een deugdelijk beheer en een rechtmatige en doelmatige besteding van de middelen van de Arbeidsvoorzieningsorganisatie aan de onderscheiden taken;</item>
+                <item>Het voeren van overleg met de Minister van SZW;</item>
+                <item>Het benoemen van de Algemene Directie.</item>
+              </list>
+            </p>
+            <p>Vooruitlopend op de invoering van de nieuwe structuur voor werk en inkomen en in vervolg op de interne reorganisatie door de inrichting van vijf verzelfstandigde bedrijfsonderdelen, heeft het CBA besloten op 1 april 2001 terug te treden ten gunste van de nieuwe bestuurders van de vijf verzelfstandigde bedrijfsonderdelen.</p>
+          </bioghist>
+          <bioghist>
+            <head>Bestuurders Arbeidsvoorziening  </head>
+            <p>Op 1 april 2001 wordt door de minister van SZW bij Algemene Maatregel van Bestuur de Bestuurder Centraal Bestuur Arbeidsvoorziening benoemd. Onder verantwoordelijkheid van de Bestuurder CBA wordt uitvoering gegeven aan de wettelijke verantwoordingsverplichtingen van Arbeidsvoorziening. Ook is hij verantwoordelijk voor de begroting(swijzigingen) 2001.</p>
+            <p>Daarenboven heeft de Bestuurder CBA nog enkele meer specifieke opdrachten. Hij is verantwoordelijk voor de afhandeling van het ontvlechtingproces en voor een goede en zorgvuldige afwikkeling van het concern. Bovendien brengt hij de financiële gevolgen van het ontvlechtingproces in beeld. Onderdeel van zijn taakopdracht is voorts de financiële situatie van Arbeidsvoorziening in beeld te brengen, inclusief de wijze waarop deze situatie tot stand is gekomen. Dat vergt ook een beoordeling van de bestuurlijke vormgeving van de arbeidsvoorzieningsactiviteiten.</p>
+            <p>De Bestuurder CBA rapporteert maandelijks over de voortgang en brengt op 19 maart 2002 zijn eindverslag uit in de vorm van de Rapportage Afwikkeling Arbeidsvoorziening, inclusief het onderzoeksrapport Tien jaar Tripartiete Arbeidsvoorziening.</p>
+            <p>Op 1 juni 2002 is de Bestuurder CBA opgevolgd door de Bestuurder Arbeidsvoorziening. Deze bestuurder is belast met de daadwerkelijke vereffening/liquidatie van Arbeidsvoorziening.</p>
+          </bioghist>
+          <bioghist>
+            <head>Algemeen Directeur/ Algemene Directie</head>
+            <p>De Algemene Directeur staat aan het hoofd van het centraal bureau voor de Arbeidsvoorziening. In de Memorie van Toelichting van de AVW <note>
+                <p> Kamerstuk 1987-1988, 20569, nr. 3 blz. 15 </p>
+              </note> worden de volgende taken onderscheiden:</p>
+            <p>De Algemeen Directeur is belast met de voorbereiding en uitvoering van het landelijk arbeidsvoorzieningsbeleid, het in adviserende zin bieden van ondersteuning aan de organisatieonderdelen die landelijk of regionaal met uitvoerende taken zijn belast, het beheren van de middelen van de Arbeidsvoorzieningsorganisatie en het voeren van het secretariaat van het CBA. Verder bepaalt de wet dat de Algemeen Directeur wordt benoemd door het CBA.</p>
+            <p>Op 1 augustus 1994 wordt de naamgeving van het centraal bureau voor de Arbeidsvoorziening gewijzigd in Landelijk Bureau Arbeidsvoorziening (LBA). De gewijzigde naam dient meer recht te doen aan het gegeven van een gedecentraliseerde Arbeidsvoorzieningsorganisatie en heft het verwarrende onderscheid op tussen de benaming Centraal Bestuur voor de Arbeidsvoorziening en centraal bureau voor de Arbeidsvoorziening.</p>
+            <p>De AVW 1996 heeft een aantal grote veranderingen teweeggebracht. Deze wet bepaalt dat er voortaan sprake is van een Algemene Directie (AD), bestaande uit een hoofddirecteur en één of meer directeuren. Daarnaast vindt er een uitbreiding van taken en bevoegdheden plaats. De dagelijkse leiding over de organisatie als geheel wordt opgedragen aan de AD. Verder krijgt de AD taken en bevoegdheden om de eenheid in bedrijfsvoering te realiseren.</p>
+            <p>In artikel 26 van de AVW 1996 wordt de AD met de volgende taken belast:
+					<list mark="hyphen" type="marked">
+                <item>het voeren van de dagelijkse leiding van de Arbeidsvoorzieningsorganisatie alsmede het verrichten van de werkzaamheden ter uitvoering van de bij en krachtens deze of een andere wet aan de Arbeidsvoorzieningsorganisatie opgedragen taken, een en ander voor zover niet voorbehouden aan het Centraal Bestuur, de Regionale Besturen of de Regionale Directies;</item>
+                <item>het voorbereiden van de landelijke beleidsontwikkeling en het uitvoeren van het vastgestelde beleid;</item>
+                <item>het zorg dragen voor het beheer en de bedrijfsvoering van de Arbeidsvoorzieningsorganisatie, waaronder in elk geval begrepen financieel beheer, personeelsbeleid, kwaliteitszorg, informatievoorziening, informatiebeheer en statistiek alsmede het geven van aanwijzingen aan de Regionale Directies met betrekking tot deze onderwerpen;</item>
+                <item>het adviseren en ondersteunen van de Regionale Besturen en Regionale Directies;</item>
+                <item>het verrichten van kwantitatieve en kwalitatieve analyses op de arbeidsmarkt.    </item>
+              </list>
+            </p>
+            <p>De AD staat aan het hoofd van een concernorganisatie, Arbeidsvoorziening Nederland (ANL) geheten, en een facilitair bedrijf, Arbeidsvoorziening Facilitair Bedrijf (AFB) geheten. ANL is belast met de ondersteuning van de AD bij de beleidsvoorbereiding van het CBA en de beleidsuitvoering en bij het aansturen van de 18 regio's op het beheersvlak. Het AFB heeft tot taak de bedrijfsvoering en het primaire proces van de organisatie te faciliteren.</p>
+            <p>De functie van AD is per 1 juni 2002 bij wet vervallen.</p>
+          </bioghist>
+          <bioghist>
+            <head>Regionaal Bestuur voor de Arbeidsvoorziening</head>
+            <p>Het Regionaal Bestuur voor de Arbeidsvoorziening (RBA) heeft de leiding over een regionale organisatie, bestaande uit een of meer regionaal directeuren, arbeidsbureaus en centra vakopleiding. Op 1 januari 1991 zijn er 28 regionale besturen, samengesteld uit vertegenwoordigers van werknemers- en werkgeversorganisaties en gemeenten in de betreffende regio. De provinciale overheid is lid zonder stemrecht. Het RBA staat onder een onafhankelijk voorzitter. De benoeming van de voorzitter, de plaatsvervangend voorzitters en de (plv.) leden van het RBA vindt plaats door het CBA. Elk RBA heeft een regionaal stafbureau ter beschikking. Dit stafbureau heeft tot taak het regionaal beleid voor te bereiden en het regionaal bestuur te ondersteunen.</p>
+            <p>In het kader van verhoging van de bestuurlijke slagkracht en kostenbesparing is per 1 januari 1996 het aantal RBA's terug gebracht van 28 naar 18. Daarbij is gekozen voor samenvoeging van regio's in hun geheel.</p>
+            <p>De taken van het RBA zijn geregeld in artikel 24 van de AVW. In dit artikel krijgt het RBA de volgende taken opgedragen:
+					<list mark="hyphen" type="marked">
+                <item>De inrichting van en het beheer over de arbeidsvoorzieningsorganisatie in de betrokken regio;</item>
+                <item>Het inrichten en in stand houden van een regionaal gespreide organisatie voor de openbare arbeidsbemiddeling, alsmede het bevorderen van een goede afstemming tussen deze en de door derden verrichte arbeidsbemiddeling;</item>
+                <item>Het bevorderen van samenhang tussen het arbeidsvoorzieningsbeleid van het Regionaal Bestuur en dat van andere organisaties.</item>
+              </list>
+            </p>
+            <p>Door de inwerkingtreding van de AVW 1996 is dit takenpakket sterk gewijzigd.</p>
+            <p>In artikel 29 van deze wet heeft het RBA de volgende taken gekregen:
+					<list mark="hyphen" type="marked">
+                <item>Het vaststellen van het regionaal beleid in de vorm van het regionale beleidsplan;</item>
+                <item>Het vaststellen van de regionale begroting en van de regionale jaarrekening en het regionaal jaarverslag;</item>
+                <item>Het toezien op een juiste uitvoering van het regionale beleid, alsmede op de afstemming daarvan op het arbeidsmarktbeleid van derden;</item>
+                <item>Het toezien op een deugdelijk beheer van de middelen.</item>
+              </list>
+            </p>
+            <p>Vooruitlopend op de invoering van de nieuwe structuur voor werk en inkomen en de interne reorganisatie door de inrichting van vijf verzelfstandigde bedrijfsonderdelen hebben de RBA's besloten op 1 april 2001 terug te treden.</p>
+          </bioghist>
+          <bioghist>
+            <head>Regionaal Directeur/ Regionale Directie</head>
+            <p>De Regionaal Directeur staat aan het hoofd van het regionaal stafbureau en is belast met de voorbereiding en uitvoering van het bestuursbeleid <note>
+                <p> Uit: Memorie van Toelichting van de AVW, Kamerstuk 1987-1988, 20569, nr. 3 blz. 16 </p>
+              </note>. Daarnaast betreft een bijzondere, door de Minister van SZW aan deze functionaris gedelegeerde, taak het toetsen van ontslagaanvragen. Een werkgever heeft in de regel toestemming nodig van de Regionaal Directeur om een werknemer te kunnen ontslaan, de zgn. ontslagvergunning.</p>
+            <p>Verder bepaalt de AVW dat de Regionaal Directeur door het RBA wordt benoemd.</p>
+            <p>De inwerkingtreding van de AVW 1996 heeft een aantal grote veranderingen teweeggebracht. Deze wet bepaalt dat er voortaan sprake is van een Regionale Directie (RD). Daarnaast vindt er een uitbreiding van taken en bevoegdheden plaats.</p>
+            <p>In artikel 39 van deze wet wordt de RD belast met de volgende taken:
+					<list mark="hyphen" type="marked">
+                <item>Het voeren van de dagelijkse leiding van de Arbeidsvoorzieningsorganisatie in de regio alsmede het verrichten van de werkzaamheden ter uitvoering van de bij en krachtens deze of een andere wet aan de Arbeidsvoorzieningsorganisatie opgedragen taken, een en ander voor zover niet voorbehouden aan het Centraal Bestuur, de Algemene Directie of het Regionaal Bestuur;</item>
+                <item>Het inrichten, in stand houden en beheren van een regionaal gespreide organisatie voor de openbare arbeidsbemiddeling;</item>
+                <item>Het voorbereiden van het regionale beleidsplan, de regionale begroting, de regionale jaarrekening en het regionale jaarverslag;</item>
+                <item>Het beheer van de middelen van het Regionaal Bestuur;</item>
+                <item>Het verrichten van kwantitatieve en kwalitatieve analyses op de regionale arbeidsmarkt.</item>
+              </list>
+            </p>
+            <p>Ook is in AVW 1996 geregeld dat de RD voortaan benoemd wordt door de AD, op voordracht van het RBA.</p>
+          </bioghist>
+          <bioghist>
+            <head>Raad voor Studie- en Beroepskeuze</head>
+            <p>De Raad voor Studie- en Beroepskeuze is op 17 januari 1991 ingesteld door het CBA op basis van artikel 74 van de AVW. De Raad is de opvolger van de Raad voor de Beroepskeuzevoorlichting, die sinds 1963 bij het Ministerie van SZW heeft gefunctioneerd.</p>
+            <p>De Raad heeft als onafhankelijk adviesorgaan tot taak de Arbeidsvoorziening, de Minister van O&amp;W en de Minister van Landbouw, Natuurbeheer en Visserij hetzij op verzoek, hetzij uit eigen beweging te adviseren over de hoofdlijnen van maatschappelijke en beleidsproblemen, voorzover zij betrekking hebben op voorlichtings- en keuzeaspecten van studie, arbeid en beroep. De Raad moet daarbij aandacht besteden aan de relatie tussen onderwijs en arbeidsmarkt en aan specifieke belangen van bepaalde groepen.</p>
+            <p>De Raad is samengesteld uit onafhankelijke deskundigen op het gebied van beroepskeuzeprocessen, arbeidsmarkt, onderwijs en voorlichting. De voorzitter en leden van de Raad worden door het CBA benoemd. Aan de Raad is voor de uitvoering van zijn taak een bureau toegevoegd. Dit bureau staat onder leiding van de secretaris. De secretaris van de Raad wordt door de Algemeen Directeur in overleg met de voorzitter van de Raad benoemd.</p>
+            <p>De werkzaamheden van de Raad zijn beëindigd naar aanleiding van de invoering van een nieuw adviesstelsel (met een beperkt aantal adviesraden op brede beleidsterreinen) bij de overheid en op grond van artikel 5 van de Invoeringswet AVW 1996. De officiële opheffing heeft plaatsgevonden tijdens een slotmanifestatie van de Raad op 24 september 1996 te Zoetermeer.</p>
+          </bioghist>
+          <bioghist>
+            <head>Inspectie van de Beroepskeuzevoorlichting</head>
+            <p>De Inspectie van de Beroepskeuzevoorlichting is bij organisatiebesluit van 20 december 1990 (Stcrt.1990, 251) ingesteld, conform art. 13 van de Invoeringswet AVW, door de Minister van SZW en maakt vanaf 1 januari 1991 deel uit van de Arbeidsvoorzieningsorganisatie.</p>
+            <p>De inspectie is belast met het houden van toezicht op de beroepskeuzevoorlichting die wordt verleend door de Arbeidsvoorziening en het jaarlijks rapporteren aan het CBA en het betrokken RBA over het toezicht op de beroepskeuzevoorlichting.</p>
+            <p>De inwerkingtreding van de AVW 1996 heeft geleid tot de opheffing van de inspectie per 1 januari 1997.</p>
+          </bioghist>
+          <bioghist>
+            <head>Sectorcommissie Artiesten en Musici</head>
+            <p>De Sectorcommissie Artiesten en Musici (SECAM) is op 1 januari 1993 ingesteld door het CBA op basis van artikel 19, eerste lid, van de Regeling reglement Centraal Bestuur. De taak van de SECAM is het uitbrengen van advies aan het CBA en de RBA's in de Regio's Drenthe, Twente, Gooi en Vechtstreek en Zuid-Oost Brabant inzake alle aspecten van het algemene arbeids- voorzieningsbeleid voor beroepsbeoefenaars op het gebied van kunsten en amusement.</p>
+            <p>De SECAM bestaat uit vertegenwoordigers van werkgevers- en werknemersorganisaties, alsmede vertegenwoordigers van het Ministerie van SZW en het Ministerie van OCenW en een onafhankelijk voorzitter. De voorzitter en de leden worden door het CBA benoemd. Het secretariaat wordt gevoerd door een functionaris, daartoe aangewezen door de AD na overleg met SECAM. De inwerkingtreding van de AVW 1996 heeft geleid tot een wijziging van de status van de SECAM van een bestuurscommissie van het CBA in een commissie die de regionale directie van het RBA Midden Nederland adviezen kan geven.</p>
+          </bioghist>
+          <bioghist>
+            <head>Sectorale Commissie Zeescheepvaart en Mobiele Offshore</head>
+            <p>De Sectorale Commissie Zeescheepvaart en Mobiele Offshore (SCZ) is ingesteld op 14 juli 1992 en ressorteert onder het RBA Rijnmond. De commissie heeft echter een grote mate van onafhankelijkheid. Het RBA heeft de SCZ mandaat gegeven met betrekking tot alle aangelegenheden die de arbeidsvoorziening in de zeescheepvaart en de mobiele offshore betreffen.</p>
+            <p>De SCZ heeft tot taak de arbeidsvoorziening in de scheepvaart en de mobiele offshore te bevorderen en is samengesteld uit vertegenwoordigers van werkgevers- en werknemersorganisaties uit de betreffende sector, alsmede vertegenwoordigers van het Directoraat-Generaal Scheepvaart en Maritieme Zaken van het Ministerie van Verkeer en Waterstaat. Het secretariaat van de commissie berust bij het Centraal Arbeidsbureau Zeescheepvaart van RBA Rijnmond.</p>
+            <p>Het terugtreden van het RBA Rijnmond en de ontvlechting van de Arbeidsvoorzieningsorganisatie hebben geleid tot de opheffing van de commissie in 2001 <note>
+                <p> Bron: L. Exel, sectoradviseur maritiem van de afdeling Arbeidsmarktkennis &amp;Advies, hoofdkantoor CWI </p>
+              </note>.</p>
+          </bioghist>
+          <bioghist>
+            <head>Ontslagcommissie</head>
+            <p>Aangezien de ontslagtaak aan de Regionaal Directeuren is gedelegeerd moest voor de medewerkers van de Arbeidsvoorzieningsorganisatie een andere ontslagprocedure worden ingesteld. Daartoe is de Ontslagcommissie voor de Arbeidsvoorzieningsorganisatie (ex artikel 37 van de AVW) op 18 juni 1991 ingesteld bij beschikking van de Minister van SZW (nr. ABA/AM/ARV/91/0734). De commissie heeft tot taak de redelijkheid van de voorgenomen ontslagbeslissing betreffende medewerkers van de Arbeidsvoorzieningsorganisatie, bedoeld in de artikelen 23 en 35 van de AVW, te toetsen. De commissie beoordeelt of het voorgenomen ontslag redelijk is aan de hand van de overgelegde stukken.</p>
+            <p>Bij deze toetsing neemt de commissie de door de Minister van SZW, krachtens artikel 6, vierde lid, van het BBA 1945, gestelde regels in acht. De commissie bestaat uit drie leden, die door de Minister van SZW worden benoemd. Een lid wordt benoemd op voordracht van de Arbeidsvoorziening, een lid op voordracht van de organisaties die representatief zijn voor de bij de Arbeidsvoorziening werkzame personen en een lid, tevens voorzitter, op gezamenlijke voordracht van de genoemde organisaties. Het secretariaat wordt gevoerd door de Arbeidsvoorzieningsorganisatie.</p>
+            <p>Op 1 januari 2002 wordt de commissie ondergebracht bij de CWI. De overgang is geregeld in art. 41 van de Invoeringswet Wet SUWI.</p>
+          </bioghist>
+        </bioghist>
+        <bioghist>
+          <head>Relatie met het Ministerie van SZW</head>
+          <p>De Arbeidsvoorziening is een zelfstandig bestuursorgaan, dat op grond van de wet is belast met de uitvoering van een publieke taak. Deze taak wordt gerekend tot het domein van de Minister van Sociale Zaken en Werkgelegenheid (SZW). De relatie met de minister staat omschreven in de AVW. In deze wet is de minister een rol toebedacht als medebestuurder in het CBA (artikel 12). Verder is de minister genoemd als toezichthouder ten aanzien van het goedkeuren van de landelijke begroting (artikel 52), het beheer en de administratie (artikel 108) alsmede besluiten en regelingen van het CBA (artikel 112). Daarnaast is de minister financier ten aanzien van het bepalen van de Rijksbijdrage (artikel 38). </p>
+          <p>De relatie met de minister is sterk gewijzigd door de inwerkingtreding van de AVW 1996. In deze wet heeft de minister de bevoegdheid gekregen het voorgenomen beleid, zoals neergelegd in het beleidsplan, alsook de landelijke begroting goed te keuren (artikel 55). Daarnaast voert de minister structureel halfjaarlijks overleg met het CBA over de hoogte van de Rijksbijdrage en de daarvoor te verrichten prestaties (artikel 44). Alle besluiten die het CBA neemt worden ter kennisgeving aan de minister gezonden (artikel 84). Ook heeft de minister de bevoegdheid om besluiten en regelingen van het CBA te schorsen of te vernietigen wegens strijdigheid met het recht of het algemeen belang (artikel 87).</p>
+        </bioghist>
+      </bioghist>
+      <custodhist>
+        <head>Geschiedenis van het archiefbeheer</head>
+        <custodhist>
+          <head>Ontstaan van het digitale archief</head>
+          <custodhist>
+            <head>Eind 2001: integrale back-up</head>
+            <p>Toen eind 2001 duidelijk werd dat de bedrijfsonderdelen van Arbeidsvoorziening in het volgende jaar in enigerlei vorm zelfstandig verder zouden gaan, als gevolg waarvan het ZBO Arbeidsvoorziening op termijn zou worden opgeheven, is door de algemeen secretaris gestart met de voorbereidingen voor de archivering van de papieren en digitale informatie van de integrale organisatie.</p>
+            <p>Voor wat het digitale deel betreft, is gestart met het maken van een volledige back-up op magneetband van de business applicaties en van de kantoorautomatisering. In eerste instantie is deze operatie uitgevoerd in september 2001. Hierin werden begrepen alle zogeheten 'corporate systemen', zijnde die applicaties die organisatiebreed werden toegepast bij de uitvoering van de primaire bedrijfsprocessen en van de ondersteunende administraties (personeel, financiën, enz.), zowel de centrale systemen als die welke op de decentrale infrastructuur operationeel waren. Deze back-up betrof ruim vierhonderd servers, verspreid over alle vestigingen van Arbeidsvoorziening.</p>
+            <p>De hiermee gemaakte 'foto' van de bedrijfsinformatie in september 2001 is aangevuld met een op dezelfde wijze uitgevoerde back-up in de laatste week van 2001. Hiermee is enerzijds alle informatie tot aan het moment van de 'boedelscheiding' bewaard gebleven, terwijl anderzijds ook (een deel van) die informatie beschikbaar is die ter voorbereiding hiervan mogelijkerwijs in het kader van opschoning in de laatste maanden is gewist.</p>
+            <p>Op zowel de september- als de decemberoperatie is tijdens de uitvoering zorgvuldige controle uitgevoerd ter waarborging van volledigheid en authenticiteit van de (in drievoud) op magneetband opgeslagen informatie.</p>
+          </custodhist>
+          <custodhist>
+            <head>Het computermuseum</head>
+            <p>De aldus gefixeerde informatie diende twee doelen. In de eerste plaats was de informatie noodzakelijk voor het afronden van de bedrijfsvoering van Arbeidsvoorziening, het afbouwen en liquideren van de organisatie. Hiervoor waren zowel papieren als geautomatiseerde registraties noodzakelijk, waarbij de laatste in voorkomende gevallen ook aanvullend functioneerden wanneer het papieren archief voor sommige doeleinden onvolledig bleek te zijn overgekomen. In de tweede plaats dienden de magneetbanden de grondstof te leveren voor de wettelijk verplichte archivering voor de langere termijn.</p>
+            <p>Hoewel de uitgangspositie te danken was aan voortvarend handelen, bleken de vervolgstappen niet zonder meer duidelijk te zijn. Het benaderen van gegevens en applicaties op magneetband is buitengewoon bewerkelijk en onhandig. Maar ook het voor de langere duur archiveren van de digitale informatie bleek een complex van problemen met zich mee te brengen. Geleidelijk aan kristalliseerde zich het inzicht, dat de beschikbaarheid van de opgeslagen informatie op termijn afhankelijk was van de bijbehorende integrale applicatie omgevingen. Deze bestaan uit vijf hoofdcomponenten, te weten
+					<list mark="hyphen" type="marked">
+                <item>De applicatiegegevens die de werkbare inhoud van de applicatie vormen;</item>
+                <item>De applicatieomgeving, bestaande uit het geheel van applicatieprogrammatuur, parametertabellen, instellingen en autorisaties;</item>
+                <item>De systeemomgeving, bestaande uit hardware (servers, werkstations, netwerken, werkstations, printers, enz.) en systeemsoftware (operating system, dbms, diverse facilities);</item>
+                <item>De beheeromgeving, bestaande uit handleidingen, documentatie voor ontwerp en beheer, en uit de organisatie die hiervoor is opgeleid;</item>
+                <item>De gebruikersomgeving, bestaande uit mensen die kennis hebben van gebruik en interpretatie van de gegevens, en van de rol die de applicatie in de operatie van Arbeidsvoorziening speelt.</item>
+              </list>
+            </p>
+            <p>Voor het op de langere termijn beschikbaar blijven van de opgeslagen informatie zouden voor iedere applicatie elk der vijf lagen in principe operationeel moeten blijven.</p>
+            <p>Het was duidelijk dat dit niet gedurende langere termijn kon worden gegarandeerd. Omdat echter op korte termijn online beschikbaarheid van een deel van de informatie voor afronding van de bedrijfsvoering werd gewenst, is het concept van het Computermuseum (CM) ontwikkeld. Dit houdt in, dat de opgeslagen informatie operationeel wordt gemaakt op een geheel op zichzelf staande en afgeschermde site en op specifiek geïnstalleerde platformen, identiek aan die welke eind 2001 voor de betreffende applicaties in gebruik was. Als locatie hiervoor werd gekozen voor de vestiging van Docuraat in Zoetermeer. Op deze wijze werd de informatie vanaf medio 2002 in het CM weer integraal benaderbaar, terwijl tegelijkertijd het risico van aantasting door de dynamiek van een operationele organisatie werd uitgesloten. In afwachting van de ontwikkeling van concepten voor de definitieve archivering werd zo een voor de korte termijn stabiele basis gecreëerd voor de latere ontwikkelingen op dit vlak.</p>
+            <p>De inrichting van het CM werd ook nu weer begeleid door controle op de restore, en door het zorgvuldig inrichten van fysieke en logische toegang tot de applicaties en gegevens teneinde corruptie te voorkomen.</p>
+            <p>Deze situatie was echter niet op de langere termijn houdbaar. Debet hieraan is enerzijds het hoge kostenniveau dat samenhangt met de instandhouding van steeds verder verouderende platformen. Anderzijds verdwijnt de parate kennis van de applicaties en platformen ongemerkt maar snel. Ten derde is het CM geen archivering naar de geest van de 'Regeling geordende en toegankelijke staat archiefbescheiden' <note>
+                <p> De Regeling geordende en toegankelijke staat archiefbescheiden is een uitwerking van artikel 12 van het Archiefbesluit 1995. Het eerste deel stelt eisen aan alle blijvend te bewaren archiefbescheiden. Het tweede deel gaat specifiek over digitale archiefbescheiden. De eisen hebben betrekking op de ordening en toegankelijkheid (bron: Rijksarchiefinspectie). </p>
+              </note>; daarvoor zijn alleen al structuur en inhoud onvoldoende.</p>
+            <p>Arbeidsvoorziening heeft zich dit gerealiseerd, en een aanpak ontwikkeld om tot verantwoorde digitale archivering te komen (zie voor een beschrijving het onderdeel Selectie en Vernietiging).</p>
+          </custodhist>
+        </custodhist>
+				
+      <acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist>
+    </descgrp>
+    <descgrp type="content_and_structure">
+      <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">2.25</subject>
+      </controlaccess>
+      <scopecontent>
+        <head>Inhoud</head>
+        <scopecontent>
+          <head>Algemeen</head>
+          <p>Bij de preservering van het digitale archief van de Arbeidsvoorziening i.l. zijn grote hoeveelheden informatie conform de Archiefwet 1995 in digitale vorm veilig gesteld ten behoeve van overdracht aan het Nationaal Archief.</p>
+          <p>Deze toegang maakt onderdeel uit van een pakket aan producten die door Arbeidsvoorziening zijn opgeleverd aan het Nationaal Archief om het betreffende digitale archief in te kunnen richten en te kunnen ontsluiten, te weten:
+				<list mark="hyphen" type="marked">
+              <item>De in duurzaam formaat "geconserveerde" bestanden die voor archivering in aanmerking kwamen;</item>
+              <item>De daarbij behorende originele bestanden;</item>
+              <item>Een tool om de "geconserveerde" bestanden te ontsluiten en te bekijken;</item>
+              <item>De gebruikte selectie- en conversietools;</item>
+              <item>De informatie om een EAD-toegang te vervaardigen.</item>
+            </list>
+          </p>
+        </scopecontent>
+        <scopecontent>
+          <head>Relatie tussen het digitale en papieren archief</head>
+          <p>Bij de overdracht van het digitale archief van de Arbeidsvoorzieningsorganisatie aan het Nationaal Archief zal een omschrijving van de relatie tussen het papieren en digitale archief gegeven worden.</p>
+          <p>De activiteiten van de arbeidsvoorzieningsorganisatie hebben gedurende haar bestaan voor een papieren en digitale neerslag gezorgd. De papieren neerslag is waar vereist, in dossiervorm opgeslagen. De digitale neerslag van de werkzaamheden/taken van de organisatie is zonder bewerking bewaard gebleven.</p>
+          <p>De digitale bestanden en het papieren archief zullen elkaar op diverse plaatsen overlappen of aanvullen. De structuur van het papieren archief is inzichtelijk gemaakt door een uitgebreide inventarisatie aan de hand van het Basis Selectie Document (BSD) van de Arbeidsvoorzieningsorganisatie. De digitale bestanden zijn geschoond door middel van een geautomatiseerd proces. De bestanden zijn echter niet aan een activiteit uit het BSD gekoppeld.</p>
+          <p>Er is daardoor geen vastgelegde relatie tussen de digitale bestanden en de papieren dossiers. Het is onmogelijk om aan te geven, waar deze aanvulling en/of overlapping zich bevindt en waaruit deze bestaat. Hierdoor is het Nationaal Archief genoodzaakt, de beide bestanden te bewaren. Het ontbreken van een relatie tussen het papieren archief en de digitale bestanden is daarom de motivatie om beide te bewaren.</p>
+          <p>Het papieren en digitale archief hebben elkaar slechts op één punt directe verwantschap. Op het intranet van de Arbeidsvoorzieningsorganisatie (BRAINS) wordt een overzicht gegeven van de CBA-vergaderstukken geclusterd naar onderwerp. Per stuk is aangegeven de onderwerpomschrijving, het vergaderstuknummer, de datum van behandeling, het excerpt van de inhoud, de besluitvorming door het CBA en indien van toepassing een verwijzing naar het nummer van het totstandgekomen CBA-besluit cq. Totstandgekomen convenant / overeenkomst. Verder is in  BRAINS een register naar chronologie van de CBA-vergaderstukken en een register van de CBA-besluiten opgenomen. Tenslotte wordt een overzicht gegeven van de totstandgekomen convenanten en overeenkomsten. In dit overzicht wordt per convenant / overeenkomst een excerpt van de inhoud gegeven.</p>
+          <p>De nummering van deze digitale verslagen en besluiten komt overeen met de nummering van de papieren verslagen en besluiten. Hoewel hier duidelijk sprake is van een relatie tussen de digitale bestanden en het papieren archief, dient opgemerkt te worden, dat de papieren documenten wel ondertekend zijn en de digitale niet.</p>
+          <p>De informatie uit BRAINS wordt als geheel aan het Nationaal Archief overgedragen. Het intranet (BRAINS) blijft daardoor een toegang op een gedeelte van het papieren archief van het Centraal Bestuur Arbeidsvoorziening.</p>
+          <p>Het tijdens het XML-project samengestelde digitale archiefbestand heeft geen enkele koppeling met het papieren archief. BRAINS is bij het samenstellen van het digitale archiefbestand buiten beschouwing gebleven, omdat dit als geheel overgedragen zal worden aan het Nationaal Archief.</p>
+        </scopecontent>
+      </scopecontent>
+      <appraisal>
+        <head>Selectie en vernietiging</head>
+        <appraisal>
+          <head>Verantwoording van de inhoud</head>
+          <p>Teneinde te komen tot een verantwoord vervolgtraject heeft Arbeidsvoorziening een stuurgroep digitale archivering in het leven geroepen onder voorzitterschap van de algemeen secretaris. Deze stuurgroep is multidisciplinair samengesteld uit vertegenwoordigers van Arbeidsvoorziening, CWI, Nationaal Archief en Rijksarchiefinspectie. Daarnaast zijn externe adviseurs bij het onderzoek en de uitvoering van de werkzaamheden betrokken. De stuurgroep heeft een werkgroep ingesteld om de concrete uitvoerende werkzaamheden te coördineren en deelproblemen op te lossen.</p>
+          <p>De basis voor de archivering van papieren documenten ligt in het Basis Selectie Document (BSD). Formeel is dit ook de basis waarop de selectie van digitale informatie dient plaats te vinden. Er waren echter binnen Arbeidsvoorziening geen applicaties operationeel waarvoor de consequenties van het BSD waren uitgewerkt. Dit betekent dat niet zonder meer selectie mogelijk was uit de opgeslagen informatie om te komen tot deelverzamelingen met welbepaalde inhoud, status en archiverings-/verwijderingstermijn. Naast selectie bestond het probleem van de digitale archivering uit de vraag naar formaat en medium van de te bewaren data. Genoemde 'Regeling geordende en toegankelijke staat archiefbescheiden' bood hiervoor wel aanknopingspunten, maar keuze en toepassing ervan waren en zijn nog relatief onontgonnen terrein.</p>
+          <p>De ontwikkeling van de strategie om tot selectie en conversie van de informatie uit het CM te komen is door de stuurgroep in twee fasen ontwikkeld, waarvan de eerste fase heeft bestaan uit twee sporen.</p>
+          <p>Op het eerste spoor is het CM geïnventariseerd en is de opgeslagen informatie op archivistische kenmerken beoordeeld. Hiervoor is het BSD toegepast op de opgeslagen en in het CM operationele data <note>
+              <p> Bij de ontwikkeling van de strategie is het toetsingskader van de Rijksarchiefinspectie gebruikt.  De  resultaten van de toets op Arbeidsvoorziening zijn geëvalueerd in "De digitale erfenis" van de Rijksarchiefinspectie.  </p>
+            </note>. Het primaire doel hiervan was te bepalen van welke applicaties gegevens in aanmerking kwamen voor overbrenging naar het Nationaal Archief. Het CM moest immers in staat worden geacht enige tijd zorg te dragen voor ondersteuning van de kortere bewaartermijnen uit het BSD.</p>
+          <p>Deze toepassing van het BSD op de applicaties van het CM is uitgevoerd door uit alle 610 handelingen van het BSD die met het kenmerk 'B' (dat is: te bewaren') te nemen, en na te gaan in hoeverre deze informatie betreffen die in een van de beschikbare applicaties wordt beheerd. Hiertoe is de handelingenmatrix (het BSD) uitgebreid met kolommen per applicatie waarin de relatie met de betreffende handeling wordt opgenomen. Vervolgens zijn die applicaties geselecteerd die 'te bewaren' data bevatten.</p>
+          <p>Gedeeltelijk parallel hieraan is als tweede spoor onderzocht of en in hoeverre de techniek beschikbaar is om de informatie en applicaties op de voorgeschreven wijze beschikbaar te maken. In dit kader is een 'proof of concept' ondernomen door de applicatie ICA om te bouwen tot een overeenkomstige op XML gebaseerde toepassing, die de essentiële functionaliteit van ICA bevatte.</p>
+          <p>De uitkomsten van deze twee sporen zijn eenduidig:
+				<list mark="hyphen" type="marked">
+              <item>slechts de applicatie Brains en (een deel van) de gezamenlijke kantoorautomatiseringsomgevingen komen in aanmerking voor 'bewaring', dat is voor overbrenging naar het Nationaal Archief <note>
+                  <p> Bronnen: Uitgebreide handelingenmatrix/BSD (J. van de Starre en H. Ongering, Zoetermeer 26 april 2002), besluiten projectgroep 21 feb 2003, notities van Het Expertise Centrum voor de projectgroep en stuurgroep d.d. 10 maart 2003 (DECOS), 18 maart 2003 (PGI), besluiten stuurgroep 14 maart 2003. </p>
+                </note>;</item>
+              <item>omzetting van applicaties naar XML is technisch realiseerbaar, maar dermate kostbaar en tijdrovend dat dit niet als reële optie kan worden beschouwd om houdbaarheid op de middellange termijn te realiseren.</item>
+            </list>
+          </p>
+          <p>Hiermee is de uitgangspositie gegeven voor de tweede fase.</p>
+          <p>In de tweede fase zijn de applicatie Brains en de omgevingen van de kantoorautomatisering (KA) bewerkt, zodanig dat ze voldoen aan de specificaties van het Nationaal Archief.</p>
+        </appraisal>
+        <appraisal>
+          <head>De KA-omgeving</head>
+            <p>Zoals in het vorige hoofdstuk aangegeven, is op basis van het uitgebreide BSD bepaald dat een deel van de informatie uit de KA omgevingen van Arbeidsvoorziening voor bewaring in aanmerking komt. Het gaat er nu om
+					<list mark="hyphen" type="marked">
+                <item>te bepalen welke selectie dient te worden uitgevoerd, en deze aansluitend ook daadwerkelijk uit te voeren;</item>
+                <item>het resultaat van de selectie te converteren naar het te archiveren formaat onder gelijktijdige toevoeging van metagegevens.</item>
+              </list>
+            </p>
+            <p>In dit hoofdstuk worden beide activiteiten en hun resultaten beschreven.</p>
+            <p>Uit de totale KA-omgeving van het Computermuseum is een selectie gemaakt van te verduurzamen informatie. Uitgangspunt voor de selectie van de te archiveren informatie vormt het BSD (Basis Selectie Document) van Arbeidsvoorziening. Hierin staat beschreven welke neerslag van bepaalde handelingen blijvend te bewaren is. Het is dus van belang juist díe documenten te selecteren die voor overdracht naar het Nationaal Archief in aanmerking komen.</p>
+            <p>Daarnaast dient rekening te worden gehouden met de eisen die de privacy wetgeving stelt <note>
+                <p> Wet bescherming persoonsgegevens (WBP, 6 juli 2000). </p>
+              </note>.</p>
+            <p>De selectie vindt in 2 fasen plaats, achtereenvolgens de zgn. E-selectie en de I-selectie. De eerste fase van de selectie is gebaseerd op externe criteria zoals type document en directorystructuur. In de tweede fase wordt geselecteerd op basis van interne criteria ofwel de inhoud van een document. Deze selectie vindt plaats met gebruikmaking van full text search programmatuur (in dit geval is voor technologie gekozen die geleverd wordt door Zylab).</p>
+            <appraisal>
+              <head>Strategie E-selectie</head>
+              <p>De E-selectie bestaat uit selectie op basis van externe kenmerken. We onderscheiden hierin de volgende twee niveaus: organisatieonderdeel en documenttype.</p>
+              <appraisal>
+                <head>Organisatie-onderdeel</head>
+                <p>De organisatie van Arbeidsvoorziening is onderverdeeld in een aantal regio's met als overkoepelende organisatie Concern. Elke regio kende een Regionaal Bestuur Arbeidsbureaus (RBA's) en Arbeidsbureaus (AB's).</p>
+                <p>Uitgangspunt van de selectie is dat de Arbeidsbureaus niet gearchiveerd worden (negatieve selectie). Twee argumenten liggen hieraan ten grondslag:
+							<list numeration="arabic" type="ordered">
+                    <item>De arbeidsbureaus zijn niet gekoppeld aan activiteiten/handelingen uit het BSD, de Arbeidsbureaus zijn uitvoerende organisaties. Voorbereiding en besluitvorming over het te voeren beleid vindt uitsluitend plaats door Centraal Bestuur c.q. Centrale Directie en de Regionale Besturen en Directies <note>
+                        <p> Conform de Arbeidsvoorzieningswet 1996 (laatstelijk gewijzigd 24 december 1997, Stbl. 1997, 794) art. 43 en 47, uitgewerkt in het Bestuursreglement Centraal Bestuur voor de Arbeidsvoorziening versie 16 juli 1997 (Stcrt. 1997, 154). </p>
+                      </note>. Daardoor is de kans relatief klein dat bij deze uitvoerende organisaties relevante documenten opgeslagen zijn die naar het Nationaal Archief moeten worden overgebracht. Dit is door onderzoek bevestigd.</item>
+                    <item>Privacy gevoelige informatie. De uitvoerende organisaties bevatten heel veel privacy gevoelige informatie die pertinent niet geselecteerd mogen worden voor overdracht naar het Nationaal Archief. Dit risico is aanzienlijk beperkt door de AB-servers niet mee te nemen in het verdere selectietraject.</item>
+                  </list>
+                </p>
+                <p>Samengevat betekent dit, dat servers waarin de bestanden opgeslagen zijn van de Arbeidsbureaus, niet meegenomen zijn in het verdere selectietraject.</p>
+              </appraisal>
+              <appraisal>
+                <head>Documenttype</head>
+                <p>De bestandsnamen van documenten zijn voorzien van een extensie waarmee het type document bepaald kan worden. Zo kan op type document geselecteerd worden.</p>
+                <p>Gezien de diversiteit van aanwezige type bestanden in de KA-omgeving van de Arbeidsvoorziening is bekeken welke type bestanden voor duurzame archivering in aanmerking komen. Uitgangspunt daarbij is, te bepalen welke type bestanden verband houden met BSD-handelingen.</p>
+                <p>De volgende typen bestanden zijn duurzaam gearchiveerd omdat ze verband kunnen houden met BSD-handelingen:
+							<list mark="hyphen" type="marked">
+                    <item>Word (met extensie .doc)</item>
+                    <item>Excel (met extensie .xls)</item>
+                    <item>Opgeslagen mail (met extensie .msg)</item>
+                    <item>RTF (met extensie .rtf)</item>
+                    <item>Textfiles (met extensie .txt)</item>
+                    <item>PDF (met extensie .pdf)</item>
+                  </list>
+                </p>
+                <p>Dit uitgangspunt is van toepassing op zowel de bestanden uit de KA-omgeving als de e-mailattachments.</p>
+                <p>Van de overige type bestanden (Powerpoint-presentaties, Lotus-spreadsheets, WordPerfectdocumenten, etc.) wordt één van onderstaande aannames gehanteerd:
+							<list mark="hyphen" type="marked">
+                    <item>Deze documenten houden zeer waarschijnlijk geen verband met BSD-handelingen;</item>
+                    <item>In 1996 heeft de Arbeidsvoorziening besloten om te veranderen van KA-suite. In plaats van WordPerfect en Lotus 1-2-3 is besloten om gebruik te maken van Microsoft Office. Deze migratie is uiteindelijk in 1998 afgerond waarbij ook de relevante documenten, daar waar mogelijk, gemigreerd zijn naar het nieuwe platform (dus WordPerfect naar Word en Lotus 1-2-3 naar Excel).</item>
+                  </list>
+                </p>
+                <p>Bovenstaande uitgangspunten en aannames zijn tijdens de pilot voor de regio Rijnmond geverifieerd. De uitkomst hiervan was bevestiging van deze uitgangspunten.</p>
+              </appraisal>
+            </appraisal>
+            <appraisal>
+              <head>Strategie I-selectie</head>
+              <p>De I-selectie bestaat uit selectie op basis van interne kenmerken. Als uitgangspunt is hierbij genomen dat een "Full Text Search" uitgevoerd wordt en met behulp van een trefwoordenthesaurus de documenten geselecteerd worden. Voor de ontwikkeling van de trefwoordenthesauri zijn de documenten als volgt  gecategoriseerd:
+						<list mark="hyphen" type="marked">
+                  <item>Zakelijk:</item>
+                  <item>
+                    <list mark="hyphen" type="marked">
+                      <item>Te bewaren</item>
+                      <item>Privacy gevoelig, te vernietigen</item>
+                      <item>Irrelevant, te vernietigen</item>
+                    </list>
+                  </item>
+                  <item>Niet zakelijk</item>
+                  <item>
+                    <list mark="hyphen" type="marked">
+                      <item>Privacy gevoelig, te vernietigen</item>
+                      <item>Irrelevant, te vernietigen</item>
+                    </list>
+                  </item>
+                </list>
+              </p>
+              <p>De "te bewaren documenten" zijn de documenten die gerelateerd zijn aan de BSD en daarmee voor overdracht naar het Nationaal archief in aanmerking komen. De zakelijk/privacy gevoelige documenten zijn bijvoorbeeld de reïntegratie-besluiten. De niet-zakelijke e-mailtberichten en bestanden kunnen van alles zijn: mailtjes van personeel naar familie, vrienden, sinterklaasgedichten, etc.</p>
+              <p>De selectie wordt in drie stappen uitgevoerd waarbij de derde stap optioneel is en vooralsnog geen deel uitmaakt van dit project:
+						<list numeration="arabic" type="ordered">
+                  <item>Selectie van alle zakelijke bestanden en e-mailberichten (positieve selectie);</item>
+                  <item>Uit het resultaat van stap 1 wordt het privacy gevoelig materiaal geselecteerd en verwijderd (negatieve selectie);</item>
+                  <item>Uit het resultaat van stap 2 worden de irrelevante bestanden en e-mailberichten verwijderd (negatieve selectie). Als alternatief kunnen de te bewaren bestanden en e-mailberichten via een positieve selectie uit het resultaat geselecteerd worden wanneer blijkt dat de negatieve selectie geen voldoende resultaat geeft. Ook kan een combinatie van beide methoden gebruikt worden. Analyse zal dan uit moeten maken welke methode het meest succesvol zal zijn.</item>
+                </list>
+              </p>
+              <appraisal>
+                <head>Selectiecriteria zakelijk</head>
+                <p>Voor de 1e stap (selectie van zakelijke documenten) is een trefwoordenthesaurus ontwikkeld waarmee zakelijk documenten geselecteerd kunnen worden. Voorbeelden van dit soort trefwoorden zijn trajectbemiddeling, jeugdwerkgarantieplan, volwasseneneducatie, etc. Deze trefwoorden zullen in bepaalde combinaties de zakelijke documenten selecteren.</p>
+              </appraisal>
+              <appraisal>
+                <head>Selectiecriteria zakelijk privacy-gevoelig</head>
+                <p>Voor de 2e stap is een trefwoorden thesaurus ontwikkeld waarmee zakelijk privacy gevoelige documenten geselecteerd zijn. Dit zijn trefwoorden zoals reïntegratiebesluit, curriculum vitae, etc. Deze selectie zal bestanden opleveren die niet voor overdracht naar het Nationaal Archief in aanmerking komen (negatieve selectie). De ontwikkelde thesaurus is opgenomen in bijlage C.</p>
+              </appraisal>
+            </appraisal>
+            <appraisal>
+              <head>Selectiestrategie niet toegankelijke bestanden</head>
+              <p>Bij analyse van de bestanden in de KA-omgeving is gebleken dat een aantal bestanden niet toegankelijk zijn. Daarbij moet gedacht worden aan:
+						<list mark="hyphen" type="marked">
+                  <item>Bestanden van een wachtwoord voorzien;</item>
+                  <item>Ge-encrypte bestanden;</item>
+                  <item>Complete mappen van een wachtwoord voorzien;</item>
+                  <item>Corrupte bestanden.</item>
+                </list>
+              </p>
+              <p>In de eerste drie gevallen geldt, dat de inhoud van de bestanden door de manipulatie van de opstellers niet meer benaderbaar is. In het laatste geval is de inhoud door het in gebreke blijven van de techniek niet meer benaderbaar.</p>
+              <p>De betreffende bestanden zijn derhalve niet meegenomen in de preservering van het digitale archief.</p>
+            </appraisal>
+            <appraisal>
+              <head>Toegestane mogelijkheden vanuit de Archiefwet</head>
+              <p>Op het (digitale) archief van de Arbeidsvoorziening is de Archiefwet 1995 van toepassing. Op basis van  deze wet is de Regeling geordende en toegankelijke staat archiefbescheiden vastgesteld door de Staatssecretaris van Onderwijs, Cultuur en Wetenschappen waarin onder andere standaarden beschreven staan over het opslagformaat van het digitale archiefbescheiden.</p>
+              <p>Voor tekstbestanden is het volgende formaat gedefinieerd (artikel 6 van de regeling):</p>
+              <p>Portable document format (PDF) of SGML dan wel XML vergezeld van een stylesheet (XSL, CSS) dan wel TIFF of PDF met de metadata in een XML-wrapper.</p>
+              <p>Dit impliceert een 5-tal toegestane mogelijkheden voor het uiteindelijk te gebruiken formaat voor de duurzame archivering van het digitale archief van de Arbeidsvoorziening:
+						<list mark="hyphen" type="marked">
+                  <item>Portable document format (PDF);</item>
+                  <item>Standard Generalized Markup Language (SGML);</item>
+                  <item>Extensible Markup Language (XML) vergezeld van een stylesheet (XSL, CSS);</item>
+                  <item>TIFF met de metadata in een XML-wrapper;</item>
+                  <item>PDF met de metadata in een XML-wrapper.</item>
+                </list>
+              </p>
+            </appraisal>
+            <appraisal>
+              <head>Verantwoording conversie KA-bestanden</head>
+              <p>De voor duurzame archivering geselecteerde KA-bestanden zullen aan het Nationaal Archief aangeleverd worden in PDF-formaat gewrapt in XML.</p>
+              <p>Dit formaat biedt voor de specifieke situatie van de Arbeidsvoorziening de nodige voordelen: betrouwbaar vanwege bewezen technologie om bestanden om te zetten naar PDF-formaat en flexibiliteit in het vastleggen van meta-informatie over het bestand in XML-formaat. XML dient als het ware als een envelop voor het PDF-bestand en is onlosmakelijk verbonden met het bestand.</p>
+              <p>Voor de omzetting worden de volgende restricties in acht genomen:
+						<list mark="hyphen" type="marked">
+                  <item>De bestanden die volgens het Outlook message formaat (.msg) zijn opgeslagen worden analoog aan de e-mailberichten omgezet naar XML.</item>
+                  <item>De functionaliteit in spreadsheets (achterliggende formules e.d.) gaat verloren. Omzetting van spreadsheets naar PDF-formaat geeft dus alleen een visuele representatie van hetgeen in de spreadsheets is opgenomen.</item>
+                </list>
+              </p>
+              <p>Technisch wordt het wrappen van het PDF-bestand in XML als volgt gerealiseerd:
+						<list mark="hyphen" type="marked">
+                  <item>Het oorspronkelijke KA-bestand wordt omgezet naar PDF;</item>
+                  <item>Dit (binaire) PDF-bestand wordt gecodeerd als Base64Binary-(tekst)string, dat als element wordt opgenomen in het XML-bestand;</item>
+                  <item>In de rest van het XML-bestand wordt alle meta-informatie over het geconverteerde document opgenomen.</item>
+                </list>
+              </p>
+            </appraisal>
+            <appraisal>
+              <head>Verantwoording conversie e-mailberichten</head>
+              <p>Voor de duurzame archivering van e-mailberichten worden, daar waar mogelijk, de uitgangspunten van het Testbed Digitale Bewaring <note>
+                  <p> Testbed Digitale Bewaring is een initiatief van de Rijksarchiefdienst en het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties. Het is een onderzoeksprogramma waar de praktische toepasbaarheid getoetst wordt van verschillende manieren om (overheids-) informatie te bewaren en toegankelijk te houden voor de toekomst. Testbed Digitale Bewaring maakt deel uit van de stichting ICTU waar verschillende programma's zijn ondergebracht die alle ten doel hebben de digitale overheid op te bouwen. </p>
+                </note> gevolgd. Belangrijk verschil tussen deze methodiek en de situatie bij Arbeidsvoorziening is, dat de Testbed-methodiek de e-mailberichten "on the fly" archiveert, het zogenaamde actief archiveren. Bij Arbeidsvoorziening vindt archivering achteraf plaats.</p>
+              <p>Conform de Testbed-methodiek worden de e-mailberichten, voor wat betreft de body van het bericht en de meta-informatie, omgezet naar XML-formaat. Belangrijk in de situatie van de Arbeidsvoorziening is, dat bij de archivering van e-mailberichten de attachments van het e-mailbericht mee gearchiveerd moeten te worden. Daarbij moet de link tussen het bericht en de attachments bewaard blijven.</p>
+              <p>Vandaar dat in aanvulling op de Testbed-methodiek en de mogelijkheden die de Regeling geordende en toegankelijke staat archiefbescheiden biedt, het volgende procédé gevolgd wordt voor de omzetting van e-mailberichten naar duurzaam formaat:
+						<list mark="hyphen" type="marked">
+                  <item>De body van het bericht wordt, tesamen met de meta-informatie over het bericht in een XML-bestand opgeslagen;</item>
+                  <item>De attachments worden omgezet worden naar PDF-formaat (Word, Excel, RTF, Textfiles). PDF blijft PDF. Indien een attachment een mailbericht (.msg) betreft, wordt deze met recursie omgezet naar het duurzame formaat van een e-mailbericht. (m.a.w. in XML vindt dan dus een nesting van e-mailberichten plaats);</item>
+                  <item>Analoog aan de archivering van KA-bestanden worden deze naar PDF omgezette attachments opgeslagen in het XML-bestand. Dit gebeurt door de naar PDF omgezette attachments op te slaan als elementen die het Base64Binary formaat hebben. De link tussen het e-mailbericht en de daarbij behorende attachments is daarmee gewaarborgd.</item>
+                </list>
+              </p>
+              <p>In het uiteindelijke XML-versie van het omgezette e-mailbericht wordt dus opgenomen:
+						<list mark="hyphen" type="marked">
+                  <item>De meta-informatie van het e-mailbericht;</item>
+                  <item>De body van het e-mailbericht;</item>
+                  <item>De attachments in PDF-formaat.</item>
+                </list>
+              </p>
+            </appraisal>
+            <appraisal>
+              <head>Verantwoording voor het Base64Binary formaat</head>
+              <p>Voor de koppeling van PDF-documenten aan de XML-wrappers zijn er twee mogelijkheden. De PDF-documenten kunnen ingebed worden in de wrapper of ze staan buiten de wrapper in dezelfde directory en worden via XML-linktechniek aan elkaar gekoppeld.</p>
+              <p>In het eerste geval worden alleen XML-documenten opgeslagen in een repository, in het tweede geval worden er in de directories XML-documenten en PDF-documenten opgeslagen.</p>
+              <p>Directories zijn objecten, die afhankelijk zijn van het onderliggende operating system. XML-documenten daarentegen staan in Unicode en zijn daarmee platformonafhankelijk. Om de noodzaak van toekomstige platformemulatie te vermijden is in dit traject gekozen voor directe inbedding van PDF in de wrappers. Omdat PDF geen textformat is dient er een codering toegepast te worden. Voor de codering is gekozen voor Base64, een simpele en transparante manier van coderen die door middel van een eenvoudig algoritme te realiseren is. Base64 is in RFC 2045 (Multipurpose Internet Mail Extension, MIME, Part One) gedefinieerd.</p>
+            </appraisal>
+          <appraisal>
+            <head>Opslag</head>
+            <p>De geselecteerde en vervolgens naar duurzaam formaat geconverteerde KA-bestanden en e-mailberichten zijn opgeslagen:
+					<list mark="hyphen" type="marked">
+                <item>per regio/CBA, en vervolgens</item>
+                <item>per server</item>
+              </list>
+            </p>
+            <p>Per server is een scheiding aangebracht tussen geconverteerde KA-bestanden en e-mailberichten.</p>
+            <p>Voor wat betreft de KA-bestanden is de oorspronkelijke mappenstructuur binnen de servers gehandhaafd (veelal met de groeps- en gebruikersdirectories Documenten, Werkbladen, etc.). Om de structuur uit het Computermuseum niet verloren te laten gaan, is gedurende het selectieproces de betreffende structuur overgenomen. De wijze waarop gebruikers immers hun bestanden opgeslagen hebben, bevat op zichzelf ook al informatie.</p>
+            <p>Hetzelfde geldt voor de in de mailbox door de gebruiker aangemaakte mappen met e-mailberichten. Voor de volledigheid zijn ook de mappen Deleted Items gearchiveerd.</p>
+            <p>Dit geeft de volgende structuur, die voor zowel de selectieomgeving als de uiteindelijke omgeving met geconverteerde bestanden gecreëerd is:</p>
+            <p>
+              <extptr actuate="onload" href="http://www.gahetna.nl/sites/default/files/afbeeldingen/toegangen/NL-HaNA_2.25.07_Schema-arbvo-archief.jpg" linktype="simple" show="embed"/>
+            </p>
+            <p>Er is dus per server, een scheiding aangebracht tussen KA-bestanden en e-mailberichten. Vervolgens is de structuur overgenomen, die op de betreffende server is aangemaakt voor zowel KA-bestanden als e-mailberichten.</p>
+            <p>In de directory namen, die overeenkomen met de namen van de verschillende servers, zit de locatie van deze server versleuteld, bijvoorbeeld:
+					<list mark="hyphen" type="marked">
+                <item>DREASSEK1, voor de server K1 in de regio Drenthe en de plaats Assen;</item>
+                <item>RMDROTTE3, voor de server E3 in de regio Rijnmond en de plaats Rotterdam.</item>
+              </list>
+            </p>
+            <p>Deze codering maakt het mogelijk om de omgeving van een specifieke locatie te benaderen.</p>
+          </appraisal>
+        </appraisal>
+        <appraisal>
+          <head>Brains</head>
+          <appraisal>
+            <head>Inleiding</head>
+            <p>Brains was het Intranet van Arbeidsvoorziening: een plek waar medewerkers van Arbeidsvoorziening voor hun werk relevante informatie konden vinden. Brains had een landelijk deel en regionale delen.</p>
+            <p>Allerlei Brains-delen zijn in het computermuseum aan de Wattstraat in Zoetermeer opgeslagen en (via webtechnologie) toegankelijk gemaakt. Het overgrote deel van de interne links werkt; de externe links over het algemeen niet.</p>
+          </appraisal>
+          <appraisal>
+            <head>Selectie</head>
+            <p>In de beleidsnotitie, ondertekend door de bestuurder, is aangegeven dat slechts een klein deel van Brains overgedragen behoeft te worden aan het Nationaal Archief. Het betreft alleen het archief van het Centraal Bestuur Arbeidsvoorziening (CBA).</p>
+            <p>In dit archief zijn opgenomen:
+					<list mark="hyphen" type="marked">
+                <item>Beleidsoverzichten;</item>
+                <item>Korte weergaven van de verslagen van de concernraad en het centraal bestuur arbeidsvoorziening.</item>
+              </list>
+            </p>
+            <p>Vanwege de technische opzet van Brains valt het archief, en daarmee de conversie, uiteen in twee delen: een deel tot 1997 en een deel vanaf 1997. In de navolgende paragrafen worden deze delen apart besproken.</p>
+          </appraisal>
+          <appraisal>
+            <head>Periode 1991-1997</head>
+            <p>In de periode 1991 - 1997 heeft het Directiesecretariaat van de Arbeidsvoorzieningsorganisatie de verslagen van de CBA vergaderingen op papier gepubliceerd. Het Beleidsdossier is de op onderwerp gesorteerde verzameling gespreksonderwerpen uit de CBA verslagen. Er zijn verwijzingen opgenomen naar verwante onderwerpen binnen het beleidsdossier zelf.</p>
+            <p>Over de periode 1991 - 1997 werd het beleidsdossier als Windows-Help bestand via het KA netwerk ter beschikking gesteld. Het beleidsdossier is ontwikkeld door het Archief van de Arbeidsvoorzienings-organisatie.</p>
+              <p>Het beleidsarchief van de jaren 1994-1997 heeft de vorm van een Windows helpfile (met hlp-extensie). De Helpfile is naar HTML geconverteerd middels Robohelp. Vervolgens zijn alles stappen die beschreven staan in de werkwijze 1997-2001 ook uitgevoerd met de door Robohelp gegenereerde HTML-files.</p>
+              <p>Na conversie van Windows-Help file naar HTML is het Beleidsdossier uit deze periode, samen met het beleidsdossier uit de periode 1997 - 2001, opgenomen in een separaat web.</p>
+          </appraisal>
+          <appraisal>
+            <head>Periode 1997 - 2001</head>
+            <p>In de periode 1997 - 2001 heeft het Directiesecretariaat van de Arbeidsvoorzieningsorganisatie de verslagen van de CBA vergaderingen op Brains gepubliceerd. Daarnaast werden de teksten van de door het CBA genomen besluiten door de afdeling Juridische Aangelegenheden op Brains geplaatst.</p>
+            <p>Het Beleidsdossier is de op onderwerp gesorteerde verzameling gespreksonderwerpen uit de CBA verslagen. In het beleidsdossier zijn verwijzingen opgenomen naar de door Juridische Aangelegenheden gepubliceerde besluiten. Ook zijn er verwijzingen opgenomen naar verwante onderwerpen binnen het beleidsdossier zelf. Het beleidsdossier is ontwikkeld door het Archief van de Arbeidsvoorzieningsorganisatie.</p>
+            <p>Voor de overdracht naar het nationaal archief is het beleidsdossier, tezamen met de CBA verslagen en de besluiten, uit Brains gekopieerd en in een separaat web geplaatst.</p>
+              <p>De informatie over deze periode is in Brains vooral in HTML (3.0) en een stukje ASP in combinatie met Microsoft Word for Windows 95 documenten opgeslagen.</p>
+              <p>Ieder bestand is ingelezen in Macromedia Homesite+, daarna door middel van het toevoegen van de XHTML standaardheader en de code-sweeper, een soort styleer-bewerking (Marcomedia HTML tidy settings met als optie XHTML 1.0 strict) in de XHTML 1.0 standaard gebracht. Via de website http://validator.w3.org zijn alle files gecontroleerd op de XHTML 1.0 standaard. Daar waar nodig zijn foutmeldingen aangepast. Waarschuwingen zijn genegeerd; deze zijn niet cruciaal voor de XHTML 1.0 standaard. De bijbehorende Microsoft Word-bestanden zijn niet inhoudelijk veranderd. De naamgeving kan gewijzigd zijn om aan de XHTML 1.0 -standaard te voldoen.</p>
+              <p>Middels de Macromedia Dreamweaver functie 'check links' zijn alle links binnen en buiten de site gecontroleerd en waar nodig aangepast. Het kan zijn dat door de conversie naar XHTML 1.0 de opmaak van sommige pagina's iets is veranderd. Dit is niet hersteld.</p>
+              <p>De Word-documenten zijn geconverteerd naar PDF 1.3 documenten (vanaf Acrobat Reader 4.0) door middel van de PDF-maker 5.0 voor Word.</p>
+          </appraisal>
+          <appraisal>
+            <head>Gebruikte tools</head>
+            <p>Ten behoeve van de conversie zijn de volgende tools gebruikt:
+					<list mark="hyphen" type="marked">
+                <item>Macromedia Homesite + (5.1)</item>
+                <item>Marcomedia Dreamweaver 4.0</item>
+                <item>Robohelp HTML X3 (221)</item>
+                <item>PDF-maker 5.0 for Word</item>
+              </list>
+            </p>
+            <p>De te converteren informatie was duidelijk afgescheiden van de rest van de Brains-inhoud en separaat toegankelijk. Ook technisch was deze scheiding helder en te maken op directory-niveau en naar van daaruit verwezen bestanden. Omdat alleen deze gegroepeerde informatie geselecteerd behoefde te worden, vergde deze selectie geen ingewikkelde softwaretools of scripts.</p>
+          </appraisal>
+        </appraisal>
+      </appraisal>
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig beperkt openbaar (B).</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head id="aanw">Materiële beperkingen</head>
+        <p/>
+        <p>Het archief kent beperkingen voor het raadplegen van stukken. Het gehele archief is digitaal, en vereist een specifieke gebruikersinterface. Deze is niet voor raadpleging door onderzoekers geïnstalleerd. Voor raadpleging dient men vooraf contact op te nemen met het <extref actuate="onrequest" href="mailto:info@nationaalarchief.nl?SUBJECT=Verzoek inzage digitaal archief Arbeidsvoorziening 2.25.07" linktype="simple" show="new">Nationaal Archief</extref>.</p>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Het archief kent beperkingen voor het raadplegen van stukken. Het gehele archief is digitaal, en vereist een specifieke gebruikersinterface. Deze is niet voor raadpleging door onderzoekers geïnstalleerd. Voor raadpleging dient men vooraf contact op te nemen met het <extref actuate="onrequest" href="mailto:info@nationaalarchief.nl?SUBJECT=Verzoek inzage digitaal archief Arbeidsvoorziening 2.25.07" linktype="simple" show="new">Nationaal Archief</extref>.</p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Digitaal Archief Arbeidsvoorziening, nummer toegang 2.25.07, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Digitaal Archief Arbeidsvoorziening, 2.25.07, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p>De bestanddelen van dit digitale archief zijn niet in andere vorm beschikbaar.</p>
+      </altformavail>
+      <relatedmaterial>
+				<head>Verwante archieven</head>
+        <p>Het fysieke, niet digitale archief is beschreven in de toegang 5.134.5273/5274/5281/5282, bevattende de dossiers van het Centraal Bestuur voor de Arbeidsvoorziening (CBA) [periode 1991-2001], alsmede van de Regionale besturen Arbeidsvoorziening Rijnstreek, Den Haag / Delft, Rijnmond en Drechtsteden [periode 1991-2001].</p>
+      </relatedmaterial>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="file">
+        <did>
+          <unitid type="blank">---</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f85d9c39-24f7-46c2-acbe-dff94c8d2ac1</unitid>
+          <unittitle>Van het digitaal archief bestaat geen beschrijvende inventaris van de dossiers (mappen) of documenten (bestanddelen) afzonderlijk.</unittitle>
+        </did><odd>
+									<p>Zie voor raadpleging van het digitale archief Arbeidsvoorziening de '<ref actuate="onrequest" linktype="simple" show="new" target="aanw">Aanwijzingen voor de gebruiker</ref>'.</p>
+								</odd>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

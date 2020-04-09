@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/----"
+  rdf:about="record/2.15.116">
+    <rico:identifier>2.15.116</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    2016</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/S85" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.15.116/i1" />
+      <rico:instantiates rdf:resource="record/2.15.116" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het Archief van de Raad voor Werk en Inkomen,
+        (2000) 2001-2012</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/----" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/S85">
+    <rico:describedBy rdf:resource="record/2.15.116" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>S85</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Raad voor Werk en Inkomen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>RWI</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2000</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2012</rico:endDate>
+    <rico:date>2000-2012</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Raad voor Werk en Inkomen, 2001 - 2012</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Raad voor Werk en Inkomen (RWI) 2001-2012</html:p>
+          <html:p>Ontstaan RWI</html:p>
+          <html:p>De RWI is ontstaan door wetswijzigingen op het gebied van het
+          arbeidsmarktbeleid en de uitvoering van de sociale zekerheid resulterend in de
+          Wet Structuur Uitvoering Werk en Inkomen (SUWI). De wetswijzigingen leidden tot
+          een andere verdeling van verantwoordelijkheden van partijen die betrokken waren
+          bij de sociale zekerheid, een andere afbakening tussen overheid en markt en
+          sociale partners. De RWI werd bij de Wet SUWI van 29 november 2001
+          ingesteld.</html:p>
+          <html:p>Samenstelling RWI</html:p>
+          <html:p>In de Raad voor Werk en Inkomen waren drie deelnemerscategorieën
+          vertegenwoordigd, namelijk werkgevers: VNO-NCW (2), MKB-Nederland (1), LTO
+          Nederland (1), VSO (1), werknemers: FNV (2), CNV (1), SCO (1), MHP (1) en
+          gemeenten: VNG (5), onder leiding van een onafhankelijke voorzitter, de heer
+          J.P.C.M. van Zijl (per 1 april 2008 de heer P.J. Biesheuvel). De Raad had 15
+          leden en 15 plaatsvervangende leden. De Raad had naast een voorzitter een
+          algemeen secretaris.</html:p>
+          <html:p>Organisatie RWI</html:p>
+          <html:p>De RWI bestond uit de volgende afdelingen: Algemene Zaken Communicatie
+          Beleid Onderzoek en Analyse Subsidies</html:p>
+          <html:p>Halverwege 2006 heeft er een verandering in de organisatiestructuur
+          plaatsgevonden. Er was één afdeling toegevoegd aan de reeds bestaande drie
+          inhoudelijke afdelingen, namelijk de afdeling Blik op Werk. In 2007 werd de
+          afdeling Subsidies opgeheven. In 2010 werd de afdeling Blik op Werk
+          opgeheven.</html:p>
+          <html:p>Werkwijze RWI</html:p>
+          <html:p>In principe werd een gemiddelde vergaderfrequentie van een keer per zes
+          weken gehanteerd. Met dien verstande dat extra vergaderingen konden worden
+          belegd, als de agenda dit vereiste.</html:p>
+          <html:p>Naast de Raadsvergaderingen vonden er commissievergaderingen plaats,
+          waarin de verschillende onderwerpen werden voorbereid. De afspraken over de
+          werkwijze van de Raadsvergaderingen waren vastgelegd in een
+          vergaderreglement.</html:p>
+          <html:p>Kerntaken RWI Expertisefunctie/het doen van voorstellen aan de
+          bewindslieden van Sociale Zaken en Werkgelegenheid (SZW) op het terrein van
+          werk en inkomen deed de RWI (gevraagd en ongevraagd) voorstellen aan de
+          bewindslieden van Sociale Zaken en Werkgelegenheid en verschillende landelijke
+          en decentrale partijen. De advisering was zo concreet en praktisch mogelijk,
+          met het oog vooral gericht op direct resultaat. Bij het opstellen van diverse
+          voorstellen werd gebruik gemaakt van de door de RWI uitgezette onderzoeken,
+          door de RWI opgestelde analyses en verschillende vormen van overleg met
+          relevante partijen in het werkveld. De analyses en onderzoeksrapporten die in
+          opdracht van de Raad of door zijn secretariaat werden opgesteld vormden niet
+          alleen het fundament onder de voorstellen en handreikingen. Ook als zelfstandig
+          product belichaamden ze de functie van de Raad als expertisecentrum op het
+          gebied van de arbeids- en re-integratiemarkt. Bevorderen kwaliteit en
+          transparantie re-integratiemarkt. De Raad bevorderde de kwaliteit op en
+          transparantie van de re-integratiemarkt. Dit gebeurde via het verrichten van
+          onderzoek, het uitvoeren van uitgebreide en toegespitste analyses en het doen
+          van voorstellen.Verder nam de Raad deel in de Stichting Blik op Werk (BOW) via
+          het onafhankelijk voorzitterschap, het voeren van het secretariaat en via een
+          financiële bijdrage. De Stichting was formeel op 19 januari 2006 van start
+          gegaan. Blik op Werk is een intensief samenwerkingsverband van vragers,
+          aanbieders en cliënten op de markten re-integratie, inburgering-, interventie-
+          en arbodienstverlening. Naast de RWI participeerden vragers en aanbieders op de
+          arbo- en re-integratiemarkt in de Stichting BOW. Op 1 juni 2010
+          verzelfstandigde de Stichting BOW en per 1 januari 2011 zijn de rechtstreekse
+          banden tussen de RWI en BOW verbroken conform de afspraken die daarover waren
+          gemaakt met het ministerie van SZW. Subsidiëren re-integratieprojecten. De
+          uitvoering van de Stimuleringsregeling Vacaturevervulling door Werklozen en met
+          werkloosheid bedreigde Werknemers (SVWW) was een wettelijke taak van de RWI. De
+          RWI stimuleerde met de subsidieregeling partijen die een goed plan hadden
+          ingediend om vacatures te vervullen. De vacaturevervulling gebeurde met mensen
+          zonder baan, maar ook initiatieven voor werknemers die met werkloosheid werden
+          bedreigd, kwamen in aanmerking voor financiële ondersteuning op grond van de
+          SVWW. In 2003 was in het kader van het regeerakkoord besloten om geen nieuw
+          budget ter beschikking te stellen ten behoeve van de Stimuleringsregeling
+          Vacaturevervulling door Werklozen en met werkloosheid bedreigde Werknemers
+          (SVWW). De reeds gedane subsidietoekenningen werden volgens de regeling
+          afgewikkeld. Op 31 december 2007 eindigde de formele bemoeienis van de RWI met
+          de SVWW.</html:p>
+          <html:p>Opheffing</html:p>
+          <html:p>Wettelijk werd bepaald dat de Staat het RWI per 1 juli 2012 niet langer
+          bekostigde. Het RWI kondigde daarop aan de raad per 1 juli 2012 op te
+          heffen.</html:p>
+          <html:p>Commissie Voorbereiding Raad voor Werk en Inkomen, 2000-2001</html:p>
+          <html:p>Bij ministeriële regeling van 29 september 2000 is de Commissie
+          Voorbereiding Raad voor Werk en Inkomen door de minister en staatssecretaris
+          van Sociale Zaken en Werkgelegenheid ingesteld. Vervolgens is de Commissie op
+          11 oktober bij instellingsbesluit geïnstalleerd.</html:p>
+          <html:p>De Commissie had het doel de noodzakelijke werkzaamheden te verrichten
+          ter voorbereiding van de totstandkoming van de Raad voor Werk en Inkomen. In
+          elk geval dienden de volgende werkzaamheden te worden verricht: het uitwerken
+          van de werkwijze van de Raad voor Werk en Inkomen; de voorbereiding van de
+          vormgeving en de inrichting van de organisatie van de Raad voor Werk en
+          Inkomen; het ontwikkelen van criteria ten behoeve van een subsidieregeling voor
+          sectorale, regionale en bedrijfsinitiatieven ten behoeve van arbeidsmarkt- en
+          re-integratiebeleid; de voorbereiding van de taken van de Raad voor Werk en
+          Inkomen.</html:p>
+          <html:p>Met de Invoeringswet Wet Structuur Uitvoeringsorganisatie Werk en
+          Inkomen (SUWI) op 21 december 2001 zijn de activiteiten van de Commissie
+          Voorbereiding Raad voor Werk en Inkomen beëindigd, en is daaropvolgend de Raad
+          voor Werk en Inkomen per 1 januari 2002 tot stand gekomen.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commissie Voorbereiding Raad voor Werk en Inkomen, 2000 -
+            2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Raad voor Werk en Inkomen (RWI) 2001-2012</html:p>
+          <html:p>Ontstaan RWI</html:p>
+          <html:p>De RWI is ontstaan door wetswijzigingen op het gebied van het
+          arbeidsmarktbeleid en de uitvoering van de sociale zekerheid resulterend in de
+          Wet Structuur Uitvoering Werk en Inkomen (SUWI). De wetswijzigingen leidden tot
+          een andere verdeling van verantwoordelijkheden van partijen die betrokken waren
+          bij de sociale zekerheid, een andere afbakening tussen overheid en markt en
+          sociale partners. De RWI werd bij de Wet SUWI van 29 november 2001
+          ingesteld.</html:p>
+          <html:p>Samenstelling RWI</html:p>
+          <html:p>In de Raad voor Werk en Inkomen waren drie deelnemerscategorieën
+          vertegenwoordigd, namelijk werkgevers: VNO-NCW (2), MKB-Nederland (1), LTO
+          Nederland (1), VSO (1), werknemers: FNV (2), CNV (1), SCO (1), MHP (1) en
+          gemeenten: VNG (5), onder leiding van een onafhankelijke voorzitter, de heer
+          J.P.C.M. van Zijl (per 1 april 2008 de heer P.J. Biesheuvel). De Raad had 15
+          leden en 15 plaatsvervangende leden. De Raad had naast een voorzitter een
+          algemeen secretaris.</html:p>
+          <html:p>Organisatie RWI</html:p>
+          <html:p>De RWI bestond uit de volgende afdelingen: Algemene Zaken Communicatie
+          Beleid Onderzoek en Analyse Subsidies</html:p>
+          <html:p>Halverwege 2006 heeft er een verandering in de organisatiestructuur
+          plaatsgevonden. Er was één afdeling toegevoegd aan de reeds bestaande drie
+          inhoudelijke afdelingen, namelijk de afdeling Blik op Werk. In 2007 werd de
+          afdeling Subsidies opgeheven. In 2010 werd de afdeling Blik op Werk
+          opgeheven.</html:p>
+          <html:p>Werkwijze RWI</html:p>
+          <html:p>In principe werd een gemiddelde vergaderfrequentie van een keer per zes
+          weken gehanteerd. Met dien verstande dat extra vergaderingen konden worden
+          belegd, als de agenda dit vereiste.</html:p>
+          <html:p>Naast de Raadsvergaderingen vonden er commissievergaderingen plaats,
+          waarin de verschillende onderwerpen werden voorbereid. De afspraken over de
+          werkwijze van de Raadsvergaderingen waren vastgelegd in een
+          vergaderreglement.</html:p>
+          <html:p>Kerntaken RWI Expertisefunctie/het doen van voorstellen aan de
+          bewindslieden van Sociale Zaken en Werkgelegenheid (SZW) op het terrein van
+          werk en inkomen deed de RWI (gevraagd en ongevraagd) voorstellen aan de
+          bewindslieden van Sociale Zaken en Werkgelegenheid en verschillende landelijke
+          en decentrale partijen. De advisering was zo concreet en praktisch mogelijk,
+          met het oog vooral gericht op direct resultaat. Bij het opstellen van diverse
+          voorstellen werd gebruik gemaakt van de door de RWI uitgezette onderzoeken,
+          door de RWI opgestelde analyses en verschillende vormen van overleg met
+          relevante partijen in het werkveld. De analyses en onderzoeksrapporten die in
+          opdracht van de Raad of door zijn secretariaat werden opgesteld vormden niet
+          alleen het fundament onder de voorstellen en handreikingen. Ook als zelfstandig
+          product belichaamden ze de functie van de Raad als expertisecentrum op het
+          gebied van de arbeids- en re-integratiemarkt. Bevorderen kwaliteit en
+          transparantie re-integratiemarkt. De Raad bevorderde de kwaliteit op en
+          transparantie van de re-integratiemarkt. Dit gebeurde via het verrichten van
+          onderzoek, het uitvoeren van uitgebreide en toegespitste analyses en het doen
+          van voorstellen.Verder nam de Raad deel in de Stichting Blik op Werk (BOW) via
+          het onafhankelijk voorzitterschap, het voeren van het secretariaat en via een
+          financiële bijdrage. De Stichting was formeel op 19 januari 2006 van start
+          gegaan. Blik op Werk is een intensief samenwerkingsverband van vragers,
+          aanbieders en cliënten op de markten re-integratie, inburgering-, interventie-
+          en arbodienstverlening. Naast de RWI participeerden vragers en aanbieders op de
+          arbo- en re-integratiemarkt in de Stichting BOW. Op 1 juni 2010
+          verzelfstandigde de Stichting BOW en per 1 januari 2011 zijn de rechtstreekse
+          banden tussen de RWI en BOW verbroken conform de afspraken die daarover waren
+          gemaakt met het ministerie van SZW. Subsidiëren re-integratieprojecten. De
+          uitvoering van de Stimuleringsregeling Vacaturevervulling door Werklozen en met
+          werkloosheid bedreigde Werknemers (SVWW) was een wettelijke taak van de RWI. De
+          RWI stimuleerde met de subsidieregeling partijen die een goed plan hadden
+          ingediend om vacatures te vervullen. De vacaturevervulling gebeurde met mensen
+          zonder baan, maar ook initiatieven voor werknemers die met werkloosheid werden
+          bedreigd, kwamen in aanmerking voor financiële ondersteuning op grond van de
+          SVWW. In 2003 was in het kader van het regeerakkoord besloten om geen nieuw
+          budget ter beschikking te stellen ten behoeve van de Stimuleringsregeling
+          Vacaturevervulling door Werklozen en met werkloosheid bedreigde Werknemers
+          (SVWW). De reeds gedane subsidietoekenningen werden volgens de regeling
+          afgewikkeld. Op 31 december 2007 eindigde de formele bemoeienis van de RWI met
+          de SVWW.</html:p>
+          <html:p>Opheffing</html:p>
+          <html:p>Wettelijk werd bepaald dat de Staat het RWI per 1 juli 2012 niet langer
+          bekostigde. Het RWI kondigde daarop aan de raad per 1 juli 2012 op te
+          heffen.</html:p>
+          <html:p>Commissie Voorbereiding Raad voor Werk en Inkomen, 2000-2001</html:p>
+          <html:p>Bij ministeriële regeling van 29 september 2000 is de Commissie
+          Voorbereiding Raad voor Werk en Inkomen door de minister en staatssecretaris
+          van Sociale Zaken en Werkgelegenheid ingesteld. Vervolgens is de Commissie op
+          11 oktober bij instellingsbesluit geïnstalleerd.</html:p>
+          <html:p>De Commissie had het doel de noodzakelijke werkzaamheden te verrichten
+          ter voorbereiding van de totstandkoming van de Raad voor Werk en Inkomen. In
+          elk geval dienden de volgende werkzaamheden te worden verricht: het uitwerken
+          van de werkwijze van de Raad voor Werk en Inkomen; de voorbereiding van de
+          vormgeving en de inrichting van de organisatie van de Raad voor Werk en
+          Inkomen; het ontwikkelen van criteria ten behoeve van een subsidieregeling voor
+          sectorale, regionale en bedrijfsinitiatieven ten behoeve van arbeidsmarkt- en
+          re-integratiebeleid; de voorbereiding van de taken van de Raad voor Werk en
+          Inkomen.</html:p>
+          <html:p>Met de Invoeringswet Wet Structuur Uitvoeringsorganisatie Werk en
+          Inkomen (SUWI) op 21 december 2001 zijn de activiteiten van de Commissie
+          Voorbereiding Raad voor Werk en Inkomen beëindigd, en is daaropvolgend de Raad
+          voor Werk en Inkomen per 1 januari 2002 tot stand gekomen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken opgemaakt en ontvangen door de Raad voor Werk en
+      Inkomen. Het betreft voornamelijk onderzoeken naar en adviezen over het brede
+      terrein van werk en inkomen, het arbeidsmarktbeleid en de kwaliteit en
+      transparantie van de re-integratiemarkt.Tevens is in deze inventaris het archief
+      van de Commissie Voorbereiding Raad voor Werk en Inkomen opgenomen. De stukken
+      hebben betrekking op de totstandkoming van de Raad voor Werk en Inkomen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Het archief is eigendom van de Staat der Nederlanden</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het Auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>14,75 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>387 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Het archief bevat geen inventarisnummers die in kopievorm beschikbaar
+        zijn</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

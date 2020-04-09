@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/7fdd6ef9-875d-4dc1-a4c1-62c49de6bc89"
+  rdf:about="record/2.09.75">
+    <rico:identifier>2.09.75</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2008</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/J7" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.09.75/i1" />
+      <rico:instantiates rdf:resource="record/2.09.75" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van archiefbescheiden betreffende het Nieuw
+        Burgerlijk Wetboek van het ministerie van Justitie, (1919)
+        1947-2005</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/7fdd6ef9-875d-4dc1-a4c1-62c49de6bc89" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/J7">
+    <rico:describedBy rdf:resource="record/2.09.75" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>J7</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Justitie, Nieuw Burgerlijk
+      Wetboek</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Justitie / NBW</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1919</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2005</rico:endDate>
+    <rico:date>1919-2005</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Staatscommissie voor de Nederlandse Burgerlijke
+            Wetgeving</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het NBW is een dynamische wet die sinds de invoering van de
+          verschillende boeken al vele malen is aangepast. Om deze dynamiek te
+          stroomlijnen heeft het ministerie van Justitie steeds gebruik gemaakt van
+          adviescommissies. De voornaamste van deze commissies was de Staatscommissie
+          voor de Nederlandse Burgerlijke Wetgeving die op 13 september 1919 werd
+          ingesteld. Bij Koninklijk Besluit (KB) van 25 april 1947 kreeg prof. mr. E.M.
+          Meijers de officiële opdracht om een Nieuw Burgerlijk Wetboek te ontwerpen. Het
+          oude stamde uit 1838 en was ondanks tussentijdse wijzigingen verouderd. In 1954
+          diende Meijers het ontwerp in voor de eerste vier boeken, vergezeld van een
+          uitgebreide toelichting. Na Meijers' dood werd zijn werk voortgezet door J.
+          Drion (1954-1962), F.J. de Jong (1954-1962), J. Eggens (1954-1958), en G. de
+          Grooth (1958-1962). Voor elk boek kreeg een jurist de opdracht van de regering
+          om een voorontwerp te maken. De voorontwerpen werden gepubliceerd in de z.g.
+          “Groene Boeken” zodat vanuit brede kring op- en aanmerkingen konden worden
+          gemaakt. Het voorontwerp werd op het ministerie van Justitie becommentarieerd
+          en in overleg met de voorontwerpers bewerkt tot regeringsontwerp. Voor de
+          behandeling in de Eerste en Tweede Kamer werd een regeringscommissaris benoemd.
+          Vaak was dat de voorontwerper. Memories van antwoord, gewijzigde ontwerpen en
+          nota’s van wijzigingen werden in samenwerking met de regeringscommissaris door
+          de ambtenaren opgesteld. Professor mr. H. Schadee werd in 1962 aangewezen voor
+          de bewerking van de onderdelen m.b.t. het zeerecht, Boek 8. Bij KB van 23 april
+          1976 werd hij aangewezen als regeringscommissaris voor het wetsontwerp tot
+          invoering van boek 8. Deze aanwijzing werd bij KB van 18 november 1988
+          beëindigd. Andere regeringscommissarissen waren J.H. Beekhuis die vanaf 1964
+          werkte aan Boek 5 en K.Wiersma die in de periode 1964-1969 aan Boek 4 werkte.
+          T.J. Dorhout Mees heeft een belangrijke bijdrage geleverd aan het voorontwerp
+          van Boek 7.17.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Justitie, Directie Wetgeving</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Het NBW is een dynamische wet die sinds de invoering van de
+          verschillende boeken al vele malen is aangepast. Om deze dynamiek te
+          stroomlijnen heeft het ministerie van Justitie steeds gebruik gemaakt van
+          adviescommissies. De voornaamste van deze commissies was de Staatscommissie
+          voor de Nederlandse Burgerlijke Wetgeving die op 13 september 1919 werd
+          ingesteld. Bij Koninklijk Besluit (KB) van 25 april 1947 kreeg prof. mr. E.M.
+          Meijers de officiële opdracht om een Nieuw Burgerlijk Wetboek te ontwerpen. Het
+          oude stamde uit 1838 en was ondanks tussentijdse wijzigingen verouderd. In 1954
+          diende Meijers het ontwerp in voor de eerste vier boeken, vergezeld van een
+          uitgebreide toelichting. Na Meijers' dood werd zijn werk voortgezet door J.
+          Drion (1954-1962), F.J. de Jong (1954-1962), J. Eggens (1954-1958), en G. de
+          Grooth (1958-1962). Voor elk boek kreeg een jurist de opdracht van de regering
+          om een voorontwerp te maken. De voorontwerpen werden gepubliceerd in de z.g.
+          “Groene Boeken” zodat vanuit brede kring op- en aanmerkingen konden worden
+          gemaakt. Het voorontwerp werd op het ministerie van Justitie becommentarieerd
+          en in overleg met de voorontwerpers bewerkt tot regeringsontwerp. Voor de
+          behandeling in de Eerste en Tweede Kamer werd een regeringscommissaris benoemd.
+          Vaak was dat de voorontwerper. Memories van antwoord, gewijzigde ontwerpen en
+          nota’s van wijzigingen werden in samenwerking met de regeringscommissaris door
+          de ambtenaren opgesteld. Professor mr. H. Schadee werd in 1962 aangewezen voor
+          de bewerking van de onderdelen m.b.t. het zeerecht, Boek 8. Bij KB van 23 april
+          1976 werd hij aangewezen als regeringscommissaris voor het wetsontwerp tot
+          invoering van boek 8. Deze aanwijzing werd bij KB van 18 november 1988
+          beëindigd. Andere regeringscommissarissen waren J.H. Beekhuis die vanaf 1964
+          werkte aan Boek 5 en K.Wiersma die in de periode 1964-1969 aan Boek 4 werkte.
+          T.J. Dorhout Mees heeft een belangrijke bijdrage geleverd aan het voorontwerp
+          van Boek 7.17.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken betreffende de samenstelling en wijzigingen van
+      het Nieuw Burgerlijk Wetboek. De depots De Meijere, Staatscommissie NBW,
+      regeringscommissaris Schadee en het archief Fokkema zijn als gedeponeerde archieven
+      bij het archiefblok NBW opgenomen en vormen een onderdeel van de onderhavige
+      inventaris.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>55.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>2321 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

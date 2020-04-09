@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/926583bd-2c88-4b3f-b67c-c9e897dcead0"
+  rdf:about="record/2.14.57">
+    <rico:identifier>2.14.57</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/O28523" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.14.57/i1" />
+      <rico:instantiates rdf:resource="record/2.14.57" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080818</rico:hasModificationDate>
+        <html:p>18 augustus 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20081021</rico:hasModificationDate>
+        <html:p>22 oktober 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090216</rico:hasModificationDate>
+        <html:p>16 februari 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Stichting Proefprojecten
+        Open School, (1975) 1976-1981 (1982)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/926583bd-2c88-4b3f-b67c-c9e897dcead0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/O28523">
+    <rico:describedBy rdf:resource="record/2.14.57" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>O28523</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Stichting Proefprojecten Open School</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>SPOP</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1975</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1984</rico:endDate>
+    <rico:date>1975-1984</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting Proefprojecten Open School, 1976-1981</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In de regeringsverklaring van 1973 werd de ontwikkeling van een stelsel
+          van educatieve voorzieningen, dat scholing en vorming na en naast het
+          dagonderwijs mogelijk zou maken, in het vooruitzicht gesteld.</html:p>
+          <html:p>Een nadere uitleg volgde bij de aanbieding van de onderwijsbegroting
+          voor 1974: grote maatschappelijke veranderingen, zowel op het terrein van
+          kennis en technologie als op het gebied van waarden en normen veroorzaakten bij
+          velen een groeiende behoefte aan informatie, studie en bezinning, ook in latere
+          levensfasen. De noodzaak voor een tweede weg en een tweede kans op vorming en
+          dagonderwijs om aan deze behoefte tegemoet te komen, werd sterk
+          gevoeld.</html:p>
+          <html:p>De gedachten gingen daarbij uit naar een voorziening in de sector van
+          het secundair onderwijs en het niet tot het onderwijs behorende vormings- en
+          ontwikkelingswerk, door middel van een 'open school', dat wil zeggen een ieder
+          zou in de gelegenheid worden gesteld zijn leven lang op een door hem zelf te
+          kiezen moment weer deel te nemen aan een proces van onderwijs en vorming.
+          Inhoudelijk zou de mogelijkheid bestaan om zelf naar behoefte
+          programma-onderdelen te kiezen, waarbij de opzet en presentatie zodanig zouden
+          worden ingericht dat elke drempelvrees en huiver voor het leren zouden worden
+          weggenomen.</html:p>
+          <html:p>Om deze plannen nader uit werken werd op 25 juni 1974 door de minister
+          van Onderwijs en Wetenschappen, dr. J.A. van Kemenade, de Commissie Open School
+          ingesteld. Deze commissie kreeg als taak: het doen van voorstellen aan de
+          minister van Onderwijs en Wetenschappen en aan de minister van Cultuur,
+          Recreatie en Maatschappelijk Werk omtrent de structurering, organisatie,
+          planning en financiering van de open school. De Commissie Open School
+          adviseerde de ministers in haar eindrapport om drie proefprojecten op te zetten
+          op diverse locaties aan de hand van een geïntegreerd onderwijs- en
+          vormingsplan:</html:p>
+          <html:p>De deelnemers konden een keuze maken uit één of meer themagerichte,
+          leerdoelgerichte of bezigheidsbepaalde programma's.</html:p>
+          <html:p>Om de werkzaamheden voor te bereiden en uit te voeren werd op 12
+          oktober 1976 bij notariële akte de Stichting Proefprojecten Open School
+          opgericht. Inventarisnummer 24 Deze werd geleid door een bestuursraad, die uit
+          haar midden een dagelijks bestuur samenstelde, het college genaamd.</html:p>
+          <html:p>De stichting zou zich gaan bezighouden met de voorbereiding en
+          uitvoering van de door de Commissie Open School voorgestelde drie
+          proefprojecten. De werkzaamheden werden verricht door het landelijk bureau,
+          eerst gevestigd te Den Haag, later te Zeist. Dit bureau bestond uit een
+          directeur, een staf, teamleiders voor de diverse locaties van de
+          proefprojecten, teamleden voor het begeleiden van de deelnemers bij het
+          leerproces en administratief personeel. Binnen de staf werd een team gevormd
+          dat verantwoordelijk was voor de ontwikkeling van het onderwijs- en
+          vormingsplan (curriculumteam). Inventarisnummer 62 Een ander team hield zich
+          bezig met de organisatie en voorbereiding van de proefprojecten. De
+          voorbereidende werkzaamheden waren gericht op het opzetten en uitwerken van de
+          themagerichte, leerdoelgerichte en bezigheidsbepaalde programma's met
+          bijbehorend leermateriaal. Inventarisnummers 122-169 Ook radio en televisie,
+          die in dit kader uitzendingen zouden gaan verzorgen, werden hierbij betrokken.
+          Inventarisnummer 177</html:p>
+          <html:p>In het voorjaar van 1977 konden de eerste proefprojecten van start
+          gaan, waarbij het bureau de inschrijving verzorgde en besliste over toelating
+          van de deelnemers. Inspecteurs, door de minister aangewezen, werden belast met
+          het toezicht op deze proefprojecten. Bijna vier jaar lang zijn op dertien
+          verschillende locaties voor drie doelgroepen proefprojecten gestart en
+          uitgevoerd met drie verschillende programma's.</html:p>
+          <html:p>In de praktijk bleek al spoedig dat het landelijk onderwijs- en
+          vormingsplan niet geheel voldeed: het liet te weinig ruimte voor een eigen
+          invulling in de locaties. De vele kritiek leidde tot het in 1980 verschijnen
+          van een vernieuwd onderwijs- en vormingsplan: een Raamplan voor
+          Open-Schoolwerk. Inventarisnummer 64 Ook het leermateriaal bleek niet altijd
+          aan de gestelde eisen te voldoen, zodat de teams en deelnemers in de locaties
+          veelal overgingen tot het vervaardigen van eigen materiaal. Tijdens de
+          uitvoering van de proefprojecten werd duidelijk dat het leren voornamelijk in
+          groepsverband moest plaatsvinden, waarbij de deelnemers elkaar konden
+          ondersteunen en ervaringen konden uitwisselen.</html:p>
+          <html:p>Ook was er een verschil in opvatting over de aanpak en invulling van
+          volwassenen-educatie.</html:p>
+          <html:p>Dit alles heeft er toe geleid dat door begeleiders en deelnemers werd
+          gekozen voor een geheel eigen aanpak, los van de oorspronkelijke opzet.
+          Desondanks was de animo om deel te nemen groot en werd bereikt dat het Open
+          Schoolwerk zich heeft ontwikkeld tot een geschikte manier van werken om de
+          doelgroepen te bereiken.</html:p>
+          <html:p>Hoewel oorspronkelijk was bepaald dat de proefprojecten op 1 augustus
+          1980 zouden worden beëindigd, bleek dit niet haalbaar en de termijn werd
+          verlengd tot 21 november 1981. De Stichting Proefprojecten Open School werd op
+          31 december 1981 officieel ontbonden. Inventarisnummer 100</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken betreffende handelingen van de Stichting
+      Proefprojecten Open School die bezig was met het voorbereiden en uitvoeren van drie
+      landelijke proefprojecten in de sector van het secundair onderwijs. Ook radio en
+      televisie, die in dit kader uitzendingen zouden gaan verzorgen, werden hierbij
+      betrokken. Naast de agenda's, notulen van vergaderingen en jaarverslagen bevinden
+      zich in het archief stukken die betrekking hebben op o.a. Onderwijs- en
+      Vormingsplan, Proefprojecten, Leer- en examenmateriaal. Commissies waarvan de
+      Stichting het secretariaat voerde zijn apart achter in de inventaris
+      opgenomen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>11.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>197 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

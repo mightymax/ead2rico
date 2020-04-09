@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/f9ac39d3-15e0-4e73-94bb-2d01f87360e8"
+  rdf:about="record/3.20.54">
+    <rico:identifier>3.20.54</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1978</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35049" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.20.54/i1" />
+      <rico:instantiates rdf:resource="record/3.20.54" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100318</rico:hasModificationDate>
+        <html:p>18 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100318</rico:hasModificationDate>
+        <html:p>18 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100318</rico:hasModificationDate>
+        <html:p>18 maart 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121204</rico:hasModificationDate>
+        <html:p>4 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131127</rico:hasModificationDate>
+        <html:p>27 november 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20141031</rico:hasModificationDate>
+        <html:p>31 oktober 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Van der Staal van
+        Piershil, 1636-1904</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/f9ac39d3-15e0-4e73-94bb-2d01f87360e8" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35049">
+    <rico:describedBy rdf:resource="record/3.20.54" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35049</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familiearchief Van der Staal van Piershil</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Staal van Piershil, van der</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1636</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1904</rico:endDate>
+    <rico:date>1636-1904</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Van der Staal van Piershil</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Met de dood van Othon Daniel van der Staal van Piershil in 1937 stierf
+          een oude Hollandse regentenfamilie uit. Al in het begin van de vijftiende eeuw
+          maakten leden van de familie Van der Staal deel uit van de magistraat van
+          Schoonhoven. Door huwelijken in de zeventiende eeuw ontstonden banden met de
+          regentenfamilies van Rotterdam. Dit had tot resultaat, dat de familie gedurende
+          de achttiende eeuw onafgebroken zitting had in de vroedschap van deze stad. Na
+          de bestuursomwenteling als gevolg van de Bataafse Revolutie keerde zij daar
+          niet terug, vestigde zich te 's-Gravenhage maar leefde het grootste gedeelte
+          van het jaar als landjonkers op hun buitenplaatsen. Tenslotte ontwikkelden zich
+          nauwe relaties met hofkringen, waarin de laatste generatie Van der Staal ook is
+          opgenomen. Het is de moeite waard om over deze familie, die meer dan 500 jaar
+          onafgebroken deel heeft uitgemaakt van het regentenpatriciaat in Holland en
+          daardoor mede de gang van zaken in deze provincie bepaalde, iets meer mede te
+          delen.</html:p>
+          <html:p>De oudste bekende voorvader van het uit Schoonhoven afkomstige geslacht
+          is Klaas Egbertsz. H.L. Kruimel, Bijdrage tot de genealogie Van der Staal, in:
+          Jaarboek van het Centraal Bureau voor Genealogie, 1954, deel VIII, p. 17-46. De
+          volgende gegevens, voor zover niet nader vermeld, zijn eveneens aan
+          bovengenoemd artikel ontleend. Zie ook genealogie Van der Staal, beneden p. II.
+          . Hij werd in 1411 als schepen aangesteld en was bij zijn dood omstreeks 1434
+          burgemeester van Schoonhoven. Zijn zoon Egbert Klaasz., kleinzoon Klaas
+          Egbertsz. en achterkleinzoon Dirk Klaas Egbertsz. zijn allen schepen en later
+          burgemeester van Schoonhoven geweest. Nakomelingen van Dirk Klaas Egbertsz.
+          zijn niet bekend. Het geslacht zet zich voort met de oudste zoon van Dirk
+          Egbertsz., een broer van de in 1438 overleden Klaas Egbertsz., genaamd Egbert.
+          Hij werd volgens de familietraditie achtereenvolgens schepen en burgemeester
+          van Schoonhoven. Egbert Dirksz. had twee zonen, Jasper en Melchior. Beiden
+          bekleedden vooraanstaande posities, wat onder meer tot uiting komt in de
+          huwelijken van hun kinderen. Zoals uit het onderstaande blijkt, genoten
+          Melchiors kinderen aanvankelijk een grotere bekendheid in de Nederlanden dan
+          die van Jasper. Jasper Egbertsz., vermoedelijk apotheker of chirurgijn, werd
+          evenals zijn voorouders aangesteld tot schepen, was lid van de vroedschap en
+          later burgemeester. Zijn broer Melchior is, voor zover bekend geen schepen
+          geweest of lid van de vroedschap, vermoedelijk omdat Jasper dit was en broers
+          niet tegelijkertijd zitting mochten hebben in het stadsbestuur. Twee van
+          Melchiors kinderen, Agnes en Egbert, hadden een vooraanstaande positie. Agnes
+          Melchiorsdr. van der Staal als echtgenote van Dirk Jansz. Loncq, die niet
+          alleen lid van de vroedschap, schepen en burgemeester van Gouda was, maar ook
+          raadsheer van de Prins van Oranje, lid van de landraad van Delft en
+          trezorier-generaal van Holland. Hun kleinzoon, Melchior van Beverningh, was de
+          vader van de bekende staatsman Hieronymus van Beverningh Zie inventarisnummer
+          6. G.D.J. Schotel, Iets over Hieronymus van Beverningh en Bruno van der Dussen.
+          's-Hertogenbosch, 1847, p. 1, 145-149. . Egbert Melchiorsz. van der Staal was
+          schepen, later burgemeester van Schoonhoven. In die kwaliteit werd hij met zijn
+          zwager Van Couwenhoven afgevaardigd naar Middelburg om met de Prins van Oranje
+          te onderhandelen. Hun drie neven waren Egbert, Bartholomeus en Cornelis
+          Jaspersz. van der Staal. Egbert en Cornelis werden evenals hun voorouders en
+          hun neef Egbert Melchiorsz. van der Staal schepen en lid van de vroedschap van
+          Schoonhoven, terwijl Bartholomeus naar Amsterdam vertrok. Van Egbert Jaspersz.
+          is tevens bekend, dat hij Heilige Geestmeester en trezorier was. Zijn broer
+          Cornelis was olieslager te Schoonhoven Zie genealogie Van der Staal. .</html:p>
+          <html:p>Met de vestiging van Bartholomeus Jaspersz. van der Staal te Amsterdam
+          ontstond de Amsterdamse tak van de familie. Welk beroep hij uitoefende is niet
+          bekend. Uit akten van transport en verdelingen van nalatenschappen blijkt dat
+          hij woonde in een huis, gelegen "in de Gansoort op de hoeck van de Halsteech
+          daar Schoonhoven uithangt". In een transportakte van een gedeelte van een huis,
+          tuin enz. door zijn zoon aan zijn schoonzoon heet het "eenderde deel van een
+          houttuyn, staande ende gelegen in de Oude Syts Houttuynen, eertyts genaemt
+          Schoonhoven". Kennelijk had hij het wapen van Schoonhoven buiten hangen en ook
+          de houttuin naar zijn vaderstad genoemd. Van zijn vrouw is niets anders bekend
+          dan haar patroniem, nl. Gerritsdr.</html:p>
+          <html:p>Het valt op, dat de kinderen van Jasper en Melchior voor het eerst met
+          de naam Van der Staal vermeld staan in akten, die opgemaakt zijn te Gouda,
+          Amsterdam en Schoonhoven. Mogelijk werden zij al eerder zo genoemd maar werd
+          het vertrek van familieleden naar andere steden, nl. Agnes Melchiorsdr. naar
+          Gouda en Bartholomeus Jaspersz. naar Amsterdam, aanleiding om deze naam
+          regelmatig te gaan gebruiken. Met de overgang van Schoonhoven naar Staatse
+          zijde bleef de familie Van der Staal de Rooms-Katholieke Kerk trouw. De eerder
+          genoemde Egbert Melchiorsz. noch zijn zoon Jan of een van diens nakomelingen
+          keerden terug in de vroedschap van Schoonhoven. Voor het bekleden van
+          overheidsambten werden door de Staten regels gesteld. Men moest onder andere
+          meerdere jaren poorter zijn van een stad, daarnaast een bepaalde kennis en
+          gegoedheid bezitten en lid zijn van de Nederduits-Gereformeerde Kerk. Deze
+          laatste eis kan van invloed zijn geweest op het vertrek van Govert Egbertsz.
+          van der Staal Zie Genealogie Van der Staal. naar Gouda, waar hij zich als
+          brouwer vestigde. Zijn broer Lambert stichtte met zijn zwager Adam Jaspersz.
+          twee studiebeurzen aan de Hoge School te Leuven. Daar deze Goudse tak van de
+          familie niet overging naar de Nederduits-Gereformeerde Kerk, bleef zij van
+          stadsambten uitgesloten. Door het huwelijk van Cornelis Govertsz. van der
+          Staal, die gelijk zijn vader brouwer te Gouda was, vertoont deze tak een
+          genealogisch interessant aspect. Evenals de neef van zijn vader, Wolfert
+          Cornelisz. van der Staal, die nog aan de orde komt, trouwde hij een dochter uit
+          een bekende Rotterdamse regentenfamilie. In 1619 werd te Rotterdam het huwelijk
+          gesloten tussen hem en Maria Cornelisdr. Elsewaal E.A. Engelbrecht, De
+          Vroedschap van Rotterdam, 1572-1795, p. 259. . Uit het huwelijk Van der
+          Staal-Elsewaal werden twee dochters en een zoon geboren. Deze zoon had geen
+          nakomelingen, waardoor de Goudse tak omstreeks 1658 in mannelijke lijn
+          uitstierf.</html:p>
+          <html:p>De Amsterdamse tak van de familie, die ontstond door het voornoemde
+          vertrek van Bartholomeus Jaspersz. van der Staal naar Amsterdam, trof enkele
+          jaren later hetzelfde lot. Uit het huwelijk van Bartholomeus van der Staal en
+          N. Gerritsdr. werden drie kinderen geboren: Gerritje, Jasper en Gerrit. Deze
+          kinderen behoorden evenals hun vader tot de gegoede burgerij. Niet verzuimd mag
+          worden te wijzen op de huwelijken van Gerritje en Gerrit. Gerritje was gehuwd
+          met Frans Jansz. Sael. Hun dochter Annetje trouwde met Pieter Barentsz. Plemp,
+          apotheker te Amsterdam, een broer van de vermaarde arts Vopiscus Fortunatus
+          Plemp, terwijl ook hun kleinzoon arts was. Gerrit, die getrouwd was met een
+          dochter van de secretaris van Amsterdam J.E. Elias, De vroedschap van
+          Amsterdam, 1578-1795, deel I, p. 183. , was koopman en liet blijkens zijn
+          testament kinderen na. Jasper Bartholomeusz. was tinnegieter van beroep. Hij
+          woonde op de Nieuwezijds Voorburgwal in het huis De Akkerman, terwijl ook het
+          huis van zijn vader op de hoek van de Halsteeg en het huis De Zon op de Kolk
+          hem toebehoorde. Zijn nalatenschap was aanzienlijk. Daar zijn oudste zoon
+          Bartholomeus voor hem kinderloos overleed, waren erfgenamen zijn zoon Cornelis,
+          die als pater Felix van Amsterdam in Leuven tot de orde der Capucijnen was
+          toegetreden Inventarisnummer 13. , zijn zuster Gerritje en zijn broer Gerrit.
+          Tegen het gedeelte, dat nagelaten werd aan Cornelis Jaspersz. van der Staal,
+          alias pater Felix, is later door de familie bezwaar gemaakt Inventarisnummer
+          12. . Met de dood van pater Felix in 1661 is de Amsterdamse tak in mannelijke
+          lijn uitgestorven.</html:p>
+          <html:p>De Schoonhovense tak van de familie zet zich voort met een kleinzoon
+          van Cornelis Jaspersz. van der Staal en Aagje Wolfertsdr. Van de kinderen uit
+          het huwelijk van Cornelis Jaspersz. van der Staal en Geertje Rutten:
+          Bartholomeus, Jasper en Maria, zijn geen mannelijke nakomelingen bekend. ,
+          Hendrik Wolfertsz. van der Staal. Zijn vader de al eerder genoemde Wolfert
+          Cornelisz. van der Staal, was als apotheker werkzaam te Rotterdam, waar hij in
+          1607 trouwde met Emerentia Couwael Engelbrecht, Vroedschap p. 35. , dochter van
+          Hendrik Pietersz. Couwael en Anna Quirijnsdr. Verhaven Engelbrecht, Vroedschap
+          p. 1. . De families Couwael en Verhaven behoorden tot de regentenfamilies. Uit
+          dit huwelijk werden twee dochters Anna en Agatha geboren en drie zoons:
+          Cornelis, Hendrik en Pieter. Vermeldenswaard is het huwelijk van Anna. Zij
+          trouwde met de koopman Cornelis Joppen Slingerlandt, zoon van de haringkoopman
+          Job Cornelisz. Slingerlandt en Harmpje Quirijnsdr. Verhaven Engelbrecht,
+          Vroedschap p. 2. . Harmpje was een kleindochter van het vroedschapslid Quirijn
+          Jansz. Verhaven en een nichtje van de bovengenoemde Anna Quirijnsdr. Verhaven.
+          Agatha bleef ongehuwd. Van de drie zoons vestigde Cornelis zich in Rotterdam,
+          Hendrik zoals vermeld in Schoonhoven terwijl Pieter naar Kaap de Goede Hoop
+          vertrok en later naar Batavia. Evenals zijn vader was Cornelis Wolfertsz. van
+          der Staal apotheker te Rotterdam. Door zijn huwelijk in 1647 met de Rotterdamse
+          Sophia Gijsbrechtsdr. Elsewael Engelbrecht, Vroedschap p. 143. , werden al
+          bestaande banden met regentenfamilies nauwer aangehaald. Uit dit huwelijk
+          werden een zoon en een dochter geboren. De zoon, Wolfert Cornelisz. van der
+          Staal, was koopman en trouwde in 1666 de protestantse Maria le Maire. Hun enig
+          dochtertje overleed zeer jong voor haar vader. De jongste broer, Pieter
+          Wolfertsz. van der Staal, was ziekenbezoeker in dienst van de V.O.C. aan Kaap
+          de Goede Hoop en in Batavia. In 1649 trouwde hij te Schiedam met Geertruid van
+          Riebeeck Geertruid van Riebeeck was de zuster van Jan van Riebeeck, de stichter
+          van de Nederlandse volksplanting aan Kaap de Goede Hoop. Mr. P.J.W. Beltjes,
+          Levensschets van Jan van Riebeeck en P.J.W. Beltjes en G. Brinkhuis, Genealogie
+          van het geslacht Van Riebeeck, p. 19. Uitg. C.B. 1952. , dochter van Anthonie
+          van Riebeeck en Elisabeth Govertsdr. Pieter overleed te Batavia tussen 1664 en
+          1670; Geertruid overleed in 1670 eveneens te Batavia. Voor zover bekend werden
+          uit dit huwelijk alleen dochters geboren.</html:p>
+          <html:p>Al werd de familie Van der Staal door maatregelen van de overheid
+          inzake de godsdienst uit overheidsambten geweerd, zij heeft, zoals hierboven
+          bleek het contact met de regentenfamilies vooral door huwelijken weten te
+          bewaren. Lang heeft deze uitsluiting niet geduurd. De overgang naar de
+          Nederduits-Gereformeerde Kerk gaf hen weer toegang tot bestuurscolleges, zodat
+          alleen de generatie van Wolfert Cornelisz. van der Staal, gehuwd met Emerentia
+          Couwael, geen overheidsambten heeft bekleed. Hendrik Wolfertsz. van der Staal
+          en zijn broer Pieter zijn de eersten geweest, die tot de nieuwe leer
+          overgingen. Hendrik werd evenals zijn grootvader Cornelis Jaspersz. van der
+          Staal lid van de vroedschap en burgemeester van Schoonhoven. Uit zijn huwelijk
+          met Haasje de Graaff, dat in 1639 te Schoonhoven werd gesloten, werden een zoon
+          en een dochter geboren. Zijn zoon Wolfert was de eerste van de familie Van der
+          Staal, die een academische opleiding volgde. Aan de Universiteit van Leiden
+          studeerde hij rechten, waarna hij in 1669 promoveerde P.C. Molhuyzen, Bronnen
+          tot de geschiedenis van de Leidsche Universiteit, IV, 's-Gravenhage 1920,
+          R.G.P. Grote serie, 45, p. 222*. . Tevens was hij de laatste Van der Staal, die
+          lid van de vroedschap en burgemeester van Schoonhoven is geweest. In 1671
+          trouwde hij Elisabeth Botter. Van de zeven uit dit huwelijk geboren kinderen is
+          alleen de oudste, Hendrik, in leven gebleven. Wolfert Hendriksz. van der Staal
+          overleed in 1678, slechts 32 jaar oud.</html:p>
+          <html:p>In de achttiende eeuw, die om verschillende redenen wel de eeuw van het
+          verval wordt genoemd, vestigde de familie Van der Staal zich in Rotterdam. Het
+          was een periode, die onder meer gekenmerkt werd door grote tegenstellingen
+          tussen de regenten, soms ware geldmagnaten, en het gewone volk, waarvan het
+          aantal, dat op de rand van de armoede leefde en door de minste verandering in
+          de conjunctuur voor lange tijd tot pauperisme verviel, hand over hand toenam.
+          Schuldig hieraan waren onder meer de eenzijdige ontwikkeling van de handel en
+          de toenemende concurrentie van het buitenland. De stapelmarkt verviel, waardoor
+          grote structurele werkloosheid ontstond, die mede door het verdwijnen van vele
+          takken van nijverheid steeds moeilijker te bestrijden viel. Het was in deze
+          eeuw vooral de geldhandel, die bloeide.</html:p>
+          <html:p>Van grote handelsmogendheid werd de Republiek meer en meer een
+          renteniersstaat Joh. de Vries, De economische achteruitgang der Republiek in de
+          achttiende eeuw. Amsterdam 1959, p. 17, 29-37, 58 e.v., 83 e.v., 167, 172 e.v.
+          H.F.J.M. van den Eerenbeemt, In het spanningsveld der armoede, Tilburg 1968, p.
+          38, 39. . De familie Van der Staal was een ambtenarenfamilie, die in de eerste
+          plaats haar inkomsten verwierf uit ambten en bezittingen Zie inventarisnummers
+          22, 35, 38, 51. H.C. Hazewinkel, Vergeving van ambten, in: Rotterdamsch
+          Jaarboekje 1958, p. 119-128. A.J. Zondergeld-Hamer, De houding van de
+          Rotterdammers tijdens de gebeurtenissen van 1747 en 1748, in: Rotterdamsch
+          Jaarboekje 1971, p. 258-292. . Met de geldhandel als zodanig had zij niets te
+          maken. Door hulijken echter werd zij geparenteerd aan deze handelsfamilies en
+          zoals hieronder blijkt verwierf zij, door het uitsterven van bepaalde staken of
+          soms hele families, vermogens.</html:p>
+          <html:p>De in 1671 te Schoonhoven geboren Hendrik Wolfertsz. van der Staal
+          studeerde evenals zijn vader rechten aan de Universiteit van Leiden Nieuw
+          Nederlands Biografisch Woordenboek II, 1354 Hierin staat ten onrechte vermeld,
+          dat Hendrik van der Staal een zoon was van Wolfert en Maria le Maire. . In 1701
+          trouwde hij met de Rotterdamse Johanna Maria Hechtermans, dochter van de uit
+          Dordrecht afkomstige mr. Cornelis Hechtermans en Margrieta van Yck Bijlage II
+          en III. Engelbrecht: Vroedschap p. 203. Door dit huwelijk werd hij opgenomen in
+          de meest invloedrijke regentenfamilies van Rotterdam. Door zijn huwelijk en
+          door voorspraak van zijn schoonvader Dirk Meesters Engelbrecht, Vroedschap p.
+          267. werd hij in 1707 lid van de vroedschap van Rotterdam en tegelijkertijd lid
+          van de gezaghebbendste Correspondentie in de vroedschap J.H.W. Unger, De
+          Correspondentie in de Rotterdamse Vroedschap, in: Rotterdamsch Jaarboekje 1894.
+          Op de pagina's 36 en 37 is het Contract van Correspondentie tussen Hendrik van
+          der Staal en zijn schoonvader Dirk Meesters afgedrukt. .</html:p>
+          <html:p>De familie Van der Staal en alle aangetrouwde families maakten tot aan
+          de Bataafse Revolutie deel uit van de Correspondentie. Genoemd kunnen worden de
+          familie Bichon Engelbrecht, Vroedschap, p. 327; Noot 20; Bijlage II. , de
+          kunstverzamelaarsfamilie Lormier N.N.B.W. I, 1282; Engelbrecht, Vroedschap p.
+          313 en p. 343; Bijlage IV. G.H.C. Breesnee, De Haagse kunstverzamelaars Adriaan
+          Leonard van Heteren en Willem Lormier en hun voorgeslacht, in: Die Haghe,
+          1948-1949, p. 135 e.v. H.E. van Gelder, Haagse kunstverzamelingen voor 1900,
+          in: Die Haghe, 1942 p. 4, 25, 26. en de bekende familie Gevers Engelbrecht,
+          Vroedschap p. 284 e.v., 325 en 358; Bijlage VI. met de daaraan verwante
+          geslachten IJsbrands Engelbrecht, Vroedschap p. 196; Noot 20. , Noorthey
+          Engelbrecht, Vroedschap 252; Noot 20. en Pelt Engelbrecht, Vroedschap p. 306;
+          Noot 20. . Voorts de familie Meerman Deze familie Meerman is op geen enkele
+          wijze verwant aan Johan Meerman, wiens bibliotheek en handschriftenverzameling
+          voor een belangrijk gedeelte aanwezig is in het Rijksmuseum
+          Meermanno-Westreenianum te 's-Gravenhage. Zie J.H. Kernkamp, Inventaris van de
+          familiepapieren Meerman, Van Westreenen, Dierkens en Van Damme, 's-Gravenhage
+          1948. N.N.B.W. IV, 956; Bijlage V. , verwant aan de invloedrijke koopmans- en
+          bankiersfamilie Van Schoonhoven Engelbrecht, Vroedschap p. 288 en 311; Bijlage
+          VII; Noot 20. , die via de koopmansfamilie Witheyn W.J. van Hoboken, Wittenburg
+          en het geslacht Witheyn, in: Amstelodamum 1950, p. 41-47; Bijlage VIII. verwant
+          was aan de Amsterdamse regentenfamilies Backer en De Mey van Streefkerk Bijlage
+          VIII. . Via de families Meerman en Gevers waren zij afstammelingen van Witte
+          Cornelisz. de With, de bekende vice-admiraal van Holland en Westfriesland, die
+          in 1658 sneuvelde tijdens de Noorse oorlog bij de slag in de Sont
+          Inventarisnummers 62, 204, 205 en 377, Bijlage VI. J.G.F.M.G. van Hövell tot
+          Westerflier, Beschrijving van een verzameling stukken afkomstig van en
+          betreffende Witte Cornelisz. de With, inventarisnummers 31-33, 36 en 37. In
+          inventarisnummer 32 bevinden zich o.a. genealogische aantekeningen van Pieter
+          Pietersz. Meerman. .</html:p>
+          <html:p>Van de familie Van der Staal en aanverwante families behoorden velen
+          tot de maecenaten van het Bataafs Genootschap, wat blijk gaf van een brede
+          belangstelling. De zoon en kleinzoon van Hendrik van der Staal, Dirk Cornelis
+          en Claudius, behoorden hiertoe evenals Johan Wilhem Lormier en Jean Bichon. Ook
+          de schoonzoon van Dirk Cornelis van der Staal, Abraham Gevers en zijn kleinzoon
+          Dirk Cornelis Gevers, heer van Endegeest gaven blijk van hun belangstelling
+          voor dit genootschap. Vanaf het hierboven genoemde jaar 1707 tot aan de
+          Bataafse Revolutie hebben leden van de familie Van der Staal onafgebroken
+          zitting gehad in de vroedschap van Rotterdam J.H.W. Unger, De regering van
+          Rotterdam, 1328-1892. Zie voor Van der Staal vanaf p. 208. . De aanstelling als
+          lid van de vroedschap was er een voor het leven. In deze functie kwam men in
+          aanmerking voor het vervullen van ambten, die direct te maken hadden met
+          besturen van de stad zoals burgemeester of trezorier en ambten, waarin men de
+          stad vertegenwoordigde in landelijke organen zoals afgevaardigde voor Rotterdam
+          in de Staten van Holland en Westfriesland of ter Generaliteitsrekenkamer J.H.W.
+          Unger, De regering van Rotterdam, p. I-LX. . Hendrik van der Staal, zijn zoon
+          Dirk Cornelis In de verzameling Handschriften van het Gemeentearchief van
+          Rotterdam bevindt zich onder nummer 1844 het Contract van Correspondentie
+          tussen Claudius Lormier en Dirk Cornelis van der Staal. Zie ook A.C.
+          Kersbergen, De Correspondentie in de Rotterdamsche Vroedschap, in: Rotterdamsch
+          Jaarboekje 1930, p. 54-58. en kleinzoon Claudius waren alle drie naast lid van
+          de vroedschap gedeputeerde ter dagvaart, trezorier en burgemeester. Daarnaast
+          vervulden zij een aantal stedelijke en provinciale ambten en hadden tevens
+          zitting in verschillende generaliteitscolleges. Zo was Hendrik onder meer
+          baljuw en gedeputeerde ter Generaliteitsrekenkamer, Dirk Cornelis schepen en
+          rekenmeester en Claudius gedeputeerde ter Admiraliteit op de Maas en lid van de
+          Raad van State.</html:p>
+          <html:p>Uit het huwelijk van Hendrik Wolfertsz. van der Staal en Johanna Maria
+          Hechtermans werden dertien kinderen geboren, waarvan zes de volwassen leeftijd
+          bereikten en drie zijn gehuwd, te weten Dirk Cornelis, Maria Johanna en
+          Margaretha. In verband met de vererving van de goederen, afkomstig van de
+          families Hechtermans en Braat, is het niet ondienstig te vermelden dat Maria
+          Johanna trouwde met het vroedschapslid Pieter Baelde. Dankzij zijn schoonvader
+          Zie inventarisnummers 26, 323-327. W.C. Mees, Wat aan het jaar 1720 voorafging,
+          in: Rotterdamsch Jaarboekje 1954, p. 110. Engelbrecht, Vroedschap p. 325. en
+          evenals zijn zwager bekleedde hij in die functie diverse ambten. Na zijn dood
+          in 1763 hertrouwde zijn weduwe in 1768 met de predikant Bartholomeus van
+          Velzen. Margaretha van der Staal was in 1753 getrouwd met Adrianus Oudemans,
+          predikant te Noordwijk aan Zee. Dirk Cornelis van der Staal studeerde rechten
+          aan de Universiteit van Utrecht. Hij trouwde in 1734 Catharina Elisabeth
+          Lormier. Door dit huwelijk werd hij de zwager van de Haagse kunstverzamelaar
+          Adriaan Leonard van Heteren, die getrouwd was met Wouterina Brigitta Lormier
+          Bijlage IV. G.H.C. Breesnee, De Haagse kunstverzamelaars enz. p. 118 e.v. .
+          Daar de zoons van Adriaan Leonard van Heteren al jong waren overleden en het
+          huwelijk van zijn zwager Johan Wilhem Lormier en Sara Pelt kinderloos bleef,
+          liet hij zijn vermogen na aan de kinderen van Dirk Cornelis van der Staal,
+          genaamd Catharina Wilhelmina en Claudius.</html:p>
+          <html:p>Catharina Wilhelmina, die in 1754 getrouwd was met Abraham Gevers,
+          weduwnaar van Kenau Deynoot Engelbrecht, Vroedschap p. 310. Bijlage VI. , erfde
+          in 1788 van haar tante Sara Pelt de heerlijkheid van Kethel en Spaland Leen- en
+          registerkamer van Holland (LRK) 226 fo 272 en fo 276. Engelbrecht en Kruimel
+          vermelden ten onrechte haar vader Dirk Cornelis van der Staal als heer van
+          Kethel en Spaland. Bijlage IV. . Claudius van der Staal studeerde rechten aan
+          de Universiteit van Leiden. Hij trouwde in 1763 met Hillegonda Petronella
+          Meerman Engelbrecht, Vroedschap p. 312. Bijlage V; Noot 27. . Zij was, met haar
+          zuster Johanna Geertruida, erfgename van haar grootmoeder van vaders zijde
+          Hillegonda Gevers en van haar vader Pieter Meerman, die in 1762 kort na elkaar
+          waren overleden. Door het uitsterven van verschillende staken van het geslacht
+          Gevers Bijlage VI. vererfden onder meer de ambachtsheerlijkheid van Piershil en
+          de landen van Schakenbosch via Pieter Meerman Inventarisnummer 571;
+          inventarisnummer 353 brief d.d. 27 en 30 september 1762. LRK 179, caput Arkel
+          fo 44ro-47vo; 178 caput Noord-Holland fo 92vo-93vo. aan zijn dochter Hillegonda
+          Petronella, die van de ambachtsheerlijkheid afstand deed ten behoeve van haar
+          moeder Jacoba Catharina van Schoonhoven LRK 179, caput Arkel fo 47vo-49vo. Deze
+          Jacoba Catharina Bijlage VII. was een energieke vrouw, die na de dood van haar
+          man de zaken zoveel mogelijk zelf regelde Inventarisnummer 353 brief d.d. 20
+          december 1764. . Uit brieven aan haar zaakwaarnemer Pieter Leonard Stumphius
+          komt dit duidelijk naar voren. Zij stond met hem op goede voet en hij werd door
+          haar als lid van de familie beschouwd Inventarisnummer 353 brief d.d. 17 mei
+          1766. . Daar hij ook de zaken van haar vader Pieter en haar broer Thymon
+          behartigde was hij met alle familieaangelegenheden op de hoogte. Hoewel
+          zakelijk van opzet geven deze brieven toch een aardig beeld van de schrijfster
+          en haar familie, de onderlinge relaties van de regentenfamilies en komen naast
+          de voorrechten, die verbonden zijn aan het bezit van kapitaal en goederen, de
+          zorgen tot uiting, die het beheer hiervan met zich meebracht. Uit deze brieven
+          blijkt onder meer dat zij haar schoonzoons Claudius van der Staal en Daniel
+          Pompejus du Tour het geld leende om de buitenplaatsen Voorlinden en Wiltrust
+          onder Wassenaar te kopen Inventarisnummer 353 brief d.d. 30 oktober en 30
+          november 1764. en dat zij zich veel moeite getroostte om Claudius een plaats
+          als raadsheer bij het Hof van Holland te bezorgen Inventarisnummer 353 brief
+          (februari 1763), 30 november en 5 december 1764, 2 februari 1765. . Ook de
+          heerlijkheid van Piershil komt ter sprake Inventarisnummer 353 o.a. in brief
+          d.d. 23 december 1762, 7 en 8 november 1765, 23 december 1766, 3 maart, 14
+          april en 25 mei 1767, 17 januari 1768. evenals de heerlijkheid van
+          Oud-Beijerland, welke laatste zij in 1767 kocht Inventarisnummer 762; LRK 233 f
+          o 232 vo. .</html:p>
+          <html:p>Door het uitsterven van het geslacht Van Schoonhoven in mannelijke lijn
+          zijn verhoudingsgewijs veel stukken bewaard gebleven van Pieter van Schoonhoven
+          Engelbrecht, Vroedschap p. 288 en p. 311. Bijlage VII. . Hij was een van de
+          rijkste mannen van Rotterdam wat blijkt uit het kohier van de Personele
+          Quotisatie van 1742, waarin hij onder de hoogstaangeslagenen behoort W.F.H.
+          Oldewelt, Een merkwaardige verzameling belastingkohieren in het archief der
+          gemeente, in: Rotterdamsch Jaarboekje 1949, p. 269-280. . Deze rijkdom, zijn
+          Franse geboorte Noot 20; noot 50. , antistadhouderlijke gezindheid en
+          doorgaande graanhandel op Frankrijk, ondanks het plakkaat hiertegen van de
+          Staten-Generaal waren evenzovele oorzaken, om hem en andere regenten tijdens de
+          Oostenrijkse Successieoorlog te wantrouwen en van verraad te beschuldigen. Van
+          de Orangisten kreeg hij de bijnaam van Franse Piet. Hoewel de burgers over het
+          algemeen van mening waren, dat zij de regenten alle eer en achting waren
+          verschuldigd, sloten zij Pieter van Schoonhoven, en onder andere ook Claudius
+          Lormier, hiervan nadrukkelijk uit Zondergeld-Hamer, De houding van de
+          Rotterdammers, enz. p. 256 en 257. De Vries, Economische achteruitgang enz. p.
+          63-68. . Maar ook uit eigen kring kwam kritiek, onder andere op de beleggingen
+          van kapitaal in het buitenland, waardoor de kredietwaardigheid van het land
+          werd aangetast. Noot 53. In 1748 werd Pieter van Schoonhoven met vier andere
+          regenten, "tot wegneming van diffidenten en murmuratie onder de ingesetenen",
+          door Willem IV afgezet als lid van de vroedschap. Hierdoor kwam tegelijk een
+          einde aan de Correspondentie, die pas na de dood van de prinses-gouvernante
+          Anna in 1759, herleefde Unger, De Correspondentie enz. p. 100.
+          Zondergeld-Hamer, De houding der Rotterdammers enz. p. 280-285. .</html:p>
+          <html:p>Pieter van Schoonhoven was gehuwd met Maria Anna Witheyn. Haar nicht
+          Johanna Maria Witheyn, enige dochter van de Amsterdamse reder en koopman Johan
+          Witheyn, was gehuwd geweest met Abraham van Harencarspel en Vincent Maximiliaan
+          baron van Lockhorst, heer van Ter Meer en Maarssen. Na de dood van haar tweede
+          echtgenoot behield zij de beschikking over het huis Ter Meer terwijl zij tevens
+          een huis bezat op de Herengracht te Amsterdam Zie inventarisnummers 489-492,
+          498. Van Hoboken, Wittenburg, p. 46 en 47. Bijlage VIII. . De kinderen uit haar
+          eerste huwelijk stierven jong waardoor Maria Anna Witheyn en haar neven Jean
+          Gijsberto de Mey en Cornelis Jansz. Backer de enige erfgenamen waren van deze
+          schatrijke weduwe. Door het kinderloos overlijden van de kleinzoons van Pieter
+          van Schoonhoven, Pieter, Adriaan en Jacob, zoons van zijn enige zoon Thymon,
+          bleef zijn dochter Jacoba Catharina van Schoonhoven, weduwe Meerman, als enige
+          erfgename over. Zij erfde onder meer het buiten Haagvliet te Voorburg, dat met
+          haar huis op het Tournooiveld, vererfde aan haar kleindochter Jacoba Catharina
+          Geertruida du Tour, gehuwd met Lodewijk van Heeckeren tot de Cloese Rechterlijk
+          Archief 's-Gravenhage 4455 akte d.d. 26 augustus 1806. . Als hun gasten hebben
+          op Haagvliet tijdelijk koning Lodewijk Napoleon en zijn vrouw Hortense de
+          Beauharnais geresideerd H. Hardenberg, N.J. Pabon, D. van der Meide en G.
+          Goris, Geschiedenis van Voorburg, dorp aan de Vliet. Scheveningen 1953, p. 212.
+          T. Spaans-van der Bijl, Lodewijk Napoleon, koning van Holland, Vredesvorst in
+          een tijd van geweld. Zaltbommel 1967, p. 213. .</html:p>
+          <html:p>Hillegonda Petronella Meerman stierf op Voorlinden in 1799, drie jaar
+          na Claudius van der Staal. Haar nalatenschap bleef tot 1806 ongedeeld tussen
+          haar drie zoons Abraham Willem, Daniel Pompejus Johannes en Bartholomeus
+          Marinus Johannes van der Staal.</html:p>
+          <html:p>Abraham Willem erfde de heerlijkheid van Oud-Beijerland en noemde zich
+          Van der Staal van Oud-Beijerland. Na zijn dood in 1821 ging de heerlijkheid
+          over op zijn dochter Everdine Suzette, gehuwd met Samuel François Anne van
+          Pallandt, waardoor de tak Van Pallandt van Oud-Beijerland ontstond. Na haar
+          dood erfde haar zoon Jan Werner de heerlijkheid, die hij in 1907 naliet aan
+          zijn neef Frederik Leopold Samuel Frans van Tuyll van Serooskerken van Zuylen,
+          de zoon van zijn zuster Henriëtte Charlotte Everdine RA Utrecht, Archief Slot
+          Zuylen, voorlopige inventarisnummers 261 en 266. . Het archief van de
+          heerlijkheid van Oud-Beijerland vanaf 1767 tot 1900, berust thans op het
+          Rijksarchief in de provincie Utrecht, waar het deel uitmaakt van het archief
+          van het slot Zuylen Archief slot Zuylen, voorlopige inventarisnummers 850-869.
+          .</html:p>
+          <html:p>De landen van Schakenbosch gingen over op Bartholomeus Marinus Johannes
+          van der Staal en ook hij noemde zich naar zijn goederen nl. Van der Staal van
+          Schakenbosch. Hij was lid van de Provinciale Staten van Zuid-Holland, waarin
+          hij zitting had voor de eigenerfden. Daar hij reeds in 1818 overleed en zijn
+          enige dochter Claudine Claire hem slechts tot 1826 overleefde, besloten de
+          erven Van der Staal met instemming van haar echtgenoot Marie Ferdinand baron de
+          Flotte in 1828 deze landen in het openbaar te verkopen Familiearchief Van
+          Bylandt, inventarisnummer 113; archief slot Zuylen, voorlopig inventarisnummer
+          261. .</html:p>
+          <html:p>Daniel Pompejus Johannes van der Staal erfde de heerlijkheid van
+          Piershil en noemde zich hierna Van der Staal van Piershil. Naast ambachtsheer
+          was Daniel Pompejus Johannes hoogheemraad van Rijnland en maire van Lisse. In
+          Lisse woonde hij op het uitgestrekte landgoed Wassergeest, dat hij in 1804
+          kocht van Isaac van Buren Rechterlijk archief Lisse 27 fo 164vo. A.M.
+          Hulkenberg, 't Roemwaard Lisse. Alphen aan den Rijn 1971, p. 14-17. E. Pelinck,
+          Een bloemisterij en een speeltuin buiten de Koepoort, in: Leids Jaarboekje
+          1961, p. 88. . Hij vergrootte Wassergeest door aankoop van onder andere de
+          boerderij van het in 1782 gesloopte huis Grotenhof Inventarisnummer 98. , de
+          bouwmanswoning Duinhof, de boerderijen de Phoenix en de Hoogewerf in de
+          Laageveense polder, waardoor Wassergeest zich uitstrekte van de Heereweg tot de
+          Leidse Vaart en Keukenhof Noot 63; Hulkenberg 't Roemwaard Lisse, p. 14.
+          .</html:p>
+          <html:p>Na Cecilia Maria Steengracht, gehuwd met Carel Anne Adriaan van
+          Pallandt, die op Keukenhof woonden, was Daniel Pompejus Johannes van der Staal,
+          met 110 hectaren, de grootste grondbezitter in Lisse Hulkenberg, Keukenhof.
+          Hollandse Studiën 7, 1975, p. 163 en 167. .</html:p>
+          <html:p>In 1852 werd dit prachtige buitengoed geveild in het logement De Zwaan
+          te Lisse en gekocht door de erven Steengracht, waardoor het tien jaar later,
+          door vererving aan de bovengenoemde bewoners van Keukenhof kwam. Zoals met
+          zoveel buitenplaatsen in die tijd gebeurde, werd ook dit kapitale huis gesloopt
+          en wel vlak na de verkoop, in 1853. Door vererving is Wassergeest thans in het
+          bezit van de barones van Lynden Hulkenberg, Keukenhof, p. 167. . Wassergeest
+          heeft, evenals het bovengenoemde buiten Haagvliet onder Voorburg, een rol
+          gespeeld in de geschiedenis van ons land. Ten huize van Van der Staal van
+          Piershil is door Adam François van der Duyn van Maasdam in bijzijn van Hendrik
+          Collot d'Escury de door Gijsbert Karel van Hogendorp opgestelde proclamatie
+          getekend, waarin deze met Van der Duyn van Maasdam het Algemeen Bestuur in
+          handen nam tot de komst van de Prins van Oranje Hulkenberg, Het huis Dever te
+          Lisse, Zaltbommel 1966, p. 246 en 247. Hulkenberg, 't Roemwaard Lisse p. 16. .
+          Hieruit blijkt dat Van der Staal, hoewel maire van Lisse, niet uitgesproken
+          Fransgezind was. In ieder geval wist de omgeving van Van Hogendorp, dat hij te
+          vertrouwen was. Verwonderlijk was dit niet, daar allen, die bij de opstand
+          tegen de Franse overheersing betrokken waren tot de familie behoorden. Door
+          zijn huwelijk met Sophia Wilhelmina Charlotte Alexandrina van Bylandt was hij
+          verwant aan Van der Duyn van Maasdam, een neef van zijn schoonmoeder Anna van
+          der Duyn, een vurig Orangiste, terwijl Leopold van Limburg Stirum een oom was
+          van zijn vrouw. Ook zijn zwager Jan Carel van Bylandt bood vanaf de eerste dag
+          Gijsbert Karel van Hogendorp zijn diensten aan H. Hardenberg, Oostduin en de
+          graven van Bylandt, 's-Gravenhage 1971, p. 41-44. Bijlage IX. . Bovendien moet
+          Van der Staal Van Hogendorp uit Rotterdam gekend hebben. Daniel Pompejus
+          Johannes van der Staal was de enige van de drie broers, die door koning Willem
+          I in de adelstand werd verheven. Zijn huwelijk met een gravin Van Bylandt zal
+          hierin een rol hebben gespeeld en het feit, dat zijn zwager Jan Carel van
+          Bylandt bijzonder bij de koning in de gunst stond Hardenberg, Oostduin, p. 45.
+          .</html:p>
+          <html:p>De heerlijkheid van Piershil, gelegen in de Hoekse Waard, behoorde van
+          oudsher tot het land van Putten. Voor de eerste bedijking in 1524 door Frederik
+          van Renesse, heer van Oostmalle, sprak men van de Ommeloop van Groot- en
+          Klein-Puttermoer. De heerlijkheid bestaat uit de polders Oud-, Nieuw- en
+          Klein-Piershil. Het dorp ligt in de polder van Oud-Piershil en werd in de
+          achttiende eeuw om haar bloei ook wel het klein Haagje genoemd J. Wagenaar,
+          Tegenwoordige Staat 1746. Deel IV, p. 172 en 173. . Dit kon echter niet
+          verhinderen, dat het Hof van Piershil onder de slopershamer viel. In 1831 liet
+          Daniel Pompejus Johannes van der Staal het ambachtsherenhuis slopen en het
+          vrijgekomen terrein in bouwland veranderen Inventarisnummer 754. H. Hardenberg,
+          Piershil en zijn ambachtsheren, in: Holland, jrg. 8 1976, p. 61. . Na de dood
+          van Daniel Pompejus Johannes van der Staal vererfde de heerlijkheid aan zijn
+          drie dochters. Na hun overlijden gingen de heerlijke rechten over op de
+          kinderen van hun in 1855 overleden broer Guillaume Charles, om tenslotte te
+          vererven aan de kleindochter van Guillaume Charles van der Staal, Marie
+          Alexandrine Otheline Caroline van Bylandt, dochter van Sophie Alexandrine van
+          der Staal van Piershil en Carel Jan Emilius van Bylandt.</html:p>
+          <html:p>Het archief van de heerlijkheid van Piershil is daarom verspreid over
+          twee archieven. Naast het archief, dat beschreven is in deze inventaris,
+          bevindt een ander gedeelte zich in het archief van de graven van Bylandt, dat
+          berust bij de Eerste Afdeling van het Algemeen Rijksarchief Familiearchief Van
+          Bylandt, inventarisnummer 667-772. Zie onder p. XXV. .</html:p>
+          <html:p>De enige zoon van Daniel Pompejus Johannes, Guillaume Charles van der
+          Staal van Piershil woonde als rentenier in Breda en Princenhage. Hij en zijn
+          vrouw zijn vlak na elkaar in 1855 overleden. Hun drie zeer jonge kinderen
+          stonden onder voogdij van Eugène Jan Alexander van Bylandt Bijlage IX. en
+          werden te 's-Gravenhage opgevoed in het huis van hun tante Otheline Agathe van
+          der Staal. Zij vormden de laatste generatie van de familie Van der Staal, die
+          zoals eerder vermeld in hofkringen werd opgenomen Boven p. I. . Sophie
+          Alexandrine was hofdame van prinses Amalia, de echtgenote van prins Hendrik,
+          broer van koning Willem III, vaak beter bekend als prinses Hendrik Archief
+          C.J.E. van Bylandt, voorl. inventarisnummers 11 en 158. Hardenberg, Oostduin,
+          p. 92. . Uit haar huwelijk met Carel Jan Emilius van Bylandt werden twee
+          dochters geboren, Marie Alexandrine Otheline Caroline en de jong overleden
+          Charlotte Eugenie Roline. Marie van Bylandt, overleden in 1968, is de
+          stichtster van de M.A.O.C. Gravin van Bylandt Stichting te 's-Gravenhage, die
+          haar vermogen, waaronder de heerlijkheid van Piershil, beheert Hardenberg,
+          Oostduin, p. 92, 93, 123-125. .</html:p>
+          <html:p>De laatste afstammelingen in mannelijke lijn van het geslacht Van der
+          Staal waren Othon Daniel en Jean Arthur Godert. Laatstgenoemde stierf in 1904
+          na een succesvolle loopbaan bij de Marine. Naast marine-officier was hij
+          adjudant, kamerheer en particulier secretaris van koningin Wilhelmina
+          Inventarisnummers 181-284. .</html:p>
+          <html:p>Zijn broer Othon Daniel bekleedde hoge ambten. Hij was onder meer
+          gezant te Constantinopel en Sint Petersburg, buitengewoon gezant en
+          gevolmachtigd minister aan de hoven van België en Luxemburg. Aan het hof was
+          hij kamerheer in buitengewone dienst van koningin Wilhelmina. In 1886 trouwde
+          hij met Maria Elisabeth Margaretha van Zuylen van Nyevelt. Daar hun huwelijk
+          kinderloos bleef stierf het geslacht Van der Staal met zijn dood in 1937
+          uit.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De familie van der Staal van Piershil behoorde tot de oude Hollandse
+      regentenfamilies. Van oorsprong was de familie afkomstig uit Schoonhoven, later
+      ontstond ook een Amsterdamse tak. Pieter van Schoonhoven was zelfs een van de
+      rijkste mannen van Rotterdam. In deze inventaris treft men de hoofdindeling aan van
+      stukken van algemene, persoonlijke en zakelijke aard. Het archief bevat o.a.
+      stukken betreffende genealogie, akten (van huwelijksvoorwaarden, schuldbekentenis,
+      transport etc.), testamenten, kwitanties, correspondentie, uitnodigingen,
+      koninklijke benoemingsbesluiten, en tekeningen van kanonnen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>828 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

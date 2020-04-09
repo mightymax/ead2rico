@@ -1,0 +1,2927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:12:47 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.21.16::Architectenbureau P.C.J. Blaauwhof BNA)//NL" url="http://proxy.handle.net/10648/d6fce026-f73c-46f6-a22b-6b5c2696e01d" urn="3.21.16.ead.xml">3.21.16</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van het Architectenbureau P.C.J. Blaauwhof, 1953-1975</titleproper>
+        <author>C.C. Rooyackers</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1982">1982</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2008">2008</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Jaap van Rijswijck, 
+		  <date calendar="gregorian" era="ce" normal="20080707">7 juli 2008</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Architectenbureau P.C.J. Blaauwhof BNA</unittitle>
+      <unittitle type="short">Architectenbureau Blaauwhof</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1953/1975" type="inclusive">1953-1975</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">33000</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">8.60 meter; </extent>
+        
+      <extent unit="files">243 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften., foto's, lichtdrukken en tekeningen.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Architectenbureau P.C.J. Blauwhof</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief van het architectenbureau P.C.J. Blauwenhof (1953-1975) bevat een staat houdende een opgave van ontworpen bouwwerken, stukken betreffende bouwwerken als bestekken en bouwtekeningen, berekeningen, rapportages, vergunningen, evenals administratieve bescheiden en correspondentie. Tevens bevat het archief een aantal ontwerpen van bijvoorbeeld kogelvrije kasboxen, klokken en kunstwerken.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is door schenking verworven.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">3.21</subject>
+      </controlaccess>
+      
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Architectenbureau P.C.J. Blaauwhof BNA, 1953-1975, nummer toegang 3.21.16, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Architectenbureau Blaauwhof, 3.21.16, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">1.</unitid>
+          <unittitle>Bouwtekeningen van de door P.C.J. Blaauwhof ontworpen bouwwerken, 1953-1975</unittitle>
+        </did>
+        <odd>
+          <p>Aanwezig op de kaartenafdeling van het Algemeen rijksarchief. Met toegang. 500 bladen.</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1267972" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b32ff6b1-cc88-49b4-9c8b-91af92025731</unitid>
+            <unittitle>Staat houdende een opgave van ontworpen bouwwerken, door P. C.J. Blaauwhof, met vermelding van bouwnummers,</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1953/1975">1953-1975</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1267973" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b49eccb-e1cc-4ae6-a19f-943cea2da568</unitid>
+            <unittitle>Memorie van P.C.J. Blaauwhof inzake de bouw van een dienstverlenend centrum,</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1971">1971</unitdate>
+            <physdesc>1 stuk</physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="1267974" type="ABS">3</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a887326-930e-402d-af30-0b42da1ebff6</unitid>
+            <unittitle>Foto's van, door P.C.J. Blaauwhof ontworpen, bouwwerken,</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1953/1975">1953-1975</unitdate>
+            <physdesc>1 pak</physdesc>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>4-197</unitid>
+            <unittitle>Stukken betreffende de bouwwerken W 46-W 190,</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1953/1975">1953-1975</unitdate>
+            <physdesc>194 pakken</physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267975" type="ABS">4</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3d28822-d72a-4d11-a92f-b3f4d9a26b62</unitid>
+              <unittitle>Klokken</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267976" type="ABS">5</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4848281e-4580-4fd9-8bee-5c24288e9948</unitid>
+              <unittitle>Klokken Correspondentie.</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267977" type="ABS">6</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/817624f3-1841-417e-813a-21e452b26aeb</unitid>
+              <unittitle>Kerkbanken</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267978" type="ABS">7</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cc54d8f-4d46-420f-8ad4-e13cef275277</unitid>
+              <unittitle>Kerkbanken</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267979" type="ABS">8</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/339577ee-28ba-4a18-be09-0ecf0343797d</unitid>
+              <unittitle>Orgel</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267980" type="ABS">9</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/79f2c9fd-b16b-409d-b9e2-0ac72c44269d</unitid>
+              <unittitle>Orgel</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267981" type="ABS">10</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd5e74bd-388e-44bc-9510-933be4faf421</unitid>
+              <unittitle>Construktie berekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267982" type="ABS">11</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bd55f1a-aaeb-4ad4-af01-48b089c0a915</unitid>
+              <unittitle>Uitvoeringsplan Mot. Wilde</unittitle>
+            </did>
+            <odd>
+              <p>W 56</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267983" type="ABS">12</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ccf4bb1-5787-48c6-8061-4a717e8cc9df</unitid>
+              <unittitle>Bestek en tekeningen materiaalstaten</unittitle>
+            </did>
+            <odd>
+              <p>W 62</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267984" type="ABS">13</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e7d61b2-082d-44fe-b142-79b5539e1826</unitid>
+              <unittitle>Bestek en tekeningen correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 62</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267985" type="ABS">14</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1668e090-f3ed-459e-9964-3bb4ebf56958</unitid>
+              <unittitle>Bestek en tekeningen waarop is aanbesteed.</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267986" type="ABS">15</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/78e31f55-c92c-484e-a8fd-1d36556ee228</unitid>
+              <unittitle>Bestek en tekeningen correspondentie.</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267987" type="ABS">16</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b064e324-ee29-4a84-9ccf-6a2b2f3156a7</unitid>
+              <unittitle>Meer en minder werk</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267988" type="ABS">17</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/96fb3e96-84af-44e5-a5d6-17efcf1047aa</unitid>
+              <unittitle>Aanbesteed 1e leslokaal</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267989" type="ABS">18</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12c1c447-f642-4e0d-aeb7-b9d43c680ad6</unitid>
+              <unittitle>Aanbesteed 1e leslokaal correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267990" type="ABS">19</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcfc90ec-d8c4-463e-8d2b-2c392041e8a8</unitid>
+              <unittitle>Begroting.</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267991" type="ABS">20</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2cd2a53e-f698-4422-9005-d3346aaefdeb</unitid>
+              <unittitle>Goed gekeurde tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 64</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267992" type="ABS">21</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9b979e0-f3b0-4010-b530-4b55ef179242</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 68</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267993" type="ABS">22</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0361d886-e414-4402-96f3-652ad98a18eb</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 68</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267994" type="ABS">23</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/931e91eb-ed94-44e4-bcaf-cad1b384c5bd</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267995" type="ABS">24</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e85f4b6-609c-4fc2-a6af-6a98e5deca08</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267996" type="ABS">25</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab7f5efe-c7fd-4861-8740-540a04b0f8b6</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267997" type="ABS">26</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d880273-10b2-45d1-ba8a-ed383bd1d64a</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267998" type="ABS">27</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eff21ee4-ba91-490a-863f-7e5959389f31</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1267999" type="ABS">28</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7cea20ac-b31a-46dd-82a5-3fb7b48671fc</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268000" type="ABS">29</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de598faf-39ed-4f25-b7ed-723c8e20b7f7</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268001" type="ABS">30</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9f83e56-b8db-4808-a75c-734045a44872</unitid>
+              <unittitle>Goedgekeurde tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268002" type="ABS">31</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/39e2491b-4e3c-4d0b-8850-f5b95d76a5b0</unitid>
+              <unittitle>Aanbesteed</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268003" type="ABS">32</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c08b2c9-09af-4f6e-9d42-b4e8f28295fd</unitid>
+              <unittitle>Bestek en voorwaarden</unittitle>
+            </did>
+            <odd>
+              <p>W 109</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268004" type="ABS">33</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de84ca42-f1bc-4ecb-ae32-2f93a31de547</unitid>
+              <unittitle>Klokken</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268005" type="ABS">34</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f4cef664-95d8-4de0-8a70-e9ccee6550e2</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268006" type="ABS">35</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b883de2-2329-41a8-ac0c-b00007db0dd2</unitid>
+              <unittitle>Spant en constructies kerken</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268007" type="ABS">36</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e62cf4f9-78c0-4bba-8bc4-397cfd46ebbc</unitid>
+              <unittitle>Natuursteen - turfsteen altaren</unittitle>
+              <unittitle>Priesterkoor Portugese graniet keien</unittitle>
+              <unittitle>Doopvont</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268008" type="ABS">37</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf69e7a6-036c-4028-aa28-4e4bc47d7922</unitid>
+              <unittitle>Publiciteit</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268009" type="ABS">38</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d70e6ce8-9a62-4ca7-8e3f-bab1dc577b6e</unitid>
+              <unittitle>Toren</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268010" type="ABS">39</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8dd43471-ffe9-4b0c-96c6-ca41762ca37d</unitid>
+              <unittitle>Toren administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268011" type="ABS">40</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90fe4d17-61fa-453a-8a01-ffa26b5e56ec</unitid>
+              <unittitle>Lezing</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268012" type="ABS">41</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c228beac-32d9-4709-87cd-d15e98e7e5b4</unitid>
+              <unittitle>Grondonderzoek (vervallen)</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268013" type="ABS">42</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ebba5dc-8b5c-4b99-bd29-2e2765ba6b5b</unitid>
+              <unittitle>Bestek tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268014" type="ABS">43</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e697cc9-3b3f-4759-b816-bf90c16a90ff</unitid>
+              <unittitle>Weekrapporten</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121/121A</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268015" type="ABS">44</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31bcffda-153a-4fff-a428-a73651633d57</unitid>
+              <unittitle>Construktie tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268016" type="ABS">45</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/605b0247-e1ad-4015-b86e-a5946c56c915</unitid>
+              <unittitle>Documentatie van spanten</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268017" type="ABS">46</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/985df867-4cfe-4841-99a6-a549347fdcb5</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268018" type="ABS">47</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cfbadfce-2d94-4ea7-9b75-5f59037a4df4</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268019" type="ABS">48</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdba7a2d-ce79-4aab-b440-09ee44fde47c</unitid>
+              <unittitle>Administratie</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268020" type="ABS">49</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/073d8d29-addc-41ef-864c-789ad5ea4533</unitid>
+              <unittitle>Verslagen bouwvergaderingen</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268021" type="ABS">50</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df27d0ef-e04e-4879-94ba-7a9f6cf40263</unitid>
+              <unittitle>Financieel overzicht</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268022" type="ABS">51</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89c6550c-d854-4d08-be2c-fc0fb4af7951</unitid>
+              <unittitle>Meer en minder werk</unittitle>
+            </did>
+            <odd>
+              <p>W 121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268023" type="ABS">52</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3567d95-8f60-4aa0-b6b0-0b631fa405b8</unitid>
+              <unittitle>N.V. Nehamo Houtconstructies</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268024" type="ABS">53</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23d876c8-4f3b-47d7-a0a4-1e30b94c0ae4</unitid>
+              <unittitle>Verbeco Jan Kuipers spanten</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268025" type="ABS">54</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e48176fc-0d8e-4ef7-8efd-01bcfa8d4376</unitid>
+              <unittitle>Oplevering</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268026" type="ABS">55</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dcbcf89e-c50d-4c52-8b01-6562a68b4315</unitid>
+              <unittitle>Dak isolatie</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268027" type="ABS">56</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/933d6df1-ac86-4cbf-8b49-d6a9633d649a</unitid>
+              <unittitle>Offerten verwarming K+P+WGK</unittitle>
+              <unittitle>Electra K+P+WGK</unittitle>
+              <unittitle>Heiwerk stip</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268028" type="ABS">57</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c69aa6e-c01a-4b75-84be-e0f70e54d26f</unitid>
+              <unittitle>Overzicht prijsverschillen tussen houten en stalen liggers.</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268029" type="ABS">58</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2d4e4b1-f073-41e5-8734-631b3536989f</unitid>
+              <unittitle>Meer en minder werk J.Th. van Mierlo.</unittitle>
+            </did>
+            <odd>
+              <p>W 120/121/121A</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268030" type="ABS">59</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5216dded-6246-4bb5-baec-384a91e27ebb</unitid>
+              <unittitle>Schuifwand</unittitle>
+            </did>
+            <odd>
+              <p>W 120</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268031" type="ABS">60</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ce543d8-d532-4f96-991f-49eba127da4d</unitid>
+              <unittitle>Uitvoeringsplan architect</unittitle>
+            </did>
+            <odd>
+              <p>W 125</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268032" type="ABS">61</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ae3c171-4ca1-41cd-9c26-13ec2eb330e8</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 125</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268033" type="ABS">62</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a358a93-8e5b-4dd8-a8a7-9ab3bd2617b1</unitid>
+              <unittitle>Goedgekeurde tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 128</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268034" type="ABS">63</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a60e9f6-f554-4279-b255-2d4be5f63a55</unitid>
+              <unittitle>Bestek begroting</unittitle>
+            </did>
+            <odd>
+              <p>W 128</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268035" type="ABS">64</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d6b754d1-a6fe-4954-b167-6d0ff257fc0c</unitid>
+              <unittitle>Werk tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 129</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268036" type="ABS">65</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe1a2a02-4003-4ab8-904e-8ff6cf461b43</unitid>
+              <unittitle>Ontwerp</unittitle>
+            </did>
+            <odd>
+              <p>W 129</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268037" type="ABS">66</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7460c2e6-a971-4675-ad8d-b5806e45a16a</unitid>
+              <unittitle>W 129 Bestaande tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 129</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268038" type="ABS">67</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2abb8eff-bff7-4086-8cb6-d36b59a9f755</unitid>
+              <unittitle>Goedgekeurde tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 133</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268039" type="ABS">68</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/863f6ded-612c-4475-b7a3-fcbfe89fd01a</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 153</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268040" type="ABS">69</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5931014d-7f93-4406-bdb3-cec4293fd116</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 157</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268041" type="ABS">70</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5afba763-e042-49ea-a553-f723819af601</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 161</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268042" type="ABS">71</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bab989a1-c93c-47f0-8089-b5b9c97a4c50</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 161</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268043" type="ABS">72</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a073be9-964b-49f7-946e-4e1e13985c85</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 161</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268044" type="ABS">73</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e063454f-5e42-4684-a444-d33b881b7d48</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 161</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268045" type="ABS">74</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c5ad796f-58be-4f9d-94f4-557fc1e1b416</unitid>
+              <unittitle>Concept bestek mat. staten</unittitle>
+              <unittitle>begroting wijzigingen.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268046" type="ABS">75</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8057d36-8e73-45ac-896d-f39ecba371fc</unitid>
+              <unittitle>Concept bestek mat. staten begroting wijzigingen.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268047" type="ABS">76</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/740e9bf4-7ed0-4736-94d6-2e197772ecd8</unitid>
+              <unittitle>Al. scheidingswanden.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268048" type="ABS">77</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb786ed1-651d-47a8-878a-baa436dd689e</unitid>
+              <unittitle>Kogelvrije kasboxen</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268049" type="ABS">78</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/80ddcd0a-054f-4286-afd4-4c5df4d682d7</unitid>
+              <unittitle>Algemeen Coop. Boerenleenbank.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268050" type="ABS">79</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eb424463-088d-4e8e-8e9d-ea746cc88026</unitid>
+              <unittitle>Bestaande gegevens Raadhuisplein</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268051" type="ABS">80</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3244428-8928-4f4d-814e-9909ac00c2cd</unitid>
+              <unittitle>Tek. situatie Gemeente.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268052" type="ABS">81</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5561c126-b36e-4b2e-872d-21dcee731961</unitid>
+              <unittitle>Sanitair, hang, sluitwerk</unittitle>
+              <unittitle>staat van laswerk staat van deuren.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268053" type="ABS">82</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7c15193-038f-4a62-9aa3-db6013b469f9</unitid>
+              <unittitle>Getikt bestek, getikt begroting</unittitle>
+              <unittitle>Getikt staat van stel. en verrekenposten.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268054" type="ABS">83</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6fd6687-daa9-465f-8c5b-a7a463736a4d</unitid>
+              <unittitle>Adminstratie</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268055" type="ABS">84</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94f7aa4e-cfc3-4118-982f-3ccefe4a53d9</unitid>
+              <unittitle>Afwerking fa. Pander</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268056" type="ABS">85</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9247fee1-7348-4a73-a79b-7eb5cfa9bc76</unitid>
+              <unittitle>Kluis archiefdeur nachtkluis.</unittitle>
+            </did>
+            <odd>
+              <p>W 164</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268057" type="ABS">86</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b26aacd-6c6c-4a5c-afdb-6ca583f621fe</unitid>
+              <unittitle>Electra</unittitle>
+            </did>
+            <odd>
+              <p>W 164 t/m 166A Electra</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268058" type="ABS">87</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac43a55a-21ef-43ae-bb99-3fb2d02f31bd</unitid>
+              <unittitle>Werkschema staat van nog niet uit te voeren werkzaamheden.</unittitle>
+            </did>
+            <odd>
+              <p>W 165 t/m 166</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268059" type="ABS">88</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86fa77f6-b8d0-4ebd-b9cb-f3705e8c09c0</unitid>
+              <unittitle>Oostenende veth</unittitle>
+              <unittitle>begroting woning boven P.T.T.</unittitle>
+            </did>
+            <odd>
+              <p>Bur. Blaauwhof.</p>
+            </odd>
+            <odd>
+              <p>W 166A</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268060" type="ABS">89</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/048d73f2-52d1-4d69-a3ce-4f305e17dd7c</unitid>
+              <unittitle>Gegevens B.l.b. O.b. P.T.T.</unittitle>
+            </did>
+            <odd>
+              <p>W 164 t/m 166</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268061" type="ABS">90</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/02d9ef91-65e7-426d-a739-f7f7a957d38f</unitid>
+              <unittitle>Overzicht trilbetonplaten.</unittitle>
+            </did>
+            <odd>
+              <p>W 164-166</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268062" type="ABS">91</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3444ebfc-1610-4601-b827-92642808ee1d</unitid>
+              <unittitle>Oosten en de Veth. begroting</unittitle>
+              <unittitle>openbare Bibliotheeek.</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268063" type="ABS">92</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad6859c5-5903-4671-9ccf-87b34514e99d</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268064" type="ABS">93</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/09104fdc-311a-4669-ab14-fbab45ca56f0</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268065" type="ABS">94</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c48f482b-5415-4a05-8916-9fe87cdbc6d3</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268066" type="ABS">95</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bcf5c75c-78dd-4613-87f6-2d637ecd0d59</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268067" type="ABS">96</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/333f7093-0580-4760-a2ad-c7a70b2a3dd1</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268068" type="ABS">97</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/843be669-3af5-453e-bc6a-88bde3873335</unitid>
+              <unittitle>Correspondentie tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 166</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268069" type="ABS">98</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c366be95-d7a5-47a7-aaa2-4d43565b124c</unitid>
+              <unittitle>Sanitair</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268070" type="ABS">99</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd88d0fb-4e35-4895-9a89-2d957350089d</unitid>
+              <unittitle>Weekrapporten</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268071" type="ABS">100</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f53f856-5ec8-41c9-85c1-65793df64b6d</unitid>
+              <unittitle>C.V. installatie bestek.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268072" type="ABS">101</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd736bf3-860f-4a13-9351-dd48449d902e</unitid>
+              <unittitle>Jena pl. school bestektekening.</unittitle>
+              <unittitle>t/m F. bestek <unitdate calendar="gregorian" era="ce" normal="1973">d.d. 25-4-'73</unitdate>
+              </unittitle>
+              <unittitle>Architect aanbested. tek.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268073" type="ABS">102</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fbb3dbe-4855-4e8a-aadf-dafa321ad387</unitid>
+              <unittitle>Openings uitnodigingen namens Firma's.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268074" type="ABS">103</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a6c06c6-e9de-4648-b9b9-15a06580250f</unitid>
+              <unittitle>Definitief schetspl.</unittitle>
+              <unittitle>oppervlakte berekening</unittitle>
+              <unittitle>Financieel overzicht</unittitle>
+              <unittitle>omschrijving maten + constr. 
+							<unitdate calendar="gregorian" era="ce" normal="1970">4 december 1970</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268075" type="ABS">104</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23dff03a-529b-4faa-90a3-38ecf2907eb4</unitid>
+              <unittitle>Electr. inst. werk tek.</unittitle>
+              <unittitle>staat van ornamenten.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268076" type="ABS">105</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/62c64c8c-b963-4157-bd83-7c763599b69c</unitid>
+              <unittitle>Uitbreidingspl. gemeente</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268077" type="ABS">106</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/974cb3fa-66e7-4f5d-8b61-d7a779b2a27d</unitid>
+              <unittitle>Zonwering.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268078" type="ABS">107</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb4f9664-7471-4092-bca2-adb6d16ca276</unitid>
+              <unittitle>Oplevering</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268079" type="ABS">108</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8052d334-5cfd-4ffc-95ab-e5c06d5f847f</unitid>
+              <unittitle>Keukeninrichting voor de Pantrij van de Jenaplanschool te Oegstgeest.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268080" type="ABS">109</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c31e4c2f-b8ba-4efc-8ee4-9eb7332488e1</unitid>
+              <unittitle>Dito (administratie)</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268081" type="ABS">110</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ef044637-d666-4d5f-b9d7-ae60f50d76fa</unitid>
+              <unittitle>Glas en schilderwerk.</unittitle>
+              <unittitle>Nota van inlichtingen (calqulatie)</unittitle>
+              <unittitle>Vloerafwerking (calqulatie)</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268082" type="ABS">111</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c2d825c-7dc7-4e09-87c9-12382bf72d74</unitid>
+              <unittitle>Jenapl. school constructie tek. <unitdate calendar="gregorian" era="ce" normal="1973">d.d. 25-4-'73</unitdate>
+              </unittitle>
+              <unittitle>aanbesteedde tek. architect.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268083" type="ABS">112</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/555a43b8-3416-4144-a6a0-ff12cb878b56</unitid>
+              <unittitle>Electra nota v. inlichtingen bestek + tek.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268084" type="ABS">113</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84054b12-065b-4e51-9761-8915add824be</unitid>
+              <unittitle>Tuinaanleg en beplanting.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268085" type="ABS">114</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7245ccf4-8105-4605-a3e4-525fbff29039</unitid>
+              <unittitle>Materiaal begroting</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268086" type="ABS">115</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddd43cef-4c0e-4206-aa01-ac92c344be98</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268087" type="ABS">116</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bc96717-2809-48f1-af00-4366577ff5be</unitid>
+              <unittitle>Bestek (getikt).</unittitle>
+              <unittitle>Begroting getikt</unittitle>
+              <unittitle>Glas- en schilderwerk.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268088" type="ABS">117</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d1781fb-2479-4b94-81fa-8987fa38e146</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268089" type="ABS">118</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/32a28c16-0191-4bbd-bd63-218cb036881a</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268090" type="ABS">119</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/49f88f41-3942-4dbc-bf71-1404464ad548</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268091" type="ABS">120</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25018cc9-d60b-4218-a867-2ba0e279c3c5</unitid>
+              <unittitle>Correspondentie</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+            
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268092" type="ABS">121</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89613345-c936-4076-a2f7-61cb9289c5ce</unitid>
+              <unittitle>Electra tekeningen besproken op werk <unitdate calendar="gregorian" era="ce">21-6-'74</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268093" type="ABS">122</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd70c602-20cd-4cba-a52b-54182fdd3baf</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268094" type="ABS">123</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9691cc0-c748-4451-be34-239838153db5</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268095" type="ABS">124</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d56287c3-bb2f-40ba-9f19-6ba494c8da5a</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268096" type="ABS">125</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/215ec95c-d355-4c67-aeed-560bc50e104a</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268097" type="ABS">126</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c44534bf-556b-4eea-992c-ca111c51a26b</unitid>
+              <unittitle>Berekeningen van kosten.</unittitle>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268098" type="ABS">127</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/35fae8b5-adc7-4c75-9f96-8bb463ce44b1</unitid>
+              <unittitle>Berekeningen van kosten</unittitle>
+            </did>
+            <odd>
+              <p>W 172/175/195</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268099" type="ABS">128</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cd80e4b-742a-4e6c-9a0e-e12dbf437d70</unitid>
+              <unittitle>Tekeningen Offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268100" type="ABS">129</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa0c0a6f-52e6-4600-8d4b-26913571b41b</unitid>
+              <unittitle>Rekeningen Offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268101" type="ABS">130</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/78c07b9a-8e1a-4ca6-9c1c-98efc7a2358a</unitid>
+              <unittitle>Rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268102" type="ABS">131</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df05e4d5-0dfd-4146-9d8a-37028cd68f85</unitid>
+              <unittitle>Rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268103" type="ABS">132</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3f3602d-c64b-4c04-9bfb-0ca11f99f185</unitid>
+              <unittitle>Rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268104" type="ABS">133</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/70a6a8cd-d006-41fa-a306-22da5f3ad097</unitid>
+              <unittitle>Eind afrekening van min. <unitdate calendar="gregorian" era="ce" normal="1950">30-11-1950</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>W 176/182 stip</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268105" type="ABS">134</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/54a9d87e-b89a-486f-a603-83e26276b16c</unitid>
+              <unittitle>Eind min. stukken van aanbesteding</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182 stip</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268106" type="ABS">135</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ea22d82-67c6-413a-9237-7cfa92f09501</unitid>
+              <unittitle>Periode oplevering- eind opl. <unitdate calendar="gregorian" era="ce" normal="1976">januari 76</unitdate>.</unittitle>
+              <unittitle>Nog te verrichten werkzaamheden opgenomen door opzichter</unittitle>
+              <unittitle>ontvangen nota's na <unitdate calendar="gregorian" era="ce" normal="1976">jan. 76</unitdate>.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268107" type="ABS">136</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5cf32197-94c3-4374-9a62-b730074931cc</unitid>
+              <unittitle>rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268108" type="ABS">137</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e1f871a8-1702-4b58-8b4f-2dda8e4c2cc0</unitid>
+              <unittitle>rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268109" type="ABS">138</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4050996-db1c-4f50-a9c7-c73d84e85a45</unitid>
+              <unittitle>rekeningen offertes.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268110" type="ABS">139</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/952819ef-9f18-4c8c-a7c8-6eb1085270cc</unitid>
+              <unittitle>grond onderzoek</unittitle>
+            </did>
+            <odd>
+              <p>W 172/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268111" type="ABS">140</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa58d371-3fc9-43aa-9c93-35f5e75357ce</unitid>
+              <unittitle>R.K. Mavo <unitdate calendar="gregorian" era="ce" normal="1971">d.d. 29-10-'71</unitdate>
+              </unittitle>
+              <unittitle>goedgekeurd welstands comm.</unittitle>
+            </did>
+            <odd>
+              <p>W 176</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268112" type="ABS">141</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6f30051-5115-4570-8ded-fa57d4640360</unitid>
+              <unittitle>Bouwvergunning</unittitle>
+              <unittitle>revisie tek. riool+electra.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268113" type="ABS">142</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c0ebaf2-d4cb-4c8d-948d-4515a100baf6</unitid>
+              <unittitle>Bouwvergunning</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268114" type="ABS">143</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/02283042-0d0f-4b5b-beba-79742324f31e</unitid>
+              <unittitle>Uitbreiding R.K. Mavo</unittitle>
+              <unittitle>tek. situatie v. Gem. Zoetermeer.</unittitle>
+            </did>
+            <odd>
+              <p>W 176</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268115" type="ABS">144</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/22d6e327-fd94-4f91-818f-886ab33c93e3</unitid>
+              <unittitle>Bouwverslagen Buraeu 1-30</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268116" type="ABS">145</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58ae2baf-2476-49d0-bc81-089adb418d45</unitid>
+              <unittitle>Kunst opdracht</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268117" type="ABS">146</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4344cc09-eed1-4e57-9f03-f7e5adb9cdfc</unitid>
+              <unittitle>Kunst opdracht tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268118" type="ABS">147</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba7c5990-8e8e-4db7-8523-eac1a1c5d514</unitid>
+              <unittitle>Verbouweringen R.K.Mavo</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268119" type="ABS">148</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/231340e3-642a-4876-acf8-347ec08f0f1e</unitid>
+              <unittitle>Stalen ramen.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268120" type="ABS">149</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7aa4bfed-fbcb-4089-9ed1-9e9845204198</unitid>
+              <unittitle>Formulieren en gegevens</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268121" type="ABS">150</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9109e7b-6b26-4c0f-82dd-3f243b391df0</unitid>
+              <unittitle>t.b. Directoraal Generaal voor de arbeidsvoorziening.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268122" type="ABS">151</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d571e1e-4ce2-4540-a42d-e90d32271d88</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268123" type="ABS">152</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/40cac549-168c-4f94-bd49-ab053f13b08f</unitid>
+              <unittitle>Bestek en voorwaarden en tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268124" type="ABS">153</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bb3cb9b-68ac-41d4-b3ee-65aad14889c0</unitid>
+              <unittitle>Bestek en voorwaarden en tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268125" type="ABS">154</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/21b97c7e-43d7-4869-ba03-da421b610bd2</unitid>
+              <unittitle>Bestek en voorwaarden en tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268126" type="ABS">155</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3b8c739-4ed1-4c9a-b6c0-32dacb4c0964</unitid>
+              <unittitle>Berekeningen van bezuinigingen.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268127" type="ABS">156</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25d503de-70da-4d82-ad6a-0369f7b077a4</unitid>
+              <unittitle>Tekeningen technische installatie</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268128" type="ABS">157</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/17a26cbc-76b8-4d37-bf9a-dc78c161e69d</unitid>
+              <unittitle>Berekening van kosten Technische installatie</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268129" type="ABS">158</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/28d4d288-7128-40dc-b333-0f80f0583170</unitid>
+              <unittitle>Omschrijving van toepassing stalen ramen, vloeren,verlichting en tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268130" type="ABS">159</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/871b354d-c137-4f8d-b950-658cc07191bd</unitid>
+              <unittitle>Berekening van bezuinigingen en financieel overzicht en tekeningen omschrijving glas en schilderwerk.</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268131" type="ABS">160</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/890a8ecc-2225-4343-a379-9b32c46b7770</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268132" type="ABS">161</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cd0f2ed-b737-4bdc-b2ec-f89ba574d236</unitid>
+              <unittitle>Tekeningen monster</unittitle>
+            </did>
+            <odd>
+              <p>W 176/182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268133" type="ABS">162</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7746095c-edc8-464b-badc-bfcfe45afc62</unitid>
+              <unittitle>Rekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268134" type="ABS">163</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98d96bd0-fea4-4df4-a6ce-15205baaeecb</unitid>
+              <unittitle>Rekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268135" type="ABS">164</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4073625c-a33c-47b0-804e-c0b9afe5551e</unitid>
+              <unittitle>Bouwvergunningen en tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268136" type="ABS">165</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c9dbce6c-8a9c-448b-aa2e-b14af7a85937</unitid>
+              <unittitle>Bestek d.d. 28-3-'73</unittitle>
+              <unittitle>Omschrijvingen van vloer afwerking. <unitdate calendar="gregorian" era="ce" normal="1973">d.d. 29-3-'73</unitdate>
+              </unittitle>
+              <unittitle>Glas en schilderwerk <unitdate calendar="gregorian" era="ce" normal="1973">d.d. 28-3-'73</unitdate>
+              </unittitle>
+              <unittitle>Centrale verwarming</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268137" type="ABS">166</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d5ab961-43fa-4858-b057-04529f3df55c</unitid>
+              <unittitle>Revisie, riolering en tekeningen maart 1976.</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268138" type="ABS">167</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1753db2a-20b4-4342-b2aa-0650f25653f5</unitid>
+              <unittitle>Bouwverslagen.</unittitle>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268139" type="ABS">168</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94e94533-0e5d-4447-b657-3445c7246917</unitid>
+              <unittitle>Werkrapporten</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268140" type="ABS">169</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/65001988-e4c8-4673-8205-b55cfa20cc50</unitid>
+              <unittitle>Tekeningen</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268141" type="ABS">170</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d09efdf8-ed58-4e94-8706-c8ccd3882058</unitid>
+              <unittitle>Schetsplan <unitdate calendar="gregorian" era="ce" normal="1972">d.d. 24-8-'72</unitdate>
+              </unittitle>
+              <unittitle>besprekingen met de heer Sprenger gem. Zoetermeer.</unittitle>
+              <unittitle>Bemerkingen bestek ir. Sprenger.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268142" type="ABS">171</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e200a3db-8c35-4f0a-8e71-fb00ce27cf39</unitid>
+              <unittitle>Gegevens Sanderingen</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268143" type="ABS">172</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/267d9442-f3cd-4a87-8600-99b10ecbf01e</unitid>
+              <unittitle>Oplevering.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268144" type="ABS">173</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4c61101-88ff-46c5-8ebf-6f4379eb6feb</unitid>
+              <unittitle>Oplevering.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268145" type="ABS">174</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9dbed3d-6506-45da-81df-8baf52c30cce</unitid>
+              <unittitle>Bestrating en beplanting.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268146" type="ABS">175</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e55c77b5-5bfc-4e8c-ae5f-9bad5570bf3c</unitid>
+              <unittitle>Voorlopig schetsplan<unitdate calendar="gregorian" era="ce" normal="1972"> 22-6-'72</unitdate>
+              </unittitle>
+              <unittitle>Goedgekeurd sted.b. welstand inged.</unittitle>
+              <unittitle>bij bestuur verz. naar bouwinspectie.</unittitle>
+              <unittitle>Omschrijving W 186-187</unittitle>
+              <unittitle>globale begr. W 186-187</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268147" type="ABS">176</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/79689f8f-ab3c-49fb-b1a8-af1a782b7c1f</unitid>
+              <unittitle>Ontwerpen Nicolaassch.</unittitle>
+              <unittitle>'t Kwetternest.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268148" type="ABS">177</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/26b2a7ed-c19d-41ce-8f74-8b5e0574335e</unitid>
+              <unittitle>Electr. installatie</unittitle>
+              <unittitle>Omschrijving en tek. (vervallen)</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268149" type="ABS">178</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3eeebe0e-b17b-4062-be40-83dc1627158b</unitid>
+              <unittitle>Electr. installatie (vervallen)</unittitle>
+              <unittitle>Besproken met bestuur Hr. v.d. Bor en Kooymans.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268150" type="ABS">179</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45c015a6-1d94-4be0-8cc7-c818b46c00fb</unitid>
+              <unittitle>Inschrijvingen op bouw.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268151" type="ABS">180</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3cd062b-ed4a-4f49-a453-6f3a4eac831f</unitid>
+              <unittitle>Concept bestek</unittitle>
+              <unittitle>Concept begroting materiaalstaten</unittitle>
+              <unittitle>Concept omschrijvingen glas en schilderwerk</unittitle>
+              <unittitle>vloerafwerkingen.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268152" type="ABS">181</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7872153-43fe-4365-bc34-009297e24a35</unitid>
+              <unittitle>Omschrijving <unitdate calendar="gregorian" era="ce" normal="1972">d.d. 14-11-'72</unitdate>
+              </unittitle>
+              <unittitle>Globale begroting <unitdate calendar="gregorian" era="ce" normal="1972">d.d. 14-11-'72</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268153" type="ABS">182</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de1474b5-4e6c-4961-b598-5a46060f48ff</unitid>
+              <unittitle>Overzicht bouwkosten per lokaal.</unittitle>
+              <unittitle>Vergelijk met sijsteemscholen door ir. Sprenger</unittitle>
+              <unittitle>van Gem. Zoetermeer + staatsbladen.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/1862/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268154" type="ABS">183</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/657f06f9-5f50-4760-bb3e-e75f307ab823</unitid>
+              <unittitle>Verslagen bouwcommissie vergaderingen.</unittitle>
+            </did>
+            <odd>
+              <p>W 186/186A/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268155" type="ABS">184</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/566379ea-60b4-4c64-a805-6258105fdbb3</unitid>
+              <unittitle>Nota's rekeningen</unittitle>
+              <unittitle>schildersbedrijf, brandblus opp.</unittitle>
+              <unittitle>lichtdrukwerk, rubbermatter interieur</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268156" type="ABS">185</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf01df27-fbfc-44f5-985e-505ed25314b7</unitid>
+              <unittitle>nota's interieur</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268157" type="ABS">186</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c1b26be-92da-4fbc-951e-6554a9e07176</unitid>
+              <unittitle>nota's interieur</unittitle>
+            </did>
+            <odd>
+              <p>W 186/187</p>
+            </odd>
+            <phystech type="ABS">
+              <p>Niet raadpleegbaar</p>
+            </phystech>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268158" type="ABS">187</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f18e4f66-fc47-4c9e-bf2f-5e51a38fe080</unitid>
+              <unittitle>Gegevens grond onderzoek.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268159" type="ABS">188</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce8e5ff6-a795-453c-a91b-037ebe5fc732</unitid>
+              <unittitle>Plattegronden schaal 1:20</unittitle>
+              <unittitle>tekening 3,4.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268160" type="ABS">189</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcc4927f-69fb-4e03-ba9d-1eeaf4c9a833</unitid>
+              <unittitle>bestektekening 1a g.w.n, <unitdate calendar="gregorian" era="ce" normal="1973">1-3-'73</unitdate>
+              </unittitle>
+              <unittitle>1b.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268161" type="ABS">190</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/93eec005-1e8e-4cfa-a9c5-ff13a91ddadf</unitid>
+              <unittitle>Gegevens bestek C.V. offerte</unittitle>
+              <unittitle>fa. Siepman C.V.</unittitle>
+              <unittitle>offerte fa Carlier (el)</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268162" type="ABS">191</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98b75755-a926-497d-8efd-8225dcb42df7</unitid>
+              <unittitle>Prijs opgave idem 190.</unittitle>
+            </did>
+            <odd>
+              <p>W 190 stip</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268163" type="ABS">192</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9f0e88d-4245-4b9e-831f-7035c036e39c</unitid>
+              <unittitle>Hogervorst M.V. Keuken</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268164" type="ABS">193</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/333b55c5-0a85-4fbc-9dbb-5e65628af844</unitid>
+              <unittitle>Hogervorst nota Keuken</unittitle>
+            </did>
+            <odd>
+              <p>W 190 stip</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268165" type="ABS">194</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3923614c-e1df-46a9-b276-b7a0a4cdf8b4</unitid>
+              <unittitle>C.A. van Well. situatie's</unittitle>
+              <unittitle>Gegevens Gem. Reewijk en aannemers.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268166" type="ABS">195</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f79b625f-31fe-4d04-81b2-53f6b5ef8c8f</unitid>
+              <unittitle>Voorlopig contract tot verkoop van grond Reewijk.</unittitle>
+            </did>
+            <odd>
+              <p>W 190 stip</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268167" type="ABS">196</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7377b3ad-5808-4f1a-9ae2-3c23b3656433</unitid>
+              <unittitle>Getikt bestek</unittitle>
+              <unittitle>Getikt begroting</unittitle>
+              <unittitle>Omschrijving glas en schilderwerk.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268168" type="ABS">197</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dfe3ac15-fca9-485f-8aaa-bec1bed66021</unitid>
+              <unittitle>Totale prijs.</unittitle>
+            </did>
+            <odd>
+              <p>W 190</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unitid type="series_code">2.</unitid>
+          <unittitle>Aanvulling</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.1</unitid>
+            <unittitle>Studiemateriaal</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268169" type="ABS">198</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5637b10c-5f2c-4b63-ac51-b14f7969e47f</unitid>
+              <unittitle>Berekening voor uitbreiding ketelhuis St. Antonius Ziekenhuis,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1950">1950</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268170" type="ABS">199</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/34299dac-6903-4d52-a2c6-23184b278aee</unitid>
+              <unittitle>Bestektekening M.M.S. School aan de Walen Burgerweg te Rotterdam,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1950">1950</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268171" type="ABS">200</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ff59ae0-de5b-48fb-94ef-2a60576669df</unitid>
+              <unittitle>Bestektekening R.K. School aan de Koninginneweg IJselmonde,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1948">1948</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268172" type="ABS">201</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e45d82b7-2dd6-4919-9b68-7535f4649b76</unitid>
+              <unittitle>Stukken betreffende de verbouwing van de Houten Boerderij "De Winkel",</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1953">1953</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268175" type="ABS">204</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dda68b31-38b6-4fc8-9cd7-81617d0e366e</unitid>
+              <unittitle>Diverse bestektekeningen.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1948">1948-1948</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.2</unitid>
+            <unittitle>R.K. Kerk te Hoogvliet.</unittitle>
+          </did>
+          <c03 level="otherlevel" otherlevel="filegrp">
+            <did>
+              <unitid>205-206</unitid>
+              <unittitle>Ingekomen- en afschriften van uitgaande stukken betreffende het bouwen van R.K. Kerk met Pastorie te Hoogvliet,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1955/1965">1955-1965</unitdate>
+              <physdesc>2 pakken</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1268176" type="ABS">205</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90400d11-521f-4753-8643-8cc597e4b3af</unitid>
+                <unittitle>A - F</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unitid identifier="1268177" type="ABS">206</unitid>
+                <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba02cdc7-f571-4354-9da3-489a71e67bac</unitid>
+                <unittitle>K - N</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268194" type="ABS">223</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0945287a-8b32-4f84-b7b7-264de6a22c38</unitid>
+              <unittitle>Tekeningen, 14, 17, 18 t/m 49.</unittitle>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268195" type="ABS">224</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f459a48f-1ecb-4ebb-865a-8c820fa13468</unitid>
+              <unittitle>Algemeen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1961/1962">1961-1962</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268196" type="ABS">225</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dfe7d0d7-04b2-44fd-a48d-180af7805571</unitid>
+              <unittitle>Sondering; aanbesteding en goed gekeurde tekeningen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1961">1961</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268197" type="ABS">226</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cc1cb599-7cfa-46ff-9286-6548f2cedee0</unitid>
+              <unittitle>Bouwvergunning en Rijksgoedkeuring,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1960/1962">1960 en 1962</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268198" type="ABS">227</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50c1c841-6de4-4dbf-ac12-78165562376c</unitid>
+              <unittitle>Bestektekeningen, beton- en staaltekeningen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1961">1961</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268178" type="ABS">207</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b6d5a04-93e7-4d01-9254-1ea229ca0b54</unitid>
+              <unittitle>Bestektekeningen en voorwaarden voor het bouwen van R.K. Kerk met Pastorie aan de Parelvissersstraat en Hoek Traviataweg te Hoogvliet,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1960">1960</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268179" type="ABS">208</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/80b6eff6-03d1-4410-8ff5-3f292b54cc2b</unitid>
+              <unittitle>Opzichters-dagboek van de R.K. Kerk Rotterdam - Hoogvliet,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1961/1962">10 febr. 1961 - 29 juni 1962</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 46</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268180" type="ABS">209</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9e8a077-4849-4f88-8bc5-5d1b47ab9886</unitid>
+              <unittitle>Prijsvraag bejaardencentrum te Pijnacker. Motto Herfst</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1962">1962</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268181" type="ABS">210</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a2c0fbb-43a8-4c3c-a8bd-7d574fa74948</unitid>
+              <unittitle>Bestek en Voorwaarden voor het verbouwen en uitbreiden van het gebouw voor het Groene Kruis aan de Koninginneweg te Rotterdam - IJsselmonde,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1958/1960">1958-1960</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W.62</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268192" type="ABS">221</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7d2c87e-af95-413a-a4a4-eda40ca10638</unitid>
+              <unittitle>Ingekomen- en afschriften van uitgaande stukken betreffende de R.K. school voor jongens te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1962/1963">1962-1963</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W.64</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.3</unitid>
+            <unittitle>R.K. Emmanuel Kerk te Rotterdam - Pernis.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268191" type="ABS">220</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a426dcd0-6d1d-441d-a829-081ab2fa25ac</unitid>
+              <unittitle>Ingekomen- en afschriften van uitgaande stukken betreffende de R.K. Emmanuelkerk te Rotterdam - Pernis,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1962/1968">1962-1968</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W.104</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268199" type="ABS">228</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4993c571-8f92-479e-bc2d-759bcd1da6cd</unitid>
+              <unittitle>Bestek en Tekeningen, Hei-register en Verfbestek,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1962">1962</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W.104</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268200" type="ABS">229</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/92ff8c7a-e209-43f0-9542-d69549fe4539</unitid>
+              <unittitle>Construktiestekeningen - elementvloeren en electrische installatie,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1962/1963">1962-1963</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W.104</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.4</unitid>
+            <unittitle>R.K. Kerk aan het Erasmusplein te Vlaardingen - West met Wit Gele Kruisgebouw en Jeugdruimte.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268193" type="ABS">222</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3bdfb70b-7daa-4a2f-a90d-3740ce0a7ed8</unitid>
+              <unittitle>Ingekomen- en afschriften van uitgaande stukken betreffende R.K. Kerk en Wit Gele Kruisgebouw met Jeugdruimte te Vlaardingen - West,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1967/1968">1967-1968</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 120-121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268201" type="ABS">230</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4f3d049-7ee9-43b4-b7ac-8b5727192ade</unitid>
+              <unittitle>Bestektekeningen; begrotingen en Hei-registers,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1965/1966">1965-1966</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 120-121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268202" type="ABS">231</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/892a6983-ebe9-49e8-8f16-0ce0364369b9</unitid>
+              <unittitle>Tekeningen aanbesteding; Gunningscontracten en afschrift Bouwvergunning,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1965/1966">1965-1966</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 120-121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268203" type="ABS">232</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b60ed2a-9f2d-4350-baa0-0035c705f07d</unitid>
+              <unittitle>Goedgekeurde tekeningen.</unittitle>
+            </did>
+            <odd>
+              <p>W 120-121</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268174" type="ABS">203</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/07af4595-d049-4eac-94fa-6d3b4348ecce</unitid>
+              <unittitle>Bestektekening Zaksilo "MENEBA" te Rotterdam,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1952/1953">1952-1953</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 158</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.5</unitid>
+            <unittitle>RABO Bank - Openbare Bibliotheek - Postkantoor - Kantoor aan het Raadhuisplein te Pijnacker</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268204" type="ABS">233</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a0ea9a91-6033-4693-bc99-3ff28e846071</unitid>
+              <unittitle>Tekeningen, opzichter dagboeken (schriften en diverse tekeningen),</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1969">1969</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 164-166</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268205" type="ABS">234</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cab7d41e-1dd9-48ec-a7e9-691337ec2c8f</unitid>
+              <unittitle>-Detailtekeningen 10 t/m 14.</unittitle>
+              <unittitle>-Hei-register en begrotingen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1969">1969</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 165</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268206" type="ABS">235</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b47a28dd-962d-4476-b621-04256152fe20</unitid>
+              <unittitle>-Werktekeningen, </unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1970">1970</unitdate>
+              <unittitle>-Hei-register</unittitle>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 166a</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.6</unitid>
+            <unittitle>Jenaplan School te Oegstgeest</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268182" type="ABS">211</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e78c04c1-4cc6-4f71-a1f7-faf604b20cd4</unitid>
+              <unittitle>Publicatie Jenaplan scholen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1968/1970">1968-1970</unitdate>
+            </did>
+            <odd>
+              <p>W 171.</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268183" type="ABS">212</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1f2a634-cc15-49f4-a516-812bdc133421</unitid>
+              <unittitle>Speelterrein en beplanting Jenaplanschool,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1973">1973-1973</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268207" type="ABS">236</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a834db2-2794-4ed1-92df-0998fab9c9a1</unitid>
+              <unittitle>Werktekeningen, 2 t/m 54.</unittitle>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 171</p>
+            </odd>
+            <odd>
+              <p>N.b. tekeningen nr. 45, 45a, 47 - 49 ontbreken.</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.7</unitid>
+            <unittitle>Petrus MAVO school en twee gymnastieklokalen aan de Dr. J.W. Paltelaan te Zoetermeer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268184" type="ABS">213</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc0e76b3-999f-4b34-92a1-f1931b5b0a55</unitid>
+              <unittitle>Omschrijving van materialen en construkties voor de verbouwingen uitbreiding van St. Petrus MAVO school te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1971">1971</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 176</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268185" type="ABS">214</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dabe3845-5ad1-401e-b8d2-bfac129d4f06</unitid>
+              <unittitle>Stukken betreffende de Staat van wijzigingen en omschrijving elektrische installaties t.b.v. de verbouwing en uitbreiding van de R.K. MAVO school te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+            </did>
+            <odd>
+              <p>W 176-182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268186" type="ABS">215</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e4f916d-b85e-4ee8-a4bb-f378cef0bb63</unitid>
+              <unittitle>Bestek en voorwaarden voor het uitbreiden en verbouwen van de R.K. Mavo-school St. Petrus te Zoetermeer etc.</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 176-182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268208" type="ABS">237</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8f67bd6-af70-44b8-a009-35f5491de605</unitid>
+              <unittitle>Gegevens aanbesteding,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1974">1974</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 176-182</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268209" type="ABS">238</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90d845b2-f4d0-4bb0-ab73-ef5cfdb618b1</unitid>
+              <unittitle>Bestektekeningen gunning</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1974">d.d. 30-5-1974</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 176-182</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.8</unitid>
+            <unittitle>R.K. Kleuterschool De Meerkoet te Zoetermeer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268187" type="ABS">216</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/260fbda9-a819-4358-9ef9-9a484be593b8</unitid>
+              <unittitle>R.K. Kleuterschool te Zoetermeer -sonderingen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268188" type="ABS">217</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23c273ca-07d5-4b1d-bcf2-0de56dca430c</unitid>
+              <unittitle>Voorlichting en schetsplan R.K. Kleuterschool te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268189" type="ABS">218</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eb326588-4c42-4490-98b8-d9088ebbc1a9</unitid>
+              <unittitle>Bestek en Bestektekeningen R.K. Kleuterschool te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972">1972</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268190" type="ABS">219</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6d040be-840a-465f-8b13-e0b6bcce05b9</unitid>
+              <unittitle>Situatie en beplanting R.K. school te Zoetermeer,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1972/1973">1972-1973</unitdate>
+              <physdesc>1 Pak</physdesc>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268210" type="ABS">239</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/05b13b34-622a-4caf-8d6a-d4d5d28933c1</unitid>
+              <unittitle>Bestek en tekeningen, nr. 1 t/m 35,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1973/1974">1973-1974</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 183</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.9</unitid>
+            <unittitle>R.K. Kleuterschool te Zoetermeer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268212" type="ABS">241</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c44fafd-751d-4162-882d-77b5a9d87c14</unitid>
+              <unittitle>Bestek en tekeningen; begrotingen en sonderingen,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1973/1974">1973-1974</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 186-l87</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268213" type="ABS">242</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/62ecf6f5-d248-44ff-bbd2-24d9a56b282d</unitid>
+              <unittitle>Gunnings kontrakt,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1973">juli 1973</unitdate>
+              <physdesc>1 pak</physdesc>
+            </did>
+            <odd>
+              <p>W 186-187</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unitid type="series_code">2.10</unitid>
+            <unittitle>Diversen</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268211" type="ABS">240</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/083fbbea-dff7-400f-a3d8-292cc1c24e59</unitid>
+              <unittitle>-Gunnings Kontrakt.</unittitle>
+              <unittitle>-Publicaties.</unittitle>
+              <unittitle>-Tram - Nederlands project.</unittitle>
+              <unittitle>-M.T.S. Gouda.</unittitle>
+              <physdesc>1 pak</physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="1268173" type="ABS">202</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a28215ca-4669-4047-9d48-4fd1f1ffef27</unitid>
+              <unittitle>Weekrapporten,</unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1949">juni 1948 - maart 1949</unitdate>
+              <physdesc>1 omslag</physdesc>
+            </did>
+            <odd>
+              <p>W 316</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

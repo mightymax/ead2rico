@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/53c7e02a-e4ba-4806-97d2-aad8b9e05485"
+  rdf:about="record/2.13.13.30">
+    <rico:identifier>2.13.13.30</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1948</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/D27020" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.13.13.30/i1" />
+      <rico:instantiates rdf:resource="record/2.13.13.30" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Telegraphische Gemeenschap
+        van ''s-Gravenhage naar Breda en ''s-Hertogenbosch, 1831-1838</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/53c7e02a-e4ba-4806-97d2-aad8b9e05485" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten, geen bijzondere handschriften.
+        Het archief bevat een aantal tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/D27020">
+    <rico:describedBy rdf:resource="record/2.13.13.30" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>D27020</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Telegrafische Gemeenschap</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Telegrafische Gemeenschap</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1831</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1838</rico:endDate>
+    <rico:date>1831-1838</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Telegraphische Gemeenschap van 's-Gravenhage naar Breda en
+            's-Hertoenbosch, 1831-1838</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op voorstel van het Departement van Binnenlandse Zaken en dat van
+          Oorlog werd bij K.B. van 10 augustus 1831, nr. 20 aan de Heer A. Lipkens,
+          adviseur bij het Departement van Binnenlandse Zaken, opgedragen om zo spoedig
+          mogelijk een telegrafische gemeenschap in te richten van 's-Gravenhage naar
+          Breda en 's-Hertogenbosch. Toen deze was opgericht werd hiervan door genoemd
+          Departement een verslag aan de Koning gezonden.</html:p>
+          <html:p>Naar aanleiding van dit verslag werd bij K.B. van 16 december 1831, nr.
+          83 bepaald, dat aan de gemeenschap geen uitbreiding behoefde te worden gegeven,
+          en dat het beheer en opzicht bij de directie van de Topografische Bureau kwam.
+          Aan de 1e luitenant-ingenieur G. Jooss werd de directie opgedragen.</html:p>
+          <html:p>De luitenant-ingenieur Jooss, die van de oprichting der telegrafische
+          gemeenschap aan de Heer Lipkens was toegevoegd, heeft zich toen belast met het
+          samenstellen van een zo mogelijk volledig seinboek.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Telegraphische Gemeenschap van 's-Gravenhage naar Breda
+      en 's-Hertogenbosch bevat seinboeken, brieven afkomstig van verschillende
+      autoriteiten, reglementen, een overzicht van de aangestelde seinmeesters en
+      inventarissen van goederen en voorwerpen van de diverse seinposten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>20 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

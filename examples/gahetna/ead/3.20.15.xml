@@ -1,0 +1,2608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:11:39 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.20.15::Familiearchief Emants)//NL" url="http://proxy.handle.net/10648/84b86382-73d9-4137-9f88-7f65a6f772de" urn="3.20.15.ead.xml">3.20.15</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het archief van de familie Emants</titleproper>
+				<author>H.H.P. Rijperman</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1920">1920</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Pauline van den Heuvel, 
+		  <date calendar="gregorian" era="ce" normal="20090306">6 maart 2009</date>/>. 
+	  </creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, Erven B. van der Kamp, Groningen 1898</bibref>.
+                </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20101123">23 november 2010</date>
+				<item>
+					<num>1</num>Ontbrekend stukje [acqinfo] gecombineerd met al aanwezige [acqinfo] en waarschuwingen ontneste unitdates in subfiles opgelost door <name>Arina Overkleeft</name>
+				</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce" normal="20121204">4 december 2012</date>
+				<item>
+					<num>2</num> Afbeelding ingevoegd door <name>Hans Punt</name>.</item>
+			</change>
+			<change>
+				<date calendar="gregorian" era="ce"/>
+				<item/>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Familiearchief Emants</unittitle>
+			<unittitle type="short">Emants</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1433/1957" type="inclusive">1433-1957</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">35015</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">6.70 meter; </extent>
+				
+			<extent unit="files">227 inventarisnummers.</extent></physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>
+			</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven gedrukte, getypte en teksten. De Nederlandstalige stukken van vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de oud-Hollandse klerkencursief.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<famname>Emants</famname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat stukken die afkomstig zijn van verschillende leden van de familie Emants, waaronder letterkundige Marcellus Emants. De familie bestond vele generaties lang voornamelijk uit juristen. De stukken hebben zowel betrekking op hun privé- als professionele activiteiten. Onder de documenten bevinden zich o.a. brieven, aantekeningen van godsdienstige en politieke aard, reisverslagen, boedelinventarissen, studiedocumenten, benoemingsbesluiten en dankbetuigingen.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<bioghist>
+				<head>Geschiedenis van de archiefvormer</head>
+				<bioghist>
+					<head>Genealogie van de familie Emants</head>
+					<p>
+						<extptr actuate="onload" href="http://www.gahetna.nl/sites/default/files/afbeeldingen/toegangen/NL-HaNA_3.20.15_Genealogie-Emants.jpg" linktype="simple" show="embed"/>
+					</p>
+				</bioghist>
+			</bioghist>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<acqinfo>
+					<p>Het familiearchief Emants valt uiteen in verschillende bestanddelen, die op onderscheiden tijdstippen in het Algemeen Rijksarchief zijn gekomen: <list numeration="arabic" type="ordered">
+							<item>Archivalia van Mr. G.B. Emants als pensionaris van Brielle (1768-1770), tweede pensionaris van Dordrecht (1770-1772) en pensionaris van Delft (1772-1791). Aan het Algemeen Rijksarchief in 1855 geschonken door zijn gelijknamige kleinzoon, vader van letterkundige Marcellus Emants (Aanw. 1855 A II). Zie: Particuliere Notulen van de Staten van Holland en West-Friesland, Brielle nrs. 1-3, Dordrecht nrs. 10-11, Delft nrs. 10-24; en Archief van de Staten van Holland no. 4039.</item>
+							<item>Archivalia door Marcellus Emants (letterkundige) in 1908 aan het Algemeen Rijksarchief geschonken, grootendeels toebehoord hebbende aan Marcellus Emants (1778-1851) als heer van Noord-Nieuwland onder Maasland. Zie "Verslagen omtrent 's Rijks Oude Archieven" (VROA) XXXI-1908, Aanwinsten LIII.</item>
+							<item>Familiepapieren door Marcellus Emants, wonende toenmaals Parkstraat 38 te 's-Gravenhage, op 16 februari1920 aan het Algemeen Rijksarchief geschonken. Beschreven door Mejuffrouw H.H.P. Rijperman in "Verslagen omtrent 's Rijks Oude Archieven" (VROA) XLIII-1920, Eerste Deel, Bijlage XI, blz. 602-616.</item>
+							<item>Familiepapieren, naar hun inhoud geheel aansluitend bij de voorgaande, door Mevrouw L.E.C.J. Emants, dochter van de letterkundige Marcellus Emants in 1957 aan het Algemeen Rijksarchief in bewaring gegeven met de bepaling, dat de betrokken stukken na haar overlijden rijkseigendom zullen worden.</item>
+						</list>
+					</p>
+				</acqinfo>
+			<acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archiefblok bevat archiefstukken onder verschillende rechtstitels verworven.</p></acqinfo></custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">3.20</subject>
+			</controlaccess>
+			<processinfo>
+				<head>Verantwoording van de bewerking</head>
+				<p>(Supplement)</p>
+				<p>Op den duur zullen alle hiervoor genoemde bestanddelen in een gemeenschappelijke inventaris worden beschreven, die dan een definitief karakter zal dragen. Het merendeel van de in 1957 verworven stukken was door Marcellus Emants nog vóór zijn overlijden in 1923 ten gemeentearchieve van 's Gravenhage gedeponeerd en daar in 1955 beschreven door de chartermeester Mr. J.E.J. Geselschap. Diens beschrijving, die zich geheel aanpast aan den gedrukte inventaris van Mejuffrouw Rijperman uit 1920, is als grondslag gebruikt, maar aangevuld en gewijzigd, voor zover dat nodig bleek.</p>
+			</processinfo>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Familiearchief Emants, nummer toegang 3.20.15, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Emants, 3.20.15, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+			<separatedmaterial>
+				<head>Afgescheiden archiefmateriaal</head>
+				<p>De letterkundige manuscripten van Marcellus Emants, ook brieven door andere letterkundigen aan hem gericht, bevinden zich krachtens een schenking van de weduwe in het Nederlands Letterkundig Museum in Den Haag.</p>
+			</separatedmaterial>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">A.</unitid>
+					<unittitle>Stukken van algemene aard.</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395757" type="ABS">1</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0d1fed9-4265-4678-9db3-37aabdb771e2</unitid>
+						<unittitle>Diverse stukken betreffende de genealogie.</unittitle>
+					</did>
+					<c03 level="otherlevel" otherlevel="subfile">
+						<did>
+							<unitid>1BIS1</unitid>
+							<unittitle>Aantekeningen betreffende de genealogie van de familie Emants en aanverwante families, 
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							</unittitle>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<odd>
+							<p>Hierbij stambomen, kwartierstaten, wapentekeningen enz.van de volgende geslachten: <list type="simple">
+									<item>Baalde; gem. 44</item>
+									<item>Berg, van den</item>
+									<item>Bongart; gem 32</item>
+									<item>Bosch</item>
+									<item>Brants</item>
+									<item>Brienen, van; gem 29,41,45</item>
+									<item>Bruinstein</item>
+									<item>De Pagniet; gem 27</item>
+									<item>Dullaert</item>
+									<item>Engelen; gem 15,35,40</item>
+									<item>Greef, de; gem 28, 31</item>
+									<item>Hasselt, van; gem 17</item>
+									<item>Huyghens; gem 22</item>
+									<item>Casembroot; gem 18</item>
+									<item>Kempenaer, de</item>
+									<item>Kievit</item>
+									<item>Coymans; gem 3</item>
+									<item>Crayvanger; gem 5</item>
+									<item>Lange, de</item>
+									<item>Lokemans; gem 7</item>
+									<item>Mispelblom Beyer</item>
+									<item>Molewater; gem. 20</item>
+									<item>Moor, de</item>
+									<item>Normandie, de; gem 14</item>
+									<item>Oorschot, van; gem 24</item>
+									<item>Paspoort; gem 10</item>
+									<item>Riebeeck, van; gem 39</item>
+									<item>Scheltus</item>
+									<item>Scholten</item>
+									<item>Sluyskens; gem 42</item>
+									<item>Steenhouwer; gem 9</item>
+									<item>Sweerts; gem 5,11,15,3</item>
+									<item>Toll, van</item>
+									<item>Tromp</item>
+									<item>Willink</item>
+									<item>Wijnen; gem 8,12,21,2,43,4</item>
+								</list>
+							</p>
+						</odd>
+					</c03>
+					<c03 level="otherlevel" otherlevel="subfile">
+						<did>
+							<unitid>1BIS2</unitid>
+							<unittitle>Genealogie van het geslacht Sweerts de Landas, 
+							<unitdate calendar="gregorian" era="ce" normal="1600/1699">17e eeuw</unitdate>
+							</unittitle>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<odd>
+							<p>Met aantekeningen van later tijd.</p>
+						</odd>
+					</c03>
+					<c03 level="otherlevel" otherlevel="subfile">
+						<did>
+							<unitid>1BIS3</unitid>
+							<unittitle>Genealogie van het geslacht Sweerts de Landas, 
+							<unitdate calendar="gregorian" era="ce" normal="1700/1799">18e eeuw</unitdate>
+							</unittitle>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<odd>
+							<p>De wapentekeningen zijn merendeels uitgesneden. Blijkens het handschrift geschreven door Mr. Marcellus Emants (1706-1792)</p>
+						</odd>
+					</c03>
+					<c03 level="otherlevel" otherlevel="subfile">
+						<did>
+							<unitid>1BIS4</unitid>
+							<unittitle>"Geslachtregister der Familie Emants", met 2 concepten, 
+							<unitdate calendar="gregorian" era="ce" normal="1823">1823</unitdate>
+							</unittitle>
+							<physdesc>3 delen</physdesc>
+						</did>
+						<odd>
+							<p>Vervaardigd door Mr.Marcellus Emants in 1823 en verbeterd in 1851.</p>
+						</odd>
+					</c03>
+					<c03 level="otherlevel" otherlevel="subfile">
+						<did>
+							<unitid>1BIS5</unitid>
+							<unittitle>Wapenboek van Marcellus Emants, 
+							<unitdate calendar="gregorian" era="ce" normal="1859">1859</unitdate>
+							</unittitle>
+							<physdesc>1 deel</physdesc>
+						</did>
+						<odd>
+							<p>Bevat wapens van diverse geslachten, uit andere manuscripten geknipt.</p>
+						</odd>
+					</c03>
+				</c02>
+				<c02 level="otherlevel" otherlevel="filegrp">
+					<did>
+						<unitid>2-2BIS</unitid>
+						<unittitle>Stukken betreffende de grafkelders in de Grote Kerk, in de Kloosterkerk en de Nieuwe Kerk te 's-Gravenhage toebehorende aan de familie Emants,</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>4 stukken</physdesc>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395758" type="ABS">2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/85ce64c2-9f19-4c37-bf05-8787c8decbce</unitid>
+							<unittitle>Omslag met diverse stukken.</unittitle>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395720" type="ABS">2BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/43bd49e5-198f-4c02-bf93-aa7e704f3bdf</unitid>
+							<unittitle>Sleutel van de grafkelder in de Grote Kerk te 's-Gravenhage.</unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">B.</unitid>
+					<unittitle>Stukken afkomstig van verschillende leden van de familie Emants.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">I.</unitid>
+						<unittitle>Jan Berntsz. Emants (1618-1680), brouwer te Arnhem.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395761" type="ABS">5</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e83509a-65bc-4895-aa3c-b16028fe30e4</unitid>
+							<unittitle>Aanteekeningen, hoofdzakelijk over den dood van familie en kennissen in Arnhem in een almanak van het jaar</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1672">1672</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395744" type="ABS">5A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2909bf53-3805-4d0d-85b8-2c36016192da</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Bartholomeus Bosch en Geertruyt Schoutens (Schoonouders van Johan Berntsz. Emants) te 's-Gravenhage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1680">1680</unitdate>
+							<unittitle>Met retroacta van</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1674">1674</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">II.</unitid>
+						<unittitle>Johan Berntsz. Emants (1648-1720), brouwer te 's-Gravenhage.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395762" type="ABS">6</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9f4bd855-e123-427a-a509-81aa1569464b</unitid>
+							<unittitle>Lijst van personen, die genoodigd werden ter begrafenis van zijne echtgenoote Agatha Bosch.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1693">1693 Januari 13</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395745" type="ABS">6A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e451cea9-faed-4b5b-a46e-76d721ff8f10</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Johan Berntsz. Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1720/1721">1720-1721</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1678/1715">1678 en 1715</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">III.</unitid>
+						<unittitle>Johan Emants (1678-1742).</unittitle>
+					</did>
+					<odd>
+						<p>Advocaat en essayour-generaal van de munten der Vereenigde Nederlanden en in 1708 weesmeester te 's-Gravenhage.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395763" type="ABS">7</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f20a056-a76d-47b1-913a-aca3aa9c32ce</unitid>
+							<unittitle>Stellingen, waarop hij promoveerde in de rechten aan de Leidsche Hoogeschool, en de bul, hem bij die gelegenheid uitgereikt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1699">1699 Juli 16</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Van de stellingen zijn twee exemplaren aanwezig.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395764" type="ABS">8</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdef9306-825d-4909-9f2a-3fc4a36ca184</unitid>
+							<unittitle>Extract uit het Raads-resolutieboek van 's-Gravenhage, bevattende zijne aanstelling tot weesmeester. Afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1708">1708 Mei 4</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395765" type="ABS">9</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/859abcfc-e688-49ff-ae31-cd78a426ddba</unitid>
+							<unittitle>Acte van overdracht van een vierde part in het recht van de bierwagens van de brouwerij "De Roode Leeuw", aan zijn neef dr. Lormier. Minuut.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1721">1721 April 1</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395766" type="ABS">10</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6758b9c2-352b-488e-8d88-8e4a591e813a</unitid>
+							<unittitle>Acte van deeling van de inkomsten der brouwerij "De Roode Leeuw" onder Cornelia de Gruyter (weduwe van Johan Emants), Johan Emants, weesmeester van 's-Gravenhage, en zijn broeder Cornelis Emants. Afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1725">1725 Mei 6</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395767" type="ABS">11</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7feeca0b-a04d-4c30-9ad5-7d671c06243e</unitid>
+							<unittitle>Verklaring van Cornelis Emants, dat hij de som van f 125 's jaars aan tante Van der Vliet, in het vervolg alleen zal betalen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1733">1733 September 7</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395688" type="ABS">11A1</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd6911d5-f6f2-4dd6-bb9f-7a185397fe3a</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Alida Bruinstein,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1715/1716">1715-1716</unitdate>
+							<unittitle>met retroacta van 1691-1713.</unittitle>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Mr. Johan Emants was executeur.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395689" type="ABS">11A2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9047b08e-9870-4880-ad8a-c5b5e04e3f83</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Aarnout Du Fos, penningmr. van de Hoge Raad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1721">1721 Jan. 17</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Johan Emants was één der executeurs.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395690" type="ABS">11A3</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca356975-1343-4307-b986-1229fafd059f</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Catharina Lookemans,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1722">1722</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395691" type="ABS">11A4</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ca2574c-5ea6-4691-9acc-7a764f1c31fd</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Mr. Willem Crayvanger te 's-Gravenhage en zijn echtgenote Maria van Ommen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1727/1733">1727-1733</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Mr. Johan Emants was één der executeurs.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395768" type="ABS">12</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b257e5ac-319b-4f61-975d-32a99bc81caa</unitid>
+							<unittitle>Acte, waarbij mr. Johan Emants ontslagen wordt uit de voogdij over de minderjarige erfgenamen van mr. Gijsbert van Kinschot,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1738">1738 April 29</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395769" type="ABS">13</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/96464885-a49d-4fa1-a82e-60b4fe19cb11</unitid>
+							<unittitle>Extract uit de acte van scheiding van den boedel van mr. G. van Kinschot, waarin mr. Johan Emants optreedt als voogd over de minderjarige erven. Afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1738">1738 Augustus 1</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395770" type="ABS">14</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7a612a3-f39c-40ae-951c-4334f478df0e</unitid>
+							<unittitle>Aanteekeningen betreffende zijne genealogie en zijn particulier en openbaar leven.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1701/1740">1701-1740</unitdate>
+							<physdesc>1 deeltje</physdesc>
+						</did>
+						<odd>
+							<p>De genealogische aanteekeningen werden vervolgd door zijn zoon Marcellus en anderen; voortgezet tot 1849.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395701" type="ABS">14A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7df4591b-105e-459e-ad8a-d828543719e7</unitid>
+							<unittitle>Beschrijving van een penning ter gelegenheid van zijn zilveren bruiloft met Sara Maria Bruinstein, gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1726">1726</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395771" type="ABS">15</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e13e6682-5bdc-4476-9f3b-05202dd554b1</unitid>
+							<unittitle>Papieren betreffende zijn dood en begrafenis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1742">1742 November 23</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395704" type="ABS">15A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1af66da-e63d-413a-a98b-f7723b83fe06</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Sara Maria Bruinstein,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763">1763</unitdate>
+							<unittitle>met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1685/1747">1685-1747</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Een deel van de nalatenschap bleef aanvankelijk onverdeeld, n.l. het 4e part in de brouwerij de Rode Leeuw, de helft van het recht van de bierwagens, enige obligaties en een grafkelder: zie nr. 26f en 52a.</p>
+						</odd>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">IV.</unitid>
+						<unittitle>P. Casembroot, weduwe Cornelis Emants (1697-1735).</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395772" type="ABS">16</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2b763700-2051-44db-9436-129ee50a45a4</unitid>
+							<unittitle>Kennisgeving van het overlijden van Cornelis Emants.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1735">1735 Januari 18</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395773" type="ABS">17</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fb5bc27-cf30-435c-86b6-5780dabe6f3f</unitid>
+							<unittitle>Stukken betreffende hare pogingen om het huwelijk van haar zoon Johan Emants met Dorothea Ditmar te verhinderen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1749">1749 Juni 6-Juni 27</unitdate>
+							<physdesc>1 bundel</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">V.</unitid>
+						<unittitle>Agatha Emants (1704-1787).</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395774" type="ABS">18</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/18fe573b-8ccf-4ad4-a5b7-1b48a3b1465c</unitid>
+							<unittitle>Gedichten ter eere van haar huwelijk met dr. Sebastiaan Middelbeek. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1723">1723 September 7</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395775" type="ABS">19</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/83e01022-4414-4b33-86b1-ddc0b8aed16a</unitid>
+							<unittitle>Bekendmaking van den dood van Agatha Emants, weduwe van dr. Sebastiaan Middelbeek. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1787">1787 Juli 12</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395776" type="ABS">20</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5cd6067f-7c44-4e21-a630-ecc23537962d</unitid>
+							<unittitle>Stukken aangaande den boedel van Agatha Emants en haar echtgenoot dr. Sebastiaan Middelbeek.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1756/1788">1756-1788</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395710" type="ABS">20BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e7779329-0aef-4342-a872-696447c5c631</unitid>
+							<unittitle>Acte van "Scheiding der Nalatenschap van wijle Vrouwe Agatha Emants, weduwe wijlen Sebastiaan Middelbeek", overleden </unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1787">11 sept. 1787</unitdate>
+							<unittitle>Authentiek afschrift van</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1787">1787 oct.20</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VI.</unitid>
+						<unittitle>Mr. Marcellus Emants (1706-1792).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan de Leidsche Hoogeschool en bekleedde de ambten van advocaat aan het Hof van Holland en essayeur van de munten der Vereenigde Nederlanden.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395777" type="ABS">21</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9077ad5a-99e2-4264-97c4-774245c6fcbf</unitid>
+							<unittitle>Stukken betreffende zijne promotie in de rechten aan de Leidsche Hoogeschool en acte, waarin hij gepostuleerd wordt tot advocaat bij het Hof van Holland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1727">1727</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Hierbij een ongedateerd stuk betreffende zijne studiën aan het gymnasium te 's-Gravenhage. Van de stellingen, waarop hij promoveerde, zijn drie exemplaren aanwezig.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395778" type="ABS">22</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2ba53de-a8f3-46cd-aba1-2174b3a727d9</unitid>
+							<unittitle>Acte, waarbij Marcellus Emants wordt aangesteld tot biervoerder in de brouwerij "Den Rooden Leeuw". Met bijlagen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1721">1721 Maart 26</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395779" type="ABS">23</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e1642f3d-34ff-42fe-8a67-593ed0e3b707</unitid>
+							<unittitle>Journaal van huishoudelijke uitgaven over de jaren</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1733/1757">1733-1757</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395780" type="ABS">24</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/001f95c1-afc2-445c-99c0-d642905d3a48</unitid>
+							<unittitle>Aanteekeningen van allerlei aard, meest recepten.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395781" type="ABS">25</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af99e3fd-a5de-4ff1-bdf4-665346a1c1e2</unitid>
+							<unittitle>Beschrijving van een reisje door de Noord- en Oost-Nederlandsche provinciën.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1766">1766 Juli 21-Augustus 17</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395782" type="ABS">26</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c493e6cd-020c-40b6-b32d-8dfb039a08f7</unitid>
+							<unittitle>Papieren betreffende de viering van zijne gouden bruiloft met Christina Sebastiana Sweerts.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1783">1783 Juni</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395711" type="ABS">26A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ebd4acc-967a-4be1-a500-2a34b2128dca</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Hendrina Guldemont,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1745">1745</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1702/1720">1702-1720 en z.d.</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>(Verwant via Bruinstein)</p>
+						</odd>
+						<odd>
+							<p>Mr. Marcellus Emants was executeur.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395712" type="ABS">26B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7aea418-b320-454b-be85-a51711a938d7</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Anna Lookemans,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1746">1746</unitdate>
+							<unittitle>Met retroacta</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1721/1733">1721-1733</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Marcellus Emants was een der executeuren.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395713" type="ABS">26C</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a07cdb86-fb97-43b4-9f21-80705a319736</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Christina de Greeff weduwe Jacob du Mee,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1751">1751</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1720/1750">1720-1750</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Marcellus Emants was executeur.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395714" type="ABS">26D</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2b67b76-2c9b-49cf-bc4b-2a86bedbb0e3</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Catharina Cornelia Bosch,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760">1760</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1727/1759">1727-1759</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Mr.Marcellus Emants was universeel erfgenaam.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395715" type="ABS">26E</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/93e3b973-422d-43e6-a6e3-0c3ecadcee79</unitid>
+							<unittitle>Stukken betreffende de voogdij over de kinderen van Dr. Johannes Swalmius en Magdalena IJzembaar,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1749/1772">1749-1772</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395716" type="ABS">26F</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/38aeacee-bdad-42f3-a1be-2a7324bc5de3</unitid>
+							<unittitle>Stukken betreffende het beheer en de liquidatie van de brouwerij "De Roode Leeuw" en het "recht van bierwagen",</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1755/1776">1755-1776</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did>
+						<odd>
+							<p>Zie nr. 15B en 52A.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395783" type="ABS">27</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd091818-5058-4593-a41a-3df0ac3c0252</unitid>
+							<unittitle>Acte, waarbij hij als voogd over I. en L. Sweerts de Landas Herman van Heezel, procureur aan de Hoven van Holland, machtigt als zijn plaatsvervanger op te treden in een proces. Afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1777">1777 Juni 30</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395784" type="ABS">28</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b5f60a3e-1b3d-418c-bc5a-112a82d6a3f6</unitid>
+							<unittitle>Rekening van de executeurs van het testament van Catherina Emants weduwe D. L. de Kempenaer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1782">1782 Juli 22</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Marcellus Emants was een der executeuren.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395717" type="ABS">28A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/048ac20c-a916-4dcd-b0b3-841605289c87</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Sara Sasburgh van Linsingen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1768/1789">1768-1789</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1755/1766">1755-1766</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Marcellus Emants was één der executeuren.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395718" type="ABS">28B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cc31d60c-494f-4e45-97bb-261e3775959f</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Margaretha de Swart, wed. Johan Michiel de Normandi 1757-1790. Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1730/1750">1730-1750</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Marcellus Emants was voogd over haar minderjarige erfgenamen.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395785" type="ABS">29</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e754b806-5934-44bc-8a53-2b4861c54e19</unitid>
+							<unittitle>Papieren betreffende den dood en de begrafenis van familieleden en vrienden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1742/1788">1742-1788</unitdate>
+							<physdesc>7 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395719" type="ABS">29A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/64aeef74-18ac-4b14-a677-979cba799c81</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Marcellus Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1792/1793">1792-1793</unitdate>
+							<unittitle>Met retroacta, 1733-1791.</unittitle>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VII.</unitid>
+						<unittitle>Catherina Emants (1713-1782).</unittitle>
+					</did>
+					<odd>
+						<p>Zie ook n°. 28.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395786" type="ABS">30</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/60c5590d-64f9-4e4f-8228-058b13fb0fe1</unitid>
+							<unittitle>Testament van Mejuffrouw Cornelia de Lille, waarin zij Catharina Emants, echtgenoote van D. L. de Kempenaer, tot universeel erfgenaam benoemt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760">1760</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395787" type="ABS">31</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3be2e1cb-9c76-403e-be0b-c17bd6c152b2</unitid>
+							<unittitle>Stukken betreffende de boedels van Catherina Emants en hare beide echtgenooten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1743/1782">1743-1782</unitdate>
+							<physdesc>18 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395721" type="ABS">31BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dfed0b79-2a26-4b4a-8ea4-adc800a0ad4c</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Catharina Emants, wed. Mr. Daniel Livius de Kempenaar,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1774/1800">1774-1800</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1765">1765</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Mr. Marcellus Emants was één der executeurs.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395788" type="ABS">32</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2439ab3-3294-4bdc-956a-384a3f48b767</unitid>
+							<unittitle>Papieren betreffende den dood en de begrafenis van hare beide echtgenooten, E. de Haeze en D. L. de Kempenaer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1752/1772">1752 en 1772</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395789" type="ABS">33</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7709a7ed-f448-43ad-a3a6-fc7a784f677a</unitid>
+							<unittitle>Gedichten van de hand van C. Emants, weduwe D. L. de Kempenaer.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VIII.</unitid>
+						<unittitle>Johan Emants (1734-1806).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan de Utrechtsche hoogeschool, werd gepostuleerd tot advocaat bij het Hof van Holland en werd in 1772 aangesteld tot rentmeester van de exploiten van het Hof van Holland, Zeeland en West-Friesland.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395790" type="ABS">34</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f79375a-b4f0-422d-a471-2de0881e59ce</unitid>
+							<unittitle>Stukken betreffende zijne studiën aan het gymnasium te 's-Gravenhage en aan de universiteit te Utrecht en acte, waarbij hij gepostuleerd wordt tot advocaat bij het Hof van Holland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1752/1754">1752-1754</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395791" type="ABS">35</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a23cf93-1a53-48f3-846e-8ef338084343</unitid>
+							<unittitle>Commissie-brieven van de Staten van Zeeland en van Holland en West-Friesland, als rentmeester van de exploiten van den Hove van Holland, Zeeland en West-Friesland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1772">1772</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395722" type="ABS">35A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7258c329-52c3-4794-aa66-02e339ab0379</unitid>
+							<unittitle>Stukken betreffende het rentmeesterschap van de Exploiten,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1794">1794</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+						<odd>
+							<p>Afkomstig uit het Oud-archief van de Gemeente 's-Gravenhage (nr.T.R.2692). Door de Gemeente-archivaris van 's-Gravenhage aan het Rijk in bewaring gegeven.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395792" type="ABS">36</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/367bbb4e-28dd-4a96-bd3b-67a1199d167b</unitid>
+							<unittitle>Acte, waarbij zijn vader hem bij zijn huwelijk met Wilhelmina Middelbeek een deel van zijn kapitaal afstaat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763">1763 Mei</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395793" type="ABS">37</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc80b0bb-fdba-494d-a0a2-9bdafe6accc3</unitid>
+							<unittitle>Stukken aangaande den boedel van hem en zijn eerste vrouw Wilhelmina Middelbeek.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763/1772">1763-1772</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395723" type="ABS">37BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed3312a6-10a9-4587-9d91-3b606ca72e4a</unitid>
+							<unittitle>Kwitantie afgegeven door de zusters van Wilhelmina Middelbeek.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1791">1791</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395794" type="ABS">38</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e13517f-bc0a-4eb7-a144-68c2bb59fa37</unitid>
+							<unittitle>Stukken betreffende den boedel van Wilhelmina Middelbeek en mr. J. Thierry de Bye, haar eersten echtgenoot.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1756/1796">1756-1796</unitdate>
+							<physdesc>7 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395724" type="ABS">38A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8790bdc-2582-4171-8b73-63113820a00f</unitid>
+							<unittitle>Stukken betreffende de administratie van gelden van Elardus Magnus de Roth te Batavia, gevoerd door Mr. Marcellus Emants en later door diens zonen Johan en Gerard.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1780/1794">1780-1794</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395725" type="ABS">38B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c28c071-28cf-4f9c-bafe-9b3c02890a43</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Isaac Johan en Louis Guillaume Sweerts de Landas,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1788/1804">1788-1804</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1773/1774">1773-1774</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Johan E. was één der executeuren.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395795" type="ABS">39</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f65cd3cb-83ce-46d6-8c99-18037672215a</unitid>
+							<unittitle>Afgeloste schuldbrieven.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1778/1796">1778-1796</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395796" type="ABS">40</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/589e6056-9106-4e4d-8f1b-8efe5eef81cd</unitid>
+							<unittitle>Papieren betreffende zijne huwelijksverbintenissen en het overlijden van zijne ouders en echtgenooten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763/1804">1763-1804</unitdate>
+							<physdesc>12 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395797" type="ABS">41</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/87f16170-3e58-4f81-8187-b2bef1781665</unitid>
+							<unittitle>Doodsacte van mr. Johan Emants en fragment uit de acte van scheiding van zijn boedel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395726" type="ABS">41BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/453dcb23-e0f8-4fd1-aef8-4a34c93c817e</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Mr. Johan Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1807">1807</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">IX.</unitid>
+						<unittitle>Guilliam Balthasar Emants (1737-1805).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan de Utrechtsche Hoogeschool en bekleedde de ambten van advocaat, pensionaris van den Briel 1768, van Dordrecht 1770, van Delft 1772, en van secretaris van de Staten van Holland en West Friesland. (1791-1795).</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395798" type="ABS">42</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c479b38d-4488-477b-bbb3-ecd4282e065e</unitid>
+							<unittitle>Stellingen, waarop hij promoveerde in de rechten aan de Utrechtsche universiteit.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1756">1756 December 2</unitdate>
+							<physdesc>4 exemplaren</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395729" type="ABS">42BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a675ad77-9f21-4a62-8de2-34fbfa7c1151</unitid>
+							<unittitle>Oratie door hem gehouden,</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<unittitle>en bul, hem uitgereikt na zijn promotie,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1756">1756 December 2</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395727" type="ABS">42A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/403cebbc-e986-4ab3-9d5c-00e95e1d518d</unitid>
+							<unittitle>Acten van admissie tot advocaat bij het Hof van Holland bij de Hoge Raad en bij de Raad van Brabant,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1756/1763">1756-1763</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395728" type="ABS">42B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddcdc948-7479-469e-9c59-1cd0d0e20772</unitid>
+							<unittitle>Stukken betreffende de aanstelling tot 2e Essayeur-generaal van de Munt,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760/1763">1760-1763</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395730" type="ABS">42C</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e989f88-2c7f-4d4c-952a-e7b37e80eca1</unitid>
+							<unittitle>Stukken betreffende de aanstelling tot en het ontslag als pensionaris van Brielle,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1768/1770">1768-1770</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395731" type="ABS">42D</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0de4ba87-f2f2-4719-b50d-c0be837cd89b</unitid>
+							<unittitle>Stukken betreffende de aanstelling tot en het ontslag als 2e pensionaris van Dordrecht,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1770/1772">1770-1772</unitdate>
+							<physdesc>1 doss</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395732" type="ABS">42E</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e04dd931-5464-49a5-bf27-8abbda620756</unitid>
+							<unittitle>Stukken betreffende de aanstelling tot en het ontslag als pensionaris van Delft,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1772/1791">1772-1791</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395733" type="ABS">42F</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7b7ecbe-3061-49a4-9558-22ae6fbe7f87</unitid>
+							<unittitle>Stukken betreffende de aanstelling tot en het ontslag als tweede secretaris van de Staten van Holland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1791/1795">1791-1795</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Eén bijbehorend charter wordt bewaard in de charterdoos.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395734" type="ABS">42G</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/69bea1d5-8541-44e8-9813-c23e0c687500</unitid>
+							<unittitle>Brief van het Gedeputeerd Bestuur van Holland betreffende de benoeming tot lid van het Departementaal Bestuur van Holland. Met bijlage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1805">1805 juli 23</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395799" type="ABS">43</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2ca81f2-c42b-4b45-8f86-17235d7de593</unitid>
+							<unittitle>Aanspraak van den rector der Latijnsche school te Delft, waarvan hij curator was, ter gelegenheid van de promotie van</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1773">1773</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395800" type="ABS">44</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6aa4bea6-fc65-4955-9401-b424c07ba66d</unitid>
+							<unittitle>Particuliere brieven van zijne ouders, broeders en zusters.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1769/1772">1769 Augustus 30-1772 November 21</unitdate>
+							<physdesc>80 stukken</physdesc>
+						</did>
+						<odd>
+							<p>De brieven zijn vroeger geliasseerd geweest.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395801" type="ABS">45</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/05d327e3-651a-4034-a701-0ca54fef102a</unitid>
+							<unittitle>Acte, waarbij hij als voogd over de minderjarige kinderen van vrouwe Apolonia Jacoba van Staveren verklaart zich niet aansprakelijk te stellen voor den boedel van wijlen genoemde vrouwe. Minuut.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1781">1781 December 10</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395802" type="ABS">46</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/06961c97-8c45-4eae-8d65-fd903e1548ea</unitid>
+							<unittitle>Pamfletten, couranten en brieven, verschenen tijdens de politieke woelingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1783/1791">1783-1791</unitdate>
+							<physdesc>22 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395803" type="ABS">47</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab02f2c2-7ee3-4c39-b1ef-ec134801e116</unitid>
+							<unittitle>Nieuwjaarswensch van zijn neef B. Molenwater, gedichten van zijn zoon Marcellus ter gelegenheid van den verjaardag zijner ouders en gedicht ter nagedachtenis van zijn broeder G. Emants.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1772/1804">1772, 1796 en 1804</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395804" type="ABS">48</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d166c0b9-0c11-43e6-8d3a-032bfa1ee2d0</unitid>
+							<unittitle>Stukken betreffende huwelijken, geboorten en sterfgevallen in de familie van Emants en zijne beide echtgenooten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763/1805">1763-1805</unitdate>
+							<physdesc>37 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395735" type="ABS">48A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c49a8c19-80ca-4d63-acc7-457a8c6307ba</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Mr. Guilliam Balthasar Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1805/1809">1805-1809</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1795/1804">1795-1804</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">X.</unitid>
+						<unittitle>Gerard Emants (1744-1804).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan de universiteit te Harderwijk, bekleedde de ambten van klerk en Eersten klerk bij de Staten-Generaal, advocaat aan het Hof van Holland, Tweeden essayeur-generaal der munten der Vereenigde Nederlanden.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395805" type="ABS">49</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e2871505-7076-4db3-a0b8-1426362ab7cf</unitid>
+							<unittitle>Acte van aanstelling tot rentmeester van de goederen van het gasthuis te 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1771">1771 December 9</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395806" type="ABS">50</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbc22627-e7fa-476f-af9b-edcc1a5e6523</unitid>
+							<unittitle>Stellingen, waarop hij promoveerde in de rechten aan de Universiteit te Harderwijk, en bul, hem uitgereikt na zijne promotie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1773">1773 Augustus 21</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Van de stellingen zijn vier exemplaren aanwezig.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395807" type="ABS">51</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9928705-f7ce-4c21-8adc-c3238a80d22e</unitid>
+							<unittitle>Aanstelling tot klerk en Eersten klerk bij de Staten-Generaal, tot advocaat bij het Hof van Holland, tot Tweeden essayeur-generaal der munten der Vereenigde Nederlanden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1765/1783">1765-1783</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395808" type="ABS">52</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc142cdb-6a4b-4663-ae06-bf895906fdd6</unitid>
+							<unittitle>Kennisgeving van het overlijden van (zijn oom?) den heer J. A. Sweerts de Landas.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1765">1765 October 28</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395736" type="ABS">52A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/af507f77-0346-4d3f-b16f-d5d80c750b16</unitid>
+							<unittitle>Stukken betreffende de verkoop van de brouwerij "De Roode Leeuw" te 's-Gravenhage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1769/1770">1769-1770</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Gerard Emants was belast met de verkoop: zie ook nrs. 15B en 26F.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395737" type="ABS">52B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/557cc592-cd3e-4f0c-a23e-30c9684e3310</unitid>
+							<unittitle>Stukken betreffende de verkoop van land onder Wateringen in opdracht van de exec. test. van de nalatenschap van Petronella van der Burch, wed. Mr. Johan Diderick van Slingelandt,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1790">1790</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395738" type="ABS">52C</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5156e01e-12c8-4e03-a7d7-d1bc9048a86c</unitid>
+							<unittitle>Afrekening met Jacob Nanning Baron du Tour en Romelia Adriana de Kempenaer te Leeuwarden wegens verkoop van obligaties. Met bijlagen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1790">1790</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395739" type="ABS">52D</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/827cc71c-62a2-4bfd-a991-14caf28dc233</unitid>
+							<unittitle>Afrekening met de commies van burgemeesterskamer van 's-Gravenhage wegens de administratie over de goederen van het Sacrementsgasthuis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1773">1773</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395740" type="ABS">52E</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce672e14-05f9-489c-85e9-6ce30e18fa46</unitid>
+							<unittitle>Afrekening met Johan Hendrik Swalmius te Brielle wegens verkoop van een rentebrief, met bijlage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1768/1770">1768, 1770</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395809" type="ABS">53</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/061724bf-b80f-4cae-8a7a-ac5a6c9e0513</unitid>
+							<unittitle>Diploma van aanneming van G. Emants in de Loge de St. Jean l'Indissoluble.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1775">1775 November 15</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395810" type="ABS">54</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f4f81e65-0b76-43b7-889c-823123752c6b</unitid>
+							<unittitle>Beschrijving van reizen langs de Vecht en naar Gelderland, gemaakt door de heeren G. Emants en H. A. van Steenis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1776/1781">1776-1781</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395811" type="ABS">55</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec2d1a71-f96e-4588-bec9-0d9f6243f789</unitid>
+							<unittitle>Brief van zijne grootmoeder voor zijn verjaardag.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395741" type="ABS">55A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8c58409-7a5d-447c-9e91-00fa0867968e</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Mr. Gerard Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1804/1833">1804-1833</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1798/1803">1798-1803</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XI.</unitid>
+						<unittitle>Marcelles Emants (1778-1854).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan de Utrechtsche hoogeschool, bekleedde de functie van lid van den Raad van 's-Gravenhage (1813-1816), secretaris van 's-Gravenhage (1816-1851), rentmeester van het Burgerweeshuis en de fundatie van Renswoude, plaatsvervangend vrederechter. Hij was Ridder in de orde van den Nederlandschen Leeuw. Door aankoop was hij heer van Noord-Nieuwland.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395812" type="ABS">56</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a22a9e80-3866-43bf-bef5-fc3c571d45d9</unitid>
+							<unittitle>Stukken betreffende zijne studiën aan het gymnasium te Delft en aan de universiteiten van Leiden en Utrecht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1789/1802">1789-1802</unitdate>
+							<physdesc>9 stukken</physdesc>
+						</did>
+						<odd>
+							<p>De bul van de Utrechtsche universiteit, waarbij hij bevorderd werd tot doctor, bevindt zich bij de stukken betreffende zijne juridische loopbaan.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395743" type="ABS">56BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ca887cd-a42e-4f35-bd0a-791281cf278a</unitid>
+							<unittitle>Stukken betreffende zijn studieën aan de gymnasia te Delft en 's-Gravenhage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1790/1798">1790-1796 (1798)</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395742" type="ABS">56A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d13b6ff4-24db-46eb-a525-d81e15d8ed6d</unitid>
+							<unittitle>Stukken betreffende het lidmaatschap van "het Collegie onder de Zinspreuk Oculus in Metam",</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1796/1797">1796-1797</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395813" type="ABS">57</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd8a5afe-e393-4093-959f-51a56b11e5b6</unitid>
+							<unittitle>Register, waarin hij heeft aangeteekend de door hem ontvangen stukken in zijne achtereenvolgens bekleede functies.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1802/1846">1802-1846</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<odd>
+							<p>Dit register is onvolledig.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395814" type="ABS">58</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8009c2a-252c-458e-a565-a66df9b61ac9</unitid>
+							<unittitle>Binnenlandsche Bataafsche Courant, bevattende het bericht, dat hij behoort tot de nominatie van personen, waaruit een secretaris van het schepencollege te 's-Gravenhage gekozen zal worden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1802">1802 November 11</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395815" type="ABS">59</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f7d9e10-6371-41eb-9506-75b4f996331b</unitid>
+							<unittitle>Mededeeling, dat hij als kiezer op het nationaal stemregister is ingeschreven.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1813">1813 Maart 15</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395816" type="ABS">60</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb2fed00-fd7f-4d5a-9df1-1064bb304a21</unitid>
+							<unittitle>Stukken, door hem ontvangen als zetter of reparateur der directe belastingen te 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1812/1813">1812-1813</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395817" type="ABS">61</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f3c3648-73e0-4f72-8631-69badc8ea838</unitid>
+							<unittitle>Papieren betreffende zijne indeeling bij de schutterij der stad 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1814">1814 Maart 3-7</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395818" type="ABS">62</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/362d0407-9009-4d94-a2b0-475ea0c1147d</unitid>
+							<unittitle>Stukken betreffende zijne functie als lid van den Raad en provisioneelen Raad van 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1813/1816">1813 December 30-1816 Januari 14</unitdate>
+							<physdesc>8 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395819" type="ABS">63</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/141e2ef1-6d92-480e-a2e7-65053ba14e72</unitid>
+							<unittitle>Aanstellingen en andere papieren betreffende zijne juridische loopbaan.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1802/1816">1802-1816</unitdate>
+							<physdesc>12 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395820" type="ABS">64</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/225676c3-0b89-44ec-a65b-f36f44582f3c</unitid>
+							<unittitle>Proces-verbaal van non-conciliatie in zake van Adrianus van de Watering contra A. G. Verster voor de arrondissementsrechtbank te 's-Gravenhage. Afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1815">1815 Maart 28</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395821" type="ABS">65</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3df4c4c-daa2-4a11-8810-94e23d539ce6</unitid>
+							<unittitle>Stukken betreffende zijne benoeming tot ridder in de orde van den Nederlandschen Leeuw.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1846">1846</unitdate>
+							<physdesc>7 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395822" type="ABS">66</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/24ec1ce6-f25a-4ae1-88e1-1c63b83cf216</unitid>
+							<unittitle>Stukken betreffende zijne functie van president-regent van het Burger-Gasthuis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1822/1847">1822-1847</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395823" type="ABS">67</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd1dde94-83bf-45a5-bfbd-7d6d066ee61f</unitid>
+							<unittitle>Stukken betreffende zijn lidmaatschap van de commissie tot aanmoediging van den gewapenden dienst.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1815/1848">1815-1848</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395824" type="ABS">68</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cd886a66-6ea5-42e5-9b03-d827e5a934b6</unitid>
+							<unittitle>Stukken betreffende zijne functiën van notabel en kerkvoogd.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1820/1848">1820-1848</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395825" type="ABS">69</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/717f7444-ed60-4a09-9bdb-02f15c87e836</unitid>
+							<unittitle>Papieren betreffende zijne candidaatstelling als lid van de Eerste Kamer der Staten Generaal.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1848">1848 November</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395826" type="ABS">70</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/936743f5-42b9-40d8-962f-8f860b9fac58</unitid>
+							<unittitle>Ingekomen- en enkele minuten van uitgaande stukken betreffende zijne functie van secretaris der stad 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1816/1851">1816 Januari 11-1851 Februari 7</unitdate>
+							<physdesc>24 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395827" type="ABS">71</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/eaebac9d-332a-4332-8c00-91b3e2fadeed</unitid>
+							<unittitle>Stukken betreffende zijne functie van rentmeester van het Burgerweeshuis en de Fundatie der vrouwe van Renswoude te 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1803/1853">1803-1853</unitdate>
+							<physdesc>10 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395746" type="ABS">71BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee33701c-3772-4800-8dde-732667fe69ab</unitid>
+							<unittitle>Stukken betreffende zijn functie van rentmeester van het Burgerweeshuis en de Fundatie der vrouwe van Renswoude te 's-Gravenhage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1853">1853 en z.d.</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395828" type="ABS">72</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4e470b5-0d95-4a48-be15-32a8bc4a92bd</unitid>
+							<unittitle>Stukken betreffende zijne reis naar Duitschland, een relaas van zijne arrestatie, ten gevolge van eene beschuldiging van samenspanning met den Erfprins te Lingen en eenige couranten, waarin zijne arrestatie en vrijlating wordt gemeld.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1799">1799 Mei 8-December 3</unitdate>
+							<physdesc>10 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395829" type="ABS">73</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa4e37a4-6065-4212-aa51-b6087ed13538</unitid>
+							<unittitle>Geloofsbelijdenis en andere geschriften van zijne hand.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1795/1801">1795-1801</unitdate>
+							<physdesc>20 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395830" type="ABS">74</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7ac5193-dd3c-4cd2-a6f5-5da3ed0092c0</unitid>
+							<unittitle>Journalen van eenige reizen, door hem gemaakt in de jaren</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1793/1816">1793, 1799, 1801, 1807 en 1816</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395747" type="ABS">74A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ae7c74b-051d-4efb-be2f-40730a6a751d</unitid>
+							<unittitle>Beschrijving van reizen naar de Rijn en Zwitserland in </unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1835">1835</unitdate>
+							<unittitle>naar Parijs en Frankrijk in</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1819/1842">1819 en 1842</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395831" type="ABS">75</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/34987b1d-80c0-4b8b-a495-adb1bd338cf4</unitid>
+							<unittitle>Stuk, waarin hij met mede-aandeelhouders in eene obligatieleening van Veere twee personen aanstelt tot het realiseeren van genoemde obligaties.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1802">1802 Juni 30</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395832" type="ABS">76</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2190dc55-0a7d-4210-ad37-f57cc5c157b1</unitid>
+							<unittitle>Papieren betreffende zijne huwelijken en de zilveren bruiloft met zijne laatste echtgenoote.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1801/1841">1801-1841</unitdate>
+							<physdesc>52 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395750" type="ABS">76BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf3afb85-2b0d-410b-ab83-fff94fc72988</unitid>
+							<unittitle>Acte van huwelijksvoorwaarden tussen Marcellus E. en Henrietta Rickers. Grosse.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1806">1806</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395748" type="ABS">76A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/53015be5-b9d5-45cb-98b4-0ad920ba0c09</unitid>
+							<unittitle>Schetsboek van Henrietta Rickers,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1792">1792</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395749" type="ABS">76B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c5f8eef-30a2-46b6-a960-cd6d46ceb5a9</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Johanna Francina Drijfhout,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1806/1811">1806-1811</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1801">1801</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395833" type="ABS">77</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/72e952e0-a5dd-436d-9850-4a3964fa55a0</unitid>
+							<unittitle>Papieren betreffende de geboorten van zijne kinderen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1809/1824">1809-1824</unitdate>
+							<physdesc>18 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395751" type="ABS">77A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/756c4eb4-b518-472b-830c-5279580b274e</unitid>
+							<unittitle>Stukken betreffende de vereffening van de boedel van Joanna Maria Patijn.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1809">1809 en z.d.</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395752" type="ABS">77B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/13ddf5be-541e-4f44-8b5b-1a5aa06b7325</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Anna Cornelia de Normandie, wed. Samuel van den Oever,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1789/1811">1789-1811</unitdate>
+							<unittitle>Met retroacta,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1783/1788">1783-1788</unitdate>
+							<physdesc>1 dossier</physdesc>
+						</did>
+						<odd>
+							<p>Gerard E. was exec. test., na zijn dood voortgezet door Mr. Marcellus E.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395834" type="ABS">78</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/20dd2480-83a7-467d-a5d9-76c8eaa546db</unitid>
+							<unittitle>Vonnis van de rechtbank van eersten aanleg te Amsterdam met het exploit van beteekening aan H. I. van der Feen en haar echtgenoot Marcellus Emants over de nalatenschap van wijlen haar vader Barthout van der Feen, predikant te Amsterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1824">1824</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395835" type="ABS">79</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/24b4bbc0-fce3-4c2a-8fd8-f0f00cd4e56a</unitid>
+							<unittitle>Eigendomsbewijzen van een grafkelder op de gemeentelijke begraafplaats van 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1829/1830">1829-1830</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395836" type="ABS">80</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c30e7ac-a518-4e74-a440-ff2d0708d211</unitid>
+							<unittitle>Twee fragmenten uiteen kasboek en quitanties.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1793/1843">1793-1843</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395837" type="ABS">81</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bacd593-ac86-4143-9796-5e52c1249bca</unitid>
+							<unittitle>Particuliere brieven van zijne ouders, broeders en zusters en zijn zoon Hendrik Marcellus e.a.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1801/1846">1801 Juni 30-1846 Mei 8</unitdate>
+							<physdesc>34 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395753" type="ABS">81A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a975aba-87af-4d38-8854-58bcbc3d7396</unitid>
+							<unittitle>Eigendomsbewijzen en andere stukken betreffende een boerderij (sedert 18.. gen."Bouwlust". Aangek. door Mr. Marcellus E. in 1833) en land in de Hooffpolder onder de Lier,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1433/1871">1433-1871</unitdate>
+							<physdesc>1 pak en 39 charters</physdesc>
+						</did>
+						<odd>
+							<p>de charters bevinden zich in de Charterdoos.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395754" type="ABS">81B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0731a962-38df-4b12-9405-95f10a1818b3</unitid>
+							<unittitle>Stukken betreffende aan- en verkoop van het huis Noordeinde F 152,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1811/1817">1811-1817</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395755" type="ABS">81C</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f9d5fac-0cc8-4769-8a37-99446c1e5d29</unitid>
+							<unittitle>Bewijzen van eigendom van land bij "Kloosterschuur" onder Rijnsburg,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1808/1813">1808-1813</unitdate>
+							<physdesc>4 charters</physdesc>
+						</did>
+						<odd>
+							<p>De uithangende zegels ontbreken.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395838" type="ABS">82</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/301ad1f1-e8c0-4960-8370-c6d31f8dd9f7</unitid>
+							<unittitle>Quitanties wegens uitgaven ten behoeve van de heerlijkheid Noord-Nieuwland bij Maassluis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1839/1847">1839 Mei 30-1847 December 18</unitdate>
+							<physdesc>76 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395839" type="ABS">83</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a921a761-1094-4947-bbb7-f7f9d0928cf6</unitid>
+							<unittitle>Brochures van de hand van zijn zoon mr. G. B. Emants, betreffende juridische vraagstukken en een levensbericht van diens schoonvader mr. G. W. Verweij Mejan. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1840/1850">1840-1850</unitdate>
+							<physdesc>5 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395840" type="ABS">84</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5bc970e4-3b46-4d1a-918c-49797e206942</unitid>
+							<unittitle>Aanteekeningen van allerlei, meest historischen aard.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395841" type="ABS">85</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cfea704d-34a4-486f-b586-f7fdc9eb8004</unitid>
+							<unittitle>Verschillende papieren van particulieren aard van hem zelf en zijne familieleden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1794/1848">1794-1848</unitdate>
+							<physdesc>15 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395756" type="ABS">85BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/43fd257b-2214-4b06-9642-c283e5bf4616</unitid>
+							<unittitle>Brief van neef G.v.d. Feen,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1850">1850</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395842" type="ABS">86</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c57543f1-8423-4abd-b0a7-458cf7580e2f</unitid>
+							<unittitle>Stukken betreffende sterfgevallen in zijn gezin en familie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1806/1858">1806-1858</unitdate>
+							<physdesc>36 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Hierbij stukken betreffende zijn eigen dood, ontvangen door zijne weduwe H. I. van der Feen, waarbij een eigenhandige brief van Prins Frederik.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395843" type="ABS">87</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e3f9d36-a9d1-4f06-9643-b5f889331052</unitid>
+							<unittitle>Acten van scheiding zijner nalatenschap. Afschriften.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1855/1865">1855-1865</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XII.</unitid>
+						<unittitle>Jacoba Maria Emants (1779-1820).</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395844" type="ABS">88</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b4117d4-8cf6-4614-86a4-b906eb69e286</unitid>
+							<unittitle>Gedicht, door den vader van haar bruidegom, ter gelegenheid van haar huwelijk met Matthias Jorissen vervaardigd.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1805">1805 Maart 10</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XIII.</unitid>
+						<unittitle>Guillelmina Magdalena Christina Emants (1809-1861).</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395845" type="ABS">89</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/331c0631-ede1-4354-b3bb-9cd623974b78</unitid>
+							<unittitle>Brief van haar neef Barthout van der Feen, aankondigende den dood van hare zuster Henriette.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1843">1843 Juli 6</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395846" type="ABS">90</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bbdedb3f-e87a-4f9c-9ce5-e18d2faced35</unitid>
+							<unittitle>Huwelijks-, geboorte- en overlijdensberichten van familieleden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1831/1857">1831-1857</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XIV.</unitid>
+						<unittitle>Hendrik Marcellus Emants (1810-1836).</unittitle>
+					</did>
+					<odd>
+						<p>Hij studeerde aan de Universiteit te Leiden, nam als lid van het corps der vrijwillige jagers deel aan den veldtocht tegen België.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395847" type="ABS">91</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9e49769-d521-493a-a2b7-116386018148</unitid>
+							<unittitle>Papieren betreffende zijne studiën aan de Leidsche Hoogeschool.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1830/1832">1830-1832</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395848" type="ABS">92</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c89d76fb-2dcc-4ecc-95ef-0e268fdedf37</unitid>
+							<unittitle>Stukken betreffende het uittrekken en de terugkeer van de vrijwillige jagers der Leidsche Hoogeschool ter gelegenheid van den veldtocht naar België. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1830/1835">1830-1835</unitdate>
+							<physdesc>18 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395849" type="ABS">93</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b2303ba4-ecb3-4242-a544-b1003fd6a504</unitid>
+							<unittitle>Oproeping aan H. M. Emants, als 2de Luitenant bij het 9de bataljon reserve-schutterij, om den eed af te leggen in handen van den majoor-commandant.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1833">1833 Juni 6</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395850" type="ABS">94</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/011d5950-06c2-4abe-ac8e-2a0bd9bff1fd</unitid>
+							<unittitle>Stukken betreffende zijne deelnemen aan den tiendaagschen veldtocht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1837/1840">1837-1840</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Deze stukken zijn hem eerst na zijn dood toegezonden en kunnen dus ook tot het archief van een ander familielid behooren.</p>
+						</odd>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XV.</unitid>
+						<unittitle>Antonia Charlotte Emants.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395851" type="ABS">95</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/43b1f5ac-863e-439b-824c-0bf22c80275e</unitid>
+							<unittitle>Dagblad van 's-Gravenhage, bevattende de aankondiging van de geboorte van haar zoon uit haar huwelijk met Samuel Crommelin.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1848">1848. April 28</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XVI.</unitid>
+						<unittitle>Guilliam Balthasar Emants (1818-1870).</unittitle>
+					</did>
+					<odd>
+						<p>Hij promoveerde in de rechten aan. de Leidsche Universiteit, bekleedde het ambt van kantonrechter te Voorburg en was lid van den gemeenteraad aldaar, werd rechter-plaatsvervanger en rechter in de arrondissementsrechtbank te 's-Gravenhage, hoofdingeland, hoogheemraad van Delfland, rentmeester van het Burgerweeshuis en der Fundatie van Renswoude te 's-Gravenhage, lid van de Provinciale Staten van Zuid-Holland.</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395852" type="ABS">96</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d41d18f-3972-4d1b-900f-6aa52bd34478</unitid>
+							<unittitle>Stukken bereffende zijne studiën aan het gymnasium te 's-Gravenhage en aan de Universiteit te Leiden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1832/1843">1832-1843</unitdate>
+							<physdesc>47 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395853" type="ABS">97</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0951d8d8-5e7d-457f-827b-f57579b478ea</unitid>
+							<unittitle>Papieren betreffende de waarneming van zijne militaire plichten bij de nationale militie en als luitenant bij den dienst doenden schutterij te 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1837/1843">1837-1843</unitdate>
+							<physdesc>11 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395854" type="ABS">98</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f37fd49-1bab-47d1-b949-0cbb55ad6aa9</unitid>
+							<unittitle>Extract uit de minuten van de griffie van den Hoogen Raad, bevattende de verklaring, dat hij den eed heeft afgelegd als advocaat aan dien Raad.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1813">1813 Januari 24</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395855" type="ABS">99</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/27ac6029-a2bf-4bfb-b27a-2b1ab5106212</unitid>
+							<unittitle>Stukken betreffende zijne loopbaan als kantonrechter te Voorburg, rechter plaatsvervanger aan de arrondissementsrechtbank te 's-Gravenhage en rechter in dezelfde rechtbank.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1845/1868">1845-1868</unitdate>
+							<physdesc>25 stukken</physdesc>
+						</did>
+						<odd>
+							<p>Hierbij eene lijst van de verschillende ambten, waartoe hij werd voorgedragen, buiten de reeds genoemde ambten.</p>
+						</odd>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395856" type="ABS">100</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/599cd874-7795-4a7f-8fa8-706d2a960379</unitid>
+							<unittitle>Brochures, door hem zelf geschreven over rechtskundige kwesties. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>18 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395857" type="ABS">101</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf319564-d37c-4c8b-bc8c-1c71a2e6493e</unitid>
+							<unittitle>Aanstelling tot hoofd van de nachtwacht in Voorburg en brieven, in deze functie verzonden en ontvangen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1845/1846">1845 November-1846 Februari 16</unitdate>
+							<physdesc>8 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395858" type="ABS">102</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6ad0894b-286e-410c-ba5c-466e9163d38d</unitid>
+							<unittitle>Oproeping tot bijwoning der vergadering te Voorburg tot het openen der stembilletten, ingekomen ter benoeming van een lid der Staten van Zuid-Holland. Minuut.</unittitle>
+							<unitdate calendar="gregorian" era="ce">1849</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395859" type="ABS">103</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d4c894e-602c-4df7-b9e8-8965eb6c1531</unitid>
+							<unittitle>Stukken betreffende zijne verkiezing tot lid van den gemeenteraad van Voorburg.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1851">1851</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395860" type="ABS">104</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c644843a-f929-4e6d-83b7-368e7c1f20c8</unitid>
+							<unittitle>Aanstelling tot rentmeester van het Burgerweeshuis en eenige in die functie ontvangen particuliere brieven.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1853/1859">1853-1859</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395861" type="ABS">105</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6acbad5d-bd1e-4ff3-a7b7-3c141c0d20a8</unitid>
+							<unittitle>Benoeming tot hoofdingeland plaatsvervanger en hoogheemraad van Delfland. Met bijlagen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1853/1854">1853 Augustus 8-1854 Januari 26</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395683" type="ABS">105A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03e21db9-2ec6-4c15-a0f4-45583d4ecd19</unitid>
+							<unittitle>Brief van de tekenaar F.J. Guijking met aangeboden tekening,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1857">1857</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395684" type="ABS">105B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f1681f53-97ba-4b4d-9869-09a598b6ff7a</unitid>
+							<unittitle>Brief van het bestuur van de Vereniging tot beoefening van de geschiedenis van 's-Gravenhage,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1858">1858</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395862" type="ABS">106</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f65c18d2-3335-4b1d-8e9d-7b38c83595bb</unitid>
+							<unittitle>Afscheidsgroet bij het verlaten van zijne betrekking als secretaris der Hollandsche Maatschappij van Landbouw, afdeeling 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1863">1863 Augustus 27</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395863" type="ABS">107</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d78cbf9f-b5b3-48e4-a1b6-c6daa302eef3</unitid>
+							<unittitle>Bewijs van lidmaatschap van de Maatschappij van Nederlandsche Letterkunde te Leiden, uitgereikt</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1863">1863 Augustus 28</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395864" type="ABS">108</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e358c6eb-589a-479a-a5e5-fa44303eab67</unitid>
+							<unittitle>Stukken betreffende het bestuur der vereeniging tot voortdurende ondersteuning der nagelaten betrekkingen van verongelukte Scheveningsche visschers.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1863/1864">1863-1864</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395865" type="ABS">109</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4389af99-e93d-4b9f-b4db-1bdd0c2e13ea</unitid>
+							<unittitle>Benoeming tot schoolopziener in het eerste schooldistrict van Zuid-Holland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1865">1865 Juni 17</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395866" type="ABS">110</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4daf2a6-48e6-40fc-a1b6-c04cb44ac73c</unitid>
+							<unittitle>Papieren betreffende zijne candidaatstelling voor het lidmaatschap van de Tweede Kamer der Staten-Generaal.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1866">1866 October</unitdate>
+							<physdesc>4 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395867" type="ABS">111</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f537b6ea-85f6-4043-82a3-0baf8c35100b</unitid>
+							<unittitle>Brieven betreffende zijne benoeming tot notabel en lid van het college van kerkvoogden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1866/1867">1866 December 12-1867 December 19</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395868" type="ABS">112</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e299a395-d347-4b33-9eb4-8d316a019ade</unitid>
+							<unittitle>Kennisgeving van zijne aanstelling tot lid van het bestuur der afdeeling 's-Gravenhage van de Maatschappij tot beoefening der Toonkunst.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1867">1867 November 22</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395869" type="ABS">113</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7fff21e0-45b1-413f-9259-cc33bd040b43</unitid>
+							<unittitle>Geleidebrief van het proces verbaal van de opneming der stembriefjes voor de verkiezing van leden van de Provinciale Staten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1860">1860 Mei 13</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395870" type="ABS">114</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3c6cb34-2830-4571-949a-7496d42bfa33</unitid>
+							<unittitle>Benoeming tot "afgevaardigde uit het bestuur in den raad van administratie", van de Maatschappij tot Nut van het Algemeen, afdeeling 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1869">1869 Austustus 16</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395871" type="ABS">115</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/39f21b6d-7e6d-4f04-8b78-8c7f23977840</unitid>
+							<unittitle>Beschrijving van door hem gemaakte reisjes.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1822/1844">1822-1844</unitdate>
+							<physdesc>9 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395872" type="ABS">116</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1e0dfd09-59c9-4d72-907e-64f8385ab4c8</unitid>
+							<unittitle>Brieven van den minister van Binnenlandsche Zaken en den Algemeenen Rijksarchivaris, naar aanleiding van zijn aanbod om de papieren van wijlen zijn vader, Marcellus Emants, aan het Algemeen Rijksarchief af te staan.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1855">1855 Maart 24-April 13</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395873" type="ABS">117</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c816b9ca-910a-47eb-9a53-5a8e9c138f8c</unitid>
+							<unittitle>Dankbetuiging vanwege de "Vereeniging tot beoefening der geschiedenis van de stad 's-Gravenhage", voor eene geschied, kundige beschrijving van het Burgerweeshuis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1855">1855</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395685" type="ABS">117A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d742418-d19f-4561-b21e-976bbf42525d</unitid>
+							<unittitle>Aantekeningen van algemeen-wetenschappelijke aard, alfabetisch gerangschikt, door Guilliam B. Emants, Marcellus Emants en Guilliam B. Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760/1860">c.1760-c.1860</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395686" type="ABS">117B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/72c3328a-b4d9-4ba1-83b9-c4fb73d63cec</unitid>
+							<unittitle>Aantekeningen van historische aard, vrnl. in verband met vragen en antwoorden in het tijdschrift "de Navorscher".</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1860">c. 1860</unitdate>
+							<physdesc>1 bundel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395687" type="ABS">117C</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/afd6c1e4-1bc4-4535-86a1-ec1558c4098d</unitid>
+							<unittitle>"Afteekeningen van zegels van schepenen van den Haag en aanteekeningen uit de schepensacten liggende op de Arrondissementsregtbank", alsmede aantekeningen uit schepenacten op het Rijksarchief,</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 pak</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395874" type="ABS">118</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7c591a54-eea1-457a-a1dd-f04da200540e</unitid>
+							<unittitle>Gedichten ter gelegenheid van de verjaardagen van hem en zijne echtgenoote.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1850/1860">1850-1860</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395875" type="ABS">119</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/275bbfa7-b15b-44cd-95ac-e7a3b6e99a9d</unitid>
+							<unittitle>Silhouet van zijne echtgenoote mevrouw A. E. P. Emants-Verweij Mejan.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395876" type="ABS">120</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f0d7669-c785-4fdd-9470-ade901b7b634</unitid>
+							<unittitle>Muziekstukken, opgedragen aan mejuffrouw A. E. P. Verwey Mejan.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395877" type="ABS">121</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0f82fda-e46c-4a74-9abf-501db8b57f28</unitid>
+							<unittitle>Kennisgevingen van geboorten, sterfgevallen en huwelijken in zijne familie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1846/1866">1846-1866</unitdate>
+							<physdesc>37 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395692" type="ABS">121A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7705838f-4c34-4a13-bdd1-ad3a57d9098e</unitid>
+							<unittitle>Stukken betreffende de vereffening van de nalatenschap van Pierre Jean Landrij, bankier te 's-Gravenhage.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1866/1867">1866-1867</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395878" type="ABS">122</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fc38713-eb04-4f49-a472-1b32a462866f</unitid>
+							<unittitle>Aanslagbilletten in de directe belastingen voor mevrouw A.E.P. Emants-Verwey Mejan.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1867/1877">1867-1877</unitdate>
+							<physdesc>7 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395879" type="ABS">123</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac7b5b50-8fd8-4d55-a507-9137eded9978</unitid>
+							<unittitle>Stukken aangaande den boedel van mevrouw A.E.P. Verwey Mejan en haar echtgenoot G. B. Emants. Afschriften.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1846/1872">1846-1872</unitdate>
+							<physdesc>6 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395693" type="ABS">123BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c962106d-9d56-4992-8309-50b777d8419a</unitid>
+							<unittitle>"Akte van scheiding der gemeenschap van Vruchten en Inkomsten gedurende het huwelijk bestaand hebbende tussch nu wijlen Mr. G.B. Emants en Vrouwe A.E.P. Verwey Mejan alsmede der nalatenschap van eerstgenoemden". Authentiek afschrift. Verleden</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1872">26 Maart 1872</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395880" type="ABS">124</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/386f8663-a550-4434-b9a9-7618cdfcae59</unitid>
+							<unittitle>Onderhandsche acte, waarin mevrouw de weduwe Heyligers Verwey Mejan aan hare schoondochter Maria Paulina Greeve, weduwe van haar zoon Gerard Emants, het haar toekomende erfdeel van f 50999,06 uitkeert.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1893">1893 November 4</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395881" type="ABS">125</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7085fe27-83df-4087-9e46-34892872bcdb</unitid>
+							<unittitle>Stukken aangaande den boedel van hare ouders. Afschriften.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1853/1893">1853-1893</unitdate>
+							<physdesc>3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395694" type="ABS">125BIS1</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0be4172-1987-4d68-b2f3-5873cc767a45</unitid>
+							<unittitle>"Inventaris der Nalatenschap van Mr. G.W. Verwey Mejan", authentiek afschrift. Verleden</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1850">5 Sept.1850</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395695" type="ABS">125BIS2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3823046-7066-454b-95e1-42ac27aebda6</unitid>
+							<unittitle>"Akte van Scheiding van het erfdeel aan de kinderen van wijlen den heer Mr. G.W. Verwey Mejan, aangekomen uit de Nalatenschap van den Heer Mr. H. Verwey Mejan", authentiek afschrift. Verleden</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1832">6 Juli 1832</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395696" type="ABS">125BIS3</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a01b067-d71b-4d85-be70-a442e1b27fbe</unitid>
+							<unittitle>"Akte van scheiding des boedels van Mr.Gerardus Wouter Verwey Mejan", authentiek afschrift. Verleden</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1852">7 Juli 1852</unitdate>
+							<physdesc>1 band</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395882" type="ABS">126</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/13990415-2421-4539-832d-5b0d576e2ed2</unitid>
+							<unittitle>Stukken aangaande den boedel van mevrouw A. E. P. Verwey Mejan weduwe van den heer J. M. L. Heyligers. Afschriften.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1872/1908">1872 Mei 25-1908 Maart 16</unitdate>
+							<physdesc>10 stukken</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XVII.</unitid>
+						<unittitle>Marcellus Emants (1848-1923)</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395697" type="ABS">126A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b13186a6-3d29-4f67-a968-47fe0356876e</unitid>
+							<unittitle>Stukken betreffende zijn doop, de familieschilderijen en de genealogie-Emants,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1848/1912">1848-1850, 1912 en z.d.</unitdate>
+							<physdesc>1 deeltje en 3 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395698" type="ABS">126B</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cff480ec-9bd3-40cd-b8fd-e9175b26995e</unitid>
+							<unittitle>Financiële stukken, mede betrekking hebbend op zijn weduwe en dochter,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1868/1957">1868-1957</unitdate>
+							<physdesc>1 omslag</physdesc>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">C.</unitid>
+					<unittitle>Stukken, afkomstig van aanverwante personen.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">a.</unitid>
+						<unittitle>Bartholomeus Bosch.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395883" type="ABS">127</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a6989ae-1339-4dad-8784-a32246b88085</unitid>
+							<unittitle>Brief van Dirctie Bosch, te Gouda op kostschool, aan hare ouders, Bartholomeus Bosch en Geertruida Schoutens,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1651">1651 December 30</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+						<odd>
+							<p>Hare zuster Agatha was de eerste echtgenoote van Johan Berntsz. Emants (1648-1720).</p>
+						</odd>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">b.</unitid>
+						<unittitle>Marcelles Bruinstein.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395884" type="ABS">128</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/47c59b3c-60e9-4f5f-8c98-485c11835756</unitid>
+							<unittitle>Aanteekeningen betreffende belangrijke gebeurtenissen uit zijn particulier en openbaar leven.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1670/1703">1670-1703</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">c.</unitid>
+						<unittitle>Barthout van der Feen.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395885" type="ABS">129</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b34344f-cb7b-4121-b3ba-48d4d785a146</unitid>
+							<unittitle>Nieuwjaarswensch van C. de Kempenaar-Emants aan A. J. C. de Lille.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1772">1772</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395886" type="ABS">130</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/723bea25-9c9c-4c16-8e7b-fec9970a46c0</unitid>
+							<unittitle>Gedichten op de herstelling van eene ernstige ziekte van ds. Barthout van der Feen, predikant te Amsterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1783">1783 October 20</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395887" type="ABS">131</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e64b3647-9db1-421a-b507-3e6dd343387f</unitid>
+							<unittitle>Papieren betreffende den dood en de begrafenis van Barthout van der Feen, emeritus-predikant te Amsterdam en van zijne vrouw A. J. C. de Lille,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1815/1832">1815 en 1832</unitdate>
+							<physdesc>7 stukken</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">d.</unitid>
+						<unittitle>Gijsbertina Drijfhout.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395888" type="ABS">132</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d9bb012-25be-4cdf-8828-4a8f2e907dfc</unitid>
+							<unittitle>Gedichten ter gelegenheid van haar verjaardag en van de geboorte van zoon uit haar huwelijk met C.C. van Hoof,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1802">1802</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">e.</unitid>
+						<unittitle>Gerardus Wouter Verwey Mejan.</unittitle>
+					</did>
+					<odd>
+						<p>Gerardus Wouter Verwey Mejan huwde H. J. Reede van Oudshoorn. Zijne dochter Anna Elisabeth Petronella huwde G. B. Emants (1818-1870).</p>
+					</odd>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395889" type="ABS">133</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fcbdc36-c31c-44fa-93e7-7cb5798a52fb</unitid>
+							<unittitle>Stellingen, waarop hij promoveerde in de rechten aan de Universiteit te Leiden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1815">1815 Mei 29</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395890" type="ABS">134</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3f54d3a-44f0-40b1-bd95-9ba78ed30fb8</unitid>
+							<unittitle>Redevoering over Coenraad van Beuningen, gehouden in eene vergadering van het Nut van 't Algemeen in Felix Meritis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1823/1826">1823 en 1826</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395891" type="ABS">135</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3f2563c-8b84-40d2-bffb-6b08f7a85bca</unitid>
+							<unittitle>Aanteekeningen van godsdienstigen, politieken en anderen aard.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1835">(1835.)</unitdate>
+							<physdesc>1 deel</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395892" type="ABS">136</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c307fe3-8df6-4573-ad04-526c11790286</unitid>
+							<unittitle>Borderellen van hypothecaire inschrijvingen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1836">1836</unitdate>
+							<physdesc>10 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395893" type="ABS">137</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/262299d7-7ec9-441f-9582-bae8d0e0af4b</unitid>
+							<unittitle>Koopacte van een huis aan de eerste Wagenstraat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1836">1836 December 7</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395894" type="ABS">138</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2277fc35-2e0c-4ea8-bfef-71135a047674</unitid>
+							<unittitle>Brief van G. B. Emants, waarin hij om de hand verzoekt van zijne dochter Anna Elisabeth Petronella.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1844">1844 Maart 14</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395895" type="ABS">139</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/31e33436-1378-483c-9af6-6538e183e4c2</unitid>
+							<unittitle>Dissertatie, waarop hij promoveerde aan de Universiteit van Utrecht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1825">1825 Juni 17</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395896" type="ABS">140</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed1e02c0-9ece-450a-be09-927af4914a1e</unitid>
+							<unittitle>Brochure over de verplichting tot het verschaffen van onderhoud, aan behoeftige bloedverwanten, naar het Burgerlijk Wetboek, door G. B. Emants. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395897" type="ABS">141</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/833f25ef-4dc1-45b2-a0e3-31f7eec2f0fc</unitid>
+							<unittitle>Redevoering, gehouden in eene vergadering van Vrijmetselaars.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395898" type="ABS">142</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff463add-c833-4645-b36b-d34363d1c520</unitid>
+							<unittitle>Verslag over de viering van het St. Jansfeest en vijf en twintig jarig jubileum in l'Union Royale. Gedrukt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1846">13 Juni 1846</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395899" type="ABS">143</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/64fe7b8c-383d-4043-96a7-590ad1eed92b</unitid>
+							<unittitle>Crayon-portretten van G. W. Verwey Mejan.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>2 stukken</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395700" type="ABS">143BIS</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/78cae5c3-0083-4367-82e3-6e66f10de6e6</unitid>
+							<unittitle>Portret van G.W. Verwey Mejan, gelithografeerd door C.W. Mieling,</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">f.</unitid>
+						<unittitle>Willem Cornelis Verwey Mejan</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1395699" type="ABS">143A</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aea8c108-4138-4b45-8afc-8f3e5f63c0e0</unitid>
+							<unittitle>Stellingen, waarop hij aan de Universiteit te Groningen tot doctor in de rechten promoveerde,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1852">1852</unitdate>
+							<physdesc>1 deeltje</physdesc>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">D.</unitid>
+					<unittitle>Aanhangsel.</unittitle>
+				</did>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395900" type="ABS">144</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f45c9fe-fe37-4367-974c-30eb7025da42</unitid>
+						<unittitle>Een aflevering van Maandelijksche Uittreksels of Boekzaal der Geleerde Waerelt, 81ste deel.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1757">1757</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395901" type="ABS">145</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d7649df-cc1e-4340-82c0-dcd4d54a3a1e</unitid>
+						<unittitle>Journaal van eene reis naar Indië, door I. J. Sweerts de Landas.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1774">1774 September 21</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395902" type="ABS">146</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e385147f-94ef-40ac-a8e7-36a43f8482d8</unitid>
+						<unittitle>Dood extracten van H. M. de Normandie, echtgenoote van Frederik Willem Schröder en van mejuffrouw Josina Dubbels. Afschriften.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1811">1811</unitdate>
+						<physdesc>2 stukken</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395903" type="ABS">147</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/876b7458-17f5-4e64-bd4b-cbdaa13ce5c0</unitid>
+						<unittitle>Aanteekeningen over noodpenningen en munten.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395904" type="ABS">148</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/33fc3cab-a41a-41ec-981c-48c83f09bb9c</unitid>
+						<unittitle>Aanteekeningen van godsdienstigen, historischen en anderen aard.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 deel</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395905" type="ABS">149</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff06acf1-f056-4d42-9fd6-9db413f77420</unitid>
+						<unittitle>Verhandelingen over het Scheveningsche dialect.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>2 stukken</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395906" type="ABS">150</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1886da79-a3bd-440f-93af-260f90af105d</unitid>
+						<unittitle>"De Bruidskroon" of "De Droomverschijning", tooneelspel in 5 bedrijven.</unittitle>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395907" type="ABS">151</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f3fa297-f631-430d-a122-0697bab85b04</unitid>
+						<unittitle>Afscheidsrede van de Latijnsche school, gehouden voor rector, conrector en leeraren.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395908" type="ABS">152</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f478351d-20e8-47ef-9827-750fbeb47b4d</unitid>
+						<unittitle>Verdediging van stellingen voor de juridische faculteit.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395909" type="ABS">153</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/96dbffcb-c0c4-4763-8edd-2b120e8bfd7d</unitid>
+						<unittitle>Beschrijving van een ziekteproces.</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395702" type="ABS">153A</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/799751fa-b259-48d1-aeb4-689a458b2956</unitid>
+						<unittitle>Glazen met de namen en wapens van Johan Emants en Henderisken Winne (Wijnen) afkomstig uit de brouwerij genaamd de Halve Maan te Arnhem en daaruit in het begin der 19e eeuw meegenomen door Mr. M. Emants.</unittitle>
+						<unitdate calendar="gregorian" era="ce">[z.d.]</unitdate>
+						<physdesc>1 pakje</physdesc>
+					</did>
+					<odd>
+						<p>De glazen zijn gebroken, de stukken niet meer compleet. Bewaard in de charterdoos.</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395703" type="ABS">153B</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df121dd0-c776-4efc-b387-0d56bb2a2feb</unitid>
+						<unittitle>Transportakten verleden voor schout en schepenen van Rijswijk voorzien van het zegel van de schout Mr. Cornelis Emants,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1728/1731">1728 en 1731</unitdate>
+						<physdesc>2 charters</physdesc>
+					</did>
+					<odd>
+						<p>Bewaard in de charterdoos.</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395910" type="ABS">154</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e95f0f20-dda4-4e01-b7e8-441aa2c7eb18</unitid>
+						<unittitle>Handwerkje van Henriëtte Isabella Emants,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1838">1838</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<odd>
+						<p>Misschien bestemd voor haar broeder Guilliam Balthasar Emants.</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395911" type="ABS">155</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/15653afb-e69b-4e85-9b27-ba39146eebdb</unitid>
+						<unittitle>"Landhuishoudkunde" "Aanwinst van gronden in Nederland". Gedrukt,</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1850">c. 1850</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+					<odd>
+						<p>uit een almanak?</p>
+					</odd>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395912" type="ABS">156</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f3f1d59-0274-4840-bc1e-4faf14fb7883</unitid>
+						<unittitle>"Geslachtregister van de Familiën Dorhout en Looxma". Gedrukt.</unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1847">1847</unitdate>
+						<physdesc>2 stukken</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395913" type="ABS">157</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/52b63c11-457e-4e83-837d-c3862e42b719</unitid>
+						<unittitle>Doolhofvers,</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 stuk</physdesc>
+					</did>
+				</c02>
+				<c02 level="file">
+					<did>
+						<unitid identifier="1395914" type="ABS">158</unitid>
+						<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0db5c2fb-c132-4e2e-a498-d5918e217ce3</unitid>
+						<unittitle>Aantekeningen betreffende merkwaardige huwelijken,</unittitle>
+						<unitdate calendar="gregorian" era="ce">z.d.</unitdate>
+						<physdesc>1 bundel</physdesc>
+					</did>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

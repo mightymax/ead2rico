@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/4d12f7c4-60cc-441b-801b-468885a3d3c0"
+  rdf:about="record/2.21.215">
+    <rico:identifier>2.21.215</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1983</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22157" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.215/i1" />
+      <rico:instantiates rdf:resource="record/2.21.215" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120820</rico:hasModificationDate>
+        <html:p>20 augustus 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van P.J. Platteel [levensjaren
+        1911-1978] en enige Verwanten, (1901) 1911-1977; C. van Twist, Boekhouder van het
+        Soldijcomptoir van de Verenigde Oost-Indische Compagnie, (1517) 1785-1800
+        (1937)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/4d12f7c4-60cc-441b-801b-468885a3d3c0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22157">
+    <rico:describedBy rdf:resource="record/2.21.215" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22157</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 409 P.J. Platteel</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Platteel</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1517</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1977</rico:endDate>
+    <rico:date>1517-1977</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Dr. Pieter Johannes Platteel (1911-1978)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Dr. Pieter Johannes Platteel, geboren op 14 augustus 1911 in Utrecht,
+          begon zijn loopbaan als Indisch bestuursambtenaar. In 1935 legde hij hiervoor
+          examen af, in 1936 promoveerde hij tot doctor in de Indologie te Utrecht op een
+          proefschrift "Grondslagen der constitutie van Nederlandsch-Indië". Zijn
+          opleiding stempelde hem dus tot een typische volgeling van C. Gerretson, die in
+          de beginjaren van zijn loopbaan ook als vertrouweling en mentor
+          optrad.</html:p>
+          <html:p>Op 27 augustus 1937 werd Platteel benoemd tot aspirant-controleur in
+          Poerwakarta, op 31 juli 1939 in Bandoeng. Hij werd op 25 juli 1941 controleur
+          van de onderafdeling Midden-Lombok (Praja); in de oorlog was hij
+          reserve-officier van het K.N.I.L., zodat hij de periode 1942-1945 in
+          krijgsgevangenschap onder de Japanners doorbracht. Hij werd geïnterneerd in de
+          Molukken.</html:p>
+          <html:p>Na zijn bevrijding in augustus 1945 geconfronteerd te zijn met de
+          gewelddadigheden van de "bersiap", werd hij in december naar Australië
+          overgebracht en in 1946 naar Nederland geëvacueerd. In 1947 keerde hij na een
+          verlofperiode van ongeveer een jaar naar Nederlandsch-Indië terug, waar hij
+          controleur, later hoofd van de tijdelijke bestuursdienst in Banjoewanggi werd.
+          Na de soevereiniteitsoverdracht keerde hij weer naar Nederland terug, waar hij
+          een jaar lang werkzaam was bij de Binnenlandse Veiligheidsdienst.</html:p>
+          <html:p>"Een geboren leider en bestuurder, wien men zooveel mogelijk vrijheid
+          van handelen moet laten". Aldus oordeelde Ch.O. van der Plas over hem. Hij
+          moest dit nu in patria zien waar te maken. Van 1951 tot 1954 was hij
+          adjunct-directeur van de gemeentelijke sociale dienst in Rotterdam, van 1954
+          tot 1958 directeur van de gemeentelijke dienst voor sociale belangen in Den
+          Haag. Zijn ervaringen bij het opzetten en reorganiseren van administratieve
+          apparaten gaven wellicht de doorslag bij zijn benoeming tot goeverneur van
+          Nederlands Nieuw-Guinea bij Koninklijk besluit van 28 maart 1958, nummer 128.
+          Dit buiten de soevereiniteits-overdracht gehouden overzeese gebeidsdeel zou
+          volgens de toenmalige Nederlandse politiek worden ontwikkeld tot een
+          zelfstandige staat los van de Republik Indonesia, die op zijn beurt
+          territoriale rechten op dit gebied opeiste.</html:p>
+          <html:p>Platteel toonde zich een oprecht tegenstander van het Indonesische
+          standpunt in het Nieuw-Guineaconflict. Onder zijn bevind kwam in 1961 een uit
+          Papoea's samengestelde Nieuw-Guinearaad tot stand, die de onafhankelijkheid van
+          Nieuw-Guinea zou voorbereiden. Het verloop van het conflict leidde in dat jaar
+          echter tot gewapende infiltratie door Indonesië en de uiteindelijke overdracht
+          van het mandaat over Nieuw-Guinea via de Verenigde Naties aan Indonesië. Mede
+          op initiatief van de goeverneur evacueerden de Nederlandse
+          bestuursambtenaren.</html:p>
+          <html:p>Van 1962 tot 1968 was Platteel burgemeester van Ede, van 1968 tot 1976
+          burgemeester van Hilversum. In die periode bleef hij zich met het
+          Nieuw-Guineabeleid bezig houden, waarbij hij contact onderhield met de
+          voormalige bestuursleden van de Nieuw-Guinearaad, nu vertegen-woordigers van
+          het Papoea-verzet in Nederland. Platteel was lid van de Antirevolutionaire
+          Partij en hield zich binnen deze partij en binnen het kerkelijke leven vooral
+          bezig met de organisatie van de sociale zorg.</html:p>
+          <html:p>Platteel is op 30 augustus 1939 gehuwd met Margaretha Antje Laseur. Hij
+          kreeg twee kinderen en nam ook de zorg van enkele pleegkinderen op zich. Met
+          zijn familie onderhield hij een uitgebreide briefwisseling, waarin behalve
+          particuliere aangelegenheden ook zijn politiek en zijn persoonlijk opvattingen
+          over het Indische leven aan de orde kwamen. Hij overleed op 19 augustus
+          1978.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Dr. Pieter Johannes Platteel (1911-1978) was bestuursambtenaar in
+      Nederlands-Indië en later Nieuw-Guinea. Van 1962 tot 1968 was Platteel burgemeester
+      van Ede, van 1968 tot 1976 burgemeester van Hilversum. Het archief bevat stukken
+      betreffende zijn loopbaan als Indisch bestuursambtenaar, zijn persoonlijk leven,
+      zijn goeverneurschap van Nieuw-Guinea en functies in Nederland.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>82 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

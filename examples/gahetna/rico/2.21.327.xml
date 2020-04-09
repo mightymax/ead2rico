@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/9191dcc3-b626-452f-8e92-9b50605b090b"
+  rdf:about="record/2.21.327">
+    <rico:identifier>2.21.327</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2011</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C5" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.327/i1" />
+      <rico:instantiates rdf:resource="record/2.21.327" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van E.K. de Vries, (1906)
+        1919-2002</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/9191dcc3-b626-452f-8e92-9b50605b090b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Daarnaast drukwerk (brochures, tijdschriften, boekwerken), en
+        beeldmateriaal (foto's, kaarten).</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C5">
+    <rico:describedBy rdf:resource="record/2.21.327" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C5</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>E.K. de Vries</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Vries, E.K. de</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear" />
+    <rico:date />
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Erik Klaas de Vries, 1912-2004</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Voor een uitgebreide biografie van Erik de Vries, zie: S. de Leeuw, De
+          man achter het scherm: de televisie van Erik de Vries, (Amsterdam
+          2008).</html:p>
+          <html:p>De navolgende levensbeschrijving is samengesteld uit de Engelstalige
+          cv's die Erik de Vries voor verschillende gelegenheden had opgesteld. Zie
+          hiervoor de inventarisnummers 37, 207 en 219.</html:p>
+          <html:p>1912, June 5born in Amsterdam1930certificate High School1930 -
+          37Philips Laboratories for Physical Research (Eindhoven): scientific assistant
+          shortwave transmitters dept.1931transmission and reception on 7 m. wavelength
+          (45 MC) in Amsterdam1933construction of the new PCJ world-transmitter1934 -
+          37announcer and commentator for PCJ broadcasts in 5 languages, twice a week
+          (World Radio)awarded several prizes for amateur films and photosalso charged by
+          Philips with the making of special photographs and films1935first TV
+          experiments, both as producer and cameraman ("one-man-studio")1935 -
+          37Development of magnetrons on cm-wavelengths;80 cm beacon-transmitter on Mont
+          Valérien, Paris,first TV film1937 Sept. - 39Leader of Philips TV demonstration
+          tour through Europe: Utrecht, Budapest, Bucarest, Belgrade a.o.1939 Sept. - 40
+          Febr.Technical supervision night broadcast PCJ1940 Febr. - May 10Photo
+          correspondent Budapest.1940 May - SeptRamble via Belgrade, Istanbul, Bagdad to
+          Batavia1940 Sept - 1941 AprilAnnouncer NIROM (Netherlands Indies Broadcasting
+          Corporation)picture page in Radio weekly1941 April - DecCamera, cutting and
+          sound of three propaganda films for war-preparedness;co-writer of scenarios and
+          scriptsofficial photographs of Van Mook, Helfrich a.m.o.1941 Dec. - 1942
+          MarchTruck driver Military Moto Service, as planned airforce film service was
+          cancelled1942 - 45POW1945 Dec.Back in Holland; reconvalescence in health
+          resort1947photobook Philips Telecommunication Industries, Hilversum1948 -
+          51producer of 264 experimental TV broadcasts, Philips EindhovenVisits to
+          English, French, Danish, Swiss, German and Belgian TV studios1951 -
+          53Instructor and advisor of the TV teams of the five cooperating broadcasting
+          companies in Holland.Producer for all major events, writer-director of several
+          TV films1954Instructor and advisor of TV team at Munich, GermanyProduction for
+          IKOR of first TV church broadcast in Holland1955Director-producer of commercial
+          TV Station E 55 exhibition, RotterdamMedal "Highland Truth" NRCFirst colour
+          TV-demonstration in HollandVisits to Brisih (BBC &amp; ITA), German, Swiss and
+          Italian TV-studiosAdvisor-producer for the Netherlands Protestant ChruchesTV
+          lessons at Academy of ... Arts1956UNESCO head of mission for TV in Costa
+          RicaAdviser with SODRE for future Uruguayan TV, MontevideoVisits to US
+          (colour), Mexican, Brazilian, Columbian and Venezuelan studiosTV talks in
+          several other countriesAdviser for future Netherlands commercial
+          televisionSince 1957Freelance television program producerInitiator and advisor
+          of Television Academy (TELEAC)Amsterdam radio and TV station STADTelevision
+          prize "Nipkow Disc"Advisor and/or member of the board for:Art Council, Cultural
+          CouncilSOCUTERA (social-cultural TV)Sticusa (Cultural relations with
+          Netherlands Antilles)IKON (Netherlands interchurch org.) and WACC (World
+          Associatopn for Christian Communication)Netherlands Broadcasting MuseumDefence
+          and Aid FundDecorations: Knight and Officer in the Order of Orange Nassau;
+          Nipkow Disc.1957Initiator of Prins Bernhard Fonds TV prize ("Oscar")TV Congress
+          Protestant Churches in FrankfurtAdviser for TV in Netherlands delegation at
+          Iternational Theatre Institute Congress in Athens. International TV drama
+          proposal accepted.Visit to Yugoslavian TV studiosFreelance director most
+          popular musical serial "Pension Hommeles"Shell contacts"Koninkrijkles"
+          television195810-20 years Netherlands televisionEurovision proposalsCongress
+          Protestant Churches in StockholmShell offer refusedTV prize fort the first time
+          awarded through Prins Bernhard Fonds Program from Berlin1959Member of the board
+          of the Netherlands Federation of professional artists' associationsVisits to
+          Morocco and to Spanish television studios, MadridSchool television
+          proposalsHommeles (Annie M.G. Schmidt) awarded Prins Bernhard Fund TV prize1959
+          - 1960director " Artists Caf'e"1960First Netherlands Government TV
+          productionOne-act TV-play planMissions to Netherlands Antilles and to Surinam
+          by request of the respective governmentsVisits to USA TV studios and netwerks
+          during presential elections1961Visit to USSR TV studios: moscow, Leningrad,
+          TiflisMember of Cultural Council of Noord-HollandDocumentaries on Surinam and
+          Netherlands Antilles</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Klaas de Vries, 1861-1947</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Voor een uitgebreide biografie van Erik de Vries, zie: S. de Leeuw, De
+          man achter het scherm: de televisie van Erik de Vries, (Amsterdam
+          2008).</html:p>
+          <html:p>De navolgende levensbeschrijving is samengesteld uit de Engelstalige
+          cv's die Erik de Vries voor verschillende gelegenheden had opgesteld. Zie
+          hiervoor de inventarisnummers 37, 207 en 219.</html:p>
+          <html:p>1912, June 5born in Amsterdam1930certificate High School1930 -
+          37Philips Laboratories for Physical Research (Eindhoven): scientific assistant
+          shortwave transmitters dept.1931transmission and reception on 7 m. wavelength
+          (45 MC) in Amsterdam1933construction of the new PCJ world-transmitter1934 -
+          37announcer and commentator for PCJ broadcasts in 5 languages, twice a week
+          (World Radio)awarded several prizes for amateur films and photosalso charged by
+          Philips with the making of special photographs and films1935first TV
+          experiments, both as producer and cameraman ("one-man-studio")1935 -
+          37Development of magnetrons on cm-wavelengths;80 cm beacon-transmitter on Mont
+          Valérien, Paris,first TV film1937 Sept. - 39Leader of Philips TV demonstration
+          tour through Europe: Utrecht, Budapest, Bucarest, Belgrade a.o.1939 Sept. - 40
+          Febr.Technical supervision night broadcast PCJ1940 Febr. - May 10Photo
+          correspondent Budapest.1940 May - SeptRamble via Belgrade, Istanbul, Bagdad to
+          Batavia1940 Sept - 1941 AprilAnnouncer NIROM (Netherlands Indies Broadcasting
+          Corporation)picture page in Radio weekly1941 April - DecCamera, cutting and
+          sound of three propaganda films for war-preparedness;co-writer of scenarios and
+          scriptsofficial photographs of Van Mook, Helfrich a.m.o.1941 Dec. - 1942
+          MarchTruck driver Military Moto Service, as planned airforce film service was
+          cancelled1942 - 45POW1945 Dec.Back in Holland; reconvalescence in health
+          resort1947photobook Philips Telecommunication Industries, Hilversum1948 -
+          51producer of 264 experimental TV broadcasts, Philips EindhovenVisits to
+          English, French, Danish, Swiss, German and Belgian TV studios1951 -
+          53Instructor and advisor of the TV teams of the five cooperating broadcasting
+          companies in Holland.Producer for all major events, writer-director of several
+          TV films1954Instructor and advisor of TV team at Munich, GermanyProduction for
+          IKOR of first TV church broadcast in Holland1955Director-producer of commercial
+          TV Station E 55 exhibition, RotterdamMedal "Highland Truth" NRCFirst colour
+          TV-demonstration in HollandVisits to Brisih (BBC &amp; ITA), German, Swiss and
+          Italian TV-studiosAdvisor-producer for the Netherlands Protestant ChruchesTV
+          lessons at Academy of ... Arts1956UNESCO head of mission for TV in Costa
+          RicaAdviser with SODRE for future Uruguayan TV, MontevideoVisits to US
+          (colour), Mexican, Brazilian, Columbian and Venezuelan studiosTV talks in
+          several other countriesAdviser for future Netherlands commercial
+          televisionSince 1957Freelance television program producerInitiator and advisor
+          of Television Academy (TELEAC)Amsterdam radio and TV station STADTelevision
+          prize "Nipkow Disc"Advisor and/or member of the board for:Art Council, Cultural
+          CouncilSOCUTERA (social-cultural TV)Sticusa (Cultural relations with
+          Netherlands Antilles)IKON (Netherlands interchurch org.) and WACC (World
+          Associatopn for Christian Communication)Netherlands Broadcasting MuseumDefence
+          and Aid FundDecorations: Knight and Officer in the Order of Orange Nassau;
+          Nipkow Disc.1957Initiator of Prins Bernhard Fonds TV prize ("Oscar")TV Congress
+          Protestant Churches in FrankfurtAdviser for TV in Netherlands delegation at
+          Iternational Theatre Institute Congress in Athens. International TV drama
+          proposal accepted.Visit to Yugoslavian TV studiosFreelance director most
+          popular musical serial "Pension Hommeles"Shell contacts"Koninkrijkles"
+          television195810-20 years Netherlands televisionEurovision proposalsCongress
+          Protestant Churches in StockholmShell offer refusedTV prize fort the first time
+          awarded through Prins Bernhard Fonds Program from Berlin1959Member of the board
+          of the Netherlands Federation of professional artists' associationsVisits to
+          Morocco and to Spanish television studios, MadridSchool television
+          proposalsHommeles (Annie M.G. Schmidt) awarded Prins Bernhard Fund TV prize1959
+          - 1960director " Artists Caf'e"1960First Netherlands Government TV
+          productionOne-act TV-play planMissions to Netherlands Antilles and to Surinam
+          by request of the respective governmentsVisits to USA TV studios and netwerks
+          during presential elections1961Visit to USSR TV studios: moscow, Leningrad,
+          TiflisMember of Cultural Council of Noord-HollandDocumentaries on Surinam and
+          Netherlands Antilles</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Maria Wilhelmina Ham, 1882-1932</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Voor een uitgebreide biografie van Erik de Vries, zie: S. de Leeuw, De
+          man achter het scherm: de televisie van Erik de Vries, (Amsterdam
+          2008).</html:p>
+          <html:p>De navolgende levensbeschrijving is samengesteld uit de Engelstalige
+          cv's die Erik de Vries voor verschillende gelegenheden had opgesteld. Zie
+          hiervoor de inventarisnummers 37, 207 en 219.</html:p>
+          <html:p>1912, June 5born in Amsterdam1930certificate High School1930 -
+          37Philips Laboratories for Physical Research (Eindhoven): scientific assistant
+          shortwave transmitters dept.1931transmission and reception on 7 m. wavelength
+          (45 MC) in Amsterdam1933construction of the new PCJ world-transmitter1934 -
+          37announcer and commentator for PCJ broadcasts in 5 languages, twice a week
+          (World Radio)awarded several prizes for amateur films and photosalso charged by
+          Philips with the making of special photographs and films1935first TV
+          experiments, both as producer and cameraman ("one-man-studio")1935 -
+          37Development of magnetrons on cm-wavelengths;80 cm beacon-transmitter on Mont
+          Valérien, Paris,first TV film1937 Sept. - 39Leader of Philips TV demonstration
+          tour through Europe: Utrecht, Budapest, Bucarest, Belgrade a.o.1939 Sept. - 40
+          Febr.Technical supervision night broadcast PCJ1940 Febr. - May 10Photo
+          correspondent Budapest.1940 May - SeptRamble via Belgrade, Istanbul, Bagdad to
+          Batavia1940 Sept - 1941 AprilAnnouncer NIROM (Netherlands Indies Broadcasting
+          Corporation)picture page in Radio weekly1941 April - DecCamera, cutting and
+          sound of three propaganda films for war-preparedness;co-writer of scenarios and
+          scriptsofficial photographs of Van Mook, Helfrich a.m.o.1941 Dec. - 1942
+          MarchTruck driver Military Moto Service, as planned airforce film service was
+          cancelled1942 - 45POW1945 Dec.Back in Holland; reconvalescence in health
+          resort1947photobook Philips Telecommunication Industries, Hilversum1948 -
+          51producer of 264 experimental TV broadcasts, Philips EindhovenVisits to
+          English, French, Danish, Swiss, German and Belgian TV studios1951 -
+          53Instructor and advisor of the TV teams of the five cooperating broadcasting
+          companies in Holland.Producer for all major events, writer-director of several
+          TV films1954Instructor and advisor of TV team at Munich, GermanyProduction for
+          IKOR of first TV church broadcast in Holland1955Director-producer of commercial
+          TV Station E 55 exhibition, RotterdamMedal "Highland Truth" NRCFirst colour
+          TV-demonstration in HollandVisits to Brisih (BBC &amp; ITA), German, Swiss and
+          Italian TV-studiosAdvisor-producer for the Netherlands Protestant ChruchesTV
+          lessons at Academy of ... Arts1956UNESCO head of mission for TV in Costa
+          RicaAdviser with SODRE for future Uruguayan TV, MontevideoVisits to US
+          (colour), Mexican, Brazilian, Columbian and Venezuelan studiosTV talks in
+          several other countriesAdviser for future Netherlands commercial
+          televisionSince 1957Freelance television program producerInitiator and advisor
+          of Television Academy (TELEAC)Amsterdam radio and TV station STADTelevision
+          prize "Nipkow Disc"Advisor and/or member of the board for:Art Council, Cultural
+          CouncilSOCUTERA (social-cultural TV)Sticusa (Cultural relations with
+          Netherlands Antilles)IKON (Netherlands interchurch org.) and WACC (World
+          Associatopn for Christian Communication)Netherlands Broadcasting MuseumDefence
+          and Aid FundDecorations: Knight and Officer in the Order of Orange Nassau;
+          Nipkow Disc.1957Initiator of Prins Bernhard Fonds TV prize ("Oscar")TV Congress
+          Protestant Churches in FrankfurtAdviser for TV in Netherlands delegation at
+          Iternational Theatre Institute Congress in Athens. International TV drama
+          proposal accepted.Visit to Yugoslavian TV studiosFreelance director most
+          popular musical serial "Pension Hommeles"Shell contacts"Koninkrijkles"
+          television195810-20 years Netherlands televisionEurovision proposalsCongress
+          Protestant Churches in StockholmShell offer refusedTV prize fort the first time
+          awarded through Prins Bernhard Fonds Program from Berlin1959Member of the board
+          of the Netherlands Federation of professional artists' associationsVisits to
+          Morocco and to Spanish television studios, MadridSchool television
+          proposalsHommeles (Annie M.G. Schmidt) awarded Prins Bernhard Fund TV prize1959
+          - 1960director " Artists Caf'e"1960First Netherlands Government TV
+          productionOne-act TV-play planMissions to Netherlands Antilles and to Surinam
+          by request of the respective governmentsVisits to USA TV studios and netwerks
+          during presential elections1961Visit to USSR TV studios: moscow, Leningrad,
+          TiflisMember of Cultural Council of Noord-HollandDocumentaries on Surinam and
+          Netherlands Antilles</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Johanna Rosina ("Hans") Snoek, 1910-2001</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Voor een uitgebreide biografie van Erik de Vries, zie: S. de Leeuw, De
+          man achter het scherm: de televisie van Erik de Vries, (Amsterdam
+          2008).</html:p>
+          <html:p>De navolgende levensbeschrijving is samengesteld uit de Engelstalige
+          cv's die Erik de Vries voor verschillende gelegenheden had opgesteld. Zie
+          hiervoor de inventarisnummers 37, 207 en 219.</html:p>
+          <html:p>1912, June 5born in Amsterdam1930certificate High School1930 -
+          37Philips Laboratories for Physical Research (Eindhoven): scientific assistant
+          shortwave transmitters dept.1931transmission and reception on 7 m. wavelength
+          (45 MC) in Amsterdam1933construction of the new PCJ world-transmitter1934 -
+          37announcer and commentator for PCJ broadcasts in 5 languages, twice a week
+          (World Radio)awarded several prizes for amateur films and photosalso charged by
+          Philips with the making of special photographs and films1935first TV
+          experiments, both as producer and cameraman ("one-man-studio")1935 -
+          37Development of magnetrons on cm-wavelengths;80 cm beacon-transmitter on Mont
+          Valérien, Paris,first TV film1937 Sept. - 39Leader of Philips TV demonstration
+          tour through Europe: Utrecht, Budapest, Bucarest, Belgrade a.o.1939 Sept. - 40
+          Febr.Technical supervision night broadcast PCJ1940 Febr. - May 10Photo
+          correspondent Budapest.1940 May - SeptRamble via Belgrade, Istanbul, Bagdad to
+          Batavia1940 Sept - 1941 AprilAnnouncer NIROM (Netherlands Indies Broadcasting
+          Corporation)picture page in Radio weekly1941 April - DecCamera, cutting and
+          sound of three propaganda films for war-preparedness;co-writer of scenarios and
+          scriptsofficial photographs of Van Mook, Helfrich a.m.o.1941 Dec. - 1942
+          MarchTruck driver Military Moto Service, as planned airforce film service was
+          cancelled1942 - 45POW1945 Dec.Back in Holland; reconvalescence in health
+          resort1947photobook Philips Telecommunication Industries, Hilversum1948 -
+          51producer of 264 experimental TV broadcasts, Philips EindhovenVisits to
+          English, French, Danish, Swiss, German and Belgian TV studios1951 -
+          53Instructor and advisor of the TV teams of the five cooperating broadcasting
+          companies in Holland.Producer for all major events, writer-director of several
+          TV films1954Instructor and advisor of TV team at Munich, GermanyProduction for
+          IKOR of first TV church broadcast in Holland1955Director-producer of commercial
+          TV Station E 55 exhibition, RotterdamMedal "Highland Truth" NRCFirst colour
+          TV-demonstration in HollandVisits to Brisih (BBC &amp; ITA), German, Swiss and
+          Italian TV-studiosAdvisor-producer for the Netherlands Protestant ChruchesTV
+          lessons at Academy of ... Arts1956UNESCO head of mission for TV in Costa
+          RicaAdviser with SODRE for future Uruguayan TV, MontevideoVisits to US
+          (colour), Mexican, Brazilian, Columbian and Venezuelan studiosTV talks in
+          several other countriesAdviser for future Netherlands commercial
+          televisionSince 1957Freelance television program producerInitiator and advisor
+          of Television Academy (TELEAC)Amsterdam radio and TV station STADTelevision
+          prize "Nipkow Disc"Advisor and/or member of the board for:Art Council, Cultural
+          CouncilSOCUTERA (social-cultural TV)Sticusa (Cultural relations with
+          Netherlands Antilles)IKON (Netherlands interchurch org.) and WACC (World
+          Associatopn for Christian Communication)Netherlands Broadcasting MuseumDefence
+          and Aid FundDecorations: Knight and Officer in the Order of Orange Nassau;
+          Nipkow Disc.1957Initiator of Prins Bernhard Fonds TV prize ("Oscar")TV Congress
+          Protestant Churches in FrankfurtAdviser for TV in Netherlands delegation at
+          Iternational Theatre Institute Congress in Athens. International TV drama
+          proposal accepted.Visit to Yugoslavian TV studiosFreelance director most
+          popular musical serial "Pension Hommeles"Shell contacts"Koninkrijkles"
+          television195810-20 years Netherlands televisionEurovision proposalsCongress
+          Protestant Churches in StockholmShell offer refusedTV prize fort the first time
+          awarded through Prins Bernhard Fonds Program from Berlin1959Member of the board
+          of the Netherlands Federation of professional artists' associationsVisits to
+          Morocco and to Spanish television studios, MadridSchool television
+          proposalsHommeles (Annie M.G. Schmidt) awarded Prins Bernhard Fund TV prize1959
+          - 1960director " Artists Caf'e"1960First Netherlands Government TV
+          productionOne-act TV-play planMissions to Netherlands Antilles and to Surinam
+          by request of the respective governmentsVisits to USA TV studios and netwerks
+          during presential elections1961Visit to USSR TV studios: moscow, Leningrad,
+          TiflisMember of Cultural Council of Noord-HollandDocumentaries on Surinam and
+          Netherlands Antilles</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Erik de Vries was een van de bekendste pioniers van de Nederlandse
+      televisie. Zijn archief bevat kopieën en originele bescheiden over de ontwikkeling
+      van dit medium bij het Natuurkundig Laboratorium van de NV Philips, de eerste
+      experimentele uitzendingen in de regio Eindhoven (PET) in de jaren 1948-1951 en de
+      eerste landelijke uitzendingen in 1951. Een aanzienlijk deel van het archief
+      betreft zijn werk als adviseur bij het opzetten van televisiestations in het
+      buitenland (m.n. Zuid-Amerika) en in Nederland (lokale en regionale televisie).
+      Naast deze meer technische aspecten laat het archief ook de meer inhoudelijke
+      kanten van de televisie zien. Zo zijn er draaiboeken, decorschetsen en
+      correspondentie uit de periode waarin De Vries als regisseur werkzaam was voor
+      vrijwel alle Nederlandse omroepen. Verder bevat het archief materiaal over de
+      introductie van commerciele televisie, over de oprichting van TELEAC (educatieve
+      televisie) en over het Interkerkelijk Overleg Nederland, waarvan hij lange tijd
+      directeur was. Vermeldenswaard zijn verder het dagboek en andere aantekeningen,
+      bijgehouden in interneringskampen tijdens de Japanse bezetting van
+      Nederlands-Indië. Het archief van echtgenote Hans Snoek bevat o.m. dagboeken,
+      bijgehouden tijdens de buitenlandse reizen die ze met haar man heeft
+      ondernomen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5.90 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>327 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>De inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

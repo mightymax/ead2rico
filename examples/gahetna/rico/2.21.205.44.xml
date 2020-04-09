@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/14051aa9-ce72-4790-a92e-86e234b731b0"
+  rdf:about="record/2.21.205.44">
+    <rico:identifier>2.21.205.44</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1985</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22154" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.205.44/i1" />
+      <rico:instantiates rdf:resource="record/2.21.205.44" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131104</rico:hasModificationDate>
+        <html:p>4 november 2013</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van F.N. Nieuwenhuijzen
+        [levensjaren 1819-1892], (1819) 1835-1876</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/14051aa9-ce72-4790-a92e-86e234b731b0" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22154">
+    <rico:describedBy rdf:resource="record/2.21.205.44" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22154</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 442 F.N. Nieuwenhuijzen
+      [1819-1892]</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Nieuwenhuijzen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1819</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1876</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1819-1876</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Frederik Nicolaas Nieuwenhuijzen (1819-1892)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Frederik Nicolaas Nieuwenhuijzen werd op 22 oktober 1819 in Amsterdam
+          geboren als zoon van Otto Hendrik Nieuwenhuijzen en Margaretha Cornelia
+          Wilhelmina Lutjens. Zijn vader was tabakskoper en commissionair in koloniale
+          waren.</html:p>
+          <html:p>Op 15-jarige leeftijd reisde hij alleen naar Batavia, waar hij
+          vermoedelijk onderdak vond bij zijn oom Hendrik Jacob Lutjens, die als kolonel
+          van het Oost-Indisch Leger en later als direkteur van Financiën een
+          vooraanstaande positie in de Indische samenleving innam.</html:p>
+          <html:p>Zijn bijzondere capaciteiten tezamen met het milieu, waarin hij
+          verkeerde hebben gezorgd voor een uiterst opmerkelijke carrière, die zou voeren
+          van onbezoldigd klerk tot vice-president van de Raad van Nederlands-Indië.
+          Begin december 1834 aangekomen wist Nieuwenhuijzen binnen 14 dagen een baan te
+          krijgen als onbezoldigd klerk bij de Algemene Secretarie, waar hij in dermate
+          gunstige zin opviel, dat promoties tot bezoldigd klerk (1835), 1e klerk (1838),
+          2e commies (1838) en 1e commies (1840) spoedig bereikt werden. De Algemene
+          Secretarie is voor Nieuwenhuijzen een uitstekende leerschool geweest. De
+          centralistische opzet van de Indische administratie deed vrijwel iedere te
+          nemen beslissing van enige importantie belanden ten burele van de
+          gouverneur-generaal en zijn secretarie. Zodoende kon hij kennis nemen van alle
+          voorkomende bestuurlijke en politieke kwesties. Naar analogie zijn er diverse
+          voorbeelden van Indische ambtenaren, die via een leerperiode bij de secretarie
+          het tot hoge posten hebben weten te brengen. Hoewel Nieuwenhuijzen de opleiding
+          aan de Delftse Academie miste, werd hem bij Koninklijk Besluit van 22 april
+          1842 nummer 95 desondanks het radikaal van Indisch ambtenaar verleend, waardoor
+          een benoeming bij het binnenlands bestuurscorps mogelijk werd. In 1843 werd hij
+          aangesteld tot residentie-secretaris in Banjoemas.</html:p>
+          <html:p>Hij bleef hier slechts twaalf maanden en werd in gelijke betrekking
+          verplaatst naar de residentie Bagelen, waar hij het onbeperkte vertrouwen
+          genoot van resident Von Schmidt auf Altenstadt.</html:p>
+          <html:p>In 1847 werd hij bevorderd tot assistent-resident van de
+          Noorderdistrikten van Makassar met standplaats Maros. Het was een moeilijke
+          post in het landschap Gowa met de naburige leenroerige landschappen Boni en
+          Tanette, waar gedurende de 19e eeuw diverse expedities naar ondernomen werden.
+          De gouverneur van Celebes (en latere vice-president van de Raad van
+          Nederlands-Indië), De Perez, leerde daar zijn verdiensten waarderen en zou hem
+          protegeren sindsdien. Toen De Perez in 1849 met het bestuur over Soerabaja werd
+          belast volgde Nieuwenhuijzen zijn vorige chef als assistent-resident van
+          politie, waar hij o.a. bijdroeg tot het ontslag van de regent van Soerabaja
+          vanwege "knevelarij". In februari 1853 volgde zijn plaatsing in de toendertijd
+          aan Soerabaja onderhorige assistent-residentie Madoera, waar hij de Nederlandse
+          vertegenwoordiger was aan het Hof van de Panembahan. Anderhalf jaar later werd
+          hij benoemd tot assistent-resident van Probolinggo in de residentie
+          Besoeki.</html:p>
+          <html:p>Vanaf zijn benoeming tot resident van Riouw (1855) zou hij regelmatig
+          gebruikt worden als trouble-shooter in de verhouding van het gouvernement tot
+          diverse inlandse vorstendommen.</html:p>
+          <html:p>Toen Engeland en Nederland in 1824 bij het Traktaat van Londen alle
+          geschillen regelden, die uit de koloniale overdracht van 1816 waren
+          voortgekomen, had Engeland afgezien van alle aanspraken op Sumatra. De
+          ongebreidelde Engelse expansie vanuit Singapore maakte het noodzakelijk de
+          zaken te regelen ten aanzien van de nabij gelegen sultanaten Lingga Riouw en
+          Siak Sri Indrapoera. Bovendien diende een Engelse versterking, met goedvinden
+          van Siak op Bengkalis gevestigd, ontmanteld te worden. Nieuwenhuijzen werd bij
+          geheim gouvernementsbesluit met beide taken belast. Na het onttronen van de
+          sultan van Riouw, Machmoed Shah, en de benoeming van een gouvernementsgezinde
+          opvolger kon een nieuw traktaat met dit landschap gesloten worden. Tevens
+          konden de Engelse invloeden worden teruggedrongen na het sluiten van een nieuw
+          traktaat met de vorsten van Siak. Het leverde hem een koninklijke
+          onderscheiding en diverse tevredenheidsbetuigen van het gouvernement
+          op.</html:p>
+          <html:p>In 1857 werd Nieuwenhuijzen als resident verplaatst naar Pekalongan,
+          doch spoedig hierna (1858) volgde zijn benoeming tot resident van Soerakarta.
+          Een uitermate delicate plaatsing vanwege de nog altijd slepende
+          opvolgingskwestie van de na de Java-oorlog verbannen Soesoehoenan. Na een
+          voorlopige voorziening in 1858 wist Nieuwenhuijzen de zaak in 1861 te regelen
+          met de benoeming van de zoon van de verbannen vorst.</html:p>
+          <html:p>Dat ook het gouvernement zijn houding tegenover de inlandse
+          vorstenhuizen goedkeurde, bleek uit zijn benoeming in 1859 tot
+          gouvernements-commissaris in de Zuider- en Oosterafdeling van Borneo. Hierbij
+          werd het opstandige vorstenhuis van Bandjermasin onttroond en het gebied
+          ingelijfd bij de direkt bestuurde gebieden.</html:p>
+          <html:p>In 1863 werd Nieuwenhuijzen naast zijn funktie van resident van
+          Soerakarta benoemd tot waarnemend resident van Djokjakarta. Aanleiding hiertoe
+          was de geestesziekte van resident Brest van Kempen en het vermoeden, dat de
+          sultan Djokja misbruik van deze omstandigheid had gemaakt. Na zijn onderzoek en
+          rapportage hierover aan de gouverneur-generaal kon hij van het waarnemerschap
+          worden ontheven en werd hij in juni 1863 opgevolgd door resident
+          Arriëns.</html:p>
+          <html:p>In 1864 werd Nieuwenhuijzen een tweejarig ziekteverlof naar Nederland
+          toegekend, een periode die hij niet zou volmaken vanwege zijn benoeming tot lid
+          van de Raad van Nederlands-Indië in 1865. Na het onverwacht overlijden van de
+          vice-president van de Raad, mr. A. Loudon, werd hij in 1868 met de waarneming
+          van deze funktie belast. Bij K.B. van 25 juli 1869 nr. 20 volgde zijn
+          definitieve benoeming tot hoogste ambtenaar naast de
+          gouverneur-generaal.</html:p>
+          <html:p>Uit zijn verlofdagen in Nederland stamt zijn vriendschap met de
+          liberale staatsman Fransen van de Putte. Een vriendschap, die hem later direkt
+          zou betrekken bij het ontstaan van de Atjeh-oorlog. Op voordracht van minister
+          Fransen van de Putte benoemde de gouverneur-generaal, mr. James Loudon,
+          Nieuwenhuijzen in februari 1873 tot gouvernements-commissaris voor Atjeh. Hij
+          werd meegezonden met het expeditionaire leger, dat de sultan van Atjeh tot
+          inkeer moest brengen. Toen de commissaris tijdens de onderhandelingen met de
+          vorst geen genoegdoening kreeg, reikte hij op 26 maart 1873 de door Loudon
+          ondertekende oorlogsverklaring uit, waarmee de Atjeh-oorlog een feit geworden
+          was.</html:p>
+          <html:p>De verantwoording voor de mislukking, waarop de expeditie uitliep, kwam
+          op de schouders van Loudon terecht, die op zijn beurt de commissaris
+          beschuldigde door hem misleid te zijn ten aanzien van het terugtrekken van de
+          troepen.</html:p>
+          <html:p>De gouverneur-generaal stelde een commissie in, die het gehele verloop
+          van de expeditie moest onderzoeken. Nieuwenhuijzen weigerde zijn medewerking
+          aan het onderzoek. Het rapport van 1500 pagina's zou in 1874 verschijnen.
+          Loudon wilde niet zover gaan een eervol ontslag voor Nieuwenhuijzen aan de
+          minister voor te stellen. De vriendschap tussen Nieuwenhuijzen en Fransen van
+          de Putte stond echter garant voor een veilige aftocht, die in een onderhandse
+          telegramwisseling werd geregeld. Hij kreeg eervol ontslag en werd per 1 oktober
+          1873 gepensioneerd. Door de ruchtbaarheid, die aan de Atjeh-kwestie werd
+          gegeven zouden publiekelijke verwijten hem nog jaren blijven achtervolgen.
+          Nieuwenhuijzen overleed op 7 november 1892 in Den Haag.</html:p>
+          <html:p>Als nevenfunkties van Nieuwenhuijzen kunnen genoemd worden:
+          vendumeester in Banjoemas (1843-1844), Bagelen (1843-1847) en Probolinggo
+          (1854-1855), lid van de Sub-Commissie van Onderwijs te Soerabaja (1851-1854),
+          lid van de Commissie voor het afnemen van Indische Ambtenaarsexamens
+          (1864-1873), voorzitter van het watersnoodfonds op Java (1869-1873).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Frederik Nicolaas Nieuwenhuijzen (1819-1892) begon net aangekomen, als
+      15-jarige onbezoldigd klerk bij de Algemene Secretarie van Nederlands-Indië. Hij
+      klom snel op en bracht het uiteindelijk tot vice-president van de Raad van
+      Nederlands-Indië. Het archief bevat stukken die hij heeft opgemaakt of verzameld
+      tijdens zijn functies in Nederlands-Indië, o.a. betreffende zijn contacten met de
+      inlandse vorsten en de hogere bestuurlijke autoriteiten. Nieuwenhuijzen was
+      bevriend met de staatsman Fransen van de Putte en onder gouverneur-generaal James
+      Loudon betrokken bij de Atjeh-oorlog van 1873.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>88 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0,50 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/056ac596-ca82-40f7-8349-606da6521df5"
+  rdf:about="record/2.14.26">
+    <rico:identifier>2.14.26</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2019</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/O601" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.14.26/i1" />
+      <rico:instantiates rdf:resource="record/2.14.26" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20190619</rico:hasModificationDate>
+        <html:p>19 juni 2019</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Centraal Register
+        Particuliere Archieven (CRPA), 1965-1998</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/056ac596-ca82-40f7-8349-606da6521df5" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/O601">
+    <rico:describedBy rdf:resource="record/2.14.26" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>O601</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Centraal Register Particuliere Archieven
+      (CRPA)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>CRPA</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1965</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1998</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1965-1998</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Centraal Register Particuliere Archieven, 1965-1998</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>In 1941 begon het Historisch Genootschap een verkenningstocht naar
+          particuliere archiefvormer en bezitters van familiearchieven met een door jhr
+          P. Beelaerts van Blokland georganiseerde enquête. Van 1947 tot 1950 onderhield
+          Henri A. Ett, als bestuurslid en correspondent van het Historisch Genootschap
+          een voortdurend contact met eigenaren van persoons- en familiearchieven en
+          beheerders van openbare archiefbewaarplaatsen. Het werk werd daarna niet
+          voortgezet maar de behoefte bleef.</html:p>
+          <html:p>Op 30 maart 1960 schreven het Centraal Bureau voor Genealogie, het
+          Koninklijk Genootschap voor Geslecht- en Wapenkunde en de Nederlandse
+          Genealogische Vereniging een adres aan de minister van Onderwijs, Kunsten en
+          Wetenschappen over de noodzaak van het behoud van particuliere
+          familiearchieven. Het duurde tot 1964 voordat het kwam tot de oprichting van
+          een Centraal Register van Familiearchieven (CRF), dat onder rechtstreeks gezag
+          van de Algemene Rijksarchivaris kwam te staan met een bureau in het
+          Rijksarchief i Utrecht. Hoofd of chartermeester voor de familiearchieven was
+          Engelien Polak-de Booy die tot 1980 in functie bleef. Zij nam de
+          correspondentie van het Historisch Genootschap in beheer en vormde uit deze
+          gegevens een register dat zij door systematisch nader onderzoek via dezelfde
+          enquêtemethode aanvulde. Zo ontstond er een kaart- en dossiersysteem met
+          gegevens, dat als bron diende voor verwijzingen van onderzoekers naar
+          particuliere archieven in privébezit. Over de wijze van ordening en het
+          bijhouden van gegevens oriënteerde zij zich bij het in 1945 opgerichte National
+          Register of Archives in Londen, dat als voorbeeld diende voor haar organisatie.
+          De ervaringen, opgedaan in het NRA kregen hun onmiddellijke neerslag in de
+          reclamecampagnes die De Booy tijdens persconferenties voerde voor het laten
+          registreren en het goed ordenen en onderhouden van familiearchieven.</html:p>
+          <html:p>In 1975 kwam het CRF in contact initiatiefnemers van protestantse
+          kerkgenootschapen die overleg voerden over het behoud van kerkelijke archieven.
+          Dit leidde tot de oprichting van de CPA, de Commissie tot registratie van
+          Protestantse Archieven, waarin het CRF ook zitting had. Het CRF wierf in 1977
+          regionale consulenten aan die de kerken adviseerde over het behoud van hun
+          archieven. Het overleg van deze commissie leidde ertoe dat er contacten werden
+          gezocht tussen de kerkelijke organen en de openbare archiefbewaarplaatsen als
+          door de overheden gegarandeerd veilige bewaarplaatsen. Het gevolg van een ander
+          was dat vele plaatselijke kerken en regionale organen hun archieven aan
+          openbare archiefbewaarplaatsen toevertrouwden. Nagenoeg alle protestantse
+          kerkgenootschappen stelden gezamenlijke standaarden op voor de ordening en
+          beschrijving van hun archieven en stelden archivarissen aan. Er werden ook
+          relaties onderhouden met de Rooms-Katholieke en Oudkatholieke kerk, maar die
+          waren minder strikt.</html:p>
+          <html:p>De bemoeienis van het CRF breidde zich in de jaren 70 verder uit toen
+          de bewaarplaats voor bedrijfsarchieven van het Nederlands Economisch-Historisch
+          Archief (NEHA) werd geliquideerd. Dit instituut, opgericht door N.H. Posthumus
+          in 1914 beheerde bedrijfsarchieven als bronnenmateriaal voor de economische
+          geschiedenis in Nederland. In 1972 werden deze archieven door bemiddeling van
+          de Algemene Rijksarchivaris overgenomen door het netwerk van Nederlandse
+          openbare archiefbewaarplaatsen en legde het NEHA zich toe op de registratie van
+          bedrijfsarchieven. Dit leidde tot samenwerking met het CRF , waarvan het
+          werkterrein zich dus uitbreidde tot bedrijfs- en verenigingsarchieven, die ook
+          in de registratie werden opgenomen. De enquêtemethode die sedert Van Eck op
+          persoons- en familiearchieven werden toegepast op basis van wat men ter ore
+          kreeg (‘passieve registratie’) kon op particuliere rechtspersonen als
+          verenigingen en stichtingen actief worden toegepast, omdat die waren
+          geregistreerd in bijvoorbeeld Pyttersen’s Almanak. Het CRPA ontwierp ervoor
+          standaard-enquêteformulieren en breidde daarmee zijn registratie aanzienlijk
+          uit.</html:p>
+          <html:p>Deze taakuitbreiding leidde tot wijziging van de naam: het Centraal
+          Register van Familiearchieven werd sinds 1977 Centraal Register van
+          Particuliere Archieven (CRPA) genoemd. Vanaf 1976 werd het CRPA een
+          organisatieonderdeel van de Centrale Directie van de
+          Rijksarchiefdienst.</html:p>
+          <html:p>Toen in 1979 het Algemeen Rijksarchief een nieuw gebouw betrok, werd
+          ook dat de vestigingsplaats van het CRPA, dat onder leiding van Nouk Ruitenberg
+          kwam te staan. Er ontstond een directer samenwerkingsverband tussen het CRPA
+          met het Algemeen Rijksarchief en het Convent van Rijksarchivarissen en met
+          allerlei categoriale archiefbewaarplaatsen en particuliere organen waarin
+          archiefvormers verenigd waren. Het CRPA bemiddelde niet alleen voor
+          onderzoekers, het ontwikkelde zich ook tot adviesorgaan op het gebied van
+          blijvende bewaring en bewerking van archieven, waarvoor het in overleg met
+          andere deskundigen standaardmodellen ontwierp, bijvoorbeeld voor inventarisatie
+          van familiearchieven en verenigingen.</html:p>
+          <html:p>Per 1 oktober 1994 werd het CRPA ondergebracht bij het Algemeen
+          Rijksarchief en wel als een sectie van de afdeling Dienstverlening. Het
+          feitelijke acquisitiebeleid, waarbij het CRPA veelal ook adviseerde, kwam te
+          vallen onder de afdeling Bronverwerving en Toezicht. De sectie CRPA werd
+          hoofdzakelijk betrokken bij assistentie bij het onderzoek. In 1995-1996 kreeg
+          de sectie de opdracht een onderzoekgids samen te stellen over de archieven van
+          personen en organisaties op het gebied van de Europese integratie. Bij de
+          reorganisatie van het Algemeen Rijksarchief in 1998 werd de assistentie van
+          onderzoekers geïntegreerd in de reguliere dienstverlening van het Algemeen
+          Rijksarchief, terwijl de registratiefunctie zou worden overgenomen door de
+          afdeling Verwerven en Gegevensbeheer. Deze registratiefunctie werd evenwel niet
+          meer actief uitgevoerd, waardoor er in 1999 de facto een einde aan de
+          werkzaamheden van het CRPA.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de dossiers over archieven van families, personen en niet
+      tot de overheid behorende instellingen. Deze dossiers bevatten gegevens over de
+      eigenaars van deze archieven, de inhoud en en de verblijfplaats ten tijde van de
+      registratie. De dossiers zijn bijgehouden tot 1998, waardoor de informatie
+      inmiddels verouderd kan zijn.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van Stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>43,40 meter</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>690 inventarisnummer(s)</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

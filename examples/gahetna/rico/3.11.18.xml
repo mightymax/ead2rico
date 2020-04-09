@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="----" rdf:about="record/3.11.18">
+    <rico:identifier>3.11.18</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">(c)
+    2016</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/37240" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.11.18/i1" />
+      <rico:instantiates rdf:resource="record/3.11.18" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Provinciale Raad voor de
+        Bedrijfsontwikkeling in de Landbouw voor de provincie Zuid-Holland van het
+        Ministerie van Landbouw, Natuur en Voedselkwaliteit, 1953-1978
+        (1988)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="----" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en getypte documenten, geen bijzondere handschriften.
+        Het archief bestaat uit dossiers.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/37240">
+    <rico:describedBy rdf:resource="record/3.11.18" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>37240</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Provinciale Raad voor de Bedrijfsontwikkeling in de Landbouw
+      voor de provincie Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Prov. Raad voor de Bedrijfsontw. in de Landbouw
+      Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1988</rico:endDate>
+    <rico:date>1953-1988</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting Provinciaal Onderzoekcentrum voor de Landbouw in
+            Zuid-Holland, 1956-1975</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Stichting Provinciaal Onderzoekcentrum voor de Landbouw in
+          Zuid-Holland, 1956-1975</html:p>
+          <html:p>Op 28 juli 1961 werd de Stichting Provinciaal Onderzoekcentrum voor de
+          Landbouw in Zuid-Holland opgericht. De voorzitter en de secretaris van de
+          Provinciale Raad voor de Landbouwvoorlichting in Zuid-Holland traden op als
+          onderscheidenlijk voorzitter en secretaris van de stichting.</html:p>
+          <html:p>Het doel van de stichting was het bevorderen en coördineren van het
+          landbouwkundig onderzoek in de ruimste zin in de provincie Zuid-Holland. De
+          stichting trachtte dit doel te bereiken door: het instellen en financieren van
+          werkgroepen, die voor een bepaald onderzoek een werkplan opstellen, dat na
+          goedkeuring door het Bestuur onder toezicht van of door deze werkgroep wordt
+          uitgevoerd; alle verdere geoorloofde middelen, welke dienstig zijn aan het in
+          het vorig lid gestelde doel.</html:p>
+          <html:p>De stichting kende diverse werkgroepen, waaronder: Werkgroep Onderzoek
+          Rationele Bedrijfsvoering; Werkgroep Aardappelonderzoek; Werkgroep
+          Bodem-Plant-Dier Onderzoek.</html:p>
+          <html:p>Provinciale Landbouwvoorlichtingsraad voor de provincie Zuid-Holland,
+          1953-1971</html:p>
+          <html:p>In 1953 en 1954 werden respectievelijk de Landelijke Raad en de
+          Provinciale Raden voor de Rijkslandbouwvoorlichting ingesteld. De raden
+          adviseerden de minister en voerden overleg met het georganiseerde bedrijfsleven
+          over de (overheids)voorlichting. Een provinciale raad was samengesteld uit
+          vertegenwoordigers van de landbouworganisaties, de banken en een
+          vertegenwoordiger van de minister van Landbouw. De samenwerking tussen overheid
+          en bedrijfsleven was een wens geweest van de Stichting voor de Landbouw, die in
+          een rapport in 1951 stelde, dat bij de landbouwvoorlichting een veel
+          intensievere en officiële samenwerking tussen de ambtelijke diensten en het
+          georganiseerde bedrijfsleven gewenst was.</html:p>
+          <html:p>De noodzaak van een dergelijke samenwerking bleek des te meer, toen
+          kort na de instelling van de provinciale raden in 1954 werd begonnen met de
+          zogenaamde streekverbeteringen. Hier ging het om geïntensiveerde voorlichting
+          van de rijkslandbouwvoorlichtingsdienst in een bepaalde regio, waarbij nauw
+          werd samengewerkt met de agrarisch-sociale voorlichting van de
+          standsorganisaties. Ook toen in de jaren zestig werd begonnen met de zogenaamde
+          50/50 regeling, waarbij de kosten voor voorlichting in o.a. veevoedingskernen
+          en voor onderzoek werden gedeeld door overheid en bedrijfsleven, bleek een
+          formeel overlegorgaan tussen overheid en bedrijfsleven nuttig. Peter Priester,
+          Landbouwvoorlichting en bedrijfsontwikkeling in Overijssel en de
+          IJsselmeerpolders, 1890-1983; een historisch overzicht (Zwolle 1983)
+          37</html:p>
+          <html:p>Vanaf 1963 adviseerde de Provinciale Landbouwvoorlichtingsraad het
+          bestuur van de Stichting Borgstellingsfonds voor de Landbouw, deze stelde zich
+          garant voor rente en aflossing van door banken aan landbouwbedrijven verstrekte
+          kredieten, over individuele aanvragen tot borgstelling.</html:p>
+          <html:p>Provinciale Raad voor de Bedrijfsontwikkeling in de Landbouw voor de
+          provincie Zuid-Holland, 1965-1978</html:p>
+          <html:p>In 1965 is de raad overgegaan in de Provinciale Raad voor de
+          Bedrijfsontwikkeling in de Landbouw, ressorterend onder de directie Agrarische
+          Productie, Verwerking en Afzet. De Raad had tot taak in de provincie een goede
+          bedrijfsontwikkeling in de landbouw te bevorderen.</html:p>
+          <html:p>Hij vervulde zijn taak door Inventarisnummer 1 : het bevorderen van een
+          goede ontwikkeling, coördinatie en samenwerking op het gebied van de
+          voorlichting in de provincie; het bevorderen van een goede ontwikkeling,
+          coördinatie en samenwerking op het gebied van het praktijkonderzoek; het
+          uitbrengen van adviezen aan het bestuur van de Stichting Ontwikkelings- en
+          Saneringsfonds voor de Landbouw over ontwikkelingsprojecten; het uitbrengen van
+          adviezen aan het bestuur van de Stichting Borgstellingsfonds voor de Landbouw
+          over Financieringsprojecten; het desgevraagd of eigener beweging uitbrengen van
+          adviezen aan de Landelijke Raad voor de Landbouwvoorlichting, aan de Nationale
+          Raad voor het Landbouwkundig Onderzoek, aan het bestuur van de Stichting
+          Ontwikkelings- en Saneringsfonds voor de Landbouw en het bestuur van Stichting
+          Borgstellingsfonds voor de Landbouw.</html:p>
+          <html:p>Vanaf de jaren ’70 gaven de provinciale raden eveneens advies aan bij
+          de uitvoering van het sociaal beleid en bij de uitvoering van het
+          moderniseringsbeleid betrokken LNV-directeuren (vanaf 1971 de directeur
+          Agrarische Productie, Verwerking en Afzet en diens taakopvolgers).</html:p>
+          <html:p>Het advies van de provinciale raden had onder meer betrekking op het
+          beslissen op aanvragen voor een bijdrage voor de ontwikkeling van
+          bedrijfsverzorgingsverenigingen en het beslissen op aanvragen voor een bijdrage
+          voor investeringen ter modernisering van de landbouwstructuur. De Provinciale
+          Raden zijn in 1995 opgeheven. De Landelijke Raad is in 1997 opgeheven.
+          Landbouwstructuurbeleid; een institutioneel onderzoek naar het handelen van de
+          overheidsorganen op het beleidsterrein Landbouwstructuurbeleid (1945-2000) (Den
+          Haag 2005) PIVOT-rapport 158.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Landbouwvoorlichtingsraad voor de provincie
+            Zuid-Holland, 1953-1971</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Stichting Provinciaal Onderzoekcentrum voor de Landbouw in
+          Zuid-Holland, 1956-1975</html:p>
+          <html:p>Op 28 juli 1961 werd de Stichting Provinciaal Onderzoekcentrum voor de
+          Landbouw in Zuid-Holland opgericht. De voorzitter en de secretaris van de
+          Provinciale Raad voor de Landbouwvoorlichting in Zuid-Holland traden op als
+          onderscheidenlijk voorzitter en secretaris van de stichting.</html:p>
+          <html:p>Het doel van de stichting was het bevorderen en coördineren van het
+          landbouwkundig onderzoek in de ruimste zin in de provincie Zuid-Holland. De
+          stichting trachtte dit doel te bereiken door: het instellen en financieren van
+          werkgroepen, die voor een bepaald onderzoek een werkplan opstellen, dat na
+          goedkeuring door het Bestuur onder toezicht van of door deze werkgroep wordt
+          uitgevoerd; alle verdere geoorloofde middelen, welke dienstig zijn aan het in
+          het vorig lid gestelde doel.</html:p>
+          <html:p>De stichting kende diverse werkgroepen, waaronder: Werkgroep Onderzoek
+          Rationele Bedrijfsvoering; Werkgroep Aardappelonderzoek; Werkgroep
+          Bodem-Plant-Dier Onderzoek.</html:p>
+          <html:p>Provinciale Landbouwvoorlichtingsraad voor de provincie Zuid-Holland,
+          1953-1971</html:p>
+          <html:p>In 1953 en 1954 werden respectievelijk de Landelijke Raad en de
+          Provinciale Raden voor de Rijkslandbouwvoorlichting ingesteld. De raden
+          adviseerden de minister en voerden overleg met het georganiseerde bedrijfsleven
+          over de (overheids)voorlichting. Een provinciale raad was samengesteld uit
+          vertegenwoordigers van de landbouworganisaties, de banken en een
+          vertegenwoordiger van de minister van Landbouw. De samenwerking tussen overheid
+          en bedrijfsleven was een wens geweest van de Stichting voor de Landbouw, die in
+          een rapport in 1951 stelde, dat bij de landbouwvoorlichting een veel
+          intensievere en officiële samenwerking tussen de ambtelijke diensten en het
+          georganiseerde bedrijfsleven gewenst was.</html:p>
+          <html:p>De noodzaak van een dergelijke samenwerking bleek des te meer, toen
+          kort na de instelling van de provinciale raden in 1954 werd begonnen met de
+          zogenaamde streekverbeteringen. Hier ging het om geïntensiveerde voorlichting
+          van de rijkslandbouwvoorlichtingsdienst in een bepaalde regio, waarbij nauw
+          werd samengewerkt met de agrarisch-sociale voorlichting van de
+          standsorganisaties. Ook toen in de jaren zestig werd begonnen met de zogenaamde
+          50/50 regeling, waarbij de kosten voor voorlichting in o.a. veevoedingskernen
+          en voor onderzoek werden gedeeld door overheid en bedrijfsleven, bleek een
+          formeel overlegorgaan tussen overheid en bedrijfsleven nuttig. Peter Priester,
+          Landbouwvoorlichting en bedrijfsontwikkeling in Overijssel en de
+          IJsselmeerpolders, 1890-1983; een historisch overzicht (Zwolle 1983)
+          37</html:p>
+          <html:p>Vanaf 1963 adviseerde de Provinciale Landbouwvoorlichtingsraad het
+          bestuur van de Stichting Borgstellingsfonds voor de Landbouw, deze stelde zich
+          garant voor rente en aflossing van door banken aan landbouwbedrijven verstrekte
+          kredieten, over individuele aanvragen tot borgstelling.</html:p>
+          <html:p>Provinciale Raad voor de Bedrijfsontwikkeling in de Landbouw voor de
+          provincie Zuid-Holland, 1965-1978</html:p>
+          <html:p>In 1965 is de raad overgegaan in de Provinciale Raad voor de
+          Bedrijfsontwikkeling in de Landbouw, ressorterend onder de directie Agrarische
+          Productie, Verwerking en Afzet. De Raad had tot taak in de provincie een goede
+          bedrijfsontwikkeling in de landbouw te bevorderen.</html:p>
+          <html:p>Hij vervulde zijn taak door Inventarisnummer 1 : het bevorderen van een
+          goede ontwikkeling, coördinatie en samenwerking op het gebied van de
+          voorlichting in de provincie; het bevorderen van een goede ontwikkeling,
+          coördinatie en samenwerking op het gebied van het praktijkonderzoek; het
+          uitbrengen van adviezen aan het bestuur van de Stichting Ontwikkelings- en
+          Saneringsfonds voor de Landbouw over ontwikkelingsprojecten; het uitbrengen van
+          adviezen aan het bestuur van de Stichting Borgstellingsfonds voor de Landbouw
+          over Financieringsprojecten; het desgevraagd of eigener beweging uitbrengen van
+          adviezen aan de Landelijke Raad voor de Landbouwvoorlichting, aan de Nationale
+          Raad voor het Landbouwkundig Onderzoek, aan het bestuur van de Stichting
+          Ontwikkelings- en Saneringsfonds voor de Landbouw en het bestuur van Stichting
+          Borgstellingsfonds voor de Landbouw.</html:p>
+          <html:p>Vanaf de jaren ’70 gaven de provinciale raden eveneens advies aan bij
+          de uitvoering van het sociaal beleid en bij de uitvoering van het
+          moderniseringsbeleid betrokken LNV-directeuren (vanaf 1971 de directeur
+          Agrarische Productie, Verwerking en Afzet en diens taakopvolgers).</html:p>
+          <html:p>Het advies van de provinciale raden had onder meer betrekking op het
+          beslissen op aanvragen voor een bijdrage voor de ontwikkeling van
+          bedrijfsverzorgingsverenigingen en het beslissen op aanvragen voor een bijdrage
+          voor investeringen ter modernisering van de landbouwstructuur. De Provinciale
+          Raden zijn in 1995 opgeheven. De Landelijke Raad is in 1997 opgeheven.
+          Landbouwstructuurbeleid; een institutioneel onderzoek naar het handelen van de
+          overheidsorganen op het beleidsterrein Landbouwstructuurbeleid (1945-2000) (Den
+          Haag 2005) PIVOT-rapport 158.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Raad voor de Bedrijfsontwikkeling in de Landbouw voor
+            de provincie Zuid-Holland, 1965-1978</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Stichting Provinciaal Onderzoekcentrum voor de Landbouw in
+          Zuid-Holland, 1956-1975</html:p>
+          <html:p>Op 28 juli 1961 werd de Stichting Provinciaal Onderzoekcentrum voor de
+          Landbouw in Zuid-Holland opgericht. De voorzitter en de secretaris van de
+          Provinciale Raad voor de Landbouwvoorlichting in Zuid-Holland traden op als
+          onderscheidenlijk voorzitter en secretaris van de stichting.</html:p>
+          <html:p>Het doel van de stichting was het bevorderen en coördineren van het
+          landbouwkundig onderzoek in de ruimste zin in de provincie Zuid-Holland. De
+          stichting trachtte dit doel te bereiken door: het instellen en financieren van
+          werkgroepen, die voor een bepaald onderzoek een werkplan opstellen, dat na
+          goedkeuring door het Bestuur onder toezicht van of door deze werkgroep wordt
+          uitgevoerd; alle verdere geoorloofde middelen, welke dienstig zijn aan het in
+          het vorig lid gestelde doel.</html:p>
+          <html:p>De stichting kende diverse werkgroepen, waaronder: Werkgroep Onderzoek
+          Rationele Bedrijfsvoering; Werkgroep Aardappelonderzoek; Werkgroep
+          Bodem-Plant-Dier Onderzoek.</html:p>
+          <html:p>Provinciale Landbouwvoorlichtingsraad voor de provincie Zuid-Holland,
+          1953-1971</html:p>
+          <html:p>In 1953 en 1954 werden respectievelijk de Landelijke Raad en de
+          Provinciale Raden voor de Rijkslandbouwvoorlichting ingesteld. De raden
+          adviseerden de minister en voerden overleg met het georganiseerde bedrijfsleven
+          over de (overheids)voorlichting. Een provinciale raad was samengesteld uit
+          vertegenwoordigers van de landbouworganisaties, de banken en een
+          vertegenwoordiger van de minister van Landbouw. De samenwerking tussen overheid
+          en bedrijfsleven was een wens geweest van de Stichting voor de Landbouw, die in
+          een rapport in 1951 stelde, dat bij de landbouwvoorlichting een veel
+          intensievere en officiële samenwerking tussen de ambtelijke diensten en het
+          georganiseerde bedrijfsleven gewenst was.</html:p>
+          <html:p>De noodzaak van een dergelijke samenwerking bleek des te meer, toen
+          kort na de instelling van de provinciale raden in 1954 werd begonnen met de
+          zogenaamde streekverbeteringen. Hier ging het om geïntensiveerde voorlichting
+          van de rijkslandbouwvoorlichtingsdienst in een bepaalde regio, waarbij nauw
+          werd samengewerkt met de agrarisch-sociale voorlichting van de
+          standsorganisaties. Ook toen in de jaren zestig werd begonnen met de zogenaamde
+          50/50 regeling, waarbij de kosten voor voorlichting in o.a. veevoedingskernen
+          en voor onderzoek werden gedeeld door overheid en bedrijfsleven, bleek een
+          formeel overlegorgaan tussen overheid en bedrijfsleven nuttig. Peter Priester,
+          Landbouwvoorlichting en bedrijfsontwikkeling in Overijssel en de
+          IJsselmeerpolders, 1890-1983; een historisch overzicht (Zwolle 1983)
+          37</html:p>
+          <html:p>Vanaf 1963 adviseerde de Provinciale Landbouwvoorlichtingsraad het
+          bestuur van de Stichting Borgstellingsfonds voor de Landbouw, deze stelde zich
+          garant voor rente en aflossing van door banken aan landbouwbedrijven verstrekte
+          kredieten, over individuele aanvragen tot borgstelling.</html:p>
+          <html:p>Provinciale Raad voor de Bedrijfsontwikkeling in de Landbouw voor de
+          provincie Zuid-Holland, 1965-1978</html:p>
+          <html:p>In 1965 is de raad overgegaan in de Provinciale Raad voor de
+          Bedrijfsontwikkeling in de Landbouw, ressorterend onder de directie Agrarische
+          Productie, Verwerking en Afzet. De Raad had tot taak in de provincie een goede
+          bedrijfsontwikkeling in de landbouw te bevorderen.</html:p>
+          <html:p>Hij vervulde zijn taak door Inventarisnummer 1 : het bevorderen van een
+          goede ontwikkeling, coördinatie en samenwerking op het gebied van de
+          voorlichting in de provincie; het bevorderen van een goede ontwikkeling,
+          coördinatie en samenwerking op het gebied van het praktijkonderzoek; het
+          uitbrengen van adviezen aan het bestuur van de Stichting Ontwikkelings- en
+          Saneringsfonds voor de Landbouw over ontwikkelingsprojecten; het uitbrengen van
+          adviezen aan het bestuur van de Stichting Borgstellingsfonds voor de Landbouw
+          over Financieringsprojecten; het desgevraagd of eigener beweging uitbrengen van
+          adviezen aan de Landelijke Raad voor de Landbouwvoorlichting, aan de Nationale
+          Raad voor het Landbouwkundig Onderzoek, aan het bestuur van de Stichting
+          Ontwikkelings- en Saneringsfonds voor de Landbouw en het bestuur van Stichting
+          Borgstellingsfonds voor de Landbouw.</html:p>
+          <html:p>Vanaf de jaren ’70 gaven de provinciale raden eveneens advies aan bij
+          de uitvoering van het sociaal beleid en bij de uitvoering van het
+          moderniseringsbeleid betrokken LNV-directeuren (vanaf 1971 de directeur
+          Agrarische Productie, Verwerking en Afzet en diens taakopvolgers).</html:p>
+          <html:p>Het advies van de provinciale raden had onder meer betrekking op het
+          beslissen op aanvragen voor een bijdrage voor de ontwikkeling van
+          bedrijfsverzorgingsverenigingen en het beslissen op aanvragen voor een bijdrage
+          voor investeringen ter modernisering van de landbouwstructuur. De Provinciale
+          Raden zijn in 1995 opgeheven. De Landelijke Raad is in 1997 opgeheven.
+          Landbouwstructuurbeleid; een institutioneel onderzoek naar het handelen van de
+          overheidsorganen op het beleidsterrein Landbouwstructuurbeleid (1945-2000) (Den
+          Haag 2005) PIVOT-rapport 158.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat:De archiefbescheiden gevormd door de Stichting
+      Provinciaal Onderzoekcentrum voor de Landbouw in Zuid-Holland in de periode
+      1956-1975, de Provinciale Landbouwvoorlichtingsraad voor de provincie Zuid-Holland
+      in de periode 1953-1971 en door de taakopvolger de Provinciale Raad voor de
+      Bedrijfsontwikkeling in de Landbouw voor de provincie Zuid-Holland in de periode
+      1965-1978.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Het archief is eigendom van de Staat der Nederlanden</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit de archieven is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3,3 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>95 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Uit dit archief zijn geen kopieën op een alternatieve drager als
+        microfilm, microfiche of in digitale vorm beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

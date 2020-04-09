@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/1ba7d971-19eb-41ce-837e-f5ef2335a841"
+  rdf:about="record/3.05.26">
+    <rico:identifier>3.05.26</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1988</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3377" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.05.26/i1" />
+      <rico:instantiates rdf:resource="record/3.05.26" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20191010</rico:hasModificationDate>
+        <html:p>10 oktober 2019</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Provinciale Inspectie en
+        Tehuizen voor de Bijzondere Jeugdzorg in de Provincie Zuid-Holland, (1945)
+        1946-1949 (1950)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/1ba7d971-19eb-41ce-837e-f5ef2335a841" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3377">
+    <rico:describedBy rdf:resource="record/3.05.26" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3377</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Bijzondere Jeugdzorg Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bijzondere Jeugdzorg ZH</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1950</rico:endDate>
+    <rico:date>1945-1950</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Provinciale Inspectie voor de Bijzondere Jeugdzorg in de
+            Provincie Zuid-HollandTehuis Badhuisweg 91-92, ScheveningenTehuis Bentveld,
+            BentveldTehuis Maximiliaanstraat (later eendrachtsweg), RotterdamTehuis
+            Offem, NoordwijkTehuis Overburgh, OostvoorneTehuis Renate, DordrechtTehuis De
+            Schakel, KatwijkTehuis Stella Maris, Wijk aan ZeeTehuis St. Jeroen,
+            Noordwijk</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De provinciale inspectie Zuid-Holland was gevestigd aan de
+          Bezuidenhoutseweg 76a in Den Haag en stond onder leiding van S. Nieboer,
+          provinciaal inspecteur. Eind 1946 werd de provinciale inspectie opgeheven. In
+          het archief zijn geen aanwijzingen gevonden, die een licht werpen op de
+          opheffing van de provinciale inspectie Zuid-Holland.</html:p>
+          <html:p>De provinciale inspectie was onderverdeeld in vier districtsinspecties:
+          Den Haag, Dordrecht, Leiden en Rotterdam. De districtsinspecties waren belast
+          met de opvang van pleegkinderen in de gezinsverpleging in het betreffende
+          ressort.</html:p>
+          <html:p>De districtsinspectie Den Haag nam vanaf 1 januari 1947 de taken en
+          funktie van de provinciale inspectie Zuid-Holland over. In 1948 en 1949 vond de
+          afwikkeling van de provinciale instanties voor de Bijzondere Jeugdzorg centraal
+          plaats vanuit de districtsinspectie Den Haag. Met ingang van 19 december 1948
+          en 1 juni 1949 werden achtereenvolgens de afwikkeling van de inspecties Limburg
+          (Maastricht) en Gelderland (Arnhem) overgenomen door het districtsbureau Den
+          Haag. De archieven van de inspecties Limburg en Gelderland berusten in de
+          rijksarchiefbewaarplaatsen Limburg en Gelderland.</html:p>
+          <html:p>De opheffing van het districtsbureau Den Haag volgde in de eerste helft
+          van 1950.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de provinciale inspectie Zuid-Holland voor de Bijzondere
+      Jeugdzorg (1946-1949) en de districtsinspecties bestaat naast ingekomen en
+      uitgaande brieven en financiële stukken grotendeels uit registratiekaarten en
+      persoonsdossiers van pleegkinderen in tehuizen en pleeggezinnen, waaronder
+      verslagen en notities van besprekingen van het Nederlands Volksherstel en Militair
+      Gezag inzake de opvang en zorg van NSB-kinderen. Het is in verband met de
+      persoonsgegevens gedeeltelijk zeer beperkt toegankelijk.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Bij publicatie van gegevens uit
+      het archief is toestemming nodig van het Ministerie van Justitie.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>232 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>19,80 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

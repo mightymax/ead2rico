@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/3cd70a4e-c3f9-4471-9f3d-1ea6a9638ae7"
+  rdf:about="record/2.14.55">
+    <rico:identifier>2.14.55</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/O28521" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.14.55/i1" />
+      <rico:instantiates rdf:resource="record/2.14.55" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Programmacommissie
+        Ontwikkeling Schoolwerkplannen, 1975-1979</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/3cd70a4e-c3f9-4471-9f3d-1ea6a9638ae7" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/O28521">
+    <rico:describedBy rdf:resource="record/2.14.55" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>O28521</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Programmacommissie Ontwikkeling Schoolwerkplannen van het
+      Ministerie van Onderwijs, Kunsten en Wetenschappen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>OKW / Ontwikkeling Schoolwerkplannen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1975</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1979</rico:endDate>
+    <rico:date>1975-1979</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Programmacommissie Ontwikkeling Schoolwerkplannen,
+            1975-1979</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De programmacommissie Ontwikkeling Schoolwerkplannen, afgekort als SWP,
+          werd in november 1975 op voorstel van een voorbereidingsgroep samengesteld. Zij
+          aanvaardde haar taak op 18 december 1975. Er bestaat geen officieel
+          instellingsbesluit. Er is wel een brief aan de Tweede Kamer gezonden
+          betreffende Nascholing aan Onderwijsgevenden, 13.798 nr. 4 d.d. 5 maart 1976 en
+          een circulaire onder nummer HBD 18.762 d.d. 31 maart 1976, waarin van de
+          taakaanvaarding en samenstelling melding werd gemaakt.</html:p>
+          <html:p>De voorbereidingsgroep werd in het najaar van 1975 gevormd en bestond
+          uit vertegenwoordigers van de inspecties kleuter- en lager onderwijs, de
+          opleiding voor kleuter-leidsters en opleidingen voor onderwijzer, de
+          innovatiecommissie (lCB) en voorts uit beleidsambtenaren van het Ministerie van
+          Onderwijs en Wetenschappen. Deze voorbereidingsgroep heeft een eerste
+          conceptplan ontworpen en na bespreking hiervan met de personeelsorganisaties de
+          minister geadviseerd tot het samenstellen van een programmacommissie. In de
+          programmacommissie zaten vertegenwoordigers uit de inspecties van kleuter- en
+          lager onderwijs, een medewerker van het Christelijk Pedagogisch Studie-centrum
+          (CPS) en een medewerker van de schoolpedagogische dienst. Tevens werden daarin
+          twee waarnemers/adviseurs uit de inspectie KO en LO opgenomen. De taak van de
+          programmacommissie bestond uit: Het ontwerpen en organiseren van een eerste
+          landelijk gecoördineerde nascholingscursus voor onderwijsgevenden uit het
+          kleuter- en lager onderwijs rond het thema
+          'schoolwerkplan-ontwikkeling'.</html:p>
+          <html:p>Schoolwerkplannen zijn werkplannen van activiteiten die binnen een
+          school worden verricht.</html:p>
+          <html:p>De cursusplannen zijn tot stand gekomen als antwoord op wensen uit het
+          onderwijsveld. De werkperiode van de programmacommissie liep van 1975 t/m 1979.
+          De eerste cursussen, waarvoor experimenteerplannen en raamplannen dienden ter
+          oriëntatie voor de deelnemers en de uitvoerders van de nascholing, startten in
+          het najaar van 1976. Het doel van de cursussen was het bekwaam worden van
+          kleuterleidsters en onderwijzers om samen met medeteamleden het schoolwerkplan
+          voor de eigen school op te stellen.</html:p>
+          <html:p>De cursus bestond uit drie fasen: Bewustwording en doordenking van de
+          huidige onderwijssituatie en het bevorderen van de veranderingsbereidheid in
+          het kader van nieuwe ontwikkelingen.Conceptontwikkeling van de toekomstige
+          structuur van het onderwijs in een samen-werkingsverband.Ontwikkelen en
+          toepassen van deelaspecten van het schoolwerkplan.</html:p>
+          <html:p>Gedurende de cursus kwamen vanuit de schoolkoppels steeds meer geluiden
+          dat de cursus onvoldoende aansluiting had op de praktijk. De voorstellen van de
+          docenten om daar verbetering in te brengen door de teams werden afgehouden. Dit
+          kwam dermate veel voor dat een aantal docenten duidelijk vraagtekens plaatste
+          bij de realiteitswaarde van de intenties van enkele teams. Ook waren er
+          klachten over de positie van de docenten. Er zouden te weinig mogelijkheden
+          zijn verschaft om te zien of er door de cursus veranderingen op school hadden
+          plaats gevonden. Dit punt was moeilijk bespreekbaar te stellen in de cursus. Om
+          de relatie tussen schoolpraktijk en cursus tot stand te brengen werd onder
+          andere gesuggereerd: het in de cursus ontwerpen van nieuwe onderdelen die in de
+          schoolpraktijk moesten worden opgenomen en het reserveren van ruimte in de
+          cursus om problemen te bestrijden die in de praktijk voorkwamen. Een opvallend
+          detail was dat de suggesties ongeveer gelijkluidend waren. Pas in het derde
+          jaar heeft men verband kunnen leggen tussen de cursus en de schoolpraktijk. De
+          suggesties verwezen naar een ander didactiek van de nascholing. Bij dit begrip
+          ging het om praktijkproblemen tot inzet van het cursusplan te maken.</html:p>
+          <html:p>De eerdergenoemde raamplannen zijn op twee punten te kort geschoten. In
+          de eerste plaats boden ze geen helder en duidelijk overzicht van de opzet, vorm
+          en inhoud van de cursus. In de tweede plaats verschaften de raamplannen geen
+          duidelijkheid over de centrale begrippen als scholingsconcept en
+          schoolwerkplan. De docenten slaagden er al evenmin in tot de gewenste
+          duidelijkheid in de uitleg te komen naar de cursisten toe. Het gevolg was dat
+          aan deze begrippen sterk uiteenlopende betekenissen werden toegekend door de
+          deelnemers, wat een zeer nadelige invloed op het cursusverloop heeft gehad. In
+          1979 werd de taak van de programmacommissie Ontwikkeling Schoolwerkplannen
+          overgenomen door de programma-commissie Bijscholing Integratie KO/LO als gevolg
+          van een andere zienswijze t.a.v. het begrip nascholing door de nieuwe minister
+          van Onderwijs en Wetenschappen, dr. A.Pais, die in 1978 van Kemenade
+          opvolgde.</html:p>
+          <html:p>Geraadpleegde bronnen: Het eindverslag van de programmacommissie
+          ontwikkeling van schoolwerkplannen. 1980De eindevaluatie van de Universiteit
+          Amsterdam het Pedagogisch Didactisch Instituut. 1980</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Programmacommissie Ontwikkeling Schoolwerkplannen bevat
+      stukken betreffende haar activiteiten bij het ontwerpen en organiseren van de
+      eerste landelijke nascholingscursus voor onderwijsgevenden uit het kleuter- en
+      lager onderwijs. Het archief bestaat uit agenda's en verslagen van vergaderingen
+      waaraan de in het archief aanwezige bijlagen per vergadering zijn toegevoegd.
+      Voorts bestaat het archief uit verslagen van voorscholingsdagen en notulen van
+      cursusbijeenkomsten; deze zijn chronologisch en per cursusjaar opgeborgen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>19 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

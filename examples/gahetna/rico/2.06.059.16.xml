@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d8a4eb72-74ce-4519-843d-5af85d20d7da"
+  rdf:about="record/2.06.059.16">
+    <rico:identifier>2.06.059.16</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1990</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/E20213" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.06.059.16/i1" />
+      <rico:instantiates rdf:resource="record/2.06.059.16" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20070920</rico:hasModificationDate>
+        <html:p>20 september 2007</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2003-06-03</rico:hasModificationDate>
+        <html:p>2003-06-03</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2002-10</rico:hasModificationDate>
+        <html:p>oktober 2002</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ministerie van Economische
+        Zaken: Bureau Zakenreizen, 1945-1950</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d8a4eb72-74ce-4519-843d-5af85d20d7da" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/E20213">
+    <rico:describedBy rdf:resource="record/2.06.059.16" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>E20213</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Economische Zaken: Bureau
+      Zakenreizen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>EZ / Zakenreizen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1950</rico:endDate>
+    <rico:date>1945-1950</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Handel en Nijverheid / Directie Herstel en
+            Voorziening / Afdeling Transport en Energie / Bureau Zakenreizen 1945
+            juli-1946 juli</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij het weer op gang komen van het economische leven, direct na de
+          bevrijding, bestond de behoefte en de noodzaak tot het weer opbouwen van de
+          handels- en zakenrelaties met het buitenland. Daarnaast had Nederland een
+          ernstig gebrek aan buitenlandse deviezen. Dat was de reden dat slechts op zeer
+          beperkte schaal reizen naar het buitenland gemaakt mochten worden. Bovendien
+          wilde men voorkomen dat Nederlanders die zich tijdens de bezetting niet al te
+          vaderlandslievend hadden gedragen Nederland, en daarmee hun vervolging, zouden
+          ontvluchten.</html:p>
+          <html:p>Ieder die Nederland om welke reden dan ook wilde verlaten, moest zich
+          aan een aantal formaliteiten onderwerpen. Behalve een paspoort diende men te
+          beschikken over een deviezenreisvergunning, waarmee men bij een bank een
+          beperkte hoeveelheid buitenlands geld kon kopen. Een gunstige verklaring van
+          het Bureau Nationale Veiligheid was eveneens noodzakelijk. Voorts wensten de
+          overheden van de te bezoeken landen aanvankelijk ook niet iedereen tot hun land
+          toe te laten. Men moest dus over een visum of een permit beschikken. Die kreeg
+          men meestal slechts als men over een verklaring van de eigen overheid
+          beschikte, dat de gewenste reis nodig en nuttig was voor beide landen.</html:p>
+          <html:p>Verschillende ministeries waren met de uitvoering van al deze regels
+          belast. Bij het Ministerie van Handel en Nijverheid, sinds 1946 van Economische
+          Zaken, behoorde het tot de taak van het Bureau Zakenreizen om
+          deviezenreisvergunningen af te geven aan zakenlieden die naar het buitenland
+          wilden gaan om de export weer op gang te brengen. Ook bemiddelde het bureau bij
+          het verkrijgen van allerlei noodzakelijke formulieren en stempels die verder
+          voor zo'n reis nodig waren. Tevens verrichtte men dezelfde werkzaamheden voor
+          ambtenaren van het eigen ministerie die een buitenlandse dienstreis moesten
+          maken.</html:p>
+          <html:p>Per 1 januari 1950 werd het Bureau Zakenreizen opgeheven. De
+          activiteiten t.a.v. de verstrekking van deviezenreisvergunningen gingen over
+          naar De Nederlandsche Bank N.V.. De overige taken werden voortaan uitgevoerd
+          door het per 1 januari 1950 opgerichte Bureau Ambtenarenreizen.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Economische Zaken / Directie Herstel en
+            Voorziening / Afdeling Transport en Energie / Bureau Zakenreizen 1946
+            juli-1949 januari</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij het weer op gang komen van het economische leven, direct na de
+          bevrijding, bestond de behoefte en de noodzaak tot het weer opbouwen van de
+          handels- en zakenrelaties met het buitenland. Daarnaast had Nederland een
+          ernstig gebrek aan buitenlandse deviezen. Dat was de reden dat slechts op zeer
+          beperkte schaal reizen naar het buitenland gemaakt mochten worden. Bovendien
+          wilde men voorkomen dat Nederlanders die zich tijdens de bezetting niet al te
+          vaderlandslievend hadden gedragen Nederland, en daarmee hun vervolging, zouden
+          ontvluchten.</html:p>
+          <html:p>Ieder die Nederland om welke reden dan ook wilde verlaten, moest zich
+          aan een aantal formaliteiten onderwerpen. Behalve een paspoort diende men te
+          beschikken over een deviezenreisvergunning, waarmee men bij een bank een
+          beperkte hoeveelheid buitenlands geld kon kopen. Een gunstige verklaring van
+          het Bureau Nationale Veiligheid was eveneens noodzakelijk. Voorts wensten de
+          overheden van de te bezoeken landen aanvankelijk ook niet iedereen tot hun land
+          toe te laten. Men moest dus over een visum of een permit beschikken. Die kreeg
+          men meestal slechts als men over een verklaring van de eigen overheid
+          beschikte, dat de gewenste reis nodig en nuttig was voor beide landen.</html:p>
+          <html:p>Verschillende ministeries waren met de uitvoering van al deze regels
+          belast. Bij het Ministerie van Handel en Nijverheid, sinds 1946 van Economische
+          Zaken, behoorde het tot de taak van het Bureau Zakenreizen om
+          deviezenreisvergunningen af te geven aan zakenlieden die naar het buitenland
+          wilden gaan om de export weer op gang te brengen. Ook bemiddelde het bureau bij
+          het verkrijgen van allerlei noodzakelijke formulieren en stempels die verder
+          voor zo'n reis nodig waren. Tevens verrichtte men dezelfde werkzaamheden voor
+          ambtenaren van het eigen ministerie die een buitenlandse dienstreis moesten
+          maken.</html:p>
+          <html:p>Per 1 januari 1950 werd het Bureau Zakenreizen opgeheven. De
+          activiteiten t.a.v. de verstrekking van deviezenreisvergunningen gingen over
+          naar De Nederlandsche Bank N.V.. De overige taken werden voortaan uitgevoerd
+          door het per 1 januari 1950 opgerichte Bureau Ambtenarenreizen.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ministerie van Economische Zaken / Directoraat Administratieve
+            Zaken / Afdeling Materiaal en Huisvesting / Bureau Zakenreizen 1949
+            februari-december</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij het weer op gang komen van het economische leven, direct na de
+          bevrijding, bestond de behoefte en de noodzaak tot het weer opbouwen van de
+          handels- en zakenrelaties met het buitenland. Daarnaast had Nederland een
+          ernstig gebrek aan buitenlandse deviezen. Dat was de reden dat slechts op zeer
+          beperkte schaal reizen naar het buitenland gemaakt mochten worden. Bovendien
+          wilde men voorkomen dat Nederlanders die zich tijdens de bezetting niet al te
+          vaderlandslievend hadden gedragen Nederland, en daarmee hun vervolging, zouden
+          ontvluchten.</html:p>
+          <html:p>Ieder die Nederland om welke reden dan ook wilde verlaten, moest zich
+          aan een aantal formaliteiten onderwerpen. Behalve een paspoort diende men te
+          beschikken over een deviezenreisvergunning, waarmee men bij een bank een
+          beperkte hoeveelheid buitenlands geld kon kopen. Een gunstige verklaring van
+          het Bureau Nationale Veiligheid was eveneens noodzakelijk. Voorts wensten de
+          overheden van de te bezoeken landen aanvankelijk ook niet iedereen tot hun land
+          toe te laten. Men moest dus over een visum of een permit beschikken. Die kreeg
+          men meestal slechts als men over een verklaring van de eigen overheid
+          beschikte, dat de gewenste reis nodig en nuttig was voor beide landen.</html:p>
+          <html:p>Verschillende ministeries waren met de uitvoering van al deze regels
+          belast. Bij het Ministerie van Handel en Nijverheid, sinds 1946 van Economische
+          Zaken, behoorde het tot de taak van het Bureau Zakenreizen om
+          deviezenreisvergunningen af te geven aan zakenlieden die naar het buitenland
+          wilden gaan om de export weer op gang te brengen. Ook bemiddelde het bureau bij
+          het verkrijgen van allerlei noodzakelijke formulieren en stempels die verder
+          voor zo'n reis nodig waren. Tevens verrichtte men dezelfde werkzaamheden voor
+          ambtenaren van het eigen ministerie die een buitenlandse dienstreis moesten
+          maken.</html:p>
+          <html:p>Per 1 januari 1950 werd het Bureau Zakenreizen opgeheven. De
+          activiteiten t.a.v. de verstrekking van deviezenreisvergunningen gingen over
+          naar De Nederlandsche Bank N.V.. De overige taken werden voortaan uitgevoerd
+          door het per 1 januari 1950 opgerichte Bureau Ambtenarenreizen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Na de Tweede Wereldoorlog was de mogelijkheid om naar het buitenland te
+      reizen zeer beperkt. Voor zakenreizen verzorgde het Bureau Zakenreizen van het
+      Ministerie van Economische Zaken de nodige formaliteiten. Het archief van dit
+      bureau bevat circulaires, voorlichtingsmateriaal en instructies over de toepassing
+      van wettelijke voorschriften voor het verkrijgen van toestemming voor buitenlandse
+      zakenreizen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteurrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>12 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

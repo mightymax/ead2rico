@@ -1,0 +1,4019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:10:01 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.177.06::Burgerlijke Stand Rotterdam Huwelijksaangiften)//NL" url="http://proxy.handle.net/10648/80895182-a1a1-44e4-b258-579e5c3675bd" urn="3.177.06.ead.xml">3.177.06</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van de Burgerlijke Stand der gemeente Rotterdam: Akten van Huwelijksaangiften, 1812-1932</titleproper>
+        <author>C. Carbaat, I. Koolhoven, G.G.J. Boink</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="2004">2004</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Niels vDriel, 
+		  <date calendar="gregorian" era="ce" normal="20090714">14 juli 2009</date>
+      </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">
+          <title linktype="simple">ISAD (G) : General International Standard Archival Description, second edition</title>, Ottawa 2000</bibref>;
+                  <bibref linktype="simple">
+          <title linktype="simple">Archiefterminologie voor Nederland en Vlaanderen</title>, Stichting Archiefpublicaties, 's-Gravenhage 2003</bibref>.
+                </descrules>
+    </profiledesc>
+    <revisiondesc audience="internal">
+      <change>
+        <date calendar="gregorian" era="ce"/>
+        <item/>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Burgerlijke Stand Rotterdam Huwelijksaangiften</unittitle>
+      <unittitle type="short">BS Rotterdam Huw.aang.</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1812/1932" type="inclusive">1812-1932</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">32591</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">10.00 meter; </extent>
+        
+      <extent unit="files">354 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Gemeente Rotterdam / Burgerlijke Stand</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Akten van huwelijksaangiften van de Burgerlijke Stand Rotterdam uit de periode 1812-1932.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">3.04</subject>
+      </controlaccess>
+      
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+            <item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Burgerlijke Stand Rotterdam Huwelijksaangiften, 1838-1932, nummer toegang 3.177.06, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, BS Rotterdam Huw.aang., 3.177.06, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+      <relatedmaterial>
+        <head>Verwante archieven</head>
+        <p>Onder 3.177 vallen diverse archieven van de burgerlijke stand van Rotterdam.</p>
+      </relatedmaterial>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="otherlevel" otherlevel="filegrp">
+        <did>
+          <unitid>1-26</unitid>
+          <unittitle>
+            <unitdate calendar="gregorian" era="ce">1812-1838.</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Ontbreken</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536948" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ae61e50-3ecc-456a-a4ee-2f04b8badcf0</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536949" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d70e9571-f346-4906-93df-9a1845c42656</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536950" type="ABS">3</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2fe0d261-f554-4586-97fe-d39a6ba8f38d</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536951" type="ABS">4</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/87fab425-8a53-4a87-bdfd-87cb2851c847</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536952" type="ABS">5</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab2d473c-b9ef-4da5-b811-f45be659b2c5</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536953" type="ABS">6</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b6bff6e3-2bf9-470e-8b19-ed6fab6b2009</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536954" type="ABS">7</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fb863a6f-aa4e-49f9-ae4c-c6df06f85924</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536955" type="ABS">8</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3fddae1-3203-4ab6-8af5-274613c25ba6</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536956" type="ABS">9</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/99994c4b-0a54-497f-a6df-c5d0e61e40fe</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536957" type="ABS">10</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6dd0eb17-fbae-49d2-9874-8fc59f3b62cf</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536958" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cf9d33bb-900b-4148-99c9-50cbb134b8d7</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536959" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac3c8beb-951c-439a-91ca-3165d18e6095</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536960" type="ABS">13</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a29a967-008b-41a4-9361-ee5bc0c433a4</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536961" type="ABS">14</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9aa64b15-4a19-43f8-988d-81b45ca07f47</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536962" type="ABS">15</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83a302dc-b0af-4ff0-acc9-0df41c20d8a4</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536963" type="ABS">16</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a007d82-8115-4fba-bf38-cf8744a85101</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536964" type="ABS">17</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8525182e-5de4-4e8f-b8bf-5f41a0c09c9b</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536965" type="ABS">18</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/865e4046-00dd-4531-9301-931d176e5158</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536966" type="ABS">19</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2d9493d3-dd98-42b6-a9b4-5cda0b3195fe</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536967" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/24154684-f6d5-4024-8e71-ce146dc6eb3b</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536968" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9a29f495-9b64-47d0-9af7-6c9327143cd9</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536969" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9c3f303-3c76-4ddd-bba9-184ae7af1724</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536970" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8cbe5415-f232-429c-a855-d148580e9c13</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536971" type="ABS">24</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcf41511-829b-4ae5-8256-f4b5737c7f12</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536972" type="ABS">25</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/48526d79-800f-4652-8683-68cfb0c14f6c</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="2536973" type="ABS">26</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ad1f33d-bfcd-473d-9964-61d976bb70b5</unitid>
+            <unittitle>Niet gespecificeerd.</unittitle>
+            <physloc type="ABS">Ontbreekt</physloc>
+          </did>
+          <scopecontent>
+            <p>Ontbreekt</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536974" type="ABS">27</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f0017e8-dba5-433f-8b47-f69bb523599c</unitid>
+          <unittitle>4 oktober - 15 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1838</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536975" type="ABS">28</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f533fce-4cd3-4f0e-b20d-f4d8f6e592eb</unitid>
+          <unittitle>15 november - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1838</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536976" type="ABS">29</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/058b1c04-3be4-4324-a187-28e2f79028e7</unitid>
+          <unittitle>3 januari - 18 april.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1839</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536977" type="ABS">30</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59217718-2e40-4d4a-a886-4342500660fb</unitid>
+          <unittitle>18 april - 20 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1839</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536978" type="ABS">31</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d3d977d-fcb8-411f-ac92-a12919995637</unitid>
+          <unittitle>20 september - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1839</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536979" type="ABS">32</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1694d58c-6094-43f1-b0ae-df6a50b917eb</unitid>
+          <unittitle>2 januari - 23 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1840</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536980" type="ABS">33</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7052d162-a4b1-44f7-9c94-db86fa3d77aa</unitid>
+          <unittitle>23 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1840</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536981" type="ABS">34</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ac68d71-17e1-49f0-a2f6-692ceae365aa</unitid>
+          <unittitle>
+            <unitdate calendar="gregorian" era="ce">1840</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Bijlagen bij Huwelijksaangiften; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536982" type="ABS">35</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed3bbeab-8e90-487b-931f-dd434678d645</unitid>
+          <unittitle>7 januari - 11 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1841</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536983" type="ABS">36</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4e93bde-700a-4de5-84a3-1a574f6e142f</unitid>
+          <unittitle>12 augustus - 17 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1841</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536984" type="ABS">37</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3149345-483f-4f07-aec2-a17411a705e7</unitid>
+          <unittitle>23 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1841</unitdate>
+        </did>
+        <scopecontent>
+          <p>Supplement; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536985" type="ABS">38</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab7acf46-8310-4bce-bd03-46fe5436aacd</unitid>
+          <unittitle>
+            <unitdate calendar="gregorian" era="ce">1841</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Bijlagen bij Huwelijksaangiften; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536986" type="ABS">39</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f3eef90-8739-49a3-858c-ccf5ef0d7311</unitid>
+          <unittitle>7 januari - 19 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1842</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536987" type="ABS">40</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/21969e6f-4676-4a29-91d4-7ea826722b87</unitid>
+          <unittitle>19 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1842</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536988" type="ABS">41</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/88ba15ca-706f-45b9-9009-5a3bc92a4ba8</unitid>
+          <unittitle>
+            <unitdate calendar="gregorian" era="ce">1842</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Bijlagen bij Huwelijksaangiften; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536989" type="ABS">42</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2812470c-d88a-400c-8446-31fde3929caa</unitid>
+          <unittitle>
+            <unitdate calendar="gregorian" era="ce">1842</unitdate>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Bijlagen bij Huwelijksaangiften; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536990" type="ABS">43</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b45ea9fe-d178-4886-be7c-b23fb7b6f80b</unitid>
+          <unittitle>5 januari - 21 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1843</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536991" type="ABS">44</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25a68477-c594-4a5b-8880-1db02b5eb096</unitid>
+          <unittitle>21 juli - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1843</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536992" type="ABS">45</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13289405-4d58-41f3-a7ae-2a2f35ca3eef</unitid>
+          <unittitle>4 januari - 25 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1844</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536993" type="ABS">46</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c38f6d16-b17b-4eab-acfa-d7956ad071bd</unitid>
+          <unittitle>26 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1844</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536994" type="ABS">47</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ec1331f-cc0b-4302-abdc-8f3e23ea5983</unitid>
+          <unittitle>2 januari - 18 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1845</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536995" type="ABS">48</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd22a3d8-65d1-4087-89ab-a3ef1d8aac37</unitid>
+          <unittitle>18 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1845</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536996" type="ABS">49</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e32e15fb-15f6-460e-a73e-29fc3b69bde6</unitid>
+          <unittitle>2 januari - 24 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1846</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536997" type="ABS">50</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c7ba677-26c6-4c67-bef3-d7dd16e863f5</unitid>
+          <unittitle>24 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1846</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536998" type="ABS">51</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/db01e719-65e4-4994-b811-e951216d4084</unitid>
+          <unittitle>7 januari - 13 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1847</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2536999" type="ABS">52</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c12d5460-35e7-4c74-b483-7fdbdeb4a097</unitid>
+          <unittitle>13 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1847</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537000" type="ABS">53</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/502b442e-c2c0-441d-8a4c-5370ce356a87</unitid>
+          <unittitle>6 januari - 28 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1848</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537001" type="ABS">54</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ae9a128-f89b-4169-ac5e-6bd14bd0fb1b</unitid>
+          <unittitle>28 juli - 16 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1848</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537002" type="ABS">55</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea33cbe5-212c-4118-b661-20797810cf6c</unitid>
+          <unittitle>16 november - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1848</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537003" type="ABS">56</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/07f4ce6d-6551-4867-9d36-0d5c9c55e89c</unitid>
+          <unittitle>5 januari - 5 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1849</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537004" type="ABS">57</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b056212b-e8bc-44cc-af03-d4528c53506c</unitid>
+          <unittitle>6 juli - 1 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1849</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537005" type="ABS">58</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c80b961-efff-441b-8c5d-3c8282fff161</unitid>
+          <unittitle>1 november - 14 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1849</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537006" type="ABS">59</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f144ff72-e2f3-4125-bd57-0845d9a531c9</unitid>
+          <unittitle>14 december - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1849</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537007" type="ABS">60</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/733605ad-4a21-4874-a51e-1b14e84e8cc9</unitid>
+          <unittitle>3 januari - 31 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1850</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537008" type="ABS">61</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7eb04cdc-0d25-4344-9be6-0f23b51f8ae2</unitid>
+          <unittitle>31 mei - 17 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1850</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537009" type="ABS">62</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4026bc17-1caf-4e36-be9d-4b9c9cf6d99f</unitid>
+          <unittitle>17 oktober - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1850</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537010" type="ABS">63</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97728b83-d852-4dda-a5a7-cb70cdfee21b</unitid>
+          <unittitle>2 januari - 22 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1851</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537011" type="ABS">64</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0dc36801-9f88-400c-b1a1-0c725e550506</unitid>
+          <unittitle>22 mei - 15 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1851</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537012" type="ABS">65</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c5e90a1-6a1c-41f0-a154-593f5b315a0f</unitid>
+          <unittitle>15 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1851</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537013" type="ABS">66</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f97f712a-6213-429b-8ba8-58f7fda6934b</unitid>
+          <unittitle>2 januari - 3 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1852</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537014" type="ABS">67</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb0ca2f6-8bce-44ec-9733-21648ae0f5be</unitid>
+          <unittitle>3 juni - 11 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1852</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537015" type="ABS">68</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a7099642-d11c-43ff-9c89-218bbef3b351</unitid>
+          <unittitle>11 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1852</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537016" type="ABS">69</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8263714-849e-412b-98eb-9129f5e3561b</unitid>
+          <unittitle>6 januari - 1 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1853</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537017" type="ABS">70</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b2b4b03-d6ae-453b-9219-0531ef742c78</unitid>
+          <unittitle>1 juli - 16 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1853</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537018" type="ABS">71</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8d72863-43df-4b83-b6b7-4efc81bd0ce0</unitid>
+          <unittitle>16 december - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1853</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537019" type="ABS">72</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e8c43bd7-065b-4c85-87af-32e09885a2cf</unitid>
+          <unittitle>5 januari - 23 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1854</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537020" type="ABS">73</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0ba13f29-bf32-4aba-9e80-71e5965068ea</unitid>
+          <unittitle>23 juni - 15 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1854</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537021" type="ABS">74</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e0fa3d13-3ffc-440b-bfbe-e19c63d4b2ec</unitid>
+          <unittitle>15 december - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1854</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537022" type="ABS">75</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d255f1b3-cdfe-4115-8503-bf14abe067fd</unitid>
+          <unittitle>4 januari - 5 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1855</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537023" type="ABS">76</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e127725-13a4-4bdd-a059-e766edeceb63</unitid>
+          <unittitle>5 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1855</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537024" type="ABS">77</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6cdf4c69-3af6-466c-a275-945f370dc3c7</unitid>
+          <unittitle>28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1855</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537025" type="ABS">78</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e8232a6-1d7a-4ad0-9814-8846a475e7a1</unitid>
+          <unittitle>3 januari - 19 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1856</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537026" type="ABS">79</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/05b67d5f-98f7-42a7-9a66-4d2f94b6a10f</unitid>
+          <unittitle>19 juni - 14 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1856</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537027" type="ABS">80</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b367461-3125-4c03-b9e6-9530645faf3c</unitid>
+          <unittitle>14 november - 24 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1856</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537028" type="ABS">81</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98127c12-cee2-4757-b144-6c618ac500ff</unitid>
+          <unittitle>24 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1856</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537029" type="ABS">82</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fde14f40-5cbe-4666-a7a4-3be35a936db6</unitid>
+          <unittitle>2 januari - 19 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1857</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537030" type="ABS">83</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/44e20156-da98-4a0c-8d89-5c78dd01d6ec</unitid>
+          <unittitle>19 juni - 12 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1857</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537031" type="ABS">84</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d906ffe-9c8a-46c0-8f87-ae8378757849</unitid>
+          <unittitle>12 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1857</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537032" type="ABS">85</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f1abea3-eaa1-471e-ba7d-fc9ec05e473c</unitid>
+          <unittitle>7 januari - 18 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1858</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537033" type="ABS">86</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25859746-f294-463e-9922-ead18090a397</unitid>
+          <unittitle>18 juni - 3 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1858</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537034" type="ABS">87</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c872fa9c-4e64-479b-abb5-a27d01bb6023</unitid>
+          <unittitle>3 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1858</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537035" type="ABS">88</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8af1340f-8244-48ec-a2de-81b113dfc627</unitid>
+          <unittitle>6 januari - 17 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1859</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537036" type="ABS">89</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/835f7d85-57f9-4fc6-94c3-c048cc5c59e6</unitid>
+          <unittitle>23 juni - 11 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1859</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537037" type="ABS">90</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ec17e11-200b-490f-8c46-37339cfb7c53</unitid>
+          <unittitle>11 november - 15 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1859</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537038" type="ABS">91</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3dcc8af-d82a-43c3-a03b-62bc806ddb47</unitid>
+          <unittitle>15 december - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1859</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537039" type="ABS">92</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3799dac8-8ed8-445a-9634-08821f131bdf</unitid>
+          <unittitle>5 januari - 24 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1860</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537040" type="ABS">93</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90605266-5f3c-4428-9267-f54fdd29ec9d</unitid>
+          <unittitle>27 mei - 19 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1860</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537041" type="ABS">94</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/155da797-1bce-4849-ae33-75e119f175f1</unitid>
+          <unittitle>19 oktober - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1860</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537042" type="ABS">95</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/34c370d9-455d-4c8a-82fc-7f00c5a48fce</unitid>
+          <unittitle>3 januari - 7 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1861</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537043" type="ABS">96</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9961cb00-de87-4551-b4b4-f4e02b3b0fc1</unitid>
+          <unittitle>7 juni - 7 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1861</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537044" type="ABS">97</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/605a6d2f-e9b5-4f37-a808-e24eca437c9f</unitid>
+          <unittitle>7 november - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1861</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537045" type="ABS">98</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f71813ac-5337-4280-bae1-9d8779285b2b</unitid>
+          <unittitle>2 januari - 30 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1862</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537046" type="ABS">99</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1685e20d-ad65-4c9a-ba79-9897df10fb29</unitid>
+          <unittitle>30 mei - 31 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1862</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537047" type="ABS">100</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7842f135-9a20-47a0-9557-504b74b6808b</unitid>
+          <unittitle>5 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1862</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537048" type="ABS">101</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/db4545ae-fd68-4fb5-b674-f0420f4869aa</unitid>
+          <unittitle>2 januari - 28 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1863</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537049" type="ABS">102</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1133238e-3f41-4791-9209-254872f55154</unitid>
+          <unittitle>28 mei - 23 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1863</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537050" type="ABS">103</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2711c5bc-3ed8-475b-a5ea-2db2fb88b0f8</unitid>
+          <unittitle>23 oktober - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1863</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537051" type="ABS">104</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13fa510c-1c49-4e09-af92-66c1c04c4a4c</unitid>
+          <unittitle>2 januari - 2 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1864</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537052" type="ABS">105</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c14fda40-5c86-4512-bba9-be41204433ce</unitid>
+          <unittitle>2 juni - 7 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1864</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537053" type="ABS">106</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1c0ffc6a-5231-461d-a4ab-b44d048e18bb</unitid>
+          <unittitle>13 oktober - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1864</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537054" type="ABS">107</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/307c8a1e-b674-461d-9eb4-0397ee1306ec</unitid>
+          <unittitle>5 januari - 11 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1865</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537055" type="ABS">108</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a32728d-d8f8-45b8-a57f-d38e567da050</unitid>
+          <unittitle>11 mei - 1 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1865</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537056" type="ABS">109</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2153d041-b140-43f2-820f-ae45950eff66</unitid>
+          <unittitle>1 september - 3 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1865</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537057" type="ABS">110</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/08478205-a080-4b8b-b0ea-c8aab7a24975</unitid>
+          <unittitle>4 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1865</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537058" type="ABS">111</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba11cf0d-3a55-422e-8c05-8440eca75932</unitid>
+          <unittitle>2 januari - 18 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1866</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537059" type="ABS">112</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/558cdfb4-cd93-4cda-bbad-4103271376ee</unitid>
+          <unittitle>18 mei - 28 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1866</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537060" type="ABS">113</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9fa994c3-6390-41b1-a3e6-542d4da7b7e3</unitid>
+          <unittitle>28 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1866</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537061" type="ABS">114</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a510954-cf97-433c-8723-017b70608ccf</unitid>
+          <unittitle>3 januari - 9 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1867</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537062" type="ABS">115</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e79384d-534a-4144-a845-d23c7592257e</unitid>
+          <unittitle>9 mei - 29 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1867</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537063" type="ABS">116</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86a0a572-e1f0-4715-bb87-27edd7b78aa6</unitid>
+          <unittitle>30 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1867</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537064" type="ABS">117</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c53036f9-0690-4883-87c0-aaccb9d30254</unitid>
+          <unittitle>2 januari - 8 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1868</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537065" type="ABS">118</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6231321e-eff6-45dc-9a6a-3520f73347ea</unitid>
+          <unittitle>8 mei - 24 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1868</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537066" type="ABS">119</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/895353e5-6336-452b-9bf7-a375d274e6d6</unitid>
+          <unittitle>24 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1868</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537067" type="ABS">120</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/76d411be-eb4c-4a73-a2d1-e95d80f27667</unitid>
+          <unittitle>2 januari - 13 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1869</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537068" type="ABS">121</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9d95f71-7a3e-4191-8287-516eea16de3c</unitid>
+          <unittitle>13 mei - 23 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1869</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537069" type="ABS">122</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12183bbf-c81d-481c-94f2-ec4f45edd28c</unitid>
+          <unittitle>23 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1869</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537070" type="ABS">123</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/25db5794-54d4-400d-8f3b-f65329979972</unitid>
+          <unittitle>5 januari - 12 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1870</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537071" type="ABS">124</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5764aec1-a415-41e7-b6ea-ee5c00339640</unitid>
+          <unittitle>12 mei - 15 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1870</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537072" type="ABS">125</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4537bcd7-8c58-4d9e-88ac-52dcbeb427f4</unitid>
+          <unittitle>15 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1870</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537073" type="ABS">126</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed251820-2add-4b3d-851e-fae1eeec4825</unitid>
+          <unittitle>5 januari - 19 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1871</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537074" type="ABS">127</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b49118e7-8920-4dde-89f0-2eeaf2b0082b</unitid>
+          <unittitle>19 mei - 24 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1871</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537075" type="ABS">128</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d8d4e93-245c-43bd-aa6a-c3b07d47dc2d</unitid>
+          <unittitle>24 augustus - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1871</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537076" type="ABS">129</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a46c13b-f6bf-4ef3-8b78-2298d0a7a95f</unitid>
+          <unittitle>4 januari - 16 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1872</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537077" type="ABS">130</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f0c3eed8-2855-4fbe-8ad1-0e60dfeef3c2</unitid>
+          <unittitle>16 mei - 22 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1872</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537078" type="ABS">131</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59d9c95e-14db-4ad2-8e53-486a51abf39b</unitid>
+          <unittitle>22 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1872</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537079" type="ABS">132</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/376283d1-33be-4a06-8afc-f6086093d08f</unitid>
+          <unittitle>2 januari - 1 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1873</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537080" type="ABS">133</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/85445c34-377e-4aec-9be9-3fb94bd300ed</unitid>
+          <unittitle>1 mei - 24 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1873</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537081" type="ABS">134</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fdbcf2a1-62ba-4ea5-9fcd-b7d35533c0ac</unitid>
+          <unittitle>24 juli - 31 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1873</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537082" type="ABS">135</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a22f4453-438e-4fc4-b3f6-0041bb72f0f5</unitid>
+          <unittitle>1 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1873</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537083" type="ABS">136</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c729e21-fa53-4f6f-9b0e-2ef3361a4511</unitid>
+          <unittitle>2 januari - 30 april.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1874</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537084" type="ABS">137</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3e8026e-ddce-4a42-83e9-41e779f7a856</unitid>
+          <unittitle>30 april - 6 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1874</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537085" type="ABS">138</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/840a9d72-545b-4127-86b4-d1964f5c5840</unitid>
+          <unittitle>6 augustus - 2 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1874</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537086" type="ABS">139</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69e04f42-511f-47f1-825a-880e64cd0703</unitid>
+          <unittitle>5 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1874</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537087" type="ABS">140</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d02b8fc-a5df-44bf-9056-7a4c5a5fd77b</unitid>
+          <unittitle>5 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1882</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537088" type="ABS">141</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4a26dc32-9de0-4ade-befc-a27d48cec94e</unitid>
+          <unittitle>13 januari - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1882</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537089" type="ABS">142</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aef08250-20b9-4a07-927a-cdf75ab72b1d</unitid>
+          <unittitle>4 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1883</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537090" type="ABS">143</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50a73d62-b1a5-410c-b830-906211287f5c</unitid>
+          <unittitle>3 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1884</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537091" type="ABS">144</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/57536ad5-2b16-4376-8029-2ce9a02cfb95</unitid>
+          <unittitle>2 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1885</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537092" type="ABS">145</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/658308c7-0732-49d2-aa0c-2c664fa8286a</unitid>
+          <unittitle>4 januari - 29 januari.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1886</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537093" type="ABS">146</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/61c3b65f-9904-497f-bde8-3b96a6817572</unitid>
+          <unittitle>1 februari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1886</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537094" type="ABS">147</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7d11644-326f-4a59-b453-e4e7327e43b4</unitid>
+          <unittitle>6 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1887</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537095" type="ABS">148</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3f88dbd-e806-4837-8c92-0864119769bd</unitid>
+          <unittitle>5 januari - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1888</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537096" type="ABS">149</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3781506-30d3-40ce-a563-ad3ebd67d199</unitid>
+          <unittitle>3 januari - 25 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1889</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537097" type="ABS">150</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec295f70-9ac7-4bca-b942-e1eeeab407cf</unitid>
+          <unittitle>25 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1889</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537098" type="ABS">151</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e955cfe-57ce-4e6e-b692-7322fc8dfbb6</unitid>
+          <unittitle>2 januari - 10 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1890</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537099" type="ABS">152</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4dc0550-7f20-48a7-a65d-fefb152bd09d</unitid>
+          <unittitle>10 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1890</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537100" type="ABS">153</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45d2c3df-dca0-41aa-9264-4c2e97a60190</unitid>
+          <unittitle>2 januari - 2 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1891</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537101" type="ABS">154</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59d7ccf0-e92f-47f5-b047-42e6aa8d962b</unitid>
+          <unittitle>2 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1891</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537102" type="ABS">155</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12c4eeb3-30f2-45bf-a212-76fb54401fe4</unitid>
+          <unittitle>7 januari - 1 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1892</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537103" type="ABS">156</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b73473d5-9961-4a88-b014-9a642b172a02</unitid>
+          <unittitle>7 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1892</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537104" type="ABS">157</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51d8f4fb-eaf2-4cfe-b9f4-ce3d7f8506fd</unitid>
+          <unittitle>5 januari - 8 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1893</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537105" type="ABS">158</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/af31b2ce-ee72-4662-9aba-5ad63bde9a20</unitid>
+          <unittitle>8 juni - 16 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1893</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537106" type="ABS">159</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee05ded7-3ac1-4da5-b921-0f65712c6bf8</unitid>
+          <unittitle>16 november - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1893</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537107" type="ABS">160</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ab70c21e-5a03-4790-a85e-0c3826532829</unitid>
+          <unittitle>4 januari - 7 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1894</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537108" type="ABS">161</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd94c346-3c94-4053-b997-be2ece6e328b</unitid>
+          <unittitle>7 juni - 15 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1894</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537109" type="ABS">162</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd42d4d8-1c4a-48a5-9275-9440d05a6e53</unitid>
+          <unittitle>15 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1894</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537110" type="ABS">163</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/da59a05c-f4fe-413a-9fb3-b4532b09e8c6</unitid>
+          <unittitle>3 januari - 28 februari.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1895</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537111" type="ABS">164</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5da372db-f8b6-47b0-8bd0-8d6d095fc4ca</unitid>
+          <unittitle>28 februari - 11 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1895</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537112" type="ABS">165</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/afe611cf-51e7-4d8f-9e4e-b95b7806cfd5</unitid>
+          <unittitle>11 juli - 21 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1895</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537113" type="ABS">166</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/76c16ab4-aeec-4941-87b3-b96d2c6900a7</unitid>
+          <unittitle>21 november - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1895</unitdate>
+        </did>
+        <scopecontent>
+          <p>Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537114" type="ABS">167</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eee08d81-bf8a-4879-9bd5-43e168f2dfaa</unitid>
+          <unittitle>2 januari - 10 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1896</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537115" type="ABS">168</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/56e46de2-93c6-4a67-b3e1-8aad573cca21</unitid>
+          <unittitle>2 januari - 10 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1896</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537116" type="ABS">169</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbe4eae7-1524-47cd-b5b7-11ac9dffe06c</unitid>
+          <unittitle>10 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1896</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537117" type="ABS">170</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f437ff9-cdf2-4247-ac9e-8b61af8741b3</unitid>
+          <unittitle>10 september - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1896</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537118" type="ABS">171</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71616a33-7959-4048-9547-83be38456502</unitid>
+          <unittitle>7 januari - 19 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1897</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537119" type="ABS">172</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/88d27cb1-ea55-4043-98fc-d22175a5abc4</unitid>
+          <unittitle>7 januari - 19 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1897</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537120" type="ABS">173</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d6ee507-7859-40ab-972d-b5ddcbc0414e</unitid>
+          <unittitle>19 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1897</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537121" type="ABS">174</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e9c5e988-5985-4762-8f01-a71b982d43aa</unitid>
+          <unittitle>19 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1897</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537122" type="ABS">175</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/08a05d10-d7e0-47a5-8b2a-90a78d402ce0</unitid>
+          <unittitle>3 januari - 25 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1898</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537123" type="ABS">176</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/77bac70a-070b-4ea4-aa71-42b3b796a1d3</unitid>
+          <unittitle>3 januari - 25 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1898</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537124" type="ABS">177</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4fd00cb-7fc9-4a55-a61f-4611ba6b03a0</unitid>
+          <unittitle>25 augustus - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1898</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537125" type="ABS">178</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/20897f81-6025-4fb8-8251-ab52378ca17c</unitid>
+          <unittitle>25 augustus - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1898</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537126" type="ABS">179</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1855e68c-21dc-4a12-8f3d-3cadbbd4f379</unitid>
+          <unittitle>2 januari - 24 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1899</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537127" type="ABS">180</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbced851-a801-4d89-bfe2-37b3253c9765</unitid>
+          <unittitle>5 januari - 24 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1899</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537128" type="ABS">181</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/37c2b9d8-9c11-47e2-9152-8039eb689055</unitid>
+          <unittitle>24 augustus - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1899</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537129" type="ABS">182</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94f2e514-8833-4f37-93ed-847498c40ca9</unitid>
+          <unittitle>24 augustus - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1899</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537130" type="ABS">183</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11850fea-4682-4d58-9bf6-854531efcf37</unitid>
+          <unittitle>4 januari - 9 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1900</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537131" type="ABS">184</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b241dc0-aad0-4f2f-841e-58119be97331</unitid>
+          <unittitle>4 januari - 9 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1900</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537132" type="ABS">185</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8542b1fc-911a-4e86-ba31-8c3d03262dc6</unitid>
+          <unittitle>9 augustus - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1900</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537133" type="ABS">186</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/329cfbe6-3bb7-414e-85e5-35593888317b</unitid>
+          <unittitle>9 augustus - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1900</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537134" type="ABS">187</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1da9f658-ffc5-40b2-accf-e38d8dc548b1</unitid>
+          <unittitle>3 januari - 1 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1901</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537135" type="ABS">188</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/addc9f2e-9d70-4814-b8d4-8fa254eb8749</unitid>
+          <unittitle>3 januari - 1 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1901</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537136" type="ABS">189</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3498abf3-bea9-4d5b-953d-ed8a5b46aaf6</unitid>
+          <unittitle>1 augustus - 24 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1901</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537137" type="ABS">190</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffbc037f-cc96-49de-a66a-ed2d672a45cd</unitid>
+          <unittitle>1 augustus - 24 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1901</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537138" type="ABS">191</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea50f692-a881-4e5a-a574-0982dcf98ed3</unitid>
+          <unittitle>2 januari - 7 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1902</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537139" type="ABS">192</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/64776fd1-5475-4523-87e8-db877bd6932c</unitid>
+          <unittitle>2 januari - 7 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1902</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537140" type="ABS">193</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e552dd5f-6efa-42b7-89b6-c7eeca7d6275</unitid>
+          <unittitle>7 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1902</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537141" type="ABS">194</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/27bb5e1e-528a-43ce-97d6-595df1873a94</unitid>
+          <unittitle>7 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1902</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537142" type="ABS">195</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f6b395b-7711-4447-8fce-9fde6f6f321f</unitid>
+          <unittitle>8 januari - 30 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1903</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537143" type="ABS">196</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e443f83f-55f0-4954-86e1-cb3944d0efaf</unitid>
+          <unittitle>8 januari - 6 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1903</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537144" type="ABS">197</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fedb00d8-482a-4cd6-ac82-c4089c8ccf39</unitid>
+          <unittitle>30 juli - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1903</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537145" type="ABS">198</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7430aca7-6855-46fe-9b35-6f9b7fcfcb8d</unitid>
+          <unittitle>6 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1903</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537146" type="ABS">199</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c34d7c02-d6e4-4323-90ba-f472cbd5b34c</unitid>
+          <unittitle>4 januari - 28 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1904</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537147" type="ABS">200</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1aa2fdfa-d6b6-4ea7-bbec-382f54ab4f29</unitid>
+          <unittitle>7 januari - 28 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1904</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537148" type="ABS">201</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2651491-935c-45b3-9902-d5e047f7f3b5</unitid>
+          <unittitle>28 juli - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1904</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537149" type="ABS">202</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1f3dcf6d-5f49-4b03-9549-100cb28f0ebf</unitid>
+          <unittitle>28 juli - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1904</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537150" type="ABS">203</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe04e64c-c0a8-43b8-938f-12493a7ce6c3</unitid>
+          <unittitle>5 januari - 13 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1905</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537151" type="ABS">204</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/58a4efab-1a6c-4e07-86e8-09178c0f33be</unitid>
+          <unittitle>5 januari - 13 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1905</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537152" type="ABS">205</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/32691bab-7cda-434c-9b99-d36e417f1a34</unitid>
+          <unittitle>13 juli - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1905</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537153" type="ABS">206</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b265e160-d89c-46a3-a360-585ea01c2561</unitid>
+          <unittitle>13 juli - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1905</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537154" type="ABS">207</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ba992e3-4c52-4d70-9b2a-94dfb88f904b</unitid>
+          <unittitle>4 januari - 5 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1906</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537155" type="ABS">208</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/72e51f9b-b2d3-4f76-b660-ddaa10aa88e2</unitid>
+          <unittitle>4 januari - 12 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1906</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537156" type="ABS">209</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3a9789af-3b15-4539-a70a-cf056d1f7bd4</unitid>
+          <unittitle>5 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1906</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537157" type="ABS">210</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a99dd2b2-d6cf-48a1-85b9-fc03134e63a3</unitid>
+          <unittitle>12 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1906</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537158" type="ABS">211</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/531cfe1e-030c-4b47-8191-b1c0b18266a3</unitid>
+          <unittitle>3 januari - 27 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537159" type="ABS">212</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/08265234-5357-4116-a45b-6bd50319d816</unitid>
+          <unittitle>3 januari - 27 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537160" type="ABS">213</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9d98be2-aa19-44af-a2fa-729e707b7359</unitid>
+          <unittitle>27 juni - 19 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537161" type="ABS">214</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b20a6e5-15ed-4bb3-9871-f3b986762cb3</unitid>
+          <unittitle>27 juni - 19 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537162" type="ABS">215</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c75f03a2-01fe-4a85-9324-dd779e79af6e</unitid>
+          <unittitle>19 december - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537163" type="ABS">216</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/02898edb-e755-4185-8af6-6172b8613f3b</unitid>
+          <unittitle>19 december - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1907</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537164" type="ABS">217</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1284d30e-8129-4631-b124-75090b82686e</unitid>
+          <unittitle>2 januari - 6 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1908</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537165" type="ABS">218</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e830add4-2e76-4fb3-9bf5-9fe03ce11b5d</unitid>
+          <unittitle>2 januari - 6 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1908</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537166" type="ABS">219</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/592033d0-4551-4a2a-a9b1-f05c592638d1</unitid>
+          <unittitle>6 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1908</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537167" type="ABS">220</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df23e3b2-c2a4-418e-91a3-5b362a909f76</unitid>
+          <unittitle>6 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1908</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537168" type="ABS">221</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6a8b6bb-750a-433f-b00d-b6904c669a41</unitid>
+          <unittitle>7 januari - 3 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537169" type="ABS">222</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f78580cd-fb55-43ad-ad06-0720014cdc00</unitid>
+          <unittitle>7 januari - 3 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537170" type="ABS">223</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/40e56283-ea49-410f-9f4a-25c83af34b2c</unitid>
+          <unittitle>3 juni - 21 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537171" type="ABS">224</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0388d3df-bac1-42f8-90a5-9c2696a232ed</unitid>
+          <unittitle>3 juni - 21 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537172" type="ABS">225</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/60724347-e666-4f5a-a404-dc7e21205d24</unitid>
+          <unittitle>21 oktober - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537173" type="ABS">226</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/13d4839c-8774-4afd-89a5-97f4659b538d</unitid>
+          <unittitle>21 oktober - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1909</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537174" type="ABS">227</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/db86a15f-526e-4ac7-afc8-9d9f16d9f066</unitid>
+          <unittitle>1 januari - 26 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537175" type="ABS">228</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/70aa2ada-5bbc-4268-99d6-294bf25abd85</unitid>
+          <unittitle>4 januari - 19 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537177" type="ABS">230</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b2e5a01-d54a-4112-b88e-e8793d1e1df9</unitid>
+          <unittitle>26 mei - 29 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537178" type="ABS">231</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c8c3c6c-fa76-4b58-804f-5ae87259ba27</unitid>
+          <unittitle>20 mei - 29 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537179" type="ABS">232</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f0e369d-02b3-4ba3-b06e-9b0c602fa432</unitid>
+          <unittitle>29 september - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537180" type="ABS">233</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71181b54-8f36-4b81-83f5-9d6b4c2b6ca0</unitid>
+          <unittitle>29 september - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537181" type="ABS">234</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1067c721-7d28-423d-a281-e59f3bd6fc9f</unitid>
+          <unittitle>5 januari - 24 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537182" type="ABS">235</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/82d5d61b-9eba-4a9a-ac01-ea8771f377b0</unitid>
+          <unittitle>4 januari - 24 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537183" type="ABS">236</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8d0e065-6dfe-4ccd-89f4-15296775152a</unitid>
+          <unittitle>24 mei - 5 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537184" type="ABS">237</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e8d5d5d-bf12-4ef9-a50e-0fe5d8fc8662</unitid>
+          <unittitle>24 mei - 28 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537185" type="ABS">238</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/54fad64d-e06d-4eb3-8eaa-783b7265786b</unitid>
+          <unittitle>5 oktober - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537186" type="ABS">239</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69539630-0f37-465a-9414-d77b5ddfa61a</unitid>
+          <unittitle>28 september - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1911</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537187" type="ABS">240</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4822b29-e008-462f-97fa-5eca2f7d2f4b</unitid>
+          <unittitle>4 januari - 9 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537188" type="ABS">241</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f877b9d8-cd5e-46c6-8ac8-5ba8a5b9af32</unitid>
+          <unittitle>2 januari - 9 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537189" type="ABS">242</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bae235c-1ef8-4f6a-8686-ddd3be21c667</unitid>
+          <unittitle>9 mei - 29 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537190" type="ABS">243</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/03a6569f-11ab-4d7d-832e-d7e89eba7639</unitid>
+          <unittitle>9 mei - 29 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537191" type="ABS">244</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/20c2496b-8c4b-4055-b9f5-45c2ea8911ae</unitid>
+          <unittitle>29 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537192" type="ABS">245</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11bf6dd0-dd2a-4691-a3fb-8a54d391a40e</unitid>
+          <unittitle>29 augustus - 24 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1912</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2538464" type="ABS">245A</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/87c99d3c-6356-429e-9403-b99639f899ea</unitid>
+          <unittitle>2 januari - 30 april.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537193" type="ABS">246</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a3be943-5495-4736-b133-ed2616b24786</unitid>
+          <unittitle>2 januari - 30 april.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537194" type="ABS">247</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac994e01-51d3-4420-8872-4e0b37c9e243</unitid>
+          <unittitle>30 april - 14 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537195" type="ABS">248</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/54219bb8-2fac-454a-987e-698f2f0c858f</unitid>
+          <unittitle>30 april - 14 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537196" type="ABS">249</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/263a3f81-f5c2-4ff4-92c6-d9ada88243d0</unitid>
+          <unittitle>14 augustus - 4 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537197" type="ABS">250</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45405289-4e50-45fa-8a20-569f3e67b629</unitid>
+          <unittitle>14 augustus - 4 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537198" type="ABS">251</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3dad387-5f98-4ad6-856d-0af3c5320c8b</unitid>
+          <unittitle>4 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel G</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537199" type="ABS">252</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6bc29e26-eff6-4276-bb2d-19ffa8ef4730</unitid>
+          <unittitle>5 december - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1913</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel H</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537200" type="ABS">253</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a2735243-77ff-4b10-baf7-32cfa66c9c2f</unitid>
+          <unittitle>5 januari - 14 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537201" type="ABS">254</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4b198dfb-2bf4-4a78-b9a8-137584f4c924</unitid>
+          <unittitle>8 januari - 14 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537202" type="ABS">255</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/88bdbb80-6f56-4161-9399-bd2a717aa718</unitid>
+          <unittitle>14 mei - 29 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537203" type="ABS">256</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/932124be-d7b5-454c-a14a-877ad9bbe189</unitid>
+          <unittitle>14 mei - 1 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537204" type="ABS">257</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdb55c91-5c63-485e-812e-8e1950580996</unitid>
+          <unittitle>30 september - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537205" type="ABS">258</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc3498d8-6c28-4ef5-aaf8-addbb6552267</unitid>
+          <unittitle>1 oktober - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1914</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537206" type="ABS">259</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/727edf64-4bec-40e7-85cd-8e7c10270c0f</unitid>
+          <unittitle>4 januari - 3 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537207" type="ABS">260</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12ae135f-ee18-4c34-af13-7f3d953e018f</unitid>
+          <unittitle>4 januari - 3 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537208" type="ABS">261</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c7dcc656-4d53-4320-8b0d-063f98ef92f5</unitid>
+          <unittitle>3 juni - 15 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537209" type="ABS">262</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e72f7ef-6ddc-4138-98bb-dcae9fe9fb27</unitid>
+          <unittitle>3 juni - 18 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537210" type="ABS">263</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ba4c714-6025-4e76-bedd-94706f7e568e</unitid>
+          <unittitle>19 oktober - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537211" type="ABS">264</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/575b4880-06c2-4611-b605-36ac75dd304b</unitid>
+          <unittitle>20 oktober - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1915</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537212" type="ABS">265</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89fa914b-7458-4e13-ae58-a77752d381eb</unitid>
+          <unittitle>6 januari - 18 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537213" type="ABS">266</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c21c5c8-bc08-4e08-a19e-60f2e92ae04e</unitid>
+          <unittitle>3 januari - 18 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537214" type="ABS">267</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e422907-2bed-4c20-9f61-33239201bc39</unitid>
+          <unittitle>18 mei - 21 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537215" type="ABS">268</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a0e4b4b0-7771-455c-a690-3eabe76a7d04</unitid>
+          <unittitle>18 mei - 21 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537216" type="ABS">269</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/556201ca-7fe0-4dbb-9812-b947de1af0ad</unitid>
+          <unittitle>21 september - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537217" type="ABS">270</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d91e9097-a040-4a19-8bec-48ff8748c56f</unitid>
+          <unittitle>21 september - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1916</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537218" type="ABS">271</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/76188f69-0567-43f7-aa4b-e5b209d6330c</unitid>
+          <unittitle>3 januari - 31 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537219" type="ABS">272</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f3f07f7-281f-4306-903e-9997a44f2837</unitid>
+          <unittitle>2 januari - 31 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537220" type="ABS">273</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/86d7720c-74e6-40c5-9d0f-5eddb7285a58</unitid>
+          <unittitle>31 mei - 11 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537221" type="ABS">274</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6936965-b9dc-4b23-9f68-1be40f6e8838</unitid>
+          <unittitle>31 mei - 11 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537222" type="ABS">275</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4598ba76-b04f-4a56-8843-6bc14f445fb9</unitid>
+          <unittitle>11 oktober - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537223" type="ABS">276</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df61cc7f-da18-4d3f-908f-1854ebda44d3</unitid>
+          <unittitle>11 oktober - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1917</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537224" type="ABS">277</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1735be2a-ca9d-44fb-baf5-08f49d561009</unitid>
+          <unittitle>3 januari - 23 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537225" type="ABS">278</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b45302f6-fe05-4e1a-a2ce-54a08a4240b9</unitid>
+          <unittitle>2 januari - 23 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537226" type="ABS">279</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbe57911-88be-4b18-b9ec-e2402c639502</unitid>
+          <unittitle>23 mei - 26 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537227" type="ABS">280</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0420e69-8409-4ddc-b7a0-e800e09ad5f3</unitid>
+          <unittitle>23 mei - 26 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537228" type="ABS">281</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/229fa343-aea0-41b9-93c4-55ce5bf64a2c</unitid>
+          <unittitle>26 september - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537229" type="ABS">282</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/943b22b7-8a8f-4d16-9ef1-e1b5d234beaf</unitid>
+          <unittitle>26 september - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1918</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537230" type="ABS">283</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/696668a4-db8b-4f8f-84ce-19ef9189a609</unitid>
+          <unittitle>2 januari - 22 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537231" type="ABS">284</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b461f2c2-9dc1-4865-a1e3-bd4573caa500</unitid>
+          <unittitle>2 januari - 22 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537232" type="ABS">285</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7aac83d4-b17f-4d10-ba23-347b15cb5490</unitid>
+          <unittitle>22 mei - 4 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537233" type="ABS">286</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b8d8957-e855-4eb4-b348-058a75600024</unitid>
+          <unittitle>22 mei - 4 september.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537234" type="ABS">287</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e2c169c-4eb7-4f1d-9b3a-4a257c57bc63</unitid>
+          <unittitle>4 september - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537235" type="ABS">288</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2563d96c-7dd1-4973-b95e-44d1c775c894</unitid>
+          <unittitle>4 september - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537236" type="ABS">289</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4032c8c1-6593-4e60-97b9-b9583551c687</unitid>
+          <unittitle>29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel G</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537237" type="ABS">290</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fbd953da-f67a-4fe8-bb77-556d0692ad3d</unitid>
+          <unittitle>29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1919</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel H</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537238" type="ABS">291</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/da8d12e6-55b1-490d-810f-5df6daaf2054</unitid>
+          <unittitle>8 januari - 6 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537239" type="ABS">292</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f139ad7-27ac-4356-94a1-cddd4a1427dd</unitid>
+          <unittitle>5 januari - 6 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537240" type="ABS">293</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83e1d36a-8a37-442d-ada5-8661fbbbeb38</unitid>
+          <unittitle>6 mei - 5 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537241" type="ABS">294</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a52f9307-c073-4bd2-b1b7-4aa4ce52b1c9</unitid>
+          <unittitle>6 mei - 5 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537242" type="ABS">295</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cecabe3c-e193-455b-b04d-3f8a43b9875d</unitid>
+          <unittitle>5 augustus - 11 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537243" type="ABS">296</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a135cd0-f35c-40a7-b2ca-b909c969d6d1</unitid>
+          <unittitle>5 augustus - 8 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537244" type="ABS">297</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/66208260-7191-4860-9445-4f81b796e67a</unitid>
+          <unittitle>11 november - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel G</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537245" type="ABS">298</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae8a47ca-e354-400b-97fc-87cd83cb66dc</unitid>
+          <unittitle>10 november - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1920</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel H</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537246" type="ABS">299</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d1abf6d-d1a6-429f-9c29-5db73d4249a4</unitid>
+          <unittitle>6 januari - 3 mei.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537247" type="ABS">300</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ef7dfe88-7805-4c97-ab25-35646d99b505</unitid>
+          <unittitle>6 januari - 28 april.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537248" type="ABS">301</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/483aa7ee-e5ec-4b2c-bbf8-242f5704b79a</unitid>
+          <unittitle>3 mei - 18 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537249" type="ABS">302</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/190d73d5-42e9-461b-a322-e3b9b787775e</unitid>
+          <unittitle>28 april - 11 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537250" type="ABS">303</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aad27fea-1c52-4d17-bac1-6953c92f6b0c</unitid>
+          <unittitle>18 augustus - 8 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537251" type="ABS">304</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8b94cb40-ac34-4b84-b2fb-c1d4fd760fdf</unitid>
+          <unittitle>11 augustus - 1 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537252" type="ABS">305</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd6aa15d-b0da-49b6-9424-b63c1647557d</unitid>
+          <unittitle>8 december - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel G</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537253" type="ABS">306</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/de5faefa-f88b-465d-b4fd-2034e2f3c99e</unitid>
+          <unittitle>3 december - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1921</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel H</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537254" type="ABS">307</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3f777876-a5f4-4a80-9b0c-24a794e79da2</unitid>
+          <unittitle>5 januari - 1 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537255" type="ABS">308</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/739c742b-df9c-412f-b449-c435bdd5e642</unitid>
+          <unittitle>2 januari - 1 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537256" type="ABS">309</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d58e319d-2baa-42a7-a914-f568ca81fd18</unitid>
+          <unittitle>1 juni - 12 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537257" type="ABS">310</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/beb423f6-8e36-4137-9342-2097eab2f3ab</unitid>
+          <unittitle>1 juni - 12 oktober.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537258" type="ABS">311</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f217724-9c94-42ec-b1fd-6c234b281f62</unitid>
+          <unittitle>12 oktober - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537259" type="ABS">312</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/832326c4-69cc-41a5-bd94-9e61fd334a35</unitid>
+          <unittitle>12 oktober - 28 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1922</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537260" type="ABS">313</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/610b8d4c-15e2-4fe4-9636-9a89ddd065fe</unitid>
+          <unittitle>4 januari - 14 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537261" type="ABS">314</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/eec46198-fd5b-43c8-96fc-42afb38da5cc</unitid>
+          <unittitle>4 januari - 14 juni.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537262" type="ABS">315</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a408207-bcb7-4428-a67b-817cbbc5c47b</unitid>
+          <unittitle>14 juni - 8 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537263" type="ABS">316</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69f329d7-b709-4c30-aaba-a0b53dcea67a</unitid>
+          <unittitle>14 juni - 8 november.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537264" type="ABS">317</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/60118a53-d4d7-45a6-ae57-6395ba86d383</unitid>
+          <unittitle>8 november - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel E</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537265" type="ABS">318</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b46571d-81f6-456e-85c1-3e86637fe87d</unitid>
+          <unittitle>8 november - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1923</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel F</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537266" type="ABS">319</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ffbf1d68-3060-43ca-9ed5-1c7b8914888b</unitid>
+          <unittitle>3 januari - 7 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1924</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537267" type="ABS">320</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bbc937a4-83d4-4f0f-8b5a-42a32bc8a3fd</unitid>
+          <unittitle>2 januari - 7 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1924</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537268" type="ABS">321</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c6d3713d-1730-477c-b4ac-f13683115bb7</unitid>
+          <unittitle>7 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1924</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537269" type="ABS">322</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cc852497-b975-49a4-81e7-5cc040c92007</unitid>
+          <unittitle>7 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1924</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537270" type="ABS">323</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e164b0f-56f3-4627-af70-1047ce3df9aa</unitid>
+          <unittitle>3 januari - 13 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1925</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537271" type="ABS">324</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5eccaaf-4f2d-40da-b3e4-0fc6ad069ce3</unitid>
+          <unittitle>3 januari - 13 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1925</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537272" type="ABS">325</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a1b0a03-2eba-4e5e-95b6-978cfe9ebcba</unitid>
+          <unittitle>13 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1925</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537273" type="ABS">326</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/22caf63f-c639-47c2-b8de-7321d29a2d8a</unitid>
+          <unittitle>13 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1925</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537274" type="ABS">327</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2a781bef-77a4-41a2-8056-abcdaac2ad34</unitid>
+          <unittitle>2 januari - 29 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1926</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537275" type="ABS">328</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b5651dd-6d3d-405f-8b88-95788d6aed2f</unitid>
+          <unittitle>2 januari - 29 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1926</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537276" type="ABS">329</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2bee593-ffd8-4aa5-ba17-fbc96f0fc1c4</unitid>
+          <unittitle>29 juli - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1926</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537277" type="ABS">330</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0f7d3bc-eb0a-422d-81b0-376c4a0fe45b</unitid>
+          <unittitle>29 juli - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1926</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537278" type="ABS">331</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b54c523c-a951-417a-8dce-246c03560ada</unitid>
+          <unittitle>6 januari - 14 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1927</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537279" type="ABS">332</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4367f89a-ce87-4183-a271-aa6c5f8c1610</unitid>
+          <unittitle>6 januari - 14 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1927</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537280" type="ABS">333</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccc284bf-307e-4a1d-b9b8-9e2561eba59d</unitid>
+          <unittitle>14 juli - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1927</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537281" type="ABS">334</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5605f1e1-0b7b-4a07-8f59-6ce665f09254</unitid>
+          <unittitle>14 juli - 29 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1927</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537282" type="ABS">335</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e252f1fc-e50d-4b80-956b-4f2d2035d9e0</unitid>
+          <unittitle>5 januari - 19 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1928</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537283" type="ABS">336</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b55d495d-0f52-491b-858f-9121b42e9f97</unitid>
+          <unittitle>5 januari - 19 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1928</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537284" type="ABS">337</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/66282e52-8b17-43b8-b646-08c7f59b2c06</unitid>
+          <unittitle>19 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1928</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537285" type="ABS">338</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e463dbd7-f214-41e6-901c-83afa41ae28b</unitid>
+          <unittitle>19 juli - 27 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1928</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537286" type="ABS">339</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bebe9e84-df69-4fba-b88d-b675cc9593a0</unitid>
+          <unittitle>3 januari - 25 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1929</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537287" type="ABS">340</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a47e30c-d318-4198-9faa-9b181e69d57a</unitid>
+          <unittitle>2 januari - 25 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1929</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537288" type="ABS">341</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f26904de-f67c-4384-8b60-1144de0ca82f</unitid>
+          <unittitle>25 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1929</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537289" type="ABS">342</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b28138e2-434b-436a-9753-8a1996e90a5c</unitid>
+          <unittitle>25 juli - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1929</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537290" type="ABS">343</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9798046-8e88-4afd-9db3-017e4c52ab48</unitid>
+          <unittitle>2 januari - 24 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1930</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537291" type="ABS">344</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3526f260-5b85-4e93-95cd-ea61d11f72b3</unitid>
+          <unittitle>2 januari - 24 juli.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1930</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537292" type="ABS">345</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1fe9d98c-994f-4bd0-a43c-b954d01bcff4</unitid>
+          <unittitle>24 juli - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1930</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537293" type="ABS">346</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f6c89ef-011d-4915-bd6b-9f4f6b4f1b4c</unitid>
+          <unittitle>24 juli - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1930</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537294" type="ABS">347</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/50619456-55ca-4b0e-91fd-5aa36aa0c29b</unitid>
+          <unittitle>5 januari - 13 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1931</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537295" type="ABS">348</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0eda6b63-798c-49aa-abb3-ebea48609d9d</unitid>
+          <unittitle>5 januari - 13 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1931</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537296" type="ABS">349</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7519bb13-d75d-4a51-b232-dfb8aa1e0432</unitid>
+          <unittitle>13 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1931</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537297" type="ABS">350</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d368a2e3-d506-4b4c-acf2-bdf08b5b98e0</unitid>
+          <unittitle>13 augustus - 31 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1931</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537298" type="ABS">351</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4d574e12-f95c-4c32-a6cf-b03a32205a88</unitid>
+          <unittitle>5 januari - 11 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1932</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537299" type="ABS">352</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9e43c43e-fa6d-439f-850c-04375da973c1</unitid>
+          <unittitle>5 januari - 11 augustus.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1932</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel B</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537300" type="ABS">353</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8ce1b95a-242c-4b55-9206-c9a5e8fa768e</unitid>
+          <unittitle>11 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1932</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Oneven; Deel C</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unitid identifier="2537301" type="ABS">354</unitid>
+          <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a770385d-f9d3-41f9-b8ac-ea4baa0f94e6</unitid>
+          <unittitle>11 augustus - 30 december.</unittitle>
+          <unitdate calendar="gregorian" era="ce">1932</unitdate>
+        </did>
+        <scopecontent>
+          <p>Aktenummers: Even; Deel D</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

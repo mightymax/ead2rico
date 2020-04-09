@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/e6fb8a6a-ef42-46c6-9867-189ce479c356"
+  rdf:about="record/2.21.325">
+    <rico:identifier>2.21.325</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2005</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C27047" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.325/i1" />
+      <rico:instantiates rdf:resource="record/2.21.325" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van H.A. Kindermann (1876-1955) en
+        zijn echtgenote A.J. Gülcher (1878-1963) en hun familieleden over de jaren (1897)
+        1901-1924</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/e6fb8a6a-ef42-46c6-9867-189ce479c356" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Inventarisnummers 30 en 31 bevatten foto's..</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C27047">
+    <rico:describedBy rdf:resource="record/2.21.325" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C27047</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie H.A. Kindermann en A.J. Gülcher</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Kindermann / Gülcher</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1901</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1924</rico:endDate>
+    <rico:date>1901-1924</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>H.A. Kindermann</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>H.A. Kindermann werd topambtenaar bij de Algemene Secretarie, wordt in
+          1911 gouvernementssecretaris en in 1921 lid van de Raad van Indië. In die
+          functies vervult hij een aantal bestuurlijke opdrachten. Zo maakt hij
+          verschillende reizen in de districten als adviseur van de bestuurlijke
+          decentralisatie. Tijdens het verblijf in Nederlands-Indië onderhielden
+          Kindermann en zijn vrouw Amelia Gülcher een uitgebreide correspondentie met de
+          familie in Nederland. De brieven geven een persoonlijke impressie van het leven
+          in Buitenzorg, maar er wordt ook ingegaan op de ontwikkelingen binnen het
+          Indisch Bestuur. In 1924 wordt hem eervol ontslag verleend uit 's Lands
+          dienst.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>A.J.. Gülcher</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>H.A. Kindermann werd topambtenaar bij de Algemene Secretarie, wordt in
+          1911 gouvernementssecretaris en in 1921 lid van de Raad van Indië. In die
+          functies vervult hij een aantal bestuurlijke opdrachten. Zo maakt hij
+          verschillende reizen in de districten als adviseur van de bestuurlijke
+          decentralisatie. Tijdens het verblijf in Nederlands-Indië onderhielden
+          Kindermann en zijn vrouw Amelia Gülcher een uitgebreide correspondentie met de
+          familie in Nederland. De brieven geven een persoonlijke impressie van het leven
+          in Buitenzorg, maar er wordt ook ingegaan op de ontwikkelingen binnen het
+          Indisch Bestuur. In 1924 wordt hem eervol ontslag verleend uit 's Lands
+          dienst.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>C.H. Kindermann</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>H.A. Kindermann werd topambtenaar bij de Algemene Secretarie, wordt in
+          1911 gouvernementssecretaris en in 1921 lid van de Raad van Indië. In die
+          functies vervult hij een aantal bestuurlijke opdrachten. Zo maakt hij
+          verschillende reizen in de districten als adviseur van de bestuurlijke
+          decentralisatie. Tijdens het verblijf in Nederlands-Indië onderhielden
+          Kindermann en zijn vrouw Amelia Gülcher een uitgebreide correspondentie met de
+          familie in Nederland. De brieven geven een persoonlijke impressie van het leven
+          in Buitenzorg, maar er wordt ook ingegaan op de ontwikkelingen binnen het
+          Indisch Bestuur. In 1924 wordt hem eervol ontslag verleend uit 's Lands
+          dienst.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>J. Telders</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>H.A. Kindermann werd topambtenaar bij de Algemene Secretarie, wordt in
+          1911 gouvernementssecretaris en in 1921 lid van de Raad van Indië. In die
+          functies vervult hij een aantal bestuurlijke opdrachten. Zo maakt hij
+          verschillende reizen in de districten als adviseur van de bestuurlijke
+          decentralisatie. Tijdens het verblijf in Nederlands-Indië onderhielden
+          Kindermann en zijn vrouw Amelia Gülcher een uitgebreide correspondentie met de
+          familie in Nederland. De brieven geven een persoonlijke impressie van het leven
+          in Buitenzorg, maar er wordt ook ingegaan op de ontwikkelingen binnen het
+          Indisch Bestuur. In 1924 wordt hem eervol ontslag verleend uit 's Lands
+          dienst.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Hendrik Abraham Kindermann (1876-1955) was in de periode 1901-1924 werkzaam
+      als ondere ander gouvernementsecretaris bij het koloniaal bestuur in
+      Nederlands-Indië. Het archief bevat alle brieven van mr. Hendrik Abraham Kindermann
+      (1876-1955) en - na zijn huwelijk in 1915 - van zijn vrouw Amelia Jane (roepnaam
+      Jane) Gülcher aan zijn vader en diens huisgenoten gedurende zijn verblijf in
+      Nederlandsch-Indië. Daarbij de briefwisseling met zijn vrouw en een oom. In deze
+      brieven wordt naast het reilen en zeilen huishouden in Buitenzorg (het huidige
+      Bogor) ook ingegaan op de ontwikkelingen in het Indische bestuur.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>31 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

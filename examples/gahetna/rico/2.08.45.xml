@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/10d6061f-61c8-4666-a029-e9f2cb39a357"
+  rdf:about="record/2.08.45">
+    <rico:identifier>2.08.45</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/F28061" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.08.45/i1" />
+      <rico:instantiates rdf:resource="record/2.08.45" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20080812</rico:hasModificationDate>
+        <html:p>12 augustus 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100615</rico:hasModificationDate>
+        <html:p>15 juni 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Beheerder van Nederlandsche
+        Eigendommen later Afdeling Beheer van Nederlandsche Eigendommen ressorterend
+        onder het bureau van de Financiële Raad van de Ambassade der Nederlanden te
+        Londen, 1940-1959</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/10d6061f-61c8-4666-a029-e9f2cb39a357" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/F28061">
+    <rico:describedBy rdf:resource="record/2.08.45" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>F28061</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Beheerder van Nederlandsche Eigendommen later Afdeling Beheer
+      van Nederlandsche Eigendommen ressorterend onder het bureau van de Financiële Raad
+      van de Ambassade der Nederlanden te Londen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Beheer Nederlandse Eigendommen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1940</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1959</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1940-1959</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beheerder van Nederlandsche Eigendommen1940-1943 Ambassade der
+            Nederlanden te Londen / Bureau van de Financiële Raad / Afdeling Beheer van
+            Nederlandsche Eigendommen1943-1959</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Nadat in mei 1940 Nederland door de Duitsers bezet werd, was de
+          Nederlandse regering naar Londen vertrokken.</html:p>
+          <html:p>Het werd noodzakelijk voorlopige maatregelen te treffen ten einde over
+          te gaan tot beheer van Nederlandse vorderingen en aanspraken buiten bezet
+          gebied.</html:p>
+          <html:p>De Nederlandse Scheepvaart- en Handelscommissie had in mei 1940 een
+          volmacht gekregen van de regering voor het beheer van de Nederlandse schepen en
+          voor de liquidatie van tal van ladingen, die naar bezet Nederland voeren. De
+          eigenaars van bedoelde schepen bevonden zich in bezet Nederland.</html:p>
+          <html:p>Deze volmacht was aanvankelijk gebaseerd op het Wetboek van Koophandel
+          en was daarna uitgewerkt in twee brieven, die de minister van Handel,
+          Nijverheid en Scheepvaart in mei 1940 en op 17 juni 1940 tot de
+          Scheepvaartcommissie richtte.</html:p>
+          <html:p>De directe aansprakelijkheid tegenover de belanghebbenden in bezet
+          Nederland was bij het Rijk.</html:p>
+          <html:p>Tien dagen na vestiging in Londen werd door de regering in ballingschap
+          het Koninklijk Besluit van 24 mei 1940, Staatsblad A1 afgekondigd. Dit besluit
+          was het eerste dat afgekondigd werd na het begin van de oorlog.</html:p>
+          <html:p>In Engeland was in eerste instantie geen sprake van erkenning van
+          A1.</html:p>
+          <html:p>Men achtte A1 wel een 'rechtmatige uitoefening van de Nederlandse
+          regering' maar niet bindend voor de Engelse rechter. De Nederlandse regering in
+          ballingschap kreeg de raad een Nederlandse Custodian (Beheerder) te benoemen
+          die dan gezamenlijk met de Britse Custodian of Enemy Property de Nederlandse
+          belangen kon behartigen. Met ingang van 16 mei 1941 werd W. Chr. Posthumus
+          Meyjes benoemd tot Custodian in tijdelijke dienst over alle vorderingen en
+          aanspraken in het Verenigd Koninkrijk van Groot-Brittannië en Noord Ierland.
+          Zie inv.nr. 72. Deze vorderingen en aanspraken kwamen de regering toe krachtens
+          A1.</html:p>
+          <html:p>Dit besluit bepaalde dat vorderingen op personen, vennootschappen,
+          firma's, instellingen en publiekrechtelijke lichamen, welke vorderingen
+          toebehoren aan in het Koninkrijk der Nederlanden gevestigde natuurlijke of
+          rechtspersonen, voor zover deze vorderingen en aanspraken buiten het Rijk in
+          Europa in enigerlei vorm voor belening, realisatie en dergelijke vatbaar zijn,
+          fiduciair in eigendom overgaan op de Staat der Nederlanden, vertegenwoordigd
+          door de Nederlandse regering te Londen.</html:p>
+          <html:p>De juridische moeilijkheden, die zich bij integrale toepassing van A1
+          konden voordoen, werden in oktober 1944 opgelost bij het sluiten van het
+          'Agreement between His Majesty's Government in the United Kingdom, and the
+          Royal Netherlands Government concerning Property within the United Kingdom of
+          the Netherlands' Zie inv.nr. 252. volgens welke het de Engelse overheid met
+          gebruikmaking van Engels recht mogelijk werd A1 uit te voeren.</html:p>
+          <html:p>De Beheerder van Nederlandse Eigendommen ressorteerde voor alle
+          beheers- en beleggingsmaatregelen onder de minister van Financiën en voor
+          andere aangelegenheden onder de minister van Handel, Nijverheid en
+          Scheepvaart.</html:p>
+          <html:p>De bevoegdheid van de Beheerder van Nederlandse Eigendommen te Londen
+          strekte zich aanvankelijk niet verder uit dan Engeland, Schotland en
+          Noord-Ierland. Alle vorderingen en aanspraken, die op andere landen betrekking
+          hadden, (met uitzondering van de Verenigde Staten en Canada) Zie inv.nr. 71.
+          werden behandeld bij de minister van Financiën.</html:p>
+          <html:p>In oktober 1942 werd bij beschikking van de ministers van Justitie en
+          van Financiën de Beheerder tevens belast met het beheer van zodanige
+          vorderingen en aanspraken in alle andere landen ter wereld, voor zover daar ten
+          behoeve van de Nederlandse regering geen andere organisatie reeds voor dit doel
+          optrad.</html:p>
+          <html:p>De taak van de Beheerder strekte zich alleen uit tot de administratie
+          en het beheer der bezittingen. Zie inv.nr. 71.</html:p>
+          <html:p>Alle kwesties betreffende het bij de uitvoering van het besluit te
+          voeren beleid (zoals de vraag of een bepaalde vordering al dan niet onder het
+          te voeren beleid viel, of kwesties van vrijgave) vielen buiten de bevoegdheid
+          van de Beheerder en werden door de betrokken departementen van Buitenlandse
+          Zaken, Financiën, Handel, Nijverheid en Scheepvaart, Koloniën en Justitie, in
+          interdepartementaal overleg behandeld.</html:p>
+          <html:p>Alle correspondentie met de Beheerder geschiedde door tussenkomst van
+          de minister van Buitenlandse Zaken.</html:p>
+          <html:p>Op 7 juni 1940 werd het Koninklijk Besluit A6 afgekondigd Zie inv.nr.
+          115. houdende een voorziening, ten einde te verhinderen, dat het rechtsverkeer
+          in oorlogstijd schade zou toebrengen aan de belangen van het Koninkrijk der
+          Nederlanden.</html:p>
+          <html:p>De Commissies Rechtsverkeer in Oorlogstijd te Curaçao en Paramaribo
+          kregen in 1942 een beheersopdracht bij beschikking van de ministers van
+          Justitie, Buitenlandse Zaken, Koloniën, Financiën en Handel, Nijverheid en
+          Scheepvaart. De Beheerder was ook belast met de controle op de verslagen van
+          beheerders, benoemd door de CORVO of door de minister van Justitie over de
+          eigendommen van natuurlijke of rechtspersonen, en tevens belast met het
+          onderzoek van de naleving van de bepalingen van bestuursopdrachten, door de
+          CORVO verleend, of door de minister van Justitie. Zie inv.nrs. 162, 210-211 en
+          187.</html:p>
+          <html:p>Deze beheersopdracht gaf machtiging om de betreffende gelden te innen
+          en te beheren, maar niet om deze zonder goedkeuring te gebruiken of te
+          beleggen. Slechts indien naast een door de minister van Justitie verstrekte
+          beheersopdracht een bestuursopdracht werd verleend door de CORVO aan dezelfde
+          persoon, is het deze toegestaan de geïnde gelden aan te wenden in het bedrijf,
+          binnen de perken van een normale bedrijfsvoering.</html:p>
+          <html:p>De Beheerder was benoemd door de ministers van Justitie en Financiën en
+          ressorteerde dus onder genoemde ministers. Zijn bureau maakte dan ook deel uit
+          van het Departement van Financiën. Toen de heer mr. M.P.L. Steenberghe de
+          Departementen van Financiën en van Handel, Nijverheid en Scheepvaart tegelijk
+          beheerde heeft deze in augustus 1941 de behandeling van de A1-zaken van beide
+          departementen geconcentreerd bij laatstgenoemd departement, zulks ter
+          bezuiniging op personeel. Zie inv.nr. 73.</html:p>
+          <html:p>Nadat hij in 1942 was afgetreden als minister en de portefeuilles van
+          Financiën en van Handel, Nijverheid en Scheepvaart niet meer in één hand waren
+          verenigd, werd besloten dat de Beheerder weer zou moeten ressorteren onder de
+          minister van Financiën en dat de kosten op diens begroting zouden moeten worden
+          uitgetrokken.</html:p>
+          <html:p>Dit vond plaats met ingang van 1 oktober 1942.</html:p>
+          <html:p>Vanaf het begin was er sprake van een verkeerde opzet ten aanzien van
+          de positie van de Beheerder, omdat zijn dienst een onafhankelijk orgaan geacht
+          werd te zijn, dat zelfstandig de vorderingen, onder A1 aan de Staat overgegaan,
+          zou kunnen innen. Zie inv.nrs. 74 en 75. Maar in de praktijk geschiedden de
+          werkzaamheden steeds door een intermediair, voor Engeland door de minister van
+          Financiën en de 'Trading with the Enemy Department' te Londen en voor andere
+          geallieerde en neutrale landen door middel van het Ministerie van Buitenlandse
+          Zaken.</html:p>
+          <html:p>In juni 1943 verzocht Posthumus Meyjes ontheffing van zijn functie als
+          Beheerder van Nederlandse Eigendommen daar een nieuwe hem opgedragen taak al
+          zijn aandacht en inspanning opeiste.</html:p>
+          <html:p>De ministers van Justitie en Financiën verleenden hem bij beschikking
+          2641a/J2377 eervol ontslag, hieven de functie van Beheerder van Nederlandse
+          Eigendommen op en bepaalden dat de werkzaamheden tot dusverre verricht in het
+          vervolg zouden geschieden door of vanwege de minister van Financiën. Zie
+          inv.nrs. 74 en 75.</html:p>
+          <html:p>De Britse regering erkende het recht van de Nederlandse Scheepvaart- en
+          Handelscommissie en van andere vanwege de Staat der Nederlanden door de
+          Nederlandse regering aangestelde bewindvoerders om als Beheerder op te treden
+          en vorderingen die verband hielden met de hun verstrekte volmacht te
+          innen.</html:p>
+          <html:p>Ingeval een debiteur weigerde dergelijke vorderingen te betalen
+          geschiedde inning door de Custodian of Enemy Property.</html:p>
+          <html:p>Alle vorderingen die niet geïnd werden door een speciale door de
+          Nederlandse regering aangewezen bewindvoerder, moesten betaald worden aan de
+          Custodian of Enemy Property, die in deze geacht werd op te treden als 'agent'
+          voor de Nederlandse regering. De als voren door de Custodian of Enemy Property
+          geïnde gelden werden gestort op een 'special account', 'The Netherlands
+          Account', waarover de Nederlandse regering volledige beschikking had en waarbij
+          alle gegevens betreffende de geïnde bedragen, debiteur en oorspronkelijke
+          crediteur op geregelde tijden aan de Nederlandse regering of aan een door haar
+          aan te wijzen instantie werden verstrekt.</html:p>
+          <html:p>Aanvankelijk zou het grootste deel van het Departement van Financiën in
+          Londen blijven functioneren en de liquidatie daarvan zou slechts geleidelijk
+          kunnen geschieden. Te voorzien viel dat nog gedurende geruime tijd na het einde
+          van de vijandelijkheden allerlei financiële zaken te Londen zouden moeten
+          worden behandeld.</html:p>
+          <html:p>Het Londens gedeelte heette het 'Agency of the Ministry of Finance' en
+          dr. A. Treep fungeerde als hoofd. Deze was tevens benoemd als Financiële Raad
+          van Hare Majesteits regering te Londen. De agency ressorteerde onder de
+          Nederlandse Ambassade in Engeland.</html:p>
+          <html:p>Het Custodian Department veranderde haar activiteiten niet, noch haar
+          personeel.</html:p>
+          <html:p>Het was bekend dat de taak van de Afdeling Beheer niet geheel door haar
+          naam werd gedekt. Op 13 augustus 1946 werd echter het aanhangig maken van de
+          deblokkering van alle voorwerpen van eigendom in het Verenigd Koninkrijk,
+          waarbij derhalve ook waren inbegrepen de groepen voorwerpen waarmee de Afdeling
+          Beheer tot dan toe geen of gering contact had gehad, ook aan deze afdeling
+          opgedragen.</html:p>
+          <html:p>Gedurende de oorlog ontving de Afdeling Beheer van Nederlandse
+          Eigendommen gelden van derden, welke in overeenstemming met het bepaalde in A1
+          in de toekomst aan de rechthebbenden dienden te worden doorbetaald. Zolang het
+          Ministerie van Financiën een eigen administratie in Londen onderhield, werden
+          zekere betalingen aan niet-ingezetenen, welke in vreemde valuta verschuldigd
+          waren, door dit ministerie verricht en in haar boekhouding verwerkt.</html:p>
+          <html:p>Tijdens de oorlog werd bij het Departement van Financiën een centrale
+          boekhouding gevoerd van alle daar gedane ontvangsten en uitgaven. Deze
+          boekhouding werd voortgezet tot 1 november 1946, waarna zij werd overgebracht
+          naar het Afwikkelingsbureau van het Agentschap van het Ministerie van
+          Financiën, Toussaintkade 53 te 's-Gravenhage, onder leiding van de heer M.C.
+          Noë. Naast ontvangsten en uitgaven voor de Londense rijksbegroting, hebben door
+          het Ministerie van Financiën te Londen ook ontvangsten en uitgaven plaats gehad
+          voor rekening van departementen en derden in Nederland. Zie inv.nr. 59. Brief
+          van P.C. Witte aan de minister van Financiën te 's-Gravenhage.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Beheerder van Nederlandsche Eigendommen1940-1943 Ambassade der
+            Nederlanden te Londen / Bureau van de Financiële Raad / Afdeling Beheer van
+            Nederlandsche Eigendommen1943-1959</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Nadat in mei 1940 Nederland door de Duitsers bezet werd, was de
+          Nederlandse regering naar Londen vertrokken.</html:p>
+          <html:p>Het werd noodzakelijk voorlopige maatregelen te treffen ten einde over
+          te gaan tot beheer van Nederlandse vorderingen en aanspraken buiten bezet
+          gebied.</html:p>
+          <html:p>De Nederlandse Scheepvaart- en Handelscommissie had in mei 1940 een
+          volmacht gekregen van de regering voor het beheer van de Nederlandse schepen en
+          voor de liquidatie van tal van ladingen, die naar bezet Nederland voeren. De
+          eigenaars van bedoelde schepen bevonden zich in bezet Nederland.</html:p>
+          <html:p>Deze volmacht was aanvankelijk gebaseerd op het Wetboek van Koophandel
+          en was daarna uitgewerkt in twee brieven, die de minister van Handel,
+          Nijverheid en Scheepvaart in mei 1940 en op 17 juni 1940 tot de
+          Scheepvaartcommissie richtte.</html:p>
+          <html:p>De directe aansprakelijkheid tegenover de belanghebbenden in bezet
+          Nederland was bij het Rijk.</html:p>
+          <html:p>Tien dagen na vestiging in Londen werd door de regering in ballingschap
+          het Koninklijk Besluit van 24 mei 1940, Staatsblad A1 afgekondigd. Dit besluit
+          was het eerste dat afgekondigd werd na het begin van de oorlog.</html:p>
+          <html:p>In Engeland was in eerste instantie geen sprake van erkenning van
+          A1.</html:p>
+          <html:p>Men achtte A1 wel een 'rechtmatige uitoefening van de Nederlandse
+          regering' maar niet bindend voor de Engelse rechter. De Nederlandse regering in
+          ballingschap kreeg de raad een Nederlandse Custodian (Beheerder) te benoemen
+          die dan gezamenlijk met de Britse Custodian of Enemy Property de Nederlandse
+          belangen kon behartigen. Met ingang van 16 mei 1941 werd W. Chr. Posthumus
+          Meyjes benoemd tot Custodian in tijdelijke dienst over alle vorderingen en
+          aanspraken in het Verenigd Koninkrijk van Groot-Brittannië en Noord Ierland.
+          Zie inv.nr. 72. Deze vorderingen en aanspraken kwamen de regering toe krachtens
+          A1.</html:p>
+          <html:p>Dit besluit bepaalde dat vorderingen op personen, vennootschappen,
+          firma's, instellingen en publiekrechtelijke lichamen, welke vorderingen
+          toebehoren aan in het Koninkrijk der Nederlanden gevestigde natuurlijke of
+          rechtspersonen, voor zover deze vorderingen en aanspraken buiten het Rijk in
+          Europa in enigerlei vorm voor belening, realisatie en dergelijke vatbaar zijn,
+          fiduciair in eigendom overgaan op de Staat der Nederlanden, vertegenwoordigd
+          door de Nederlandse regering te Londen.</html:p>
+          <html:p>De juridische moeilijkheden, die zich bij integrale toepassing van A1
+          konden voordoen, werden in oktober 1944 opgelost bij het sluiten van het
+          'Agreement between His Majesty's Government in the United Kingdom, and the
+          Royal Netherlands Government concerning Property within the United Kingdom of
+          the Netherlands' Zie inv.nr. 252. volgens welke het de Engelse overheid met
+          gebruikmaking van Engels recht mogelijk werd A1 uit te voeren.</html:p>
+          <html:p>De Beheerder van Nederlandse Eigendommen ressorteerde voor alle
+          beheers- en beleggingsmaatregelen onder de minister van Financiën en voor
+          andere aangelegenheden onder de minister van Handel, Nijverheid en
+          Scheepvaart.</html:p>
+          <html:p>De bevoegdheid van de Beheerder van Nederlandse Eigendommen te Londen
+          strekte zich aanvankelijk niet verder uit dan Engeland, Schotland en
+          Noord-Ierland. Alle vorderingen en aanspraken, die op andere landen betrekking
+          hadden, (met uitzondering van de Verenigde Staten en Canada) Zie inv.nr. 71.
+          werden behandeld bij de minister van Financiën.</html:p>
+          <html:p>In oktober 1942 werd bij beschikking van de ministers van Justitie en
+          van Financiën de Beheerder tevens belast met het beheer van zodanige
+          vorderingen en aanspraken in alle andere landen ter wereld, voor zover daar ten
+          behoeve van de Nederlandse regering geen andere organisatie reeds voor dit doel
+          optrad.</html:p>
+          <html:p>De taak van de Beheerder strekte zich alleen uit tot de administratie
+          en het beheer der bezittingen. Zie inv.nr. 71.</html:p>
+          <html:p>Alle kwesties betreffende het bij de uitvoering van het besluit te
+          voeren beleid (zoals de vraag of een bepaalde vordering al dan niet onder het
+          te voeren beleid viel, of kwesties van vrijgave) vielen buiten de bevoegdheid
+          van de Beheerder en werden door de betrokken departementen van Buitenlandse
+          Zaken, Financiën, Handel, Nijverheid en Scheepvaart, Koloniën en Justitie, in
+          interdepartementaal overleg behandeld.</html:p>
+          <html:p>Alle correspondentie met de Beheerder geschiedde door tussenkomst van
+          de minister van Buitenlandse Zaken.</html:p>
+          <html:p>Op 7 juni 1940 werd het Koninklijk Besluit A6 afgekondigd Zie inv.nr.
+          115. houdende een voorziening, ten einde te verhinderen, dat het rechtsverkeer
+          in oorlogstijd schade zou toebrengen aan de belangen van het Koninkrijk der
+          Nederlanden.</html:p>
+          <html:p>De Commissies Rechtsverkeer in Oorlogstijd te Curaçao en Paramaribo
+          kregen in 1942 een beheersopdracht bij beschikking van de ministers van
+          Justitie, Buitenlandse Zaken, Koloniën, Financiën en Handel, Nijverheid en
+          Scheepvaart. De Beheerder was ook belast met de controle op de verslagen van
+          beheerders, benoemd door de CORVO of door de minister van Justitie over de
+          eigendommen van natuurlijke of rechtspersonen, en tevens belast met het
+          onderzoek van de naleving van de bepalingen van bestuursopdrachten, door de
+          CORVO verleend, of door de minister van Justitie. Zie inv.nrs. 162, 210-211 en
+          187.</html:p>
+          <html:p>Deze beheersopdracht gaf machtiging om de betreffende gelden te innen
+          en te beheren, maar niet om deze zonder goedkeuring te gebruiken of te
+          beleggen. Slechts indien naast een door de minister van Justitie verstrekte
+          beheersopdracht een bestuursopdracht werd verleend door de CORVO aan dezelfde
+          persoon, is het deze toegestaan de geïnde gelden aan te wenden in het bedrijf,
+          binnen de perken van een normale bedrijfsvoering.</html:p>
+          <html:p>De Beheerder was benoemd door de ministers van Justitie en Financiën en
+          ressorteerde dus onder genoemde ministers. Zijn bureau maakte dan ook deel uit
+          van het Departement van Financiën. Toen de heer mr. M.P.L. Steenberghe de
+          Departementen van Financiën en van Handel, Nijverheid en Scheepvaart tegelijk
+          beheerde heeft deze in augustus 1941 de behandeling van de A1-zaken van beide
+          departementen geconcentreerd bij laatstgenoemd departement, zulks ter
+          bezuiniging op personeel. Zie inv.nr. 73.</html:p>
+          <html:p>Nadat hij in 1942 was afgetreden als minister en de portefeuilles van
+          Financiën en van Handel, Nijverheid en Scheepvaart niet meer in één hand waren
+          verenigd, werd besloten dat de Beheerder weer zou moeten ressorteren onder de
+          minister van Financiën en dat de kosten op diens begroting zouden moeten worden
+          uitgetrokken.</html:p>
+          <html:p>Dit vond plaats met ingang van 1 oktober 1942.</html:p>
+          <html:p>Vanaf het begin was er sprake van een verkeerde opzet ten aanzien van
+          de positie van de Beheerder, omdat zijn dienst een onafhankelijk orgaan geacht
+          werd te zijn, dat zelfstandig de vorderingen, onder A1 aan de Staat overgegaan,
+          zou kunnen innen. Zie inv.nrs. 74 en 75. Maar in de praktijk geschiedden de
+          werkzaamheden steeds door een intermediair, voor Engeland door de minister van
+          Financiën en de 'Trading with the Enemy Department' te Londen en voor andere
+          geallieerde en neutrale landen door middel van het Ministerie van Buitenlandse
+          Zaken.</html:p>
+          <html:p>In juni 1943 verzocht Posthumus Meyjes ontheffing van zijn functie als
+          Beheerder van Nederlandse Eigendommen daar een nieuwe hem opgedragen taak al
+          zijn aandacht en inspanning opeiste.</html:p>
+          <html:p>De ministers van Justitie en Financiën verleenden hem bij beschikking
+          2641a/J2377 eervol ontslag, hieven de functie van Beheerder van Nederlandse
+          Eigendommen op en bepaalden dat de werkzaamheden tot dusverre verricht in het
+          vervolg zouden geschieden door of vanwege de minister van Financiën. Zie
+          inv.nrs. 74 en 75.</html:p>
+          <html:p>De Britse regering erkende het recht van de Nederlandse Scheepvaart- en
+          Handelscommissie en van andere vanwege de Staat der Nederlanden door de
+          Nederlandse regering aangestelde bewindvoerders om als Beheerder op te treden
+          en vorderingen die verband hielden met de hun verstrekte volmacht te
+          innen.</html:p>
+          <html:p>Ingeval een debiteur weigerde dergelijke vorderingen te betalen
+          geschiedde inning door de Custodian of Enemy Property.</html:p>
+          <html:p>Alle vorderingen die niet geïnd werden door een speciale door de
+          Nederlandse regering aangewezen bewindvoerder, moesten betaald worden aan de
+          Custodian of Enemy Property, die in deze geacht werd op te treden als 'agent'
+          voor de Nederlandse regering. De als voren door de Custodian of Enemy Property
+          geïnde gelden werden gestort op een 'special account', 'The Netherlands
+          Account', waarover de Nederlandse regering volledige beschikking had en waarbij
+          alle gegevens betreffende de geïnde bedragen, debiteur en oorspronkelijke
+          crediteur op geregelde tijden aan de Nederlandse regering of aan een door haar
+          aan te wijzen instantie werden verstrekt.</html:p>
+          <html:p>Aanvankelijk zou het grootste deel van het Departement van Financiën in
+          Londen blijven functioneren en de liquidatie daarvan zou slechts geleidelijk
+          kunnen geschieden. Te voorzien viel dat nog gedurende geruime tijd na het einde
+          van de vijandelijkheden allerlei financiële zaken te Londen zouden moeten
+          worden behandeld.</html:p>
+          <html:p>Het Londens gedeelte heette het 'Agency of the Ministry of Finance' en
+          dr. A. Treep fungeerde als hoofd. Deze was tevens benoemd als Financiële Raad
+          van Hare Majesteits regering te Londen. De agency ressorteerde onder de
+          Nederlandse Ambassade in Engeland.</html:p>
+          <html:p>Het Custodian Department veranderde haar activiteiten niet, noch haar
+          personeel.</html:p>
+          <html:p>Het was bekend dat de taak van de Afdeling Beheer niet geheel door haar
+          naam werd gedekt. Op 13 augustus 1946 werd echter het aanhangig maken van de
+          deblokkering van alle voorwerpen van eigendom in het Verenigd Koninkrijk,
+          waarbij derhalve ook waren inbegrepen de groepen voorwerpen waarmee de Afdeling
+          Beheer tot dan toe geen of gering contact had gehad, ook aan deze afdeling
+          opgedragen.</html:p>
+          <html:p>Gedurende de oorlog ontving de Afdeling Beheer van Nederlandse
+          Eigendommen gelden van derden, welke in overeenstemming met het bepaalde in A1
+          in de toekomst aan de rechthebbenden dienden te worden doorbetaald. Zolang het
+          Ministerie van Financiën een eigen administratie in Londen onderhield, werden
+          zekere betalingen aan niet-ingezetenen, welke in vreemde valuta verschuldigd
+          waren, door dit ministerie verricht en in haar boekhouding verwerkt.</html:p>
+          <html:p>Tijdens de oorlog werd bij het Departement van Financiën een centrale
+          boekhouding gevoerd van alle daar gedane ontvangsten en uitgaven. Deze
+          boekhouding werd voortgezet tot 1 november 1946, waarna zij werd overgebracht
+          naar het Afwikkelingsbureau van het Agentschap van het Ministerie van
+          Financiën, Toussaintkade 53 te 's-Gravenhage, onder leiding van de heer M.C.
+          Noë. Naast ontvangsten en uitgaven voor de Londense rijksbegroting, hebben door
+          het Ministerie van Financiën te Londen ook ontvangsten en uitgaven plaats gehad
+          voor rekening van departementen en derden in Nederland. Zie inv.nr. 59. Brief
+          van P.C. Witte aan de minister van Financiën te 's-Gravenhage.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Toen de Nederlandse regering in mei 1940 naar Londen uitweek, was één van
+      de eerste prioriteiten het veilig stellen van Nederlandse bezittingen in het
+      buitenland. Het eerste Londense Koninklijke Besluit (A1) legde de juridische basis
+      hiervoor. De Beheerder van Nederlandsche Eigendommen had aanvankelijk alleen
+      bevoegdheid in Engeland, Schotland en Noord-Ierland, maar kon vanaf 1942 in de hele
+      wereld tegoeden blokkeren.In het archief bevinden zich doorslagen van uitgaande
+      brieven uit de periode 1941-1956, er is correspondentie met het Ministerie van
+      Justitie, het Ministerie van Financiën, het Ministerie van Buitenlandse Zaken, de
+      Nederlandsche Bank en de Custodians of Enemy Property. Er zijn stukken over de
+      organisatie, het personeel, het beleid en de uitvoering van de financiële
+      blokkeringsmaatregelen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>384 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4,90 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

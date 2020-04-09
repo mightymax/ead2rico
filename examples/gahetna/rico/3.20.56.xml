@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/3b6076a6-4617-4c27-8b62-47f49074fbce"
+  rdf:about="record/3.20.56">
+    <rico:identifier>3.20.56</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1965</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35251" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.20.56/i1" />
+      <rico:instantiates rdf:resource="record/3.20.56" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Stoop betrekking
+        hebbende op landerijen onder Stellendam</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/3b6076a6-4617-4c27-8b62-47f49074fbce" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte teksten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35251">
+    <rico:describedBy rdf:resource="record/3.20.56" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35251</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familiepapieren Stoop</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Stoop</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1770</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1967</rico:endDate>
+    <rico:date>1770-1967</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stoop</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De landerijen onder Stellendam, zijnde een aandeel van een 1/31
+          gedeelte in de generale dijkage van Stellendam, waarvan de percelen in 1872
+          bestonden uit A.R.A. Familiearchief Mackay van Ophemert, inv. nr. 578: Akte van
+          scheiding en deling dd. 2 november 1872 van de nalatenschappen van Mr. Johan
+          F.H.J.E. baron Mackay en zijn echtgenote Margaretha C.F. baronesse van
+          Lynden.:</html:p>
+          <html:p>de 5e kavel van de Halspolder, groot 8 hectaren, 89 aren en 90
+          centiaren.de 32e kavel van de Eendrachtspolder, groot 8 hectaren, 73 aren en 10
+          centiaren.de 52e kavel van de Eendrachtspolder, groot 9 hectaren, en 80
+          centiaren.de 29e kavel van de Scharrezeepolder, groot 1 hectare, 67aren en 50
+          centiaren.</html:p>
+          <html:p>Eigenaars van deze gronden waren achtereenvolgens:</html:p>
+          <html:p>Mr. Pieter Vermeulen, heer van Herwijnen, overleden op 12 juni 1810 te
+          Haarlem, echtgenoot van Elisabeth Schoock, die in 1771 eigenaar werd inv. nr.
+          1..de gezamenlijke erfgenamen van Mr. Pieter Vermeuleninv. nr. 2..Johanna
+          Adriana Vermeulen (1756-1833), gesepareerde huisvrouw van Mr. Wigbold Slicher
+          (1755-1834), dochter van Mr. Pieter Vermeulen en Elisabeth Schoockinv. nr.
+          2..Barthold Johan Christiaan baron Mackay van Ophemert (1773-1854), echtgenoot
+          van Anna Magdalena Frederica Henriëtte van Renesse van Wilp (1775-1839), die
+          eigenaar werd krachtens testamentaire beschikking van Johanna Adriana
+          Vermeulen, gesepareerde huisvrouw van Mr. Wigbold Slicher, voor zijn "moeitens,
+          zorg en werkzaamheeden" A.R.A. Familiearchief Mackay van Ophemert, inv. nr.
+          184: Holographisch testament van 1 mei 1832 van Johanna Adriana Vermeulen,
+          gesepareerde huisvrouw van Mr. Wigbold Slicher..de zes minderjarige kinderen
+          van Johan Francois Hendrik Jacob Ernestusbaron Mackay (1807-1846) en Margaretha
+          Clara Francoise baronesse Mackay geboren baronesse Van Lynden (1810-1869),
+          krachtens testamentaire beschikking van hun grootvader Barthold Johan
+          Christiaan baron Mackay van Ophemert A.R.A. Familiearchief Mackay van Ophemert,
+          inv. nr. 252: Authentiek afschriftvan het testament van 14 oktober 1847 van
+          Barthold Johan Christiaan baron Mackay van Ophemert..Anna Bartholda Stoop,
+          geboren baronesse Mackay (1841-1916), echtgenote van Ds. Franciscus Carolus
+          Stoop (1845-1873), dochter van Mr. Johan Francois Hendrik Jacob Ernestus baron
+          Mackay en Margaretha Clara Francoise baronesse Van Lynden aan wie de landen bij
+          de verdeling van de nalatenschappen van haar ouders toevielen A.R.A.
+          Familiearchief Mackay van Ophemert, inv. nr.578: Akte van scheiding en deling
+          van 2 november 1872 van de nalatenschappen van Mr. Johan F.H J.E. baron Mackay
+          en zijn echtgenote Margaretha C.F. baronesse van Lynden..Mr. Johan Anthony
+          Stoop (geboren Haarlo 21 maart 1871) en zijn zuster Francoise Anna Cornelia
+          Gerarda Stoop, kinderen van Ds.Franciscus Carolus Stoop en Anna Bartholda
+          baronesse Mackay.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De landerijen onder Stellendam waren achtereenvolgens eigendom van de
+      families Vermeulen, Mackay en Stoop. Het archief bevat o.a. stukken in verband met
+      de verwerving en het beheer van de landerijen en zijn geordend naar de
+      verschillende eigenaren.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.60 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>56 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

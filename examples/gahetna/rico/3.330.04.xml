@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6ef97bb8-ea97-1b4d-e053-09f0900a0e76"
+  rdf:about="record/3.330.04">
+    <rico:identifier>3.330.04</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2003</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/37187" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.330.04/i1" />
+      <rico:instantiates rdf:resource="record/3.330.04" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de (dubbele) registers van de Burgerlijke Stand
+        van de gemeenten in de provincie Zuid-Holland 1961 - 1970</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6ef97bb8-ea97-1b4d-e053-09f0900a0e76" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/37187">
+    <rico:describedBy rdf:resource="record/3.330.04" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>37187</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Registers Burgerlijke Stand Zuid-Holland / gemeenten A-Z
+      1961-1970</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>BS Zuid-Holland 1961-1970</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1961</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1970</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1961-1970</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Arrondissementsrechtbank te 's-GravenhageArrondissementsrechtbank
+            te RotterdamBeheerder van de Centrale bewaarplaats voor de dubbelen van de
+            akten van de burgerlijke stand te Schaarsbergen,
+            1990-2000Arrondissementsrechtbank te Dordrecht</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De burgerlijke stand is de overheidsboekhouding betreffende de
+          burgerlijke staat van personen en omvat voornamelijk de registers met en
+          toegangen op akten van geboorten, huwelijken (met aantekening van eventuele
+          echtscheiding) en overlijden in gemeenten.</html:p>
+          <html:p>Vóór 1811 geschiedde de inschrijving in kerkelijke doop-, trouw- en
+          begraafboeken, waarvan de vereiste volledigheid, nauwkeurigheid en openbaarheid
+          te wensen overliet. Met de inlijving door de Fransen van aanvankelijk eerst
+          zuidelijke delen van de (Bataafse) Republiek der Nederlanden in 1795 begon de
+          overheidsboekhouding van de burgerlijke staat van personen, met name dus die
+          van geboorte, huwelijk en overlijden. Dit op grond van een Franse wet van 20
+          september 1792, die bepaalde dat de overheid en zij alleen tot de betrokken
+          registratie bevoegd was. Na de inlijving van het Koninkrijk Holland (1806-1810)
+          ging voorjaar 1811 de verplichte persoonsregistratie in geheel ons land van
+          start. Een Keizerlijk Decreet van 18 augustus 1811 bepaalde dat iedereen binnen
+          een jaar een vaste naam moest hebben.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Arrondissementsrechtbank te 's-GravenhageArrondissementsrechtbank
+            te RotterdamBeheerder van de Centrale bewaarplaats voor de dubbelen van de
+            akten van de burgerlijke stand te Schaarsbergen,
+            1990-2000Arrondissementsrechtbank te Dordrecht</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De burgerlijke stand is de overheidsboekhouding betreffende de
+          burgerlijke staat van personen en omvat voornamelijk de registers met en
+          toegangen op akten van geboorten, huwelijken (met aantekening van eventuele
+          echtscheiding) en overlijden in gemeenten.</html:p>
+          <html:p>Vóór 1811 geschiedde de inschrijving in kerkelijke doop-, trouw- en
+          begraafboeken, waarvan de vereiste volledigheid, nauwkeurigheid en openbaarheid
+          te wensen overliet. Met de inlijving door de Fransen van aanvankelijk eerst
+          zuidelijke delen van de (Bataafse) Republiek der Nederlanden in 1795 begon de
+          overheidsboekhouding van de burgerlijke staat van personen, met name dus die
+          van geboorte, huwelijk en overlijden. Dit op grond van een Franse wet van 20
+          september 1792, die bepaalde dat de overheid en zij alleen tot de betrokken
+          registratie bevoegd was. Na de inlijving van het Koninkrijk Holland (1806-1810)
+          ging voorjaar 1811 de verplichte persoonsregistratie in geheel ons land van
+          start. Een Keizerlijk Decreet van 18 augustus 1811 bepaalde dat iedereen binnen
+          een jaar een vaste naam moest hebben.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Arrondissementsrechtbank te 's-GravenhageArrondissementsrechtbank
+            te RotterdamBeheerder van de Centrale bewaarplaats voor de dubbelen van de
+            akten van de burgerlijke stand te Schaarsbergen,
+            1990-2000Arrondissementsrechtbank te Dordrecht</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De burgerlijke stand is de overheidsboekhouding betreffende de
+          burgerlijke staat van personen en omvat voornamelijk de registers met en
+          toegangen op akten van geboorten, huwelijken (met aantekening van eventuele
+          echtscheiding) en overlijden in gemeenten.</html:p>
+          <html:p>Vóór 1811 geschiedde de inschrijving in kerkelijke doop-, trouw- en
+          begraafboeken, waarvan de vereiste volledigheid, nauwkeurigheid en openbaarheid
+          te wensen overliet. Met de inlijving door de Fransen van aanvankelijk eerst
+          zuidelijke delen van de (Bataafse) Republiek der Nederlanden in 1795 begon de
+          overheidsboekhouding van de burgerlijke staat van personen, met name dus die
+          van geboorte, huwelijk en overlijden. Dit op grond van een Franse wet van 20
+          september 1792, die bepaalde dat de overheid en zij alleen tot de betrokken
+          registratie bevoegd was. Na de inlijving van het Koninkrijk Holland (1806-1810)
+          ging voorjaar 1811 de verplichte persoonsregistratie in geheel ons land van
+          start. Een Keizerlijk Decreet van 18 augustus 1811 bepaalde dat iedereen binnen
+          een jaar een vaste naam moest hebben.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Arrondissementsrechtbank te 's-GravenhageArrondissementsrechtbank
+            te RotterdamBeheerder van de Centrale bewaarplaats voor de dubbelen van de
+            akten van de burgerlijke stand te Schaarsbergen,
+            1990-2000Arrondissementsrechtbank te Dordrecht</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De burgerlijke stand is de overheidsboekhouding betreffende de
+          burgerlijke staat van personen en omvat voornamelijk de registers met en
+          toegangen op akten van geboorten, huwelijken (met aantekening van eventuele
+          echtscheiding) en overlijden in gemeenten.</html:p>
+          <html:p>Vóór 1811 geschiedde de inschrijving in kerkelijke doop-, trouw- en
+          begraafboeken, waarvan de vereiste volledigheid, nauwkeurigheid en openbaarheid
+          te wensen overliet. Met de inlijving door de Fransen van aanvankelijk eerst
+          zuidelijke delen van de (Bataafse) Republiek der Nederlanden in 1795 begon de
+          overheidsboekhouding van de burgerlijke staat van personen, met name dus die
+          van geboorte, huwelijk en overlijden. Dit op grond van een Franse wet van 20
+          september 1792, die bepaalde dat de overheid en zij alleen tot de betrokken
+          registratie bevoegd was. Na de inlijving van het Koninkrijk Holland (1806-1810)
+          ging voorjaar 1811 de verplichte persoonsregistratie in geheel ons land van
+          start. Een Keizerlijk Decreet van 18 augustus 1811 bepaalde dat iedereen binnen
+          een jaar een vaste naam moest hebben.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de dubbele registers van de burgerlijke stand, met de
+      akten van geboorten, van huwelijk en echtscheidng en van overlijden, opgemaakt door
+      de ambtenaren van de burgerlijke stand in de gemeenten in Zuid-Holland.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Volgens regels Burgerlijke
+      Stand geldt de beperking voor overlijden voor 50 jaar, huwelijk 75 jaar en geboorte
+      100 jaar. Voor tienjaarlijkse klappers geldt het laatste jaar als jaar van
+      vervallen beperking.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>6306 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>153,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+        <html:p>De registers van de burgerlijke stand, beschreven in deze archieftoegang,
+        zijn in originali beschikbaar bij de secretarieën van de gemeenten en, de oudere
+        exemplaren, bij de gemeentelijke archiefdiensten of de archiefdiensten waarbij de
+        gemeenten zijn aangesloten.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

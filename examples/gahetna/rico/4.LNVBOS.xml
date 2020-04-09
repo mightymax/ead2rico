@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/d93a0833-c3ce-4401-bb1b-72fdf3d7da5b"
+  rdf:about="record/4.LNVBOS">
+    <rico:identifier>4.LNVBOS</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2000</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/LNVBOS" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.LNVBOS/i1" />
+      <rico:instantiates rdf:resource="record/4.LNVBOS" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Staatsbosbeheer: de eerste
+        Nederlandse bosstatistiek, (1929) 1938-1948 (1987)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/d93a0833-c3ce-4401-bb1b-72fdf3d7da5b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/LNVBOS">
+    <rico:describedBy rdf:resource="record/4.LNVBOS" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>LNVBOS</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Staatsbosbeheer: Eerste Nederlandse
+      Bosstatistiek</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Bosstatistiek</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1929</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1987</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1929-1987</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Staatsbosbeheer, , 1899-1988</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Door Staatsbosbeheer werd in 1938-1942 het totale bosareaal in
+          Nederland gedetailleerd in kaart gebracht. In 1938 kreeg Staatsbosbeheer
+          opdracht om een inventarisatie te maken van de omvang en kwaliteit van het bos
+          in Nederland. Hiervoor werd een indeling gemaakt naar boomsoort en ouderdom:
+          Naaldhout ouder en jonger dan 25 jaar; Loofhout (eiken, beuken, iep ) ouder en
+          jonger dan 40 jaar; Populieren ouder en jonger dan 40 jaar</html:p>
+          <html:p>De resultaten van de tellingen in het veld zijn later ingetekend op de
+          zogenaamde topografische militaire kaart op schaal 1:25.000. Op deze
+          gedetailleerde kaart, ( 1 cm op de kaart betekent komt overeen met 250 m in het
+          terrein), is het bosareaal zeer nauwkeurig afgebeeld. Tevens zijn de verliezen
+          aan het bosareaal in 1942-1945 door houtkap tijdens de Duitse bezetting en de
+          hongerwinter in kaart gebracht.</html:p>
+          <html:p>Data belangrijk voor de eerste bosstatistiek1926Dr. Van Vloten wijst in
+          het Tijdschrift van de Nederlandsche Heidemaatschappij op, de wenselijkheid van
+          een Nederlandse bosstatistiek.1926Wereldboschcongres te Rome t.a.v.
+          wereldbosstatistiek.1927 december 15Commissie voor (de) Boschstatistiek
+          ingesteld door minister van Binnenlandsche Zaken en Landbouw.1928
+          oktoberUitvoerig rapport van de commissie.1929 januariVerslag in Tijdschrift
+          van de Nederlandsche Heidemaatschappij: * doen door kadastrale dienst *
+          proefopname in 4 gemeenten: werd er één, nl. Wageningen. Totale kosten
+          bosstatistiek geschat op f 600.000 (1932)* te duur, vereenvoudiging
+          opnametechniek, nu in 4 gemeenten (Harderwijk, Ghenen, Bakel en Veldhoven)
+          geprobeerd: schatting totale kosten nu f 46.000 (26 juni 1934).1937Tot gebruik
+          van luchtfoto's besloten, Topografische dienst zegt medewerking
+          toe.1937Commissie voor de boschstatistiek van taak ontheven. Nieuwe commissie
+          voor de boschstatistiek. Taak: begeleiding van de uitvoering.1939 aprilHet
+          wordt de taak van de directeur Staatsbosbeheer bijstand te verlenen. Aan de
+          taak wordt toegevoegd akkers weilanden en dergelijke ook te inventariseren en
+          bebouwde kommen op te nemen, uit te voeren door assistenten van de
+          Rijkslandbouwconsulenten, en oppervlakte meetwerk te laten doen bij het
+          Staatsboschbeheer door daar voor aan te trekken personeel.1938Start
+          samenstelling eerste Nederlandse Bosstatistiek.1942Bosstatistiek gereed.1945
+          juniAanvang herziening (er was toen echter al aan gewerkt, zoals blijkt uit de
+          datering van herziene kaartbladen).1946Gedrukte publicatie: 'De Nederlandsche
+          boschstatistiek".1948 voorjaarHerziening gereed.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat de kaarten en tabellen van de eerste bosstatistiek,
+      opgemaakt in de periode 1938-1948.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>10 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0,30 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+        <html:p>De kaarten zijn gedigitaliseerd en op CD-rom gezet door Stichting
+        Bosdata, Wageningen. Exemplaren van de CD-rom "Bos van toen".</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/4aa6ee2a-87fb-4d20-b1a5-26e0811d9356"
+  rdf:about="record/3.20.09">
+    <rico:identifier>3.20.09</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1965</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35009" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.20.09/i1" />
+      <rico:instantiates rdf:resource="record/3.20.09" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20141015</rico:hasModificationDate>
+        <html:p>15 oktober 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140620</rico:hasModificationDate>
+        <html:p>20 juni 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121210</rico:hasModificationDate>
+        <html:p>10 december 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120809</rico:hasModificationDate>
+        <html:p>9 augustus 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110901</rico:hasModificationDate>
+        <html:p>1 september 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100504</rico:hasModificationDate>
+        <html:p>4 mei 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie Cousebant ca.
+        1400-1800</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/4aa6ee2a-87fb-4d20-b1a5-26e0811d9356" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35009">
+    <rico:describedBy rdf:resource="record/3.20.09" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35009</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Familie Cousebant</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Cousebant</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1395</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1800</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: ca. 1400-1800</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>CousebantNobelVan ForeestCruciusBosschaertEmondsVan BeeckDe
+            BruynVan AlckemadeVan WijkCousebant, Wigger ClaeszCousebant, Janne
+            Pietersdr.Cousebant, Margriete Pietersdr.Cousebant, Barent Wiggersz.
+            (?-16xx)Cousebant, Frederik Barentsz.Cousebant, Johanna Barentsdr.Cousebant,
+            Frans Barentsz. (?-1667)Cousebant, Barent Fransz. (?-1664)Cousebant, Frederik
+            (1626-1707)Cousebant, Nicolaas (?-1653)Cousebant, Joseph
+            (1633-1695)Cousebant, Gerardus (?-1682)Cousebant, Johanna Maria
+            (?-1710)Cousebant, Judocus (?-1709)Cousebant, GeertruydCousebant, Maria
+            AnnaCousebant, Adrianus François (1682-ca., , 1736) Cousebant, Maria
+            TeresiaCousebant, Franciscus Bernardus (1709-1759)Cousebant, Florentius
+            Justus Franciscus (1735-1799)Cousebant, Franciscus Bernardus Silvester
+            (1765-1765)Cousebant, Theresia Agatha Alexandrina (ca., , 1766-1789)
+            Cousebant, Jacobus (ca., , 1772-1814) Cousebant, Franciscus Bernardus
+            (1775-1843)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Zie voor biografische gegevens over de afzonderlijke familieleden de
+          kopnoten in de inventaris en de genealogische tabellen hieronder.</html:p>
+          <html:p />
+          <html:p>Zie voor het volledige overzicht de genealogische tabellen als .pdf
+          .</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de van oorsprong Haarlemse familie Cousebant en aanverwante
+      families beslaat ruim vier eeuwen vanaf ca. 1400 en omvat diverse stukken van zowel
+      persoonlijke als zakelijke aard. Te vinden zijn onder meer huwelijkscontracten,
+      testamenten, boedelrekeningen, doctorsbullen, kwitanties en rentebrieven. Daarnaast
+      bevat het archief staten van inkomsten en uitgaven, akten van overdracht,
+      leenregisters en enkele kaarten in verband met het bezit van land, huizen en
+      heerlijkheden in Holland (Oud Alckemade, Groot Waspik, Cromstrijen).</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1236 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>7,60 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn in kopievorm beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

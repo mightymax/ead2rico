@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/1b5ae74e-dcab-44ab-bc8c-3186fa5c1e51"
+  rdf:about="record/3.03.82">
+    <rico:identifier>3.03.82</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2008</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/37211" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.03.82/i1" />
+      <rico:instantiates rdf:resource="record/3.03.82" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20141205</rico:hasModificationDate>
+        <html:p>5 december 2014</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Parket van de Officier van
+        Justitie te ''s-Gravenhage, 1960-1979</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/1b5ae74e-dcab-44ab-bc8c-3186fa5c1e51" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/37211">
+    <rico:describedBy rdf:resource="record/3.03.82" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>37211</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Parket van de Officier van Justitie te
+      's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Parket OvJ Den Haag</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1960</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1979</rico:endDate>
+    <rico:date>1960-1979</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Parket van de Officier van Justitie te 's-Gravenhage
+            1959-2005</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Een officier van Justitie is in Nederland een vertegenwoordiger van het
+          Openbaar Ministerie (OM). Het OM of parket vormt in het strafrecht samen met de
+          rechters de rechterlijke macht. Traditioneel is het OM de hoogste hoeder van de
+          openbare orde. Het rechtsbestel in Nederland kent de term OM, in die naam ligt
+          een groot misverstand opgesloten. Het OM mag dan de naam ministerie dragen, het
+          is geen ministerie zoals dat van Defensie of Sociale Zaken. Samen met de
+          rechters vormt het OM de rechterlijke macht - zo staat het in de wet op de
+          rechterlijke organisatie.</html:p>
+          <html:p>Het OM bepaalt wie voor de rechter moet verschijnen, en voor welk
+          strafbaar feit. Het is de enige instantie die kan besluiten een persoon te
+          vervolgen. Het veruit voornaamste werkterrein van het OM is het strafrecht. Het
+          OM bemoeit zich niet met ontslagkwesties of met buren die ruziën om een
+          overhangende boomtak. Zij moeten naar de burgerlijke rechter om hun geschil te
+          beslechten. Het OM komt vrijwel alleen maar in beeld als iemand een strafbaar
+          feit begaat.</html:p>
+          <html:p>Het OM is de organisatie die verantwoordelijk is voor het opsporen en
+          vervolgen van strafbare feiten. De belangrijkste rollen van de officier van
+          Justitie zijn: het gezag voeren over onderzoeken van de politie;bij zware
+          misdrijven direct leiding geven aan onderzoeken van de politie; optreden als
+          openbare aanklager in een rechtszaak (zie strafrecht); tijdens een rechtszaak
+          een bepaalde straf eisen, die niet altijd door de rechter wordt opgelegd.Zowel
+          de politie als de officier van Justitie kan dwangmiddelen toepassen. Bekende
+          dwangmiddelen zijn bijvoorbeeld iemand fouilleren of vasthouden op het
+          politiebureau. De officier van Justitie bepaalt of hij een zaak aan de rechter
+          wil voorleggen of niet. Hij moet er ook voor zorgen dat uitspraken van de
+          strafrechter worden uitgevoerd. De officier van Justitie moet zich aan strenge
+          regels in de wet houden. De rechter controleert of de regels wel goed worden
+          toegepast.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat uit registers van verschillende soorten strafzaken.
+      Daarnaast heeft een deel van het archief betrekking op het functioneren van het
+      parket.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Beperking voor stukken jonger
+      dan 75 jaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>18.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>306 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>De inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

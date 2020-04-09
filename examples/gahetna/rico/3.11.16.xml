@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="----" rdf:about="record/3.11.16">
+    <rico:identifier>3.11.16</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2016</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/37238" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.11.16/i1" />
+      <rico:instantiates rdf:resource="record/3.11.16" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Provinciale organisaties
+        voor de uitvoering van de Landbouwcrisiswet 1933 in Zuid-Holland en de Stichting
+        tot Uitvoering van de Landbouwmaatregelen (STULM) van het Ministerie van
+        Landbouw, Natuur en Voedselkwaliteit, 1932-1984</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="----" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en getypte documenten, geen bijzondere handschriften.
+        Het archief bestaat uit voornamelijk ingebonden correspondentie en een aantal
+        losse stukken.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/37238">
+    <rico:describedBy rdf:resource="record/3.11.16" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>37238</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Uitvoering van de Landbouwcrisiswet 1933 in Zuid-Holland en de
+      STULM</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Uitvoering van de Landbouwcrisiswet 1933 in Zuid-Holland en de
+      STULM</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1932</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1984</rico:endDate>
+    <rico:date>1932-1984</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Landbouw Crisis Organisatie in Zuid-Holland,
+            1934-1969</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het begin van de Eerste Wereldoorlog werd al meer dan de helft van
+          de totale landbouwproductie verkocht aan het buitenland. Daarnaast waren
+          sommige agrarische sectoren inmiddels in hoge mate afhankelijk geworden van de
+          aanvoer van grondstoffen, zoals kunstmest en veevoeder.</html:p>
+          <html:p>Aanvankelijk had iedereen het volste vertrouwen in deze gerichtheid op
+          exportmarkten, maar terwijl de situatie van hoogconjunctuur zich na 1918 snel
+          herstelde, dienden zich al gauw de eerste symptomen aan van een wereldwijde
+          agrarische overproductie. Steeds groter werden de hoeveelheden
+          landbouwproducten die ver van over de oceaan naar Europa kwamen. Het gevolg was
+          dat de prijzen van de binnenlandse landbouwproducten zodanig waren gedaald dat
+          er nauwelijks nog lonend geproduceerd kon worden.</html:p>
+          <html:p>Vanaf 1927 verslechterde de situatie zodanig dat de beloning voor de
+          boeren lager was komen te liggen dan voor landarbeiders.</html:p>
+          <html:p>De veehouderij kreeg het zwaar te verduren, toen in 1931 door Engeland
+          en de Scandinavische landen de Gouden Standaard werd losgelaten en de gulden
+          daardoor “te duur” werd. Hierdoor daalde de export van vlees, vanouds een grote
+          sector in de landbouw. Om de export van de ondergang te redden, werd de invoer
+          van goedkoop buitenlands vlees beperkt, om zo de veehouders tegen drastische
+          prijsdalingen te beschermen.</html:p>
+          <html:p>Door de slechte omstandigheden gedwongen, drongen de
+          landbouworganisaties aan op overheidsingrijpen. De regering reageerde
+          aanvankelijk met incidentele steunmaatregelen (Crisiszuivelwet,
+          Crisisvarkenswet), maar toen de situatie verslechterde, werd in 1933 de
+          Landbouwcrisiswet van kracht, die alle getroffen maatregelen bundelde en verder
+          reikte. Aanvankelijk hield de overheid zich afzijdig, omdat zij meende dat de
+          problemen van tijdelijke aard waren. Maar de economische positie van de
+          landbouw werd zo slecht dat de overheid het noodzakelijk achtte om in te
+          grijpen.</html:p>
+          <html:p>Op 21 februari 1931 werd de Tarwewet van kracht (Stb. 65). Zij bleef
+          van kracht tot 1 september 1935, toen werd zij opgenomen in de
+          Landbouwcrisiswet.</html:p>
+          <html:p>Op 8 juli 1932 werden de Crisiszuivelwet (Stb. 318) en op 25 juli 1932
+          de Crisisvarkenswet (Stb. 374) van kracht.</html:p>
+          <html:p>De Crisiszuivelwet hield in: er werd een fonds gesticht, gevormd uit
+          heffingen op zuivelproducten en spijsvetten. Uit dit fonds kon aan de
+          veehouders een toeslag op de door hen aan melkfabrieken geleverde melk worden
+          gegeven.</html:p>
+          <html:p>De Crisisvarkenswet gaf de overheid de mogelijkheid om accijns te
+          heffen op varkensvlees. De opbrengst hiervan werd in een stabilisatiefonds
+          gestort, waarmee een hoger prijspeil kon worden gehandhaafd.</html:p>
+          <html:p>Landbouwcrisiswet 1933</html:p>
+          <html:p>Al deze aparte wetgeving bracht te weinig resultaat. Het buitenland
+          bleef beperkende maatregelen doorvoeren. Wilde men een redelijk binnenlands
+          prijspeil houden, dan moest de productie aan de exportcijfers aangepast worden.
+          Uiteindelijk werd de hele sector aan banden gelegd in de Landbouwcrisiswet van
+          1933 (vaststelling Stb. 1933, 261, gewijzigd Stb. 1934, 518, ingetrokken Stb.
+          1957, 342). Deze wet leidde er ook toe dat er naar kwaliteitsverbetering werd
+          gestreefd. Men bracht de boeren in contact met landbouwonderwijs, met moderne
+          graslandexploitatie, met doelmatig kunstmestbeleid, bestrijding van ziekten en
+          doelmatiger veevoeding.</html:p>
+          <html:p>De landbouw had een achterstand opgelopen. Het productieniveau lag laag
+          in vergelijking tot de omringende landen. Dit kwam door het volgende: Nederland
+          kende een kleinschalige, arbeidsintensieve landbouw. Deze was vooral het gevolg
+          van de introductie van kunstmest, krachtvoer (mais, lijnkoeken) en coöperaties
+          (zuivelfabrieken, aankoopcentrales, kredietinstellingen) vanaf het eind van de
+          negentiende eeuw. Hierdoor ontstonden nieuwe bestaansmogelijkheden voor boeren
+          op een relatief klein oppervlak. Velen startten een bedrijfje, vaak werden ook
+          bedrijven gesplitst.</html:p>
+          <html:p>Al in de loop van de jaren twintig was zowel in de akkerbouw als in de
+          veeteelt het prijsniveau zo zeer gedaald dat nauwelijks van een lonend bedrijf
+          gesproken kon worden. Het inkomen van de boer was feitelijk lager dan van de
+          knechten.</html:p>
+          <html:p>De overheid kreeg door de Landbouwcrisiswet een groot aantal
+          bevoegdheden tot regeling van productie, prijzen, handel en verwerking. Behalve
+          in steun (financieel) en productiebeperking voorzag de wet tevens in
+          mogelijkheden tot verhoging van de kwaliteit van de producten. Belast met deze
+          taak werd bovenal de Rijkslandbouwvoorlichtingsdienst.</html:p>
+          <html:p>De wet had verstrekkende gevolgen. Vrijwel alle boeren moesten zich als
+          'georganiseerden' laten inschrijven bij een of meer crisisinstellingen, waarmee
+          zij zich onderwierpen aan tal van verplichtingen. Steun werd verstrekt uit het
+          Landbouwcrisisfonds.</html:p>
+          <html:p>De Landbouwcrisiswet was het begin van een systematisch ingrijpen van
+          de overheid in de landbouw. Dit ingrijpen had succes. Dit bleek niet alleen uit
+          een zekere opleving van de landbouw, maar ook uit de soepele wijze waarop deze
+          bedrijfstak, de landbouw kon worden ingezet om de oorlogsomstandigheden het
+          hoofd te bieden.</html:p>
+          <html:p>In 1931 werd de toenmalige secretaris-penningmeester van de
+          Overijsselse Maatschappij van de Landbouw S.J. Louwes benoemd als
+          regeringscommissaris met als taak het uitvoeren van de Tarwewet 1931.</html:p>
+          <html:p>Tot 1937 verkeerde de landbouw in mineur. Na dat jaar was er de
+          dreiging van een op handen zijnde oorlog en de devaluatie van de gulden in 1936
+          de oorzaak ervan dat de prijzen weer aantrokken en de situatie er voor de
+          boeren geleidelijk weer beter op werd.</html:p>
+          <html:p>In 1937 werd het Rijksbureau voor de Voorbereiding van de
+          Voedselvoorziening (RBVVO) opgericht onder leiding van S.J. Louwes. In
+          september 1939 werd de naam gewijzigd in het Rijksbureau voor de
+          Voedselvoorziening in Oorlogstijd.</html:p>
+          <html:p>Dit Rijksbureau was gevestigd op Lage Voorhout 1 – 3 te Den Haag waar
+          ook, in januari 1939, de afdeling Voedselvoorziening in Oorlogstijd van het
+          Ministerie van Economische Zaken aanwezig was.</html:p>
+          <html:p>Op 28 augustus 1939 werd aan alle provinciale landbouworganisaties
+          opgedragen hun organisatie en controledienst ter beschikking te stellen aan de
+          gelijktijdig benoemde Provinciaal Voedselcommissaris (PVC). Vanaf 1963 viel de
+          PVC onder de Stichting voor de Uitvoering van Landbouwmaatregelen
+          (STULM).</html:p>
+          <html:p>Voor de provincie Zuid-Holland waren de Provinciale Voedselcommissaris:
+          1939 – 1945 T.P. Huisman 1945 – 1963 A. van den Hoek 1964 – 1967 P. ter
+          Hofstede</html:p>
+          <html:p>Vanaf 1 oktober 1939, nadat er een algehele mobilisatie (28 augustus
+          1939) was afgekondigd, vond er een samenvoeging plaats tussen de
+          landbouwcrisisorganisaties en de organisatie voor voedselvoorziening. Hierna
+          was er de ministeriële afdeling Landbouwcrisisaangelegenheden en
+          Voedselvoorziening in Oorlogstijd (LCA/VVO).</html:p>
+          <html:p>Tot de spoorwegstaking in september 1944 was de voedselvoorziening in
+          Nederland, ten opzichte van het buitenland, door het Rijksbureau relatief
+          gezien goed geregeld. Door de spoorwegstaking ontstond er hongersnood in het
+          westen van Nederland. Men heeft nog getracht door de oprichting van de Centrale
+          Reederij voor de Voedselvoorziening, op 16 december 1944, met vaartuigen de
+          voedselvoorziening weer op peil te krijgen maar als gevolg van de strenge
+          winter waren de vaarwegen langdurig bevroren. Door directe oorlogsschade,
+          inundaties, gebrek aan kunstmest en uitputting van de grond daalde alleen in
+          het laatste oorlogsjaar de landbouwproductie tot een niveau dat te laag was om
+          de voedselvoorziening te garanderen. In 1948 lag de landbouwproductie al weer
+          op een vooroorlogs niveau. Het landbouwbeleid veranderde. Het werd nu gericht
+          op kostprijsverlaging, productieverhoging en het zorgen voor een redelijk
+          inkomen voor de boeren.</html:p>
+          <html:p>De prijzen werden zo vastgesteld dat een goed geleid, niet al te kleine
+          bedrijf rendabel kon werken.</html:p>
+          <html:p>Stichting tot Uitvoering van Landbouwmaatregelen (STULM)</html:p>
+          <html:p>Er zijn twee STULM-organisaties: STULM 1963 en STULM 1974. Beide
+          speelden niet alleen op het gebied van het landbouwstructuurbeleid een rol,
+          maar ook in een aantal ministeriële regelingen op het gebied van het agrarisch
+          markt- en prijsbeleid (bijv. de toekenning van zoogkoeienpremies, tot
+          1989).</html:p>
+          <html:p>In algemene zin was de STULM betrokken bij de uitvoering van
+          landbouwmaatregelen op agrarisch gebied, getroffen door de landbouwminister of
+          door een Publiekrechtelijke Bestuursorgaan (PBO) en vastgelegd in
+          overeenkomsten. Ook behulpzaamheid bij de voorbereiding van zulke maatregelen
+          was een taak van de STULM.</html:p>
+          <html:p>STULM 1963</html:p>
+          <html:p>In 1963 richtte de Minister van Landbouw de Stichting tot Uitvoering
+          van Landbouwmaatregelen (STULM) op ter uitvoering van maatregelen op agrarisch
+          gebied, getroffen door hemzelf of door een PBO en vastgelegd in overeenkomsten.
+          Ook behulpzaamheid bij de voorbereiding van zulke maatregelen was een taak van
+          de STULM. Drie van de zeven bestuursleden werden benoemd door de minister en de
+          overige vier door de deelnemende productschappen gezamenlijk. Behalve het
+          bureau in Den Haag beschikte de stichting in iedere provincie over gewestelijke
+          (later: provinciale) bureaus en over districtsbureaus (later:
+          districtskantoren); de leiding berustte bij respectievelijk een landelijk
+          directeur, een aantal gewestelijke directeuren en een aantal
+          districtsbureauhouders. Als gewestelijke directeuren fungeerden de provinciale
+          voedselcommissarissen, en als hun plaatsvervangers fungeerden de
+          plaatsvervangende provinciale voedselcommissarissen. STULM 1963 was dus
+          werkzaam binnen het provinciale apparaat van Landbouw en Voedselvoorziening
+          (LaVo).</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur STULM. Na een
+          grondige statutenwijziging in 1980 nam de invloed van de minister sterk toe en
+          bestond de doelstelling nog slechts uit medewerking aan de uitvoering van
+          landbouwmaatregelen, zoals opgedragen aan de inmiddels opgerichte STULM
+          1974.</html:p>
+          <html:p>STULM 1963 is in een slapende toestand geraakt, maar nog niet formeel
+          opgeheven.</html:p>
+          <html:p>STULM 1974</html:p>
+          <html:p>In 1974 richtte de Minister van Landbouw naast de STULM 1963 ook nog de
+          STULM 1974 op, met als doel het uitvoeren van landbouwmaatregelen door middel
+          van: het ten behoeve van de Minister van Landbouw verrichten van werkzaamheden
+          ter uitvoering van diens maatregelen in het kader van het landbouwbeleid,
+          waaronder voorlichting. het verlenen van medewerking bij de voorbereiding van
+          bovengenoemde maatregelen; het ten behoeve van PBO’s verrichten van
+          werkzaamheden.</html:p>
+          <html:p>Het bestuur bestond uit vertegenwoordigers van de Minister van Landbouw
+          en van de productschappen, en de organisatie kende drie niveaus: centraal,
+          provinciaal en per district (op dit niveau geleid door
+          districtsbureauhouders).</html:p>
+          <html:p>STULM 1974 was een overheidsstichting zonder personeel, werkzaam binnen
+          het provinciale apparaat van Landbouw en Voedselvoorziening (LaVo) en bemand
+          met rijksambtenaren die grotendeels afkomstig waren van STULM 1963. De
+          werkzaamheden stonden onder leiding van een directeur, een dubbelfunctie van de
+          directeur van de directie Uitvoering Regelingen (DUR).</html:p>
+          <html:p>De statuten werden voor het eerst gewijzigd in 1977. De voornaamste
+          veranderingen betroffen de inbreng van de minister bij beslissingen van het
+          bestuur. Zo moesten besluiten tot wijziging van de statuten of tot opheffing
+          van de stichting voortaan worden goedgekeurd door de minister.</html:p>
+          <html:p>Tevens werd overleg met de minister verplicht gesteld inzake benoeming,
+          schorsing of ontslag van de landelijk directeur, de gewestelijke directeuren en
+          de secretaris.</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur
+          STULM.</html:p>
+          <html:p>In 1980 werd tevens bepaald dat de archieven na opheffing zouden worden
+          overgebracht naar de archiefbewaarplaats van het ministerie om aldaar te
+          blijven berusten.</html:p>
+          <html:p>Een veel verdergaande statutenwijziging vond plaats in 1980. In 1978
+          besloot de algemene bestuursvergadering van STULM 1963 en STULM 1974 tot
+          ontbinding van de met eerstgenoemde stichting gesloten
+          deelnemersovereenkomsten, zodat werkzaamheden voortaan opgedragen konden worden
+          aan STULM 1974. De hieruit resulterende wijziging van de statuten van STULM
+          1963 bepaalde tevens dat de doelstelling voortaan nog slechts bestond uit
+          medewerking aan de uitvoering van landbouwmaatregelen, zoals opgedragen aan
+          STULM 1974.</html:p>
+          <html:p>Er werden geen bestuursleden meer benoemd, omdat het bestuur voortaan
+          bestond uit de bestuursleden van STULM 1974. Toestemming van de minister werd
+          verplicht voor besluiten met financiële gevolgen, zoals met betrekking tot huur
+          en verpachting, leningen en schenkingen. Tevens werden de begroting en de
+          rekening en verantwoording onderworpen aan ministeriële goedkeuring, terwijl de
+          controle op het financieel beheer voortaan zou gebeuren door de departementale
+          accountantsdienst. Verder zouden de archieven na opheffing worden overgebracht
+          naar de archiefbewaarplaats van het ministerie en aldaar blijven berusten. Bij
+          de statutenwijziging van STULM 1974 uit 1980 werd ook op andere wijze de
+          inbreng van de minister vergroot. Als directeur kwam er voortaan een ambtenaar
+          van het ministerie en naast het bureau in Den Haag werden gewestelijke (vanaf
+          1984:provinciale) bureaus ingesteld.</html:p>
+          <html:p>De functie van gewestelijk directeur werd uitgeoefend door de
+          provinciale hoofdingenieur-directeur (HID) voor de bedrijfsontwikkeling (vanaf
+          1984: de provinciale directeuren Landbouw en Voedselvoorziening).</html:p>
+          <html:p>De taken van de STULM werden vanaf circa 1988 uitgevoerd door de DUR en
+          sinds 1996 door de Landelijke Service bij Regelingen (LASER). Zo werden
+          zoogkoeienpremies tot 1989 namens de minister nog door STULM
+          toegekend.</html:p>
+          <html:p>In 1993 werd de stichting aangewezen als Zelfstandig Bestuursorgaan
+          (ZBO), althans als bestuursorgaan onder de Wet Openbaarheid Bestuur (WOB) en de
+          Wet Nationale Ombudsman (Stb. 1993, 535). STULM 1974 is in een slapende
+          toestand geraakt, maar nog niet formeel opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bureau Provinciale Voedselcommissaris (PVC),
+            1933-1958</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het begin van de Eerste Wereldoorlog werd al meer dan de helft van
+          de totale landbouwproductie verkocht aan het buitenland. Daarnaast waren
+          sommige agrarische sectoren inmiddels in hoge mate afhankelijk geworden van de
+          aanvoer van grondstoffen, zoals kunstmest en veevoeder.</html:p>
+          <html:p>Aanvankelijk had iedereen het volste vertrouwen in deze gerichtheid op
+          exportmarkten, maar terwijl de situatie van hoogconjunctuur zich na 1918 snel
+          herstelde, dienden zich al gauw de eerste symptomen aan van een wereldwijde
+          agrarische overproductie. Steeds groter werden de hoeveelheden
+          landbouwproducten die ver van over de oceaan naar Europa kwamen. Het gevolg was
+          dat de prijzen van de binnenlandse landbouwproducten zodanig waren gedaald dat
+          er nauwelijks nog lonend geproduceerd kon worden.</html:p>
+          <html:p>Vanaf 1927 verslechterde de situatie zodanig dat de beloning voor de
+          boeren lager was komen te liggen dan voor landarbeiders.</html:p>
+          <html:p>De veehouderij kreeg het zwaar te verduren, toen in 1931 door Engeland
+          en de Scandinavische landen de Gouden Standaard werd losgelaten en de gulden
+          daardoor “te duur” werd. Hierdoor daalde de export van vlees, vanouds een grote
+          sector in de landbouw. Om de export van de ondergang te redden, werd de invoer
+          van goedkoop buitenlands vlees beperkt, om zo de veehouders tegen drastische
+          prijsdalingen te beschermen.</html:p>
+          <html:p>Door de slechte omstandigheden gedwongen, drongen de
+          landbouworganisaties aan op overheidsingrijpen. De regering reageerde
+          aanvankelijk met incidentele steunmaatregelen (Crisiszuivelwet,
+          Crisisvarkenswet), maar toen de situatie verslechterde, werd in 1933 de
+          Landbouwcrisiswet van kracht, die alle getroffen maatregelen bundelde en verder
+          reikte. Aanvankelijk hield de overheid zich afzijdig, omdat zij meende dat de
+          problemen van tijdelijke aard waren. Maar de economische positie van de
+          landbouw werd zo slecht dat de overheid het noodzakelijk achtte om in te
+          grijpen.</html:p>
+          <html:p>Op 21 februari 1931 werd de Tarwewet van kracht (Stb. 65). Zij bleef
+          van kracht tot 1 september 1935, toen werd zij opgenomen in de
+          Landbouwcrisiswet.</html:p>
+          <html:p>Op 8 juli 1932 werden de Crisiszuivelwet (Stb. 318) en op 25 juli 1932
+          de Crisisvarkenswet (Stb. 374) van kracht.</html:p>
+          <html:p>De Crisiszuivelwet hield in: er werd een fonds gesticht, gevormd uit
+          heffingen op zuivelproducten en spijsvetten. Uit dit fonds kon aan de
+          veehouders een toeslag op de door hen aan melkfabrieken geleverde melk worden
+          gegeven.</html:p>
+          <html:p>De Crisisvarkenswet gaf de overheid de mogelijkheid om accijns te
+          heffen op varkensvlees. De opbrengst hiervan werd in een stabilisatiefonds
+          gestort, waarmee een hoger prijspeil kon worden gehandhaafd.</html:p>
+          <html:p>Landbouwcrisiswet 1933</html:p>
+          <html:p>Al deze aparte wetgeving bracht te weinig resultaat. Het buitenland
+          bleef beperkende maatregelen doorvoeren. Wilde men een redelijk binnenlands
+          prijspeil houden, dan moest de productie aan de exportcijfers aangepast worden.
+          Uiteindelijk werd de hele sector aan banden gelegd in de Landbouwcrisiswet van
+          1933 (vaststelling Stb. 1933, 261, gewijzigd Stb. 1934, 518, ingetrokken Stb.
+          1957, 342). Deze wet leidde er ook toe dat er naar kwaliteitsverbetering werd
+          gestreefd. Men bracht de boeren in contact met landbouwonderwijs, met moderne
+          graslandexploitatie, met doelmatig kunstmestbeleid, bestrijding van ziekten en
+          doelmatiger veevoeding.</html:p>
+          <html:p>De landbouw had een achterstand opgelopen. Het productieniveau lag laag
+          in vergelijking tot de omringende landen. Dit kwam door het volgende: Nederland
+          kende een kleinschalige, arbeidsintensieve landbouw. Deze was vooral het gevolg
+          van de introductie van kunstmest, krachtvoer (mais, lijnkoeken) en coöperaties
+          (zuivelfabrieken, aankoopcentrales, kredietinstellingen) vanaf het eind van de
+          negentiende eeuw. Hierdoor ontstonden nieuwe bestaansmogelijkheden voor boeren
+          op een relatief klein oppervlak. Velen startten een bedrijfje, vaak werden ook
+          bedrijven gesplitst.</html:p>
+          <html:p>Al in de loop van de jaren twintig was zowel in de akkerbouw als in de
+          veeteelt het prijsniveau zo zeer gedaald dat nauwelijks van een lonend bedrijf
+          gesproken kon worden. Het inkomen van de boer was feitelijk lager dan van de
+          knechten.</html:p>
+          <html:p>De overheid kreeg door de Landbouwcrisiswet een groot aantal
+          bevoegdheden tot regeling van productie, prijzen, handel en verwerking. Behalve
+          in steun (financieel) en productiebeperking voorzag de wet tevens in
+          mogelijkheden tot verhoging van de kwaliteit van de producten. Belast met deze
+          taak werd bovenal de Rijkslandbouwvoorlichtingsdienst.</html:p>
+          <html:p>De wet had verstrekkende gevolgen. Vrijwel alle boeren moesten zich als
+          'georganiseerden' laten inschrijven bij een of meer crisisinstellingen, waarmee
+          zij zich onderwierpen aan tal van verplichtingen. Steun werd verstrekt uit het
+          Landbouwcrisisfonds.</html:p>
+          <html:p>De Landbouwcrisiswet was het begin van een systematisch ingrijpen van
+          de overheid in de landbouw. Dit ingrijpen had succes. Dit bleek niet alleen uit
+          een zekere opleving van de landbouw, maar ook uit de soepele wijze waarop deze
+          bedrijfstak, de landbouw kon worden ingezet om de oorlogsomstandigheden het
+          hoofd te bieden.</html:p>
+          <html:p>In 1931 werd de toenmalige secretaris-penningmeester van de
+          Overijsselse Maatschappij van de Landbouw S.J. Louwes benoemd als
+          regeringscommissaris met als taak het uitvoeren van de Tarwewet 1931.</html:p>
+          <html:p>Tot 1937 verkeerde de landbouw in mineur. Na dat jaar was er de
+          dreiging van een op handen zijnde oorlog en de devaluatie van de gulden in 1936
+          de oorzaak ervan dat de prijzen weer aantrokken en de situatie er voor de
+          boeren geleidelijk weer beter op werd.</html:p>
+          <html:p>In 1937 werd het Rijksbureau voor de Voorbereiding van de
+          Voedselvoorziening (RBVVO) opgericht onder leiding van S.J. Louwes. In
+          september 1939 werd de naam gewijzigd in het Rijksbureau voor de
+          Voedselvoorziening in Oorlogstijd.</html:p>
+          <html:p>Dit Rijksbureau was gevestigd op Lage Voorhout 1 – 3 te Den Haag waar
+          ook, in januari 1939, de afdeling Voedselvoorziening in Oorlogstijd van het
+          Ministerie van Economische Zaken aanwezig was.</html:p>
+          <html:p>Op 28 augustus 1939 werd aan alle provinciale landbouworganisaties
+          opgedragen hun organisatie en controledienst ter beschikking te stellen aan de
+          gelijktijdig benoemde Provinciaal Voedselcommissaris (PVC). Vanaf 1963 viel de
+          PVC onder de Stichting voor de Uitvoering van Landbouwmaatregelen
+          (STULM).</html:p>
+          <html:p>Voor de provincie Zuid-Holland waren de Provinciale Voedselcommissaris:
+          1939 – 1945 T.P. Huisman 1945 – 1963 A. van den Hoek 1964 – 1967 P. ter
+          Hofstede</html:p>
+          <html:p>Vanaf 1 oktober 1939, nadat er een algehele mobilisatie (28 augustus
+          1939) was afgekondigd, vond er een samenvoeging plaats tussen de
+          landbouwcrisisorganisaties en de organisatie voor voedselvoorziening. Hierna
+          was er de ministeriële afdeling Landbouwcrisisaangelegenheden en
+          Voedselvoorziening in Oorlogstijd (LCA/VVO).</html:p>
+          <html:p>Tot de spoorwegstaking in september 1944 was de voedselvoorziening in
+          Nederland, ten opzichte van het buitenland, door het Rijksbureau relatief
+          gezien goed geregeld. Door de spoorwegstaking ontstond er hongersnood in het
+          westen van Nederland. Men heeft nog getracht door de oprichting van de Centrale
+          Reederij voor de Voedselvoorziening, op 16 december 1944, met vaartuigen de
+          voedselvoorziening weer op peil te krijgen maar als gevolg van de strenge
+          winter waren de vaarwegen langdurig bevroren. Door directe oorlogsschade,
+          inundaties, gebrek aan kunstmest en uitputting van de grond daalde alleen in
+          het laatste oorlogsjaar de landbouwproductie tot een niveau dat te laag was om
+          de voedselvoorziening te garanderen. In 1948 lag de landbouwproductie al weer
+          op een vooroorlogs niveau. Het landbouwbeleid veranderde. Het werd nu gericht
+          op kostprijsverlaging, productieverhoging en het zorgen voor een redelijk
+          inkomen voor de boeren.</html:p>
+          <html:p>De prijzen werden zo vastgesteld dat een goed geleid, niet al te kleine
+          bedrijf rendabel kon werken.</html:p>
+          <html:p>Stichting tot Uitvoering van Landbouwmaatregelen (STULM)</html:p>
+          <html:p>Er zijn twee STULM-organisaties: STULM 1963 en STULM 1974. Beide
+          speelden niet alleen op het gebied van het landbouwstructuurbeleid een rol,
+          maar ook in een aantal ministeriële regelingen op het gebied van het agrarisch
+          markt- en prijsbeleid (bijv. de toekenning van zoogkoeienpremies, tot
+          1989).</html:p>
+          <html:p>In algemene zin was de STULM betrokken bij de uitvoering van
+          landbouwmaatregelen op agrarisch gebied, getroffen door de landbouwminister of
+          door een Publiekrechtelijke Bestuursorgaan (PBO) en vastgelegd in
+          overeenkomsten. Ook behulpzaamheid bij de voorbereiding van zulke maatregelen
+          was een taak van de STULM.</html:p>
+          <html:p>STULM 1963</html:p>
+          <html:p>In 1963 richtte de Minister van Landbouw de Stichting tot Uitvoering
+          van Landbouwmaatregelen (STULM) op ter uitvoering van maatregelen op agrarisch
+          gebied, getroffen door hemzelf of door een PBO en vastgelegd in overeenkomsten.
+          Ook behulpzaamheid bij de voorbereiding van zulke maatregelen was een taak van
+          de STULM. Drie van de zeven bestuursleden werden benoemd door de minister en de
+          overige vier door de deelnemende productschappen gezamenlijk. Behalve het
+          bureau in Den Haag beschikte de stichting in iedere provincie over gewestelijke
+          (later: provinciale) bureaus en over districtsbureaus (later:
+          districtskantoren); de leiding berustte bij respectievelijk een landelijk
+          directeur, een aantal gewestelijke directeuren en een aantal
+          districtsbureauhouders. Als gewestelijke directeuren fungeerden de provinciale
+          voedselcommissarissen, en als hun plaatsvervangers fungeerden de
+          plaatsvervangende provinciale voedselcommissarissen. STULM 1963 was dus
+          werkzaam binnen het provinciale apparaat van Landbouw en Voedselvoorziening
+          (LaVo).</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur STULM. Na een
+          grondige statutenwijziging in 1980 nam de invloed van de minister sterk toe en
+          bestond de doelstelling nog slechts uit medewerking aan de uitvoering van
+          landbouwmaatregelen, zoals opgedragen aan de inmiddels opgerichte STULM
+          1974.</html:p>
+          <html:p>STULM 1963 is in een slapende toestand geraakt, maar nog niet formeel
+          opgeheven.</html:p>
+          <html:p>STULM 1974</html:p>
+          <html:p>In 1974 richtte de Minister van Landbouw naast de STULM 1963 ook nog de
+          STULM 1974 op, met als doel het uitvoeren van landbouwmaatregelen door middel
+          van: het ten behoeve van de Minister van Landbouw verrichten van werkzaamheden
+          ter uitvoering van diens maatregelen in het kader van het landbouwbeleid,
+          waaronder voorlichting. het verlenen van medewerking bij de voorbereiding van
+          bovengenoemde maatregelen; het ten behoeve van PBO’s verrichten van
+          werkzaamheden.</html:p>
+          <html:p>Het bestuur bestond uit vertegenwoordigers van de Minister van Landbouw
+          en van de productschappen, en de organisatie kende drie niveaus: centraal,
+          provinciaal en per district (op dit niveau geleid door
+          districtsbureauhouders).</html:p>
+          <html:p>STULM 1974 was een overheidsstichting zonder personeel, werkzaam binnen
+          het provinciale apparaat van Landbouw en Voedselvoorziening (LaVo) en bemand
+          met rijksambtenaren die grotendeels afkomstig waren van STULM 1963. De
+          werkzaamheden stonden onder leiding van een directeur, een dubbelfunctie van de
+          directeur van de directie Uitvoering Regelingen (DUR).</html:p>
+          <html:p>De statuten werden voor het eerst gewijzigd in 1977. De voornaamste
+          veranderingen betroffen de inbreng van de minister bij beslissingen van het
+          bestuur. Zo moesten besluiten tot wijziging van de statuten of tot opheffing
+          van de stichting voortaan worden goedgekeurd door de minister.</html:p>
+          <html:p>Tevens werd overleg met de minister verplicht gesteld inzake benoeming,
+          schorsing of ontslag van de landelijk directeur, de gewestelijke directeuren en
+          de secretaris.</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur
+          STULM.</html:p>
+          <html:p>In 1980 werd tevens bepaald dat de archieven na opheffing zouden worden
+          overgebracht naar de archiefbewaarplaats van het ministerie om aldaar te
+          blijven berusten.</html:p>
+          <html:p>Een veel verdergaande statutenwijziging vond plaats in 1980. In 1978
+          besloot de algemene bestuursvergadering van STULM 1963 en STULM 1974 tot
+          ontbinding van de met eerstgenoemde stichting gesloten
+          deelnemersovereenkomsten, zodat werkzaamheden voortaan opgedragen konden worden
+          aan STULM 1974. De hieruit resulterende wijziging van de statuten van STULM
+          1963 bepaalde tevens dat de doelstelling voortaan nog slechts bestond uit
+          medewerking aan de uitvoering van landbouwmaatregelen, zoals opgedragen aan
+          STULM 1974.</html:p>
+          <html:p>Er werden geen bestuursleden meer benoemd, omdat het bestuur voortaan
+          bestond uit de bestuursleden van STULM 1974. Toestemming van de minister werd
+          verplicht voor besluiten met financiële gevolgen, zoals met betrekking tot huur
+          en verpachting, leningen en schenkingen. Tevens werden de begroting en de
+          rekening en verantwoording onderworpen aan ministeriële goedkeuring, terwijl de
+          controle op het financieel beheer voortaan zou gebeuren door de departementale
+          accountantsdienst. Verder zouden de archieven na opheffing worden overgebracht
+          naar de archiefbewaarplaats van het ministerie en aldaar blijven berusten. Bij
+          de statutenwijziging van STULM 1974 uit 1980 werd ook op andere wijze de
+          inbreng van de minister vergroot. Als directeur kwam er voortaan een ambtenaar
+          van het ministerie en naast het bureau in Den Haag werden gewestelijke (vanaf
+          1984:provinciale) bureaus ingesteld.</html:p>
+          <html:p>De functie van gewestelijk directeur werd uitgeoefend door de
+          provinciale hoofdingenieur-directeur (HID) voor de bedrijfsontwikkeling (vanaf
+          1984: de provinciale directeuren Landbouw en Voedselvoorziening).</html:p>
+          <html:p>De taken van de STULM werden vanaf circa 1988 uitgevoerd door de DUR en
+          sinds 1996 door de Landelijke Service bij Regelingen (LASER). Zo werden
+          zoogkoeienpremies tot 1989 namens de minister nog door STULM
+          toegekend.</html:p>
+          <html:p>In 1993 werd de stichting aangewezen als Zelfstandig Bestuursorgaan
+          (ZBO), althans als bestuursorgaan onder de Wet Openbaarheid Bestuur (WOB) en de
+          Wet Nationale Ombudsman (Stb. 1993, 535). STULM 1974 is in een slapende
+          toestand geraakt, maar nog niet formeel opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Gewestelijke tarwe-organisatie voor Noord- en Zuid-Holland,
+            1932-1941</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het begin van de Eerste Wereldoorlog werd al meer dan de helft van
+          de totale landbouwproductie verkocht aan het buitenland. Daarnaast waren
+          sommige agrarische sectoren inmiddels in hoge mate afhankelijk geworden van de
+          aanvoer van grondstoffen, zoals kunstmest en veevoeder.</html:p>
+          <html:p>Aanvankelijk had iedereen het volste vertrouwen in deze gerichtheid op
+          exportmarkten, maar terwijl de situatie van hoogconjunctuur zich na 1918 snel
+          herstelde, dienden zich al gauw de eerste symptomen aan van een wereldwijde
+          agrarische overproductie. Steeds groter werden de hoeveelheden
+          landbouwproducten die ver van over de oceaan naar Europa kwamen. Het gevolg was
+          dat de prijzen van de binnenlandse landbouwproducten zodanig waren gedaald dat
+          er nauwelijks nog lonend geproduceerd kon worden.</html:p>
+          <html:p>Vanaf 1927 verslechterde de situatie zodanig dat de beloning voor de
+          boeren lager was komen te liggen dan voor landarbeiders.</html:p>
+          <html:p>De veehouderij kreeg het zwaar te verduren, toen in 1931 door Engeland
+          en de Scandinavische landen de Gouden Standaard werd losgelaten en de gulden
+          daardoor “te duur” werd. Hierdoor daalde de export van vlees, vanouds een grote
+          sector in de landbouw. Om de export van de ondergang te redden, werd de invoer
+          van goedkoop buitenlands vlees beperkt, om zo de veehouders tegen drastische
+          prijsdalingen te beschermen.</html:p>
+          <html:p>Door de slechte omstandigheden gedwongen, drongen de
+          landbouworganisaties aan op overheidsingrijpen. De regering reageerde
+          aanvankelijk met incidentele steunmaatregelen (Crisiszuivelwet,
+          Crisisvarkenswet), maar toen de situatie verslechterde, werd in 1933 de
+          Landbouwcrisiswet van kracht, die alle getroffen maatregelen bundelde en verder
+          reikte. Aanvankelijk hield de overheid zich afzijdig, omdat zij meende dat de
+          problemen van tijdelijke aard waren. Maar de economische positie van de
+          landbouw werd zo slecht dat de overheid het noodzakelijk achtte om in te
+          grijpen.</html:p>
+          <html:p>Op 21 februari 1931 werd de Tarwewet van kracht (Stb. 65). Zij bleef
+          van kracht tot 1 september 1935, toen werd zij opgenomen in de
+          Landbouwcrisiswet.</html:p>
+          <html:p>Op 8 juli 1932 werden de Crisiszuivelwet (Stb. 318) en op 25 juli 1932
+          de Crisisvarkenswet (Stb. 374) van kracht.</html:p>
+          <html:p>De Crisiszuivelwet hield in: er werd een fonds gesticht, gevormd uit
+          heffingen op zuivelproducten en spijsvetten. Uit dit fonds kon aan de
+          veehouders een toeslag op de door hen aan melkfabrieken geleverde melk worden
+          gegeven.</html:p>
+          <html:p>De Crisisvarkenswet gaf de overheid de mogelijkheid om accijns te
+          heffen op varkensvlees. De opbrengst hiervan werd in een stabilisatiefonds
+          gestort, waarmee een hoger prijspeil kon worden gehandhaafd.</html:p>
+          <html:p>Landbouwcrisiswet 1933</html:p>
+          <html:p>Al deze aparte wetgeving bracht te weinig resultaat. Het buitenland
+          bleef beperkende maatregelen doorvoeren. Wilde men een redelijk binnenlands
+          prijspeil houden, dan moest de productie aan de exportcijfers aangepast worden.
+          Uiteindelijk werd de hele sector aan banden gelegd in de Landbouwcrisiswet van
+          1933 (vaststelling Stb. 1933, 261, gewijzigd Stb. 1934, 518, ingetrokken Stb.
+          1957, 342). Deze wet leidde er ook toe dat er naar kwaliteitsverbetering werd
+          gestreefd. Men bracht de boeren in contact met landbouwonderwijs, met moderne
+          graslandexploitatie, met doelmatig kunstmestbeleid, bestrijding van ziekten en
+          doelmatiger veevoeding.</html:p>
+          <html:p>De landbouw had een achterstand opgelopen. Het productieniveau lag laag
+          in vergelijking tot de omringende landen. Dit kwam door het volgende: Nederland
+          kende een kleinschalige, arbeidsintensieve landbouw. Deze was vooral het gevolg
+          van de introductie van kunstmest, krachtvoer (mais, lijnkoeken) en coöperaties
+          (zuivelfabrieken, aankoopcentrales, kredietinstellingen) vanaf het eind van de
+          negentiende eeuw. Hierdoor ontstonden nieuwe bestaansmogelijkheden voor boeren
+          op een relatief klein oppervlak. Velen startten een bedrijfje, vaak werden ook
+          bedrijven gesplitst.</html:p>
+          <html:p>Al in de loop van de jaren twintig was zowel in de akkerbouw als in de
+          veeteelt het prijsniveau zo zeer gedaald dat nauwelijks van een lonend bedrijf
+          gesproken kon worden. Het inkomen van de boer was feitelijk lager dan van de
+          knechten.</html:p>
+          <html:p>De overheid kreeg door de Landbouwcrisiswet een groot aantal
+          bevoegdheden tot regeling van productie, prijzen, handel en verwerking. Behalve
+          in steun (financieel) en productiebeperking voorzag de wet tevens in
+          mogelijkheden tot verhoging van de kwaliteit van de producten. Belast met deze
+          taak werd bovenal de Rijkslandbouwvoorlichtingsdienst.</html:p>
+          <html:p>De wet had verstrekkende gevolgen. Vrijwel alle boeren moesten zich als
+          'georganiseerden' laten inschrijven bij een of meer crisisinstellingen, waarmee
+          zij zich onderwierpen aan tal van verplichtingen. Steun werd verstrekt uit het
+          Landbouwcrisisfonds.</html:p>
+          <html:p>De Landbouwcrisiswet was het begin van een systematisch ingrijpen van
+          de overheid in de landbouw. Dit ingrijpen had succes. Dit bleek niet alleen uit
+          een zekere opleving van de landbouw, maar ook uit de soepele wijze waarop deze
+          bedrijfstak, de landbouw kon worden ingezet om de oorlogsomstandigheden het
+          hoofd te bieden.</html:p>
+          <html:p>In 1931 werd de toenmalige secretaris-penningmeester van de
+          Overijsselse Maatschappij van de Landbouw S.J. Louwes benoemd als
+          regeringscommissaris met als taak het uitvoeren van de Tarwewet 1931.</html:p>
+          <html:p>Tot 1937 verkeerde de landbouw in mineur. Na dat jaar was er de
+          dreiging van een op handen zijnde oorlog en de devaluatie van de gulden in 1936
+          de oorzaak ervan dat de prijzen weer aantrokken en de situatie er voor de
+          boeren geleidelijk weer beter op werd.</html:p>
+          <html:p>In 1937 werd het Rijksbureau voor de Voorbereiding van de
+          Voedselvoorziening (RBVVO) opgericht onder leiding van S.J. Louwes. In
+          september 1939 werd de naam gewijzigd in het Rijksbureau voor de
+          Voedselvoorziening in Oorlogstijd.</html:p>
+          <html:p>Dit Rijksbureau was gevestigd op Lage Voorhout 1 – 3 te Den Haag waar
+          ook, in januari 1939, de afdeling Voedselvoorziening in Oorlogstijd van het
+          Ministerie van Economische Zaken aanwezig was.</html:p>
+          <html:p>Op 28 augustus 1939 werd aan alle provinciale landbouworganisaties
+          opgedragen hun organisatie en controledienst ter beschikking te stellen aan de
+          gelijktijdig benoemde Provinciaal Voedselcommissaris (PVC). Vanaf 1963 viel de
+          PVC onder de Stichting voor de Uitvoering van Landbouwmaatregelen
+          (STULM).</html:p>
+          <html:p>Voor de provincie Zuid-Holland waren de Provinciale Voedselcommissaris:
+          1939 – 1945 T.P. Huisman 1945 – 1963 A. van den Hoek 1964 – 1967 P. ter
+          Hofstede</html:p>
+          <html:p>Vanaf 1 oktober 1939, nadat er een algehele mobilisatie (28 augustus
+          1939) was afgekondigd, vond er een samenvoeging plaats tussen de
+          landbouwcrisisorganisaties en de organisatie voor voedselvoorziening. Hierna
+          was er de ministeriële afdeling Landbouwcrisisaangelegenheden en
+          Voedselvoorziening in Oorlogstijd (LCA/VVO).</html:p>
+          <html:p>Tot de spoorwegstaking in september 1944 was de voedselvoorziening in
+          Nederland, ten opzichte van het buitenland, door het Rijksbureau relatief
+          gezien goed geregeld. Door de spoorwegstaking ontstond er hongersnood in het
+          westen van Nederland. Men heeft nog getracht door de oprichting van de Centrale
+          Reederij voor de Voedselvoorziening, op 16 december 1944, met vaartuigen de
+          voedselvoorziening weer op peil te krijgen maar als gevolg van de strenge
+          winter waren de vaarwegen langdurig bevroren. Door directe oorlogsschade,
+          inundaties, gebrek aan kunstmest en uitputting van de grond daalde alleen in
+          het laatste oorlogsjaar de landbouwproductie tot een niveau dat te laag was om
+          de voedselvoorziening te garanderen. In 1948 lag de landbouwproductie al weer
+          op een vooroorlogs niveau. Het landbouwbeleid veranderde. Het werd nu gericht
+          op kostprijsverlaging, productieverhoging en het zorgen voor een redelijk
+          inkomen voor de boeren.</html:p>
+          <html:p>De prijzen werden zo vastgesteld dat een goed geleid, niet al te kleine
+          bedrijf rendabel kon werken.</html:p>
+          <html:p>Stichting tot Uitvoering van Landbouwmaatregelen (STULM)</html:p>
+          <html:p>Er zijn twee STULM-organisaties: STULM 1963 en STULM 1974. Beide
+          speelden niet alleen op het gebied van het landbouwstructuurbeleid een rol,
+          maar ook in een aantal ministeriële regelingen op het gebied van het agrarisch
+          markt- en prijsbeleid (bijv. de toekenning van zoogkoeienpremies, tot
+          1989).</html:p>
+          <html:p>In algemene zin was de STULM betrokken bij de uitvoering van
+          landbouwmaatregelen op agrarisch gebied, getroffen door de landbouwminister of
+          door een Publiekrechtelijke Bestuursorgaan (PBO) en vastgelegd in
+          overeenkomsten. Ook behulpzaamheid bij de voorbereiding van zulke maatregelen
+          was een taak van de STULM.</html:p>
+          <html:p>STULM 1963</html:p>
+          <html:p>In 1963 richtte de Minister van Landbouw de Stichting tot Uitvoering
+          van Landbouwmaatregelen (STULM) op ter uitvoering van maatregelen op agrarisch
+          gebied, getroffen door hemzelf of door een PBO en vastgelegd in overeenkomsten.
+          Ook behulpzaamheid bij de voorbereiding van zulke maatregelen was een taak van
+          de STULM. Drie van de zeven bestuursleden werden benoemd door de minister en de
+          overige vier door de deelnemende productschappen gezamenlijk. Behalve het
+          bureau in Den Haag beschikte de stichting in iedere provincie over gewestelijke
+          (later: provinciale) bureaus en over districtsbureaus (later:
+          districtskantoren); de leiding berustte bij respectievelijk een landelijk
+          directeur, een aantal gewestelijke directeuren en een aantal
+          districtsbureauhouders. Als gewestelijke directeuren fungeerden de provinciale
+          voedselcommissarissen, en als hun plaatsvervangers fungeerden de
+          plaatsvervangende provinciale voedselcommissarissen. STULM 1963 was dus
+          werkzaam binnen het provinciale apparaat van Landbouw en Voedselvoorziening
+          (LaVo).</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur STULM. Na een
+          grondige statutenwijziging in 1980 nam de invloed van de minister sterk toe en
+          bestond de doelstelling nog slechts uit medewerking aan de uitvoering van
+          landbouwmaatregelen, zoals opgedragen aan de inmiddels opgerichte STULM
+          1974.</html:p>
+          <html:p>STULM 1963 is in een slapende toestand geraakt, maar nog niet formeel
+          opgeheven.</html:p>
+          <html:p>STULM 1974</html:p>
+          <html:p>In 1974 richtte de Minister van Landbouw naast de STULM 1963 ook nog de
+          STULM 1974 op, met als doel het uitvoeren van landbouwmaatregelen door middel
+          van: het ten behoeve van de Minister van Landbouw verrichten van werkzaamheden
+          ter uitvoering van diens maatregelen in het kader van het landbouwbeleid,
+          waaronder voorlichting. het verlenen van medewerking bij de voorbereiding van
+          bovengenoemde maatregelen; het ten behoeve van PBO’s verrichten van
+          werkzaamheden.</html:p>
+          <html:p>Het bestuur bestond uit vertegenwoordigers van de Minister van Landbouw
+          en van de productschappen, en de organisatie kende drie niveaus: centraal,
+          provinciaal en per district (op dit niveau geleid door
+          districtsbureauhouders).</html:p>
+          <html:p>STULM 1974 was een overheidsstichting zonder personeel, werkzaam binnen
+          het provinciale apparaat van Landbouw en Voedselvoorziening (LaVo) en bemand
+          met rijksambtenaren die grotendeels afkomstig waren van STULM 1963. De
+          werkzaamheden stonden onder leiding van een directeur, een dubbelfunctie van de
+          directeur van de directie Uitvoering Regelingen (DUR).</html:p>
+          <html:p>De statuten werden voor het eerst gewijzigd in 1977. De voornaamste
+          veranderingen betroffen de inbreng van de minister bij beslissingen van het
+          bestuur. Zo moesten besluiten tot wijziging van de statuten of tot opheffing
+          van de stichting voortaan worden goedgekeurd door de minister.</html:p>
+          <html:p>Tevens werd overleg met de minister verplicht gesteld inzake benoeming,
+          schorsing of ontslag van de landelijk directeur, de gewestelijke directeuren en
+          de secretaris.</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur
+          STULM.</html:p>
+          <html:p>In 1980 werd tevens bepaald dat de archieven na opheffing zouden worden
+          overgebracht naar de archiefbewaarplaats van het ministerie om aldaar te
+          blijven berusten.</html:p>
+          <html:p>Een veel verdergaande statutenwijziging vond plaats in 1980. In 1978
+          besloot de algemene bestuursvergadering van STULM 1963 en STULM 1974 tot
+          ontbinding van de met eerstgenoemde stichting gesloten
+          deelnemersovereenkomsten, zodat werkzaamheden voortaan opgedragen konden worden
+          aan STULM 1974. De hieruit resulterende wijziging van de statuten van STULM
+          1963 bepaalde tevens dat de doelstelling voortaan nog slechts bestond uit
+          medewerking aan de uitvoering van landbouwmaatregelen, zoals opgedragen aan
+          STULM 1974.</html:p>
+          <html:p>Er werden geen bestuursleden meer benoemd, omdat het bestuur voortaan
+          bestond uit de bestuursleden van STULM 1974. Toestemming van de minister werd
+          verplicht voor besluiten met financiële gevolgen, zoals met betrekking tot huur
+          en verpachting, leningen en schenkingen. Tevens werden de begroting en de
+          rekening en verantwoording onderworpen aan ministeriële goedkeuring, terwijl de
+          controle op het financieel beheer voortaan zou gebeuren door de departementale
+          accountantsdienst. Verder zouden de archieven na opheffing worden overgebracht
+          naar de archiefbewaarplaats van het ministerie en aldaar blijven berusten. Bij
+          de statutenwijziging van STULM 1974 uit 1980 werd ook op andere wijze de
+          inbreng van de minister vergroot. Als directeur kwam er voortaan een ambtenaar
+          van het ministerie en naast het bureau in Den Haag werden gewestelijke (vanaf
+          1984:provinciale) bureaus ingesteld.</html:p>
+          <html:p>De functie van gewestelijk directeur werd uitgeoefend door de
+          provinciale hoofdingenieur-directeur (HID) voor de bedrijfsontwikkeling (vanaf
+          1984: de provinciale directeuren Landbouw en Voedselvoorziening).</html:p>
+          <html:p>De taken van de STULM werden vanaf circa 1988 uitgevoerd door de DUR en
+          sinds 1996 door de Landelijke Service bij Regelingen (LASER). Zo werden
+          zoogkoeienpremies tot 1989 namens de minister nog door STULM
+          toegekend.</html:p>
+          <html:p>In 1993 werd de stichting aangewezen als Zelfstandig Bestuursorgaan
+          (ZBO), althans als bestuursorgaan onder de Wet Openbaarheid Bestuur (WOB) en de
+          Wet Nationale Ombudsman (Stb. 1993, 535). STULM 1974 is in een slapende
+          toestand geraakt, maar nog niet formeel opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting tot Uitvoering van de Landbouwmaatregelen (STULM) in
+            Zuid-Holland, 1971-1984</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het begin van de Eerste Wereldoorlog werd al meer dan de helft van
+          de totale landbouwproductie verkocht aan het buitenland. Daarnaast waren
+          sommige agrarische sectoren inmiddels in hoge mate afhankelijk geworden van de
+          aanvoer van grondstoffen, zoals kunstmest en veevoeder.</html:p>
+          <html:p>Aanvankelijk had iedereen het volste vertrouwen in deze gerichtheid op
+          exportmarkten, maar terwijl de situatie van hoogconjunctuur zich na 1918 snel
+          herstelde, dienden zich al gauw de eerste symptomen aan van een wereldwijde
+          agrarische overproductie. Steeds groter werden de hoeveelheden
+          landbouwproducten die ver van over de oceaan naar Europa kwamen. Het gevolg was
+          dat de prijzen van de binnenlandse landbouwproducten zodanig waren gedaald dat
+          er nauwelijks nog lonend geproduceerd kon worden.</html:p>
+          <html:p>Vanaf 1927 verslechterde de situatie zodanig dat de beloning voor de
+          boeren lager was komen te liggen dan voor landarbeiders.</html:p>
+          <html:p>De veehouderij kreeg het zwaar te verduren, toen in 1931 door Engeland
+          en de Scandinavische landen de Gouden Standaard werd losgelaten en de gulden
+          daardoor “te duur” werd. Hierdoor daalde de export van vlees, vanouds een grote
+          sector in de landbouw. Om de export van de ondergang te redden, werd de invoer
+          van goedkoop buitenlands vlees beperkt, om zo de veehouders tegen drastische
+          prijsdalingen te beschermen.</html:p>
+          <html:p>Door de slechte omstandigheden gedwongen, drongen de
+          landbouworganisaties aan op overheidsingrijpen. De regering reageerde
+          aanvankelijk met incidentele steunmaatregelen (Crisiszuivelwet,
+          Crisisvarkenswet), maar toen de situatie verslechterde, werd in 1933 de
+          Landbouwcrisiswet van kracht, die alle getroffen maatregelen bundelde en verder
+          reikte. Aanvankelijk hield de overheid zich afzijdig, omdat zij meende dat de
+          problemen van tijdelijke aard waren. Maar de economische positie van de
+          landbouw werd zo slecht dat de overheid het noodzakelijk achtte om in te
+          grijpen.</html:p>
+          <html:p>Op 21 februari 1931 werd de Tarwewet van kracht (Stb. 65). Zij bleef
+          van kracht tot 1 september 1935, toen werd zij opgenomen in de
+          Landbouwcrisiswet.</html:p>
+          <html:p>Op 8 juli 1932 werden de Crisiszuivelwet (Stb. 318) en op 25 juli 1932
+          de Crisisvarkenswet (Stb. 374) van kracht.</html:p>
+          <html:p>De Crisiszuivelwet hield in: er werd een fonds gesticht, gevormd uit
+          heffingen op zuivelproducten en spijsvetten. Uit dit fonds kon aan de
+          veehouders een toeslag op de door hen aan melkfabrieken geleverde melk worden
+          gegeven.</html:p>
+          <html:p>De Crisisvarkenswet gaf de overheid de mogelijkheid om accijns te
+          heffen op varkensvlees. De opbrengst hiervan werd in een stabilisatiefonds
+          gestort, waarmee een hoger prijspeil kon worden gehandhaafd.</html:p>
+          <html:p>Landbouwcrisiswet 1933</html:p>
+          <html:p>Al deze aparte wetgeving bracht te weinig resultaat. Het buitenland
+          bleef beperkende maatregelen doorvoeren. Wilde men een redelijk binnenlands
+          prijspeil houden, dan moest de productie aan de exportcijfers aangepast worden.
+          Uiteindelijk werd de hele sector aan banden gelegd in de Landbouwcrisiswet van
+          1933 (vaststelling Stb. 1933, 261, gewijzigd Stb. 1934, 518, ingetrokken Stb.
+          1957, 342). Deze wet leidde er ook toe dat er naar kwaliteitsverbetering werd
+          gestreefd. Men bracht de boeren in contact met landbouwonderwijs, met moderne
+          graslandexploitatie, met doelmatig kunstmestbeleid, bestrijding van ziekten en
+          doelmatiger veevoeding.</html:p>
+          <html:p>De landbouw had een achterstand opgelopen. Het productieniveau lag laag
+          in vergelijking tot de omringende landen. Dit kwam door het volgende: Nederland
+          kende een kleinschalige, arbeidsintensieve landbouw. Deze was vooral het gevolg
+          van de introductie van kunstmest, krachtvoer (mais, lijnkoeken) en coöperaties
+          (zuivelfabrieken, aankoopcentrales, kredietinstellingen) vanaf het eind van de
+          negentiende eeuw. Hierdoor ontstonden nieuwe bestaansmogelijkheden voor boeren
+          op een relatief klein oppervlak. Velen startten een bedrijfje, vaak werden ook
+          bedrijven gesplitst.</html:p>
+          <html:p>Al in de loop van de jaren twintig was zowel in de akkerbouw als in de
+          veeteelt het prijsniveau zo zeer gedaald dat nauwelijks van een lonend bedrijf
+          gesproken kon worden. Het inkomen van de boer was feitelijk lager dan van de
+          knechten.</html:p>
+          <html:p>De overheid kreeg door de Landbouwcrisiswet een groot aantal
+          bevoegdheden tot regeling van productie, prijzen, handel en verwerking. Behalve
+          in steun (financieel) en productiebeperking voorzag de wet tevens in
+          mogelijkheden tot verhoging van de kwaliteit van de producten. Belast met deze
+          taak werd bovenal de Rijkslandbouwvoorlichtingsdienst.</html:p>
+          <html:p>De wet had verstrekkende gevolgen. Vrijwel alle boeren moesten zich als
+          'georganiseerden' laten inschrijven bij een of meer crisisinstellingen, waarmee
+          zij zich onderwierpen aan tal van verplichtingen. Steun werd verstrekt uit het
+          Landbouwcrisisfonds.</html:p>
+          <html:p>De Landbouwcrisiswet was het begin van een systematisch ingrijpen van
+          de overheid in de landbouw. Dit ingrijpen had succes. Dit bleek niet alleen uit
+          een zekere opleving van de landbouw, maar ook uit de soepele wijze waarop deze
+          bedrijfstak, de landbouw kon worden ingezet om de oorlogsomstandigheden het
+          hoofd te bieden.</html:p>
+          <html:p>In 1931 werd de toenmalige secretaris-penningmeester van de
+          Overijsselse Maatschappij van de Landbouw S.J. Louwes benoemd als
+          regeringscommissaris met als taak het uitvoeren van de Tarwewet 1931.</html:p>
+          <html:p>Tot 1937 verkeerde de landbouw in mineur. Na dat jaar was er de
+          dreiging van een op handen zijnde oorlog en de devaluatie van de gulden in 1936
+          de oorzaak ervan dat de prijzen weer aantrokken en de situatie er voor de
+          boeren geleidelijk weer beter op werd.</html:p>
+          <html:p>In 1937 werd het Rijksbureau voor de Voorbereiding van de
+          Voedselvoorziening (RBVVO) opgericht onder leiding van S.J. Louwes. In
+          september 1939 werd de naam gewijzigd in het Rijksbureau voor de
+          Voedselvoorziening in Oorlogstijd.</html:p>
+          <html:p>Dit Rijksbureau was gevestigd op Lage Voorhout 1 – 3 te Den Haag waar
+          ook, in januari 1939, de afdeling Voedselvoorziening in Oorlogstijd van het
+          Ministerie van Economische Zaken aanwezig was.</html:p>
+          <html:p>Op 28 augustus 1939 werd aan alle provinciale landbouworganisaties
+          opgedragen hun organisatie en controledienst ter beschikking te stellen aan de
+          gelijktijdig benoemde Provinciaal Voedselcommissaris (PVC). Vanaf 1963 viel de
+          PVC onder de Stichting voor de Uitvoering van Landbouwmaatregelen
+          (STULM).</html:p>
+          <html:p>Voor de provincie Zuid-Holland waren de Provinciale Voedselcommissaris:
+          1939 – 1945 T.P. Huisman 1945 – 1963 A. van den Hoek 1964 – 1967 P. ter
+          Hofstede</html:p>
+          <html:p>Vanaf 1 oktober 1939, nadat er een algehele mobilisatie (28 augustus
+          1939) was afgekondigd, vond er een samenvoeging plaats tussen de
+          landbouwcrisisorganisaties en de organisatie voor voedselvoorziening. Hierna
+          was er de ministeriële afdeling Landbouwcrisisaangelegenheden en
+          Voedselvoorziening in Oorlogstijd (LCA/VVO).</html:p>
+          <html:p>Tot de spoorwegstaking in september 1944 was de voedselvoorziening in
+          Nederland, ten opzichte van het buitenland, door het Rijksbureau relatief
+          gezien goed geregeld. Door de spoorwegstaking ontstond er hongersnood in het
+          westen van Nederland. Men heeft nog getracht door de oprichting van de Centrale
+          Reederij voor de Voedselvoorziening, op 16 december 1944, met vaartuigen de
+          voedselvoorziening weer op peil te krijgen maar als gevolg van de strenge
+          winter waren de vaarwegen langdurig bevroren. Door directe oorlogsschade,
+          inundaties, gebrek aan kunstmest en uitputting van de grond daalde alleen in
+          het laatste oorlogsjaar de landbouwproductie tot een niveau dat te laag was om
+          de voedselvoorziening te garanderen. In 1948 lag de landbouwproductie al weer
+          op een vooroorlogs niveau. Het landbouwbeleid veranderde. Het werd nu gericht
+          op kostprijsverlaging, productieverhoging en het zorgen voor een redelijk
+          inkomen voor de boeren.</html:p>
+          <html:p>De prijzen werden zo vastgesteld dat een goed geleid, niet al te kleine
+          bedrijf rendabel kon werken.</html:p>
+          <html:p>Stichting tot Uitvoering van Landbouwmaatregelen (STULM)</html:p>
+          <html:p>Er zijn twee STULM-organisaties: STULM 1963 en STULM 1974. Beide
+          speelden niet alleen op het gebied van het landbouwstructuurbeleid een rol,
+          maar ook in een aantal ministeriële regelingen op het gebied van het agrarisch
+          markt- en prijsbeleid (bijv. de toekenning van zoogkoeienpremies, tot
+          1989).</html:p>
+          <html:p>In algemene zin was de STULM betrokken bij de uitvoering van
+          landbouwmaatregelen op agrarisch gebied, getroffen door de landbouwminister of
+          door een Publiekrechtelijke Bestuursorgaan (PBO) en vastgelegd in
+          overeenkomsten. Ook behulpzaamheid bij de voorbereiding van zulke maatregelen
+          was een taak van de STULM.</html:p>
+          <html:p>STULM 1963</html:p>
+          <html:p>In 1963 richtte de Minister van Landbouw de Stichting tot Uitvoering
+          van Landbouwmaatregelen (STULM) op ter uitvoering van maatregelen op agrarisch
+          gebied, getroffen door hemzelf of door een PBO en vastgelegd in overeenkomsten.
+          Ook behulpzaamheid bij de voorbereiding van zulke maatregelen was een taak van
+          de STULM. Drie van de zeven bestuursleden werden benoemd door de minister en de
+          overige vier door de deelnemende productschappen gezamenlijk. Behalve het
+          bureau in Den Haag beschikte de stichting in iedere provincie over gewestelijke
+          (later: provinciale) bureaus en over districtsbureaus (later:
+          districtskantoren); de leiding berustte bij respectievelijk een landelijk
+          directeur, een aantal gewestelijke directeuren en een aantal
+          districtsbureauhouders. Als gewestelijke directeuren fungeerden de provinciale
+          voedselcommissarissen, en als hun plaatsvervangers fungeerden de
+          plaatsvervangende provinciale voedselcommissarissen. STULM 1963 was dus
+          werkzaam binnen het provinciale apparaat van Landbouw en Voedselvoorziening
+          (LaVo).</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur STULM. Na een
+          grondige statutenwijziging in 1980 nam de invloed van de minister sterk toe en
+          bestond de doelstelling nog slechts uit medewerking aan de uitvoering van
+          landbouwmaatregelen, zoals opgedragen aan de inmiddels opgerichte STULM
+          1974.</html:p>
+          <html:p>STULM 1963 is in een slapende toestand geraakt, maar nog niet formeel
+          opgeheven.</html:p>
+          <html:p>STULM 1974</html:p>
+          <html:p>In 1974 richtte de Minister van Landbouw naast de STULM 1963 ook nog de
+          STULM 1974 op, met als doel het uitvoeren van landbouwmaatregelen door middel
+          van: het ten behoeve van de Minister van Landbouw verrichten van werkzaamheden
+          ter uitvoering van diens maatregelen in het kader van het landbouwbeleid,
+          waaronder voorlichting. het verlenen van medewerking bij de voorbereiding van
+          bovengenoemde maatregelen; het ten behoeve van PBO’s verrichten van
+          werkzaamheden.</html:p>
+          <html:p>Het bestuur bestond uit vertegenwoordigers van de Minister van Landbouw
+          en van de productschappen, en de organisatie kende drie niveaus: centraal,
+          provinciaal en per district (op dit niveau geleid door
+          districtsbureauhouders).</html:p>
+          <html:p>STULM 1974 was een overheidsstichting zonder personeel, werkzaam binnen
+          het provinciale apparaat van Landbouw en Voedselvoorziening (LaVo) en bemand
+          met rijksambtenaren die grotendeels afkomstig waren van STULM 1963. De
+          werkzaamheden stonden onder leiding van een directeur, een dubbelfunctie van de
+          directeur van de directie Uitvoering Regelingen (DUR).</html:p>
+          <html:p>De statuten werden voor het eerst gewijzigd in 1977. De voornaamste
+          veranderingen betroffen de inbreng van de minister bij beslissingen van het
+          bestuur. Zo moesten besluiten tot wijziging van de statuten of tot opheffing
+          van de stichting voortaan worden goedgekeurd door de minister.</html:p>
+          <html:p>Tevens werd overleg met de minister verplicht gesteld inzake benoeming,
+          schorsing of ontslag van de landelijk directeur, de gewestelijke directeuren en
+          de secretaris.</html:p>
+          <html:p>In 1978 werd het hele STULM-apparaat onder organieke
+          verantwoordelijkheid geplaatst van het hoofd van de Hoofdafdeling Regelingen
+          van het ministerie, die daartoe tevens benoemd werd als directeur
+          STULM.</html:p>
+          <html:p>In 1980 werd tevens bepaald dat de archieven na opheffing zouden worden
+          overgebracht naar de archiefbewaarplaats van het ministerie om aldaar te
+          blijven berusten.</html:p>
+          <html:p>Een veel verdergaande statutenwijziging vond plaats in 1980. In 1978
+          besloot de algemene bestuursvergadering van STULM 1963 en STULM 1974 tot
+          ontbinding van de met eerstgenoemde stichting gesloten
+          deelnemersovereenkomsten, zodat werkzaamheden voortaan opgedragen konden worden
+          aan STULM 1974. De hieruit resulterende wijziging van de statuten van STULM
+          1963 bepaalde tevens dat de doelstelling voortaan nog slechts bestond uit
+          medewerking aan de uitvoering van landbouwmaatregelen, zoals opgedragen aan
+          STULM 1974.</html:p>
+          <html:p>Er werden geen bestuursleden meer benoemd, omdat het bestuur voortaan
+          bestond uit de bestuursleden van STULM 1974. Toestemming van de minister werd
+          verplicht voor besluiten met financiële gevolgen, zoals met betrekking tot huur
+          en verpachting, leningen en schenkingen. Tevens werden de begroting en de
+          rekening en verantwoording onderworpen aan ministeriële goedkeuring, terwijl de
+          controle op het financieel beheer voortaan zou gebeuren door de departementale
+          accountantsdienst. Verder zouden de archieven na opheffing worden overgebracht
+          naar de archiefbewaarplaats van het ministerie en aldaar blijven berusten. Bij
+          de statutenwijziging van STULM 1974 uit 1980 werd ook op andere wijze de
+          inbreng van de minister vergroot. Als directeur kwam er voortaan een ambtenaar
+          van het ministerie en naast het bureau in Den Haag werden gewestelijke (vanaf
+          1984:provinciale) bureaus ingesteld.</html:p>
+          <html:p>De functie van gewestelijk directeur werd uitgeoefend door de
+          provinciale hoofdingenieur-directeur (HID) voor de bedrijfsontwikkeling (vanaf
+          1984: de provinciale directeuren Landbouw en Voedselvoorziening).</html:p>
+          <html:p>De taken van de STULM werden vanaf circa 1988 uitgevoerd door de DUR en
+          sinds 1996 door de Landelijke Service bij Regelingen (LASER). Zo werden
+          zoogkoeienpremies tot 1989 namens de minister nog door STULM
+          toegekend.</html:p>
+          <html:p>In 1993 werd de stichting aangewezen als Zelfstandig Bestuursorgaan
+          (ZBO), althans als bestuursorgaan onder de Wet Openbaarheid Bestuur (WOB) en de
+          Wet Nationale Ombudsman (Stb. 1993, 535). STULM 1974 is in een slapende
+          toestand geraakt, maar nog niet formeel opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat:1. de archiefbescheiden gevormd door de Landbouw Crisis
+      Organisatie in Zuid-Holland in de periode 1934 – 1969.2. de archiefbescheiden
+      gevormd door het Bureau Provinciale Voedselcommissaris (PVC) in de periode 1933 -
+      1958.3. de gewestelijke Tarwe-organisatie voor Noord- en Zuid-Holland in de periode
+      1932 – 1941.4. de Stichting tot Uitvoering van de Landbouwmaatregelen (STULM) in
+      Zuid-Holland in de periode 1971 - 1984.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Het archief is eigendom van de Staat der Nederlanden</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit de archieven is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig.Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>9 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>109 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Uit dit archief zijn geen kopieën op een alternatieve drager als
+        microfilm, microfiche of in digitale vorm beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

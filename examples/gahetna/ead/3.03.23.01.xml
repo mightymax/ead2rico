@@ -1,0 +1,2692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:03:20 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.03.23.01::Kantongerecht Dordrecht [periode 1838-1929])//NL" url="http://proxy.handle.net/10648/bcea90ba-ad4e-44e5-a11e-d843fdeb88b6" urn="3.03.23.01.ead.xml">3.03.23.01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Inventaris van het archief van het Kantongerecht te Dordrecht, 1838-1929</titleproper>
+        <author>S.F.Th. de Ruiter</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Nationaal Archief, Den Haag</publisher>
+        <date calendar="gregorian" era="ce" normal="1979">1979</date>
+      <p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2009">2009</date> vervaardigd door het Nationaal Archief op basis van de richtlijn
+		  <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.2</title>. 
+		  Eindredactie: Pauline van den Heuvel, 
+		  <date calendar="gregorian" era="ce" normal="20090410">10 april 2009</date>. 
+	  </creation>
+      <langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+      <descrules audience="internal"/>
+    </profiledesc>
+    <revisiondesc audience="internal">
+     <change>
+        <date calendar="gregorian" era="ce" normal="20111107"> 07 november 2011 </date>
+        <item><num>3</num> inv.nr. 314 toegevoegd, door <name>Caroline Leistra</name>
+        </item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory">
+    <did>
+      <head>Beschrijving van het archief</head>
+      <unittitle label="Naam archiefblok: ">Kantongerecht Dordrecht [periode 1838-1929]</unittitle>
+      <unittitle type="short">Kantongerecht Dordrecht, 1838-1929</unittitle>
+      <unitdate calendar="gregorian" era="ce" label="Periode: " normal="1838/1929" type="inclusive">1838-1929</unitdate>
+      <unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">33</unitid>
+      <physdesc label="Omvang: ">
+        <extent unit="meter">35.50 meter; </extent>
+        
+      <extent unit="files">314 inventarisnummers.</extent></physdesc>
+      <langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+      <materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten, geen bijzondere handschriften.</materialspec>
+      <repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+      <physloc/>
+      <origination label="Archiefvormers: ">
+        <corpname>Kantongerecht te Dordrecht</corpname>
+      </origination>
+      <abstract label="Samenvatting van de inhoud van het archief: ">Het archief van het Kantongerecht Dordrecht bevat onder meer vonnissen en rollijsten van strafzaken, audiëntiebladen, (repertoire)registers en akten van burgerlijke zaken, procesdossiers, rekesten, scheepsverklaringen en voogdijregisters.</abstract>
+    </did><descgrp type="context"><head>Archiefvorming</head><custodhist><head>Geschiedenis van het archiefbeheer</head><acqinfo altrender="ABS"><head>De verwerving van het archief</head><p>Het archief is krachtens bepalingen van de Archiefwet overgebracht.</p></acqinfo></custodhist></descgrp>
+    <descgrp type="content_and_structure">
+  <head>Inhoud en structuur van het archief</head>
+      <controlaccess audience="internal">
+        <subject source="ABS_rubriek"/>
+        <subject source="ABS_trefwoord">3.03</subject>
+      </controlaccess>
+      
+    </descgrp>
+    <descgrp type="access_and_use">
+      <head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+      
+      <userestrict>
+        <head>Beperkingen aan het gebruik</head>
+        <p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+      </userestrict>
+      <phystech type="ABS">
+        <head>Materiële beperkingen</head>
+        <p/>
+      </phystech>
+      <odd type="application_instruction">
+        <head>Aanvraaginstructie</head>
+        <p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list numeration="arabic" type="ordered">
+            <item>U maakt een profiel aan op <extref actuate="onrequest" href="https://www.gahetna.nl/user/register" linktype="simple" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+            <item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+            <item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+            <item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+            <item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+          </list>
+        </p>
+      </odd>
+      <prefercite>
+        <head>Citeerinstructie</head>
+        <p>Bij het citeren in annotatie en verantwoording dient het archief
+			 tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan
+			 worden volstaan met verkorte aanhaling.</p>
+        <p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Kantongerecht Dordrecht [periode 1838-1929], nummer toegang 3.03.23.01, inventarisnummer ... </p>
+        <p>VERKORT: <lb/>NL-HaNA, Kantongerecht Dordrecht, 1838-1929, 3.03.23.01, inv.nr. ... </p>
+      </prefercite>
+    </descgrp>
+    <descgrp type="allied_materials">
+      <head>Verwant materiaal</head>
+      <altformavail type="ABS">
+        <head>Beschikbaarheid van kopieën</head>
+        <p/>
+      </altformavail>
+    </descgrp>
+    <dsc type="combined">
+      <head>Beschrijving van de series en archiefbestanddelen</head>
+      <c01 level="series">
+        <did>
+          <unittitle>STRAFZAKEN vonnissen</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841334" type="ABS">1</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3345bb25-8778-410f-8a78-c014ad281208</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1846/1854">1846-1854</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841335" type="ABS">2</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/66488cf5-e3ba-465d-8d08-f266d8723ebf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1855/1857">1855-1857</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841336" type="ABS">3</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e01c58a-e902-4d02-982c-1908f7d1c2fb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1858">1858</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841337" type="ABS">4</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8795dfd5-b3b3-4f21-a3ca-b21c93310030</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1859">1859</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841338" type="ABS">5</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a4818ab6-d938-4316-b8f7-3a014b0c8ead</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1860">1860</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841339" type="ABS">6</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f5fa3bc7-578c-4451-afe0-4edd327a95c0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1861">1861</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841340" type="ABS">7</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f584c86f-a94d-4a29-b81e-3e404e74d67e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1862">1862</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841341" type="ABS">8</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f962192-814b-4988-aea9-43966a464d28</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1863">1863</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841342" type="ABS">9</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c580d5c6-e517-4c45-8889-d62dfe357567</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1864">1864</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841343" type="ABS">10</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7255b4eb-2cce-4290-a8af-c717580abcfe</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1865/1866">1865-1866</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841344" type="ABS">11</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/663be337-cd27-4514-9ba8-09f25ee1bc13</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1867">1867</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841345" type="ABS">12</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a252f1d9-c935-4a0b-ba7e-842e462e720a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1868">1868</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841346" type="ABS">13</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/54d9d7ae-1c89-46a6-9098-680ed18af40d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1869/1870">1869-1870</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841347" type="ABS">14</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ba7b371-ad06-4529-81c9-5effa1dafc7b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1871">1871</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841348" type="ABS">15</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1b3b04b-32d9-4b9b-98f7-4e7119a22cea</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1872">1872</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841349" type="ABS">16</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd32aafb-eb91-4240-a1bb-76d02a5e3ed5</unitid>
+            <unittitle>1873 rol nrs. 1-200</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841350" type="ABS">17</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2da02b23-ebe1-4882-86d7-267613c4c198</unitid>
+            <unittitle>1873 rol nrs. 201-einde</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841351" type="ABS">18</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/01952c09-e86a-4f5d-ac96-d2266f6c0111</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1874">1874</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841352" type="ABS">19</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7d0ad5b-b60f-45c5-a963-a3ccd79f8b61</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1875">1875</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841353" type="ABS">20</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a731a7b1-7951-4b68-833b-58be0c9a01ef</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1876">1876</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841354" type="ABS">21</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dae7a3e4-b74f-48a0-8826-3bf680bf8a2c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1877">1877</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841355" type="ABS">22</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ac643fe-f4d0-48d2-8df7-213af1ca594d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1878">1878</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841356" type="ABS">23</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/395e649e-80ab-42b1-9c0f-5e614b985cb7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1879">1879</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841357" type="ABS">24</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7dcf1169-d9ed-4e67-8d8a-5389248d7113</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1880">1880</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841358" type="ABS">25</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7ff04a62-4611-4e31-be9e-ecabf00eda10</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1881">1881</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841359" type="ABS">26</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/19940f45-eab0-45cb-9a3d-f0899313e500</unitid>
+            <unittitle>1882 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841360" type="ABS">27</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f941396-a819-4915-8f75-af120aeff43f</unitid>
+            <unittitle>1882 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841361" type="ABS">28</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dc588bac-12ab-4f72-a40b-9902c04f99dc</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1883">1883</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841362" type="ABS">29</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/730f009d-abc4-425a-9e86-f0b1ea29825a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1884">1884</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841363" type="ABS">30</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/59bab280-2644-4927-8af2-e9b632cfce90</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1885">1885</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841364" type="ABS">31</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4aaec4c-8912-4365-9755-d14a13c3afa5</unitid>
+            <unittitle>1886 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841365" type="ABS">32</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/efef2156-aa37-41df-87c0-7d24272954f8</unitid>
+            <unittitle>1886 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841366" type="ABS">33</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9455c0e-090f-42ef-8ab1-232e0c91ce95</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1887">1887</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841367" type="ABS">34</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8f095d25-702c-4d02-a7fe-edcff964265f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1888">1888</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841368" type="ABS">35</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6f01221-7783-44e5-b8fa-f5ad79c54c7e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1889">1889</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841369" type="ABS">36</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a84ba8f7-6e8e-4988-b181-26a8b35704bf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1890">1890</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841370" type="ABS">37</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4025289e-4d87-4ec9-aaa4-fcac77e19868</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1891">1891</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841371" type="ABS">38</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5969c3c5-6718-419f-82c4-8effb54bd306</unitid>
+            <unittitle>1892 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841372" type="ABS">39</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f122c34f-64ab-466c-a479-da65a4cf3205</unitid>
+            <unittitle>1892 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841373" type="ABS">40</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7264833b-4221-4e1c-82bd-2cacd8a5c720</unitid>
+            <unittitle>1893 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841374" type="ABS">41</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cdc7486c-f416-45e8-892c-739ce02308bd</unitid>
+            <unittitle>1893 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841375" type="ABS">42</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/232e9f88-484d-4bdb-9f76-4081f4bc9c26</unitid>
+            <unittitle>1894 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841376" type="ABS">43</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/82c53606-6ee2-4557-8f0b-8efdfca560c6</unitid>
+            <unittitle>1894 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841377" type="ABS">44</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a080c334-1ad4-4c42-a924-3af5d0676920</unitid>
+            <unittitle>1895 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841378" type="ABS">45</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f839fbe9-0a83-4f23-bb27-e5168859096f</unitid>
+            <unittitle>1895 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841379" type="ABS">46</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/382b0c77-2a13-4ee7-ba44-c01df845eb37</unitid>
+            <unittitle>1896 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841380" type="ABS">47</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/565ca1d4-1364-43b6-8f57-e56479f254b5</unitid>
+            <unittitle>1896 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841381" type="ABS">48</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0170330f-6840-4124-b63c-2500ddbec6cc</unitid>
+            <unittitle>1897 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841382" type="ABS">49</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0b91d1f-2741-439e-a722-d1b88166f22f</unitid>
+            <unittitle>1897 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841383" type="ABS">50</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/461d0e81-e870-4d0e-95f0-ece143695e38</unitid>
+            <unittitle>1897 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841384" type="ABS">51</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/416095a5-5a9e-494a-9e55-fe71f49a0003</unitid>
+            <unittitle>1898 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841385" type="ABS">52</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/98c18b00-5059-47d9-9841-469b846a242c</unitid>
+            <unittitle>1898 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841386" type="ABS">53</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/63b1cdc5-9981-46ab-a114-98af1508306d</unitid>
+            <unittitle>1899 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841387" type="ABS">54</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/617c5057-e937-488f-9d8a-078f4b9efae7</unitid>
+            <unittitle>1899 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841388" type="ABS">55</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6c579fc9-d1d5-43cf-a92b-bc6835e0619c</unitid>
+            <unittitle>1900 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841389" type="ABS">56</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8fffc1a-1876-4913-879f-9b155f2c5caa</unitid>
+            <unittitle>1900 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841390" type="ABS">57</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bebc1d48-4d21-4c2b-838d-71a4d57b155a</unitid>
+            <unittitle>1901 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841391" type="ABS">58</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7cffd33f-a46a-47ce-94ad-2fefcbf01374</unitid>
+            <unittitle>1901 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841392" type="ABS">59</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/01d8853a-2e64-4b08-9222-657230a39430</unitid>
+            <unittitle>1902 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841393" type="ABS">60</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/623c43a7-8f2e-4266-8066-9ba7827ad54c</unitid>
+            <unittitle>1902 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841394" type="ABS">61</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51976c4b-1707-4198-b45b-59455930a6b0</unitid>
+            <unittitle>1902 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841395" type="ABS">62</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5b2bc76a-594a-4fbe-aa56-36e3bd246962</unitid>
+            <unittitle>1903 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841396" type="ABS">63</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2f43a321-37f9-42bd-91d7-05bb96227b6e</unitid>
+            <unittitle>1903 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841397" type="ABS">64</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fae045bd-4d3b-4615-9b8b-d3e9f1ec6abc</unitid>
+            <unittitle>1903 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841398" type="ABS">65</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f254373f-731d-4400-9169-b3b86ea0cdb8</unitid>
+            <unittitle>1904 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841399" type="ABS">66</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a186e544-8534-4e38-8aa6-cadf8d05151e</unitid>
+            <unittitle>1904 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841400" type="ABS">67</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6f76a5d7-b5c3-4e06-aa5c-b80d8b4fb3b5</unitid>
+            <unittitle>1904 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841401" type="ABS">68</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbc08847-c943-49ea-a50f-4a92ea7e601a</unitid>
+            <unittitle>1904 IV</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841402" type="ABS">69</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/69193b15-dd18-4bd4-a514-e92288804e99</unitid>
+            <unittitle>1905 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841403" type="ABS">70</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/940138b6-5f5a-4c9f-8d44-eef48239aed8</unitid>
+            <unittitle>1905 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841404" type="ABS">71</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a4f383c-9842-4022-9107-dade324d57b5</unitid>
+            <unittitle>1905 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841405" type="ABS">72</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d6881b3-5718-4982-890c-2aa9d3d9191e</unitid>
+            <unittitle>1905 IV</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841406" type="ABS">73</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7210e52-40cd-4ad2-b291-143230a8c28c</unitid>
+            <unittitle>1906 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841407" type="ABS">74</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d2ec611-0d9f-4655-be15-a43ea3b81096</unitid>
+            <unittitle>1906 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841408" type="ABS">75</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94dc9cd3-8536-4295-932b-b07cd9554ce9</unitid>
+            <unittitle>1906 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841409" type="ABS">76</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/41c47248-3e0b-49c7-ab43-753c5aac34bc</unitid>
+            <unittitle>1907 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841410" type="ABS">77</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/71117054-6b2b-4226-85b1-bd94cdf640ec</unitid>
+            <unittitle>1907 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841411" type="ABS">78</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/38ea1c68-f69d-4f2d-ab92-3dc6568bc92c</unitid>
+            <unittitle>1907 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841412" type="ABS">79</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae2fb3f5-6b72-4004-8436-8c4a452174d3</unitid>
+            <unittitle>1908 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841413" type="ABS">80</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/36106324-7ae4-4cdc-9cbc-9db48505d30e</unitid>
+            <unittitle>1908 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841414" type="ABS">81</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dae8f6a1-3887-4077-be1f-242b6c350cfc</unitid>
+            <unittitle>1908 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841415" type="ABS">82</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f867b86d-b243-433d-9846-a87dda48131c</unitid>
+            <unittitle>1909 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841416" type="ABS">83</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9da03949-cbb8-4e14-8275-15d596a87828</unitid>
+            <unittitle>1909 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841417" type="ABS">84</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0cb951a4-99af-454b-a870-8a0ca5337e50</unitid>
+            <unittitle>1909 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841418" type="ABS">85</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/70810cc2-2f5f-4b4b-9e29-2dc1a43a2b44</unitid>
+            <unittitle>1910 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841419" type="ABS">86</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e41d3650-f30e-40cf-819f-e597be8a42a7</unitid>
+            <unittitle>1910 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841420" type="ABS">87</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/41b257ea-e7ee-4a52-a00a-5eee4e73944c</unitid>
+            <unittitle>1911 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841421" type="ABS">88</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5757dc73-7b21-471a-9700-5346966f4608</unitid>
+            <unittitle>1911 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841422" type="ABS">89</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dc3d7d41-3fd2-44fa-94fd-5a968751ba1e</unitid>
+            <unittitle>1912 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841423" type="ABS">90</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/29bb177c-8eb7-41fe-8890-030b5e795521</unitid>
+            <unittitle>1912 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841424" type="ABS">91</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2196d01d-1971-4266-9cd8-dde09634247e</unitid>
+            <unittitle>1913 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841425" type="ABS">92</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2db4a25b-7eed-46f6-83da-8db798008138</unitid>
+            <unittitle>1913 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841426" type="ABS">93</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c91b998e-0578-4c35-98e0-a838d4e2dbc6</unitid>
+            <unittitle>1913 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841427" type="ABS">94</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83b1563b-d769-4181-bdb2-226f2e4bf70b</unitid>
+            <unittitle>1914 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841428" type="ABS">95</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/63efbb18-64c6-41ef-ba3e-77969588ab2a</unitid>
+            <unittitle>1914 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841429" type="ABS">96</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a0cbc6e3-537f-466d-aafb-3f632a13155d</unitid>
+            <unittitle>1915 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841430" type="ABS">97</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c26c7f20-574c-4888-a9c7-c7d8be53afcf</unitid>
+            <unittitle>1915 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841431" type="ABS">98</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a7b7f08-1807-4509-9d2e-667e00c04a0a</unitid>
+            <unittitle>1915 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841432" type="ABS">99</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c2661703-a91b-4264-bbc1-e8656d4beb64</unitid>
+            <unittitle>1916 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841433" type="ABS">100</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c080143c-f5bf-4215-bb67-587ad66c4216</unitid>
+            <unittitle>1916 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841434" type="ABS">101</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/970c4d36-c9ab-4c44-9a1d-9dcc93e69592</unitid>
+            <unittitle>1916 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841435" type="ABS">102</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/565ff6d0-d2cd-4807-8a1a-3fd1fbdc593b</unitid>
+            <unittitle>1917 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841436" type="ABS">103</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/981bc90d-ca96-4b30-b868-4f42e7491327</unitid>
+            <unittitle>1917 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841437" type="ABS">104</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/31692fee-a29a-424e-807c-5cb306d45eed</unitid>
+            <unittitle>1917 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841438" type="ABS">105</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e8482e2-d8ce-4601-b7da-a671edd16fc3</unitid>
+            <unittitle>1917 IV</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841439" type="ABS">106</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1a0ef91-0618-455b-b6d9-4880d9afe09f</unitid>
+            <unittitle>1918 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841440" type="ABS">107</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d86cac1-79e3-4e6f-bbfe-d70fb4faae98</unitid>
+            <unittitle>1918 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841441" type="ABS">108</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0af1f03-e8e2-4e10-bdd4-47f9ec1a0c90</unitid>
+            <unittitle>1918 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841442" type="ABS">109</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d5b8d2c-7701-47ed-95cc-6dd50cfcc0ca</unitid>
+            <unittitle>1919 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841443" type="ABS">110</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0fdded8a-9e1c-4a05-a40d-fb6b7326a682</unitid>
+            <unittitle>1919 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841444" type="ABS">111</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0a554130-b7ab-46f9-b1ae-7a4522fee937</unitid>
+            <unittitle>1919 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841445" type="ABS">112</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75dd7d2e-731d-4d70-81be-e12f1204b6a1</unitid>
+            <unittitle>1919 IV</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841446" type="ABS">113</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fe75b5f-4b51-4a84-8907-1063668ad65d</unitid>
+            <unittitle>1920 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841447" type="ABS">114</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/46b14fb7-d861-4047-82d6-77820dec2cdf</unitid>
+            <unittitle>1920 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841448" type="ABS">115</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/84111141-8bc6-4ddb-8710-5ce73f2ec5e1</unitid>
+            <unittitle>1920 III</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841449" type="ABS">116</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0970921d-0210-46a5-92e3-ca2db3565260</unitid>
+            <unittitle>1920 IV</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841450" type="ABS">117</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b4fdc424-f1a1-40be-b1f5-4a1f658a5e1c</unitid>
+            <unittitle>1921 I no. 1-400</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841451" type="ABS">118</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2446be00-4c32-4dac-b9a7-70aac0ed84b7</unitid>
+            <unittitle>1921 II no. 401-800</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841452" type="ABS">119</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bbc14159-0218-47fe-8b85-c9fe0e65927e</unitid>
+            <unittitle>1921 III no. 801-1200</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841453" type="ABS">120</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9ed3490e-4984-4443-83e7-648f23436d9e</unitid>
+            <unittitle>1921 IV no. 1201-1586</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841454" type="ABS">121</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/07d98e4b-8f75-42a4-a2f2-16a3164d0a5f</unitid>
+            <unittitle>1922 I no. 1-400</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841455" type="ABS">122</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/42f695b7-bb7d-4385-8b95-ea2e9db5b0b9</unitid>
+            <unittitle>1922 II no. 401-800</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841456" type="ABS">123</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3608733-3e22-47f9-bab6-b5f92906711b</unitid>
+            <unittitle>1922 III no. 801-1289</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841457" type="ABS">124</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/00327758-a978-4f9e-8e6f-cbb5495883a9</unitid>
+            <unittitle>1923 I no. 1-450</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841458" type="ABS">125</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/053c35fc-836e-43e9-95ac-1c27111bd46c</unitid>
+            <unittitle>1923 II no. 451-905</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841459" type="ABS">126</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/509e6311-18cf-4416-bf3c-5238bfa4b261</unitid>
+            <unittitle>1924 I no. 1-500</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841460" type="ABS">127</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f3e56fe3-a57e-443e-af9f-c88fd5db5b3b</unitid>
+            <unittitle>1924 II no. 501-938</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841461" type="ABS">128</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9d15cf23-a76d-4871-88be-5f5f3f024f9e</unitid>
+            <unittitle>1925 I no. 1-400</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841462" type="ABS">129</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/42eac55d-af73-4f65-943b-9972c3e6acd7</unitid>
+            <unittitle>1925 II no. 401-800</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841463" type="ABS">130</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ac06816-44aa-4595-9340-3c5b7908fb6e</unitid>
+            <unittitle>1925 III no. 801-1260</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841464" type="ABS">131</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/084e9c90-9d45-43cd-8ad8-4be6fa906af8</unitid>
+            <unittitle>1926 I no. 1-500</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841465" type="ABS">132</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b53a9cb0-c5d0-4580-9e47-8d74b6188be8</unitid>
+            <unittitle>1926 II no. 501-1037</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841466" type="ABS">133</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ea608373-960d-4cda-9d6e-7712ee3d90bc</unitid>
+            <unittitle>1927 I no. 1-500</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841467" type="ABS">134</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b50a3f69-dd0f-4bdc-9d33-a1481f510367</unitid>
+            <unittitle>1927 II no. 501-969</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841468" type="ABS">135</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ae12a6c-0107-4196-bcbc-7fc5147aaa69</unitid>
+            <unittitle>1928 I no. 1-500</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841469" type="ABS">136</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b9b5bad-8a64-4604-9725-03621a9ce743</unitid>
+            <unittitle>1928 II no. 501-933</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841470" type="ABS">137</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/637921bb-40fc-45e7-9226-f60b1aafe968</unitid>
+            <unittitle>1929 I no. 1-400</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841471" type="ABS">138</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d017666-ee12-49b9-a3ae-373331f9c82b</unitid>
+            <unittitle>1929 II no. 401-800</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841472" type="ABS">139</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/94fefb20-22f2-4e6d-942b-8a73739225fd</unitid>
+            <unittitle>1929 III no. 801-1151</unittitle>
+          </did>
+        </c02>
+         <c02 level="file">
+          <did>
+            <unitid identifier="3792533" type="ABS">314</unitid>
+                      <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9b945f05-cec6-44f9-a3e5-8015ced56cf2</unitid><unittitle>Extract vonnissen vaan strafzaken</unittitle>
+                      <unitdate calendar="gregorian" era="ce" normal="1879/1881">1879-1881</unitdate>
+                      <physdesc>1 omslag</physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>BURGERLIJKE ZAKEN Audiëntiebladen</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841473" type="ABS">140</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4f97235c-4ee9-4bf4-a0fc-5083107027cb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1839/1842">1839-1842</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841474" type="ABS">141</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/90b6453d-aac5-474d-9b5d-fff8a6365a9f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1843/1844">1843-1844</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841475" type="ABS">142</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d7aa3c0-8c22-4a95-b982-f9773a3d4dbf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1845/1848">1845-1848</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841476" type="ABS">143</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/92e50a41-38bc-46d7-9926-7d16482e98d2</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1851/1860">1851, 1853, 1854, 1856, 1857, 1858, 1859, 1860</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841477" type="ABS">144</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/526e6d3b-479d-4874-81d8-547e1e7a03da</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1862/1864">1862-1864</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841478" type="ABS">145</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff7b5816-f853-4d42-8253-16ac2c6f0ac1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1865/1867">1865-1867</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841479" type="ABS">146</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/db08626d-4f4a-4e58-80f9-0a9b9939503d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1868/1872">1868-1872</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841480" type="ABS">147</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ac1480db-a6bd-437e-b9c8-06c951e4af11</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1873/1877">1873-1877</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841481" type="ABS">148</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee8f2f52-9f79-40f2-885f-3aa128d2aa41</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1878/1882">1878-1882</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841482" type="ABS">149</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f60dcc80-14bf-4935-a24f-a60b4d543c14</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1883/1885">1883-1885</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841483" type="ABS">150</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/83c7bfcd-004f-4bd5-b96c-c81c151db692</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1886/1891">1886-1891</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841484" type="ABS">151</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a398d305-0f73-47ed-bc4e-0acc1c94cb62</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1892/1895">1892-1895</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841485" type="ABS">152</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/442e3027-a584-4cb8-8502-a271cd4b77de</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1896/1898">1896-1898</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841486" type="ABS">153</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c81ce22-1034-41ad-ba8d-d1261357a7ed</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1899/1901">1899-1901</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841487" type="ABS">154</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d8679a0-fa17-4cd3-b84f-0b9eb2f675e0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1902/1903">1902-1903</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841488" type="ABS">155</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a933bffb-a95c-4d80-a14d-47c8c884ec6d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1904">1904</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841489" type="ABS">156</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a8e4c9e2-4858-4a11-ae6d-d4c510a9b61a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1905/1907">1905-1907</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841490" type="ABS">157</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2dd2c15-4d73-4d05-8408-d62e6a7e3acd</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1908/1910">1908-1910</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841491" type="ABS">158</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c6cebf5-15a6-4957-9aa9-bdf84fdb09fd</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1911/1914">1911-1914</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841492" type="ABS">159</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9afaec2-ef3c-46ec-90d1-eb3ba686c6e3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1915/1918">1915-1918</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841493" type="ABS">160</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b79288c-6f66-47a7-a027-69d3fe19c548</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1919/1920">1919-1920</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841494" type="ABS">161</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6cf2ae16-9127-45e4-9d18-6db5c127c7b1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1921">1921</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841495" type="ABS">162</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/60632b7b-c58a-4842-83af-d103dc64b4c5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1922">1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841496" type="ABS">163</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2690a8da-e450-434b-b8b6-cc9acbfc3c82</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923">1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841497" type="ABS">164</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5cccbad7-5192-4129-98db-7eb95420e5a9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924">1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841498" type="ABS">165</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/113ba750-fae9-4ba8-b2b3-90034785ad2f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925">1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841499" type="ABS">166</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0786187f-71d1-4d77-b248-d1556ee738fb</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841500" type="ABS">167</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c59d4b93-3221-4cf6-bfe0-7df9638aef4b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841501" type="ABS">168</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/faa844b4-8722-41a3-a0d5-0f5a60e54593</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928">1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841502" type="ABS">169</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/3b71baa4-216e-4e8c-bdfc-ee9adb33a533</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929">1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>BURGERLIJKE AKTEN</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841503" type="ABS">170</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/002a0a84-4754-4006-9c29-18671975d7d1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1839">1839</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841504" type="ABS">171</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/601c88e4-60fa-41c9-999d-4d6582c56421</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1840">1840</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841505" type="ABS">172</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e3672d07-2bd4-4603-9735-878f1041942f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1841">1841</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841506" type="ABS">173</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/df0a5e8d-8019-4abb-91db-eb36c80c832e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1842">1842</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841507" type="ABS">174</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dd4007da-4082-48d6-83b0-615f91902838</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1843">1843</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841508" type="ABS">175</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/877c0892-d5c5-4b46-9f75-3cc6dc8603fa</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1844">1844</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841509" type="ABS">176</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d397f56-14c2-4a7c-9faa-1f8551e6bc64</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1845">1845</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841510" type="ABS">177</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b8e3aa1-9222-4014-b8ca-88bb0717b91b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1846">1846</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841511" type="ABS">178</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9476887-59ff-45cf-825a-00c05795d156</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1847">1847</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841512" type="ABS">179</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/396bee6e-ea9c-4dcb-a829-02aaad55dcd7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1848">1848</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841513" type="ABS">180</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae24e2a3-5b82-48c5-8f51-689536fa20ec</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1850">1850</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841514" type="ABS">181</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2c53c7a2-0fd8-48ed-aad8-4ec5e60b19d3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1851">1851</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841515" type="ABS">182</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/366055bc-d1b2-44b9-be9a-c7d99bafbd23</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1853">1853</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841516" type="ABS">183</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51a4c470-ab0c-4568-aff4-f4e1a3d773cc</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1856">1856</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841517" type="ABS">184</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec67e7cc-bbdd-438d-acfb-5dfd2ec16a5a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1857">1857</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841518" type="ABS">185</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/27431e97-5da1-469b-b7bb-1c11f2e09b14</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1858">1858</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841519" type="ABS">186</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/43b988fa-6bc2-4885-9d01-4f1110f5a0e5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1859">1859</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841520" type="ABS">187</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/aefc8305-478c-4a91-9954-08bca8ce2a85</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1860">1860</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841521" type="ABS">188</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf4e4b42-0d9c-4157-b8a2-e1deb3f08c05</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1861">1861</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841522" type="ABS">189</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b9ea317b-2b92-485e-862b-3257b9a3eb74</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1862">1862</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841523" type="ABS">190</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fef70762-febc-476c-9b77-ef85907f2978</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1866">1866</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841524" type="ABS">191</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/49fa83a3-0592-45a0-acaf-98f2f9504586</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1867">1867</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841525" type="ABS">192</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/1786760d-8307-438c-8420-9455350ff974</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1868">1868</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841526" type="ABS">193</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6686c114-64c4-49ca-871c-648ba67b654c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1869">1869</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841527" type="ABS">194</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c03b111c-8cd7-4c52-b90c-e3dd40cb201a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1870">1870</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841528" type="ABS">195</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f166397d-b732-4c97-abc2-f4611c9b8534</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1872">1872</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841529" type="ABS">196</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cfc4ffe1-c0b7-41a3-9910-9342587b18b5</unitid>
+            <unittitle>1873 rol nrs. 1-300</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841530" type="ABS">197</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/2dea2f70-26cf-4d50-82ff-92c2053c2561</unitid>
+            <unittitle>1873 rol nrs. 301-538</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841531" type="ABS">198</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe6e6480-3e99-4cdf-a209-1c38f1e865d6</unitid>
+            <unittitle>1874 rol nrs. 1-300</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841532" type="ABS">199</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11a4120a-7088-491f-bef9-7f3330b7a95e</unitid>
+            <unittitle>1874 rol nrs. 301-598</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841533" type="ABS">200</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee0b7ff4-190e-4a1d-b81e-936557e1a4a3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1875">1875</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841534" type="ABS">201</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d415d7f7-112f-45b0-a368-7cd6a0d6804b</unitid>
+            <unittitle>1876 rol nrs. 1-250</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841535" type="ABS">202</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/619347f3-8f9c-4693-a504-5d57b5d134b5</unitid>
+            <unittitle>1876 rol nrs. 251-528</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841536" type="ABS">203</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0edc582e-758e-48c3-9cfd-931ca160830c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1877">1877</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841537" type="ABS">204</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/23d22d7f-5b04-4e00-9cf9-0a53a8b3e0a0</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1878">1878</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841538" type="ABS">205</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0ae6bd3-5e21-48ac-9f3d-d857d628a120</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1879">1879</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841539" type="ABS">206</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/11d9a832-ad9a-47a6-9112-efd0fd7afa07</unitid>
+            <unittitle>1880 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841540" type="ABS">207</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fece042a-17ef-4232-93a9-71a2ce565aed</unitid>
+            <unittitle>1880 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841541" type="ABS">208</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6a995b89-dd89-4535-875f-36ffcd391352</unitid>
+            <unittitle>1881 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841542" type="ABS">209</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a4dd443-02cb-4007-ae09-9770ac235c9b</unitid>
+            <unittitle>1881 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841543" type="ABS">210</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/97e6e1f3-7f65-4635-bf0c-694800f2d11b</unitid>
+            <unittitle>1882 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841544" type="ABS">211</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2594e7d-7bd6-41ab-8ac6-1225849b69b0</unitid>
+            <unittitle>1882 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841545" type="ABS">212</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa7144e7-d5c1-4a40-b379-8c93d27d4e9b</unitid>
+            <unittitle>1883 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841546" type="ABS">213</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cb9b74cb-0414-49ee-bf1e-101eefae898e</unitid>
+            <unittitle>1883 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841547" type="ABS">214</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bf47b7a-1496-4532-986e-34d32c49c15b</unitid>
+            <unittitle>1884 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841548" type="ABS">215</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e4140b8-9acb-4d0e-b413-18543ffa1a75</unitid>
+            <unittitle>1884 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841549" type="ABS">216</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a33e248c-718d-4bf0-9dbf-c377b55f4008</unitid>
+            <unittitle>1885 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841550" type="ABS">217</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/75e7758b-9d43-4e74-8f35-f51418bc7b73</unitid>
+            <unittitle>1885 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841551" type="ABS">218</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4e5f19fa-f753-4147-9a73-054f549b3035</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1886">1886</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841552" type="ABS">219</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7e0e50a3-5864-413d-819a-fe6c8af6a8e3</unitid>
+            <unittitle>1887 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841553" type="ABS">220</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c663f6ac-25c1-41cf-91c2-0d01a3ced6c8</unitid>
+            <unittitle>1887 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841554" type="ABS">221</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d57a89f-6082-4ef9-a65d-fc3d232eb581</unitid>
+            <unittitle>1888 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841555" type="ABS">222</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89254e75-178e-4ad3-a928-4f1ad15f0ee1</unitid>
+            <unittitle>1888 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841556" type="ABS">223</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/20419097-516a-4d34-91a0-41dd524c4d94</unitid>
+            <unittitle>1889 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841557" type="ABS">224</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6a9ddd9-2511-48f9-bd66-2a15ab7886ee</unitid>
+            <unittitle>1889 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841558" type="ABS">225</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bc39c220-cd61-4790-ab9e-0d4a221d2744</unitid>
+            <unittitle>1890 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841559" type="ABS">226</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3a0a2fa-f534-465d-8752-dfb03fa15308</unitid>
+            <unittitle>1890 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841560" type="ABS">227</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8a7f18d8-bddb-4519-acbc-29261fd3f4c0</unitid>
+            <unittitle>1891 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841561" type="ABS">228</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e4a56c54-6380-4c5a-a164-5d431d08e40c</unitid>
+            <unittitle>1891 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841562" type="ABS">229</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6529caa4-ac44-41d4-ba6d-977c324807a6</unitid>
+            <unittitle>1892 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841563" type="ABS">230</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb517062-9da7-47dd-ac4e-421b19a46d69</unitid>
+            <unittitle>1892 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841564" type="ABS">231</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fdf3d6c7-24fd-410b-bc88-c6995943c447</unitid>
+            <unittitle>1893 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841565" type="ABS">232</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8d82617b-5284-4ef8-9e56-ee04f09df8d9</unitid>
+            <unittitle>1893 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841566" type="ABS">233</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c130f87-e395-4e24-be9c-4dff599dde98</unitid>
+            <unittitle>1894 I</unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841567" type="ABS">234</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9efca7eb-5448-48a9-92c7-8720e7f3b414</unitid>
+            <unittitle>1894 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841568" type="ABS">235</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/38f1a20f-061d-48d3-8177-36df0d0b62f5</unitid>
+            <unittitle>1895 I</unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841569" type="ABS">236</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/96f582b1-6827-479f-a40c-81ed54acb929</unitid>
+            <unittitle>1895 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841570" type="ABS">237</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ccc18532-7de4-45a4-b11c-be36ceef0680</unitid>
+            <unittitle>1896 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841571" type="ABS">238</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5cd938aa-a7e5-4bd5-ad06-6d4d4da2878b</unitid>
+            <unittitle>1896 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841572" type="ABS">239</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a01646dd-a506-4e34-8475-6d3f8d85b12c</unitid>
+            <unittitle>1897 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841573" type="ABS">240</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/10d7e313-e445-4635-a1d6-88105060f427</unitid>
+            <unittitle>1897 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841574" type="ABS">241</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/82c6a825-57fd-4721-821c-15b3724f5371</unitid>
+            <unittitle>1898 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841575" type="ABS">242</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7b90687b-bab4-420f-a176-7e630e6e167c</unitid>
+            <unittitle>1898 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841576" type="ABS">243</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/da5b9198-a80f-4b97-b364-87fc240ed4ff</unitid>
+            <unittitle>1899 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841577" type="ABS">244</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d97c95e4-a1c0-41ca-abdc-8a4e9d051520</unitid>
+            <unittitle>1899 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841578" type="ABS">245</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec19ae06-44e0-4d8e-a7f7-b503a322557a</unitid>
+            <unittitle>1900 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841579" type="ABS">246</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c3f52a5-3c3d-490a-8fda-ce58774de1fc</unitid>
+            <unittitle>1900 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841580" type="ABS">247</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/491920a5-263d-49d1-ba7b-abf5ef2f1370</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1901">1901</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841581" type="ABS">248</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/499ea12b-e389-4457-ac61-d112fa5f852d</unitid>
+            <unittitle>1902 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841582" type="ABS">249</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/7efa03fe-3d80-4b88-8ed0-07bf6db131a9</unitid>
+            <unittitle>1902 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841583" type="ABS">250</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff83234e-2cfd-487e-a85d-ca5a4660cc69</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1903">1903</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841584" type="ABS">251</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/35ad8cb6-c6ed-4886-9a79-646efc22a1f1</unitid>
+            <unittitle>1904 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841585" type="ABS">252</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fde32d88-64e0-4c34-9413-2fe3cbe1a5c6</unitid>
+            <unittitle>1904 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841586" type="ABS">253</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5467ddb5-626a-4a5d-8ab3-f847a0ac1a4e</unitid>
+            <unittitle>1905 I</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841587" type="ABS">254</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/40dde7ea-8e53-4e68-af1b-5a5af4b1a484</unitid>
+            <unittitle>1905 II</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841588" type="ABS">255</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9c59bf3b-f0ea-4c75-a469-daf8af567ec4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1906">1906</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841589" type="ABS">256</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c87cf0d2-7910-41af-a2c5-8c3562283ea8</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1907">1907</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841590" type="ABS">257</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6aba16e1-b80f-4186-8611-4498b4530978</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1908">1908</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841591" type="ABS">258</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c508c9af-d96a-40cd-8f94-5d241b5b910b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1909">1909</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841592" type="ABS">259</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0e9cd2ce-97ea-4634-8d17-b45534a60dcc</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1910">1910</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841593" type="ABS">260</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/06dc40f5-a62c-4854-b573-12b75e861e6c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1911">1911</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841594" type="ABS">261</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/09634596-5474-4ca1-a494-ccd055ced3d3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1912">1912</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841595" type="ABS">262</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/9eb986d8-a1b2-46a0-94e8-6af56e236f4f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1913">1913</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841596" type="ABS">263</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/503c7863-3f82-44f3-baa1-429d88ff6bfc</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1914">1914</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841597" type="ABS">264</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/51e70e2c-ffbb-48e8-9fc8-f0b59bc0d8a8</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1915">1915</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841598" type="ABS">265</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/420ba514-7760-4d03-9025-dba2b6242ea3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1916">1916</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841599" type="ABS">266</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/537d9985-967b-433b-8907-af295ca60c24</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1917">1917</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841600" type="ABS">267</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1bda236-413d-4939-9bea-803a0c6ac0ad</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1918">1918</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841601" type="ABS">268</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/68b262b7-93ec-4904-a987-5ff5480abcf3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1919">1919</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841602" type="ABS">269</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6228c337-042b-4532-8388-43b4adda1269</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1920">1920</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841603" type="ABS">270</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c2742d3-51e4-4c7a-90f4-794b4fc6bd1c</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1921">1921</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841604" type="ABS">271</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/cda299ab-1e06-4618-9bd4-66b946086aae</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1922">1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841605" type="ABS">272</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd089988-fe70-46c4-a133-df03c1d4aa91</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923/1924">1923-1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841606" type="ABS">273</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a1833267-cca3-437d-bc50-6cc138def5ee</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925">1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841607" type="ABS">274</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9559a83-4305-45e6-8030-99f71d0729bf</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841608" type="ABS">275</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1fd6680-1b9d-4128-9626-bafe55ff7d1f</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841609" type="ABS">276</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/22de10cc-6e91-4b95-873d-2baeac2c1b0e</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928">1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841610" type="ABS">277</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d1f5d09a-8a7e-4b82-93f9-740d651a4833</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929">1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>PROCES DOSSIERS</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841611" type="ABS">278</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89f794e0-9ea7-4a61-9eca-0b593798e777</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1910/1911">1910-1911</unitdate>
+            </unittitle>
+          </did>
+          <phystech type="ABS">
+            
+          <p>Niet raadpleegbaar</p></phystech>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841612" type="ABS">279</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/44ca4ed1-f16f-4244-be90-0a027c4b01e7</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1912/1914">1912-1914</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841613" type="ABS">280</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/61d02178-861e-438a-ba79-6439ff69445d</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1915/1917">1915-1917</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841614" type="ABS">281</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a243624a-95df-4c18-89ff-aead3621d0e4</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1918/1919">1918-1919</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841615" type="ABS">282</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/dbf3a256-9dfa-4d40-ae62-d4a6799b4da3</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1920">1920</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841616" type="ABS">283</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/e375b702-7037-4b27-9c26-179a02185cf8</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1921/1923">1921-1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841617" type="ABS">284</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/15525a9f-c381-4fc2-90fd-f5c9225e5f53</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1925">1924-1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841618" type="ABS">285</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a286a892-e025-4639-a769-6b86fe6ae932</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841619" type="ABS">286</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b399ca84-8e2c-4a2f-bd9d-64e98aef2086</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927">1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841620" type="ABS">287</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/d681e665-ce7d-4a00-8bd4-dc2b7d2c0b69</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1929">1928-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>REGISTERS</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841621" type="ABS">288</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/07007650-12b1-4507-9b82-eb36c3e04614</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925/1927">1925-1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841622" type="ABS">289</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d368d24-5189-45b5-92d0-c690f0845294</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1929">1928-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841623" type="ABS">290</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/a42b3540-3c38-4cf1-a823-fcc34c55878c</unitid>
+            <unittitle>Register van hoger beroep</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1841/1845">1841-1845</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841624" type="ABS">291</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0f9ef32f-d172-495b-8bf0-e21241d8ce01</unitid>
+            <unittitle>Register van hoger beroep</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1841/1845">1841-1845</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841625" type="ABS">292</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba4b5b41-3e5b-47b4-bae9-e6abe6bc5f63</unitid>
+            <unittitle>Akten van Vennootschappen</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1839/1866">1839-1866</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841626" type="ABS">293</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b103e529-37c3-4516-b866-816dfe2ee683</unitid>
+            <unittitle>Correspondentie en circulaires</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1839/1855">1839-1855</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841627" type="ABS">294</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/42dd2a05-7f87-4de3-836f-4db3cf63759e</unitid>
+            <unittitle>Correspondentie en circulaires</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1839/1855">1839-1855</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>SCHEEPSVERKLARINGEN</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841628" type="ABS">295</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ca9cd726-1101-4525-b950-57848fec7f7a</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1838/1844">1838-1844</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841629" type="ABS">296</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe897758-fa06-44d7-bbf6-c47daac073c9</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1840/1842">1840-1842</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841630" type="ABS">297</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/b524e0c2-a1d8-4676-9cef-93671f7c62b1</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1839/1843">1839-1843</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>REKESTEN</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841631" type="ABS">298</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/484b3db5-f874-4611-af65-063401ed1b02</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1922">1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841632" type="ABS">299</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/8c5f167b-d3bd-4873-b4a2-6213239f110b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923">1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841633" type="ABS">300</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/16d26897-e3d6-4024-a68e-1f489110496b</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1925">1924-1925</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841634" type="ABS">301</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/c4ed85f3-4675-44de-986d-234871106ea5</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926/1927">1926-1927</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841635" type="ABS">302</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/30af881a-ced8-47e1-8734-928182a6a554</unitid>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1929">1928-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841636" type="ABS">303</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/550d81a0-05a9-4084-bf25-acdb2411eb97</unitid>
+            <unittitle>Repertoire</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1923/1925">1 januari 1923-31 december 1925</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841637" type="ABS">304</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/89343795-16b3-46c9-ab7b-ee71df45f1d8</unitid>
+            <unittitle>Rollijsten strafzaken</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1884/1922">1884-1922</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841638" type="ABS">305</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/45c070ca-5268-4964-bd15-37eb8bff031b</unitid>
+            <unittitle>Registers burgerlijke akten (repertoirregisters)</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1850/1909">1850-1909</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>BURGERLIJKE AKTEN</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841639" type="ABS">306</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/12f257dc-6c74-4688-bd7b-d036fdc074c1</unitid>
+            <unittitle>Successieeden</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1904/1910">1904-1910</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841640" type="ABS">307</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/04cffc00-794d-4b3a-a9d0-c0c706f36701</unitid>
+            <unittitle>Successieeden</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1915/1918">1915-1918</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841641" type="ABS">308</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bb82456-6dd7-48a6-a6d8-3275cd35a75d</unitid>
+            <unittitle>Successieeden</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1918/1920">1918-1920</unitdate>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid identifier="841642" type="ABS">309</unitid>
+            <unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c31da73-e9ce-4720-b918-8e4833852059</unitid>
+            <unittitle>Registers burgerlijke akten</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1919/1922">1919-1922</unitdate>
+          </did>
+        </c02>
+        <c02 level="otherlevel" otherlevel="filegrp">
+          <did>
+            <unitid>310-313</unitid>
+            <unittitle>Voogdijregisters, gehouden door de griffie van het kantongerecht</unittitle>
+            <unitdate calendar="gregorian" era="ce" normal="1909/1924">1909-1924</unitdate>
+            <physdesc>4 delen</physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2313802" type="ABS">310</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/093dcb3c-18fa-49a2-871d-ade6a392f72c</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="19091201/19160601">1 december 1909 - 1 juni 1916</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2313803" type="ABS">311</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ec910fe0-1d74-4e66-846c-154ef3c44699</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="19160601/19180401">1 juni 1916 - 1 april 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2313804" type="ABS">312</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/ee8a55bf-43a0-4884-88eb-e9f41643eee3</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="19180402/19200916">2 april 1918 - 16 september 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unitid identifier="2313805" type="ABS">313</unitid>
+              <unitid audience="internal" type="handle">http://proxy.handle.net/10648/92574fc4-dee7-4453-87df-f1d371f49bd5</unitid>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="19200916/19240619">16 september 1920 - 19 juni 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

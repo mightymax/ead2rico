@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/dc4a9756-6293-4859-b00e-2b0ab3f5c79c"
+  rdf:about="record/2.21.026.09">
+    <rico:identifier>2.21.026.09</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1969</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22286" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.026.09/i1" />
+      <rico:instantiates rdf:resource="record/2.21.026.09" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van prof. mr. B.D.H. Tellegen
+        [levensjaren 1823-1885], (1797) 1838-1885 (1891); A.O.M. Tellegen,
+        1881-1939</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/dc4a9756-6293-4859-b00e-2b0ab3f5c79c" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte stukken, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22286">
+    <rico:describedBy rdf:resource="record/2.21.026.09" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22286</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 192 Tellegen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Tellegen, B.D.H.</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1797</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1939</rico:endDate>
+    <rico:date>1797-1939</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>mr. Bernardus Dominicus Hubertus Tellegen
+            (1823-1885)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bernardus Dominicus Hubertus Tellegen werd op 26 augustus 1823 te
+          Groningen geboren als zoon van dr. Antonius Otto Hermannus Tellegen en Vrouwe
+          Cornelia Johanna Cremers.</html:p>
+          <html:p>De vader had te Groningen, waar hij zich na zijn studie gevestigd had,
+          een zeer uitgebreide geneeskundige praktijk en stond bij zijn medeburgers in
+          hoog aanzien.</html:p>
+          <html:p>Bernardus was nauwelijks zeven jaar toen zijn vader stierf. Vóór de
+          akademische studies genoot hij zijn opleiding aan de toenmalige Latijnse school
+          te Groningen. Hij had grote belangstelling voor klassieke werken en zijn
+          geliefkoosde schrijvers waren Goethe en Shakespeare. Bij het verlaten van de
+          Latijnse school hield hij een oratie over Tiberius Gracchus en zijn liefde voor
+          de klassieken bleek wel daaruit, dat hij alvorens de rechtenstudie aan te
+          vangen aan de Hogeschool te Groningen, eerst het kandidaatsexamen in de
+          letteren behaalde.</html:p>
+          <html:p>Op de Hogeschool deed hij zich kennen als een ijverig student die naast
+          zijn studie ook veel deed in de studentenvereniging. Nadat hij het doctoraal
+          examen in de rechten had afgelegd, viel hem het voorrecht te beurt om nog een
+          jaar aan een andere akademie te kunnen doorbrengen. Op advies van zijn
+          leermeester Star Numan koos hij Utrecht en daar verrijkte hij, in het
+          akademiejaar 1846-1847, zijn kennis met hetgeen hij door een trouw bezoek aan
+          de colleges van Ackersdijck, Holtius, Opzoomer en Vreede te horen en te
+          verwerken kreeg. Tegelijkertijd hield hij zich bezig met de samenstelling van
+          zijn proefschrift en op 26 juni 1847 verwierf hij met de hoogste lof de
+          doctorale graad in de rechten aan de universiteit van Groningen. Zijn
+          DISPUTATIO JURIS GENTIUM INAUGURALIS DE JURE IN MARE IMPRIMIS PROXIMUM werd ook
+          in het buitenland gewaardeerd.</html:p>
+          <html:p>In 1847 vestigde hij zich als advocaat te Groningen en oefende als
+          zodanig van 1847 tot 1856, en van 1856 tot aan zijn benoeming tot hoogleraar,
+          als procureur, de rechtspraktijk met uitnemend gevolg uit. De advocaat die hij
+          als procureur bijstond, kon niet alleen zeker zijn van de nauwkeurige
+          inachtneming der vormen van rechtspleging, maar had ook menigmaal aan zijn
+          vertrouwdheid met rechtsbronnen en literatuur belangrijke elementen en
+          argumenten voor de zaak zelf te danken.</html:p>
+          <html:p>In 1852 werd hij tot Secretaris van de Kamer van Koophandel en
+          Fabrieken van Groningen benoemd. Bij de voorlichting, die hij uit hoofde van
+          zijn kennis van wetgeving, volkshuishoudkunde en financiën kon verstrekken,
+          werd hij door die betrekking beter in staat gesteld om de op dat gebied
+          heersende meningen of wettelijke bepalingen van het handelsverkeer te
+          toetsen.</html:p>
+          <html:p>Op 4 juni 1855 trad hij in het huwelijk met jonkvrouwe Johanna Sippina
+          Balduina Adriana baronesse van Ittersum. Uit dit huwelijk werden drie zoons en
+          twee dochters geboren.</html:p>
+          <html:p>Als opvolger van Otto van Rees werd hij op 20 december 1860 benoemd tot
+          hoogleraar te Groningen. Hij gaf colleges in het staats- en volkenrecht, de
+          staatshuishoudkunde en de statistiek (na 1877 in het staats-, administratief en
+          volkenrecht). In zijn inwijdingsrede wees hij op het verband dat er bestaat
+          tussen beide wetenschappen. In de loop der jaren verschenen veel artikelen,
+          brochures en enkele boeken van zijn hand, waarvan in het bijzonder genoemd mag
+          worden: "Beginselen der Volkshuishoudkunde" dat in 1853 het licht zag.</html:p>
+          <html:p>Bij Koninklijk Besluit van 10 september 1877, no. 1, werd hij benoemd
+          tot hoogleraar te Leiden, maar zijn gehechtheid aan Groningen en de Hogeschool
+          aldaar deed hem de Koning verzoeken deze benoeming ongedaan te maken, wat enige
+          weken later ook geschiedde.</html:p>
+          <html:p>De rede welke door hem werd uitgesproken bij de overdracht van het
+          rectoraat in oktober 1870 handelde over Duitsland en Nederland. Hij gaf een
+          beschouwing over het gevaar dat voor Nederland steeds groter werd na de
+          overwinning van Duitsland op Frankrijk.</html:p>
+          <html:p>Een andere gelegenheid om in nog ruimere kring praktisch werkzaam te
+          zijn vond hij in zijn benoeming tot lid der Provinciale Staten van Groningen in
+          1862. Nadat hij eenmaal zitting in de Provinciale Staten had gekregen, werd hij
+          geregeld herkozen tot hij zich in 1880 om gezondheidsredenen niet herkiesbaar
+          stelde. Hij bevorderde het zelfbestuur van de provincie, gemeente en
+          waterschap, de controle van het financieel beleid van de Gedeputeerde Staten en
+          de verbetering van de administratieve rechtspraak.</html:p>
+          <html:p>Zijn politieke vrienden zagen in hem de aangewezen leider der Liberale
+          partij in Groningen, doch het lidmaatschap van de Tweede Kamer meende hij
+          evenmin te mogen aanvaarden als een ministeriële portefeuille, die hem meer dan
+          eens werd aangeboden.</html:p>
+          <html:p>Ten slotte werd hem in 1883 het lidmaatschap van de staatscommissie tot
+          herziening der Grondwet opgedragen. De gelegenheid om aan de verbetering van de
+          staatsinstellingen te mogen werken, welke het lidmaatschap der commissie hem
+          aanbood, mocht hij allerminst laten voorbijgaan.</html:p>
+          <html:p>Mr. Tellegen heeft nooit een sterke gezondheid gehad en nadat hij in
+          1875 door een ernstige ziekte werd getroffen, moest hij zich aan verschillende
+          bemoeiingen onttrekken. Zijn colleges werden gedurende zijn ziekte door de
+          bereidwilligheid van zijn ambtgenoten Cort van der Linden, Drucker en Domela
+          Nieuwenhuis waargenomen.</html:p>
+          <html:p>Op 10 februari 1885 stierf mr. Tellegen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Mr. Bernardus Dominicus Hubertus Tellegen (1823-1885) was o.a. advocaat en
+      hoogleraar te Groningen in het staats- en volkenrecht, de staatshuishoudkunde en de
+      statistieken. In de loop der jaren verschenen veel artikelen, brochures en enkele
+      boeken van zijn hand. Ook was hij lid van Provinciale Staten van Groningen en lid
+      van de staatscommissie tot herziening der Grondwet. Het archief bevat
+      correspondentie, stukken betreffende zijn diverse functies en stukken afkomstig van
+      overige familieleden.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>183 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

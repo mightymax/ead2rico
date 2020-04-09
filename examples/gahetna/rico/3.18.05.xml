@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/bfb7fe4d-fb9f-4fec-89c7-f0596e354a31"
+  rdf:about="record/3.18.05">
+    <rico:identifier>3.18.05</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1916</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36005" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.05/i1" />
+      <rico:instantiates rdf:resource="record/3.18.05" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2014-09-01</rico:hasModificationDate>
+        <html:p>1 september 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2014-01-10</rico:hasModificationDate>
+        <html:p>10 januari 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2012-03-08</rico:hasModificationDate>
+        <html:p>8 maart 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        2010-06-28</rico:hasModificationDate>
+        <html:p>28 juni 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het klooster van de Heilige
+        Bartholomeus in Jeruzalem</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/bfb7fe4d-fb9f-4fec-89c7-f0596e354a31" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36005">
+    <rico:describedBy rdf:resource="record/3.18.05" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36005</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Delftse Statenkloosters St. Bartholomeus in
+      Jeruzalem</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Delftse Statenkloosters / St. Bartholomeus</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1247</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1572</rico:endDate>
+    <rico:date>1247-1572</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Klooster van de Heilige Bartholomeus in Jeruzalem</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Dit klooster, dat van de orde van de Karthuizers was, stond ten
+          Zuid-Westen van de stad buiten de Waterslootpoort, dicht bij de grooten weg
+          naar Maasland. Het werd gesticht in het jaar 1469 door Frank van Borselen in
+          samenwerking met de priors van de kloosters van de zelfde orde bij Enghien en
+          Gent.</html:p>
+          <html:p>Hoewel uit de akte van approbatie, in Augustus 1469 gegeven door de
+          cureit van de Oude Kerk te Delft (zie reg. no. 134), en gedrukt bij Foppens
+          Miraeus, Op. Diplom. III p. 206. genoegzaam blijkt, dat toen nog het plan tot
+          de stichting bestond, bleef Römer, Römer, a.w. I p. 497. Dat Römer zich door de
+          akte niet van zijn meening liet afbrengen, is waarschijnlijk een gevolg van de
+          zinstorende fout bij Foppens afgedrukt. De cureit geeft n.l. zijn approbatie
+          "ad piam petitionem nobilis domini, domini Franconis de Borsalia necnon
+          venerabilium priorum .... prioris domus Capelle prope Angiam et prioris domus
+          Vallis Regalis prope Gandavum .... monasterium .... infra limites parochie mee
+          erigere cupiencium" en niet, als bij Foppens "cupiverim", wat trouwens geen zin
+          geeft. in navolging van van der Heussen en van Leeuwen Van Leeuwen, Bat. Ill.
+          p. 1332, schrijft van Bleyswijck woordelijk over. , van meening, dat het
+          klooster in 1430 was ontstaan, waarvoor hij nog eenige redenen, ongegronde
+          evenwel, aanvoert. Pater Mudzaerts Pater D. Mudzaerts: Generale kerckel. hist.
+          1624. en A. Raissius A. Raissius, Origines Cartusiarum Belgie 1632, p. 123.
+          noemen het jaar 1470 doch uit een transportakte van October 1469 (reg no. 135)
+          blijkt, dat de Karthuizers toen reeds in het klooster woonden. Het
+          gebouwencomplex, in de akte van Augustus beschreven als "ecclesiae, altaria,
+          cimeterium, ambitus, cellae, officinae etc. omnia ad predictum monasterium
+          pertinentia" zal dus toen wel reeds voltooid zijn geweest maar al wat met de
+          kerkelijken dienst in verband stond nog niet geregeld. Dat 1469 werkelijk het
+          stichtingsjaar is geweest, wordt nu bevestigd door het opschrift boven de
+          eersten brief in Inv. no. 3, hetwelk luidt: "Incipiunt copie literarum omnium
+          huius domus .... a primo anno fundationis huius domus qui fuit sexagesimus
+          nonus ab incarnatione Domini MCCCC."</html:p>
+          <html:p>Evenals de andere Karthuizerskloosters in Holland, was ook het Delftse
+          niet onbemiddeld, grondbezit zoowel als andere inkomsten waren aanzienlijk al
+          ontkwamen ook zij niet aan tegenslag. De schade, die zij bij overstroomingen in
+          1530 en 1532 (zij bezaten land op Tholen) en bij de Delftsen brand van 1536
+          leden, schatten zij op 200 pond Hollands jaarlijks. Om daaraan tegemoet te
+          komen, admortiseerde Karel V 23 morgen land om het klooster heen, die zij niet
+          wilden verkopen aan wereldlijken uit angst hun rustige afzondering erbij te
+          zullen verliezen.</html:p>
+          <html:p>In 1571 werd ook dit klooster als veiligheidsmaatregel gesloopt, nadat
+          de bewoners binnen Delft, volgen Raissius in het gasthuis, een onderdak hadden
+          gezocht, waar door de Staten in hun onderhoud werd voorzien.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bestaat grotendeels uit stukken betreffende het financieel
+      beheer, zoals eigendomsbewijzen van landerijen en huizen en rentebrieven. Daarnaast
+      bevat het onder meer enkele stukken betreffende de stichting van het klooster, een
+      cartularium, en een kaartboek.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.60 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>247 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

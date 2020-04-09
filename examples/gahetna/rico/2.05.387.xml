@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6dcc2e3e-c770-6a93-e053-09f0900a4293"
+  rdf:about="record/2.05.387">
+    <rico:identifier>2.05.387</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2015</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/Z291" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.05.387/i1" />
+      <rico:instantiates rdf:resource="record/2.05.387" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Nederlandse diplomatieke
+        vertegenwoordiging in Polen, (1946) 1975-2013, (1946)
+        1975-2013</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6dcc2e3e-c770-6a93-e053-09f0900a4293" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Bevat tevens foto's,
+        tekeningen en digitale dragers.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/Z291">
+    <rico:describedBy rdf:resource="record/2.05.387" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>Z291</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Nederlandse Dipolmatieke Vertegenwoordiging in Polen
+      (Warschau)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Buza / Ambassade Polen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1946</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2013</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1946-2013</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Nederlandse ambassade in Warschau, , (1946)
+            1975-2013</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Algemeen Historisch kader</html:p>
+          <html:p>Polen</html:p>
+          <html:p>In 1975 was Edward Gierek secretaris-generaal van de PZPR (Poolse
+          Verenigde Arbeiderspartij). Hij was in 1970 Gomulka opgevolgd. Gierek voerde in
+          de jaren ’70 enkele liberaliseringen door en wist daardoor de levensstandaard
+          iets te verhogen en de ontevredenheid onder de bevolking te temperen. Dit
+          duurde echter niet lang en langzaam maar zeker kwam de bevolking erachter dat
+          Polen in een diepe economische crisis beland was en dat radicale hervormingen
+          noodzakelijk waren om het tij te keren. De ontevredenheid werd gesteund door de
+          kerk, die weer wat rechten gekregen had. Bovendien werd voor het eerst in de
+          geschiedenis een Pool tot paus gekozen in 1978.</html:p>
+          <html:p>In 1980 leidde ontevredenheid tot een serie stakingen. Met name de
+          stakingen bij de Lenin-werf in Gdansk trokken internationaal de volle aandacht.
+          Lech Walesa was leider van een landelijk stakingscomité, dat uiteindelijk door
+          de regering erkend werd en verder ging als de vakbond “Solidarnosc”
+          (Solidariteit). Hoewel de chaos door de vele stakingen toenam, bleef deze
+          vakbond grote druk uitoefenen op de regering om het sociaal-economische beleid
+          grondig te hervormen. Als reactie op deze ontwikkelingen werd in februari 1981
+          generaal Jaruzelski premier en in oktober partijleider. Op 13 december nam hij
+          alle macht in handen en werd de staat van beleg afgekondigd en duizenden mensen
+          gearresteerd. Januari 1982 had Jaruzelski de gespannen situatie weer onder
+          controle waardoor eind 1982 de staat van beleg werd opgeheven.</html:p>
+          <html:p>In 1985 was alles weer redelijk normaal en liet Jaruzelski zich tot
+          president van Polen kiezen. Economisch ging het echter nog steeds erg slecht en
+          in 1988 braken er weer stakingen uit.</html:p>
+          <html:p>In juni 1989 werden de eerste vrije verkiezingen gehouden voor de
+          nieuwe Senaat. De communisten werden weggevaagd en de oppositie won alle
+          beschikbare zetels. In de Sejm (het Poolse lagerhuis) kreeg de oppositie in
+          totaal 35% van de zetels toegewezen. De voormalige bondgenoten van de
+          communisten, de Democratische Partij en de Boerenpartij, kozen echter al snel
+          de zijde van de oppositie. In juli trad Jaruzelski af als partijleider en hij
+          werd opgevolgd door demissionair premier Rakowski. Jaruzelski werd nog wel met
+          veel moeite tot president gekozen. Op 19 augustus werd Tadeusz Mazowiecki op
+          voordracht van Walesa tot premier benoemd. Op het elfde partijcongres in
+          januari 1990 hief de communistische partij (PZPR) zichzelf op en werd opgevolgd
+          door de Sociaal-Democratie van de Republiek Polen (SdRP), die tezamen met de
+          linkse vakbond OPZZ de Alliantie van Democratisch Links (SLD) ging
+          vormen.</html:p>
+          <html:p>Begin 1990 maakte minister van Financiën, Leszek Balcerowicz, een begin
+          met radicale economische hervormingen ter bestrijding van de hyperinflatie, die
+          in 1989 tot boven de 1000% was opgelopen. De scherpe daling van de inflatie
+          ging gepaard met een sterke daling van de levensstandaard, massale werkloosheid
+          en een recessie. Na een breuk in de vakbond Solidariteit stelden Mazowiecki en
+          Walesa zich beiden kandidaat voor de presidentsverkiezingen van eind 1990. In
+          de tweede ronde op 9 december triomfeerde Walesa met ruim 74% en op 22 december
+          werd hij als president beëdigd. In januari 1991 trad een nieuw kabinet onder
+          leiding van Jan Krzysztof Bielecki aan. Met Duitsland werd op 14 november 1990
+          een verdrag met betrekking tot de vaststelling van de Oder-Neisse-grens
+          getekend, gevolgd door een vriendschapsverdrag tussen beide landen op 17 juni
+          1991. Het Warschaupact werd op 1 juli in Praag door de zes overgebleven leden
+          formeel opgeheven.</html:p>
+          <html:p>In juni leed president Walesa een persoonlijke nederlaag, toen de Sejm
+          – ondanks twee maal een presidentieel veto – met het oog op de eerste
+          democratische verkiezingen op 27 oktober 1991 een nieuwe kieswet aannam. Die
+          verkiezingen leverden een versplinterd parlement op. Achtereenvolgens
+          formeerden Jan Olszewski (dec. 1991 – juni 1992), Waldemar Pawlak (juni–juli
+          1992) en Hanna Suchocka (juli 1992 – mei 1993) een regering. Suchocka bleef aan
+          tot de nieuwe verkiezingen onder een nieuwe kieswet in september 1993. Deze
+          verkiezingen leverden een overwinning op voor de ex-communisten en de Poolse
+          Boerenpartij (PSL) eindigde als tweede. Samen kregen zij tweederde van de
+          zetels in de Sejm en driekwart van de zetels in de Senaat, en dat was ruim
+          voldoende voor de vorming van een nieuwe regering. De coalitie beloofde het
+          beleid van privatiseringen en andere hervormingen voort te zetten. Economisch
+          waren de jaren negentig gunstige jaren met een groei van rond de 6%. Tussen
+          1990 en 1993 zou het met 45.000 man aanwezige Sovjetleger in Polen zich
+          terugtrekken.</html:p>
+          <html:p>Bij de presidentsverkiezingen van november 1995 versloeg SLD-voorman
+          Aleksander Kwasniewski met een klein verschil Lech Walesa. In hetzelfde jaar
+          kwam een geldhervorming tot stand (opwaardering van de zloty) en werd een begin
+          gemaakt met de privatisering van kleine en middelgrote staatsbedrijven. In de
+          zomer van 1996 keurde het parlement een hervormingsplan goed om het centrale
+          bestuur af te slanken en de rol van de overheid in de economie te beperken. In
+          dezelfde periode trad Polen als derde voormalig communistisch land toe tot de
+          Organisatie voor Economische Samenwerking en Ontwikkeling (OESO).</html:p>
+          <html:p>In 1997 werd een nieuwe grondwet, waaraan jaren was gewerkt, door beide
+          kamers aanvaard en van kracht. Hij legde het land vast als een parlementaire
+          democratie met een vrijemarkteconomie. In september 1997 leverden de
+          parlementsverkiezingen een grote overwinning op voor de oppositionele Kiesactie
+          Solidariteit (AWS), een coalitie van ruim 20 conservatieve, katholieke en
+          nationalistische organisaties rondom de vakbond Solidariteit. Jerzy Buzek werd
+          in oktober premier van een coalitie tussen AWS en de liberale
+          Vrijheidsunie.</html:p>
+          <html:p>In 1997 besloot de Europese Unie (EU) dat Polen op termijn zou kunnen
+          toetreden tot de EU. In datzelfde jaar nodigde de NAVO Polen uit lid te worden
+          van het bondgenootschap, hetgeen in maart 1999 zijn beslag kreeg.</html:p>
+          <html:p>Op 1 mei 2004 trad Polen toe tot de EU.</html:p>
+          <html:p>De parlementsverkiezingen van september 2005 werden gewonnen door de
+          conservatieve Wet- en Rechtvaardigheidspartij (PiS), met 28% van de stemmen.
+          Haar bondgenoot, het liberaal-conservatieve Burgerplatform (PO), kwam uit op
+          26%.</html:p>
+          <html:p>De presidentsverkiezingen van oktober 2005 werden gewonnen door de
+          conservatief Lech Kaczynski met 54% van de stemmen.</html:p>
+          <html:p>Op 31 oktober 2005 werd een regering o.l.v. Kazimierz Marcinkiewicz
+          geïnstalleerd waarvan alleen PiS deel uitmaakte. Op 10 november 2005 kreeg de
+          nieuwe regering het vertrouwen van het parlement. PiS kreeg hiervoor steun van
+          het zeer populistische Samoobrona (Zelfverdediging), de ultra-conservatieve "
+          League of Polish Families" (LPR) en de Boerenpartij PSL. Sinds 16 november 2007
+          was Donald Tusk premier van Polen nadat het Burgerplatform de verkiezingen
+          won.</html:p>
+          <html:p>In april 2010 verongelukte president Lech Kaczynski bij een
+          vliegtuigcrash.</html:p>
+          <html:p>In juli 2010 won Bronislaw Komorowski van het centrumrechtse
+          Burgerplatform in de tweede ronde de presidentsverkiezingen van Jaroslaw
+          Kaczynski, de tweelingbroer van Lech Kaczynski.</html:p>
+          <html:p>In juli 2011 nam Polen voor het eerst het roulerende voorzitterschap
+          van de EU op. De parlementsverkiezingen van oktober 2011 werden gewonnen door
+          het Burgerplatform onder leiding van Donald Tusk. In maart 2014 is Donald Tusk
+          nog steeds de premier.</html:p>
+          <html:p>Belarus (Wit-Rusland)</html:p>
+          <html:p>Eind jaren tachtig verloor de Sovjet-Unie langzaam haar greep op de
+          vele lidstaten. Overal bloeide het nationalisme op en op 27 juli 1990
+          verklaarde Wit-Rusland zich een soevereine staat. Op 25 augustus 1991 riep
+          Wit-Rusland haar onafhankelijkheid uit en in december 1991 vormde het samen met
+          Oekraïne en de Russische Federatie het Gemenebest van Onafhankelijke Staten
+          (GOS).</html:p>
+          <html:p>De eerste presidentsverkiezingen werden in juni 1994 gehouden en
+          uiteindelijk gewonnen door Aleksandr Loekasjenko, die op dat moment voorzitter
+          was van de parlementaire anti-corruptiecommissie. In juli stapte de regering
+          Kebitsj op en de nieuwe premier werd de economische hervormer Michaïl Tsjigir.
+          De overgang naar een markteconomie verliep echter zeer moeizaam en werd 1994
+          afgesloten met een dalende industriële productie, een gigantische inflatie en
+          een sterk dalende levensstandaard. Bovendien verzette het Wit-Russische
+          parlement zich hevig tegen het privatiserings-programma van de
+          regering.</html:p>
+          <html:p>In mei 1995 werd er een referendum gehouden waarin Loekasjenko steeds
+          meer macht kreeg. Hij kreeg zelfs steun om eventueel het parlement te ontbinden
+          en streefde weer naar integratie met Rusland. Ook vonden er tegelijkertijd
+          parlementsverkiezingen plaats. Loekasjenko regeerde inmiddels per decreet en
+          legde zelfs enkele uitspraken van het Hooggerechtshof die hem niet aanstonden,
+          naast zich neer. Hierdoor was het nog steeds mogelijk voor hem om wetten af te
+          kondigen, te wijzigen en in te trekken. De economie, die praktisch geheel
+          afhankelijk was van Rusland, verkeerde in een deplorabele toestand, onder
+          andere door de hoge energieschulden aan datzelfde land. In 1996 bereikte
+          Loekasjenko eindelijk wat hij wilde. In een nieuw referendum werd een nieuwe
+          grondwet goedgekeurd, waarin de bevoegdheden van de president maximaal werden
+          uitgebreid: hij kon op eigen houtje het parlement ontbinden. Het zal niet
+          vreemd overkomen dat die situatie zich vrijwel meteen voordeed en het nieuwe
+          parlement uit louter Loekasjenko-adepten bestond. Verder werd zijn ambtstermijn
+          verlengd tot 2001 en in april 1996 werd er een door hem zo zeer verlangde
+          ‘gemeenschap van economische herïntegratie’ met Rusland opgericht, die echter
+          weinig om het lijf had. Hoewel de oppositie zich flink roerde, kon Loekasjenko
+          ondanks alles blijven rekenen op een meerderheid van de bevolking.
+          Internationaal raakte Wit-Rusland door al deze anti-democratische maatregelen
+          steeds verder in een isolement.</html:p>
+          <html:p>In december 1998 tekenden Loekasjenko en de Russische president Jeltsin
+          een overeenkomst ter oprichting van een gemeenschappelijke staat, maar met
+          behoud van ieders soevereiniteit. Eind december tekenden Jeltsin en Loekasjenko
+          nog een verdrag, maar ook dit verdrag stelde in de praktijk niet veel voor door
+          de afwachtende houding van de nieuwe Russische president Poetin.</html:p>
+          <html:p>In mei 1999 organiseerden alle oppositiepartijen nieuwe
+          presidentsverkiezingen toen de ambtstermijn van Loekasjenko verstreek. Volgens
+          Loekasjenko was het volgens de grondwet mogelijk om de ambtstermijn te
+          verlengen en hij werkte de verkiezingen daarom ook tegen. Kranten werd in feite
+          censuur opgelegd, want zij mochten niets over de verkiezingen schrijven en ook
+          politieke partijen werd verboden om mee te werken aan de verkiezingen. Daarop
+          besloot de kiescommissie de verkiezingen ongeldig te verklaren, waardoor de
+          verdeeldheid onder de oppositiepartijen steeds groter werd.</html:p>
+          <html:p>In maart 2000 werd Sergej Ling als premier opgevolgd door Uladzimir
+          Yarmoshyn en volgden er demonstraties tegen Loekasjenko. Honderden
+          demonstranten werden gearresteerd en veroordeeld tot
+          gevangenisstraffen.</html:p>
+          <html:p>In oktober werden parlementsverkiezingen gehouden, die echter geboycot
+          werden door een groot gedeelte van de oppositie. Het ondemocratische optreden
+          van Loekasjenko werd ook in het buitenland sterk bekritiseerd.</html:p>
+          <html:p>De mensenrechtensituatie in Wit-Rusland werd steeds meer bekritiseerd
+          vanuit het buitenland, en dat leidde tot een verdere isolatie van president
+          Loekasjenko. President Poetin van Rusland stelde voor om Wit-Rusland volledig
+          te integreren in de Russische Federatie door het overnemen van de Russische
+          grondwet, munt en taal en de aanwijzing van een staatshoofd. Loekasjenko wees
+          het voorstel verontwaardigd af.</html:p>
+          <html:p>Voor de presidentsverkiezingen in maart 2006 kwam de verenigde
+          oppositie met een gezamenlijke kandidaat, Alexander Milinkevitsj. Ook een
+          andere oppositiekandidaat, Kozulin, nam deel aan de verkiezingen. De oppositie
+          werd in de aanloop van deze verkiezingen, evenals in de jaren daarvoor,
+          belemmerd door intimidatie van overheidszijde en gebrek aan toegang tot de
+          staatsmedia. Belangrijke oppositiepartijen zijn het Belarussische Volksfront,
+          de Verenigde Burgerpartij, de Belarussische Sociaaldemocratische Partij en
+          Hramada. Milinkevitsj kreeg officieel slechts 6% van de stemmen, terwijl
+          Loekasjenko officieel ruim 82% van de stemmen kreeg. Gezien de maandenlange
+          intimidatie van aanhangers van de oppositie en het gebrek aan transparantie in
+          het tellen van de stemmen bij de verkiezingen, heeft de internationale
+          gemeenschap de presidentsverkiezingen noch vrij noch eerlijk
+          verklaard.</html:p>
+          <html:p>In de jaren 2007 en 2008 was er een slepend conflict met Rusland over
+          gas- en olieleveranties. In juni 2008 besloot Wit-Rusland tot de bouw van een
+          kerncentrale waarvoor een internationale tender werd uitgeschreven. Bij de
+          verkiezingen van september 2008 wonnen de regeringskandidaten alle 110 zetels
+          in het parlement. In oktober schortte de EU het reisverbod van president
+          Loekasjenko op om democratische hervormingen aan te moedigen. In april 2009
+          bezocht Loekasjenko Vaticaanstad tijdens zijn eerste West-Europese bezoek sinds
+          1995. Ook in 2010 werd er door Rusland en Wit-Rusland geruzied over olie en
+          gastoevoer. In januari 2011 werd Loekasjenko voor een vierde termijn ingezworen
+          als president. In 2011 raakte Wit-Rusland financieel in de problemen en sloot
+          het een deal om Russisch gas goedkoper te krijgen. In ruil daarvoor kreeg
+          Gazprom zeggenschap over de pijpleiding in Wit-Rusland. Ook in 2012 en 2013
+          beef het onrustig in Wit-Rusland en waren er problemen met de EU. De oppositie
+          dreigde met het boycotten van verkiezingen.</html:p>
+          <html:p>Nederlandse ambassade in Warschau</html:p>
+          <html:p>In deze inventaris zijn de archiefbescheiden opgenomen van de
+          Nederlandse ambassade in Polen te Warschau over de periode 1975-2013.</html:p>
+          <html:p>De Nederlandse ambassade in Polen was tevens geaccrediteerd voor
+          Belarus (Wit-Rusland). Sinds de onafhankelijkheid van Belarus op 25 augustus
+          1991 worden de Nederlandse belangen in Belarus behartigd door de Nederlandse
+          Ambassade te Warschau.</html:p>
+          <html:p>Naast de Nederlandse Ambassade waren in Polen ook gevestigd: Gdansk,
+          consulaat, vanaf 1992 Gdynia, consulaat, 1948-1992 Poznán, consulaat, 1993-2012
+          Warschau, consulaat, 1947-1998 Wroclaw, consulaat, 1994-2013</html:p>
+          <html:p>In Belarus (de republiek Wit-Rusland): Minsk, consulaat, vanaf
+          1995</html:p>
+          <html:p>Een bijzondere taak van de ambassade was de behartiging van Israëlische
+          belangen in Polen. De ambassade verricht deze taak vanaf juni 1967 na de
+          verbreking van de diplomatieke betrekkingen tussen Polen en Israël.</html:p>
+          <html:p>De namen van de chefs de poste van de ambassade in Polen staan
+          hieronder opgenoemd. Achter de naam van elke chef de poste staat vermeld tot en
+          met welk jaar deze de functie bekleedde. Pelt, W.F. (1973-1977) Korthals Altes,
+          E.J. (1977-1980) Kun, J.L. van der (1980-1983) Vijverberg, H.A.L. (1984-1986)
+          Hanswijck de Jonge, C.M.M.H.R. van (1986-1988) Semeyns de Vries van Doesburgh,
+          J.W. (1988-1993) Gosses, S.I.H. (1993-1995), accreditatie: Belarus Wehry,
+          G.A.H. (1995-1999), accreditatie: Belarus Visser, J.J. de (1999-2002),
+          accreditatie: Belarus Craanen, J.E. (2002-2006), accreditatie: Belarus Krop, M.
+          (2006-2009), accreditatie: Belarus Kurpershoek, M. (2009-2013), accreditatie:
+          Belarus</html:p>
+          <html:p>Hieronder volgt een algemene beschrijving over de Nederlandse
+          vertegenwoordigingen in het buitenland.</html:p>
+          <html:p>Taken ambassade</html:p>
+          <html:p>De werkzaamheden van de bilaterale posten kunnen verdeeld worden in
+          politieke aangelegenheden, economische aangelegenheden,
+          ontwikkelingssamenwerking, pers- en culturele aangelegenheden, consulaire
+          aangelegenheden en algemene zaken. Hieronder volgt een weergave van de
+          taken:</html:p>
+          <html:p>Politieke Zaken (PZ): het volgen van de binnenlandse en buitenlandse
+          politieke ontwikkelingen in het land van accreditatie; het rapporteren aan de
+          Nederlandse regering omtrent de voor Nederland relevante ontwikkelingen, opdat
+          die bij het formuleren van haar beleid daar rekening mee kan houden; het
+          uitdragen van het Nederlandse politieke beleid; het behartigen van de belangen
+          van andere landen; dit omvat de behartiging van de politieke belangen van
+          Luxemburg.</html:p>
+          <html:p>Economische Zaken (EZ):</html:p>
+          <html:p>De economische werkzaamheden kunnen worden onderscheiden in macro-,
+          meso- en micro-economische.</html:p>
+          <html:p>Macro-economisch: het opstellen van algemene economische rapportages
+          over macro-economische ontwikkelingen in het land van accreditatie,
+          overheidsmaatregelen, monetaire kwesties, energievoorziening, milieuhygiëne,
+          lucht- en scheepvaartaangelegenheden; het vergaren van handelspolitieke
+          informatie en het leveren van inspanningen, met name daar waar de handel op
+          beperkende maatregelen stuit; het toezenden van economisch-statistisch
+          materiaal; het verstrekken van inlichtingen aan de overheid en het
+          bedrijfsleven van het land van vestiging over economische ontwikkelingen en
+          mogelijkheden tot economische samenwerking met Nederland; het uitdragen van het
+          Nederlandse beleid op economisch terrein.</html:p>
+          <html:p>Meso-economisch: het berichten over afzetmogelijkheden, ontwikkelingen
+          in het bedrijfsleven, fusies, buitenlandse investeringen, concurrentie van
+          derde landen; het geven van voorlichting over Nederlandse
+          leveringsmogelijkheden van goederen en diensten; het doen van meldingen over
+          ontwikkelingsprojecten en overheidsaanbestedingen; het aantrekken van
+          industriële projecten voor Nederland door middel van voorlichting, bemiddeling,
+          etc.; het berichten over economische missies die West-Europa bezoeken en hulp
+          aan Nederlandse missies in het ambtsgebied; het berichten over beurzen en
+          tentoonstellingen in het land van vestiging en hulp bij Nederlandse deelname
+          aan beurzen.</html:p>
+          <html:p>Micro-economisch: Het ondersteunen en begeleiden van Nederlandse
+          exporteurs in de vorm van: handelsbemiddeling; voorlichting aan Nederlandse
+          zakenlieden en introducties bij overheid en bedrijfsleven; bemiddeling bij
+          handelsgeschillen.</html:p>
+          <html:p>Ontwikkelingssamenwerking (OS):</html:p>
+          <html:p>De werkzaamheden in het kader van ontwikkelingssamenwerking houden in:
+          het analyseren van het ontwikkelingsbeleid van het betrokken land; het nagaan
+          van de plaats die Nederland in de samenwerking op dit gebied zou kunnen
+          innemen; het vaststellen van doelgroepen waarop het samenwerkingsbeleid gericht
+          kan zijn; het adviseren omtrent de aanvaardbaarheid en uitvoerbaarheid van
+          individuele projecten; het voorbereiden, uitvoeren en evalueren van Kleine
+          Ambassade Projecten (KAP); het toezicht houden op en berichten over de
+          voortgang van projecten; het begeleiden van uit te zenden deskundigen,
+          huisvesting, financiering, hulp bij import van goederen; het bemiddelen bij de
+          invoer van materieel voor hulpprojecten; het behandelen van financiële
+          aspecten.</html:p>
+          <html:p>Consulaire Zaken (CZ):</html:p>
+          <html:p>Ten behoeve van Nederlanders:</html:p>
+          <html:p>Het zorg dragen voor de Nederlandse kolonie en Nederlandse toeristen in
+          het buitenland. De meest voorkomende werkzaamheden hiervoor zijn: het
+          verstrekken, verlengen en wijzigen van reisdocumenten voor Nederlanders,
+          alsmede diplomatieke, consulaire en dienstpaspoorten; het opmaken van
+          legalisaties; het verstrekken van juridische adviezen; het leveren van bijstand
+          bij het opstellen van notariële akten; het opmaken van akten van
+          huwelijkstoestemming; het in bewaring nemen van holografische en geheime
+          testamenten; het opmaken van volmachten; het registreren van opgemaakte akten
+          in een repertorium; het opmaken van akten van de burgerlijke stand; het regelen
+          van dienstplichtzaken; het zorgen voor repatriëring; het overbrengen van
+          gerechtelijke stukken, het bijstaan van rogatoire commissies, het opmaken van
+          legalisaties en het verrichten van andere juridische handelingen.</html:p>
+          <html:p>Ten behoeve van buitenlanders: het verlenen van visa voor bezoeken aan
+          Nederland korter dan drie maanden of het verstrekken van een ‘machtiging
+          voorlopig verblijf’ bij een verblijf langer dan drie maanden; het doorzenden
+          van asielverzoeken; het inlichten van buitenlandse autoriteiten over
+          Nederland.</html:p>
+          <html:p>Pers- en culturele zaken (PCZ):</html:p>
+          <html:p>Het bevorderen en verbreiden van kennis van het leven en denken van het
+          Nederlandse volk, zijn staatkundige, economische en sociale structuur, zijn
+          cultuur en zijn historie, en over de beginselen en feitelijke gegevens die
+          daarbij een rol spelen. De diplomatieke post heeft tot taak het ontwikkelen van
+          activiteiten en het aankweken en onderhouden van relaties die de banden tussen
+          beide landen kunnen verstevigen. Concreter betekent dit: het medewerken aan de
+          uitvoering van bilaterale afspraken en verdragen op cultureel en
+          wetenschappelijk gebied; het deelnemen aan het internationale culturele
+          verkeer; het profijt trekken uit multilaterale samenwerkingsvormen op dit
+          gebied alsmede het uitdragen van Nederlandse standpunten; het onderhouden van
+          contacten met de lokale pers teneinde publicaties over Nederland te stimuleren
+          en waar nodig onjuiste voorlichting te corrigeren.</html:p>
+          <html:p>Algemene zaken (AZ)</html:p>
+          <html:p>De afdeling Algemene Zaken is belast met de ondersteunende, secundaire
+          taken op een post, dat wil zeggen zaken met betrekking tot: personeel;
+          informatievoorziening, automatisering; organisatie; financieel beheer; archief;
+          communicatie; huisvesting; vervoer.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat stukken ontvangen en opgemaakt door de Nederlandse
+      ambassade in Polen over de periode 1975-2013. Vanaf 25 augustus 1991 is de
+      Nederlandse ambassade in Polen tevens geaccrediteerd voor Belarus (Wit-Rusland).
+      Het archief bevat archiefstukken aangaande Belarus over de periode 1992-2013. Het
+      betreft stukken over de organisatie en taken van de ambassade op het gebied van
+      consulaire, economische, culturele en politieke zaken.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B), deels niet openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het Auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1051 inventarisnummer(s)</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>20,40 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

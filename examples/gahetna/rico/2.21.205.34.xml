@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/ca9275e4-a8b0-4fd6-9397-19eed28c5a36"
+  rdf:about="record/2.21.205.34">
+    <rico:identifier>2.21.205.34</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1983</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C24473" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.205.34/i1" />
+      <rico:instantiates rdf:resource="record/2.21.205.34" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van J.C.A. Lichtenbelt, (1927)
+        1930-1942</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/ca9275e4-a8b0-4fd6-9397-19eed28c5a36" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C24473">
+    <rico:describedBy rdf:resource="record/2.21.205.34" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C24473</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 416 J.C.A. Lichtenbelt</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Lichtenbelt</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1927</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1942</rico:endDate>
+    <rico:date>1927-1942</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>J.C.A. Lichtenbelt</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het eind van de twintiger jaren werden door de Balinese
+          schoolvereniging "Siladarma" te Kloenkoeng pogingen ondernomen tot behoud van
+          de karakteristieke Balinese Hindoecultuur. Men vond in mevrouw J.C.A.
+          Lichtenbelt, oud-directrice van de Meisjes Normaalschool te Blitar (Oost-Java)
+          een toegewijd propagandiste voor deze plannen, o.a. na de gesprekken, die zij
+          met de op Bali verblijvende kunstenaar R. Bonnet had gevoerd. Men was het in
+          deze kringen erover eens, dat westerse invloeden op langere duur fnuikend
+          zouden zijn voor het Balinese cultuureigen.</html:p>
+          <html:p>Na haar repatriëring in 1935 ijverde zij gedurende vier jaar om gelden
+          en medestanders te verzamelen om tot de oprichting van een Hindoe-Balinese
+          school op het eiland te komen, waar Balinezen onderricht zouden ontvangen met
+          de nadruk op de culturele en godsdienstige vakken.</html:p>
+          <html:p>Hiertoe zocht zij contact met ambtenaren van het Binnenlands Bestuur,
+          het Departement van Onderwijs in Batavia, de Balinese Regentenbond,
+          autoriteiten op onderwijsgebied en charitatieve</html:p>
+          <html:p>verenigingen op het Indisch onderwijs gericht zoals het Kartinifonds en
+          de Van Deventer-Maas Stichting.</html:p>
+          <html:p>Hoewel nota's over de onderwijsstructuur, lesprogramma's etc. werden
+          ontworpen bleek de overheid niet bereid het plan te financiëren. Van
+          partikuliere zijde bleek evenmin voldoende animo aanwezig, zodat het plan
+          tenslotte in 1939 verlaten moest worden.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Om de karakteristieke Balinese Hindoecultuur te behouden ijverde mevrouw
+      J.C.A. Lichtenbelt om gelden in te zamelen voor de oprichting van een
+      Hindoe-Balinese school op het eiland. Helaas bleek hier noch van de overheid, noch
+      van partikuliere zijde voldoende animo voor te bestaan. Het archief bevat stukken
+      betreffende het Hindoe-Baliplan en stukken betreffende het 'normaalonderwijs' in
+      Nederlands-Indië.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.10 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>25 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/c89918cb-d8cb-46da-82cc-da3ae74328f8"
+  rdf:about="record/2.19.155">
+    <rico:identifier>2.19.155</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2006</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I9" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.155/i1" />
+      <rico:instantiates rdf:resource="record/2.19.155" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20151222</rico:hasModificationDate>
+        <html:p>22 december 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20151117</rico:hasModificationDate>
+        <html:p>17 november 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20151103</rico:hasModificationDate>
+        <html:p>3 november 2015</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100614</rico:hasModificationDate>
+        <html:p>14 juni 2010</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Stichting voor
+        Vluchteling-Studenten UAF, 1948-2001</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/c89918cb-d8cb-46da-82cc-da3ae74328f8" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normaal getypte, geschreven en gedrukte documenten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I9">
+    <rico:describedBy rdf:resource="record/2.19.155" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I9</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Stichting voor Vluchteling-Studenten UAF</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Stichting Vluchteling-Studenten UAF</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1948</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2001</rico:endDate>
+    <rico:date>1948-2001</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Stichting voor Vluchteling-Studenten</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De archiefvormer bestond onder de volgende benamingen: Universitair
+          Asylfonds, 1948-1968Stichting Vluchtelingen-studenten UAF (University
+          Assistance Fund) 1968 - ....</html:p>
+          <html:p>Het UAF werd in 1948 opgericht door medewerkers en studenten van de
+          Nederlandse universiteiten, uit solidariteit met de voor de communistische
+          machtsovername gevluchte Tsjechische studenten. De aanzet werd gegeven door het
+          Comité Adhaesie Tsjechische Studenten in Utrecht, op 24 februari in het leven
+          geroepen als reactie op het neerslaan van een studentenopstand in Praag. Met
+          een grote handtekeningenactie en protestbijeenkomsten haalde het comité het
+          wereldnieuws.</html:p>
+          <html:p>Op 9 april daarna riep de rector magnificus van de Universiteit van
+          Amsterdam, prof. G.C. Heringa op tot de instelling van een Universitair
+          Asylfonds; bij die bijeenkomst waren alle rectores magnifici van de Nederlandse
+          universiteiten en hogescholen aanwezig Hogescholen waren toen de Technische
+          Hogeschool Delft, de Economische Hogescholen te Rotterdam en Tilburg en de
+          Landbouwhogeschool te Wageningen, thans allen universiteiten. . Deze
+          bijeenkomst leidde meteen tot de oprichting van het fonds. Dit fonds
+          ondersteunde uiteindelijk vijftig toegelaten Tsjechische studenten. Het
+          onderhield contacten met de International Refugee Organisation, die zich ook
+          bezig hield met de opvang van displaced persons uit de Tweede Wereldoorlog en
+          later aangekomen vluchtelingen in Nederland, vanaf 1954 opgevolgd door de
+          Nederlandse Federatie van Vluchtelingenhulp.</html:p>
+          <html:p>Een ander samenwerkingsverband ontstond met de Midszenty-stichting -
+          vernoemd naar een door de regering van de Hongaarse volksrepubliek gevangen
+          genomen kardinaal - die bemiddelde voor de plaatsing van uitgeweken Hongaarse
+          studenten in Nederland. Deze samenwerking werd na de Hongaarse opstand van 1956
+          geïntensiveerd. Later bleken ook vluchtelingen-studenten zich aan te melden,
+          die niet afkomstig waren van landen van het Warschaupact, zoals uit Zuid-Afrika
+          na het bloedbad van Sharpeville (1961). Het werd duidelijk dat niet alleen van
+          communistische zijde repressie kwam. In dat jaar richtte de International
+          Student Conference Er bestonden twee internationale studentenorganisaties,
+          waarvan de oudste, de ISU (International Student Union) mede studenten
+          verenigde uit landen van het latere Warschau pact. In reactie daarop werd de
+          ISC opgericht, die vooral studenten uit de landen uit het NAVO-pact verenigde.
+          De Nederlandse studentenraad was indertijd bij de ISC aangesloten; de in 1963
+          opgerichte Studentenvakbeweging pleitte voor aansluiting bij de ISU. het
+          International University Exchange Fund op, dat voortaal als centrum diende voor
+          de achtergrondinformatie op grond waarvan het UAF zijn beleid kon richten. Met
+          name kwam er veel informatie over Afrika en Latijns Amerika binnen, die tot
+          .heroriëntatie leidde. Belangrijke gebeurtenissen die tot vluchtelingenstromen
+          leidde waren de onderdrukking van de Praagse Lente in Tsjechoslowakije (1968),
+          de staatsgreep van het kolonelsregime in Griekenland (1969) welk bewind
+          culmineerde in de bloedig onderdrukte studentendemonstratie van 1972, de
+          koloniale oorlog van de Portugese dictator Salazar in Angola, met Portugese
+          deserteurs en Angolese vluchtelingen als gevolg, en de staatsgreep van Pinochet
+          in Chili (1971).</html:p>
+          <html:p>In 1969 veranderde het Universitaire Asylfonds zijn naam in Stichting
+          voor Vluchtelingen-studenten UAF (University Assistance Fund). De reden was dat
+          het fonds niet alleen universitaire studie ondersteunde, maar ook studie voor
+          hoger beroepsonderwijs en kunstacademie. In dat jaar werd op aandrang van de
+          Tweede Kamer een regeling aangenomen waarbij verdragsvluchtelingen (waaronder
+          een groot deel van de 50 Tsjecho-slowaken uit 1968) in aanmerking kwamen voor
+          een rijksstudietoelage. Deze toelagen werden aan het UAF uitgekeerd en via deze
+          instantie aan de bursalen gedistribueerd. De uitkeringen aan bursalen via het
+          UAF werden door het ministerie van Onderwijs en Wetenschappen als een aparte
+          begrotingspost opgevoerd, zodat het leek alsof het UAF voor zijn werk werd
+          gesubsidieerd. Dit is echter nimmer het geval geweest. Dat gold echter niet
+          voor de Portugese deserteurs, die eveneens door het UAF werden ondersteund. Het
+          UAF moest daarom in de jaren '70 voor zijn opvang- en ondersteunings-werk
+          nauwer samenwerken met de andere vluchtelingen- en bijstandsorganisaties, die
+          echter in dat decennium ingrijpend in beweging waren. De Nederlandse Federatie
+          van Vluchtelingenhulp werd in 1972 opgeheven, mogelijk door interne problemen
+          over de Oost-Westverhoudingen. Een mede door het UAF in het leven geroepen
+          Stichting Bijstand Buitenlandse Studerenden vormde samen met de Landelijks
+          Stichting Welzijn Buitenlandse Werknemers het Nederlands Centrum Buitenlanders,
+          waarin ook vluchtelingenorganisaties een rol speelden. Toen als opvolger van de
+          Federatie in 1974 een voorstel werd gedaan tot oprichting van een stichting op
+          basis van kerkelijke hulp besloot het UAF daarmee niet in zee te gaan, maar
+          richtte het met professionele maatschappelijke organisaties als Eelease en
+          Amnesty International de Vereniging "Voor Vluchtelingen" op. Beide organisaties
+          fuseerden in 1979; de organisaties die bij de oprichting van de oorspronkelijk
+          rivaliserende instellingen waren betrokken, namen als "leden-rechtspersonen"
+          zitting in het algemeen bestuur. Deze positie heeft het UAF nog steeds. Ook
+          heeft het bemoeienis met de Stichting Vluchteling, die in 1976 werd opgericht.
+          Twee jaar later nodigde die stichting het UAF en andere bijstandsorganisaties
+          uit om in een werkgroep zitting te nemen. Hieruit ontstond een Raad van
+          Toezicht, die inzage kreeg in alle beleidsstukken van het bestuur.</html:p>
+          <html:p>Het UAF kon nu zijn rol als verstrekker van studiebeurzen (hetzij van
+          rijkswege hetzij uit eigen inzamelingen) binnen de context van de steeds
+          intensiever georganiseerde vluchtelingenopvang voortzetten. Hierin speelde zij
+          een eigen rol. Zij verstrekte niet alleen beurzen en toelagen aan erkende
+          vluchtelingen, maar - in ieder geval in de jaren '90 - ook aan asielzoekers die
+          in opvangcentra of op opvangadressen op een beschikking wachtten. Daardoor
+          hanteerde zij bij haar steun zelf geformuleerde criteria voor cliëntaanneming,
+          die konden afwijken van het toelatingsbeleid van de IND en zijn voorgangers;
+          per slot van rekening had ook een terugkerende asielzoeker iets aan een hogere
+          opleiding. Overigens waren cliënten van het UAF reeds aanvaarde cliënten van de
+          Vereniging Vluchtelingenwerk, die immers in eerste instantie moesten beoordelen
+          of het zin had een asielzoeker bij zijn aanvraag te begeleiden. De betrokken
+          personen waren in ieder geval op redelijke gronden - voorlopig - in Nederland
+          toegelaten.</html:p>
+          <html:p>Het feit dat het UAF zelf criteria toepaste voor de cliëntbepaling had
+          gevolgen voor de organisatie. Het UAF had tot 1968 een algemeen bestuur,
+          bestaande uit afgevaardigden van de toenmalige universiteiten en hogescholen,
+          uit wier midden een dagelijks bestuur werd benoemd dat zich met de inzameling
+          en uitkering van toelagen bemoeide. Na 1968 professionaliseerde de organisatie
+          zich. Het bestuur benoemde een directeur, die in zijn werk werd bijgestaan door
+          de volgende commissies: De Financiële commissie, die zich bezig hield met
+          inzamelingen, acties en de verantwoording. Men hield collectes, verkocht
+          agenda's aan eerstejaars studenten, gaf de gelegenheid aan personen en
+          instellingen om vluchtelingenstudenten te adopteren en na 1968 ook periodieke
+          schenkingen te verrichten.De Sociale commissie, die zich bezig hield met de
+          intake en aanneming van cliënten. Deze commissie moest beoordelen of de
+          aspirant-cliënt inderdaad als vluchteling kon worden aangemerkt of in zijn land
+          van herkomst door politieke oorzaken in zijn studie werd belemmerd; tevens
+          moest zij beoordelen of hij op grond van zijn vooropleiding voor de gevraagde
+          studie in aanmerking kwam. De commissie kwam regelmatig bijeen om te beslissen
+          over gevallen waarbij discussie mogelijk was (de zogen. "ruitjes"). Zie ook de
+          omschrijving in het desbetreffende lijstnummer. In bepaalde gevallen kon tegen
+          een beslissing van der sociale commissie beroep worden aangetekend bij een
+          Commissie van Beroep. Aanvankelijk beoordeelde zij ook of de studievorderingen
+          een voortzetting van de toelage rechtvaardigde, maar dit werd later overgelaten
+          aan.De begeleidingscommissie, die bovendien bemiddelde bij alle procedures, die
+          voor een normale aanvrage om studiefinanciering of plaatsing van een student in
+          een universiteit of inrichting van hoger beroepsonderwijs vereist waren.De
+          commissie Voorlichting of Pers en Publiciteit, die zich bezig hield met de
+          vormgeving van folders en de redactie van het sedert 1957 verschijnende
+          kwartaalblad Momentopname.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>UAF</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De archiefvormer bestond onder de volgende benamingen: Universitair
+          Asylfonds, 1948-1968Stichting Vluchtelingen-studenten UAF (University
+          Assistance Fund) 1968 - ....</html:p>
+          <html:p>Het UAF werd in 1948 opgericht door medewerkers en studenten van de
+          Nederlandse universiteiten, uit solidariteit met de voor de communistische
+          machtsovername gevluchte Tsjechische studenten. De aanzet werd gegeven door het
+          Comité Adhaesie Tsjechische Studenten in Utrecht, op 24 februari in het leven
+          geroepen als reactie op het neerslaan van een studentenopstand in Praag. Met
+          een grote handtekeningenactie en protestbijeenkomsten haalde het comité het
+          wereldnieuws.</html:p>
+          <html:p>Op 9 april daarna riep de rector magnificus van de Universiteit van
+          Amsterdam, prof. G.C. Heringa op tot de instelling van een Universitair
+          Asylfonds; bij die bijeenkomst waren alle rectores magnifici van de Nederlandse
+          universiteiten en hogescholen aanwezig Hogescholen waren toen de Technische
+          Hogeschool Delft, de Economische Hogescholen te Rotterdam en Tilburg en de
+          Landbouwhogeschool te Wageningen, thans allen universiteiten. . Deze
+          bijeenkomst leidde meteen tot de oprichting van het fonds. Dit fonds
+          ondersteunde uiteindelijk vijftig toegelaten Tsjechische studenten. Het
+          onderhield contacten met de International Refugee Organisation, die zich ook
+          bezig hield met de opvang van displaced persons uit de Tweede Wereldoorlog en
+          later aangekomen vluchtelingen in Nederland, vanaf 1954 opgevolgd door de
+          Nederlandse Federatie van Vluchtelingenhulp.</html:p>
+          <html:p>Een ander samenwerkingsverband ontstond met de Midszenty-stichting -
+          vernoemd naar een door de regering van de Hongaarse volksrepubliek gevangen
+          genomen kardinaal - die bemiddelde voor de plaatsing van uitgeweken Hongaarse
+          studenten in Nederland. Deze samenwerking werd na de Hongaarse opstand van 1956
+          geïntensiveerd. Later bleken ook vluchtelingen-studenten zich aan te melden,
+          die niet afkomstig waren van landen van het Warschaupact, zoals uit Zuid-Afrika
+          na het bloedbad van Sharpeville (1961). Het werd duidelijk dat niet alleen van
+          communistische zijde repressie kwam. In dat jaar richtte de International
+          Student Conference Er bestonden twee internationale studentenorganisaties,
+          waarvan de oudste, de ISU (International Student Union) mede studenten
+          verenigde uit landen van het latere Warschau pact. In reactie daarop werd de
+          ISC opgericht, die vooral studenten uit de landen uit het NAVO-pact verenigde.
+          De Nederlandse studentenraad was indertijd bij de ISC aangesloten; de in 1963
+          opgerichte Studentenvakbeweging pleitte voor aansluiting bij de ISU. het
+          International University Exchange Fund op, dat voortaal als centrum diende voor
+          de achtergrondinformatie op grond waarvan het UAF zijn beleid kon richten. Met
+          name kwam er veel informatie over Afrika en Latijns Amerika binnen, die tot
+          .heroriëntatie leidde. Belangrijke gebeurtenissen die tot vluchtelingenstromen
+          leidde waren de onderdrukking van de Praagse Lente in Tsjechoslowakije (1968),
+          de staatsgreep van het kolonelsregime in Griekenland (1969) welk bewind
+          culmineerde in de bloedig onderdrukte studentendemonstratie van 1972, de
+          koloniale oorlog van de Portugese dictator Salazar in Angola, met Portugese
+          deserteurs en Angolese vluchtelingen als gevolg, en de staatsgreep van Pinochet
+          in Chili (1971).</html:p>
+          <html:p>In 1969 veranderde het Universitaire Asylfonds zijn naam in Stichting
+          voor Vluchtelingen-studenten UAF (University Assistance Fund). De reden was dat
+          het fonds niet alleen universitaire studie ondersteunde, maar ook studie voor
+          hoger beroepsonderwijs en kunstacademie. In dat jaar werd op aandrang van de
+          Tweede Kamer een regeling aangenomen waarbij verdragsvluchtelingen (waaronder
+          een groot deel van de 50 Tsjecho-slowaken uit 1968) in aanmerking kwamen voor
+          een rijksstudietoelage. Deze toelagen werden aan het UAF uitgekeerd en via deze
+          instantie aan de bursalen gedistribueerd. De uitkeringen aan bursalen via het
+          UAF werden door het ministerie van Onderwijs en Wetenschappen als een aparte
+          begrotingspost opgevoerd, zodat het leek alsof het UAF voor zijn werk werd
+          gesubsidieerd. Dit is echter nimmer het geval geweest. Dat gold echter niet
+          voor de Portugese deserteurs, die eveneens door het UAF werden ondersteund. Het
+          UAF moest daarom in de jaren '70 voor zijn opvang- en ondersteunings-werk
+          nauwer samenwerken met de andere vluchtelingen- en bijstandsorganisaties, die
+          echter in dat decennium ingrijpend in beweging waren. De Nederlandse Federatie
+          van Vluchtelingenhulp werd in 1972 opgeheven, mogelijk door interne problemen
+          over de Oost-Westverhoudingen. Een mede door het UAF in het leven geroepen
+          Stichting Bijstand Buitenlandse Studerenden vormde samen met de Landelijks
+          Stichting Welzijn Buitenlandse Werknemers het Nederlands Centrum Buitenlanders,
+          waarin ook vluchtelingenorganisaties een rol speelden. Toen als opvolger van de
+          Federatie in 1974 een voorstel werd gedaan tot oprichting van een stichting op
+          basis van kerkelijke hulp besloot het UAF daarmee niet in zee te gaan, maar
+          richtte het met professionele maatschappelijke organisaties als Eelease en
+          Amnesty International de Vereniging "Voor Vluchtelingen" op. Beide organisaties
+          fuseerden in 1979; de organisaties die bij de oprichting van de oorspronkelijk
+          rivaliserende instellingen waren betrokken, namen als "leden-rechtspersonen"
+          zitting in het algemeen bestuur. Deze positie heeft het UAF nog steeds. Ook
+          heeft het bemoeienis met de Stichting Vluchteling, die in 1976 werd opgericht.
+          Twee jaar later nodigde die stichting het UAF en andere bijstandsorganisaties
+          uit om in een werkgroep zitting te nemen. Hieruit ontstond een Raad van
+          Toezicht, die inzage kreeg in alle beleidsstukken van het bestuur.</html:p>
+          <html:p>Het UAF kon nu zijn rol als verstrekker van studiebeurzen (hetzij van
+          rijkswege hetzij uit eigen inzamelingen) binnen de context van de steeds
+          intensiever georganiseerde vluchtelingenopvang voortzetten. Hierin speelde zij
+          een eigen rol. Zij verstrekte niet alleen beurzen en toelagen aan erkende
+          vluchtelingen, maar - in ieder geval in de jaren '90 - ook aan asielzoekers die
+          in opvangcentra of op opvangadressen op een beschikking wachtten. Daardoor
+          hanteerde zij bij haar steun zelf geformuleerde criteria voor cliëntaanneming,
+          die konden afwijken van het toelatingsbeleid van de IND en zijn voorgangers;
+          per slot van rekening had ook een terugkerende asielzoeker iets aan een hogere
+          opleiding. Overigens waren cliënten van het UAF reeds aanvaarde cliënten van de
+          Vereniging Vluchtelingenwerk, die immers in eerste instantie moesten beoordelen
+          of het zin had een asielzoeker bij zijn aanvraag te begeleiden. De betrokken
+          personen waren in ieder geval op redelijke gronden - voorlopig - in Nederland
+          toegelaten.</html:p>
+          <html:p>Het feit dat het UAF zelf criteria toepaste voor de cliëntbepaling had
+          gevolgen voor de organisatie. Het UAF had tot 1968 een algemeen bestuur,
+          bestaande uit afgevaardigden van de toenmalige universiteiten en hogescholen,
+          uit wier midden een dagelijks bestuur werd benoemd dat zich met de inzameling
+          en uitkering van toelagen bemoeide. Na 1968 professionaliseerde de organisatie
+          zich. Het bestuur benoemde een directeur, die in zijn werk werd bijgestaan door
+          de volgende commissies: De Financiële commissie, die zich bezig hield met
+          inzamelingen, acties en de verantwoording. Men hield collectes, verkocht
+          agenda's aan eerstejaars studenten, gaf de gelegenheid aan personen en
+          instellingen om vluchtelingenstudenten te adopteren en na 1968 ook periodieke
+          schenkingen te verrichten.De Sociale commissie, die zich bezig hield met de
+          intake en aanneming van cliënten. Deze commissie moest beoordelen of de
+          aspirant-cliënt inderdaad als vluchteling kon worden aangemerkt of in zijn land
+          van herkomst door politieke oorzaken in zijn studie werd belemmerd; tevens
+          moest zij beoordelen of hij op grond van zijn vooropleiding voor de gevraagde
+          studie in aanmerking kwam. De commissie kwam regelmatig bijeen om te beslissen
+          over gevallen waarbij discussie mogelijk was (de zogen. "ruitjes"). Zie ook de
+          omschrijving in het desbetreffende lijstnummer. In bepaalde gevallen kon tegen
+          een beslissing van der sociale commissie beroep worden aangetekend bij een
+          Commissie van Beroep. Aanvankelijk beoordeelde zij ook of de studievorderingen
+          een voortzetting van de toelage rechtvaardigde, maar dit werd later overgelaten
+          aan.De begeleidingscommissie, die bovendien bemiddelde bij alle procedures, die
+          voor een normale aanvrage om studiefinanciering of plaatsing van een student in
+          een universiteit of inrichting van hoger beroepsonderwijs vereist waren.De
+          commissie Voorlichting of Pers en Publiciteit, die zich bezig hield met de
+          vormgeving van folders en de redactie van het sedert 1957 verschijnende
+          kwartaalblad Momentopname.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>De Stichting voor Vluchtelingenstudenten UAF, oorspronkelijk Universitair
+      Asylfonds geheten, werd in 1948 opgericht als particulier steunfonds voor uit
+      Tsjecho-Slowakije gevluchte studenten. Daarmee is het het oudste steunfonds voor
+      vluchtelingen in Nederland. In de loop der jaren ontwikkelde het zich tot een
+      steunfonds voor alle vluchtende studerenden. In de jaren '70 was het fonds nauw
+      betrokken geweest bij de oprichting en het bestuur van andere organisaties op het
+      gebied van vluchtelingenwerk. Ook verzamelde het via internationale contacten
+      gegevens over de situatie in de landen van herkomst. Omdat het UAF zelf voor een
+      groot deel zijn cliëntenbeleid bepaalde, bevat het ook - zij het fragmentarisch -
+      persoonlijke gegevens van vluchtelingen.Het archief beslaat de periode 1948-2001,
+      bestaat uit 485 eenheden die tesamen 24,75 meter archief vormen. De stukken
+      bevatten voornamelijk informatie betrekking hebbende op stafzaken en de directie,
+      het UAF bestuur, de Word University Service (WUS), correspondentie en publiciteit.
+      Meer specifiek bevat dit archief o.a. informatie aangaande het verstrekken van
+      beurzen, inzamelingsacties, donaties en de opvang van vluchtelingen.Een groot deel
+      van de inventaris wordt in beslag genomen door een magazijnlijst.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>In het algemeen is reproductie van originele bescheiden uit dit archief,
+      behoudens de hierboven aangehaalde openbaarheidbeperkingen en de algemene regels
+      die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Men moet
+      echter bij de reproductie van fotografisch materiaal en van teksten, geproduceerd
+      door individuele personen, rekening houden met beperkingen krachtens het
+      auteursrecht. Dit betekent dat in bepaalde gevallen reproductie slechts voor eigen
+      gebruik zonder nadere toestemming van de rechthebbende nabestaanden is
+      toegestaan.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>43.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>487 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

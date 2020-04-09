@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/b5c2b258-5449-4885-8127-75e2e738607d"
+  rdf:about="record/3.02.24">
+    <rico:identifier>3.02.24</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1928</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/32953" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.02.24/i1" />
+      <rico:instantiates rdf:resource="record/3.02.24" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130308</rico:hasModificationDate>
+        <html:p>8 maart 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Ridderschap van Holland,
+        sinds 1840 van Zuid-Holland, 1815-1850</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/b5c2b258-5449-4885-8127-75e2e738607d" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/32953">
+    <rico:describedBy rdf:resource="record/3.02.24" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>32953</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ridderschap van Holland later Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Ridderschap Holland, 1815-1850</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1815</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1850</rico:endDate>
+    <rico:date>1815-1850</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ridderschap van Holland, 1815-1840</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij art. 77 van de Grondwet van 1814 werd bepaald: er zullen zijn in de
+          provinciën of landschappen Edelen of Ridderschappen, welke instellingen
+          geregeld worden op zoodanige wijze, als door hen behoudens deze Grondwet noodig
+          geoordeeld en door den Souvereinen Vorst in gevalle van goedkeuring bekrachtigd
+          wordt.</html:p>
+          <html:p>In Holland constitueerde zich op 30 Maart 1815 het lichaam van de
+          Ridderschap, waartoe de Edelen in deze provincie door den Souvereinen Vorst op
+          17 Februari daaraan voorafgaand beschreven waren. Een Reglement voor de
+          Ridderschap werd in 1815 ontworpen en op 3 Juli 1816 door den Koning
+          vastgesteld (gewijzigd in 1843 en vastgesteld door den Koning 27 Juni
+          1844).</html:p>
+          <html:p>De corporatie is blijven voortbestaan tot de invoering van de Grondwet
+          van 1848; tengevolge van de splitsing van de provincie Holland in de provincies
+          Noord- en Zuid-Holland ingevolge de Grondwet van 1840 was sedert 1840 in het
+          Zuiden alleen de Ridderschap van Zuid-Holland meer beschreven. De liquidatie is
+          in 1850 voltooid.</html:p>
+          <html:p>Naar de bedoeling van de Grondwet van 1814 had de Ridderschap
+          voornamelijk als kiescollege voor de Edelen tot de Provinciale Staten te
+          functioneeren. Art. 12 van het Reglement van 1816 stelde uitdrukkelijk vast :
+          zij onthoudt zich van alle zaken van algemeen bestuur. Zij had verder hare
+          huishoudelijke belangen (adviezen op admissiën van nieuwe leden, ontwerpen van
+          reg1ementen enz.), maar verder voornamelijk hare particuliere belangen, nl. de
+          beheering van het :Fonds van de Ridderschap. Dit fonds was bij het Reglement
+          van 1816 ingesteld en zou strekken "voor de weduwen en dochters van Ridders,
+          alsmede voor derzelver vrouwelijke afkomelingen in verdere graden mits dragende
+          denzelfden geslachtsnaam". Volgens het Reglement van het Fonds mochten enkele
+          verdere uitgaven hieruit.gedaan worden. Het Fonds was eigendom van de
+          Ridderschap en werd bij de liquidatie door de leden verdeeld.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ridderschap van Zuid-Holland, 1840-1850</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Bij art. 77 van de Grondwet van 1814 werd bepaald: er zullen zijn in de
+          provinciën of landschappen Edelen of Ridderschappen, welke instellingen
+          geregeld worden op zoodanige wijze, als door hen behoudens deze Grondwet noodig
+          geoordeeld en door den Souvereinen Vorst in gevalle van goedkeuring bekrachtigd
+          wordt.</html:p>
+          <html:p>In Holland constitueerde zich op 30 Maart 1815 het lichaam van de
+          Ridderschap, waartoe de Edelen in deze provincie door den Souvereinen Vorst op
+          17 Februari daaraan voorafgaand beschreven waren. Een Reglement voor de
+          Ridderschap werd in 1815 ontworpen en op 3 Juli 1816 door den Koning
+          vastgesteld (gewijzigd in 1843 en vastgesteld door den Koning 27 Juni
+          1844).</html:p>
+          <html:p>De corporatie is blijven voortbestaan tot de invoering van de Grondwet
+          van 1848; tengevolge van de splitsing van de provincie Holland in de provincies
+          Noord- en Zuid-Holland ingevolge de Grondwet van 1840 was sedert 1840 in het
+          Zuiden alleen de Ridderschap van Zuid-Holland meer beschreven. De liquidatie is
+          in 1850 voltooid.</html:p>
+          <html:p>Naar de bedoeling van de Grondwet van 1814 had de Ridderschap
+          voornamelijk als kiescollege voor de Edelen tot de Provinciale Staten te
+          functioneeren. Art. 12 van het Reglement van 1816 stelde uitdrukkelijk vast :
+          zij onthoudt zich van alle zaken van algemeen bestuur. Zij had verder hare
+          huishoudelijke belangen (adviezen op admissiën van nieuwe leden, ontwerpen van
+          reg1ementen enz.), maar verder voornamelijk hare particuliere belangen, nl. de
+          beheering van het :Fonds van de Ridderschap. Dit fonds was bij het Reglement
+          van 1816 ingesteld en zou strekken "voor de weduwen en dochters van Ridders,
+          alsmede voor derzelver vrouwelijke afkomelingen in verdere graden mits dragende
+          denzelfden geslachtsnaam". Volgens het Reglement van het Fonds mochten enkele
+          verdere uitgaven hieruit.gedaan worden. Het Fonds was eigendom van de
+          Ridderschap en werd bij de liquidatie door de leden verdeeld.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het College van de Ridderschap was het eerste lid van de gewestelijke
+      Staten van Holland en bestond uit edelen c.q. bezitters van ambachtsheerlijkheden.
+      Het archief omvat voor de eerste helft van de 19e eeuw notulen (met bijlagen),
+      registers, een presentielijst, uitgaande- en ingekomen stukken met registers, enige
+      financiële stukken en een reeks gedrukte notulen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>4.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>158 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>De inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar.</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

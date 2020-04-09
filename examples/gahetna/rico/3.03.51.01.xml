@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/f7a92410-068c-4748-b240-644a01b43c35"
+  rdf:about="record/3.03.51.01">
+    <rico:identifier>3.03.51.01</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1928</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35413" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.03.51.01/i1" />
+      <rico:instantiates rdf:resource="record/3.03.51.01" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Rechtbank van Eerste Aanleg
+        te 's-Gravenhage, (1803) 1811-1838</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/f7a92410-068c-4748-b240-644a01b43c35" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35413">
+    <rico:describedBy rdf:resource="record/3.03.51.01" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35413</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rechtbank van Eerste Aanleg te 's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rechtbank Eerste Aanleg 's-Gravenhage</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1803</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1838</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1803-1838</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rechtbank van Eerste Aanleg, Den Haag</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Kort na de inlijving van ons land bij Frankrijk werd de rechterlijke
+          indeeling geregeld nl. bij Keizerlijk Decreet d.d. 18 October 1810. Bij art. 63
+          daarvan werd bepaald, dat in elk arrondissement eene rechtbank van eersten
+          aanleg zou worden opgericht, dus wat betreft het departement van de Monden van
+          de Maas in de 4 arrondissementen van 's-Gravenhage, Rotterdam, Dordrecht en
+          Flakkee. Bovendien bepaalde art. 64, dat er nog een zou worden opgericht in
+          Leiden en een in Gorinchem. Het Keizerlijk Decreet d.d. 21 October 1811 gaf
+          eene definitieve indeeling in arrondissementen en kantons, waarbij het
+          Departement der Monden van de Maas verdeeld werd in 6 arrondissementen, nl.
+          's-Gravenhage, Rotterdam, Leiden, Dordrecht, Gorinchem en Brielle.</html:p>
+          <html:p>De competentie van den rechtbank van eersten aanleg in zaken van
+          contentieuze rechtspraak werd geregeld in art. 21 e. v. van het Keizerlijk
+          Decreet d.d. 8 November 1810; deze had in eersten aanleg de berechting van alle
+          persoonlijke rechten en roerende zaken tot eene waarde van 1000 francs en van
+          zakelijke rechten tot eene waarde van 50 francs aan rente. Van deze vonnissen
+          berustte het appèl bij het Keizerlijk Gerechtshof te 's-Gravenhage, ingevolge
+          art. 103 van het Keizerlijk Decreet d.d. 18 October 1810 en sinds het jaar 1813
+          bij het Hoog Gerechtshof te 's-Gravenhage, ingevolge het Besluit van den
+          Souvereinen Vorst d.d. 11 December 1813, waarbij tevens de cassatie in civiele
+          zaken werd afgeschaft.</html:p>
+          <html:p>Ten aanzien van het appèl golden dezelfde regels ook voor de zaken van
+          koophandel, die in eersten aanleg in sommige arrondissementen door
+          afzonderlijke rechtbanken van koophandel werden berecht.</html:p>
+          <html:p>Van de vonnissen, door den vrederechter in civiele zaken gewezen, kwam
+          men in appèl bij de rechtbanken van eersten aanleg.</html:p>
+          <html:p>De crimineele rechtspraak stond in verband met de verdeeling der
+          strafbare feiten in contraventions de police, délits en crimes volgens den Code
+          Pénal.</html:p>
+          <html:p>De rechtbanken van eersten aanleg waren met de berechting in eersten
+          aanleg van de wanbedrijven (délits) belast. Van de vonnissen, gewezen over
+          laatstgenoemde feiten door de rechtbanken van eersten aanleg in
+          Holland-Zuiderkwartier en door de rechtbank van eersten aanleg te Amsterdam,
+          bestond appèl op de kamer van appèllen in zaken van correctioneele politie van
+          het Keizerlijk Gerechtshof te 's-Gravenhage (na het jaar 1813 "Hooggerechtshof"
+          genoemd).</html:p>
+          <html:p>Van de vonnissen der rechtbanken van enkele politie bestond appèl op de
+          correctioneele kamers der rechtbanken van eersten aanleg.</html:p>
+          <html:p>Volgens het Décret Impérial d.d. 21 October 1811 behoorden tot het
+          arrondissement 's-Gravenhage de volgende kantons en gemeenten:</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Rechtbank van Eerste Aanleg in Den Haag (1803-1838)
+      bevat stukken op het gebied van de correctionele-, civiele- en voluntaire
+      rechtspraak (rollen, registers, vonnissen, conclusies, minuutacten, veelal met een
+      alfabetische index op de namen van de veroordeelden, beklaagden, eisers of
+      erflaters). Daarnaast zijn er stukken van huishoudelijk aard te vinden, zoals
+      dubbelen van de répertoires van notarissen, registers van allerlei acten, inkomende
+      brieven en circulaires en stukken met betrekking tot personele zaken.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>193 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>16,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

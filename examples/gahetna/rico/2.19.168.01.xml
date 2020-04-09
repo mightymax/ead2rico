@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6eecd1f4-29a7-2a8b-e053-09f0900aaf28"
+  rdf:about="record/2.19.168.01">
+    <rico:identifier>2.19.168.01</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2006</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/I44" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.19.168.01/i1" />
+      <rico:instantiates rdf:resource="record/2.19.168.01" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20090603</rico:hasModificationDate>
+        <html:p>3 juni 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20140407</rico:hasModificationDate>
+        <html:p>7 april 2014</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Koninklijke Nederlandse
+        Zwembond, 1888-1973</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6eecd1f4-29a7-2a8b-e053-09f0900aaf28" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/I44">
+    <rico:describedBy rdf:resource="record/2.19.168.01" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>I44</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Koninklijke Nederlandse Zwembond</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Koninklijke Nederlandse Zwembond</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1888</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1973</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1888-1973</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Koninklijke Nederlandse Zwembond</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Uit afbeeldingen van Babyloniërs en Egyptenaren valt af te leiden dat
+          de oorsprong van het zwemmen moet liggen ver voor het begin van onze
+          jaartelling.</html:p>
+          <html:p>De Romeinse geschiedschrijver Tacitus vertelt dat de Germanen eveneens
+          de zwemkunst machtig waren bij hun oorlogsvoering. In de Middeleeuwen behoorde
+          het kunnen zwemmen tot de ridderlijke vaardigheden.</html:p>
+          <html:p>Napoleon was degene, die er voor zorgde dat zijn soldaten niet alleen
+          "geoefend ten velde" waren, maar ook het hoofd boven water konden
+          houden.</html:p>
+          <html:p>Er waren in de 19e eeuw nog andere faktoren die bijdroegen ter
+          stimulering van het zwemmen. Dit waren ondermeer de ontwikkelingen op het
+          gebied van de lichamelijke opvoeding (Gutsmutz en Gaulhofer) en op politiek en
+          maatschappelijk gebied de opkomst van het socialisme en liberalisme.</html:p>
+          <html:p>De sport, vroeger voor de gegoeden in de samenleving, werd nu
+          bereikbaar voor het gewone volk.</html:p>
+          <html:p>In Nederland waren al in 1846 aktiviteiten op zwemgebied.</html:p>
+          <html:p>Zo werd in Amsterdam de eerste openbare zwemgelegenheid geopend. In Den
+          Haag gebeurde dat in 1883. Overigens was de zwembond niet de eerste
+          overkoepelende organisatie die zich bezig hield met aktiviteiten in en op het
+          water.</html:p>
+          <html:p>De roei- en zeilverenigingen richtten al rond 1850 een overkoepelende
+          organisatie op maar deze kregen pas op het eind van de 19e eeuw
+          levensvatbaarheid.</html:p>
+          <html:p>In 1888 nam de Amsterdamse Zwemclub het initiatief tot het oprichten
+          van een zwembond met als doelstelling "de beoefening van de zwemkunst in
+          Nederland algemeen te maken".</html:p>
+          <html:p>De toen bestaande verenigingen in Nederland sloten zich bij het
+          overkoepelende orgaan, de N.Z.B., aan.</html:p>
+          <html:p>Ontwikkeling op sport- en kunstgebied droegen bij tot het verder
+          groeien van de zwembond.</html:p>
+          <html:p>Op sportgebied was dit de popularisering van het waterpolospel en op
+          het gebied van het zwemmen de verandering van techniek in de
+          zwemslagen.</html:p>
+          <html:p>De aktiviteiten van de propagandacommissie en de commissie
+          zwemonderwijs, leverden eveneens een belangrijke bijdrage.</html:p>
+          <html:p>Zo introduceerde de commissie zwemonderwijs in 1892/93 om de kwaliteit
+          van de oefenmeesters te verhogen, het diploma "Zwemmeester le klasse" en had de
+          propaganda commissie tot taak de Nederlanders te motiveren om te gaan
+          zwemmen.</html:p>
+          <html:p>De eerste wereldoorlog (1914-1918) leidde ertoe, dat onder invloed van
+          vluchtelingen (Belgen en Britten), het waterpolo zeer sterk tot ontwikkeling
+          kwam, met als gevolg dat het aantal verenigingen sterk toenam.</html:p>
+          <html:p>Er ontstonden plaatselijke en gewestelijke zwembonden, die na de
+          reorganisatie van 1929 omgevormd werden tot "kringen" met zelfstandige
+          bevoegdheden.</html:p>
+          <html:p>In 1929 vond de eerste belangrijke reorganisatie plaats.</html:p>
+          <html:p>De aanleiding voor deze eerste reorganisatie waren diepgaande
+          meningsverschillen.</html:p>
+          <html:p>Deze betroffen in het bestuur bestaande tegengestelde meningen ten
+          aanzien van de taakvervulling van de bond: Behoorde de zwembond uitsluitend een
+          sportbond te zijn of een bond die ervoor stond om de zwemkunst in Nederland
+          algemeen te maken?</html:p>
+          <html:p>Was de organisatie vóór 1929 vooral centralistisch opgezet, na de
+          reorganisatie werd de nadruk van de struktuur vooral gelegd op
+          decentralisatie.</html:p>
+          <html:p>De zwembond kreeg als overkoepelend orgaan de belangrijke taken, zoals
+          de organisatie van het zwemonderwijs en de propaganda hiervan.</html:p>
+          <html:p>De verenigingen kregen nu als voornaamste taak het organiseren van
+          wedstrijden en de kringen het maken van propaganda en het medewerken aan het
+          oprichten van zwemgelegenheden en nieuwe verenigingen.</html:p>
+          <html:p>De hoofdleiding van de N.Z.B. lag bij het Bondsbestuur, bijgestaan door
+          commissies met overkoepelende, controlerende bevoegdheden.</html:p>
+          <html:p>Op 13 november 1933, kreeg de bond het predikaat "Koninklijk"
+          toegekend.</html:p>
+          <html:p>In juni 1935 kwam de aansluiting met de Nederlands-Indische Zwembond
+          tot stand. Een fusie, waarbij de N.I.Z.B. na de tweede wereldoorlog een grote
+          bloei kende door de aanwezigheid van Nederlandse militairen in Indië. In 1949
+          werd de N.I.Z.B. na de onafhankelijkheid van Indië opgeheven.</html:p>
+          <html:p>Zoals in de jaren twintig het idee van "Iedere Nederlander een zwemmer"
+          werd geïntroduceerd, werd tijdens de viering van het 50-jarig jubileum de start
+          gegeven aan de campagne ter bevordering van het "schoolzwemmen".</html:p>
+          <html:p>De aktiviteiten van de "Sportbonden" en de opkomst van binnenbaden
+          voorzien van chloorwater waren factoren die zowel het schoolzwemmen als de
+          wedstrijdsport bevorderden.</html:p>
+          <html:p>De groei van de zwembond eind jaren dertig was vooral te danken aan een
+          nieuwe ontwikkeling in de zwemsport, het schoonspringen en de suksessen op
+          sportgebied tijdens de Olympiade van Berlijn.</html:p>
+          <html:p>Zoals ook op andere sportorganisaties, had de Duitse bezetting invloed
+          op de organisatie van de zwembond.</html:p>
+          <html:p>Volgens de militaire autoriteiten diende er slechts één
+          sportorganisatie zich bezit te houden met de leiding van de zwemmerij.</html:p>
+          <html:p>Zo waren er in die tijd drie bonden die zich bezighielden met
+          zwemaangelegenheden: de Nederland Bond tot het Redden van Drenkelingen
+          (N.B.R.D.), de Arbeiderssportbond en de Zwembond door de Secretaris-Generaal
+          van het Departement van Opvoeding gedwongen besprekingen te voeren om één
+          organisatie te gaan vormen.</html:p>
+          <html:p>Het resultaat was, dat de N.B.R.D. en de KNZB fuseerden tot één
+          Nederlandse Zwem- en Reddingsbond. De Arbeiderssportbond werd toen
+          opgeheven.</html:p>
+          <html:p>Na de bevrijding werd deze fusie ontbonden en konden de KNZB en de
+          N.B.R.D. weer zelfstandig bestaan. Toch werden na de oorlog pogingen ondernomen
+          om tot samenwerking te komen.</html:p>
+          <html:p>Aangezien beide organisaties verschillende belangen behartigden, is
+          deze samenwerking mislukt.</html:p>
+          <html:p>Na de oorlog werd de zwembond professioneler door de ingebruikname van
+          het bondsbureau in 1940, waardoor administratieve ondersteuning kon worden
+          verleend door betaalde krachten.</html:p>
+          <html:p>Europa na de oorlog kenschetste zich door een streven naar samenwerking
+          op politiek, sociaal en cultured niveau.</html:p>
+          <html:p>De culturele ontwikkeling manifesteerde zich voor de zwembond door zich
+          aan te sluiten bij de Europese Zwembond waardoor deelname aan vele evenementen
+          mogelijk werd.</html:p>
+          <html:p>Tijdens de reorganisatie van 1954 werden onder andere de bondsraad en
+          districtsraden ingesteld.</html:p>
+          <html:p>In 1955 kreeg de zwembond voor het eerst overheidssubsidie met als
+          voordeel dat nog meer aktiviteiten gerealiseerd zouden kunnen gaan worden maar
+          met als nadeel controlerende bevoegdheden door de overheid op het fuktioneren
+          van de organisatie.</html:p>
+          <html:p>In de jaren zestig kwam in de samenleving de mechanisatie en
+          automatisering op gang. Een ontwikkeling waarin de toename van de vrije tijd en
+          stijging van de werkloosheid de belangrijkste problemen zouden gaan
+          worden.</html:p>
+          <html:p>Tijdens de reorganisatie van 1968 kwam de recreatieve-elementaire
+          zwemsektor tot stand. Een nieuwe tak van het zwemmen in Nederland waarin
+          rekening kon worden gehouden met de toekomst.</html:p>
+          <html:p>Lijst van voorzitters 1888-1973D.Vrijdag, 1888-1897 P.J.Appel,
+          1897-1900 W.E.Bredius W.Ezn. 1900-1929 C.F.Kellenbach, 1929-1935 J.de Vries,
+          1935-1968 Mr.J.W.v.d.Krol, 1968-</html:p>
+          <html:p>Lijst van secretarissen 1888-1973W.Westerman, 1888-1892 W.E.Bredius
+          W.Ezn., 1892-1900 L.Bouman, 1900-1920 K.H.v.Schagen, 1920-1923 G.J.J.v.d.Stadt,
+          1923-1924 C.Minnes Jr., 1924-1929 A.W.Sabel, Tzn., 1929-1934 C.Altink,
+          1934-1947 Mevrouw F.L.A.Suttorp-van de Berg, 1947-1957 S.Bolman, 1957-1962
+          K.Athoni, 1962-</html:p>
+          <html:p>Voor de geschiedenis van de zwembond mogen de verwijzingen volstaan
+          naar:</html:p>
+          <html:p>Schagen, Dr.K.H.van; Historisch overzicht van de Lichamelijke Opvoeding
+          (deel I).</html:p>
+          <html:p>De gedenkboeken:</html:p>
+          <html:p>"Driekwart eeuw zwemmen", A.Z. 1870. Hollandse Dames Zwemclub,
+          1886-1926. Goudse Zwemclub, 1886-1961. Leidsche Zwemclub 1886-1926. KNZB
+          1888-1963. "De Zwemkroniek", 1888-1938.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Koninklijke Nederlandse Zwembond (1888-1973) bevat onder
+      meer notulen, jaarboekjes, stukken in verband met de oprichting van de bond, sport-
+      en wedstrijdreglementen voor zwemmen, waterpolo, schoonspringen en kunstzwemmen,
+      affiches van zwemwedstrijden, verslagen van internationale wedstrijden en deelname
+      aan de Olympische Spelen, overzichten van records en uitspraken inzake
+      wedstrijdgeschillen, maar ook rapporten over de instelling van het schoolzwemmen en
+      richtlijnen voor zweminstructeurs.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Ontheffing openbaarheid door
+      schriftelijke machtiging van bewaringgever.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>382 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>11,59 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

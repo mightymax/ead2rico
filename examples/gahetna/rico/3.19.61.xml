@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/6e82ff0d-abbc-4a8f-bdb6-2e22a4f94e5c"
+  rdf:about="record/3.19.61">
+    <rico:identifier>3.19.61</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1954</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/35104" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.19.61/i1" />
+      <rico:instantiates rdf:resource="record/3.19.61" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20110824</rico:hasModificationDate>
+        <html:p>24 augustus 2011</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130102</rico:hasModificationDate>
+        <html:p>2 januari 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Huis
+        Reigersbergen</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/6e82ff0d-abbc-4a8f-bdb6-2e22a4f94e5c" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/35104">
+    <rico:describedBy rdf:resource="record/3.19.61" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>35104</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Huis Reigersbergen</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Huis Reigersbergen</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1406</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1938</rico:endDate>
+    <rico:date>1406-1938</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Reigersbergen, Het Huis</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jochems, Barend Cornelis</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Jochems, Hendrik</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Reede van Oudtshoorn-Brommertz, Barones Wilhelmina Elisabeth
+            van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Schaetzen, Familie</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Laan, Anna van der</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hoey, Cornelia Jenetta van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Lans, Helena van der</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Op een van de schoonste plekjes van het Hollandse polderlandschap, aan
+          weerszijden begrensd door de eeuwenoude bossen van het grafelijke domein van
+          het Hout in den Hage en van de Baronie van Wassenaar, bevinden zich de gronden,
+          waarop eertijds de buitenplaats, bekend onder de naam Reigersbergen, gelegen
+          was.</html:p>
+          <html:p>De veenlanden en de hofstede Reigersbergen zijn oorspronkelijk door de
+          grafelijkheid van Holland aan een zekere Ysbrant in leen gegeven Algemeen
+          Rijksarchief, Leenkamerregister no.52, folio 400, d.d.7 November 1400;
+          Leenkamerregister no.53, folio 23, d.d. 7 Maart 1402; Leenkamerregister no.62,
+          folio 2, d.d.5 Januari 1421. Eerst in laatstgenoemde akte wordt gesproken van
+          een huis op deze gronden. Zie ook C.M. Cremers, Reigersbergen en zijn bewoners.
+          en waren vervolgens een bezitting van de leden van het geslacht van Assendelft,
+          die tevens een groot huis in het Westeinde bewoonden en begraven zijn in de
+          kapel van Assendelft in de Grote Kerk, en van het daarmede geparenteerde
+          geslacht van Renesse. Reigersbergen is vervolgens in 1663 overgegaan in het
+          bezit van de welgestelde boerenfamilies van der Hooch en van Raephorst, die
+          ieder voor de helft eigenaren waren, waarna kort daarop in 1671 de familie van
+          Raephorst door aankoop de enige eigenaar is geworden. Reeds toen strekte det
+          eigendom zich uit over vele morgen land, gedeeltelijk in Wassenaar en
+          gedeeltelijk in 's-Gravenhage, liggende aan de Leidse straatweg, aan de
+          Bezuidenhoutse weg, in de Veenpolder, ja zelfs tot in Veur toe. De gronden ten
+          Westen van de Bezuidenhoutse weg, waar het huis en de tuin waren gelegen,
+          behoorden tot 1907 tot de heerlijkheid en de latere gemeente Wassenaar;
+          derhalve zijn de eigendomsbewijzen dezer onroerende goederen gepasseerd voor
+          baljuw, schout en schepenen van Wassenaar en Zuidwijk. In 1907 Wet van 16 Juli
+          1907, tot wijziging van de grens tussen de gemeente 's-Gravenhage en de
+          gemeenten Voorburg en Wassenaar (Staatsblad no.213). De overgang van
+          grondgebied heeft plaats gehad op 1 Augustus 1907. heeft de gemeente
+          's-Gravenhage deze gronden evenals die van Marlot geannexeerd. De Veenpolder
+          echter, welke ten Oosten van de Bezuidenhoutse weg ligt, heeft tot de
+          Zijdwetering en de Schenkwetering steeds tot Haagambacht behoord. Van een
+          verband tussen de naam der bezitting der bezitting Reigersbergen met de
+          geslachtsnamen (Anna) van Reigersberg of van Reigersberg Versluys is niets
+          gebleken. Waarschijnlijk is, evenals dit op vele andere buitenplaatsen
+          voorkwam, in het geboomte een reigerkolonie gevestigd geweest, welk treffende
+          feit vervolgens in de volksmond of bij de bewoners deze eigennaam heeft doen
+          ontstaan.</html:p>
+          <html:p>In 1739 is Reigersbergen bij boedelscheiding in bezit gekomen der met
+          de familie van Raephorst verwante familie van der Lubbe. Pieter van der Lubbe
+          heeft in het jaar 1802 Reigersbergen verkocht aan Joachim Jochems, bankier te
+          's-Gravenhage.</html:p>
+          <html:p>De familie Jochems heeft het als huismans- of boerenwoning gekochte
+          huis Reigersbergen laten verbouwen en uitbreiden tot de grootse buitenplaats
+          Reigersbergen, zoals deze met zijn lommerrijke park en waterpartij door de
+          wandelaars van het Haagse Bos algemeen gekend en bewonderd werd en met de
+          naburige buitenplaatsen Duindigt en Clingendaal zoveel tot de aantrekkelijkheid
+          van 's-Gravenhage en Wassenaar heeft bijgedragen.</html:p>
+          <html:p>Helaas is de rol van de buitenplaats Reigersbergen voorlopig
+          uitgespeeld en is dit alles slechts herinnering gebleven. In de ook voor het
+          stads- en landschapsschoon van de Residentie zo noodlottige oorlogsjaren
+          1940-1945 heeft Reigersbergen de zwaarst denkbare tol aan de vijand betaald; de
+          villa en het park zijn door de vijand met de grond gelijk gemaakt teneinde een
+          overzichtelijk en met een brede tankgracht en grauwe bunkers versterkt
+          verdedigingsgebied te creëren voor de egelstelling Scheveningen-Clingendaal, in
+          welke laatste villa het de landvoogd van de "Führer" behaagde te verblijven.
+          Reigersbergen heeft dit onzalig lot gedeeld met het grootste gedeelte van het
+          befaamde Haagse Bos en het gehele park en de bijgebouwen van het Koninklijke
+          Paleis "Huis ten Bosch", waar tijdens de laatste stuiptrekkingen van het derde
+          rijk de vergeldingswapenen hun verderf over het met ons verbonden Engeland
+          lieten losbranden. Noch de respectievelijke bouwers en verbouwers, noch de vele
+          generaties elkaar opvolgende bewoners hebben ooit in de verste verte overpeinsd
+          deze vredige lusthoven ook maar enigszins de rol te doen vervullen van de vele
+          in ons land verrezen forten, stinsen en kastelen. Toch heeft abrupt en absoluut
+          ook voor deze landgoederen door een totale oorlog de laatste functie in hun
+          eeuwenlange geschiedenis een militaire moeten zijn.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de hofstede en later buitenplaats Reigersbergen bevat
+      stukken betreffende het geslacht Jochems en aanverwante geslachten. Verder stukken
+      betreffende onroerende goederen en landerijen gelegen te Wassenaar, 's-Gravenhage
+      en elders gelegen onroerende goederen o.a. in Voorburg, Beierland en
+      Voorschoten.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.30 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>105 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

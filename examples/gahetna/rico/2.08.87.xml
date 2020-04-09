@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/693c36f5-b95f-4bad-a09a-a3607ea2b95b"
+  rdf:about="record/2.08.87">
+    <rico:identifier>2.08.87</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2008</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/F26" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.08.87/i1" />
+      <rico:instantiates rdf:resource="record/2.08.87" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Directie van de Grootboeken
+        der Nationale Schuld, (1799) 1814-1953</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/693c36f5-b95f-4bad-a09a-a3607ea2b95b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/F26">
+    <rico:describedBy rdf:resource="record/2.08.87" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>F26</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Financiën: Directie van de Grootboeken van de
+      Nationale Schuld</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Financiën / Grootboeken Nat. Schuld</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1799</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1953</rico:endDate>
+    <rico:date>1799-1953</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>De Directie van de Grootboeken der Nationale Schuld/ Ministerie
+            van Financiën, 1841-1953</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Aan het einde van de 18e eeuw hadden de Nederlandse gewesten en de
+          Generaliteitslanden een enorme schuldenlast opgebouwd. Deze schulden waren ten
+          tijde van de Republiek der Verenigde Nederlanden vooral ontstaan door de kosten
+          van oorlogvoering en de daaruit voortkomende rentelasten. Door de vierde
+          Engelse oorlog (1780-1784) liep de schuldenlast van de Republiek van 41,5 op
+          tot 360 miljoen gulden. Op het moment van de Bataafse omwenteling in 1795
+          bedroeg de schuld van de gewesten en Generaliteitslanden ruim een miljard
+          gulden, waarbij het gewest Holland het grootste aandeel in deze last had. De
+          voorwaarden van het Haagse vredesverdrag van 16 mei 1795 tussen de Bataafse
+          Republiek en Frankrijk hielden een nieuwe verzwaring van de financiële lasten
+          in. Rentebetaling kon door gebrek aan financiële armslag nog slechts bij
+          uitzondering plaatsvinden.</html:p>
+          <html:p>Gegeven de omvang van de financiële problematiek was een reorganisatie
+          van de openbare financiën geboden. Bij artikel 201 van de Staatsregeling
+          (Grondwet) van 1 mei 1798 werden de publieke schulden nationaal verklaard.
+          Volgens artikel 202 van de Staatsregeling moesten de van de schulden afgegeven
+          rentebrieven, obligaties, ontvangstbewijzen en andere aktes van verbintenis
+          worden ingewisseld door nationale schuldbrieven. Deze omzetting kwam niet tot
+          stand vóór 1814. Ook andere artikelen konden niet binnen afzienbare tijd
+          gerealiseerd worden, zoals het vaststellen van een eenparige rentevoet voor
+          alle leningen, het instellen van een amortisatiekas en de verplichting om een
+          jaarlijkse begroting op te stellen.</html:p>
+          <html:p>Om een einde te maken aan de ontstane verwarde financiële toestand werd
+          op 27 januari 1809 bij wet de oprichting van het Grootboek der Publieke Schuld
+          bevolen. In dit register moesten alle schulden worden ingeschreven. Alle
+          voorhanden zijnde rentebrieven, obligaties en andere terzake afgegeven
+          bewijsstukken werden hierbij ingetrokken. De rekening in het Grootboek zou als
+          enig schuldbewijs gaan gelden. Alle schulden werden ingeschreven in negentien
+          grootboeken, waarbij verschillen in rente werden gehandhaafd. Door de inlijving
+          bij Frankrijk, de financiële aderlatingen door Napoleon en de tiërcering van de
+          rente lukte het niet het Grootboek te voltooien voor 1814.</html:p>
+          <html:p>In 1813 bedroeg de staatsschuld circa 1250 miljoen gulden. Dit was het
+          voornaamste financiële probleem van de regering van Willem I (1813-1840). Om
+          orde op zaken te stellen werd op 14 mei 1814 de “Wet tot herstel der Nationale
+          Schuld en tot vinding der fondsen benodigd voor stijving van 's lands kas”
+          aangenomen. Hierin werd ondermeer vastgesteld dat de variërende rentes van de
+          schulden zouden worden vervangen door één rente van 2,5 procent.</html:p>
+          <html:p>Door nieuwe geldleningen bleven de schulden tot de veertiger jaren van
+          de 19e eeuw toenemen. Vanaf dat moment werd een aanvang gemaakt met het
+          krachtig saneren van de overheidsfinanciën. Hierdoor en door een verbeterde
+          conjunctuur en de Indische Baten nam de staatsschuld in de periode 1845-1875
+          af. In de loop der tijd werden wijzigingen aangebracht in het beheer en de
+          administratieve rompslomp van de grootboeken. Deze regelingen werden in 1913
+          vervangen door de Grootboekwet en het Grootboekbesluit. Dit gebeurde ter
+          vereenvoudiging en ten behoeve van de rechtszekerheid van de geldschieters. De
+          voornaamste methode van schuldvermindering werd amortisatie (inkoop door de
+          staat), er werd geen nieuwe schuld aangegaan en op de ingeschreven kapitalen
+          zou geen aflossing plaatsvinden. Nieuw aangegane schulden, daterend na 1913,
+          behoren in de eigenlijke zin des woords niet tot de Grootboeken van de
+          Nationale Schuld aangezien deze ook niet onder de Grootboekwet vallen. Het
+          bijhouden van de grootboeken viel onder het opperbeheer van het ministerie van
+          Financiën en werd uitgevoerd door het Agentschap van dit ministerie te
+          Amsterdam.</html:p>
+          <html:p>Met het bijhouden van de administratie van de Grootboeken werd bij
+          Souverein Besluit van 23 februari 1814 een college van zeven commissarissen
+          belast. Aanvankelijk ressorteerden zij onder de directeur-generaal der Centrale
+          Kas en van de Nationale Schuld, later rechtstreeks onder de minister van
+          Financiën. Bij Koninklijk Besluit van 2 december 1858, nr. 57, werd dit college
+          vervangen door een directeur. Vanaf dat moment is de functie van directeur
+          vrijwel constant uitgeoefend door de Agent van het ministerie van Financiën.
+          Ingevolge de Wet administratie Grootboekschuld van 4 oktober 1995, Stbl. 497,
+          die op 1 april 1996 in werking trad, dienden de rechthebbenden op de nog
+          resterende inschrijvingen in de Grootboeken gedurende een overgangsperiode van
+          tien jaar deze te laten overzetten in een schuldregisterinschrijving op naam of
+          in schuldbewijzen aan toonder waarbij de rente niet meer hoefde te worden
+          aangevraagd maar voortaan rechtstreeks werd betaald. De kapitalen van na tien
+          jaar nog niet aangemelde inschrijvingen vervielen aan de Staat. De Grootboekwet
+          van 1913 werd ingetrokken.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Dit archief betreft de neerslag van het Ministerie van Financiën aangaande
+      het houden van de grootboeken en de daaruit voortvloeiende werkzaamheden.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>13.00 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>171 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

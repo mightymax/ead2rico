@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/1f6b60eb-4f1d-4007-adf7-2921f36e529e"
+  rdf:about="record/2.16.80">
+    <rico:identifier>2.16.80</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1997</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/W26538" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.16.80/i1" />
+      <rico:instantiates rdf:resource="record/2.16.80" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Rijksstudiedienst voor de
+        Luchtvaart, 1918-1937</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/1f6b60eb-4f1d-4007-adf7-2921f36e529e" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Het archief bevat enkele foto's en tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/W26538">
+    <rico:describedBy rdf:resource="record/2.16.80" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>W26538</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rijksstudiedienst voor de Luchtvaart</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rijksstudiedienst Luchtvaart</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1918</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1937</rico:endDate>
+    <rico:date>1918-1937</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksstudiedienst voor de Luchtvaart 1918-1937</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Nadat tijdens de Eerste Wereldoorlog het belang van de militaire
+          luchtvaart duidelijk was aangetoond, begon de Nederlandse regering eind 1917
+          met de uitvoering van haar voornemen om de militaire vliegdienst uit te
+          breiden. Er werden omvangrijke bestellingen geplaatst bij de Nederlandse en
+          Zweedse vliegtuigindustrie.</html:p>
+          <html:p>Gesteund door de regering ging een tweetal fabrieken, de
+          automobiel-fabriek Spijker (Trompenburg) in Amsterdam en de weegschalenfabriek
+          Van Berkel in Rotterdam, zich toeleggen op de bouw van vliegtuigen en
+          vliegtuigmotoren.</html:p>
+          <html:p>Door onvoldoende ervaring en door gebrekkig contact met buitenlandse
+          deskundigen kwam de Nederlandse vliegtuigindustrie al snel voor grote problemen
+          te staan. Ook de vliegtuiggebruikers, de departementen van Oorlog en van
+          Marine, kampten met moeilijkheden bij het opstellen van specificaties voor de
+          door hen aan te schaffen vliegtuigen. Dit gemis aan technisch-wetenschappelijke
+          hulp leidde ertoe dat prof. dr. L.A. van Royen, voorzitter van het
+          Munitiebureau van het departement van Oorlog, op 17 november 1917 bij de
+          ministers van Oorlog, van Marine en van Koloniën het voorstel indiende om over
+          te gaan tot het instellen van een Studiedienst voor de Luchtvaart.</html:p>
+          <html:p>Na goedkeuring van dit voorstel door de betrokken bewindslieden werd
+          dr. ir. E.B. Wolff met ingang van 15 april 1918, bij koninklijk besluit van 8
+          mei 1918, nr. 36 benoemd tot directeur van de studie-afdeling van de
+          Luchtvaartdienst, later Rijksstudiedienst voor de Luchtvaart (RSL)
+          genaamd.</html:p>
+          <html:p>De RSL ging, gezien de bestaande situatie, onder het Munitiebureau
+          ressorteren. De dienst werd gehuisvest in de Oude Zaagmolen op de Marinewerf
+          Kattenburg te Amsterdam, die na verbouwing op 5 april 1919 officieel in gebruik
+          kon worden genomen.</html:p>
+          <html:p>Na de Eerste Wereldoorlog raakte de militaire luchtvaart echter wat op
+          de achtergrond, maar groeide de interesse voor het personenvervoer door de
+          lucht. De vliegtuigconstructeurs Fokker en Koolhoven gingen zich toeleggen op
+          de bouw van vliegtuigen voor de burgerluchtvaart.</html:p>
+          <html:p>Door de groei van de burgerluchtvaart werd op 7 oktober 1919 onder
+          leiding van dr. A. Ples-man de KLM opgericht.</html:p>
+          <html:p>Bovendien had de groei tot gevolg dat van staatswege toezicht gehouden
+          moest worden op de luchtwaardigheid van het vliegend materieel.</html:p>
+          <html:p>De RSL die tot dan ressorteerde onder het departement van Oorlog werd,
+          gezien de bredere belangen dan de militaire luchtvaart, in 1920 als
+          afzonderlijke dienst bij het departement van Waterstaat ingedeeld. Bij
+          koninklijk besluit van 16 februari 1920, nr. 67 werd een reglement vastgesteld,
+          waarin de werkzaamheden van de RSL werden beschreven.Deze bestonden
+          uit:</html:p>
+          <html:p>De uitreiking van de luchtwaardigheidsbewijzen geschiedde na gunstig
+          advies van de RSL door het bureau Luchtvaart van het departement van
+          Waterstaat.</html:p>
+          <html:p>Naarmate de luchtvaart zich uitbreidde, namen, behalve de werkzaamheden
+          voor het departement van Waterstaat ook de onderzoekingen voor andere
+          departementen, de vliegtuig-industrie en particuliere instellingen in sterke
+          mate toe. Het werd daardoor wenselijk dat deze instellingen medezeggenschap
+          zouden krijgen bij het vaststellen van het algemeen beleid en van de richting
+          waarin het technisch-wetenschappelijk onderzoek zich zou moeten
+          bewegen.</html:p>
+          <html:p>Bovendien zouden de belanghebbenden ook moeten bijdragen in de kosten
+          daarvan.</html:p>
+          <html:p>Men vond het onjuist dat een instantie, die enerzijds onderzoekingen in
+          opdracht van vliegtuigfabrikanten uitvoerde, anderzijds de keuring van
+          luchtvaartmaterieel verrichtte.</html:p>
+          <html:p>De RSL zou ontlast worden van de keurings- en controlewerkzaamheden,
+          zodat er meer tijd beschikbaar zou komen voor wetenschappelijk
+          onderzoek.</html:p>
+          <html:p>In 1937 werden zodoende de keuring en controle van luchtvaartmaterieel
+          opgedragen aan de Luchtvaartdienst (voorheen bureau Luchtvaart) en de RSL werd
+          omgezet in de Stichting Nationaal Luchtvaartlaboratorium (NLL).</html:p>
+          <html:p>De leiding bleef in handen van dr. ir. E.B. Wolff.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Nadat tijdens de Eerste Wereldoorlog het belang van de militaire
+          luchtvaart duidelijk was aangetoond, begon de Nederlandse regering eind 1917
+          met de uitvoering van haar voornemen om de militaire vliegdienst uit te
+          breiden. Er werden omvangrijke bestellingen geplaatst bij de Nederlandse en
+          Zweedse vliegtuigindustrie.</html:p>
+          <html:p>Gesteund door de regering ging een tweetal fabrieken, de
+          automobiel-fabriek Spijker (Trompenburg) in Amsterdam en de weegschalenfabriek
+          Van Berkel in Rotterdam, zich toeleggen op de bouw van vliegtuigen en
+          vliegtuigmotoren.</html:p>
+          <html:p>Door onvoldoende ervaring en door gebrekkig contact met buitenlandse
+          deskundigen kwam de Nederlandse vliegtuigindustrie al snel voor grote problemen
+          te staan. Ook de vliegtuiggebruikers, de departementen van Oorlog en van
+          Marine, kampten met moeilijkheden bij het opstellen van specificaties voor de
+          door hen aan te schaffen vliegtuigen. Dit gemis aan technisch-wetenschappelijke
+          hulp leidde ertoe dat prof. dr. L.A. van Royen, voorzitter van het
+          Munitiebureau van het departement van Oorlog, op 17 november 1917 bij de
+          ministers van Oorlog, van Marine en van Koloniën het voorstel indiende om over
+          te gaan tot het instellen van een Studiedienst voor de Luchtvaart.</html:p>
+          <html:p>Na goedkeuring van dit voorstel door de betrokken bewindslieden werd
+          dr. ir. E.B. Wolff met ingang van 15 april 1918, bij koninklijk besluit van 8
+          mei 1918, nr. 36 benoemd tot directeur van de studie-afdeling van de
+          Luchtvaartdienst, later Rijksstudiedienst voor de Luchtvaart (RSL)
+          genaamd.</html:p>
+          <html:p>De RSL ging, gezien de bestaande situatie, onder het Munitiebureau
+          ressorteren. De dienst werd gehuisvest in de Oude Zaagmolen op de Marinewerf
+          Kattenburg te Amsterdam, die na verbouwing op 5 april 1919 officieel in gebruik
+          kon worden genomen.</html:p>
+          <html:p>Na de Eerste Wereldoorlog raakte de militaire luchtvaart echter wat op
+          de achtergrond, maar groeide de interesse voor het personenvervoer door de
+          lucht. De vliegtuigconstructeurs Fokker en Koolhoven gingen zich toeleggen op
+          de bouw van vliegtuigen voor de burgerluchtvaart.</html:p>
+          <html:p>Door de groei van de burgerluchtvaart werd op 7 oktober 1919 onder
+          leiding van dr. A. Ples-man de KLM opgericht.</html:p>
+          <html:p>Bovendien had de groei tot gevolg dat van staatswege toezicht gehouden
+          moest worden op de luchtwaardigheid van het vliegend materieel.</html:p>
+          <html:p>De RSL die tot dan ressorteerde onder het departement van Oorlog werd,
+          gezien de bredere belangen dan de militaire luchtvaart, in 1920 als
+          afzonderlijke dienst bij het departement van Waterstaat ingedeeld. Bij
+          koninklijk besluit van 16 februari 1920, nr. 67 werd een reglement vastgesteld,
+          waarin de werkzaamheden van de RSL werden beschreven.Deze bestonden
+          uit:</html:p>
+          <html:p>De uitreiking van de luchtwaardigheidsbewijzen geschiedde na gunstig
+          advies van de RSL door het bureau Luchtvaart van het departement van
+          Waterstaat.</html:p>
+          <html:p>Naarmate de luchtvaart zich uitbreidde, namen, behalve de werkzaamheden
+          voor het departement van Waterstaat ook de onderzoekingen voor andere
+          departementen, de vliegtuig-industrie en particuliere instellingen in sterke
+          mate toe. Het werd daardoor wenselijk dat deze instellingen medezeggenschap
+          zouden krijgen bij het vaststellen van het algemeen beleid en van de richting
+          waarin het technisch-wetenschappelijk onderzoek zich zou moeten
+          bewegen.</html:p>
+          <html:p>Bovendien zouden de belanghebbenden ook moeten bijdragen in de kosten
+          daarvan.</html:p>
+          <html:p>Men vond het onjuist dat een instantie, die enerzijds onderzoekingen in
+          opdracht van vliegtuigfabrikanten uitvoerde, anderzijds de keuring van
+          luchtvaartmaterieel verrichtte.</html:p>
+          <html:p>De RSL zou ontlast worden van de keurings- en controlewerkzaamheden,
+          zodat er meer tijd beschikbaar zou komen voor wetenschappelijk
+          onderzoek.</html:p>
+          <html:p>In 1937 werden zodoende de keuring en controle van luchtvaartmaterieel
+          opgedragen aan de Luchtvaartdienst (voorheen bureau Luchtvaart) en de RSL werd
+          omgezet in de Stichting Nationaal Luchtvaartlaboratorium (NLL).</html:p>
+          <html:p>De leiding bleef in handen van dr. ir. E.B. Wolff.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de Rijksstudiedienst voor de Luchtvaart bevat
+      archiefbescheiden betreffende het beproeven van verschillende soorten vliegtuigen
+      en vliegtuigonderdelen, motoren en diverse materialen. Tevens zijn er stukken
+      betreffende het advies over de aanschaf van vliegtuigen, de voorschriften,
+      regelgeving en het toezicht houden bij de bouw van vliegtuigen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>13.25 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>258 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

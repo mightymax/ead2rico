@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6ef97bb8-ea54-1b4d-e053-09f0900a0e76"
+  rdf:about="record/3.05.10">
+    <rico:identifier>3.05.10</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3356" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.05.10/i1" />
+      <rico:instantiates rdf:resource="record/3.05.10" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20081010</rico:hasModificationDate>
+        <html:p>10 oktober 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20091028</rico:hasModificationDate>
+        <html:p>28 oktober 2009</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van de archieven van de Strafinstellingen te
+        Rotterdam, (1814) 1839-1975 (1985)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6ef97bb8-ea54-1b4d-e053-09f0900a0e76" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Het archief bevat een aantal tekeningen.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3356">
+    <rico:describedBy rdf:resource="record/3.05.10" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3356</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Strafinstellingen te Rotterdam</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Strafinstellingen Rotterdam</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1814</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1985</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1814-1985</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Cipier van het Huis van Arrest te Rotterdam1814-1886 Cipier van
+            het Provisioneel Huis van Correctie te Rotterdam1824-1833 Cipier van het
+            Tucht- en Werkhuis te Rotterdam1814-1821 College van Regenten over de
+            Gevangenis van RotterdamCommissie van Administratie over de Gevangenis van
+            RotterdamCommissie van Toezicht over de Gevangenis van RotterdamDirecteur van
+            de Bijzondere Strafgevangenis voor Jonge Vrouwen te Rotterdam1938- 1953
+            Directeur van de Bijzondere Strafgevangenis voor Mannen te Rotterdam1929-1953
+            Directeur van de Bijzondere Strafgevangenis voor Vrouwen te
+            Rotterdam1919-1953 Directeur van de Cellulaire Gevangenis te
+            Rotterdam1872-1886 Directeur van de Duitse afdeling te Rotterdam1943-1945
+            Directeur van de Gevangenis te Rotterdam1953-1960 Directeur van de Gevangenis
+            voor Vrouwen te Rotterdam1960-1968 Directeur van de Strafgevangenis te
+            Rotterdam1886-1953 Directeur van het Arrestantenhuis te Rotterdam1945-1948
+            Directeur van het Daghuis van Bewaring te Dordrecht1974 Directeur van het
+            Huis van Bewaring II te Rotterdam1955-1974 Directeur van het Huis van
+            Bewaring te Rotterdam1886-heden Directeur van het Hulpgebouw van het Huis van
+            Bewaring te Rotterdam1943-1955 Directeur van het Hulphuis van Arrest te
+            Rotterdam1872-1886 Directeur van het Hulphuis van Bewaring te
+            Rotterdam1886-1900 Directrice van de Gevangenis voor Vrouwen te
+            Rotterdam1968-1972 Directrice van de Penitentiaire Inrichting voor Vrouwen te
+            Rotterdam 1972- Directrice van de Rijkswerkinrichting voor Vrouwen te
+            Rotterdam 1969- Geneesheer van de Strafgevangenis te Rotterdam1853-1918
+            Gestichtsraad van het Huis van Bewaring te Rotterdam1955-1960 Kommandant van
+            de Gevangenis voor Jeugdige Veroordeelden te Rotterdam1833-1866 Officier van
+            Gezondheid van de Cellulaire Gevangenis te Rotterdam1872-1918 Officier van
+            Gezondheid van de Gevangenissen te Woerden1853-1918 Werkindelingscommissie
+            van het Huis van Bewaring te Rotterdam1974-1976</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Van de Commissie van Administratie zijn er registers van notulen,
+      correspondentie en jaarverslagen. Verder zijn er stukken over de reglementering,
+      gebouwen, personeel en financiën; over de getineerden zijn er stukken m.b.t. het
+      onderhoud. Van de cipier (en van de directeur) van het Huis van Bewaring is er
+      correspondentie en zijn er tevens jaarverslagen. Verder zijn er stukken over de
+      reglementering en inzake financiën kas- en grootboeken. Voor wat betreft de
+      gedetineerden zijn er registers van gegijzelden om schulden, registers van gegevens
+      van voorlopig aangehouden, registers van gegevens van gedetineerden, registers van
+      "politiek" gedetineerden (vnl. N.S.B.'ers) en de zogeheten Duitse afdeling ten
+      tijde van de Tweede Wereldoorlog. Ook zijn er registers van vrouwelijke
+      gedetineerden, die later apart werden gehuisvest, en registers van gegevens van
+      kinderen die met de moeders zijn opgenomen. Ook zijn er stukken over de
+      reclassering, medische zorg en wet -en regelgeving omtrent gevangenissen meer in
+      het algemeen. Tevens is er enige vakliteratuur.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (B). Bescheiden inzake nog levende
+      personen zijn beperkt openbaar en kunnen slechts voor wetenschappelijk onderzoek
+      worden geraadpleegd. Ontheffing wordt verleend door de directeur van het Nationaal
+      Archief.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>1033 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>16,00 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/f2cd4d64-f273-45ae-80e2-8119f470bd4b"
+  rdf:about="record/3.08.02">
+    <rico:identifier>3.08.02</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1992</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3477" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.08.02/i1" />
+      <rico:instantiates rdf:resource="record/3.08.02" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Bewaarder van het Kadaster
+        in Zuid-Holland, 1833-1843</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/f2cd4d64-f273-45ae-80e2-8119f470bd4b" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3477">
+    <rico:describedBy rdf:resource="record/3.08.02" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3477</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Bewaarder van het Kadaster in Zuid-Holland</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Kadaster ZH</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1833</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1843</rico:endDate>
+    <rico:date>1833-1843</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bewaarder van het Kadaster in Zuid-Holland</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Na de invoering van het Kadaster, eind 1832, moest de bewaring en de
+          bijhouding ervan worden geregeld. Op 23 oktober 1832 werden de Verordeningen
+          tot instandhouding van het kadaster vastgesteld door de Administrateur van het
+          Kadaster. In elke provincie werd per 1 januari 1833 een Bewaarder aangesteld,
+          onder toezicht van de Gouverneur. J.C. Beth, Het Kadaster gedurende het tijdvak
+          1814-1843, in: Nederlands Archievenblad 1907-1908 p.160-175. Zie ook M.de Vos,
+          Het Kadaster (Groningen 1902) p.33 e.v. Onder de Bewaarder werkten controleurs,
+          boekhouders en landmeters.</html:p>
+          <html:p>In Zuid-Holland fungeerde tot oktober 1843 Jhr. J.C.R. van Hoorn van
+          Burgh als provinciaal Bewaarder; in de jaren vóór 1833 was hij werkzaam geweest
+          als Inspecteur van het Kadaster in Zuid-Holland. Evenals zijn collega in het
+          Noordelijk gedeelte van Holland, J.D. Hoeufft, was hij tevens als
+          hoofdinspecteur verbonden aan het ministerie van Financiën. Ook was er nog een
+          ingenieur-verificateur van het kadaster, J.H. Kips.</html:p>
+          <html:p>Na de invoering van het nieuwe Burgerlijk Wetboek (per 1 oktober 1838)
+          moest in de hypothecaire boekhouding de kadastrale aanduiding van de percelen
+          worden aangehouden. Van 1839 t/m 1843 fungeerden, naast de provinciale
+          Bewaarders, in elk rechterlijk arrondissement ook kantoren van bewaring van de
+          hypotheken en het kadaster. In deze jaren was in zekere zin sprake van een
+          dubbele bewaring.</html:p>
+          <html:p>Met ingang van 1 januari 1844 werden de Gouverneurs in de provincie
+          ontheven van het toezicht op de inning van de rijksbelastingen (waaronder de
+          registratie en het kadaster ressorteerden). Met ingang van dezelfde datum ook
+          werd de functie van provinciale Bewaarder opgeheven.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat onder meer ingekomen en minuten van uitgaande stukken,
+      overzichten van percelen die vrijgesteld waren van grondbelasting, overzichten van
+      belastbare opbrengsten van gebouwde en ongebouwde eigendommen, aantekeningen van
+      landmeters, en personeelsoverzichten van de kadasterkantoren.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3.40 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>28 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

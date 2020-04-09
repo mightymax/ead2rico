@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/26ea89e5-be04-4dd4-9f38-a5b24b88e62e"
+  rdf:about="record/2.21.205.80">
+    <rico:identifier>2.21.205.80</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2001</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C27022" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.205.80/i1" />
+      <rico:instantiates rdf:resource="record/2.21.205.80" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van jhr. ir. O.C.A. van Lidth de
+        Jeude [levensjaren 1881-1952], 1940-1945</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/26ea89e5-be04-4dd4-9f38-a5b24b88e62e" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p />
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C27022">
+    <rico:describedBy rdf:resource="record/2.21.205.80" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C27022</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 144 Jhr. ir. O.C.A. van Lidth de
+      Jeude</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Lidth de Jeude, O.A.A. van</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1940</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1945</rico:endDate>
+    <rico:date>1940-1945</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Lidth de Jeude, O.C.A. van (1881-1952)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Van Lidth de Jeude doorliep de Rijkshogereburgerschool te Tiel en van
+          1898 tot 1903 de Polytechnische school te Delft, waar hij van 1901 tot 1903 lid
+          was van de Phoenixcommissie. Als jong civiel ingenieur werd hij in november
+          1903 als adjunct-ingenieur van de Rijkswaterstaat toegevoegd aan de
+          inspecteur-generaal der 2e inspectie. In de jaren 1904-1909 was hij geplaatst
+          bij de werken der Maasmondverbetering in het bijzonder aan het kanaal van
+          's-Hertogenbosch naar Drongelen, sedert september 1906 als ingenieur 2e klasse.
+          In augustus 1909 kreeg hij verlof tot het maken van een studie van de haven van
+          Curaçao, waarvan hij de resultaten in 1910 en 1911 publiceerde. Na zijn
+          terugkeer werd hij als arrondissementsingenieur van het Pannerdens kanaal,
+          Nederrijn en Lek te Utrecht geplaatst, maar in september 1913 (kort voor zijn
+          benoeming oktober d.a.v. tot ingenieur 1e klasse) kreeg hij wederom verlof tot
+          het bestuderen van de haven van Tsjifoe in China. Een van de grondslagen van
+          zijn ontwerpen was de constructie van de golfbreker in een zg. sloping bond,
+          waardoor kleine nazakkingen gemakkelijk konden worden opgevangen, terwijl het
+          stellen van de blokken in het algemeen snel kan geschieden (zie: De Ingenieur,
+          1952). Een rapport volgde in 1914, maar hij bleef er tot 1918. Ook later kwam
+          hij nog herhaalde malen in China, waardoor hij een levendige belangstelling
+          voor Oostaziatische kunst kreeg. Van de in 1923 opgerichte
+          Nederlandsch-Chineesche Vereeniging werd hij voorzitter. De werkzaamheden te
+          Tsjifoe waren uitgevoerd door de in 1912 uit een fusie van drie baggerfirma's
+          ontstane Nederlandse Mij. voor Havenwerken, waarbij hij in 1919 in dienst trad
+          als technisch directeur. Hij werkte als zodanig twee jaar in Ned.-Indië, daarna
+          op het hoofdkantoor te Amsterdam. Vele ontwerpen en variant-ontwerpen van
+          havens of onderdelen als kademuren, pieren etc. werden onder zijn leiding
+          gemaakt en uitgevoerd door dit bedrijf, één der oudste zg. civil
+          engineeringcontractors. In 1929 verwierf hij te zamen met ir. W.C. Köhler,
+          stadsingenieur van Amsterdam, een tweede prijs bij de beantwoording van een
+          door het bestuur van Barcelona uitgeschreven prijsvraag over de haven
+          aldaar.</html:p>
+          <html:p>Te Baarn, waar hij zich had gevestigd, zat hij van 1923 tot 1935 voor
+          de Liberale Staatspartij "De Vrijheidsbond" in de gemeenteraad. In 1931 werd
+          hij tevens lid van de Provinciale Staten van Utrecht. Na het overlijden van ir.
+          J.A. Kalff werd hij 4 maal 1935 benoemd tot minister van Waterstaat in het
+          tweede en later in het derde ministerie-Colijn, dat 25 mei 1937 zijn
+          portefeuille ter beschikking stelde. Vervolgens nam hij zitting in de Tweede
+          Kamer, werd gedelegeerd commissaris van Havenwerken (oktober 1937),
+          ondervoorzitter van "De Vrijheidsbond" (21 januari 1938), voorzitter van de
+          Raad van het Openbaar Lichaam de Wieringermeer, ondervoorzitter Zuiderzeeraad
+          en commissaris van enige banken en stoomvaartmaatschappijen. Na nog even (25
+          juli - 10 augustus 1939) van het vijfde ministerie-Colijn deel te hebben
+          uitgemaakt, vertrok hij in februari 1940 als voorzitter van het Koloniaal
+          Instituut, lid van de Raad van Beheer der Billitonmij. en als voorzitter van
+          het Koninklijk Instituut van Ingenieurs naar Indië, maar door de oorlog
+          verrast, vloog hij terug naar Londen, waar hij daags na aankomst (26 mei 1940)
+          werd benoemd tot regeringscommissaris voor vluchtelingen en voorzitter van het
+          Londens comité van het Nederlandse Rode Kruis. Onder Gerbrandy was hij van 15
+          september 1942 tot 23 februari 1945 minister van Oorlog.</html:p>
+          <html:p>Na zijn terugkeer werd hij 26 mei 1946 lid van de Provinciale en 3 juli
+          d.a.v. buitengewoon lid van Gedeputeerde Staten. Het door hem geambieerde
+          lidmaatschap van de Raad van State kon blijkbaar voor hem als liberaal onder de
+          toenmalige politieke situatie niet verwezenlijkt worden, hoewel hij alle
+          vereiste kwaliteiten bezat. Als voorzitter van het Koninklijk Instituut van
+          Ingenieurs leidde hij in 1951 het petroleumcongres. Inmiddels was hij op 2
+          augustus 1950 voorzitter van de Raad van Commissarissen van de Billitonmij.
+          geworden.</html:p>
+          <html:p>Van Lidth de Jeude, enige zoon met twee oudere en vier jongere zusters,
+          was betrekkelijk eenvoudig opgevoed in een milieu van provinciale notabelen,
+          waarin de mannen, al naar hun capaciteiten, land en vorst als ambtenaar of
+          officier behoorden te dienen. De studie te Delft verwekte dan ook onrust, pas
+          weggenomen door zijn aanstelling als ingenieur bij de Rijkswaterstaat.</html:p>
+          <html:p>Zelf meer werklustig dan eerzuchtig, zou hij directeur van
+          Gemeentewerken te Breda zijn geworden, als zijn vrouw, die meer mogelijkheden
+          zag, hem niet had tegengehouden tot het aanbod van Havenwerken kwam. Begiftigd
+          met een enorme werkkracht en helder inzicht, wist hij de door hem geleide
+          instanties tot grote produktie te brengen, ook na zijn vertrek met achterlating
+          van laden vol plannen. Juist na de crisisjaren minister geworden, kreeg hij de
+          kans wegennet en bruggenbouw te organiseren; als minister van Oorlog verkreeg
+          hij de instemming van de zeer kritische enquêtecommissie Donker. In zijn hart
+          was hij echter de eenvoudige en gemoedelijke, maar ook vaak eigenwijze en
+          lastige Geldersman gebleven, die met koningin Wilhelmina - die daar prijs op
+          stelde - Betuws sprak en het liefst zou hij zijn laatste levensjaren op het
+          familiebuiten 'De Groote Brug' aan de Linge hebben doorgebracht, zich wijdende
+          aan de geschiedenis van zijn geslacht.</html:p>
+          <html:p>Bron: Biografisch Woordenboek van Nederland</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Jhr. ir. O.C.A. van Lidth de Jeude (1881-1952) was voor de oorlog werkzaam
+      bij Rijkswaterstaat en als technisch directeur van een baggermaatschappij. Hij
+      werkte aan diverse projecten in China en Nederlands-Indië. Van Lidth gold als goed
+      waterbouwkundige en een competent bestuurder. Hij kreeg nevenfuncties als lid van
+      de raad van beheer van de Billiton Maatschappij, voorzitter van het Koloniaal
+      Instituut en het Koninklijk Instituut van Ingenieurs. Vanaf 1923 was hij politiek
+      actief in de Liberale Staatspartij. Van 1935 tot 1937 was hij minister van
+      Waterstaat. In mei 1940 was hij voor werkzaamheden in Nederlands-Indië. Hij vertrok
+      naar Londen waar hij 26 mei arriveerde. Aanvankelijk was hij werkzaam als
+      Regeringscommissaris voor Vluchtelingen en voorzitter van het Londens Comité van
+      het Nederlandsche Roode Kruis. Van 15 september 1942 tot 23 februari 1945 was hij
+      minister van Oorlog. Het archief bevat het Londens dagboek van Van Lidth de Jeude
+      van januari 1940 tot en met mei 1945. Het dagboek geeft een goed beeld van de
+      werkzaamheden van de Nederlandse regering in ballingschap en de onderlinge
+      verhoudingen in de kleine Nederlandse kolonie in Londen. De dagboeken zijn
+      uitgegeven: A.E. Kersten (red.), De Londense dagboeken van jhr. ir. O.C.A. van
+      Lidth de Jeude (Den Haag, 2001), 2 delen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>11 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

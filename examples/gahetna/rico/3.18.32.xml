@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/037b8edb-07e4-4309-8d3b-d794f2b0325a"
+  rdf:about="record/3.18.32">
+    <rico:identifier>3.18.32</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1963</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/36031" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.18.32/i1" />
+      <rico:instantiates rdf:resource="record/3.18.32" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20120316</rico:hasModificationDate>
+        <html:p>16 maart 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de St. Bartholomeuskerk te
+        Nootdorp, 1418-1567</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/037b8edb-07e4-4309-8d3b-d794f2b0325a" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven en gedrukte teksten. De Nederlandstalige stukken van
+        vóór ca. 1700 zijn geschreven in het gotische cursiefschrift, met name in de
+        oud-Hollandse klerkencursief. De Duitse stukken zijn grotendeels in het
+        Kurrentenschrift geschreven.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/36031">
+    <rico:describedBy rdf:resource="record/3.18.32" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>36031</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>St. Bartholomeuskerk te Nootdorp</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>St. Bartholomeuskerk Nootdorp</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1418</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1567</rico:endDate>
+    <rico:date>1418-1567</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>St. Bartholomeuskerk te Nootdorp</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De tegenwoordige Nederlands Hervormde kerk van Nootdorp is een modern
+          gebouw, waarbij echter de oude toren behouden is. Deze dateert uit het eerste
+          kwart van de 16e eeuw Voorlopige lijst van Nederlandsche monumenten van
+          geschiedenis en kunst, deel III provincie Zuid Holland (Utrecht 1915)
+          i.v.Nootdorp. . De in het archief bewaard gebleven kwitanties voor ijzerwerk
+          e.d. kunnen dus op de bouw of op een zeer ingrijpende verbouwing betrekking
+          hebben. Bij die gelegenheid heeft de bekende klokkengieter Jan Jaspars Moer Zie
+          over hem b.v.: M.A. Brandts Buys, Lijst van Nederlandse klokkengieters ('s
+          Hertogenbosch 1925) en J.H. van Mosselveld, De klokken van Geertruidenberg in:
+          Brabantia Nostra jrg. 1959 p. 120. de klokken voor de toren geleverd.</html:p>
+          <html:p>De parochie van Nootdorp omvatte de tegenwoordige burgerlijke gemeente
+          van die naam Mr J.G.C. Joosting en Mr S. Muller Hzn, Bronnen voor de
+          geschiedenis der kerkelijke rechtspraak in het bisdom Utrecht in de
+          Middeleeuwen, 1e afd. 2e dl. ('s Gravenhage 1915) p. 271. , d.w.z. de vroegere
+          heerlijkheden Nootdorp, Nieuweveen en Hoogeveen. Hoewel het dorp Nootdorp reeds
+          bestaan moet hebben in 1285 Dr D.P. Blok in Tijdschrift voor Geschiedenis 75e
+          jrg. 1962, p. 488. is de oudste vermelding van de kerk aldaar eerst uit 1395,
+          in de kerkenlijst van de Utrechtse domfabriek Joosting en Muller .a.w. 1e afd.
+          1e dl ('s-Gravenhage 1906) p. 61. .</html:p>
+          <html:p>Afgezien van incidentele mededelingen in het Archief voor de
+          geschiedenis van het aartsbisdom Utrecht en in de Haarlemsche Bijdragen
+          ontbreekt tot dusver een beschrijving van de kerkelijke geschiedenis van
+          Nootdorp In 1962 ontving de Ned. Herv. predikant Ds C. Spoor van het
+          gemeentebestuur van Nootdorp de opdracht de geschiedenis van het dorp en de
+          kerkelijke toestand te beschrijven. .</html:p>
+          <html:p>De heerlijkheid Nootdorp bleef tot 1724 in 's graven boezem, in
+          tegenstelling tot Nieuweveen, dat in 1341 door graaf Willem IV verkocht werd
+          A.J. van der Aa, Aardrijkskundig woordenboek der Nederlanden, dl VIII
+          (Gorinchem 1846) i.v. Nieuweveen, heerlijkheid in Delfland. , en Hoogeveen
+          welks eerste heer was Hendrik van de Lek, zoon van Jan II van Polanen. Sedert
+          diens dood in 1427 zijn de verleien van deze heerlijkheid bekend uit de
+          leenregisters van de graven van Nassau in het archief van de Nassausche
+          domeinraad. Het archief van de heerlijkheid Hoogeveen berust eveneens in het
+          Algemeen Rijksarchief. Daar Nootdorp de belangrijkste plaats was, waar de kerk,
+          de school en het rechthuis stonden, was er een gergelde personele verbinding in
+          de ambten van schout en secretaris van Nootdorp, Nieuweveen en
+          Hoogeveen.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat onder meer akten inzake grondbezit, rentebrieven, en
+      akten inzake de "papelike prove", het goed waarvan de opbrengst toekwam aan de
+      pastoor.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>26 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

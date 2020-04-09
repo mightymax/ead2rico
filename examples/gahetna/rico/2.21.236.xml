@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/54ccce79-fd32-4370-a5ae-afde8e72f021"
+  rdf:about="record/2.21.236">
+    <rico:identifier>2.21.236</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1985</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C22009" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.236/i1" />
+      <rico:instantiates rdf:resource="record/2.21.236" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de familie De Geer,
+        1864-1985</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/54ccce79-fd32-4370-a5ae-afde8e72f021" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Het archief bevat tevens fotografische portretten en foto's.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C22009">
+    <rico:describedBy rdf:resource="record/2.21.236" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C22009</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 286 De Geer</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Geer, de</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1864</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1985</rico:endDate>
+    <rico:date>1864-1985</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Familie De Geer, 1864-1985</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De voornaamste persoonlijkheid van de familie, wier archief hier wordt
+          beschreven Correspondentie van de Tweede Afdeling van het Algemeen
+          Rijksarchief, 1975 D 9. 114, 1976 D 506., is de staatsman Dirk Jan de Geer. Hij
+          werd op 14 december 1870 in Groningen geboren als zoon van de predikant
+          Lodewijk de Geer (1831-1909), die daar van 1866 tot 1887 voorging. Lodewijk de
+          Geer toonde zich een "geharnast" tegenstander van de modernistische richting en
+          was naast bestuurslid van de Confessioneele Vereeniging ook voorzitter van de
+          Vereeniging van Christelijk voorbereidend universitair onderwijs. Zijn zoon
+          Dirk Jan was reeds in zijn schooltijd en zijn studententijd politiek actief. In
+          1893 correspondeerde hij in verschillende antirevolutionaire partijorganen:
+          hierin nam hij het op voor die antirevolutionaire geestverwanten die wegens hun
+          stellingname tegen de Kieswet-Tak door De Standaard als zelfzuchtigen
+          verketterd werden. Aldus schaarde hij zich achter A.F. de Savornin Lohman, die
+          door de oprichting van het dagblad De Nederlander in 1894 een scheuring binnen
+          de gelederen der antirevolutionairen bewerkstelligde. De Geer werd in datzelfde
+          jaar als jong jurist - hij zou eerst in 1895 promoveren - in de redactieraad
+          opgenomen.</html:p>
+          <html:p>In 1901 ging De Geer van de journalistiek over naar de actieve
+          politiek: hij werd tot lid van de Rotterdamse gemeenteraad gekozen. In 1907
+          werd hij kamerlid voor het district Schiedam, het jaar daarop lid van
+          Gedeputeerde Staten van de provincie Zuid-Holland. Korte tijd was hij ook
+          burgemeester van Arnhem, toen hij in 1921 in het ministerie Ruijs de
+          Beerenbrouck de post van minister van Financiën op zich nam als opvolger van
+          mr. S. de Vries, die in het harnas overleden was. De Geer werd met een
+          economische inzinking geconfronteerd. Om financiële redenen had hij bezwaren
+          tegen de Vlootwet van 1923 en trad hij af. Hij werd opgevolgd door H. Colijn,
+          die als bezuinigingsminister naam maakte.</html:p>
+          <html:p>Na de verkiezingen van 1925 kwam De Geer terug in de ministerraad,
+          ditmaal belast met de post Binnenlandse Zaken en Landbouw onder Colijn. Op 11
+          november 1925 viel dit kabinet als gevolg van een latent conflict binnen de
+          coalitie over het Nederlandse gezantschap bij de H. Stoel. De crisis werd eerst
+          op 1 maart 1926 bezworen, toen aan De Geer een formatieopdracht werd verstrekt
+          tot de vorming van een "intermezzo-kabinet". Hierin nam hij zelf de post
+          Financiën op zich. In 1929 openden de verkiezingen weer de mogelijkheid tot de
+          vorming van een coalitie-kabinet, waarin onder het minister-presidentschap van
+          Ruijs de Beerenbrouck, De Geer de post Financiën behield. Opnieuw moest hij een
+          door de economische malaise noodzakelijk geworden bezuinigingsbeleid
+          doorvoeren, dat een klimaat van sociale onrust schiep.</html:p>
+          <html:p>Tijdens de verkiezingen van 1933 trad De Geer op als lijsttrekker van
+          de Christelijk-Historische Unie. Hij nam geen zitting in de crisis-kabinetten
+          van Colijn - deze laatste schijnt met De Geer van mening te hebben verschild
+          over het financiële beleid - maar werd fractieleider van de
+          Christelijk-Historischen in de Tweede Kamer. Als zodanig bepaalde hij met
+          Colijn en Nolens het politieke klimaat van die dagen: door zijn onafhankelijk
+          standpunt en zijn vermogen om conflicten op te lossen zonder controversieel te
+          zijn leek hij in 1939 de aangewezen figuur om na de mislukking van een vijfde
+          kabinet-Colijn een "nationaal kabinet" te creëren. Naast coalitiegenoten en
+          liberalen hadden hierin ook sociaal-democraten zitting.</html:p>
+          <html:p>De Geer heeft de aanvaarding van zijn formatie-advies in 1939 rampzalig
+          genoemd. Hij droeg nu de last van de mobilisatie, onder zijn
+          minister-presidentschap vielen op 10 mei 1940 de Duitsers Nederland binnen. Hij
+          week met koningin Wilhelmina en de Nederlandse regering uit naar Londen, maar
+          was daar een displaced person, niet in staat of geneigd om de koningin te
+          steunen in haar actieve voortzetting van de oorlog. Omdat de eenheid van de
+          Kroon in gevaar dreigde te komen, bewerkte koningin Wilhelmina zijn aftreden.
+          De Geer voelde zich nu helemaal niet meer op zijn plaats en keerde in april
+          1941 terug naar Nederland, hetgeen door zijn opvolger Gerbrandy als "een daad
+          van desertie" werd beschouwd. Dit was uiteindelijk ook de opvatting van het
+          Bijzonder Gerechtshof in Amsterdam, dat hem in mei 1947 tot een geldboete en
+          een beperkt verblijf in Soest veroordeelde. In verscheidene brochures en
+          geschriften heeft De Geer gepoogd om het Nederlandse volk en vooral zijn
+          aanhang in de Christelijk-Historische Unie ervan te overtuigen dat hij zijn
+          leven lang een goed vaderlander is geweest.</html:p>
+          <html:p>De Geer overleed op 27 november 1960 in Soest.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Geer, D.J. de (1860-1970)</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De voornaamste persoonlijkheid van de familie, wier archief hier wordt
+          beschreven Correspondentie van de Tweede Afdeling van het Algemeen
+          Rijksarchief, 1975 D 9. 114, 1976 D 506., is de staatsman Dirk Jan de Geer. Hij
+          werd op 14 december 1870 in Groningen geboren als zoon van de predikant
+          Lodewijk de Geer (1831-1909), die daar van 1866 tot 1887 voorging. Lodewijk de
+          Geer toonde zich een "geharnast" tegenstander van de modernistische richting en
+          was naast bestuurslid van de Confessioneele Vereeniging ook voorzitter van de
+          Vereeniging van Christelijk voorbereidend universitair onderwijs. Zijn zoon
+          Dirk Jan was reeds in zijn schooltijd en zijn studententijd politiek actief. In
+          1893 correspondeerde hij in verschillende antirevolutionaire partijorganen:
+          hierin nam hij het op voor die antirevolutionaire geestverwanten die wegens hun
+          stellingname tegen de Kieswet-Tak door De Standaard als zelfzuchtigen
+          verketterd werden. Aldus schaarde hij zich achter A.F. de Savornin Lohman, die
+          door de oprichting van het dagblad De Nederlander in 1894 een scheuring binnen
+          de gelederen der antirevolutionairen bewerkstelligde. De Geer werd in datzelfde
+          jaar als jong jurist - hij zou eerst in 1895 promoveren - in de redactieraad
+          opgenomen.</html:p>
+          <html:p>In 1901 ging De Geer van de journalistiek over naar de actieve
+          politiek: hij werd tot lid van de Rotterdamse gemeenteraad gekozen. In 1907
+          werd hij kamerlid voor het district Schiedam, het jaar daarop lid van
+          Gedeputeerde Staten van de provincie Zuid-Holland. Korte tijd was hij ook
+          burgemeester van Arnhem, toen hij in 1921 in het ministerie Ruijs de
+          Beerenbrouck de post van minister van Financiën op zich nam als opvolger van
+          mr. S. de Vries, die in het harnas overleden was. De Geer werd met een
+          economische inzinking geconfronteerd. Om financiële redenen had hij bezwaren
+          tegen de Vlootwet van 1923 en trad hij af. Hij werd opgevolgd door H. Colijn,
+          die als bezuinigingsminister naam maakte.</html:p>
+          <html:p>Na de verkiezingen van 1925 kwam De Geer terug in de ministerraad,
+          ditmaal belast met de post Binnenlandse Zaken en Landbouw onder Colijn. Op 11
+          november 1925 viel dit kabinet als gevolg van een latent conflict binnen de
+          coalitie over het Nederlandse gezantschap bij de H. Stoel. De crisis werd eerst
+          op 1 maart 1926 bezworen, toen aan De Geer een formatieopdracht werd verstrekt
+          tot de vorming van een "intermezzo-kabinet". Hierin nam hij zelf de post
+          Financiën op zich. In 1929 openden de verkiezingen weer de mogelijkheid tot de
+          vorming van een coalitie-kabinet, waarin onder het minister-presidentschap van
+          Ruijs de Beerenbrouck, De Geer de post Financiën behield. Opnieuw moest hij een
+          door de economische malaise noodzakelijk geworden bezuinigingsbeleid
+          doorvoeren, dat een klimaat van sociale onrust schiep.</html:p>
+          <html:p>Tijdens de verkiezingen van 1933 trad De Geer op als lijsttrekker van
+          de Christelijk-Historische Unie. Hij nam geen zitting in de crisis-kabinetten
+          van Colijn - deze laatste schijnt met De Geer van mening te hebben verschild
+          over het financiële beleid - maar werd fractieleider van de
+          Christelijk-Historischen in de Tweede Kamer. Als zodanig bepaalde hij met
+          Colijn en Nolens het politieke klimaat van die dagen: door zijn onafhankelijk
+          standpunt en zijn vermogen om conflicten op te lossen zonder controversieel te
+          zijn leek hij in 1939 de aangewezen figuur om na de mislukking van een vijfde
+          kabinet-Colijn een "nationaal kabinet" te creëren. Naast coalitiegenoten en
+          liberalen hadden hierin ook sociaal-democraten zitting.</html:p>
+          <html:p>De Geer heeft de aanvaarding van zijn formatie-advies in 1939 rampzalig
+          genoemd. Hij droeg nu de last van de mobilisatie, onder zijn
+          minister-presidentschap vielen op 10 mei 1940 de Duitsers Nederland binnen. Hij
+          week met koningin Wilhelmina en de Nederlandse regering uit naar Londen, maar
+          was daar een displaced person, niet in staat of geneigd om de koningin te
+          steunen in haar actieve voortzetting van de oorlog. Omdat de eenheid van de
+          Kroon in gevaar dreigde te komen, bewerkte koningin Wilhelmina zijn aftreden.
+          De Geer voelde zich nu helemaal niet meer op zijn plaats en keerde in april
+          1941 terug naar Nederland, hetgeen door zijn opvolger Gerbrandy als "een daad
+          van desertie" werd beschouwd. Dit was uiteindelijk ook de opvatting van het
+          Bijzonder Gerechtshof in Amsterdam, dat hem in mei 1947 tot een geldboete en
+          een beperkt verblijf in Soest veroordeelde. In verscheidene brochures en
+          geschriften heeft De Geer gepoogd om het Nederlandse volk en vooral zijn
+          aanhang in de Christelijk-Historische Unie ervan te overtuigen dat hij zijn
+          leven lang een goed vaderlander is geweest.</html:p>
+          <html:p>De Geer overleed op 27 november 1960 in Soest.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het grootste deel van dit familiearchief bevat materiaal van de
+      christelijk-historische politicus D.J. de Geer (1870-1960). De Geer werd in 1921
+      voor de eerste keer minister van Financiën. In de loop van de jaren twintig en
+      dertig zou hij in verschillende kabinetten ministersposten bekleden. Vanaf 1933 was
+      hij bovendien de politiek leider van de Christelijk Historische Unie (CHU). In 1939
+      werd hij formateur en minister-president van het eerste kabinet met
+      sociaal-democraten. Op 13 mei week de regering uit naar Londen. De Geer gaf zwak
+      leiding aan het kabinet en dat leidde tot een conflict met koningin Wilhelmina en
+      het aftreden van De Geer in september 1940. In april 1941 keerde hij terug naar
+      Nederland hetgeen hem door het achterblijvende kabinet zeer kwalijk werd genomen.
+      Na de oorlog kreeg hij vanwege zijn 'desertie' van het Bijzonder Gerechtshof in
+      Amsterdam een geldboete en een beperkt verblijf in Soest. De Geer poogde via
+      verscheidene brochures de Nederlanders en zijn eigen politieke geestverwanten ervan
+      te overtuigen dat hij wel degelijk een goed vaderlander was. Hij overleed in
+      november 1960. Het archief bevat dagboeken van D.J. de Geer (1889-1890, 1895-1955),
+      correspondentie, particuliere papieren waaronder huishoudboekjes, kasboeken en
+      financiële stukken, een beperkt aantal stukken over zijn werk als politicus en
+      voorts artikelen waaronder De Geer's verdediging van het besluit terug te keren
+      naar Nederland in april 1941. Verder zijn er nagelaten papieren - meest met een
+      persoonlijke karakter - van een aantal familieleden van D.J. de Geer te vinden in
+      dit archief dat de jaren 1864 tot 1985 bestrijkt.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>0.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>101 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

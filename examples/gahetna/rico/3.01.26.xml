@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/5fba1902-9238-4f62-8c2a-f489b4aa0d78"
+  rdf:about="record/3.01.26">
+    <rico:identifier>3.01.26</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1895</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3547" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.01.26/i1" />
+      <rico:instantiates rdf:resource="record/3.01.26" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20100527</rico:hasModificationDate>
+        <html:p>27 mei 2010</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Raadpensionaris van Holland
+        mr. Laurens Pieter van de Spiegel, 1787-1795</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/5fba1902-9238-4f62-8c2a-f489b4aa0d78" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normaal geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3547">
+    <rico:describedBy rdf:resource="record/3.01.26" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3547</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Laurens Pieter van de Spiegel [levensjaren
+      1737-1800]</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Raadpensionaris Van de Spiegel</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1602</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1801</rico:endDate>
+    <rico:date>1602-1801</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Spiegel, Laurens Pieter van de</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Biografische aantekeningen over Laurens Pieter van de Spiegel
+          (1736-1800) (1787-1795 raadpensionaris van Holland). 19-1-1736geboren te
+          Middelburg7-5-1800overleden te Lingen1759secretaris van Goes1768raad en
+          burgemeester van Goes1780secretaris van de Staten van
+          Zeeland1785raadpensionaris van Zeeland6-12-1787raadpensionaris van
+          Holland1795uit zijn ambten ontzet10-2-1796-20-12-1798in gevangenschap te
+          Woerden1799uitgeweken naar Lingen alwaar in 1800 overleden</html:p>
+          <html:p>Zijn ambtelijke loopbaan begon hij in 1756 als secretaris der stad
+          Goes, alwaar hij tevens als advocaat werkzaam was en spoedig raad en
+          burgemeester werd. Als lid der stedelijke regeering verkreeg hij in 1759
+          zitting in de vergadering van de Staten van Zeeland en had hij zich
+          dientengevolge ook met Generaliteitszaken te bemoeien, vooral nadat hij
+          buitengewoon gedeputeerde tot de Staten-Generaal geworden was. Toen hij in 1780
+          secretaris van de Staten van Zeeland werd, verloor hij wel het recht om in de
+          vergaderingen van dat college mede te stemmen, maar nam zijn invloed op de
+          behandeling van 's Lands zaken meer toe dan af. Hij was het, die de Staten van
+          Zeeland aandreef om in 1784 aan de andere provinciën voor te stellen eene
+          kleine buitengewone vergadering in den geest van die van 1716 en 1717 te houden
+          ten einde over eene hervorming in de regeling der Generaliteitszaken te
+          beraadslagen. Die voorslag werd wel niet aangenomen, maar bewoog de Staten
+          Generaal toch op 4 Mei 1785 twee commissies in het leven te roepen, de eene
+          voor de quotes en de andere voor het defensiewezen, in welke beide van de
+          Spiegel wegens Zeeland werd benoemd en ook later namens Holland zitting had.
+          Hij behoorde tot de leden, die met den grootsten ijver hunne gewichtige taak
+          vervulden. Zijne verdiensten vielen zoodanig in het oog, dat hij op 22 April
+          1785 tot Raadpensionaris van Zeeland aangesteld werd. Daar hij zich op politiek
+          gebied deed kennen als gezind om hervormingen in te voeren met behoud van de
+          toenmalige constitutie en onder erkenning van de rechten van het
+          stadhouderschap, viel de aandacht op hem in weerwil van zijne Zeeuwsche
+          afkomst, toen de staatkundige verandering van 1787 het langer aanblijven van
+          den Raadpensionaris van Holland Mr. Pieter van Bleiswijck onmogelijk had
+          gemaakt. Op het laatst van dat jaar volgde hij dezen op, waardoor hij de eerste
+          Staatsminister werd niet alleen van Holland maar feitelijk ook van de
+          Republiek. In 1792, toen zijne eerste commissie afliep, in dat ambt
+          gecontinueerd, bleef hij in functie, tot dat de Staatsomwenteling van 1795
+          daaraan een einde maakte.</html:p>
+          <html:p>Bekend is het, hoe de politieke omstandigheden hem noodzaakten in
+          Augustus 1799 naar Duitschland te wijken, alwaar hij zich te Lingen vestigde,
+          terwijl zijne familie hier te lande achter bleef. Zijn lichaam was echter door
+          al hetgeen hij had doorgestaan uitgeput. Hij overleed op 7 Mei 1800.</html:p>
+          <html:p>Voor verdere levensbijzonderheden alsmede voor de verhandelingen en
+          geschriften van Van de Spiegel zie het levensbericht van P.J. Blok, genoemd in
+          de Bijlage nr. 11.</html:p>
+          <html:p>Bovenstaande aantekeningen over het archief van Laurens Pieter van de
+          Spiegel zijn ontleend aan een oorspronkelijk getypt en handmatig aangevuld
+          exemplaar, dat volgens een aantekening van B. van 't Hoff op 14 juni 1948 in
+          viervoud bestond; de Bijlage maakte hier ook deel van uit.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief-Van de Spiegel bevat een enorme collectie door de
+      raadpensionaris zelf verzamelde bescheiden uit (voornamelijk) zijn publieke,
+      politieke leven als secretaris en raadpensionaris van Zeeland en later van Holland,
+      gedurende de Patriottentijd en de Restauratie. Opgenomen zijn op kleinere schaal
+      eveneens stukken uit de periode van voor en na de Patriottentijd. In de
+      correspondentie, rapporten en stukken gaat het over binnenlandse en buitenlandse
+      aangelegenheden van financiële, juridische, economische, militaire en politieke
+      aard. Het stadhouderlijk huis van Oranje neemt daarin een belangrijke plaats in,
+      maar ook de verhouding met buitenlandse mogendheden. Van de Spiegel verzamelde en
+      bewaarde, behalve stukken van familieleden, ook veel documenten betreffende de Unie
+      van Utrecht, waarvan hij een geschiedenis had willen schrijven.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>17.70 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>718 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

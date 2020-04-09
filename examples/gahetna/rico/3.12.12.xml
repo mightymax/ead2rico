@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/8e71fb8b-7caa-422a-b13a-fe94ef20d1fa"
+  rdf:about="record/3.12.12">
+    <rico:identifier>3.12.12</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1986</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/3471" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/3.12.12/i1" />
+      <rico:instantiates rdf:resource="record/3.12.12" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Rijksmuseum "Huis Lambert
+        van Meerten" te Delft, 1908-1948 (1981)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/8e71fb8b-7caa-422a-b13a-fe94ef20d1fa" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/3471">
+    <rico:describedBy rdf:resource="record/3.12.12" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>3471</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Rijksmuseum Huis Lambert van Meerten te
+      Delft</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Rijksmuseum Huis Lambert van Meerten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1908</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1981</rico:endDate>
+    <rico:date>1908-1981</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Rijksmuseum "Huis Lambert van Meerten"</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Lambert van Meerten was directeur van de N.V. Delftsche
+          distilleerderij, gist- en spiritusfabriek. Zijn grootvader was al
+          jeneverstoker, maar deze besteedde meer aandacht aan chemisch-technische
+          experimenten dan aan de handel. Zijn vader echter breidde de fabriek sterk uit,
+          zelfs in een tijd dat het bij zijn collega's slecht ging.</html:p>
+          <html:p>Lambertus Anthony was in 1842 geboren, en toen zijn vader in 1890
+          stierf besloot hij met zijn broer de zaak nog grootser aan te pakken. Er werd
+          voor 1 1/2 miljoen aan aandelen uitgegeven en er kwam een spectaculaire raad
+          van commissarissen. Lambert liet bovendien een representatief huis bouwen aan
+          de Oude Delft. Het werd ontworpen door zijn vrienden Adolf le Comte en Jan
+          Schouten.</html:p>
+          <html:p>Van Meerten had deze vrienden regelmatig ontmoet bij het genootschap
+          "Musis". Dat waren Delftse notabelen, die "op aangename en voor een ontwikkeld
+          publiek gepaste wijze" de winteravonden doorbrachten. Aanvankelijk hield men
+          zich met muziek bezig, later werd dat afgewisseld met "kunstbeschouwingen": het
+          bekijken van portefeuilles met grafiek. Steeds sterker kwam de nadruk te liggen
+          op de toegepaste kunst. Lambert van Meerten werd er zo door aangestoken, dat
+          hij niet alleen een grote verzameling aanlegde, maar ook actief in het
+          meubelmakersvak geïnteresseerd raakte. Een aantal stoelen in het museum getuigt
+          er nog van.</html:p>
+          <html:p>In zijn verzameling bevonden zich veel bouwfragmenten, die pas goed tot
+          hun recht zouden komen als ze werden toegepast. Daarom liet Van Meerten door Le
+          Comte en Schouten een huis ontwerpen, waarin ze een plaats konden vinden.
+          Daarbij was Le Comte vooral de decorateur en Schouten de bouwkundige. Hun
+          samenwerking was zeer hecht.</html:p>
+          <html:p>Zo ontstond tussen maart 1891 en april 1893, tot verbazing der
+          stadgenoten, aan de Oude Delft het huis "Oud Holland". Met zijn natuurstenen
+          gevel in "Hollandse Renaissance" stijl past het heel behoorlijk tussen zijn
+          bakstenen buren en ook de knik in de rooilijn is goed verwerkt.</html:p>
+          <html:p>Meteen al bij de voordeur zien we hoe de architecten geprobeerd hebben
+          de oude bouwfragmenten met het huis te verbinden. De balustervormen ter
+          weerszijden van de deur zijn een stenen vereenvoudiging van de houten
+          kolonnetten, die we terugvinden in de gang, onderaan de trap en in de ramen op
+          de bovenverdieping. Het zijn fragmenten van een in 1881 afgebroken graanpakhuis
+          aan de Koornmarkt. Oorspronkelijk was dit het "Wapen van Ceulen". In het grote
+          venster op de bovenverdieping is op de kolonnetten de datering te vinden: 1537,
+          het jaar na de grote stadsbrand die half Delft in de as legde. Toen had Willera
+          Jacobsz. Binckvliet, één van Delfts vier burgemeesters, het huis laten bouwen.
+          De kolonnetten behoren tot het mooiste Renaissance-snijwerk, dat in ons land
+          gemaakt is.</html:p>
+          <html:p>Ook verder in het huis zijn bouwfragmenten verwerkt: in consoles,
+          gebeeldhouwde friezen, maar ook in grotere onderdelen, zoals de bedsteden in de
+          rechter tuinkamer en in het "Leidse kamertje" op de eerste verdieping. Als
+          afsluiting van de alkoof op deze verdieping vinden we een doophek, afkomstig
+          uit Dordrecht.</html:p>
+          <html:p>De schouwen bestaan meestal uit een aantal oude onderdelen, die in
+          stijl zijn aangevuld. De dragers van de schouw in de achterkamer zijn gevonden
+          in een tuin aan de Geerweg in Delft.</html:p>
+          <html:p>Al deze stukken zijn ingebouwd. Gelukkig maar, want in 1902 ging
+          Lambert van Meerten failliet en moesten huis en inboedel worden geveild. Jan
+          Schouten richtte in allerijl een Vereniging van Vrienden op. Er werd voldoende
+          geld bijeengebracht en geleend om het huis te kopen. Daarbij waren de
+          bouwfragmenten inbegrepen, die anders los verkocht hadden zullen worden. De
+          verzameling ging echter verloren (vooral Delfts aardewerk, ook veel
+          schilderijen, meubelen, porselein, glas en wapens). Zo restte slechts een leeg
+          huis, met alleen de noodzakelijkste verwarmings- en
+          verlichtingselementen.</html:p>
+          <html:p>Lambert van Meerten kwam de slag niet meer te boven. Korte tijd later
+          maakte hij een eind aan zijn leven.</html:p>
+          <html:p>Van Meerten was altijd van plan geweest van zijn huis later een museum
+          te maken. De Vereniging "Huis Lambert van Meerten" bood in 1905 het huis aan de
+          Staat ten geschenke aan, op voorwaarde dat het zou worden ingericht en in stand
+          gehouden als museum van kunst en kunstnijverheid. Na enige tegenstrubbelingen
+          in de Tweede Kamer, voornamelijk veroorzaakt door Victor de Stuers, die zich
+          afvroeg wat de Staat met een leeg museum moest, werd de schenking op 28
+          september 1907 een feit.</html:p>
+          <html:p>Er werd een commissie van advies benoemd, waarin o.a. Bredius, Le Comte
+          en Schouten zitting hadden. In 1908 werd Le Comte tot directeur benoemd,
+          waarvoor hij zijn hoofdleraarschap aan de Rotterdamse academie
+          opzegde.</html:p>
+          <html:p>Hij kreeg het niet gemakkelijk. Natuurlijk streefde hij ernaar voor het
+          museum een collectie te verwerven. Een aankoopbudget voor de begroting van 1909
+          werd echter in de Tweede Kamer afgestemd. De Vereniging "Huis Lambert van
+          Meerten" stelde toen eind 1908 hetzelfde bedrag beschikbaar. Verder moest de
+          vulling van het huis komen van schenkingen of bruiklenen, waarvoor Le Comte
+          vele beroemde schilders en verzamelaars aanschreef. Het was voor hem vooral
+          belangrijk dat zij van hun goodwill getuigden, de voorwerpen waren niet het
+          hoofddoel. Het enige wat de minister hiertegenover kon stellen, was het afstaan
+          van een aantal doubletten uit het Nederlandsch Museum van Geschiedenis en Kunst
+          (ondergebracht in het Rijksmuseum te Amsterdam).</html:p>
+          <html:p>Op de begroting voor 1910 kon het aankoopbudget blijven staan, nadat
+          een amendement van De Stuers om het te schrappen met een krappe meerderheid
+          door de Tweede Kamer was afgewezen. Daarna is het aankoopbudget niet meer ter
+          discussie gesteld.</html:p>
+          <html:p>In 1918 werd de collectie familieportretten d'Ablaing van Giessenburg
+          geschonken. Deze schilderijen waren al in het museum ondergebracht, waaronder
+          twee grote portretten in zwaar gebeeldhouwde lijsten, die zich nu in de hal
+          bevinden. Vooral het vrouwenportret, door de beroemde Franse schilder Nicolas
+          de Largillière (gesigneerd op de achterkant van het doek, zoals hij meestal
+          deed), is in onze Nederlandse musea een onverwacht verschijnsel. Ook de andere
+          portretten, verdeeld over voor- en achterkamer, zijn over het algemeen
+          waardevol.</html:p>
+          <html:p>Dit was het laatste wat Le Comte voor het museum had kunnen verwerven.
+          Hij diende in 1918 zijn ontslag in, teleurgesteld over de weinig
+          toeschietelijke houding van het ministerie op het gebied van de financiën. Bij
+          zijn afscheid analyseerde hij zijn 10-jarig directeurschap en kwam tot de
+          conclusie, dat de Staat, na aanvaarding van het huis als museum, te weinig had
+          gedaan om dit werkelijk levensvatbaar te maken. Hij pleitte voor een spreiding
+          van het nationale kunstbezit, zodat ook Delft de beschikking zou kunnen hebben
+          over een schilderij van Vermeer of De Hooch.</html:p>
+          <html:p>Le Comte werd opgevolgd door Mej. I.C.E. Peelen, de eerste directrice
+          van een rijksmsueum. Zij bleef tot december 1947 aan "Huis Lambert van Meerten"
+          verbonden. De belangrijkste gebeurtenis in deze periode was de aankoop van de
+          zeer belangrijke tegelcollectie, die door Jan Schouten (de architect van het
+          huis) was bijeengebracht. Schouten was een groot verzamelaar geworden.
+          Daarnaast was hij ook een uitstekend glazenier, die o.a. de restauratie van de
+          beroemde "Goudse Glazen" in de St. Janskerk uitvoerde. Hij moest hiervoor veel
+          onderzoekingen doen, om de oude kleuren van het gebrandschilderde glas, die in
+          de 19e eeuw steeds fletser waren geworden, weer terug te vinden. Le Comte
+          maakte veel ontwerpen voor hem.</html:p>
+          <html:p>Zijn tegelcollectie was de beste op dit gebied. De verwerving hiervan
+          voor  125.000,--, waarvan het Rijk slechts  25.000,-- hoefde te betalen,
+          betekende dat het museum nu inderdaad een eersterangs verzameling op het gebied
+          van de kunstnijverheid bezat.</html:p>
+          <html:p>Om dit nieuwe bezit in het gebouw te plaatsen moest het museum bijna
+          een heel jaar worden gesloten. Tegeltableau's waren in die tijd in cement
+          ingebed, waardoor de panelen loodzwaar en moeilijk te hanteren waren.</html:p>
+          <html:p>Na de reorganisatie had het interieur een veel grotere samenhang
+          gekregen. Dit interieur is wat betreft het grootste deel van de hal tot heden
+          ongewijzigd gebleven.</html:p>
+          <html:p>Het is ondoenlijk om de kwaliteiten van de verzameling op te noemen.
+          Eigenlijk elke gangbare tegel is erin vertegenwoordigd, al zijn er natuurlijk
+          altijd hiaten bij de meer bijzondere stukken. Het is een wonderlijke wereld van
+          allerlei kleine eigenaardigheden, die pas bij beter bekijken zijn volle
+          aantrekkingskracht krijgt. Elk kostuum, beestje, spelletje is weer anders
+          geschilderd, met de grote vrijheid, waartoe de snelle werkwijze dwong.</html:p>
+          <html:p>Na de Tweede Wereldoorlog werd het directoraat samengevoegd met dat van
+          Het Prinsenhof, dat na een langdurige restauratie in 1948 werd opengesteld als
+          Stedelijk Museum.</html:p>
+          <html:p>De collecties van beide musea zijn niet streng gescheiden, zodat het
+          mogelijk was in "Huis Lambert van Meerten" het karakter van het
+          gebruiksaardewerk (waar ook de tegels toe behoren!) te accentueren, terwijl Het
+          Prinsenhof meer het luxe-aardewerk vertoont.</html:p>
+          <html:p>De enige grotere verandering in recente tijd is de uitbreiding van de
+          centrale verwarming geweest, die werd aangegrepen om ook de collectie wat te
+          reorganiseren.</html:p>
+          <html:p>Er zijn weer portretten in de hal teruggekomen en de tegels zijn beter
+          chronologisch verdeeld. Op de bovenverdieping zijn de beide achterkamers in
+          gebruik genomen. Van deze kamers is de rechtse gewijd aan Delfts aardewerk,
+          terwijl de linkse een soort open dépot is geworden, waar vele vroeger niet
+          getoonde tegels een plaats hebben gevonden. Ook de voorkamer is tot open dépot
+          gemaakt.</html:p>
+          <html:p>Zo is "Huis Lambert van Meerten" geworden tot een museum, dat zowel de
+          smaak van een rijke verzamelaar rond de eeuwwisseling weerspiegelt met een
+          belangrijke collectie bouw- en beeldhouw- fragmenten, als een huis vol tegels,
+          dat op dit zeer Nederlandse gebied vooral in het buitenland terecht befaamd
+          is.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van het Rijksmuseum "Huis Lambert van Meerten", lopende over de
+      periode 1908-1941, bevat chronologisch geordende algemene stukken als jaarverslagen
+      en ingekomen brieven, maar ook archiefmateriaal met informatie over de collectie en
+      exploitatie van het museum: onder meer een inventaris van de verzameling kunst en
+      kunstnijverheid (bestaande uit portretten, bouwfragmenten, aardewerk en een
+      tegelcollectie), stukken betreffende het aankoopbeleid, bruiklenen, gehouden
+      tentoonstellingen en registers met bezoekersaantallen van het museum; daarnaast
+      zijn er diverse veilingcatalogi bewaard gebleven.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>3.80 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>160 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

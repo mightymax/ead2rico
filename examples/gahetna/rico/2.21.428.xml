@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/4983a85b-5562-0ec7-e053-09f0900a69d7"
+  rdf:about="record/2.21.428">
+    <rico:identifier>2.21.428</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2019</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C26" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.428/i1" />
+      <rico:instantiates rdf:resource="record/2.21.428" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van Annie Averink
+        (1913-1991)</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/4983a85b-5562-0ec7-e053-09f0900a69d7" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften. Enkele foto's.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C26">
+    <rico:describedBy rdf:resource="record/2.21.428" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C26</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Averink</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Averink</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1934</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1993</rico:endDate>
+    <rico:date>1934-1993</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hanna Jacoba Averink, 1913-1991 Anita van Ommeren</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>(Onderstaande levensbeschrijving is integraal overgenomen uit het
+          Digitaal Vrouwenlexicon van Nederland. Auteur: Anita van Ommeren. URL:
+          http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Averink
+          [28/09/2019]. © DVN, een project van Huygens ING en OGC [Universiteit van
+          Utrecht])</html:p>
+          <html:p>Hanna Jacoba Averink (geb. Enschede 28-5-1913 – gest. Amsterdam
+          1-2-1991), voorvrouw CPN en kamerlid, actief in het verzet. Dochter van Willem
+          Hendrikus Henlenardus Averink (1885-1957), koopman, later sigarenwinkelier en
+          fotohandelaar, en Geesje Beute (1885-1957), fabrieksarbeidster, winkelierster,
+          pensionhoudster. Annie Averink trouwde (1) op 9-10-1940 in Amsterdam met Cor
+          Fels (1907-1962), elektricien; (2) na echtscheiding (15-4-1946) op 28-1-1948 in
+          Haarlem met Eduard van Ommeren (1914-1990), woninginrichter. Huwelijk (1) bleef
+          kinderloos, uit (2) werden 3 kinderen geboren.</html:p>
+          <html:p>Hanna (Annie) Averink werd geboren als middelste van drie dochters, van
+          wie de andere twee kort na hun geboorte stierven. Haar ouders gingen kort na de
+          dood van het derde kind uit elkaar. Haar moeder hertrouwde in 1918 met de
+          Amsterdammer Johannes Mattheus Klein Sprokkelhorst, met wie zij een ‘winkel van
+          sinkel’ dreef. Er werden nog drie halfzusjes en een halfbroer geboren, met wie
+          Annie later een goede verstandhouding had. Toch voelde ze zich als kind soms
+          niet welkom in het nieuwe gezin – zo vond ze als meisje een brief van haar
+          stiefvader waarin hij haar moeder voorstelde Annie naar een kostschool te
+          sturen. Haar moeder ging daarmee niet akkoord.</html:p>
+          <html:p>Bij de JeugdbondIn 1925 verhuisde het gezin naar Wijk aan Zee, waar
+          Annies moeder en stiefvader pension Ruimzicht begonnen. Toen het pension geen
+          succes bleek, begon Annies stiefvader als vertegenwoordiger van
+          Excelsiorstofzuigers. Het gezin verhuisde in 1926 naar de Indische Buurt in
+          Amsterdam en een paar jaar later naar Betondorp. Op haar dertiende begon Annie
+          met haar eerste baan: ze werd dienstmeisje bij een familie aan de
+          Willemsparkweg, maar liep al snel weg. Hierna werkte ze in diverse ateliers
+          waar lampenkappen werden gemaakt. Omdat Annies moeder vond dat haar dochter ook
+          recht had op ontspanning na het werk, stuurde ze haar naar de Arbeiders Jeugd
+          Centrale (AJC), de jeugdbond van de socialisten. De sfeer daar stond Annie niet
+          aan, en aangetrokken door een affiche van de Communistische Jeugdbond de Zaaier
+          meldde ze zich daar aan.</html:p>
+          <html:p>In 1930 werd de inmiddels zeventienjarige Annie als begeleider van een
+          meisje en een jongen van 14 en 15 jaar uitgezonden naar een internationale
+          ontmoeting van ‘pioniers’ – de jongsten in de communistische jeugdbeweging – in
+          Berlijn. Aan het eind van dat verblijf ging haar reis onverwacht verder: ze
+          reisde alleen met een Russisch schip via Hamburg naar Leningrad, en vandaar
+          verder naar het pionierskamp Artek, destijds een kweekvijver voor jong
+          communistisch talent uit de hele wereld. Aan boord was ook de latere
+          partijleider Paul de Groot, die net als Annie voor het eerst in de Sovjet-Unie
+          was.</html:p>
+          <html:p>Van 1933 tot 1935 werd Annie door de partij uitgezonden naar de
+          Leninschool in Moskou. Behalve het historisch materialisme, de dialectiek en de
+          geschiedenis van de arbeidersbeweging in bolsjewistische stijl omvatte het
+          curriculum illegaal werk en spionage. Ook leerde ze er Russisch. Daarnaast
+          maakte Annie in Moskou kennis met ballet- en operavoorstellingen en een zekere
+          luxe levensstijl. In Moskou begon ze zich ook te verdiepen in de toekomst van
+          Indonesië.</html:p>
+          <html:p>VerzetTerug in Nederland ging Averink weer in een atelier voor
+          lampenkappen werken. Daarnaast was ze actief in de partij. Zo werd ze in 1939
+          verantwoordelijk voor de ‘Gegnerarbeit’ in de Communistische Jeugdbond: het
+          beschermen van de CJB tegen infiltranten. Ook werd ze na het
+          Molotov-Ribbentroppact het land in gestuurd om het verbond van de Sovjet-Unie
+          met nazi-Duitsland uit te leggen. Toen de partij aan het begin van de oorlog
+          een correcte houding tegenover de bezetter eiste vanwege het
+          Molotov-Ribbentroppact, toonde ze zich onafhankelijk: ze vertrouwde het niet en
+          wist Duitse vrienden ervan te overtuigen toch onder te duiken. Ze bracht hen
+          tijdelijk onder bij G.J.M. van het Reve, die ze kende als redacteur van De
+          Tribune maar die met de partijleiding in conflict was. In het najaar van
+          oorlogsjaar 1940 trouwde Annie met partijgenoot Cor Fels. Over dit huwelijk
+          sprak ze na de oorlog als een ‘verstandshuwelijk, dan kon je tenminste iets
+          voor elkaar doen’.</html:p>
+          <html:p>Bij de Februaristaking (1941) was Annie Averink actief: in Amsterdam
+          Zuid verspreidde ze de stakingsoproep. Daarna stopte ze met werken en dook ze
+          onder. Via 28 onderduikadressen wist ze steeds uit handen van de Duitsers te
+          blijven. Ze was onder andere nauw betrokken bij een aantal pogingen om
+          partijgenoten te bevrijden uit het Wilhelmina Gasthuis en uit kamp Vught – dat
+          lukte enkele keren, maar ze waren net te laat om CPN-kopstuk Jan Postma te
+          redden. Ze hield er levenslang nachtmerries aan over.</html:p>
+          <html:p>Na de arrestatie van de partijleiding werd Annie Averink in het
+          voorjaar van 1944 aangesteld om in Haarlem voorman Jaap Brandenburg te
+          vervangen, het netwerk weer op te bouwen en leiding te geven aan het
+          verzetswerk. Behalve voor de verspreiding van De Waarheid en de hulp aan
+          onderduikers was ze verantwoordelijk voor de instructie van het gewapend
+          verzet, onder andere van de groep van Hannie Schaft en Cor Rusman. Ook had ze
+          contact met in Zandvoort gelegerde Georgische militairen in Duitse krijgsdienst
+          die een opstand voorbereidden – ze sprak immers Russisch.</html:p>
+          <html:p>Na de oorlogNa de bevrijding nam Annie Averink deel aan de discussies
+          over de nieuw op te bouwen Communistische Partij. Daarin koos ze steeds de
+          zijde van Paul de Groot. Ze werd lid van het partijbestuur en actief in de
+          Nederlandse Vrouwen Beweging (NVB), hoewel ze niet overtuigd was van de
+          noodzaak van een aparte vrouwenorganisatie. Daarnaast werd ze in de Haarlemse
+          gemeenteraad gekozen. Als lid van de Controle Commissie en vertrouweling van
+          Paul de Groot werd ze een invloedrijk, maar altijd op de achtergrond opererend
+          figuur in de leiding van de CPN.</html:p>
+          <html:p>Averink scheidde van Cor Fels en hertrouwde met Eep van Ommeren, met
+          wie ze drie kinderen kreeg. Als kind had ze gezien hoe de kinderen van de
+          textielbaronnen in Twente door personeel werden verzorgd en ook zijzelf
+          besteedde veel van de zorg aan anderen uit om zich aan het partijwerk te
+          wijden. Ze was vaak op reis. Voor de partij ging ze naar Tsjechoslowakije en de
+          Sovjet-Unie, en in 1949 verbleef ze drie maanden in China. Daar maakte ze
+          constituerende vergaderingen van de Chinese Volksrepubliek mee en legde ze in
+          het diepste geheim contacten met Indonesische communisten (PKI).</html:p>
+          <html:p>De Koude Oorlogssfeer en de grilligheid van de partijlijn drongen ook
+          in het privéleven van Annie Averink door. Eep van Ommeren verloor zijn
+          vertrouwen in de partij toen de Joegoslavische leider Tito van de ene dag op de
+          andere veranderde van een held in een ‘trotskistische boef’, maar uit
+          loyaliteit aan zijn vrouw bleef hij nog tot 1975 lid. Annie Averink bleef
+          loyaal aan Paul de Groot, ook toen zijn positie als partijleider werd
+          aangevochten door CPN-leden die na de onthullingen van Chroesjtsjov ook het
+          stalinistisch leiderschap in Nederland aanvielen. Een en ander leidde tot een
+          pijnlijke breuk met oude kameraden uit de bezettingstijd, onder wie Rie
+          Lips-Odinot, die uit de NVB werd gezet.</html:p>
+          <html:p>Averink zat van 1957 tot 1969 in het parlement: eerst in de Eerste
+          Kamer, van 1966 tot 1967 in de Tweede Kamer en vervolgens weer in de Eerste
+          Kamer. Na het kamerlidmaatschap bleef Averink actief in de NVB. Met de laatste
+          lichtingen CPN-bestuurders onderhield Averink goede contacten, maar de
+          onthullingen van de onbeschrijflijke wantoestanden in het ‘reëel bestaande
+          socialisme’ grepen haar erg aan. Op haar sterfbed moest ze toegeven dat het
+          socialistische ideaal nergens was verwezenlijkt en drukte ze haar kinderen op
+          het hart zich vooral om hun naasten te bekommeren. Annie Averink stierf op 1
+          februari 1991 in het AMC, op 77-jarige leeftijd.</html:p>
+          <html:p>Literatuur• Jolande Withuis, Opoffering en heroïek. De mentale wereld
+          van een Communistische vrouwenorganisatie in naoorlogs Nederland 1946-1976
+          (Amsterdam 1990).• Pauline Senn en Anita van Ommeren, Kameraden (1993)
+          [tv-documentaire IKON].• Jan Willem Stutje, De man die de weg wees. Leven en
+          werk van Paul de Groot 1899-1986 (Amsterdam 2005).</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Hanna Jacoba Averink, 1913-1991 Anita van Ommeren</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>(Onderstaande levensbeschrijving is integraal overgenomen uit het
+          Digitaal Vrouwenlexicon van Nederland. Auteur: Anita van Ommeren. URL:
+          http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Averink
+          [28/09/2019]. © DVN, een project van Huygens ING en OGC [Universiteit van
+          Utrecht])</html:p>
+          <html:p>Hanna Jacoba Averink (geb. Enschede 28-5-1913 – gest. Amsterdam
+          1-2-1991), voorvrouw CPN en kamerlid, actief in het verzet. Dochter van Willem
+          Hendrikus Henlenardus Averink (1885-1957), koopman, later sigarenwinkelier en
+          fotohandelaar, en Geesje Beute (1885-1957), fabrieksarbeidster, winkelierster,
+          pensionhoudster. Annie Averink trouwde (1) op 9-10-1940 in Amsterdam met Cor
+          Fels (1907-1962), elektricien; (2) na echtscheiding (15-4-1946) op 28-1-1948 in
+          Haarlem met Eduard van Ommeren (1914-1990), woninginrichter. Huwelijk (1) bleef
+          kinderloos, uit (2) werden 3 kinderen geboren.</html:p>
+          <html:p>Hanna (Annie) Averink werd geboren als middelste van drie dochters, van
+          wie de andere twee kort na hun geboorte stierven. Haar ouders gingen kort na de
+          dood van het derde kind uit elkaar. Haar moeder hertrouwde in 1918 met de
+          Amsterdammer Johannes Mattheus Klein Sprokkelhorst, met wie zij een ‘winkel van
+          sinkel’ dreef. Er werden nog drie halfzusjes en een halfbroer geboren, met wie
+          Annie later een goede verstandhouding had. Toch voelde ze zich als kind soms
+          niet welkom in het nieuwe gezin – zo vond ze als meisje een brief van haar
+          stiefvader waarin hij haar moeder voorstelde Annie naar een kostschool te
+          sturen. Haar moeder ging daarmee niet akkoord.</html:p>
+          <html:p>Bij de JeugdbondIn 1925 verhuisde het gezin naar Wijk aan Zee, waar
+          Annies moeder en stiefvader pension Ruimzicht begonnen. Toen het pension geen
+          succes bleek, begon Annies stiefvader als vertegenwoordiger van
+          Excelsiorstofzuigers. Het gezin verhuisde in 1926 naar de Indische Buurt in
+          Amsterdam en een paar jaar later naar Betondorp. Op haar dertiende begon Annie
+          met haar eerste baan: ze werd dienstmeisje bij een familie aan de
+          Willemsparkweg, maar liep al snel weg. Hierna werkte ze in diverse ateliers
+          waar lampenkappen werden gemaakt. Omdat Annies moeder vond dat haar dochter ook
+          recht had op ontspanning na het werk, stuurde ze haar naar de Arbeiders Jeugd
+          Centrale (AJC), de jeugdbond van de socialisten. De sfeer daar stond Annie niet
+          aan, en aangetrokken door een affiche van de Communistische Jeugdbond de Zaaier
+          meldde ze zich daar aan.</html:p>
+          <html:p>In 1930 werd de inmiddels zeventienjarige Annie als begeleider van een
+          meisje en een jongen van 14 en 15 jaar uitgezonden naar een internationale
+          ontmoeting van ‘pioniers’ – de jongsten in de communistische jeugdbeweging – in
+          Berlijn. Aan het eind van dat verblijf ging haar reis onverwacht verder: ze
+          reisde alleen met een Russisch schip via Hamburg naar Leningrad, en vandaar
+          verder naar het pionierskamp Artek, destijds een kweekvijver voor jong
+          communistisch talent uit de hele wereld. Aan boord was ook de latere
+          partijleider Paul de Groot, die net als Annie voor het eerst in de Sovjet-Unie
+          was.</html:p>
+          <html:p>Van 1933 tot 1935 werd Annie door de partij uitgezonden naar de
+          Leninschool in Moskou. Behalve het historisch materialisme, de dialectiek en de
+          geschiedenis van de arbeidersbeweging in bolsjewistische stijl omvatte het
+          curriculum illegaal werk en spionage. Ook leerde ze er Russisch. Daarnaast
+          maakte Annie in Moskou kennis met ballet- en operavoorstellingen en een zekere
+          luxe levensstijl. In Moskou begon ze zich ook te verdiepen in de toekomst van
+          Indonesië.</html:p>
+          <html:p>VerzetTerug in Nederland ging Averink weer in een atelier voor
+          lampenkappen werken. Daarnaast was ze actief in de partij. Zo werd ze in 1939
+          verantwoordelijk voor de ‘Gegnerarbeit’ in de Communistische Jeugdbond: het
+          beschermen van de CJB tegen infiltranten. Ook werd ze na het
+          Molotov-Ribbentroppact het land in gestuurd om het verbond van de Sovjet-Unie
+          met nazi-Duitsland uit te leggen. Toen de partij aan het begin van de oorlog
+          een correcte houding tegenover de bezetter eiste vanwege het
+          Molotov-Ribbentroppact, toonde ze zich onafhankelijk: ze vertrouwde het niet en
+          wist Duitse vrienden ervan te overtuigen toch onder te duiken. Ze bracht hen
+          tijdelijk onder bij G.J.M. van het Reve, die ze kende als redacteur van De
+          Tribune maar die met de partijleiding in conflict was. In het najaar van
+          oorlogsjaar 1940 trouwde Annie met partijgenoot Cor Fels. Over dit huwelijk
+          sprak ze na de oorlog als een ‘verstandshuwelijk, dan kon je tenminste iets
+          voor elkaar doen’.</html:p>
+          <html:p>Bij de Februaristaking (1941) was Annie Averink actief: in Amsterdam
+          Zuid verspreidde ze de stakingsoproep. Daarna stopte ze met werken en dook ze
+          onder. Via 28 onderduikadressen wist ze steeds uit handen van de Duitsers te
+          blijven. Ze was onder andere nauw betrokken bij een aantal pogingen om
+          partijgenoten te bevrijden uit het Wilhelmina Gasthuis en uit kamp Vught – dat
+          lukte enkele keren, maar ze waren net te laat om CPN-kopstuk Jan Postma te
+          redden. Ze hield er levenslang nachtmerries aan over.</html:p>
+          <html:p>Na de arrestatie van de partijleiding werd Annie Averink in het
+          voorjaar van 1944 aangesteld om in Haarlem voorman Jaap Brandenburg te
+          vervangen, het netwerk weer op te bouwen en leiding te geven aan het
+          verzetswerk. Behalve voor de verspreiding van De Waarheid en de hulp aan
+          onderduikers was ze verantwoordelijk voor de instructie van het gewapend
+          verzet, onder andere van de groep van Hannie Schaft en Cor Rusman. Ook had ze
+          contact met in Zandvoort gelegerde Georgische militairen in Duitse krijgsdienst
+          die een opstand voorbereidden – ze sprak immers Russisch.</html:p>
+          <html:p>Na de oorlogNa de bevrijding nam Annie Averink deel aan de discussies
+          over de nieuw op te bouwen Communistische Partij. Daarin koos ze steeds de
+          zijde van Paul de Groot. Ze werd lid van het partijbestuur en actief in de
+          Nederlandse Vrouwen Beweging (NVB), hoewel ze niet overtuigd was van de
+          noodzaak van een aparte vrouwenorganisatie. Daarnaast werd ze in de Haarlemse
+          gemeenteraad gekozen. Als lid van de Controle Commissie en vertrouweling van
+          Paul de Groot werd ze een invloedrijk, maar altijd op de achtergrond opererend
+          figuur in de leiding van de CPN.</html:p>
+          <html:p>Averink scheidde van Cor Fels en hertrouwde met Eep van Ommeren, met
+          wie ze drie kinderen kreeg. Als kind had ze gezien hoe de kinderen van de
+          textielbaronnen in Twente door personeel werden verzorgd en ook zijzelf
+          besteedde veel van de zorg aan anderen uit om zich aan het partijwerk te
+          wijden. Ze was vaak op reis. Voor de partij ging ze naar Tsjechoslowakije en de
+          Sovjet-Unie, en in 1949 verbleef ze drie maanden in China. Daar maakte ze
+          constituerende vergaderingen van de Chinese Volksrepubliek mee en legde ze in
+          het diepste geheim contacten met Indonesische communisten (PKI).</html:p>
+          <html:p>De Koude Oorlogssfeer en de grilligheid van de partijlijn drongen ook
+          in het privéleven van Annie Averink door. Eep van Ommeren verloor zijn
+          vertrouwen in de partij toen de Joegoslavische leider Tito van de ene dag op de
+          andere veranderde van een held in een ‘trotskistische boef’, maar uit
+          loyaliteit aan zijn vrouw bleef hij nog tot 1975 lid. Annie Averink bleef
+          loyaal aan Paul de Groot, ook toen zijn positie als partijleider werd
+          aangevochten door CPN-leden die na de onthullingen van Chroesjtsjov ook het
+          stalinistisch leiderschap in Nederland aanvielen. Een en ander leidde tot een
+          pijnlijke breuk met oude kameraden uit de bezettingstijd, onder wie Rie
+          Lips-Odinot, die uit de NVB werd gezet.</html:p>
+          <html:p>Averink zat van 1957 tot 1969 in het parlement: eerst in de Eerste
+          Kamer, van 1966 tot 1967 in de Tweede Kamer en vervolgens weer in de Eerste
+          Kamer. Na het kamerlidmaatschap bleef Averink actief in de NVB. Met de laatste
+          lichtingen CPN-bestuurders onderhield Averink goede contacten, maar de
+          onthullingen van de onbeschrijflijke wantoestanden in het ‘reëel bestaande
+          socialisme’ grepen haar erg aan. Op haar sterfbed moest ze toegeven dat het
+          socialistische ideaal nergens was verwezenlijkt en drukte ze haar kinderen op
+          het hart zich vooral om hun naasten te bekommeren. Annie Averink stierf op 1
+          februari 1991 in het AMC, op 77-jarige leeftijd.</html:p>
+          <html:p>Literatuur• Jolande Withuis, Opoffering en heroïek. De mentale wereld
+          van een Communistische vrouwenorganisatie in naoorlogs Nederland 1946-1976
+          (Amsterdam 1990).• Pauline Senn en Anita van Ommeren, Kameraden (1993)
+          [tv-documentaire IKON].• Jan Willem Stutje, De man die de weg wees. Leven en
+          werk van Paul de Groot 1899-1986 (Amsterdam 2005).</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van Annie Averinks bevat stukken betreffende haar activiteiten
+      in de Communistische Partij Nederland en in de daarmee verbonden Nederlandse
+      Vrouwenbeweging. Het bevat stukken als bestuurlid van de CPN, als lid van de Eerste
+      Kamer en van diverse delegaties naar het buitenland, met name in China vlak na de
+      revolutie van 1949. Haar intensieve banden met de PKI in Indonesië vinden ook hun
+      neerslag in haar archief.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels beperkt openbaar (A).</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>286 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>2,35 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

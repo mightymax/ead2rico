@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/739dd5a3-6a93-2fcd-e053-09f0900a5f0d"
+  rdf:about="record/2.17.35">
+    <rico:identifier>2.17.35</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2017</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/V31" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.17.35/i1" />
+      <rico:instantiates rdf:resource="record/2.17.35" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van het Ruimtelijk Planbureau (RPB)
+        van het Ministerie van Volkshuisvesting, Ruimtelijke Ordening en Milieubeheer,
+        1998-2008</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/739dd5a3-6a93-2fcd-e053-09f0900a5f0d" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten. Geen bijzondere
+        handschriften</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/V31">
+    <rico:describedBy rdf:resource="record/2.17.35" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>V31</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Volkshuisvesting, Ruimtelijke Ordening en
+      Milieubeheer (VROM): Ruimtelijk Planbureau (RPB)</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>VROM / Ruimtelijk Planbureau (RPB)</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1998</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    2008</rico:endDate>
+    <rico:date>1998-2008</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Ruimtelijk Planbureau (RPB), 2002 - 2008</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De oprichting van het Ruimtelijk Planbureau kent een lange
+          voorgeschiedenis. De aanduiding planbureau komt voor het eerst voor in het
+          rapport van de Commissie voorbereiding onderzoek toekomstige
+          maatschappij-structuur (Commissie De Wolff) uit 1970. Deze commissie
+          onderscheidde enkelvoudige facetten van overheidsbeleid (zoals
+          volkshuisvesting, elektriciteitsvoorziening, etc.) en een beperkt aantal
+          meervoudige facetten van overheidsbeleid (zaken van belang voor meerdere
+          sectoren tegelijk, namelijk maatschappelijk en cultureel welzijn,
+          welvaartsbevordering en -verdeling en ruimtelijke ordening). Voor elk facet
+          moest een planbureau de wetenschappelijke beleidsvoorbereiding voor zijn
+          rekening nemen. Voor het maatschappelijk en cultureel welzijn bestond een
+          dergelijk planbureau nog niet in 1970; vandaar dat de Commissie De Wolff de
+          stoot heeft gegeven tot de oprichting van het Sociaal en Cultureel Planbureau.
+          Voor de welvaartsbevordering en -verdeling en de ruimtelijke ordening bestonden
+          al wel instituten, te weten het Centraal Planbureau en de Rijksplanologische
+          Dienst (RPD). De Commissie De Wolff was van mening dat voor een evenwichtige en
+          wetenschappelijk verantwoorde beleidsvoorbereiding een vrije en open
+          gedachtenwisseling met de samenleving via publicaties en de vrije pers
+          noodzakelijk is.</html:p>
+          <html:p>De Rijksplanologische Dienst (RPD) had van oudsher twee soorten taken.
+          Naast de wettelijke taak om de Minister van Volkshuisvesting, Ruimtelijke
+          Ordening en Milieubeheer en zijn taakvoorganger(s) te ondersteunen bij de
+          voorbereiding en uitvoering van het ruimtelijk beleid, fungeerde de RPD tevens
+          als planbureau (Besluit op de ruimtelijke ordening (BRO) 1985, art. 30). In
+          deze hoedanigheid voerde de RPD bijvoorbeeld ruimtelijke verkenningen uit. In
+          de jaren voor 2002 werd in toenemende mate kritiek geuit op het combineren van
+          deze verkennende functie met de beleidsvoorbereidende en uitvoerende taken in
+          één dienst, temeer nu bij de RPD de beleidstaken steeds zwaarder gingen
+          wegen.</html:p>
+          <html:p>De Wetenschappelijke Raad voor het Regeringsbeleid (WRR) constateerde
+          in 1998 (Advies Ruimtelijke Ontwikkelingspolitiek) dat er in Nederland behoefte
+          was aan een ruimtelijke denktank die verschillende opties voor ruimtelijk en
+          politiek beleid zou uitwerken en daarmee zichtbaar zou maken wat de ruimtelijke
+          consequenties waren van verschillende handelingsvarianten en van niet-handelen.
+          Zo’n ruimtelijke denktank zou de functie moeten hebben de politieke discussie
+          vanuit een eigen onafhankelijke positie te begeleiden. Deze onafhankelijkheid
+          was, volgens de WRR, niet te combineren met een beleidsdienst die direct
+          verbonden was aan de beleidspraktijk.</html:p>
+          <html:p>In juni 2000 verscheen het rapport ’Notie van Ruimte’ van de Tweede
+          Kamer Werkgroep Vijfde Nota Ruimtelijke Ordening, onder voorzitterschap van
+          Kamerlid A. Duivesteijn. Hierin stelde de werkgroep (blz. 297) dat de
+          oprichting van een onafhankelijk Nationaal Ruimtelijk Planbureau noodzakelijk
+          was. Dit planbureau moest de processen in de ruimte monitoren en verkennen
+          (bijvoorbeeld in de vorm van scenario's) en de effecten van nieuw en bestaand
+          beleid doorrekenen. Daarnaast kon het gaan functioneren als kenniscentrum voor
+          de ruimtelijke ordening. Als directoraat-generaal kon de RPD zich dan
+          ontplooien als een normale beleidsdienst, die zich richtte op formulering,
+          operationalisering, implementatie en handhaving van het ruimtelijk beleid. Naar
+          aanleiding van het rapport werd op 26 september 2000 een motie aangenomen,
+          waarin het kabinet werd verzocht .... ’de aanbevelingen op hoofdlijnen te
+          betrekken bij de Vijfde Nota Ruimtelijke Ordening en op korte termijn met een
+          nader voorstel te komen inzake de oprichting van een onafhankelijk nationaal
+          Ruimtelijk Planbureau’.</html:p>
+          <html:p>De minister van VROM reageerde positief op deze adviezen hetgeen
+          resulteerde in de oprichting van het Ruimtelijk Planbureau (RPB) op 1 januari
+          2002. Het planbureau verrichtte onderzoek naar de maatschappelijke
+          ontwikkelingen die aan de ruimtelijke ontwikkelingen ten grondslag lagen en
+          verzamelde daarnaast kennis bij andere planbureaus en instellingen. Omdat tal
+          van sociale, demografische, economische, technologische en culturele
+          ontwikkelingen verreikende gevolgen hadden voor het gebruik van de ruimte
+          richtte het onderzoek van de RPB zich op een breed spectrum aan onderwerpen:
+          van sociaal-economische, ruimtelijk-economische en sociaal-culturele tot
+          planologische en stedenbouwkundige thema’s. Het RPB hield zich vooral bezig met
+          de ruimtelijke ontwikkelingen in het algemeen en met de ruimte voor wonen,
+          werken en mobiliteit in het bijzonder. Het RPB werkte regelmatig samen in
+          onderzoeksprojecten met andere onderzoeksinstellingen. Daartoe werden dan
+          samenwerkingsovereenkomsten afgesloten. In een aantal van die
+          onderzoeksprojecten ontwikkelde het RPB al dan niet in samenwerking met andere
+          partijen modellen. Deze modellen waren van groot belang voor het doen van
+          prognoses op het terrein van wonen, mobiliteit, en bedrijvigheid: allemaal
+          terreinen die ruimtelijk relevant zijn. Voorts verwierf het Planbureau data,
+          statistische gegevens en modellen bij andere al dan niet commercieel werkende
+          onderzoeksinstellingen. Een Datacommissie, die werd samengesteld uit
+          vertegenwoordigers van de verschillende geledingen van de organisatie,
+          adviseerde hierover. Er werd gewerkt aan een datastrategie die nauw aan het
+          werkprogramma was verbonden en die als referentiekader kon dienen bij de
+          afweging van de investeringen. De Datacommissie besliste welke data voor
+          RPB-brede doeleinden werden aangeschaft. Het RPB werd zo het nationale
+          kennisinstituut voor de ruimte.</html:p>
+          <html:p>Het Ruimtelijk Planbureau (RPB) leverde aan regering, parlement en
+          decentrale overheden gegevens over de ruimtelijke ontwikkelingen in Nederland.
+          Het Planbureau volgde en maakte analyses van deze ontwikkelingen en leverde
+          hiermee een bijdrage aan het publieke debat. De bevindingen van het RPB werden
+          in openbare rapporten gepubliceerd.</html:p>
+          <html:p>Samenvattend waren de taken van het RPB: Het vanuit een onafhankelijke
+          positie bijdragen aan een betere besluitvorming en beleidsontwikkeling op het
+          gebied van de ruimtelijke ordening. Hiertoe worden ruimtelijke relevante
+          maatschappelijke ontwikkelingen gesignaleerd en verkend, mede ten behoeve van
+          prognoses en toekomstverkenningen; daarnaast worden ruimtelijke ontwikkelingen
+          gemonitord en ruimtelijk relevant rijksbeleid en besluitvormingsprocessen door
+          overheden en marktpartijen geanalyseerd; tenslotte worden modellen,
+          beleidsvarianten en scenario’s ontwikkeld; Het doen van onderzoek naar de
+          ruimtelijke ontwikkelingen in Nederland; Het geven van adviezen aan ministeries
+          en andere (overheids)instanties; Het verwerven en bewerken van data voor het
+          onderzoek naar de ruimtelijke ontwikkeling; Het uitdragen van kennis en visie
+          in publicaties, bijeenkomsten en websites.</html:p>
+          <html:p>Naast het Planbureau werd het Begeleidingscollege Ruimtelijk Planbureau
+          ingesteld, een gremium bestaande uit een voorzitter en ten hoogste zes leden,
+          waarvan twee leden werden voorgedragen door de Koninklijke Nederlandse Academie
+          van Wetenschappen (KNAW), vier leden gezamenlijk door het Centraal Plan Bureau
+          (CPB), het Sociaal Cultureel Planbureau (SCP), het Centraal Bureau voor de
+          Statistiek (CBS) en het Rijks Instituut voor Volksgezondheid en Milieu (RIVM).
+          Het Begeleidingscollege had tot taak het wetenschappelijk niveau van het
+          onderzoek en het werkprogramma van het Ruimtelijk Planbureau te
+          toetsen.</html:p>
+          <html:p>Op 15 mei 2008 besloot het kabinet de functies van het RPB en het
+          Milieu- en Natuurplanbureau (MNP) onder te brengen in één nieuwe organisatie
+          met de naam Planbureau voor de Leefomgeving (PBL).</html:p>
+          <html:p>Bron: Staatsalmanakken 2002-2008; Kamerstuk 27679 nr. 1 van 24 april
+          2001 (vergaderjaar 2000-2001) inzake de oprichting van het Ruimtelijk
+          Planbureau; TOCO.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat vergaderverslagen, projectdossiers, onderzoeksresultaten,
+      jaarplannen en adviezen</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het Auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>282 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>5,70 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

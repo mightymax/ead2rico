@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/6e94d2d3-ee43-6c0f-e053-09f0900a7754"
+  rdf:about="record/2.21.305">
+    <rico:identifier>2.21.305</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    2013</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/C27021" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.21.305/i1" />
+      <rico:instantiates rdf:resource="record/2.21.305" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van prof.dr. E.H.P. (Han) Baudet
+        [levensjaren 1919-1998], 1948-1998</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/6e94d2d3-ee43-6c0f-e053-09f0900a7754" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>normale geschreven, getypte en gedrukte documenten, op beperkte schaal
+        foto’s; één charter.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/C27021">
+    <rico:describedBy rdf:resource="record/2.21.305" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>C27021</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie 089 H. Baudet</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Baudet, H.</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1948</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1998</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 1948-1998</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>E.H.P. Baudet, 1919-1998S.B.J. Baudet, geb. Goverts, 1924-E.L.A.
+            Enklaar van Guericke wed. Baudet geb. van Heemskerck, 1890-1971</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ernest Henri Philippe Baudet, roepnaam Han, werd op 29 januari 1919 te
+          Den Haag geboren als zoon van Pierre Joseph Henry Baudet (Baarn 22 januari
+          1891-Den Haag 25 december 1921)
+          http://bwnw.cwi-incubator.nl/cgi-bin/uncgi/toon?nr=2&amp;ftnr=1. en Ernestine
+          Louise Augusta van Heemskerck (Soerabaja 15 september 1890-Den Haag 26 maart
+          1971).
+          http://www.stamboomforum.nl/subfora/127/2/22213/0/indische_genealogie_families_david_von_franquemont.
+          Zijn moeder hertrouwde in 1924 met dr. F.A. Enklaar van Guericke (1867-1934).
+          Han Baudet huwde op 27 januari 1945 te Den Haag de neerlandica Senta Bernadina
+          Johanna Goverts (* Den Haag 4 mei 1924). Uit hun huwelijk sproten drie zoons,
+          Gilbert (1945-2012), Rémy (1947) en Marcel (1951) en een dochter Michèle
+          (1958). Van de 'in memoriams' die na het overlijden van Han Baudet, op 16
+          december 1998 te Leiden, zijn verschenen, is het uitvoerige 'levensbericht' van
+          de hand van prof.dr. C. Fasseur wel het meest doorwrochte en voor deze
+          biografische schets dankbaar gebruikt. C. Fasseur, 'Ernest Henri Philippe
+          Baudet, 's Gravenhage 29 januari 1919 - Leiden 16 december 1998', Jaarboek van
+          de Maatschappij der Nederlandse Letterkunde te Leiden 1998-1999 (Leiden 2000)
+          39-44, ook beschikbaar op
+          http://www.dbnl.org/tekst/_jaa003199901_01/_jaa003199901_01_0003.php.</html:p>
+          <html:p>Han Baudet deed in 1938 eindexamen aan de Tweede Gemeentelijke HBS aan
+          de Stadhouderslaan te Den Haag. Inv. nr. 315, sollicitatiebrief aan het
+          Institut Néerlandais te Parijs, 1955 Hij ging daarna in Leiden studeren, eerst
+          in het vak dat zijn jong gestorven vader daar als hoogleraar had gedoceerd en
+          waarin ook andere voorzaten al hadden geëxerceerd, wiskunde. Fasseur, 'Baudet',
+          40. In 1939 vatte hij de studie der geschiedenis op na het daarvoor vereiste
+          staatsexamen klassieke talen met succes te hebben afgelegd. Fasseur, 'Baudet',
+          40; inv.nr. 116 (curriculum vitae). Zijn belangrijkste leermeester werd er
+          Johan Huizinga, met wie hij het contact handhaafde ook toen de Duitse bezetter
+          de universiteit had stilgelegd en Huizinga na een gijzelaarschap in St.
+          Michielsgestel in De Steeg was neergestreken. Inv.nrs. 4-6, 304
+          (correspondentie met Huizinga) Baudet behaalde in 1942 zijn kandidaats nog net
+          voordat van studenten de 'loyaliteitsverklaring' werd gevergd. Daarna deed hij
+          'clandestiene' tentamina die hem in staat stelden om kort na de bevrijding zijn
+          doctoraal examen af te leggen, met hoofdvak oude geschiedenis. Al in de
+          oorlogsjaren was hij begonnen met de voorbereiding van een dissertatie, die hij
+          in 1948 met succes verdedigde onder de titel Onderzoekingen over het systeem
+          der Middeleeuwsche geschiedbeschouwing, een studie over Ernst Bernheim's
+          'Mittelalterliche Zeitanschauungen' (z.pl. 1948). Fasseur, 'Baudet', 40;
+          inv.nr. 315, sollicitatiebrief.</html:p>
+          <html:p>Ook al in de oorlogsjaren was Baudet als leraar geschiedenis verbonden
+          geraakt aan de particuliere kostschool 'Instituut Wullings' te Voorschoten
+          (vijfjarige HBS-cursus) en aan het Vrijzinnig Christelijk Lyceum te Den Haag.
+          Hij raakte bovendien betrokken bij illegale activiteiten, daaronder de redactie
+          van het illegale blad 'De Koerier'. Langs die weg kwam hij in contact met de
+          door de bezetter ontslagen directeur van het Algemeen Nederlands Persbureau
+          (ANP), H.H.J. (Herman) van de Pol, die een 'illegaal ANP' had opgezet ten
+          behoeve van het verzet. Toen Van de Pol in 1945 de leiding van het ANP
+          hervatte, recruteerde hij daar Baudet, die er van redacteur buitenland al
+          spoedig opsteeg tot chef van de redactie-afdeling Overzeese Gebiedsdelen. Als
+          zodanig maakte hij de hectische tijd mee van de Nederlandse dekolonisatie in
+          Indonesië, het land van zijn moeder. Die ervaring zou hem nooit meer
+          loslaten.</html:p>
+          <html:p>In 1948 zegde Baudet het ANP vaarwel om weer leraar te worden, nu aan
+          het Nederlandsch Lyceum te Den Haag. Naar hijzelf in 1955 schreef werd die stap
+          ingegeven om tijd te vinden voor reflectie na de kijk in de keuken van de
+          politiek die zijn ANP-jaren hem hadden vergund. In zijn bibliografie zijn de
+          vruchten van die bezinning al spoedig zichtbaar. Fasseur, 'Baudet', 39-41,
+          inv.nr. 315, sollicitatiebrief, 33-34 (illegale pers), inv.nrs. 305, 318-321,
+          327-329, 333, (correspondentie Van de Pol), inv.nrs. 35-47, 280
+          (bibliografieën), 48-49 (Nederlands Lyceum). Diezelfde reflectie leidde ook tot
+          bezinning op zijn 'Franse' origines, teruggaand op de Pierre Joseph Baudet
+          (1778-1858) die vanuit Braine-le-Comte (Henegouwen) op de vlucht voor de Franse
+          conscriptie in de Nederlanden was beland en als onderwijzer, met name in
+          wiskunde en Frans, werkzaam was geweest in Deventer, Leeuwarden en Vaassen.
+          http://books.google.nl/books?id=AubjRfO0uuoC&amp;pg=PA251&amp;lpg=PA251&amp;dq=pierre+joseph+baudet+1778&amp;source=bl&amp;ots=7kSAnK9L6M&amp;sig=iMYFDaKajtiiww9iF786uF4hV7A&amp;hl=nl&amp;ei=1RXZTNe4MYSUOufG5JUJ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=8&amp;ved=0CDAQ6AEwBw#v=onepage&amp;q=pierre%20joseph%20baudet%201778&amp;f=false.</html:p>
+          <html:p>In 1953-1954 verbleef het gezin Baudet in Frankrijk waar Han als
+          stipendiaat van de Nederlandse Organisatie voor Zuiver Wetenschappelijk
+          Onderzoek (ZWO) onder supervisie van André Siegfried een studie zou verrichten
+          naar het beeld van Frankrijk in de 19e-eeuwse literatuur. Een publicatie
+          daarover heeft Baudet decennialang op zijn programma gehouden maar niet het
+          licht doen zien. Fasseur, 'Baudet', 41, inv.nrs. 59, 61-63, 70, 72-74, 77, 281.
+          Wel leidde zijn 'Franse tijd' in 1955 tot Mijn dorp in Frankrijk , een veel
+          geprezen, sociologisch getinte maar vooral literaire impressie van het dorp St.
+          Soupplets, ca. 50 km. ten noord-oosten van Parijs, waar hij en zijn gezin een
+          jaar hadden verbleven. Het toonde zijn woordkunst die hem eerder wel eens
+          hadden doen denken aan een literaire carrière. Inv.nrs. 50-52, 235-236, 313,
+          237, 291-292, 303, 324, 329-330, 332. In concreto baande het echter zijn weg
+          naar het Groningse ordinariaat in de economische en sociale
+          geschiedenis.</html:p>
+          <html:p>Met zijn Het paradijs op aarde, gedachten over de verhouding van de
+          Europese tot de buiten-Europese mens (1959) en vervolgens door het
+          redactiewerk, samen met I.J. Brugmans, van de bundel Balans van beleid,
+          terugblik op de laatste halve eeuw van Nederlandsch-Indië (1961) keerde Baudet
+          terug tot de 'Indische' thematiek van zijn ANP-jaren. In de inleiding op Balans
+          van beleid formuleerde hij als centrale vraag 'waar de dingen zijn misgegaan en
+          waarom' - dát 'de dingen waren misgegaan' stond blijkbaar buiten kijf voor hem.
+          Ruim twintig jaar later redigeerde hij met M. Fennema Het Nederlands belang bij
+          Indië , dat graviteerde rondom de vraag of 'Indië inderdaad de kurk was geweest
+          waarop wij hadden gedreven'. Voordien was en nadien bleef 'Indië' met
+          variërende accenten een grondtoon van zijn publicistiek en bracht hem in de
+          jaren-'70 zelfs tot het voorzitterschap van het Landelijk Aktie Komité
+          Zuid-Molukken (LAK). Zie ***</html:p>
+          <html:p>De stap van economische en sociale geschiedenis naar de relaties tussen
+          'de mens' en zijn 'producten' is geen onbegrijpelijke. Als Gronings hoogleraar
+          hield Baudet niet alleen talloze spreekbeurten voor uiteenlopende gezelschappen
+          toehoorders, maar doceerde hij ook regelmatig elders (Utrecht, Den Haag). Op
+          uitnodiging van prof.ir. G.J. van der Grinten, grondlegger van de
+          studierichting Industriële Vormgeving die in 1969 formeel werd erkend, gaf
+          Baudet voor het eerst in 1965 enkele gastcolleges in Delft. Hij raakte
+          geleidelijk nauwer betrokken bij de studierichting om er in 1982 tot bijzonder
+          hoogleraar 'mens-/productrelaties' te worden benoemd. Inv.nr. 173. In zijn
+          latere publicistiek is Baudets belangstelling voor de mens in relatie tot zijn
+          producten, product- en innovatiegeschiedenis duidelijk waarneembaar. Zo
+          verscheen in 1986 zijn Een vertrouwde wereld, 100 jaar innovatie in Nederland
+          en in 1986 samen met Paul Mijksenaar Nooit bij stilgestaan .</html:p>
+          <html:p>Na Baudets afscheid van zijn universiteiten, in 1984 Groningen en in
+          1987 Delft, zette hij zich aan wat één van zijn grotere werken, zo niet zijn
+          magnum opus zou worden, de geschiedschrijving van de Technische Universiteit
+          Delft die in 1992 (met een tweede deel in 1993) het licht zag als De lange weg
+          naar de Technische Universiteit Delft, de Delftse ingenieursschool en haar
+          voorgeschiedenis . Ook nadien bleef Baudet schrijvend en sprekend actief. Een
+          dag na zijn laatste lezing (op 10 oktober) over het verschijnsel tijd - waaraan
+          hij in 1987 ook al zijn Delftse afscheidscollege De maat van alle dingen had
+          gewijd - trof hem een hart- en twaalf dagen later een herseninfarct. De
+          tussentijd besteedde hij aan de uitwerking van zijn lezing tot Aspecten van
+          tijd dat hij had bedoeld als geschenk voor vrienden en collega's bij zijn
+          tachtigste verjaardag. 44 dagen voor het zover was haalde de tijd hem echter
+          in, zijn laatste geschrift werd posthuum bezorgd door zijn jongste zoon. H.
+          Baudet, Aspecten van tijd (Den Haag 1998) 5, 27-28. Baudets archief maakt ook
+          duidelijk dat zijn plannen om ooit een geschrift te wijden aan J.W. Meyer
+          Ranneft, met wie hij in het tijdvak 1948-1966 intensief had gecorrespondeerd en
+          ook anderszins contact onderhouden, door zijn heengaan zijn doorkruist.
+          Inv.nrs. 358-375.</html:p>
+          <html:p>Naast zijn dagelijkse werkzaamheden en publicistiek was Baudet een
+          gepassioneerd schaker en cellist. Ook daarvan getuigt zijn archief in
+          bescheiden mate. Vijf jaar na zijn overlijden werd aan de TU Delft, Faculty of
+          Industrial Design Engineering, het Henri Baudet Institute for design,
+          historical research and consultancy opgericht.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>E.H.P. Baudet, 1919-1998S.B.J. Baudet, geb. Goverts, 1924-E.L.A.
+            Enklaar van Guericke wed. Baudet geb. van Heemskerck, 1890-1971</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ernest Henri Philippe Baudet, roepnaam Han, werd op 29 januari 1919 te
+          Den Haag geboren als zoon van Pierre Joseph Henry Baudet (Baarn 22 januari
+          1891-Den Haag 25 december 1921)
+          http://bwnw.cwi-incubator.nl/cgi-bin/uncgi/toon?nr=2&amp;ftnr=1. en Ernestine
+          Louise Augusta van Heemskerck (Soerabaja 15 september 1890-Den Haag 26 maart
+          1971).
+          http://www.stamboomforum.nl/subfora/127/2/22213/0/indische_genealogie_families_david_von_franquemont.
+          Zijn moeder hertrouwde in 1924 met dr. F.A. Enklaar van Guericke (1867-1934).
+          Han Baudet huwde op 27 januari 1945 te Den Haag de neerlandica Senta Bernadina
+          Johanna Goverts (* Den Haag 4 mei 1924). Uit hun huwelijk sproten drie zoons,
+          Gilbert (1945-2012), Rémy (1947) en Marcel (1951) en een dochter Michèle
+          (1958). Van de 'in memoriams' die na het overlijden van Han Baudet, op 16
+          december 1998 te Leiden, zijn verschenen, is het uitvoerige 'levensbericht' van
+          de hand van prof.dr. C. Fasseur wel het meest doorwrochte en voor deze
+          biografische schets dankbaar gebruikt. C. Fasseur, 'Ernest Henri Philippe
+          Baudet, 's Gravenhage 29 januari 1919 - Leiden 16 december 1998', Jaarboek van
+          de Maatschappij der Nederlandse Letterkunde te Leiden 1998-1999 (Leiden 2000)
+          39-44, ook beschikbaar op
+          http://www.dbnl.org/tekst/_jaa003199901_01/_jaa003199901_01_0003.php.</html:p>
+          <html:p>Han Baudet deed in 1938 eindexamen aan de Tweede Gemeentelijke HBS aan
+          de Stadhouderslaan te Den Haag. Inv. nr. 315, sollicitatiebrief aan het
+          Institut Néerlandais te Parijs, 1955 Hij ging daarna in Leiden studeren, eerst
+          in het vak dat zijn jong gestorven vader daar als hoogleraar had gedoceerd en
+          waarin ook andere voorzaten al hadden geëxerceerd, wiskunde. Fasseur, 'Baudet',
+          40. In 1939 vatte hij de studie der geschiedenis op na het daarvoor vereiste
+          staatsexamen klassieke talen met succes te hebben afgelegd. Fasseur, 'Baudet',
+          40; inv.nr. 116 (curriculum vitae). Zijn belangrijkste leermeester werd er
+          Johan Huizinga, met wie hij het contact handhaafde ook toen de Duitse bezetter
+          de universiteit had stilgelegd en Huizinga na een gijzelaarschap in St.
+          Michielsgestel in De Steeg was neergestreken. Inv.nrs. 4-6, 304
+          (correspondentie met Huizinga) Baudet behaalde in 1942 zijn kandidaats nog net
+          voordat van studenten de 'loyaliteitsverklaring' werd gevergd. Daarna deed hij
+          'clandestiene' tentamina die hem in staat stelden om kort na de bevrijding zijn
+          doctoraal examen af te leggen, met hoofdvak oude geschiedenis. Al in de
+          oorlogsjaren was hij begonnen met de voorbereiding van een dissertatie, die hij
+          in 1948 met succes verdedigde onder de titel Onderzoekingen over het systeem
+          der Middeleeuwsche geschiedbeschouwing, een studie over Ernst Bernheim's
+          'Mittelalterliche Zeitanschauungen' (z.pl. 1948). Fasseur, 'Baudet', 40;
+          inv.nr. 315, sollicitatiebrief.</html:p>
+          <html:p>Ook al in de oorlogsjaren was Baudet als leraar geschiedenis verbonden
+          geraakt aan de particuliere kostschool 'Instituut Wullings' te Voorschoten
+          (vijfjarige HBS-cursus) en aan het Vrijzinnig Christelijk Lyceum te Den Haag.
+          Hij raakte bovendien betrokken bij illegale activiteiten, daaronder de redactie
+          van het illegale blad 'De Koerier'. Langs die weg kwam hij in contact met de
+          door de bezetter ontslagen directeur van het Algemeen Nederlands Persbureau
+          (ANP), H.H.J. (Herman) van de Pol, die een 'illegaal ANP' had opgezet ten
+          behoeve van het verzet. Toen Van de Pol in 1945 de leiding van het ANP
+          hervatte, recruteerde hij daar Baudet, die er van redacteur buitenland al
+          spoedig opsteeg tot chef van de redactie-afdeling Overzeese Gebiedsdelen. Als
+          zodanig maakte hij de hectische tijd mee van de Nederlandse dekolonisatie in
+          Indonesië, het land van zijn moeder. Die ervaring zou hem nooit meer
+          loslaten.</html:p>
+          <html:p>In 1948 zegde Baudet het ANP vaarwel om weer leraar te worden, nu aan
+          het Nederlandsch Lyceum te Den Haag. Naar hijzelf in 1955 schreef werd die stap
+          ingegeven om tijd te vinden voor reflectie na de kijk in de keuken van de
+          politiek die zijn ANP-jaren hem hadden vergund. In zijn bibliografie zijn de
+          vruchten van die bezinning al spoedig zichtbaar. Fasseur, 'Baudet', 39-41,
+          inv.nr. 315, sollicitatiebrief, 33-34 (illegale pers), inv.nrs. 305, 318-321,
+          327-329, 333, (correspondentie Van de Pol), inv.nrs. 35-47, 280
+          (bibliografieën), 48-49 (Nederlands Lyceum). Diezelfde reflectie leidde ook tot
+          bezinning op zijn 'Franse' origines, teruggaand op de Pierre Joseph Baudet
+          (1778-1858) die vanuit Braine-le-Comte (Henegouwen) op de vlucht voor de Franse
+          conscriptie in de Nederlanden was beland en als onderwijzer, met name in
+          wiskunde en Frans, werkzaam was geweest in Deventer, Leeuwarden en Vaassen.
+          http://books.google.nl/books?id=AubjRfO0uuoC&amp;pg=PA251&amp;lpg=PA251&amp;dq=pierre+joseph+baudet+1778&amp;source=bl&amp;ots=7kSAnK9L6M&amp;sig=iMYFDaKajtiiww9iF786uF4hV7A&amp;hl=nl&amp;ei=1RXZTNe4MYSUOufG5JUJ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=8&amp;ved=0CDAQ6AEwBw#v=onepage&amp;q=pierre%20joseph%20baudet%201778&amp;f=false.</html:p>
+          <html:p>In 1953-1954 verbleef het gezin Baudet in Frankrijk waar Han als
+          stipendiaat van de Nederlandse Organisatie voor Zuiver Wetenschappelijk
+          Onderzoek (ZWO) onder supervisie van André Siegfried een studie zou verrichten
+          naar het beeld van Frankrijk in de 19e-eeuwse literatuur. Een publicatie
+          daarover heeft Baudet decennialang op zijn programma gehouden maar niet het
+          licht doen zien. Fasseur, 'Baudet', 41, inv.nrs. 59, 61-63, 70, 72-74, 77, 281.
+          Wel leidde zijn 'Franse tijd' in 1955 tot Mijn dorp in Frankrijk , een veel
+          geprezen, sociologisch getinte maar vooral literaire impressie van het dorp St.
+          Soupplets, ca. 50 km. ten noord-oosten van Parijs, waar hij en zijn gezin een
+          jaar hadden verbleven. Het toonde zijn woordkunst die hem eerder wel eens
+          hadden doen denken aan een literaire carrière. Inv.nrs. 50-52, 235-236, 313,
+          237, 291-292, 303, 324, 329-330, 332. In concreto baande het echter zijn weg
+          naar het Groningse ordinariaat in de economische en sociale
+          geschiedenis.</html:p>
+          <html:p>Met zijn Het paradijs op aarde, gedachten over de verhouding van de
+          Europese tot de buiten-Europese mens (1959) en vervolgens door het
+          redactiewerk, samen met I.J. Brugmans, van de bundel Balans van beleid,
+          terugblik op de laatste halve eeuw van Nederlandsch-Indië (1961) keerde Baudet
+          terug tot de 'Indische' thematiek van zijn ANP-jaren. In de inleiding op Balans
+          van beleid formuleerde hij als centrale vraag 'waar de dingen zijn misgegaan en
+          waarom' - dát 'de dingen waren misgegaan' stond blijkbaar buiten kijf voor hem.
+          Ruim twintig jaar later redigeerde hij met M. Fennema Het Nederlands belang bij
+          Indië , dat graviteerde rondom de vraag of 'Indië inderdaad de kurk was geweest
+          waarop wij hadden gedreven'. Voordien was en nadien bleef 'Indië' met
+          variërende accenten een grondtoon van zijn publicistiek en bracht hem in de
+          jaren-'70 zelfs tot het voorzitterschap van het Landelijk Aktie Komité
+          Zuid-Molukken (LAK). Zie ***</html:p>
+          <html:p>De stap van economische en sociale geschiedenis naar de relaties tussen
+          'de mens' en zijn 'producten' is geen onbegrijpelijke. Als Gronings hoogleraar
+          hield Baudet niet alleen talloze spreekbeurten voor uiteenlopende gezelschappen
+          toehoorders, maar doceerde hij ook regelmatig elders (Utrecht, Den Haag). Op
+          uitnodiging van prof.ir. G.J. van der Grinten, grondlegger van de
+          studierichting Industriële Vormgeving die in 1969 formeel werd erkend, gaf
+          Baudet voor het eerst in 1965 enkele gastcolleges in Delft. Hij raakte
+          geleidelijk nauwer betrokken bij de studierichting om er in 1982 tot bijzonder
+          hoogleraar 'mens-/productrelaties' te worden benoemd. Inv.nr. 173. In zijn
+          latere publicistiek is Baudets belangstelling voor de mens in relatie tot zijn
+          producten, product- en innovatiegeschiedenis duidelijk waarneembaar. Zo
+          verscheen in 1986 zijn Een vertrouwde wereld, 100 jaar innovatie in Nederland
+          en in 1986 samen met Paul Mijksenaar Nooit bij stilgestaan .</html:p>
+          <html:p>Na Baudets afscheid van zijn universiteiten, in 1984 Groningen en in
+          1987 Delft, zette hij zich aan wat één van zijn grotere werken, zo niet zijn
+          magnum opus zou worden, de geschiedschrijving van de Technische Universiteit
+          Delft die in 1992 (met een tweede deel in 1993) het licht zag als De lange weg
+          naar de Technische Universiteit Delft, de Delftse ingenieursschool en haar
+          voorgeschiedenis . Ook nadien bleef Baudet schrijvend en sprekend actief. Een
+          dag na zijn laatste lezing (op 10 oktober) over het verschijnsel tijd - waaraan
+          hij in 1987 ook al zijn Delftse afscheidscollege De maat van alle dingen had
+          gewijd - trof hem een hart- en twaalf dagen later een herseninfarct. De
+          tussentijd besteedde hij aan de uitwerking van zijn lezing tot Aspecten van
+          tijd dat hij had bedoeld als geschenk voor vrienden en collega's bij zijn
+          tachtigste verjaardag. 44 dagen voor het zover was haalde de tijd hem echter
+          in, zijn laatste geschrift werd posthuum bezorgd door zijn jongste zoon. H.
+          Baudet, Aspecten van tijd (Den Haag 1998) 5, 27-28. Baudets archief maakt ook
+          duidelijk dat zijn plannen om ooit een geschrift te wijden aan J.W. Meyer
+          Ranneft, met wie hij in het tijdvak 1948-1966 intensief had gecorrespondeerd en
+          ook anderszins contact onderhouden, door zijn heengaan zijn doorkruist.
+          Inv.nrs. 358-375.</html:p>
+          <html:p>Naast zijn dagelijkse werkzaamheden en publicistiek was Baudet een
+          gepassioneerd schaker en cellist. Ook daarvan getuigt zijn archief in
+          bescheiden mate. Vijf jaar na zijn overlijden werd aan de TU Delft, Faculty of
+          Industrial Design Engineering, het Henri Baudet Institute for design,
+          historical research and consultancy opgericht.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>E.H.P. Baudet, 1919-1998S.B.J. Baudet, geb. Goverts, 1924-E.L.A.
+            Enklaar van Guericke wed. Baudet geb. van Heemskerck, 1890-1971</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Ernest Henri Philippe Baudet, roepnaam Han, werd op 29 januari 1919 te
+          Den Haag geboren als zoon van Pierre Joseph Henry Baudet (Baarn 22 januari
+          1891-Den Haag 25 december 1921)
+          http://bwnw.cwi-incubator.nl/cgi-bin/uncgi/toon?nr=2&amp;ftnr=1. en Ernestine
+          Louise Augusta van Heemskerck (Soerabaja 15 september 1890-Den Haag 26 maart
+          1971).
+          http://www.stamboomforum.nl/subfora/127/2/22213/0/indische_genealogie_families_david_von_franquemont.
+          Zijn moeder hertrouwde in 1924 met dr. F.A. Enklaar van Guericke (1867-1934).
+          Han Baudet huwde op 27 januari 1945 te Den Haag de neerlandica Senta Bernadina
+          Johanna Goverts (* Den Haag 4 mei 1924). Uit hun huwelijk sproten drie zoons,
+          Gilbert (1945-2012), Rémy (1947) en Marcel (1951) en een dochter Michèle
+          (1958). Van de 'in memoriams' die na het overlijden van Han Baudet, op 16
+          december 1998 te Leiden, zijn verschenen, is het uitvoerige 'levensbericht' van
+          de hand van prof.dr. C. Fasseur wel het meest doorwrochte en voor deze
+          biografische schets dankbaar gebruikt. C. Fasseur, 'Ernest Henri Philippe
+          Baudet, 's Gravenhage 29 januari 1919 - Leiden 16 december 1998', Jaarboek van
+          de Maatschappij der Nederlandse Letterkunde te Leiden 1998-1999 (Leiden 2000)
+          39-44, ook beschikbaar op
+          http://www.dbnl.org/tekst/_jaa003199901_01/_jaa003199901_01_0003.php.</html:p>
+          <html:p>Han Baudet deed in 1938 eindexamen aan de Tweede Gemeentelijke HBS aan
+          de Stadhouderslaan te Den Haag. Inv. nr. 315, sollicitatiebrief aan het
+          Institut Néerlandais te Parijs, 1955 Hij ging daarna in Leiden studeren, eerst
+          in het vak dat zijn jong gestorven vader daar als hoogleraar had gedoceerd en
+          waarin ook andere voorzaten al hadden geëxerceerd, wiskunde. Fasseur, 'Baudet',
+          40. In 1939 vatte hij de studie der geschiedenis op na het daarvoor vereiste
+          staatsexamen klassieke talen met succes te hebben afgelegd. Fasseur, 'Baudet',
+          40; inv.nr. 116 (curriculum vitae). Zijn belangrijkste leermeester werd er
+          Johan Huizinga, met wie hij het contact handhaafde ook toen de Duitse bezetter
+          de universiteit had stilgelegd en Huizinga na een gijzelaarschap in St.
+          Michielsgestel in De Steeg was neergestreken. Inv.nrs. 4-6, 304
+          (correspondentie met Huizinga) Baudet behaalde in 1942 zijn kandidaats nog net
+          voordat van studenten de 'loyaliteitsverklaring' werd gevergd. Daarna deed hij
+          'clandestiene' tentamina die hem in staat stelden om kort na de bevrijding zijn
+          doctoraal examen af te leggen, met hoofdvak oude geschiedenis. Al in de
+          oorlogsjaren was hij begonnen met de voorbereiding van een dissertatie, die hij
+          in 1948 met succes verdedigde onder de titel Onderzoekingen over het systeem
+          der Middeleeuwsche geschiedbeschouwing, een studie over Ernst Bernheim's
+          'Mittelalterliche Zeitanschauungen' (z.pl. 1948). Fasseur, 'Baudet', 40;
+          inv.nr. 315, sollicitatiebrief.</html:p>
+          <html:p>Ook al in de oorlogsjaren was Baudet als leraar geschiedenis verbonden
+          geraakt aan de particuliere kostschool 'Instituut Wullings' te Voorschoten
+          (vijfjarige HBS-cursus) en aan het Vrijzinnig Christelijk Lyceum te Den Haag.
+          Hij raakte bovendien betrokken bij illegale activiteiten, daaronder de redactie
+          van het illegale blad 'De Koerier'. Langs die weg kwam hij in contact met de
+          door de bezetter ontslagen directeur van het Algemeen Nederlands Persbureau
+          (ANP), H.H.J. (Herman) van de Pol, die een 'illegaal ANP' had opgezet ten
+          behoeve van het verzet. Toen Van de Pol in 1945 de leiding van het ANP
+          hervatte, recruteerde hij daar Baudet, die er van redacteur buitenland al
+          spoedig opsteeg tot chef van de redactie-afdeling Overzeese Gebiedsdelen. Als
+          zodanig maakte hij de hectische tijd mee van de Nederlandse dekolonisatie in
+          Indonesië, het land van zijn moeder. Die ervaring zou hem nooit meer
+          loslaten.</html:p>
+          <html:p>In 1948 zegde Baudet het ANP vaarwel om weer leraar te worden, nu aan
+          het Nederlandsch Lyceum te Den Haag. Naar hijzelf in 1955 schreef werd die stap
+          ingegeven om tijd te vinden voor reflectie na de kijk in de keuken van de
+          politiek die zijn ANP-jaren hem hadden vergund. In zijn bibliografie zijn de
+          vruchten van die bezinning al spoedig zichtbaar. Fasseur, 'Baudet', 39-41,
+          inv.nr. 315, sollicitatiebrief, 33-34 (illegale pers), inv.nrs. 305, 318-321,
+          327-329, 333, (correspondentie Van de Pol), inv.nrs. 35-47, 280
+          (bibliografieën), 48-49 (Nederlands Lyceum). Diezelfde reflectie leidde ook tot
+          bezinning op zijn 'Franse' origines, teruggaand op de Pierre Joseph Baudet
+          (1778-1858) die vanuit Braine-le-Comte (Henegouwen) op de vlucht voor de Franse
+          conscriptie in de Nederlanden was beland en als onderwijzer, met name in
+          wiskunde en Frans, werkzaam was geweest in Deventer, Leeuwarden en Vaassen.
+          http://books.google.nl/books?id=AubjRfO0uuoC&amp;pg=PA251&amp;lpg=PA251&amp;dq=pierre+joseph+baudet+1778&amp;source=bl&amp;ots=7kSAnK9L6M&amp;sig=iMYFDaKajtiiww9iF786uF4hV7A&amp;hl=nl&amp;ei=1RXZTNe4MYSUOufG5JUJ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=8&amp;ved=0CDAQ6AEwBw#v=onepage&amp;q=pierre%20joseph%20baudet%201778&amp;f=false.</html:p>
+          <html:p>In 1953-1954 verbleef het gezin Baudet in Frankrijk waar Han als
+          stipendiaat van de Nederlandse Organisatie voor Zuiver Wetenschappelijk
+          Onderzoek (ZWO) onder supervisie van André Siegfried een studie zou verrichten
+          naar het beeld van Frankrijk in de 19e-eeuwse literatuur. Een publicatie
+          daarover heeft Baudet decennialang op zijn programma gehouden maar niet het
+          licht doen zien. Fasseur, 'Baudet', 41, inv.nrs. 59, 61-63, 70, 72-74, 77, 281.
+          Wel leidde zijn 'Franse tijd' in 1955 tot Mijn dorp in Frankrijk , een veel
+          geprezen, sociologisch getinte maar vooral literaire impressie van het dorp St.
+          Soupplets, ca. 50 km. ten noord-oosten van Parijs, waar hij en zijn gezin een
+          jaar hadden verbleven. Het toonde zijn woordkunst die hem eerder wel eens
+          hadden doen denken aan een literaire carrière. Inv.nrs. 50-52, 235-236, 313,
+          237, 291-292, 303, 324, 329-330, 332. In concreto baande het echter zijn weg
+          naar het Groningse ordinariaat in de economische en sociale
+          geschiedenis.</html:p>
+          <html:p>Met zijn Het paradijs op aarde, gedachten over de verhouding van de
+          Europese tot de buiten-Europese mens (1959) en vervolgens door het
+          redactiewerk, samen met I.J. Brugmans, van de bundel Balans van beleid,
+          terugblik op de laatste halve eeuw van Nederlandsch-Indië (1961) keerde Baudet
+          terug tot de 'Indische' thematiek van zijn ANP-jaren. In de inleiding op Balans
+          van beleid formuleerde hij als centrale vraag 'waar de dingen zijn misgegaan en
+          waarom' - dát 'de dingen waren misgegaan' stond blijkbaar buiten kijf voor hem.
+          Ruim twintig jaar later redigeerde hij met M. Fennema Het Nederlands belang bij
+          Indië , dat graviteerde rondom de vraag of 'Indië inderdaad de kurk was geweest
+          waarop wij hadden gedreven'. Voordien was en nadien bleef 'Indië' met
+          variërende accenten een grondtoon van zijn publicistiek en bracht hem in de
+          jaren-'70 zelfs tot het voorzitterschap van het Landelijk Aktie Komité
+          Zuid-Molukken (LAK). Zie ***</html:p>
+          <html:p>De stap van economische en sociale geschiedenis naar de relaties tussen
+          'de mens' en zijn 'producten' is geen onbegrijpelijke. Als Gronings hoogleraar
+          hield Baudet niet alleen talloze spreekbeurten voor uiteenlopende gezelschappen
+          toehoorders, maar doceerde hij ook regelmatig elders (Utrecht, Den Haag). Op
+          uitnodiging van prof.ir. G.J. van der Grinten, grondlegger van de
+          studierichting Industriële Vormgeving die in 1969 formeel werd erkend, gaf
+          Baudet voor het eerst in 1965 enkele gastcolleges in Delft. Hij raakte
+          geleidelijk nauwer betrokken bij de studierichting om er in 1982 tot bijzonder
+          hoogleraar 'mens-/productrelaties' te worden benoemd. Inv.nr. 173. In zijn
+          latere publicistiek is Baudets belangstelling voor de mens in relatie tot zijn
+          producten, product- en innovatiegeschiedenis duidelijk waarneembaar. Zo
+          verscheen in 1986 zijn Een vertrouwde wereld, 100 jaar innovatie in Nederland
+          en in 1986 samen met Paul Mijksenaar Nooit bij stilgestaan .</html:p>
+          <html:p>Na Baudets afscheid van zijn universiteiten, in 1984 Groningen en in
+          1987 Delft, zette hij zich aan wat één van zijn grotere werken, zo niet zijn
+          magnum opus zou worden, de geschiedschrijving van de Technische Universiteit
+          Delft die in 1992 (met een tweede deel in 1993) het licht zag als De lange weg
+          naar de Technische Universiteit Delft, de Delftse ingenieursschool en haar
+          voorgeschiedenis . Ook nadien bleef Baudet schrijvend en sprekend actief. Een
+          dag na zijn laatste lezing (op 10 oktober) over het verschijnsel tijd - waaraan
+          hij in 1987 ook al zijn Delftse afscheidscollege De maat van alle dingen had
+          gewijd - trof hem een hart- en twaalf dagen later een herseninfarct. De
+          tussentijd besteedde hij aan de uitwerking van zijn lezing tot Aspecten van
+          tijd dat hij had bedoeld als geschenk voor vrienden en collega's bij zijn
+          tachtigste verjaardag. 44 dagen voor het zover was haalde de tijd hem echter
+          in, zijn laatste geschrift werd posthuum bezorgd door zijn jongste zoon. H.
+          Baudet, Aspecten van tijd (Den Haag 1998) 5, 27-28. Baudets archief maakt ook
+          duidelijk dat zijn plannen om ooit een geschrift te wijden aan J.W. Meyer
+          Ranneft, met wie hij in het tijdvak 1948-1966 intensief had gecorrespondeerd en
+          ook anderszins contact onderhouden, door zijn heengaan zijn doorkruist.
+          Inv.nrs. 358-375.</html:p>
+          <html:p>Naast zijn dagelijkse werkzaamheden en publicistiek was Baudet een
+          gepassioneerd schaker en cellist. Ook daarvan getuigt zijn archief in
+          bescheiden mate. Vijf jaar na zijn overlijden werd aan de TU Delft, Faculty of
+          Industrial Design Engineering, het Henri Baudet Institute for design,
+          historical research and consultancy opgericht.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Hoofdzakelijk stukken betreffende resp. samenhangend met Baudets
+      activiteiten als historicus en hoogleraar te Groningen en Delft,</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Deels openbaar, deels niet openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>396 inventarisnummers</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>9,50 meter</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

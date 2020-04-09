@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://hdl.handle.net/10648/a05f1822-bff5-4ff1-a397-1dbdab6f3df6"
+  rdf:about="record/4.DEF">
+    <rico:identifier>4.DEF</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1929</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/DEF" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/4.DEF/i1" />
+      <rico:instantiates rdf:resource="record/4.DEF" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20130222</rico:hasModificationDate>
+        <html:p>22 feb 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121112</rico:hasModificationDate>
+        <html:p>12 nov 2012</html:p>
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van plattegronden en kaarten door of naar Jacob van
+        Deventer</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://hdl.handle.net/10648/a05f1822-bff5-4ff1-a397-1dbdab6f3df6" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale gedrukte en getekende kaarten. Het archief bevat ook
+        lithografieën en foto`s.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/DEF">
+    <rico:describedBy rdf:resource="record/4.DEF" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>DEF</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Collectie Jacob van Deventer</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Deventer, van / Plattegronden en kaarten</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1500</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1600</rico:endDate>
+    <rico:date>oudste stuk - jongste stuk: 16e eeuw</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Deventer, J. van</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>Van Deventer heeft de opdracht gekregen de steden der Nederlanden in
+          plattegrond te brengen; daar de opdracht met de verdediging van het land
+          verband hield, zal de Regeering daarbij in hoofdzaak aan de bemuurde steden,
+          niet aan de open vlekken hebben gedacht. Toch heeft Van Deventer ook open
+          steden in zijne serie opgenomen: ik wijs slechts op 's-Gravenhage, Grootebroek
+          en De Kuinder. Ten einde inzicht te krijgen in de grens, die hij zich zelf
+          gesteld heeft, heb ik nagegaan, welke plaatsen hij als steden heeft aangeduid
+          op de provinciale kaarten, die hij indertijd geteekend heeft (zie nr. 20),
+          althans voor zoover de Noordelijke Nederlanden betreft. Daarbij is mij
+          gebleken, dat hij in zijne serie plattegronden de volgende steden opgenomen
+          heeft, die op zijne provinciale kaarten niet als steden zijn aangemerkt:
+          Geervliet, Grootebroek, De Kuinder, Purmerend en Westkapelle. Daarentegen
+          worden op de kaarten wel als steden opgegeven: Borculo, Diepenheim,
+          's-Gravenzande, Kortgene, Meppel, Nieuwstad, Ommen en Terborg, die niet in den
+          atlas opgenomen zijn. In enkele gevallen moge dat verklaarbaar zijn: Kortgene
+          bijvoorbeeld was ondergeloopen;Eigenlijk had Van Deventer reeds bij het
+          teekenen van zijne kaart der Zeeuwsche eilanden met de overstrooming van
+          Kortgene rekening moeten houden; want het feit had in 1532 plaats en de kaart
+          werd in 1542 begonnen en in 1547 voltooid. maar veel lijn is overigens in het
+          bovenstaande niet te vinden, en men mag aannemen, dat Van Deventer zich niet
+          aan vaste regels gehouden en ook zijn werk niet geheel voltooid heeft. Reeds
+          Viglius wees er op, dat Van Deventer geen plattegrond gegeven had van Ieperen,
+          dat toch eene der belangrijkste steden van Vlaanderen was.Op zijne kaart van
+          Vlaanderen geeft Van Deventer ook Biervliet als stad op, schoon de plattegrond
+          er van niet in zijn atlas opgenomen is. In het thans tot ons vaderland
+          behoorende gedeelte van Brabant en de landen van Overmaze geeft hij als steden
+          aan behalve Bergen-op-Zoom, Eindhoven, Helmond, 's-Hertogenbosch, Megen en
+          Valkenburg, waarvan de plattegronden in minuut bewaard gebleven zijn, Breda,
+          Grave, Maastricht, Ravestein en Steenbergen. Daar echter het eerste deel van
+          den atlas, waarin de plattegronden der steden van Brabant en van de landen van
+          Overmaze voorkwamen, verloren is, kan hieruit niet worden afgeleid, dat Van
+          Deventer deze steden niet in plattegrond heeft gebracht. Trouwens het werk van
+          Van Deventer had ook de plattegronden van de steden van Bourgogne, d.i.
+          Franchecomté, en kaarten van elke provincie afzonderlijk moeten bevatten; van
+          geen van beide is echter iets bekend, en waarschijnlijk is dat deel zijner
+          opdracht nooit uitgevoerd.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief bevat minuten, gekleurde tekeningen en afdrukken, lithografieën
+      en foto's van plattegronden van Nederlandse steden, al dan niet oorspronkelijk
+      vervaardigd door Jacob van Deventer (1504/05-1575). Jacob van Deventer was
+      landmeter en afkomstig uit Mechelen. Van 1557 tot 1573 bracht hij als
+      stadscartograaf van Filips II alle 223 toenmalige Nederlandse steden in kaart. De
+      Spaanse koning wilde de kaarten gebruiken bij de belegering van opstandige steden
+      in de Nederlanden.De uitgaven van "Nederlandsche steden in de 16e eeuw.
+      Plattegronden van Jacob van Deventer. 111 teekeningen en 97 cartons in facsimile
+      uitgegeven" door R. Fruin en een atlas van Belgische steden in de 16de eeuw met
+      plattegronden van Van Deventer, verzorgd door het Institut National de Géographie à
+      Bruxelles zijn aan het archief toegevoegd.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van orginele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopieren van stukken, niet aan beperkingen
+      onderhevig.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>38 inventarisnummer(s);</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p>Inventarisnummers van dit archief zijn niet in kopievorm
+        beschikbaar</html:p>
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

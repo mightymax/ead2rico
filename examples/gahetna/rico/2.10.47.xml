@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d7d16440-04cd-40c8-b331-0400920f9ff5"
+  rdf:about="record/2.10.47">
+    <rico:identifier>2.10.47</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/K23501" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.10.47/i1" />
+      <rico:instantiates rdf:resource="record/2.10.47" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20081006</rico:hasModificationDate>
+        <html:p>6 oktober 2008</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20131108</rico:hasModificationDate>
+        <html:p>8 november 2013</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van archieven inzake de Wetgeving voor
+        Nederlands-Indië over de periode 1830-1923</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d7d16440-04cd-40c8-b331-0400920f9ff5" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven , getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/K23501">
+    <rico:describedBy rdf:resource="record/2.10.47" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>K23501</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Archieven Wetgeving Nederlands-Indië</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>Wetgeving Nederlands-Indië</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1830</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1923</rico:endDate>
+    <rico:date>1830-1923</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Commissie voor de strafwetgeving in Nederlands-Indië</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Bijzondere commissie herziening Indisch privaat- en
+            strafrecht</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Scholten van Oud-Haarlem, C.J.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Wichers, H.L.</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history />
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Het archief van de presidenten van het Hooggerechtshof te Nederlands-Indië,
+      Scholten van Oud-Haarlem en H.L. Wichers, evenals de Commissie-Scholten van
+      Oud-Haarlem, de Commissie van Strafwetgeving in Nederlands-Indië en de Bijzondere
+      Commissie herziening Indische privaat- en strafrecht, bevat archiefmateriaal over
+      de periode 1830-1923. Het materiaal betreft voornamelijk correspondentie, minuten
+      van correspondentie, rapportages, nota's, evenals concepten en ontwerpen aangaande
+      wetgeving en regelementen, opgesteld o.a. door de des betreffende instanties,
+      personen, en bestuurlijke of wetegevende organen in Nederland en Nederlands-Indië.
+      Tevens komen voor in dit archief, verschillende commentaren, rapporten van o.a. de
+      Raad van State en de verschillende commissies en presidenten van het
+      Hooggerechtshof te Nederlands-Indië. Dit evenals regelementen, wettelijke
+      voorschriften inzake weeskamers, de burgelijkestand en de overdracht van onroerende
+      goederen, gouvernementele besluiten, ontwerp van ordonnantie, en stukken
+      betreffende het Wetboek van Koophandel.De rubrieken van het gewichtigste archief,
+      dat van C.J. Scholten van Oud-Haarlem, hebben betrekking op de instelling en het
+      opheffing van de commissie Scholten van Oud-Haarlem, evenals de wetgeving
+      rechterlijke organisatie burgerlijk wetboek, de totstandkoming van een wetboek van
+      koophandel, het opstellen van een reglement op de administratie der politie en
+      criminele en de civiele rechtsvordering onder de inlanders op Java en Madoera.
+      Tevens komen er rubrieken voor m.b.t. reglementen op de burgerlijke rechtvordering,
+      het reglement op de strafvordering, en een rubriek niet-wetgevingsaangelegenheden.
+      Deze laatste rubriek bevat ondermeer stukken van een begrotingstechnische aard,
+      stukken betreffende staatsleningen en het vergaan van schepen, maar ook materiaal
+      aangaande de vervolging van ambtenaren in Nederlands-Indië door particulieren, en
+      stukken betreffende het besluit over het kostuum der rechterlijke ambtenaren.In dit
+      archief zijn ook opgenomen een 'compendium van de belangrijkste civiele wetten en
+      gewoonten der mohammedanen'. Tevens zijn er stukken betreffende kwesties rond de
+      slavernij, het concordantiebeginsel, en de toepassing van het burgerlijk- en
+      handelsrecht op de inlandse bevolkingen in relatie tot hun eigen wetgeving. Bij het
+      archief van H. L. Wichers is tevens een naam-index toegevoegd aangaande zijn
+      correspondentie die u d.m.v. dit archief kunt raadplegen.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>1.80 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>111 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>

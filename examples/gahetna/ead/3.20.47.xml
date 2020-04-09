@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2011-05-16 14:11:58 --><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "http://www.nationaalarchief.nl/collectie/ead/ead.dtd">
+<ead audience="external">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="NL" mainagencycode="NL-HaNA" publicid="-//Nationaal Archief//TEXT (NL-HaNA::3.20.47::Familiearchief De Raadt (Noorthey))//NL" url="http://proxy.handle.net/10648/05b59c0a-d146-46a6-8bb2-e7f6358a0cd3" urn="3.20.47.ead.xml">3.20.47</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het archief van de familie De Raadt, geschonken door het Genootschap Noorthey</titleproper>
+				<author>L.E. de Brakke</author>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Nationaal Archief, Den Haag</publisher>
+				<date calendar="gregorian" era="ce" normal="1921">1921</date>
+			<p id="copyright"><extref linktype="simple" href="http://creativecommons.org/publicdomain/zero/1.0/" actuate="onrequest" show="new">cc0</extref></p></publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation audience="internal">Deze digitale toegang is in <date calendar="gregorian" era="ce" normal="2006">2006</date> vervaardigd door het Nationaal Archief op basis van de richtlijn <title linktype="simple">Het gebruik van Encoded Archival Description op het Nationaal Archief versie 1.7.1</title>. Eindredactie: Otto van der Meij, <date calendar="gregorian" era="ce" normal="20070103">20070103.</date>
+			</creation>
+			<langusage>This finding aid is written in <language langcode="dut" scriptcode="Latn">Dutch</language>.</langusage>
+			<descrules audience="internal">Deze toegang is vervaardigd met inachtneming van de volgende richtlijnen: 
+                  <bibref linktype="simple">S. Muller Fz., J.A. Feith en R. Fruin Th.Az., <title linktype="simple">Handleiding voor het ordenen en beschrijven van archieven</title>, ontworpen in opdracht van de Vereeniging van Archivarissen in Nederland, 2e druk, Erven B. van der Kamp, Groningen 1920</bibref>.
+   </descrules>
+		</profiledesc>
+		<revisiondesc audience="internal">
+			<change>
+				<date calendar="gregorian" era="ce" normal="20090703">3 juli 2009</date>
+				<item>
+					<num>1</num> Abstract vervangen (Otten) door <name>Pauline van den Heuvel</name>.</item>
+			</change>
+			<change>
+				<date normal="2011-05-09" era="ce" calendar="gregorian">9 mei 2011</date>
+				<item>
+					<num>2</num>. Regesten onder componenten gehangen. ref elementen in de regesten gezet, zonder @target attributen want zonder geldige verwijzing valideren die niet. DvL</item>
+			</change>
+			<change>
+				<date normal="2013-10-31" era="ce" calendar="gregorian">31 oktober 2013</date>
+				<item>
+					<num>3</num>. Regesten aangevuld door <name>Hans Punt</name>
+				</item>
+			</change>
+			<change>
+				<date era="ce" calendar="gregorian">.</date>
+				<item>
+					<num/>
+				</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc level="fonds" type="inventory">
+		<did>
+			<head>Beschrijving van het archief</head>
+			<unittitle label="Naam archiefblok: ">Familiearchief De Raadt (Noorthey)</unittitle>
+			<unittitle type="short">Raadt, de</unittitle>
+			<unitdate calendar="gregorian" era="ce" label="Periode: " normal="1398/1780" type="inclusive">1398-1780</unitdate>
+			<unitid countrycode="NL" label="Archiefbloknummer: " repositorycode="NL-HaNA">35243</unitid>
+			<physdesc label="Omvang: ">
+				<extent unit="meter">1.00 meter; </extent>
+				
+			<extent unit="files">234 inventarisnummers.</extent></physdesc>
+			<langmaterial label="Taal van het archiefmateriaal: ">Het merendeel der stukken is in het <language langcode="dut" scriptcode="Latn">Nederlands</language>.</langmaterial>
+			<materialspec label="Soort archiefmateriaal: ">Normale geschreven, getypte en gedrukte documenten.</materialspec>
+			<repository label="Archiefbewaarplaats: ">Nationaal Archief, Den Haag</repository>
+			<physloc/>
+			<origination label="Archiefvormers: ">
+				<corpname>Genootschap Noorthey</corpname>
+			</origination>
+			<origination>
+				<famname>De Raadt</famname>
+			</origination>
+			<abstract label="Samenvatting van de inhoud van het archief: ">Het archief bevat stukken over de buitenplaats Noorthey bij Voorschoten, de heerlijkheid Rhoon en andere bezittingen van familie De Raadt zoals onder andere blijkt uit diverse testamenten, acten van scheiding en rekeningen. Er zijn ook familiestukken en documenten van vorige bezitters van Noorthey. De oudste stukken dateren uit de zeventiende eeuw.</abstract>
+		</did>
+		<descgrp type="context">
+			<head>Archiefvorming</head>
+			<custodhist>
+				<head>Geschiedenis van het archiefbeheer</head>
+				<p>Deze stukken vormen geenszins - zooals men allicht geneigd zou zijn te denken - het archief van de in 1851 in het leven geroepen stichting van dien naam, die met het sluiten van het bekende instituut met ingang van Juli 1907 het doel van haar bestaan verloren heeft. Hoewel in het archief van het genootschap berust hebbende, staan zij met dit laatste slechts in zooverre in verwijderd verband, dat zij eenmaal aan dr. Petrus de Raadt, opzichter van het instituut en voorzitter van het genootschap, hebben toebehoord. Deze persoonlijke band met het genootschap is daarbij tevens de eenige tusschen de geschonken stukken onderling. De papieren zijn uiterlijk scherp te onderscheiden, - het zijn namelijk twee portefeuilles met papieren en eene doos met charters.</p>
+				<acqinfo>
+					<p>Deze stukken zijn bij een begeleidend schrijven van 25 Februari 1921 van den heer Bijleveld, lid en archivaris van genoemd genootschap, voor onbepaalde tijd aan het Nationaal Archief in bruikleen geschonken.</p>
+					<p>Het archief is voor langere tijd in beheer, niet in eigendom verkregen.</p>
+				</acqinfo>
+			</custodhist>
+		</descgrp>
+		<descgrp type="content_and_structure">
+			<head>Inhoud en structuur van het archief</head>
+			<controlaccess audience="internal">
+				<subject source="ABS_rubriek"/>
+				<subject source="ABS_trefwoord">3.20</subject>
+			</controlaccess>
+			<scopecontent>
+				<head>Inhoud</head>
+				<p>De papieren zijn uiterlijk scherp te onderscheiden, - het zijn namelijk twee portefeuilles met papieren en eene doos met charters - maar ze vertoonen wat inhoud en herkomst betreft, een met die uiterlijke onderscheiding zoo goed als geheel samenvallend verschil. De papieren toch zijn - behoudens eenige weinige uitzonderingen - klaarblijkelijk herkomstig van voorouders en familieleden van dr. Petrus de Raadt en waren dus al van ouds, zooal niet in diens persoonlijk bezit, dan toch in dat van diens verwanten, op het eiland IJselmonde gegoed en daar ook wel openbare ambten bekleedende; de charters hebben alle betrekking op eigendommen, te Veur en Voorschoten gelegen, en zijn slechts in zijne handen gekomen in 1820, toen hij om zijne opvoedkundige denkbeelden te verwezenlijken, de onder die plaatsen gelegen buitenplaats, vroeger bewoond door den laatsten afstammeling van het Rotterdamsch geslacht Noorthey, heeft gekocht. Intussen betreffen slechts enkele dier charters en daarbij behoorende papieren laatstgenoemd geslacht. Veeleer biedt de kern der tweede verzameling slechts gegevens over den omvang en belending der bezittingen, aldaar door de familie Paets verworven, van wie zij door aanhuwelijking met het geslacht Noorthey in het laatste moeten zijn overgegaan.</p>
+			</scopecontent>
+		</descgrp>
+		<descgrp type="access_and_use">
+			<head>Aanwijzingen voor de gebruiker</head><accessrestrict id="accessrestrict"><head>Openbaarheidsbeperkingen</head><legalstatus type="ABS">Volledig openbaar.</legalstatus></accessrestrict>
+			
+			<userestrict>
+				<head>Beperkingen aan het gebruik</head>
+				<p>Reproductie van originele bescheiden uit dit archief is, behoudens de algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</p>
+			</userestrict>
+			<phystech type="ABS">
+				<head>Materiële beperkingen</head>
+				<p/>
+			</phystech>
+			<odd type="application_instruction">
+				<head>Aanvraaginstructie</head>
+				<p>Openbare archiefstukken kunnen online worden aangevraagd en gereserveerd. U kunt dit ook via de terminals in de studiezaal van het Nationaal Archief doen. Om te kunnen reserveren dient u de volgende stappen te volgen: <list type="ordered" numeration="arabic">
+						<item>U maakt een profiel aan op <extref linktype="simple" href="https://www.gahetna.nl/user/register" actuate="onrequest" show="new">www.gahetna.nl</extref>, en logt vervolgens in;</item>
+						<item>Via de archiefinventaris (alleen de beschrijvingen met <emph render="bold">rode</emph> nummers) selecteert u het gewenste archiefstuk door op de knop '<emph render="bold">Reserveren</emph>' te klikken;</item>
+						<item>In het volgende scherm geeft u aan op welke dag u het archiefstuk wilt inzien;</item>
+						<item>Indien u zich bevindt in de studiezaal en een tafelnummer heeft ontvangen kunt u dit nummer vermelden. Als u geen tafelnummer heeft kunt u tafelnummer 777 laten staan;</item>
+						<item>Vervolgens bevestigt u uw reservering door deze te versturen.</item>
+					</list>
+				</p>
+			</odd>
+			<prefercite>
+				<head>Citeerinstructie</head>
+				<p>Bij het citeren in annotatie en verantwoording dient het archief tenminste éénmaal volledig en zonder afkortingen te worden vermeld. Daarna kan worden volstaan met verkorte aanhaling.</p>
+				<p>VOLLEDIG: <lb/>Nationaal Archief, Den Haag, Familiearchief De Raadt (Noorthey), nummer toegang 3.20.47, inventarisnummer ... </p>
+				<p>VERKORT: <lb/>NL-HaNA, Raadt, de, 3.20.47, inv.nr. ... </p>
+			</prefercite>
+		</descgrp>
+		<descgrp type="allied_materials">
+			<head>Verwant materiaal</head>
+			<altformavail type="ABS">
+				<head>Beschikbaarheid van kopieën</head>
+				<p/>
+			</altformavail>
+		</descgrp>
+		<dsc type="combined">
+			<head>Beschrijving van de series en archiefbestanddelen</head>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">A</unitid>
+					<unittitle>Stukken, afkomstig van voorouders en familieleden van Dr. Petrus de Raadt.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">I</unitid>
+						<unittitle>Stukken afkomstig van de familie Van Driel.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408503" type="ABS">1</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3efaab88-6219-46fd-95b7-328fb9d713c3</unitid>
+							<unittitle>Lijst van ontvangsten en uitgaven ten behoeve van den boedel van ... ?</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1629">1629</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408504" type="ABS">2</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6a23f2e-fafa-407f-9424-b6b7990385c5</unitid>
+							<unittitle>Lijst van ontvangsten en uitgaven ten behoeve van den boedel van Lenert Dirx van Driel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1638">1638</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408505" type="ABS">3</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d29a6018-d3eb-4a2d-b178-45e48c6853b6</unitid>
+							<unittitle>Memorie van scheiding van den boedel van Hendrik Dircxz. van Driel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1639">Vóór Mei 1639</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408506" type="ABS">4</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0bc75647-0179-483f-b5fd-84e0ce3ac40b</unitid>
+							<unittitle>Testament van Cornelis Aerts. van Driel. 1640. Copie van</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1641">1641</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408507" type="ABS">5</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5c753068-27af-408b-b226-81c19972c323</unitid>
+							<unittitle>Testament van Cornelis Pieters Vermaet en Ariantgen Aerts van Driel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1648">1648</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408508" type="ABS">6</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3ce30a7c-8b97-4d18-902c-602e3de7d605</unitid>
+							<unittitle>Request van Maria Hoogewerff, weduwe van Adriaan van Royen, dijkgraaf van Zuid-Beierland, aan het Hof van Holland om schepenen van Albrandswaard te bevelen een persoon aan te wijzen ter bewerking van een stuk land, in plaats van Jacob van Driel haar neef. Met dispositie van 1675. Gelijktijdig afschrift.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1675">1675</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">II</unitid>
+						<unittitle>Stukken, betrekking hebbende op de oudst bekende leden van het geslacht De Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408509" type="ABS">7</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/883be12f-2a38-4ef1-b1d6-994589ddd501</unitid>
+							<unittitle>Acte van verkoop van een stuk land in Rhoon door Aert Joppe aan Cornelis Jansz. de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1612">1612</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408510" type="ABS">8</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f005c5a0-b1a3-40df-96c6-82282cf6decf</unitid>
+							<unittitle>Huwelijksvoorwaarden tussen Adriaen Pietersz. Roonder en Aryaantje Jansdr. de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1617">1617</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408511" type="ABS">9</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f71330e-1b11-44f8-b9c2-09178f5d60cf</unitid>
+							<unittitle>Schuldbekentenis, groot 84 Carolusgulden, van Willem Wyntjes ten behoeve van Willem Jansz. de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1621">1621</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408512" type="ABS">10</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/48c592f8-6423-4ade-8a0b-397686e0550e</unitid>
+							<unittitle>Sommatiebiljet voor Willem Jansz. de Raadt tot voldoening van zijn aanslag in den 1000sten penning.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1626">1626</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408513" type="ABS">11</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a9c9b058-8ab7-4ac1-928c-c74d416f289d</unitid>
+							<unittitle>Lijst der landerijen, nagelaten door Neeltje Willemsdochter, weduwe van Jan Pietersz. de Raadt, volgens eene meting van 1636.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408514" type="ABS">12</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b7a927ae-3d58-4985-9a8d-144d64852c15</unitid>
+							<unittitle>Exploit van derde arrest ten laste van Pieter Willems de Raadt wegens eene vordering van Cornelis de Raadt op Leenaert Witte.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1654">1654</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408515" type="ABS">13</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fae092ea-15c6-460e-aa82-92afc6b586e3</unitid>
+							<unittitle>Acte van scheiding der onroerende goederen van Willem Jansz. de Raadt en Grietgen Jacobs van Alphen, zijne echtgenoote. Met nadere vereffening van dien boedel.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1653">1653</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408516" type="ABS">14</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2519c74d-74af-4905-b2ee-a5c43a597fd1</unitid>
+							<unittitle>Verklaring van Hendrik Ariens de Jongh, over het transport van een stuk land onder Rhoon, door Geertruida de Raadt, weduwe van Cornelis de Raadt, aan Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1659">1659</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">III</unitid>
+						<unittitle>Adriaan Adriaansz. Coyer en Aagje Willems de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408517" type="ABS">15</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b1e14934-5d81-4942-9ac8-4c7f76fb8d99</unitid>
+							<unittitle>Huwelijksvoorwaarden tusschen Adriaan Adriaansz. Coyer en Aagje Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1657">1657</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408518" type="ABS">16</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6c03599-9a86-4d04-bab0-09413fe9fbe1</unitid>
+							<unittitle>Testament van Adriaan Adriaansz. Coyer en Aagje Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1665">1665</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408519" type="ABS">17</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd6a4937-85d1-4cf3-a483-36be5eae09d1</unitid>
+							<unittitle>Testament van Aagje Willems de Raadt, huisvrouw van Adriaan Adriaansz. Coyer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1673">1673</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408520" type="ABS">18</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6e119fbf-77a6-468e-9112-af37c620328c</unitid>
+							<unittitle>Overeenkomst der erfgenamen van Adriaan Adriaansz. Coyer om zich in zake de geschillen over de staande huwelijk ingebrachte goederen en de betaling van diens doodschulden te onderwerpen aan de beslissing van arbiters. Met uitspraak der arbiters. 1674. Afschrift</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1600/1699">(17e eeuw)</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408521" type="ABS">19</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a5ad90ae-d5f5-46ed-8352-b3e806c72075</unitid>
+							<unittitle>Staatje der kosten van begrafenis van Adriaan Adriaansz. Coyer.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408522" type="ABS">20</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6405ac8-c518-4eea-a56f-c5441f86c8ae</unitid>
+							<unittitle>Procuratie van Agatha Willems de Raadt op haar broeder Pieter tot het verheffen van en stuk land in Deyssel onder Pernis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1675">1675</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408523" type="ABS">21</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1a60200a-8fac-47cf-8277-f45d640c1196</unitid>
+							<unittitle>Nadere uiterste wilsbeschikking van Aagje Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1675">1675</unitdate>
+							<physdesc>Copie van 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408524" type="ABS">22</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b96a0701-1a6b-4bee-964d-4ff9e39175f4</unitid>
+							<unittitle>Aanstelling van Pieter Leenderts Welhouck tot voogd over zijne kinderen bij Magdaleentje Coyers, in zake de erfenis, hun aangekomen door het overlijden van Adriaan Adriaansz. Coyer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1679">1679</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408525" type="ABS">23</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5a5ce952-922f-4585-b239-a87680c73869</unitid>
+							<unittitle>Rekeningen van Adriaan Bouwensz. Roobol over het beheer der goederen van Aagje Willems de Raadt, weduwe van Adriaan Adriaansz. Coyer. 1677 - 1695. Met volmacht tot dit beheer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1677">1677</unitdate>
+							<physdesc>4 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408526" type="ABS">24</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9cf2a584-1c95-4069-a5fb-0b649dada139</unitid>
+							<unittitle>Sommatiebiljetten voor Aagje Willems de Raadt, weduwe van Adriaan Coyer, tot voldoening van haar aanslag in den 100sten penning.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1690/1701">1690 - 1701</unitdate>
+							<physdesc>6 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408527" type="ABS">25</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/03b3b97e-bdcc-4315-8112-3d9b118039b2</unitid>
+							<unittitle>Bewijs van aangifte van het lijk van Aagje Willems de Raadt, weduwe van Adriaan Coyer. In duplo.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1709">1709</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408528" type="ABS">26</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc39cf98-5fa8-4a39-a672-7539a79bc2f6</unitid>
+							<unittitle>Gequiteerde rekening wegens het doodsmaal van Aagje Willems de Raadt, weduwe van Adriaan Adriaansz. Coyer.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1709">1709</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408529" type="ABS">27</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/920108de-426b-4583-8e4a-42380015670d</unitid>
+							<unittitle>Sommatiebiljet voor de erfgenamen of bewindvoerders van den boedel van Aagje Willems de Raadt, weduwe van Adriaan Adriaansz. Coyer, om aangifte der nagelaten goederen te doen voor de heffing van den 20sten penning.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1709">1709</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">IV</unitid>
+						<unittitle>Pieter Willems de Raadt en Neeltje Pieters Couwenhoven.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408530" type="ABS">28</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6125ff5a-ba0a-4fcd-8bad-0cd978537724</unitid>
+							<unittitle>Acte van scheiding tussen de erfgenamen van Pieter Cornelisz. Couwenhoven, schoonvader van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1661">1661</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408531" type="ABS">29</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a99e27cf-f6e8-4d71-9c03-da76fabd97cb</unitid>
+							<unittitle>Acte van voogdijstelling door Pieter Willems de Raadt en Neeltje Pieters Couwenhoven voor hunne na te laten kinderen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1673">1673</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408532" type="ABS">30</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/eda6cf72-ea4e-4f17-9d64-4d5b67c6b1c8</unitid>
+							<unittitle>Acte van scheiding tusschen de erfgenamen van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1707">1707</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408533" type="ABS">31</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7a273402-abcd-494f-8265-6be932176fc6</unitid>
+							<unittitle>Acte van verhuur van een weiland in Kiefhoek door den heer van Oudheusden aan Pieters Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1655">1655</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408534" type="ABS">32</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d5867010-854c-4fa1-8f69-1aac9defa908</unitid>
+							<unittitle>Acte van verhuur van een weiland in Rhoon door Willem Maartens aan Pieter Willems de Raadt, met Ary en Pieters Hollaert.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1660">1660</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408535" type="ABS">33</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d8ada2a-6183-4455-bc5f-3ea3f5a239a9</unitid>
+							<unittitle>Acte van verhuur van een stuk teelland in de Kiesheid onder Rhoon met eene kade en een rietveld achter de Koedood door Pieter Roonaar aan Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1663">1663</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408536" type="ABS">34</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d61ef713-bd02-467a-9db8-f359b8046014</unitid>
+							<unittitle>Briefje van A.W. Swaanswijck aan Pieter Willems de Raadt over de betaling van diens pacht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1671">1671</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408537" type="ABS">35</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90f2def1-21cd-4ed1-8aed-7335e21287ce</unitid>
+							<unittitle>Sommatiebiljetten voor Pieter Willems de Raadt tot voldoening van zijn aanslag in den 100sten penning.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1672/1689">1672 en 1689</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408538" type="ABS">36</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f8b72b3c-1118-4a0b-8dab-51d83cabe9aa</unitid>
+							<unittitle>Rekening van Cornelis Pieters Couwenhoven van de administratie van zijn overleden broeder Wouter over de goederen van diens onmondige broeders en zusters.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1658">1658</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408539" type="ABS">37</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4cd1f043-d569-40d2-8a2e-5299bd9fff7e</unitid>
+							<unittitle>Uiterste wilsbeschikking van Neeltje Pieters Couwenhoven, weduwe van Pieters Willems de Raadt. Notareele copie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1683">1683</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408540" type="ABS">38</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ecb5bf2-5f2a-40a4-9b6c-42d447c8c2d9</unitid>
+							<unittitle>Acte, waarbij Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt, haar zoon Pieter en haar zwager Johannes Zandweg aangestelt tot voogden over hare minderjarige kinderen en erfgenamen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1689">1689</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408541" type="ABS">39</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cbc7ba21-a1ec-4455-9510-faf364f4d6f5</unitid>
+							<unittitle>Liquidatie tussen Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt, en Johannes Zandweg, haar schoonzoon.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1707">1707</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408542" type="ABS">40</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f7164750-fafc-4079-b0e0-df5476c6ef77</unitid>
+							<unittitle>Testament van Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt. Concept en afschrift z.j.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1708">1708</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408543" type="ABS">41</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5880e890-7c75-4c78-bcf7-382dd9027b1a</unitid>
+							<unittitle>Bewijs van aangifte van het lijk van Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1712">1712</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408544" type="ABS">42</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1028a002-1008-4252-bc89-ceb0b81f813a</unitid>
+							<unittitle>Acte van scheiding der nalatenschap van Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760">1760</unitdate>
+							<physdesc>2 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408545" type="ABS">43</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8bfb7029-fdb1-448a-b842-f9ea330de17c</unitid>
+							<unittitle>Acte van verlenging van de huur van een stuk land, tusschen A.W. Swaenswijck ter eener en Neeltje Pieters Couwenhoven met Dirk Hendrikse van Driel ter anderer zijde.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1680">1680</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408546" type="ABS">44</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba008552-bf0b-4bd5-9924-8b918d9a758b</unitid>
+							<unittitle>Acte van verhuur van een stuk zaailand in de Kiesheid onder Rhoon door Johan de Raadt, koopman te Rotterdam, aan Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1682">1682</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408547" type="ABS">45</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4c408a1d-3024-4e64-b2fa-6855d5ae5a03</unitid>
+							<unittitle>Acte van verhuur van een stuk zaailand, kade en rietveld in de Kiesheid door de erfgenamen van Pieter Velsenaer, dijkgraaf van Rhoon aan Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1691">1691</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408548" type="ABS">46</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2633c5c0-df46-431e-85d4-090c77c48e91</unitid>
+							<unittitle>Oproeping van eventueele rechthebbenden op een stuk land in het binnenland van Rhoon onder Kijfhoek, door Neeltje Pieters Couwenhoven gekocht van den predikant Cantius te Dordrecht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1700">1700</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408549" type="ABS">47</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a6728951-40e0-41b2-a937-f195fa07a035</unitid>
+							<unittitle>Schuldbekentenis groot 115 gulden van Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt, ten behoeve van haar zoon Wouter de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1704">1704</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408550" type="ABS">48</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/923ea660-8c49-40e4-adf3-0f6c4e460d41</unitid>
+							<unittitle>Quitantie van Ingeltje Klaes, weduwe van Pieter de Raadt aan diens moeder Neeltje Pieters de Raadt, voor ontvangen pacht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1704">1704</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408551" type="ABS">49</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2bf6708-1dfd-4432-8ee8-46d883d28692</unitid>
+							<unittitle>Rekeningen betreffende een uitkoop door Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt, met hare kinderen gedaan. In 1696 gequiteerd.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1707/1710">1707 - 1710</unitdate>
+							<physdesc>6 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408552" type="ABS">50</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/746f3088-01e8-4a61-bd38-53b667231433</unitid>
+							<unittitle>Sommatiebiljetten van Neeltje Pieters Couwenhoven, weduwe van Willem Pieters de Raadt tot voldoening van haar aanslag in den 100sten en 200sten penning.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1687/1714">1687 - 1714</unitdate>
+							<physdesc>53 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408553" type="ABS">51</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4746d9c3-3c75-4ccc-8903-0132b80fdcd0</unitid>
+							<unittitle>Rekeningen en memoriën betreffende den boedel van Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1709/1712">1709 - 1712</unitdate>
+							<physdesc>28 stukken.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">V</unitid>
+						<unittitle>Jacob Willems de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408554" type="ABS">52</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bb057e3e-cc83-47f8-b994-3d90358857b6</unitid>
+							<unittitle>Verzoekschrift der erfgenamen van Cornelis van der Houwe tot het leggen van arrest onder derden op de koopsom van een stuk land in het oude land van Poortugaal tot verhaal hunner vordering op Jacob Willems de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1674">1674</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VI</unitid>
+						<unittitle>Jan de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408555" type="ABS">53</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fd90cb84-52ec-4f6b-9121-cf32bb05f3b0</unitid>
+							<unittitle>Rekening van arbeidsloon, verdiend op het land van Johannes de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1672/1692">1672 en 1692</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VII</unitid>
+						<unittitle>Willem Pieters de Raadt.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">1</unitid>
+							<unittitle>Familie-betrekkingen.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408556" type="ABS">54</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/618fabed-9c54-469e-88fd-8cff76346af7</unitid>
+								<unittitle>Testament van Willem Pieters de Raadt, schout en dijkgraaf van Rhoon 1719. Copieën van</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1724">1724 en z.j.</unitdate>
+								<physdesc>2 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408557" type="ABS">55</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d9f336e-aa08-4d4e-808a-38c19af317f1</unitid>
+								<unittitle>Aangifte van het lijk van Aagje Pieters de Raadt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1699">1699</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">2</unitid>
+							<unittitle>Financiën.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408558" type="ABS">56</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4ebb10b1-4aaf-48df-9807-9ba1eb1bc689</unitid>
+								<unittitle>Belofte van Willem Pieters de Raadt inzake de betaling van arbeidsloon en het toonen van een huurcontract betreffende land in de Kiesheid. Concept?</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1693">1693</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408559" type="ABS">57</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/530ca708-0ac7-40f3-bfee-45ebe769ca19</unitid>
+								<unittitle>Acte van verhuur van een weiland in den Kiefhoek onder Rhoon door Gerard van Swaanswijk, commandeur ter zee, aan Willem Pieters de Raadt, schout en dijkgraaf van Rhoon. Concept.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1712">(1712)</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408560" type="ABS">58</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a33ad23f-2e73-4159-89c6-a3194c911ff3</unitid>
+								<unittitle>Schuldbekentenis groot 300 gulden, van Willem Pieters de Raadt ten behoeve van de kinderen van Pieter 't Hart.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1715">1715</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408561" type="ABS">59</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/030d8e0f-5385-4702-9fd0-d47a44c4d69b</unitid>
+								<unittitle>Sommatiebiljet voor Willem Pieters de Raadt tot voldoening van zijn aanslag in den 100sten penning.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1715/1716">1715 en 1716</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408562" type="ABS">60</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd98c8d9-8ed3-4846-9438-b73aae264190</unitid>
+								<unittitle>Gequiteerde rekeningen wegens geleverd smids- en timmerwerk.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1718/1722">1718 en 1722</unitdate>
+								<physdesc>2 stukken.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">3</unitid>
+							<unittitle>Openbare functien.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408563" type="ABS">61</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/57f65f28-92aa-475e-93ae-e39ad3970d4a</unitid>
+								<unittitle>Commissie tot schout van Rhoon voor Willem Pieters de Raadt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1703">1703</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408564" type="ABS">62</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/20642146-094d-4a7d-ad67-f28918084bfe</unitid>
+								<unittitle>Voorloopige commissie tot baljuw en dijkgraaf van Rhoon voor Willem Pieters de Raadt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1703">1703</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408565" type="ABS">63</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6b0d746f-dd1b-4310-8832-e537a2c444f1</unitid>
+								<unittitle>Voorloopige commissie tot baljuw van Rhoon voor Willem Pieters de Raadt.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1707">1707</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408566" type="ABS">64</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/107f38fe-c271-44ed-966f-cfbf033441b8</unitid>
+								<unittitle>Interrogatoir, gehouden door Willem Pieters de Raadt als provisioneel baljuw van Rhoon betreffende een vechtpartij aldaar.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1707">1707</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408567" type="ABS">65</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d4ca5229-a31b-4f3a-940a-822a54a72000</unitid>
+								<unittitle>Rekeningen van Willem Pieters de Raadt als gaarder van de verponding over Boudewijn-Hartsland in 's-Gravenambacht. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1701/1719">1701 - 1719</unitdate>
+								<physdesc>15 stukken.</physdesc>
+							</did>
+							<scopecontent>
+								<p> De rekeningen van de jaren 1704, 1706 en 1711 en 1718 ontbreken.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408568" type="ABS">66</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fcbe4c5c-0669-4e0f-981d-82c47e195e45</unitid>
+								<unittitle>Rekeningen van Willem Pieters de Raadt als gaarder der verponding over het buitenland van 's-Gravenambacht, genaamd de Kiesheid. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1701/1719">1701 - 1719</unitdate>
+								<physdesc>16 stukken.</physdesc>
+							</did>
+							<scopecontent>
+								<p> De rekeningen van de jaren 1706, 1712, 1717 en 1718 ontbreken.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408569" type="ABS">67</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5837607f-79ea-4eb4-984d-c67bf44273c3</unitid>
+								<unittitle>Rekeningen van Willem Pieters de Raadt als gaarder van het Molenschot over de Kiesheid of "Hijdse" landen. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1703/1719">1703 - 1719</unitdate>
+								<physdesc>15 stukken.</physdesc>
+							</did>
+							<scopecontent>
+								<p> De rekeningen van de jaren 1706, 1712, 1714 ontbreken.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408570" type="ABS">68</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a430fa04-d3f9-47a4-8469-3e739cf541b4</unitid>
+								<unittitle>Rekening van Willem Pieters de Raadt als waarsman van de Kiesheid in 's-Gravenambacht over de kosten van het vernieuwen van de Koedoodsche sluis. Copie 1716.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1715">1715</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408571" type="ABS">69</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/807178ee-2601-4480-b355-7d6223706fec</unitid>
+								<unittitle>Rekening van Willem Pieters de Raadt als collecteur over het gemeene zandpad tusschen de Koedoodsche sluis op de Hyde en het huis van Cornelis den Tol. Copie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1719">1719</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408572" type="ABS">70</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/09a5f54d-fe2e-47e6-b7b2-6127b36d7244</unitid>
+								<unittitle>Rekeningen van Willem Pieters de Raadt als gaarder van den reëelen 100sten penning over Boudewijn-Hartsland in 's-Gravenambacht. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1717/1719">1717 en 1719</unitdate>
+								<physdesc>2 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408573" type="ABS">71</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d0b80767-b841-4e3d-9997-364c4ea7594a</unitid>
+								<unittitle>Rekeningen van Willem Pieters de Raadt als gaarder van den reëelen 100sten penning op de verponding van het buitenland van 's-Gravenambacht benaamd de Kiesheid. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1717/1719">1717 en 1719</unitdate>
+								<physdesc>2 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408574" type="ABS">72</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2e0b111a-6d4b-4a29-8e96-beded0235d3f</unitid>
+								<unittitle>Mandaat van dijkgraaf en heemraden van de Kiesheid voor Willem Pieters de Raadt, penningmeester, tot betaling der kosten van herstel der zeebraken van den dijk op de Hyde.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1723">1723</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">4</unitid>
+							<unittitle>Privaatrechtelijke functien.</unittitle>
+						</did>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">a</unitid>
+								<unittitle>Als gemachtigde in zake de liquidatie van den boedel van Pieter Roonaar.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408575" type="ABS">73</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/aa8dfe18-c063-4394-a9ba-1be2d72b1cfe</unitid>
+									<unittitle>Declaratie van den secretaris van Poortugaal voor Aert Andriesz., voldaan door Pieter Heyndricks Roonaar.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1644">1644</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408576" type="ABS">74</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b488b2b-8f90-4c90-bd67-d2715a9266e7</unitid>
+									<unittitle>Extract uit testament en codicillen van Pieter Roonaar, dijkgraaf van Poortugaal.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1690">z.j. (vóór 1690 Maart 15)</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408577" type="ABS">75</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/faf52945-e0f0-49ed-beea-432c56cb0cec</unitid>
+									<unittitle>Volmacht van Aagje Willems de Raadt, van de kinderen van Neeltje Pieters de Raadt en van de kinderen van Jacob Willems de Raadt op Willem Pieters de Raadt om hen te vertegenwoordigen bij de liquidatie van den boedel van Pieter Roonaar.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1690">1690</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408578" type="ABS">76</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ae5d7d39-0521-44b0-ac15-9a8d972a432a</unitid>
+									<unittitle>Acte van scheiding tusschen de afstammelingen van Willem Jansz. de Raadt voor hun aandeel in den boedel van Pieter Roonaar.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1694">1694</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408579" type="ABS">77</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bf9a5d92-cdfd-431e-a2d0-9c25fdef3245</unitid>
+									<unittitle>Rekening van Willem Pieters de Raadt aan de kinderen van Jacob Willems de Raadt over zijn beheer van hun aandeel in den boedel van Pieter Roonaar. Met quitanties en borderellen.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1698">1698</unitdate>
+									<physdesc>7 stukken.</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">b</unitid>
+								<unittitle>Als mede-procureur voor Aagje Willems de Raadt.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408580" type="ABS">78</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/61deb8df-3b47-4164-a2a5-b9216dbc7902</unitid>
+									<unittitle>Procuratie van Agatha Willems de Raadt, weduwe van Adriaan Adriaansz. Coyer, op Willem Pieters de Raadt en Bastiaan Leenderts Zandweg tot beheer van haar vermogen. 1692. Copie van</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1700">1700</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408581" type="ABS">79</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3dd6d13-3920-44c7-8f6f-e9f938121126</unitid>
+									<unittitle>Acte van verhuur van een stuk land in Vrijenbank door genoemde bewindvoerders aan Pieter Huybrechts Poot.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1697">1697</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408582" type="ABS">80</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c812ebf1-c2a1-4df5-a11b-927be7f47a99</unitid>
+									<unittitle>Acte van verhuur van gemeten wei- en zaailand in Rhoon door genoemde bewindvoerders aan Cornelis Klaasz. Koreneeff.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1697">1697</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408583" type="ABS">81</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5016a12e-2af3-41e4-9691-4a86dbccfa93</unitid>
+									<unittitle>Acte van verhuur van gemeten zaailand in Rhoon door genoemde bewindvoerders aan Cornelis Klaasz. Koreneeff.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1698">1698</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408584" type="ABS">82</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d9ba6e7e-615d-4a8f-896f-2f6df4fbbfd2</unitid>
+									<unittitle>Acte van verhuur van een weilandje in den Heinter onder Rhoon door genoemde bewindvoerders aan Cornelis Pieters Jongejan.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1704">1704</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408585" type="ABS">83</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7bfb2a97-af5a-437e-8e1c-1a06248c2921</unitid>
+									<unittitle>Acte van verhuur van een stuk zaailand in Deyssel onder Pernis en van een stuk zaailand in Kort-Ambacht onder Poortugaal door genoemde bewindvoerders aan Wouter Eeuwitse Verduyn.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1704">1704</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">c</unitid>
+								<unittitle>Als executeur-testamentair van den boedel van Herman Ouweris.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408586" type="ABS">84</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2418081c-764c-4327-8a2e-627d1f1f6dab</unitid>
+									<unittitle>Conclusie van antwoord in een proces, gevoerd voor het Hof van Holland door Willem Pieters de Raadt in genoemde hoedanigheid tegen Neeltje Ariens van Dijck, weduwe van Herman Ouweris, c.s.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="17070601">(Na 1706 Juni 1.)</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408587" type="ABS">85</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f2b8dce0-0e36-45e7-8dad-ebb4f4c3d0c1</unitid>
+									<unittitle>Staat van het vermogen van Herman Ouweris.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1695/1705">z.j. (c.1700)</unitdate>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">d</unitid>
+								<unittitle>Als voogd van Pleuntje Louwe van Waard, voorkind van Pleuntje Cornelis Molenaar.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408588" type="ABS">86</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e08fef17-b5ea-461a-88bd-9f1ae592cc33</unitid>
+									<unittitle>Testament van Gerrit Huygen Mijnlief en Pleuntje Cornelis Molenaar.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1712">1712</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">e</unitid>
+								<unittitle>Als voogd van Kommertje Pieters 't Hart.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408589" type="ABS">87</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5f78c39f-9d0a-47fc-a3b9-d6621e948f37</unitid>
+									<unittitle>Memorie van de goederen, die de kinderen van Pieter 't Hart geërfd hebben van hunne tante Maartje 't Hart.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1716">1716</unitdate>
+									<physdesc>1 stuk.</physdesc>
+								</did>
+							</c05>
+						</c04>
+						<c04 level="subseries">
+							<did>
+								<unitid type="series_code">f</unitid>
+								<unittitle>Diverse administratiën.</unittitle>
+							</did>
+							<c05 level="file">
+								<did>
+									<unitid identifier="1408590" type="ABS">88</unitid>
+									<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f333280c-fa3f-4c8c-8c94-03006f02dad6</unitid>
+									<unittitle>Niet nader te omschrijven borderellen van administratiën, door Willem Pieters de Raadt gevoerd.</unittitle>
+									<unitdate calendar="gregorian" era="ce" normal="1677/1709">1677 - 1709</unitdate>
+									<physdesc>13 stukken.</physdesc>
+								</did>
+							</c05>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">VIII</unitid>
+						<unittitle>Jacob Pieters de Raadt en Grietje Cornelis Vermaat.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408591" type="ABS">89</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8932297a-be24-4e0a-93cd-4d6ccf04c920</unitid>
+							<unittitle>Acte van scheiding van het gemeenschappelijk landbouwbedrijf van Jan en Jacob de Raadt, 1713. Copie van 1714.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1713/1714">1713, 1714</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408592" type="ABS">90</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a10b869c-c448-4b38-932b-4f7f2747ffca</unitid>
+							<unittitle>Huwelijksaangiften van Jacob Pieters de Raadt en Grietje Cornelis Vermaat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1714">1714</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408593" type="ABS">91</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/08394e15-36d0-43ac-ab28-4a7cb46e541e</unitid>
+							<unittitle>Schuldbekentenis, van Jacob Pieters de Raadt ten behoeve van Johannes Oostdorp.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1713">(Vóór 1713 Mei 1.)</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408594" type="ABS">92</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8e0fd378-09fd-47e0-a640-17bf773a0248</unitid>
+							<unittitle>Acte van verhuur van een stuk zaailand in het Oude Land onder Poortugaal door Jacob Pieter de Raadt aan Willem en Geertje Vermaat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1727">1727</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408595" type="ABS">93</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/615691a7-8664-4874-8a2b-c52113641f9b</unitid>
+							<unittitle>Acte van verhuur van de helft van eenig wei- en zaailand in het binnenland van Rhoon en in Albrantswaard door Lijsbeth de Raadt aan Jacob Pieters de Raadt. Copie. <unitdate calendar="gregorian" era="ce" normal="1728">1728</unitdate>
+							</unittitle>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408596" type="ABS">94</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3074502-ac00-4c47-83cc-40ce72e4b80f</unitid>
+							<unittitle>Verhandeling over de plicht der overheid, waarschijnlijk van de hand van Jacob Pieters de Raadt. Fragment.</unittitle>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408597" type="ABS">95</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/42d8b852-e89d-44e3-82ca-fd144cb4f234</unitid>
+							<unittitle>Stukken betreffende een compromis, tusschen Grietje Cornelis' dochter Vermaat, weduwe van Jacob Pieters de Raadt, en Jan de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1732/1733">1732 - 1733</unitdate>
+							<physdesc>4 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408598" type="ABS">96</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9db55426-e589-4b54-9c51-06bbd9436cad</unitid>
+							<unittitle>Acte van verhuur van twee stukken land onder Poortugaal en in Albrandswaard door Grietje Vermaat aan haar broeder J. Vermaat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1729">(1729 ?)</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408599" type="ABS">97</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a3818878-ca9e-4acc-b806-dc05e0d47336</unitid>
+							<unittitle>Quitantie van de Commissarissen tot ontvangst van de liberale gift over Rhoon voor de weduwe van Jacob Pieters de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1747/1748">1747 en 1748</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408600" type="ABS">98</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f179202a-3fab-419a-a1b2-7f433e174f70</unitid>
+							<unittitle>Biljet van oproeping tot eene vergadering van ingelanden voor de weduwe van Jacob Pieters de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1751">1751</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408601" type="ABS">99</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2ad92472-92fa-48e4-9542-7944f531ce1b</unitid>
+							<unittitle>Gequitteerd aanslagbiljet van de extra-ordinaris verponding voor de weduwe van Jacob Pieters de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1754">1754</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">IX</unitid>
+						<unittitle>Wouter Pieters de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408602" type="ABS">100</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6d3ef1ab-1c93-43e9-a5eb-d2431b48e5f0</unitid>
+							<unittitle>Quitantie voor Wouter Pieters de Raadt wegens de kosten van investituur en verhuur van de memorielanden onder Poortugaal, Hoogvliet en Rhoon.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1758">1758</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408603" type="ABS">101</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a1da48de-6cef-421d-81d8-d7df3782f65e</unitid>
+							<unittitle>Quitanties voor onkosten van de begrafenis van Wouter Pieters de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1758">1758</unitdate>
+							<physdesc>1 lias.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408604" type="ABS">102</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bde247d7-7fcb-450e-99aa-db6634a12d12</unitid>
+							<unittitle>Staat der goederen van Wouter Pieters de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1758">z.j. (na 1758 November 4)</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">X</unitid>
+						<unittitle>Niesje Barends, weduwe van Willem Jacobs de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408605" type="ABS">103</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c3d87378-78d7-48a7-81eb-67babee48fec</unitid>
+							<unittitle>Stukken betreffende de uitkeering uit de erfenis van Aagje Willems de Raadt, aan Niesje Barends, weduwe van Willem Jacobsz. de Raadt, ten behoeve harer vier kinderen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1709/1711">1709 - 1711</unitdate>
+							<physdesc>4 stukken.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XI</unitid>
+						<unittitle>Anna de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408606" type="ABS">104</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fc1f12b7-bca4-46f6-b3d0-982ce72e3b20</unitid>
+							<unittitle>Bewijs van aangifte van het lijk van Anna de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1736">1736</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XII</unitid>
+						<unittitle>Cornelia de Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408607" type="ABS">105</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/18195862-a297-474a-955e-18f1c535be5d</unitid>
+							<unittitle>Bewijs van aangifte van het lijk van Cornelia de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1737">1737</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XIII</unitid>
+						<unittitle>Pieter Jacobs de Raadt en Adriana Huyser.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408608" type="ABS">106</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/84654a64-1c1d-4516-ab8c-7a8fcc845fba</unitid>
+							<unittitle>Acte van verhuur van eene woning met wei- en bouwland onder West-IJselmonde, door Pieter Jacobs de Raadt, aan Abraham van Gent.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1751">1751</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408609" type="ABS">107</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/79298496-9427-4810-96bb-c3902a854f56</unitid>
+							<unittitle>Acte van verhuur van een stuk land in De Kiesheid onder 's-Gravenambacht door mr. Ernest Schadé, heer van Dompselaar, aan Pieter Jacobs de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1752">1752</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408610" type="ABS">108</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d7a1794a-ed53-4b70-9f92-88be9e2ccc4e</unitid>
+							<unittitle>Acte van verkoop van eene koe door de erfgenamen van Clement van Duyn aan Pieter Jacobs de Raadt. Extract</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1753">1753</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408611" type="ABS">109</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2878cc32-ac93-4aff-836c-06545e4a6376</unitid>
+							<unittitle>Stukken betreffende een proces van den baljuw van Rhoon tegen Pieter Jacobs de Raadt wegens het vervoer van eene koe zonder certificaat.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1752/1754">1752 - 1754</unitdate>
+							<physdesc>3 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408612" type="ABS">110</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3fd3c192-6d5c-4812-aeea-b03db0b5b519</unitid>
+							<unittitle>Publicatie van verkoop van eene bouwwoning met land onder West-IJselmonde, door Pieter Jacobs de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1754">1754</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408613" type="ABS">111</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/df1dff35-cd50-4403-bfb9-4063b60e7b00</unitid>
+							<unittitle>Acte van verhuur van een weiland, in den polder Smeetsland onder West-IJselmonde, door Pieter Jacobs de Raadt aan Leendert Bloemendaal.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1754">1754</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408614" type="ABS">112</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/75ffb67e-8f1f-4c42-bf3f-b58a57ada69b</unitid>
+							<unittitle>Acten van verhuur van twee perceelen weiland, in Kijfhoek onder Rhoon, door de vrouw van Zuidoord aan Pieter Jacobs de Raadt.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1765/1762">1756 en 1762</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408615" type="ABS">113</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4abad70a-c0ad-4d20-bb01-a10878332786</unitid>
+							<unittitle>Schuldbekentenis, groot 300 gulden, van Pieter Jacobs de Raadt ten behoeve van Willem Huyser, zijn zwager.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1760">1760</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408616" type="ABS">114</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e70a9b08-8afa-48f4-94d8-5062e2f82fd4</unitid>
+							<unittitle>Gequiteerd biljet van aanslag ten name van Pieter Jacobs de Raadt voor den extra-ordinairen omslag der kosten aan den molen en de kaden in het binnenland van Rhoon, gedaan in 1761.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1763">1763</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408617" type="ABS">115</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c0ddd98e-bd6a-4055-b832-b8eb5801def1</unitid>
+							<unittitle>Exploit van dagvaarding van heemraden van het binnenland van Rhoon voor Pieter Jacobs de Raadt en diens minderjarigen zoon Cornelis.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1765">1765</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408618" type="ABS">116</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1466795b-d236-45cf-94e7-51a9f8cd2e19</unitid>
+							<unittitle>Acte van verhuur van een stuk land in de Kiesheyt onder 's-Gravenambacht door Adriana Huyser, weduwe van Pieter Jacobs de Raadt, aan Adriana Blydorp, weduwe van Jacob Berkhout.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1769">1769</unitdate>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XIV</unitid>
+						<unittitle>Stukken van gemengden aard, waarschijnlijk afkomstig van de zijde der familie De Raadt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408619" type="ABS">117</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/766be94a-78a5-44b5-b550-75eab97772ae</unitid>
+							<unittitle>Rekening van de administratie der legerwagens, in 1672 door Poortugaal geleverd. Afgehoord in</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1680">1680</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408620" type="ABS">118</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/02fbe73c-bfe4-4b17-aef8-916678964f73</unitid>
+							<unittitle>Testament van Jan Dirksz. Goetbier.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1686">1686</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408621" type="ABS">119</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4fdb81c1-a0a0-4084-8ae0-0852496007ce</unitid>
+							<unittitle>Testament van Neeltje Leenders Hordijck.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1692">1692</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408622" type="ABS">120</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5290541a-9e71-4678-9afd-08a90d0b3c83</unitid>
+							<unittitle>Attest van onvermogen voor Cornelis 't Hart.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1708">1708</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408623" type="ABS">121</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/53cd4114-84ed-4f66-a2eb-3b7641bfc87f</unitid>
+							<unittitle>Conditiën van verkoop van landerijen in de Rhoonsche en Zegenpolders en de Korte Gorser door Pieter van Duiveland van Roode, heer van Roode en Pendrecht. 1679. Extract uit het verkoopingsboek van Rotterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1710">1710</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408624" type="ABS">122</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/86d52257-741a-4f29-b3d8-c9bf8a5f83cd</unitid>
+							<unittitle>Inventaris van den boedel van Neeltje Jans Jongejan.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1720">1720</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408625" type="ABS">123</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/30c70418-33cb-485b-a6e1-d237589c1209</unitid>
+							<unittitle>Acte van verhuur van de plaat "De Punt", gelegen op Vissersgat onder Poortugaal?, door Leendert van Hilte aan Philips Vermaat en Willem Groenendijk.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1737">1737</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408626" type="ABS">124</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1b3f5420-7ac8-4475-9f64-4ed4507fb035</unitid>
+							<unittitle>Rekening van een kleermaker voor ... ?</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1739">1739</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408627" type="ABS">125</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/19de1b96-d2c5-4fc2-a888-48c66b9837ef</unitid>
+							<unittitle>Certificaat van den magistraat van Breskens en Breskenszande, voor Cornelis Mededecker, dat de door hem gekochte runderen afkomstig zijn uit onbesmette stallen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1770">1770</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408628" type="ABS">126</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b0d8ab7d-f4de-43fd-a02a-4b4f6b8629de</unitid>
+							<unittitle>Conditiën van verkoop van eene woning met land onder Poortugaal door de erfgenamen van Ariaantje Pieters Blydorp, weduwe van Jakob Jansz. Berkhout, aan Cornelis Veldhoen. 1771. Extract van</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1772">1772</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408629" type="ABS">127</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fe286053-33b0-4ea0-9646-c27e51657b9d</unitid>
+							<unittitle>Acte van verhuur van een huis aan den Kleidijk onder Rhoon door Cornelis Veldhoen aan Leendert van der Smit.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1778">1778</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408630" type="ABS">128</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9bf4909-93ac-4a4b-9710-3bf4e3e214e5</unitid>
+							<unittitle>Gequiteerde specificatie van salaris van een advokaat voor Cornelis Veldhoen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1780">1780</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408631" type="ABS">129</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/87945d75-dddd-4cc2-905e-a4a8b0354428</unitid>
+							<unittitle>Bestek voor het bouwen van een achterhuis in den Klappolder van Bleiswijk voor Willem Teunissen Westhoek.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1700/1799">z.j. (18de eeuw.)</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XV</unitid>
+						<unittitle>Stukken betreffende de heerlijkheid Rhoon.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">a</unitid>
+							<unittitle>Financiën</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408632" type="ABS">130</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/19ee18fc-34cd-4f2d-acd2-c4de2dd2f983</unitid>
+								<unittitle>Rekening van den baljuw van Rhoon en Pendrecht, wegens het proces over den 200sten penning van het jaar 1762, gevoerd door het gerecht van Rhoon tegen de erfgenamen van Adriaan Pietersz. Rhoonaar en Adriana Jans de Raadt. Extract na</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="16780121">1678 Januari 21</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408633" type="ABS">131</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ed61bc5d-7366-42e9-adb4-47102d3cdd1b</unitid>
+								<unittitle>Schuldbekentenis, groot 1300 gulden, ten laste van schout en schepenen van Rhoon ten behoeve van Jacques Bougière, waard in de herberg "De Sleutels" te Rotterdam. Copie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1685">1685</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408634" type="ABS">132</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/09b2cfda-bcde-4fc9-89b1-531d90ce9879</unitid>
+								<unittitle>Blootingen of verpachtingen der tienden van Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1711/1720">1711 - 1720</unitdate>
+								<physdesc>8 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408635" type="ABS">133</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/32883748-3ac8-4fa8-85f5-40430a92ef51</unitid>
+								<unittitle>Borderellen bij de rekeningen van het binnenland van Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1711/1721">1711-1721</unitdate>
+								<physdesc>10 stukken.</physdesc>
+							</did>
+							<scopecontent>
+								<p> De borderel van het jaar 1712 ontbreekt.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408636" type="ABS">134</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1024db74-c4ba-4aa7-9a08-2710254da0d3</unitid>
+								<unittitle>Borderellen bij de rekeningen van het buitenland van Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1714/1721">1714 - 1721</unitdate>
+								<physdesc>8 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408637" type="ABS">135</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dcab4c7d-fef0-45aa-a7dd-474ea1fe9a51</unitid>
+								<unittitle>Borderellen bij de rekeningen der dorpslasten.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1714/1721">1714 - 1721</unitdate>
+								<physdesc>6 stukken.</physdesc>
+							</did>
+							<scopecontent>
+								<p> De borderellen van de jaren 1717 en 1720 ontbreken.</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408638" type="ABS">136</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cae88d45-0f08-47d9-84ba-fef422e5dd98</unitid>
+								<unittitle>Memorie van de verhuring der memorielanden, gefundeerd door Doen Beynsz.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1757">1757 of later</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+							<otherfindaid>
+								<p> Zie Inv. no. 100.</p>
+							</otherfindaid>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408639" type="ABS">137</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/71ea4615-b823-4c80-9faa-25d69c5c89be</unitid>
+								<unittitle>Quitantie voor ontvangen salaris als schepenen door Pieter Barendrecht en Jan Staas van Gelder over 1756.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1757">1757</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">b</unitid>
+							<unittitle>Kerkelijke zaken en armwezen.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408640" type="ABS">138</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0d50977b-f9fc-4ec8-9935-c0a20b9e5edf</unitid>
+								<unittitle>Lijst der personen, onwillig of onmachtig om het kostergeld te betalen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1708">1708</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408641" type="ABS">139</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1ab51b05-68ba-4d35-b97f-813efb664a82</unitid>
+								<unittitle>Request van de groote diaconie- en armmeesters aan het Hof van Holland, om machtiging voor de executeurs van het testament van Neeltje Leenderts Hordijk, weduwe van Gerrit Gerritsz. Tuytenburg, tot uitkeering van het vierde part harer nalatenschap aan de kinderen van Willem Ariëns Hordijk, haar zoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1711">1711</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408642" type="ABS">140</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f29de697-20e0-4562-aac0-b372a74f5109</unitid>
+								<unittitle>Staat van het inkomen van de groote armen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1715">1715</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408643" type="ABS">141</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f302f0d1-a14a-46d1-8526-3b5d440b2809</unitid>
+								<unittitle>Borderel op de rekening van de groote armen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1717">1717</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408644" type="ABS">142</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0621fe92-0fcc-45e7-be35-fe2b66c81b97</unitid>
+								<unittitle>Acte van verhuur van een stuk land in den Eyffel onder 's-Gravenambacht door de diaconie-armen aan de weduwe van Arie Verduin.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1750">1750</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408645" type="ABS">143</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/48137b80-eb81-49e7-8e2c-00284d9576e1</unitid>
+								<unittitle>Verhaal van het voorgevallene bij de verkiezing van een nieuwen kerkeraad.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1751">1751</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408646" type="ABS">144</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/91a07dc0-e4fa-4fb8-94bd-d2be9ec7dda9</unitid>
+								<unittitle>Lijst van uitgaven ten behoeve der armen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1752">1752</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">c</unitid>
+							<unittitle>Justitie en processen.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408647" type="ABS">145</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c44ce12d-6a46-4d1a-8408-aa02c32074d5</unitid>
+								<unittitle>Nominaties van schepenen.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1706/1710">1706 - 1708 en 1710</unitdate>
+								<physdesc>4 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408648" type="ABS">146</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/47328e8e-787e-4016-b2d9-2fc2a2688f48</unitid>
+								<unittitle>Losse bladen uit het memorieboek van Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1707/1708">1707 - 1708</unitdate>
+								<physdesc>6 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408649" type="ABS">147</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/5e1d4411-f473-4c53-b3cf-1f7100f4795c</unitid>
+								<unittitle>Stukken betreffende het proces, gevoerd voor Hof en Hoogen Raad van Holland door Neeltje Pieters Couwenhoven, weduwe van Pieter Willems de Raadt c.s., tegen schout en schepenen van Rhoon tot restitutie van kosten, gemaakt bij de levering van legerwagens.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1702/1708">1702 - 1708</unitdate>
+								<physdesc>1 pak.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408650" type="ABS">148</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/60ea3f8f-05e1-423a-8ef7-1002c3ce289d</unitid>
+								<unittitle>Stukken betreffende de oppositie der ingezetenen van Rhoon tegen het octrooi van 1704 September 27, om 6000 gulden om te slaan tot dekking van de kosten van legerwagens. Copieën.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1690/1710">1690 - 1710</unitdate>
+								<physdesc>9 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408651" type="ABS">149</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f9c67640-4b5f-4677-b473-ee5b98fb72af</unitid>
+								<unittitle>Stukken , overgeleverd aan commissarissen der Staten van Holland en Westfriesland door schout en gerecht van Rhoon ter jusitificatie van het octrooi van</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="17040927">1704 September 27</unitdate>
+								<physdesc>9 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408652" type="ABS">150</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6dd275e2-21e2-4bc3-8586-149e46f9ac52</unitid>
+								<unittitle>Brief van G.O.D. Greeff betreffende declaratiën in de zaak van het dorpsbestuur van Rhoon tegen Aart Lagendijk c.s.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1711">1711</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">XVI</unitid>
+						<unittitle>Stukken betreffende polders.</unittitle>
+					</did>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">a</unitid>
+							<unittitle>Rhoon.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408653" type="ABS">151</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad7dd001-3c33-48f7-b0b5-ee700687ee65</unitid>
+								<unittitle>Overeenkomst tussen de Rekenkamer van Holland en dijkgraven en heemraden van Rhoon, Barendrecht, Charlois, Pendrecht en De Kiesheid betreffende het onderhoud van twee schenkelkaden aan weerszijden van de haven van de Coursandt. 1664. Copie z.j.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1664">1664, z.j.</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408654" type="ABS">152</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1bce231-ea7b-470c-bfea-51d422427645</unitid>
+								<unittitle>Concept-overeenkomst tusschen de Rekenkamer van Holland en dijkgraaf en heemraden van Rhoon, Pendrecht, Charlois en De Kiesheid betreffende het onderhoud van twee hoofden aan weerszijden van de haven van de Hyde over Schiedam.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1600/1699">(17e eeuw)</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408655" type="ABS">153</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/89496bf4-1bc6-4504-a24a-00e0a6ba2a11</unitid>
+								<unittitle>Conditiën van aanbesteding van het schoonmaken van de Noord- en Zuid-Koedood en den Robbenoordschen vliet vanwege dijkgraaf en heemraden van Rhoon en Pendrecht, Charlois, Barendrecht en De Kiesheid.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1705/1723">1705 - 1723</unitdate>
+								<physdesc>5 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408656" type="ABS">154</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/16b0f534-d401-40ad-bcaf-f25522be500d</unitid>
+								<unittitle>Schouwverbalen van dijkgraaf en heemraden van Rhoon en Pendrecht.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1706/1721">1706 - 1721</unitdate>
+								<physdesc>22 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408657" type="ABS">155</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b3b1a336-d7c2-455b-9fb1-9c07ddd5e956</unitid>
+								<unittitle>Staat van kosten van het verdiepen van de Rhoonsche haven en het spui.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1708">1708</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408658" type="ABS">156</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3c42108-ca36-40aa-9b0e-4e1996fec175</unitid>
+								<unittitle>Raming van kosten van herstel van den ouden, of van het bouwen van een nieuwen molen in den polder onder Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1709">1709</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408659" type="ABS">157</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6277e66b-c230-48dd-a18c-3fb550708d1b</unitid>
+								<unittitle>Conditiën van aanbesteding van het metselwerk van een windwatermolen vanwege dijkgraaf en hoogheemraden van het buitenland van Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1709">1709</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408660" type="ABS">158</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cfda8972-39a0-4b1f-ae9b-f1c1fb7f406a</unitid>
+								<unittitle>Stukken betreffende de verplichting der ingelanden van de Seegen- en Molenpolders tot bijdragen in de kosten van het spui aan het Rhoonsche Veer.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1710">1710</unitdate>
+								<physdesc>2 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408661" type="ABS">159</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2592184c-34df-489f-b1c0-77f3a7992ae4</unitid>
+								<unittitle>Advies van rechtsgeleerden aan dijkgraaf en heemraden van Rhoon betreffende de verplichting van die van Barendrecht en Carnisse tot het uitslaan der watermolens.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1710">1710</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408662" type="ABS">160</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cb088013-8270-4856-a018-b32973032b97</unitid>
+								<unittitle>Conditiën van aanbesteding van het leggen van een vingerling voor de Koedoodsche sluis en andere werkzaamheden vanwege dijkgraaf en hoogheemraden van Charlois, Rhoon, Pendrecht en De Kiesheid.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1722">1722</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408663" type="ABS">161</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e38bd9de-638a-4f44-8a2f-39b9c9e6d51e</unitid>
+								<unittitle>Ontwerp eener ordonnantie op de executie van vonnissen wegens waterschapsovertredingen in Rhoon.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1700">Begin der 18e eeuw</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408664" type="ABS">162</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f00cbdc-ec9a-4545-83d3-7547a4ac560e</unitid>
+								<unittitle>Waterbouwkundige tekening van de fundering van een duiker.</unittitle>
+								<unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">b</unitid>
+							<unittitle>De Kiesheid.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408665" type="ABS">163</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ba6cb971-6d26-4034-8eb5-4578ee09d8ae</unitid>
+								<unittitle>Overeenkomst tussen de eigenaars van De Hyde en De Kiesheid enerzijds en die van Boudewijn-Hartsland anderzijds over den aanleg van een dijk. Met procuratie. Copie.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1580">1580</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+							<otherfindaid>
+								<p>(Zie Reg. nos. 4 en 5.)</p>
+							</otherfindaid>
+							<scopecontent altrender="Appendix_Regestenlijst">
+								<p altrender="regest_nummer">
+									<num type="regest">4</num>
+									<date era="ce" calendar="julian">1580. Juli 29.</date>
+								</p>
+								<p altrender="regest_beschrijving">Schout, burgemeester, schepenen en raden van Delft oorkonden, dat Joost van Berendrecht, Aerent Sasboudtsz., uit naam van Sasbout Cornelisz. van der Dussen, zijn vader, en jonkvrouw Cornelia van der Loo machtiging hebben verleend aan Jacob Wittens en Cornelis van Nieurop, wonende in den Haghe, om voor het gerecht van 's-Gravenambacht of elders een accoord te sluiten tusschen de eigenaars van de Hyde en de Kyseten eener- en die van Boudewijn-Hardtland anderzijds betreffende aanleg en onderhoud van een winterdijk.</p>
+								<p altrender="regest_datering">
+									<date era="ce" calendar="julian">Gedaen den XXIX July anno XVc LXXX.</date>
+								</p>
+								<p altrender="regest_nb">Afschrift van. C. Dam. 1850. (<ref linktype="simple">Inv. no. 163</ref>.)</p>
+							</scopecontent>
+							<scopecontent altrender="Appendix_Regestenlijst">
+								<p altrender="regest_nummer">
+									<num type="regest">5</num>
+									<date era="ce" calendar="julian">1580 Augustus 8.</date>
+								</p>
+								<p altrender="regest_beschrijving">Cornelis Claesz., schout, Pieter Huybrechtsz. en Adriaen Florisz., schepenen van 's-Gravenambacht, oorkonden, dat Jacob Wittens de goederen van de eigenaars van de Hyde en de Kyseten en die van Boudewijn-Hardtland verbindt wegens een tusschen hen gesloten overeenkomst.</p>
+								<p altrender="regest_datering">
+									<date era="ce" calendar="julian">Op huyden desen VIII Augusti XVc. LXXX.</date>
+								</p>
+								<p altrender="regest_nb">In dorso van reg. no. 4. Afschrift. van C. Dam. 1580. (<ref linktype="simple">Inv. no. 163</ref>.)</p>
+							</scopecontent>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408666" type="ABS">164</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7d476695-4c8f-456f-88b2-61bbc24f46cb</unitid>
+								<unittitle>Kaart van De Kiesheid en De Hyde achter De Koedood gemaakt door Jan Symondz., gezworen landmeter.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1589">1589</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408667" type="ABS">165</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/68e7e23e-3700-4fab-8576-e6e9815cda6b</unitid>
+								<unittitle>Besluiten van dijkgraaf en heemraden van De Kiesheid tot vaststelling van het molenschot.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1710/1723">1710 - 1723</unitdate>
+								<physdesc>7 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408668" type="ABS">166</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b962252e-fa01-4c7a-9b09-a8b6439282ce</unitid>
+								<unittitle>Conditiën van aanbesteding van verhooging en verzwaring van eene boezemkade door dijkgraaf en heemraden van De Kiesheid.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1718">1718</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408669" type="ABS">167</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e6ee4aa3-abe5-4215-972a-74def2584631</unitid>
+								<unittitle>Conditiën van aanbesteding van het maken eener kade op den Rijdsendijk door dijkgraaf en heemraden van De Kiesheid.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1718">1718</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">c</unitid>
+							<unittitle>Albrandswaard.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408670" type="ABS">168</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/7f872899-736a-4657-b350-64036f09f7da</unitid>
+								<unittitle>Conditiën van aanbesteding van het schoonmaken der wateringen en het sluiswachten door dijkgraaf en heemraden van Albrandswaard.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1699/1700">1699 - 1700</unitdate>
+								<physdesc>4 stukken.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408671" type="ABS">169</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/347cc95f-53ed-4539-97a2-dce3e8323895</unitid>
+								<unittitle>Besluit van dijkgraaf en heemraden van Albrandswaard tot vaststelling van het dijkschot.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1700">1700</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+							<bioghist>
+								<p> Willem de Raadt was penningmeester.</p>
+							</bioghist>
+						</c04>
+					</c03>
+					<c03 level="subseries">
+						<did>
+							<unitid type="series_code">d</unitid>
+							<unittitle>Boudewijn Hartsland.</unittitle>
+						</did>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408672" type="ABS">170</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/787b5512-fdfd-425a-b9a4-d3c0cd89f339</unitid>
+								<unittitle>Sommatiebiljet voor schout en gerecht van "'s-Gravenambagt, Heye of Bouwen-Haesterlant" tot betaling van den aanslag in de ordinaire verponding voor 1723.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1723">1723</unitdate>
+								<physdesc>1 stuk.</physdesc>
+							</did>
+						</c04>
+						<c04 level="file">
+							<did>
+								<unitid identifier="1408673" type="ABS">171</unitid>
+								<unitid audience="internal" type="handle">http://proxy.handle.net/10648/314164c4-8e5e-475d-bbda-d121ea53904d</unitid>
+								<unittitle>Verklaringen van schout en schepenen van 's-Gravenambacht betreffende den aanslag van Boudewijn-Hartsland en andere grafelijkheidsdomeinen in de belastingen van den 100sten en 200sten penning. Concepten.</unittitle>
+								<unitdate calendar="gregorian" era="ce" normal="1717">Na 1717</unitdate>
+								<physdesc>5 stukken.</physdesc>
+							</did>
+						</c04>
+					</c03>
+				</c02>
+			</c01>
+			<c01 level="series">
+				<did>
+					<unitid type="series_code">B</unitid>
+					<unittitle>Stukken, afkomstig van vorige bezitters van het goed Noorthey.</unittitle>
+				</did>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">I</unitid>
+						<unittitle>Stukken betreffende de bezittingen der familie Bontius.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408674" type="ABS">172</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/6231e1ad-6364-453c-a94e-d539a0eb6920</unitid>
+							<unittitle>Acte van overdracht van eene woning met land in Voorschoten door de erfgenamen van Hendrik Symonsz. van Strijp aan Reinier Bontius, doctor en professor in de medicijnen te Leiden. 1620. Met notarieel opschrift van 1717.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1620">1620</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408675" type="ABS">173</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e99f75c2-8cb8-4a9b-8593-3b3f080f8761</unitid>
+							<unittitle>Acte van overdracht van een stuk land in Veur door het arm-weeshuis te Leiden, aan Willem Bontius, kapitein van eene compagnie gardes der Staten van Holland. Met bijlagen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1660">1660</unitdate>
+							<physdesc>1 charter en 3 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408676" type="ABS">174</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/258fb853-4060-4a32-95a6-309ae4a6bab2</unitid>
+							<unittitle>Acte van overdracht van eene woning in Veur met een boomgaard en nog een stuk weiland door Gijsbrecht Jansen, als man en voogd van Aechtien Teunis, aan Floris Theunisz. Hammerlaen, zijn zwager.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1647">1647</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408677" type="ABS">175</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8693872d-fe0a-41cf-b7f1-1bd9ac297e75</unitid>
+							<unittitle>Acte van overdracht van een stuk hooiland in Veur door Dirck Harmensz. aan Floris Theunisz. Hammerlaen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1652">1652</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408678" type="ABS">176</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/04436423-b685-4c6c-909f-470e087804b5</unitid>
+							<unittitle>Acte van scheiding tusschen de erfgenamen van Floris Theunisz. Hammerlaen. Met rekening van de kosten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1662">1662</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408679" type="ABS">177</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/9954741e-41f6-493e-ac7d-d2d58fc0922d</unitid>
+							<unittitle>Acten van verkoop en transport van eene woning in Veur met een boomgaard en een stuk weiland door Mees Florisz. Hammerlaen aan Willem Bontius, kapitein van eene compagnie gardes der Staten van Holland.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1661/1662">1661 en 1662</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408680" type="ABS">178</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4def5ef6-f8db-484f-bd0a-e19436b8ae08</unitid>
+							<unittitle>Stukken betreffende eene poging tot naasting van de in het vorig nummer bedoelde perceelen, aangewend door Crijn Pauwelse van Lelieveld.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1662">1662</unitdate>
+							<physdesc>5 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408681" type="ABS">179</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3d4dcdd7-9c32-47ed-8384-5a5b35f24af7</unitid>
+							<unittitle>Vergunning voor Willem Bontius, gouverneur van Hulst, om met 3 gemeten land, bij zijne woning, in den Duivenvoordschen polder te worden opgenomen. Copie. Met rekening der kosten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1670">1670</unitdate>
+							<physdesc>2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408682" type="ABS">180</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/90c198f8-8b39-4f70-b155-6daac3ed6812</unitid>
+							<unittitle>Staat der bezittingen van Willem Bontius,</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1657/1667">z.j. (c. 1662)</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408683" type="ABS">181</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/4315722e-edd4-4c0d-a333-0777a04d8500</unitid>
+							<unittitle>Acte van overdracht van een partij wei- en teelland in Veur door Jan en Philips Florisz. Hammerlaen, gebroeders, aan Elisabeth van Berckell, weduwe van Willem de Bondt, luitenant-kolonel van de gardes der Staten van Holland, gouverneur van Hulst. Met quitanties.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1671">1671</unitdate>
+							<physdesc>1 charter en 2 stukken.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">II</unitid>
+						<unittitle>Titels van aankomst van bezittingen der familie Paets.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408684" type="ABS">182</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/fa221e67-7e01-4619-84a7-df5ebe119bec</unitid>
+							<unittitle>Acte van overdracht van een partij wei- of hooiland in Veur door Leuntje Crynen Daen aan mr. Adriaan Paets. 1695. Met bekrachtiging van den echtgenoot van de verkoopster. 1696.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1695">1695</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408685" type="ABS">183</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2320828a-b1e2-4ac7-b0ba-8e9c08c5c687</unitid>
+							<unittitle>Acte van overdracht van de helft van drie perceelen land in Veur door Huybert van Meurs aan Cornelis van Outshoorn.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1698">1698</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408686" type="ABS">184</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/2cf2ecf5-263c-4644-9716-2a053425e007</unitid>
+							<unittitle>Acte van overdracht van een deel van bovengenoemde perceelen door Cornelis van Outshoorn tezamen met Huibert van Meurs aan mr. Adriaan Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1701">1701</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408687" type="ABS">185</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e75942f3-b357-4bd1-a1e0-1d4a4c00c851</unitid>
+							<unittitle>Acte, waarbij Jan Jacobse van Haestrecht en Dirk Couwensz. van den Berg zich tegenover mr. Adriaan Paets verbinden tot het rooien van een boom en beloven ook in het vervolg het uitzicht van diens hofstede te Veur niet te belemmeren.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1702">1702</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408688" type="ABS">186</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/1d51733a-70e1-4248-a04c-4a128e919e4d</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van mr. Adriaan Paets, ontvanger-generaal van het college der Admiraliteit op de Maze en bewindhebber der Oostindische Compagnie, met 2 stukken land in het Oosteinde van het Schakerbosch bij Voorschoten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1705">1705</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408689" type="ABS">187</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/05561dcb-c635-4865-8098-47cca48ada5d</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Adriaan Paets, te Rotterdam, met de in het vorige nummer genoemde perceelen, hem aangekomen bij doode van mr. Adriaan Paets, ontvanger-generaal van het college der Admiraliteit op de Maze en bewindhebber der Oostindische Compagnie, zijn vader.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1713">1713</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408690" type="ABS">188</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d762d1d2-63ee-4b70-b412-a74d01a495d5</unitid>
+							<unittitle>Acte van conversie van beide genoemde perceelen in allodiael goed, verleend door de Staten aan mr. Adriaan Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1733">1733</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408691" type="ABS">189</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/eff8128d-17f1-4a08-9061-1c589812dbbd</unitid>
+							<unittitle>Acte van opdracht van een hoekje weiland in Veur door Cornelis Hendriks van Leeuwen aan mr. Adriaan Paets, ontvanger-generaal van de convooien en licenten ter Admiraliteit op de Maas te Rotterdam.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1706">1706</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408692" type="ABS">190</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/13981501-26d1-46dc-ab66-369c2758862c</unitid>
+							<unittitle>Acte van opdracht van een stuk land, genaamd "de Kromme Wei", in Veur door Jan Jacobse van Haastrecht, weduwnaar van Lijsje Bouwens van den Berg, aan Jacob Noorthey en jonkvrouwe Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1729">1729</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408693" type="ABS">191</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bd2ee180-2bfd-4aed-a023-f76d4127edae</unitid>
+							<unittitle>Acte van opdracht van drie partjien wei- en hooiland in Veur door de erfgenamen van Crijn Cornelissen Noortvaen aan Jacob Noorthey, bewindhebber der Oostindische Compagnie, en jonkvrouwe Elisabeth Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1729">1729</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408694" type="ABS">192</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3462e8e8-e155-42cf-9aa4-c33b4824b45d</unitid>
+							<unittitle>Acten van verkoop en opdracht van een stuk teelland in Veur door de erfgenamen van Cornelis Jansz. van Leeuwen en Claasje Arisse Wassenaar aan Maria Paets, weduwe van Jacob Noorthey, en jonkvrouwe Elisabeth Paets. Met bijgevoegde rekening.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1736">1736</unitdate>
+							<physdesc>1 charter en 2 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408695" type="ABS">193</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/81e3a479-0485-4263-a800-ca9c65d5a2c2</unitid>
+							<unittitle>Acte van hypotheek, groot 2800 gulden, verzekerd op landerijen in Veur, ten laste van Simon Gerritse van Leeuwen en Maria van Elstboom, echtelieden, ten behoeve van Nicolaas van Campen, veertigraad van Leiden.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1676">1676</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408696" type="ABS">194</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/26ae6809-34ab-4860-babe-1f3bbdd52f65</unitid>
+							<unittitle>Acte van opdracht van eene woning in Veur met een stuk teelland en weiland door de erfgenamen Blaserus Claesz. van Swieten en diens dochter Jannetje Blaserus van Swieten aan Jacob Gijsberts Halfwassenaar.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1678">1678</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408697" type="ABS">195</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/f6d79c69-6fbf-48b9-ba9f-278efd808748</unitid>
+							<unittitle>Acte van opdracht van een stuk hooi- of weiland in den Duivenvoordschen polder onder Veur door Simon Gerritse van Leeuwen aan Jacob Gijsberts Halfwassenaar.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1678">1678</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408698" type="ABS">196</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3589e102-b297-45fc-9fbb-1c2965434e10</unitid>
+							<unittitle>Acte van opdracht van de woning, reeds hierboven genoemd, benevens nog 3 partijen wei- of hooiland door Maria Timmers, erfgename van Leuntje Cryne Dane, weduwe van Jacob Gijsberts Halfwassenaar, aan jonkvrouwe Elisabeth Paets. Met bijlagen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1738">1738</unitdate>
+							<physdesc>1 charter en 3 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408699" type="ABS">197</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8686afa4-56ca-41bd-ace8-4794a6e341ed</unitid>
+							<unittitle>Acte van opdracht van een partij wei- of hooiland in Veur door de erfgenamen van Ariaantje Florisdochter van Coppel, weduwe van Cornelis Hendriksz. van Leeuwen, aan jonkvrouwe Elisabeth Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1754">1754</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408700" type="ABS">198</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0b6de980-7e43-4f1e-a901-10655ae3e0bb</unitid>
+							<unittitle>Acte van beleening door den bisschop van Haarlem, als prelaat van Egmond, van Hendrick Symonsz. van Strijp met het leen in Voorschoten, hem aanbestorven door het overlijden van zijn broeder Damas.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1574">1574</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 3.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">3</num>
+								<date era="ce" calendar="julian">1574 Juli 7.</date>
+							</p>
+							<p altrender="regest_beschrijving">Godefroy van Mierlo, bisschop van Haerlem en prelaat van Egmondt, oorkondt, dat hij Hendrich Symonsz. van Strijp verleid heeft met zeventien hond land, te Voirschoten, hem aangekomen bij doode van Damas Symonsz., zijn broeder.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="julian">Gegeven tot Haerlem den zevensten dach in Julio in 't jaar ons Heeren duysent vijfhondert vier ende tseventich.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. Het zegel is verloren. (<ref linktype="simple">Inv. no. 198</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408701" type="ABS">199</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/abd56017-7517-4a3e-aff3-dcf0059029a7</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Heynrich Fransz. Duyst, brouwer te Delft, met bovengenoemd leen, hem aanbestorven door het overlijden van Heynrich Simonsz. van der Strijp, zijn neef.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1600">1600</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408702" type="ABS">200</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/e43f31f8-d7d5-47cb-8dbe-6ce54e44dce0</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Frans Hendriksz. Duyst met bovengenoemd leen, hem aanbestorven door het overlijden van Hendrik Fransz. Duyst, zijn vader.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1606">1606</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408703" type="ABS">201</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/818e3101-ae4d-4e1a-8a63-4cae63d506cd</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Johan Duyst van Voorhout, oud-burgemeester van Delft, met bovengenoemd leen, hem aangekomen door het overlijden van Frans Hendriksz. Duyst, zijn broeder.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1657">1657</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408704" type="ABS">202</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3c89e3cf-dde7-4696-a442-e9ddd9af1b6d</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van de executeurs van het testament van Maria Duyst van Voorhout, weduwe van Frederik Adriaan baron van Reede, vrijheer van Renswoude, met landerijen te Dijkshoorn, Maaslanderambacht en Voorschoten. 1754. Copie van 1755.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1755">1755</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408705" type="ABS">203</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cee25eb1-27fb-456a-9ff9-3979c4808afc</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Elisabeth Paets, met bovengenoemd leen, door haar gekocht van de executeurs van het testament van genoemde Maria Duyst van Voorhout. Met specificatie der leenrechten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1755">1755</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408706" type="ABS">204</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3dd1f22e-e4a1-418f-97ff-af08e38ce03f</unitid>
+							<unittitle>Acte van beleening door de Staten van Holland van Herman Paets, luitenant ten dienste dezer landen met bovengenoemd leen, hem aangekomen door het overlijden van Elisabeth Paets, zijne nicht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1778">1778</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408707" type="ABS">205</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/b6046f51-462e-4ba2-bdfb-6eec1b616128</unitid>
+							<unittitle>Acte van conversie van bovengenoemd leen in allodiaal goed, verleend door de Staten van Holland aan Herman Paets, luitenant ten dienste dezer landen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1778">1778</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408708" type="ABS">206</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a619055b-4a53-4cd6-aacf-c963ae694cfc</unitid>
+							<unittitle>Acte van overdracht van een partij weiland in den Duivenvoordschen polder onder Veur met een in de buurt gelegen leen door de executeurs van het testament van vrouwe Maria Duyst van Voorhout, weduwe van Frederik Adriaan baron van Reede, heer van Renswoude, aan jonkvrouw Elisabeth Paets. Met rekening voor kosten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1755">1755</unitdate>
+							<physdesc>1 charter en 1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408709" type="ABS">207</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c8d1294a-f890-4892-9617-1f3eb0c7a58f</unitid>
+							<unittitle>Acte van opdracht van een partij teelland aan het Oosteinde in Veur door de executerus van den boedel van Symon Jansz. van Roen aan jonkvrouwe Elisabeth Paets.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1757">1757</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">III</unitid>
+						<unittitle>Andere stukken betreffende de bezittingen der familie Paets.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408710" type="ABS">208</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/560c529a-c634-48d5-bac9-341372611153</unitid>
+							<unittitle>Vergunning van hoogheemraden van Rijnland aan Mees Florisz. Hammerlaen, pachter der woning en landen van Adriaan Paets, te Veur om de dijkslooten tussen die landen en den heerweg te mogen opschieten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1678">1678</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408711" type="ABS">209</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ff7a678a-6023-401d-956a-5a9a824d038c</unitid>
+							<unittitle>Vergunning van hoogheemraden van Rijnland aan Adriaan Paets, raad en vroedschap van Rotterdam, om ten behoeve van zijne woning in Veur de vaarsloot langs de noordzijde van den gemeenen rijweg aldaar te mogen opschieten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1680">1680</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408712" type="ABS">210</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d3e82b08-6d6a-4e56-af56-c574168b0108</unitid>
+							<unittitle>Vergunning van hoogheemraden van Rijnland aan mr. Adriaan Paets, ontvanger-generaal van de Admiraliteit op de Maze, tot het verleggen van eene kade in zijn land in Veur.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1691">1691</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408713" type="ABS">211</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/974ff454-086e-4e84-acd3-82e6561d7fdc</unitid>
+							<unittitle>Aanschrijving van schout, burgemeesters en schepenen van 's-Gravenhage aan mr. Adriaan Paets tot voldoening van eene rente op eene woning en landerijen onder Wassenaar, verschuldigd aan de kerk te Scheveningen. Met aanteekening, dat het verschuldigde is voldaan en dat de rente is afgekocht.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1694">1694</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">IV</unitid>
+						<unittitle>Stukken afkomstig van de familie Noorthey.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408714" type="ABS">212</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/0c14c724-d84c-44f3-b5a1-c139cbecd9ea</unitid>
+							<unittitle>Stukken betreffende een proces, gevoerd door Hendrik Roeland Schas c.s. tegen Jacob Noorthey over een recht van uitweg op het land van den laatste.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1718/1721">1718 - 1721</unitdate>
+							<physdesc>15 stukken.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408715" type="ABS">213</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/82974ab0-b63d-4031-bf03-0f0b73de6df7</unitid>
+							<unittitle>Vergunning van hoogheemraden van Rijnland aan Jacob Noorthey om de plating in den Vliet voor zijn land in Veur te vernieuwen en andere werken te doen uitvoeren.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1731">1731</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408716" type="ABS">214</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/cccaa9ed-45b7-413e-a108-7bbb0da36f44</unitid>
+							<unittitle>Memorie voor den heer Noorthey om met den heer Paets te spreken over het verzoek van het gerecht van Veur aan de Staten van Holland om vermindering van den aanslag in de verponding.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1670">z.j. (na 1670</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408717" type="ABS">215</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/40026273-67c2-4ea3-867e-afc2a0ad0e28</unitid>
+							<unittitle>Blad uit de dissertatie van Adrianus Paets, behelzende de opdracht daarvan aan zijne voogden Jacobus Noorthey, Petrus Paets en Abraham van Rijkevorsel en aan zijn promotor Gerardus Noodt.</unittitle>
+							<unitdate calendar="gregorian" era="ce">z.j.</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02 level="subseries">
+					<did>
+						<unitid type="series_code">V</unitid>
+						<unittitle>Stukken, waaruit geen verband met de hiervoor genoemde families blijkt.</unittitle>
+					</did>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408718" type="ABS">216</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/18fce0d3-ac5e-4e6f-96e3-96d272420a87</unitid>
+							<unittitle>Acte van overdracht van zekere rente door Jan van Alcmade aan het Sinte-Catharinegasthuis te Leiden ter bekostiging van eene memorie voor zekere Sophie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1398">1398</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 1.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">1</num>
+								<date era="ce" calendar="julian">1398 October 10.</date>
+							</p>
+							<p altrender="regest_beschrijving">Pieter Butewech, Gheryt Lams zoon en Willem Aernts, schepenen in Leyden, oorkonden, dat Jan van Alcmade zekere rente overdraagt aan Harmen Bitter en Baernt Jans, gasthuismeesters tot Sinte Katrinen te Leyden, die beloven eene jaarlijksche memorie te doen houden voor zekere Sophie.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="julian">Int jair ons Heren duysent driehondert acht en de tnegentich up Sinte Victors dach.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. De zegels zijn verloren. (<ref linktype="simple">Inv. no. 216</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408719" type="ABS">217</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ce074b6c-85ad-47ea-9c18-4c2d43421a77</unitid>
+							<unittitle>Verklaring van Jan Willems en Pieter Willems, broeders, betreffende eene rente van 2 pond Hollandsch jaarlijks, vermaakt aan het Godshuis te Voorschoten door hunne ouders ter bekostiging van eene memorie.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1520">1520</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 2.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">2</num>
+								<date era="ce" calendar="julian">1520 Juli 22.</date>
+							</p>
+							<p altrender="regest_beschrijving">Pieter Jans, schout in den ambacht tot Voirscoten, oorkondt, dat Jan Willems en Pieter Willems, broeders, verklaard hebben, dat Willem Jansz. en Maritgen Pieters dochter, hunne ouders, aan het godshuis te Voirscoten eene jaarlijksche rente van twee pond Hollandsch hebben vermaakt om daarmee te betalen eene gezongen memorie voor hun beider ziel met uitkeering aan de armen; dat Jan Willems deze rente verzekerd heeft op zes morgen land, gelegen "opte Donct", en al zijne andere goederen, waartegenover Pieter Hugenz., Martyn Claesz. en Jan Claesz., kerkmeesters van Voirscoten, hebben beloofd deze memorie te doen houden.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="julian">Int jair ons Heren duysent vijffhondert ende twintich op den XXIIen dach in die maent van Julio.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. Het zegel is verloren. (<ref linktype="simple">Inv. no. 217</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408720" type="ABS">218</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/d2c799cf-c6d0-4368-995d-814aab9fb889</unitid>
+							<unittitle>Acte van vestiging van het recht van vrijen uitweg door eene sloot voor eene woning en landerijen, toebehoorende aan Marritgen Claes' dochter, weduwe van Joachim Florysz door Laurys Willems.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1594">1594</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 6.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">6</num>
+								<date era="ce" calendar="gregorian">1594 Maart 18.</date>
+							</p>
+							<p altrender="regest_beschrijving">Gerrit Claess in den Hoorn, schout in het ambacht Voirschooten, oorkondt, dat Lourys Willemsz. aan Marritgen Claes' dochter, weduwe van Joachim Floryss, en hare rechtverkrijgenden voor eene woning en land te Veur in genoemd ambacht het recht van vrijen uitweg geeft door een sloot, strekkende tot aan den Vliet.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="gregorian">Geteekent opten XVIIIen Martij anno XVc vierentnegentich.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. Met het beschadigd zegel van den schout in groene was. (<ref linktype="simple">Inv. no. 218</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408721" type="ABS">219</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/8db11020-f0b4-4b33-8d2e-b3d910c5c6af</unitid>
+							<unittitle>Verklaring van de erfgenamen van Louris Pieter Huygens betreffende eene rente van 50 stuivers jaarlijks, vermaakt door den erflater aan de kerk en den Heiligen Geest te Voorschoten ter bekostiging van eene memorie voor zijne vrouw en kinderen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1598">1598</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 7.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">7</num>
+								<date era="ce" calendar="gregorian">1598 April 1.</date>
+							</p>
+							<p altrender="regest_beschrijving">Adriaen Jansz. van Nyerop, schout in den ban van Stompwijck, oorkondt, dat Cornelis Lourisz., Willem Lourisz. Cornelis Vranckensz., man en voogd van Marytgen Louris’dochter, en Pieter Louris mitsgaders Jan Maertsz., zoon en voogd van Marytgen Louris’dochter, zijn moeder, erfgenamen van Louris Pieter Huygens, verklaard hebben, dat de erflater aan de kerk en aan den Heiligen Geest te Voorschoten elk eene rente van vijftig stuiver ’s jaars heeft vermaakt, tot memorie van Aeltgen Jans’dochter, zijne vrouw, en van zijne kinderen, verzekerd op vier hond land in den ban van Stompwijck, onder verbod van vervreemding, tenzij na vervanging door andere zekerheid, en dan dit land aan Willem Lourisz. is toegekaveld.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="gregorian">Geteekend upten eersten Aprilis anno XVc acht ende tnegentich.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. Het zegel is verloren. (<ref linktype="simple">Inv. no. 219</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408722" type="ABS">220</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/49ad8018-ebb2-4f66-965c-f61b83984e7f</unitid>
+							<unittitle>Acte van overdracht van een stuk geestland in het Schakerbosch bij Veur door Catharina, Christiaan en Johanna Duyst van Voorhout aan Marytgen Claes' dochter, weduwe van Joachim Florysz.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1598">1598</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+						<otherfindaid>
+							<p>(Zie Reg. no. 8.)</p>
+						</otherfindaid>
+						<scopecontent altrender="Appendix_Regestenlijst">
+							<p altrender="regest_nummer">
+								<num type="regest">8</num>
+								<date era="ce" calendar="gregorian">1598 April 24.</date>
+							</p>
+							<p altrender="regest_beschrijving">Gerrit Claesz. In den Hoorn, schout, en Adriaen Pietersz. en Cornelis Huybrechtss, schepenen in het ambacht van Voorschoten, oorkonden, dat Cathrina Duyst van Voorhout, zoowel voor zich zelve als voor haar broeder Christiaen Duyst van Voorhout, en Johanna Duyst van Voorhout overdragen aan Marytgen Claes’dochter, weduwe van Joachim Florysz., twee morgen geestland, gelegen in het Schakenbos bij Veur.</p>
+							<p altrender="regest_datering">
+								<date era="ce" calendar="gregorian">Geteekent opten XXIIIIen April anno XVc acht ende tnegentich.</date>
+							</p>
+							<p altrender="regest_nb">Oorspr. Met het beschadigd zegel van den schout in groene was. (<ref linktype="simple">Inv. no. 220</ref>.)</p>
+						</scopecontent>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408723" type="ABS">221</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/dec8c681-d8b2-4db5-9129-13e1ba69359f</unitid>
+							<unittitle>Acte van overdracht van een stuk land in Voorschoten door de erfgenamen van Hendrik Symonsz. van Strijp van Frans Duyst van Voorhout.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1620">1620</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408724" type="ABS">222</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/98ba3d70-a890-427e-8768-7e4eed7616b8</unitid>
+							<unittitle>Kavelbrief, waarbij aan Jan Maertensz. eener- en aan Jan Joachims Daen en Claes Maertens, zwagers, anderzijds respectievelijk de westelijke en oostelijke helft van een stuk land in Voorschoten wordt toegewezen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1621">1621</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408725" type="ABS">223</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/c1935af4-0ad8-41d5-bc74-f3e056e020bd</unitid>
+							<unittitle>Acte van overdracht van 1/2 aandeel in eene woning en 13 morgen land, en van 1/4 aandeel in 3 morgen en 4 hond land in Voorschoten door Trijntgen Vranckens dochter, weduwe van Jan Jochem Balus, voor de eene helft en Lenert, Joachim en Vranck Jansz. met Joosgen Jansdochter en Marytgen Jans dochter, voor de andere helft van de weduwe, kinderen en kindskinderen van Jan Joachims Daen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1625">1625</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408726" type="ABS">224</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/904a24ba-5193-4005-ad61-ecbe87277061</unitid>
+							<unittitle>Acte van overdracht van 1/3 aandeel in eene woning en 13 morgen land en van 1/2 aandeel in 8 hond in Voorschoten, door Marytgen Joachims dochter, weduwe van Mourijn Pieters, voor de eene helft en Pieter Mourijns met Joachim Mourijns voor de andere helft aan de weduwe, kinderen en kindskinderen van Jan Joachims Daen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1625">1625</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408727" type="ABS">225</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/25f99cf7-e04b-4de7-86ca-a663f99bacf2</unitid>
+							<unittitle>Acte van overdracht van 1/6 deel in eene woning en 13 morgen land in Voorschoten door Pieter Mourijns van Wou en Joachim Mourijns van Wou, gebroeders, aan de weduwe en erfgenamen van Jan Joachims Daen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1629">1629</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408728" type="ABS">226</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/a29046ec-3b6a-4c38-8de8-d58adabf0947</unitid>
+							<unittitle>Acte van overdracht van een ledig erf naast het schoolhuis, gelegen in Voorschoten, door Jacob van Wingaerden, heer van Benthuizen en Wingaerden, ambachtsheer van Zoetermeer, aan de kerk van Voorschoten.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1642">1642</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408729" type="ABS">227</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/786b9544-ae81-4858-ab2b-3aec5b4033f2</unitid>
+							<unittitle>Acte van overdracht van twee perceelen land aan de Schengh en den Veenweg in Veur door Adriaan Cornelissen van Raaphorst aan Crijn Jansen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1648">1648</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408730" type="ABS">228</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/bdb34116-5b17-442d-9bab-715f4e9a9b10</unitid>
+							<unittitle>Acte van overdracht van een partij hooiland in Veur door de kinderen van Philips Theunisz. aan Maarten Jacobsz. Coppen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1656">1656</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408731" type="ABS">229</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/28f68284-f38d-4785-8639-c9fbd1e3d76d</unitid>
+							<unittitle>Acte van overdracht van een stuk weiland in Veur door Adriaan Cornelisz. van Raaphorst aan Crijn Jansz. Daen, zijn oom.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1659">1659</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408732" type="ABS">230</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/3e0d11db-b4bf-43b8-9ad0-b8553ac7da46</unitid>
+							<unittitle>Acte van overdracht van een stuk wei- of hooiland in Veur door Jan Jacobsz. Verheul, als man van Aaltje Harmans Delfgaeuw aan Joris Crynen Daen.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1679">1679</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="1408733" type="ABS">231</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/228c7aaf-8bdc-424f-a06c-9fe6a0cd110e</unitid>
+							<unittitle>Schuldbekentenis, groot 1150 gulden, verzekerd op eene woning met wei- en teelland in Veur, ten behoeve van de weduwe van Gijsbert Louwen van Riet.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1704">1704</unitdate>
+							<physdesc>1 charter.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2320329" type="ABS">232</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ad1c3594-2cce-4b0f-948b-f4eb4dbe2086</unitid>
+							<unittitle>Acte van overdracht van een stuk land in Veur door mr. Pieter Laurens Schas en zijne zuster Barbara Cornelia aan Nicolaas Janssz. van Noort. 1706. Copie van 1717.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1717">1717</unitdate>
+							<physdesc>1 stuk</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2320330" type="ABS">233</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/733e707c-303d-4e6f-90a5-d9138a607125</unitid>
+							<unittitle>Fragment der rekening van een polder, gelegen in Rijnland. (Waarschijnlijk Rietveld bij Alfen.)</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1656">1656</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+					<c03 level="file">
+						<did>
+							<unitid identifier="2320331" type="ABS">234</unitid>
+							<unitid audience="internal" type="handle">http://proxy.handle.net/10648/ddfb0535-a6a6-4826-ac17-10793257626b</unitid>
+							<unittitle>Reglement, vastgesteld door de ingelanden van den Oost-Boschpolder in Veur. 1634. Copie van 1721.</unittitle>
+							<unitdate calendar="gregorian" era="ce" normal="1721">1721</unitdate>
+							<physdesc>1 stuk.</physdesc>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

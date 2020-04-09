@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:html="http://www.w3.org/1999/xhtml"
+xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:Record rdf:resource="http://proxy.handle.net/10648/d0187873-a57f-4706-8ea5-de0fe54e1eea"
+  rdf:about="record/2.27.04">
+    <rico:identifier>2.27.04</rico:identifier>
+    <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid" />
+    <rico:regulatedBy rdf:resource="http://id.loc.gov/vocabulary/iso639-2" />
+    <rico:ruleFollowed xml:lang="en">ISAD(G): General International Standard Archival
+    Description, International Council on Archives (2nd edition,
+    2000).</rico:ruleFollowed>
+    <rico:managedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:managedBy>
+    <rico:publishedBy rdf:resource="agents/NL-HaNA">Nationaal Archief, Den
+    Haag</rico:publishedBy>
+    <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+    1991</rico:publicationDate>
+    <rico:hasLanguage rdf:resource="http://id.loc.gov/vocabulary/iso639-2b/dut">
+    Dutch</rico:hasLanguage>
+    <rico:describes rdf:resource="recordResource/X23932" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="instantiation/2.27.04/i1" />
+      <rico:instantiates rdf:resource="record/2.27.04" />
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+        20121128</rico:hasModificationDate>
+        <html:p>28 november 2012</html:p>
+      </rico:history>
+      <rico:history>
+        <rico:hasModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date" />
+        <html:p />
+      </rico:history>
+      <rico:title>
+        <rico:textualValue>Inventaris van het archief van de Raad voor de Jeugdvorming en
+        de daaronder ressorterende Commissies en Werkgroepen,
+        1954-1980</rico:textualValue>
+      </rico:title>
+      <rico:heldBy rdf:resource="agent/NL-HaNA" />
+      <rdfs:seeAlso rdf:resource="http://proxy.handle.net/10648/d0187873-a57f-4706-8ea5-de0fe54e1eea" />
+      <rico:scopeAndContent rdf:parseType="Literal">
+        <rdfs:label>Soort archiefmateriaal:</rdfs:label>
+        <html:p>Normale geschreven, getypte en gedrukte documenten, geen bijzondere
+        handschriften.</html:p>
+      </rico:scopeAndContent>
+    </rico:hasInstantiation>
+  </rico:Record>
+  <rico:RecordResource rdf:about="recordResource/X23932">
+    <rico:describedBy rdf:resource="record/2.27.04" />
+    <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet" />
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Collection" />
+    <rico:identifier>X23932</rico:identifier>
+    <rico:title>
+      <rdfs:label>Naam archiefblok:</rdfs:label>
+      <rico:textualValue>Ministerie van Cultuur, Recreatie en Maatschappelijk Werk: Raad
+      voor de Jeugdvorming</rico:textualValue>
+    </rico:title>
+    <rico:title>
+      <rdf:type>urn:isbn:1-931666-22-9/type/short</rdf:type>
+      <rico:textualValue>CRM / Raad Jeugdvorming</rico:textualValue>
+    </rico:title>
+    <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1954</rico:beginningDate>
+    <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+    1980</rico:endDate>
+    <rico:date>1954-1980</rico:date>
+    <rico:hasProvenance>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label>Raad voor de Jeugdvorming</rdfs:label>
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Raad voor de Jeugdvorming was een publiekrechtelijk orgaan, dat de
+          minister van Onderwijs, Kunsten en Wetenschappen van advies diende bij de
+          vervulling van de taak van de overheid met betrekking tot de worming van de
+          jeugd buiten schoolverband. Zo luidde de omschrijving in de wet van 1954,
+          waarmee de Raad werd ingesteld. De Raad was een wettelijk adviesorgaan dat viel
+          binnen de termen van artikel 87 van de Grondwet. De wet van 1954 en de daarop
+          gebaseerde algemene maatregel van bestuur gaven de volgende elementen aan, die
+          de functie en de positie van de Raad bepaalden: - adviesorgaan - centrale
+          overheid - deskundigen - jeugdvorming</html:p>
+          <html:p>Adviesorgaan: De Raad was een adviesorgaan. De taak van de Raad was
+          beperkt tot advise-ren. Van de mogelijkheid om bij of krachtens de wet andere
+          werkzaamheden aan de Raad op to dragen werd geen gebruik gemaakt. De Raad kon
+          ter onder-steuning van de werkzaamheden commissies instellen.</html:p>
+          <html:p>Centrale Overheid: De Raad adviseerde over vraagstukken van het
+          jeugdbeleid voornamelijk aan het ministerie van Onderwijs, Kunsten en
+          Wetenschappen en incidenteel aan andere ministeries. Voor de lagere overheden
+          bestonden eigen organen, die een adviesfunctie op dit terrein
+          vervulden.</html:p>
+          <html:p>Deskundigen: De Raad bestond uit deskundigen. Deze deskundigheid was
+          ook het criterium voor benoeming. Deskundigheid werd hier opgevat als een
+          bepaalde combina-tie van praktische werkervaring met jeugd en jongeren,
+          daadwerkelijke betrokkenheid en het vermogen om vraagstukken in hun algemene
+          samenhang to zien. Een benoeming geschiedde op persoonlijke titel door de Kroon
+          op voerdracht van de minister. Voor zover aabtenaren bij het werk betrokken
+          waren vervulden zij over het algemeen een ondersteunende en informatieve
+          rol.</html:p>
+          <html:p>Jeugdvorming: Na de Eerste Wereldoorlog ontstond er bij de centrale
+          overheid aandacht voor de leerplichtvrije jeugd. Na 1945 werd deze aandacht
+          versterkt. Behalve de worming binnen schoolverband werd nu ook de worming
+          buiten schoolverband uitdrukkelijk tot onderwerp van zorg voor de overheid. Dit
+          resulteerde onder andere in de instelling van een afdeling Jeugdvorming bij het
+          ministerie van Onderwijs, Kunsten en Wetenschappen en in 1954 in de oprichting
+          van de Raad voor de Jeugdvorming. In 1965 werd het geheel van bemoeienissen
+          ressorterende onder de genoemde afdeling Jeugdvorming ondergebracht bij het
+          ministerie van Cultuur, Recreatie en Maatschappelijk Werk. Daarmee ging de
+          beleidssector jeugdvorming deel uitmaken van een conglomeraat van
+          beleidssectoren, waaronder maatschappelijk opbouwwerk, recreatie en sociale
+          dienstverlening vielen. De opgave om ook in deze an-dere sectoren het
+          jeugdbelang to onderkennen en to behartigen drong zich nu nadrukkelijk op.
+          Jeugdvorming kreeg meer de betekenis van jeugdzaken. In het begrip jeugdbeleid,
+          dat na 1970 algemeen in gebruik raakte, werden de gezichtspunten van
+          coordinatie en planning nog meer tot uitdrukking gebracht. Geleidelijk
+          ontwikkelde zich vervolgens de gedachtengang, dat dit jeugdbeleid zich niet
+          langer liet beperken tot het werkterrein van het ministerie van Cultuur,
+          Recreatie en Maatschappelijk Werk, maar diende te evolueren tot een
+          samenhangend interdepartementaal jeugdbeleid. Paral-lel met de ontwikkeling van
+          deze opvattingen omtrent het jeugdbeleid heeft ook een verbreding
+          plaatsgevonden van de adviespraktijk van de Raad voor de Jeugdvorming. Deze
+          ontwikkelingen resulteerden tenslotte in de ophef-fing van de Raad voor de
+          Jeugdvorming en instelling van de Raad voor het Jeugdbeleid in 1979
+          Inventarisnummers 93, 100-102.</html:p>
+        </rico:history>
+      </rico:Agent>
+      <rico:Agent>
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Family" />
+        <rico:hasAgentName>
+          <rico:AgentName>
+            <rdfs:label />
+          </rico:AgentName>
+        </rico:hasAgentName>
+        <rico:history>
+          <html:p>De Raad voor de Jeugdvorming was een publiekrechtelijk orgaan, dat de
+          minister van Onderwijs, Kunsten en Wetenschappen van advies diende bij de
+          vervulling van de taak van de overheid met betrekking tot de worming van de
+          jeugd buiten schoolverband. Zo luidde de omschrijving in de wet van 1954,
+          waarmee de Raad werd ingesteld. De Raad was een wettelijk adviesorgaan dat viel
+          binnen de termen van artikel 87 van de Grondwet. De wet van 1954 en de daarop
+          gebaseerde algemene maatregel van bestuur gaven de volgende elementen aan, die
+          de functie en de positie van de Raad bepaalden: - adviesorgaan - centrale
+          overheid - deskundigen - jeugdvorming</html:p>
+          <html:p>Adviesorgaan: De Raad was een adviesorgaan. De taak van de Raad was
+          beperkt tot advise-ren. Van de mogelijkheid om bij of krachtens de wet andere
+          werkzaamheden aan de Raad op to dragen werd geen gebruik gemaakt. De Raad kon
+          ter onder-steuning van de werkzaamheden commissies instellen.</html:p>
+          <html:p>Centrale Overheid: De Raad adviseerde over vraagstukken van het
+          jeugdbeleid voornamelijk aan het ministerie van Onderwijs, Kunsten en
+          Wetenschappen en incidenteel aan andere ministeries. Voor de lagere overheden
+          bestonden eigen organen, die een adviesfunctie op dit terrein
+          vervulden.</html:p>
+          <html:p>Deskundigen: De Raad bestond uit deskundigen. Deze deskundigheid was
+          ook het criterium voor benoeming. Deskundigheid werd hier opgevat als een
+          bepaalde combina-tie van praktische werkervaring met jeugd en jongeren,
+          daadwerkelijke betrokkenheid en het vermogen om vraagstukken in hun algemene
+          samenhang to zien. Een benoeming geschiedde op persoonlijke titel door de Kroon
+          op voerdracht van de minister. Voor zover aabtenaren bij het werk betrokken
+          waren vervulden zij over het algemeen een ondersteunende en informatieve
+          rol.</html:p>
+          <html:p>Jeugdvorming: Na de Eerste Wereldoorlog ontstond er bij de centrale
+          overheid aandacht voor de leerplichtvrije jeugd. Na 1945 werd deze aandacht
+          versterkt. Behalve de worming binnen schoolverband werd nu ook de worming
+          buiten schoolverband uitdrukkelijk tot onderwerp van zorg voor de overheid. Dit
+          resulteerde onder andere in de instelling van een afdeling Jeugdvorming bij het
+          ministerie van Onderwijs, Kunsten en Wetenschappen en in 1954 in de oprichting
+          van de Raad voor de Jeugdvorming. In 1965 werd het geheel van bemoeienissen
+          ressorterende onder de genoemde afdeling Jeugdvorming ondergebracht bij het
+          ministerie van Cultuur, Recreatie en Maatschappelijk Werk. Daarmee ging de
+          beleidssector jeugdvorming deel uitmaken van een conglomeraat van
+          beleidssectoren, waaronder maatschappelijk opbouwwerk, recreatie en sociale
+          dienstverlening vielen. De opgave om ook in deze an-dere sectoren het
+          jeugdbelang to onderkennen en to behartigen drong zich nu nadrukkelijk op.
+          Jeugdvorming kreeg meer de betekenis van jeugdzaken. In het begrip jeugdbeleid,
+          dat na 1970 algemeen in gebruik raakte, werden de gezichtspunten van
+          coordinatie en planning nog meer tot uitdrukking gebracht. Geleidelijk
+          ontwikkelde zich vervolgens de gedachtengang, dat dit jeugdbeleid zich niet
+          langer liet beperken tot het werkterrein van het ministerie van Cultuur,
+          Recreatie en Maatschappelijk Werk, maar diende te evolueren tot een
+          samenhangend interdepartementaal jeugdbeleid. Paral-lel met de ontwikkeling van
+          deze opvattingen omtrent het jeugdbeleid heeft ook een verbreding
+          plaatsgevonden van de adviespraktijk van de Raad voor de Jeugdvorming. Deze
+          ontwikkelingen resulteerden tenslotte in de ophef-fing van de Raad voor de
+          Jeugdvorming en instelling van de Raad voor het Jeugdbeleid in 1979
+          Inventarisnummers 93, 100-102.</html:p>
+        </rico:history>
+      </rico:Agent>
+    </rico:hasProvenance>
+    <rico:scopeAndContent rdf:parseType="Literal">
+      <rdfs:label>Samenvatting van de inhoud van het archief:</rdfs:label>
+      <html:p>Blok I (1954-1968) van dit archief bevat onder andere notulen van
+      vergaderingen, verslagen en interne nota's van de afdelingen van de Raad voor de
+      Jeugdvorming. Daarnaast bevat het interne nota's en notulen uit gedeponeerde
+      archieven van commissies en werkgroepen die de Raad ondersteunden bij het adviseren
+      over jeugdbeleid. Blok II (1968-1980) bestaat voornamelijk uit stukken over de Raad
+      als organisatie en stukken betreffende advisering van het Ministerie van Onderwijs,
+      Kunsten en Wetenschappen inzake onderwijs, sport, werk en andere kwesties op het
+      gebied van jeugdbeleid.</html:p>
+    </rico:scopeAndContent>
+    <rico:conditionsOfAccess rdf:parseType="Literal">
+      <html:h2>Aanwijzingen voor de gebruiker</html:h2>
+      <html:h3>Openbaarheidsbeperkingen</html:h3>
+      <html:p>Volledig openbaar.</html:p>
+      <html:h3>Beperkingen aan het gebruik</html:h3>
+      <html:p>Reproductie van originele bescheiden uit dit archief is, behoudens de
+      algemene regels die gelden voor het kopiëren van stukken, niet aan beperkingen
+      onderhevig. Er zijn geen beperkingen krachtens het auteursrecht.</html:p>
+    </rico:conditionsOfAccess>
+    <rico:physicalOrLogicalExtent>
+      <rdfs:label>Omvang:</rdfs:label>
+      <rico:recordResourceExtent>
+        <rdf:type>meter</rdf:type>
+        <rdfs:label>6.50 meter;</rdfs:label>
+      </rico:recordResourceExtent>
+      <rico:recordResourceExtent>
+        <rdf:type>files</rdf:type>
+        <rdfs:label>221 inventarisnummers.</rdfs:label>
+      </rico:recordResourceExtent>
+    </rico:physicalOrLogicalExtent>
+    <rico:descriptiveNote rdf:parseType="Literal">
+      <html:div xml:lang="en">
+        <html:h2>Verwant materiaal</html:h2>
+        <html:h3>Beschikbaarheid van kopieën</html:h3>
+        <html:p />
+      </html:div>
+    </rico:descriptiveNote>
+  </rico:RecordResource>
+</rdf:RDF>
