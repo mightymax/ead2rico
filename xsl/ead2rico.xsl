@@ -73,7 +73,10 @@
 		<rico:hasProvenance>
 		<!-- Archiefvormers -->
 		<xsl:apply-templates select="did/origination/corpname | did/origination/persname | did/origination/famname"/>
-		</rico:hasProvenance>
+	</rico:hasProvenance>
+	<rico:scopeAndContent rdf:parseType="Literal">
+		<rdfs:label><xsl:value-of select="did/materialspec/@label"/></rdfs:label>
+	</rico:scopeAndContent>
 	</rico:RecordResource>	
 </xsl:template>
 
@@ -177,9 +180,12 @@
 <xsl:template match="unittitle|titleproper">
     <rico:title>
 		<xsl:if test="@type">
-			<xsl:attribute name="rdf:type">
+			<rdf:type>
 				<xsl:text>urn:isbn:1-931666-22-9/type/</xsl:text><xsl:value-of select="@type"/>
-			</xsl:attribute>
+			</rdf:type>
+		</xsl:if>
+		<xsl:if test="@label">
+			<rdfs:label><xsl:value-of select="@label"/></rdfs:label>
 		</xsl:if>
         <xsl:value-of select="."/>
     </rico:title>
