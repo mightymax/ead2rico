@@ -97,7 +97,7 @@ foreach ($record->asset as $asset) {
 	$Instantiation->append('rico:instantiates', null, 'rdf:resource', $record->handle);
 	$Instantiation->append('rico:title')->append('rico:textualValue', $asset->dc_title);
 	$Instantiation->append('rico:carrierExtent', "{$asset->width}x{$asset->height} px");
-	$Instantiation->append('rico:identifier', "{$asset->uuid}");
+	$Instantiation->append('rico:Identifier', "{$asset->uuid}");
 }
 
 	
