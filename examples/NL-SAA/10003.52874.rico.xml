@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+xmlns:dcterms="http://purl.org/dc/terms/">
+  <rico:Record rdf:about="https://archief.amsterdam/beeldbank/detail/564021ce-aabb-5752-71f7-f778c6c06689">
+    <rico:identifier rdf:about="09c7ff50-70a6-11e4-a16c-d31c81183655" />
+    <rico:ContentType rdf:resource="http://id.loc.gov/authorities/subjects/sh85101195" />
+    <rico:title>
+      <dcterms:title>Bezoek van koningin-moeder Emma en de hertog en hertogin van Mecklenburg aan de Portugees-Isra&#235;lietische Synagoge, Mr. Visserplein 3</dcterms:title>
+    </rico:title>
+    <rico:descriptiveNote>
+      <dcterms:descriptiom>Gezien door de toeganspoort van de voorhof naar de hoofdingang. V&#243;&#243;r 1968 was dit adres Rapenburgerstraat 195-197.</dcterms:descriptiom>
+    </rico:descriptiveNote>
+    <rico:includedIn rdf:resource="http://archief.amsterdam/archief/10003/52874" />
+    <rico:hasInstantiation>
+      <rico:Instantiation rdf:about="https://archief.amsterdam/beeldbank/detail/564021ce-aabb-5752-71f7-f778c6c06689/Instantiation">
+        <rico:instantiates rdf:resource="https://archief.amsterdam/beeldbank/detail/564021ce-aabb-5752-71f7-f778c6c06689" />
+        <rico:carrierExtent>1 foto</rico:carrierExtent>
+        <dcterms:format rdf:resource="http://id.loc.gov/authorities/subjects/sh85101195">Foto</dcterms:format>
+        <rico:hasProvenance>
+          <rico:Agent>
+            <rico:hasAgentName>
+              <AgentName>
+                <rdfs:label>Collectie Stadsarchief Amsterdam: foto-afdrukken</rdfs:label>
+              </AgentName>
+            </rico:hasAgentName>
+          </rico:Agent>
+        </rico:hasProvenance>
+        <rico:createdBy>
+          <rico:Agent>
+            <rico:hasAgentName>
+              <AgentName>
+                <dcterms:creator>Barnes, Joseph</dcterms:creator>
+              </AgentName>
+            </rico:hasAgentName>
+          </rico:Agent>
+        </rico:createdBy>
+        <rico:hasPhysicalLocation>
+          <rico:PhysicalLocation>
+            <rdfs:label>Straat</rdfs:label>
+            <dcterms:coverage>Mr. Visserplein</dcterms:coverage>
+          </rico:PhysicalLocation>
+          <rico:PhysicalLocation>
+            <rdfs:label>Huisnummer van / tot</rdfs:label>
+            <dcterms:coverage>3 - 3</dcterms:coverage>
+          </rico:PhysicalLocation>
+        </rico:hasPhysicalLocation>
+      </rico:Instantiation>
+      <rico:Instantiation rdf:about="https://images.memorix.nl/ams/topviewjson/memorix/c38d9968-b058-3314-46c2-93c7773c67cf">
+        <rico:instantiates rdf:resource="https://archief.amsterdam/beeldbank/detail/564021ce-aabb-5752-71f7-f778c6c06689" />
+        <rico:title>
+          <rico:textualValue>OSIM00001005350</rico:textualValue>
+        </rico:title>
+        <rico:carrierExtent>1351x1021 px</rico:carrierExtent>
+        <rico:dentifier>c38d9968-b058-3314-46c2-93c7773c67cf</rico:dentifier>
+      </rico:Instantiation>
+    </rico:hasInstantiation>
+  </rico:Record>
+</rdf:RDF>
