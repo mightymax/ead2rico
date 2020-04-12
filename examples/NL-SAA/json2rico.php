@@ -64,7 +64,7 @@ $rico = $dom->documentElement->append('rico:Record', null, 'rdf:about', $record-
 $rico->append('rico:Identifier', null, 'rdf:about', $record->entity_uuid);
 $rico->append('rico:ContentType', null, 'rdf:resource', 'http://id.loc.gov/authorities/subjects/sh85101195');
 $rico->append('rico:title')->append('dcterms:title', $metadata['dc_title']['value']);
-$rico->append('rico:descriptiveNote')->append('dcterms:descriptiom', $metadata['dc_description']['value']);
+$rico->append('rico:descriptiveNote')->append('dcterms:description', $metadata['dc_description']['value']);
 
 //link to inventaris:
 $d = new DOMDocument(); @$d->loadHTML($metadata['dc_source']['value']); $url = $d->documentElement->nodeValue;
