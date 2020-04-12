@@ -61,7 +61,7 @@ XML
 );
 
 $rico = $dom->documentElement->append('rico:Record', null, 'rdf:about', $record->handle);
-$rico->append('rico:identifier', null, 'rdf:about', $record->entity_uuid);
+$rico->append('rico:Identifier', null, 'rdf:about', $record->entity_uuid);
 $rico->append('rico:ContentType', null, 'rdf:resource', 'http://id.loc.gov/authorities/subjects/sh85101195');
 $rico->append('rico:title')->append('dcterms:title', $metadata['dc_title']['value']);
 $rico->append('rico:descriptiveNote')->append('dcterms:descriptiom', $metadata['dc_description']['value']);
