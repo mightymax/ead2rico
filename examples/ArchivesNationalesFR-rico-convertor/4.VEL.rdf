@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="dut">Inventaris van de verzameling buitenlandse kaarten Leupe, 16-19e eeuw</rico:title>
+      <rdfs:label xml:lang="dut">Inventaris van de verzameling buitenlandse kaarten Leupe, 16-19e eeuw</rdfs:label>
+      <rico:createdBy rdf:resource="Mark Lindeman, Picturae"/>
+      <rico:publishedBy rdf:resource="Mark Lindeman, Picturae"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1867</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="dut">P.A. Leupe, G.G.J. Boink (bewerking)</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>mention d’édition</html:h4>
+            <html:p xml:lang="dut">Versie: 21-01-2020</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasLanguage rdf:resource=""/>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="dut">Inventaris van de verzameling buitenlandse kaarten Leupe, 16-19e eeuw</rico:title>
+            <rdfs:label xml:lang="dut">Inventaris van de verzameling buitenlandse kaarten Leupe, 16-19e eeuw</rdfs:label>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>4.VEL</rico:identifier>
+            <rico:heldBy rdf:resource="Mark Lindeman, Picturae"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/4.VEL"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="dut">Verzameling Buitenlandse Kaarten Leupe</rico:title>
+      <rdfs:label xml:lang="dut">Verzameling Buitenlandse Kaarten Leupe</rdfs:label>
+      <rico:title xml:lang="dut">Kaarten Leupe</rico:title>
+      <rdfs:label xml:lang="dut">Kaarten Leupe</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1900</rico:endDate>
+      <rico:date xml:lang="dut">oudste stuk - jongste stuk: 16e - 19e eeuw</rico:date>
+      <rico:hasLanguage rdf:resource=""/>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+      <rico:hasLanguage rdf:resource="language/FRAN_RI_100-name9"/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="dut">Nationaal Archief</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Nationaal Archief</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Nationaal Archief</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Depot-Generaal van Oorlog</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Depot-Generaal van Oorlog</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Depot-Generaal van Oorlog</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Directie van de Sociëteit van Berbice</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Directie van de Sociëteit van Berbice</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Directie van de Sociëteit van Berbice</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Directie van de Sociëteit van Suriname</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Directie van de Sociëteit van Suriname</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Directie van de Sociëteit van Suriname</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Ministerie van Koophandel en Koloniën</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Ministerie van Marine en Koloniën</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Raad der Koloniën in West-Indië</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Raad der Koloniën in West-Indië</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Raad der Koloniën in West-Indië</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Staten van Holland en West-Friesland</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Staten van Holland en West-Friesland</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Staten van Holland en West-Friesland</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="dut">
+            <html:h4>Origine</html:h4>
+            <html:p>Comité tot de Oost-Indische Handel en Bezittingen Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal Depot-Generaal van Oorlog Directie ad interim voor de Westindische Koloniën Directie van de Sociëteit van Berbice Directie van de Sociëteit van Suriname Ministerie van Koophandel en Koloniën Ministerie van Koophandel en Koloniën, Algemene Directie Ministerie van Marine en Koloniën Ministerie van Marine en Koloniën, Hollandse Divisie Oud Archief Suriname: Gouvernementssecretarie Raad der Amerikaanse Bezittingen en Etablissementen Raad der Koloniën in West-Indië Staten van Holland en West-Friesland Verenigde Oostindische Compagnie, Kamer Amsterdam Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage Verenigde Oostindische Compagnie, Kamer Zeeland Westindische Compagnie, Kamer Amsterdam Westindische Compagnie, Kamer Zeeland Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca., , 1740-1806) Loten, J.G., (gouverneur van Ceylon, , 1710-1789)</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:title xml:lang="dut">Verzameling Buitenlandse Kaarten Leupe</rico:title>
+            <rdfs:label xml:lang="dut">Verzameling Buitenlandse Kaarten Leupe</rdfs:label>
+            <rico:title xml:lang="dut">Kaarten Leupe</rico:title>
+            <rdfs:label xml:lang="dut">Kaarten Leupe</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1500</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1900</rico:endDate>
+            <rico:date xml:lang="dut">oudste stuk - jongste stuk: 16e - 19e eeuw</rico:date>
+            <rico:identifier>VEL</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="dut">3114 inventarisnummer(s);</html:p>
+            </rico:instantiationExtent>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="dut">Nationaal Archief</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Nationaal Archief</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Nationaal Archief</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:hasLocation rdf:resource=""/>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Depot-Generaal van Oorlog</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Depot-Generaal van Oorlog</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Depot-Generaal van Oorlog</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Directie ad interim voor de Westindische Koloniën</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Directie van de Sociëteit van Berbice</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Directie van de Sociëteit van Berbice</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Directie van de Sociëteit van Berbice</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Directie van de Sociëteit van Suriname</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Directie van de Sociëteit van Suriname</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Directie van de Sociëteit van Suriname</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Ministerie van Koophandel en Koloniën</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Ministerie van Koophandel en Koloniën, Algemene Directie</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Ministerie van Marine en Koloniën</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Ministerie van Marine en Koloniën, Hollandse Divisie</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Oud Archief Suriname: Gouvernementssecretarie</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Raad der Amerikaanse Bezittingen en Etablissementen</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Raad der Koloniën in West-Indië</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Raad der Koloniën in West-Indië</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Raad der Koloniën in West-Indië</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Staten van Holland en West-Friesland</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Staten van Holland en West-Friesland</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Staten van Holland en West-Friesland</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Verenigde Oostindische Compagnie, Kamer Zeeland</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Westindische Compagnie, Kamer Amsterdam</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Westindische Compagnie, Kamer Zeeland</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca.</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Loten, J.G., (gouverneur van Ceylon</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="dut">
+                  <html:h4>Origine</html:h4>
+                  <html:p>Comité tot de Oost-Indische Handel en Bezittingen Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Enkhuizen Comité tot de Oost-Indische Handel en Bezittingen, Comptoir Hoorn Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika Comité tot de Zaken Koloniën en Bezittingen op de Kust Guinea en in Amerika, Boekhouder- en Ontvanger-Generaal Depot-Generaal van Oorlog Directie ad interim voor de Westindische Koloniën Directie van de Sociëteit van Berbice Directie van de Sociëteit van Suriname Ministerie van Koophandel en Koloniën Ministerie van Koophandel en Koloniën, Algemene Directie Ministerie van Marine en Koloniën Ministerie van Marine en Koloniën, Hollandse Divisie Oud Archief Suriname: Gouvernementssecretarie Raad der Amerikaanse Bezittingen en Etablissementen Raad der Koloniën in West-Indië Staten van Holland en West-Friesland Verenigde Oostindische Compagnie, Kamer Amsterdam Verenigde Oostindische Compagnie, Kamer Amsterdam, Departement van de Equipage Verenigde Oostindische Compagnie, Kamer Zeeland Westindische Compagnie, Kamer Amsterdam Westindische Compagnie, Kamer Zeeland Heneman, J.C. (kartograaf van de Sociëteit van Suriname, ca., , 1740-1806) Loten, J.G., (gouverneur van Ceylon, , 1710-1789)</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/4.VEL/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

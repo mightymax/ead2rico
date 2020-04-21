@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:regulatedBy rdf:resource="rule/rl005"/>
+      <rico:regulatedBy rdf:resource="rule/rl004"/>
+      <rico:regulatedBy rdf:resource="rule/rl006"/>
+      <rico:regulatedBy rdf:resource="rule/rl007"/>
+      <rico:regulatedBy rdf:resource="rule/rl008"/>
+      <rico:regulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="dut">Inventaris van het archief van de Commissie voor het model van de veldjas, 1937-1940</rico:title>
+      <rdfs:label xml:lang="dut">Inventaris van het archief van de Commissie voor het model van de veldjas, 1937-1940</rdfs:label>
+      <rico:createdBy rdf:resource="Mark Lindeman, Picturae"/>
+      <rico:publishedBy rdf:resource="Mark Lindeman, Picturae"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>auteur(s)</html:h4>
+            <html:p xml:lang="dut">H.E.M. Mettes</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasLanguage rdf:resource=""/>
+      <rico:describes rdf:resource="recordResource/-top"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-i1">
+            <rico:instantiates rdf:resource="record/"/>
+            <rico:title xml:lang="dut">Inventaris van het archief van de Commissie voor het model van de veldjas, 1937-1940</rico:title>
+            <rdfs:label xml:lang="dut">Inventaris van het archief van de Commissie voor het model van de veldjas, 1937-1940</rdfs:label>
+            <rico:regulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>2.13.80</rico:identifier>
+            <rico:heldBy rdf:resource="Mark Lindeman, Picturae"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/2.13.80"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/-top">
+      <rico:describedBy rdf:resource="record/"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="dut">Ministerie van Defensie: Commissie voor het Model van de Veldjas</rico:title>
+      <rdfs:label xml:lang="dut">Ministerie van Defensie: Commissie voor het Model van de Veldjas</rdfs:label>
+      <rico:title xml:lang="dut">Cie. Veldjas</rico:title>
+      <rdfs:label xml:lang="dut">Cie. Veldjas</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:endDate>
+      <rico:date xml:lang="dut">1937-1940</rico:date>
+      <rico:hasLanguage rdf:resource=""/>
+      <rico:heldBy>
+         <rico:Agent>
+            <rdfs:label xml:lang="dut">Nationaal Archief, Den Haag</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Nationaal Archief, Den Haag</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Nationaal Archief, Den Haag</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:heldBy>
+      <rico:hasProvenance>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+            <rdfs:label xml:lang="dut">Commissie voor het model van de veldjas</rdfs:label>
+            <rico:hasAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="dut">Commissie voor het model van de veldjas</rdfs:label>
+                  <rico:textualValue xml:lang="dut">Commissie voor het model van de veldjas</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasAgentName>
+         </rico:Agent>
+      </rico:hasProvenance>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="dut">
+            <html:h4>Origine</html:h4>
+            <html:p>Commissie voor het model van de veldjas , 1937-1940</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/-top-i1">
+            <rico:instantiates rdf:resource="recordResource/-top"/>
+            <rico:title xml:lang="dut">Ministerie van Defensie: Commissie voor het Model van de Veldjas</rico:title>
+            <rdfs:label xml:lang="dut">Ministerie van Defensie: Commissie voor het Model van de Veldjas</rdfs:label>
+            <rico:title xml:lang="dut">Cie. Veldjas</rico:title>
+            <rdfs:label xml:lang="dut">Cie. Veldjas</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</rico:endDate>
+            <rico:date xml:lang="dut">1937-1940</rico:date>
+            <rico:identifier>D27508</rico:identifier>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="dut">0.10 meter;</html:p>
+            </rico:instantiationExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="dut">7 inventarisnummers.</html:p>
+            </rico:instantiationExtent>
+            <rico:heldBy>
+               <rico:Agent>
+                  <rdfs:label xml:lang="dut">Nationaal Archief, Den Haag</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Nationaal Archief, Den Haag</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Nationaal Archief, Den Haag</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:heldBy>
+            <rico:hasProvenance>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+                  <rdfs:label xml:lang="dut">Commissie voor het model van de veldjas</rdfs:label>
+                  <rico:hasAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="dut">Commissie voor het model van de veldjas</rdfs:label>
+                        <rico:textualValue xml:lang="dut">Commissie voor het model van de veldjas</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasAgentName>
+               </rico:Agent>
+            </rico:hasProvenance>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="dut">
+                  <html:h4>Origine</html:h4>
+                  <html:p>Commissie voor het model van de veldjas , 1937-1940</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/2.13.80/top"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>
