@@ -1,0 +1,125 @@
+@prefix : <https://memorix.io/NL-SAA/564021ce-aabb-0011-2233-f778c6c06689#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> . 
+
+# Note: for readability the identifiers for persons are in the prefix of the document and contain describing labels. 
+# It is probably better to use full URL's to link to individual persons (if the RMS supports this of course).
+
+<https://memorix.io/NL-SAA/564021ce-aabb-0011-2233-f778c6c06689#> a rico:Record ;
+  rico:ContentType <http://vocab.getty.edu/aat/300027418> ;
+  rico:heldBy <https://hetutrechtsarchief.nl> ;
+  edm:isShownAt 
+    <http://www.hetutrechtsarchief.nl/collectie/archiefbank/archieftoegangen/zoekresultaat?mivast=39&amp;miadt=39&amp;miaet=54&amp;micode=463-737-01&amp;minr=29574995&amp;miview=ldt> ,
+    <https://www.openarch.nl/hua:F6C0F0E4-0850-E53E-E043-4701000A1872> ,
+    <https://www.wiewaswie.nl/nl/detail/47770315> ;
+  rico:resultsFrom :huwelijk ;
+  rico:hasInstantiation [
+    a rico:Instantiation ;
+    rico:identifier "997" ;
+    rico:title "BS Huwelijk"@nl 
+  ] ;
+  rico:isComponentOf [
+    a rico:Instantiation ;
+    rico:instantiates [
+      a rico:Record ;
+      edm:isShownAt <https://hetutrechtsarchief.nl/onderzoek/resultaten/archieven?mivast=39&mizig=210&miadt=39&micode=463&milang=nl&mizk_alle=463&miview=inv2> ;
+      rdfs:label "Burgerlijke Stand van de gemeenten in de provincie Utrecht 1903-1942" 
+    ] 
+  ] .
+  
+:huwelijk a rico:Event ;
+   rico:involves :bruid, :bruidegom, :vader-van-de-bruidegom, :moeder-van-de-bruidegom, :vader-van-de-bruid, :moeder-van-de-bruid  ;
+   rico:hasEventType <http://vocab.getty.edu/aat/300055475> ;
+   rico:Date [
+     rico:normalizedDateValue "1937-09-01"^^xsd:date
+   ] ;
+   rico:hasLocation [
+     a rico:Place ;
+     rico:hasPlaceName <https://www.geonames.org/2745912/utrecht.html>
+   ] ;
+   rico:resultsIn <https://memorix.io/NL-UtHUA/564021ce-aabb-0011-2233-f778c6c06689#> .
+
+:bruid a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Joannes Franciscus van der Sloot" ;
+    pnv:surname "Sloot" ;
+  	pnv:surnamePrefix "van der" ;
+    pnv:givenName "Joannes Franciscus" 
+  ] ;
+  schema:gender schema:Male ;
+  rico:hasOccupationOfType <https://nl.wikipedia.org/wiki/Proefmeester> ; 
+  rico:involvedIn :huwelijk .
+    
+:bruidegom a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Maria Elisabeth Verheijde" ;
+    pnv:surname "Verheijde" ;
+    pnv:givenName "Maria Elisabeth" 
+  ] ;
+  schema:gender schema:Female ;
+  rico:involvedIn :huwelijk .
+
+:vader-van-de-bruid a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Johannes Gerardus van der Sloot" 
+  ] ;
+  schema:gender schema:Male ;
+  rico:hasFamilyLinkWith :bruidegom ;
+  rico:hasFamilyType <https://schema.org/parent> ;
+  rico:involvedIn :huwelijk .
+
+:moeder-van-de-bruid a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Johanna Maria Binken" 
+  ] ;
+  schema:gender schema:Female ;
+  rico:hasFamilyLinkWith :bruidegom ;
+  rico:hasFamilyType <https://schema.org/parent> ;
+  rico:involvedIn :huwelijk .
+
+:vader-van-de-bruidegom a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Joannes Antonius Arnoldus Verheijde" 
+  ] ;
+  schema:gender schema:Male ;
+  rico:hasFamilyLinkWith :bruid ;
+  rico:hasFamilyType <https://schema.org/parent> ;
+  rico:involvedIn :huwelijk .
+
+:moeder-van-de-bruidegom a rico:Person ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Anna Maria Lambricks" 
+  ] ;
+  schema:gender schema:Female ;
+  rico:hasFamilyLinkWith :bruid ;
+  rico:hasFamilyType <https://schema.org/parent> ;
+  rico:involvedIn :huwelijk .
+
+<http://vocab.getty.edu/aat/300055475> a rico:EventType ;
+  rdfs:label "huwelijk"@nl .
+
+<http://vocab.getty.edu/aat/300027418> a rico:ContentType ;
+  rdfs:label "huwelijksakten"@nl .
+
+<https://hetutrechtsarchief.nl> a rico:Agent ;
+  rico:identifier "NL-UtHUA" ;
+  rico:hasAgentName [
+    a rico:AgentName ;
+    rico:textualValue "Het Utrechts Archief"@nl
+  ] .
+  
+<https://nl.wikipedia.org/wiki/Proefmeester> a rico:OccupationType ;
+  rdfs:label "Proefmeester"@nl .
+  
+<https://www.geonames.org/2745912/utrecht.html> a rico:PlaceName ;
+  rico:textualValue "Utrecht"@nl .
