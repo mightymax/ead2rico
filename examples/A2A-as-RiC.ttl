@@ -50,8 +50,14 @@
   rico:hasAgentName [
     a rico:AgentName ;
     rico:textualValue "Joannes Franciscus van der Sloot" ;
-    pnv:surname "Sloot" ;
+    pnv:surname "van der Sloot" ;
+    pnv:baseSurname "Sloot" ;
   	pnv:surnamePrefix "van der" ;
+    #@mmmenno: this structure is not allowed, but looks like a nice to have:
+    pnv:surname [
+      pnv:baseSurname "Sloot" ;
+    	pnv:surnamePrefix "van der" ;
+    ];
     pnv:givenName "Joannes Franciscus" 
   ] ;
   schema:gender schema:Male ;
@@ -71,7 +77,7 @@
 :vader-van-de-bruidegom a rico:Person ;
   rico:hasAgentName [
     a rico:AgentName ;
-    rico:textualValue "Johannes Gerardus van der Sloot" 
+    rico:textualValue "Johannes Gerardus van der Sloot";
   ] ;
   schema:gender schema:Male ;
   rico:hasChild :bruidegom ;
